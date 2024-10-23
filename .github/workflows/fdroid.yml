@@ -43,12 +43,10 @@ jobs:
 
           git restore-mtime
 
-
       - name: Set up Git
         run: |
           git config --local user.email "35998162+cesaryuan@users.noreply.github.com"
           git config --local user.name "35998162"
-
 
       - name: Set up repo secrets
         run: |
@@ -75,20 +73,26 @@ jobs:
           repo=$(echo "${{ github.repository }}" | sed 's/\//\\\//g')
           sed -i "s/\[GithubRepo\]/$repo/g" fdroid/config.yml
 
-      - run: |
+      - name: Add apt repository
+        run: |
           sudo add-apt-repository ppa:fdroid/fdroidserver
           sudo apt-get update
 
-      - uses: awalsh128/cache-apt-pkgs-action@latest
+      - name: Cache apt packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: fdroidserver
           version: "@latest"
-
 
       - name: Set up Go
         uses: actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32 # v5.0.2
         with:
           go-version: '^1.17.0'
+
+      - name: Download modules.json and convert
+        working-directory: convert_xposed
+        run: |
+          go run main_convert.go -o ../repos.yaml
 
       - name: Run metascoop
         id: run-metascoop

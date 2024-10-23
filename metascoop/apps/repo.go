@@ -24,10 +24,10 @@ type Repo struct {
 	Summary      string        `yaml:"summary"`
 	Applications []Application `yaml:"applications"`
 
-	Owner   string
-	Name    string
-	Host    string
-	License string
+	Owner   string `yaml:"owner,omitempty"`
+	Name    string `yaml:"name,omitempty"`
+	Host    string `yaml:"host,omitempty"`
+	License string `yaml:"license,omitempty"`
 }
 
 func ParseRepoFile(filepath string) (list []Repo, err error) {
