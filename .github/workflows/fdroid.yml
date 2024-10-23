@@ -20,12 +20,7 @@ on:
 
   push:
     paths:
-      - 'repos.yaml'
       - '.github/workflows/fdroid.yml'
-
-  pull_request:
-    paths:
-      - 'repos.yaml'
 
 
 jobs:
