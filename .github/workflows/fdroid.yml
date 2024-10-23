@@ -13,7 +13,7 @@ on:
         description: "Maximum number of items to convert. Optional. Defaults to all."
         type: number
         required: false
-        default: 5
+        default: 0
 
   schedule:
     - cron: "45 2 * * *"
@@ -97,7 +97,11 @@ jobs:
       - name: Download modules.json and convert
         working-directory: convert_xposed
         run: |
-          go run main_convert.go -o ../repos.yaml -max ${{ inputs.max-items }}
+          num_items=${{ inputs.max-items }}
+          if [ -z "$num_items" ]; then
+            num_items=0
+          fi
+          go run main_convert.go -o ../repos.yaml -max $num_items
 
       - name: Run metascoop
         id: run-metascoop
