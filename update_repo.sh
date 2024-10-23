@@ -12,12 +12,18 @@ COMMIT_MSG_FILE="$1"
 if [ -f "$COMMIT_MSG_FILE" ]; then
     echo "Changes detected. Proceeding with git operations."
 
-    # Read the first line as the PR title
+    # Read the first line as the PR title. If length is longer than 250 characters, truncate it.
     PR_TITLE=$(head -n 1 "$COMMIT_MSG_FILE")
+    if [ ${#PR_TITLE} -gt 250 ]; then
+        PR_TITLE=$(echo "$PR_TITLE" | cut -c 1-250)
+    fi
     echo "PR Title: $PR_TITLE"
 
-    # Read the remaining lines as the PR body
+    # Read the remaining lines as the PR body. If length is longer than 65500 characters, truncate it.
     PR_BODY=$(tail -n +2 "$COMMIT_MSG_FILE")
+    if [ ${#PR_BODY} -gt 65500 ]; then
+        PR_BODY=$(echo "$PR_BODY" | cut -c 1-65500)
+    fi
     echo "PR Body: $PR_BODY"
 
     echo "Pushing changes..."
