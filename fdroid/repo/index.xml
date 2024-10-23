@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="LSPosed Module Repository" pubkey="308204f0308202d8a003020102020900f11692a02421d73d300d06092a864886f70d01010b050030253110300e060355040b1307462d44726f69643111300f060355040313084b4559414c4941533020170d3234313032333135343033305a180f32303532303331303135343033305a30253110300e060355040b1307462d44726f69643111300f060355040313084b4559414c49415330820222300d06092a864886f70d01010105000382020f003082020a0282020100c4d80f832cf53d6afb6076d0faac244030e9b1a95f1f1a1ecde87d7823367bef19ec5502133d57fa44436b93bc4e5ddfb1d8f5956c02a741951d207f9a5aa218ae57ad67ab81f2e8d6bee9fc3770b4433a29fae4f01544be61ed722d03ec847952a6a91075be9f1ee7a9d757aa8dbc548d741aa659eeae2fd6ac99b3e7aa58fd874912d1846748ccadd264f7414937b5e320e0cabb8845cac2d0117b760fc60fa74e2811ca7dbd7aff11eaaf465deeeb294ea60b40a158e69c7f84f44429fd2595103c89ef042e5b2e0063dad636b91abcad6b3ca84d8c0626d02a32eb81d250faf32e500ee92db18bf9fae1513d3f43dae57a04e303f331e967ba41b43b76fdf64bad45dcbcf0dcaf33e33fbbdd1edaa597f54cde5575c993997dd500809cb8686698c156da35fd5533f74a959ddcb13d524318edd25046080efc706980d89e691763bd3087df9ca0f47b3ea4a1da491c54314c4544aeacc787a7bc64e627bb5e315e883d9e1066d44723b6efbd18c01d05ef6eb2677b3104bb4e3a46a3eba9320434f750435ebbc1caf5780ad3cd59713cf1af62493e1e37f3680571beae1e0282e2e4b8ad86ef7c74b2861fd33c14d4c62bc28b2d187692d772ddb64e3e00ec5db471e6df05d02e69cd8e4728cc1155e8c418b0039e7397f213831b887d877493b3d4095805b8254ff593a66bdd4ad486e5d7bf43d7de2b0122f09119529f0203010001a321301f301d0603551d0e04160414b0e236e687010b6af02ff969a5cab37c1e07a3c1300d06092a864886f70d01010b05000382020100083a1ee0f5b64f4c6311294fad57d556d76d48aed9f48120dd6046c49ade4217db0fbed0932779f12df968563bf3aba8a57648a245332b43f0117284494adaa6fd9bcc1150d0c490fc14b7586a4f4b118b37c9539dcbd7b2debc3976eb01a092102ff28767cd49eef2c298c27560d215fb154d7a325b0dfc9c77739b1b05194b4f8bba7d94a924bbf01c6d2a93bf7020c198376985e5490ec09147522113e834101c65cbc6edaad4c59e1edc50eb17adc0f8095a18b6968aef27fb914e7e85121ebe9e4c988cfdec0692b2eb32a9a8bb95e3be2d5f4101c7acb94c26f1ee883467d193cdb086e95d5a88776b5063d9dad106c3cabbb0d5ff0dcb1c5d60a5c8c0460506b7e0efb2760197c104cae51e52c0fd771112fb5f6a98fc340442498cd483dc19513381740f96005733ac0b6f0abd155ad78c5d1fbaa442e25da66c7d7eaf36fb054645f68608076a4ea3f8ed5fb6ff2e47bcec8ec2d8915d2dc1feb462019064d7e5a7a935663cc7471cc238ee61ebfadca13a60e409644579b4fb6afbfa2374f269cbf0f5f6b3ef8797a31b8911cfbf98885eb552384f8e8316b9976b684c2dd02714caffd4a114283a84c8ba9cfb43a667c9bd0ac4b6832bac821af1eddbc1a563d3e0f872dd524738d92995425df4d4b9f71fe6ab9e03b53acbe182a9522b2a5d147f206cc94909ba16ef8896e261857040d28dcfd755d7f5d6b4b3" timestamp="1729701901" url="https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo" version="20002">
+		<description>This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built by the original application developers and released on the official github pages. It syncs with https://modules.lsposed.org/.</description>
+	</repo>
+	<application id="com.alex193a.checkblue">
+		<id>com.alex193a.checkblue</id>
+		<added>2024-10-23</added>
+		<lastupdated>2024-10-23</lastupdated>
+		<name>CheckBlue</name>
+		<summary>A module that allows you to find out if a Twitter user is Blue Verified.</summary>
+		<desc>&lt;p&gt;First release&lt;/p&gt;</desc>
+		<license>Unknown</license>
+		<categories>Xposed</categories>
+		<category>Xposed</category>
+		<web></web>
+		<source>https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue</source>
+		<tracker></tracker>
+		<author>Xposed-Modules-Repo</author>
+		<marketversion>1.0</marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>com.alex193a.checkblue_1-1.0.apk</apkname>
+			<hash type="sha256">7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023</hash>
+			<size>116465</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>26</targetSdkVersion>
+			<added>2024-10-23</added>
+			<sig>349ae2efa837f5e66999ba3638304eb9</sig>
+			<permissions>com.alex193a.checkblue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="com.amanoteam.sunny">
+		<id>com.amanoteam.sunny</id>
+		<added>2024-10-23</added>
+		<lastupdated>2024-10-23</lastupdated>
+		<name>Sunny</name>
+		<summary>Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li...</summary>
+		<desc>&lt;ul&gt;
+&lt;li&gt;Fix issues with the manga tracking system (Thanks to &lt;a class=&quot;user-mention notranslate&quot; data-hovercard-type=&quot;user&quot; data-hovercard-url=&quot;/users/Patriarch9307/hovercard&quot; data-octo-click=&quot;hovercard-link-click&quot; data-octo-dimensions=&quot;link_type:self&quot; href=&quot;https://github.com/Patriarch9307&quot;&gt;@Patriarch9307&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</desc>
+		<license>Unknown</license>
+		<categories>Xposed</categories>
+		<category>Xposed</category>
+		<web></web>
+		<source>https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny</source>
+		<tracker></tracker>
+		<author>Xposed-Modules-Repo</author>
+		<marketversion>0.4</marketversion>
+		<marketvercode>4</marketvercode>
+		<package>
+			<version>0.4</version>
+			<versioncode>4</versioncode>
+			<apkname>com.amanoteam.sunny_4-0.4.apk</apkname>
+			<hash type="sha256">9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229</hash>
+			<size>12941</size>
+			<sdkver>21</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2024-10-23</added>
+			<sig>e967c9e5fd92879f6bac96358de84d90</sig>
+		</package>
+	</application>
+	<application id="space.aioilight.tsubonofuta">
+		<id>space.aioilight.tsubonofuta</id>
+		<added>2024-10-23</added>
+		<lastupdated>2024-10-23</lastupdated>
+		<name>Tsubonofuta</name>
+		<summary>F*ck ChMate's ads</summary>
+		<desc>&lt;ul&gt;
+&lt;li&gt;Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)&lt;/li&gt;
+&lt;li&gt;Change some strings (いくつかのテキストを変更)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you'll see ads, try to remove the app from list of battery optimizing&lt;br&gt;
+(もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)&lt;/p&gt;
+&lt;p&gt;Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing&lt;br&gt;
+(はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)&lt;/p&gt;
+&lt;p&gt;Tested on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;2chMate 0.8.10.153/OnePlus/LE2115/12/DR&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</desc>
+		<license>Unknown</license>
+		<categories>Xposed</categories>
+		<category>Xposed</category>
+		<web></web>
+		<source>https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta</source>
+		<tracker></tracker>
+		<author>Xposed-Modules-Repo</author>
+		<marketversion>2.1</marketversion>
+		<marketvercode>15</marketvercode>
+		<package>
+			<version>2.1</version>
+			<versioncode>15</versioncode>
+			<apkname>space.aioilight.tsubonofuta_15-2.1.apk</apkname>
+			<hash type="sha256">e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621</hash>
+			<size>17471597</size>
+			<sdkver>28</sdkver>
+			<targetSdkVersion>32</targetSdkVersion>
+			<added>2024-10-23</added>
+			<sig>73744340847f5afa0dbc1d167fad978d</sig>
+		</package>
+	</application>
+	<application id="cn.amamiya.douyurepeat">
+		<id>cn.amamiya.douyurepeat</id>
+		<added>2024-10-23</added>
+		<lastupdated>2024-10-23</lastupdated>
+		<name>斗鱼复读姬/DouyuRepeater</name>
+		<summary></summary>
+		<desc>No description available</desc>
+		<license>Unknown</license>
+		<categories>Xposed</categories>
+		<category>Xposed</category>
+		<web></web>
+		<source>https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat</source>
+		<tracker></tracker>
+		<author>Xposed-Modules-Repo</author>
+		<marketversion>1.0.0</marketversion>
+		<marketvercode>1</marketvercode>
+		<package>
+			<version>1.0.0</version>
+			<versioncode>1</versioncode>
+			<apkname>cn.amamiya.douyurepeat_v1.0.2.apk</apkname>
+			<hash type="sha256">8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2</hash>
+			<size>4706502</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2024-10-23</added>
+			<sig>8704bb7631fa13c8a3b8c2fd63a5bea7</sig>
+			<permissions>cn.amamiya.douyurepeat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+	<application id="cn.amamiya.hupublacklist">
+		<id>cn.amamiya.hupublacklist</id>
+		<added>2024-10-23</added>
+		<lastupdated>2024-10-23</lastupdated>
+		<name>虎扑黑名单/HupuBlackList</name>
+		<summary></summary>
+		<desc>&lt;p&gt;新增关键词屏蔽&lt;/p&gt;</desc>
+		<license>Unknown</license>
+		<categories>Xposed</categories>
+		<category>Xposed</category>
+		<web></web>
+		<source>https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist</source>
+		<tracker></tracker>
+		<author>Xposed-Modules-Repo</author>
+		<marketversion>2.1.0</marketversion>
+		<marketvercode>5</marketvercode>
+		<package>
+			<version>2.1.0</version>
+			<versioncode>5</versioncode>
+			<apkname>cn.amamiya.hupublacklist_v2.1.1.apk</apkname>
+			<hash type="sha256">c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6</hash>
+			<size>4710598</size>
+			<sdkver>24</sdkver>
+			<targetSdkVersion>34</targetSdkVersion>
+			<added>2024-10-23</added>
+			<sig>8704bb7631fa13c8a3b8c2fd63a5bea7</sig>
+			<permissions>cn.amamiya.hupublacklist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</permissions>
+		</package>
+	</application>
+</fdroid>
