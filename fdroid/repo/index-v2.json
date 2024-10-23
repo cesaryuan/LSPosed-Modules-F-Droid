@@ -1,0 +1,247 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "LSPosed Module Repository"
+    },
+    "description": {
+      "en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built by the original application developers and released on the official github pages. It syncs with https://modules.lsposed.org/."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "2900c6dddd81f543870bc0ac65b8050bb9d622e61163f3ccfb040a4542fb7fe2",
+        "size": 982
+      }
+    },
+    "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
+    "timestamp": 1729701901000
+  },
+  "packages": {
+    "cn.amamiya.douyurepeat": {
+      "metadata": {
+        "added": 1729701888000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729701888000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "斗鱼复读姬/DouyuRepeater"
+        },
+        "preferredSigner": "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f"
+      },
+      "versions": {
+        "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2": {
+          "added": 1729701888000,
+          "file": {
+            "name": "/cn.amamiya.douyurepeat_v1.0.2.apk",
+            "sha256": "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2",
+            "size": 4706502
+          },
+          "manifest": {
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.amamiya.douyurepeat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cn.amamiya.hupublacklist": {
+      "metadata": {
+        "added": 1729701888000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729701888000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "虎扑黑名单/HupuBlackList"
+        },
+        "description": {
+          "en-US": "<p>新增关键词屏蔽</p>"
+        },
+        "preferredSigner": "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f"
+      },
+      "versions": {
+        "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6": {
+          "added": 1729701888000,
+          "file": {
+            "name": "/cn.amamiya.hupublacklist_v2.1.1.apk",
+            "sha256": "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6",
+            "size": 4710598
+          },
+          "manifest": {
+            "versionName": "2.1.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.amamiya.hupublacklist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.alex193a.checkblue": {
+      "metadata": {
+        "added": 1729701889000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729701889000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "CheckBlue"
+        },
+        "summary": {
+          "en-US": "A module that allows you to find out if a Twitter user is Blue Verified."
+        },
+        "description": {
+          "en-US": "<p>First release</p>"
+        },
+        "preferredSigner": "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a"
+      },
+      "versions": {
+        "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023": {
+          "added": 1729701889000,
+          "file": {
+            "name": "/com.alex193a.checkblue_1-1.0.apk",
+            "sha256": "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023",
+            "size": 116465
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.alex193a.checkblue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.amanoteam.sunny": {
+      "metadata": {
+        "added": 1729701889000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729701889000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Sunny"
+        },
+        "summary": {
+          "en-US": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li..."
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Fix issues with the manga tracking system (Thanks to <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Patriarch9307/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Patriarch9307\">@Patriarch9307</a>)</li>\n</ul>"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229": {
+          "added": 1729701889000,
+          "file": {
+            "name": "/com.amanoteam.sunny_4-0.4.apk",
+            "sha256": "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229",
+            "size": 12941
+          },
+          "manifest": {
+            "versionName": "0.4",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "space.aioilight.tsubonofuta": {
+      "metadata": {
+        "added": 1729701889000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729701889000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Tsubonofuta"
+        },
+        "summary": {
+          "en-US": "F*ck ChMate's ads"
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)</li>\n<li>Change some strings (いくつかのテキストを変更)</li>\n</ul>\n<p>If you'll see ads, try to remove the app from list of battery optimizing<br>\n(もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)</p>\n<p>Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing<br>\n(はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)</p>\n<p>Tested on:</p>\n<ul>\n<li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>\n<li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>\n</ul>"
+        },
+        "preferredSigner": "44bdf16f4aed9f458612d7199600bdb5f09c83dc0f3308abd0dfacc6ed9420d4"
+      },
+      "versions": {
+        "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621": {
+          "added": 1729701889000,
+          "file": {
+            "name": "/space.aioilight.tsubonofuta_15-2.1.apk",
+            "sha256": "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621",
+            "size": 17471597
+          },
+          "manifest": {
+            "versionName": "2.1",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "44bdf16f4aed9f458612d7199600bdb5f09c83dc0f3308abd0dfacc6ed9420d4"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "2.1"
+CurrentVersionCode: 15
+Description: |-
+    <ul>
+    <li>Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)</li>
+    <li>Change some strings (いくつかのテキストを変更)</li>
+    </ul>
+    <p>If you'll see ads, try to remove the app from list of battery optimizing<br>
+    (もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)</p>
+    <p>Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing<br>
+    (はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)</p>
+    <p>Tested on:</p>
+    <ul>
+    <li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>
+    <li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>
+    </ul>
+IssueTracker: ""
+Name: Tsubonofuta
+SourceCode: https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta
+Summary: F*ck ChMate's ads
+WebSite: ""

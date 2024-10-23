@@ -1,47 +1,97 @@
----
-android:
-  git: "https://github.com/bitwarden/android"
-  applications:
-    - filename: "com.x8bit.bitwarden-fdroid.apk"
-      id: "bitwarden"
-      name: "Bitwarden"
-      categories:
-        - Security
-      description: |
-        Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
-
-        Password theft is a serious problem. The websites and apps that you use are under attack every day. Security breaches occur and your passwords are stolen. When you reuse the same passwords across apps and websites hackers can easily access your email, bank, and other important accounts.
-
-        Security experts recommend that you use a different, randomly generated password for every account that you create. But how do you manage all those passwords? Bitwarden makes it easy for you to create, store, and access your passwords.
-
-        Bitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.
-
-        Bitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.
-
-    - filename: "com.x8bit.bitwarden.beta-fdroid.apk"
-      id: "bitwarden-beta"
-      name: "Bitwarden Beta"
-      categories:
-        - Security
-      description: |
-        Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently keeping them synced between all of your devices.
-
-        Password theft is a serious problem. The websites and apps that you use are under attack every day. Security breaches occur and your passwords are stolen. When you reuse the same passwords across apps and websites hackers can easily access your email, bank, and other important accounts.
-
-        Security experts recommend that you use a different, randomly generated password for every account that you create. But how do you manage all those passwords? Bitwarden makes it easy for you to create, store, and access your passwords.
-
-        Bitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.
-
-        Bitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.
-
-
-authenticator-android:
-  git: "https://github.com/bitwarden/authenticator-android"
-  applications:
-    - filename: "com.x8bit.bitwarden-fdroid.apk"
-      id: "bitwarden-authenticator"
-      name: "Bitwarden Authenticator"
-      categories:
-        - Security
-      description: |
-        Bitwarden Authenticator allows you easily store and generate two-factor authentication codes on your device. The Bitwarden Authenticator Android application is written in Kotlin.
+cn.amamiya.douyurepeat:
+    git: https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: app_v1.0.2.apk
+          id: cn.amamiya.douyurepeat
+          name: 斗鱼复读姬/DouyuRepeater
+          releasedescription: ""
+    owner: AmamiyaHotaru
+cn.amamiya.hupublacklist:
+    git: https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>新增关键词屏蔽</p>
+          filename: HupuBlackList-v2.1.1.apk
+          id: cn.amamiya.hupublacklist
+          name: 虎扑黑名单/HupuBlackList
+          releasedescription: <p>新增关键词屏蔽</p>
+    owner: AmamiyaHotaru
+com.alex193a.checkblue:
+    git: https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue
+    summary: A module that allows you to find out if a Twitter user is Blue Verified.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>First release</p>
+          filename: com.alex193a.checkblue_v10_38bb32.apk
+          id: com.alex193a.checkblue
+          name: CheckBlue
+          releasedescription: <p>First release</p>
+    owner: alex193a
+com.amanoteam.sunny:
+    git: https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny
+    summary: Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Fix issues with the manga tracking system (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Patriarch9307/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Patriarch9307">@Patriarch9307</a>)</li>
+            </ul>
+          filename: app-release.apk
+          id: com.amanoteam.sunny
+          name: Sunny
+          releasedescription: |-
+            <ul>
+            <li>Fix issues with the manga tracking system (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Patriarch9307/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Patriarch9307">@Patriarch9307</a>)</li>
+            </ul>
+    owner: Kartatz
+space.aioilight.tsubonofuta:
+    git: https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta
+    summary: F*ck ChMate's ads
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)</li>
+            <li>Change some strings (いくつかのテキストを変更)</li>
+            </ul>
+            <p>If you'll see ads, try to remove the app from list of battery optimizing<br>
+            (もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)</p>
+            <p>Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing<br>
+            (はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)</p>
+            <p>Tested on:</p>
+            <ul>
+            <li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>
+            <li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>
+            </ul>
+          filename: app-release.apk
+          id: space.aioilight.tsubonofuta
+          name: Tsubonofuta
+          releasedescription: |-
+            <ul>
+            <li>Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)</li>
+            <li>Change some strings (いくつかのテキストを変更)</li>
+            </ul>
+            <p>If you'll see ads, try to remove the app from list of battery optimizing<br>
+            (もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)</p>
+            <p>Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing<br>
+            (はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)</p>
+            <p>Tested on:</p>
+            <ul>
+            <li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>
+            <li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>
+            </ul>
+    owner: AioiLight

@@ -1,0 +1,218 @@
+{
+  "repo": {
+    "timestamp": 1729701901000,
+    "version": 20002,
+    "name": "LSPosed Module Repository",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
+    "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built by the original application developers and released on the official github pages. It syncs with https://modules.lsposed.org/."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "1",
+      "description": "<p>First release</p>",
+      "license": "Unknown",
+      "name": "CheckBlue",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue",
+      "summary": "A module that allows you to find out if a Twitter user is Blue Verified.",
+      "added": 1729701889000,
+      "packageName": "com.alex193a.checkblue",
+      "lastUpdated": 1729701889000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "First release"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.4",
+      "suggestedVersionCode": "4",
+      "description": "<ul>\n<li>Fix issues with the manga tracking system (Thanks to <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Patriarch9307/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Patriarch9307\">@Patriarch9307</a>)</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Sunny",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny",
+      "summary": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li...",
+      "added": 1729701889000,
+      "packageName": "com.amanoteam.sunny",
+      "lastUpdated": 1729701889000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "* Fix issues with the manga tracking system (Thanks to @Patriarch9307)"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "2.1",
+      "suggestedVersionCode": "15",
+      "description": "<ul>\n<li>Adapt to new ChMate version 0.8.10.153 (\u65b0\u3057\u3044 ChMate \u30d0\u30fc\u30b8\u30e7\u30f3 0.8.10.153 \u306b\u9069\u5fdc)</li>\n<li>Change some strings (\u3044\u304f\u3064\u304b\u306e\u30c6\u30ad\u30b9\u30c8\u3092\u5909\u66f4)</li>\n</ul>\n<p>If you'll see ads, try to remove the app from list of battery optimizing<br>\n(\u3082\u3057\u5e83\u544a\u304c\u898b\u3048\u308b\u5834\u5408\u3001\u30a2\u30d7\u30ea\u3092\u30d0\u30c3\u30c6\u30ea\u30fc\u6700\u9069\u5316\u30ea\u30b9\u30c8\u304b\u3089\u9664\u5916\u3057\u3066\u304f\u3060\u3055\u3044)</p>\n<p>Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing<br>\n(\u306f\u3058\u3081\u306b Xposed Manager \u3067\u3053\u306e\u30e2\u30b8\u30e5\u30fc\u30eb\u3092\u6709\u52b9\u5316\u3057\u3066\u304f\u3060\u3055\u3044\u3001\u3067\u306a\u3044\u3068\u30af\u30e9\u30c3\u30b7\u30e5\u3057\u307e\u3059)</p>\n<p>Tested on:</p>\n<ul>\n<li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>\n<li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>\n</ul>",
+      "license": "Unknown",
+      "name": "Tsubonofuta",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta",
+      "summary": "F*ck ChMate's ads",
+      "added": 1729701889000,
+      "packageName": "space.aioilight.tsubonofuta",
+      "lastUpdated": 1729701889000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "* Adapt to new ChMate version 0.8.10.153 (\u65b0\u3057\u3044 ChMate \u30d0\u30fc\u30b8\u30e7\u30f3 0.8.10.153 \u306b\u9069\u5fdc)\n* Change some strings (\u3044\u304f\u3064\u304b\u306e\u30c6\u30ad\u30b9\u30c8\u3092\u5909\u66f4)\n\nIf you'll see ads, try to remove the app from list of battery optimizing\n(\u3082\u3057\u5e83\u544a\u304c\u898b\u3048\u308b\u5834\u5408\u3001\u30a2\u30d7\u30ea\u3092\u30d0\u30c3\u30c6\u30ea\u30fc\u6700\u9069\u5316\u30ea\u30b9\u30c8\u304b\u3089\u9664\u5916\u3057\u3066\u304f\u3060\u3055\u3044)\n\nMake sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing\n(\u306f\u3058\u3081\u306b Xposed Manager \u3067\u3053\u306e\u30e2\u30b8\u30e5\u30fc\u30eb\u3092\u6709\u52b9\u5316\u3057\u3066\u304f\u3060\u3055\u3044\u3001\u3067\u306a\u3044\u3068\u30af\u30e9\u30c3\u30b7\u30e5\u3057\u307e\u3059)\n\nTested on:\n* `2chMate 0.8.10.153/OnePlus/LE2115/12/DR`\n* `2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR`\n"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.0",
+      "suggestedVersionCode": "1",
+      "license": "Unknown",
+      "name": "\u6597\u9c7c\u590d\u8bfb\u59ec/DouyuRepeater",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat",
+      "added": 1729701888000,
+      "packageName": "cn.amamiya.douyurepeat",
+      "lastUpdated": 1729701888000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u8ba9+1\u6309\u94ae\u5e38\u663e\uff0c\u65e0\u89c6\u76f4\u64ad\u95f4\u8bbe\u7f6e"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "2.1.0",
+      "suggestedVersionCode": "5",
+      "description": "<p>\u65b0\u589e\u5173\u952e\u8bcd\u5c4f\u853d</p>",
+      "license": "Unknown",
+      "name": "\u864e\u6251\u9ed1\u540d\u5355/HupuBlackList",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist",
+      "added": 1729701888000,
+      "packageName": "cn.amamiya.hupublacklist",
+      "lastUpdated": 1729701888000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u65b0\u589e\u5173\u952e\u8bcd\u5c4f\u853d\n\u4fee\u6539\u4e86\u7b7e\u540d\u9700\u8981\u91cd\u65b0\u5b89\u88c5"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "cn.amamiya.douyurepeat": [
+      {
+        "added": 1729701888000,
+        "apkName": "cn.amamiya.douyurepeat_v1.0.2.apk",
+        "hash": "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "cn.amamiya.douyurepeat",
+        "sig": "8704bb7631fa13c8a3b8c2fd63a5bea7",
+        "signer": "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f",
+        "size": 4706502,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "cn.amamiya.douyurepeat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0.0"
+      }
+    ],
+    "cn.amamiya.hupublacklist": [
+      {
+        "added": 1729701888000,
+        "apkName": "cn.amamiya.hupublacklist_v2.1.1.apk",
+        "hash": "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "cn.amamiya.hupublacklist",
+        "sig": "8704bb7631fa13c8a3b8c2fd63a5bea7",
+        "signer": "618f4d018b9765458da596121ff227954a67bd22aabf57656382d669e3cad08f",
+        "size": 4710598,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "cn.amamiya.hupublacklist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "2.1.0"
+      }
+    ],
+    "com.alex193a.checkblue": [
+      {
+        "added": 1729701889000,
+        "apkName": "com.alex193a.checkblue_1-1.0.apk",
+        "hash": "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.alex193a.checkblue",
+        "sig": "349ae2efa837f5e66999ba3638304eb9",
+        "signer": "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a",
+        "size": 116465,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "com.alex193a.checkblue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.amanoteam.sunny": [
+      {
+        "added": 1729701889000,
+        "apkName": "com.amanoteam.sunny_4-0.4.apk",
+        "hash": "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.amanoteam.sunny",
+        "sig": "e967c9e5fd92879f6bac96358de84d90",
+        "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+        "size": 12941,
+        "targetSdkVersion": 34,
+        "versionCode": 4,
+        "versionName": "0.4"
+      }
+    ],
+    "space.aioilight.tsubonofuta": [
+      {
+        "added": 1729701889000,
+        "apkName": "space.aioilight.tsubonofuta_15-2.1.apk",
+        "hash": "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "space.aioilight.tsubonofuta",
+        "sig": "73744340847f5afa0dbc1d167fad978d",
+        "signer": "44bdf16f4aed9f458612d7199600bdb5f09c83dc0f3308abd0dfacc6ed9420d4",
+        "size": 17471597,
+        "targetSdkVersion": 32,
+        "versionCode": 15,
+        "versionName": "2.1"
+      }
+    ]
+  }
+}

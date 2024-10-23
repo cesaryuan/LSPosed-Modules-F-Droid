@@ -1,0 +1,12 @@
+* Adapt to new ChMate version 0.8.10.153 (新しい ChMate バージョン 0.8.10.153 に適応)
+* Change some strings (いくつかのテキストを変更)
+
+If you'll see ads, try to remove the app from list of battery optimizing
+(もし広告が見える場合、アプリをバッテリー最適化リストから除外してください)
+
+Make sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing
+(はじめに Xposed Manager でこのモジュールを有効化してください、でないとクラッシュします)
+
+Tested on:
+* `2chMate 0.8.10.153/OnePlus/LE2115/12/DR`
+* `2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR`
