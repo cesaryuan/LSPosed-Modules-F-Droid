@@ -43,7 +43,7 @@ if [ -f "$COMMIT_MSG_FILE" ]; then
     PR_URL=$(gh pr create --title "$PR_TITLE" \
         --base main \
         --label "automated pr" \
-        --body "$PR_BODY")
+        --body "")
     echo "pr_number=${PR_URL##*/}"
 
     gh pr merge $PR_URL --squash --admin --delete-branch
