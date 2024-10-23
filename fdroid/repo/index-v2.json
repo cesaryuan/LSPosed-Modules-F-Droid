@@ -1,0 +1,187 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "My Repository"
+    },
+    "description": {
+      "en-US": "This is a repository of apps to be used with F-Droid. Applications in this repository are official binaries built by the original application developers and released on the official github pages."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "4b3c99d4b8d1d13e2178c9b20aefeed4ecc62d3951afc4607f1c076e9756768c",
+        "size": 979
+      }
+    },
+    "address": "https://raw.githubusercontent.com/cesaryuan/f-droid-repo-template/main/fdroid/repo",
+    "timestamp": 1729697689000
+  },
+  "packages": {
+    "com.x8bit.bitwarden": {
+      "metadata": {
+        "added": 1729697679000,
+        "categories": [
+          "Security"
+        ],
+        "lastUpdated": 1729697679000,
+        "name": {
+          "en-US": "Bitwarden"
+        },
+        "description": {
+          "en-US": "Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently keeping them synced between all of your devices.\n\nPassword theft is a serious problem. The websites and apps that you use are under attack every day. Security breaches occur and your passwords are stolen. When you reuse the same passwords across apps and websites hackers can easily access your email, bank, and other important accounts.\n\nSecurity experts recommend that you use a different, randomly generated password for every account that you create. But how do you manage all those passwords? Bitwarden makes it easy for you to create, store, and access your passwords.\n\nBitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.\n\nBitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.\n"
+        },
+        "preferredSigner": "de6ec91431557995297bf3e65bc80349bc603a04708160618c86bc9994171c90"
+      },
+      "versions": {
+        "73a340a8ae975146fdbbec805ec29ee083290522627e82a56bd1126ff9a1a2d6": {
+          "added": 1729697679000,
+          "file": {
+            "name": "/bitwarden_v2024.9.0.apk",
+            "sha256": "73a340a8ae975146fdbbec805ec29ee083290522627e82a56bd1126ff9a1a2d6",
+            "size": 72686638
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2024.9.0",
+            "versionCode": 19209,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "de6ec91431557995297bf3e65bc80349bc603a04708160618c86bc9994171c90"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.x8bit.bitwarden.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.x8bit.bitwarden.beta": {
+      "metadata": {
+        "added": 1729697677000,
+        "categories": [
+          "Security"
+        ],
+        "lastUpdated": 1729697677000,
+        "name": {
+          "en-US": "Bitwarden Beta"
+        },
+        "description": {
+          "en-US": "Bitwarden is the easiest and safest way to store all of your logins and passwords while conveniently keeping them synced between all of your devices.\n\nPassword theft is a serious problem. The websites and apps that you use are under attack every day. Security breaches occur and your passwords are stolen. When you reuse the same passwords across apps and websites hackers can easily access your email, bank, and other important accounts.\n\nSecurity experts recommend that you use a different, randomly generated password for every account that you create. But how do you manage all those passwords? Bitwarden makes it easy for you to create, store, and access your passwords.\n\nBitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.\n\nBitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.\n"
+        },
+        "preferredSigner": "3c8f03c4225bc173812def564f7ae8a1b3ef34f1bbdcc8748dadc39eb0a69f74"
+      },
+      "versions": {
+        "b361d84fddec1cd4a8c9a8b33a897578564f8ecd46e87e2e57dc44e73050809c": {
+          "added": 1729697677000,
+          "file": {
+            "name": "/bitwarden-beta_v2024.9.0.apk",
+            "sha256": "b361d84fddec1cd4a8c9a8b33a897578564f8ecd46e87e2e57dc44e73050809c",
+            "size": 72688066
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "mips",
+              "mips64",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2024.9.0",
+            "versionCode": 19209,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "3c8f03c4225bc173812def564f7ae8a1b3ef34f1bbdcc8748dadc39eb0a69f74"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.NFC"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.x8bit.bitwarden.beta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

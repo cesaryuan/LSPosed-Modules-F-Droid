@@ -1,0 +1,124 @@
+## Overview
+
+* Added auto-fill quick tile
+* Small bug fixes and enhancements
+
+
+## What's Changed
+* PM-11483: Create AutofillTileService by @david-livefront in https://github.com/bitwarden/android/pull/3844
+* PM-11214 change navoptions to support single top without retaining VM by @dseverns-livefront in https://github.com/bitwarden/android/pull/3843
+* Autosync Crowdin Translations by @github-actions in https://github.com/bitwarden/android/pull/3845
+* [PM-11398] [PM-10872] - Fix: Search fields not showing text correctly by @mathiasmader in https://github.com/bitwarden/android/pull/3840
+* PM-11616: Manage totp logic in AutofillTotpManager by @david-livefront in https://github.com/bitwarden/android/pull/3856
+* Relocate the accessibility package into the autofill package by @david-livefront in https://github.com/bitwarden/android/pull/3860
+* PM-11642: Security stamp soft logout by @david-livefront in https://github.com/bitwarden/android/pull/3859
+* PM-11479 Expired link UI by @dseverns-livefront in https://github.com/bitwarden/android/pull/3854
+* PM-11643: Add LauncherPackageNameManager for tracking launcher apps by @david-livefront in https://github.com/bitwarden/android/pull/3861
+* Remove unsued shouldFinishOnComplete property by @david-livefront in https://github.com/bitwarden/android/pull/3865
+* PM-11484: Add logic to parse URI from AccessibilityNodeInfo by @david-livefront in https://github.com/bitwarden/android/pull/3864
+* Update to latest Kotlin v2.0.20 by @david-livefront in https://github.com/bitwarden/android/pull/3869
+* BITAU-96 Setup Bridge SDK by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3857
+* Update immutable collection to v0.3.8 by @david-livefront in https://github.com/bitwarden/android/pull/3870
+* Update KotlinX Serialization to v1.7.2 by @david-livefront in https://github.com/bitwarden/android/pull/3871
+* Update the Gemfile.lock by @david-livefront in https://github.com/bitwarden/android/pull/3872
+* BITAU-107 Add Feature Flag and UI for Authenticator Syncing by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3847
+* [deps]: Update gh minor by @renovate in https://github.com/bitwarden/android/pull/3851
+* PM-11714 record if a user has signed in on device before. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3876
+* PM-11604 Network layer for checking email token, nav to UI if needed. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3862
+* Update the compose BOM to 2024.09.00 by @david-livefront in https://github.com/bitwarden/android/pull/3874
+* BITAU-165 add kotlinx serialization dependency to bridge by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3877
+* Add missing SerialName annotations by @david-livefront in https://github.com/bitwarden/android/pull/3879
+* Autosync Crowdin Translations by @github-actions in https://github.com/bitwarden/android/pull/3875
+* BITAU-108 Store Authenticator Sync Key by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3873
+* PM-11741 add password modal to root nav for generator shortcut specia… by @dseverns-livefront in https://github.com/bitwarden/android/pull/3883
+* BITAU-96 Setup AIDL interface and files by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3880
+* Update Slider UI after Compose BOM update by @david-livefront in https://github.com/bitwarden/android/pull/3885
+* Simplify adding flags to debug menu by @david-livefront in https://github.com/bitwarden/android/pull/3886
+* BITAU-164 add no-op version of BridgeService by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3884
+* Update to AGP 8.6.0 by @david-livefront in https://github.com/bitwarden/android/pull/3889
+* [PM-10930] Fix password generator policies by @aj-rosado in https://github.com/bitwarden/android/pull/3853
+* BITAU-168 Add Bridge SDK test dependencies by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3890
+* Update KSP to 2.0.20-1.0.25 by @david-livefront in https://github.com/bitwarden/android/pull/3894
+* Use an aar to define bridge dependency by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3892
+* PM-10630 setup autofill UI and interactions set up by @dseverns-livefront in https://github.com/bitwarden/android/pull/3891
+* BITAU-102 Return null BridgeService when API level is below 12 by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3887
+* Add PreviewScreenSizes annotation to ignored list of annotations for tests by @david-livefront in https://github.com/bitwarden/android/pull/3899
+* PM-10845 add landscape layout for setup auto-fill by @dseverns-livefront in https://github.com/bitwarden/android/pull/3897
+* BITAU-160 Update feature flag name for authenticator sync by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3903
+* Update to detekt 1.23.7 by @david-livefront in https://github.com/bitwarden/android/pull/3901
+* PM-11485: Add routing for accessibility autofill by @david-livefront in https://github.com/bitwarden/android/pull/3895
+* Update Androidx libraries by @david-livefront in https://github.com/bitwarden/android/pull/3908
+* Update compose BOM to 2024.09.01 by @david-livefront in https://github.com/bitwarden/android/pull/3907
+* [PM-11741] shortcut navigation pt2 electric boogaloo by @dseverns-livefront in https://github.com/bitwarden/android/pull/3904
+* PM-11487: Initial accessibility service and processor for handling autofill by @david-livefront in https://github.com/bitwarden/android/pull/3906
+* BITAU-98 Add EncryptionUtils helper functions to the bridge SDK by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3888
+* [PM-10905] Update JSON model to match API by @dseverns-livefront in https://github.com/bitwarden/android/pull/3913
+* PM-11488: Add a switch to the autofill settings UI for enabling the accessibility service by @david-livefront in https://github.com/bitwarden/android/pull/3911
+* PM-11464 Add onboarding status to user Account to allow for root navigation to onboarding flow. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3878
+* Add BitwardenLegacyAppComponents for legacy app component names by @david-livefront in https://github.com/bitwarden/android/pull/3922
+* PM-12240: Remove unused permissions from the sync response by @david-livefront in https://github.com/bitwarden/android/pull/3920
+* [PM-10632] Setup complete screen for new onboarding by @dseverns-livefront in https://github.com/bitwarden/android/pull/3921
+* PM-11485: Add routing logic to handle searching during accessibility autofill by @david-livefront in https://github.com/bitwarden/android/pull/3924
+* Autosync Crowdin Translations by @github-actions in https://github.com/bitwarden/android/pull/3914
+* [deps]: Update kotlin to v1.9.0 by @renovate in https://github.com/bitwarden/android/pull/3849
+* [PM-12289] add onboarding status override to debug menu by @dseverns-livefront in https://github.com/bitwarden/android/pull/3927
+* Create reusable isAccessibilityServiceEnabled extension by @david-livefront in https://github.com/bitwarden/android/pull/3929
+* PM-12076 remaining state based navigation linkup for onboarding by @dseverns-livefront in https://github.com/bitwarden/android/pull/3923
+* Update Firebase BOM to v33.3.0 by @david-livefront in https://github.com/bitwarden/android/pull/3930
+* [PM-11884] Perform origin validation during FIDO 2 auth by @SaintPatrck in https://github.com/bitwarden/android/pull/3896
+* Add logic to ensure url has a valid https protocol by @david-livefront in https://github.com/bitwarden/android/pull/3933
+* PM-12297: Add accessibility service alert for autofill tile by @david-livefront in https://github.com/bitwarden/android/pull/3931
+* Bump version name to 2024.09.00 by @david-livefront in https://github.com/bitwarden/android/pull/3937
+* BITAU-103 Implement symmetric key creation and storage by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3905
+* PM-11486: Parse the Accessibility Nodes for username and password fields by @david-livefront in https://github.com/bitwarden/android/pull/3935
+* PM-12014: Enable accessibility autofill outside of debug builds by @david-livefront in https://github.com/bitwarden/android/pull/3919
+* BITAU-108 Add unlockWithAuthenticatorSyncKey to VaultRepository  by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3909
+* Updated version name according to our pattern by @vvolkgang in https://github.com/bitwarden/android/pull/3940
+* Update APG to 8.6.1 by @david-livefront in https://github.com/bitwarden/android/pull/3938
+* [PM-12319] Skip Auto-fill setup if already enabled. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3934
+* Update Androidx libraries by @david-livefront in https://github.com/bitwarden/android/pull/3939
+* Add FLAG_ACTIVITY_NEW_TASK flag for autofill tile to avoid crash by @david-livefront in https://github.com/bitwarden/android/pull/3943
+* PM-10617 + PM-11270 fixes after QA review by @dseverns-livefront in https://github.com/bitwarden/android/pull/3944
+* PM-10843 autofill setup screen animated image. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3932
+* [PM-9755] Update duo AuthUrl error message to match other clients by @andrebispo5 in https://github.com/bitwarden/android/pull/3945
+* PM-10631 store when the user selects to turn auto fill on later by @dseverns-livefront in https://github.com/bitwarden/android/pull/3925
+* PM-12397: Clear accessibility action when on launcher or Bitwarden App by @david-livefront in https://github.com/bitwarden/android/pull/3947
+* PM-12321 Update typography for V3 design by @dseverns-livefront in https://github.com/bitwarden/android/pull/3946
+* Autosync Crowdin Translations by @github-actions in https://github.com/bitwarden/android/pull/3948
+* Password encoding and decoding handing in TwoFactorLoginNavigation by @david-livefront in https://github.com/bitwarden/android/pull/3951
+* [deps]: Update gh minor by @renovate in https://github.com/bitwarden/android/pull/3916
+* [deps]: Lock file maintenance by @renovate in https://github.com/bitwarden/android/pull/3917
+* [PM-10622] Handle the skip unlock step in the onboarding, storing when the user selects to do so. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3928
+* PM-9901: Use sensitive text font for passwords by @david-livefront in https://github.com/bitwarden/android/pull/3952
+* [PM-10118]  update selected generator type when returning to main tab. by @dseverns-livefront in https://github.com/bitwarden/android/pull/3942
+* [PM-9328] Codeowners setup by @vvolkgang in https://github.com/bitwarden/android/pull/3926
+* Update switch to represent disabled state by @david-livefront in https://github.com/bitwarden/android/pull/3955
+* BITAU-104 Implement BridgeService by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3954
+* [PM-10671] update password generator policy by @aj-rosado in https://github.com/bitwarden/android/pull/3936
+* Create new reusable FAB component by @david-livefront in https://github.com/bitwarden/android/pull/3956
+* PM-11535 Only add password to 2 factor login path if present by @dseverns-livefront in https://github.com/bitwarden/android/pull/3958
+* Replace usages of raw button with BitwardenFilledTonalButton by @david-livefront in https://github.com/bitwarden/android/pull/3960
+* BITAU-172 Rename Authenticator Bridge SDK by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3959
+* [PM-12604] Fix showing the biometric prompt when not needed adding account by @dseverns-livefront in https://github.com/bitwarden/android/pull/3962
+* BITAU-173 Return null symmetric key when no users have enabled Authen… by @ahaisting-livefront in https://github.com/bitwarden/android/pull/3961
+* PM-12631: Handle password re-prompt for accessibility autofill by @david-livefront in https://github.com/bitwarden/android/pull/3965
+* Add Bitwarden Horizontal Divider by @david-livefront in https://github.com/bitwarden/android/pull/3967
+* PM-12594 Add observable flows to observe badge count changes when corresponding settings update by @dseverns-livefront in https://github.com/bitwarden/android/pull/3964
+* Add reusable icon button components by @david-livefront in https://github.com/bitwarden/android/pull/3969
+* Add a reusable bitwarden loading indicator by @david-livefront in https://github.com/bitwarden/android/pull/3971
+* [PM-7587] Support conditionally loading local sdk by @Hinton in https://github.com/bitwarden/android/pull/3957
+* Remove unused span styles by @david-livefront in https://github.com/bitwarden/android/pull/3970
+* Disable stepper buttons when they reach the end of range by @david-livefront in https://github.com/bitwarden/android/pull/3972
+* Add reusable radio button by @david-livefront in https://github.com/bitwarden/android/pull/3973
+* [PM-12592] & [PM-12593] bottom nav notification dot by @dseverns-livefront in https://github.com/bitwarden/android/pull/3968
+* Add reusable slider component by @david-livefront in https://github.com/bitwarden/android/pull/3974
+* Simplify and clean up segmented button by @david-livefront in https://github.com/bitwarden/android/pull/3977
+* [PM-12711] Auto-Fill selection bug fix by @dseverns-livefront in https://github.com/bitwarden/android/pull/3981
+* [PM-12595] add notification badge to settings item in settings tab screen by @dseverns-livefront in https://github.com/bitwarden/android/pull/3976
+
+## New Contributors
+* @mathiasmader made their first contribution in https://github.com/bitwarden/android/pull/3840
+* @ahaisting-livefront made their first contribution in https://github.com/bitwarden/android/pull/3857
+
+**Full Changelog**: https://github.com/bitwarden/android/compare/v2024.8.1...v2024.9.0
+**Builds Source**: https://github.com/bitwarden/android/actions/runs/11073550785

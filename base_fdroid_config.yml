@@ -1,0 +1,15 @@
+repo_url: https://raw.githubusercontent.com/[GithubRepo]/main/fdroid/repo
+mirrors: []
+repo_name: My Repository
+repo_description: >-
+  This is a repository of apps to be used with F-Droid.
+  Applications in this repository are official binaries built by the original application developers and released on the official github pages.
+# archive_url: 'https://raw.githubusercontent.com/[GithubRepo]/main/fdroid/archive'
+# archive_name: 'My F-droid Archive'
+# archive_description: |
+#   This is a repository of archived apps that are no longer
+#   officially supported.
+archive_older: 3
+repo_keyalias: 'KEYALIAS'
+keydname: 'CN=KEYALIAS, OU=F-Droid'
+# email: android@lsposed.org

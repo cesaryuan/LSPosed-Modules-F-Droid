@@ -1,0 +1,38 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Don't use tabs for indentation.
+[*]
+indent_size = 4
+indent_style = space
+tab_width = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+guidelines = 120
+
+# Code files
+[*.{cs,csx,vb,vbx}]
+indent_size = 4
+
+# Xml project files
+[*.{csproj,vbproj,vcxproj,vcxproj.filters,proj,projitems,shproj}]
+indent_size = 2
+
+# Xml config files
+[*.{props,targets,ruleset,config,nuspec,resx,vsixmanifest,vsct}]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# JS files
+[*.{js,ts,scss,html}]
+indent_size = 2
+
+[*.yml]
+indent_size = 2

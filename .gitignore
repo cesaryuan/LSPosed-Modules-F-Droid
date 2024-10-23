@@ -1,0 +1,40 @@
+# General
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Node
+node_modules
+npm-debug.log
+
+# Secrets
+fdroid/config.yml
+keystore.p12
+keystore.jks
+
+# F-Droid tools
+fdroid/tmp
+fdroid/repo/status
+fdroid/metadata/**/phoneScreenshots
+
+# Metascoop
+metascoop/metascoop
+config.py
+out.txt
+**.tmp
