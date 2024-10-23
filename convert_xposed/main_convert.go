@@ -42,6 +42,7 @@ func getJSONData() ([]byte, error) {
 func main() {
 	// Parse command line arguments
 	outputPath := flag.String("o", "", "Output YAML file path")
+	maxItems := flag.Int("max", 0, "Maximum number of items to convert")
 	flag.Parse()
 	if *outputPath == "" {
 		log.Fatal("Error: Output path (-o) is required")
@@ -61,9 +62,12 @@ func main() {
 
 	repos := make(map[string]apps.Repo)
 
-	fmt.Println("Length of jsonItems to convert:", len(jsonItems))
+	if *maxItems == 0 {
+		*maxItems = len(jsonItems)
+	}
+	fmt.Println("Length of jsonItems to convert:", *maxItems)
 
-	for _, item := range jsonItems {
+	for _, item := range jsonItems[:min(len(jsonItems), *maxItems)] {
 		if len(item.Releases) > 1 {
 			log.Fatalf("Error: More than one release for item %s", item.Name)
 		}

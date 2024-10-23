@@ -9,6 +9,11 @@ on:
         type: boolean
         default: false
         required: false
+      max-items:
+        description: "Maximum number of items to convert. Optional. Defaults to all."
+        type: number
+        required: false
+        default: 10
 
   schedule:
     - cron: "45 2 * * *"
@@ -92,7 +97,7 @@ jobs:
       - name: Download modules.json and convert
         working-directory: convert_xposed
         run: |
-          go run main_convert.go -o ../repos.yaml
+          go run main_convert.go -o ../repos.yaml -max ${{ inputs.max-items }}
 
       - name: Run metascoop
         id: run-metascoop
