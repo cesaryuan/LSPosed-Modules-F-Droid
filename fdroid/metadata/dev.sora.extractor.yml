@@ -3,6 +3,20 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
+Description: |
+    <h1>SteamGuardExtractor</h1>
+    <p>A Xposed module helps you extract SteamGuard shared secret.</p>
+    <h2>Use cases</h2>
+    <ul>
+    <li>Custom authenticator, for example Bitwarden</li>
+    </ul>
+    <h2>Usage</h2>
+    <ol>
+    <li>Enable the module on Steam application</li>
+    <li>Open Steam</li>
+    <li>Enable SteamGuard if not enabled yet</li>
+    <li>Dialog about SteamGuard secrets appears on the screen</li>
+    </ol>
 IssueTracker: ""
 Name: SteamGuardExtractor
 SourceCode: https://github.com/Xposed-Modules-Repo/dev.sora.extractor

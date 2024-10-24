@@ -3,14 +3,22 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.5
 CurrentVersionCode: 6
-Description: |-
-    <ul>
-    <li>修复在某些设备下不生效</li>
-    </ul>
-    <hr>
-    <ul>
-    <li>Fix maybe not take effect on some devices.</li>
-    </ul>
+Description: |
+    <h1>息屏勿扰（HyperAodZen）</h1>
+    <p>用于在勿扰模式下禁用息屏显示的通知光效，仅在 HyperOS 下通过测试。</p>
+    <p>Disable the notification light effect of the AOD mode, tested only in HyperOS.</p>
+    <h2>使用</h2>
+    <ol>
+    <li>在Xposed管理器(LSPosed, EdXposed…)中激活模块 (强烈推荐使用LSP)</li>
+    <li>作用域勾选 系统界面(<strong><code>com.android.systemui</code></strong>)</li>
+    <li><strong>重启系统界面或手机</strong></li>
+    </ol>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/cn.buffcow.hyperaodzen/releases">LSPosed 仓库</a></p>
+    <h2>无效</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
+    <h2>致谢</h2>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: 息屏勿扰（HyperAodZen）
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.buffcow.hyperaodzen

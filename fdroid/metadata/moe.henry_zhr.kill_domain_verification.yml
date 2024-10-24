@@ -3,7 +3,19 @@ Categories:
     - Xposed
 CurrentVersion: "4"
 CurrentVersionCode: 4
-Description: <p>Avoid using XposedBridge.log for non-error message</p>
+Description: |
+    <h1>KillDomainVerification</h1>
+    <p>Related: <a href="https://developer.android.com/training/app-links/verify-site-associations">https://developer.android.com/training/app-links/verify-site-associations</a> <a href="https://developer.android.com/about/versions/12/web-intent-resolution">https://developer.android.com/about/versions/12/web-intent-resolution</a></p>
+    <p>This xposed module prevents the system (and also yourself) from allowing apps to always open supported links.</p>
+    <p>It also enables you to open supported links in apps which are not “verified” on Android 12 and above.</p>
+    <p>模块功能：打开 http / https 链接时总是询问，而不是直接在 app 中打开</p>
+    <p>副作用：手动设也没法直接用应用打开链接；Android 12+ 选择时会同时显示未“验证”的 app</p>
+    <p>理论支持 Android 6 及以后</p>
+    <h2>Screenshots</h2>
+    <h3>Android 11 and below</h3>
+    <p><img src="https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot1.png?raw=true" alt="screenshot1" /></p>
+    <h3>Android 12 and above</h3>
+    <p><img src="https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot2.png?raw=true" alt="screenshot2" /> <img src="https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot3.png?raw=true" alt="screenshot3" /></p>
 IssueTracker: ""
 Name: Kill Domain Verification
 SourceCode: https://github.com/Xposed-Modules-Repo/moe.henry_zhr.kill_domain_verification

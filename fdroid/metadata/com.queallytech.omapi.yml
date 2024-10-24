@@ -3,7 +3,17 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: <p>first release</p>
+Description: |
+    <h1>OMAPI Bypass</h1>
+    <p><img src="https://img.shields.io/github/downloads/QueallyTech/OMAPI-Bypass/total?label=Main%20Repo%20Downloads" alt="Main Downloads" /> <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.queallytech.omapi/total?label=Xposed%20Repo%20Downloads" alt="Xposed Downloads" /><br />
+    <strong>USE AT YOUR OWN RISK</strong><br />
+    <strong>Need Xposed</strong><br />
+    Bypass ARA,ARF limit in <code>AccessControlEnforcer</code> and grant FullAccess.</p>
+    <p><strong>How it works</strong><br />
+    It hooks <code>com.android.se.security.AccessControlEnforcer.readSecurityProfile</code>, disables <code>mUseArf</code> and <code>mUseAra</code>, and grants <code>mFullAccess</code>.<br />
+    Note: You may need to kill <code>com.android.se</code> by running <code>su -c killall com.android.se</code> in adb shell to activate it.</p>
+    <p>Logcat TAG: <code>OMAPI-Bypass</code><br />
+    see: <a href="https://cs.android.com/android/platform/superproject/main/+/main:packages/apps/SecureElement/src/com/android/se/security/AccessControlEnforcer.java;l=129">AccessControlEnforcer.java</a></p>
 IssueTracker: ""
 Name: OMAPI Bypass
 SourceCode: https://github.com/Xposed-Modules-Repo/com.queallytech.omapi

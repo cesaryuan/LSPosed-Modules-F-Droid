@@ -3,12 +3,9 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1_c12.1.17.0
 CurrentVersionCode: 2
-Description: |-
-    <ul>
-    <li>base samsung clock app 12.1.17.0</li>
-    <li>基于三星时钟12.1.17.0进行适配</li>
-    <li>新版本时钟app代码有混淆，现在改为hook底层一点的api: AudioManager.class，伪装没有占用麦克风</li>
-    </ul>
+Description: |
+    <p>三星OneUI时钟app在响铃前会对通话状态进行检测，如果检测到在通话中则不会响铃，此模块可以解除网络通话中闹钟不提醒不响铃的限制(QQ、微信)，原理是简单的hook了app里对通话状态的检测函数的返回值。</p>
+    <p>作用域：默认即可</p>
 IssueTracker: ""
 Name: Samsung-ClockFix
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.yhfcn.samsung_clockfix

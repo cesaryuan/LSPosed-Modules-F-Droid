@@ -3,7 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 4
-Description: <p>只处理应用程序窗口（APPLICATION_WINDOW）</p>
+Description: |
+    <h1>BCRfullscreen</h1>
+    <p>让BCR/PCR最新版全屏显示</p>
+    <h2><a href="https://github.com/KitsunePie/BCRfullscreen/releases/">下载</a></h2>
+    <blockquote>
+    <p><a href="https://github.com/KitsunePie/BCRfullscreen/releases/download/1.3/app-release.apk"><img src="https://img.shields.io/badge/APK-v1.3-brightgreen" alt="APK: v1.3" /></a>
+    <img src="https://img.shields.io/github/downloads/KitsunePie/BCRfullscreen/total?color=blue" alt="Download-Count" /></p>
+    </blockquote>
+    <h2>支持设备:</h2>
+    <p>安卓p(9.0)以上</p>
+    <h2>使用:</h2>
+    <ul>
+    <li>LSPosed:
+    <ul>
+    <li>启用模块</li>
+    <li>选择 <code>系统框架</code></li>
+    <li>重启手机</li>
+    </ul>
+    </li>
+    </ul>
 IssueTracker: ""
 Name: BCR/PCR强制全屏(BCRfullscreen)
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ketal.bcrfullscreen

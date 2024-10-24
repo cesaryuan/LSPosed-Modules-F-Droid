@@ -3,9 +3,14 @@ Categories:
     - Xposed
 CurrentVersion: 1.2_DisableUpdate
 CurrentVersionCode: 3
-Description: |-
-    <p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>
-    <p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>
+Description: |
+    <h1>smobajump</h1>
+    <h2>关于模块</h2>
+    <p>没啥，就跳过王者营地的那个启动动画和推广的界面，能从原本的十几秒缩短到3s左右（我自己手机测试的）</p>
+    <p>版本号带“DisableUpdate”的是关闭启动时的检查更新。想要自动更新的请安装普通版</p>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.bit747.smobajump/releases">Release</a></p>
+    <p>开放代码<a href="https://github.com/Thiasap/smobajump">源码</a></p>
 IssueTracker: ""
 Name: smobajump
 SourceCode: https://github.com/Xposed-Modules-Repo/com.bit747.smobajump

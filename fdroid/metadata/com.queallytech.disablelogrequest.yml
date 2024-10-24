@@ -3,7 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: <p>first release</p>
+Description: |
+    <h1>DisableLogRequest</h1>
+    <p><strong>Need Xposed</strong><br />
+    Automatic approve for app to access device logs (Android 13+)</p>
+    <p><strong>How it works</strong><br />
+    it hook <code>com.android.server.logcat.LogcatManagerService</code> and call <code>onAccessApprovedForClient</code> on every request<br />
+    Note: No activity will be started and the timer limit will not be bypassed.</p>
+    <p>Logcat TAG: <code>DisableLogsRequest</code><br />
+    see: <a href="https://cs.android.com/android/platform/superproject/+/master:frameworks/base/services/core/java/com/android/server/logcat/LogcatManagerService.java">LogcatManagerService.java</a> and <a href="https://cs.android.com/android/platform/superproject/+/master:frameworks/base/core/java/com/android/internal/app/LogAccessDialogActivity.java">LogAccessDialogActivity.java</a></p>
 IssueTracker: ""
 Name: 禁用日志访问请求(DisableLogRequest)
 SourceCode: https://github.com/Xposed-Modules-Repo/com.queallytech.disablelogrequest

@@ -3,14 +3,18 @@ Categories:
     - Xposed
 CurrentVersion: 0.2.0
 CurrentVersionCode: 5
-Description: |-
+Description: |
+    <h1>NfcNci Patience</h1>
+    <p>Add a delay (1000ms by default) to the NFC presence check to accommodate longer NFC smart card operations in AOSP NfcNci implementation on certain devices (see <a href="https://gitlab.com/LineageOS/issues/android/-/issues/7268">LineageOS issue #7268</a>)</p>
+    <p>This bug —which may sound obscure at first, plagues several apps e.g. the German eID app and most of Indonesian electronic pass (Mandiri e-money, BCA Flazz, etc) recharge apps (failure upon balance update) due to those apps not having sufficient <a href="https://developer.android.com/reference/android/nfc/NfcAdapter#EXTRA_READER_PRESENCE_CHECK_DELAY"><code>EXTRA_READER_PRESENCE_CHECK_DELAY</code></a> value, which results in the NFC service’s assumption that the smart card has been lost.</p>
+    <h2>Setup</h2>
     <ul>
-    <li>Add a settings interface which allows configuration for the timeout value</li>
+    <li>Install this module</li>
+    <li>Enable this module and ensure that “Nfc Service” (the <code>com.android.nfc</code> package) is added to the scope</li>
+    <li>Reboot the device for the module to take effect</li>
     </ul>
-    <hr>
-    <p>Remember to reboot the device after activating/updating this module</p>
-    <hr>
-    <p>Source code for this release is available at: <a href="https://github.com/rmnscnce/NfcNci_Patience/tree/dceaae6">https://github.com/rmnscnce/NfcNci_Patience/tree/dceaae6</a></p>
+    <h2>Configuration</h2>
+    <p>You can use the provided settings interface to tune the presence check timeout to your needs, provided that they’re a whole number ranging from 125 to 5000. You do <em>not</em> need to reboot your device for the change to take effect.</p>
 IssueTracker: ""
 Name: NfcNci Patience
 SourceCode: https://github.com/Xposed-Modules-Repo/id.my.pjm.toys.nfcnci_patience

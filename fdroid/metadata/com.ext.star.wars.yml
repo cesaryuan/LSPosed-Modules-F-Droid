@@ -3,12 +3,24 @@ Categories:
     - Xposed
 CurrentVersion: 3.8.80
 CurrentVersionCode: 308080
-Description: |-
+Description: |
+    <h1>大圣净化</h1>
+    <p>全方位去除广告应用</p>
     <ol>
-    <li>同步一指禅更新</li>
-    <li>支持粘贴坐标</li>
-    <li>支持 LibChecker，可以直接添加 Block 的组件</li>
+    <li>跳过/替换广告页面</li>
+    <li>屏蔽广告 View</li>
+    <li>Url 拦截</li>
+    <li>自定义 Hook</li>
+    <li>广告文件替换</li>
+    <li>系统 hosts 替换</li>
     </ol>
+    <p>公众号: Android应用链</p>
+    <h2>官网</h2>
+    <p>使用教程 - <a href="http://wiki.ad-gone.com/">http://wiki.ad-gone.com/</a></p>
+    <h2>下载</h2>
+    <p>应用下载 - <a href="https://wiki.ad-gone.com/adWars.html">https://wiki.ad-gone.com/adWars.html</a></p>
+    <h2>Telegram</h2>
+    <p>交流 - <a href="https://t.me/adwars">https://t.me/adwars</a></p>
 IssueTracker: ""
 Name: 大圣净化
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ext.star.wars

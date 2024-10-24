@@ -3,37 +3,89 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 200
-Description: |-
-    <h4>Update Log</h4>
+Description: |
+    <h1>R-Pointer</h1>
+    <p>This module is for modifying the icon of the mouse pointer</p>
+    <p>English | <a href="https://github.com/hujiayucc/R-Pointer/blob/master/README-zh_CN.md">简体中文</a></p>
+    <h2>Features</h2>
     <ul>
-    <li>Added more PointerIcons</li>
-    <li>Optimized the color of PointerIcons</li>
-    <li>Introduced a new hooker module</li>
-    <li>Optimized several aspects of the code</li>
-    <li>Improved the logic of Language Checks</li>
-    <li>Provided support for the Chinese Language</li>
-    <li>Integrated Custom Theme Colors</li>
-    <li>Implemented a transparent status bar</li>
-    <li>Introduced a transparent navigation bar</li>
-    <li>Enhanced the style of the theme</li>
-    <li>Added a new Icon List</li>
-    <li>Fix Bugs</li>
+    <li>Provides a custom mouse pointer icon feature.</li>
+    <li>Provides multiple preset mouse pointer icons for users to choose from. (Under development)</li>
     </ul>
-    <h4>更新日志</h4>
+    <h2>How to Use</h2>
+    <ol>
+    <li>Install the LSPosed framework.</li>
+    <li>Download and install this module.</li>
+    <li>Enable this module in the LSPosed framework.</li>
+    <li>Check the scope in the LSPosed framework.</li>
+    <li>Restart the application.</li>
+    </ol>
+    <h2>Developer</h2>
+    <p>hujiayucc</p>
+    <h2>Development Frameworks</h2>
     <ul>
-    <li>新增 更多的PointerIcon</li>
-    <li>优化 PointerIcon颜色</li>
-    <li>新增 Hooker模块</li>
-    <li>优化 若干代码逻辑</li>
-    <li>优化 语言切换逻辑</li>
-    <li>新增 中文语言支持</li>
-    <li>新增 自定义主题颜色</li>
-    <li>新增 透明状态栏</li>
-    <li>新增 透明导航栏</li>
-    <li>优化 主题样式</li>
-    <li>新增 图标列表</li>
-    <li>修复 若干Bug</li>
+    <li><a href="https://github.com/HighCapable/YukiHookAPI/">YukiHookAPI</a></li>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></li>
+    <li><a href="https://api.xposed.info/reference/packages.html">Xposed</a></li>
     </ul>
+    <h2>Supported Environments</h2>
+    <ul>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></li>
+    <li><a href="https://github.com/LSPosed/LSPatch">LSPatch</a></li>
+    <li>For others, please test yourself</li>
+    </ul>
+    <h2>Core Code</h2>
+    <pre lang="kotlin"><code>ActivityClass.method {
+        name = &quot;onCreate&quot;
+        param(BundleClass)
+    }.hook {
+        after {
+            if (YukiHookAPI.Configs.isDebug) YLog.debug(&quot;Start hook packageName: $packageName&quot;)
+            bitmap = ResourcesCompat.getDrawable(moduleAppResources, R.drawable.pointer_arrow, moduleAppResources.newTheme())?.toBitmap()
+            // activity.setIcon(fileDir ,bitmap)
+        }
+    }
+
+    ViewClass.method {
+        name = &quot;onResolvePointerIcon&quot;
+    }.hook {
+        YLog.Configs.isEnable = false
+        before {
+            bitmap?.let { result = PointerIcon.create(it,0f,0f) }
+        }
+    }
+
+    // It can also be done this way
+    private fun Activity.setIcon(fileDir: File, bitmap: Bitmap?) {
+        if (bitmap == null) return
+        val configFile = File(fileDir,&quot;config.conf&quot;)
+        val pointerIcon = PointerIcon.create(bitmap,0f,0f)
+        window.decorView.setOnHoverListener { _, _ -&gt;
+            window.decorView.pointerIcon = pointerIcon
+            true
+        }
+    }
+    </code></pre>
+    <h2>License</h2>
+    <ul>
+    <li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a></li>
+    </ul>
+    <pre><code>Apache License Version 2.0
+
+    Copyright (C) 2023 hujiayucc
+
+    Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        https://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </code></pre>
 IssueTracker: ""
 Name: R-Pointer
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hujiayucc.rpointer

@@ -3,6 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "2"
 CurrentVersionCode: 2
+Description: |
+    <h1>长按复制链接</h1>
+    <h2>用于提取App中内嵌网页的链接地址</h2>
+    <h3>请勾选自己需要提取链接的应用</h3>
+    <h3>在WebView上长按即可复制链接到粘贴板</h3>
 IssueTracker: ""
 Name: 长按复制链接
 SourceCode: https://github.com/Xposed-Modules-Repo/com.jy.xp.lk

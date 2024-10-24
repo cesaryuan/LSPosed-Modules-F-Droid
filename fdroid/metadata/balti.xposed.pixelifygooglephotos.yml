@@ -3,11 +3,32 @@ Categories:
     - Xposed
 CurrentVersion: "4.1"
 CurrentVersionCode: 5
-Description: |-
-    <ul>
-    <li>Update app icon</li>
-    <li>Update app name</li>
-    </ul>
+Description: |
+    <h1>Pixelify-Google-Photos</h1>
+    <p>LSPosed / EdXposed module to add Google Pixel features on Google Photos for any device.<br />
+    Tested on EdXposed by <a href="https://github.com/MlgmXyysd">Jim Wu</a></p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/balti.xposed.pixelifygooglephotos.git">LSPosed module repo</a><br />
+    <a href="https://github.com/BaltiApps/Pixelify-Google-Photos.git">Development repo</a></p>
+    <p><a href="https://t.me/pixelifyGooglePhotos">Telegram group link</a></p>
+    <h3>Steps to use:</h3>
+    <ol>
+    <li>Install Magisk, <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> Or <a href="https://github.com/ElderDrivers/EdXposed">EdXposed</a>.</li>
+    <li>Install the apk of this app (available from <a href="https://github.com/BaltiApps/Pixelify-Google-Photos/releases">Releases</a> page.)</li>
+    <li>Open LSPosed / EdXposed app and enable the module. For LSPosed, Google Photos will be automatically selected.</li>
+    <li>Reboot. Enjoy. (If needed, you might need to clear data of Google Photos app).</li>
+    </ol>
+    <h3>How does this module work?</h3>
+    <p>It simply hooks on to <code>hasSystemFeature()</code> method under <code>android.app.ApplicationPackageManager</code> class.
+    Then when Google Photos checks the relevant features which are expected only on Pixel devices, the module passes <code>true</code>.
+    Thus Google Photos enables Pixel-Exclusive features.<br />
+    The features being “spoofed” can be found from:<br />
+    <a href="https://github.com/DotOS/android_vendor_dot/blob/55f1c26bb6dbb1175d96cf538ae113618caf7d06/prebuilt/common/etc/pixel_2016_exclusive.xml">Dot OS sources</a><br />
+    <a href="https://github.com/ayush5harma/PixelFeatureDrops/tree/master/system/etc/sysconfig">PixelFeatureDrops magisk module</a><br />
+    This module can also spoof some of the <code>build.prop</code> information like <code>BRAND</code>, <code>MANUFACTURER</code>, <code>MODEL</code>, <code>FINGERPRINT</code> of some Pixel devices.</p>
+    <h3>Disclaimer!!</h3>
+    <p>The user takes sole responsibility for any damage that might arise due to use of this module.<br />
+    This includes physical damage (to device), injury, data loss, and also legal matters.<br />
+    This project was made as a learning initiative and the developer cannot be held liable in any way for the use of it.</p>
 IssueTracker: ""
 Name: Pixelify GPhotos
 SourceCode: https://github.com/Xposed-Modules-Repo/balti.xposed.pixelifygooglephotos

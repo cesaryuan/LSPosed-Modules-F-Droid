@@ -3,7 +3,27 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.2
 CurrentVersionCode: 2
-Description: <p>support Android 8.1 +</p>
+Description: |
+    <h1>DoNotTryAccessibility</h1>
+    <p>Hook System Framework 让应用认为没有开启无障碍服务</p>
+    <p><a href="https://github.com/Nitsuya/DoNotTryAccessibility"><img src="https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github" alt="DoNotTryAccessibility" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility" alt="GitHub Release" /></a>
+    <img src="https://img.shields.io/badge/Xposed-Module-blue" alt="Xposed Module" />
+    <a href="https://github.com/nitsuya/DoNotTryAccessibility/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nitsuya/DoNotTryAccessibility" alt="License" /></a>
+    <img src="https://img.shields.io/badge/Android%20SDK-%3E%3D%2027-brightgreen?logo=android" alt="Android SDK min 27" />
+    <img src="https://img.shields.io/badge/Android%20SDK-target%2034-brightgreen?logo=android" alt="Android SDK target 34" /></p>
+    <hr />
+    <p>针对读取你无障碍服务的<code>[!@#$%^&amp;*]</code>应用, 让它认为你没有开启无障碍!!</p>
+    <p>被阻止的应用不再享有被读取的功能! Android Client SDK 设计如此, 如果你既要又要, 请自行研究!!</p>
+    <h2>Thanks</h2>
+    <h3>库</h3>
+    <p><a href="https://github.com/AoEiuV020/IAmNotDisabled">IAmNotDisabled</a></p>
+    <p><a href="https://github.com/KitsunePie/AppErrorsTracking">AppErrorsTracking</a></p>
+    <p><a href="https://github.com/HighCapable/YuKiHookAPI">YuKiHookAPI</a></p>
+    <p><a href="https://github.com/HighCapable/SweetDependency">SweetDependency</a></p>
+    <p><a href="https://source.android.com/">AOSP</a></p>
+    <p><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></p>
+    <p><a href="https://material.io/">Material</a></p>
 IssueTracker: ""
 Name: DoNotTryAccessibility
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility

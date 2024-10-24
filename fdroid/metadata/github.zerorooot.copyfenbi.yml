@@ -3,9 +3,7 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.2
 CurrentVersionCode: 5
-Description: |-
-    <p>仅支持6.17.4</p>
-    <p>支持跳过首页广告、解析视频隐藏、评论过滤</p>
+Description: "<h1>CopyFenBiComment</h1>\n<p>复制粉笔app用户的评价到剪贴板中（长按评价）</p>\n<h1>下载地址</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi/releases\">https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi/releases</a></p>\n<h1>其他小功能</h1>\n<h2>跳过首页广告（默认开启）</h2>\n<h2>隐藏解析视频（默认关闭）</h2>\n<h3>介绍</h3>\n<p>将答案解析视频隐藏</p>\n<h3>开启</h3>\n<p>在<code>/sdcard/Android/</code>下新建一个名为<code>sp</code>文件。</p>\n<h2>评论过滤（默认关闭）</h2>\n<h3>介绍</h3>\n<p>当评论中出现“上岸”或“点赞”关键字时，从以下文本中随机挑选一个进行替换</p>\n<pre lang=\"text\"><code>老师讲的真好\n清晰明了\n很棒棒\n满分！\n\U0001F44D\U0001F44D\U0001F44D\U0001F44D\n懂了\n拓展的很好\n老师讲的挺好 咬字清晰 语速适当 爱了 爱了\n下次还错-.-\n吃了没文化的亏\n基础不牢，地动山摇\n不拖泥带水 很好\n赞！\n讲的很清晰明了，可以加鸡腿了\n满分\n负责的老师\n老喜欢这个老师了！讲的真好\n讲解得非常全面\n讲的很好，学到了一些不知道的知识\n老师讲的很好！！\n我对了,我蒙的\n每次最痛苦的就是二选一，最最痛苦的就是每次二选一都选错ᇂ_ᇂ\n真好，拓展了很多知识\n眼瞎的集合\n不错！全讲到了！棒棒棒！\n好\n</code></pre>\n<h3>开启</h3>\n<p>在<code>/sdcard/Android/</code>下新建一个名为<code>dz</code>文件。</p>\n<h1>注意</h1>\n<p>当前版本(1.2.2)仅支持粉笔app<strong>6.17.4</strong>。</p>\n<p>粉笔app<strong>6.16.54</strong>请使用1.2.1</p>\n<p>粉笔app<strong>6.16.37</strong>、<strong>6.16.39.32</strong>请使用1.1</p>\n"
 IssueTracker: ""
 Name: 复制粉笔评论/CopyFenBiComment
 SourceCode: https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi

@@ -3,7 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 100
-Description: <p>Initial release</p>
+Description: |
+    <h1>Healergram</h1>
+    <p>An Xposed module to heal your Telegram addiction.</p>
+    <p>Completely removes “Archived Chats” button and pull-down gesture from your dialogs list. All chats are still available via search.</p>
+    <h3>See Also</h3>
+    <ul>
+    <li><a href="https://github.com/shatyuka/Killergram">Killergram</a> removes sponsored messages from Telegram. Thanks for the complete list of Telegram forks!</li>
+    <li><a href="https://github.com/droserasprout/com.github.droserasprout.lockscreencamera">Secure Lockscreen Camera</a> is my module to allow spawning non-default cameras from lockscreen.</li>
+    </ul>
 IssueTracker: ""
 Name: Healergram
 SourceCode: https://github.com/Xposed-Modules-Repo/com.droserasprout.healergram

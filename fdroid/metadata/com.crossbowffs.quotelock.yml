@@ -3,14 +3,31 @@ Categories:
     - Xposed
 CurrentVersion: 1.4.0
 CurrentVersionCode: 11
-Description: |-
+Description: |
+    <h1>QuoteLock</h1>
+    <p><a href="https://i.imgur.com/EXzpNWA.jpg">Displays quotes on your phone lockscreen!</a> Why, you ask? Well, why not?!</p>
+    <p><strong>PLEASE READ BEFORE INSTALLING:</strong></p>
+    <p><strong>Only near-AOSP Android ROMs (e.g. Nexus, Moto, OnePlus) are supported!</strong> This is due to the heavy modifications that many OEMs make to the lockscreen. Feel free to try it on your phone, but don’t be surprised if the layout is broken.</p>
+    <p><strong>After installing, please open the app at least once</strong> to allow the quote downloader service to run in the background.</p>
+    <p><strong>If you are using Prevent Running (阻止运行/ForceStopGB) or other task killing apps, you must whitelist QuoteLock!</strong> Otherwise, you may experience problems with the quote not refreshing or failing to load.</p>
+    <p>Supported quote sources:</p>
     <ul>
-    <li>Update URLs</li>
-    <li>Added BrainyQuote source (thanks to <a href="https://github.com/Hual">Hual</a>)</li>
-    <li>Fixed Natune.net source (thanks to <a href="https://github.com/natnet00">natnet00</a>)</li>
-    <li>Fixed Wikiquote source</li>
+    <li><a href="http://vnaas.apsun.xyz/">Visual Novel as a Service (日本語)</a></li>
+    <li><a href="https://blog.lwl12.com/read/hitokoto-api.html">Hitokoto (unofficial) (中文)</a></li>
+    <li><a href="https://www.goodreads.com/">Goodreads QotD (English)</a></li>
+    <li><a href="https://www.wikiquote.org/">Wikiquote QotD (中文)</a></li>
+    <li><a href="https://freakuotes.com/">Freakuotes (Español)</a></li>
+    <li><a href="https://natune.net/zitate/">Natune.net (Deutsch)</a></li>
+    <li><a href="https://www.brainyquote.com/">BrainyQuote (English)</a></li>
+    <li>None of these fit you? You can even write your own!</li>
     </ul>
-    <p>Apologies for the really long update delay, I've been really busy with school. In other news, Visual Novel as a Service has migrated to Google App Engine. If you experience refreshing errors, try flushing your DNS cache.</p>
+    <p>Author(s): <a href="https://repo.xposed.info/users/crossbowffs">crossbowffs</a> <br />
+    Support/Discussion URL:
+    <a href="https://github.com/apsun/QuoteLock">https://github.com/apsun/QuoteLock</a> <br />
+    Source code URL:
+    <a href="https://github.com/apsun/QuoteLock">https://github.com/apsun/QuoteLock</a> <br />
+    Package:
+    <a href="https://github.com/Xposed-Modules-Repo/com.crossbowffs.quotelock/releases/tag/1.4.0">com.crossbowffs.quotelock</a></p>
 IssueTracker: ""
 Name: QuoteLock
 SourceCode: https://github.com/Xposed-Modules-Repo/com.crossbowffs.quotelock

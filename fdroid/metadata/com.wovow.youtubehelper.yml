@@ -3,9 +3,38 @@ Categories:
     - Xposed
 CurrentVersion: 5.3.0
 CurrentVersionCode: 20240916
-Description: |-
-    <p>[新版本适配YouTube 18.48.37-19.35.x、YouTube Music 6.13.x]<br>
-    [The new version is compatible with YouTube 18.48.37-19.35.x, YouTube Music 6.13.x</p>
+Description: |
+    <h1>YouTube去广告，锁屏播放 | NoAdsBackgroundPlaybackYT</h1>
+    <p>YouTube去广告，后台播放，息屏播放</p>
+    <h2>介绍:</h2>
+    <ul>
+    <li>删除YouTube中几乎所有的广告，包括视频播放过程中的广告，实现全程无广告观看视频</li>
+    <li>基于特征码定位广告信息，实现自动适配新版本的YouTube，无需担心升级后功能失效</li>
+    <li>实现后台播放，关闭屏幕播放，极致省电</li>
+    </ul>
+    <h2>如何安装:</h2>
+    <ul>
+    <li>安装 Xposed Installer 应用程序</li>
+    <li>安装 Xposed框架</li>
+    <li>安装 NoAds-For-YouTube 应用程序</li>
+    <li>打开 Xposed Installer 应用程序, 并启用我的应用程序</li>
+    <li>重启手机</li>
+    <li>运行我的应用程序并给它SDCard读/写权限，因为自我升级的时候需要它们。</li>
+    </ul>
+    <h2>报告一个Bug：</h2>
+    <p>1- 告诉我您的手机型号，系统版本，YouTube版本
+    2- 创建一个issue，并上传错误日志，<a href="https://github.com/ohyeah521/NoAds-For-YouTube/issues/new">https://github.com/ohyeah521/NoAds-For-YouTube/issues/new</a></p>
+    <p>请使用低调, 为了避免去除广告的方法是被针对, 所以源代码暂时不是开源的。</p>
+    <h2>关于捐赠</h2>
+    <p>这是一个体力型技术劳动，需要花一些时间和经历在上面，之前很多人因为没有经历继续做，所以大部分YouTube去广告的插件都不能使用了。这个项目或者我个人可以帮助到你， 你可以自愿的支付一部分费用来支持它。</p>
+    <p>捐赠的费用将用于购买域名和服务器，这样后续的版本升级会高效很多，当然，也包括我累了买一杯咖啡 coffee。</p>
+    <p>PayPal捐赠 <a href="https://paypal.me/wovow">https://paypal.me/wovow</a></p>
+    <p>微信二维码：
+    <img src="https://github.com/ohyeah521/NoAds-For-YouTube/raw/master/wechat.jpg" alt="Image text" /></p>
+    <p>支付宝二维码：
+    <img src="https://github.com/ohyeah521/NoAds-For-YouTube/raw/master/ali.jpg" alt="Image text" /></p>
+    <p>红包：
+    <img src="https://github.com/ohyeah521/NoAds-For-YouTube/raw/master/hongbao.jpg" alt="Image text" /></p>
 IssueTracker: ""
 Name: YouTube去广告，锁屏播放 | NoAdsBackgroundPlaybackYT
 SourceCode: https://github.com/Xposed-Modules-Repo/com.wovow.youtubehelper

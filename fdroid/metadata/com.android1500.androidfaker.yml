@@ -3,12 +3,44 @@ Categories:
     - Xposed
 CurrentVersion: 1.9.2
 CurrentVersionCode: 10902
-Description: |-
-    <ul>
-    <li>Fixed backup and restore failed</li>
-    <li>Fixed VIP not recognized</li>
-    <li>More bugs fixed</li>
-    </ul>
+Description: |
+    <h1>Android Faker [XPOSED]</h1>
+    <h2><a href="https://github.com/Android1500/AndroidFaker">Source link</a></h2>
+    <p><a href="https://t.me/androidfakerofficial"><img src="https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram" alt="Channel" /></a>
+    <a href=""><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.android1500.androidfaker/total.svg" alt="Github All Releases" /></a>   <a href="https://github.com/Xposed-Modules-Repo/com.android1500.androidfaker/stargazers"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.android1500.androidfaker" alt="GitHub stars" /></a></p>
+    <p><img src="https://github.com/Android1500/AndroidFaker/blob/main/banner.png" alt="" /></p>
+    <h3>Support/Discussion: <a href="https://forum.xda-developers.com/t/app-xposed-5-0-11-x-android-faker-a-module-for-spoof-your-device.4284233/">XDA thread</a></h3>
+    <p>So i was try to learn About Xposed Framwork more Deep then i was think why should not try for make my own module so i started work on it and try to learn things how xposed framworks works and how xposed framework hook into system then after learning i made this app its a simple xposed module which will help you to spoof your device ids so you can save your real ids and Android Faker Aim Is To Spoof The Values From Third Party Apps Which Tracks Users And Their Personal Data</p>
+    <h4>Compatibility:</h4>
+    <p>This Module will Support Android 8.1 +</p>
+    <h4>Features:</h4>
+    <p>-&gt; Edit\Random Value. <br />
+    -&gt; Random All Value by 1 Click <br />
+    -&gt; Beautiful Material Design UI  <br /></p>
+    <h4>This Module Spoof These Ids:</h4>
+    <p>-&gt; Imei <br />
+    -&gt; Hardware Id<br />
+    -&gt; Mac Address <br />
+    -&gt; Mac Bssid <br />
+    -&gt; Mac Ssid <br />
+    -&gt; Bluetooth Mac<br />
+    -&gt; Android Id <br />
+    -&gt; Sim Serial Id <br />
+    -&gt; Sim Sub Ids <br />
+    -&gt; Mobile No  <br />
+    -&gt; MediaDrm ID  <br />
+    -&gt; Sim Operator  <br /></p>
+    <h4>!!..REQUIREMENT..!!</h4>
+    <p>-&gt; Rooted Device <br /></p>
+    <p>-&gt; Xposed Framework Installed<br /></p>
+    <h4>Special Thanks:</h4>
+    <p><a href="https://github.com/Mikanoshi">Mikanoshi</a> - for help me and make preference readable. <br />
+    <a href="https://github.com/C3C0">C3C0</a> - for teach me about selinux security. <br /></p>
+    <h4>Note :-  This Module never change real ids so don’t ask Can i spoof my service providers and do anything wrong or right and they will never trace you.</h4>
+    <h4>Disclaimer:- The Author and Contributors of Android Faker take no responsibility for damage to your device or any other consequences that arise as a result of using this application So use your own Risk.</h4>
+    <h2>License</h2>
+    <p><a href="https://www.gnu.org/licenses/gpl-3.0.txt">GNU General Public License version 3</a></p>
+    <p>Android Faker is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
 IssueTracker: ""
 Name: 'Android Faker '
 SourceCode: https://github.com/Xposed-Modules-Repo/com.android1500.androidfaker

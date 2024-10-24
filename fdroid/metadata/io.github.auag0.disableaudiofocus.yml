@@ -3,11 +3,18 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 100000
-Description: |-
-    <p>remake<br>
-    implemented disable audio focus for all apps<br>
-    optimize apk<br>
-    sign the apk</p>
+Description: |
+    <h1>DisableAudioFocus</h1>
+    <p>By disabling audio focus with this module, you can simultaneously play multiple videos and audios<br />
+    このモジュールで音声フォーカスを無効化することで複数の動画や音声を同時で再生出来るようにします</p>
+    <h2>usage</h2>
+    <ol>
+    <li>Download the APK(<a href="https://github.com/auag0/DisableAudioFocus/releases/latest">here</a>) and install APK on device</li>
+    <li>Enable the module in xposed or LSPosed</li>
+    <li>To disable voice focus for all apps, select Recommended</li>
+    <li>To disable voice focus for specific apps, deselect Recommended and select the apps you want to disable</li>
+    <li>Reboot</li>
+    </ol>
 IssueTracker: ""
 Name: DisableAudioFocus
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.auag0.disableaudiofocus

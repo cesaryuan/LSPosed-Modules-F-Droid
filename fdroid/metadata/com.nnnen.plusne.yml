@@ -3,21 +3,60 @@ Categories:
     - Xposed
 CurrentVersion: 6.5.6
 CurrentVersionCode: 685
-Description: |-
-    <p>[修复]微信 通讯录长按无密友菜单<br>
-    [新增]抖音极速版 隐藏底部红包<br>
-    [适配]Soul 5.9.1(23122606)<br>
-    [适配]抖音 28.4.0(280401)<br>
-    [适配]抖音极速版 28.4.0(280401)<br>
-    [适配]快手 12.0.10.34804(34804)<br>
-    [适配]快手极速版 12.0.10.7168(7168)<br>
-    [适配]七猫免费小说 7.40(74000)<br>
-    [适配]皮皮搞笑 2.92.0(2920000)<br>
-    [适配]小红书 8.20.0(8200552)<br>
-    [适配]最右 6.0.9(600090)<br>
-    [适配]西瓜视频 8.1.8(818)<br>
-    [适配]皮皮虾 4.9.0(490)<br>
-    [公告]7.0正在开发中,进度百分之70左右,敬请期待</p>
+Description: |
+    <h1>PlusNE(6.*)</h1>
+    <br>
+    帮助文档:https://www.nnnen.com/forums?index=3
+    <br>
+    支持的功能列表: https://pay.nnnen.com/index.html#/pages/index/set
+    <br>
+    PlusNE 7+版本 https://github.com/Xposed-Modules-Repo/me.plusne
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.nnnen.plusne">   <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.nnnen.plusne/total">
+    <p><br>新增微信密友(8.0.43或以上可用)
+    <br>功能列表
+    <br>-&gt;管理密友列表           -&gt;隐藏通讯录
+    <br>-&gt;显示所有密友           -&gt;隐藏聊天窗口
+    <br>-&gt;隐藏所有密友           -&gt;隐藏搜索记录
+    <br>-&gt;锁屏自动隐藏           -&gt;隐藏添加好友
+    <br>-&gt;进入后台自动隐藏       -&gt;隐藏朋友圈
+    <br>-&gt;快捷隐藏按钮名称       -&gt;隐藏语音通话
+    <br>-&gt;伪造聊天窗口详情消息   -&gt;隐藏视频通话
+    <br>-&gt;隐藏通讯录            -&gt;隐藏个人中心
+    <br>-&gt;设置密友密码          -&gt;双击快捷操作(隐藏显示密友)
+    <br>-&gt;自动关闭聊天窗口      -&gt;设置快捷操作密码</p>
+    <br>
+    https://img.nnnen.com/QQ%E5%BD%95%E5%B1%8F20230514145440.mp4
+    <br>
+    <p>现阶段支持 <br><br>
+    1.soul<br>
+    2.TikTok(免费使用功能 解除网络限制)<br>
+    3.七猫免费小说<br>
+    4.微信<br>
+    5.微博<br>
+    6.快手<br>
+    7.快手极速版<br>
+    8.抖音<br>
+    9.抖音极速版<br>
+    10.最右<br>
+    11.番茄免费小说<br>
+    12.百度贴吧<br>
+    13.皮皮虾<br>
+    14.西瓜视频<br>
+    15.MOMO陌陌<br>
+    16.皮皮搞笑<br>
+    17.MX Player Pro(免费使用)<br>
+    18.ES File Explorer<br>
+    19.小红书<br></p>
+    <p>使用方法</p>
+    <p>在框架中勾选PlusNE,并且设置作用域
+    <br>
+    1.进入抖音\抖音极速版等
+    <br>
+    2.打开设置页面
+    <br>
+    3.拉到最下面点击PlusNE版本信息即可</p>
+    <h3>交流</h3>
+    <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
 IssueTracker: ""
 Name: PlusNE
 SourceCode: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne

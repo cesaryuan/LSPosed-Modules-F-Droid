@@ -3,9 +3,20 @@ Categories:
     - Xposed
 CurrentVersion: "1.8"
 CurrentVersionCode: 1169
-Description: |-
-    <p>1.读取配置更快<br>
-    2.水印设置大小时最低只能为1</p>
+Description: |
+    <h1>waterMark</h1>
+    <p>已经开源，欢迎交流
+    <a href="https://github.com/1248774172/WaterMark">https://github.com/1248774172/WaterMark</a></p>
+    <h2>使用方法</h2>
+    <p>1.下载模块并在LSPosed中激活本模块 作用域需要勾选”系统框架“  第一次激活需要重启一次手机</p>
+    <p>2.LSPosed中 模块作用域勾选要增加水印的app</p>
+    <p>3.进入模块 右下角增加配置 设置水印名称、大小、旋转角度、应用APP等信息</p>
+    <p>4.杀死目标应用进程，重新启动即可使用</p>
+    <h2>注意</h2>
+    <p>LSposed和模块配置中都需要勾选要增加水印的app</p>
+    <p>比如想在微信上增加水印，lsposed中模块设置里勾选微信，模块里增加配置时在”生效应用“中也勾选微信</p>
+    <h2>issue</h2>
+    <p>如果有问题，欢迎反馈！如果有想要增加的功能，也可以提一下 感谢！</p>
 IssueTracker: ""
 Name: 水印/waterMark
 SourceCode: https://github.com/Xposed-Modules-Repo/com.xiaoer.watermark

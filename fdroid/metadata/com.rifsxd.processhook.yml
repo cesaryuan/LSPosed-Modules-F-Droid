@@ -3,25 +3,127 @@ Categories:
     - Xposed
 CurrentVersion: 1.3.0
 CurrentVersionCode: 4
-Description: |-
-    <p>Process Hook</p>
+Description: |
+    <h1>Process Hook</h1>
+    <p align="left">
+      <img src="assets/process-hook.png" alt="Process Hook" />
+    </p>
+    <h2>Unlock hidden features and options</h2>
+    <p>Hook specific process/apps/games to spoof your device as different model/device to unlock hidden features and options. Check list of support - <a href="#supported-debug-apps">Supported Lists</a></p>
+    <div align="center">
+    <p><a href="https://github.com/rifsxd/process-hook/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rifsxd/process-hook?logo=apache&amp;label=License&amp;style=flat" alt="GitHub license" /></a>
+    <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.rifsxd.processhook/total?logo=github&amp;label=Downloads&amp;style=flat" alt="GitHub Downloads (all assets, all releases)" />
+    <img src="https://img.shields.io/github/languages/code-size/rifsxd/process-hook?style=flat&amp;label=Code%20Size" alt="GitHub code size in bytes" />
+    <a href="https://github.com/rifsxd/process-hook/actions/workflows/debug.yml"><img src="https://img.shields.io/github/actions/workflow/status/rifsxd/process-hook/debug.yml?logo=github&amp;label=Debug%20CI&amp;style=flat" alt="GitHub Debug CI Status" /></a></p>
+    </div>
+    <h2>Features</h2>
     <ul>
-    <li>
-    <p>added new apps/games</p>
-    <ul>
-    <li>Aida64</li>
-    <li>Dead by Daylight: Mobile</li>
-    <li>Pubg: New State</li>
-    <li>Pubg: Lite</li>
+    <li>Device spoofing for enhanced gaming experiences.</li>
+    <li>Display refreshrate spoofing to unlock higher framerate options. ( To test this spoof install any app from the <a href="#supported-debug-apps">Debug Lists</a> and check display specifications )</li>
+    <li>Compatibility with a wide range of popular gaming applications.</li>
+    <li>Easy installation and no extra configuration.</li>
     </ul>
+    <h2>High End Devices</h2>
+    <p>The following is the current list of devices that Process Hook will spoof your device into for supported games and apps. Click on the device names to view the corresponding profile in the code:</p>
+    <ul>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18">ROG_PHONE_8</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L19">SAMSUNG_S24_ULTRA</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L20">BLACKSHARK_5_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L21">REALME_GT6_5G</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L22">ONEPLUS_12</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L23">VIVO_IQOO_11_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L24">POCO_F6_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L25">MI_14_PRO</a></li>
+    </ul>
+    <h2>Table of Contents</h2>
+    <ul>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    </ul>
+    <h2>Getting Started</h2>
+    <p>To get started with Process Hook, follow these steps:</p>
+    <ol>
+    <li>
+    <p>Ensure that your Android device is rooted.</p>
     </li>
     <li>
-    <p>added new high end device</p>
+    <p>Install the Xposed/Lsposed Framework on your device.</p>
+    </li>
+    <li>
+    <p>Download the Process Hook module from the <a href="https://github.com/rifsxd/process-hook/releases">releases section</a> of this repository.</p>
+    </li>
+    <li>
+    <p>Install the downloaded apk :</p>
     <ul>
-    <li>Poco F6 Pro</li>
+    <li>Open Xposed/Lsposed Manager.</li>
+    <li>Go to the “Modules” section.</li>
+    <li>Search “Process Hook” and enable the module.</li>
+    <li>The supported process/apps/games are auto added to the scope.</li>
+    <li>Force Stop the added game manually to take effect.</li>
     </ul>
     </li>
+    </ol>
+    <h2>Usage</h2>
+    <p>Once you’ve installed and activated the Process Hook module, it will automatically spoof your device information for supported process/apps/games. There’s no additional configuration required. Simply force stop and open the process/apps/games you want to run and enjoy the benefits of device spoofing.</p>
+    <p>You can untick the game you don’t want to spoof for the module scope. Force stop and relaunch is required.</p>
+    <p><strong>Note:</strong> Keep in mind that device spoofing may violate the terms of service for some games or apps.</p>
+    <p>Report any suggestions/issues with games <a href="https://github.com/rifsxd/process-hook/issues">here</a></p>
+    <h2>Supported Debug Apps</h2>
+    <details>
+      <summary>Click to expand the list of supported apps</summary>
+    <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ytheekshana.deviceinfo&amp;hl=en">Device Info</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw&amp;hl=en">Device Info HW</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.finalwire.aida64&amp;hl=en">Aida64</a></li>
     </ul>
+    </details>
+    <h2>Supported Games</h2>
+    <details>
+      <summary>Click to expand the list of supported games</summary>
+    <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ea.gp.apexlegendsmobilefps&amp;hl=en&amp;gl=US">Apex Legends Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&amp;hl=en&amp;gl=US">Asphalt 9: Legends</a></li>
+    <li><a href="https://play.google.com/store/details?id=com.ea.game.nfs14_row&amp;hl=en&amp;gl=US">Need for Speed: No Limits</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pubg.imobile&amp;hl=en&amp;gl=US">Battlegrounds Mobile India</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl&amp;hl=en&amp;gl=US">Black Desert Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.codmvn&amp;hl=en&amp;gl=US">Call Of Duty: Mobile VN</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&amp;hl=en&amp;gl=US">Call of Duty: Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.garena.game.codm&amp;hl=en&amp;gl=US">Call of Duty®: Mobile - Garena</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&amp;hl=en&amp;gl=US">Clash of Clans</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.netease.lztgglobal&amp;hl=en&amp;gl=US">Cyber Hunter</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.netease.dbdena&amp;hl=en">Dead by Daylight: Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&amp;hl=en&amp;gl=US">EA SPORTS FC™ Mobile Soccer</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.miraclegames.farlight84&amp;hl=en">Farlight 84</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.epicgames.portal&amp;hl=en&amp;gl=US">Fortnite Portal</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.epicgames.fortnite&amp;hl=en&amp;gl=US">Fortnite</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax&amp;hl=en&amp;gl=US">Free Fire MAX</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.dts.freefireth&amp;hl=en&amp;gl=US">Free Fire</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact">Genshin Impact</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.levelinfinite.sgameGlobal&amp;hl=en&amp;gl=US">Honor of Kings</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.sgame&amp;hl=en&amp;gl=US">Honor of Kings</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildriftvn&amp;hl=en&amp;gl=US">LMHT: Tốc Chiến</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift&amp;hl=en&amp;gl=US">League of Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.mlbbvn&amp;hl=en&amp;gl=US">Mobile Legends: Bang Bang VNG</a></li>
+    <li><a href="https://global.app.mi.com/details?lo=ID&amp;la=en&amp;id=com.mobilelegends.mi&amp;hl=en&amp;gl=US">Mobile Legends: Mi</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.mobile.legends&amp;hl=en&amp;gl=US">Mobile Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.rekoo.pubgm&amp;hl=en&amp;gl=US">PUBG MOBILE：絕地求生M</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.ig&amp;hl=en&amp;gl=US">PUBG Mobile Beta</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.pubgmobile&amp;hl=en&amp;gl=US">PUBG Mobile VN</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pubg.krmobile&amp;hl=en&amp;gl=US">PUBG Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.iglite&amp;hl=en">PUBG Mobile: Lite</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.pubgmhd&amp;hl=en&amp;gl=US">PUBG: Exhilarating Battlefield</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.madfingergames.legends&amp;hl=en&amp;gl=US">Shadowgun Legends: Online FPS</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.levelinfinite.hotta.gp&amp;hl=en&amp;gl=US">Tower of Fantasy</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=net.wargaming.wot.blitz&amp;hl=en&amp;gl=US">World of Tanks: Blitz</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&amp;hl=en&amp;gl=US">《英雄聯盟：激鬥峽谷》</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm&amp;hl=en&amp;gl=US">검은사막 모바일</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.kr.codm&amp;hl=en&amp;gl=US">콜 오브 듀티: 모바일</a></li>
+    </ul>
+    </details>
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
 IssueTracker: ""
 Name: Process Hook - Unlock hidden features and options
 SourceCode: https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook

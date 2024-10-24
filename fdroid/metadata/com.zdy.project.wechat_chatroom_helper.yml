@@ -3,10 +3,53 @@ Categories:
     - Xposed
 CurrentVersion: 1.4.25
 CurrentVersionCode: 60
-Description: |-
+Description: |
+    <h1>（微信群消息助手）WechatChatroomHelper</h1>
+    <p><a href="https://app.codacy.com/app/zhudongya123/WechatChatRoomHelper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zhudongya123/WechatChatRoomHelper&amp;utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/3d5206b20875422f969a0068b36746bf" alt="Codacy Badge" /></a>
+    <a href="https://github.com/zhudongya123/WechatChatroomHelper/tags"><img src="https://img.shields.io/github/tag/zhudongya123/WechatChatroomHelper.svg?style=flat-square" alt="" /></a>
+    <a href="https://github.com/zhudongya123/WechatChatroomHelper/releases"><img src="https://img.shields.io/github/release/zhudongya123/WechatChatroomHelper.svg?style=flat-square" alt="" /></a>
+    <img src="https://img.shields.io/github/forks/zhudongya123/WechatChatroomHelper.svg?style=flat-square" alt="" />
+    <img src="https://img.shields.io/github/stars/zhudongya123/WechatChatroomHelper.svg?style=flat-square" alt="" /></p>
+    <p><a href="https://github.com/zhudongya123/WechatChatroomHelper/issues"><img src="https://img.shields.io/github/issues/zhudongya123/WechatChatroomHelper.svg?style=flat-square" alt="" /></a></p>
+    <p><a href="https://gitter.im/WechatChatroomHelper"><img src="https://img.shields.io/gitter/room/WechatChatroomHelper/nw.js.svg?style=flat-square" alt="" /></a></p>
+    <h2>简介</h2>
+    <p>本软件在微信（WeChat）中实现了类似于 QQ 中群消息助手的功能，可以将所有<strong>群聊</strong>和<strong>服务号</strong>从主界面收入至单独的二级界面进行统一管理，使得主界面更加清爽高效，同时也使得群消息管理起来更加方便快捷。</p>
+    <p>本仓库为Lsposed发行仓库，开源项目请移步-&gt;<a href="https://github.com/zhudongya123/WechatChatRoomHelper">WechatChatRoomHelper</a></p>
+    <p>项目主页及更多信息：</p>
     <ul>
-    <li>适配微信8037</li>
+    <li><a href="http://159.75.116.26:8080/wechat/wechat_download.jsp">项目地址</a></li>
+    <li><a href="http://159.75.116.26:8080/wechat/wechat_download.jsp">反馈地址(拉到最底下)</a></li>
     </ul>
+    <h2>功能</h2>
+    <ul>
+    <li>
+    <p>群聊可以收入至二级界面进行管理。</p>
+    </li>
+    <li>
+    <p>公众号（服务号）可以收入至二级界面进行管理。</p>
+    </li>
+    <li>
+    <p>群聊和公众号可以设置白名单，使其不在二级界面出现。</p>
+    </li>
+    <li>
+    <p>二级界面的 UI 组件颜色可以自定义。</p>
+    </li>
+    <li>
+    <p>两个入口提供一键清除未读数和置顶功能。</p>
+    </li>
+    <li>
+    <p>可以使订阅号返回老版本微信的会话列表页而不是新版的时间线页。</p>
+    </li>
+    </ul>
+    <h2>效果演示</h2>
+    <p><img src="github_page_resource/1.gif" alt="" /></p>
+    <h2>提示</h2>
+    <p>本软件需要在 Root 后的手机中安装 Xposed 框架后方能使用。</p>
+    <p>关于 Xposed ，可以在这个<a href="http://repo.xposed.info/module/de.robv.android.xposed.installer">链接</a>了解并下载安装。</p>
+    <p>本软件在初次使用和微信版本发生变更时需要重新获取配置，请在程序中查看。</p>
+    <h2>支持的微信版本</h2>
+    <p>请查看release的具体日志。
+    具体情况请在程序中获取配置时查看。</p>
 IssueTracker: ""
 Name: ' （微信群消息助手）WechatChatroomHelper'
 SourceCode: https://github.com/Xposed-Modules-Repo/com.zdy.project.wechat_chatroom_helper

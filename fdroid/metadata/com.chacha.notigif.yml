@@ -3,13 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: "1.7"
 CurrentVersionCode: 1
-Description: |-
-    <p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>
-    Added show on lockscreen switch (Thanks @Hyper.Alvi)<br>
-    Added refresh gifs without SystemUI restart needed<br>
-    Added a reminder<br>
-    (Tell me if fade and show on lockscreen switches doesn't work on your device)<br>
-    Soon a matrix rain module</p>
+Description: |
+    <h2><strong>This module allow you to add a gif or a picutre of your choice in notifications panel !</strong></h2>
+    <p>/!\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN EDXPOSED SETTINGS/!\</p>
+    <p>/!\ SystemUI must be restart to apply modifications /!<br />
+    Officially working with :
+    OneUI (1.0 &amp; 2.x)
+    AOSP (N to R)
+    OxygenOS
+    MIUI</p>
+    <p>/<em>PS : Don’t hesitate to try it on your rom and tell me if it work or no, I can support a lot of roms with your help</em>/</p>
+    <h2>Used libraries (Big thanks to all there developpers) :</h2>
+    <p><a href="https://github.com/chengxuncc/fileprefs">Fileprefs</a></p>
+    <p><a href="https://github.com/rovo89/XposedBridge">XposedBridge</a></p>
+    <p><a href="https://github.com/Chainfire/libsuperuser">Libsuperuser</a></p>
+    <p><a href="https://github.com/bumptech/glide">Glide</a></p>
+    <p>Contact :
+    If you want to help me or suggest me some ideas you can send mail</p>
+    <p>Mail : <a href="mailto:xhookmandev@gmail.com">xhookmandev@gmail.com</a></p>
+    <p>My other module :</p>
+    <p><a href="https://forum.xda-developers.com/t/xposed-lsposed-samsung-music-customiser-change-app-colors.4076893/">Samsung Music Customiser</a></p>
+    <p><a href="https://forum.xda-developers.com/t/xposed-lsposed-samsung-messages-customiser-change-app-colors.4104635/">Samsung Messages Customiser</a></p>
+    <h2>You can give me <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3YW496LXQZ5A&amp;source=url">donation</a> if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)</h2>
+    <p>Thank you for reading this, don’t forget to press thanks on my XDA page ^_^
+    PS : I’m french, so I try to speak english I hope your eyes still lives and that there are not too mistakes.</p>
 IssueTracker: ""
 Name: Notigif
 SourceCode: https://github.com/Xposed-Modules-Repo/com.chacha.notigif

@@ -3,10 +3,63 @@ Categories:
     - Xposed
 CurrentVersion: 0.0.27
 CurrentVersionCode: 201
-Description: |-
+Description: |
+    <h1><a href="https://github.com/fei-ke/HMSPush">HMS Push</a></h1>
+    <p>HMS Core 是华为提供的一套服务，其中包含了推送功能，可以在华为和非华为设备上使用，</p>
+    <p>但是在非华为设备上由于缺乏系统服务配合，只能唤醒目标应用让其自己弹出通知</p>
+    <p>同时大部分应用在非华为设备上不会主动启用 HMS 推送服务</p>
+    <p>该模块借助 <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> 为 HMS Core 提供发送系统通知的能力，
+    同时支持将应用运行环境伪装成华为设备，以此来实现无后台系统级别的推送通道。</p>
+    <blockquote>
+    <p><strong>Warning</strong>
+    对应用进行设备伪装会导致应用环境异常，从而导致封号等后果，请自行承担使用风险！</p>
+    </blockquote>
+    <h3>安装步骤：</h3>
     <ul>
-    <li>适配 Android 14</li>
+    <li>
+    <p>从应用市场下载并安装 <code>HMS Core</code>，比如 <a href="https://appgallery.huawei.com/app/C10132067">华为应用商店</a>、<a href="https://www.coolapk.com/apk/com.huawei.hwid">酷安</a>、<a href="https://www.apkmirror.com/apk/huawei-internet-services/huawei-mobile-services">APKMirror</a></p>
+    </li>
+    <li>
+    <p>下载最新版本 HMS Push 安装，在 LSPosed 中启用 HMSPush 模块，并勾选 「系统框架」、「HMS Core 」作用域，然后重启设备，<a href="https://github.com/fei-ke/HMSPush/releases/latest">下载地址</a></p>
+    </li>
+    <li>
+    <p>LSPosed 里 HMSPush 模块里勾选你需要支持推送的目标应用（这一步目的是将应用环境伪装成华为设备，如果你使用了其他方式伪装设备，可以不进行这一步），然后重启一到两次目标应用使其注册上推送通道</p>
+    </li>
+    <li>
+    <p>杀掉应用测试推送是否生效（可以使用QQ测试）
+    　　</p>
+    </li>
     </ul>
+    <h3>注意：</h3>
+    <ul>
+    <li>
+    <p>并不是所有应用都支持 HMS 推送，目前测试已支持大部分应用，比如 QQ、抖音、知乎、酷安等，闲鱼、淘宝、饿了么等 v0.0.13 起已支持</p>
+    </li>
+    <li>
+    <p><strong>微信不支持，因为微信没有接入 HMS 服务</strong></p>
+    </li>
+    <li>
+    <p>请保证 HMS Core 在后台运行，不要禁用其自启权限和访问目标推送应用的权限</p>
+    </li>
+    <li>
+    <p>如遇到点击通知未能进入目标应用，可尝试将 HMS Core 转为系统应用，不知道如何操作可直接刷入此 <a href="https://github.com/fei-ke/HMSPush/releases/download/v0.0.5/HMSCore-v0.3.zip">Magisk 模块</a></p>
+    </li>
+    <li>
+    <p>反馈问题请带上 LSP 日志，到 Github 提 <a href="https://github.com/fei-ke/HMSPush/issues">Issue</a> 或者加入 <a href="https://t.me/HMSPush">Telegram 群组</a>，或者发送至我的邮箱 <a href="mailto:hmspush@yufz.one">Email</a></p>
+    </li>
+    </ul>
+    <h3>鸣谢</h3>
+    <p>包括但不限于：</p>
+    <ul>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a> XPosed 框架</li>
+    <li><a href="https://github.com/rovo89/XposedBridge">XposedBridge</a> Xposed framework APIs</li>
+    <li><a href="https://github.com/LSPosed/LSPatch">LSPatch</a> 免 Root Xposed 框架</li>
+    <li><a href="https://github.com/fankes/AndroidNotifyIconAdapt">AndroidNotifyIconAdapt</a> 图标库</li>
+    </ul>
+    <h3>反馈</h3>
+    <p><a href="https://github.com/fei-ke/HMSPush/issues">Github Issues</a>、<a href="https://t.me/HMSPush">Telegram Group</a>、<a href="mailto:hmspush@yufz.one">Email</a></p>
+    <h3>License</h3>
+    <p><a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License v3 (GPL-3)</a>.</p>
 IssueTracker: ""
 Name: HMS Push
 SourceCode: https://github.com/Xposed-Modules-Repo/one.yufz.hmspush

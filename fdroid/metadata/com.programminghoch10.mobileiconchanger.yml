@@ -3,9 +3,57 @@ Categories:
     - Xposed
 CurrentVersion: 2.2.1
 CurrentVersionCode: 5
-Description: |-
-    <p>Added more debug logging<br>
-    Added better compatibility detection</p>
+Description: |
+    <h1><a href="https://github.com/programminghoch10/MobileIconChanger">MobileIconChanger</a></h1>
+    <p>Change your mobile data icons! For example you can change the 3G/4G icons into 5G!</p>
+    <p>This module enables you to replace any of the mobile data icons with any other mobile data icon.</p>
+    <h2>Compatibility</h2>
+    <p>Any AOSP near ROM should be compatible. Just try it out and see if it works.</p>
+    <p><a href="https://github.com/programminghoch10/MobileIconChanger#compatibility">Read more about compatiblity here</a>.</p>
+    <h2>Installation</h2>
+    <ol>
+    <li>Install the module on a system with a running XPosed framework with API version <code>&gt;=93</code>.</li>
+    <li><strong>Activate the resource hooks</strong> within your XPosed framework manager.</li>
+    <li>Activate the module. The package <code>SystemUI</code> should automatically be selected.</li>
+    <li>Restart your phone.</li>
+    <li>You are now ready to use the module. You will need to open the <a href="#configuration">Configuration</a> screen to set it all up, as the module won’t do anything yet.</li>
+    </ol>
+    <h2>Configuration</h2>
+    <p><em>I don’t like it when every XPosed module adds yet another app icon to the launcher. This is why this modules settings are hidden within the App-Info screen.</em></p>
+    <p>Here is how to open the settings:</p>
+    <ul>
+    <li>Route 1:
+    <ul>
+    <li>Go to the module list within your XPosed manager</li>
+    <li>Long press on <code>CameraControl</code> and select App Info</li>
+    <li>On the bottom, click on <code>Advanced</code></li>
+    <li>Click on <code>Additional settings in the app</code></li>
+    </ul>
+    </li>
+    <li>Route 2:
+    <ul>
+    <li>Go into device settings</li>
+    <li>Click on apps</li>
+    <li>Somehow tell the device to show all apps</li>
+    <li>Select <code>CameraControl</code></li>
+    <li>On the bottom, click on <code>Advanced</code></li>
+    <li>Click on <code>Additional settings in the app</code></li>
+    </ul>
+    </li>
+    <li>Route 3:
+    <ul>
+    <li>Open up an ADB shell</li>
+    <li>Run command <code>am start-activity com.programminghoch10.mobileiconchanger/.SettingsActivity</code></li>
+    </ul>
+    </li>
+    </ul>
+    <h2>More resources</h2>
+    <p>I don’t want to keep 4 different places up to date.</p>
+    <p>If you want to read more about
+    <a href="https://github.com/programminghoch10/MobileIconChanger#inspiration">why this module exists</a>
+    or <a href="https://github.com/programminghoch10/MobileIconChanger#configuration">additional info about the configuration interface</a>
+    or <a href="https://github.com/programminghoch10/MobileIconChanger#screenshots">you just want to see some screenshots first</a>
+    head over to <a href="https://github.com/programminghoch10/MobileIconChanger">the GitHub Repo</a>.</p>
 IssueTracker: ""
 Name: MobileIconChanger (Fake5GIcon)
 SourceCode: https://github.com/Xposed-Modules-Repo/com.programminghoch10.mobileiconchanger

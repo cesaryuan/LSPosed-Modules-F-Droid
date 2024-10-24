@@ -3,14 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.15
 CurrentVersionCode: 23
-Description: |-
-    <p>2.0.15</p>
-    <ul>
-    <li>修复 酷狗hook状态栏歌词崩溃问题</li>
-    <li>修复 酷狗音乐会重复获取歌词</li>
-    <li>修复 酷狗版本判断导致概念版4.0.0无法使用问题</li>
-    <li>添加 华为音乐支持</li>
-    </ul>
+Description: |
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lyric.getter/total?style=flat-square" alt="Release Download" /><br />
+    <img src="https://img.shields.io/github/downloads/xiaowine/Lyric-Getter/total?style=flat-square" alt="Release Download" /><br />
+    <a href="https://github.com/xiaowine/Lyric-Getter/releases/latest"><img src="https://img.shields.io/github/v/release/xiaowine/Lyric-Getter?style=flat-square" alt="Release Version" /></a><br />
+    <a href="https://github.com/xiaowine/Lyric-Getter/LICENSE"><img src="https://img.shields.io/github/license/xiaowine/Lyric-Getter?style=flat-square" alt="GitHub license" /></a><br />
+    <a href="https://github.com/xiaowine/Lyric-Getter/stargazers"><img src="https://img.shields.io/github/stars/xiaowine/Lyric-Getter?style=flat-square" alt="GitHub Star" /></a><br />
+    <a href="https://github.com/xiaowine/Lyric-Getter/network/members"><img src="https://img.shields.io/github/forks/xiaowine/Lyric-Getter?style=flat-square" alt="GitHub Fork" /></a><br />
+    <img src="https://img.shields.io/github/repo-size/xiaowine/Lyric-Getter?style=flat-square&amp;color=3cb371" alt="GitHub Repo size" /><br />
+    <a href="https://github.com/xiaowine/Lyric-Getter/search?l=koltin"><img src="https://img.shields.io/github/languages/top/xiaowine/Lyric-Getter?style=flat-square" alt="GitHub Repo Languages" /></a><br />
+    <a href="https://actions-badge.atrox.dev/xiaowine/Lyric-Getter/goto?ref=main"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain&amp;style=flat" alt="Build Status" /></a><br />
+    <img src="https://img.shields.io/github/stars/xiaowine/Lyric-Getter.svg?style=social" alt="GitHub Star" /></p>
+    <h2>这是什么东西？</h2>
+    <h4>这是一个Xposed模块（现支持LSPosed\LSPatch），通过Hook获取音乐软件的歌词，提供给其他模块\软件使用</h4>
+    <h2>为什么我的歌词不隐藏？</h2>
+    <h4>因为模块通过监听媒体通知事件，来判断是否应该隐藏歌词。而部分音乐软件默认通知样式为自定义的，所以需要将通知样式改为系统样式</h4>
+    <hr />
+    <h3>支持软件请在模块内查看，或查看<a href="https://github.com/xiaowine/Lyric-Getter/blob/gh-pages/app_rules_version">规则文件</a></h3>
+    <hr />
+    <h3>你也可以主动使用本模块API，用于收发歌词<a href="https://github.com/xiaowine/Lyric-Getter-Api">Lyric-Getter-Api</a></h3>
+    <hr />
+    <h2>Star History</h2>
+    <p><a href="https://star-history.com/#xiaowine/Lyric-Getter&amp;Timeline"><img src="https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter&amp;type=Timeline" alt="Star History Chart" /></a></p>
 IssueTracker: ""
 Name: Lyric Getter | 酒域-歌词获取
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.lyric.getter

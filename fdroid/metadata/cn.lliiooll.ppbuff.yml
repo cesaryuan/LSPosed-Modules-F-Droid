@@ -3,11 +3,49 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.5.r110.ea62aa7
 CurrentVersionCode: 110
-Description: |-
-    <p>最后一次更新，有缘再会<br>
-    移除 自动关注<br>
-    移除 打赏<br>
-    如果遇到模块失效请不要再反馈问题</p>
+Description: |
+    <p>以后都不会有更新了。
+    很抱歉，我的能力就这点，无法做到在运行时修改应用的同时做到流畅，让一些人失望了
+    模块最开始是因为受不了太多的广告写来自己用的，偶然一次上传到了lsposed的模块仓库，然后一直更新至此
+    模块原名是PPHelper，后来改名为PPBuff进行优化并加入了更多功能。
+    模块开发至今一直免费，也只有我一个人在维护，但是现如今模块已经没有了继续维护下去的必要，因此以后不会再会有更新。
+    如果你有能力，请fork本仓库自行更新，不要进行传播，小心别有用心的人举报。</p>
+    <hr />
+    <h1>PPBuff</h1>
+    <p>给 皮皮搞笑/最右 加个Buff~</p>
+    <p><img src="https://img.shields.io/github/stars/lliioollcn/PPBuff" alt="1" />
+    <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lliiooll.ppbuff/total" alt="2" />
+    <img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/cn.lliiooll.ppbuff" alt="3" />
+    <img src="https://img.shields.io/badge/author-lliioollcn-6cf.svg?style=flat" alt="https://github.com/lliioollcn" />
+    <a href="https://github.com/lliioollcn/PPBuff/actions/workflows/android.yml"><img src="https://github.com/lliioollcn/PPBuff/actions/workflows/android.yml/badge.svg" alt="4" /></a>
+    <a href="https://appcenter.ms"><img src="https://build.appcenter.ms/v0.1/apps/f8dfb1e2-1eea-4e7b-ace5-157de75ed2a0/branches/master/badge" alt="Build status" /></a></p>
+    <h2>CI版本下载:</h2>
+    <p>github action: <a href="https://github.com/lliioollcn/PPBuff/actions">https://github.com/lliioollcn/PPBuff/actions</a>
+    appcenter: <a href="https://install.appcenter.ms/users/lliioollcn/apps/ppbuff/distribution_groups/alpha">https://install.appcenter.ms/users/lliioollcn/apps/ppbuff/distribution_groups/alpha</a></p>
+    <h1>已完成功能/开发计划 (皮皮搞笑)</h1>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 去广告</li>
+    <li><input type="checkbox" checked="" disabled="" /> 去除语音房</li>
+    <li><input type="checkbox" checked="" disabled="" /> 帖子无水印</li>
+    <li><input type="checkbox" checked="" disabled="" /> 评论区无水印</li>
+    <li><input type="checkbox" checked="" disabled="" /> 隐藏指定类型帖子</li>
+    <li><input type="checkbox" checked="" disabled="" /> 评论区显示详细IP信息</li>
+    <li><input type="checkbox" checked="" disabled="" /> 评论区显示详细时间</li>
+    <li><input type="checkbox" checked="" disabled="" /> 精简“我的”界面</li>
+    <li><input type="checkbox" checked="" disabled="" /> 去除直播</li>
+    <li><input type="checkbox" checked="" disabled="" /> 自动任务(感谢群友 <a href="mailto:1181469655@qq.com">1181469655@qq.com</a> 提供的接口)</li>
+    <li><input type="checkbox" checked="" disabled="" /> 自动刮卡(感谢群友 <a href="mailto:1181469655@qq.com">1181469655@qq.com</a> 提供的接口)</li>
+    <li><input type="checkbox" checked="" disabled="" /> 评论自定义语音</li>
+    <li><input type="checkbox" checked="" disabled="" /> 语音保存</li>
+    <li><input type="checkbox" disabled="" /> 有缘再会…</li>
+    </ul>
+    <h1>已完成功能/开发计划 (最右)</h1>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 去广告</li>
+    <li><input type="checkbox" disabled="" /> 有缘再会…</li>
+    </ul>
+    <pre><code>模块只供学习交流使用，请在下载24小时内删除，使用本模块导致的任何问题本人不负任何责任
+    </code></pre>
 IssueTracker: ""
 Name: PPBuff
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.lliiooll.ppbuff

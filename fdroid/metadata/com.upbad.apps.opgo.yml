@@ -3,7 +3,12 @@ Categories:
     - Xposed
 CurrentVersion: "4.1"
 CurrentVersionCode: 5
-Description: <p>Fix status bar text color.</p>
+Description: |
+    <h1>Description</h1>
+    <p>基于Xposed，去除一加系统锁屏，AOD和状态栏时钟红色字体样式的模块。</p>
+    <p>An Xposed module to prevent Oneplus from making red “1” digits on the keyguard, AOD (Always-On Display), and status bar clocks.</p>
+    <p>If you hate the red “1” characters on the clocks like me, you may try this Xposed module to get rid of it.</p>
+    <p>Supports OOS 11, OOS 12, OOS 13, and OOS 14.</p>
 IssueTracker: ""
 Name: Oneplus No Red One
 SourceCode: https://github.com/Xposed-Modules-Repo/com.upbad.apps.opgo

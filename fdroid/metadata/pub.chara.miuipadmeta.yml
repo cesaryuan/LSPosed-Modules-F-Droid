@@ -3,9 +3,64 @@ Categories:
     - Xposed
 CurrentVersion: "2.4"
 CurrentVersionCode: 7
-Description: |-
-    <p>should fix hyperos<br>
-    win+xx快捷键，没找着在哪handle的，建议小米设置里关了得了</p>
+Description: |
+    <h1>MiuiPadMeta</h1>
+    <p>为MIUI和HyperOS设备恢复键盘Meta/Win键功能（禁用掉小米的快捷键），同时禁用Alt-Tab快捷键。这样就可以在远程桌面里用Meta键和Alt-Tab了。适配小米平板5系列以及Android12+的MIUI手机。
+    Restore Meta/Win key function on MIUI devices(disable Xiaomi hotkeys), and disable Alt-Tab hotkey. Allows you to use Meta and Alt-Tab key in Remote Desktop。Adapted for Xiaomi Pad 5 Series and MIUI phones with Android12+.</p>
+    <h3>系统版本支持情况 OS version support</h3>
+    <table>
+    <thead>
+    <tr>
+    <th>系统版本</th>
+    <th>恢复Meta键</th>
+    <th>禁用Alt-Tab</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>MIUI12.5 Android11</td>
+    <td>? *</td>
+    <td>?</td>
+    </tr>
+    <tr>
+    <td>MIUI13 Android11</td>
+    <td>√ **</td>
+    <td>√</td>
+    </tr>
+    <tr>
+    <td>MIUI13 Android12</td>
+    <td>√</td>
+    <td>√</td>
+    </tr>
+    <tr>
+    <td>MIUI14 Android13</td>
+    <td>√</td>
+    <td>√</td>
+    </tr>
+    <tr>
+    <td>HyperOS</td>
+    <td>√? ****</td>
+    <td>√? ***</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>√ 表示经过测试，目前支持</p>
+    <p>? 表示没有经过测试，可能支持</p>
+    <p>× 表示经过测试，目前不支持</p>
+    <blockquote>
+    <p>*Android11上仅支持小米平板5系列，不支持MIUI手机</p>
+    <p>**MIUI for Pad Android11: PC模式下的快捷键依旧可用，PC模式的快捷键是另一套逻辑实现，请退出PC模式</p>
+    <p>***禁用Alt-Tab理论上在所有Android系统上支持。</p>
+    <p>**** 小米在HyperOS加强了对Bootloader权限的管控，我暂未将我的Xiaomi Pad 5 Pro设备更新到HyperOS，所以无法测试。</p>
+    <p><a href="https://modules.lsposed.org/module/pub.chara.disablealttab">DisableAltTab</a> 模块为独立出来的禁用Alt-Tab功能，适配所有Android设备。</p>
+    </blockquote>
+    <h3>截图 Screenshot</h3>
+    <p><img src="README.assets/Screenshot_2023-01-18-03-08-54-671_com.microsoft.rdc.androidx-16741303149715.jpg" alt="Screenshot_2023-01-18-03-08-54-671_com.microsoft.rdc.androidx" />
+    <img src="README.assets/Screenshot_2023-01-18-03-09-31-674_com.microsoft.rdc.androidx.jpg" alt="Screenshot_2023-01-18-03-09-31-674_com.microsoft.rdc.androidx" /></p>
+    <h3>实现方法 Implementation detail</h3>
+    <h3>鸣谢 Special thanks</h3>
+    <h3>第三方开源引用 Open Source License</h3>
+    <p>See <a href="https://github.com/CwithW/MiuiPadMeta">MiuiPadMeta</a></p>
 IssueTracker: ""
 Name: MiuiPadMeta
 SourceCode: https://github.com/Xposed-Modules-Repo/pub.chara.miuipadmeta

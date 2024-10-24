@@ -3,6 +3,76 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
+Description: |
+    <h1>XPosedSecureDisplay</h1>
+    <p>An Xposed Module to Enable <code>FLAG_SECURE</code>, disabling screenshots and recording absolutely everywhere.</p>
+    <p>This will give you the absolute privacy, as absolutely nothing is able to record or screenshot anything.</p>
+    <p>This is the exact opposite of <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">Disable-FLAG_SECURE</a> by <a href="https://github.com/VarunS2002">VarunS2002</a>.</p>
+    <h2>Requirements:</h2>
+    <ul>
+    <li>
+    <p>Android 8.0+ (Oreo/SDK 26)</p>
+    </li>
+    <li>
+    <p>XPosed framework installed properly like <a href="https://github.com/ElderDrivers/EdXposed/">EdXposed</a>
+    or <a href="https://github.com/LSPosed/LSPosed/">LSPosed</a></p>
+    </li>
+    </ul>
+    <h2>Usage:</h2>
+    <ul>
+    <li>EdXposed:
+    <ul>
+    <li>Normal Mode:
+    <ul>
+    <li>Enable the module and reboot</li>
+    </ul>
+    </li>
+    <li>White List / Activation Scope Mode:
+    <ul>
+    <li>Enable the module</li>
+    <li>Select <code>Android System</code></li>
+    <li>Select the target app in which you want to disable screenshots</li>
+    <li>Reboot</li>
+    </ul>
+    </li>
+    <li>Black List Mode:
+    <ul>
+    <li>Enable the module</li>
+    <li>Do not select <code>Android System</code></li>
+    <li>Do not select the target app in which you want to disable screenshots</li>
+    <li>Reboot</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li>LSPosed:
+    <ul>
+    <li>Enable the module</li>
+    <li>Select <code>System Framework</code></li>
+    <li>Select the target app in which you want to disable screenshots</li>
+    <li>Reboot</li>
+    </ul>
+    </li>
+    </ul>
+    <h2>Note:</h2>
+    <ul>
+    <li>
+    <p>This app does prevent apps from detecting that you’ve taken a screenshot or recorded it like Snapchat or Instagram,
+    because you literally cannot take screenshots anymore.
+    This disables it in all apps you select. So you can’t screenshot your girlfriend’s nudes.
+    (But that probably does not matter since you’re reading this anyway)</p>
+    </li>
+    <li>
+    <p>Xposed Implementations Tested on:</p>
+    <ul>
+    <li><a href="https://github.com/ElderDrivers/EdXposed/">EdXposed</a></li>
+    <li><a href="https://github.com/LSPosed/LSPosed/">LSPosed</a></li>
+    </ul>
+    </li>
+    <li>
+    <p>If you haven’t noticed yet, this is a parody of <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">Disable-FLAG_SECURE</a> by <a href="https://github.com/VarunS2002">VarunS2002</a>. Thank you and all other contributors for your work.</p>
+    </li>
+    </ul>
 IssueTracker: ""
 Name: SecureDisplay
 SourceCode: ""

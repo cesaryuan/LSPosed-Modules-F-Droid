@@ -3,7 +3,20 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
-Description: <p>remove more detections</p>
+Description: |
+    <h1>EnhanceGE</h1>
+    <p>Enhance Xperia Game Enhancer</p>
+    <p><img src="images/Screenshot.png" alt="preview" /></p>
+    <p>Remove limitation</p>
+    <ul>
+    <li>App list blacklist</li>
+    <li>OneHandedMode detect</li>
+    <li>Magnification detect</li>
+    <li>Accessibility conflict detect</li>
+    <li>Accessibility Shortcuts detect</li>
+    </ul>
+    <p><strong>Using Live Streaming to Youtube need to disable accesibility shortcuts from lock screen</strong>
+    <strong>Didn’t know why it still detected this</strong></p>
 IssueTracker: ""
 Name: Enhance Game Enhancer
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.enhancege

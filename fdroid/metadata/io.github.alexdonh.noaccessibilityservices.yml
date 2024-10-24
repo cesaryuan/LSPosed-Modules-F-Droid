@@ -3,11 +3,44 @@ Categories:
     - Xposed
 CurrentVersion: "0.1"
 CurrentVersionCode: 1
-Description: |-
-    <h3>Changelog</h3>
+Description: |
+    <h1>no-accessibility-services</h1>
+    <p>An Xposed module that disables apps from getting installed and enabled accessibility services.</p>
+    <h2>Purpose</h2>
+    <p>Out of the blue, many banking and wallet apps in my country started forcing users to disable Accessiblity Services for all apps using it for security’s sake (!?). So if you’re using some Launcher that makes use of Accessibility to turn of screen with a gesture, you’re fucked. If you’re using some kind of tools to control your devices from PC (e.g. Samsung Link to Windows), you’re fucked. If you’re using Button Mapper to customize your hardware buttons, you’re also fucked.</p>
+    <p>Or you can get your devices rooted, Xposed, load this module and fuck them back.</p>
+    <h2>Usage</h2>
     <ul>
-    <li>Initital release</li>
+    <li>Install</li>
+    <li>Activate</li>
+    <li>Select apps (System Framework may need to be selected too)</li>
+    <li>(Force stop those apps)</li>
+    <li>Enjoy!</li>
     </ul>
+    <p>It’s only been tested on LSPosed (v1.8.6 - Zygisk). Refer to <a href="https://fankes.github.io/YukiHookAPI/en/guide/home.html#suppored-hook-framework">Supported Hook Framework</a> to see if it works on your end.</p>
+    <h2>Credits</h2>
+    <ul>
+    <li><a href="https://github.com/LSPosed">LSPosed</a></li>
+    <li><a href="https://github.com/fankes/YukiHookAPI">YukiHookAPI</a></li>
+    </ul>
+    <h2>License</h2>
+    <p>MIT License</p>
+    <p>Copyright (c) 2023 Alex Do</p>
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the “Software”), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:</p>
+    <p>The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.</p>
+    <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.</p>
 IssueTracker: ""
 Name: NoAccessibilityServices
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.alexdonh.noaccessibilityservices

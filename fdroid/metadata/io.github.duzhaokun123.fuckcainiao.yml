@@ -3,10 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: 0.1.1
 CurrentVersionCode: 7
-Description: |-
-    <p>新增 关于页面<br>
-    新增 清除详情页 banner 广告<br>
-    修复 4.4.10.8 首页白屏</p>
+Description: |
+    <h1>FuckCainiao</h1>
+    <p>菜鸟界面优化和广告移除</p>
+    <h2>效果</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">前</th>
+    <th align="center">后</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><img src="https://github.com/duzhaokun123/FuckCainiao/raw/main/arts/before.png" alt="before" /></td>
+    <td align="center"><img src="https://github.com/duzhaokun123/FuckCainiao/raw/main/arts/after.png" alt="after" /></td>
+    </tr>
+    <tr>
+    <td align="center"><img src="https://github.com/duzhaokun123/FuckCainiao/raw/main/arts/before2.png" alt="before2" /></td>
+    <td align="center"><img src="https://github.com/duzhaokun123/FuckCainiao/raw/main/arts/after2.png" alt="after2" /></td>
+    </tr>
+    </tbody>
+    </table>
 IssueTracker: ""
 Name: FuckCainiao
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.fuckcainiao

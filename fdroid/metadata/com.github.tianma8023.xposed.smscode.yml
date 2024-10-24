@@ -3,19 +3,40 @@ Categories:
     - Xposed
 CurrentVersion: 2.5.1
 CurrentVersionCode: 52
-Description: |-
-    <p>v2.5.1 Reboot required</p>
-    <ol>
-    <li>Fix: the issue of cannot show sms notification on Android 14 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a></li>
-    <li>Fix: the issue of cannot open the webpage for viewing the source code</li>
-    </ol>
-    <br>
-    <p>v2.5.1 需要重启</p>
-    <ol>
-    <li>修复：修复在 Android 14 上，不显示验证码通知的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a></li>
-    <li>修复：修复查看源码失败的问题</li>
-    </ol>
-    <p>sha 256: d16f00e82654d5d22e7a0a94eaec82ae617bf3bd71f02aac8ea5364d27ee7a51</p>
+Description: |
+    <h1>XposedSmsCode</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode/total" alt="Total Downloads" /> <a href="https://github.com/tianma8023/XposedSmsCode/"><img src="https://img.shields.io/github/stars/tianma8023/XposedSmsCode?style=social" alt="Total Stars" /></a> <a href="https://github.com/tianma8023/XposedSmsCode/releases"><img src="https://img.shields.io/github/v/release/tianma8023/XposedSmsCode?label=Latest%20Release" alt="Latest Release" /></a></p>
+    <p>识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。</p>
+    <h1>XposedSmsCode</h1>
+    <p>An Xposed module which can recognize, parse SMS code and copy it to clipboard when a new message arrives. It can also input SMS code automatically.</p>
+    <h1>功能</h1>
+    <ul>
+    <li>收到验证码短信后将验证码复制到系统剪贴板</li>
+    <li>收到验证码时显示Toast</li>
+    <li>收到验证码时显示通知</li>
+    <li>将验证码短信标记为已读（试验性）</li>
+    <li>删除验证码短信（试验性）</li>
+    <li>拦截验证码短信（试验性）</li>
+    <li>自定义验证码短信关键字（正则表达式）</li>
+    <li>自定义验证码匹配规则，并支持规则导入导出</li>
+    <li>自动输入验证码</li>
+    </ul>
+    <h1>Features</h1>
+    <ul>
+    <li>Copy verification code to clipboard when a new message arrives.</li>
+    <li>Show toast when a SMS verification code is copied.</li>
+    <li>Show notification when code SMS parsed.</li>
+    <li>Mark verification code message as read(experimental).</li>
+    <li>Delete verification SMS when it’s extracted successfully(experimental).</li>
+    <li>Block verification SMS if it’s extracted successfully(experimental).</li>
+    <li>Custom keywords about verification code message (regular expressions allowed).</li>
+    <li>Support the SMS code match rules customization, importation and exportation.</li>
+    <li>Auto-input SMS code.</li>
+    </ul>
+    <h1>更多</h1>
+    <p>参考: <a href="https://github.com/tianma8023/XposedSmsCode/blob/master/README-CN.md">详细信息</a></p>
+    <h1>More</h1>
+    <p>refer to <a href="https://github.com/tianma8023/XposedSmsCode/blob/master/README.md">More Information</a></p>
 IssueTracker: ""
 Name: XposedSmsCode
 SourceCode: https://github.com/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode

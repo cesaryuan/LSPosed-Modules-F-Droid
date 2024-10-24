@@ -3,10 +3,133 @@ Categories:
     - Xposed
 CurrentVersion: 9.1.0.8-STABLE-18
 CurrentVersionCode: 9208
-Description: |-
+Description: |
+    <h1>Firefds Kit [Pie]</h1>
+    <p>Xposed module for Samsung Pie (Android 9) devices.</p>
+    <h2>Features</h2>
+    <p>The module has the following features:</p>
     <ul>
-    <li>Dependencies and Gradle update</li>
+    <li>Fake system status to Official</li>
+    <li>Selectable advanced power menu options:
+    <ul>
+    <li>Power off</li>
+    <li>Restart</li>
+    <li>Emergency mode</li>
+    <li>Recovery</li>
+    <li>Download</li>
+    <li>Data mode switch</li>
+    <li>Screenshot</li>
+    <li>Switch User (when multi user is enabled)</li>
+    <li>SystemUI restart</li>
+    <li>Flashlight</li>
+    <li>Screen Recorder (requires Samsung screen recorder app installed)</li>
     </ul>
+    </li>
+    <li>Disable restart confirmation</li>
+    <li>Enable call recording</li>
+    <li>Replace add call button instead of call recording</li>
+    <li>Enable call recording from menu</li>
+    <li>Auto call recording</li>
+    <li>Hide VoLTE icon in status bar</li>
+    <li>Hide persistent USB connection notification</li>
+    <li>Hide persistent charging notification</li>
+    <li>Enable block phrases in messages app settings</li>
+    <li>Enable native blur on notification panel pull down</li>
+    <li>Enable navigation bar color settings in Navigation Bar settings</li>
+    <li>Navigation bar custom color picker</li>
+    <li>Enable multi user toggle</li>
+    <li>Set max user value selector</li>
+    <li>Show seconds in status bar clock toggle</li>
+    <li>Show clock date on right of clock toggle</li>
+    <li>Add date to status bar clock options</li>
+    <li>Enable fingerprint unlock on reboot toggle</li>
+    <li>Enable biometrics unlock on reboot toggle</li>
+    <li>Add network speed menu to show network speed in the status bar</li>
+    <li>Data icon symbol selection (4G, LTE, 4G+, 4.5G)</li>
+    <li>Show Data usage view in quick panel</li>
+    <li>Double tap for sleep</li>
+    <li>Hide NFC icon</li>
+    <li>Disable Bluetooth toggle popup</li>
+    <li>Disable sync toggle popup</li>
+    <li>Disable high level brightness poup</li>
+    <li>Hide carrier label</li>
+    <li>Carrier label size selection</li>
+    <li>Disable loud volume warning</li>
+    <li>Disable volume control sound</li>
+    <li>Disable low battery sound</li>
+    <li>Screen timeout settings</li>
+    <li>NFC behavior settings</li>
+    <li>Auto MTP</li>
+    <li>Disable camera temperature check</li>
+    <li>Enable camera shutter sound menu</li>
+    <li>Disable call number formatting</li>
+    <li>Disable SMS to MMS threshold</li>
+    <li>Force MMS connect</li>
+    <li>Bypass exchange security</li>
+    <li>Disable signature check</li>
+    <li>Disable secure flag</li>
+    </ul>
+    <h2>Attention</h2>
+    <p>This was built and tested on the Samsung Galaxy S8 G950F (Exynos) varient.
+    Confirmed working on:</p>
+    <ul>
+    <li>Galaxy S8</li>
+    <li>Galaxy S8+</li>
+    <li>Galaxy Note 8</li>
+    <li>Galaxy S9</li>
+    <li>Galaxy Note 9</li>
+    <li>Galaxy S10</li>
+    <li>Galaxy S10+</li>
+    <li>Galaxy Tab S4</li>
+    </ul>
+    <p><strong>THERE COULD BE BUGS/CRASHES/BOOTLOOPS</strong>, but it’s pretty stable.
+    I’ve been working with both solohsu and C3C0 on testing EdXposed on Samsung devices.</p>
+    <h2>Major Update</h2>
+    <p>In the Pie version of FirefdsKit, I have updates the project in the following aspects:</p>
+    <ol>
+    <li>Moved project from Eclipse to Android Studio</li>
+    <li>Updated compile SDK version to use latest SDK (28)</li>
+    <li>Updated dependencies to use online sources</li>
+    </ol>
+    <h2>Installation</h2>
+    <p>To install this module you need the following apps and modules installed on your device:</p>
+    <ol>
+    <li>Magisk v18.1 and above - <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></li>
+    <li>Magisk Manager v7.0.0 and above - <a href="https://github.com/topjohnwu/Magisk/releases">https://github.com/topjohnwu/Magisk/releases</a></li>
+    <li>Riru Magisk module v16.0 and above - <a href="https://github.com/RikkaApps/Riru/releases">https://github.com/RikkaApps/Riru/releases</a></li>
+    <li>EdXposed Magisk module v0.3.0.0_beta2 and above - <a href="https://github.com/ElderDrivers/EdXposed/releases">https://github.com/ElderDrivers/EdXposed/releases</a></li>
+    <li>EdXposed Installer v2.2.1 and above - <a href="https://github.com/solohsu/XposedInstaller/releases">https://github.com/solohsu/XposedInstaller/releases</a></li>
+    </ol>
+    <h2>Known Issues</h2>
+    <ul>
+    <li>Some features are removed on purpose. Since GravityBox has been working on Samsung Oreo devices without much issues, I only implemented features that need special Samsung coding. You can check <a href="https://forum.xda-developers.com/xposed/modules/app-gravitybox-v9-0-0-beta-1-android-9-t3908768">GravityBox for Pie</a> for additional features.</li>
+    <li>It could take some time to popup the root request, just wait a few minutes until it pops up, usually not much after the xposed installer recognized the module.</li>
+    </ul>
+    <h2>External Libraries</h2>
+    <p>The project uses the following libraries:</p>
+    <ol>
+    <li><a href="https://github.com/topjohnwu/libsu">https://github.com/topjohnwu/libsu</a></li>
+    <li><a href="https://github.com/rovo89/XposedBridge">https://github.com/rovo89/XposedBridge</a></li>
+    <li><a href="https://github.com/rovo89/XposedMods/tree/master/XposedLibrary">https://github.com/rovo89/XposedMods/tree/master/XposedLibrary</a></li>
+    <li><a href="https://github.com/jaredrummler/ColorPicker">https://github.com/jaredrummler/ColorPicker</a></li>
+    <li>Samsung framework libraries which are used for compile only</li>
+    </ol>
+    <h2>Credits</h2>
+    <p>This module wouldn’t have been here without the following people:</p>
+    <ul>
+    <li><a href="https://github.com/RikkaApps">RikkaW</a> - Creator of Riru Magisk module, which provides a way to inject codes into zygote process</li>
+    <li><a href="https://github.com/rovo89">rovo89</a> - Creator of the original Xposed framework APIs</li>
+    <li><a href="https://github.com/solohsu">solohsu</a> and <a href="https://github.com/MlgmXyysd">MlgmXyysd</a> - Creators of the EdXposed Magisk module and Installer that made all of this possible</li>
+    <li><a href="https://github.com/GravityBox">C3C0</a> - Creator of GravityBox Xposed modules, which I learnt a lot from</li>
+    <li><a href="https://github.com/wanam">Wanam</a> - Creator of the original XTouchWiz module, which this module is based on.</li>
+    <li><a href="https://github.com/topjohnwu">topjohnwu</a> - Creator of Magisk</li>
+    <li><a href="https://forum.xda-developers.com/member.php?u=7393522">AbrahamGC</a> - <a href="https://forum.xda-developers.com/showpost.php?p=78910083&amp;postcount=944">For the Extended Power Menu - Pie - Odex framework Smali guide</a></li>
+    <li><a href="https://github.com/jaredrummler">jaredrummler</a> - For Color Picker library</li>
+    </ul>
+    <p>This is a moded version of Wanam’s XTouchWiz:
+    <a href="https://github.com/wanam/XTouchWiz">https://github.com/wanam/XTouchWiz</a></p>
+    <h2>Telegram</h2>
+    <p>Announcements and pre release versions - <a href="https://t.me/firefdskit">https://t.me/firefdskit</a></p>
 IssueTracker: ""
 Name: Firefds Kit [P]
 SourceCode: https://github.com/Xposed-Modules-Repo/sb.firefds.pie.firefdskit

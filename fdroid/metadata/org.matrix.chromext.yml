@@ -3,17 +3,170 @@ Categories:
     - Xposed
 CurrentVersion: 3.8.2
 CurrentVersionCode: 16
-Description: |-
-    <p>Hello, everyone, this is once again a minor update, which mainly contains various fixes to support updated browsers.<br>
-    For Android 15 users, please consider use my forks of <a href="https://github.com/JingMatrix/LSPosed">LSPosed</a> and <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a> since the official developments has stopped.</p>
-    <p>Here is the summary for current update:</p>
+Description: |
+    <h1><a href="https://github.com/JingMatrix/ChromeXt">ChromeXt</a></h1>
+    <p><a href="https://github.com/JingMatrix/ChromeXt/actions/workflows/android.yml?query=event%3Apush+is%3Acompleted+branch%3Amaster"><img src="https://img.shields.io/github/actions/workflow/status/JingMatrix/ChromeXt/android.yml?branch=master&amp;logo=github&amp;label=Build&amp;event=push" alt="Build" /></a> <a href="https://github.com/Xposed-Modules-Repo/org.matrix.chromext/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/org.matrix.chromext?color=orange&amp;logoColor=orange&amp;label=Download&amp;logo=DocuSign" alt="Download" /></a> <a href="https://github.com/Xposed-Modules-Repo/org.matrix.chromext/releases"><img src="https://shields.io/github/downloads/Xposed-Modules-Repo/org.matrix.chromext/total?logo=Bookmeter&amp;label=Counts&amp;logoColor=yellow&amp;color=yellow" alt="Total" /></a></p>
+    <p>Add UserScript and DevTools supports to Chromium based and WebView based browsers using Xposed framework.</p>
+    <p><em>Note</em>: this repo is only for uploading Xposed Modules releases, the orginal project is <a href="https://github.com/JingMatrix/ChromeXt">ChromeXt</a>.</p>
+    <h2>How does it work?</h2>
+    <p>We hook the <code>onUpdateUrl</code> function in <a href="app/src/main/java/org/matrix/chromext/hook/UserScript.kt">UserScript.kt</a>,
+    add URL comparison there and evaluate JavaScript using the <code>javascript:</code> scheme (or DevTools Protocol when possible).</p>
+    <p>Chromium based browsers,
+    such as <a href="https://www.microsoft.com/en-us/edge/download">Egde</a>,
+    <a href="https://github.com/bromite/bromite">Bromite</a>,
+    <a href="https://en.wikipedia.org/wiki/Samsung_Internet">Samsung Internet</a>,
+    and <a href="https://github.com/brave/brave-browser">Brave</a>, are fully supported.</p>
+    <p>Most WebView based browsers are also supported, if not, please report it.
+    Note for WebView based browsers users: you <em>only</em> need to enable this module for the browser application you wish to use, <em>not</em> for any possible WebView applications, <em>neither</em> for the Android system.</p>
+    <h2>Usage</h2>
+    <p align="center"><a href="https://www.youtube.com/watch?v=1Qm4dU-XnJM"><img src="https://img.youtube.com/vi/1Qm4dU-XnJM/0.jpg" /></a></p>
+    <p>ChromeXt requires <strong>Xposed framework</strong>.</p>
+    <p>For root users, install <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> first,
+    pick up the latest built APK from my repo’s <a href="https://github.com/JingMatrix/ChromeXt/actions">GitHub Actions</a> and install it.</p>
+    <p>For non-root users,
+    I modify a bit <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a> to support <code>ChromeXt</code>; here is how to use it:</p>
     <ol>
-    <li>Size within 125 kB;</li>
-    <li>Support updated Eruda (v3.2.2);</li>
-    <li>Add workarounds for Edge browsers, see <a href="https://github.com/JingMatrix/ChromeXt/issues/156" data-hovercard-type="issue" data-hovercard-url="/JingMatrix/ChromeXt/issues/156/hovercard">Issues 156</a>;</li>
-    <li>Support Qihoo and Chromium browsers;</li>
-    <li>Implement <code>window.close</code> API;</li>
+    <li>Download the latest <code>lspatch-release</code> from my <a href="https://github.com/JingMatrix/LSPatch/actions">GitHub Actions</a>.</li>
+    <li>Download the latest <code>ChromeXt.apk</code> from my <a href="https://github.com/JingMatrix/ChromeXt/actions">GitHub Actions</a>.</li>
+    <li>Extract previously downloaded files to get files <code>lspatch.jar</code> (with some suffix) and <code>ChromeXt-signed.apk</code>.</li>
+    <li>Patch your APK (taking <code>arm64_ChromePublic.apk</code> as example) using the following command: <code>java -jar lspatch.jar arm64_ChromePublic.apk -d -v -m ChromeXt-signed.apk --force</code>. If <code>java</code> environment is not available, please consider using the provided <code>manager</code> APK.</li>
+    <li>Install the patched APK, which might require you to first uninstall the one on your devices.</li>
     </ol>
+    <p>Notes: currently <em>to download</em> files from <code>GitHub Actions</code>, one needs to log in GitHub.</p>
+    <p>The author uploads releases to <a href="https://github.com/Xposed-Modules-Repo/org.matrix.chromext/releases">Xposed-Modules-Repo</a> when needed, but not that frequently.</p>
+    <p>You can then install UserScripts from popular sources: URLs that ends with <code>.user.js</code>.</p>
+    <h3>Supported API</h3>
+    <p>Currently, ChromeXt supports almost all <a href="https://www.tampermonkey.net/documentation.php?locale=en">Tampermonkey APIs</a>:</p>
+    <ol>
+    <li>@name (colons not allowed), @namespace, @description and so on</li>
+    <li>@match (conform to the <a href="https://developer.chrome.com/docs/extensions/mv2/match_patterns/">Chrome Standard</a>, supports <a href="https://developer.android.com/reference/java/util/regex/Pattern">regular expressions</a>)</li>
+    <li>@include = @match, @exclude</li>
+    <li>@run-at: document-start, document-end, document-idle (the default and fallback value)</li>
+    <li>@grant: GM_addStyle, GM_addElement, GM_xmlhttpRequest, GM_openInTab, GM_registerMenuCommand (shown in the <code>Resources</code> panel of eruda), GM_unregisterMenuCommand, GM_download, unsafeWindow (= window)</li>
+    <li>@grant: GM_setValue, GM_getValue (less powerful than GM.getValue), GM_listValues, GM_addValueChangeListener, GM_removeValueChangeListener, GM_setClipboard, GM_cookie, GM_notification, window.close</li>
+    <li>@require, @resource (without <a href="https://www.tampermonkey.net/documentation.php#api:Subresource_Integrity">Subresource Integrity</a>)</li>
+    </ol>
+    <p>These APIs are implemented differently from the official ones, please refer to the source files
+    <a href="app/src/main/java/org/matrix/chromext/script/Local.kt">Local.kt</a> and
+    <a href="app/src/main/assets/GM.js">GM.js</a> if you have doubts or questions.</p>
+    <p>Moreover, there is the powerful (also dangerous) <code>GM.ChromeXt</code> API, which must be declared by <code>@grant GM.ChromeXt</code> to <em>unlock</em> its usage.
+    It is locked by default so that the users are protected from malicious UserScripts exploiting ChromeXt.
+    This API allows scripts to use the JavaScript method <code>ChromeXt.dispatch(action, payload)</code>, which is fundamental to implement other APIs. (Hence, one can find usage examples in <a href="app/src/main/assets/GM.js">GM.js</a>).
+    Dispatched <code>action</code> and <code>payload</code> are handled by <a href="app/src/main/java/org/matrix/chromext/Listener.kt">Listener.kt</a>.</p>
+    <h3>UserScripts manager front end</h3>
+    <p>To manage scripts installed by <code>ChromeXt</code>, here are a simple front end hosted on <a href="https://jingmatrix.github.io/ChromeXt/">github.io</a> and two mirrors of it (in case that you have connection issues): <a href="https://jianyu-ma.onrender.com/ChromeXt/">onrender.com</a>, <a href="https://jianyu-ma.netlify.app/ChromeXt/">netlify.app</a>.</p>
+    <h3>Edit scripts before installing them</h3>
+    <p>If you cancel the prompt of installing a new UserScript, then you can edit it directly in Chrome.
+    Use the <code>Install UserScript</code> page menu to install your modified UserScript.</p>
+    <h3>DevTools for developers</h3>
+    <p>From the three dots page menu, ChromeXt offers you the</p>
+    <ol>
+    <li><code>Developer tools</code> menu for the UserScript manager front end,</li>
+    <li><code>Eruda console</code> menu for other pages.</li>
+    </ol>
+    <p>For <code>Edge</code> browser, these menus are moved to the page info menu,
+    which locates at the left corner inside the URL input bar.</p>
+    <p>For WebView based browsers and <em>Samsung Internet</em>, these menu items are presented in the context menu.</p>
+    <h2>Bonus</h2>
+    <p>Since WebView based browsers have no unified designs, the following
+    first four features are not supported for them.
+    (By the same reason, they are neither supported for <em>Samsung Internet</em>.)</p>
+    <h3>Open in Chrome</h3>
+    <p>The application <code>ChromeXt</code> is able to</p>
+    <ol>
+    <li>received shared texts to search them using <code>Google</code>,</li>
+    <li>open JavaScript files to install them as UserScripts.</li>
+    </ol>
+    <p>The reversed priority order of opening which Chromium based browsers is given in <a href="app/src/main/AndroidManifest.xml">AndroidManifest.xml</a>.</p>
+    <h3>Solution of system gesture conflicts</h3>
+    <p>By default, the history forward gesture of Chrome is available near the vertical center of screen.
+    On other areas, only the system gesture is available.
+    One can disable this behavior through the <code>Developer options</code> menu.
+    (Tap seven times on the Chrome version from the Chrome settings, you will see the <code>Developer options</code> menu.)
+    (In <a href="https://vivaldi.com/en/android/">Vivaldi</a> browsers, <code>Developer options</code> menu is removed by its developers.)</p>
+    <h3>Enable reader mode manually</h3>
+    <p>ChromeXt adds a book icon in the page menu to enable reader (distiller) mode manually.</p>
+    <h3>Export browser bookmarks</h3>
+    <p>Bookmarks can be exported in HTML format through the <code>Developer options</code> menu.</p>
+    <h3>AD Blocker solution</h3>
+    <p>For blocking network requests, I recommend to use <code>AdAway</code> or any proxy AD Blocker such as <code>clash</code>.</p>
+    <p>A content cosmetic blocker is embedded into ChromeXt with the help of eruda.
+    To use it, first open the <code>Eruda console</code>.
+    In the <code>Elements</code> panel, one can use the <code>pointer</code> icon to select elements on the page.
+    After clicking the <code>delete</code> icon for a selected element, a corresponding filter will be saved to the <code>Resources</code> panel,
+    where one can manage previous added filters.
+    These filters are saved in the browser even after clearing the site’s data.</p>
+    <p>Another way to block ADs is using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src">Content-Security-Policy</a> to block some scripts from loading.</p>
+    <h3>User-Agent spoofing</h3>
+    <p>One can edit the User-Agent from the <code>Info</code> panel of <code>Eruda console</code>.
+    A valid User-Agent should contain only ASCII characters.
+    Currently, ChromeXt only changes the <code>User-Agent</code> HTTP header, which
+    works well but is <a href="https://wicg.github.io/ua-client-hints/#user-agent">deprecated</a>.</p>
+    <p>For Chromium based browsers, when the User-Agent spoofing is not taking effects, refresh the page using the reload button in the page menu.
+    (By contrast, a swipe refresh might be insufficient.)</p>
+    <p>Note that the DevTools can also change User-Agent.</p>
+    <h2>Contribute to this project</h2>
+    <p>Before you submit your pull-requests, please ensure that the command
+    <code>./gradlew build</code> or <code>gradlew.bat build</code> produces no warnings and no errors.</p>
+    <p>Here are corresponding files you might want / need to change:</p>
+    <ol>
+    <li>Front end: <a href="https://github.com/JingMatrix/jingmatrix.github.io/tree/main/components/ChromeXt/manager.vue">manager.vue</a></li>
+    <li>Tampermonkey API: <a href="app/src/main/java/org/matrix/chromext/script/Local.kt">Local.kt</a>
+    and <a href="app/src/main/assets/GM.js">GM.js</a></li>
+    <li>Eruda configuration: <a href="app/src/main/assets/eruda.js">eruda.js</a></li>
+    <li>Support more WebView based browsers: <a href="app/src/main/java/org/matrix/chromext/hook/WebView.kt">WebView.kt</a></li>
+    </ol>
+    <h2>Development plans</h2>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> Make it possible to pass intents to Chrome with <code>file</code> scheme</li>
+    <li><input type="checkbox" checked="" disabled="" /> Fix encoding problem for Chrome downloaded JavaScript files</li>
+    <li><input type="checkbox" checked="" disabled="" /> Inject module resource into Chrome</li>
+    <li><input type="checkbox" checked="" disabled="" /> Implement developer tools</li>
+    <li><input type="checkbox" checked="" disabled="" /> Use local versions of <a href="https://github.com/liriliri/eruda">eruda</a></li>
+    <li><input type="checkbox" checked="" disabled="" /> Improve eruda incorporation with Chrome</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add more information in the preference screen</li>
+    <li><input type="checkbox" checked="" disabled="" /> Support more <a href="https://www.tampermonkey.net/documentation.php">Tampermonkey API</a>s</li>
+    <li><input type="checkbox" checked="" disabled="" /> Find elegant way to support DevTools for Android 11-</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add cosmetic AdBlocker using eruda</li>
+    <li><input type="checkbox" checked="" disabled="" /> Find way to get current interactive tab</li>
+    <li><input type="checkbox" checked="" disabled="" /> Remove AndroidX Room dependency to reduce app size</li>
+    <li><input type="checkbox" checked="" disabled="" /> Support non-split version of Android Chrome</li>
+    <li><input type="checkbox" checked="" disabled="" /> Solve the menu hook problem for non-split versions</li>
+    <li><input type="checkbox" checked="" disabled="" /> Handle multiple Tab Model</li>
+    <li><input type="checkbox" checked="" disabled="" /> Forward DevTools server socket</li>
+    <li><input type="checkbox" checked="" disabled="" /> A mobile friendly DevTools front end</li>
+    <li><input type="checkbox" checked="" disabled="" /> Allow user to trigger reader mode</li>
+    <li><input type="checkbox" checked="" disabled="" /> Support @resource API</li>
+    <li><input type="checkbox" checked="" disabled="" /> Make GestureNav Fix optional</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add an open source License</li>
+    <li><input type="checkbox" checked="" disabled="" /> Support mocking User-Agent</li>
+    <li><input type="checkbox" disabled="" /> <del>Support <a href="https://developer.chrome.com/docs/extensions/reference/declarativeNetRequest/#type-RuleCondition">urlFilter</a> syntax</del></li>
+    <li><input type="checkbox" checked="" disabled="" /> Improve <code>Open in Chrome</code> function</li>
+    <li><input type="checkbox" checked="" disabled="" /> Implement fully <code>GM_info</code></li>
+    <li><input type="checkbox" checked="" disabled="" /> Eruda fails due to <a href="https://developer.mozilla.org/en-US/docs/Web/API/Trusted_Types_API">Injection Sinks</a></li>
+    <li><input type="checkbox" checked="" disabled="" /> Hide page_info panel automatically</li>
+    <li><input type="checkbox" checked="" disabled="" /> Fix page menu injection position</li>
+    <li><input type="checkbox" disabled="" /> <del>Use <a href="https://chromedevtools.github.io/devtools-protocol/">Chrome DevTools Protocol</a> as UserScript engine</del></li>
+    <li><input type="checkbox" disabled="" /> <del>Use <code>adb forward</code> to support non-root users</del></li>
+    <li><input type="checkbox" checked="" disabled="" /> Fully support WebView based browsers</li>
+    <li><input type="checkbox" checked="" disabled="" /> Fix <a href="https://github.com/LSPosed/LSPatch/issues/190">LSPatch for isolated process</a> issue</li>
+    <li><input type="checkbox" checked="" disabled="" /> Implement UserScript storage</li>
+    <li><input type="checkbox" checked="" disabled="" /> Re-implement GM_xmlhttpRequest</li>
+    <li><input type="checkbox" checked="" disabled="" /> Convert exported bookmarks to HTML format</li>
+    <li><input type="checkbox" checked="" disabled="" /> Show executed scripts on current page</li>
+    <li><input type="checkbox" checked="" disabled="" /> Make a YouTube presentation video</li>
+    <li><input type="checkbox" checked="" disabled="" /> Support Samsung Internet browser</li>
+    <li><input type="checkbox" checked="" disabled="" /> Implement GM_cookie</li>
+    <li><input type="checkbox" checked="" disabled="" /> Improve valid UserScripts Url detection</li>
+    <li><input type="checkbox" disabled="" /> Save and present script errors and <code>GM_log</code> logs</li>
+    <li><input type="checkbox" disabled="" /> Use <code>iframe</code> and local server to run general <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">WebExtensions</a></li>
+    <li><input type="checkbox" disabled="" /> Bypass <code>style-src</code> rule for <code>eruda</code>, such as Mastodon</li>
+    <li><input type="checkbox" disabled="" /> Support importing UserScripts from Tampermonkey exports</li>
+    <li><input type="checkbox" disabled="" /> Support backup and restore</li>
+    <li><input type="checkbox" disabled="" /> Add recommended UserScripts to the front end manager</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add <a href="https://chromium.googlesource.com/devtools/devtools-frontend/">chrome devtools front-end</a> for Edge, see <a href="https://source.chromium.org/chromium/chromium/src/+/main:content/browser/devtools/devtools_http_handler.cc">devtools_http_handler.cc</a> as reference.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Hide inserted menu for non-page</li>
+    </ul>
 IssueTracker: ""
 Name: ChromeXt
 SourceCode: https://github.com/Xposed-Modules-Repo/org.matrix.chromext

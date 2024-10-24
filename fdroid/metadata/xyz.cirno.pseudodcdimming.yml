@@ -3,7 +3,25 @@ Categories:
     - Xposed
 CurrentVersion: "1.2"
 CurrentVersionCode: 6
-Description: <p>Add support for Android 14.</p>
+Description: |
+    <h1>Pseudo DC Dimming</h1>
+    <p><a href="https://github.com/dantmnf/PseudoDCDimming/blob/master/README.zh.md">简体中文</a></p>
+    <p>Enable alternative dimming mode (likely DC-like) on low brightness for some OLED displays by using software brightness gain.</p>
+    <p>Requires Android 12 or later.</p>
+    <p><a href="https://github.com/dantmnf/PseudoDCDimming/releases/latest">Download latest release</a></p>
+    <h2>How it works</h2>
+    <p>By limiting the minimum brightness and scaling down the output signal through a degamma-gain-regamma transform, the actual display brightness matches the expected brightness while maintaining a higher PWM frequency and duty cycle.</p>
+    <p><a href="https://github.com/dantmnf/PseudoDCDimming/blob/master/details.md">details</a></p>
+    <h2>Limitations</h2>
+    <ul>
+    <li>Rely heavily on the manufacturer’s calibration of screen brightness controls and response curves. If the manufacturer uses different response curves during calibration, or the brightness control has non-linear behavior, it may affect the display quality after turning on the module;</li>
+    <li>May conflict with other color transform functions;</li>
+    <li>May conflict with HDR content.</li>
+    </ul>
+    <h2>Configuration</h2>
+    <p>Use the high-speed shutter mode of the camera to amplify the stroboscopic effect, or use professional instruments to measure the PWM frequency and duty cycle. Choose an acceptable brightness value as the minimum hardware brightness.</p>
+    <h2>Acknowledgements</h2>
+    <p>Inspired from <a href="https://github.com/ztc1997/FakeDCBacklight">ztc1997/FakeDCBacklight</a>. This project additionally implements immediate application as well as stabilizing the brightness before and after enabling.</p>
 IssueTracker: ""
 Name: Pseudo DC Dimming
 SourceCode: https://github.com/Xposed-Modules-Repo/xyz.cirno.pseudodcdimming

@@ -3,15 +3,73 @@ Categories:
     - Xposed
 CurrentVersion: 24.10.12
 CurrentVersionCode: 73
-Description: |-
-    <p>Maybe this is the final release for Android 14</p>
-    <p>disable resetting of the privacy blur list in recents<br>
-    fix: invalid 'switch to prev app' action<br>
-    fix: systemui crash when the clock format is set</p>
-    <h2>这可能是支持A14的最后版本</h2>
-    <p>禁止最近任务的模糊列表被重置<br>
-    修复切换至上一应用的动作失效问题<br>
-    修复部分新系统在设置时钟格式后，系统界面crash的问题</p>
+Description: |
+    <blockquote>
+    <p><a href="https://github.com/monwf/customiuizer">Github</a></p>
+    </blockquote>
+    <h2>Pengeek</h2>
+    <p>Customize your HyperOS to your liking</p>
+    <p>For HyperOS based on android 14.</p>
+    <p>Legacy releases:</p>
+    <ul>
+    <li>
+    <p><a href="https://github.com/MonwF/customiuizer/releases/tag/v23.11.26">MIUI14 release</a></p>
+    </li>
+    <li>
+    <p><a href="https://github.com/MonwF/customiuizer/releases/tag/v23.08.26">MIUI13 release</a></p>
+    </li>
+    </ul>
+    <h2>Translations</h2>
+    <p><a href="https://crowdin.com/project/customiuizer14"><img src="https://badges.crowdin.net/customiuizer14/localized.svg" alt="Crowdin" /></a></p>
+    <h2>Test builds</h2>
+    <ul>
+    <li><a href="https://t.me/pengeek">Telegram channel</a></li>
+    <li><a href="https://rz3kv5wa4g.jiandaoyun.com/dash/650e43a383027ec3225083e9">jiandaoyun</a></li>
+    </ul>
+    <h2><a href="https://github.com/MonwF/customiuizer/blob/main/README_zh.md">米客</a></h2>
+    <p>客制化你的HyperOS</p>
+    <p>支持基于<code>android 14</code>以上的<code>HyperOS</code></p>
+    <p>过时版本</p>
+    <ul>
+    <li><a href="https://github.com/MonwF/customiuizer/releases/tag/v23.11.26">MIUI14 下载</a></li>
+    <li><a href="https://github.com/MonwF/customiuizer/releases/tag/v23.08.26">MIUI13 下载</a></li>
+    </ul>
+    <h2>Here are the main working features:</h2>
+    <ul>
+    <li>keep phone unlocked in trusted env (both bluetooth and wifi)</li>
+    <li>autobrightness range limit</li>
+    <li>extended timers for silent and dnd mode</li>
+    <li>music visualizer</li>
+    <li>set album art as wallpaper</li>
+    <li>statusbar
+    <ul>
+    <li>hide icons</li>
+    <li>clock tweak</li>
+    <li>gesture (double tap to sleep、slice to adjust volume or brightness)</li>
+    <li>battery bar indicator</li>
+    </ul>
+    </li>
+    <li>notifications
+    <ul>
+    <li>notification importance</li>
+    <li>auto expand</li>
+    <li>extended menu</li>
+    <li>remove limit per package</li>
+    <li>open in floating window</li>
+    <li>open channel settings</li>
+    </ul>
+    </li>
+    <li>disable blacklist for floating windows</li>
+    <li>extended power menu</li>
+    <li>allow downgrade</li>
+    <li>disable app signature verification</li>
+    <li>use back gesture with navbar mode</li>
+    <li>custom left/right buttons on the navbar</li>
+    <li>skip permission intercept warning countdown</li>
+    <li>control system apps to connect with wifi and battery saver</li>
+    <li>show more detail on app installer or info activity</li>
+    <li>powerful gesture with multi actions</li>
+    </ul>
 IssueTracker: ""
 Name: Pengeek(米客)
 SourceCode: https://github.com/Xposed-Modules-Repo/name.monwf.customiuizer

@@ -3,14 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.3
 CurrentVersionCode: 19
-Description: |-
-    <ul>
-    <li>修复双击标题事件偶尔失效</li>
-    </ul>
-    <hr>
-    <ul>
-    <li>Fix occasional invalidation of double-click title event</li>
-    </ul>
+Description: |
+    <h1>5G开关（Hyper5GSwitch）</h1>
+    <p>在移动网络面板中添加 5G 开关，仅适用于支持5G网络并搭载 HyperOS 的设备。</p>
+    <p>Add a 5G switch to the mobile network panel, only for devices that support 5G net and equipped with HyperOS.</p>
+    <h2>特点</h2>
+    <ol>
+    <li>无后台服务</li>
+    <li>无图标，无配置，即装即用</li>
+    </ol>
+    <h2>使用</h2>
+    <ol>
+    <li>在Xposed管理器(LSPosed, EdXposed…)中激活模块 (强烈推荐使用LSP)</li>
+    <li>作用域勾选 系统界面(<strong><code>com.android.systemui</code></strong>)</li>
+    <li><strong>重启系统界面或手机</strong></li>
+    </ol>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/cn.buffcow.hyper5g/releases">LSPosed 仓库</a></p>
+    <p><a href="https://qyma.lanzout.com/b051np9gf">蓝奏云</a> 密码:<code>miui</code></p>
+    <h2>无效</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
+    <h2>致谢</h2>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: 5G开关（Hyper5GSwitch）
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.buffcow.hyper5g

@@ -3,12 +3,58 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.8
 CurrentVersionCode: 100008
-Description: |-
-    <p>v1.0.8 -</p>
-    <p>修复新版适配问题<br>
-    修复一些其它已知问题</p>
-    <p>#注</p>
-    <p>极速版还未完全适配，无需反馈。</p>
+Description: |
+    <h1>DestinyImm 抖音沉浸模块</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/xdc.destinyImm/releases/tag/100008-1.0.8"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/xdc.destinyImm"></a></p>
+    <hr />
+    <h2>抖音沉浸模块,Xp模块</h2>
+    <p>给你的抖音增加一些新的功能，使其可以沉浸播放，也可以查询视频所包含的信息</p>
+    <p>点击加入 <a href="https://pd.qq.com/s/gacaf5jwq">模块交流频道(QQ)</a></p>
+    <ul>
+    <li>目前支持 仅测试25.0以上版本, 理论多版本支持(不支持港澳台版、国际版)</li>
+    </ul>
+    <hr />
+    <h3>更新日志</h3>
+    <p>2024-04-25  v1.0.8 修复新版适配问题,以及修复一些其它已知问题</p>
+    <p>2023-12-23  v1.0.7 修复模块在新版抖音版本28.0.0(280000)以上版本适配失效问题</p>
+    <p>2023-10-21  v1.0.6 修复模块在抖音版本27.1.0(270100)以上版本适配失效问题</p>
+    <p>2023-09-07  v1.0.5 修复模块在抖音版本27.0.0(270000)下去除反馈字样失效问题</p>
+    <p>2023-09-05  v1.0.4 新增默认过滤视频中的部分广告</p>
+    <p>2023-08-05  v1.0.3 增加信息查询及自动适配新版功能</p>
+    <p>2023-08-02  v1.0.2 增加界面沉浸功能</p>
+    <p>2023-07-10  v1.0.1 增加抖音界面防烧屏功能</p>
+    <hr />
+    <h3>主要功能如下</h3>
+    <hr />
+    <ul>
+    <li>抖音界面防烧屏功能</li>
+    <li>抖音界面沉浸功能</li>
+    <li>抖音视频信息查询功能</li>
+    <li>自动适配抖音新版功能</li>
+    </ul>
+    <p>简单操作即可使用</p>
+    <hr />
+    <h2>常见问题</h2>
+    <ul>
+    <li>
+    <p>模块初次使用建议操作流程</p>
+    <pre><code>  1.安装好模块后把模块和抖音都强行停止运行
+      2.激活(勾选)模块
+      3.勾选抖音(默认勾选)
+      4.强行停止模块运行
+      5.打开抖音
+    </code></pre>
+    </li>
+    </ul>
+    <h2>注意</h2>
+    <ul>
+    <li>长按上半屏可以选择查询视频信息</li>
+    </ul>
+    <p>=======</p>
+    <h2>注意</h2>
+    <ul>
+    <li>模块仅供学习，请勿用于非法用途，如有其他疑问，请提issus</li>
+    </ul>
 IssueTracker: ""
 Name: 一个针对抖音沉浸播放的模块
 SourceCode: https://github.com/Xposed-Modules-Repo/xdc.destinyImm

@@ -3,12 +3,71 @@ Categories:
     - Xposed
 CurrentVersion: 2.2.0
 CurrentVersionCode: 220
-Description: |-
-    <p>1.新增<code>关闭视频彩铃</code>和<code>智能互转</code>功能<br>
-    2.新增<code>5G开关</code>功能<br>
-    3.适配支持<strong>HyperOS</strong><br>
-    4.<strong>绕过MTB鉴权</strong>支持<code>v6.x</code><br>
-    5.<strong>智能双卡并发支持</strong><code>去除频段限制</code>功能</p>
+Description: |
+    <div align="center">
+    <h1>ModemPro 基带进化</h1>
+    <p>这是一个适用于MIUI 13/14/HyperOS的基带增强型Xposed模块</p>
+    <p><a href="https://github.com/Weverses/ModemPro/actions"><img alt="Android CI" src="https://github.com/Weverses/ModemPro/workflows/Android%20CI/badge.svg"></a> <a href="https://github.com/Xposed-Modules-Repo/com.weverses.modempro/releases/"><img alt="Github Releases" src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.weverses.modempro"></a> <a href="https://github.com/Xposed-Modules-Repo/com.weverses.modempro/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.weverses.modempro/total?label=Downloads"></a> <a href="https://github.com/Weverses/ModemPro/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Weverses/ModemPro"></a> <a href="https://github.com/Weverses/ModemPro/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Weverses/ModemPro"></a> <a href="https://github.com/Weverses/ModemPro/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Weverses/ModemPro"></a></p>
+    </div>
+    <h2>功能</h2>
+    <ul>
+    <li>为部分机型增加双卡5G支持</li>
+    <li>解锁N5/N8/N28频段支持</li>
+    <li>智能双卡切换</li>
+    <li>副卡VoLTE通话时可联网</li>
+    <li>解锁MTB的开发权限限制</li>
+    <li>智能双卡</li>
+    <li>机场/郊野/地铁网络场景优化</li>
+    <li>无视白名单开启郊野网络场景优化</li>
+    <li>全局开启5G双卡数据并发</li>
+    <li>全局开启5G双卡数据辅助</li>
+    <li>智能双卡并发无视 频段限制</li>
+    <li>关闭视频彩铃</li>
+    <li>智能互转</li>
+    </ul>
+    <h2>设备/系统要求</h2>
+    <ul>
+    <li>是小米/Redmi手机，非sgsi/gsi</li>
+    <li>Android版本≥12, MIUI版本≥13</li>
+    <li>双卡5G支持需要使用骁龙865/870机型方可开启</li>
+    <li>智能双卡…全局5G双卡数据并发等功能需要HyperOS方可使用</li>
+    </ul>
+    <h2>使用方法</h2>
+    <ul>
+    <li>在LSPosed仓库内下载并安装</li>
+    <li>在LSPosed App内开启本模块，并勾选所有的推荐作用域</li>
+    <li>开启/关闭你需要的功能</li>
+    <li>重启手机后即可享用</li>
+    </ul>
+    <h2>已知问题</h2>
+    <ul>
+    <li>解锁N5/N5/N28频段后实际可能因为信令不上报导致无效，如果有大佬能解决欢迎pr</li>
+    </ul>
+    <h2>注意事项</h2>
+    <ul>
+    <li>双卡5G功能因为副卡为5G NSA，且因为目前NSA基站较少，系统不会优先连接，请自行在拨号盘输入*#<em>#4636#</em>#*锁定NR，若无服务则说明附近没有NSA基站</li>
+    <li>请勾选<b>全部的作用域</b>，否则可能出现在系统设置里没有功能开关的问题</li>
+    </ul>
+    <h2>下载</h2>
+    <ul>
+    <li>Github Action: <a href="https://github.com/Weverses/ModemPro/actions">https://github.com/Weverses/ModemPro/actions</a></li>
+    <li>Github Releases: <a href="https://github.com/Xposed-Modules-Repo/com.weverses.modempro/releases/">https://github.com/Xposed-Modules-Repo/com.weverses.modempro/releases/</a></li>
+    <li>Xposed Modules Repo: <a href="https://modules.lsposed.org/module/com.weverses.modempro">https://modules.lsposed.org/module/com.weverses.modempro</a></li>
+    </ul>
+    <h2>主仓库</h2>
+    <ul>
+    <li>源码
+    <a href="https://github.com/Weverses/ModemPro">ModemPro</a></li>
+    </ul>
+    <h2>第三方开源引用</h2>
+    <ul>
+    <li>GNU Lesser General Public License v2.1
+    <a href="https://github.com/577fkj/blockmiui">577fkj/blockmiui</a></li>
+    <li>Apache License 2.0
+    <a href="https://github.com/KyuubiRan/EzXHelper">KyuubiRan/EzXHelper</a></li>
+    </ul>
+    <h2>License</h2>
+    <p><a href="https://github.com/Weverses/ModemPro/blob/main/LICENSE">GNU General Public License v3.0</a></p>
 IssueTracker: ""
 Name: ModemPro 基带进化
 SourceCode: https://github.com/Xposed-Modules-Repo/com.weverses.modempro

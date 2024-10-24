@@ -3,7 +3,156 @@ Categories:
     - Xposed
 CurrentVersion: 1.8.321
 CurrentVersionCode: 10
-Description: <p>Fix clock second shows after AM/PM</p>
+Description: |
+    <h1>CustoMIUIzerMod</h1>
+    <p><a href="https://github.com/liyafe1997/CustoMIUIzerMod/">CustoMIUIzerMod Github Repo</a></p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/org.strawing.customiuizermod/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/org.strawing.customiuizermod/total?label=Release%20Download" alt="Download" /></a></p>
+    <h2>English</h2>
+    <p><a href="#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese">简体中文</a></p>
+    <h3>For Android 12 and above</h3>
+    <p>This project will not adopt Android 12+ since someone is doing that. If you are using Android 12+ based MIUI you can check: <a href="https://github.com/MonwF/customiuizer">https://github.com/MonwF/customiuizer</a></p>
+    <p>This project will focus on Android 11 based MIUI, especially MIUI12.5 &amp; 13</p>
+    <h3>Introduction</h3>
+    <p>This project is based on <a href="https://code.highspec.ru/Mikanoshi/CustoMIUIzer">Mikanoshi’s CustoMIUIzer</a>, since the original CustoMIUIzer haven’t adapted MIUI12.5 &amp; Android 11 yet for a long time, this mod is targeting at adapting higher version of Android and MIUI.</p>
+    <p>Currently I have no plan to add new features to this mod, only target at make it works on Android 11 based MIUI 12.5/13. If you found something doesn’t work or unexpeted whatever on A11, MIUI12.5/13, you are welcome to submit issues. (Theoretically, the compatibility of mods is mainly related to the Android version and less related to the MIUI version, so most of mods should work without workaround for MIUI13 with Android 11 and below.)</p>
+    <p>Also, if you have solutions for the workaound, you are welcomed to sumbit pull request.</p>
+    <h3>List of fix in CustoMIUIzerMod</h3>
+    <p>Note: Mods are not listed here not means it can’t work work with higher version of MIUI and Android. These mods are the mods not work with higher version OS in original CustoMIUIzer, and be fixed in CustoMIUIzerMod. For this moment, I don’t have time to test each mods whether it works or not one by one, so if you find any mods doesn’t work, you are welcomed to sumbit issues.</p>
+    <ol>
+    <li>
+    <p>Mod: Navigation bar custom (left/right) key</p>
+    </li>
+    <li>
+    <p>Mod: Detailed network speed indicator in statusbar</p>
+    </li>
+    <li>
+    <p>Mod: Screenshot Config</p>
+    </li>
+    <li>
+    <p>Mod: Custom network speed indicator update interval</p>
+    </li>
+    <li>
+    <p>Mod: Hide app from recent list</p>
+    </li>
+    <li>
+    <p>Mod: Remove unlock icon animation on launcher</p>
+    </li>
+    <li>
+    <p>Mod: Show Seconds</p>
+    </li>
+    <li>
+    <p>Mod: Music Visualizer</p>
+    </li>
+    <li>
+    <p>Mod: Hide Navbar</p>
+    </li>
+    <li>
+    <p>Mod: Battery bar indicator</p>
+    </li>
+    <li>
+    <p>Mod: Hide WIFI/VPN icon on statusbar.</p>
+    </li>
+    <li>
+    <p>Backup/Restore Settings: Use Document Provider to load/save backup file instead of hard coded the path. For compatible with Android 11’s new storage policy.</p>
+    </li>
+    </ol>
+    <h3>How to migrate settings from original CustoMIUIzer</h3>
+    <p>If you are using Play Store’s version of CustoMIUIzer, please download and install (just overwrite it, DO NOT uninstall firstly, otherwise you will lost all your settings) a standalone APK version from <a href="https://code.highspec.ru/Mikanoshi/CustoMIUIzer/releases">Original CustoMIUIzer Release Page</a> or LSPosed repo. The reason is Play Store’s version of CustoMIUIzer has updated the target API to 30 (Android11), but have not updated the backup/restore implementation. Due to the Android 11’s new storage policy, it unable to save settings to your phone storage (But you can still have a try firstly) .</p>
+    <ol>
+    <li>
+    <p>Open the Original CustoMIUIzer, click the three-dots button in the top-right corner, then “Settings management”.</p>
+    </li>
+    <li>
+    <p>Click “Backup”</p>
+    </li>
+    <li>
+    <p>Go to your file manager app, check the backup file “/CustoMIUIzer/settings_backup” existed or not. If the backup succeed, you can uninstall the original version CustoMIUIzer.</p>
+    </li>
+    <li>
+    <p>Install CustoMIUIzerMod, activate it in LSPosed and then reboot.</p>
+    </li>
+    <li>
+    <p>Open CustoMIUIzerMod, click three-dots menu, “Settings management”, “Restore”, then select the backup file “/CustoMIUIzer/settings_backup”.</p>
+    </li>
+    <li>
+    <p>Done. Now you should reboot your phone to apply your new settings.</p>
+    </li>
+    </ol>
+    <h3>About Versions and futher updates</h3>
+    <p>For the version number, it start from 1.0, and the last three number is the based version of original CustoMIUIzer. E.g. 1.0.321 means this 1.0 version is based on CustoMIUIzer 3.2.1. I will merge updates from the upstram (original CustoMIUIzer) depends on the situation.</p>
+    <h2>简体中文 (Simplified Chinese)</h2>
+    <h3>Android 12及以上版本</h3>
+    <p>该项目不会去适配Android 12+，因为已经有别的项目在做了，如果你在使用Android12及以上版本可以看看这个项目：<a href="https://github.com/MonwF/customiuizer">https://github.com/MonwF/customiuizer</a></p>
+    <p>该项目主要是适配基于Android 11的MIUI12.5/13</p>
+    <h3>简介</h3>
+    <p>该项目基于原版<a href="https://code.highspec.ru/Mikanoshi/CustoMIUIzer">Mikanoshi’s CustoMIUIzer</a>，由于原版好久没有更新适配MIUI12.5 &amp; Android 11，而且从跟他在issue板交流的回复情况看，那位老哥短时间内似乎没有适配高版本MIUI&amp;Android的计划。已经快一年了，实在等不及，于是决定自己动手。</p>
+    <p>当前我并没有计划添加新功能，主要还是适配Android 11 &amp; MIUI 12.5/13。如果你发现有Mod在Android11，MIUI12.5/13下无法正常工作，欢迎提Issue。（理论上，模块兼容性主要与Android版本相关性较大，与MIUI版本相关性较小，所以对于Android11及以下的MIUI13应该不需做额外适配）</p>
+    <p>来自酷安的老哥欢迎在酷安@Strawing提问题。之后打算上架酷安，目前正在申请开发者认证，还在审核中。</p>
+    <p>并且，如果你懂Android开发，有好的适配方案，欢迎直接提交pull request。</p>
+    <h3>CustoMIUIzerMod修改列表</h3>
+    <p>Note: 不在本列表中的Mods并不意味着在高版本的Android和MIUI中无法正常工作，因为原先很多Mod也是可以用的。下面列出的Mod是原版CustoMIUIzer无法在高版本的系统上工作，本项目修复了的。目前我没有时间一个个功能去测在高版本系统上能否使用，所以截止目前我只修了我自己最常用的几个Mods，因此如果你发现有任何Mods无法正常工作，欢迎提issue。</p>
+    <ol>
+    <li>
+    <p>Mod: 导航栏自定义左右键</p>
+    </li>
+    <li>
+    <p>Mod: 状态栏详细的网速指示器</p>
+    </li>
+    <li>
+    <p>Mod: 截图配置</p>
+    </li>
+    <li>
+    <p>Mod: 自定义网速更新间隔</p>
+    </li>
+    <li>
+    <p>Mod: 最近应用列表隐藏指定App</p>
+    </li>
+    <li>
+    <p>Mod: 去除解锁图标动画</p>
+    </li>
+    <li>
+    <p>Mod: 显示秒</p>
+    </li>
+    <li>
+    <p>Mod: 音乐可视化</p>
+    </li>
+    <li>
+    <p>Mod: 隐藏导航栏</p>
+    </li>
+    <li>
+    <p>Mod: 电池条指示器</p>
+    </li>
+    <li>
+    <p>Mod: 状态栏 隐藏WIFI/VPN图标</p>
+    </li>
+    <li>
+    <p>备份/还原设置：用Document Provider API来读写备份文件，而不是原先的写死路径的方法，目的是兼容Android 11的新存储策略。</p>
+    </li>
+    </ol>
+    <h3>如何把设置从原版CustoMIUIzer迁移到CustoMIUIzerMod</h3>
+    <p>如果你是从Google Play安装的CustoMIUIzer，你需要从<a href="https://code.highspec.ru/Mikanoshi/CustoMIUIzer/releases">原版CustoMIUIzer Release</a>或者LSPosed仓库中下载独立APK版本的CustoMIUIzer，来覆盖安装（不要卸载，不然你的设置全没了）。原因是因为Google Play的政策，上架Play商店的版本Target API更新到了30（Android11），然而原作者并没有更新实现备份还原的逻辑，还是用写死路径的方法，这与Android11新的存储策略不兼容，导致在Android11上没有存储权限，无法备份设置（不过你可以尽管先试一试，不行再装apk）。</p>
+    <ol>
+    <li>
+    <p>打开原版CustoMIUIzer，点击右上角三个点，然后「设置管理」。</p>
+    </li>
+    <li>
+    <p>点击「备份」</p>
+    </li>
+    <li>
+    <p>打开你的文件管理App，检查下备份文件「/CustoMIUIzer/settings_backup」是否存在，如果备份成功，你可以卸载原版CustoMIUIzer了。</p>
+    </li>
+    <li>
+    <p>安装CustoMIUIzerMod，在LSPosed中激活，然后重启。</p>
+    </li>
+    <li>
+    <p>打开CustoMIUIzerMod，点击右上角三个点，「设置管理」，「还原」，然后选择备份文件「/CustoMIUIzer/settings_backup」。</p>
+    </li>
+    <li>
+    <p>完成。此时需重启以应用新设置。</p>
+    </li>
+    </ol>
+    <h3>关于版本号及以后的更新</h3>
+    <p>CustoMIUIzerMod版本号从1.0开始，最后三位数为基于CustoMIUIzer的版本，比如1.0.321意为基于CustoMIUIzer 3.2.1。后续上游原版CustoMIUIzer的更新我会视情况merge过来。</p>
 IssueTracker: ""
 Name: CustoMIUIzerMod
 SourceCode: https://github.com/Xposed-Modules-Repo/org.strawing.customiuizermod

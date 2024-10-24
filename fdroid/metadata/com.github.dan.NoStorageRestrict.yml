@@ -3,7 +3,16 @@ Categories:
     - Xposed
 CurrentVersion: 0.5.0
 CurrentVersionCode: 5
-Description: <p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>
+Description: |
+    <h1>NoStorageRestrict</h1>
+    <p><img src="https://i.imgur.com/Z7VH0Li.jpg" alt="" /></p>
+    <p>Removes the restriction when selecting folders (Sdcard, Download, data and obb) through the file manager on Android 11 and higher</p>
+    <h2>Disclaimer</h2>
+    <ul>
+    <li>This module WILL NOT let any app access /data or /obb folders directly, my module only gets around file selection limitations in the stock files app (and any app using the storage access framework to access files), fully getting around /data /obb limitation is currently out of the scope of this module</li>
+    <li>In most cases DO NOT enable the module for the files app (only keep it enabled for the External Storage app), only enable it for the Files app when you want an app to be able to access something on /Android/data through the files app, otherwise keep it only enabled for the External Storage app</li>
+    </ul>
+    <p><a href="https://www.paypal.com/donate/?hosted_button_id=BJAJW4755BXFY">Donation/Paypal</a></p>
 IssueTracker: ""
 Name: NoStorageRestrict
 SourceCode: ""

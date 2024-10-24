@@ -3,11 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.1
 CurrentVersionCode: 3
-Description: |-
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1"><tt>v1.1.0...v1.1.1</tt></a></p>
-    <h1>更新内容</h1>
+Description: |
+    <h1>HelloCiwong</h1>
+    <p>功能：</p>
     <ul>
-    <li>解决了无法取消显示在线作答的答案的问题</li>
+    <li>测试视为普通练习（可以跳过步骤）</li>
+    <li>听说模考显示答案（暂时比较简陋）</li>
+    <li>在线作答显示答案</li>
     </ul>
 IssueTracker: ""
 Name: HelloCiwong

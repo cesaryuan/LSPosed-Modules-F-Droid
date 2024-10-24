@@ -3,10 +3,25 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.2
 CurrentVersionCode: 62
-Description: |-
-    <p>更新依赖库版本<br>
-    适配9RT C04 桌面时钟组件<br>
-    (时钟_12.0.76 --&gt; c05c8c0)</p>
+Description: |
+    <h1>KillRedOne</h1>
+    <h1>该模块功能已迁移至LuckyTool</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool">LuckyTool</a></p>
+    <p>OnePlus For ColorOS Kill RedOne<br />
+    旨在干掉一加ColorOS的红一</p>
+    <h1>作用域</h1>
+    <p>系统界面-&gt;状态栏时钟,锁屏时钟<br />
+    时钟-&gt;桌面时钟组件</p>
+    <h1>Xposed API</h1>
+    <p>YukiHookAPI<br />
+    <a href="https://github.com/fankes/YukiHookAPI">https://github.com/fankes/YukiHookAPI</a></p>
+    <h1>Github</h1>
+    <p>开发者:luckyzyx<br />
+    <a href="https://github.com/luckyzyx">https://github.com/luckyzyx</a><br />
+    GitHub仓库<br />
+    <a href="https://github.com/luckyzyx/KillRedOne">https://github.com/luckyzyx/KillRedOne</a><br />
+    LSPosed仓库<br />
+    <a href="https://github.com/Xposed-Modules-Repo/com.luckyzyx.killredone">https://github.com/Xposed-Modules-Repo/com.luckyzyx.killredone</a></p>
 IssueTracker: ""
 Name: KillRedOne
 SourceCode: https://github.com/Xposed-Modules-Repo/com.luckyzyx.killredone

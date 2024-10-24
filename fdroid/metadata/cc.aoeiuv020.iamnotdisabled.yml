@@ -3,7 +3,39 @@ Categories:
     - Xposed
 CurrentVersion: "6.6"
 CurrentVersionCode: 1
-Description: <h3>兼容性优化，适配新版LSPosed的堆栈变化</h3>
+Description: |
+    <h1>IAmNotDisabled</h1>
+    <p>使用xposed hook假装自己没有使用无障碍服务，<br />
+    <a href="https://github.com/AoEiuV020/IAmNotDisabled/blob/main/ChangeLog.txt"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-ChangeLog-brightgreen" alt="img" /></a>
+    <a href="https://github.com/AoEiuV020/IAmNotDisabled/actions/workflows/main.yml"><img src="https://github.com/AoEiuV020/IAmNotDisabled/actions/workflows/main.yml/badge.svg" alt="CI" /></a>
+    <a href="https://github.com/AoEiuV020/IAmNotDisabled/releases"><img src="https://img.shields.io/github/v/release/AoEiuV020/IAmNotDisabled.svg" alt="img" /></a></p>
+    <p>起因：<a href="https://www.v2ex.com/t/826317">https://www.v2ex.com/t/826317</a><br />
+    使用无障碍服务会被部分app特殊对待，<br />
+    然而有可能使用了无障碍只是为了便利，并不希望被优待，<br />
+    于是有了本项目，<br />
+    针对chrome，假装自己没有使用无障碍服务，才可以使用新版的各种标签相关功能和动画，</p>
+    <h3>项目包含两个应用模块</h3>
+    <ul>
+    <li>app 我残？ 用于测试hook效果，打开时检测到无障碍服务就会提示，</li>
+    <li>hook 非残！ xposed模块通过hook负责查询无障碍的系统服务伪装成没有启用无障碍服务，</li>
+    </ul>
+    <h3>模块使用需求</h3>
+    <ul>
+    <li>安卓8以上，不为啥，只是觉得没必要支持旧版，</li>
+    <li><a href="https://github.com/LSPosed/LSPosed">Riru-LSPosed</a> 1.6.5以上，不为啥，只是因为我开发时在用的就是这个，</li>
+    <li>理论上对任何目标应用都有效，</li>
+    </ul>
+    <h3>模块使用方法</h3>
+    <ol>
+    <li>手机解锁，</li>
+    <li>刷入Magisk，</li>
+    <li>刷入Magisk模块Riru和Riri-LSPosed，</li>
+    <li>安装“<a href="https://github.com/AoEiuV020/IAmNotDisabled/releases">非残！</a>”，IAmNotDisabled-hook.apk，</li>
+    <li>在LSPosed中激活非残并勾选需要隐瞒无障碍服务应用，比如chrome，</li>
+    <li>重启目标应用生效，</li>
+    </ol>
+    <p>下图，开启“李跳跳”的同时使用chrome的新版标签，<br />
+    <img src="https://raw.githubusercontent.com/AoEiuV020/IAmNotDisabled/main/readme/chrome%2Blitiaotiao.jpg" alt="img" /></p>
 IssueTracker: ""
 Name: 非残！
 SourceCode: ""

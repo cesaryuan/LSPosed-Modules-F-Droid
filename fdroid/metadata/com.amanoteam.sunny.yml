@@ -3,10 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: "0.4"
 CurrentVersionCode: 4
-Description: |-
+Description: |
+    <h1>Sunny</h1>
+    <p>Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.</p>
+    <h2>Features</h2>
     <ul>
-    <li>Fix issues with the manga tracking system (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Patriarch9307/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Patriarch9307">@Patriarch9307</a>)</li>
+    <li>Ignore extension-specific rate limits (makes page loading and browsing faster).</li>
+    <li>Increase max number of concurrent downloads from 2 to 16.</li>
     </ul>
+    <h2>What is this?</h2>
+    <p>Mihon and Tachiyomi have a rate limit system based on <a href="https://square.github.io/okhttp/features/interceptors">OkHttp interceptors</a>. This system is intended to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending HTTP requests.</p>
+    <p>This is a simple but efficient system that can prevent a lot of issues. However, the downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.</p>
+    <p>Unfortunately, this results in browsing and downloading being slower than necessary.</p>
+    <p>Bellow is a video comparison:</p>
+    <p><img src="https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif" alt="Video comparison" /></p>
+    <p><strong>On the left side</strong>: Tachiyomi <strong>with</strong> the Sunny module enabled.<br />
+    <strong>On the right side</strong>: Tachiyomi <strong>without</strong> the Sunny module.</p>
+    <p>Note that it takes more than 30 seconds to completely load the page without the module.</p>
+    <h2>Supported versions</h2>
+    <p>The minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.</p>
+    <p>This was tested up to Mihon v0.16.5.</p>
 IssueTracker: ""
 Name: Sunny
 SourceCode: https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny

@@ -3,7 +3,42 @@ Categories:
     - Xposed
 CurrentVersion: "2.0"
 CurrentVersionCode: 2
-Description: <p>More stable hook</p>
+Description: |
+    <img width="128" height="128" src="https://i.imgur.com/UyoTRed.png" alt="icon_square">
+    <h1>Xposed Google Photos FIX</h1>
+    <p>Xposed Module to Force Google Photos to separate each folder like Snapchat, Screenshot, Facebook, and so on separated from the Camera folder.</p>
+    <h2><a href="https://github.com/RevealedSoulEven/XposedPhotosFIX/releases/">Downloads</a></h2>
+    <h2><a href="https://github.com/RevealedSoulEven/XposedPhotosFIX/">Source and Support</a></h2>
+    <blockquote>
+    <p><a href="https://github.com/RevealedSoulEven/XposedPhotosFIX/releases/download/2.0/app-release.apk"><img src="https://img.shields.io/badge/APK-v2.0-brightgreen" alt="APK: v2.0" /></a></p>
+    </blockquote>
+    <h2>Requirements:</h2>
+    <ul>
+    <li>
+    <p>Android Device</p>
+    </li>
+    <li>
+    <p>Xposed implementation installed properly like <a href="https://github.com/ElderDrivers/EdXposed/">EdXposed</a>
+    and <a href="https://github.com/LSPosed/LSPosed/">LSPosed</a></p>
+    </li>
+    <li>
+    <p>For Non-Root use LSPatch, but Googe login may not work.</p>
+    </li>
+    </ul>
+    <h2>Usage:</h2>
+    <pre><code>- Enable the module
+    - Select `Google Photos`
+    - Clear Data of Google Photos if not works
+    </code></pre>
+    <h2>Credits:</h2>
+    <ul>
+    <li>SoulEven : for my lazy brain (aka Ayush Maurya)</li>
+    <li>My School : for giving me boring lectures so I got enough time to make this</li>
+    <li><a href="https://github.com/LSPosed/LSPosed/">LSPosed</a> : for nothing hehe</li>
+    <li>My PC : for not responding the entire time</li>
+    <li>Google : for making such a useless Photos app that required me to separate the folders</li>
+    <li>You : for wasting your time reading this</li>
+    </ul>
 IssueTracker: ""
 Name: Xposed Google Photos FIX
 SourceCode: https://github.com/Xposed-Modules-Repo/com.souleven.photosfix

@@ -3,16 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: 2.1.1.r46.7e4d397
 CurrentVersionCode: 20220417
-Description: |-
+Description: |
+    <h2>AppLock</h2>
+    <p><a href="https://github.com/Mufanc/AppLock/actions"><img src="https://img.shields.io/github/workflow/status/Mufanc/AppLock/Build?logo=github&amp;label=Build" alt="Build" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/mufanc.tools.applock/releases/latest"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/mufanc.tools.applock/total?label=Downloads" alt="Download" /></a>
+    <a href="https://choosealicense.com/licenses/gpl-3.0/"><img src="https://img.shields.io/github/license/Mufanc/AppLock?label=License" alt="License" /></a>
+    <a href="https://github.com/Mufanc"><img src="https://img.shields.io/github/stars/Mufanc/AppLock?label=Stars" alt="Stars" /></a></p>
     <ul>
-    <li>提升获取进程名的性能</li>
-    <li>支持按拼音首字母缩写搜索应用</li>
-    <li>显示正确的「MIUI 版本」</li>
-    <li>基于 Shizuku 的 NoRoot 工作模式（Beta）</li>
-    <li>将作用域列表移动至管理器存储</li>
-    <li>支持备份和恢复作用域</li>
-    <li>调整了应用图标样式</li>
+    <li>
+    <p>防止特定应用被侧滑杀死或一键清理</p>
+    </li>
+    <li>
+    <p>理论上支持 Android 9~12，MIUI 12+</p>
+    </li>
+    <li>
+    <p>可能也支持更低版本的 Android 和 MIUI 11，如需使用请自行测试</p>
+    </li>
     </ul>
+    <p><img src="images/screenshots.png" alt="" /></p>
+    <p>项目地址：<a href="https://github.com/Mufanc/AppLock">Mufanc/AppLock</a></p>
+    <p>发行版下载：<a href="https://github.com/Xposed-Modules-Repo/mufanc.tools.applock/releases/latest">模块仓库</a></p>
 IssueTracker: ""
 Name: 【MIUI 12】防止应用被侧滑杀死或一键清理
 SourceCode: https://github.com/Xposed-Modules-Repo/mufanc.tools.applock

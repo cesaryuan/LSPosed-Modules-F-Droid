@@ -3,7 +3,57 @@ Categories:
     - Xposed
 CurrentVersion: "3.0"
 CurrentVersionCode: 5
-Description: "<h3>ZUI 16 (Android 14) Support</h3>\n<p>⚠ <strong>Warning</strong>: features marked \"CN ROM only\" are no longer maintained and may not work on ZUI 16.<br>\n⚠ <strong>警告</strong>：标记「仅适用于中国版 ROM」的功能已不再维护，可能不适用于 ZUI 16。</p>\n<p>Also some trivial RRO as a Magisk module, for navigation bar height and settings two-pane layout tuning. Lenovo seems to think the navigation bar height should not change along with DPI. \U0001F937</p>\n<p>另附一个 Magisk 模块回滚 ZUI 16 上低 DPI 时的导航栏高度以及调整设置双栏布局的触发条件。联想似乎认为导航栏高度不应该随 DPI 变化。\U0001F937</p>"
+Description: |
+    <h1>Unfuck ZUI Tablet</h1>
+    <h2>Compatibility</h2>
+    <p>Only tested on Legion Tab Y700 (2023) with ZUI 15.0.677 - 15.0.737.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>AOSP (CTS mode) package installer
+    <ul>
+    <li>no more staging into <code>/sdcard/Download</code></li>
+    </ul>
+    </li>
+    <li>AOSP (CTS mode) runtime permission popup</li>
+    <li>CDD-complaint<sup class="footnote-ref"><a href="#fn-1" id="fnref-1" data-footnote-ref>1</a></sup> notification icon (System UI)
+    <ul>
+    <li>not being replaced by app icon</li>
+    </ul>
+    </li>
+    <li>Disable Tencent virus scanner (com.zui.safecenter)</li>
+    <li>Allow disable Dolby Atmos for speakers (Settings, System UI)</li>
+    <li>Disable taskbar</li>
+    <li>Disable force stop app from overview screen (app switcher)</li>
+    </ul>
+    <hr />
+    <h2>兼容性</h2>
+    <p>仅在拯救者平板 Y700（2023）上测试通过（ZUI 版本 15.0.677 - 15.0.737）</p>
+    <h2>功能</h2>
+    <ul>
+    <li>原生应用安装器</li>
+    <li>原生权限对话框</li>
+    <li>原生（单色）通知图标（系统界面）</li>
+    <li>禁用腾讯应用安全检测（安全中心）</li>
+    <li>允许禁用扬声器的杜比全景声（设置、系统界面）</li>
+    <li>禁用任务栏</li>
+    <li>禁用划卡强制停止应用</li>
+    </ul>
+    <hr />
+    <h2>One-shot tweaks / 一次性优化</h2>
+    <pre lang="console"><code>TB320FC:/ $ su
+    - Disable auto background restriction / 禁用自动后台限制
+    TB320FC:/ # setprop persist.sys.ctsmode true
+    TB320FC:/ # setprop persist.sys.ctsmode.set 2147483647000
+    - Disable some promotional content / 禁用部分推广内容
+    TB320FC:/ # setprop persist.sys.lenovo_setup_privacy true
+    </code></pre>
+    <section class="footnotes" data-footnotes>
+    <ol>
+    <li id="fn-1">
+    <p><a href="https://source.android.com/docs/compatibility/13/android-13-cdd#3831_presentation_of_notifications">https://source.android.com/docs/compatibility/13/android-13-cdd#3831_presentation_of_notifications</a> <a href="#fnref-1" class="footnote-backref" data-footnote-backref data-footnote-backref-idx="1" aria-label="Back to reference 1">↩</a></p>
+    </li>
+    </ol>
+    </section>
 IssueTracker: ""
 Name: Unfuck ZUI Tablet
 SourceCode: https://github.com/Xposed-Modules-Repo/xyz.cirno.unfuckzui

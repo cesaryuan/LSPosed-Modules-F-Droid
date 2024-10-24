@@ -3,33 +3,7 @@ Categories:
     - Xposed
 CurrentVersion: 4.2.5
 CurrentVersionCode: 2024021503
-Description: |-
-    <h3>新年快乐，龙年福瑞双收！</h3>
-    <ul>
-    <li>1.更改模块包名，更改模块签名！</li>
-    <li>Tip：这是为了解决报毒，和历史遗留问题。</li>
-    <li>所以一定要卸载之前版本的模块重新安装！！！</li>
-    <li>否则会出现两个相同的模块（因为包名改了不会覆盖）！</li>
-    <li>卸载安装后需要重新激活模块！</li>
-    <li>2.解决Hook到某些点时崩溃导致整个进程退出。</li>
-    <li>3.其他优化和其他Bug修复。</li>
-    <li>交流群：</li>
-    <li>QQ：517788148</li>
-    <li>电报(Telegram)： <a href="https://t.me/HChen_AppRetention" rel="nofollow">https://t.me/HChen_AppRetention</a></li>
-    </ul>
-    <h3>Happy Chinese New Year!!</h3>
-    <ul>
-    <li>1.Change the module package name and module signature!</li>
-    <li>Tip: This is to address false positives and historical legacy issues.</li>
-    <li>Therefore, make sure to uninstall the previous version of the module and reinstall it!!!</li>
-    <li>Otherwise, two identical modules will appear (because changing the package name will not overwrite)!</li>
-    <li>Module needs to be reactivated after uninstallation and installation!</li>
-    <li>2.Fix crashes causing the entire process to exit when hooking into certain points.</li>
-    <li>3.Other optimizations and bug fixes.</li>
-    <li>Communication group:</li>
-    <li>QQ: 517788148</li>
-    <li>Telegram: <a href="https://t.me/hchen_appretention" rel="nofollow">https://t.me/hchen_appretention</a></li>
-    </ul>
+Description: "<div align=\"center\">\n<h1>AppRetentionHook</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>本模块通过Hook系统kill逻辑来实现后台保活，这是一个Lsp模块。</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>因为这是一个Lsp模块，所以请在Lsp中激活并使用他，而不是使用Magisk安装此模块。</li>\n<li>\n<h4>用法：</h4>\n<ul>\n<li>首先：安装此Lsp模块至你的手机中。</li>\n<li>其次：点击Lsp图标进入Lsp界面，选中本模块并激活它。</li>\n<li>最后：勾选作用域:</li>\n<li>[MIUI] <code>系统框架(system)</code>和<code>电量和性能(powerkeeper)[如果有]</code></li>\n<li>[OPPO] <code>雅典娜(Athena)</code>和<code>电池</code>和<code>系统框架(system)</code></li>\n<li>然后重启手机即可正常使用。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>本模块通过Hook系统kill逻辑来实现后台应用保活。</li>\n<li>本模块适用于: <code>HyperOS(A14)</code> <code>MIUI14(A13,A12,A11)</code> <code>OPPO系统(A14,A13,A12)</code> <code>AOSP(A14,A13,A12,A11)</code>\n等。</li>\n</ul>\n<h1>\U0001F31F模块效果</h1>\n<ul>\n<li>经过个人测试，后台App留存时间大大增长在较长时间内未出现任何杀后台现象。</li>\n<li>令我十分惊讶的是甚至经过一个晚上App依然在后台存活没有被杀死。</li>\n<li><code>其中包括但不限于：QQ(腾讯) B站 抖音 GitHub(安卓) Twitter(X) Telegram(电报) YouTobe 等软件</code></li>\n</ul>\n<h1>\U0001F4A1模块说明</h1>\n<ul>\n<li>由于修改了系统运行逻辑本模块可能存在如下问题：</li>\n</ul>\n<ul>\n<li>比如：\n<ul>\n<li>1.系统内存管理失效，在内存较低的情况下不会主动清理内存导致的系统卡死。</li>\n<li>2.系统的待机功耗增加，但造成的待机功耗增加是可以忽略不计的。</li>\n<li>3.使用本模块有可能导致系统无法开机卡第二屏，所以请务必做好万全准备。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>提醒：使用例如：<code>OPPO</code> <code>VIVO</code> <code>华为(Huawei)</code>等第三方厂商的系统，他们可能包含厂商自定义的kill逻辑，对模块效果有一定影响。</li>\n<li>如果你能接受上面所述的可能存在的问题，那么本模块将会为你带来不一样的惊喜。</li>\n</ul>\n<h1>\U0001F50D常见问题</h1>\n<ul>\n<li>Q：如何使用？</li>\n<li>A：请仔细阅读README-zh.md。</li>\n<li>Q：模块与其他具有相同功能的Lsp模块冲突吗？</li>\n<li>A：那是肯定的，我们不建议你多个重复功能模块一起使用，否则可能带来未知后果。</li>\n<li>具有相同功能的其他模块：Don-t-Kill，Cemiuiler中的相同功能，A1内存管理附加Lsp模块等。</li>\n<li>Q；为什么我的系统卡死了？</li>\n<li>A：因为更改了系统kill逻辑，所以请注意你手机的内存状态，不要让它爆满。</li>\n<li>Q：为什么我手机功耗增加了？</li>\n<li>A；这是不可避免的，鱼与熊掌不能兼得，我认为在合理范围内是无伤大雅的。</li>\n<li>Q；为什么卡开机了？</li>\n<li>A；可能是模块中的某个功能的原因，请卸载模块并向我反馈。</li>\n</ul>\n<h1>\U0001F64F致谢名单</h1>\n<ul>\n<li>本模块代码参考了如下项目，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Cemiuiler</td>\n<td align=\"center\"><a href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\">Cemiuiler</a></td>\n</tr>\n<tr>\n<td align=\"center\">Don’t Kill</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/Don-t-Kill\">Don-t-Kill</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">English</td>\n<td align=\"center\">焕晨HChen ,ℓοѕτ οиє ⌕ — \U0001F6AB\U0001F944(Telegram Name)</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\U0001F4E2项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n<li>抄袭可能导致本项目的闭源！</li>\n</ul>\n<h1>\U0001F30F免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>\U0001F389结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
 IssueTracker: ""
 Name: AppRetention
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.appretention

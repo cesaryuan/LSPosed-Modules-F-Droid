@@ -3,7 +3,16 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: <p>解锁异星遗迹的机型限制</p>
+Description: |
+    <h1>RelaxHelper</h1>
+    <p>解除 Relax 异星遗迹的限制</p>
+    <h2>效果</h2>
+    <p><img src="https://github.com/Agoines/RelaxHelper/blob/master/pic/screenshot.jpeg" alt="截图一" />
+    <img src="https://github.com/Agoines/RelaxHelper/blob/master/pic/screenshot2.jpeg" alt="截图二" /></p>
+    <h2>如何使用</h2>
+    <p>在 Lsposed 或其他框架中激活模块，选择 <code>RelaxHelper</code>，然后在 <code>RelaxHelper</code> 中选择 <code>Relax</code>。</p>
+    <h2>感谢</h2>
+    <p><a href="https://github.com/KyuubiRan/EzXHelper">EzXHelper</a></p>
 IssueTracker: ""
 Name: RelaxHelper
 SourceCode: https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp

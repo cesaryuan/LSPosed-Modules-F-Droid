@@ -3,6 +3,21 @@ Categories:
     - Xposed
 CurrentVersion: "0.1"
 CurrentVersionCode: 1
+Description: |
+    <h1>FCSDK</h1>
+    <p>尽量解除联想新 CSDK 管控带来的限制 适用于定制机或解除自带的家长控制（</p>
+    <h3>已实现的功能（注意管控服务版本 这里使用20进行开发）：</h3>
+    <p><code>应用安装器安装apk自动添加白名单（注意是否需要&quot;;miahash&quot;）</code></p>
+    <p><code>禁止禁用恢复出厂</code></p>
+    <p><code>禁止禁用蓝牙（可能无效）</code></p>
+    <p><code>禁止禁用多用户</code></p>
+    <p><code>开发者选项（可能需要替换系统设置）</code></p>
+    <p><code>禁止禁用虚拟/实体按键</code></p>
+    <p><code>禁止禁用wifi及高级选项</code></p>
+    <p><code>打开adb和mtp</code></p>
+    <p><code>禁止禁用摄像头</code></p>
+    <p><code>关闭防火墙</code></p>
+    <p><code>禁止禁用OTG/TF卡</code></p>
 IssueTracker: ""
 Name: FCSDK
 SourceCode: https://github.com/Xposed-Modules-Repo/com.th7.fcsdk

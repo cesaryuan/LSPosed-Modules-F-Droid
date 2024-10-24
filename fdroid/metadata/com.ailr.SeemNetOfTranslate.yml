@@ -3,15 +3,114 @@ Categories:
     - Xposed
 CurrentVersion: 1.6.0.698504882
 CurrentVersionCode: 2023090901
-Description: |-
-    <p>支持的安卓版本:<br>
-    理论:7.1~14<br>
-    已测试:13和10</p>
-    <p>更新内容:<br>
-    1.优化文本拥挤<br>
-    2.如果开启缓存功能，那么在第二次进入软件时可以不需要打开谷歌翻译<br>
-    3.增加功能: 优化中文翻译<br>
-    4.优化性能</p>
+Description: |
+    <h1>Telionslate</h1>
+    <p><a href="#"><img src="https://img.shields.io/badge/-Xposed-green?style=flat&amp;logo=Android&amp;logoColor=white" alt="Xposed" /></a>
+    Xposed-Modules-Repo<br />
+    <a href="https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/total?label=Downloads" alt="GitHub all releases" /></a></p>
+    <h3><strong>注意事项</strong></h3>
+    <blockquote>
+    <p>1.下载时注意下载对应版本号的谷歌翻译</p>
+    <p>2.点击任意功能需要重新启动本软件和谷歌翻译</p>
+    <p><del>3.如果联网翻译不管用，请使用离线翻译</del></p>
+    <p>4.拼音翻译优先使用源语言，若没有则使用译语言的</p>
+    <p>5.使用屏幕时，需要进入谷歌翻译时点击翻译翻译编辑框，直到出现 Test Translation 或者其他语言的才表示启动成功</p>
+    </blockquote>
+    <h3>功能</h3>
+    <blockquote>
+    <p>1.解除谷歌离线翻译在大陆区的限制</p>
+    <p>2.使用谷歌翻译对屏幕进行翻译</p>
+    </blockquote>
+    <h3>使用教程</h3>
+    <blockquote>
+    <p>1.Lsp框架打勾谷歌翻译和要翻译的软件(如果不使用屏幕翻译就只需要打勾谷歌翻译)</p>
+    <p>2.进入谷歌翻译点击编辑框</p>
+    <p>3.进入Telionslate编辑功能</p>
+    <p>4.打开需要翻译的软件</p>
+    </blockquote>
+    <h3>蓝奏云</h3>
+    <blockquote>
+    <p><a href="https://2775608671.lanzouj.com/b00x82mbc">https://2775608671.lanzouj.com/b00x82mbc</a> 密码统一使用:6666</p>
+    </blockquote>
+    <h3>翻译规则</h3>
+    <pre lang="java"><code>** 注意 **
+    这个功能只在1.0.2及以上有效
+
+    如果你不想你开发的应用被翻译
+
+    那么你可以创建类 _AILTV_ 继承 TextView
+
+    然后在 xml 里面将 TextView 改为 com.xx.xx._AILTV_ 就OK了
+    </code></pre>
+    <h3>语言代码</h3>
+    <ul>
+    <li>af - 南非荷兰语 (Afrikaans)</li>
+    <li>ar - 阿拉伯语 (Arabic)</li>
+    <li>bg - 保加利亚语 (Bulgarian)</li>
+    <li>bn - 孟加拉语 (Bengali)</li>
+    <li>bs - 波斯尼亚语 (Bosnian)</li>
+    <li>ca - 加泰罗尼亚语 (Catalan)</li>
+    <li>cs - 捷克语 (Czech)</li>
+    <li>cy - 威尔士语 (Welsh)</li>
+    <li>da - 丹麦语 (Danish)</li>
+    <li>de - 德语 (German)</li>
+    <li>el - 希腊语 (Greek)</li>
+    <li>en - 英语 (English)</li>
+    <li>eo - 世界语 (Esperanto)</li>
+    <li>es - 西班牙语 (Spanish)</li>
+    <li>et - 爱沙尼亚语 (Estonian)</li>
+    <li>fi - 芬兰语 (Finnish)</li>
+    <li>fr - 法语 (French)</li>
+    <li>gu - 古吉拉特语 (Gujarati)</li>
+    <li>hi - 印地语 (Hindi)</li>
+    <li>hr - 克罗地亚语 (Croatian)</li>
+    <li>hu - 匈牙利语 (Hungarian)</li>
+    <li>hy - 亚美尼亚语 (Armenian)</li>
+    <li>id - 印度尼西亚语 (Indonesian)</li>
+    <li>is - 冰岛语 (Icelandic)</li>
+    <li>it - 意大利语 (Italian)</li>
+    <li>iw - 希伯来语 (Hebrew)</li>
+    <li>ja - 日语 (Japanese)</li>
+    <li>jw - 爪哇语 (Javanese)</li>
+    <li>kn - 卡纳达语 (Kannada)</li>
+    <li>ko - 韩语 (Korean)</li>
+    <li>la - 拉丁语 (Latin)</li>
+    <li>lv - 拉脱维亚语 (Latvian)</li>
+    <li>mk - 马其顿语 (Macedonian)</li>
+    <li>ml - 马拉雅拉姆语 (Malayalam)</li>
+    <li>mr - 马拉地语 (Marathi)</li>
+    <li>ms - 马来语 (Malay)</li>
+    <li>my - 缅甸语 (Burmese)</li>
+    <li>nl - 荷兰语 (Dutch)</li>
+    <li>no - 挪威语 (Norwegian)</li>
+    <li>pl - 波兰语 (Polish)</li>
+    <li>pt - 葡萄牙语 (Portuguese)</li>
+    <li>ro - 罗马尼亚语 (Romanian)</li>
+    <li>ru - 俄语 (Russian)</li>
+    <li>sk - 斯洛伐克语 (Slovak)</li>
+    <li>sq - 阿尔巴尼亚语 (Albanian)</li>
+    <li>sr - 塞尔维亚语 (Serbian)</li>
+    <li>su - 巽他语 (Sundanese)</li>
+    <li>sv - 瑞典语 (Swedish)</li>
+    <li>sw - 斯瓦希里语 (Swahili)</li>
+    <li>ta - 泰米尔语 (Tamil)</li>
+    <li>te - 泰卢固语 (Telugu)</li>
+    <li>tl - 菲律宾语 (Tagalog)</li>
+    <li>th - 泰语 (Thai)</li>
+    <li>tr - 土耳其语 (Turkish)</li>
+    <li>uk - 乌克兰语 (Ukrainian)</li>
+    <li>ur - 乌尔都语 (Urdu)</li>
+    <li>vi - 越南语 (Vietnamese)</li>
+    <li>zh - 中文 (Chinese)</li>
+    <li>zh-CN - 简体中文 (Simplified Chinese)</li>
+    <li>zh-TW - 繁体中文 (Traditional Chinese)</li>
+    </ul>
+    <h3>图片</h3>
+    <p>** 此图片取自 1.5.1.698504882 并不代表最新版 **
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/main/0.jpg" alt="成功开启屏幕翻译" />
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/main/1.jpg" alt="测试图1" />
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/main/2.jpg" alt="测试图2" />
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate/main/3.jpg" alt="测试图3" /></p>
 IssueTracker: ""
 Name: Telionslate
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate

@@ -3,12 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: "1.6"
 CurrentVersionCode: 7
-Description: |-
-    <ol>
-    <li>模块只支持有XSharedPreferences的Xposed框架，比如LSPosed</li>
-    <li>增加图标</li>
-    <li>增加首条通知默认折叠,感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SpeedPartner/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SpeedPartner">@SpeedPartner</a>  (<a href="https://github.com/lamprose/MIUltra/issues/1" data-hovercard-type="issue" data-hovercard-url="/lamprose/MIUltra/issues/1/hovercard">#1</a>)</li>
-    </ol>
+Description: |
+    <h1>MIUltra</h1>
+    <p>MIUI12.5 扩展</p>
+    <h2>使用条件</h2>
+    <ul>
+    <li>MIUI12.5 稳定版(其他版本自测)</li>
+    <li>Android11(其他版本自测)</li>
+    <li>Xposed 框架(最优 LSPosed)</li>
+    </ul>
+    <h2>使用前须知</h2>
+    <p>本模块部分功能开启后可能导致一些不可预估的问题,请了解相关功能后开启.开启则表明你已熟知相关后果且由本模块不可预估的后果需由你自行承担.</p>
+    <h2>当前功能：</h2>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 状态栏模糊风格修改(包括模糊半径)</li>
+    <li><input type="checkbox" checked="" disabled="" /> 非默认主题使用模糊</li>
+    <li><input type="checkbox" checked="" disabled="" /> 状态栏图标部分强制原生风格</li>
+    <li><input type="checkbox" checked="" disabled="" /> 桌面第三方组件可拖拽至负一屏</li>
+    <li><input type="checkbox" checked="" disabled="" /> 桌面抽屉模式顶部删除全部分类</li>
+    <li><input type="checkbox" checked="" disabled="" /> 桌面抽屉模式分页内删除编辑</li>
+    <li><input type="checkbox" checked="" disabled="" /> 屏蔽电量和性能云控动态FPS</li>
+    <li><input type="checkbox" disabled="" /> 更多…..</li>
+    </ul>
+    <h2>注意事项</h2>
+    <p>安装或更新模块后，请手动重新切换一次模块启用开关，并手动强行停止一次推荐 HOOK 的应用。</p>
 IssueTracker: ""
 Name: MIUI12.5扩展
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.lamprose.mi_ultra

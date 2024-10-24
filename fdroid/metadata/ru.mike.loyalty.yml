@@ -3,10 +3,32 @@ Categories:
     - Xposed
 CurrentVersion: "1.4"
 CurrentVersionCode: 21
-Description: |-
-    <p>Multi-user support<br>
-    Close opened chat improvement (if several chats have been opened in the chain, not all of which need to be closed)<br>
-    Close media preview added</p>
+Description: |
+    <h1>Loyalty</h1>
+    <p>Hide chats in the Telegram messenger</p>
+    <p>In the official Telegram messenger client Loyalty allows you to hide (and show again) chosen chats.</p>
+    <p>To show hidden chats tap the title several times.
+    To hide the chats back tap twice, turn off the screen or minimize the app.
+    Your secret touches’ sequence to show and events to hide chats are configured via the module’s settings page.</p>
+    <h2>Install notes:</h2>
+    <ul>
+    <li>install apk</li>
+    <li>enable the module in your xposed manager app</li>
+    <li>(for lsposed) select the Telegram app in the scope or - important! - uncheck and check it again if it’s already selected</li>
+    <li>reboot (in case of (Ed)xposed) or terminate the Telegram app (lsposed)</li>
+    <li>select chats to hide, define the secret touches’ sequence to show and the events to hide the chats back in the module’s settings page</li>
+    <li>test!</li>
+    </ul>
+    <h2>Known behavior:</h2>
+    <ul>
+    <li>if the secret touches’ sequence is set, the chosen chats will always be hidden at the Telegram app startup (when it has not been launched before)</li>
+    <li>to show the hidden chats the Telegram app will be restarted (this is a feature of the official client)</li>
+    <li>the chats are hidden in the main screen, in the search screen (chats, media, links, files, etc.) and notification of them. Perhaps they can be visible somewhere else. If so, let me know</li>
+    </ul>
+    <h2>Support/Discussion URL / Страница программы:</h2>
+    <p><a href="https://forum.xda-developers.com/t/mod-xposed-4-1-loyalty-hide-chats-in-the-telegram-messenger.4505977/">xda</a> or <a href="https://4pda.to/forum/index.php?s=&amp;showtopic=603033&amp;view=findpost&amp;p=118023452">4pda</a></p>
+    <h2>Author</h2>
+    <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2022-2023</p>
 IssueTracker: ""
 Name: Loyalty - Hide chats in the Telegram messenger
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.loyalty

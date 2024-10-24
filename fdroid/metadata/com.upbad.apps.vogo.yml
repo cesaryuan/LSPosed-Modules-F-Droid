@@ -3,7 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: "2.1"
 CurrentVersionCode: 4
-Description: <p>Remove app icon in launcher</p>
+Description: |
+    <p><em>I don’t update my apps too often. Please <a href="https://github.com/zehuanli/Google-Voice-Mark-Read/issues">let me know</a> if this module stops working on the latest version, and I’ll update it.</em></p>
+    <h1>Google Voice Mark Read</h1>
+    <p>Up till now Google Voice does not provide the basic feature to mark messages as read in the notifications. Tired of going into the app and clicking on each unread message every time, I made this Xposed module to add a “mark as read” option to the Google Voice message notifications.</p>
+    <p>This module has been tested working for the current Google Voice version. It may stop working for the future versions since the package structure may change. However, it shouldn’t be hard to tweak the module to support the new versions as long as there’s no major change on the notification logics in Google Voice.</p>
+    <h1>A little bit details</h1>
+    <p>The “mark as read” option utilizes a hidden notification action provided by Google Voice, which is highly likely to be used by Android Auto, since it’s inside a bundle named <code>android.car.EXTENSIONS</code>. It is <em>possible</em> to implement the module without relying on this hidden action, but there definitely will be more reverse engineering work to do.</p>
 IssueTracker: ""
 Name: Google Voice Mark Read
 SourceCode: https://github.com/Xposed-Modules-Repo/com.upbad.apps.vogo

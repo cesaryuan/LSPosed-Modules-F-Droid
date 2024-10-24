@@ -3,10 +3,130 @@ Categories:
     - Xposed
 CurrentVersion: "1.35"
 CurrentVersionCode: 136
-Description: |-
-    <p><strong>XPrivacyLua isn't supported anymore</strong></p>
-    <br>
-    <p>All changes: <a class="commit-link" href="https://github.com/M66B/XPrivacyLua/compare/1.34...1.35">M66B/XPrivacyLua@<tt>1.34...1.35</tt></a></p>
+Description: |
+    <h1>XPrivacyLua</h1>
+    <p>Really simple to use privacy manager for Android 6-12 (successor of <a href="https://forum.xda-developers.com/xposed/modules/xprivacy-ultimate-android-privacy-app-t2320783%22%5DXPrivacy%5B/URL%5D">XPrivacy</a>).</p>
+    <p>Revoking Android permissions from apps often let apps crash or malfunction.
+    XPrivacyLua solves this by feeding apps fake data instead of real data.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Simple to use</li>
+    <li>Manage any user or system app</li>
+    <li><a href="https://github.com/M66B/XPrivacyLua/blob/master/DEFINE.md">Extensible</a></li>
+    <li>Multi-user support</li>
+    <li>Free and open source</li>
+    </ul>
+    <h2>Restrictions</h2>
+    <ul>
+    <li>Determine activity (fake unknown activity, see <a href="https://developers.google.com/location-context/activity-recognition/">here</a>)</li>
+    <li>Get applications (hide installed apps and <a href="https://developer.android.com/reference/android/appwidget/AppWidgetManager.html">widgets</a>)</li>
+    <li>Get calendars (hide calendars)</li>
+    <li>Get call log (hide call log)</li>
+    <li>Get contacts (hide contacts with the pro option to allow (non) starred contacts, hide blocked numbers)</li>
+    <li>Get location (fake location, hide <a href="https://en.wikipedia.org/wiki/NMEA_0183">NMEA</a> messages)</li>
+    <li>Get messages (hide MMS, SMS, SIM, voicemail)</li>
+    <li>Get sensors (hide all available sensors)</li>
+    <li>Read <a href="https://developer.android.com/reference/android/accounts/Account.html">account</a> name (fake name, mostly e-mail address)</li>
+    <li>Read clipboard (fake paste)</li>
+    <li>Read identifiers (fake build serial number, Android ID, advertising ID, GSF ID)</li>
+    <li>Read notifications (fake <a href="https://developer.android.com/reference/android/service/notification/StatusBarNotification.html">status bar notifications</a>)</li>
+    <li>Read network data (hide cell info, Wi-Fi networks, fake Wi-Fi network name)</li>
+    <li>Read sync data (hide <a href="https://developer.android.com/training/sync-adapters/creating-sync-adapter.html">sync data</a>)</li>
+    <li>Read telephony data (fake IMEI, MEI, SIM serial number, voicemail number, etc)</li>
+    <li>Record audio (prevent recording)</li>
+    <li>Record video (prevent recording)</li>
+    <li>Send messages (prevent sending MMS, SMS, data)</li>
+    <li>Use analytics (<a href="https://get.fabric.io/">Fabric/Crashlytics</a>, <a href="https://developers.facebook.com/docs/reference/androidsdk/current/facebook/com/facebook/appevents/appeventslogger.html/">Facebook app events</a>, <a href="https://firebase.google.com/docs/analytics/">Firebase Analytics</a>, <a href="https://www.google.com/analytics/">Google Analytic</a>, <a href="https://mixpanel.com/">Mixpanel</a>, <a href="https://segment.com/">Segment</a>)</li>
+    <li>Use camera (fake camera not available and/or hide cameras)</li>
+    <li>Use tracking (fake user agent for <a href="https://developer.android.com/reference/android/webkit/WebView.html">WebView</a> only, <a href="https://developer.android.com/reference/android/os/Build.html">Build properties</a>, network/SIM country/operator)</li>
+    </ul>
+    <p>The tracking restrictions will work only if the code of the target app was not <a href="https://developer.android.com/studio/build/shrink-code.html">obfuscated</a>.
+    The other restrictions will work always.</p>
+    <p>Hide or fake?</p>
+    <ul>
+    <li>Hide: return empty list</li>
+    <li>Fake: return empty or fake value</li>
+    </ul>
+    <p>It is possible to add custom restriction definitions, see <a href="https://github.com/M66B/XPrivacyLua/blob/master/FAQ.md#user-content-faq8">this FAQ</a> for details.</p>
+    <p>You can see all technical details <a href="https://github.com/M66B/XPrivacyLua/blob/master/app/src/main/assets/hooks.json">here</a>.</p>
+    <h2>Notes</h2>
+    <ul>
+    <li>Some apps will start the camera app to take pictures. This cannot be restricted and there is no need for this, because only you can take pictures in this scenario, not the app.</li>
+    <li>Some apps will use <a href="https://developer.android.com/ndk/guides/audio/opensl-for-android.html">OpenSL ES for Android</a> to record audio, an example is WhatsApp. Xposed cannot hook into native code, so this cannot be prevented.</li>
+    <li>The get applications restriction will not restrict getting information about individual apps for stability and performance reasons.</li>
+    <li>The telephony data restriction will result in apps seeing a fake IMEI. However, this doesn’t change the IMEI address of your device.</li>
+    <li>Restricting activity recognition (location) results for recent Google Maps versions and possibly other apps in the error <em>… java.lang.ClassNotFoundException …</em> for unknown reasons.</li>
+    </ul>
+    <h2>Compatibility</h2>
+    <p>XPrivacyLua is supported on Android 6.0 Marshmallow and later.
+    For Android 4.0.3 KitKat to Android 5.1.1 Lollipop you can use <a href="https://github.com/M66B/XPrivacy/blob/master/README.md">XPrivacy</a> (unsupported though).</p>
+    <p>XPrivacyLua is supported for smartphones and tablets only. XPrivacyLua is not supported on emulators.</p>
+    <p>Hooking <em>com.google.android.gms.location.ActivityRecognitionResult.extractResult</em> (restriction <em>Determine activity</em>)
+    is known to fail with <em>script:25 vm error: java.lang.ClassNotFoundException: com.google.android.gms.location.DetectedActivity</em>
+    and <em>script:28 attempt to call nil</em> for some apps, like Google Maps and NetFlix, for yet unknown reasons.</p>
+    <h2>Installation</h2>
+    <ul>
+    <li>Install <a href="https://www.xda-developers.com/how-to-install-magisk/">Magisk</a></li>
+    <li>Android 6-7: download, install, and activate <a href="http://forum.xda-developers.com/xposed">Xposed</a></li>
+    <li>Android 8-12: download, install, and activate <a href="https://forum.xda-developers.com/t/lsposed-xposed-framework-8-0-11-0-edxposed-alternetive.4228973/">LSPosed</a> <del>or <a href="https://forum.xda-developers.com/t/official-edxposed-the-successor-of-xposed-oreo-pie-q-r-2020-07-19.4070199">EdXposed</a></del></li>
+    <li>Download, install, and activate <a href="https://github.com/Xposed-Modules-Repo/eu.faircode.xlua/releases">XPrivacyLua</a></li>
+    </ul>
+    <p>LSPosed: please make sure that any app you want to restrict is <a href="https://github.com/LSPosed/LSPosed/wiki/How-to-use-it#install--activate-modules">in the ‘scope’</a> of LSposed.</p>
+    <p>Certificate fingerprints:</p>
+    <ul>
+    <li>MD5: 42:93:4F:A4:D5:AC:53:7B:04:97:3B:29:A6:6E:7B:B3</li>
+    <li>SHA1: 10:62:0A:E9:61:D7:88:54:F6:C9:CD:87:2C:43:88:23:28:49:C7:99</li>
+    <li>SHA256: 5E:69:9C:5D:AF:61:2C:AB:71:3A:35:BB:38:7C:F6:A8:86:8C:A0:DD:5D:CE:B4:CE:C1:53:8E:82:65:21:95:77</li>
+    </ul>
+    <h2>Frequently Asked Questions</h2>
+    <p>See <a href="https://github.com/M66B/XPrivacyLua/blob/master/FAQ.md">here</a> for a list of often asked questions.</p>
+    <h2>Support</h2>
+    <p>Only the XPrivacyLua version released in the Xposed repository is supported.</p>
+    <p>XPrivacyLua with <a href="http://forum.xda-developers.com/android/-t3366295">Island</a>, etc is not supported.</p>
+    <ul>
+    <li>For support on Xposed, please go <a href="http://forum.xda-developers.com/xposed">here</a></li>
+    <li>For support on XPrivacyLua, please go <a href="https://forum.xda-developers.com/xposed/modules/xprivacylua6-0-android-privacy-manager-t3730663">here</a></li>
+    </ul>
+    <h2>Donations</h2>
+    <p>See <a href="https://lua.xprivacy.eu/">here</a> about how you can donate.</p>
+    <h2>Contributing</h2>
+    <p><em>Documentation</em></p>
+    <p>Contributions to this document and the frequently asked questions
+    are prefered in the form of <a href="https://help.github.com/articles/creating-a-pull-request/">pull requests</a>.</p>
+    <p><em>Translations</em></p>
+    <ul>
+    <li>You can translate the in-app texts of XPrivacyLua <a href="https://crowdin.com/project/xprivacylua/">here</a></li>
+    <li>You can download the in-app texts of XPrivacyLua Pro for translation <a href="https://lua.xprivacy.eu/strings_pro.xml">here</a></li>
+    <li>If your language is not listed, please send a message through <a href="https://contact.faircode.eu/">this contact form</a></li>
+    </ul>
+    <p><em>Source code</em></p>
+    <p>Building XPrivacyLua from source code is straightforward with <a href="http://developer.android.com/sdk/">Android Studio</a>.
+    It is expected that you can solve build problems yourself, so there is no support on building.</p>
+    <p>Source code contributions are prefered in the form of <a href="https://help.github.com/articles/creating-a-pull-request/">pull requests</a>.
+    Please <a href="https://contact.faircode.eu/">contact me</a> first to tell me what your plans are.</p>
+    <p>Please note that you agree to the license below by contributing, including the copyright.</p>
+    <h2>Attribution</h2>
+    <p>XPrivacyLua uses:</p>
+    <ul>
+    <li><a href="https://sourceforge.net/projects/luaj/">LuaJ</a>. Copyright 2007-2013 LuaJ. All rights reserved. See <a href="http://luaj.sourceforge.net/license.txt">license</a>.</li>
+    <li><a href="https://bumptech.github.io/glide/">Glide</a>. Copyright 2014 Google, Inc. All rights reserved. See <a href="https://raw.githubusercontent.com/bumptech/glide/master/LICENSE">license</a>.</li>
+    <li><a href="https://developer.android.com/tools/support-library/">Android Support Library</a>. Copyright (C) 2011 The Android Open Source Project. See <a href="https://android.googlesource.com/platform/frameworks/support/+/master/LICENSE.txt">license</a>.</li>
+    </ul>
+    <h2>License</h2>
+    <p><a href="https://www.gnu.org/licenses/gpl.txt">GNU General Public License version 3</a></p>
+    <p>Copyright (c) 2017-2021 Marcel Bokhorst. All rights reserved</p>
+    <p>XPrivacyLua is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.</p>
+    <p>XPrivacyLua is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.</p>
+    <p>You should have received a copy of the GNU General Public License
+    along with XPrivacyLua. If not, see <a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a>.</p>
+    <h2>Trademarks</h2>
+    <p><em>Android is a trademark of Google Inc. Google Play is a trademark of Google Inc</em></p>
 IssueTracker: ""
 Name: XPrivacyLua
 SourceCode: https://github.com/Xposed-Modules-Repo/eu.faircode.xlua

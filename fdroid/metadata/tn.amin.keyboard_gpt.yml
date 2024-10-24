@@ -3,11 +3,107 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.1
 CurrentVersionCode: 12
-Description: |-
+Description: |
+    <h1>Keyboard GPT</h1>
+    <p>An <strong>LSPosed Module</strong> that lets you integrate Generative AI like ChatGPT in keyboard. <strong>Works in All Apps</strong></p>
+    <details>
+      <summary>Demo Video</summary>
+    <p><a href="https://github.com/user-attachments/assets/d00d362d-078f-4d8f-8b17-1544fb62cb37">https://github.com/user-attachments/assets/d00d362d-078f-4d8f-8b17-1544fb62cb37</a></p>
+    </details>
+    <details>
+      <summary>Demo Video: Custom Prompts</summary>
+    <p><a href="https://github.com/user-attachments/assets/6143837f-9896-4f60-b97a-730fd2aa0fde">https://github.com/user-attachments/assets/6143837f-9896-4f60-b97a-730fd2aa0fde</a></p>
+    </details>
+    <details>
+      <summary>Demo Video: Web Search</summary>
+    <p><a href="https://github.com/user-attachments/assets/0ee8e75c-753a-448a-bd8a-a0afe2e0ca12">https://github.com/user-attachments/assets/0ee8e75c-753a-448a-bd8a-a0afe2e0ca12</a></p>
+    </details>
+    <p align="center">
+      <img src="demo/icon_border.png" alt="Icon" style="border: 10px solid black;"/>
+    </p>
+    <h2>Tested Keyboards</h2>
     <ul>
-    <li>Fixed a bug that would prevent launching "Chose Model Dialog" since version 1.1 for new users</li>
-    <li>Added support for samsung keyboard</li>
+    <li>
+    <p><a href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin">Gboard</a></p>
+    </li>
+    <li>
+    <p><a href="https://play.google.com/store/apps/details?id=com.touchtype.swiftkey">Swiftkey</a></p>
+    </li>
+    <li>
+    <p><a href="https://play.google.com/store/apps/details?id=com.syntellia.fleksy.keyboard">Fleksy</a></p>
+    </li>
+    <li>
+    <p><a href="https://galaxystore.samsung.com/prepost/000005967885?appId=com.samsung.android.honeyboard">Samsung Keyboard</a></p>
+    </li>
     </ul>
+    <h2>Features</h2>
+    <ul>
+    <li>
+    <p>Realtime AI response (supports normal and custom prompts)</p>
+    </li>
+    <li>
+    <p>Web Search</p>
+    </li>
+    </ul>
+    <h2>Install Guide</h2>
+    <h4>Root</h4>
+    <ol>
+    <li>
+    <p>Install module apk from <a href="https://github.com/Mino260806/KeyboardGPT/releases/">releases</a></p>
+    </li>
+    <li>
+    <p>Enable module in LSPosed and select your favorite keyboard</p>
+    </li>
+    <li>
+    <p>Force close the keyboard from settings, or if you don’t know how, restart you phone</p>
+    </li>
+    </ol>
+    <h4>No Root</h4>
+    <ol>
+    <li>
+    <p>Install module apk from <a href="https://github.com/Mino260806/KeyboardGPT/releases/">releases</a></p>
+    </li>
+    <li>
+    <p>Patch your favorite keyboard apk in LSPatch Manager and follow the instructions</p>
+    </li>
+    </ol>
+    <h2>Usage Guide</h2>
+    <p>Open any editable text (like translate, search gif, etc) in your keyboard, and type your preferred instruction before pressing Enter</p>
+    <ul>
+    <li>
+    <p><code>??</code> to configure your API provider (api key, language model…)</p>
+    </li>
+    <li>
+    <p><code>? your prompt</code> to submit a normal prompt</p>
+    </li>
+    <li>
+    <p><code>!!</code> to configure custom AI prompts</p>
+    </li>
+    <li>
+    <p><code>!{p} your prompt</code> to submit a custom prompt where <code>{p}</code> is the prefix you chose</p>
+    </li>
+    <li>
+    <p><code>!s anything</code> to do a web search</p>
+    </li>
+    </ul>
+    <p>See “Demo Video” above</p>
+    <p><strong><u>Bonus Tip</u></strong>: Google offers Gemini API for free. Grab a key in <a href="https://aistudio.google.com/app/apikey">google aistudio</a></p>
+    <h2>Supported Generative AI APIs</h2>
+    <ul>
+    <li>
+    <p>ChatGPT</p>
+    </li>
+    <li>
+    <p>Gemini</p>
+    </li>
+    <li>
+    <p>Groq</p>
+    </li>
+    </ul>
+    <p>More suggestions are welcome !</p>
+    <h2>Links</h2>
+    <p><a href="https://xdaforums.com/t/mod-xposed-integrate-generative-ai-like-chatgpt-in-keyboard.4683421/">XDA Link</a></p>
+    <p><a href="https://t.me/keyboard_gpt">Telegram Discussion</a></p>
 IssueTracker: ""
 Name: Keyboard GPT
 SourceCode: https://github.com/Xposed-Modules-Repo/tn.amin.keyboard_gpt

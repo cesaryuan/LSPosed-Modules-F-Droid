@@ -3,7 +3,56 @@ Categories:
     - Xposed
 CurrentVersion: 23.08.24
 CurrentVersionCode: 240823
-Description: <p>Initial release</p>
+Description: |
+    <h1>Biometric Bypass Module</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/es.rafagale.biometricbypass/total" alt="GitHub downloads" />
+    <img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/es.rafagale.biometricbypass" alt="GitHub Release (latest by date)" /></p>
+    <h2>Overview</h2>
+    <p>The Biometric Bypass Module is an Xposed module utilizing LSPosed’s Modern Xposed API. It automatically bypasses the confirmation step following a successful face unlock, streamlining the authentication process for a hands-free user experience.</p>
+    <h2>How It Works</h2>
+    <p>This module hooks into a System UI method responsible for managing the confirmation step after face authentication. By intercepting this process, the module automates the confirmation required by the new BiometricPrompt API, allowing users to proceed without additional input. This approach works universally across apps that rely on the default Android behavior and remains secure even in environments protected by Magisk deny lists, Magisk Hide, or Shamiko.</p>
+    <h2>Visual Example</h2>
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/rafagale/biometric-bypass/master/media/module_disabled.gif" width="200" alt="Default Behavior">
+        <br/>
+        <strong>Default Behavior: Face unlock with manual confirmation required.</strong>
+        <br/><br/>
+        <img src="https://raw.githubusercontent.com/rafagale/biometric-bypass/master/media/module_enabled.gif" width="200" alt="Module Enabled">
+        <br/>
+        <strong>Module Enabled: Face unlock with automatic confirmation bypass.</strong>
+    </p>
+    <h2>Compatibility</h2>
+    <ul>
+    <li>
+    <p><strong>Supported Android Versions:</strong> 11 and above- <strong>Tested on:</strong></p>
+    <ul>
+    <li>Pixel 8 Pro (husky) with Android 14 (Build: ap2a.240805.005)</li>
+    <li>Pixel 9 Pro (caiman) with <strong>Android 15</strong> (Build: AP3A.241005.015, Oct 2024)</li>
+    </ul>
+    </li>
+    <li>
+    <p><strong>Xposed Framework:</strong> LSPosed</p>
+    </li>
+    </ul>
+    <h2>Installation Instructions</h2>
+    <ol>
+    <li>Ensure <a href="https://github.com/mywalkb/LSPosed_mod/releases">LSPosed</a> is installed.</li>
+    <li>Download and install the Biometric Bypass Module APK.</li>
+    <li>Activate the module in LSPosed.</li>
+    <li>Restart System UI to apply changes.</li>
+    </ol>
+    <h2>Additional Flavors</h2>
+    <p>Legacy versions are available for older Xposed APIs:</p>
+    <ul>
+    <li><strong><a href="https://github.com/rafagale/biometric-bypass/tree/legacy-xposed-java">Java Legacy Xposed API</a></strong></li>
+    <li><strong><a href="https://github.com/rafagale/biometric-bypass/tree/legacy-xposed-kotlin">Kotlin Legacy Xposed API</a></strong></li>
+    </ul>
+    <h2>Risks and Warnings</h2>
+    <p>Automating the confirmation step can reduce security and lead to unintended actions. Use this module with caution.</p>
+    <h2>Contributions</h2>
+    <p>Contributions are welcome. Submit a pull request or open an issue to help improve the module.</p>
+    <h2>Disclaimer</h2>
+    <p>This module modifies system behavior and may impact device security. Use at your own risk.</p>
 IssueTracker: ""
 Name: Biometric Bypass
 SourceCode: https://github.com/Xposed-Modules-Repo/es.rafagale.biometricbypass

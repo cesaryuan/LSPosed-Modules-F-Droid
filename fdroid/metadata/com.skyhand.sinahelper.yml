@@ -3,19 +3,20 @@ Categories:
     - Xposed
 CurrentVersion: 2.3.2
 CurrentVersionCode: 303
-Description: |-
-    <p>对比2.3.1更新记录：</p>
-    <ol>
-    <li>新增 去除博文详情页的铁粉互动提示</li>
-    <li>优化 转发列表广告可能去除不完整</li>
-    <li>适配 新版微博保存视频无法弹窗选择问题</li>
-    <li>修复 视频流点击可能无法显示更多弹窗</li>
-    <li>修复 部分用户博文详情页可能出现广告</li>
-    <li>修复 平板等部分设备设置弹窗显示不全</li>
-    <li>修复 新版微博可能无法保存全部图片</li>
-    <li>适配 新版微博视频流状态栏沉浸</li>
-    <li>适配 新版微博信息流自动领红包</li>
-    </ol>
+Description: |
+    <h1>微博猪手/WeiboHelper</h1>
+    <p>去除微博全部可以见到的广告和推荐。</p>
+    <blockquote>
+    <p>等等其它更多可玩性功能</p>
+    </blockquote>
+    <h1>版本支持/Support</h1>
+    <p>支持14.0.0及以上版本，具体支持版本请激活后在：微博设置-微博猪手-模块-查看支持版本</p>
+    <h1>下载/Download</h1>
+    <p>下载方式（Github）:
+    <a href="https://github.com/Xposed-Modules-Repo/com.skyhand.sinahelper/releases">https://github.com/Xposed-Modules-Repo/com.skyhand.sinahelper/releases</a></p>
+    <p>下载方式（公众号）: 看下面</p>
+    <h1>交流/Contact</h1>
+    <p>公众号: Skyhand的猪手圈</p>
 IssueTracker: ""
 Name: 微博猪手
 SourceCode: https://github.com/Xposed-Modules-Repo/com.skyhand.sinahelper

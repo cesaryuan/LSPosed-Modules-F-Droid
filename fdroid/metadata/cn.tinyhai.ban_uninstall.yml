@@ -3,12 +3,34 @@ Categories:
     - Xposed
 CurrentVersion: 1.4.0-b279b70
 CurrentVersionCode: 8
-Description: |-
-    <ul>
-    <li>添加操作记录功能</li>
-    <li>一些UI调整</li>
-    <li>更新版本号</li>
-    </ul>
+Description: |
+    <h1>BanUninstall</h1>
+    <p>一个禁止卸载和禁止清除用户数据的Xposed模块</p>
+    <p>A Xposed Module that prevents apps be uninstall or apps’ data be cleared</p>
+    <h3>Screenshots</h3>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">1</th>
+    <th align="center">2</th>
+    <th align="center">3</th>
+    <th align="center">4</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><img src="https://github.com/TinyHai/BanUninstall/blob/main/screenshots/screenshot1.jpg"/></td>
+    <td align="center"><img src="https://github.com/TinyHai/BanUninstall/blob/main/screenshots/screenshot2.jpg"/></td>
+    <td align="center"><img src="https://github.com/TinyHai/BanUninstall/blob/main/screenshots/screenshot3.jpg"/></td>
+    <td align="center"><img src="https://github.com/TinyHai/BanUninstall/blob/main/screenshots/screenshot4.jpg"/></td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>Compatibility</h3>
+    <p>Android 5.0 - Android 14</p>
+    <p>I have tested with my phone on Android 14, and it works well. I can’t ensure it works on your phone.</p>
+    <p><strong>So before you use it, you must test it with an irrelevant app by yourself.</strong></p>
+    <p><strong>I am not responsible for any data loss if you test it using an important app.</strong></p>
 IssueTracker: ""
 Name: 禁止卸载 | BanUninstall
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.tinyhai.ban_uninstall

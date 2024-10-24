@@ -3,10 +3,18 @@ Categories:
     - Xposed
 CurrentVersion: "0.1"
 CurrentVersionCode: 1
-Description: |-
-    <ul>
-    <li>Initial release</li>
-    </ul>
+Description: |
+    <h1>Nel</h1>
+    <p>Bring back <code>KeyChain.createInstallIntent</code>’s old behavior to Android 11+.</p>
+    <h2>Why</h2>
+    <p>Android 11 introduced a restriction where the <a href="https://developer.android.com/reference/android/security/KeyChain.html#createInstallIntent%28%29">KeyChain.createInstallIntent</a> method can no longer be used to install CA (Certificate Authority) certificates. As of today, most apps that relied on this old behavior have already been updated to work around this; however, there are still some apps that rely on the old behavior (e.g., HTTP Canary).</p>
+    <p><img src="https://raw.githubusercontent.com/AmanoTeam/Nel/master/images/1.png" alt="1" /></p>
+    <p>This module will (hopefully) make them work correctly on Android 11+.</p>
+    <p><img src="https://raw.githubusercontent.com/AmanoTeam/Nel/master/images/2.png" alt="1" /></p>
+    <h2>Usage</h2>
+    <p>Just install and reboot the device. If you are using LSposed, you just need to mark the “Certificate Installer” package on the list of apps and then kill/force-close the <code>com.android.certinstaller</code> process (e.g., by running <code>/system/bin/am force-stop com.android.certinstaller</code> on a terminal emulator.</p>
+    <h2>Supported Android versions</h2>
+    <p>This module was only tested on Android 13, but should work on any device running Android 11 or higher.</p>
 IssueTracker: ""
 Name: Nel
 SourceCode: https://github.com/Xposed-Modules-Repo/com.amanoteam.nel

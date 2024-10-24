@@ -3,31 +3,78 @@ Categories:
     - Xposed
 CurrentVersion: 5.12.23
 CurrentVersionCode: 401223
-Description: |-
-    <p>V5.12.23</p>
-    <hr>
-    <p>目前版本基于MIUI14开发版MIUI14 V14.xx.12.8.DEV（Android13)开发<br>
-    只适用于基于Android13 的官方 MIUI14 开发版,其他版本可能会有部分或全部功能失效<br>
-    不接受在开发版之外出现的问题 issues</p>
-    <p>MIUI13用户无需更新</p>
-    <p>更新</p>
+Description: |
+    <h1>ChiMi</h1>
+    <p><a href="https://github.com/yonghen/chimi-"><img src="https://img.shields.io/github/stars/yonghen/chimi-" alt="GitHub Repo stars" /></a>
+    <a href="https://github.com/yonghen/chimi-/releases"><img src="https://img.shields.io/github/v/release/yonghen/chimi-?label=version" alt="GitHub release (latest by date)" /></a>
+    <a href="https://github.com/yonghen/chimi-/releases"><img src="https://img.shields.io/github/downloads/yonghen/chimi-/total" alt="GitHub all releases" /></a></p>
+    <p><a href="https://github.com/yonghen/chimi-/blob/master/README_EN.md">English</a>  丨 简体中文</b></p>
+    <h2>模块说明</h2>
+    <p>MIUI增强扩展模块 (LSPosed/Xposed）
+    最新版 V5.12.23版本只适用于基于Android13的MIUI14</p>
+    <h2>模块功能</h2>
+    <details>
+      <summary>系统桌面增强(点击查看详情)</summary>
     <ul>
-    <li>适配MIUI14</li>
-    <li>新增控制中心关闭蓝牙后禁止自启</li>
+    <li>桌面布局解锁</li>
+    <li>桌面双击息屏</li>
+    <li>自动关闭文件夹</li>
+    <li>文件夹列数设置</li>
     </ul>
-    <hr>
-    <p>The current version is based on miui14 development version V14.xx.12.8.DEV(Android13) development</p>
-    <p>It is only applicable to official MIUI14 based on android13. Some or all functions of other versions may fail</p>
-    <p>Issues that occur outside the development version are not accepted</p>
-    <p>MIUI13 users do not need to update</p>
-    <p>Changelog<br>
-    -Adapt to MIUI14</p>
-    <p>已知bug：</p>
+    </details>
+    <details>
+    <summary>系统界面增强(点击查看详情)</summary>
     <ul>
-    <li>MTK机型开启音阶修改无声</li>
+    <li>状态栏隐藏图标与视图 (隐藏飞行模式、信号、静音、震动、电量、VPN…的图标)</li>
+    <li>状态栏布局 (时钟居右，时钟居中，信号居左+时钟居中)</li>
+    <li>状态栏显示天气、温度、电流</li>
+    <li>状态栏时钟自定义 (显示年月日、星期、时辰、秒)</li>
+    <li>状态栏双排网速</li>
+    <li>MIX Alpha 充电动画</li>
+    <li>锁屏显示步数</li>
+    <li>锁屏显示闹钟</li>
     </ul>
-    <p>lanzouyun：<a href="https://chili.lanzoub.com/b05s4a6ed" rel="nofollow">https://chili.lanzoub.com/b05s4a6ed</a><br>
-    password: chimi</p>
+    <p>…</p>
+    </details>
+    <details>
+    <summary>Android系统增强(点击查看详情)</summary>
+    <ul>
+    <li>拆分通知音量</li>
+    <li>息屏音量键长按动作自定义</li>
+    <li>移除不受信任触摸限制</li>
+    </ul>
+    <p>…</p>
+    </details>
+    <details>
+    <summary>手机管家增强(点击查看详情)</summary>
+    <ul>
+    <li>移除打开应用二次确认</li>
+    <li>跳过警告时间</li>
+    <li>分数锁定</li>
+    </ul>
+    <p>…</p>
+    </details>
+    <p>查看更新日志和下载使用发现更多功能</p>
+    <h2>使用方法</h2>
+    <ul>
+    <li>在Xposed管理器(LSPosed)中激活模块</li>
+    <li>作用域勾选推荐应用</li>
+    <li>重启目标应用或者重启手机</li>
+    <li>功能突然失效的请清除ChiMi数据，并重新启动目标应用程序或重新启动手机</li>
+    </ul>
+    <h2>无法使用</h2>
+    <ul>
+    <li>停用可能起冲突的Xposed模块和Magisk模块</li>
+    <li>重新添加应用和重新勾选模块</li>
+    <li>清除ChiMi数据，或者重装ChiMi</li>
+    <li>MIUI版本不适配</li>
+    </ul>
+    <h2>已知bug：</h2>
+    <ul>
+    <li>MTK部分机型开启音阶修改无声</li>
+    </ul>
+    <h2>模块截图：</h2>
+    <p><img src="https://github.com/yonghen/chimi-/raw/master/doc/imgCn.png" alt="image" /></p>
 IssueTracker: ""
 Name: ChiMi
 SourceCode: https://github.com/Xposed-Modules-Repo/chili.xposed.chimi

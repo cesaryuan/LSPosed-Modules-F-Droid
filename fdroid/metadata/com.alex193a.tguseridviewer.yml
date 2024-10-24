@@ -3,10 +3,14 @@ Categories:
     - Xposed
 CurrentVersion: "1.2"
 CurrentVersionCode: 3
-Description: |-
-    <ul>
-    <li>Added support for Telegram (Web Release)</li>
-    </ul>
+Description: |
+    <h1>Telegram UserID Viewer</h1>
+    <p>This module allows you to view a user’s ID directly in their profile.</p>
+    <p>No configuration needed, install and restart Telegram then the user ID will be shown in the user’s profile next to the username or phone number.</p>
+    <h1>Compatibility</h1>
+    <p>Telegram (org.telegram.messenger)</p>
+    <p>Telegram Beta (org.telegram.messenger.beta)</p>
+    <p>Telegram Web APK (org.telegram.messenger.web)</p>
 IssueTracker: ""
 Name: Telegram UserID Viewer
 SourceCode: https://github.com/Xposed-Modules-Repo/com.alex193a.tguseridviewer

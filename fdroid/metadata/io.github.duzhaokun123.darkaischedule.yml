@@ -3,14 +3,10 @@ Categories:
     - Xposed
 CurrentVersion: 0.0.1
 CurrentVersionCode: 1
-Description: |-
-    <p>已知问题</p>
-    <ul>
-    <li>登录失效</li>
-    <li>状态栏不正常</li>
-    <li><code>getUserInfo error, retry</code>反复重试可能增加耗电</li>
-    <li>周数更新不正常</li>
-    </ul>
+Description: |
+    <h1>DarkAISchedule</h1>
+    <p>小爱课程表(<code>com.xiaomi.aischedule</code>)暗色支持</p>
+    <p>仅测试于<code>1.1.0</code>版本</p>
 IssueTracker: ""
 Name: DarkAISchedule / 小爱课程表暗色
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.darkaischedule

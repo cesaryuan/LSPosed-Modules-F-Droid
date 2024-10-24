@@ -3,12 +3,114 @@ Categories:
     - Xposed
 CurrentVersion: "2.0"
 CurrentVersionCode: 8
-Description: |-
-    <h1>Update</h1>
-    <ul>
-    <li>fix: error index-dayOfWeek 下标错误</li>
-    <li>feat: oneTime 一次性禅定</li>
-    </ul>
+Description: |
+    <div align="center">
+    <h1>ZenMode</h1>
+    <h2>规定时间内禁止打开指定App</h2>
+    </div>
+    <div align="center">
+    <p><a href="https://github.com/NoonieBao/ZenMode"><img src="https://img.shields.io/github/stars/NoonieBao/ZenMode?label=stars" alt="Stars" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/icu.insomnia.zen/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/icu.insomnia.zen/total?label=LSP%20Repo&amp;labelColor=F48FB1" alt="LSP%20Repo" /></a><a href="https://github.com/Xposed-Modules-Repo/icu.insomnia.zen/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/icu.insomnia.zen" alt="Release" /></a></p>
+    </div>
+    <br/>
+    <h2>preface</h2>
+    <p><strong>此app仅修改<code>android.app.Activity#onResume</code>，不存在恶意代码，<a href="https://github.com/People-11/FuckGJZS%5D(https://github.com/NoonieBao/ZenMode)">源代码</a>，请自行判断文件是否安全</strong></p>
+    <h2>Warning</h2>
+    <p>确保你Xposed版本支持<strong>作用域</strong>，否则请勿安装<br/>
+    请谨慎操作，并确保发生意外情况时您能够恢复设备！<br/>
+    推荐搭配<code>自动救砖</code>使用，<a href="https://github.com/People-11/FuckGJZS">FuckGJZS</a><br/></p>
+    <h2>使用步骤</h2>
+    <ol>
+    <li>安装<code>app-release.apk</code>，并在Lsp作用域中勾选任何可能影响你的<code>app</code></li>
+    <li>在app中添加时间段即可。</li>
+    <li>由于使用ContentProvider保存配置信息, 部分机型可能需要允许自启动.(最好的办法是直接使用magisk安装成系统应用,以允许被唤起)</li>
+    </ol>
+    <h2>增强</h2>
+    <p>已察觉的某些关闭ZenMode的方式</p>
+    <table>
+    <thead>
+    <tr>
+    <th>种类</th>
+    <th>触发条件</th>
+    <th>Option</th>
+    <th>备注</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>唤起Lsp通知</td>
+    <td>安装新的模块唤起</td>
+    <td>勾选<code>应用包管理器</code></td>
+    <td>*</td>
+    </tr>
+    <tr>
+    <td>唤起Lsp通知</td>
+    <td>多开新的模块唤起</td>
+    <td>勾选<code>多开管理器</code></td>
+    <td>*</td>
+    </tr>
+    <tr>
+    <td>唤起Lsp</td>
+    <td>拨号唤起</td>
+    <td>勾选<code>拨号界面</code></td>
+    <td>特殊命令可唤起Lsp，勾选拨号界面不影响接听来电。</td>
+    </tr>
+    <tr>
+    <td>唤起Lsp</td>
+    <td>快捷方式 || Lsp寄生通知</td>
+    <td><strong>先创建快捷方式，关闭通知，再移除通知</strong></td>
+    <td>*</td>
+    </tr>
+    <tr>
+    <td>唤起magisk</td>
+    <td>*</td>
+    <td>移除<code>Magisk图标</code></td>
+    <td>移除Magisk不会丢失权限，且不影响已授权应用。在想新授权时重新安装管理器即可。</td>
+    </tr>
+    <tr>
+    <td>文件管理器</td>
+    <td>*</td>
+    <td>勾选<code>Root文件管理器</code></td>
+    <td>Root文件管理器也可以移除增强模块。</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>因此，可以对照上表进行设置以增强:</p>
+    <ol>
+    <li>通过Magisk将<code>ZenMode</code>升级为系统应用，这将使其不被卸载。（除非手动移除）</li>
+    <li>勾选<code>拨号界面</code>，<code>应用包管理器</code>，<code>文件管理器</code>，<code>多开管理器</code></li>
+    <li>先初始化一次<code>Open Lsp Manger</code>授予<code>ZenMode</code>root权限(必须！，否则你可能无法手动打开Lsp)，按照上述表格方法移除Lsp通知和快捷方式。【可选】</li>
+    <li>确保<code>ZenMode</code>正确被授权后，移除<code>Magisk快捷方式</code>，移除Magisk不会丢失权限，不影响已授权应用，在想新授权时重新安装管理器即可。【可选】</li>
+    <li>self-discipline batter than forced intervention</li>
+    </ol>
+    <h2>测试列表：</h2>
+    <table>
+    <thead>
+    <tr>
+    <th>phone</th>
+    <th>API</th>
+    <th>os</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>K40 pro</td>
+    <td>Android11</td>
+    <td>MIUI12.5 12.5.8</td>
+    </tr>
+    <tr>
+    <td>Xiaomi Note3</td>
+    <td>Android 11</td>
+    <td>crDroid 7.21</td>
+    </tr>
+    <tr>
+    <td>MI 6</td>
+    <td>Android 9</td>
+    <td>MIUI10 9.9.3</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>在上述设备上测试通过</p>
 IssueTracker: ""
 Name: 禅定模式 ZenMode
 SourceCode: https://github.com/Xposed-Modules-Repo/icu.insomnia.zen

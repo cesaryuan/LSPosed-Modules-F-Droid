@@ -3,17 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: 0.7-git.30e8c49
 CurrentVersionCode: 7
-Description: |-
-    <p>更新日志</p>
-    <ul>
-    <li>优化启动器 hook</li>
-    <li>bug 修复 优化体验</li>
-    </ul>
-    <p>changelog</p>
-    <ul>
-    <li>optimize launcher hooks</li>
-    <li>bug fix, optimize experience</li>
-    </ul>
+Description: |
+    <h1>Yet Another Mi-FreeForm</h1>
+    <p>因为 <a href="https://github.com/sunshine0523/Mi-FreeForm">Mi-FreeForm</a> 非常不好用 只好重写一个</p>
+    <p>相比米窗有有一些改进 但也有新的问题</p>
+    <h3>目前仅支持 Android 12-13</h3>
 IssueTracker: ""
 Name: Yet Another Mi-FreeForm / 另一个米窗
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.yamf

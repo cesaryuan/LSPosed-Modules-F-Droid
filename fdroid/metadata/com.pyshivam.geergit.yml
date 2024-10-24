@@ -3,52 +3,244 @@ Categories:
     - Xposed
 CurrentVersion: 2.5.2
 CurrentVersionCode: 20513
-Description: |-
-    <h1>Geergit v2.5.2 (20513) Release Notes</h1>
+Description: |
+    <h1>Geergit - Protect Your Privacy</h1>
+    <p><img src="banner.png" alt="" /></p>
+    <p>ROOT REQUIRED</p>
+    <p>XPOSED FRAMEWORK REQUIRED</p>
+    <p>IF You dont know What is XPOSED FRAMEWORK then do not try this application (it wont work).
+    To Know more about Xposed Read Here.
+    <a href="http://forum.xda-developers.com/xposed/">http://forum.xda-developers.com/xposed/</a>
+    <br/><br/></p>
+    <h2>IMPORTANT</h2>
+    <ul>
+    <li>Although this app has been tested on several devices, there arealways chance something can go wrong. It is always recommended to have a backup of your ROM and other important data before trying this app.</li>
+    </ul>
+    <p>This is Xposed Module For Changing (MASKING) the various IDs in the Phone.
+    Change means when an application access these parameters this appwill replace original value with user provided value. Original values are always intact in device.
+    <br/><br/></p>
+    <h2>Pricing Table</h2>
+    <table>
+    <thead>
+    <tr>
+    <th>Features</th>
+    <th>Freemium</th>
+    <th>Silver (Lifetime)</th>
+    <th>Premium (Subscription)</th>
+    <th>Alpha (Subscription)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>IMEI1</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>IMEI2</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Hardware Serial</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Bluetooth Mac</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Wifi Mac</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Wifi SSID</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Mobile Number</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Advertising ID</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Country</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>SIM Operator</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>SIM MCC/MNC</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>SIM Subscriber</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>SIM Card Serial</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Google Service Framework (GSF)</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Spoof Google Accounts (Gmail)</td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Android ID</td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>DRM Media</td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>On click random all the values</td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Make device look more legit (hide root, xposed, etc)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Mock location</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Backup/Restore app data</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Create groups of target apps</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Profile creation per App and Group</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    <tr>
+    <td>Add notes to profile</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>✔️</td>
+    </tr>
+    </tbody>
+    </table>
+    <p><strong>Freemium:</strong> The Freemium membership provides essential features to enhance your privacy control on Android. With Freemium, you can protect your IMEI, hardware serial, Bluetooth MAC, Wi-Fi MAC, mobile number, advertising ID, and Wi-Fi SSID. It’s a great starting point for securing your information.</p>
+    <p><strong>Silver (Lifetime):</strong> Upgrade to the Silver membership and make a one-time payment to unlock advanced features. The Silver membership provides lifetime access to all the functionalities available in the Freemium plan, along with additional features. With Silver, you gain access to country information, SIM operator details, SIM MCC/MNC, SIM subscriber information, SIM card serial, Google Service Framework (GSF), and the ability to spoof Google accounts (Gmail). Silver expands your privacy control capabilities for a lifetime.</p>
+    <p><strong>Premium (Subscription):</strong> Subscribe to the Premium membership and unlock everything provided in the Freemium and Lifetime plans. Additionally, as a Premium member, you gain access to upcoming features mentioned in the table above. With Premium, you stay up-to-date with the latest developments and enjoy comprehensive privacy control options. Premium membership is available through a subscription.</p>
+    <p><strong>Alpha (Subscription):</strong> The Alpha membership encompasses all the features provided in the Freemium, Lifetime, and Premium plans. On top of that, Alpha offers advanced features that are still under development. These exclusive features are not available in the other plans and enable you to experience cutting-edge privacy control on your Android device. Alpha membership is available through a subscription.</p>
+    <p>Please note that the availability of certain features may vary depending on the membership level.</p>
+    <p>(<em>Note: Pricing plans are based on monthly per-device subscriptions. Prices and features are subject to change as Geergit is still under development.</em>)</p>
+    <h3>Feature request</h3>
+    <p>There are multiple methods to request feature</p>
     <ol>
-    <li>
-    <p>Module Status Handling:</p>
-    <ul>
-    <li>If a module is not enabled, it will no longer redirect to the "module not working" page. Instead, a warning will be shown at the top while still allowing access to features.</li>
-    </ul>
-    </li>
-    <li>
-    <p>General Improvements and Bug Fixes:</p>
-    <ul>
-    <li>Various improvements and bug fixes to enhance overall performance and stability.</li>
-    </ul>
-    </li>
-    <li>
-    <p>Mock Location Spoofing:</p>
-    <ul>
-    <li>Improved handling of mock location spoofing for better accuracy and reliability.</li>
-    </ul>
-    </li>
-    <li>
-    <p>Backup Awareness:</p>
-    <ul>
-    <li>Users are now informed that victim app data backups are only stored on the device.</li>
-    </ul>
-    </li>
-    <li>
-    <p>Anti-Fingerprinting Switch (Experimental):</p>
-    <ul>
-    <li>Added an Anti-Fingerprinting switch with multiple methods to prevent device fingerprinting.</li>
-    </ul>
-    </li>
-    <li>
-    <p>Group and Profile Fixes:</p>
-    <ul>
-    <li>Fixed group-related bugs and resolved the "Profile Not Found" issue.</li>
-    </ul>
-    </li>
-    <li>
-    <p>Non-English Support:</p>
-    <ul>
-    <li>Geergit now supports non-English devices and apps, fixing previous errors encountered with non-English applications.</li>
-    </ul>
-    </li>
+    <li>You can open feature request issue to this repository.</li>
+    <li>Submit this Google Form: <a href="https://forms.gle/X8sX6PcSi9bRbK1YA">https://forms.gle/X8sX6PcSi9bRbK1YA</a></li>
+    <li><a href="https://t.me/geergit_xposed">Telegram Group</a></li>
+    <li><a href="https://forum.xda-developers.com/t/app-xposed-5-0-13-geergit-a-module-to-protect-your-privacy.4573243/">XDA Thread</a></li>
     </ol>
+    <br/>
+    <h3>NOTE:</h3>
+    <ol>
+    <li>For changes to take effect close all running applications alsoswipe / clear apps from recent list. No need to reboot.</li>
+    </ol>
+    <p>Steps to enable app in Xposed Framework (LSPosed Recommended).</p>
+    <ul>
+    <li>Install app</li>
+    <li>Go to xposed module</li>
+    <li>Enable module in xposed framework</li>
+    <li>Select target/victim apps in module’s scope incase of LSPosed</li>
+    <li>Restart phone</li>
+    <li>Open the app</li>
+    <li>And you can start using it by changing settings.</li>
+    </ul>
+    <ol start="2">
+    <li>Don’t use this app for any illegal purpose or cheat any program this module is just for better privacy.
+    <br/><br/></li>
+    </ol>
+    <p>Credits:</p>
+    <p>@DE - For inspiring me for this module. <br/>
+    @Lsposed Team - For their efforts. <br/>
+    @VD171 - for his app VDInfo which will help to check spoof values.
+    <br/><br/></p>
+    <h3>End User Licence Agreement (EULA)</h3>
+    <p>“THE SOFTWARE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SOFTWARE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SOFTWARE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT WILL AUTHOR BE LIABLE FOR ANY DAMAGES CAUSED BY USING THIS PRODUCT”</p>
 IssueTracker: ""
 Name: Geergit - Protect Your Privacy
 SourceCode: https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit

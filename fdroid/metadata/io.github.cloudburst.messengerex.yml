@@ -3,6 +3,14 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 1
+Description: |
+    <h1>MessengerEx</h1>
+    <p>An Xposed module that improves the Facebook Messenger experience.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Kill inbox ads</li>
+    <li>Replace their webbrowser with Chrome Custom Tabs</li>
+    </ul>
 IssueTracker: ""
 Name: An Xposed module that improves the Facebook Messenger experience.
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.cloudburst.messengerex

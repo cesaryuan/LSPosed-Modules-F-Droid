@@ -3,9 +3,33 @@ Categories:
     - Xposed
 CurrentVersion: "1.4"
 CurrentVersionCode: 5
-Description: |-
-    <p>可以在【微信，QQ】打开 [皮皮虾 , 抖音] 分享的地址并跳转到应用<br>
-    MIUI13 双排状态栏 （根据小米10s 小米11U 左挖孔设备开发）</p>
+Description: |
+    <h1>皮皮虾Share</h1>
+    <blockquote>
+    <p>移除微信，QQ对短视频的限制</p>
+    </blockquote>
+    <h2>本插件仅自用分享</h2>
+    <p>可以在【微信，QQ】打开 [皮皮虾 , 抖音] 分享的地址并跳转到应用</p>
+    <p>MIUI13 双排状态栏 （根据小米10s 小米11U 左挖孔设备开发）</p>
+    <blockquote>
+    <p>开发初衷</p>
+    </blockquote>
+    <pre><code>有的时候经常忘记打卡（就很烦）
+
+    所以就想在状态栏加了一行文字 提醒下自己
+
+    由于一直在用以下三位大佬的插件（也不好意思找作者定制）
+
+    当前插件可能完美结合以下三位大佬的App( 因为我也在用他们的模块 所以在开发中也在尽力适配他们模块的 位置 特点 )
+    </code></pre>
+    <blockquote>
+    <p>使用教程</p>
+    </blockquote>
+    <pre><code>长按状态栏的星星 有惊喜
+    </code></pre>
+    <p>乌龟大佬 WooBox for MIUI插件（状态栏布局默认）</p>
+    <p>和风大佬 Chimi 插件</p>
+    <p>墨.状态栏歌词</p>
 IssueTracker: ""
 Name: 皮皮虾Share
 SourceCode: https://github.com/Xposed-Modules-Repo/android.xiaolan.ppxshare.tools

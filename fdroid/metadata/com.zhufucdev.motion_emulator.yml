@@ -3,13 +3,66 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.2
 CurrentVersionCode: 24
-Description: |-
-    <p>You can get a translated text <a href="https://zhufucdev.com/article/peBx_1w5Njt27VZxxQvGi" rel="nofollow">here</a></p>
-    <h1>Bugfix</h1>
+Description: |
+    <h1>MotionEmulator</h1>
+    <img src="https://github.com/zhufucdev/MotionEmulator/raw/main/art/MotionEmulator.svg" width="200">
+    <p>English Version | <a href="https://github.com/zhufucdev/MotionEmulator/blob/main/README_zh.md">中文文档</a></p>
+    <p>Motion Emulator is an application platform that allows
+    you to mock location and sensor data using different methods,
+    including Xposed and debugging options.</p>
+    <h2>Scenarios</h2>
+    <p>Trick your fitness app or your favourite game. Make you king of the world.</p>
+    <h2>Usage</h2>
+    <p>To learn about the latest software and its tricks, refer to
+    <a href="https://zhufucdev.com/article/RTyhZArsyD2JKPbdHEviU">Steve’s Blog</a>.</p>
+    <h2>Build Instructions</h2>
+    <p>Build and maintain this project with the latest Android Studio Canary
+    (currently Hedgehog | 2023.1.1 Canary 15) because this project is pretty
+    radical.</p>
+    <p>This app contains sdk from Amap and Google Maps, thus <strong>api keys</strong> are
+    required.
+    Obtain them from <a href="https://console.amap.com/dev/key/app">here</a>
+    <a href="https://developers.google.com/maps/documentation/android-sdk/start">and here</a></p>
+    <pre lang="shell"><code>echo amap.web.key=&quot;&lt;Your Key&gt;&quot; &gt;&gt; local.properties
+    echo AMAP_SDK_KEY=&quot;&lt;Your Key&gt;&quot; &gt;&gt; local.properties
+    echo GCP_MAPS_KEY=&quot;&lt;Your Key&gt;&quot; &gt;&gt; local.properties
+    </code></pre>
+    <p>My own service is involved to provide online features like self update,
+    which is optional and shouldn’t be included in unofficial builds.</p>
+    <p>However, it is still possible to build with your own service.</p>
+    <pre lang="shell"><code>cd app
+    echo SERVER_URI=&quot;&lt;Your Server&gt;&quot; &gt;&gt; server.properties
+    echo PRODUCT=&quot;&lt;You Decide&gt;&quot; &gt;&gt; server.properties
+
+    cd ../mock_location_plugin
+    echo SERVER_URI=&quot;&lt;Your Server&gt;&quot; &gt;&gt; server.properties
+    echo PRODUCT=&quot;&lt;You Decide&gt;&quot; &gt;&gt; server.properties
+    </code></pre>
+    <p>The <code>SERVER_URI</code> is supposed to be an HTTP/HTTPS RESTful that implements
+    a certain protocol. You can get an example by
+    <a href="https://github.com/zhufucdev/api.zhufucdev">looking at my codebase</a>.</p>
+    <p>By the way, in case you are not familiar with Android dev, fill in
+    your own SDK like so:</p>
+    <pre lang="shell"><code>echo sdk.dir=&lt;Your SDK Full Path&gt; &gt;&gt; local.properties
+    </code></pre>
+    <h2>License</h2>
+    <pre><code>Copyright 2022-2023 zhufucdev
+
+    Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    </code></pre>
+    <h2>Special Thanks</h2>
     <ul>
-    <li>Crash when exporting (sharing) recorded data</li>
-    <li>Visual bugs in Recording and Emulation UI</li>
-    <li>Missing <code>navigate up</code> tooltip in Compose-based pages</li>
+    <li><a href="https://github.com/wandergis/coordtransform">wandergis/coordtransform</a> for its map coordinate fixing algorithm</li>
     </ul>
 IssueTracker: ""
 Name: Motion Emulator

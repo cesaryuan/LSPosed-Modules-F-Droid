@@ -3,7 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: <p>• Fix</p>
+Description: |
+    <h1>OnePlus App Cloner Extender</h1>
+    <p>This module allows you to add any app (but not System apps) to the list of the supported applications by the “App Cloner” feature of <em>OnePlus</em> phones with OxygenOS.
+    The module is compatible with <strong>Android 12 and 13</strong>, it has been tested on the following devices:</p>
+    <ul>
+    <li>OnePlus 9 Pro</li>
+    </ul>
+    <p>but it should also work on other OnePlus models.</p>
+    <h1>How to use it:</h1>
+    <ol>
+    <li>Install the module</li>
+    <li>Add <em>com.oplus.multiapp</em> to its scope</li>
+    <li>Open the app and select the app(s) you want to add to the App Cloner list</li>
+    <li>Go to Settings &gt; Apps &gt; App Cloner and check the list*</li>
+    </ol>
+    <p>*Sometimes it may be necessary to force close the Settings app or restart the phone.</p>
+    <img src="https://pbs.twimg.com/media/FqKcScNX0AAIyw6.jpg" width="30%">
+    <p>The apps that have been cloned will remain active even if the module is disabled!</p>
+    <p>If you encounter any issues and you want to help me solve them contact me privately on <a href="https://twitter.com/alex193a">Twitter</a> or <a href="https://t.me/alex193a">Telegram</a>.</p>
+    <h1>Known issues</h1>
+    <ul>
+    <li>Even if the app is successfully cloned, it won’t show as “active” (On) in App Cloner so you won’t be able to remove it from there, this will be fixed in a future update.</li>
+    </ul>
+    <p>Also let me know if the module works on another OnePlus model besides the ones mentioned above :-)</p>
 IssueTracker: ""
 Name: OnePlus App Cloner Extender
 SourceCode: https://github.com/Xposed-Modules-Repo/com.alex193a.opacextender

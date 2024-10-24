@@ -3,19 +3,36 @@ Categories:
     - Xposed
 CurrentVersion: "3.7"
 CurrentVersionCode: 32
-Description: |-
-    <p><a href="https://t.me/VoyagerMIUIUpdate/3627" rel="nofollow">有什么问题可以加入群组交流</a><br>
-    新增 自动降低屏幕亮度<br>
-    新增 禁用副卡<br>
-    新增 解锁智能隐私打码<br>
-    新增 短信超级剪切板<br>
-    新增超大音量<br>
-    新增 对系统界面组件伪装是 HyperOS<br>
-    一些修复和改进<br>
-    同步上游的UI误触改进<br>
-    更新依赖<br>
-    修改了一些描述<br>
-    这是StarVoyager最后一个版本了，虽然本身就已经很久不再更新了。</p>
+Description: |
+    <p><img src="https://socialify.git.ci/hosizoraru/StarVoyager/image?description=1&amp;font=Raleway&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="StarVoyager" /></p>
+    <a href="https://star-history.com/#hosizoraru/StarVoyager&Date">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hosizoraru/StarVoyager&type=Date&theme=dark" />
+        <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hosizoraru/StarVoyager&type=Date" />
+        <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hosizoraru/StarVoyager&type=Date" />
+      </picture>
+    </a>
+    <p><a href="https://github.com/hosizoraru/StarVoyager/releases"><img src="https://img.shields.io/github/v/release/hosizoraru/StarVoyager?style=for-the-badge" alt="version" /></a> <a href="https://github.com/hosizoraru/StarVoyager/stargazers"><img src="https://img.shields.io/github/stars/hosizoraru/StarVoyager?style=for-the-badge" alt="stars" /></a> <a href="https://t.me/VoyagerMIUIUpdate"><img src="https://img.shields.io/github/downloads/hosizoraru/StarVoyager/total?style=for-the-badge" alt="download-all" /></a> <a href="https://modules.lsposed.org/module/star.sky.voyager"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/star.sky.voyager/total?style=for-the-badge" alt="download-lsposed-all" /></a> <a href="https://github.com/search?q=repo%3Ahosizoraru%2FStarVoyager++language%3AKotlin&amp;type=code"><img src="https://img.shields.io/github/languages/top/hosizoraru/StarVoyager?style=for-the-badge" alt="kotlin" /></a> <a href="https://github.com/hosizoraru/StarVoyager/actions"><img src="https://img.shields.io/github/actions/workflow/status/hosizoraru/StarVoyager/android.yml?branch=star&amp;style=for-the-badge" alt="CI" /></a><br />
+    全名为 StarSkyVoyager<br />
+    可以的话请前往 <a href="https://github.com/hosizoraru/StarVoyager">原代码仓库</a> 点一下 star<br />
+    想要很多很多 star<br />
+    基于 <a href="https://github.com/hosizoraru/WooBoxForMIUI">我的分支的WooBoxForMIUI</a><br />
+    使用了 <a href="https://github.com/KyuubiRan/EzXHelper">EzXHelper2</a>
+    和 <a href="https://github.com/yujincheng08/BiliRoaming/blob/master/app/src/main/java/me/iacn/biliroaming/utils/KotlinXposedHelper.kt">KotlinXposedHelper</a>
+    进行重构<br />
+    现在也已经新增了不少其它我自己在用的功能</p>
+    <hr />
+    <h3>模块说明</h3>
+    <p>开发者: <a href="https://github.com/hosizoraru">Voyager</a><br />
+    目前仅基于我的 <a href="https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%B1%B3MIX_4"><code>Mix4</code></a> 的<code>Android13</code>+<a href="https://home.miui.com"><code>MIUI14</code></a>开发<br />
+    属于是给我的 <a href="https://zh.wikipedia.org/wiki/%E5%B0%8F%E7%B1%B3MIX_4"><code>Mix4</code></a> 专用的模块<br />
+    其他机型能用, 但会出现一些功能适配不广或直接不可用的情况<br />
+    <code>Android12</code>已经放弃适配, 低于 <code>Android13</code> 将会无法安装</p>
+    <hr />
+    <h3>讨论</h3>
+    <p><code>Telegram Channel</code> : <a href="https://t.me/VoyagerMIUIUpdate">Voyager MIUI Update</a><br />
+    <code>Telegram Group</code> : <a href="https://t.me/+xtTB-ijLrlY2ZjFl">StarVoyager Ideal</a><br />
+    <code>Github 开源代码仓库</code> : <a href="https://github.com/hosizoraru/StarVoyager">StarVoyager</a></p>
 IssueTracker: ""
 Name: StarVoyager
 SourceCode: https://github.com/Xposed-Modules-Repo/star.sky.voyager

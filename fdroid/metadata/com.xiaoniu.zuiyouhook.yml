@@ -3,11 +3,19 @@ Categories:
     - Xposed
 CurrentVersion: 1.4.3
 CurrentVersionCode: 8
-Description: |-
+Description: |
+    <h1>最右Hook模块</h1>
+    <h2>现有功能</h2>
     <ul>
-    <li>移除更多广告类型</li>
-    <li>移除图标以缩减体积</li>
-    <li>其他优化</li>
+    <li>去广告</li>
+    <li>去青少年弹窗 <a href="https://github.com/littleWhiteDuck">@littleWhiteDuck</a></li>
+    <li>视频无水印下载 @耗子爱吃草</li>
+    </ul>
+    <p>模块无设置界面，勾选即生效。</p>
+    <h2>注意事项</h2>
+    <ul>
+    <li>未经允许，请<strong>不要</strong>在国内平台（<strong>尤其是酷安</strong>等）传播本模块</li>
+    <li>如您认为本模块侵犯了您的正当权益，请通过<a href="mailto:klxn@vip.qq.com">邮件</a>联系我，我将对此模块作下架等处理</li>
     </ul>
 IssueTracker: ""
 Name: ZuiYouHook

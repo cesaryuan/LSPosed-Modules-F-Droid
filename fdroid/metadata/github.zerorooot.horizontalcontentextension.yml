@@ -3,9 +3,22 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: |-
-    <p>首次发布</p>
-    <p><strong>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</strong></p>
+Description: |
+    <h1>横屏传送门</h1>
+    <p>强行在横屏模式下启用miui传送门</p>
+    <h1>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</h1>
+    <h1>如何使用</h1>
+    <p>1、安装<a href="https://github.com/topjohnwu/Magisk">Magisk</a></p>
+    <p>2、安装<a href="https://github.com/LSPosed/LSPosed">LSPosed</a></p>
+    <p>3、安装<a href="https://github.com/zerorooot/HorizontalContentextension/blob/main/util/%E4%BC%A0%E9%80%81%E9%97%A8_2.5.64.apk">miui传送门</a></p>
+    <p>4、安装此<a href="https://github.com/zerorooot/HorizontalContentextension/blob/main/util/app">app</a>，并在LSPosed中勾选</p>
+    <p>5、使用<a href="https://github.com/zerorooot/HorizontalContentextension/blob/main/util/%E5%88%9B%E5%BB%BA%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F.apk">创建快捷方式</a>，启用传送门，确保在竖屏模式下能正常使用</p>
+    <p>6、重启传送门，横屏，测试能否使用</p>
+    <h1>软件原理</h1>
+    <p>通过拦截<code>com.miui.contentextension.services.TextContentExtensionService</code></p>
+    <p>类中的<code>isScreenPortrait</code>方法，使其返回<code>true</code>，从而达到横屏使用传送门的目的</p>
+    <h1>截图</h1>
+    <p><img src="https://github.com/zerorooot/HorizontalContentextension/raw/main/util/photo.jpg" alt="图片识别" /></p>
 IssueTracker: ""
 Name: 横屏传送门/HorizontalContentextension
 SourceCode: https://github.com/Xposed-Modules-Repo/github.zerorooot.horizontalcontentextension

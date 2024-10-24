@@ -3,7 +3,41 @@ Categories:
     - Xposed
 CurrentVersion: 1.9.8-炼妖壶
 CurrentVersionCode: 10
-Description: <p>SHA-256 615CB4A41C0F91427DA7CE7AA58B1B787B487C193FD95A6EC5A777441A24E50F</p>
+Description: |
+    <h1>com.variable.apkhook</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.variable.apkhook/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.variable.apkhook" alt="" /></a>
+    <a href="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.variable.apkhook/total"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.variable.apkhook/total" alt="" /></a></p>
+    <h2>Module name</h2>
+    <p>应用伪装</p>
+    <h2>Author</h2>
+    <p>QQ: 2272017501</p>
+    <p>E-mail: <a href="mailto:2272017501@qq.com">2272017501@qq.com</a>、<a href="mailto:xposedtaichu@gmail.com">xposedtaichu@gmail.com</a></p>
+    <pre><code>QQ交流群：
+    ①：742185295
+    ②：867458735
+    ③：853825328
+    ④：561233802
+    ⑤：213388634
+    ⑥：441260380
+    入群答案：应用伪装
+    </code></pre>
+    <h2>Description</h2>
+    <p>功能与 <a href="https://github.com/NekoGirlSAIKOU/AppEnv-Kotlin">应用变量</a> 模块相似，但闭源.</p>
+    <p>为你选择的应用程序传递你伪造的手机信息</p>
+    <pre><code>此模块现已收费，最后一个免费版本为 1.9.8
+
+    最新付费版(源计划)模块下载链接： https://wwz.lanzouy.com/b09bhrioh (密码:fake)
+
+    https://www.123pan.com/s/3CSxjv-cMpVv.html
+
+    </code></pre>
+    <h2>Usage</h2>
+    <p>原作者并没有解释用法，以下的使用教程取自应用变量模块的描述：</p>
+    <p>首先，你需要选择你想要传递手机伪装信息给哪些 APP，</p>
+    <p>(不仅仅在模块中选取，还需要添加到模块作用域中以确保模块可以作用于 APP)</p>
+    <p>然后在模块里填写手机的伪装信息，最后，只需单独重启这些 APP 即可.</p>
+    <h2>Stargazers over time</h2>
+    <p><a href="https://starchart.cc/Xposed-Modules-Repo/com.variable.apkhook"><img src="https://starchart.cc/Xposed-Modules-Repo/com.variable.apkhook.svg" alt="Stargazers over time" /></a></p>
 IssueTracker: ""
 Name: 应用伪装
 SourceCode: https://github.com/Xposed-Modules-Repo/com.variable.apkhook

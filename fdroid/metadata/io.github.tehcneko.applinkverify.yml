@@ -3,6 +3,9 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
+Description: |
+    <h1>Disable app link verify</h1>
+    <p>Disable app link verify on Android 12, restore to old behaviour when opening links.</p>
 IssueTracker: ""
 Name: Disable app link verify / 禁用应用链接验证
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.applinkverify

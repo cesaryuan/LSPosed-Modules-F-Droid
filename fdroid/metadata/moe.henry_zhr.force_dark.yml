@@ -3,7 +3,10 @@ Categories:
     - Xposed
 CurrentVersion: "2"
 CurrentVersionCode: 2
-Description: <p>Fix not working on Android 13</p>
+Description: |
+    <p>Override force-dark for apps in module scope<br />
+    为作用域内应用强制启用 SmartDark</p>
+    <p>Android 10+</p>
 IssueTracker: ""
 Name: Force Dark
 SourceCode: https://github.com/Xposed-Modules-Repo/moe.henry_zhr.force_dark

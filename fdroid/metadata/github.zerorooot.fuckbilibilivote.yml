@@ -3,11 +3,24 @@ Categories:
     - Xposed
 CurrentVersion: 4.1.4
 CurrentVersionCode: 9
-Description: |-
-    <ul>
-    <li>允许自定义是否显示up主弹幕</li>
-    <li>可屏蔽“cards_second”类型的弹窗</li>
-    </ul>
+Description: |
+    <h1>FuckBilibiliVote</h1>
+    <p>移除哔哩哔哩app中的vote(投票) 、attention(一键三连)、link(预告)、up(up主弹幕)、grade(打分)弹幕弹窗</p>
+    <p><a href="https://github.com/zerorooot/FuckBilibiliVote/"><img src="https://img.shields.io/github/stars/zerorooot/FuckBilibiliVote?style=social" alt="Total Stars" /></a><a href="https://github.com/zerorooot/FuckBilibiliVote"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/github.zerorooot.fuckbilibilivote/total?label=Downloads"></a> <a href="https://github.com/zerorooot/FuckBilibiliVote/releases"><img src="https://img.shields.io/github/v/release/zerorooot/FuckBilibiliVote?label=Latest%20Release" alt="Latest Release" /></a></p>
+    <p>相关测试视频：</p>
+    <p><a href="https://www.bilibili.com/video/BV1Wy4y1m7Xu">https://www.bilibili.com/video/BV1Wy4y1m7Xu</a></p>
+    <pre lang="txt"><code>vote : 07:42 ~ 07:49
+    attention : 00:34 ~ 00:39
+    up : 00:53、05:16
+    </code></pre>
+    <p><a href="https://www.bilibili.com/video/BV1N5411Q7UU">https://www.bilibili.com/video/BV1N5411Q7UU</a></p>
+    <pre lang="txt"><code>00:15 ~ 00:30
+    </code></pre>
+    <p><a href="https://www.bilibili.com/video/BV1Lt4y137LY">https://www.bilibili.com/video/BV1Lt4y137LY</a></p>
+    <pre lang="txt"><code>00:17 ~ 00:23
+    </code></pre>
+    <p>注：如果你想显示up主弹幕，在<code>/sdcard/Android/</code>下新建一个名为<code>up</code>的文件即可。</p>
+    <p>如果一切正常，你会在lsp日志里看到<code>fuckbilibilivote : 显示up主弹幕</code></p>
 IssueTracker: ""
 Name: 去你妈b站视频投票弹窗/FuckBilibiliVote
 SourceCode: https://github.com/Xposed-Modules-Repo/github.zerorooot.fuckbilibilivote

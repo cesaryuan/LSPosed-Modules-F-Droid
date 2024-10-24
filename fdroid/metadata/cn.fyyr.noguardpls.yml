@@ -3,7 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
-Description: <p>对Analytics进行hook，屏蔽网络</p>
+Description: |
+    <h1>MIUI_NOGUARDPLS</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/cn.fyyr.noguardpls/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.fyyr.noguardpls/total?label=Downloads"></a> <a href="https://github.com/gykkuo/MIUI_NoGuard/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/gykkuo/MIUI_NoGuard"></a> <a href="https://github.com/gykkuo/MIUI_NoGuard/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/gykkuo/MIUI_NoGuard"></a> <a href="https://github.com/gykkuo/MIUI_NoGuard/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/gykkuo/MIUI_NoGuard"></a></p>
+    <p>阻止MIUI追踪用户隐私<br />
+    Prevent miui from tracking your privacy.</p>
+    <hr />
+    <h3>已有功能 / Available feature</h3>
+    <ul>
+    <li>阻止com.miui.guardprovider的跟踪行为</li>
+    <li>欺骗com.miui.analytics为无网络状态</li>
+    </ul>
+    <hr />
+    <h3>使用方法 / Way to use</h3>
+    <ul>
+    <li>安装后开启作用域，重启手机。</li>
+    </ul>
+    <p>安装一个apk，lsposed日志里提示执行拦截为成功！</p>
+    <hr />
+    <h3>第三方开源引用 / Third-party open source references</h3>
+    <h5>GNU General Public License v3.0</h5>
+    <p><a href="https://github.com/YifePlayte/MaxMiPad">ReadMe参考</a></p>
+    <hr />
+    <h3>License</h3>
+    <p><a href="https://github.com/YifePlayte/MaxMiPad/blob/main/LICENSE">GNU General Public License v3.0</a></p>
 IssueTracker: ""
 Name: MIUI_NOGUARDPLS
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.fyyr.noguardpls

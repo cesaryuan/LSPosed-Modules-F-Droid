@@ -3,25 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.2
 CurrentVersionCode: 3
-Description: |-
-    <p>Init LSPosed release</p>
-    <p>Fixed mods:</p>
-    <ul>
-    <li>Status bar battery icon hide</li>
-    <li>Status bar VPN hide</li>
-    <li>Status bar Bluetooth icon handle</li>
-    <li>Status bar show clock's seconds</li>
-    <li>Show lockscreen notification after reboot</li>
-    <li>Hide lockscreen status bar</li>
-    <li>Hide lockscreen top block (clock, date etc)</li>
-    <li>Hide lockscreen unlock hint</li>
-    <li>Show LTE icon for 4G</li>
-    </ul>
-    <p>Added mods:</p>
-    <ul>
-    <li>Remove unused free space in the quick settings bottom (xiaomi.eu)</li>
-    <li>Increase battery font size</li>
-    </ul>
+Description: |
+    <h1>CustoMIUIzer 12.5 Plugin</h1>
+    <p>This plugin is for people how use CustoMIUIzer by Mikanoshi and have MIUI 12.5 and Android 11. It makes several mods workable again</p>
+    <p>Fixed mods:
+    Status bar battery icon hide
+    Status bar VPN hide
+    Status bar Bluetooth icon handle
+    Status bar show clock’s seconds
+    Show lockscreen notification after reboot
+    Hide lockscreen status bar
+    Hide lockscreen top block (clock, date etc)
+    Hide lockscreen unlock hint
+    Show LTE icon for 4G</p>
+    <p>Added mods:
+    Remove unused free space in the quick settings bottom (xiaomi.eu)
+    Increase battery font size</p>
+    <h2>Support/Discussion URL / Страница программы:</h2>
+    <p><a href="https://4pda.to/forum/index.php?s=&amp;showtopic=603033&amp;view=findpost&amp;p=110326560">4pda</a></p>
+    <h2>Author</h2>
+    <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2021</p>
 IssueTracker: ""
 Name: Mikanoshi's CustoMIUIzer plugin for MIUI 12.5 & Android 11
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.customiuizer125plugin

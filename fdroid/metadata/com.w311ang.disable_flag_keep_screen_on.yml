@@ -3,6 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.0
 CurrentVersionCode: 2
+Description: |
+    <h1>Disable-FLAG_KEEP_SCREEN_ON</h1>
+    <p>阻止应用常亮，按照系统屏幕超时时间息屏</p>
+    <h2>使用方法</h2>
+    <p>作用域选择需要阻止常亮的应用</p>
 IssueTracker: ""
 Name: Disable-FLAG_KEEP_SCREEN_ON
 SourceCode: https://github.com/Xposed-Modules-Repo/com.w311ang.disable_flag_keep_screen_on

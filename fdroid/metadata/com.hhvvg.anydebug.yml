@@ -3,33 +3,81 @@ Categories:
     - Xposed
 CurrentVersion: 3.0.4
 CurrentVersionCode: 14
-Description: |-
-    <p>Changes:</p>
+Description: |
+    <h1>AnyDebug</h1>
+    <p>English | <a href="README_CN.md">简体中文</a></p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hhvvg.anydebug/total?label=Downloads" alt="GitHub all releases" /></a></p>
+    <p>Change your view attributes without restarting your application.</p>
+    <h1>About</h1>
+    <p>This software relies on the <a href="https://github.com/rovo89/Xposed">Xposed Framework</a>, For more API details, visit their <a href="https://api.xposed.info/">website</a>.</p>
+    <h1>Features</h1>
     <ul>
-    <li>Completely new UI/UX</li>
-    <li>Remove persistent editing, since it's too buggy. If you need this feature, please don't update</li>
-    <li>Far more convenient for selecting views</li>
-    <li>Remove launcher icon, may add it in later versions</li>
-    <li>Add a button to remove views</li>
-    <li>Not hooking system server any longer</li>
-    <li>Fix crash on probably most apps</li>
-    <li>Add exported properties viewer</li>
-    <li>Add properties filtering</li>
-    <li>Add alpha/scroll/rotation/scale/translation modification entry</li>
+    <li>Touch screen to select views, instead of clicking it, this is far more convenient</li>
+    <li>Remove view</li>
+    <li>Change views’ visibility</li>
+    <li>Change views’ sizes</li>
+    <li>Change views’ layout margin/padding</li>
+    <li>Change text of a <code>TextView</code></li>
+    <li>Change text size</li>
+    <li>Change image, but currently only supports image url.</li>
+    <li>Properties viewer.</li>
+    <li>May be more…</li>
     </ul>
-    <p>变更：</p>
+    <h1>TODO</h1>
     <ul>
-    <li>全新操作界面</li>
-    <li>移除了持久编辑，因为问题很多。如果你需要此功能，请不要更新新版本</li>
-    <li>选择控件的方法更加方便</li>
-    <li>移除了桌面图标，后续可能会加回来</li>
-    <li>添加删除控件按钮</li>
-    <li>不再需要 hook 框架</li>
-    <li>修复了在大多数应用上的崩溃</li>
-    <li>增加了属性查看器</li>
-    <li>添加属性过滤器</li>
-    <li>添加 alpha/scroll/rotation/scale/translation 等属性的修改</li>
+    <li>Extract as a libracy for integrating into apps for debugging purpose.</li>
     </ul>
+    <h1>Usage</h1>
+    <h2>Install this app</h2>
+    <p>Just download and install it from the latest <a href="https://github.com/gitofleonardo/AnyDebug/releases/latest">releases page</a>.</p>
+    <h2>Check apps</h2>
+    <p>Check apps you want to hook in <code>LSPosed</code> or other <code>xposed</code> framework. Don’t forget to force stop it before using.</p>
+    <h2>Mini window</h2>
+    <p>A mini window shows the preview, selection switch, and the bottom drag bar inside.</p>
+    <ul>
+    <li>Click the preview to enter details page.</li>
+    <li>Check the selection switch to start view selection. When this is on, touching on screen will select the nearest views from your touch point.</li>
+    <li>Press the bottom drag bar then you can move the mini window to other positions.</li>
+    </ul>
+    <h2>Details page</h2>
+    <p>Details page shows basic information and modification control. After modifing views’ attributes, click the floating button below to confirm.</p>
+    <h2>Properties page</h2>
+    <p>The entry is <code>Details page</code> -&gt; <code>Properties</code>, which shows all exported properties in a view. These properties are annotated with <code>ViewDebug.ExportedProperty</code>.</p>
+    <h2>Quick setting</h2>
+    <p>Add the quick setting button to notification control panel, you can toggle the state of the hook.</p>
+    <h2>Max window</h2>
+    <p>When the window is maximized, just drag the bottom bar and fling it to turn it back into a mini window.</p>
+    <h1>Sample</h1>
+    <table>
+    <thead>
+    <tr>
+    <th><img src="raw/sample0.png" alt="sample0.png" /></th>
+    <th><img src="raw/sample1.png" alt="sample1.png" /></th>
+    <th><img src="raw/sample2.png" alt="sample1.png" /></th>
+    <th><img src="raw/sample3.png" alt="sample1.png" /></th>
+    </tr>
+    </thead>
+    </table>
+    <h1>Sponsor</h1>
+    <p>Give a free star to be a sponsor if you like this project.</p>
+    <h1>Stargazers over time</h1>
+    <p><a href="https://starchart.cc/gitofleonardo/AnyDebug"><img src="https://starchart.cc/gitofleonardo/AnyDebug.svg" alt="Stargazers over time" /></a></p>
+    <h1>License</h1>
+    <pre><code>Copyright (C) &lt;2024&gt;  &lt;gitofleonardo&gt;
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
+    </code></pre>
 IssueTracker: ""
 Name: ViewEditor/视图编辑器
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug

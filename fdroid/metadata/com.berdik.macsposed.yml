@@ -3,22 +3,17 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.2
 CurrentVersionCode: 14
-Description: |-
-    <p align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/DavidBerdik/MACsposed/ee0500dc13896a8a4c58c2bf7ee73a6188f7c70f/images/feature-graphic.png"><img src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/ee0500dc13896a8a4c58c2bf7ee73a6188f7c70f/images/feature-graphic.png" width="400" style="max-width: 100%;"></a></p>
-    <p>MACsposed 1.2.2 adds an Arabic translation provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mast3rz3ro/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mast3rz3ro">@mast3rz3ro</a>.</p>
-    <hr>
-    <p><strong>Changelog for MACsposed 1.2.0:</strong></p>
-    <p>MACsposed 1.2.0 is here! This major update introduces integrated support for MAC address spoofing which eliminates the need to rely on third party spoofing applications. Although third party spoofing tools are no longer required, they are still supported if you wish to continue using them.</p>
-    <p>Other changes introduced with this release include:</p>
-    <ul>
-    <li>A built-in user interface with support for Material You theming and dark mode.</li>
-    <li>A redesigned app icon for consistency with the new UI's design language.</li>
-    <li>Support for changing how the app behaves when enabling the MAC address override.</li>
-    <li>Support for restoring a spoofed MAC address on boot.</li>
-    <li>Support for disabling logging of attempts by Android to change the MAC address in the LSPosed Manager.</li>
-    <li>A Hindi translation of the user interface provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/99keshav99/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/99keshav99">@99keshav99</a>.</li>
-    </ul>
-    <p>With this release, MACsposed is shifting to a paid licensing model and requires an in-app purchase of a subscription or a lifetime license to unlock its functionality.</p>
+Description: |
+    <h1>MACsposed</h1>
+    <img align="left" src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/master/images/ic_launcher-playstore.png" width="140" />
+    <p>Historically, setting a custom MAC address on Android was very easy for rooted users. Starting with Android 12, however, Google’s implementation of MAC address randomization has made it impossible, as the MAC address is always changed when the network state is altered. If you have encountered this problem, then you need MACsposed! MACsposed is an Xposed module that blocks the MAC address randomizer on Android 12 through 14 and provides a user-friendly interface for spoofing your MAC address. Do you have other spoofing tools that you would prefer to use instead? No problem! Simply enable MACsposed and go back to using your preferred address spoofing tool.</p>
+    <p>MACsposed is not free software and requires an in-app purchase of a subscription or a lifetime license to unlock its functionality.</p>
+    <p><strong>⚠️ WARNING:</strong> MACsposed is intended for rooted devices running Android 12 through 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
+    <p align="center">
+      <a href="https://play.google.com/store/apps/details?id=com.berdik.macsposed">
+        <img src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/master/images/google-play-badge.png" height="80" />
+      </a>
+    </p>
 IssueTracker: ""
 Name: MACsposed
 SourceCode: https://github.com/Xposed-Modules-Repo/com.berdik.macsposed

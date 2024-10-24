@@ -3,7 +3,18 @@ Categories:
     - Xposed
 CurrentVersion: 7.2.0
 CurrentVersionCode: 720
-Description: <p>1，fix read config error</p>
+Description: |
+    <h1>FunELF</h1>
+    <p>基于Xposed现实的SO文件脱壳机:<br />
+    通过hook linker的方式在So加载完毕的时候对So文件进行dump和修复。<br />
+    支持无ELF头的soinfo dump修复 。核心修复使用的sofix。
+    (<a href="https://github.com/F8LEFT/SoFixer">https://github.com/F8LEFT/SoFixer</a>)<br />
+    支持5-13系统。</p>
+    <p>使用方式：<br />
+    1、Lsposed激活插件
+    2、在模块页面选择需要脱壳对应的Apk。
+    3、启动目标Apk即可。</p>
+    <p>修复的So文件保存在/data/data/包名/FunELF/目录下。</p>
 IssueTracker: ""
 Name: FunELF(基于Xposed实现的SO脱壳机,用于还原内存中释放的SO文件。)
 SourceCode: ""

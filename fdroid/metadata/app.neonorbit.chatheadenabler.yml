@@ -3,24 +3,33 @@ Categories:
     - Xposed
 CurrentVersion: 2.4.5
 CurrentVersionCode: 245
-Description: |-
-    <p><strong>Changelog</strong></p>
+Description: |
+    <h1>ChatHeadEnabler</h1>
+    <p>An Xposed module that lets you choose between chat head and bubble in Facebook Messenger (Android 11+)</p>
+    <p><picture><img src="https://user-images.githubusercontent.com/66206913/193854908-713dfcef-1ff7-4ae1-bc50-0b4fc2db30d4.png" width=400/></picture></p>
+    <p>For non-rooted device: check this <a href="https://forum.xda-developers.com/t/4331215">thread</a></p>
+    <h2>Installation</h2>
     <ul>
-    <li>Minor bug fixes</li>
+    <li>Download and Install ChatHeadEnabler.</li>
+    <li>Active it from LSPosed Manager.</li>
+    <li>Restart Messenger.</li>
     </ul>
-    <p>By default, this module enables the chat head feature.<br>
-    In order to change it to bubble,<br>
-    -&gt; Open Messenger app and go to its setting page.<br>
-    -&gt; Click on the toggle <themed-picture data-catalyst-inline="true"><picture><img src="https://user-images.githubusercontent.com/66206913/196722700-48762c5e-dc9c-45e5-b7ae-f04df727a56f.png" height="12"></picture></themed-picture> icon from the top-right corner.<br>
-    -&gt; Choose bubble option from the pop-up dialog.<br>
-    [If you want to hide the toggle icon, long press on it and remove.]</p>
-    <h2><themed-picture data-catalyst-inline="true"><picture><img src="https://user-images.githubusercontent.com/66206913/196719803-522ebb84-40d7-46d3-bf85-f7a80f406e62.png" width="400/"></picture></themed-picture></h2>
-    <p>[Solution for Android 12 freezing issue] ✔<br>
-    -&gt; Install <code>Termux</code> app and run this command:</p>
-    <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="su -c settings put global block_untrusted_touches 0"><pre class="notranslate"><code>su -c settings put global block_untrusted_touches 0
-    </code></pre></div>
-    <p>[uninstall termux again if you don't need it]<br>
-    Source code: <a href="https://github.com/NeonOrbit/ChatHeadEnabler">https://github.com/NeonOrbit/ChatHeadEnabler</a></p>
+    <h2>Features</h2>
+    <p>By default, this module enables the chat head feature.<br />
+    In order to change it to bubble,</p>
+    <ul>
+    <li>Open messenger app and go to its setting page.</li>
+    <li>Click on the toggle <picture><img src="https://user-images.githubusercontent.com/66206913/196724315-b7c87628-78f7-48c7-b8da-d1b8fc65ed34.png" height="14"/></picture> icon from the top-right corner.</li>
+    <li>Choose bubble option from the pop-up dialog.</li>
+    </ul>
+    <p>If you want to hide the toggle icon, long press on it and remove.</p>
+    <h2>Support</h2>
+    <p>Help: <a href="https://forum.xda-developers.com/t/4305391">XDA-Thread</a></p>
+    <hr />
+    <p>Certificate Fingerprints:</p>
+    <pre><code>SHA-1: FE20183C7D2F5C5D9FE1BCE6B7AB31A35FF4C8D0
+    SHA-256: 91870331A45A1C1E8F34BB27D6973CD72FD8AD98CBF4B306276BFEC06D61EBE8
+    </code></pre>
 IssueTracker: ""
 Name: ChatHeadEnabler - ChatHead or Bubble in Messenger
 SourceCode: https://github.com/Xposed-Modules-Repo/app.neonorbit.chatheadenabler

@@ -3,7 +3,29 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 4
-Description: '<p>SideStories: Telegram v11+ &amp; A12+ fix</p>'
+Description: |
+    <h1>SideStories &amp; HideStories</h1>
+    <p>Removing stories from the the Telegram messenger’s action bar</p>
+    <p>In the official Telegram messenger client you can remove stories from the position above chats and (optionally) create a side menu item.</p>
+    <h2>SideStories:</h2>
+    <p>Removes stories from the action bar and puts them in the side menu. You can open the stories either through the side menu item or by tapping on the avatars in the chat list. Open the story viewer and scroll through the stories by swiping left or right, or by tapping on the edges.</p>
+    <img src="https://github.com/Xposed-Modules-Repo/ru.mike.sidestories/assets/69295889/d15dcb53-4baf-4a95-868e-64e136e97d16" width="143" height="259">
+    <h2>HideStories:</h2>
+    <p>Just removes stories. It is possible to open them only by tapping on the avatars, i.e. stories from people / channels to which you are not subscribed cannot be open!</p>
+    <img src="https://github.com/Xposed-Modules-Repo/ru.mike.sidestories/assets/69295889/a5754147-4d86-481a-910f-7385bcaf9d54" width="233" height="185">
+    <h2>UnmuteButtonFix (bonus):</h2>
+    <p>Make chat’s bottom mute/unmute button like a label with chat/channel’s notifications status. Just for prevent accidentally switch it :-) Use action bar menu to toggle notifications instead as usual.</p>
+    <img src="https://github.com/Xposed-Modules-Repo/ru.mike.sidestories/assets/69295889/321e6a32-6417-4c84-b022-e1dd605c3b73" width="233" height="185">
+    <h2>Install notes:</h2>
+    <ul>
+    <li>install apk</li>
+    <li>enable the module in your xposed manager app</li>
+    <li>(for lsposed) select the Telegram app in the scope</li>
+    <li>reboot (in case of (Ed)xposed) or terminate the Telegram app (lsposed)</li>
+    <li>profit!</li>
+    </ul>
+    <h2>Author</h2>
+    <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2023-2024</p>
 IssueTracker: ""
 Name: Remove action bar stories in the Telegram messenger (+block unmute button)
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.sidestories

@@ -3,16 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 4
-Description: |-
-    <ul>
-    <li>优化包体大小</li>
-    <li>修改描述</li>
-    </ul>
-    <h1></h1>
-    <ul>
-    <li>Optimize package size</li>
-    <li>Update description</li>
-    </ul>
+Description: |
+    <h1>WaveCharge</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.wavecharge/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yifeplayte.wavecharge/total?label=Downloads"></a> <a href="https://github.com/YifePlayte/WaveCharge/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/YifePlayte/WaveCharge"></a> <a href="https://github.com/YifePlayte/WaveCharge/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/YifePlayte/WaveCharge"></a> <a href="https://github.com/YifePlayte/WaveCharge/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/YifePlayte/WaveCharge"></a></p>
+    <p>为MIUI，Android 11及以上启用被隐藏的波浪充电动画<br />
+    Enable the wave charge animation for MIUI, Android 11 and above</p>
 IssueTracker: ""
 Name: WaveCharge
 SourceCode: https://github.com/Xposed-Modules-Repo/com.yifeplayte.wavecharge

@@ -3,7 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: 1.7.9
 CurrentVersionCode: 61
-Description: <p>适配android14</p>
+Description: |
+    <h1>AD快消</h1>
+    <h3>请勾选自己需要跳过广告的应用！！！</h3>
+    <ul>
+    <li>自动跳过App开屏页</li>
+    <li>屏蔽各大广告联盟</li>
+    </ul>
 IssueTracker: ""
 Name: AD快消
 SourceCode: https://github.com/Xposed-Modules-Repo/com.jy.xposed.skip

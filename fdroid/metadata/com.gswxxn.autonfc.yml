@@ -3,11 +3,21 @@ Categories:
     - Xposed
 CurrentVersion: "1.5"
 CurrentVersionCode: 15
-Description: |-
-    <ul>
-    <li>适配旧版小米智能卡</li>
-    <li>自动开启 NFC 时, 将默认钱包设置为小米钱包</li>
-    </ul>
+Description: |
+    <h1>Auto NFC</h1>
+    <p>仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC</p>
+    <h3>使用方法</h3>
+    <ol>
+    <li>在Xposed管理器(LSPosed, EdXposed…)中激活模块</li>
+    <li>作用域勾选 小米智能卡<code>(com.miui.tsmclient)</code></li>
+    <li>重启小米智能卡或者重启手机</li>
+    </ol>
+    <h3>下载</h3>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.autonfc/releases">LSPosed 仓库</a></p>
+    <h3>无法使用</h3>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1189245">@迷璐</a></p>
+    <h3>致谢</h3>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: Auto NFC
 SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.autonfc

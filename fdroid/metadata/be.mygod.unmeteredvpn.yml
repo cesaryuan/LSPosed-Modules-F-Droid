@@ -3,7 +3,12 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: <p>Initial release.</p>
+Description: |
+    <h1>Unmetered VPN</h1>
+    <p><a href="https://android-arsenal.com/api?level=29"><img src="https://img.shields.io/badge/API-29%2B-brightgreen.svg?style=flat" alt="API" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/be.mygod.unmeteredvpn/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/be.mygod.unmeteredvpn/total.svg" alt="Releases" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/be.mygod.unmeteredvpn/search?l=java"><img src="https://img.shields.io/github/languages/top/Xposed-Modules-Repo/be.mygod.unmeteredvpn.svg" alt="Language: Java" /></a></p>
+    <p>Makes selected VPN apps not metered (Android 10+).</p>
 IssueTracker: ""
 Name: Makes selected VPN apps not metered (Android 10+)
 SourceCode: https://github.com/Xposed-Modules-Repo/be.mygod.unmeteredvpn

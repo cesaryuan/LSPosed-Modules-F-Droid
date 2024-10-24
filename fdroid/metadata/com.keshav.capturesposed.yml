@@ -3,9 +3,27 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.5
 CurrentVersionCode: 6
-Description: |-
-    <p>This is a re-release of CaptureSposed v1.0.4, which was itself a re-release of CaptureSposed v1.0.3. The reason for this is because Google's app review team incorrectly flagged the v1.0.4 Play Store release as failing to install properly. Despite the numerous evidence presented in our appeal, the release was blocked and we were therefore required to release yet another version. To maintain consistency of releases across all of the module's distribution channels, a new build has been made available here as well.</p>
-    <p>Release notes for CaptureSposed v1.0.3: This release reduces the amount of storage space used by the module and improves the module's performance.</p>
+Description: |
+    <h1>CaptureSposed</h1>
+    <img align="left" src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/ic_launcher-playstore.png" width="115" />
+    <p>With the release of Android 14, Google added an API to enable app developers to detect screenshots. This API has since been adopted by popular apps such as Snapchat.</p>
+    <p>CaptureSposed is an Xposed module that effectively disables this API to prevent apps that use it from being able to detect when a screenshot was taken.</p>
+    <p><strong>⚠️ WARNING:</strong> CaptureSposed is intended for rooted devices running Android 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. This module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk. Additionally, this module does not protect against screenshot detection from apps that use the pre-Android 14 approach of using file system listeners to detect screenshots (<a href="https://abangfadli.medium.com/shotwatch-android-screenshot-detector-library-6a75d7242109">ref 1</a>, <a href="https://viveksb007.wordpress.com/2017/11/10/how-snapchat-detects-when-screenshot-is-taken-hypothesis/">ref 2</a>).</p>
+    <p align="center">
+      <a href="https://play.google.com/store/apps/details?id=com.keshav.capturesposed"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/google-play-badge.png" height="80" /></a>
+      <a href="https://f-droid.org/packages/com.keshav.capturesposed/"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/get-it-on.png" height="80" /></a>
+      <br />
+      <a href="https://apt.izzysoft.de/packages/com.keshav.capturesposed"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/IzzyOnDroidButton.png" height="80" /></a>
+      <a href="https://github.com/99keshav99/CaptureSposed/releases"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/badge_github.png" height="80" /></a>
+    </p>
+    <h3>To use CaptureSposed:</h3>
+    <ol>
+    <li>Install LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available <a href="https://github.com/LSPosed/LSPosed#install">here</a>.</li>
+    <li>Install CaptureSposed.</li>
+    <li>Activate the CaptureSposed module in the LSposed user interface.</li>
+    <li>Reboot your device and sign in.</li>
+    <li>Open the CaptureSposed app and take a screenshot of it. If the screenshot is not detected, then the module is working as intended.</li>
+    </ol>
 IssueTracker: ""
 Name: CaptureSposed
 SourceCode: https://github.com/Xposed-Modules-Repo/com.keshav.capturesposed

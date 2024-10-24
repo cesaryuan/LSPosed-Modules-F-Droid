@@ -3,7 +3,124 @@ Categories:
     - Xposed
 CurrentVersion: v3.1.0.179.8ebb609
 CurrentVersionCode: 16
-Description: "<h2>更新日志</h2>\n<ul>\n<li>\U0001F31F尝试修复了<code>XWeb</code>无法远程调试的问题，<code>hookXWebPreferences</code>规则已删除，请使用<code>hookXWebView</code></li>\n<li>完善了付费捐赠渠道，新增了免费支持渠道，各位可以每天来免费支持下</li>\n<li>添加了<code>Microsoft App Center</code>匿名数据收集服务，用以匿名化收集崩溃日志、性能指标、交互习惯等数据，可选关闭，但为了模块的长远发展，建议开启</li>\n<li>一些代码逻辑的细微修改</li>\n<li>\U0001F31F2023新年快乐</li>\n</ul>\n<hr>\n<h2>关于安装包的说明</h2>\n<h3>模块本体</h3>\n<ul>\n<li><code>cn.wankkoree.xp.webviewpp-v3.1.0.179.8ebb609_16-release</code>为模块本体</li>\n</ul>\n<h3>测试 App</h3>\n<blockquote>\n<p>用于测试模块相关 Hook 的生效情况，非必须</p>\n</blockquote>\n<p>如有需要请前往 <a href=\"https://github.com/WankkoRee/WebViewPP/releases/tag/5-v2.0.0\">v2.0.0</a> 下载。</p>"
+Description: |
+    <div align="center">
+      <img width="216" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/logo.svg" alt="logo" />
+    </div>
+    <hr />
+    <h1>WebViewPP</h1>
+    <p><a href="#"><img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&amp;logo=Kotlin&amp;logoColor=white" alt="Kotlin" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/-Xposed-3DDC84?style=flat&amp;logo=Android&amp;logoColor=white" alt="Xposed" /></a>
+    <a href="https://github.com/WankkoRee/WebViewPP"><img src="https://img.shields.io/github/stars/WankkoRee/WebViewPP?label=Github%20Stars&amp;style=flat" alt="GitHub Repo stars" title="GitHub Repo stars" /></a>
+    <a href="https://github.com/WankkoRee/WebViewPP/releases"><img src="https://img.shields.io/github/downloads/WankkoRee/WebViewPP/total?label=GitHub%20Downloads&amp;logo=github&amp;style=flat" alt="GitHub Downloads" /></a>
+    <a href="https://modules.lsposed.org/module/cn.wankkoree.xp.webviewpp"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp/total?label=LSPosed%20Downloads&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff" alt="LSPosed Downloads" /></a></p>
+    <p>Enable WebView debugging and add vConsole in it. Support WebView, TBS X5, UC U4, Crosswalk(XWalk), XWeb.</p>
+    <blockquote>
+    <p>启用 WebView 调试并添加 vConsole，支持 WebView、TBS X5、UC U4、Crosswalk(XWalk)、XWeb。</p>
+    </blockquote>
+    <h2>Tutorial / 新手指南</h2>
+    <ul>
+    <li><a href="https://github.com/WankkoRee/WebViewPP/blob/master/docs/Tutorial_zh-CN.md">简体中文</a></li>
+    </ul>
+    <h2>Contacts / 联络</h2>
+    <ul>
+    <li>Telegram Group: <a href="https://t.me/WebViewPPChat">WebViewPP &gt; Chat [zh/en/SFW]</a></li>
+    <li>Telegram Channel: <a href="https://t.me/WebViewPP">WebViewPP &gt; UPDATES</a></li>
+    <li>GitHub Issue: <a href="https://github.com/WankkoRee/WebViewPP/issues">Issues · WankkoRee/WebViewPP</a></li>
+    <li>E-Mail: <a href="mailto:wkr@wkr.moe">wkr@wkr.moe</a></li>
+    </ul>
+    <h2>ScreenShots / 应用截图</h2>
+    <div align="center">
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_main.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_apps.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_app.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_rule.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_cloud_rule.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_resources.png" />
+      <img width="256" src="https://raw.githubusercontent.com/WankkoRee/WebViewPP/master/docs/Screenshot_advance.png" />
+    </div>
+    <h2>Support Engine / 内核支持情况</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">Engine Name</th>
+    <th align="center">Version</th>
+    <th align="center">Debugging</th>
+    <th align="center">vConsole</th>
+    <th align="center">Comment</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center">WebView</td>
+    <td align="center">X</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center"></td>
+    </tr>
+    <tr>
+    <td align="center">TBS X5</td>
+    <td align="center">X</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center"></td>
+    </tr>
+    <tr>
+    <td align="center">UC U4</td>
+    <td align="center">X</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">一些阿里系的 App 使用了魔改包，可能无法开启达到预期目标</td>
+    </tr>
+    <tr>
+    <td align="center">Crosswalk</td>
+    <td align="center">X</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center"></td>
+    </tr>
+    <tr>
+    <td align="center">XWeb</td>
+    <td align="center">X</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">由 Crosswalk 二改而来的引擎，大概只有微信在用</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2>Repo of Rules / 规则仓库</h2>
+    <p><a href="https://github.com/WankkoRee/WebViewPP-Rules">WankkoRee/WebViewPP-Rules</a></p>
+    <h2>To do / 计划</h2>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 增加注入<code>Eruda</code></li>
+    <li><input type="checkbox" disabled="" /> 增加注入<code>Chii</code></li>
+    </ul>
+    <h2>Credits / 感谢</h2>
+    <ul>
+    <li>
+    <p><a href="https://github.com/fankes/YukiHookAPI">fankes/YukiHookAPI</a></p>
+    <p>A modern Hook API which we used.</p>
+    <blockquote>
+    <p>本项目所采用的现代化 Hook API。</p>
+    </blockquote>
+    </li>
+    <li>
+    <p><a href="https://github.com/feix760/WebViewDebugHook">feix760/WebViewDebugHook</a></p>
+    <p>Referenced the implementation about WebView debugging.</p>
+    <blockquote>
+    <p>参考了 WebView 调试的相关实现。</p>
+    </blockquote>
+    </li>
+    <li>
+    <p><a href="https://github.com/kooritea/debugwebview">kooritea/debugwebview</a></p>
+    <p>The inspiration for vConsole injection.</p>
+    <blockquote>
+    <p>vConsole 注入的灵感来源。</p>
+    </blockquote>
+    </li>
+    </ul>
+    <h2>Trend / 趋势</h2>
+    <p><a href="https://seladb.github.io/StarTrack-js/#/preload?r=WankkoRee,WebViewPP"><img src="https://api.star-history.com/svg?repos=WankkoRee/WebViewPP&amp;type=Timeline" alt="Star Trend" /></a></p>
 IssueTracker: ""
 Name: WebViewPP
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp

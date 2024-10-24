@@ -3,7 +3,22 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: <p>Fix ActivityTaskManagerService hook.</p>
+Description: |
+    <h1>FwkDebug</h1>
+    <p><strong>!!! NOT RECOMMAND TO INSTALL ON DAILY USE DEVICES !!!</strong></p>
+    <p>A LSPosed/Xposed module for hooking framework system services debug variable. In order to get more useful log messages for security research or other purpose.</p>
+    <h2>Usage</h2>
+    <p>Enable <code>FwDebug</code> module in your LSPosed or Xposed app, select <code>system framework</code> (only for LSPosed) then reboot phone.</p>
+    <h2>Tested devices</h2>
+    <ul>
+    <li>Pixel 6, Android 12L, SQ3A.220705.004.X2 (Developer Support builds)</li>
+    <li>Pixel 5, Android 11, RQ3A.210905.001</li>
+    <li>Pixel 2 XL, Android 9, PQ3A.190801.002</li>
+    </ul>
+    <h2>Known issues</h2>
+    <ul>
+    <li>All debug variables and sources are removed on Pixel 7 stock ROMs (Android 13 build), so this module will not work.</li>
+    </ul>
 IssueTracker: ""
 Name: AndroidFwkDebug
 SourceCode: https://github.com/Xposed-Modules-Repo/com.wrlus.module.fwkdebug

@@ -3,16 +3,25 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.1
 CurrentVersionCode: 2
-Description: |-
-    <h1>Better Hook</h1>
-    <ul>
-    <li>Activity-level anti-proguard for AMap location</li>
-    <li>Accuracy redefinition for AMap location</li>
-    </ul>
-    <h1>Bugfix</h1>
-    <ul>
-    <li>Unable to activate on LSPosed</li>
-    </ul>
+Description: |
+    <h1>Motion Emulator Content Provider Plugin</h1>
+    <p>English | <a href="https://github.com/Xposed-Modules-Repo/com.zhufucdev.cp_plugin/blob/main/README_zh.md">中文</a></p>
+    <p>This is a Motion Emulator plug-in based on Content Provider.</p>
+    <p>Motion Emulator is an Xposed-enabled location simulator with support of continuous location and sensor fake.</p>
+    <p>This module enables its Xposed functionalities over a Content Provider based transmitting protocol.</p>
+    <blockquote>
+    <p><strong>warning</strong>
+    Usually avoid using the Content Provider plugin. It works only with host apps targeting sdk version 30 or lower. Because of the middle bridge, power consumption is higher. Moreover, future updates coming to Motion Emulator may not be implemented for this plug-in.</p>
+    </blockquote>
+    <h2>Usage</h2>
+    <p>When in use, you should select <strong>only</strong> the app to be tricked.
+    DO NOT enable for System Framework, which is untested and highly unstable.</p>
+    <h3>Motion Emulator Installation</h3>
+    <p>To use this plug-in, Motion Emulator is to be installed, which provides emulation data using WebSocket and ProtoBuf for the host app.</p>
+    <p>You can download it from <a href="https://zhufucdev.com/article/qRnydwa-LGMhGrf43tSG_">my site</a> or <a href="https://github.com/zhufucdev/MotionEmulator/releases">GitHub</a>.</p>
+    <p>It is also possible to find it in the LSPosed repository.</p>
+    <h3>Plugin Activation</h3>
+    <p>After installation, activate it in Motion Emulator. You can find a more detailed guide from <a href="https://zhufucdev.com/article/0xXK6YxSWe9nGwmmHQgsa">here</a>.</p>
 IssueTracker: ""
 Name: Motion Emulator Content Provider Plugin
 SourceCode: https://github.com/Xposed-Modules-Repo/com.zhufucdev.cp_plugin

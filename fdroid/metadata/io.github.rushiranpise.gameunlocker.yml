@@ -3,11 +3,96 @@ Categories:
     - Xposed
 CurrentVersion: 7.0.0
 CurrentVersionCode: 4
-Description: |-
+Description: |
+    <h1>Game-Unlocker</h1>
+    <h2>Unlock higher FPS in games</h2>
+    <p>Spoof your device as different model for specific games to unlock higher FPS</p>
+    <h2>Features</h2>
     <ul>
-    <li>Add new games</li>
-    <li>Fix module not working on some devices</li>
-    <li>Try to prevent ban</li>
+    <li>Device spoofing for enhanced gaming experiences.</li>
+    <li>Compatibility with a wide range of popular gaming applications.</li>
+    <li>Easy installation and no configuration.</li>
+    </ul>
+    <h2>Table of Contents</h2>
+    <ul>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    </ul>
+    <h2>Getting Started</h2>
+    <p>To get started with Game Unlocker, follow these steps:</p>
+    <ol>
+    <li>
+    <p>Ensure that your Android device is rooted.</p>
+    </li>
+    <li>
+    <p>Install the Xposed/Lsposed Framework on your device.</p>
+    </li>
+    <li>
+    <p>Download the Game Unlocker module from the <a href="https://github.com/rushiranpise/game-unlocker/releases">releases section</a> of this repository.</p>
+    </li>
+    <li>
+    <p>Install the downloaded apk :</p>
+    <ul>
+    <li>Open Xposed/Lsposed Manager.</li>
+    <li>Go to the “Modules” section.</li>
+    <li>Search “Game Unlocker” and enable the module.</li>
+    <li>The supported games are auto added to the scope.</li>
+    <li>Force Stop the added game manually to take effect.</li>
+    </ul>
+    </li>
+    </ol>
+    <h2>Usage</h2>
+    <p>Once you’ve installed and activated the Game Unlocker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.</p>
+    <p>You can untick the game you don’t want to spoof for the module scope. Force stop and relaunch is required.</p>
+    <p><strong>Note:</strong> Keep in mind that device spoofing may violate the terms of service for some games or apps.</p>
+    <p>Report any suggestions/issues with games <a href="https://github.com/rushiranpise/Game-Unlocker/issues">here</a></p>
+    <h2>Supported Games</h2>
+    <details>
+      <summary>Click to expand the list of supported games</summary>
+    <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ea.gp.apexlegendsmobilefps&amp;hl=en&amp;gl=US">Apex Legends Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&amp;hl=en&amp;gl=US">Asphalt 9: Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pubg.imobile&amp;hl=en&amp;gl=US">Battlegrounds Mobile India</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl&amp;hl=en&amp;gl=US">Black Desert Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.codmvn&amp;hl=en&amp;gl=US">Call Of Duty: Mobile VN</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&amp;hl=en&amp;gl=US">Call of Duty: Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.garena.game.codm&amp;hl=en&amp;gl=US">Call of Duty®: Mobile - Garena</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&amp;hl=en&amp;gl=US">Clash of Clans</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.netease.lztgglobal&amp;hl=en&amp;gl=US">Cyber Hunter</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&amp;hl=en&amp;gl=US">EA SPORTS FC™ Mobile Soccer</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.epicgames.portal&amp;hl=en&amp;gl=US">Fortnite Portal</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.epicgames.fortnite&amp;hl=en&amp;gl=US">Fortnite</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.dts.freefiremax&amp;hl=en&amp;gl=US">Free Fire MAX</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.dts.freefireth&amp;hl=en&amp;gl=US">Free Fire</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact">Genshin Impact</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.levelinfinite.sgameGlobal&amp;hl=en&amp;gl=US">Honor of Kings</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.sgame&amp;hl=en&amp;gl=US">Honor of Kings</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildriftvn&amp;hl=en&amp;gl=US">LMHT: Tốc Chiến</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildrift&amp;hl=en&amp;gl=US">League of Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.mlbbvn&amp;hl=en&amp;gl=US">Mobile Legends: Bang Bang VNG</a></li>
+    <li><a href="https://global.app.mi.com/details?lo=ID&amp;la=en&amp;id=com.mobilelegends.mi&amp;hl=en&amp;gl=US">Mobile Legends: Mi</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.mobile.legends&amp;hl=en&amp;gl=US">Mobile Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.rekoo.pubgm&amp;hl=en&amp;gl=US">PUBG MOBILE：絕地求生M</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.ig&amp;hl=en&amp;gl=US">PUBG Mobile Beta</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.vng.pubgmobile&amp;hl=en&amp;gl=US">PUBG Mobile VN</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pubg.krmobile&amp;hl=en&amp;gl=US">PUBG Mobile</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.pubgmhd&amp;hl=en&amp;gl=US">PUBG: Exhilarating Battlefield</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.madfingergames.legends&amp;hl=en&amp;gl=US">Shadowgun Legends: Online FPS</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.levelinfinite.hotta.gp&amp;hl=en&amp;gl=US">Tower of Fantasy</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&amp;hl=en&amp;gl=US">《英雄聯盟：激鬥峽谷》</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm&amp;hl=en&amp;gl=US">검은사막 모바일</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.kr.codm&amp;hl=en&amp;gl=US">콜 오브 듀티: 모바일</a></li>
+    </ul>
+    </details>
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+    <h2>Contributing</h2>
+    <ul>
+    <li><a href="https://github.com/crdroidandroid">crdroidandroid</a></li>
+    <li><a href="https://github.com/RisingTechOSS">RisingTechOSS</a></li>
+    <li><a href="https://github.com/tehcneko">tehcneko</a></li>
     </ul>
 IssueTracker: ""
 Name: Game Unlocker

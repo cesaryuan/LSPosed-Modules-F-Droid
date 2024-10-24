@@ -3,25 +3,82 @@ Categories:
     - Xposed
 CurrentVersion: 3.2.1
 CurrentVersionCode: 29
-Description: |-
-    <h1>ChangeLog</h1>
-    <ol>
-    <li>
-    <p>Since the OpenAI usage API(/v1/dashboard/billing/usage) is no longer available in July 22, the cost usage on the openai settings page has been replaced with token usage(statistics locally).</p>
-    </li>
-    <li>
-    <p>Also fixed the API key validation error for the same reason.</p>
-    </li>
-    </ol>
-    <h1>更新日志</h1>
-    <ol>
-    <li>
-    <p>由于 OpenAI 用量 API(/v1/dashboard/billing/usage) 在7月22日起不再可用，因此 OpenAI 设置页面中的费用使用量已替换为 Token 使用量(本地统计)；</p>
-    </li>
-    <li>
-    <p>修复了由同样原因导致的 API 验证错误的问题。</p>
-    </li>
-    </ol>
+Description: |
+    <p><img src="https://socialify.git.ci/Yubyf/QuoteLockX/image?description=1&amp;font=Jost&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjBweCIgaGVpZ2h0PSI2MHB4IiB2aWV3Qm94PSIwIDAgNjAgNjAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI%2BCiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iYWRhcHRpdmUtaWNvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI0LjAwMDAwMCwgLTI0LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iZm9yZWdyb3VuZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsIDAuMDAwMDAwKSI%2BCiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNTQuNSwyOSBDNjAuNTM3NSwyOSA2NS40Mzc1LDMzLjg1MzMzMzMgNjUuNDM3NSwzOS44MzMzMzMzIEw2NS40Mzc1LDQ0LjE2NjY2NjcgTDY3LjYyNSw0NC4xNjY2NjY3IEM3MC4wMzEyNSw0NC4xNjY2NjY3IDcyLDQ2LjExNjY2NjcgNzIsNDguNSBMNzIsNzAuMTY2NjY2NyBDNzIsNzIuNTUgNzAuMDMxMjUsNzQuNSA2Ny42MjUsNzQuNSBMNDEuMzc1LDc0LjUgQzM4Ljk2ODc1LDc0LjUgMzcsNzIuNTUgMzcsNzAuMTY2NjY2NyBMMzcsNDguNSBDMzcsNDYuMTE2NjY2NyAzOC45Njg3NSw0NC4xNjY2NjY3IDQxLjM3NSw0NC4xNjY2NjY3IEw0My41NjI1LDQ0LjE2NjY2NjcgTDQzLjU2MjUsMzkuODMzMzMzMyBDNDMuNTYyNSwzMy44NTMzMzMzIDQ4LjQ2MjUsMjkgNTQuNSwyOSBaIE01MS42ODc1LDU0IEw0Ny45Mzc1LDU0IEM0Ny40MjE4NzUsNTQgNDcsNTQuNDIxODc1IDQ3LDU0LjkzNzUgTDQ3LDU4LjY4NzUgQzQ3LDU5LjIwMzEyNSA0Ny40MjE4NzUsNTkuNjI1IDQ3LjkzNzUsNTkuNjI1IEw0OS44MTI1LDU5LjYyNSBMNDguODQ2ODc1LDYxLjU1NjI1IEM0OC40MjUsNjIuMzkwNjI1IDQ5LjAzNDM3NSw2My4zNzUgNDkuOTcxODc1LDYzLjM3NSBDNTAuNDUsNjMuMzc1IDUwLjg5MDYyNSw2My4xMDMxMjUgNTEuMDk2ODc1LDYyLjY4MTI1IEw1Mi40MjgxMjUsNjAuMDE4NzUgQzUyLjU1OTM3NSw1OS43NTYyNSA1Mi42MjUsNTkuNDc1IDUyLjYyNSw1OS4xODQzNzUgTDUyLjYyNSw1NC45Mzc1IEM1Mi42MjUsNTQuNDIxODc1IDUyLjIwMzEyNSw1NCA1MS42ODc1LDU0IFogTTYxLjA2MjUsNTQgTDU3LjMxMjUsNTQgQzU2Ljc5Njg3NSw1NCA1Ni4zNzUsNTQuNDIxODc1IDU2LjM3NSw1NC45Mzc1IEw1Ni4zNzUsNTguNjg3NSBDNTYuMzc1LDU5LjIwMzEyNSA1Ni43OTY4NzUsNTkuNjI1IDU3LjMxMjUsNTkuNjI1IEw1OS4xODc1LDU5LjYyNSBMNTguMjIxODc1LDYxLjU1NjI1IEM1Ny44LDYyLjM5MDYyNSA1OC40MDkzNzUsNjMuMzc1IDU5LjM0Njg3NSw2My4zNzUgQzU5LjgyNSw2My4zNzUgNjAuMjY1NjI1LDYzLjEwMzEyNSA2MC40NzE4NzUsNjIuNjgxMjUgTDYxLjgwMzEyNSw2MC4wMTg3NSBDNjEuOTM0Mzc1LDU5Ljc1NjI1IDYyLDU5LjQ3NSA2Miw1OS4xODQzNzUgTDYyLDU0LjkzNzUgQzYyLDU0LjQyMTg3NSA2MS41NzgxMjUsNTQgNjEuMDYyNSw1NCBaIE01NC4wNjI1LDMzLjM3NSBDNTAuNDQyNTQwMywzMy4zNzUgNDcuNSwzNi40NzUyNDUxIDQ3LjUsNDAuMjg5MjE1NyBMNDcuNSw0NC43NSBMNjAuNjI1LDQ0Ljc1IEw2MC42MjUsNDAuMjg5MjE1NyBDNjAuNjI1LDM2LjQ3NTI0NTEgNTcuNjgyNDU5NywzMy4zNzUgNTQuMDYyNSwzMy4zNzUgWiIgaWQ9IuW9oueKtue7k%2BWQiCIgZmlsbD0iIzM1NUNBOCI%2BPC9wYXRoPgogICAgICAgICAgICAgICAgPHJlY3QgaWQ9ImZpbmlzaCIgZmlsbD0idXJsKCNyYWRpYWxHcmFkaWVudC0xKSIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwOCIgaGVpZ2h0PSIxMDgiPjwvcmVjdD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc%2B&amp;name=1&amp;pattern=Charlie%20Brown&amp;theme=Light" alt="QuoteLockX" /></p>
+    <p><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/screenshot.png" alt="Screenshot" /></p>
+    <p>Displays quotes on your lockscreen, because why not.</p>
+    <p>This new fork will be continuously maintained as the
+    original <a href="https://github.com/apsun/QuoteLock">QuoteLock</a> is no longer maintained and has been
+    archived.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Displays quotes on your lockscreen, because why not.</li>
+    <li>Customizes the quotes style.</li>
+    <li>Shares the quote card to other apps.</li>
+    <li>Collects your favorite quotes.</li>
+    <li>Records the quote history that you can always look up old entries.</li>
+    <li>Import/Export collections in .db or .csv format on local storage.</li>
+    <li>Backup/Restore collections on Google Drive.</li>
+    <li>Displays quotes on the AmbientDisplay page of <em>OnePlus7Pro OOS11</em> (<strong>ALPHA</strong>)</li>
+    <li>Imports custom fonts (<a href="https://github.com/Yubyf/QuoteLockX-CustomFonts">Magisk module</a> needed for lockscreen layout).</li>
+    <li>Support for variable font weight and slant axis properties.</li>
+    <li>Support for quote detail pages for some providers (currently only supported by Jinrishici).</li>
+    <li>Support for widget.</li>
+    </ul>
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/variable_font_showcase.webp" width="300px" />
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/detail_page.png" width="300px" />
+    <h2>Tips</h2>
+    <p>Long press on the quotes to show refresh and collect buttons:</p>
+    <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.yubyf.quotelockx/main/screenshots/showcase.webp" width="300px" />
+    <h2>Notice</h2>
+    <p><strong>Only near-AOSP Android ROMs are supported!</strong> This is due to the heavy lockscreen modifications
+    made by different OEMs.(This app is also compatible with the official MIUI14 on default lockscreen confirmed by community
+    members.)</p>
+    <p><strong>After installing, please open the app at least once</strong> to allow the quote downloader service to run
+    in the background.</p>
+    <p><strong>Make sure to whitelist QuoteLockX if you are using a task-killer app!</strong> They can interfere with
+    the download service.</p>
+    <h2>Requirements</h2>
+    <ul>
+    <li>A rooted phone running Android 5.0 or above</li>
+    <li>Xposed framework</li>
+    </ul>
+    <h2>Providers</h2>
+    <ul>
+    <li><a href="http://hitokoto.cn/">Hitokoto CN (中文)</a></li>
+    <li><a href="https://www.wikiquote.org/">Wikiquote QotD (multilingual)</a></li>
+    <li><a href="https://www.jinrishici.com/">Jinrishici 今日诗词 (中文)</a></li>
+    <li><a href="https://freakuotes.com/">Freakuotes (Español)</a></li>
+    <li><a href="https://natune.net/zitate/">Natune.net (Deutsch)</a></li>
+    <li><a href="https://www.brainyquote.com/">BrainyQuote (English)</a></li>
+    <li><a href="https://libquotes.com/">Lib Quotes (English)</a></li>
+    <li><a href="https://github.com/shlomif/fortune-mod/">Fortune-mod (multilingual)</a></li>
+    <li><a href="https://openai.com/">OpenAI (multilingual)</a></li>
+    <li>Custom (write your own!)</li>
+    <li>Collections (your favorites)</li>
+    </ul>
+    <h2>TODO</h2>
+    <h3>Todo</h3>
+    <ul>
+    <li><input type="checkbox" disabled="" /> Show on status bar.</li>
+    </ul>
+    <h3>In Progress</h3>
+    <h3>Done</h3>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> Add support for Chinese.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add support for custom fonts.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Optimize lockscreen layout.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Optimize style for Android S(dynamic colors).</li>
+    <li><input type="checkbox" checked="" disabled="" /> Refactor the settings page.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Completely redesigned the app.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add support for multi-classification selection of Hitokoto.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Optimize for variable fonts.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Advanced detail pages (currently only supported by Jinrishici).</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add support for widget.</li>
+    <li><input type="checkbox" checked="" disabled="" /> Add support for in-app upgrades.</li>
+    </ul>
+    <h2>License</h2>
+    <p>Distributed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
 IssueTracker: ""
 Name: QuoteLockX
 SourceCode: https://github.com/Xposed-Modules-Repo/com.yubyf.quotelockx

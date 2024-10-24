@@ -3,12 +3,81 @@ Categories:
     - Xposed
 CurrentVersion: 2.9.1
 CurrentVersionCode: 42
-Description: |-
-    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f1ed4fed7a179cadd83784fd6d5909bd6f74f4d88d6862e1dd8722bc5b5b8648/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34322d322e392e312f746f74616c"><img src="https://camo.githubusercontent.com/f1ed4fed7a179cadd83784fd6d5909bd6f74f4d88d6862e1dd8722bc5b5b8648/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34322d322e392e312f746f74616c" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/42-2.9.1/total" style="max-width: 100%;"></a> <a href="https://afdian.com/@chr233" rel="nofollow"><img src="https://camo.githubusercontent.com/5f1d2924a048053ce6d6ef9917d3cdc3b97599b11b6d1662e3b10d3743aff925/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545372538382542312545352538462539312545372539342542352d6368725f5f2d6561346161612e7376673f6c6f676f3d6769746875622d73706f6e736f7273" alt="爱发电" data-canonical-src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" style="max-width: 100%;"></a></p>
-    <p>适配 9.9.37</p>
-    <hr>
-    <h1>捐赠 <a href="https://afdian.com/a/chr233" rel="nofollow">爱发电</a></h1>
-    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67"><img src="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67" alt="image" data-canonical-src="https://raw.chrxw.com/chr233/master/afadian_qr.png" style="max-width: 100%;"></a></p>
+Description: |
+    <h1>PureNGA</h1>
+    <p><a href="https://www.codacy.com/gh/chr233/PureNGA/dashboard"><img src="https://app.codacy.com/project/badge/Grade/de4c75db7487426285bf38f90ad94e6c" alt="Codacy Badge" /></a>
+    <a href="https://github.com/chr233/PureNGA/blob/master/license"><img src="https://img.shields.io/github/license/chr233/PureNGA?logo=apache" alt="License" /></a>
+    <img src="https://img.shields.io/github/last-commit/chr233/PureNGA?logo=github" alt="GitHub last commit" /></p>
+    <p><img src="https://img.shields.io/github/stars/chr233/PureNGA?logo=github" alt="GitHub Repo stars" />
+    <a href="https://img.shields.io/github/v/release/chr233/PureNGA"><img src="https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github" alt="GitHub Download" /></a>
+    插件仓库</p>
+    <p><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.purenga?logo=github" alt="GitHub Repo stars" />
+    <a href="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github" alt="GitHub Download" /></a>
+    Xposed 仓库</p>
+    <p><a href="https://space.bilibili.com/5805394"><img src="https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili" alt="Bilibili" /></a>
+    <a href="https://steamcommunity.com/id/Chr_"><img src="https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam" alt="Steam" /></a></p>
+    <p><a href="https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i"><img src="https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam" alt="Steam" /></a>
+    <a href="https://afdian.net/@chr233"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /></a></p>
+    <h2>版本说明</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">类型</th>
+    <th align="center">特性</th>
+    <th align="center">发行版链接</th>
+    <th align="center">下载量</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center">整合版 NGA</td>
+    <td align="center">无需 Xposed 框架, 覆盖安装原版 App, 体积大</td>
+    <td align="center"><a href="https://github.com/chr233/PureNGA/releases/tag/NGA"><img src="https://img.shields.io/github/v/release/chr233/PureNGA?logo=github&amp;label=%E7%89%88%E6%9C%AC" alt="img" /></a></td>
+    <td align="center"><a href="https://github.com/chr233/PureNGA/releases/tag/NGA"><img src="https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD" alt="img" /></a></td>
+    </tr>
+    <tr>
+    <td align="center">独立插件版</td>
+    <td align="center">依赖 Xposed 框架, 独立更新, 体积小</td>
+    <td align="center"><a href="https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga?logo=github&amp;label=%E7%89%88%E6%9C%AC" alt="img" /></a></td>
+    <td align="center"><a href="https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD" alt="img" /></a></td>
+    </tr>
+    </tbody>
+    </table>
+    <blockquote>
+    <p>历时一年的开发, 所有功能趋于稳定, 后续不再开发新功能</p>
+    </blockquote>
+    <h2>主要功能</h2>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 开屏广告跳过</li>
+    <li><input type="checkbox" checked="" disabled="" /> 信息流广告过滤</li>
+    <li><input type="checkbox" checked="" disabled="" /> 去广告任务破解</li>
+    <li><input type="checkbox" checked="" disabled="" /> 屏蔽更新检测</li>
+    <li><input type="checkbox" checked="" disabled="" /> 屏蔽内置浏览器</li>
+    <li><input type="checkbox" checked="" disabled="" /> 假装分享</li>
+    <li><input type="checkbox" checked="" disabled="" /> 自定义首页</li>
+    <li><input type="checkbox" checked="" disabled="" /> 自动签到</li>
+    <li><input type="checkbox" checked="" disabled="" /> 字体更换</li>
+    <li><input type="checkbox" checked="" disabled="" /> 快捷方式支持</li>
+    </ul>
+    <p>同时兼容 Lspatch, 支持 9.9.x 版本的 NGA 客户端, 理论向后兼容</p>
+    <h2>捐赠</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="center"><img src="https://raw.chrxw.com/chr233/master/afadian_qr.png" alt="img" /></th>
+    <th align="center"><img src="https://raw.chrxw.com/chr233/master/bmc_qr.png" alt="img" /></th>
+    <th align="center"><img src="https://raw.chrxw.com/chr233/master/usdt_qr.png" alt="img" /></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /> <br> <a href="https://afdian.net/@chr233">链接</a></td>
+    <td align="center"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee" alt="buy me a coffee" /> <br> <a href="https://www.buymeacoffee.com/chr233">链接</a></td>
+    <td align="center"><img src="https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin" alt="USDT" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>
+    </tr>
+    </tbody>
+    </table>
+    <h2><a href="https://github.com/chr233/PureNGA">使用文档</a></h2>
 IssueTracker: ""
 Name: NGA玩家论坛去广告模块
 SourceCode: https://github.com/Xposed-Modules-Repo/com.chrxw.purenga

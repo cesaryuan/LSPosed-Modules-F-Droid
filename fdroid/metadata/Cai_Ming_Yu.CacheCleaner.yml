@@ -3,13 +3,29 @@ Categories:
     - Xposed
 CurrentVersion: V1.3.2 (2024.09.21)
 CurrentVersionCode: 10302
-Description: |-
-    <h4>V1.3.2 (2024.09.21)</h4>
+Description: |
+    <h1>彩銘羽 CacheCleaner</h1>
+    <p>アプリの起動時にキャッシュをクリアするよ！</p>
+    <p>このリポジトリは<a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner">ここ</a>と同じです。</p>
+    <p>Xposedを使用してアプリの起動時にキャッシュをクリアします。</p>
+    <p>This repo is exactly the same as <a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner">this one</a>.</p>
+    <p>Use Xposed to clear the app’s cache data when it starts.</p>
+    <h1>Magisk(KernelSU/APatch) module is already supported!</h1>
+    <p>It supports more functions and is easier to use, it is highly recommended to use it with the Xposed version, please refer to the <a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner/blob/C-M-Y/mod/source/config.yaml">config file</a> for specific function support.</p>
+    <h2>Env</h2>
     <ul>
-    <li>riscv64 is supported</li>
-    <li>Optimized the code</li>
-    <li>Updated dependencies</li>
+    <li>LSPosed or any other framework that can use the Xposed module is installed</li>
+    <li>LSPosedまたはXposed、その他フレームワークがインストールされている環境が必要です</li>
     </ul>
+    <h2>How to use</h2>
+    <p>Install the latest version of the Xposed module released <a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner/releases">here</a>, or package it into other app via frameworks such as LSPatch.</p>
+    <p>ここでリリースをしているXposedモジュールの最新版をインストールするか、LSPatchなどのフレームワークを使用して他のアプリに埋め込んでください。</p>
+    <p>If you are not packaging into other app using a tool like LSPatch, enable this module in an Xposed framework like LSPosed and select the required app.</p>
+    <p>LSPatchのようなツールを使って他のアプリに埋め込んでいない場合は、LSPosedのようなXposedフレームワークでこのモジュールを有効化し、必要なアプリを選択してください。</p>
+    <p>You can also build the app yourself by downloading the source code for this project(App builds via e.g. <code>./gradlew assembleRelease</code>).</p>
+    <p>このプロジェクトのソースコードをダウンロードして、自分自身でアプリをビルドする事もできます。(アプリのビルドは、<code>./gradlew assembleRelease</code> などで行います)</p>
+    <p>CI Version: <a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner/actions">https://github.com/Cai-Ming-Yu/CMY-CacheCleaner/actions</a></p>
+    <h2><a href="https://github.com/Cai-Ming-Yu/CMY-CacheCleaner/blob/C-M-Y/LICENSE">License</a></h2>
 IssueTracker: ""
 Name: Cache Cleaner - Clean up the app's cache
 SourceCode: https://github.com/Xposed-Modules-Repo/Cai_Ming_Yu.CacheCleaner

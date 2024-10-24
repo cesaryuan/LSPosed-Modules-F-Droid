@@ -3,12 +3,55 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 1
-Description: |-
+Description: |
+    <h1>Statusbar Icon Relocator</h1>
+    <p>This module allows you to move selected notification icons from the left side of the statusbar into its right side - where the system status icons are normally located. The corresponding notifications can be also optionally removed from the notification panel.</p>
+    <p>Why? Because I wanted to have the battery in circle again and I was annoyed with custom ROMs seemingly dropping this altogether.</p>
+    <p>The application was tested only on Android 11/12 AOSP and OneUI.</p>
+    <p>Discussion/Support: <a href="https://xdaforums.com/t/mod-xposed-statusbar-notification-icon-relocator.4655159/">XDA thread</a></p>
+    <p>Source code: <a href="https://github.com/lonelytransistor/SystemUINotifier">github</a></p>
+    <p><strong>Setup</strong></p>
+    <p>Seems arbitrary, but the app requires access to notifications as well as access to a random device to become a Device Manager and access the notification categories. After that step, the configuration is easy - just expand the requested app, select notification categories you want, add a regex filter or not, declare the icon size and select the icon’s new position in the SystemUI. The slot index should be positive and not exceed a certain device dependant value, which you have to guess. In case of OneUI this value is 53, which corresponds to the clock’s slot. There are many more slots, some completely unpopulated.</p>
+    <p><strong>Suggested usage</strong></p>
+    <p>While useful in itself, the suggested usage is in conjunction with Tasker and its notifications.</p>
+    <p><img src="https://github.com/lonelytransistor/SystemUINotifier/raw/master/screenshots/example_usage.png" alt="Screenshot" />
+    As an example you can see my own configuration as a <a href="https://github.com/lonelytransistor/SystemUINotifier/raw/master/screenshots/example_usage.png">screenshot</a>. This config can be achieved by downloading my Tasker xml profile <a href="https://github.com/lonelytransistor/SystemUINotifier/raw/master/TaskerProfile.prj.xml">here</a> and setting the following settings within the module (note that the notification categories in Tasker only get created after its notification shows up at least once):</p>
     <ul>
-    <li>Fixed the memory leak.</li>
-    <li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>
-    <li>Small GUI fixes</li>
+    <li>Tasker
+    <ul>
+    <li>SystemUI small
+    <ul>
+    <li>slot: 48</li>
+    <li>width: 36</li>
+    <li>height: 36</li>
     </ul>
+    </li>
+    <li>SystemUI tiny
+    <ul>
+    <li>slot: 48</li>
+    <li>width: 16</li>
+    <li>height: 32</li>
+    </ul>
+    </li>
+    <li>SystemUI wide
+    <ul>
+    <li>slot: 53</li>
+    <li>width: 92</li>
+    <li>height: 47</li>
+    </ul>
+    </li>
+    <li>SystemUI
+    <ul>
+    <li>slot: 52</li>
+    <li>width: 47</li>
+    <li>height: 47</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <h2>License</h2>
+    <p>Licensed under the MIT License</p>
 IssueTracker: ""
 Name: Statusbar Icon Relocator
 SourceCode: https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem

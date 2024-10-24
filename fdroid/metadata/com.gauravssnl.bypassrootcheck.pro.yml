@@ -3,19 +3,55 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: |-
-    <p>Initial release. Features implemented in v1.0  are :<br>
-    Bypass all <a href="https://github.com/KimChangYoun/rootbeerFresh">RootBeerFresh</a> detections.<br>
-    Bypass all <a href="https://github.com/scottyab/rootbeer">RootBeer</a> detections<br>
-    Bypass SELinux test to avoid root detection.<br>
-    Bypass R/W System check to avoid root detection.<br>
-    Bypass check for su, magisk &amp; busybox binaries.<br>
-    Bypass check for root related Android apps.<br>
-    Bypass check OS Build Test Keys presence.<br>
-    Bypass check for props related to root.<br>
-    Bypass check for root cloaking apps.<br>
-    Bypass check for Unix Domain Socket used by Magisk.<br>
-    System Native Hooks in C/C++ apart from Java hooks to make root hiding possible.</p>
+Description: |
+    <h1>Bypass Root Check Pro</h1>
+    <p>Bypass Root Check Pro Xposed Module with Java and Native (C/C++) Hooks based on Modern Xposed API by LSPosed. This module bypasses root checks the pro way. This module not only hooks Java logic, but also hooks Native / System calls logic (logic written in C/C++/ Native Java code).</p>
+    <h1>Features</h1>
+    <ol>
+    <li>Bypass all  <a href="https://github.com/KimChangYoun/rootbeerFresh">RootBeerFresh</a> detections.</li>
+    <li>Bypass all <a href="https://github.com/scottyab/rootbeer">RootBeer</a> detections</li>
+    <li>Bypass SELinux test to avoid root detection.</li>
+    <li>Bypass R/W System check to avoid root detection.</li>
+    <li>Bypass check for su, magisk &amp; busybox binaries.</li>
+    <li>Bypass check for root related Android apps.</li>
+    <li>Bypass check OS Build Test Keys presence.</li>
+    <li>Bypass check for props related to root.</li>
+    <li>Bypass check for root cloaking apps.</li>
+    <li>Bypass check for Unix Domain Socket used by Magisk.</li>
+    <li>System Native Hooks in C/C++ apart from Java hooks to make root hiding possible.</li>
+    </ol>
+    <p>Screenshots have been provided at the end of this doc as a proof. Please have a look.</p>
+    <h1>Requirements</h1>
+    <ol>
+    <li>Rooted Android phone</li>
+    <li>LSposed</li>
+    </ol>
+    <h1>Usage</h1>
+    <p>Install this Xposed module in LSposed and activate the module. While activating the module, please select the desired app which perform root access check &amp; you want to bypass.</p>
+    <p>To test our module, we can install RootBeer Fresh sample application.</p>
+    <h1>Implementation</h1>
+    <h3>Native Hooks</h3>
+    <p>The below Native System calls have been hooked to avoid root detection</p>
+    <pre><code>1. fopen()
+    2. stat()
+    3. lstat()
+    </code></pre>
+    <p>For more details &amp; updated logic, refer to the C/C++ hooks code present in the repo.</p>
+    <h3>Java Hooks</h3>
+    <p>The below Java classes methods have been hooked to avoid root detection</p>
+    <pre><code>1. java.io.File.exists()
+    2. android.app.ApplicationPackageManager.getPackageInfo()
+    3. Runtime.exec()
+    </code></pre>
+    <p>For more details &amp; updated logic, refer to the Kotlin/Java hooks code present in the repo.</p>
+    <h1>Author</h1>
+    <p>Made with ❤️ by @gauravssnl</p>
+    <p>Pull Requests &amp; contributions are welcome. If you like my work, give this repo a star and share.</p>
+    <h1>Screenshots</h1>
+    <p>Before Module Activation</p>
+    <p><img src="https://github.com/gauravssnl/BypassRootCheckPro/blob/main/screenshots/before.png" alt="ScreenShot" /></p>
+    <p>After Module Activation</p>
+    <p><img src="https://github.com/gauravssnl/BypassRootCheckPro/blob/main/screenshots/after.png" alt="ScreenShot" /></p>
 IssueTracker: ""
 Name: Bypass Root Check Pro with Java & Native C/C++ Hooks
 SourceCode: https://github.com/Xposed-Modules-Repo/com.gauravssnl.bypassrootcheck.pro

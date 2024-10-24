@@ -3,12 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: "1.6"
 CurrentVersionCode: 46
-Description: |-
+Description: |
+    <div align="center">
+    <h1>Mir Pay Security</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity/total" alt="downloads" />
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity" alt="GitHub release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity" alt="GitHub Release Date" /></a>
+    <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Telegram Group" /></a>
+    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=117340204"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a></p>
+    <p>Обход проверок безопасности приложения в приложении <a href="https://www.rustore.ru/catalog/app/ru.nspk.mirpay">Mir Pay</a></p>
+    </div>
+    <h3>Информация:</h3>
+    <p>Не содержит интерфейса, его достаточно включить в менеджере. Модуль является аналогом но не единственным средством.</p>
+    <h3>Требования:</h3>
     <ul>
-    <li>Поддержка версии 1.46.3.350</li>
-    <li>Убрано скрытие ленты с промо товарами т.к. разработчики её убрали.</li>
+    <li>Android 7.0+</li>
+    <li>Установленное приложение <a href="https://www.rustore.ru/catalog/app/ru.nspk.mirpay">Mir Pay</a></li>
+    <li>Минимальная версия - 1.46.3.350 (315)</li>
     </ul>
-    <p>Сменилась методика работы модуля, к сожалению после обновления защиты приложения больше нет возможности автоматически обновлять правки при помощи DexKit. Будет правится по факту вручную.</p>
+    <h2>For non-Russian users:</h2>
+    <p>This is a module for the russian application <a href="https://www.rustore.ru/catalog/app/ru.nspk.mirpay">Mir Pay</a>, you don’t need to use it, app working only in Russia.</p>
 IssueTracker: ""
 Name: Mir Pay Security
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity
