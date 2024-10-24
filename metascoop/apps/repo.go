@@ -16,6 +16,7 @@ type Application struct {
 	Filename     string   `yaml:"filename"`
 	Id           string   `yaml:"id"`
 	Name         string   `yaml:"name"`
+	LastUpdated  string   `yaml:"last_updated"`
 
 	ReleaseDescription string
 }

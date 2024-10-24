@@ -28,6 +28,7 @@ type JSONItem struct {
 			Name string `json:"name"`
 		} `json:"releaseAssets"`
 		DescriptionHTML string `json:"descriptionHTML"`
+		UpdatedAt       string `json:"updatedAt"`
 	} `json:"releases"`
 }
 
@@ -84,6 +85,7 @@ func main() {
 					Categories:         []string{"Xposed"},
 					Description:        item.ReadmeHTML,
 					ReleaseDescription: item.Releases[0].DescriptionHTML,
+					LastUpdated:        item.Releases[0].UpdatedAt,
 				},
 			},
 		}

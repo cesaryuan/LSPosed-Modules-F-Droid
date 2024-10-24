@@ -75,6 +75,18 @@ func ReadIndex(path string) (index *RepoIndex, err error) {
 	return
 }
 
+func WriteIndex(path string, index *RepoIndex) (err error) {
+	f, err := os.Create(path)
+	if err != nil {
+		return
+	}
+	defer f.Close()
+
+	encoder := json.NewEncoder(f)
+	encoder.SetIndent("", "  ")
+	return encoder.Encode(index)
+}
+
 // HasSignificantChanges compares two RepoIndex structs and determines if there are significant changes between them.
 //
 // Parameters:

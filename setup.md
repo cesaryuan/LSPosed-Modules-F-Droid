@@ -78,6 +78,7 @@ android:
         Bitwarden stores all of your logins in an encrypted vault that syncs across all of your devices. Since it's fully encrypted before it ever leaves your device, only you have access to your data. Not even the team at Bitwarden can read your data, even if we wanted to. Your data is sealed with AES-256 bit encryption, salted hashing, and PBKDF2 SHA-256.
 
         Bitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.
+      last_updated: "2024-03-22T10:55:53Z" # Optional
 
     - filename: "com.x8bit.bitwarden.beta-fdroid.apk"
       id: "com.x8bit.bitwarden.beta" # Recommended to be the package name of the app

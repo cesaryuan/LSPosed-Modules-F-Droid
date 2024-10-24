@@ -527,6 +527,24 @@ func main() {
 		log.Fatalf("reading f-droid repo index: %s\n::endgroup::\n", err.Error())
 	}
 
+	// update apps[].lastUpdated to repo's applications[].lastUpdated
+	for _, app := range fdroidIndex.Apps {
+		for _, repo := range reposList {
+			for _, repoApp := range repo.Applications {
+				if repoApp.Id == app["packageName"] && strings.TrimSpace(repoApp.LastUpdated) != "" {
+					t, err := time.Parse(time.RFC3339, repoApp.LastUpdated)
+					if err != nil {
+						log.Printf("Error parsing time: %v", err)
+						continue
+					}
+					app["lastUpdated"] = float64(t.UnixMilli())
+					break
+				}
+			}
+		}
+	}
+	apps.WriteIndex(fdroidIndexFilePath, fdroidIndex)
+
 	// Now we can remove all paths that were marked for doing so
 
 	for _, rmpath := range toRemovePaths {
