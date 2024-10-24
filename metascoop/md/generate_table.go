@@ -26,7 +26,7 @@ const (
 var tmpl = template.Must(template.New("").Funcs(template.FuncMap{
 	"replace": strings.ReplaceAll,
 	"handleSummary": func(s string) template.HTML {
-		return template.HTML(strings.ReplaceAll(s, "\n", "<br>"))
+		return template.HTML(strings.ReplaceAll(strings.ReplaceAll(s, "\n", "<br>"), "|", "\\|"))
 	},
 }).Parse(tableTmpl))
 
