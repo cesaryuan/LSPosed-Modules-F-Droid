@@ -18,6 +18,7 @@ type JSONItem struct {
 	Name          string `json:"name"`
 	Description   string `json:"description"`
 	URL           string `json:"url"`
+	ReadmeHTML    string `json:"readmeHTML"`
 	Collaborators []struct {
 		Login string `json:"login"`
 	} `json:"collaborators"`
@@ -81,7 +82,7 @@ func main() {
 					Id:                 item.Name,
 					Name:               item.Description,
 					Categories:         []string{"Xposed"},
-					Description:        item.Releases[0].DescriptionHTML,
+					Description:        item.ReadmeHTML,
 					ReleaseDescription: item.Releases[0].DescriptionHTML,
 				},
 			},
