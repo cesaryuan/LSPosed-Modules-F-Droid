@@ -120,8 +120,8 @@ func main() {
 		if err != nil {
 			log.Printf("Error getting rate limit: %v", err)
 		} else {
-			log.Printf("GitHub API Rate Limit: %d/%d, Remaining: %d, Reset: %s",
-				rate.Core.Limit, rate.Core.Limit, rate.Core.Remaining, rate.Core.Reset.Format(time.RFC3339))
+			log.Printf("GitHub API Rate Limit: %d/%d, Reset: %s",
+				rate.Core.Remaining, rate.Core.Limit, rate.Core.Reset.Format(time.DateTime))
 		}
 		// wg.Add(1)
 		// go func(repo apps.Repo) {
