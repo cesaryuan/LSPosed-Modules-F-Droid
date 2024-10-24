@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 6.0.0
+CurrentVersionCode: 600
+Description: |-
+    <h3>更新日志</h3>
+    <ul>
+    <li>修复删除发布的评论没反应的bug</li>
+    <li>修复转发动态设置后未提交的bug</li>
+    <li>修复动态楼中楼发布评论时出现无法调用反诈的bug（动态ID获取时出错导致的）</li>
+    <li>修复多种动态Activity下获取动态ID的一些bug</li>
+    <li>评论监控支持所有除了包含敏感词（未发送成功）的评论，不限于疑似审核，直到状态变化</li>
+    <li>评论监控可自定义监控超时时间，可取消监控</li>
+    </ul>
+IssueTracker: ""
+Name: 哔哩发评反诈
+SourceCode: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
+Summary: 哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论
+WebSite: ""

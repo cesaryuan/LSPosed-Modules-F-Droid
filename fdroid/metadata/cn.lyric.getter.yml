@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.0.15
+CurrentVersionCode: 23
+Description: |-
+    <p>2.0.15</p>
+    <ul>
+    <li>修复 酷狗hook状态栏歌词崩溃问题</li>
+    <li>修复 酷狗音乐会重复获取歌词</li>
+    <li>修复 酷狗版本判断导致概念版4.0.0无法使用问题</li>
+    <li>添加 华为音乐支持</li>
+    </ul>
+IssueTracker: ""
+Name: Lyric Getter | 酒域-歌词获取
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.lyric.getter
+Summary: Lyric Getter
+WebSite: ""

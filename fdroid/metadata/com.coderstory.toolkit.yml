@@ -1,0 +1,21 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "4.5"
+CurrentVersionCode: 2019
+Description: |-
+    <h3>Changelog</h3>
+    <ul>
+    <li>Support bypassing shared uid verification for A11+</li>
+    </ul>
+    <h3>更新日志</h3>
+    <ul>
+    <li>支持在 Android 11+ 上绕过 shared uid 验证</li>
+    </ul>
+IssueTracker: ""
+Name: CorePatch / 核心破解
+SourceCode: https://github.com/Xposed-Modules-Repo/com.coderstory.toolkit
+Summary: |-
+    Disable signature verification
+    版本降级,签名不一致,签名错误的apk都能安装
+WebSite: ""

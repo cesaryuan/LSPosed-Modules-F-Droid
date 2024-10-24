@@ -1,0 +1,23 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "3.0"
+CurrentVersionCode: 3000
+Description: |-
+    <ul>
+    <li>[重构] 重构所有 SystemUI Hook, 这可能会导致一些问题, 可以连点关于页面图标临时切换回旧版 Hook</li>
+    <li>[重构] 重构 “绘制图标圆角“ 的实现方式</li>
+    <li>[新增] 图标 - 不显示图标</li>
+    <li>[新增] 图标 - 使用 MIUI 大图标 (仅 MIUI/HyperOS)</li>
+    <li>[新增] 图标 - 为缩小的图标添加模糊背景</li>
+    <li>[优化] 调整部分圆角大小, 边框粗细, 缩放比例数值</li>
+    <li>[优化] 仅在适用系统上展示部分选项 (如仅在 MIUI/ HyperOS 上显示 “忽略 MIUI 深色模式”)</li>
+    <li>[适配] ColorOS 13.1 - 14</li>
+    <li>[适配] Android 14</li>
+    <li>[其他] 变更应用名, 图标, 模块描述</li>
+    </ul>
+IssueTracker: ""
+Name: 启动遮罩进化 / RestoreSplashScreen
+SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen
+Summary: 自定义MIUI的Splash Screen
+WebSite: ""

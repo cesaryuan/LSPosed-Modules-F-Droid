@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 10.1.2
+CurrentVersionCode: 1013
+Description: |-
+    <ul>
+    <li>Clock: reverted to old hooking strategy for better compatibility</li>
+    <li>Dialer: adjusted for compatibility with the latest Google Dialer<br>
+    --- fixes muting Dialpad tones during UNC Quiet Hours</li>
+    </ul>
+IssueTracker: ""
+Name: GravityBox [Q]
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.q.gravitybox
+Summary: All-in-one complex module for devices running vanilla Android 10 (Q)
+WebSite: ""

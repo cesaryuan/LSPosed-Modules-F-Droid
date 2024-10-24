@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.2
+CurrentVersionCode: 2
+Description: |-
+    <ul>
+    <li>支持启动时挂起进程（在 README.md 查看详细说明）</li>
+    <li>增加 <code>runOnUiThread</code> <code>runOnHandler</code> 函数</li>
+    <li>修复 hook 的一系列 bug ，让 hook 更加易用</li>
+    <li>增加 <code>hook.getClassLoaders</code> ，可以遍历所有 ClassLoader</li>
+    </ul>
+IssueTracker: ""
+Name: StethoX
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.a13e300.tools.stethox
+Summary: Inspect Android App with Chrome Devtools / 使用 Chrome 开发者工具调试 Android App
+WebSite: ""

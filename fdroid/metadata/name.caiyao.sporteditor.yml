@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.5.0
+CurrentVersionCode: 250
+Description: |-
+    <ol>
+    <li>删除拼多多免拼（已失效很久了）</li>
+    <li>新增zepp life、欢太健康步数修改</li>
+    <li>优化代码，优化hook机制</li>
+    <li>如果失效请重启手机</li>
+    <li>修复钉钉跳转到最近使用界面的问题</li>
+    <li>步数上限设置无效，请使用定时关闭功能</li>
+    </ol>
+IssueTracker: ""
+Name: 运动修改器
+SourceCode: https://github.com/Xposed-Modules-Repo/name.caiyao.sporteditor
+Summary: 支持以一定的倍率修改微信运动、QQ健康、悦动圈、乐动力、三星健康、支付宝、春雨计步器、走向健康、KEEP、钉钉、微博、华为健康、步多多、平安健康、淘宝、国...
+WebSite: ""

@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.5
+CurrentVersionCode: 6
+Description: |-
+    <ul>
+    <li>修复在某些设备下不生效</li>
+    </ul>
+    <hr>
+    <ul>
+    <li>Fix maybe not take effect on some devices.</li>
+    </ul>
+IssueTracker: ""
+Name: 息屏勿扰（HyperAodZen）
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.buffcow.hyperaodzen
+Summary: |-
+    用于在勿扰模式下禁用息屏显示的通知光效，仅在 HyperOS 下通过测试。
+    Disable the notification light effect o...
+WebSite: ""

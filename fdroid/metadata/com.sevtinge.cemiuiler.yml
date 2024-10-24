@@ -1,0 +1,54 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.3.130_20231101
+CurrentVersionCode: 130
+Description: |-
+    <p><strong>由于业务变更，Cemiuiler将迁移至 <a href="https://github.com/saraSakuHj/HyperCeiler">HyperCeiler</a> 继续为大家提供服务。</strong><br>
+    <strong>在您迁移至HyperCeiler之前，请注意使用1.3.130版本备份您的存档，或者运行至少一次Cemiuiler的1.3.130版本。</strong><br>
+    <strong>详细迁移方法见 版本迁移</strong></p>
+    <h3>支持版本：</h3>
+    <p>MIUI 12.5(125) / 12.5E(125) / 13.0(130) / 13.1(130) / 13.2(130) / 14.0(140)<br>
+    Android 11(R, 30) / 12(S, 31) / 12R(S, 32) / 13(T, 33)<br>
+    <strong>请注意，目前暂未适配 HyperOS 1。</strong></p>
+    <h3>更新日志：</h3>
+    <ol>
+    <li>新增 com.sevtinge.hyperceiler.expansionpacks；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</li>
+    <li>新增 默认存档迁移；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</li>
+    <li>移除 com.sevtinge.cemiuiler.expansionpack；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</li>
+    <li>移除 存档加密；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</li>
+    <li>优化 系统更新-伪装版本 兼容HyperOS版本命名方式；(@mu7220)</li>
+    </ol>
+    <h3>注意事项：</h3>
+    <ol>
+    <li>目前暂未适配 Android 14(U, 34)，<strong>若您执意在 Android 14 上使用，请将 LSPosed 版本更新至 7017 及以上</strong>；</li>
+    <li>目前暂未适配 HyperOS 1；</li>
+    <li>该版本备份文件加密方式发生变化，请重新备份；</li>
+    <li>出现任何问题<strong>请关闭禁用详细日志输出后携带日志提交给开发者</strong>；</li>
+    <li>以下Pull Requests审核待通过：#403。</li>
+    </ol>
+    <h3>版本迁移：</h3>
+    <p>由于业务变更，Cemiuiler将迁移至HyperCeiler继续为大家提供服务。<br>
+    HyperCeiler基础支持范围与Cemiuiler相同，并将在Cemiuiler的基础上兼容HyperOS，您可以放心更新。</p>
+    <p><strong>迁移方法</strong></p>
+    <ul>
+    <li>迁移方法1：在保证Cemiuiler激活的情况下，打开至少一次Cemiuiler，我们将自动为您将存档迁移至HyperCeiler，您无需提前安装HyperCeiler。</li>
+    <li>迁移方法2：若上述方法不生效，您可以在Cemiuiler的1.3.130版本中备份您的存档，并在HyperCeiler中导入。</li>
+    <li>迁移方法3：若上述方法均不生效，请前往<code>/data/misc/&lt;key&gt;/prefs/com.sevtinge.cemiuiler/</code>复制<code>cemiuiler_prefs.xml</code>文件并粘贴至<code>/data/misc/&lt;key&gt;/prefs/com.sevtinge.hyperceiler/</code>下，并将文件名改为<code>hyperceiler_prefs.xml</code>，其中为一串识别码，若存在多个，请以修改日期最近的为准。</li>
+    </ul>
+    <p><strong>判断是否迁移成功</strong></p>
+    <ul>
+    <li>方法1：下载HyperCeiler并激活 (截至更新时间，HyperCeiler仍处于测试阶段，请谨慎安装并激活)，若HyperCeiler中已经存在您之前Cemiuiler的设置，则迁移成功。</li>
+    <li>方法2：前往<code>/data/misc/&lt;key&gt;/prefs/com.sevtinge.hyperceiler/</code>目录下，若存在<code>hyperceiler_prefs.xml</code>，则迁移成功，其中为一串识别码，若存在多个，请以修改日期最近的为准。</li>
+    </ul>
+    <p>另外，Cemiuiler官网将迁移至 <a href="https://hyperceiler.sevtinge.cc" rel="nofollow">HyperCeiler官网</a>，Cemiuiler官网将于之后重定向至HyperCeiler官网。<br>
+    Cemiuiler开源地址将于本次更新后存档，并迁移至 <a href="https://github.com/saraSakuHj/HyperCeiler">HyperCeiler开源地址</a>。<br>
+    感谢您对Cemiuiler的一路支持。</p>
+    <p><strong>Copyright © 2023 saraSaku.Hj &amp; Sevtinge</strong></p>
+IssueTracker: ""
+Name: Cemiuiler
+SourceCode: https://github.com/Xposed-Modules-Repo/com.sevtinge.cemiuiler
+Summary: |-
+    让 MIUI 再次伟大！
+    Make MIUI Great Again!
+WebSite: ""

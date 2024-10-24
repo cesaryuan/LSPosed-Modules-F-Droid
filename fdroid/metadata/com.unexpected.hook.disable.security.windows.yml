@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |-
+    <ul>
+    <li>禁用安全窗口</li>
+    <li>禁用安全视图</li>
+    <li>禁用触摸过滤，允许被遮挡时执行点击事件</li>
+    </ul>
+IssueTracker: ""
+Name: Disable Security Windows
+SourceCode: https://github.com/Xposed-Modules-Repo/com.unexpected.hook.disable.security.windows
+Summary: Disable Security Windows (禁用安全窗口)
+WebSite: ""

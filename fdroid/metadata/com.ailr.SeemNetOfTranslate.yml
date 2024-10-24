@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.6.0.698504882
+CurrentVersionCode: 2023090901
+Description: |-
+    <p>支持的安卓版本:<br>
+    理论:7.1~14<br>
+    已测试:13和10</p>
+    <p>更新内容:<br>
+    1.优化文本拥挤<br>
+    2.如果开启缓存功能，那么在第二次进入软件时可以不需要打开谷歌翻译<br>
+    3.增加功能: 优化中文翻译<br>
+    4.优化性能</p>
+IssueTracker: ""
+Name: Telionslate
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate
+Summary: 解除谷歌离线翻译在大陆的限制并使用屏幕翻译!
+WebSite: ""

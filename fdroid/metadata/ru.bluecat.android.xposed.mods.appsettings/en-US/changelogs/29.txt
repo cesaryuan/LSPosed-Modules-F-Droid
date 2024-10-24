@@ -1,0 +1,9 @@
+- Android 13 support (xposed)
+- Android 13 support (targetSdk)
+
+**Note**
+This is the last update for this fork. The update contains fixes for xposed crashes on Android 13.
+The update **does not contain** new hooks for modern ways of existing features, so they may not work on some applications.
+The application fully uses the original hooks with support for new OS versions. Many applications use new methods added by Google later.
+
+If anyone is interested, you can continue to develop new hooks methods.

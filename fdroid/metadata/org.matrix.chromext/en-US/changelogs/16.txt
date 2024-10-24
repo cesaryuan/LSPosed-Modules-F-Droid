@@ -1,0 +1,9 @@
+Hello, everyone, this is once again a minor update, which mainly contains various fixes to support updated browsers.
+For Android 15 users, please consider use my forks of [LSPosed](https://github.com/JingMatrix/LSPosed) and [LSPatch](https://github.com/JingMatrix/LSPatch) since the official developments has stopped.
+
+Here is the summary for current update:
+1. Size within 125 kB;
+2. Support updated Eruda (v3.2.2);
+3. Add workarounds for Edge browsers, see [Issues 156](https://github.com/JingMatrix/ChromeXt/issues/156);
+4. Support Qihoo and Chromium browsers;
+5. Implement `window.close` API;

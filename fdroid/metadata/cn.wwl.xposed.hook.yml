@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.6
+CurrentVersionCode: 20240418
+Description: |-
+    <p>修复本地安装的弹窗bug<br>
+    表盘型号伪装增加非凡大师，Watch4Pro<br>
+    修复伪装型号获取其他表盘时的一个bug<br>
+    Add english support.</p>
+IssueTracker: ""
+Name: HookUtils
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.wwl.xposed.hook
+Summary: |-
+    针对华为运动健康和手记的hook模块。
+    Hook for Huawei Health and etc.
+WebSite: ""

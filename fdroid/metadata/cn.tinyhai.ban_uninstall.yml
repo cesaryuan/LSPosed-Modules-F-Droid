@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.4.0-b279b70
+CurrentVersionCode: 8
+Description: |-
+    <ul>
+    <li>添加操作记录功能</li>
+    <li>一些UI调整</li>
+    <li>更新版本号</li>
+    </ul>
+IssueTracker: ""
+Name: 禁止卸载 | BanUninstall
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.tinyhai.ban_uninstall
+Summary: |-
+    禁止卸载和清除应用数据
+    A Xposed Module that prevents apps be uninstall or apps' data be ...
+WebSite: ""

@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.6.5
+CurrentVersionCode: 20240628
+Description: |-
+    <ul>
+    <li>New: Custom UA for redirect rules</li>
+    <li>Fix: Keep original links if no rule matched</li>
+    <li>新增：对于重定向规则，可以自定义 UA</li>
+    <li>修复：若没有匹配到任何规则，则不变更内容</li>
+    </ul>
+IssueTracker: ""
+Name: Tarnhelm
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm
+Summary: |-
+    The magic to clean sharing links up.
+    清理分享链接的魔法。
+WebSite: ""

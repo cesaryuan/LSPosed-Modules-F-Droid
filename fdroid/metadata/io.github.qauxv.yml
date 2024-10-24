@@ -1,0 +1,43 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.5.4.r2483.eecf29b
+CurrentVersionCode: 2483
+Description: |-
+    <p><strong>QAuxiliary v1.5.4</strong></p>
+    <p><strong>更新日志</strong></p>
+    <ul>
+    <li>线上问题修复 用户体验优化</li>
+    </ul>
+    <p><strong>新增功能</strong></p>
+    <ul>
+    <li>拦截点击私聊机器人推荐消息直接发送</li>
+    </ul>
+    <p><strong>修复部分功能</strong></p>
+    <ul>
+    <li>聊天文件分享其他应用</li>
+    <li>隐藏小红点</li>
+    <li>群文件重命名</li>
+    <li>隐藏好友聊天语音</li>
+    <li>显示加好友来源参数</li>
+    <li>禁用新版转发搜索页</li>
+    <li>批量撤回消息</li>
+    <li>屏蔽群昵称图标</li>
+    <li>屏蔽更新 闪退</li>
+    </ul>
+    <p>Commit: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/cinit/QAuxiliary/commit/eecf29bf038bf6e7fbd49a6be0b6ee6b79c13f3a/hovercard" href="https://github.com/cinit/QAuxiliary/commit/eecf29bf038bf6e7fbd49a6be0b6ee6b79c13f3a">cinit/QAuxiliary@<tt>eecf29b</tt></a></p>
+    <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sha256sum *
+    d53b85f625de6b4af8ddc1c756ac96ee1768a6c423ae8f2a0e75b737c0ec4e35  QAuxv-v1.5.4.r2483.eecf29b-arm32.apk
+    6f6fee0baf9a7fe6d5f3baa0fd4c6a25f2adc864f7388464d69013364995f4e3  QAuxv-v1.5.4.r2483.eecf29b-arm64.apk
+    ef917067d8da927d8eb723a640c21ece8df45e7b771b09ba65edb3968e647a93  QAuxv-v1.5.4.r2483.eecf29b-armAll.apk
+    8ded9ad42c299d020dbb764a8886875ff66a6a71b49cbb1cf683fcd0a98e2c0e  QAuxv-v1.5.4.r2483.eecf29b-universal.apk"><pre lang="text" class="notranslate"><code>sha256sum *
+    d53b85f625de6b4af8ddc1c756ac96ee1768a6c423ae8f2a0e75b737c0ec4e35  QAuxv-v1.5.4.r2483.eecf29b-arm32.apk
+    6f6fee0baf9a7fe6d5f3baa0fd4c6a25f2adc864f7388464d69013364995f4e3  QAuxv-v1.5.4.r2483.eecf29b-arm64.apk
+    ef917067d8da927d8eb723a640c21ece8df45e7b771b09ba65edb3968e647a93  QAuxv-v1.5.4.r2483.eecf29b-armAll.apk
+    8ded9ad42c299d020dbb764a8886875ff66a6a71b49cbb1cf683fcd0a98e2c0e  QAuxv-v1.5.4.r2483.eecf29b-universal.apk
+    </code></pre></div>
+IssueTracker: ""
+Name: QAuxiliary
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.qauxv
+Summary: 为 QQ 和 TIM 添加更多功能
+WebSite: ""

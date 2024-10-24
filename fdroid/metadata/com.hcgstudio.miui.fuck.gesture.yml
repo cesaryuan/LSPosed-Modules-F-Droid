@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.1.2
+CurrentVersionCode: 9
+Description: |-
+    <p>Hook settings page, now you can update gesture settings easier.<br>
+    <strong>Experimental</strong>: Support Mi Voice Assistant on non-Force Mode.  <em>I've debloated that app from my phone so I can't test.</em></p>
+    <p>Hook了设置页面，现在您可以更简单地修改手势设置了。<br>
+    <strong>实验性更新</strong>：在暴力模式禁用的情况下支持小爱同学。<em>因为我已经把那玩意删了，所以我自己没法测试。</em></p>
+IssueTracker: ""
+Name: 强制MIUI手势/Fuck MIUI Gesture
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hcgstudio.miui.fuck.gesture
+Summary: |-
+    Force enable gesture for third-party launcher in MIUI.
+    强制在使用第三方启动器时使用MIUI全面屏手势
+WebSite: ""

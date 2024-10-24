@@ -1,0 +1,22 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.1.17
+CurrentVersionCode: 19
+Description: |-
+    <ul>
+    <li>修复 手机管家 10.x.x <code>应用详情页默认打开设置</code></li>
+    <li>修复 HyperOS 1.0 Android 14 <code>通知更多设置打开通知频道设置</code></li>
+    </ul>
+    <hr>
+    <ul>
+    <li>Fix Security app 10.x.x <code>Replace App Info "Clear defaults" with "Open by default" setting</code></li>
+    <li>Fix <code>Notification's "More Info" redirect to the corresponding notification channel setting</code> on HyperOS 1.0 Android 14</li>
+    </ul>
+IssueTracker: ""
+Name: MIUI 生活质量提升
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.chsbuffer.miuihelper
+Summary: |-
+    MIUI生活质量提升
+    MIUI Quality of Life Improvement (MIUI QOL)
+WebSite: ""

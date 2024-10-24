@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "2.0"
+CurrentVersionCode: 8
+Description: |-
+    <h1>Update</h1>
+    <ul>
+    <li>fix: error index-dayOfWeek 下标错误</li>
+    <li>feat: oneTime 一次性禅定</li>
+    </ul>
+IssueTracker: ""
+Name: 禅定模式 ZenMode
+SourceCode: https://github.com/Xposed-Modules-Repo/icu.insomnia.zen
+Summary: "An Xposed module that would halt APPs in your Zen time \U0001F62A"
+WebSite: ""

@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.2.0
+CurrentVersionCode: 220
+Description: |-
+    <p>1.新增<code>关闭视频彩铃</code>和<code>智能互转</code>功能<br>
+    2.新增<code>5G开关</code>功能<br>
+    3.适配支持<strong>HyperOS</strong><br>
+    4.<strong>绕过MTB鉴权</strong>支持<code>v6.x</code><br>
+    5.<strong>智能双卡并发支持</strong><code>去除频段限制</code>功能</p>
+IssueTracker: ""
+Name: ModemPro 基带进化
+SourceCode: https://github.com/Xposed-Modules-Repo/com.weverses.modempro
+Summary: |-
+    ModemPro MIUI/HyperOS基带进化
+    为基带增加一些功能
+WebSite: ""

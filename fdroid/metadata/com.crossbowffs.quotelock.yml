@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.4.0
+CurrentVersionCode: 11
+Description: |-
+    <ul>
+    <li>Update URLs</li>
+    <li>Added BrainyQuote source (thanks to <a href="https://github.com/Hual">Hual</a>)</li>
+    <li>Fixed Natune.net source (thanks to <a href="https://github.com/natnet00">natnet00</a>)</li>
+    <li>Fixed Wikiquote source</li>
+    </ul>
+    <p>Apologies for the really long update delay, I've been really busy with school. In other news, Visual Novel as a Service has migrated to Google App Engine. If you experience refreshing errors, try flushing your DNS cache.</p>
+IssueTracker: ""
+Name: QuoteLock
+SourceCode: https://github.com/Xposed-Modules-Repo/com.crossbowffs.quotelock
+Summary: Displays quotes on your phone lockscreen!
+WebSite: ""

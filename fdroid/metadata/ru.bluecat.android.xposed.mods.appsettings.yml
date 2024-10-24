@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.7"
+CurrentVersionCode: 29
+Description: |-
+    <ul>
+    <li>Android 13 support (xposed)</li>
+    <li>Android 13 support (targetSdk)</li>
+    </ul>
+    <p><strong>Note</strong><br>
+    This is the last update for this fork. The update contains fixes for xposed crashes on Android 13.<br>
+    The update <strong>does not contain</strong> new hooks for modern ways of existing features, so they may not work on some applications.<br>
+    The application fully uses the original hooks with support for new OS versions. Many applications use new methods added by Google later.</p>
+    <p>If anyone is interested, you can continue to develop new hooks methods.</p>
+IssueTracker: ""
+Name: App Settings Reborn
+SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.android.xposed.mods.appsettings
+Summary: Fork of the original App Settings by Rovo89. Supporting Android 8.0+
+WebSite: ""

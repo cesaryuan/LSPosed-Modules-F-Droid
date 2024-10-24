@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.0.5
+CurrentVersionCode: 20241019
+Description: |-
+    <ul>
+    <li>功能调整</li>
+    <li>优化回调机制</li>
+    <li>解决部分应用使用功能一闪退的问题(com.bytedance.sdk)</li>
+    </ul>
+IssueTracker: ""
+Name: AdClose
+SourceCode: https://github.com/Xposed-Modules-Repo/com.close.hook.ads
+Summary: ""
+WebSite: ""

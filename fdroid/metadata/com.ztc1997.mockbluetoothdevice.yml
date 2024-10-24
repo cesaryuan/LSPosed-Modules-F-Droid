@@ -1,0 +1,14 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.3
+CurrentVersionCode: 4
+Description: |-
+    <ul>
+    <li>修复 <code>MAC 地址</code>显示问题</li>
+    </ul>
+IssueTracker: ""
+Name: 模拟蓝牙设备
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice
+Summary: "Mock a BLE peripheral advertisement in bluetooth scan results.   \n在蓝牙扫描结果中模拟一..."
+WebSite: ""

@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.1
+CurrentVersionCode: 121
+Description: |-
+    <ul>
+    <li>[修复] 一个空指针异常</li>
+    </ul>
+    <p><b>v1.2 由于遇到一个严重错误, 请不要使用</b><br>
+    v1.2 更新日志:</p>
+    <ul>
+    <li>支持自定义消息通道的名称. (由于这是一项高级操作, 因此我们已将其隐藏, 连续点击某处可进行设置)</li>
+    <li>如果没有找到指定消息通道, 则不会显示该应用</li>
+    </ul>
+IssueTracker: ""
+Name: 你这运营消息根本就全都是广告吧
+SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.xmsfnotichannel
+Summary: 一键管理所有应用的运营消息通知通道，仅支持 MIUI
+WebSite: ""

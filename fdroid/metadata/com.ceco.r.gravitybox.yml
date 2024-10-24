@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 11.0.5
+CurrentVersionCode: 1105
+Description: |-
+    <ul>
+    <li>Lockscreen: added option to blur media artwork on lockscreen (thanks to robbins)</li>
+    <li>Navbar: allow cursor control keys in gestural navbar</li>
+    <li>Dialer: adjusted for compatibility with the latest Google Dialer</li>
+    <li>Properly identify OnePlus 8T as device running OxygenOS ROM (thanks to F-i-f)<br>
+    --- should improve compatibility significantly</li>
+    </ul>
+IssueTracker: ""
+Name: GravityBox [R]
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.r.gravitybox
+Summary: All-in-one complex module for devices running vanilla Android 11 (R)
+WebSite: ""

@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: .1.0.3
+CurrentVersionCode: 9
+Description: |-
+    <ul>
+    <li>修复部分设备 Firebase 可能导致的崩溃问题</li>
+    <li>修复脚本执行出错日志输出流未写入文件问题</li>
+    </ul>
+IssueTracker: ""
+Name: 时钟脚本
+SourceCode: https://github.com/Xposed-Modules-Repo/master.alarmshell.android
+Summary: 基于小米时钟和 Xposed 实现的定时执行脚本功能
+WebSite: ""

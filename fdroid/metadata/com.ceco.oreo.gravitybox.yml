@@ -1,0 +1,36 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 8.6.0
+CurrentVersionCode: 8600
+Description: |-
+    <ul>
+    <li>Added compatibility with EdXposed v0.5+ and LSPosed</li>
+    <li>Added support for LSPosed module scope feature (auto-whitelist)</li>
+    <li>Maintains backwards compatibility with EdXposed v0.4 and OG Xposed Framework<br>
+    --- moving from old OG Xposed Framework to EdXposed/LSPosed is now strongly recommended, though!</li>
+    <li>Does not require Xposed Resource Hooking support to be enabled anymore!</li>
+    <li>Resource replacement:<br>
+    --- redesigned for better compatibility and performance<br>
+    --- implemented support for aliased resources pointing to Framework resources<br>
+    --- Added support for resource overlays:<br>
+    ------ improves Advanced Tuning compatibility with systems using Theme overlays<br>
+    ------ fixes "Remove corner padding" option on Nokia (and other) devices<br>
+    ------ fixes hiding navigation bar by disabling "Enable navigation bar" option in Navbar tweaks</li>
+    <li>StatusbarClock: respect time zone changes when showing seconds</li>
+    <li>StatusbarClock: keep master switch for Clock tweaks off by default (thanks to aviraxp)</li>
+    <li>Media: improved compatibility of More music volume steps feature</li>
+    <li>Keys: improved reliability of Torch on power long-press</li>
+    <li>ImagePicker: use dedicated library for cropping images instead of unreliable camera CROP intent</li>
+    <li>About: added references to EdXposed and Riru</li>
+    <li>Fixed XSharedPreferences Unexpected EOF errors showing in Xposed log</li>
+    <li>Fixed layout/scaling of all GravityBox view elements affected by DPI change when screen resolution changes</li>
+    </ul>
+    <p><em>IMPORTANT:</em> Module settings are reset when framework is upgraded from EdXposed v0.4/OG Xposed to EdXposed v0.5.1+/LSPosed<br>
+    due to changes in preferences storage location for modules in EdXposed v0.5/LSPosed<br>
+    It is recommended to create a backup of GravityBox settings before upgrading the framework.</p>
+IssueTracker: ""
+Name: GravityBox [O]
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox
+Summary: All-in-one complex module for devices running vanilla Android 8 Oreo
+WebSite: ""

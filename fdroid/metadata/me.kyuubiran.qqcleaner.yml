@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.0.1
+CurrentVersionCode: 71
+Description: |-
+    <ul>
+    <li>修复 微信瘦身 执行出错</li>
+    <li>新增 执行完毕时的Toast提示</li>
+    <li>修复 错误的Toast提示</li>
+    </ul>
+IssueTracker: ""
+Name: 瘦身模块(QQCleaner)
+SourceCode: https://github.com/Xposed-Modules-Repo/me.kyuubiran.qqcleaner
+Summary: "在不影响聊天记录的情况下尽可能地减少QQ/TIM/微信的内存占用\r\n支持定时清理、手动清理以及自定义清理"
+WebSite: ""

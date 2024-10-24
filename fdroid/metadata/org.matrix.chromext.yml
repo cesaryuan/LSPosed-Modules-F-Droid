@@ -1,0 +1,21 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.8.2
+CurrentVersionCode: 16
+Description: |-
+    <p>Hello, everyone, this is once again a minor update, which mainly contains various fixes to support updated browsers.<br>
+    For Android 15 users, please consider use my forks of <a href="https://github.com/JingMatrix/LSPosed">LSPosed</a> and <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a> since the official developments has stopped.</p>
+    <p>Here is the summary for current update:</p>
+    <ol>
+    <li>Size within 125 kB;</li>
+    <li>Support updated Eruda (v3.2.2);</li>
+    <li>Add workarounds for Edge browsers, see <a href="https://github.com/JingMatrix/ChromeXt/issues/156" data-hovercard-type="issue" data-hovercard-url="/JingMatrix/ChromeXt/issues/156/hovercard">Issues 156</a>;</li>
+    <li>Support Qihoo and Chromium browsers;</li>
+    <li>Implement <code>window.close</code> API;</li>
+    </ol>
+IssueTracker: ""
+Name: ChromeXt
+SourceCode: https://github.com/Xposed-Modules-Repo/org.matrix.chromext
+Summary: Add UserScript and DevTools supports to Chromium based and WebView based brow...
+WebSite: ""

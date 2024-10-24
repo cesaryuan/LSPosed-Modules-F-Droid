@@ -1,0 +1,8 @@
+### ZUI 16 (Android 14) Support
+
+⚠ **Warning**: features marked "CN ROM only" are no longer maintained and may not work on ZUI 16.
+⚠ **警告**：标记「仅适用于中国版 ROM」的功能已不再维护，可能不适用于 ZUI 16。
+
+Also some trivial RRO as a Magisk module, for navigation bar height and settings two-pane layout tuning. Lenovo seems to think the navigation bar height should not change along with DPI. 🤷
+
+另附一个 Magisk 模块回滚 ZUI 16 上低 DPI 时的导航栏高度以及调整设置双栏布局的触发条件。联想似乎认为导航栏高度不应该随 DPI 变化。🤷

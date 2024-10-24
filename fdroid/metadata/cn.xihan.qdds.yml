@@ -1,0 +1,57 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.2.4
+CurrentVersionCode: 593
+Description: |-
+    <h2><a href="https://github.com/xihan123/QDReadHook/compare/v3.2.4...v3.2.4">3.2.4</a> (2024-09-19)</h2>
+    <h3>⚠ BREAKING CHANGES</h3>
+    <ul>
+    <li>移除所有权限和模块单独配置页面</li>
+    <li>提高最低支持版本为<code>7.9.366-1336</code></li>
+    <li>移除了自定义本地启动图功能</li>
+    <li>移除了阅读页字体自动替换选项</li>
+    <li>移除自动领取章末红包和自动跳过跳过启动页功能</li>
+    <li>移除禁用底部导航中心广告</li>
+    </ul>
+    <h3>Features</h3>
+    <ul>
+    <li><strong>关于:</strong> 添加导入模块配置文件功能 (<a href="https://github.com/xihan123/QDReadHook/commit/c640afc576abd6eb70a2a953d60750671cfd53ea">c640afc</a>)</li>
+    <li><strong>关于:</strong> 添加导出模块配置文件功能 (<a href="https://github.com/xihan123/QDReadHook/commit/e2891c01c9399716be74cec42c3adc8d63a6863c">e2891c0</a>)</li>
+    <li><strong>关于:</strong> 添加查看和复制QIMEI功能 (<a href="https://github.com/xihan123/QDReadHook/commit/995d7291591b6ce3168eb163c8bf568aad628a8d">995d729</a>)</li>
+    <li>提高最低支持版本为<code>7.9.366-1336</code> (<a href="https://github.com/xihan123/QDReadHook/commit/a1a689f9d7f801a433f4f8d691a328b2a23ac607">a1a689f</a>)</li>
+    <li>移除了自定义本地启动图功能 (<a href="https://github.com/xihan123/QDReadHook/commit/16f487716b037b919677dc2445d1677febe15db3">16f4877</a>)</li>
+    <li>移除了阅读页字体自动替换选项 (<a href="https://github.com/xihan123/QDReadHook/commit/c853ab7abdff012aaf8665fd2bc3dec5f84e34e8">c853ab7</a>)</li>
+    <li>移除所有权限和模块单独配置页面 (<a href="https://github.com/xihan123/QDReadHook/commit/2f9bdb1c13439139e15654fc3ad25921685a297d">2f9bdb1</a>)</li>
+    <li>移除禁用底部导航中心广告 (<a href="https://github.com/xihan123/QDReadHook/commit/1219849522a9e877d0044c60b0cf2fa303ed8887">1219849</a>)</li>
+    <li>移除自动领取章末红包和自动跳过跳过启动页功能 (<a href="https://github.com/xihan123/QDReadHook/commit/f761e527c5e8e4e4ddbe35d5a7d3bd3ef5c7d907">f761e52</a>)</li>
+    <li><strong>阅读页设置:</strong> 增强音频文件导出 (<a href="https://github.com/xihan123/QDReadHook/commit/3c6c6537d0e92d6eb7755eef3e37252b4f297899">3c6c653</a>)</li>
+    </ul>
+    <h3>Docs</h3>
+    <ul>
+    <li>更新文档 (<a href="https://github.com/xihan123/QDReadHook/commit/eced926ea55cf4c857edb9dad7bb624fb6c8d5a7">eced926</a>)</li>
+    </ul>
+    <h3>Miscellaneous</h3>
+    <ul>
+    <li><strong>master:</strong> release 3.2.4 (<a href="https://github.com/xihan123/QDReadHook/commit/0fe5d08dfef3998bb0b0b6ca3c49e102b3d52780">0fe5d08</a>)</li>
+    <li>新增线程工具类 (<a href="https://github.com/xihan123/QDReadHook/commit/7fa2c54d599eee1b36d73c09fa8dea8fc80d9117">7fa2c54</a>)</li>
+    <li>更新依赖库 (<a href="https://github.com/xihan123/QDReadHook/commit/021568905e142965ee4c00cd5bffc667961c3712">0215689</a>)</li>
+    <li>杂项修改 (<a href="https://github.com/xihan123/QDReadHook/commit/f5198a4532a793b8733dd06799d28264babc19a2">f5198a4</a>)</li>
+    </ul>
+    <h3>Refactoring</h3>
+    <ul>
+    <li>重构工具类 (<a href="https://github.com/xihan123/QDReadHook/commit/9652cde179399255100eb2b76e186cb67ed6f4bf">9652cde</a>)</li>
+    </ul>
+IssueTracker: ""
+Name: QDReadHook
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.xihan.qdds
+Summary: |-
+    起点阅读-自定义增强功能
+    1.主要功能
+    2.广告相关
+    3.闪屏页相关
+    4.隐藏控件
+    5.替换净化
+
+    目前支持 758+ 正式版
+WebSite: ""

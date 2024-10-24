@@ -1,0 +1,21 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.2.1
+CurrentVersionCode: 71
+Description: |-
+    <p>[New] Horizontal widget margin<br>
+    [New] Remove app launch zoom animation in MIUI Launcher<br>
+    [New] Launch different hidden system features from module's UI<br>
+    [Improved][Disable overscroll] Support more apps<br>
+    [Improved][Collapse MIUI titles] Support more apps<br>
+    [Improved][Show additional app details] Support latest Security versions<br>
+    [Improved][Installed apps initial sort order] Support latest Security versions<br>
+    [Improved][Prevent app force close] Allow killing most apps by default if mod is active (Security, Contacts, Backup, etc)<br>
+    [Improved][Folder background blur] Wallpaper blur support for latest MIUI Launcher versions<br>
+    Added all MIUI apps as recommended scope in LSPosed</p>
+IssueTracker: ""
+Name: CustoMIUIzer
+SourceCode: https://github.com/Xposed-Modules-Repo/name.mikanoshi.customiuizer
+Summary: Customize your MIUI ROM
+WebSite: ""

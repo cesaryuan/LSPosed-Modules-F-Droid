@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.1
+CurrentVersionCode: 2
+Description: |-
+    <h1>Better Hook</h1>
+    <ul>
+    <li>Activity-level anti-proguard for AMap location</li>
+    <li>Accuracy redefinition for AMap location</li>
+    </ul>
+    <h1>Bugfix</h1>
+    <ul>
+    <li>Unable to activate on LSPosed</li>
+    </ul>
+IssueTracker: ""
+Name: Motion Emulator Content Provider Plugin
+SourceCode: https://github.com/Xposed-Modules-Repo/com.zhufucdev.cp_plugin
+Summary: A Motion Emulator plug-in based on Content Provider
+WebSite: ""

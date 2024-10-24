@@ -1,0 +1,3 @@
+What's new:
+- Fixed a bug when Bluetooth LE communication could not be captured in case GATT callback classes were extended and not directly created
+- Fixed direction indication of performed READ operation on a GATT characteristic in Bluetooth LE communication

@@ -1,0 +1,35 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 5.12.23
+CurrentVersionCode: 401223
+Description: |-
+    <p>V5.12.23</p>
+    <hr>
+    <p>目前版本基于MIUI14开发版MIUI14 V14.xx.12.8.DEV（Android13)开发<br>
+    只适用于基于Android13 的官方 MIUI14 开发版,其他版本可能会有部分或全部功能失效<br>
+    不接受在开发版之外出现的问题 issues</p>
+    <p>MIUI13用户无需更新</p>
+    <p>更新</p>
+    <ul>
+    <li>适配MIUI14</li>
+    <li>新增控制中心关闭蓝牙后禁止自启</li>
+    </ul>
+    <hr>
+    <p>The current version is based on miui14 development version V14.xx.12.8.DEV(Android13) development</p>
+    <p>It is only applicable to official MIUI14 based on android13. Some or all functions of other versions may fail</p>
+    <p>Issues that occur outside the development version are not accepted</p>
+    <p>MIUI13 users do not need to update</p>
+    <p>Changelog<br>
+    -Adapt to MIUI14</p>
+    <p>已知bug：</p>
+    <ul>
+    <li>MTK机型开启音阶修改无声</li>
+    </ul>
+    <p>lanzouyun：<a href="https://chili.lanzoub.com/b05s4a6ed" rel="nofollow">https://chili.lanzoub.com/b05s4a6ed</a><br>
+    password: chimi</p>
+IssueTracker: ""
+Name: ChiMi
+SourceCode: https://github.com/Xposed-Modules-Repo/chili.xposed.chimi
+Summary: "MIUI13 增强扩展模块 (LSPosed/Xposed) \n\nMIUI13 MIUI enhancement extension module"
+WebSite: ""

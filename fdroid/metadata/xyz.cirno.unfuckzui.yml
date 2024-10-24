@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "3.0"
+CurrentVersionCode: 5
+Description: "<h3>ZUI 16 (Android 14) Support</h3>\n<p>⚠ <strong>Warning</strong>: features marked \"CN ROM only\" are no longer maintained and may not work on ZUI 16.<br>\n⚠ <strong>警告</strong>：标记「仅适用于中国版 ROM」的功能已不再维护，可能不适用于 ZUI 16。</p>\n<p>Also some trivial RRO as a Magisk module, for navigation bar height and settings two-pane layout tuning. Lenovo seems to think the navigation bar height should not change along with DPI. \U0001F937</p>\n<p>另附一个 Magisk 模块回滚 ZUI 16 上低 DPI 时的导航栏高度以及调整设置双栏布局的触发条件。联想似乎认为导航栏高度不应该随 DPI 变化。\U0001F937</p>"
+IssueTracker: ""
+Name: Unfuck ZUI Tablet
+SourceCode: https://github.com/Xposed-Modules-Repo/xyz.cirno.unfuckzui
+Summary: |-
+    Make your Lenovo ZUI tablet less fucked up
+    联想 ZUI 平板优化
+WebSite: ""

@@ -1,0 +1,43 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.1
+CurrentVersionCode: 200
+Description: |-
+    <h4>Update Log</h4>
+    <ul>
+    <li>Added more PointerIcons</li>
+    <li>Optimized the color of PointerIcons</li>
+    <li>Introduced a new hooker module</li>
+    <li>Optimized several aspects of the code</li>
+    <li>Improved the logic of Language Checks</li>
+    <li>Provided support for the Chinese Language</li>
+    <li>Integrated Custom Theme Colors</li>
+    <li>Implemented a transparent status bar</li>
+    <li>Introduced a transparent navigation bar</li>
+    <li>Enhanced the style of the theme</li>
+    <li>Added a new Icon List</li>
+    <li>Fix Bugs</li>
+    </ul>
+    <h4>更新日志</h4>
+    <ul>
+    <li>新增 更多的PointerIcon</li>
+    <li>优化 PointerIcon颜色</li>
+    <li>新增 Hooker模块</li>
+    <li>优化 若干代码逻辑</li>
+    <li>优化 语言切换逻辑</li>
+    <li>新增 中文语言支持</li>
+    <li>新增 自定义主题颜色</li>
+    <li>新增 透明状态栏</li>
+    <li>新增 透明导航栏</li>
+    <li>优化 主题样式</li>
+    <li>新增 图标列表</li>
+    <li>修复 若干Bug</li>
+    </ul>
+IssueTracker: ""
+Name: R-Pointer
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hujiayucc.rpointer
+Summary: |-
+    This module is for modifying the icon of the mouse pointer.
+    此模块用于修改鼠标指针图标.
+WebSite: ""

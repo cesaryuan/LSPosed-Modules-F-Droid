@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.0.0
+CurrentVersionCode: 2
+Description: |-
+    <h3>Compatibility Update</h3>
+    <ul>
+    <li>Adds support for Netflix and Disney+</li>
+    <li>Should support some other apps too that work in the same way Netflix and Disney+ do</li>
+    <li>Additional instructions for Netflix and Disney+ support <a href="https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure#additional-information-on-drm-encrypted-content">here</a></li>
+    </ul>
+IssueTracker: ""
+Name: Disable-FLAG_SECURE
+SourceCode: https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure
+Summary: Xposed Module to Disable FLAG_SECURE, enabling screenshots, screen sharing an...
+WebSite: ""

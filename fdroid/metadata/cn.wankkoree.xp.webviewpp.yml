@@ -1,0 +1,11 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: v3.1.0.179.8ebb609
+CurrentVersionCode: 16
+Description: "<h2>更新日志</h2>\n<ul>\n<li>\U0001F31F尝试修复了<code>XWeb</code>无法远程调试的问题，<code>hookXWebPreferences</code>规则已删除，请使用<code>hookXWebView</code></li>\n<li>完善了付费捐赠渠道，新增了免费支持渠道，各位可以每天来免费支持下</li>\n<li>添加了<code>Microsoft App Center</code>匿名数据收集服务，用以匿名化收集崩溃日志、性能指标、交互习惯等数据，可选关闭，但为了模块的长远发展，建议开启</li>\n<li>一些代码逻辑的细微修改</li>\n<li>\U0001F31F2023新年快乐</li>\n</ul>\n<hr>\n<h2>关于安装包的说明</h2>\n<h3>模块本体</h3>\n<ul>\n<li><code>cn.wankkoree.xp.webviewpp-v3.1.0.179.8ebb609_16-release</code>为模块本体</li>\n</ul>\n<h3>测试 App</h3>\n<blockquote>\n<p>用于测试模块相关 Hook 的生效情况，非必须</p>\n</blockquote>\n<p>如有需要请前往 <a href=\"https://github.com/WankkoRee/WebViewPP/releases/tag/5-v2.0.0\">v2.0.0</a> 下载。</p>"
+IssueTracker: ""
+Name: WebViewPP
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp
+Summary: Enable WebView debugging and add vConsole in it. Support WebView, TBS X5, UC ...
+WebSite: ""

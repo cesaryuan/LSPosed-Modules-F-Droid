@@ -1,0 +1,20 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.2
+CurrentVersionCode: 24
+Description: |-
+    <p>You can get a translated text <a href="https://zhufucdev.com/article/peBx_1w5Njt27VZxxQvGi" rel="nofollow">here</a></p>
+    <h1>Bugfix</h1>
+    <ul>
+    <li>Crash when exporting (sharing) recorded data</li>
+    <li>Visual bugs in Recording and Emulation UI</li>
+    <li>Missing <code>navigate up</code> tooltip in Compose-based pages</li>
+    </ul>
+IssueTracker: ""
+Name: Motion Emulator
+SourceCode: https://github.com/Xposed-Modules-Repo/com.zhufucdev.motion_emulator
+Summary: |-
+    A motion simulator with sensor support
+    带有传感器支持的运动模拟器，可对付校园跑
+WebSite: ""

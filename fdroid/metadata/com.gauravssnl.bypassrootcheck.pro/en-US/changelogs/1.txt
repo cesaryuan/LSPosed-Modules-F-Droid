@@ -1,0 +1,12 @@
+Initial release. Features implemented in v1.0  are : 
+Bypass all [RootBeerFresh](https://github.com/KimChangYoun/rootbeerFresh) detections.
+Bypass all [RootBeer](https://github.com/scottyab/rootbeer) detections
+Bypass SELinux test to avoid root detection.
+Bypass R/W System check to avoid root detection.
+Bypass check for su, magisk & busybox binaries.
+Bypass check for root related Android apps.
+Bypass check OS Build Test Keys presence.
+Bypass check for props related to root.
+Bypass check for root cloaking apps.
+Bypass check for Unix Domain Socket used by Magisk.
+System Native Hooks in C/C++ apart from Java hooks to make root hiding possible.

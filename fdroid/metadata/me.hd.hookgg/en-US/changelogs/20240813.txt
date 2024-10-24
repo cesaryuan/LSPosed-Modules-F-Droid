@@ -1,0 +1,17 @@
+#### 更新
+- 新增 字符串(""), GG常量(gg.TYPE_), 地址(0x) 处理
+- 修复 版本>=98.0的searchAddress函数limit参数遗漏
+- 新增 设置页 拦截包名 快捷填入选项
+- 新增 设置页 应用语言 手动切换
+- 修复 协程输出日志不同步问题
+- 新增 ELGG 部分函数参数解密
+- 新增 模块-base64(encode, decode)
+
+#### Updated
+- Added String(""), GG Const(gg.TYPE_), Address(0x) processing
+- Fixed the missing limit parameter of the searchAddress function in version >=98.0
+- Added the option to shortcut in Intercept Package Name
+- Added manual switching of application language
+- Fixed the issue that the output logs of coroutines were not synchronized
+- Added decryption of some ELGG function parameters
+- Added module-base64(encode, decode)

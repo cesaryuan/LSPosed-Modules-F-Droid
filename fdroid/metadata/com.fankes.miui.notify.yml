@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "2.110"
+CurrentVersionCode: 42
+Description: |-
+    <ol>
+    <li>适配 HyperOS 1.0，感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hosizoraru/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hosizoraru">@hosizoraru</a></li>
+    <li>修复 MIUI 14 Android 14 效果异常的问题</li>
+    <li>更新底层 Hook API</li>
+    <li>修复可能在旧版本系统上发生的问题</li>
+    <li>新增支持在经典通知样式下关闭替换通知图标功能</li>
+    </ol>
+IssueTracker: ""
+Name: MIUI 原生通知图标
+SourceCode: https://github.com/Xposed-Modules-Repo/com.fankes.miui.notify
+Summary: 修复被 MIUI 开发组丢弃的原生通知图标，支持 MIUI 12、12.5、13 以及最新版本
+WebSite: ""

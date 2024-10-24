@@ -1,0 +1,24 @@
+- Added compatibility with EdXposed v0.5+ and LSPosed
+- Added support for LSPosed module scope feature (auto-whitelist)
+- Maintains backwards compatibility with EdXposed v0.4 and OG Xposed Framework
+--- moving from old OG Xposed Framework to EdXposed/LSPosed is now strongly recommended, though!
+- Does not require Xposed Resource Hooking support to be enabled anymore!
+- Resource replacement:
+--- redesigned for better compatibility and performance
+--- implemented support for aliased resources pointing to Framework resources
+--- Added support for resource overlays:
+------ improves Advanced Tuning compatibility with systems using Theme overlays
+------ fixes "Remove corner padding" option on Nokia (and other) devices
+------ fixes hiding navigation bar by disabling "Enable navigation bar" option in Navbar tweaks
+- StatusbarClock: respect time zone changes when showing seconds
+- StatusbarClock: keep master switch for Clock tweaks off by default (thanks to aviraxp)
+- Media: improved compatibility of More music volume steps feature
+- Keys: improved reliability of Torch on power long-press
+- ImagePicker: use dedicated library for cropping images instead of unreliable camera CROP intent
+- About: added references to EdXposed and Riru
+- Fixed XSharedPreferences Unexpected EOF errors showing in Xposed log
+- Fixed layout/scaling of all GravityBox view elements affected by DPI change when screen resolution changes
+
+*IMPORTANT:* Module settings are reset when framework is upgraded from EdXposed v0.4/OG Xposed to EdXposed v0.5.1+/LSPosed
+due to changes in preferences storage location for modules in EdXposed v0.5/LSPosed
+It is recommended to create a backup of GravityBox settings before upgrading the framework.

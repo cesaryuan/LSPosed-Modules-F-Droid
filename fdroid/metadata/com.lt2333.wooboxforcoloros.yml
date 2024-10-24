@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.4
+CurrentVersionCode: 5
+Description: |-
+    <ul>
+    <li>[新增] 使用AOSP安装器 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/luckyzyx/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/luckyzyx">@luckyzyx</a>)</li>
+    <li>[修复] 双排时钟在系统配置发生变化时变大</li>
+    <li>[优化] 使用EzXHelper重构所有Hook方法</li>
+    <li>[其他] 升级依赖</li>
+    </ul>
+IssueTracker: ""
+Name: WooBox For ColorOS
+SourceCode: https://github.com/Xposed-Modules-Repo/com.lt2333.wooboxforcoloros
+Summary: 一个基于 ColorOS12（Android12）适配的系统拓展Xposed模块 // A system extension Xposed module ...
+WebSite: ""

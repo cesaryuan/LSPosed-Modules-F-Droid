@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 0.7.1
+CurrentVersionCode: 2
+Description: |-
+    <p>What's new:</p>
+    <ul>
+    <li>Fixed a bug when Bluetooth LE communication could not be captured in case GATT callback classes were extended and not directly created</li>
+    <li>Fixed direction indication of performed READ operation on a GATT characteristic in Bluetooth LE communication</li>
+    </ul>
+IssueTracker: ""
+Name: XLogger
+SourceCode: https://github.com/Xposed-Modules-Repo/com.luigivampa92.xlogger
+Summary: Xposed module that allows to sniff and record logs of NFC and Bluetooth commu...
+WebSite: ""

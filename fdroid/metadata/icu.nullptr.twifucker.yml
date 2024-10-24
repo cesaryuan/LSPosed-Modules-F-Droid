@@ -1,0 +1,46 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "2.1"
+CurrentVersionCode: 264
+Description: |-
+    <h2>What's Changed</h2>
+    <ul>
+    <li>Update Japanese translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reindex-ot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reindex-ot">@reindex-ot</a></li>
+    <li>Update Turkish translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/serkanege/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/serkanege">@serkanege</a></li>
+    <li>Update Russian translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mehlsine/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mehlsine">@Mehlsine</a></li>
+    <li>Update Indonesian translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okkidwi/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okkidwi">@okkidwi</a></li>
+    <li>Update Ukrainian translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/daergess/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/daergess">@daergess</a></li>
+    <li>Update French translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xerta555/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xerta555">@xerta555</a></li>
+    <li>Update Polish translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/uvzen/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/uvzen">@uvzen</a></li>
+    <li>Update Arabic translations by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/iBasim/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/iBasim">@iBasim</a></li>
+    <li>Set timeout for downloading</li>
+    <li>downloaded file name changed to <code>{snowflake}_{index}.{ext}</code></li>
+    <li>Fix download on <code>9.84.0-alpha.2</code></li>
+    <li>Minor bug fixes</li>
+    </ul>
+    <h2>更新日志</h2>
+    <ul>
+    <li>日语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reindex-ot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reindex-ot">@reindex-ot</a></li>
+    <li>土耳其语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/serkanege/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/serkanege">@serkanege</a></li>
+    <li>俄罗斯语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mehlsine/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mehlsine">@Mehlsine</a></li>
+    <li>印度尼西亚语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okkidwi/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okkidwi">@okkidwi</a></li>
+    <li>乌克兰语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/daergess/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/daergess">@daergess</a></li>
+    <li>法语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xerta555/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xerta555">@xerta555</a></li>
+    <li>波兰语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/uvzen/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/uvzen">@uvzen</a></li>
+    <li>阿拉伯语翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/iBasim/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/iBasim">@iBasim</a></li>
+    <li>下载超时处理</li>
+    <li>下载后的文件按 <code>{snowflake}_{index}.{ext}</code> 命名</li>
+    <li>修复 <code>9.84.0-alpha.2</code> 下载</li>
+    <li>修复已知问题</li>
+    </ul>
+    <h2>New Contributors / 新贡献者</h2>
+    <ul>
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mehlsine/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mehlsine">@Mehlsine</a> made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1664480765" data-permission-text="Title is private" data-url="https://github.com/Dr-TSNG/TwiFucker/issues/139" data-hovercard-type="pull_request" data-hovercard-url="/Dr-TSNG/TwiFucker/pull/139/hovercard" href="https://github.com/Dr-TSNG/TwiFucker/pull/139">Dr-TSNG/TwiFucker#139</a></li>
+    </ul>
+    <p><strong>Full Changelog / 完整更新日志</strong>: <a class="commit-link" href="https://github.com/Dr-TSNG/TwiFucker/compare/2.0...2.1">Dr-TSNG/TwiFucker@<tt>2.0...2.1</tt></a></p>
+IssueTracker: ""
+Name: TwiFucker
+SourceCode: https://github.com/Xposed-Modules-Repo/icu.nullptr.twifucker
+Summary: Yet Another Adkiller for Twitter
+WebSite: ""
