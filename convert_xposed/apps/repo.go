@@ -23,6 +23,7 @@ type Repo struct {
 	GitURL       string        `yaml:"git"`
 	Summary      string        `yaml:"summary"`
 	Applications []Application `yaml:"applications"`
+	AuthorName   string        `yaml:"author_name"`
 
 	Owner   string `yaml:"owner,omitempty"`
 	Name    string `yaml:"name,omitempty"`
@@ -57,6 +58,9 @@ func ParseRepoFile(filepath string) (list []Repo, err error) {
 		r.Owner = split[0]
 		r.Name = split[1]
 		r.Host = strings.TrimPrefix(u.Host, "www.")
+		if strings.TrimSpace(r.AuthorName) == "" {
+			r.AuthorName = r.Owner
+		}
 
 		list = append(list, r)
 	}

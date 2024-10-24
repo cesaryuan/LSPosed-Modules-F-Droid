@@ -61,9 +61,10 @@ Now you can edit the `apps.yaml` file to include a new app. Usually you just nee
 ```yml
 android:
   git: "https://github.com/bitwarden/android"
+  author_name: "bitwarden" # If not set, the owner of the repo will be used
   applications:
     - filename: "com.x8bit.bitwarden-fdroid.apk"
-      id: "bitwarden"
+      id: "com.x8bit.bitwarden" # Recommended to be the package name of the app
       name: "Bitwarden"
       categories:
         - Security
@@ -79,7 +80,7 @@ android:
         Bitwarden is focused on open source software. The source code for Bitwarden is hosted on GitHub and everyone is free to review, audit, and contribute to the Bitwarden codebase.
 
     - filename: "com.x8bit.bitwarden.beta-fdroid.apk"
-      id: "bitwarden-beta"
+      id: "com.x8bit.bitwarden.beta" # Recommended to be the package name of the app
       name: "Bitwarden Beta"
       categories:
         - Security

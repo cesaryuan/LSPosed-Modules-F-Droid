@@ -88,7 +88,7 @@ func main() {
 		}
 
 		if len(item.Collaborators) > 0 {
-			repo.Owner = item.Collaborators[0].Login
+			repo.AuthorName = item.Collaborators[0].Login
 		}
 
 		repos[item.Name] = repo

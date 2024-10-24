@@ -362,7 +362,7 @@ func main() {
 			// Now update with some info
 			for _, repo := range reposList {
 				if repoHasApp(repo, latestPackage.PackageName) {
-					setNonEmpty(meta, "AuthorName", repo.Owner)
+					setNonEmpty(meta, "AuthorName", repo.AuthorName)
 					setNonEmpty(meta, "License", repo.License)
 					setNonEmpty(meta, "SourceCode", repo.GitURL)
 
