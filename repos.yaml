@@ -22,7 +22,7 @@ Cai_Ming_Yu.CacheCleaner:
             <li>Optimized the code</li>
             <li>Updated dependencies</li>
             </ul>
-    owner: Cai-Ming-Yu
+    author_name: Cai-Ming-Yu
 Fuck.RollingSky.Pay:
     git: https://github.com/Xposed-Modules-Repo/Fuck.RollingSky.Pay
     summary: ""
@@ -35,7 +35,7 @@ Fuck.RollingSky.Pay:
           id: Fuck.RollingSky.Pay
           name: Fuck RollingSky Pay
           releasedescription: <p>欢迎使用FRSP</p>
-    owner: ZZCYUN
+    author_name: ZZCYUN
 Hook.JiuWu.Xp:
     git: https://github.com/Xposed-Modules-Repo/Hook.JiuWu.Xp
     summary: 用于解锁部分应用的会员和一些应用的拓展功能
@@ -148,7 +148,7 @@ Hook.JiuWu.Xp:
             <li><strong>支持单独隐藏设置入口/Java脚本入口</strong></li>
             <li><strong>支持批量保存表情包(长按消息多选)</strong></li>
             </ul>
-    owner: lovejiuwu
+    author_name: lovejiuwu
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
     summary: Like Chrome's translation of webpages, but for Android apps. It replaces ALL TEXT IN AN APP from one language to another at runtime.
@@ -167,7 +167,7 @@ akhil.alltrans:
             <p>Now works with Android 13!</p>
             <p>Tested with LSPosed and LSPatch on Samsung device.</p>
             <p>*THIS RELEASE TEMPORARILY DOES NOT SUPPORT TAICHI</p>
-    owner: akhilkedia
+    author_name: akhilkedia
 android.xiaolan.ppxshare.tools:
     git: https://github.com/Xposed-Modules-Repo/android.xiaolan.ppxshare.tools
     summary: |-
@@ -187,7 +187,7 @@ android.xiaolan.ppxshare.tools:
           releasedescription: |-
             <p>可以在【微信，QQ】打开 [皮皮虾 , 抖音] 分享的地址并跳转到应用<br>
             MIUI13 双排状态栏 （根据小米10s 小米11U 左挖孔设备开发）</p>
-    owner: killall-love
+    author_name: killall-love
 androidx.top.hyperos.dynamic.notify:
     git: https://github.com/Xposed-Modules-Repo/androidx.top.hyperos.dynamic.notify
     summary: |-
@@ -214,7 +214,7 @@ androidx.top.hyperos.dynamic.notify:
             <li>右边下滑小窗</li>
             <li>右边图标点击跳转</li>
             </ul>
-    owner: wenyi401
+    author_name: wenyi401
 app.neonorbit.chatheadenabler:
     git: https://github.com/Xposed-Modules-Repo/app.neonorbit.chatheadenabler
     summary: This module lets you choose between ChatHead and Bubble in Facebook Messenger
@@ -261,7 +261,7 @@ app.neonorbit.chatheadenabler:
             </code></pre></div>
             <p>[uninstall termux again if you don't need it]<br>
             Source code: <a href="https://github.com/NeonOrbit/ChatHeadEnabler">https://github.com/NeonOrbit/ChatHeadEnabler</a></p>
-    owner: NeonOrbit
+    author_name: NeonOrbit
 balti.xposed.pixelifygooglephotos:
     git: https://github.com/Xposed-Modules-Repo/balti.xposed.pixelifygooglephotos
     summary: ""
@@ -282,7 +282,7 @@ balti.xposed.pixelifygooglephotos:
             <li>Update app icon</li>
             <li>Update app name</li>
             </ul>
-    owner: SayantanRC
+    author_name: SayantanRC
 be.mygod.unmeteredvpn:
     git: https://github.com/Xposed-Modules-Repo/be.mygod.unmeteredvpn
     summary: ""
@@ -295,7 +295,7 @@ be.mygod.unmeteredvpn:
           id: be.mygod.unmeteredvpn
           name: Makes selected VPN apps not metered (Android 10+)
           releasedescription: <p>Initial release.</p>
-    owner: Mygod
+    author_name: Mygod
 cat.app.bicleaner:
     git: https://github.com/Xposed-Modules-Repo/cat.app.bicleaner
     summary: |-
@@ -320,7 +320,7 @@ cat.app.bicleaner:
             <li>修复了在未启用模块时进入软件会闪退的问题</li>
             <li>修复了因为作者粗心导致的过滤设置无效的问题（可能仍有少部分评论不会被屏蔽，因为Bilibili通过多个方法拉取不同评论，这个作者后面会想办法解决）</li>
             </ul>
-    owner: Tile-X
+    author_name: Tile-X
 cc.aoeiuv020.hookcimoc:
     git: https://github.com/Xposed-Modules-Repo/cc.aoeiuv020.hookcimoc
     summary: 给Cimoc漫画去广告，
@@ -333,7 +333,7 @@ cc.aoeiuv020.hookcimoc:
           id: cc.aoeiuv020.hookcimoc
           name: HookCimoc
           releasedescription: <h3>上传lsposed仓库</h3>
-    owner: AoEiuV020
+    author_name: AoEiuV020
 cc.aoeiuv020.hookfanqie:
     git: https://github.com/Xposed-Modules-Repo/cc.aoeiuv020.hookfanqie
     summary: 给番茄小说(com.dragon.read)去广告，
@@ -354,7 +354,7 @@ cc.aoeiuv020.hookfanqie:
             <p>去除听书页面热门直播,<br>
             更换VIP的Hook点方便适配后续版本,<br>
             去除小说章末广告，</p>
-    owner: AoEiuV020
+    author_name: AoEiuV020
 cc.aoeiuv020.hookpicacg:
     git: https://github.com/Xposed-Modules-Repo/cc.aoeiuv020.hookpicacg
     summary: 给哔咔去广告，
@@ -367,7 +367,7 @@ cc.aoeiuv020.hookpicacg:
           id: cc.aoeiuv020.hookpicacg
           name: HookPicACG
           releasedescription: <h3>上传到lsposed仓库</h3>
-    owner: AoEiuV020
+    author_name: AoEiuV020
 cc.aoeiuv020.iamnotdisabled.hook:
     git: https://github.com/Xposed-Modules-Repo/cc.aoeiuv020.iamnotdisabled.hook
     summary: 假装自己没有使用无障碍服务，
@@ -380,7 +380,7 @@ cc.aoeiuv020.iamnotdisabled.hook:
           id: cc.aoeiuv020.iamnotdisabled.hook
           name: 非残！
           releasedescription: <h3>兼容性优化，适配新版LSPosed的堆栈变化</h3>
-    owner: AoEiuV020
+    author_name: AoEiuV020
 chili.xposed.chimi:
     git: https://github.com/Xposed-Modules-Repo/chili.xposed.chimi
     summary: "MIUI13 增强扩展模块 (LSPosed/Xposed) \n\nMIUI13 MIUI enhancement extension module"
@@ -441,7 +441,7 @@ chili.xposed.chimi:
             </ul>
             <p>lanzouyun：<a href="https://chili.lanzoub.com/b05s4a6ed" rel="nofollow">https://chili.lanzoub.com/b05s4a6ed</a><br>
             password: chimi</p>
-    owner: yonghen
+    author_name: yonghen
 club.youppgd.adhook:
     git: https://github.com/Xposed-Modules-Repo/club.youppgd.adhook
     summary: 原腾爱优芒模块
@@ -458,7 +458,7 @@ club.youppgd.adhook:
           releasedescription: |-
             <p>修复bug<br>
             适配各app最新版</p>
-    owner: youppgd
+    author_name: youppgd
 cn.ac.lz233.tarnhelm:
     git: https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm
     summary: |-
@@ -485,7 +485,7 @@ cn.ac.lz233.tarnhelm:
             <li>新增：对于重定向规则，可以自定义 UA</li>
             <li>修复：若没有匹配到任何规则，则不变更内容</li>
             </ul>
-    owner: lz233
+    author_name: lz233
 cn.amamiya.douyurepeat:
     git: https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat
     summary: ""
@@ -498,7 +498,7 @@ cn.amamiya.douyurepeat:
           id: cn.amamiya.douyurepeat
           name: 斗鱼复读姬/DouyuRepeater
           releasedescription: ""
-    owner: AmamiyaHotaru
+    author_name: AmamiyaHotaru
 cn.amamiya.hupublacklist:
     git: https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist
     summary: ""
@@ -511,7 +511,7 @@ cn.amamiya.hupublacklist:
           id: cn.amamiya.hupublacklist
           name: 虎扑黑名单/HupuBlackList
           releasedescription: <p>新增关键词屏蔽</p>
-    owner: AmamiyaHotaru
+    author_name: AmamiyaHotaru
 cn.android.x:
     git: https://github.com/Xposed-Modules-Repo/cn.android.x
     summary: Add extra features to Wechat. 微信增加更多功能。
@@ -524,7 +524,7 @@ cn.android.x:
           id: cn.android.x
           name: X
           releasedescription: ""
-    owner: fkzhang
+    author_name: fkzhang
 cn.aodlyric.xiaowine:
     git: https://github.com/Xposed-Modules-Repo/cn.aodlyric.xiaowine
     summary: 在支持的息屏上显示歌词和部分增强功能
@@ -545,7 +545,7 @@ cn.aodlyric.xiaowine:
             <li>尝试修复Android13澎湃无法使用</li>
             <li>尝试修复部分设备无法获取id</li>
             </ul>
-    owner: xiaowine
+    author_name: xiaowine
 cn.buffcow.hyper5g:
     git: https://github.com/Xposed-Modules-Repo/cn.buffcow.hyper5g
     summary: |-
@@ -574,7 +574,7 @@ cn.buffcow.hyper5g:
             <ul>
             <li>Fix occasional invalidation of double-click title event</li>
             </ul>
-    owner: buffcow
+    author_name: buffcow
 cn.buffcow.hyperaodzen:
     git: https://github.com/Xposed-Modules-Repo/cn.buffcow.hyperaodzen
     summary: |-
@@ -603,7 +603,7 @@ cn.buffcow.hyperaodzen:
             <ul>
             <li>Fix maybe not take effect on some devices.</li>
             </ul>
-    owner: buffcow
+    author_name: buffcow
 cn.buffcow.hypersc:
     git: https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc
     summary: |-
@@ -632,7 +632,7 @@ cn.buffcow.hypersc:
             <ul>
             <li>The first version.</li>
             </ul>
-    owner: buffcow
+    author_name: buffcow
 cn.coderstory.miui.water:
     git: https://github.com/Xposed-Modules-Repo/cn.coderstory.miui.water
     summary: 淘米水 For MIUI
@@ -651,7 +651,7 @@ cn.coderstory.miui.water:
             <p>基于k40  10.26 内测版本适配<br>
             支持隐藏安装apk时候纯洁模式提示<br>
             修复不安全应用必须输入密码提示</p>
-    owner: coderstory
+    author_name: coderstory
 cn.cyanc.xposed.noregionlimits:
     git: https://github.com/Xposed-Modules-Repo/cn.cyanc.xposed.noregionlimits
     summary: ""
@@ -664,7 +664,7 @@ cn.cyanc.xposed.noregionlimits:
           id: cn.cyanc.xposed.noregionlimits
           name: '解除区域限制 Bypass regional limits '
           releasedescription: ""
-    owner: CyanChanges
+    author_name: CyanChanges
 cn.dreamn.qianji_auto:
     git: https://github.com/Xposed-Modules-Repo/cn.dreamn.qianji_auto
     summary: ""
@@ -693,7 +693,7 @@ cn.dreamn.qianji_auto:
             <li>pref: 修改正则为非捕获组，提高效率</li>
             </ul>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Auto-Accounting/Qianji_auto/compare/3.3.3...3.3.4">Auto-Accounting/Qianji_auto@<tt>3.3.3...3.3.4</tt></a></p>
-    owner: dreamncn
+    author_name: dreamncn
 cn.enaium.bb:
     git: https://github.com/Xposed-Modules-Repo/cn.enaium.bb
     summary: ""
@@ -706,7 +706,7 @@ cn.enaium.bb:
           id: cn.enaium.bb
           name: B站游戏绕过，关键字:B站游戏 BiliBili游戏 实名认证 防沉迷
           releasedescription: <p>1.4</p>
-    owner: Enaium
+    author_name: Enaium
 cn.enaium.fuckmarket:
     git: https://github.com/Xposed-Modules-Repo/cn.enaium.fuckmarket
     summary: ""
@@ -719,7 +719,7 @@ cn.enaium.fuckmarket:
           id: cn.enaium.fuckmarket
           name: Cancel startActive Market,取消跳转到应用商店
           releasedescription: <p>1.0</p>
-    owner: Enaium
+    author_name: Enaium
 cn.fuckhome.xiaowine:
     git: https://github.com/Xposed-Modules-Repo/cn.fuckhome.xiaowine
     summary: MIUI桌面增强模块
@@ -732,7 +732,7 @@ cn.fuckhome.xiaowine:
           id: cn.fuckhome.xiaowine
           name: 墨•桌
           releasedescription: <p>修复在部分设备无法使用</p>
-    owner: xiaowine
+    author_name: xiaowine
 cn.fyyr.noguardpls:
     git: https://github.com/Xposed-Modules-Repo/cn.fyyr.noguardpls
     summary: |-
@@ -747,7 +747,7 @@ cn.fyyr.noguardpls:
           id: cn.fyyr.noguardpls
           name: MIUI_NOGUARDPLS
           releasedescription: <p>对Analytics进行hook，屏蔽网络</p>
-    owner: gykkuo
+    author_name: gykkuo
 cn.geektang.privacyspace:
     git: https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace
     summary: |-
@@ -766,7 +766,7 @@ cn.geektang.privacyspace:
           releasedescription: |-
             <p>Adapt to Android 14.</p>
             <p>适配Android14。</p>
-    owner: GeekTR
+    author_name: GeekTR
 cn.jackuxl.boarddeephook:
     git: https://github.com/Xposed-Modules-Repo/cn.jackuxl.boarddeephook
     summary: 「阳光自律」无限期会员。
@@ -785,7 +785,7 @@ cn.jackuxl.boarddeephook:
             <ul>
             <li>首个版本。</li>
             </ul>
-    owner: JackuXL
+    author_name: JackuXL
 cn.kwaiching.hook:
     git: https://github.com/Xposed-Modules-Repo/cn.kwaiching.hook
     summary: |-
@@ -810,7 +810,7 @@ cn.kwaiching.hook:
             <p>城通網盤<br>
             <a href="https://u062.com/d/16731109-40183208-4b8931" rel="nofollow">https://u062.com/d/16731109-40183208-4b8931</a><br>
             [访问密码：9214]</p>
-    owner: kwaiching
+    author_name: kwaiching
 cn.lliiooll.ppbuff:
     git: https://github.com/Xposed-Modules-Repo/cn.lliiooll.ppbuff
     summary: 皮皮搞笑 & 最右增强
@@ -831,7 +831,7 @@ cn.lliiooll.ppbuff:
             移除 自动关注<br>
             移除 打赏<br>
             如果遇到模块失效请不要再反馈问题</p>
-    owner: lliioollcn
+    author_name: lliioollcn
 cn.lliiooll.pphelper:
     git: https://github.com/Xposed-Modules-Repo/cn.lliiooll.pphelper
     summary: |-
@@ -854,7 +854,7 @@ cn.lliiooll.pphelper:
           releasedescription: |-
             <p>修复 2.45.10下载无水印失效<br>
             添加 屏蔽视频帖子带游戏广告的帖子</p>
-    owner: lliioollcn
+    author_name: lliioollcn
 cn.lovesykun.miui_force_fps:
     git: https://github.com/Xposed-Modules-Repo/cn.lovesykun.miui_force_fps
     summary: |-
@@ -869,7 +869,7 @@ cn.lovesykun.miui_force_fps:
           id: cn.lovesykun.miui_force_fps
           name: MIUI Force FPS / MIUI 全局高帧
           releasedescription: ""
-    owner: yujincheng08
+    author_name: yujincheng08
 cn.lyric.getter:
     git: https://github.com/Xposed-Modules-Repo/cn.lyric.getter
     summary: Lyric Getter
@@ -896,7 +896,7 @@ cn.lyric.getter:
             <li>修复 酷狗版本判断导致概念版4.0.0无法使用问题</li>
             <li>添加 华为音乐支持</li>
             </ul>
-    owner: xiaowine
+    author_name: xiaowine
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
     summary: 正如其名，让Android后台CPU不再活跃
@@ -913,7 +913,7 @@ cn.myflv.noactive:
           releasedescription: |-
             <p>1.优化功耗<br>
             2.修复唤醒锁</p>
-    owner: myflavor
+    author_name: myflavor
 cn.tinyhai.ban_uninstall:
     git: https://github.com/Xposed-Modules-Repo/cn.tinyhai.ban_uninstall
     summary: |-
@@ -938,7 +938,7 @@ cn.tinyhai.ban_uninstall:
             <li>一些UI调整</li>
             <li>更新版本号</li>
             </ul>
-    owner: TinyHai
+    author_name: TinyHai
 cn.wankkoree.xp.portrait2landscape:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.portrait2landscape
     summary: |-
@@ -963,7 +963,7 @@ cn.wankkoree.xp.portrait2landscape:
             <li>一些底层组件的更新和性能优化</li>
             <li>大家春节快乐</li>
             </ul>
-    owner: WankkoRee
+    author_name: WankkoRee
 cn.wankkoree.xp.webviewpp:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp
     summary: |-
@@ -978,7 +978,7 @@ cn.wankkoree.xp.webviewpp:
           id: cn.wankkoree.xp.webviewpp
           name: WebViewPP
           releasedescription: "<h2>更新日志</h2>\n<ul>\n<li>\U0001F31F尝试修复了<code>XWeb</code>无法远程调试的问题，<code>hookXWebPreferences</code>规则已删除，请使用<code>hookXWebView</code></li>\n<li>完善了付费捐赠渠道，新增了免费支持渠道，各位可以每天来免费支持下</li>\n<li>添加了<code>Microsoft App Center</code>匿名数据收集服务，用以匿名化收集崩溃日志、性能指标、交互习惯等数据，可选关闭，但为了模块的长远发展，建议开启</li>\n<li>一些代码逻辑的细微修改</li>\n<li>\U0001F31F2023新年快乐</li>\n</ul>\n<hr>\n<h2>关于安装包的说明</h2>\n<h3>模块本体</h3>\n<ul>\n<li><code>cn.wankkoree.xp.webviewpp-v3.1.0.179.8ebb609_16-release</code>为模块本体</li>\n</ul>\n<h3>测试 App</h3>\n<blockquote>\n<p>用于测试模块相关 Hook 的生效情况，非必须</p>\n</blockquote>\n<p>如有需要请前往 <a href=\"https://github.com/WankkoRee/WebViewPP/releases/tag/5-v2.0.0\">v2.0.0</a> 下载。</p>"
-    owner: WankkoRee
+    author_name: WankkoRee
 cn.wankkoree.xposed.enablewebviewdebugging:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.enablewebviewdebugging
     summary: |-
@@ -993,7 +993,7 @@ cn.wankkoree.xposed.enablewebviewdebugging:
           id: cn.wankkoree.xposed.enablewebviewdebugging
           name: 启用 WebView 调试[旧](Enable WebView Debugging[old])
           releasedescription: "<h2>更新日志</h2>\n<ul>\n<li>\U0001F31F更改了包名和模块名</li>\n</ul>\n<h2>Changelog (machine translation)</h2>\n<ul>\n<li>\U0001F31F rename the package name and the module name</li>\n</ul>\n<h1><g-emoji class=\"g-emoji\" alias=\"bangbang\">‼️</g-emoji>重要说明<g-emoji class=\"g-emoji\" alias=\"bangbang\">‼️</g-emoji></h1>\n<p>本版本之后包名发生变更，请重新在<code>LSPosed</code>中勾选相应的 App ，并自行迁移模块的配置。</p>\n<p>迁移方法：</p>\n<ol>\n<li>有 root\n<ol>\n<li>前往<code>/data/misc/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/prefs/</code>目录</li>\n<li>将<code>cn.wankkoree.xposed.enablewebviewdebugging</code>文件夹<strong>改名</strong>为<code>cn.wankkoree.xp.webviewpp</code></li>\n<li>如果<code>cn.wankkoree.xp.webviewpp</code>文件夹已存在，将<code>cn.wankkoree.xposed.enablewebviewdebugging</code>文件夹内的所有文件<strong>复制</strong>到<code>cn.wankkoree.xp.webviewpp</code>文件夹即可</li>\n</ol>\n</li>\n<li>无 root\n<ol>\n<li>使用<strong>导出到剪贴板</strong>功能，逐个导出规则并逐个导入</li>\n</ol>\n</li>\n</ol>\n<h1><g-emoji class=\"g-emoji\" alias=\"bangbang\">‼️</g-emoji>Important Tips<g-emoji class=\"g-emoji\" alias=\"bangbang\">‼️</g-emoji></h1>\n<p>Since the beginning of this release, the package name is renamed. So you need to reconfigure all things in <code>LSPosed</code> and migrate the config of our module.</p>\n<p>The migration method:</p>\n<ol>\n<li>have root\n<ol>\n<li>go to <code>/data/misc/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/prefs/</code> folder</li>\n<li><strong>rename</strong> <code>cn.wankkoree.xposed.enablewebviewdebugging</code> to <code>cn.wankkoree.xp.webviewpp</code></li>\n<li>if <code>cn.wankkoree.xp.webviewpp</code> is already existed, <strong>copy</strong> all files in <code>cn.wankkoree.xposed.enablewebviewdebugging</code> to <code>cn.wankkoree.xp.webviewpp</code></li>\n</ol>\n</li>\n<li>no root\n<ol>\n<li>Use <strong>Export to Clip</strong> to migrate all rules one by one</li>\n</ol>\n</li>\n</ol>\n<hr>\n<h2>关于安装包的说明</h2>\n<h3>模块本体</h3>\n<ul>\n<li><code>cn.wankkoree.xp.webviewpp-v3.0.0_15-release</code>为模块本体</li>\n</ul>\n<h3>测试 App</h3>\n<blockquote>\n<p>用于测试模块相关 Hook 的生效情况，非必须</p>\n</blockquote>\n<p>如有需要请前往 <a href=\"https://github.com/WankkoRee/WebViewPP/releases/tag/5-v2.0.0\">v2.0.0</a> 下载。</p>\n<h2>About these apks</h2>\n<h3>module</h3>\n<ul>\n<li><code>cn.wankkoree.xp.webviewpp-v3.0.0_15-release</code> is module</li>\n</ul>\n<h3>test subject</h3>\n<blockquote>\n<p>used to test the availability of module, not required</p>\n</blockquote>\n<p>If you need them, please go to <a href=\"https://github.com/WankkoRee/WebViewPP/releases/tag/5-v2.0.0\">v2.0.0</a> to download.</p>"
-    owner: WankkoRee
+    author_name: WankkoRee
 cn.wankkoree.xposed.portrait2landscape:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape
     summary: |-
@@ -1018,7 +1018,7 @@ cn.wankkoree.xposed.portrait2landscape:
             <li>一些底层组件的更新和性能优化</li>
             <li>大家春节快乐</li>
             </ul>
-    owner: WankkoRee
+    author_name: WankkoRee
 cn.wwl.xposed.hook:
     git: https://github.com/Xposed-Modules-Repo/cn.wwl.xposed.hook
     summary: |-
@@ -1041,7 +1041,7 @@ cn.wwl.xposed.hook:
             表盘型号伪装增加非凡大师，Watch4Pro<br>
             修复伪装型号获取其他表盘时的一个bug<br>
             Add english support.</p>
-    owner: wwlwwlwwlwwl
+    author_name: wwlwwlwwlwwl
 cn.xihan.qdds:
     git: https://github.com/Xposed-Modules-Repo/cn.xihan.qdds
     summary: |-
@@ -1138,7 +1138,7 @@ cn.xihan.qdds:
             <ul>
             <li>重构工具类 (<a href="https://github.com/xihan123/QDReadHook/commit/9652cde179399255100eb2b76e186cb67ed6f4bf">9652cde</a>)</li>
             </ul>
-    owner: xihan123
+    author_name: xihan123
 cn.yhfcn.mipushfaker:
     git: https://github.com/Xposed-Modules-Repo/cn.yhfcn.mipushfaker
     summary: 伪装机型让非小米手机能够正确识别到MiPush，搭配MiPushFramework使用
@@ -1151,7 +1151,7 @@ cn.yhfcn.mipushfaker:
           id: cn.yhfcn.mipushfaker
           name: MiPushFaker
           releasedescription: <p>mipush伪装模块，作用域勾选自己需要推送的软件即可</p>
-    owner: yin-ol
+    author_name: yin-ol
 cn.yhfcn.samsung_clockfix:
     git: https://github.com/Xposed-Modules-Repo/cn.yhfcn.samsung_clockfix
     summary: 解除三星系统时钟通话中不提醒不响铃的限制
@@ -1174,7 +1174,7 @@ cn.yhfcn.samsung_clockfix:
             <li>基于三星时钟12.1.17.0进行适配</li>
             <li>新版本时钟app代码有混淆，现在改为hook底层一点的api: AudioManager.class，伪装没有占用麦克风</li>
             </ul>
-    owner: yin-ol
+    author_name: yin-ol
 com.agoines.relaxhelp:
     git: https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp
     summary: 解除 Relax 的限制
@@ -1187,7 +1187,7 @@ com.agoines.relaxhelp:
           id: com.agoines.relaxhelp
           name: RelaxHelper
           releasedescription: <p>解锁异星遗迹的机型限制</p>
-    owner: Agoines
+    author_name: Agoines
 com.ailr.SeemNetOfTranslate:
     git: https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate
     summary: 解除谷歌离线翻译在大陆的限制并使用屏幕翻译!
@@ -1216,7 +1216,7 @@ com.ailr.SeemNetOfTranslate:
             2.如果开启缓存功能，那么在第二次进入软件时可以不需要打开谷歌翻译<br>
             3.增加功能: 优化中文翻译<br>
             4.优化性能</p>
-    owner: "2775608671"
+    author_name: "2775608671"
 com.akari.ppx:
     git: https://github.com/Xposed-Modules-Repo/com.akari.ppx
     summary: ""
@@ -1235,7 +1235,7 @@ com.akari.ppx:
             <p>更新日志 v1.9.9.1：</p>
             <p>修复开启精简分享后保存视频闪退的问题<br>
             优化部分功能</p>
-    owner: Secack
+    author_name: Secack
 com.alex193a.checkblue:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue
     summary: A module that allows you to find out if a Twitter user is Blue Verified.
@@ -1248,7 +1248,7 @@ com.alex193a.checkblue:
           id: com.alex193a.checkblue
           name: CheckBlue
           releasedescription: <p>First release</p>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.gmdtenabler:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.gmdtenabler
     summary: |-
@@ -1269,7 +1269,7 @@ com.alex193a.gmdtenabler:
             <ul>
             <li>Added support for Gmail 2022.05.15.451247947.Release (universal)</li>
             </ul>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.ivdisabler:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.ivdisabler
     summary: Google seems to be blocking sideloading some app updates on Android 11, such as the Google Camera v8.0+, this module bypass that block.
@@ -1288,7 +1288,7 @@ com.alex193a.ivdisabler:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.larryonx:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.larryonx
     summary: This module restores the Twitter logo at the top of the timeline and reverts changes to texts within the "X" app
@@ -1301,7 +1301,7 @@ com.alex193a.larryonx:
           id: com.alex193a.larryonx
           name: LarryOnX
           releasedescription: <p>• hotfix</p>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.opacextender:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.opacextender
     summary: Xposed module to add any app to the OnePlus's "App Cloner" supported apps list.
@@ -1314,7 +1314,7 @@ com.alex193a.opacextender:
           id: com.alex193a.opacextender
           name: OnePlus App Cloner Extender
           releasedescription: <p>• Fix</p>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.opcameradebug:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.opcameradebug
     summary: Enable the hidden internal menu in the OnePlus camera app.
@@ -1333,7 +1333,7 @@ com.alex193a.opcameradebug:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.paextender:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.paextender
     summary: Adds any app to the Parallel Apps's supported apps list.
@@ -1352,7 +1352,7 @@ com.alex193a.paextender:
             <ul>
             <li>Bugfix</li>
             </ul>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.pixelthermometerbtenabler:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.pixelthermometerbtenabler
     summary: This module enables the body temperature feature of the Pixel Thermometer in countries where it is not supported.
@@ -1369,7 +1369,7 @@ com.alex193a.pixelthermometerbtenabler:
           releasedescription: |-
             <p>• First release</p>
             <p>Compatible with the version <a href="https://www.apkmirror.com/apk/google-inc/pixel-thermometer/pixel-thermometer-1-0-597731989-release/" rel="nofollow">1.0.597731989</a></p>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.tguseridviewer:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.tguseridviewer
     summary: This module allows you to view a user's ID directly in their profile.
@@ -1388,7 +1388,7 @@ com.alex193a.tguseridviewer:
             <ul>
             <li>Added support for Telegram (Web Release)</li>
             </ul>
-    owner: alex193a
+    author_name: alex193a
 com.alex193a.xdowngrader:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.xdowngrader
     summary: Allows you to downgrade any app on Android 5 and newer.
@@ -1401,7 +1401,7 @@ com.alex193a.xdowngrader:
           id: com.alex193a.xdowngrader
           name: XDowngrader
           releasedescription: <p>• Added support for Android 13</p>
-    owner: alex193a
+    author_name: alex193a
 com.alphi.actvityopenmanager:
     git: https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager
     summary: |-
@@ -1426,7 +1426,7 @@ com.alphi.actvityopenmanager:
             修复部分APP拦截住出现闪退的问题<br>
             可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>
             MD5:  A9AA30BACE96445A4F26D631284D66F0</p>
-    owner: alphime
+    author_name: alphime
 com.amanoteam.kanni:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.kanni
     summary: Prevent apps from taking control of the screen brightness
@@ -1445,7 +1445,7 @@ com.amanoteam.kanni:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: Kartatz
+    author_name: Kartatz
 com.amanoteam.nai:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.nai
     summary: Remove the annoying 'free storage space' pop-ups on Telegram
@@ -1458,7 +1458,7 @@ com.amanoteam.nai:
           id: com.amanoteam.nai
           name: Nai
           releasedescription: ""
-    owner: Kartatz
+    author_name: Kartatz
 com.amanoteam.nel:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.nel
     summary: Bring back KeyChain.createInstallIntent's old behavior to Android 11+
@@ -1477,7 +1477,7 @@ com.amanoteam.nel:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: Kartatz
+    author_name: Kartatz
 com.amanoteam.sunny:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny
     summary: Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits
@@ -1496,7 +1496,7 @@ com.amanoteam.sunny:
             <ul>
             <li>Fix issues with the manga tracking system (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Patriarch9307/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Patriarch9307">@Patriarch9307</a>)</li>
             </ul>
-    owner: Kartatz
+    author_name: Kartatz
 com.android1500.androidfaker:
     git: https://github.com/Xposed-Modules-Repo/com.android1500.androidfaker
     summary: Android Faker a Simple Xposed Module Which Spoof Your Device IDs Values. Supporting Android 5.0+
@@ -1519,7 +1519,7 @@ com.android1500.androidfaker:
             <li>Fixed VIP not recognized</li>
             <li>More bugs fixed</li>
             </ul>
-    owner: Android1500
+    author_name: Android1500
 com.android1500.gpssetter:
     git: https://github.com/Xposed-Modules-Repo/com.android1500.gpssetter
     summary: A simple module to spoof device location. Supporting Android 8.1+
@@ -1548,7 +1548,7 @@ com.android1500.gpssetter:
             <p>Note :- I forget to upload previous version of GPS Setter on LSposed repo so don't mind.</p>
             </li>
             </ul>
-    owner: Android1500
+    author_name: Android1500
 com.app.catsmoker:
     git: https://github.com/Xposed-Modules-Repo/com.app.catsmoker
     summary: Catsmoker unlocks higher FPS in games by spoofing your device model and displays the web page at https://catsmoker.github.io using WebView.
@@ -1599,7 +1599,7 @@ com.app.catsmoker:
             </ul>
             <p><em>Thank you for using CatSmoker!</em></p>
             <p><em>If you encounter any issues or have suggestions, please reach out to our support team.</em></p>
-    owner: catsmoker
+    author_name: catsmoker
 com.asameer.killappnow:
     git: https://github.com/Xposed-Modules-Repo/com.asameer.killappnow
     summary: '[Android 14+] Xposed module to kill foreground app on "Back" button long-press.'
@@ -1612,7 +1612,7 @@ com.asameer.killappnow:
           id: com.asameer.killappnow
           name: KillAppNow
           releasedescription: <p>Improved logic to detect foreground app</p>
-    owner: samahmed
+    author_name: samahmed
 com.asyjaiz.a12blur:
     git: https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur
     summary: Lets you set up the translucency of your shade the way you want it to be
@@ -1651,7 +1651,7 @@ com.asyjaiz.a12blur:
             <li>Improved logging</li>
             <li>Additional option</li>
             </ul>
-    owner: AsyJAIZ
+    author_name: AsyJAIZ
 com.berdik.letmedowngrade:
     git: https://github.com/Xposed-Modules-Repo/com.berdik.letmedowngrade
     summary: Let Me Downgrade - Add support for downgrading apps on Android 12 through 14.
@@ -1664,7 +1664,7 @@ com.berdik.letmedowngrade:
           id: com.berdik.letmedowngrade
           name: Let Me Downgrade
           releasedescription: <p>This release reduces the amount of storage space used by the module and improves the module's performance.</p>
-    owner: DavidBerdik
+    author_name: DavidBerdik
 com.berdik.macsposed:
     git: https://github.com/Xposed-Modules-Repo/com.berdik.macsposed
     summary: MACsposed - Add support for MAC Address spoofing to Android 12 through 14!
@@ -1707,7 +1707,7 @@ com.berdik.macsposed:
             <li>A Hindi translation of the user interface provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/99keshav99/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/99keshav99">@99keshav99</a>.</li>
             </ul>
             <p>With this release, MACsposed is shifting to a paid licensing model and requires an in-app purchase of a subscription or a lifetime license to unlock its functionality.</p>
-    owner: DavidBerdik
+    author_name: DavidBerdik
 com.bit747.clipboardfilter:
     git: https://github.com/Xposed-Modules-Repo/com.bit747.clipboardfilter
     summary: 过滤剪贴板写入内容，重点防止某些网站强迫剪贴板。作用于选择浏览器等需要被过滤的app。
@@ -1724,7 +1724,7 @@ com.bit747.clipboardfilter:
           releasedescription: |-
             <p>Xposed在获取不到SharedPreferences时尝试使用ContentProvider。<br>
             调整hook位置。</p>
-    owner: Thiasap
+    author_name: Thiasap
 com.bit747.smobajump:
     git: https://github.com/Xposed-Modules-Repo/com.bit747.smobajump
     summary: 跳过王者营地的启动动画和推广的界面,版本号带“DisableUpdate”的会屏蔽启动时的自动更新
@@ -1741,7 +1741,7 @@ com.bit747.smobajump:
           releasedescription: |-
             <p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>
             <p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>
-    owner: Thiasap
+    author_name: Thiasap
 com.blanke.diaomao163:
     git: https://github.com/Xposed-Modules-Repo/com.blanke.diaomao163
     summary: 网抑叼毛云，网易云换源插件
@@ -1754,7 +1754,7 @@ com.blanke.diaomao163:
           id: com.blanke.diaomao163
           name: 叼毛网抑云
           releasedescription: <p>优化稳定性</p>
-    owner: Blankeer
+    author_name: Blankeer
 com.bug.hookvip:
     git: https://github.com/Xposed-Modules-Repo/com.bug.hookvip
     summary: 解锁部分软件的会员
@@ -1885,7 +1885,7 @@ com.bug.hookvip:
             <ul>
             <li>去除 TikTok</li>
             </ul>
-    owner: bug-bit
+    author_name: bug-bit
 com.ceco.oreo.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox
     summary: All-in-one complex module for devices running vanilla Android 8 Oreo
@@ -1948,7 +1948,7 @@ com.ceco.oreo.gravitybox:
             <p><em>IMPORTANT:</em> Module settings are reset when framework is upgraded from EdXposed v0.4/OG Xposed to EdXposed v0.5.1+/LSPosed<br>
             due to changes in preferences storage location for modules in EdXposed v0.5/LSPosed<br>
             It is recommended to create a backup of GravityBox settings before upgrading the framework.</p>
-    owner: C3C0
+    author_name: C3C0
 com.ceco.pie.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.pie.gravitybox
     summary: All-in-one complex module for devices running vanilla Android 9 Pie
@@ -1977,7 +1977,7 @@ com.ceco.pie.gravitybox:
             <li>Dialer: adjusted for compatibility with the latest Google Dialer<br>
             --- fixes muting Dialpad tones during UNC Quiet Hours</li>
             </ul>
-    owner: C3C0
+    author_name: C3C0
 com.ceco.q.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.q.gravitybox
     summary: All-in-one complex module for devices running vanilla Android 10 (Q)
@@ -2000,7 +2000,7 @@ com.ceco.q.gravitybox:
             <li>Dialer: adjusted for compatibility with the latest Google Dialer<br>
             --- fixes muting Dialpad tones during UNC Quiet Hours</li>
             </ul>
-    owner: C3C0
+    author_name: C3C0
 com.ceco.r.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.r.gravitybox
     summary: All-in-one complex module for devices running vanilla Android 11 (R)
@@ -2027,7 +2027,7 @@ com.ceco.r.gravitybox:
             <li>Properly identify OnePlus 8T as device running OxygenOS ROM (thanks to F-i-f)<br>
             --- should improve compatibility significantly</li>
             </ul>
-    owner: C3C0
+    author_name: C3C0
 com.chacha.igexperiments:
     git: https://github.com/Xposed-Modules-Repo/com.chacha.igexperiments
     summary: ""
@@ -2040,7 +2040,7 @@ com.chacha.igexperiments:
           id: com.chacha.igexperiments
           name: IGExperiments
           releasedescription: "<h3>Version 3 - What's New</h3>\n<ul>\n<li>\U0001F680 <strong>Auto Mode:</strong> Automatically detects compatible classes for Instagram versions 334+.</li>\n<li>\U0001F514 <strong>Update Checker:</strong> Get notified when a new module update is available with a direct download link.</li>\n<li>\U0001F3A8 <strong>UI Enhancements:</strong> Improved user interface for a smoother and more intuitive experience.</li>\n<li>\U0001F6E0️ <strong>Separate Hooks Repository:</strong> Hooks are now managed in a dedicated repository for easier updates<br>\nAvailable at: <strong><a href=\"https://github.com/ReSo7200/IGExperimentsHooksUpdates\">IGExperimentsHooksUpdates</a></strong></li>\n<li>\U0001F41B <strong>Bug Fixes:</strong> Squashed various bugs to improve stability and performance.</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>Version 3 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ReSo7200/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ReSo7200\">@ReSo7200</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2506086274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xHookman/IGexperiments/issues/43\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xHookman/IGexperiments/pull/43/hovercard\" href=\"https://github.com/xHookman/IGexperiments/pull/43\">xHookman/IGexperiments#43</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xHookman/IGexperiments/compare/v2.5.1...v3.0\">xHookman/IGexperiments@<tt>v2.5.1...v3.0</tt></a></p>"
-    owner: xHookman
+    author_name: xHookman
 com.chacha.matrixrain:
     git: https://github.com/Xposed-Modules-Repo/com.chacha.matrixrain
     summary: Allow you to add a customisable matrix rain in your notifications panel !
@@ -2059,7 +2059,7 @@ com.chacha.matrixrain:
             <p>Fixed font not applied after reboot<br>
             Fixed settings edition when the settings are hidden<br>
             Texts are more precise</p>
-    owner: xHookman
+    author_name: xHookman
 com.chacha.notigif:
     git: https://github.com/Xposed-Modules-Repo/com.chacha.notigif
     summary: Allow you to add a gif or a picture in your notifications panel !
@@ -2084,7 +2084,7 @@ com.chacha.notigif:
             Added a reminder<br>
             (Tell me if fade and show on lockscreen switches doesn't work on your device)<br>
             Soon a matrix rain module</p>
-    owner: xHookman
+    author_name: xHookman
 com.chacha.samsungmusiccustomiser:
     git: https://github.com/Xposed-Modules-Repo/com.chacha.samsungmusiccustomiser
     summary: |-
@@ -2107,7 +2107,7 @@ com.chacha.samsungmusiccustomiser:
             Updated bools tab<br>
             Fixed red background on track title font spinner<br>
             Fixed bad icon quality on splash screen</p>
-    owner: xHookman
+    author_name: xHookman
 com.chacha.smessagescustom:
     git: https://github.com/Xposed-Modules-Repo/com.chacha.smessagescustom
     summary: |-
@@ -2122,7 +2122,7 @@ com.chacha.smessagescustom:
           id: com.chacha.smessagescustom
           name: Samsung Messages Customiser
           releasedescription: <p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>
-    owner: xHookman
+    author_name: xHookman
 com.chrxw.purenga:
     git: https://github.com/Xposed-Modules-Repo/com.chrxw.purenga
     summary: NGA论坛APP广告净化模块
@@ -2145,7 +2145,7 @@ com.chrxw.purenga:
             <hr>
             <h1>捐赠 <a href="https://afdian.com/a/chr233" rel="nofollow">爱发电</a></h1>
             <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67"><img src="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67" alt="image" data-canonical-src="https://raw.chrxw.com/chr233/master/afadian_qr.png" style="max-width: 100%;"></a></p>
-    owner: chr233
+    author_name: chr233
 com.close.hook.ads:
     git: https://github.com/Xposed-Modules-Repo/com.close.hook.ads
     summary: ""
@@ -2168,7 +2168,7 @@ com.close.hook.ads:
             <li>优化回调机制</li>
             <li>解决部分应用使用功能一闪退的问题(com.bytedance.sdk)</li>
             </ul>
-    owner: zjyzip
+    author_name: zjyzip
 com.coderstory.flyme:
     git: https://github.com/Xposed-Modules-Repo/com.coderstory.flyme
     summary: Flyme系统定制修改工具
@@ -2189,7 +2189,7 @@ com.coderstory.flyme:
             源码已经上传github 可自行下载 <a href="https://github.com/coderstory/FlymeHelper">https://github.com/coderstory/FlymeHelper</a><br>
             本次更新开放所有功能 输入任意QQ号即可激活<br>
             本项目开发了整整6年多 是时候结束了</p>
-    owner: coderstory
+    author_name: coderstory
 com.coderstory.flyme9:
     git: https://github.com/Xposed-Modules-Repo/com.coderstory.flyme9
     summary: Flyme系统定制修改工具
@@ -2210,7 +2210,7 @@ com.coderstory.flyme9:
             源码已经上传github 可自行下载 <a href="https://github.com/coderstory/FlymeHelper">https://github.com/coderstory/FlymeHelper</a><br>
             本次更新开放所有功能<br>
             本项目开发了整整6年多 是时候结束了</p>
-    owner: coderstory
+    author_name: coderstory
 com.coderstory.flyme10:
     git: https://github.com/Xposed-Modules-Repo/com.coderstory.flyme10
     summary: |-
@@ -2240,7 +2240,7 @@ com.coderstory.flyme10:
             <p>1.新增浏览器去广告 【基于10.1.6版本测试】<br>
             2.增强天气去广告【基于51.12.22版本测试】</p>
             <p>因为代码混淆的原因，其他的版本可能无效</p>
-    owner: coderstory
+    author_name: coderstory
 com.coderstory.toolkit:
     git: https://github.com/Xposed-Modules-Repo/com.coderstory.toolkit
     summary: |-
@@ -2271,7 +2271,7 @@ com.coderstory.toolkit:
             <ul>
             <li>支持在 Android 11+ 上绕过 shared uid 验证</li>
             </ul>
-    owner: coderstory
+    author_name: coderstory
 com.coolest.toolbox:
     git: https://github.com/Xposed-Modules-Repo/com.coolest.toolbox
     summary: 解锁小米平板MIUI+连电脑, 同时让不支持MIUI+的手机支持MIUI+
@@ -2284,7 +2284,7 @@ com.coolest.toolbox:
           id: com.coolest.toolbox
           name: MIUI工具箱
           releasedescription: <p>[修复]JoyUI无法使用的问题</p>
-    owner: CoolestEnoch
+    author_name: CoolestEnoch
 com.crossbowffs.quotelock:
     git: https://github.com/Xposed-Modules-Repo/com.crossbowffs.quotelock
     summary: Displays quotes on your phone lockscreen!
@@ -2311,7 +2311,7 @@ com.crossbowffs.quotelock:
             <li>Fixed Wikiquote source</li>
             </ul>
             <p>Apologies for the really long update delay, I've been really busy with school. In other news, Visual Novel as a Service has migrated to Google App Engine. If you experience refreshing errors, try flushing your DNS cache.</p>
-    owner: soumyamahunt
+    author_name: soumyamahunt
 com.darkeyes.tricks:
     git: https://github.com/Xposed-Modules-Repo/com.darkeyes.tricks
     summary: A simple module for Android 8.0, 8.1, 9, 10, 11, 12, 12.1, 13 and 14 that puts together a collection of different mods (tricks).
@@ -2328,7 +2328,7 @@ com.darkeyes.tricks:
           releasedescription: |-
             <p>Add option to silence phone call recording warnings<br>
             Misc improvements</p>
-    owner: darkeyes84
+    author_name: darkeyes84
 com.dingda.adfree:
     git: https://github.com/Xposed-Modules-Repo/com.dingda.adfree
     summary: 叮嗒出行强力去广告
@@ -2349,7 +2349,7 @@ com.dingda.adfree:
             <li>Support 5.0.7</li>
             </ul>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Xposed-Modules-Repo/com.dingda.adfree/compare/10-1.0...11-1.1"><tt>10-1.0...11-1.1</tt></a></p>
-    owner: kazutoiris
+    author_name: kazutoiris
 com.dingtalk.recall:
     git: https://github.com/Xposed-Modules-Repo/com.dingtalk.recall
     summary: 钉钉反撤回神器
@@ -2362,7 +2362,7 @@ com.dingtalk.recall:
           id: com.dingtalk.recall
           name: 钉钉反撤回神器
           releasedescription: '<p><strong>Full Changelog</strong>: <a href="https://github.com/Xposed-Modules-Repo/com.dingtalk.recall/commits/v1">https://github.com/Xposed-Modules-Repo/com.dingtalk.recall/commits/v1</a></p>'
-    owner: kazutoiris
+    author_name: kazutoiris
 com.douban.fuckad:
     git: https://github.com/Xposed-Modules-Repo/com.douban.fuckad
     summary: 屏蔽豆瓣APP的绝大部分内嵌广告
@@ -2375,7 +2375,7 @@ com.douban.fuckad:
           id: com.douban.fuckad
           name: 屏蔽豆瓣App广告
           releasedescription: ""
-    owner: yeqiling
+    author_name: yeqiling
 com.dr8.xposed.saax:
     git: https://github.com/Xposed-Modules-Repo/com.dr8.xposed.saax
     summary: ""
@@ -2396,7 +2396,7 @@ com.dr8.xposed.saax:
             <li>Updated for Android Auto 6.3.611314</li>
             <li>Sorry to skip 6.2, but was having issues with the module</li>
             </ul>
-    owner: agentdr8
+    author_name: agentdr8
 com.droserasprout.healergram:
     git: https://github.com/Xposed-Modules-Repo/com.droserasprout.healergram
     summary: An Xposed module to heal your Telegram addiction
@@ -2409,7 +2409,7 @@ com.droserasprout.healergram:
           id: com.droserasprout.healergram
           name: Healergram
           releasedescription: <p>Initial release</p>
-    owner: droserasprout
+    author_name: droserasprout
 com.dualguard:
     git: https://github.com/Xposed-Modules-Repo/com.dualguard
     summary: ""
@@ -2426,7 +2426,7 @@ com.dualguard:
           releasedescription: |-
             <p>In application check for activation<br>
             i18n support</p>
-    owner: Mikotwa
+    author_name: Mikotwa
 com.example.installhook:
     git: https://github.com/Xposed-Modules-Repo/com.example.installhook
     summary: ColorOS 应用包安装程序自动点击安装与完成按钮，记得配合ColorOSTool开启原生安装程序哦！
@@ -2439,7 +2439,7 @@ com.example.installhook:
           id: com.example.installhook
           name: install hook
           releasedescription: <p>ColorOS 应用包安装程序自动点击安装与完成按钮，记得配合ColorOSTool开启原生安装程序哦！</p>
-    owner: wushuo894
+    author_name: wushuo894
 com.example.vcam:
     git: https://github.com/Xposed-Modules-Repo/com.example.vcam
     summary: 安卓虚拟摄像头 android virtual camera
@@ -2456,7 +2456,7 @@ com.example.vcam:
           releasedescription: |-
             <p>修正繁体中文翻译<br>
             感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/david082321/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/david082321">@david082321</a> 的翻译贡献</p>
-    owner: w2016561536
+    author_name: w2016561536
 com.ext.star.wars:
     git: https://github.com/Xposed-Modules-Repo/com.ext.star.wars
     summary: ""
@@ -2479,7 +2479,7 @@ com.ext.star.wars:
             <li>支持粘贴坐标</li>
             <li>支持 LibChecker，可以直接添加 Block 的组件</li>
             </ol>
-    owner: captain-miao
+    author_name: captain-miao
 com.fankes.apperrorstracking:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.apperrorstracking
     summary: 为原生 FC 对话框增加更多功能并修复国内定制 ROM 删除 FC 对话框的问题，给 Android 开发者带来更好的体验。
@@ -2508,7 +2508,7 @@ com.fankes.apperrorstracking:
             <li>更换新的 Hook 点修复在部分系统上无法展示错误对话框的问题</li>
             <li>新增 APP 目标 SDK 和最小 SDK 版本展示</li>
             </ol>
-    owner: fankes
+    author_name: fankes
 com.fankes.coloros.notify:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.coloros.notify
     summary: 为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeUI
@@ -2527,7 +2527,7 @@ com.fankes.coloros.notify:
             <p>1.修复并已查明从 1.9 版本开始长达 5 个版本系统界面 OOM 的问题，感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Art-Chen/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Art-Chen">@Art-Chen</a> 提供的 VM Heap 查到的问题<br>
             2.更新底层 Hook 框架<br>
             3.优化部分代码，提升应用稳定性</p>
-    owner: fankes
+    author_name: fankes
 com.fankes.enforcehighrefreshrate:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.enforcehighrefreshrate
     summary: 适用于 OPPO、一加、三星系列设备系统的强制高刷新率，其余系统未做测试。
@@ -2540,7 +2540,7 @@ com.fankes.enforcehighrefreshrate:
           id: com.fankes.enforcehighrefreshrate
           name: 强制高刷新率
           releasedescription: <p>首个版本提交至仓库，可用性请自行测试。</p>
-    owner: fankes
+    author_name: fankes
 com.fankes.forcerotate:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.forcerotate
     summary: 解除 APP 对屏幕旋转的控制，针对所有 Android Pad 设计，拒绝强制竖屏从我做起
@@ -2553,7 +2553,7 @@ com.fankes.forcerotate:
           id: com.fankes.forcerotate
           name: 自由屏幕旋转
           releasedescription: <p>修复哔哩哔哩 HD 和部分仅横屏 APP 不能竖屏的问题</p>
-    owner: fankes
+    author_name: fankes
 com.fankes.miui.notify:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.miui.notify
     summary: 修复被 MIUI 开发组丢弃的原生通知图标，支持 MIUI 12、12.5、13 以及最新版本
@@ -2580,7 +2580,7 @@ com.fankes.miui.notify:
             <li>修复可能在旧版本系统上发生的问题</li>
             <li>新增支持在经典通知样式下关闭替换通知图标功能</li>
             </ol>
-    owner: fankes
+    author_name: fankes
 com.fankes.refusebrightness:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.refusebrightness
     summary: 拒绝 APP 强制设置指定活动窗口的屏幕亮度
@@ -2593,7 +2593,7 @@ com.fankes.refusebrightness:
           id: com.fankes.refusebrightness
           name: 拒绝强制亮度
           releasedescription: <p>修复部分机型和系统不生效的问题</p>
-    owner: fankes
+    author_name: fankes
 com.fankes.tsbattery:
     git: https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery
     summary: TSBattery 是一个旨在使 QQ、TIM、微信 变得更省电的开源 Xposed 模块
@@ -2618,7 +2618,7 @@ com.fankes.tsbattery:
             <li>更新 API 34</li>
             <li>其它功能优化，提升稳定性</li>
             </ol>
-    owner: fankes
+    author_name: fankes
 com.fastmo.xhs:
     git: https://github.com/Xposed-Modules-Repo/com.fastmo.xhs
     summary: 红薯自动 小红书自动回复工具
@@ -2637,7 +2637,7 @@ com.fastmo.xhs:
             <ol>
             <li>优化本地配置</li>
             </ol>
-    owner: tixiaowang
+    author_name: tixiaowang
 com.fkzhang.qqxposed:
     git: https://github.com/Xposed-Modules-Repo/com.fkzhang.qqxposed
     summary: ""
@@ -2650,7 +2650,7 @@ com.fkzhang.qqxposed:
           id: com.fkzhang.qqxposed
           name: QXposed （QX模块）
           releasedescription: ""
-    owner: fkzhang
+    author_name: fkzhang
 com.fkzhang.wechatxposed:
     git: https://github.com/Xposed-Modules-Repo/com.fkzhang.wechatxposed
     summary: ""
@@ -2663,7 +2663,7 @@ com.fkzhang.wechatxposed:
           id: com.fkzhang.wechatxposed
           name: WeXposed （微X模块）
           releasedescription: ""
-    owner: fkzhang
+    author_name: fkzhang
 com.fuck.android.rimet:
     git: https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet
     summary: 仅限于开发调试模拟位置，请勿用于钉钉打卡等非法用途！
@@ -2686,7 +2686,7 @@ com.fuck.android.rimet:
             <li>支持使用LSPosed api大于92的情况下免后台常驻</li>
             <li>支持使用LSPosed api大于92的情况下对目标应用隐藏模块</li>
             </ul>
-    owner: kaisar945
+    author_name: kaisar945
 com.fuckcoolapk:
     git: https://github.com/Xposed-Modules-Repo/com.fuckcoolapk
     summary: Best present for 316 and 423.
@@ -2699,7 +2699,7 @@ com.fuckcoolapk:
           id: com.fuckcoolapk
           name: FuckCoolapk
           releasedescription: ""
-    owner: lz233
+    author_name: lz233
 com.function.mtp:
     git: https://github.com/Xposed-Modules-Repo/com.function.mtp
     summary: Android14连接电脑后，默认连接USB文件传输模式
@@ -2712,7 +2712,7 @@ com.function.mtp:
           id: com.function.mtp
           name: Android14连接电脑后，默认连接USB文件传输模式
           releasedescription: <p>仅在Pixel 6(Android14)测试可用。</p>
-    owner: javaeryang
+    author_name: javaeryang
 com.gauravssnl.bypassrootcheck.pro:
     git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.bypassrootcheck.pro
     summary: Bypass Root Check Pro Xposed Module with Java and Native (C/C++) Hooks based on Modern Xposed API by LSPosed.
@@ -2749,7 +2749,7 @@ com.gauravssnl.bypassrootcheck.pro:
             Bypass check for root cloaking apps.<br>
             Bypass check for Unix Domain Socket used by Magisk.<br>
             System Native Hooks in C/C++ apart from Java hooks to make root hiding possible.</p>
-    owner: gauravssnl
+    author_name: gauravssnl
 com.gauravssnl.mobileradioadaway:
     git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.mobileradioadaway
     summary: Mobile Radio Ad Away Xposed module for the Android app available in the Google PlayStore.
@@ -2766,7 +2766,7 @@ com.gauravssnl.mobileradioadaway:
           releasedescription: |-
             <p><strong>Change Log</strong><br>
             Remove unused libraries to minimise the APK size. The APK size is around 50 KB now.</p>
-    owner: gauravssnl
+    author_name: gauravssnl
 com.gauravssnl.radiobox:
     git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.radiobox
     summary: Online RadioBox App PRO / Ad free version activator Xposed module for the Android app available on Google PlayStore
@@ -2779,7 +2779,7 @@ com.gauravssnl.radiobox:
           id: com.gauravssnl.radiobox
           name: Radio Box PRO / Ad Free Xposed Module
           releasedescription: <p>Fixed the hooked method name as per the latest app version (2.3.20) .</p>
-    owner: gauravssnl
+    author_name: gauravssnl
 com.gauravssnl.simpleradioadaway:
     git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.simpleradioadaway
     summary: SimpleRadio AdAway Xposed module which has been developed using the `Modern Xposed API` provided by LSPosed. Enjoy Ad free radio experience :)
@@ -2796,7 +2796,7 @@ com.gauravssnl.simpleradioadaway:
           releasedescription: |-
             <p>Add the initial Xposed module code which has been developed using the <code>Modern Xposed API</code> provided by the LSPosed team.<br>
             Enjoy Ad-free radio experience.</p>
-    owner: gauravssnl
+    author_name: gauravssnl
 com.github.dan.nostoragerestrict:
     git: https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict
     summary: Removes the restriction when selecting folders (Downloads/Android) through the file manager on Android 11 and higher
@@ -2809,7 +2809,7 @@ com.github.dan.nostoragerestrict:
           id: com.github.dan.nostoragerestrict
           name: NoStorageRestrict
           releasedescription: <p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>
-    owner: DanGLES3
+    author_name: DanGLES3
 com.github.droserasprout.lockscreencamera:
     git: https://github.com/Xposed-Modules-Repo/com.github.droserasprout.lockscreencamera
     summary: Xposed Framework module to skip authentication on "Quickly open camera" gesture.
@@ -2828,7 +2828,7 @@ com.github.droserasprout.lockscreencamera:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: droserasprout
+    author_name: droserasprout
 com.github.jamsilva.ptgov_rootskip:
     git: https://github.com/Xposed-Modules-Repo/com.github.jamsilva.ptgov_rootskip
     summary: Módulo Xposed para aplicações do governo português.
@@ -2841,7 +2841,7 @@ com.github.jamsilva.ptgov_rootskip:
           id: com.github.jamsilva.ptgov_rootskip
           name: Módulo Xposed para aplicações do governo português.
           releasedescription: ""
-    owner: jamsilva
+    author_name: jamsilva
 com.github.thepiemonster.hidemocklocation:
     git: https://github.com/Xposed-Modules-Repo/com.github.thepiemonster.hidemocklocation
     summary: Xposed module to hide the mock location setting.
@@ -2854,7 +2854,7 @@ com.github.thepiemonster.hidemocklocation:
           id: com.github.thepiemonster.hidemocklocation
           name: Hide Mock Location
           releasedescription: ""
-    owner: ThePieMonster
+    author_name: ThePieMonster
 com.github.tianma8023.xposed.smscode:
     git: https://github.com/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode
     summary: |-
@@ -2893,7 +2893,7 @@ com.github.tianma8023.xposed.smscode:
             <li>修复：修复查看源码失败的问题</li>
             </ol>
             <p>sha 256: d16f00e82654d5d22e7a0a94eaec82ae617bf3bd71f02aac8ea5364d27ee7a51</p>
-    owner: tianma8023
+    author_name: tianma8023
 com.gswxxn.autonfc:
     git: https://github.com/Xposed-Modules-Repo/com.gswxxn.autonfc
     summary: 仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC
@@ -2914,7 +2914,7 @@ com.gswxxn.autonfc:
             <li>适配旧版小米智能卡</li>
             <li>自动开启 NFC 时, 将默认钱包设置为小米钱包</li>
             </ul>
-    owner: GSWXXN
+    author_name: GSWXXN
 com.gswxxn.camerasnap:
     git: https://github.com/Xposed-Modules-Repo/com.gswxxn.camerasnap
     summary: 解锁/补全 MIUI 街拍模式
@@ -2935,7 +2935,7 @@ com.gswxxn.camerasnap:
             <li>适配 4.1 - 4.3 的相机</li>
             <li>更新应用名及模块描述</li>
             </ul>
-    owner: GSWXXN
+    author_name: GSWXXN
 com.gswxxn.restoresplashscreen:
     git: https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen
     summary: 自定义MIUI的Splash Screen
@@ -2972,7 +2972,7 @@ com.gswxxn.restoresplashscreen:
             <li>[适配] Android 14</li>
             <li>[其他] 变更应用名, 图标, 模块描述</li>
             </ul>
-    owner: GSWXXN
+    author_name: GSWXXN
 com.gswxxn.unlockmilink:
     git: https://github.com/Xposed-Modules-Repo/com.gswxxn.unlockmilink
     summary: 激活模块后，不需要在电脑端配置，即可让所有电脑均支持小米妙享的应用流转，让妙享不止妙在小米笔记本上。
@@ -2991,7 +2991,7 @@ com.gswxxn.unlockmilink:
             <ul>
             <li>适配 HyperOS</li>
             </ul>
-    owner: GSWXXN
+    author_name: GSWXXN
 com.gswxxn.xmsfnotichannel:
     git: https://github.com/Xposed-Modules-Repo/com.gswxxn.xmsfnotichannel
     summary: 一键管理所有应用的运营消息通知通道，仅支持 MIUI
@@ -3022,7 +3022,7 @@ com.gswxxn.xmsfnotichannel:
             <li>支持自定义消息通道的名称. (由于这是一项高级操作, 因此我们已将其隐藏, 连续点击某处可进行设置)</li>
             <li>如果没有找到指定消息通道, 则不会显示该应用</li>
             </ul>
-    owner: GSWXXN
+    author_name: GSWXXN
 com.hcgstudio.miui.fuck.gesture:
     git: https://github.com/Xposed-Modules-Repo/com.hcgstudio.miui.fuck.gesture
     summary: |-
@@ -3045,7 +3045,7 @@ com.hcgstudio.miui.fuck.gesture:
             <strong>Experimental</strong>: Support Mi Voice Assistant on non-Force Mode.  <em>I've debloated that app from my phone so I can't test.</em></p>
             <p>Hook了设置页面，现在您可以更简单地修改手势设置了。<br>
             <strong>实验性更新</strong>：在暴力模式禁用的情况下支持小爱同学。<em>因为我已经把那玩意删了，所以我自己没法测试。</em></p>
-    owner: mahoshojoHCG
+    author_name: mahoshojoHCG
 com.hchen.appretention:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.appretention
     summary: |-
@@ -3112,7 +3112,7 @@ com.hchen.appretention:
             <li>QQ: 517788148</li>
             <li>Telegram: <a href="https://t.me/hchen_appretention" rel="nofollow">https://t.me/hchen_appretention</a></li>
             </ul>
-    owner: HChenX
+    author_name: HChenX
 com.hchen.autoseffswitch:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch
     summary: 连接蓝牙耳机或有线耳机时自动切换音效为原声！Automatically switch sound effects to original sound when connecting Bluetooth or wired headphones!
@@ -3149,7 +3149,7 @@ com.hchen.autoseffswitch:
             <li>安装模块重启系统即可使用。</li>
             <li>如果无法使用说明可能不适配，请带着日志反馈。</li>
             </ul>
-    owner: HChenX
+    author_name: HChenX
 com.hchen.clipboardlist:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.clipboardlist
     summary: |-
@@ -3218,7 +3218,7 @@ com.hchen.clipboardlist:
             <p>The module is only available for Xiaomi devices! Adapt to MIUI, HyperOS</p>
             </li>
             </ul>
-    owner: HChenX
+    author_name: HChenX
 com.hchen.foregroundpin:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.foregroundpin
     summary: |-
@@ -3281,7 +3281,7 @@ com.hchen.foregroundpin:
             <li>MD5：</li>
             <li>2BCD8ACADACE8D3EE46D38ECE927DC43</li>
             </ul>
-    owner: HChenX
+    author_name: HChenX
 com.hchen.pinningapp:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.pinningapp
     summary: |-
@@ -3378,7 +3378,7 @@ com.hchen.pinningapp:
             <h4>For details, please refer to README.md.</h4>
             </li>
             </ul>
-    owner: HChenX
+    author_name: HChenX
 com.hd.hdtool:
     git: https://github.com/Xposed-Modules-Repo/com.hd.hdtool
     summary: Hook Tool By HdShare
@@ -3395,7 +3395,7 @@ com.hd.hdtool:
           releasedescription: |-
             <p>【更新日志】<br>
             1.测试提交到Lsposed仓库</p>
-    owner: HdShare
+    author_name: HdShare
 com.hello.world:
     git: https://github.com/Xposed-Modules-Repo/com.hello.world
     summary: |-
@@ -3418,7 +3418,7 @@ com.hello.world:
             <p>支持白嫖。<br>
             适配最新版本v23932.<br>
             修复已知问题。</p>
-    owner: javaeryang
+    author_name: javaeryang
 com.hhvvg.anydebug:
     git: https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug
     summary: |-
@@ -3485,7 +3485,7 @@ com.hhvvg.anydebug:
             <li>添加属性过滤器</li>
             <li>添加 alpha/scroll/rotation/scale/translation 等属性的修改</li>
             </ul>
-    owner: gitofleonardo
+    author_name: gitofleonardo
 com.hhvvg.anytext:
     git: https://github.com/Xposed-Modules-Repo/com.hhvvg.anytext
     summary: 能够将手机界面的文本修改成想要的内容。Provides features to change text content in native Android App.
@@ -3502,7 +3502,7 @@ com.hhvvg.anytext:
           releasedescription: |-
             <p>In this release, you can enable or disable text background color dynamically. Additionally, text color or click listener can now work perfectly in list view(e.g. RecyclerView), since I change a new hook method. Some extra optimizations added.</p>
             <p>在该版本中，你可以动态启用或者关闭文字背景色了。除此之外，列表项中的文本背景色或者是点击监听也可以正常工作了，因为我换了个新的hook方法。还有一些小优化。</p>
-    owner: gitofleonardo
+    author_name: gitofleonardo
 com.hhvvg.ecm:
     git: https://github.com/Xposed-Modules-Repo/com.hhvvg.ecm
     summary: 一个增强版的剪切板管理器，提供自动清除剪切板内容等功能
@@ -3515,7 +3515,7 @@ com.hhvvg.ecm:
           id: com.hhvvg.ecm
           name: An Extended Clipboard Manager
           releasedescription: <p>(理论上)适配到Android P以及以后，因为手上没有可以测试的手机</p>
-    owner: gitofleonardo
+    author_name: gitofleonardo
 com.hhvvg.launcher3customizer:
     git: https://github.com/Xposed-Modules-Repo/com.hhvvg.launcher3customizer
     summary: Customization For Launcher3
@@ -3608,7 +3608,7 @@ com.hhvvg.launcher3customizer:
             <li>管理隐私应用</li>
             <li>... 待开发</li>
             </ul>
-    owner: gitofleonardo
+    author_name: gitofleonardo
 com.hiiro.fuckddvip:
     git: https://github.com/Xposed-Modules-Repo/com.hiiro.fuckddvip
     summary: ""
@@ -3629,7 +3629,7 @@ com.hiiro.fuckddvip:
             原版嘀嘀下载地址 <a href="http://dddh.pub/" rel="nofollow">http://dddh.pub/</a><br>
             模块安装包<a href="https://hiiro.lanzouw.com/iqwBt15uweve" rel="nofollow">https://hiiro.lanzouw.com/iqwBt15uweve</a> 密码:8paa<br>
             内置模块嘀嘀安装包 <a href="https://hiiro.lanzouw.com/imNjo15uwf3c" rel="nofollow">https://hiiro.lanzouw.com/imNjo15uwf3c</a> 密码:bmt4</p>
-    owner: inory121
+    author_name: inory121
 com.hiwechart.translate:
     git: https://github.com/Xposed-Modules-Repo/com.hiwechart.translate
     summary: ""
@@ -3652,7 +3652,7 @@ com.hiwechart.translate:
             支持安卓11系统<br>
             支持LSP框架<br>
             支持太极框架</p>
-    owner: "231599447"
+    author_name: "231599447"
 com.hook.fuckmimarket:
     git: https://github.com/Xposed-Modules-Repo/com.hook.fuckmimarket
     summary: |-
@@ -3667,7 +3667,7 @@ com.hook.fuckmimarket:
           id: com.hook.fuckmimarket
           name: 不许卡米/FuckMiMarket
           releasedescription: ""
-    owner: gfbjngjibn
+    author_name: gfbjngjibn
 com.houvven.impad:
     git: https://github.com/Xposed-Modules-Repo/com.houvven.impad
     summary: 在手机上实现平板登录。支持QQ、微信、企业微信
@@ -3680,7 +3680,7 @@ com.houvven.impad:
           id: com.houvven.impad
           name: I'm Pad
           releasedescription: <p>see <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/Houvven/I-Am-Pad/commit/b34f751c2baeb74a9e0766dd73be833845cf7b1f/hovercard" href="https://github.com/Houvven/I-Am-Pad/commit/b34f751c2baeb74a9e0766dd73be833845cf7b1f">Houvven/I-Am-Pad@<tt>b34f751</tt></a></p>
-    owner: Houvven
+    author_name: Houvven
 com.htetz.monopatch:
     git: https://github.com/Xposed-Modules-Repo/com.htetz.monopatch
     summary: Patch Monotype to enable changing any fonts on Samsung devices with FlipFonts
@@ -3693,7 +3693,7 @@ com.htetz.monopatch:
           id: com.htetz.monopatch
           name: Monotype Patcher
           releasedescription: ""
-    owner: KhunHtetzNaing
+    author_name: KhunHtetzNaing
 com.hujiayucc.hook:
     git: https://github.com/Xposed-Modules-Repo/com.hujiayucc.hook
     summary: |-
@@ -3712,7 +3712,7 @@ com.hujiayucc.hook:
           releasedescription: |-
             <p>由于大量有害软件和无效流量刷入，故采取提交应用时验证账号，现已将已提交应用清空，所有应用请重新上传。</p>
             <p>若出现多次上传违规应用的情况，将会采取封号措施，应用适配进度<a href="https://fkad.hujiayucc.cn/applist" rel="nofollow">点击此处</a>进行查看</p>
-    owner: hujiayucc
+    author_name: hujiayucc
 com.hujiayucc.notask:
     git: https://github.com/Xposed-Modules-Repo/com.hujiayucc.notask
     summary: 隐藏最近任务列表视图
@@ -3733,7 +3733,7 @@ com.hujiayucc.notask:
             <li>修复 部分应用隐藏视图后会销毁Activity</li>
             <li>适配 单独优化QQ、微信</li>
             </ul>
-    owner: hujiayucc
+    author_name: hujiayucc
 com.hujiayucc.rpointer:
     git: https://github.com/Xposed-Modules-Repo/com.hujiayucc.rpointer
     summary: |-
@@ -3808,7 +3808,7 @@ com.hujiayucc.rpointer:
             <li>新增 图标列表</li>
             <li>修复 若干Bug</li>
             </ul>
-    owner: hujiayucc
+    author_name: hujiayucc
 com.hx.fanqie:
     git: https://github.com/Xposed-Modules-Repo/com.hx.fanqie
     summary: ""
@@ -3821,7 +3821,7 @@ com.hx.fanqie:
           id: com.hx.fanqie
           name: FanQieXposed 番茄小说去掉广告
           releasedescription: <p>适配番茄小说6.0.3.32</p>
-    owner: delivd
+    author_name: delivd
 com.jakting.duolingo:
     git: https://github.com/Xposed-Modules-Repo/com.jakting.duolingo
     summary: 将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能
@@ -3834,7 +3834,7 @@ com.jakting.duolingo:
           id: com.jakting.duolingo
           name: Duolingo时区修复
           releasedescription: <p>首次上传，应该不需要更新了（</p>
-    owner: TigerBeanst
+    author_name: TigerBeanst
 com.janking.viewperf:
     git: https://github.com/Xposed-Modules-Repo/com.janking.viewperf
     summary: 检测View测量、布局和绘制性能
@@ -3859,7 +3859,7 @@ com.janking.viewperf:
             <li>显示每个节点的measure、layout、draw耗时</li>
             <li>显示每个节点的measure次数</li>
             </ul>
-    owner: JankingWon
+    author_name: JankingWon
 com.jj.hidenavbar:
     git: https://github.com/Xposed-Modules-Repo/com.jj.hidenavbar
     summary: 打开隐藏手势提示线的选项后，仍有小白条的功能
@@ -3880,7 +3880,7 @@ com.jj.hidenavbar:
             <li>解决较新版本 系统桌面 底部小白条透明区域的点击事件分发</li>
             <li><a href="https://wwxx.lanzoue.com/b03qqx6ej" rel="nofollow">https://wwxx.lanzoue.com/b03qqx6ej</a>  密码:5sg6</li>
             </ul>
-    owner: a709560839
+    author_name: a709560839
 com.js.deepsleep:
     git: https://github.com/Xposed-Modules-Repo/com.js.deepsleep
     summary: |-
@@ -3907,7 +3907,7 @@ com.js.deepsleep:
             <li>更新依赖</li>
             <li>修正一些翻译</li>
             </ul>
-    owner: Jasper-1024
+    author_name: Jasper-1024
 com.junge.algorithmaide:
     git: https://github.com/Xposed-Modules-Repo/com.junge.algorithmaide
     summary: ""
@@ -3920,7 +3920,7 @@ com.junge.algorithmaide:
           id: com.junge.algorithmaide
           name: 算法助手
           releasedescription: ""
-    owner: JunGe-Y
+    author_name: JunGe-Y
 com.jy.taofanfan:
     git: https://github.com/Xposed-Modules-Repo/com.jy.taofanfan
     summary: 购物自动领券返利模块
@@ -3939,7 +3939,7 @@ com.jy.taofanfan:
             <p>1.适配android14<br>
             2.支持跳转团团分身<br>
             3.修复粘贴板识别</p>
-    owner: gyy1207
+    author_name: gyy1207
 com.jy.tt.auth:
     git: https://github.com/Xposed-Modules-Repo/com.jy.tt.auth
     summary: |-
@@ -3954,7 +3954,7 @@ com.jy.tt.auth:
           id: com.jy.tt.auth
           name: 团团助手
           releasedescription: <p>修复应用未申请获取所有应用列表时无法跳转分身的问题</p>
-    owner: gyy1207
+    author_name: gyy1207
 com.jy.xp.lk:
     git: https://github.com/Xposed-Modules-Repo/com.jy.xp.lk
     summary: 长按复制WebView链接
@@ -3967,7 +3967,7 @@ com.jy.xp.lk:
           id: com.jy.xp.lk
           name: 长按复制链接
           releasedescription: ""
-    owner: gyy1207
+    author_name: gyy1207
 com.jy.xposed.skip:
     git: https://github.com/Xposed-Modules-Repo/com.jy.xposed.skip
     summary: 自动跳过App开屏页、屏蔽各大广告联盟
@@ -3980,7 +3980,7 @@ com.jy.xposed.skip:
           id: com.jy.xposed.skip
           name: AD快消
           releasedescription: <p>适配android14</p>
-    owner: gyy1207
+    author_name: gyy1207
 com.keshav.capturesposed:
     git: https://github.com/Xposed-Modules-Repo/com.keshav.capturesposed
     summary: CaptureSposed - An Xposed module that effectively disables the screenshot detection API introduced in Android 14
@@ -3997,7 +3997,7 @@ com.keshav.capturesposed:
           releasedescription: |-
             <p>This is a re-release of CaptureSposed v1.0.4, which was itself a re-release of CaptureSposed v1.0.3. The reason for this is because Google's app review team incorrectly flagged the v1.0.4 Play Store release as failing to install properly. Despite the numerous evidence presented in our appeal, the release was blocked and we were therefore required to release yet another version. To maintain consistency of releases across all of the module's distribution channels, a new build has been made available here as well.</p>
             <p>Release notes for CaptureSposed v1.0.3: This release reduces the amount of storage space used by the module and improves the module's performance.</p>
-    owner: DavidBerdik
+    author_name: DavidBerdik
 com.ketal.bcrfullscreen:
     git: https://github.com/Xposed-Modules-Repo/com.ketal.bcrfullscreen
     summary: 让BCR/PCR最新版全屏显示
@@ -4010,7 +4010,7 @@ com.ketal.bcrfullscreen:
           id: com.ketal.bcrfullscreen
           name: BCR/PCR强制全屏(BCRfullscreen)
           releasedescription: <p>只处理应用程序窗口（APPLICATION_WINDOW）</p>
-    owner: keta1
+    author_name: keta1
 com.kgg.hhvideo:
     git: https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo
     summary: 电影猎手App去广告模块
@@ -4023,7 +4023,7 @@ com.kgg.hhvideo:
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
           releasedescription: <p>适配电影猎手v3.1.0.6版本</p>
-    owner: KongGuoguang
+    author_name: KongGuoguang
 com.kgg.hlddz:
     git: https://github.com/Xposed-Modules-Repo/com.kgg.hlddz
     summary: 欢乐斗地主看广告领奖励，广告页面弹出1秒后自动关闭
@@ -4036,7 +4036,7 @@ com.kgg.hlddz:
           id: com.kgg.hlddz
           name: 地主不看广告
           releasedescription: <p>解决必须手动点击的5秒广告不会自动跳过的问题</p>
-    owner: KongGuoguang
+    author_name: KongGuoguang
 com.kooritea.fcmfix:
     git: https://github.com/Xposed-Modules-Repo/com.kooritea.fcmfix
     summary: 让fcm/gcm唤醒未启动的应用进行发送通知
@@ -4049,7 +4049,7 @@ com.kooritea.fcmfix:
           id: com.kooritea.fcmfix
           name: fcmfix
           releasedescription: ""
-    owner: kooritea
+    author_name: kooritea
 com.leo.xposed.xradiant:
     git: https://github.com/Xposed-Modules-Repo/com.leo.xposed.xradiant
     summary: '-'
@@ -4068,7 +4068,7 @@ com.leo.xposed.xradiant:
             <p>1.新增清除好友备注功能</p>
             <p>2.搜索手机号频繁调整回24小时限制</p>
             <p>3.优化一些加好友的限制功能</p>
-    owner: "498953584"
+    author_name: "498953584"
 com.ljlvink.formhook:
     git: https://github.com/Xposed-Modules-Repo/com.ljlvink.formhook
     summary: (MIUI14)解除小米平板只能打开4小窗的限制
@@ -4081,7 +4081,7 @@ com.ljlvink.formhook:
           id: com.ljlvink.formhook
           name: miui14平板解除小窗限制
           releasedescription: ""
-    owner: ljlVink
+    author_name: ljlVink
 com.ljlvink.stylusplus.xposed:
     git: https://github.com/Xposed-Modules-Repo/com.ljlvink.stylusplus.xposed
     summary: HyperOS for Pad 焦点笔激光 隔空鼠标
@@ -4094,7 +4094,7 @@ com.ljlvink.stylusplus.xposed:
           id: com.ljlvink.stylusplus.xposed
           name: HyperOS for Pad 焦点笔激光 隔空鼠标
           releasedescription: ""
-    owner: ljlVink
+    author_name: ljlVink
 com.lt2333.simplicitytools:
     git: https://github.com/Xposed-Modules-Repo/com.lt2333.simplicitytools
     summary: 一个基于 MIUI13+（Android12+）适配的系统拓展Xposed模块 // A system extension Xposed module based on MIUI13+ (Android12+)
@@ -4137,7 +4137,7 @@ com.lt2333.simplicitytools:
             <li>[Fix] Some bugs of the compatible mode of the status bar (A12)</li>
             <li>[Optime] Details of the Horizontal screen in the middle of the time (A12/A13)</li>
             </ul>
-    owner: LittleTurtle2333
+    author_name: LittleTurtle2333
 com.lt2333.wooboxforcoloros:
     git: https://github.com/Xposed-Modules-Repo/com.lt2333.wooboxforcoloros
     summary: 一个基于 ColorOS12（Android12）适配的系统拓展Xposed模块 // A system extension Xposed module based on ColorOS12 (Android12)
@@ -4162,7 +4162,7 @@ com.lt2333.wooboxforcoloros:
             <li>[优化] 使用EzXHelper重构所有Hook方法</li>
             <li>[其他] 升级依赖</li>
             </ul>
-    owner: LittleTurtle2333
+    author_name: LittleTurtle2333
 com.lu.wxmask:
     git: https://github.com/Xposed-Modules-Repo/com.lu.wxmask
     summary: 微信糊脸模块。隐藏特定用户的聊天记录，防止私密的聊天被第三人偷看
@@ -4185,7 +4185,7 @@ com.lu.wxmask:
             <li>修复2.2朋友圈、单聊详情退出崩溃 bug<br>
             重要变更：2.2版本开始，hook了sql（不区分微信版本）可能存在bug。</li>
             </ol>
-    owner: Mingyueyixi
+    author_name: Mingyueyixi
 com.luckyzyx.killredone:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.killredone
     summary: |-
@@ -4206,7 +4206,7 @@ com.luckyzyx.killredone:
             <p>更新依赖库版本<br>
             适配9RT C04 桌面时钟组件<br>
             (时钟_12.0.76 --&gt; c05c8c0)</p>
-    owner: luckyzyx
+    author_name: luckyzyx
 com.luckyzyx.luckytool:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool
     summary: |-
@@ -4377,7 +4377,7 @@ com.luckyzyx.luckytool:
             <li>[Add] ADM unlocks more download threads</li>
             <li>[Add] Enable National Day watermark in photo album C13+</li>
             </ul>
-    owner: luckyzyx
+    author_name: luckyzyx
 com.luckyzyx.notifyintercept:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept
     summary: |-
@@ -4398,7 +4398,7 @@ com.luckyzyx.notifyintercept:
             <p>重构通知规则数据存储方案为Json<br>
             更新Kotlin与部分依赖项<br>
             更新YukiHookAPI</p>
-    owner: luckyzyx
+    author_name: luckyzyx
 com.luckyzyx.toolboxunlock:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock
     summary: Toolbox for Minecraft:PE Unlock
@@ -4423,7 +4423,7 @@ com.luckyzyx.toolboxunlock:
             <li>[优化] 使用UI控制功能是否启用</li>
             <li>[添加] 移除MCPE许可证校验</li>
             </ul>
-    owner: luckyzyx
+    author_name: luckyzyx
 com.luigivampa92.xlogger:
     git: https://github.com/Xposed-Modules-Repo/com.luigivampa92.xlogger
     summary: Xposed module that allows to sniff and record logs of NFC and Bluetooth communication on device
@@ -4446,7 +4446,7 @@ com.luigivampa92.xlogger:
             <li>Fixed a bug when Bluetooth LE communication could not be captured in case GATT callback classes were extended and not directly created</li>
             <li>Fixed direction indication of performed READ operation on a GATT characteristic in Bluetooth LE communication</li>
             </ul>
-    owner: LuigiVampa92
+    author_name: LuigiVampa92
 com.ma.bitchgiveitbackrunningservices:
     git: https://github.com/Xposed-Modules-Repo/com.ma.bitchgiveitbackrunningservices
     summary: 恢复MIUI系统阉割的开发者选项《正在运行的服务》
@@ -4465,7 +4465,7 @@ com.ma.bitchgiveitbackrunningservices:
             <ol>
             <li>新增 为MIUI开发者选项恢复 “正在运行的服务”</li>
             </ol>
-    owner: sbmatch
+    author_name: sbmatch
 com.ma.juicesshbypass:
     git: https://github.com/Xposed-Modules-Repo/com.ma.juicesshbypass
     summary: ""
@@ -4486,7 +4486,7 @@ com.ma.juicesshbypass:
             <p>JuiceSSH主界面  --&gt;  解锁高级版功能  --&gt;  已购买 --&gt;  选择google账号 --&gt; 正在验证购买 --&gt; 已验证</p>
             <h2>版本支持</h2>
             <p>目前支持最新3.2.2 理论支持全版本</p>
-    owner: sbmatch
+    author_name: sbmatch
 com.makino.cslyric:
     git: https://github.com/Xposed-Modules-Repo/com.makino.cslyric
     summary: 状态栏歌词
@@ -4499,7 +4499,7 @@ com.makino.cslyric:
           id: com.makino.cslyric
           name: CSLyric - 状态栏歌词
           releasedescription: <p>首次提交</p>
-    owner: tomakino
+    author_name: tomakino
 com.metris.xposed.bluetoothtoolkitfree:
     git: https://github.com/Xposed-Modules-Repo/com.metris.xposed.bluetoothtoolkitfree
     summary: Many Modifications to the Bluetooth App
@@ -4520,7 +4520,7 @@ com.metris.xposed.bluetoothtoolkitfree:
             <li>You can hide the app icon no more</li>
             <li>Bumped minimum version to KitKat</li>
             </ul>
-    owner: Massi-X
+    author_name: Massi-X
 com.metris.xposed.castenabler:
     git: https://github.com/Xposed-Modules-Repo/com.metris.xposed.castenabler
     summary: ""
@@ -4533,7 +4533,7 @@ com.metris.xposed.castenabler:
           id: com.metris.xposed.castenabler
           name: Cast Enabler for A12
           releasedescription: <p>Initial release</p>
-    owner: Massi-X
+    author_name: Massi-X
 com.metris.xposed.pmods:
     git: https://github.com/Xposed-Modules-Repo/com.metris.xposed.pmods
     summary: Hide apps from the Pixel Launcher
@@ -4546,7 +4546,7 @@ com.metris.xposed.pmods:
           id: com.metris.xposed.pmods
           name: Pixel Mods
           releasedescription: <p>You can now hide the app icon only from the module interface</p>
-    owner: Massi-X
+    author_name: Massi-X
 com.miui.break.sim:
     git: https://github.com/Xposed-Modules-Repo/com.miui.break.sim
     summary: miui 11.0.5 usb安装无需sim卡、安装时不会弹框提示了。
@@ -4559,7 +4559,7 @@ com.miui.break.sim:
           id: com.miui.break.sim
           name: miui usb安装 sim卡限制屏蔽
           releasedescription: ""
-    owner: helloworld10010
+    author_name: helloworld10010
 com.mln.momoxposed:
     git: https://github.com/Xposed-Modules-Repo/com.mln.momoxposed
     summary: "墨墨背单词修改单词上限\r\n适配所有版本"
@@ -4608,7 +4608,7 @@ com.mln.momoxposed:
             <hr>
             <p>测试通过环境：Redmik50pro A13 XposedAPI 100 arm64-v8a<br>
             反馈 issue: <a href="https://github.com/mmmlllnnn/com.mln.momoxposed/issues">https://github.com/mmmlllnnn/com.mln.momoxposed/issues</a></p>
-    owner: mmmlllnnn
+    author_name: mmmlllnnn
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
     summary: |-
@@ -4669,7 +4669,7 @@ com.nnnen.plusne:
             [适配]西瓜视频 8.1.8(818)<br>
             [适配]皮皮虾 4.9.0(490)<br>
             [公告]7.0正在开发中,进度百分之70左右,敬请期待</p>
-    owner: ALittle-Cool
+    author_name: ALittle-Cool
 com.nxdxfg.GoldenVipHook:
     git: https://github.com/Xposed-Modules-Repo/com.nxdxfg.GoldenVipHook
     summary: 本模块支持多款软件的VIP解锁。
@@ -4682,7 +4682,7 @@ com.nxdxfg.GoldenVipHook:
           id: com.nxdxfg.GoldenVipHook
           name: GoldenVipHook
           releasedescription: <p>新增2款软件支持</p>
-    owner: Cliencer
+    author_name: Cliencer
 com.oosl.colorostool:
     git: https://github.com/Xposed-Modules-Repo/com.oosl.colorostool
     summary: ColorOS 12 For OnePlus 的部分“优化”
@@ -4705,7 +4705,7 @@ com.oosl.colorostool:
             <li>Add a feature about setting default app</li>
             <li>Remove feature about launcher layout</li>
             </ul>
-    owner: Oosl
+    author_name: Oosl
 com.programminghoch10.cameracontrol:
     git: https://github.com/Xposed-Modules-Repo/com.programminghoch10.cameracontrol
     summary: Next level camera control! Control access to the cameras depending on which side they face.
@@ -4718,7 +4718,7 @@ com.programminghoch10.cameracontrol:
           id: com.programminghoch10.cameracontrol
           name: CameraControl
           releasedescription: ""
-    owner: programminghoch10
+    author_name: programminghoch10
 com.programminghoch10.mobileiconchanger:
     git: https://github.com/Xposed-Modules-Repo/com.programminghoch10.mobileiconchanger
     summary: Change your mobile data icons! For example you can change the 3G/4G icons into 5G!
@@ -4735,7 +4735,7 @@ com.programminghoch10.mobileiconchanger:
           releasedescription: |-
             <p>Added more debug logging<br>
             Added better compatibility detection</p>
-    owner: programminghoch10
+    author_name: programminghoch10
 com.programminghoch10.securedisplay:
     git: https://github.com/Xposed-Modules-Repo/com.programminghoch10.securedisplay
     summary: This enables FLAG_SECURE everywhere to give you the absolute maximum privacy possible.
@@ -4748,7 +4748,7 @@ com.programminghoch10.securedisplay:
           id: com.programminghoch10.securedisplay
           name: SecureDisplay
           releasedescription: ""
-    owner: programminghoch10
+    author_name: programminghoch10
 com.programminghoch10.upsidewifi:
     git: https://github.com/Xposed-Modules-Repo/com.programminghoch10.upsidewifi
     summary: Turn your WiFi icon upside down!
@@ -4761,7 +4761,7 @@ com.programminghoch10.upsidewifi:
           id: com.programminghoch10.upsidewifi
           name: UpsideWiFi
           releasedescription: <p>replaced the icon with an own SVG remake to make the app even smaller</p>
-    owner: programminghoch10
+    author_name: programminghoch10
 com.pyshivam.geergit:
     git: https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit
     summary: The main aim is to spoof the values from third party apps which tracks users and their personal data.
@@ -4864,7 +4864,7 @@ com.pyshivam.geergit:
             </ul>
             </li>
             </ol>
-    owner: pyshivam
+    author_name: pyshivam
 com.qingyu.mi5g:
     git: https://github.com/Xposed-Modules-Repo/com.qingyu.mi5g
     summary: |-
@@ -4887,7 +4887,7 @@ com.qingyu.mi5g:
             <li>fix string</li>
             <li>fix tile of miui12.5+</li>
             </ul>
-    owner: buffcow
+    author_name: buffcow
 com.qqlittleice.ironbridge:
     git: https://github.com/Xposed-Modules-Repo/com.qqlittleice.ironbridge
     summary: The bridge between apps and modules
@@ -4900,7 +4900,7 @@ com.qqlittleice.ironbridge:
           id: com.qqlittleice.ironbridge
           name: Ironbridge
           releasedescription: ""
-    owner: qqlittleice233
+    author_name: qqlittleice233
 com.queallytech.disablelogrequest:
     git: https://github.com/Xposed-Modules-Repo/com.queallytech.disablelogrequest
     summary: |-
@@ -4915,7 +4915,7 @@ com.queallytech.disablelogrequest:
           id: com.queallytech.disablelogrequest
           name: 禁用日志访问请求(DisableLogRequest)
           releasedescription: <p>first release</p>
-    owner: BeRealQueally
+    author_name: BeRealQueally
 com.queallytech.omapi:
     git: https://github.com/Xposed-Modules-Repo/com.queallytech.omapi
     summary: Bypass ARA,ARF limit in OMAPI
@@ -4928,7 +4928,7 @@ com.queallytech.omapi:
           id: com.queallytech.omapi
           name: OMAPI Bypass
           releasedescription: <p>first release</p>
-    owner: BeRealQueally
+    author_name: BeRealQueally
 com.raincat.dolby_beta:
     git: https://github.com/Xposed-Modules-Repo/com.raincat.dolby_beta
     summary: 杜比大喇叭的β版，完全脱离了服务器的依赖，但是也失去了播放高音质版权音乐的能力
@@ -4941,7 +4941,7 @@ com.raincat.dolby_beta:
           id: com.raincat.dolby_beta
           name: 杜比大喇叭β版
           releasedescription: <p>修复cookie类动态hook失败导致的8.7.86以上版本报错</p>
-    owner: nining377
+    author_name: nining377
 com.rdstory.miuiperfsaver:
     git: https://github.com/Xposed-Modules-Repo/com.rdstory.miuiperfsaver
     summary: 移除 MIUI 对应用的性能限制，以最高帧率运行应用。Remove MIUI's performance limit, run app at maximum FPS
@@ -4980,7 +4980,7 @@ com.rdstory.miuiperfsaver:
             <li>Fix：Remote FPS limit not working on some devices</li>
             <li>Fix: Joyose profile content background color in dark mode</li>
             </ul>
-    owner: test01wrk
+    author_name: test01wrk
 com.rifsxd.processhook:
     git: https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook
     summary: Hook specific process/apps/games to spoof your device as different model/device to unlock hidden features and options.
@@ -5029,7 +5029,7 @@ com.rifsxd.processhook:
             </ul>
             </li>
             </ul>
-    owner: rifsxd
+    author_name: rifsxd
 com.rong862.splashad:
     git: https://github.com/Xposed-Modules-Repo/com.rong862.splashad
     summary: ""
@@ -5046,7 +5046,7 @@ com.rong862.splashad:
           releasedescription: |-
             <p>增加<br>
             --腾讯视频</p>
-    owner: rong862
+    author_name: rong862
 com.setoskins.hook:
     git: https://github.com/Xposed-Modules-Repo/com.setoskins.hook
     summary: 一个用于Hook小米系统的工具
@@ -5059,7 +5059,7 @@ com.setoskins.hook:
           id: com.setoskins.hook
           name: SetoHook
           releasedescription: <p>修复弹窗</p>
-    owner: SetoSkins
+    author_name: SetoSkins
 com.sevtinge.cemiuiler:
     git: https://github.com/Xposed-Modules-Repo/com.sevtinge.cemiuiler
     summary: |-
@@ -5156,7 +5156,7 @@ com.sevtinge.cemiuiler:
             Cemiuiler开源地址将于本次更新后存档，并迁移至 <a href="https://github.com/saraSakuHj/HyperCeiler">HyperCeiler开源地址</a>。<br>
             感谢您对Cemiuiler的一路支持。</p>
             <p><strong>Copyright © 2023 saraSaku.Hj &amp; Sevtinge</strong></p>
-    owner: Fan095
+    author_name: Fan095
 com.sevtinge.hyperceiler:
     git: https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler
     summary: |-
@@ -5339,7 +5339,7 @@ com.sevtinge.hyperceiler:
             <li>出现任何问题<strong>请至少将日志等级设置为 Warn 后携带日志及必要信息提交至 GitHub issue</strong>。</li>
             </ol>
             <p><strong>Copyright © 2023-2024 Re.chronoRain &amp; Sevtinge &amp; HyperCeiler Contributions</strong></p>
-    owner: lingqiqi5211
+    author_name: lingqiqi5211
 com.shatyuka.killergram:
     git: https://github.com/Xposed-Modules-Repo/com.shatyuka.killergram
     summary: Remove sponsored messages of Telegram. Also allows you to copy or save messages when "Restrict saving content" is enabled.
@@ -5364,7 +5364,7 @@ com.shatyuka.killergram:
             <li><strong>Catogram X</strong> org.nift4.catox</li>
             <li><strong>OwlGram</strong> ellipi.messenger</li>
             </ul>
-    owner: shatyuka
+    author_name: shatyuka
 com.shatyuka.zhiliao:
     git: https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao
     summary: "目前还只是个知乎去广告模块。\rA plugin for Zhihu, currently an ad blocker."
@@ -5393,7 +5393,7 @@ com.shatyuka.zhiliao:
             左右划设置显示异常<br>
             重启知乎后无法进入知了设置页面</p>
             <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao/assets/31368738/52aede89-124f-46a7-8bf1-6f737cb2e3f4"><img src="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao/assets/31368738/52aede89-124f-46a7-8bf1-6f737cb2e3f4" alt="" content-type-secured-asset="image/jpeg" style="max-width: 100%;"></a></p>
-    owner: shatyuka
+    author_name: shatyuka
 com.simo.ssl.killer:
     git: https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer
     summary: An advanced XPosed module to bypass ssl pinning.
@@ -5414,7 +5414,7 @@ com.simo.ssl.killer:
             <ul>
             <li>issues fixed.</li>
             </ul>
-    owner: Syntaxerr101
+    author_name: Syntaxerr101
 com.simo.tgramhooks:
     git: https://github.com/Xposed-Modules-Repo/com.simo.tgramhooks
     summary: Free Telegram Premium
@@ -5439,7 +5439,7 @@ com.simo.tgramhooks:
             <li>Fixed screenshots everywhere.</li>
             <li>Optimized apk size.</li>
             </ul>
-    owner: Syntaxerr101
+    author_name: Syntaxerr101
 com.skyhand.redbookhelper:
     git: https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper
     summary: |-
@@ -5482,7 +5482,7 @@ com.skyhand.redbookhelper:
             <li>优化 部分UI</li>
             <li>适配 新版本</li>
             </ol>
-    owner: tpnet
+    author_name: tpnet
 com.skyhand.sinahelper:
     git: https://github.com/Xposed-Modules-Repo/com.skyhand.sinahelper
     summary: |-
@@ -5521,7 +5521,7 @@ com.skyhand.sinahelper:
             <li>适配 新版微博视频流状态栏沉浸</li>
             <li>适配 新版微博信息流自动领红包</li>
             </ol>
-    owner: tpnet
+    author_name: tpnet
 com.somebody.vipFucker:
     git: https://github.com/Xposed-Modules-Repo/com.somebody.vipFucker
     summary: ""
@@ -5534,7 +5534,7 @@ com.somebody.vipFucker:
           id: com.somebody.vipFucker
           name: 旋风加速器&&蜜蜂加速器VIP破解
           releasedescription: <p>支持所有版本旋风加速器和蜜蜂加速器VIP破解</p>
-    owner: GreyDork
+    author_name: GreyDork
 com.souleven.photosfix:
     git: https://github.com/Xposed-Modules-Repo/com.souleven.photosfix
     summary: Xposed Module to Force Google Photos to separate each folder like Snapchat, Screenshot, Facebook, and so on separated from the Camera folder.
@@ -5547,7 +5547,7 @@ com.souleven.photosfix:
           id: com.souleven.photosfix
           name: Xposed Google Photos FIX
           releasedescription: <p>More stable hook</p>
-    owner: RevealedSoulEven
+    author_name: RevealedSoulEven
 com.strawing.alwaysthemedicon:
     git: https://github.com/Xposed-Modules-Repo/com.strawing.alwaysthemedicon
     summary: Let third-party launcher always get themed icon in MIUI (Maybe also works for other Android based OS).
@@ -5560,7 +5560,7 @@ com.strawing.alwaysthemedicon:
           id: com.strawing.alwaysthemedicon
           name: AlwaysThemedIcon
           releasedescription: <p>Set minimum SDK to 21 (Android 5.0)</p>
-    owner: liyafe1997
+    author_name: liyafe1997
 com.strawing.fuckdevicepolicy:
     git: https://github.com/Xposed-Modules-Repo/com.strawing.fuckdevicepolicy
     summary: Make user restriction policy(e.g work profile policies) nonfunctional.
@@ -5577,7 +5577,7 @@ com.strawing.fuckdevicepolicy:
           releasedescription: |-
             <p>If you are using LSPosed, please Activate this module and reboot firstly, before edit and save your custom policies!</p>
             <p>如果你用的是LSPosed，在App中编辑/保存策略你的自定义策略之前，请先激活这个模块并重启！</p>
-    owner: liyafe1997
+    author_name: liyafe1997
 com.tcgg.imjhook:
     git: https://github.com/Xposed-Modules-Repo/com.tcgg.imjhook
     summary: 爱美剧永久会员
@@ -5590,7 +5590,7 @@ com.tcgg.imjhook:
           id: com.tcgg.imjhook
           name: 爱美剧模块
           releasedescription: <p>永久会员</p>
-    owner: xiaotian1339
+    author_name: xiaotian1339
 com.test.unlockmiui:
     git: https://github.com/Xposed-Modules-Repo/com.test.unlockmiui
     summary: 解锁MIUI12.5的MIUI+
@@ -5611,7 +5611,7 @@ com.test.unlockmiui:
             <li>尝试兼容3.6.13版本的MIUI+。</li>
             <li>由于更换密钥，所以需要卸载旧版本之后再安装新版本。</li>
             </ol>
-    owner: zhang0281
+    author_name: zhang0281
 com.th7.fcsdk:
     git: https://github.com/Xposed-Modules-Repo/com.th7.fcsdk
     summary: 尽量解除联想新 CSDK 管控带来的限制 适用于定制机或解除自带的家长控制（
@@ -5624,7 +5624,7 @@ com.th7.fcsdk:
           id: com.th7.fcsdk
           name: FCSDK
           releasedescription: ""
-    owner: Tonyha7
+    author_name: Tonyha7
 com.th7.flinspirer.admin:
     git: https://github.com/Xposed-Modules-Repo/com.th7.flinspirer.admin
     summary: Hook领创，让您的管理员懵逼。
@@ -5641,7 +5641,7 @@ com.th7.flinspirer.admin:
           releasedescription: |-
             <p>支持穿腾讯壳<br>
             功能一样</p>
-    owner: Tonyha7
+    author_name: Tonyha7
 com.thinkdifferent.anywebview:
     git: https://github.com/Xposed-Modules-Repo/com.thinkdifferent.anywebview
     summary: It tries to detect all system webviews and add them to the developer options -> WebView implementation list.
@@ -5658,7 +5658,7 @@ com.thinkdifferent.anywebview:
           releasedescription: |-
             <p>[Enhancement] Auto detect all webviews based on Chromium on the system.<br>
             <strong>This is a beta build, please backup your data before trying it.</strong></p>
-    owner: neoblackxt
+    author_name: neoblackxt
 com.trump.myxposed:
     git: https://github.com/Xposed-Modules-Repo/com.trump.myxposed
     summary: ""
@@ -5671,7 +5671,7 @@ com.trump.myxposed:
           id: com.trump.myxposed
           name: 个人自用的Xposed模块（微博轻享版&MIUI修改）
           releasedescription: <p>兼容微博轻享版6.3.8</p>
-    owner: wangyuan0217
+    author_name: wangyuan0217
 com.tsng.fuckdmzj:
     git: https://github.com/Xposed-Modules-Repo/com.tsng.fuckdmzj
     summary: 动漫之家增强模块
@@ -5684,7 +5684,7 @@ com.tsng.fuckdmzj:
           id: com.tsng.fuckdmzj
           name: 动漫之家增强模块
           releasedescription: <p>加入自动签到</p>
-    owner: Dr-TSNG
+    author_name: Dr-TSNG
 com.tsng.hidemyapplist:
     git: https://github.com/Xposed-Modules-Repo/com.tsng.hidemyapplist
     summary: "Reject applist requests\r\n阻止获取应用列表"
@@ -5711,7 +5711,7 @@ com.tsng.hidemyapplist:
             <p>支持 Android 15<br>
             修复 Data Isolation 功能可能造成的闪退<br>
             增强兼容性</p>
-    owner: Dr-TSNG
+    author_name: Dr-TSNG
 com.twifucker.hachidori:
     git: https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori
     summary: A X (formerly Twitter) Xposed modules.
@@ -5744,6 +5744,7 @@ com.twifucker.hachidori:
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above</p>
             <p>Long press X icon on top of the home screen or tap version in about section to access settings.</p>
             <p>Please DO NOT tweet/post anything about this module at Twitter/X.</p>
+    author_name: ""
 com.unexpected.capture.uc:
     git: https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc
     summary: UC 浏览器免流代理信息抓取
@@ -5772,7 +5773,7 @@ com.unexpected.capture.uc:
             <li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>
             <li>具体支持版本请在 <a href="https://github.com/unexpecteds/UCProxyCapture">GitHub</a> 主页查看，不定期更新</li>
             </ul>
-    owner: unexpecteds
+    author_name: unexpecteds
 com.unexpected.hook.disable.security.windows:
     git: https://github.com/Xposed-Modules-Repo/com.unexpected.hook.disable.security.windows
     summary: Disable Security Windows (禁用安全窗口)
@@ -5795,7 +5796,7 @@ com.unexpected.hook.disable.security.windows:
             <li>禁用安全视图</li>
             <li>禁用触摸过滤，允许被遮挡时执行点击事件</li>
             </ul>
-    owner: unexpecteds
+    author_name: unexpecteds
 com.upbad.apps.opgo:
     git: https://github.com/Xposed-Modules-Repo/com.upbad.apps.opgo
     summary: |-
@@ -5810,7 +5811,7 @@ com.upbad.apps.opgo:
           id: com.upbad.apps.opgo
           name: Oneplus No Red One
           releasedescription: <p>Fix status bar text color.</p>
-    owner: zehuanli
+    author_name: zehuanli
 com.upbad.apps.vogo:
     git: https://github.com/Xposed-Modules-Repo/com.upbad.apps.vogo
     summary: An Xposed module to add a "mark as read" option to Google Voice message notifications
@@ -5823,7 +5824,7 @@ com.upbad.apps.vogo:
           id: com.upbad.apps.vogo
           name: Google Voice Mark Read
           releasedescription: <p>Remove app icon in launcher</p>
-    owner: zehuanli
+    author_name: zehuanli
 com.variable.apkhook:
     git: https://github.com/Xposed-Modules-Repo/com.variable.apkhook
     summary: 为你选择的应用程序传递你伪造的手机信息
@@ -5836,7 +5837,7 @@ com.variable.apkhook:
           id: com.variable.apkhook
           name: 应用伪装
           releasedescription: <p>SHA-256 615CB4A41C0F91427DA7CE7AA58B1B787B487C193FD95A6EC5A777441A24E50F</p>
-    owner: SekiBetu
+    author_name: SekiBetu
 com.varuns2002.disable_flag_secure:
     git: https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure
     summary: Xposed Module to Disable FLAG_SECURE, enabling screenshots, screen sharing and recording in apps that normally wouldn't allow it.
@@ -5861,7 +5862,7 @@ com.varuns2002.disable_flag_secure:
             <li>Should support some other apps too that work in the same way Netflix and Disney+ do</li>
             <li>Additional instructions for Netflix and Disney+ support <a href="https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure#additional-information-on-drm-encrypted-content">here</a></li>
             </ul>
-    owner: VarunS2002
+    author_name: VarunS2002
 com.veo.hook.bili.speed:
     git: https://github.com/Xposed-Modules-Repo/com.veo.hook.bili.speed
     summary: |-
@@ -5898,7 +5899,7 @@ com.veo.hook.bili.speed:
             如有不兼容，issue里反馈或提交PR到 <a href="https://github.com/V-E-O/biliSpeed/">https://github.com/V-E-O/biliSpeed/</a></p>
             <h2>CHANGELOG</h2>
             <p>修复小红书, 微信新版本</p>
-    owner: V-E-O
+    author_name: V-E-O
 com.vivian8421.mipushenhance:
     git: https://github.com/Xposed-Modules-Repo/com.vivian8421.mipushenhance
     summary: |-
@@ -5913,7 +5914,7 @@ com.vivian8421.mipushenhance:
           id: com.vivian8421.mipushenhance
           name: 小米push增强模块
           releasedescription: <p>增加了激活提示性文字</p>
-    owner: vivian8421
+    author_name: vivian8421
 com.w311ang.disable_flag_keep_screen_on:
     git: https://github.com/Xposed-Modules-Repo/com.w311ang.disable_flag_keep_screen_on
     summary: Disable FLAG_KEEP_SCREEN_ON. 阻止应用常亮，按照系统屏幕超时时间息屏
@@ -5926,7 +5927,7 @@ com.w311ang.disable_flag_keep_screen_on:
           id: com.w311ang.disable_flag_keep_screen_on
           name: Disable-FLAG_KEEP_SCREEN_ON
           releasedescription: ""
-    owner: w311ang
+    author_name: w311ang
 com.w2016.sensorfilter:
     git: https://github.com/Xposed-Modules-Repo/com.w2016.sensorfilter
     summary: 降低传感器采样率（所有传感器降低到50HZ及以下）和采样深度(对加速度传感器取整)
@@ -5939,7 +5940,7 @@ com.w2016.sensorfilter:
           id: com.w2016.sensorfilter
           name: 传感器滤镜
           releasedescription: ""
-    owner: w2016561536
+    author_name: w2016561536
 com.weverses.modempro:
     git: https://github.com/Xposed-Modules-Repo/com.weverses.modempro
     summary: |-
@@ -5964,7 +5965,7 @@ com.weverses.modempro:
             3.适配支持<strong>HyperOS</strong><br>
             4.<strong>绕过MTB鉴权</strong>支持<code>v6.x</code><br>
             5.<strong>智能双卡并发支持</strong><code>去除频段限制</code>功能</p>
-    owner: Weverses
+    author_name: Weverses
 com.wovow.youtubehelper:
     git: https://github.com/Xposed-Modules-Repo/com.wovow.youtubehelper
     summary: ""
@@ -5981,7 +5982,7 @@ com.wovow.youtubehelper:
           releasedescription: |-
             <p>[新版本适配YouTube 18.48.37-19.35.x、YouTube Music 6.13.x]<br>
             [The new version is compatible with YouTube 18.48.37-19.35.x, YouTube Music 6.13.x</p>
-    owner: ohyeah521
+    author_name: ohyeah521
 com.wrlus.module.fwkdebug:
     git: https://github.com/Xposed-Modules-Repo/com.wrlus.module.fwkdebug
     summary: Hooking framework system services debug variable. In order to get more useful log messages for security research or other purpose.
@@ -5994,7 +5995,7 @@ com.wrlus.module.fwkdebug:
           id: com.wrlus.module.fwkdebug
           name: AndroidFwkDebug
           releasedescription: <p>Fix ActivityTaskManagerService hook.</p>
-    owner: wrlu
+    author_name: wrlu
 com.ws.onscripterplus:
     git: https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus
     summary: ONScripterPlus增强插件
@@ -6025,7 +6026,7 @@ com.ws.onscripterplus:
             <h2>下载地址</h2>
             <p><a href="https://github.com/W2725730722/ONScripterPlus/releases/download/1.1/ONScripter.Plus+_1.1.apk">模块</a></p>
             <p><a href="https://github.com/W2725730722/ONScripterPlus/releases/download/1.1/ONScripter.Plus_2.0.16.apk">软件</a></p>
-    owner: wushuo894
+    author_name: wushuo894
 com.wye4.hookforvip:
     git: https://github.com/Xposed-Modules-Repo/com.wye4.hookforvip
     summary: 获取部分软件会员与去广告弹窗的模块
@@ -6056,7 +6057,7 @@ com.wye4.hookforvip:
             <li>莉景天气_2.1.34</li>
             <li>奥维互动地图_10.1.3</li>
             </ul>
-    owner: wuye4
+    author_name: wuye4
 com.xiaoer.watermark:
     git: https://github.com/Xposed-Modules-Repo/com.xiaoer.watermark
     summary: 在任意应用上增加水印，可自定义文字、颜色、大小
@@ -6073,7 +6074,7 @@ com.xiaoer.watermark:
           releasedescription: |-
             <p>1.读取配置更快<br>
             2.水印设置大小时最低只能为1</p>
-    owner: "1248774172"
+    author_name: "1248774172"
 com.xiaoniu.zuiyouhook:
     git: https://github.com/Xposed-Modules-Repo/com.xiaoniu.zuiyouhook
     summary: 最右去广告/视频下载水印/青少年弹窗模块
@@ -6096,7 +6097,7 @@ com.xiaoniu.zuiyouhook:
             <li>移除图标以缩减体积</li>
             <li>其他优化</li>
             </ul>
-    owner: klxiaoniu
+    author_name: klxiaoniu
 com.xposed.miuiime:
     git: https://github.com/Xposed-Modules-Repo/com.xposed.miuiime
     summary: |-
@@ -6115,7 +6116,7 @@ com.xposed.miuiime:
           releasedescription: |-
             <p>修复翻转屏幕后导航栏颜色将重置 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/GSWXXN/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/GSWXXN">@GSWXXN</a><br>
             舍弃记录完全透明的导航栏背景颜色 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/GSWXXN/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/GSWXXN">@GSWXXN</a></p>
-    owner: RC1844
+    author_name: RC1844
 com.xtaolabs.fuck_huaya:
     git: https://github.com/Xposed-Modules-Repo/com.xtaolabs.fuck_huaya
     summary: 画涯漫画去广告
@@ -6128,7 +6129,7 @@ com.xtaolabs.fuck_huaya:
           id: com.xtaolabs.fuck_huaya
           name: 画涯漫画去广告
           releasedescription: <p>适配 v1.3.0</p>
-    owner: omg-xtao
+    author_name: omg-xtao
 com.xunflash.setMiPad5Pointer:
     git: https://github.com/Xposed-Modules-Repo/com.xunflash.setMiPad5Pointer
     summary: 替换小米平板5系列垃圾MagicPointer鼠标指针
@@ -6141,7 +6142,7 @@ com.xunflash.setMiPad5Pointer:
           id: com.xunflash.setMiPad5Pointer
           name: 小米平板指针替换
           releasedescription: "<p>✨修复 设置异常 <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/YifePlayte/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/YifePlayte\">@YifePlayte</a><br>\n✨修复 未启用模块时闪退<br>\n\U0001F47B更新 版本号</p>"
-    owner: Xunflash
+    author_name: Xunflash
 com.yifeplayte.logrequestmanager:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.logrequestmanager
     summary: |-
@@ -6156,7 +6157,7 @@ com.yifeplayte.logrequestmanager:
           id: com.yifeplayte.logrequestmanager
           name: LogRequestManager
           releasedescription: <p>First release</p>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yifeplayte.maxfreeform:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform
     summary: |-
@@ -6185,7 +6186,7 @@ com.yifeplayte.maxfreeform:
             <ul>
             <li>[New] Remove top bar of floating windows for selected apps</li>
             </ul>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yifeplayte.maxmipadinput:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput
     summary: |-
@@ -6218,7 +6219,7 @@ com.yifeplayte.maxmipadinput:
             <li>[Optimize] Improve the app selection interface</li>
             <li>[Optimize] Allow installation on Android 11 devices (Only the removal of stylus bluetooth restriction is available, other functions cannot be maintained)</li>
             </ul>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yifeplayte.miuipadesc:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.miuipadesc
     summary: |-
@@ -6247,7 +6248,7 @@ com.yifeplayte.miuipadesc:
             <ul>
             <li>Adapted to Android 12</li>
             </ul>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yifeplayte.norelaunch:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.norelaunch
     summary: |-
@@ -6262,7 +6263,7 @@ com.yifeplayte.norelaunch:
           id: com.yifeplayte.norelaunch
           name: NoRelaunch
           releasedescription: <p>First release</p>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yifeplayte.wavecharge:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.wavecharge
     summary: |-
@@ -6295,7 +6296,7 @@ com.yifeplayte.wavecharge:
             <li>Optimize package size</li>
             <li>Update description</li>
             </ul>
-    owner: YifePlayte
+    author_name: YifePlayte
 com.yotagit.xfucker:
     git: https://github.com/Xposed-Modules-Repo/com.yotagit.xfucker
     summary: ""
@@ -6308,6 +6309,7 @@ com.yotagit.xfucker:
           id: com.yotagit.xfucker
           name: 旋风加速器破解插件
           releasedescription: <p>界面友好，修复一些已知问题</p>
+    author_name: ""
 com.yubyf.quotelockx:
     git: https://github.com/Xposed-Modules-Repo/com.yubyf.quotelockx
     summary: |-
@@ -6359,7 +6361,7 @@ com.yubyf.quotelockx:
             <p>修复了由同样原因导致的 API 验证错误的问题。</p>
             </li>
             </ol>
-    owner: Yubyf
+    author_name: Yubyf
 com.yuuki.puresatusbar:
     git: https://github.com/Xposed-Modules-Repo/com.yuuki.puresatusbar
     summary: "A module to edit your statusbar.\ndownload and enjoy it!\U0001F618"
@@ -6372,7 +6374,7 @@ com.yuuki.puresatusbar:
           id: com.yuuki.puresatusbar
           name: PureStatusBar
           releasedescription: <h2>仅在魅族21pro FLYme10.5.5.1A上测试完美运行</h2>
-    owner: SoyBeanMilkx
+    author_name: SoyBeanMilkx
 com.yxer.compo.module:
     git: https://github.com/Xposed-Modules-Repo/com.yxer.compo.module
     summary: R-安装组件扩展,强制调用 R-安装组件 进行安装应用.
@@ -6385,7 +6387,7 @@ com.yxer.compo.module:
           id: com.yxer.compo.module
           name: R-安装组件-扩展
           releasedescription: <p>细节优化。</p>
-    owner: yxsra
+    author_name: yxsra
 com.zdy.project.wechat_chatroom_helper:
     git: https://github.com/Xposed-Modules-Repo/com.zdy.project.wechat_chatroom_helper
     summary: 微信群消息助手 - 整理群消息、服务号。
@@ -6404,7 +6406,7 @@ com.zdy.project.wechat_chatroom_helper:
             <ul>
             <li>适配微信8037</li>
             </ul>
-    owner: zhudongya123
+    author_name: zhudongya123
 com.zhangnew.wechatmultiwebview:
     git: https://github.com/Xposed-Modules-Repo/com.zhangnew.wechatmultiwebview
     summary: 在微信中打开网页时使用多窗口模式，在最近任务列表中可以同时显示微信聊天窗口和网页窗口，并可以互相切换，避免回消息的时候丢失网页窗口
@@ -6417,7 +6419,7 @@ com.zhangnew.wechatmultiwebview:
           id: com.zhangnew.wechatmultiwebview
           name: 微信网页多窗口
           releasedescription: <p>support 8.0.40</p>
-    owner: zhangnew
+    author_name: zhangnew
 com.zhenxi.fundex2:
     git: https://github.com/Xposed-Modules-Repo/com.zhenxi.fundex2
     summary: ""
@@ -6430,7 +6432,7 @@ com.zhenxi.fundex2:
           id: com.zhenxi.fundex2
           name: FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。)
           releasedescription: <p>1，fix read config error</p>
-    owner: w296488320
+    author_name: w296488320
 com.zhenxi.funelf:
     git: https://github.com/Xposed-Modules-Repo/com.zhenxi.funelf
     summary: ""
@@ -6443,7 +6445,7 @@ com.zhenxi.funelf:
           id: com.zhenxi.funelf
           name: FunELF(基于Xposed实现的SO脱壳机,用于还原内存中释放的SO文件。)
           releasedescription: <p>1，fix read config error</p>
-    owner: w296488320
+    author_name: w296488320
 com.zhenxi.il2cpptrace:
     git: https://github.com/Xposed-Modules-Repo/com.zhenxi.il2cpptrace
     summary: ""
@@ -6456,7 +6458,7 @@ com.zhenxi.il2cpptrace:
           id: com.zhenxi.il2cpptrace
           name: FunIl2cpp(il2cpp游戏dump&il2cpp方法调用跟踪)
           releasedescription: <p>1，fix read config error</p>
-    owner: w296488320
+    author_name: w296488320
 com.zhenxi.jnitrace:
     git: https://github.com/Xposed-Modules-Repo/com.zhenxi.jnitrace
     summary: ""
@@ -6473,7 +6475,7 @@ com.zhenxi.jnitrace:
           releasedescription: |-
             <p>1、up data<br>
             2、fix ui error</p>
-    owner: w296488320
+    author_name: w296488320
 com.zhizi42.diymiuicard:
     git: https://github.com/Xposed-Modules-Repo/com.zhizi42.diymiuicard
     summary: 自定义MIUI NFC卡片卡面
@@ -6492,7 +6494,7 @@ com.zhizi42.diymiuicard:
             <p>更新 一键DIY卡面图片<br>
             修复 添加中文文件名图片失败的bug<br>
             更新 版本号</p>
-    owner: zhizi42
+    author_name: zhizi42
 com.zhufucdev.cp_plugin:
     git: https://github.com/Xposed-Modules-Repo/com.zhufucdev.cp_plugin
     summary: A Motion Emulator plug-in based on Content Provider
@@ -6523,7 +6525,7 @@ com.zhufucdev.cp_plugin:
             <ul>
             <li>Unable to activate on LSPosed</li>
             </ul>
-    owner: zhufucdev
+    author_name: zhufucdev
 com.zhufucdev.motion_emulator:
     git: https://github.com/Xposed-Modules-Repo/com.zhufucdev.motion_emulator
     summary: |-
@@ -6552,7 +6554,7 @@ com.zhufucdev.motion_emulator:
             <li>Visual bugs in Recording and Emulation UI</li>
             <li>Missing <code>navigate up</code> tooltip in Compose-based pages</li>
             </ul>
-    owner: zhufucdev
+    author_name: zhufucdev
 com.zhufucdev.ws_plugin:
     git: https://github.com/Xposed-Modules-Repo/com.zhufucdev.ws_plugin
     summary: A Motion Emulator plug-in based on WebSocket
@@ -6575,7 +6577,7 @@ com.zhufucdev.ws_plugin:
             <li>Activity-level anti-proguard for AMap location hook</li>
             <li>Accuracy redefinition for AMap location</li>
             </ul>
-    owner: zhufucdev
+    author_name: zhufucdev
 com.ztc1997.fakedcbacklight:
     git: https://github.com/Xposed-Modules-Repo/com.ztc1997.fakedcbacklight
     summary: "Enable Extra dim when the brightness is lower than the minimum screen brightness. \n在亮度低于最低屏幕亮度时启用极暗。"
@@ -6594,7 +6596,7 @@ com.ztc1997.fakedcbacklight:
             <ul>
             <li><a href="https://github.com/ztc1997/FakeDCBacklight/commit/ac8b4584fc121b67c556512c784f4a8e23781666">Add Disable on Screenoff switch</a>, Solve the problem of AOD brightness and under-screen fingerprint, which may cause flickering when opening the screen</li>
             </ul>
-    owner: ztc1997
+    author_name: ztc1997
 com.ztc1997.mockbluetoothdevice:
     git: https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice
     summary: "Mock a BLE peripheral advertisement in bluetooth scan results.   \n在蓝牙扫描结果中模拟一个 BLE 外围设备通告。仅用于蓝牙设备的开发与调试，请勿用于签到打卡等违法违纪用途。"
@@ -6613,7 +6615,7 @@ com.ztc1997.mockbluetoothdevice:
             <ul>
             <li>修复 <code>MAC 地址</code>显示问题</li>
             </ul>
-    owner: ztc1997
+    author_name: ztc1997
 com.zuiyou.adfree:
     git: https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree
     summary: 最右强力去广告
@@ -6626,7 +6628,7 @@ com.zuiyou.adfree:
           id: com.zuiyou.adfree
           name: 最右强力去广告
           releasedescription: <p><strong>Full Changelog:</strong> <a href="https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree/commits/v2.1">https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree/commits/v2.1</a></p>
-    owner: kazutoiris
+    author_name: kazutoiris
 com.zwk.xintent:
     git: https://github.com/Xposed-Modules-Repo/com.zwk.xintent
     summary: An Intent traffic monitoring tool.
@@ -6639,7 +6641,7 @@ com.zwk.xintent:
           id: com.zwk.xintent
           name: An Intent traffic monitoring tool.
           releasedescription: <p>Initial release</p>
-    owner: 2Y2s1mple
+    author_name: 2Y2s1mple
 com.zxl.bfunhelper:
     git: https://github.com/Xposed-Modules-Repo/com.zxl.bfunhelper
     summary: ""
@@ -6658,7 +6660,7 @@ com.zxl.bfunhelper:
             <ul>
             <li>图片评论下载功能</li>
             </ul>
-    owner: DarkLineX
+    author_name: DarkLineX
 de.buttercookie.disabletargetapiblock:
     git: https://github.com/Xposed-Modules-Repo/de.buttercookie.disabletargetapiblock
     summary: Re-enable installation of apps targeting old Android versions
@@ -6671,7 +6673,7 @@ de.buttercookie.disabletargetapiblock:
           id: de.buttercookie.disabletargetapiblock
           name: Disable Target API Block
           releasedescription: <p>Add a custom app icon</p>
-    owner: buttercookie42
+    author_name: buttercookie42
 de.buttercookie.optionsmenufix:
     git: https://github.com/Xposed-Modules-Repo/de.buttercookie.optionsmenufix
     summary: Fix a bug regarding opening Activity options menus in Android 13/14
@@ -6684,7 +6686,7 @@ de.buttercookie.optionsmenufix:
           id: de.buttercookie.optionsmenufix
           name: Options Menu Fix
           releasedescription: <p>Update German app title</p>
-    owner: buttercookie42
+    author_name: buttercookie42
 de.buttercookie.rocketplayerdefuser:
     git: https://github.com/Xposed-Modules-Repo/de.buttercookie.rocketplayerdefuser
     summary: Disable Rocket Player’s “Expired version” popup
@@ -6697,7 +6699,7 @@ de.buttercookie.rocketplayerdefuser:
           id: de.buttercookie.rocketplayerdefuser
           name: Rocket Player Timebomb Defuser
           releasedescription: <p>Initial release</p>
-    owner: buttercookie42
+    author_name: buttercookie42
 dev.arktic.installerrestrictor:
     git: https://github.com/Xposed-Modules-Repo/dev.arktic.installerrestrictor
     summary: Restrict any installation / uninstallation process across the system
@@ -6710,7 +6712,7 @@ dev.arktic.installerrestrictor:
           id: dev.arktic.installerrestrictor
           name: InstallerRestrictor
           releasedescription: ""
-    owner: redacted-text
+    author_name: redacted-text
 dev.coderpwh.fuck_shake:
     git: https://github.com/Xposed-Modules-Repo/dev.coderpwh.fuck_shake
     summary: ""
@@ -6723,7 +6725,7 @@ dev.coderpwh.fuck_shake:
           id: dev.coderpwh.fuck_shake
           name: 屏蔽摇一摇广告
           releasedescription: <p>Remove unnecessary dependencies and remove the user interface.</p>
-    owner: pwh-pwh
+    author_name: pwh-pwh
 dev.lackluster.mihelper:
     git: https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper
     summary: |-
@@ -6842,7 +6844,7 @@ dev.lackluster.mihelper:
             <li>Recommended version of system launcher (Pad): RELEASE-4.40.0.7202-05162110 (440007202)</li>
             <li>It is strongly recommended to <strong>AVOID using/restoring previous backup files</strong></li>
             </ul>
-    owner: HowieHChen
+    author_name: HowieHChen
 dev.sora.extractor:
     git: https://github.com/Xposed-Modules-Repo/dev.sora.extractor
     summary: Extract SteamGuard shared_secret in seconds
@@ -6855,7 +6857,7 @@ dev.sora.extractor:
           id: dev.sora.extractor
           name: SteamGuardExtractor
           releasedescription: ""
-    owner: hax0r31337
+    author_name: hax0r31337
 dialog.box:
     git: https://github.com/Xposed-Modules-Repo/dialog.box
     summary: "Force to cancel some dialogs/popups that can't be canceled.  \r\n(原名：对话框取消)，强制取消一些不能取消的对话框/弹窗。"
@@ -6882,7 +6884,7 @@ dialog.box:
             <ul>
             <li>自动同步作用域到LSposed：支持Lsposed 1.9.2</li>
             </ul>
-    owner: serifer
+    author_name: serifer
 es.chiteroman.bootloaderspoofer:
     git: https://github.com/Xposed-Modules-Repo/es.chiteroman.bootloaderspoofer
     summary: ""
@@ -6895,7 +6897,7 @@ es.chiteroman.bootloaderspoofer:
           id: es.chiteroman.bootloaderspoofer
           name: BootloaderSpoofer
           releasedescription: ""
-    owner: chiteroman
+    author_name: chiteroman
 es.rafagale.biometricbypass:
     git: https://github.com/Xposed-Modules-Repo/es.rafagale.biometricbypass
     summary: Bypass the confirmation step after face authentication on Android 11 to 15 using LSPosed's Modern Xposed API.
@@ -6908,7 +6910,7 @@ es.rafagale.biometricbypass:
           id: es.rafagale.biometricbypass
           name: Biometric Bypass
           releasedescription: <p>Initial release</p>
-    owner: rafagale
+    author_name: rafagale
 eu.faircode.xlua:
     git: https://github.com/Xposed-Modules-Repo/eu.faircode.xlua
     summary: Really simple to use privacy manager for Android 6.0 Marshmallow and later
@@ -6927,7 +6929,7 @@ eu.faircode.xlua:
             <p><strong>XPrivacyLua isn't supported anymore</strong></p>
             <br>
             <p>All changes: <a class="commit-link" href="https://github.com/M66B/XPrivacyLua/compare/1.34...1.35">M66B/XPrivacyLua@<tt>1.34...1.35</tt></a></p>
-    owner: M66B
+    author_name: M66B
 foss.coolest.fucker:
     git: https://github.com/Xposed-Modules-Repo/foss.coolest.fucker
     summary: 一个开源的去广告模块，会逐步支持越来越多的应用
@@ -6940,7 +6942,7 @@ foss.coolest.fucker:
           id: foss.coolest.fucker
           name: 这个世界太乱
           releasedescription: <p>适配胖乖生活1.26.2</p>
-    owner: CoolestEnoch
+    author_name: CoolestEnoch
 fr.netstat.locationindicatorwhitelist:
     git: https://github.com/Xposed-Modules-Repo/fr.netstat.locationindicatorwhitelist
     summary: Prevent packages to trigger the location indicator in status bar.
@@ -6969,7 +6971,7 @@ fr.netstat.locationindicatorwhitelist:
             <li>Implement searching</li>
             <li>Dependencies updates</li>
             </ul>
-    owner: gilbsgilbs
+    author_name: gilbsgilbs
 fuck.location:
     git: https://github.com/Xposed-Modules-Repo/fuck.location
     summary: ""
@@ -6986,7 +6988,7 @@ fuck.location:
           releasedescription: |-
             <p>Support Android 12 based MIUI 13.</p>
             <p>支持基于 Android 12 的 MIUI 13.</p>
-    owner: Mikotwa
+    author_name: Mikotwa
 fucking.internet.tile:
     git: https://github.com/Xposed-Modules-Repo/fucking.internet.tile
     summary: |-
@@ -7001,7 +7003,7 @@ fucking.internet.tile:
           id: fucking.internet.tile
           name: Fucking Internet Tile
           releasedescription: <p>Pixel 6 (Android 13 TP1A.220624.021)</p>
-    owner: YULIANGMAX
+    author_name: YULIANGMAX
 github.zerorooot.copyfenbi:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi
     summary: 复制粉笔app用户的评论到剪贴板中（长按评论）
@@ -7018,7 +7020,7 @@ github.zerorooot.copyfenbi:
           releasedescription: |-
             <p>仅支持6.17.4</p>
             <p>支持跳过首页广告、解析视频隐藏、评论过滤</p>
-    owner: zerorooot
+    author_name: zerorooot
 github.zerorooot.fuckbilibilivote:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.fuckbilibilivote
     summary: remove vote(投票) 、attention(一键三连)、link(预告)、up(up主弹幕)、grade(打分) of Bilibili
@@ -7039,7 +7041,7 @@ github.zerorooot.fuckbilibilivote:
             <li>允许自定义是否显示up主弹幕</li>
             <li>可屏蔽“cards_second”类型的弹窗</li>
             </ul>
-    owner: zerorooot
+    author_name: zerorooot
 github.zerorooot.hidemiuiclipboarddialog:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.hidemiuiclipboarddialog
     summary: 隐藏miui剪贴板对话框
@@ -7052,7 +7054,7 @@ github.zerorooot.hidemiuiclipboarddialog:
           id: github.zerorooot.hidemiuiclipboarddialog
           name: 隐藏miui剪贴板对话框/HideMiuiClipboardDialog
           releasedescription: <p>首次提交</p>
-    owner: zerorooot
+    author_name: zerorooot
 github.zerorooot.horizontalcontentextension:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.horizontalcontentextension
     summary: 强行在横屏模式下启用miui传送门
@@ -7069,7 +7071,7 @@ github.zerorooot.horizontalcontentextension:
           releasedescription: |-
             <p>首次发布</p>
             <p><strong>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</strong></p>
-    owner: zerorooot
+    author_name: zerorooot
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
     summary: 哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论
@@ -7100,7 +7102,7 @@ icu.freedomIntrovert.biliSendCommAntifraud:
             <li>评论监控支持所有除了包含敏感词（未发送成功）的评论，不限于疑似审核，直到状态变化</li>
             <li>评论监控可自定义监控超时时间，可取消监控</li>
             </ul>
-    owner: freedom-introvert
+    author_name: freedom-introvert
 icu.freedomintrovert.YTSendCommAntiFraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomintrovert.YTSendCommAntiFraud
     summary: "笑死，这不是阿瓦隆嘛，怎么你YouTube来抄袭b站的肮脏玩意了\U0001F921\n发送评论自动检查，防止评论被儿童误食你还被蒙在鼓里"
@@ -7121,7 +7123,7 @@ icu.freedomintrovert.YTSendCommAntiFraud:
             <ul>
             <li>禁止后台返回时自动退出全屏，保持横屏。</li>
             </ul>
-    owner: freedom-introvert
+    author_name: freedom-introvert
 icu.insomnia.qavatar:
     git: https://github.com/Xposed-Modules-Repo/icu.insomnia.qavatar
     summary: 自动更换QQ头像
@@ -7134,7 +7136,7 @@ icu.insomnia.qavatar:
           id: icu.insomnia.qavatar
           name: QAvatar
           releasedescription: ""
-    owner: NoonieBao
+    author_name: NoonieBao
 icu.insomnia.zen:
     git: https://github.com/Xposed-Modules-Repo/icu.insomnia.zen
     summary: "An Xposed module that would halt APPs in your Zen time \U0001F62A"
@@ -7157,7 +7159,7 @@ icu.insomnia.zen:
             <li>fix: error index-dayOfWeek 下标错误</li>
             <li>feat: oneTime 一次性禅定</li>
             </ul>
-    owner: NoonieBao
+    author_name: NoonieBao
 icu.nullptr.twifucker:
     git: https://github.com/Xposed-Modules-Repo/icu.nullptr.twifucker
     summary: Yet Another Adkiller for Twitter
@@ -7240,7 +7242,7 @@ icu.nullptr.twifucker:
             <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mehlsine/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mehlsine">@Mehlsine</a> made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1664480765" data-permission-text="Title is private" data-url="https://github.com/Dr-TSNG/TwiFucker/issues/139" data-hovercard-type="pull_request" data-hovercard-url="/Dr-TSNG/TwiFucker/pull/139/hovercard" href="https://github.com/Dr-TSNG/TwiFucker/pull/139">Dr-TSNG/TwiFucker#139</a></li>
             </ul>
             <p><strong>Full Changelog / 完整更新日志</strong>: <a class="commit-link" href="https://github.com/Dr-TSNG/TwiFucker/compare/2.0...2.1">Dr-TSNG/TwiFucker@<tt>2.0...2.1</tt></a></p>
-    owner: JasonKhew96
+    author_name: JasonKhew96
 id.my.pjm.toys.nfcnci_patience:
     git: https://github.com/Xposed-Modules-Repo/id.my.pjm.toys.nfcnci_patience
     summary: ""
@@ -7267,7 +7269,7 @@ id.my.pjm.toys.nfcnci_patience:
             <p>Remember to reboot the device after activating/updating this module</p>
             <hr>
             <p>Source code for this release is available at: <a href="https://github.com/rmnscnce/NfcNci_Patience/tree/dceaae6">https://github.com/rmnscnce/NfcNci_Patience/tree/dceaae6</a></p>
-    owner: rmnscnce
+    author_name: rmnscnce
 im.hoho.alipayinstallb:
     git: https://github.com/Xposed-Modules-Repo/im.hoho.alipayinstallb
     summary: Alipay High Headsome Rich (支付宝装X模块)
@@ -7294,7 +7296,7 @@ im.hoho.alipayinstallb:
             </ol>
             <p>较[2.5.1]新增了界面操作和等级选择，正常使用的无需更新。</p>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/compare/V2.5.3...v2.5.4">nov30th/AlipayHighHeadsomeRichAndroid@<tt>V2.5.3...v2.5.4</tt></a></p>
-    owner: nov30th
+    author_name: nov30th
 inc.whew.android.fakegapps:
     git: https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps
     summary: ""
@@ -7315,7 +7317,7 @@ inc.whew.android.fakegapps:
             <ul>
             <li>Add Android 14 support</li>
             </ul>
-    owner: whew-inc
+    author_name: whew-inc
 io.github.a13e300.tools.stethox:
     git: https://github.com/Xposed-Modules-Repo/io.github.a13e300.tools.stethox
     summary: Inspect Android App with Chrome Devtools / 使用 Chrome 开发者工具调试 Android App
@@ -7340,7 +7342,7 @@ io.github.a13e300.tools.stethox:
             <li>修复 hook 的一系列 bug ，让 hook 更加易用</li>
             <li>增加 <code>hook.getClassLoaders</code> ，可以遍历所有 ClassLoader</li>
             </ul>
-    owner: 5ec1cff
+    author_name: 5ec1cff
 io.github.alexdonh.noaccessibilityservices:
     git: https://github.com/Xposed-Modules-Repo/io.github.alexdonh.noaccessibilityservices
     summary: An Xposed module that disables apps from getting installed and enabled accessibility services.
@@ -7361,7 +7363,7 @@ io.github.alexdonh.noaccessibilityservices:
             <ul>
             <li>Initital release</li>
             </ul>
-    owner: alexdonh
+    author_name: alexdonh
 io.github.auag0.disableaudiofocus:
     git: https://github.com/Xposed-Modules-Repo/io.github.auag0.disableaudiofocus
     summary: |-
@@ -7384,7 +7386,7 @@ io.github.auag0.disableaudiofocus:
             implemented disable audio focus for all apps<br>
             optimize apk<br>
             sign the apk</p>
-    owner: auag0
+    author_name: auag0
 io.github.auag0.hidemocklocation:
     git: https://github.com/Xposed-Modules-Repo/io.github.auag0.hidemocklocation
     summary: |-
@@ -7399,7 +7401,7 @@ io.github.auag0.hidemocklocation:
           id: io.github.auag0.hidemocklocation
           name: HideMockLocation
           releasedescription: "<p>implement hooks for the following functions</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\"><pre class=\"notranslate\"><code>&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\n</code></pre></div>\n<p>refactor code<br>\n<strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/auag0/HideMockLocation/compare/v1.1.0...v1.2.0\">auag0/HideMockLocation@<tt>v1.1.0...v1.2.0</tt></a></p>"
-    owner: auag0
+    author_name: auag0
 io.github.auag0.imnotadeveloper:
     git: https://github.com/Xposed-Modules-Repo/io.github.auag0.imnotadeveloper
     summary: |-
@@ -7415,7 +7417,7 @@ io.github.auag0.imnotadeveloper:
           id: io.github.auag0.imnotadeveloper
           name: ImNotADeveloper
           releasedescription: "<p>APK size was reduced due to changes in the native hook method\U0001FAE5<br>\n<strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/auag0/ImNotADeveloper/compare/80639b4ca0a257d34b4fb40022f703dff4c73a63...2-1.0.1\">auag0/ImNotADeveloper@<tt>80639b4...2-1.0.1</tt></a></p>"
-    owner: auag0
+    author_name: auag0
 io.github.brucezhang1993.warp_loves_play_store:
     git: https://github.com/Xposed-Modules-Repo/io.github.brucezhang1993.warp_loves_play_store
     summary: This xposed module forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+
@@ -7428,7 +7430,7 @@ io.github.brucezhang1993.warp_loves_play_store:
           id: io.github.brucezhang1993.warp_loves_play_store
           name: 'WarpLovesPlayStore - Forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+ '
           releasedescription: <p>This xposed module forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+</p>
-    owner: BruceZhang1993
+    author_name: BruceZhang1993
 io.github.chipppppppppp.binnosoko:
     git: https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.binnosoko
     summary: F*ck ChMate's ads
@@ -7441,7 +7443,7 @@ io.github.chipppppppppp.binnosoko:
           id: io.github.chipppppppppp.binnosoko
           name: Binnosoko
           releasedescription: <p>dev 版で広告が消えない問題を修正</p>
-    owner: Chipppppppppp
+    author_name: Chipppppppppp
 io.github.chipppppppppp.lime:
     git: https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.lime
     summary: Adkiller for LIME
@@ -7466,7 +7468,7 @@ io.github.chipppppppppp.lime:
             <p>LINE 14.9.1</p>
             <h3>差分</h3>
             <p><a class="commit-link" href="https://github.com/Chipppppppppp/LIME/compare/v1.9.1...v1.9.2">Chipppppppppp/LIME@<tt>v1.9.1...v1.9.2</tt></a></p>
-    owner: Chipppppppppp
+    author_name: Chipppppppppp
 io.github.chsbuffer.miuihelper:
     git: https://github.com/Xposed-Modules-Repo/io.github.chsbuffer.miuihelper
     summary: |-
@@ -7499,7 +7501,7 @@ io.github.chsbuffer.miuihelper:
             <li>Fix Security app 10.x.x <code>Replace App Info "Clear defaults" with "Open by default" setting</code></li>
             <li>Fix <code>Notification's "More Info" redirect to the corresponding notification channel setting</code> on HyperOS 1.0 Android 14</li>
             </ul>
-    owner: chsbuffer
+    author_name: chsbuffer
 io.github.cloudburst.messengerex:
     git: https://github.com/Xposed-Modules-Repo/io.github.cloudburst.messengerex
     summary: An Xposed module that improves the Facebook Messenger experience.
@@ -7512,7 +7514,7 @@ io.github.cloudburst.messengerex:
           id: io.github.cloudburst.messengerex
           name: An Xposed module that improves the Facebook Messenger experience.
           releasedescription: ""
-    owner: C10udburst
+    author_name: C10udburst
 io.github.duzhaokun123.darkaischedule:
     git: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.darkaischedule
     summary: 小爱课程表暗色支持
@@ -7539,7 +7541,7 @@ io.github.duzhaokun123.darkaischedule:
             <li><code>getUserInfo error, retry</code>反复重试可能增加耗电</li>
             <li>周数更新不正常</li>
             </ul>
-    owner: duzhaokun123
+    author_name: duzhaokun123
 io.github.duzhaokun123.fuckcainiao:
     git: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.fuckcainiao
     summary: 菜鸟界面优化和广告移除
@@ -7558,7 +7560,7 @@ io.github.duzhaokun123.fuckcainiao:
             <p>新增 关于页面<br>
             新增 清除详情页 banner 广告<br>
             修复 4.4.10.8 首页白屏</p>
-    owner: duzhaokun123
+    author_name: duzhaokun123
 io.github.duzhaokun123.tasklabelastasktitle:
     git: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.tasklabelastasktitle
     summary: use taskDescription.label as task title in recent task list
@@ -7571,7 +7573,7 @@ io.github.duzhaokun123.tasklabelastasktitle:
           id: io.github.duzhaokun123.tasklabelastasktitle
           name: TaskLabelAsTaskTitle
           releasedescription: <p>fix label update</p>
-    owner: duzhaokun123
+    author_name: duzhaokun123
 io.github.duzhaokun123.yamf:
     git: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.yamf
     summary: |-
@@ -7607,7 +7609,7 @@ io.github.duzhaokun123.yamf:
             <li>optimize launcher hooks</li>
             <li>bug fix, optimize experience</li>
             </ul>
-    owner: duzhaokun123
+    author_name: duzhaokun123
 io.github.enhancege:
     git: https://github.com/Xposed-Modules-Repo/io.github.enhancege
     summary: Enhance Xperia Game Enhancer
@@ -7620,7 +7622,7 @@ io.github.enhancege:
           id: io.github.enhancege
           name: Enhance Game Enhancer
           releasedescription: <p>remove more detections</p>
-    owner: null4n
+    author_name: null4n
 io.github.jeffshee.nekumorimod:
     git: https://github.com/Xposed-Modules-Repo/io.github.jeffshee.nekumorimod
     summary: A collection of fixes for some apps to work properly, especially on OnePlus7. Remove Lock Screen Album Art.
@@ -7637,7 +7639,7 @@ io.github.jeffshee.nekumorimod:
           releasedescription: |-
             <p>Optimize logging<br>
             Hide "Clear All" button in Overview (Recent Screen)</p>
-    owner: jeffshee
+    author_name: jeffshee
 io.github.lamprose.mi_ultra:
     git: https://github.com/Xposed-Modules-Repo/io.github.lamprose.mi_ultra
     summary: MIUI12.5扩展
@@ -7660,7 +7662,7 @@ io.github.lamprose.mi_ultra:
             <li>增加图标</li>
             <li>增加首条通知默认折叠,感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SpeedPartner/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SpeedPartner">@SpeedPartner</a>  (<a href="https://github.com/lamprose/MIUltra/issues/1" data-hovercard-type="issue" data-hovercard-url="/lamprose/MIUltra/issues/1/hovercard">#1</a>)</li>
             </ol>
-    owner: lamprose
+    author_name: lamprose
 io.github.liusj5257:
     git: https://github.com/Xposed-Modules-Repo/io.github.liusj5257
     summary: AzurlaneUncensored 碧蓝航线反和谐
@@ -7683,7 +7685,7 @@ io.github.liusj5257:
             <li>编译sdk改为28</li>
             <li>添加签名:上个版本未签名导致部分用户无法安装</li>
             </ul>
-    owner: liusj5257
+    author_name: liusj5257
 io.github.lsposed.disableflagsecure:
     git: https://github.com/Xposed-Modules-Repo/io.github.lsposed.disableflagsecure
     summary: Enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot(Android 14+) & screen record(Android 15+) detection.
@@ -7710,7 +7712,7 @@ io.github.lsposed.disableflagsecure:
             <ul>
             <li>Only <strong>official</strong> LSPosed is supported by this module, using the mod version is unexpected.</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.lzghzr.xperiaupdatecenter:
     git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaupdatecenter
     summary: 为Xperia解除UpdateCenter限制
@@ -7723,7 +7725,7 @@ io.github.lzghzr.xperiaupdatecenter:
           id: io.github.lzghzr.xperiaupdatecenter
           name: XperiaUpdateCenter
           releasedescription: <p>添加更多Product Code</p>
-    owner: lzghzr
+    author_name: lzghzr
 io.github.nitsuya.aa.display:
     git: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.aa.display
     summary: 让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案.
@@ -7750,7 +7752,7 @@ io.github.nitsuya.aa.display:
             <li>3.添加映射窗口显示分辨率和DPI.</li>
             <li>4.添加prop支持非基础类型的简单修改</li>
             </ul>
-    owner: Nitsuya
+    author_name: Nitsuya
 io.github.nitsuya.donottryaccessibility:
     git: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility
     summary: Hook System Framework 让应用认为没有开启无障碍服务
@@ -7763,7 +7765,7 @@ io.github.nitsuya.donottryaccessibility:
           id: io.github.nitsuya.donottryaccessibility
           name: DoNotTryAccessibility
           releasedescription: <p>support Android 8.1 +</p>
-    owner: Nitsuya
+    author_name: Nitsuya
 io.github.nvg064.xiaomicharginganimation:
     git: https://github.com/Xposed-Modules-Repo/io.github.nvg064.xiaomicharginganimation
     summary: ""
@@ -7780,7 +7782,7 @@ io.github.nvg064.xiaomicharginganimation:
           releasedescription: |-
             <p>Xiaomi Charge Animation v1.0.0 (1)</p>
             <p>Initial release</p>
-    owner: NVG-064
+    author_name: NVG-064
 io.github.qauxv:
     git: https://github.com/Xposed-Modules-Repo/io.github.qauxv
     summary: 为 QQ 和 TIM 添加更多功能
@@ -7857,7 +7859,7 @@ io.github.qauxv:
             ef917067d8da927d8eb723a640c21ece8df45e7b771b09ba65edb3968e647a93  QAuxv-v1.5.4.r2483.eecf29b-armAll.apk
             8ded9ad42c299d020dbb764a8886875ff66a6a71b49cbb1cf683fcd0a98e2c0e  QAuxv-v1.5.4.r2483.eecf29b-universal.apk
             </code></pre></div>
-    owner: NextAlone
+    author_name: NextAlone
 io.github.rushiranpise.gameunlocker:
     git: https://github.com/Xposed-Modules-Repo/io.github.rushiranpise.gameunlocker
     summary: Spoof your device as different model for specific games to unlock higher FPS
@@ -7880,7 +7882,7 @@ io.github.rushiranpise.gameunlocker:
             <li>Fix module not working on some devices</li>
             <li>Try to prevent ban</li>
             </ul>
-    owner: rushiranpise
+    author_name: rushiranpise
 io.github.tehcneko.applinkverify:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.applinkverify
     summary: Disable app link verify on Android 12, restore to old behaviour when opening links. 在 Android 12 上禁用应用链接验证，打开链接时恢复到旧行为。
@@ -7893,7 +7895,7 @@ io.github.tehcneko.applinkverify:
           id: io.github.tehcneko.applinkverify
           name: Disable app link verify / 禁用应用链接验证
           releasedescription: ""
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.clipboardwhitelist:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.clipboardwhitelist
     summary: Allowing apps to access the clipboard in the background on Android 10+.
@@ -7912,7 +7914,7 @@ io.github.tehcneko.clipboardwhitelist:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.hyperos.aospinstaller:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.hyperos.aospinstaller
     summary: 在小米澎湃OS或 MIUI 上使用原生软件包安装器。
@@ -7931,7 +7933,7 @@ io.github.tehcneko.hyperos.aospinstaller:
             <ul>
             <li>init release</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.mifit:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.mifit
     summary: |-
@@ -7952,7 +7954,7 @@ io.github.tehcneko.mifit:
             <ul>
             <li>Fixed support for 6.0.0 (50542)</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.miuinotificationfix:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.miuinotificationfix
     summary: 禁用 MIUI 通知白名单
@@ -7965,7 +7967,7 @@ io.github.tehcneko.miuinotificationfix:
           id: io.github.tehcneko.miuinotificationfix
           name: MIUI 通知修复
           releasedescription: ""
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.satback:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.satback
     summary: 不让应用变黑白
@@ -7984,7 +7986,7 @@ io.github.tehcneko.satback:
             <ul>
             <li>支持处理 WebView</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.sslunpinning:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.sslunpinning
     summary: Android Xposed Module to bypass SSL certificate validation (Certificate Pinning).
@@ -7997,6 +7999,7 @@ io.github.tehcneko.sslunpinning:
           id: io.github.tehcneko.sslunpinning
           name: SSLUnpinning
           releasedescription: <p>Initial release</p>
+    author_name: ""
 io.github.tehcneko.telespeed:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.telespeed
     summary: |-
@@ -8017,7 +8020,7 @@ io.github.tehcneko.telespeed:
             <ul>
             <li>Initial release</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.tehcneko.undo:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.undo
     summary: |-
@@ -8038,7 +8041,7 @@ io.github.tehcneko.undo:
             <ul>
             <li>Fix duplicated item on MIUI</li>
             </ul>
-    owner: tehcneko
+    author_name: tehcneko
 io.github.vvb2060.callrecording:
     git: https://github.com/Xposed-Modules-Repo/io.github.vvb2060.callrecording
     summary: Enable call recording for Google Dialer
@@ -8051,6 +8054,7 @@ io.github.vvb2060.callrecording:
           id: io.github.vvb2060.callrecording
           name: Call Recording
           releasedescription: <p>Support devices without TTS</p>
+    author_name: ""
 io.github.yagiyuu.linextra:
     git: https://github.com/Xposed-Modules-Repo/io.github.yagiyuu.linextra
     summary: An Xposed module to remove ads from the LINE
@@ -8063,7 +8067,7 @@ io.github.yagiyuu.linextra:
           id: io.github.yagiyuu.linextra
           name: LineXtra
           releasedescription: <p>First release</p>
-    owner: yagiyuu
+    author_name: yagiyuu
 io.github.yangyiyu08.taplusext:
     git: https://github.com/Xposed-Modules-Repo/io.github.yangyiyu08.taplusext
     summary: |-
@@ -8096,7 +8100,7 @@ io.github.yangyiyu08.taplusext:
             <li>optimize link recognition ability</li>
             <li>add remove shopping switch</li>
             </ul>
-    owner: buffcow
+    author_name: buffcow
 io.mesalabs.knoxpatch:
     git: https://github.com/Xposed-Modules-Repo/io.mesalabs.knoxpatch
     summary: Get Knox features working again in your rooted Samsung Galaxy device.
@@ -8119,7 +8123,7 @@ io.mesalabs.knoxpatch:
             </ul>
             <p>* If you have troubles installing the app, try the "sep-lite" apk.<br>
             ** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
-    owner: salvogiangri
+    author_name: salvogiangri
 io.noisyfox.oplongshotxposed:
     git: https://github.com/Xposed-Modules-Repo/io.noisyfox.oplongshotxposed
     summary: |-
@@ -8138,7 +8142,7 @@ io.noisyfox.oplongshotxposed:
           releasedescription: |-
             <p>Add support for android 9 &amp; 11 (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/F-i-f/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/F-i-f">@F-i-f</a>)<br>
             Add support for LSPosed (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/F-i-f/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/F-i-f">@F-i-f</a>)</p>
-    owner: Noisyfox
+    author_name: Noisyfox
 it.kapfer.digitalesamt.liberator:
     git: https://github.com/Xposed-Modules-Repo/it.kapfer.digitalesamt.liberator
     summary: Removes root and bootloader checks from the Austrian e-government apps
@@ -8151,7 +8155,7 @@ it.kapfer.digitalesamt.liberator:
           id: it.kapfer.digitalesamt.liberator
           name: E-Government Liberator
           releasedescription: <p>Updated support for newer versions of Serviceportal Bund and mObywatel</p>
-    owner: Crazyphil
+    author_name: Crazyphil
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
     summary: Bypass Xiaomi ADB install confirmation (which invokes com.miui.guardprovider) to make adb installation available with guardprovider disabled/hided.
@@ -8164,7 +8168,7 @@ lialh4.ldf:
           id: lialh4.ldf
           name: Let Develop Free
           releasedescription: <p>Remove kotlin related things</p>
-    owner: XingLiAl
+    author_name: XingLiAl
 lin.xposed:
     git: https://github.com/Xposed-Modules-Repo/lin.xposed
     summary: |-
@@ -8217,7 +8221,7 @@ lin.xposed:
             String getGroupRKey() //获取群聊rkey<br>
             String getFriendRKey() ///获取私聊rkey<br>
             脚本onMsg监听到图片消息 图片链接自动识别使用标准链接或者新图片链接</p>
-    owner: lovejiuwu
+    author_name: lovejiuwu
 lozn.hookui:
     git: https://github.com/Xposed-Modules-Repo/lozn.hookui
     summary: ""
@@ -8230,7 +8234,7 @@ lozn.hookui:
           id: lozn.hookui
           name: Easy HOOK UI,No Code, dyamic analaysis
           releasedescription: <p>HOOKUI1.9.0_build_26-release.apk</p>
-    owner: lozn00
+    author_name: lozn00
 lsposed.orange:
     git: https://github.com/Xposed-Modules-Repo/lsposed.orange
     summary: Xposed module for specifying orientation per app
@@ -8251,7 +8255,7 @@ lsposed.orange:
             <li>Fix: module config not work</li>
             <li>Remove ConfigProvider and database, which means those configs of previous version will be discarded. It's better to do a clear-data job after upgrading to this new version.</li>
             </ol>
-    owner: Erbzur
+    author_name: Erbzur
 ltd.nextalone.pkginstallerplus:
     git: https://github.com/Xposed-Modules-Repo/ltd.nextalone.pkginstallerplus
     summary: |-
@@ -8284,7 +8288,7 @@ ltd.nextalone.pkginstallerplus:
             <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chip44/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chip44">@chip44</a> made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2237444633" data-permission-text="Title is private" data-url="https://github.com/NextAlone/InstallerPlus/issues/24" data-hovercard-type="pull_request" data-hovercard-url="/NextAlone/InstallerPlus/pull/24/hovercard" href="https://github.com/NextAlone/InstallerPlus/pull/24">NextAlone/InstallerPlus#24</a></li>
             </ul>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/NextAlone/InstallerPlus/compare/v1.1...v1.2">NextAlone/InstallerPlus@<tt>v1.1...v1.2</tt></a></p>
-    owner: NextAlone
+    author_name: NextAlone
 ma.wanam.youtubeadaway:
     git: https://github.com/Xposed-Modules-Repo/ma.wanam.youtubeadaway
     summary: |-
@@ -8300,7 +8304,7 @@ ma.wanam.youtubeadaway:
           id: ma.wanam.youtubeadaway
           name: YouTube AdAway
           releasedescription: <p>Update YouTube support to 18.36+</p>
-    owner: wanam
+    author_name: wanam
 master.alarmshell.android:
     git: https://github.com/Xposed-Modules-Repo/master.alarmshell.android
     summary: 基于小米时钟和 Xposed 实现的定时执行脚本功能
@@ -8321,7 +8325,7 @@ master.alarmshell.android:
             <li>修复部分设备 Firebase 可能导致的崩溃问题</li>
             <li>修复脚本执行出错日志输出流未写入文件问题</li>
             </ul>
-    owner: 7e1ce9fb
+    author_name: 7e1ce9fb
 me.bingyue.IceCore:
     git: https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore
     summary: |-
@@ -8344,7 +8348,7 @@ me.bingyue.IceCore:
             <li>适配了小黑屋</li>
             <li>补全文档</li>
             </ul>
-    owner: bingqiu456
+    author_name: bingqiu456
 me.documenthook:
     git: https://github.com/Xposed-Modules-Repo/me.documenthook
     summary: 通过Hook，当有APP申请访问【Android/data】目录时，自动调用代码授权，省去**两个步骤**
@@ -8397,7 +8401,7 @@ me.documenthook:
             <li>It has passed the test in [MT Manager] app and [雪豹速清] app</li>
             <li>The scope of this version of LSPosed is the target application (such as [MT Manager] app), and [File] app</li>
             </ul>
-    owner: littleWhiteDuck
+    author_name: littleWhiteDuck
 me.hd.hookgg:
     git: https://github.com/Xposed-Modules-Repo/me.hd.hookgg
     summary: HookGG By HdShare
@@ -8450,7 +8454,7 @@ me.hd.hookgg:
             <li>Added decryption of some ELGG function parameters</li>
             <li>Added module-base64(encode, decode)</li>
             </ul>
-    owner: HdShare
+    author_name: HdShare
 me.hd.hookwzry:
     git: https://github.com/Xposed-Modules-Repo/me.hd.hookwzry
     summary: HookWzry By HdShare
@@ -8487,7 +8491,7 @@ me.hd.hookwzry:
             <li>Map Location</li>
             <li>Real Name</li>
             </ul>
-    owner: HdShare
+    author_name: HdShare
 me.hoshino.novpndetect:
     git: https://github.com/Xposed-Modules-Repo/me.hoshino.novpndetect
     summary: Prevent some apps detect your phone connected to VPN.
@@ -8504,7 +8508,7 @@ me.hoshino.novpndetect:
           releasedescription: |-
             <p>Better <strong>NetworkInterface</strong> name spoofing<br>
             Prevent <strong>NetworkInfo</strong> getType detect</p>
-    owner: TakanashiHoshino
+    author_name: TakanashiHoshino
 me.iacn.biliroaming:
     git: https://github.com/Xposed-Modules-Repo/me.iacn.biliroaming
     summary: |-
@@ -8535,7 +8539,7 @@ me.iacn.biliroaming:
             <li>添加禁止播放器长按加速</li>
             <li>支持固定推荐页面封面比例</li>
             </ul>
-    owner: yujincheng08
+    author_name: yujincheng08
 me.jsonet.jshook:
     git: https://github.com/Xposed-Modules-Repo/me.jsonet.jshook
     summary: 用js实现hook 支持java层和native层 / Implements hook with js support java layer and native layer
@@ -8554,7 +8558,7 @@ me.jsonet.jshook:
             <p>问题修复以及细节优化</p>
             <hr>
             <p>Bug fixes and detail optimization</p>
-    owner: etjson
+    author_name: etjson
 me.kofua.qmhelper:
     git: https://github.com/Xposed-Modules-Repo/me.kofua.qmhelper
     summary: Q音助手，还你一个干净的Q音 Android 客户端。
@@ -8575,7 +8579,7 @@ me.kofua.qmhelper:
             <ul>
             <li>兼容12.0.5.12及以上版本</li>
             </ul>
-    owner: zjns
+    author_name: zjns
 me.kyuubiran.akinatorhelper:
     git: https://github.com/Xposed-Modules-Repo/me.kyuubiran.akinatorhelper
     summary: |-
@@ -8606,7 +8610,7 @@ me.kyuubiran.akinatorhelper:
             <p>修正文本错误</p>
             </li>
             </ul>
-    owner: KyuubiRan
+    author_name: KyuubiRan
 me.kyuubiran.qqcleaner:
     git: https://github.com/Xposed-Modules-Repo/me.kyuubiran.qqcleaner
     summary: "在不影响聊天记录的情况下尽可能地减少QQ/TIM/微信的内存占用\r\n支持定时清理、手动清理以及自定义清理"
@@ -8629,7 +8633,7 @@ me.kyuubiran.qqcleaner:
             <li>新增 执行完毕时的Toast提示</li>
             <li>修复 错误的Toast提示</li>
             </ul>
-    owner: KyuubiRan
+    author_name: KyuubiRan
 me.neversleep.plusplus:
     git: https://github.com/Xposed-Modules-Repo/me.neversleep.plusplus
     summary: |-
@@ -8648,7 +8652,7 @@ me.neversleep.plusplus:
           releasedescription: |-
             <h2>禁用休眠不再重启手机</h2>
             <p>Disabling hibernation no longer restarts the phone</p>
-    owner: jitcor
+    author_name: jitcor
 me.plusne:
     git: https://github.com/Xposed-Modules-Repo/me.plusne
     summary: |-
@@ -8703,7 +8707,7 @@ me.plusne:
             [适配]皮皮搞笑 2.98.90(2989000)<br>
             [适配]皮皮虾 5.1.5(515)<br>
             [适配]七猫免费小说 7.57(75700)</p>
-    owner: ALittle-Cool
+    author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
     summary: An Xposed Mod for Snapchat meant to enhance your experience.
@@ -8758,7 +8762,7 @@ me.rhunk.snapenhance:
             </ul>
             <p>Thanks to everyone who contributed via Weblate!</p>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/rhunk/SnapEnhance/compare/v2.0.0...v2.0.1">rhunk/SnapEnhance@<tt>v2.0.0...v2.0.1</tt></a></p>
-    owner: authorisation
+    author_name: authorisation
 me.simplehook:
     git: https://github.com/Xposed-Modules-Repo/me.simplehook
     summary: 自定义简单的Hook，算法分析等
@@ -8875,7 +8879,7 @@ me.simplehook:
             <p><strong>ROOT</strong>【推荐】: 需要root权限进行写入配置，以及读取记录（Log）<br>
             Normal: 需要存储权限进行写入配置，以及读取记录（Log），同样适用于LSPatch，安卓13需要每个应用单独授予权限<br>
             Lite: 无需任何权限，仅用于LSPosed，无扩展功能，无记录功能，安卓版本 &gt;8</p>
-    owner: littleWhiteDuck
+    author_name: littleWhiteDuck
 me.sleep.vip:
     git: https://github.com/Xposed-Modules-Repo/me.sleep.vip
     summary: ""
@@ -8888,6 +8892,7 @@ me.sleep.vip:
           id: me.sleep.vip
           name: me.sleep.vip
           releasedescription: <p>人生路漫漫，理应享受尊贵生活</p>
+    author_name: ""
 me.teble.xposed.autodaily:
     git: https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily
     summary: 一个兼容QQ大部分版本的开源签到 Xposed 模块
@@ -8928,7 +8933,7 @@ me.teble.xposed.autodaily:
             <ul>
             <li>修复 在 QQ v9.0.75 (6808) 及更高版本中获取群列表可能发生闪退的问题。</li>
             </ul>
-    owner: teble
+    author_name: teble
 me.zhenxin.thisreallylite:
     git: https://github.com/Xposed-Modules-Repo/me.zhenxin.thisreallylite
     summary: 微博轻享版/极速版 去广告
@@ -8945,7 +8950,7 @@ me.zhenxin.thisreallylite:
           releasedescription: |-
             <p>微博轻享版6.1.7-(去除开屏广告，去除时间线广告，强制暗黑模式)<br>
             原作者基础上修改适配；需卸载重装</p>
-    owner: wangyuan0217
+    author_name: wangyuan0217
 ml.pyshivam.imeimasker:
     git: https://github.com/Xposed-Modules-Repo/ml.pyshivam.imeimasker
     summary: |-
@@ -8969,7 +8974,7 @@ ml.pyshivam.imeimasker:
             <p>Change The Value Of IMEI Number As Per Your Choice.</p>
             <p>Random, Original, Apply Options With One Click.</p>
             <p>Import/Export IMEI number.</p>
-    owner: pyshivam
+    author_name: pyshivam
 mobi.acpm.inspeckage:
     git: https://github.com/Xposed-Modules-Repo/mobi.acpm.inspeckage
     summary: Inspeckage是一个开发用于提供Android应用程序动态分析的工具。通过将钩子应用于Android API的功能，Inspeckage将帮助您了解Android应用程序在运行时正在做什么。
@@ -8988,7 +8993,7 @@ mobi.acpm.inspeckage:
             <p>修复安卓&gt;=7问题和一些错误</p>
             <p>蓝奏云高速下载地址：<br>
             <a href="https://wwtl.lanzoum.com/iJ5G814uzjqb?password=hpd1" rel="nofollow">https://wwtl.lanzoum.com/iJ5G814uzjqb?password=hpd1</a></p>
-    owner: andywu188
+    author_name: andywu188
 moe.henry_zhr.force_dark:
     git: https://github.com/Xposed-Modules-Repo/moe.henry_zhr.force_dark
     summary: "Override force-dark for apps in module scope  \n为作用域内应用强制启用 SmartDark\n\nAndroid 10+"
@@ -9001,7 +9006,7 @@ moe.henry_zhr.force_dark:
           id: moe.henry_zhr.force_dark
           name: Force Dark
           releasedescription: <p>Fix not working on Android 13</p>
-    owner: Henry-ZHR
+    author_name: Henry-ZHR
 moe.henry_zhr.kill_domain_verification:
     git: https://github.com/Xposed-Modules-Repo/moe.henry_zhr.kill_domain_verification
     summary: |-
@@ -9016,7 +9021,7 @@ moe.henry_zhr.kill_domain_verification:
           id: moe.henry_zhr.kill_domain_verification
           name: Kill Domain Verification
           releasedescription: <p>Avoid using XposedBridge.log for non-error message</p>
-    owner: Henry-ZHR
+    author_name: Henry-ZHR
 moe.lyniko.hiderecent:
     git: https://github.com/Xposed-Modules-Repo/moe.lyniko.hiderecent
     summary: Hide specific apps from recent task list
@@ -9033,7 +9038,7 @@ moe.lyniko.hiderecent:
           releasedescription: |-
             <p>feat: optional hide launcher icon</p>
             <p>支持隐藏启动器图标</p>
-    owner: Young-Lord
+    author_name: Young-Lord
 moe.lyniko.replacecursor:
     git: https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor
     summary: Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源
@@ -9050,7 +9055,7 @@ moe.lyniko.replacecursor:
           releasedescription: |-
             <p>i18n support / 中文翻译<br>
             bugfix</p>
-    owner: Young-Lord
+    author_name: Young-Lord
 moe.lz233.mitranslator:
     git: https://github.com/Xposed-Modules-Repo/moe.lz233.mitranslator
     summary: Enhance mi translator experience.
@@ -9071,7 +9076,7 @@ moe.lz233.mitranslator:
             <li>support i18n on label</li>
             <li>hide label when no item is shown</li>
             </ul>
-    owner: lz233
+    author_name: lz233
 moe.xzr.oplushidezoomwindow:
     git: https://github.com/Xposed-Modules-Repo/moe.xzr.oplushidezoomwindow
     summary: |-
@@ -9093,7 +9098,7 @@ moe.xzr.oplushidezoomwindow:
             <ul>
             <li>Hide all apps view of edge panel</li>
             </ul>
-    owner: libxzr
+    author_name: libxzr
 mufanc.tools.applock:
     git: https://github.com/Xposed-Modules-Repo/mufanc.tools.applock
     summary: ""
@@ -9124,7 +9129,7 @@ mufanc.tools.applock:
             <li>支持备份和恢复作用域</li>
             <li>调整了应用图标样式</li>
             </ul>
-    owner: Mufanc
+    author_name: Mufanc
 name.caiyao.sporteditor:
     git: https://github.com/Xposed-Modules-Repo/name.caiyao.sporteditor
     summary: 支持以一定的倍率修改微信运动、QQ健康、悦动圈、乐动力、三星健康、支付宝、春雨计步器、走向健康、KEEP、钉钉、微博、华为健康、步多多、平安健康、淘宝、国寿AI、趣步、乐心健康等的运动步数，支持自定义倍率，自定义开关，同时不影响其他微信QQ其他功能的正常使用比如微信摇一摇。
@@ -9153,7 +9158,7 @@ name.caiyao.sporteditor:
             <li>修复钉钉跳转到最近使用界面的问题</li>
             <li>步数上限设置无效，请使用定时关闭功能</li>
             </ol>
-    owner: YiuChoi
+    author_name: YiuChoi
 name.mikanoshi.customiuizer:
     git: https://github.com/Xposed-Modules-Repo/name.mikanoshi.customiuizer
     summary: Customize your MIUI ROM
@@ -9186,7 +9191,7 @@ name.mikanoshi.customiuizer:
             [Improved][Prevent app force close] Allow killing most apps by default if mod is active (Security, Contacts, Backup, etc)<br>
             [Improved][Folder background blur] Wallpaper blur support for latest MIUI Launcher versions<br>
             Added all MIUI apps as recommended scope in LSPosed</p>
-    owner: Mikanoshi
+    author_name: Mikanoshi
 name.monwf.customiuizer:
     git: https://github.com/Xposed-Modules-Repo/name.monwf.customiuizer
     summary: |-
@@ -9217,7 +9222,7 @@ name.monwf.customiuizer:
             <p>禁止最近任务的模糊列表被重置<br>
             修复切换至上一应用的动作失效问题<br>
             修复部分新系统在设置时钟格式后，系统界面crash的问题</p>
-    owner: MonwF
+    author_name: MonwF
 nep.timeline.freezer:
     git: https://github.com/Xposed-Modules-Repo/nep.timeline.freezer
     summary: Third party Android Tombstone, rewrite from NoActive
@@ -9246,7 +9251,7 @@ nep.timeline.freezer:
             优化: 性能<br>
             修复: PID不正确<br>
             新增: 加回输入法检测</p>
-    owner: Nep-Timeline
+    author_name: Nep-Timeline
 nep.timeline.re_telegram:
     git: https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram
     summary: |-
@@ -9267,7 +9272,7 @@ nep.timeline.re_telegram:
             <p>Now you can customize the color and content of the deleted mark<br>
             Fix lost animation when deleting own message<br>
             Supported Nekogram v11.0.0 (5143)</p>
-    owner: Nep-Timeline
+    author_name: Nep-Timeline
 net.ankio.bluetooth:
     git: https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth
     summary: ""
@@ -9290,7 +9295,7 @@ net.ankio.bluetooth:
             <li>修复MIUI14模拟异常[<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1707309258" data-permission-text="Title is private" data-url="https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1" data-hovercard-type="issue" data-hovercard-url="/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1/hovercard" href="https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1">#1</a>]</li>
             </ol>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dreamncn/bluetooth/compare/1.0.2...1.0.3">dreamncn/bluetooth@<tt>1.0.2...1.0.3</tt></a></p>
-    owner: dreamncn
+    author_name: dreamncn
 net.lonelytransistor.notificationinsystem:
     git: https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem
     summary: Move chosen notification icons from the left to the right side of the system statusbar.
@@ -9313,7 +9318,7 @@ net.lonelytransistor.notificationinsystem:
             <li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>
             <li>Small GUI fixes</li>
             </ul>
-    owner: lonelytransistor
+    author_name: lonelytransistor
 nil.nadph.qnotified:
     git: https://github.com/Xposed-Modules-Repo/nil.nadph.qnotified
     summary: 一个旨在使QQ变得更好用的开源Xposed模块
@@ -9326,7 +9331,7 @@ nil.nadph.qnotified:
           id: nil.nadph.qnotified
           name: QNotified
           releasedescription: <p>Init</p>
-    owner: NextAlone
+    author_name: NextAlone
 one.yufz.hmspush:
     git: https://github.com/Xposed-Modules-Repo/one.yufz.hmspush
     summary: 让非华为设备支持 HMS 推送，同时避免唤醒目标应用
@@ -9345,7 +9350,7 @@ one.yufz.hmspush:
             <ul>
             <li>适配 Android 14</li>
             </ul>
-    owner: fei-ke
+    author_name: fei-ke
 org.hello.coolapk:
     git: https://github.com/Xposed-Modules-Repo/org.hello.coolapk
     summary: Fuck coolapk again
@@ -9372,7 +9377,7 @@ org.hello.coolapk:
             <li>增加关闭输出Debug日志的开关</li>
             <li>为部分DexKit寻找的方法增加缓存</li>
             </ol>
-    owner: lz233
+    author_name: lz233
 org.liuyi.mifreeformx:
     git: https://github.com/Xposed-Modules-Repo/org.liuyi.mifreeformx
     summary: MIUI小窗增强扩展模块，实现类Flyme的手势操作逻辑
@@ -9467,7 +9472,7 @@ org.liuyi.mifreeformx:
             <p>[修复] 电脑端打开“文件管理”、“笔记”等应用黑屏</p>
             </li>
             </ul>
-    owner: LiuYiGL
+    author_name: LiuYiGL
 org.matrix.chromext:
     git: https://github.com/Xposed-Modules-Repo/org.matrix.chromext
     summary: |-
@@ -9504,7 +9509,7 @@ org.matrix.chromext:
             <li>Support Qihoo and Chromium browsers;</li>
             <li>Implement <code>window.close</code> API;</li>
             </ol>
-    owner: JingMatrix
+    author_name: JingMatrix
 org.strawing.customiuizermod:
     git: https://github.com/Xposed-Modules-Repo/org.strawing.customiuizermod
     summary: A mod version of CustoMIUIzer, to adapt Android11+ & MIUI12.5+
@@ -9517,7 +9522,7 @@ org.strawing.customiuizermod:
           id: org.strawing.customiuizermod
           name: CustoMIUIzerMod
           releasedescription: <p>Fix clock second shows after AM/PM</p>
-    owner: liyafe1997
+    author_name: liyafe1997
 pansong291.xposed.quickenergy:
     git: https://github.com/Xposed-Modules-Repo/pansong291.xposed.quickenergy
     summary: ""
@@ -9530,7 +9535,7 @@ pansong291.xposed.quickenergy:
           id: pansong291.xposed.quickenergy
           name: 蚂蚁森林快速收取能量
           releasedescription: <p>具体原因请看自述文件</p>
-    owner: yyds0722
+    author_name: yyds0722
 pansong291.xposed.quickenergy.qiufeng:
     git: https://github.com/Xposed-Modules-Repo/pansong291.xposed.quickenergy.qiufeng
     summary: ""
@@ -9549,7 +9554,7 @@ pansong291.xposed.quickenergy.qiufeng:
             <p>秋风2.5.6<br>
             1.森林：降低收能量雨、互助能量雨的耗时<br>
             2.芭芭农场：修复签到，增加领取奖励，优化自动施肥，增加好友助力，在【基本配置】&gt;【互助列表】中把大号小号都添加进去，切换登录列表中的账号，即可自动互助</p>
-    owner: yyds0722
+    author_name: yyds0722
 pansong291.xposed.quickenergy.repair:
     git: https://github.com/Xposed-Modules-Repo/pansong291.xposed.quickenergy.repair
     summary: 芝麻粒-快速收取蚂蚁森林能量
@@ -9562,7 +9567,7 @@ pansong291.xposed.quickenergy.repair:
           id: pansong291.xposed.quickenergy.repair
           name: 快速收取蚂蚁森林能量
           releasedescription: ""
-    owner: constanline
+    author_name: constanline
 pub.chara.disablealttab:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab
     summary: |-
@@ -9577,7 +9582,7 @@ pub.chara.disablealttab:
           id: pub.chara.disablealttab
           name: DisableAltTab
           releasedescription: <p>first version.</p>
-    owner: CwithW
+    author_name: CwithW
 pub.chara.miuipadmeta:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.miuipadmeta
     summary: "为小米平板5系列和其他MIUI/HyperOS设备恢复键盘Meta/Win键功能，同时禁用Alt-Tab快捷键。这样就可以在远程桌面里用Meta键和Alt-Tab了。\r\nRestore Meta/Win key function for Xiaomi Pad 5 Series and other MIUI/HyperOS devices, and disable Alt-Tab hotkey. Allows you to use Meta and Alt-Tab key in Remote Desktop。"
@@ -9594,7 +9599,7 @@ pub.chara.miuipadmeta:
           releasedescription: |-
             <p>should fix hyperos<br>
             win+xx快捷键，没找着在哪handle的，建议小米设置里关了得了</p>
-    owner: CwithW
+    author_name: CwithW
 ru.bluecat.alfabankpatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher
     summary: Скрывает рекламу в приложении Альфа Банк, а так же ряд других параметров.
@@ -9625,7 +9630,7 @@ ru.bluecat.alfabankpatcher:
             <li>Редизайн счётчика количества отфильтрованных push сообщений, теперь он располагается в разделе модуля "Push". Функционал зависим от активности процесса Альфа Банка.</li>
             <li>Модуль теперь ссылается на репозитории JingMatrix.</li>
             </ul>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.bluecat.android.xposed.mods.appsettings:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.android.xposed.mods.appsettings
     summary: Fork of the original App Settings by Rovo89. Supporting Android 8.0+
@@ -9656,7 +9661,7 @@ ru.bluecat.android.xposed.mods.appsettings:
             The update <strong>does not contain</strong> new hooks for modern ways of existing features, so they may not work on some applications.<br>
             The application fully uses the original hooks with support for new OS versions. Many applications use new methods added by Google later.</p>
             <p>If anyone is interested, you can continue to develop new hooks methods.</p>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.bluecat.megafoncleaner:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.megafoncleaner
     summary: Скрытие баннеров и предложений в приложении Мегафон
@@ -9677,7 +9682,7 @@ ru.bluecat.megafoncleaner:
             <li>Редизайн навигации завершения Мегафона. Теперь завершение выполняется плавающей кнопкой в правом нижнем углу.</li>
             <li>Исправлена работа статусов модуля на KernelSU.</li>
             </ul>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.bluecat.mirpaysecurity:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity
     summary: Обход проверок безопасности приложения Mir Pay
@@ -9700,7 +9705,7 @@ ru.bluecat.mirpaysecurity:
             <li>Убрано скрытие ленты с промо товарами т.к. разработчики её убрали.</li>
             </ul>
             <p>Сменилась методика работы модуля, к сожалению после обновления защиты приложения больше нет возможности автоматически обновлять правки при помощи DexKit. Будет правится по факту вручную.</p>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.bluecat.sberbankpatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher
     summary: Различные модификации в приложении СберБанк.
@@ -9721,7 +9726,7 @@ ru.bluecat.sberbankpatcher:
             <li>Поддержка версии 16.0.0</li>
             <li>Скрытие иконки модуля теперь доступно только в root режиме.</li>
             </ul>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher
     summary: Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты.
@@ -9742,7 +9747,7 @@ ru.bluecat.yandexmapspatcher:
             <li>Поддержка версии 20.2.0</li>
             <li>Добавлена возможность видеть в интерфейсе модуля отвалившиеся перехваты после обновления. Данный функционал не будет активен если у вас включён "Автосканер" или Яндекс Карты давно не запускались.</li>
             </ul>
-    owner: BlueCat300
+    author_name: BlueCat300
 ru.hepolise.volumekeymusicmanagermodule:
     git: https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule
     summary: ""
@@ -9763,7 +9768,7 @@ ru.hepolise.volumekeymusicmanagermodule:
             <li>Fixed working with HyperOS</li>
             <li>Fixed the initialization error (no functional impacting)</li>
             </ul>
-    owner: Hepolise
+    author_name: Hepolise
 ru.mike.customiuizer125plugin:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.customiuizer125plugin
     summary: Mikanoshi's CustoMIUIzer plugin for MIUI 12.5 & Android 11
@@ -9812,7 +9817,7 @@ ru.mike.customiuizer125plugin:
             <li>Remove unused free space in the quick settings bottom (xiaomi.eu)</li>
             <li>Increase battery font size</li>
             </ul>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.diiatweaks:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.diiatweaks
     summary: 'Diia Tweaks: remove root checks'
@@ -9833,7 +9838,7 @@ ru.mike.diiatweaks:
             Small fixes</p>
             <p>UPDATE: apk v2 sign fix</p>
             <p>MD5: 6461F2FDC88A2944554D403CD07B8A4C</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.loyalty:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.loyalty
     summary: Hide chats in the Telegram messenger
@@ -9852,7 +9857,7 @@ ru.mike.loyalty:
             <p>Multi-user support<br>
             Close opened chat improvement (if several chats have been opened in the chain, not all of which need to be closed)<br>
             Close media preview added</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.mapstweaks:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.mapstweaks
     summary: Hide unwanted views of Google and Yandex maps & navi
@@ -9865,7 +9870,7 @@ ru.mike.mapstweaks:
           id: ru.mike.mapstweaks
           name: Maps tweaks
           releasedescription: <p>[YM] v17+ support</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.mcroot:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.mcroot
     summary: 'McRoot: disable root and security check (SafetyNet requested!)'
@@ -9882,7 +9887,7 @@ ru.mike.mcroot:
           releasedescription: |-
             <p>Crashes fixes<br>
             Remove unnecessary dependencies to reduce size</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.rootobywatel:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.rootobywatel
     summary: Be an obywatel with root!
@@ -9895,7 +9900,7 @@ ru.mike.rootobywatel:
           id: ru.mike.rootobywatel
           name: 'mObywatel: be an obywatel with root'
           releasedescription: <p>First release</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.sidestories:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.sidestories
     summary: Remove action bar stories in the Telegram messenger
@@ -9908,7 +9913,7 @@ ru.mike.sidestories:
           id: ru.mike.sidestories
           name: Remove action bar stories in the Telegram messenger (+block unmute button)
           releasedescription: '<p>SideStories: Telegram v11+ &amp; A12+ fix</p>'
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 ru.mike.updatelocker:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.updatelocker
     summary: Stop update your apps
@@ -9925,7 +9930,7 @@ ru.mike.updatelocker:
           releasedescription: |-
             <p>New feature: block apps permissions revoke<br>
             App theme switch added</p>
-    owner: MichaelZhuravsky
+    author_name: MichaelZhuravsky
 sb.firefds.pie.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.pie.firefdskit
     summary: Firefds Kit Xposed module for Samsung Pie (Android 9) devices
@@ -9944,7 +9949,7 @@ sb.firefds.pie.firefdskit:
             <ul>
             <li>Dependencies and Gradle update</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 sb.firefds.q.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.q.firefdskit
     summary: Firefds Kit Xposed module for Samsung Q (Android 10) devices
@@ -9967,7 +9972,7 @@ sb.firefds.q.firefdskit:
             <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
             <li>Dependencies and Gradle update</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 sb.firefds.r.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.r.firefdskit
     summary: Firefds Kit Xposed module for Samsung R (Android 11) devices
@@ -9990,7 +9995,7 @@ sb.firefds.r.firefdskit:
             <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
             <li>Dependencies and Gradle update</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 sb.firefds.s.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.s.firefdskit
     summary: Firefds Kit Xposed module for Samsung S (Android 12) devices
@@ -10017,7 +10022,7 @@ sb.firefds.s.firefdskit:
             <li>Dependencies and Gradle update</li>
             <li>Temporary disable Show Network Speed Menu to resolve bootloops</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 sb.firefds.t.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.t.firefdskit
     summary: Firefds Kit Xposed module for Samsung Tiramisu (Android 13) devices
@@ -10036,7 +10041,7 @@ sb.firefds.t.firefdskit:
             <ul>
             <li>Initial version of Firefds Kit for Android 13</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 sb.firefds.u.firefdskit:
     git: https://github.com/Xposed-Modules-Repo/sb.firefds.u.firefdskit
     summary: Firefds Kit Xposed module for Samsung Upside Down Cake (Android 14) devices
@@ -10059,7 +10064,7 @@ sb.firefds.u.firefdskit:
             <li>Most settings do not require restart now</li>
             <li>Removed biometrics enabled on unlock</li>
             </ul>
-    owner: Firefds
+    author_name: Firefds
 space.aioilight.tsubonofuta:
     git: https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta
     summary: F*ck ChMate's ads
@@ -10098,7 +10103,7 @@ space.aioilight.tsubonofuta:
             <li><code>2chMate 0.8.10.153/OnePlus/LE2115/12/DR</code></li>
             <li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>
             </ul>
-    owner: AioiLight
+    author_name: AioiLight
 ss.colytitse.fuckdmzj:
     git: https://github.com/Xposed-Modules-Repo/ss.colytitse.fuckdmzj
     summary: 净化动漫之家模块
@@ -10119,7 +10124,7 @@ ss.colytitse.fuckdmzj:
             <blockquote>
             <p>依旧遵循能用就行，别乱更新大妈客户端。</p>
             </blockquote>
-    owner: cokkeijigen
+    author_name: cokkeijigen
 ss.colytitse.setappfull:
     git: https://github.com/Xposed-Modules-Repo/ss.colytitse.setappfull
     summary: |-
@@ -10142,7 +10147,7 @@ ss.colytitse.setappfull:
             <p>配置存储方式更换为NewXSharePrefs，因此可能需要重新勾选目标应用<br>
             新增作用域模式（免重启）</p>
             </blockquote>
-    owner: cokkeijigen
+    author_name: cokkeijigen
 star.sky.voyager:
     git: https://github.com/Xposed-Modules-Repo/star.sky.voyager
     summary: |-
@@ -10181,7 +10186,7 @@ star.sky.voyager:
             更新依赖<br>
             修改了一些描述<br>
             这是StarVoyager最后一个版本了，虽然本身就已经很久不再更新了。</p>
-    owner: hosizoraru
+    author_name: hosizoraru
 statusbar.lyric:
     git: https://github.com/Xposed-Modules-Repo/statusbar.lyric
     summary: StatusBar Lyric / 墨•状态栏歌词
@@ -10234,7 +10239,7 @@ statusbar.lyric:
             <li>修复 屏幕缺口黑边</li>
             <li>修复 歌词设置宽度过大时无法滚动</li>
             </ul>
-    owner: qqlittleice233
+    author_name: qqlittleice233
 tech.oliet.hcefunlocker:
     git: https://github.com/Xposed-Modules-Repo/tech.oliet.hcefunlocker
     summary: An Xposed module that unlocks HCE-F (Host Card Emulation Type-F) IDm and System code restrictions.
@@ -10247,6 +10252,7 @@ tech.oliet.hcefunlocker:
           id: tech.oliet.hcefunlocker
           name: HCEFUnlocker
           releasedescription: <p>Support Chinese, Japanese / Hide Launcher icon</p>
+    author_name: ""
 tn.amin.keyboard_gpt:
     git: https://github.com/Xposed-Modules-Repo/tn.amin.keyboard_gpt
     summary: Integrate Generative AI like ChatGPT in keyboard.
@@ -10267,7 +10273,7 @@ tn.amin.keyboard_gpt:
             <li>Fixed a bug that would prevent launching "Chose Model Dialog" since version 1.1 for new users</li>
             <li>Added support for samsung keyboard</li>
             </ul>
-    owner: Mino260806
+    author_name: Mino260806
 tn.amin.mpro2:
     git: https://github.com/Xposed-Modules-Repo/tn.amin.mpro2
     summary: A mod that enhances Facebook Messenger with loads of powerful features !
@@ -10286,7 +10292,7 @@ tn.amin.mpro2:
             <ul>
             <li>Minor bugs fixed</li>
             </ul>
-    owner: Mino260806
+    author_name: Mino260806
 tn.amin.phantom_mic:
     git: https://github.com/Xposed-Modules-Repo/tn.amin.phantom_mic
     summary: Simulate microphone input from an audio file
@@ -10299,7 +10305,7 @@ tn.amin.phantom_mic:
           id: tn.amin.phantom_mic
           name: Phantom Mic
           releasedescription: <p>New major version! Thanks to native hook, the app now works on 95% of apps including whatsapp and chrome.</p>
-    owner: Mino260806
+    author_name: Mino260806
 tn.payoneer.loukious:
     git: https://github.com/Xposed-Modules-Repo/tn.payoneer.loukious
     summary: ""
@@ -10312,7 +10318,7 @@ tn.payoneer.loukious:
           id: tn.payoneer.loukious
           name: Payoneer Root Detection Bypass
           releasedescription: <p>Initial release.</p>
-    owner: Loukious
+    author_name: Loukious
 top.canyie.settingsfirewall:
     git: https://github.com/Xposed-Modules-Repo/top.canyie.settingsfirewall
     summary: Block apps from accessing system settings. 阻止应用偷看你的系统设置。
@@ -10325,7 +10331,7 @@ top.canyie.settingsfirewall:
           id: top.canyie.settingsfirewall
           name: SettingsFirewall 设置防睛眼
           releasedescription: <p>Initial release</p>
-    owner: canyie
+    author_name: canyie
 top.trangle.mbga:
     git: https://github.com/Xposed-Modules-Repo/top.trangle.mbga
     summary: |-
@@ -10352,7 +10358,7 @@ top.trangle.mbga:
             <li>fix: 修复非复制链接时分享失败的问题 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2593513610" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/63" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/63/hovercard" href="https://github.com/cledwynl/mbga/pull/63">cledwynl/mbga#63</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2590460105" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/61" data-hovercard-type="issue" data-hovercard-url="/cledwynl/mbga/issues/61/hovercard" href="https://github.com/cledwynl/mbga/issues/61">cledwynl/mbga#61</a></li>
             </ul>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cledwynl/mbga/compare/v1.2.0...v1.2.1">cledwynl/mbga@<tt>v1.2.0...v1.2.1</tt></a></p>
-    owner: cledwynl
+    author_name: cledwynl
 top.weixiansen574.alarmshell:
     git: https://github.com/Xposed-Modules-Repo/top.weixiansen574.alarmshell
     summary: 基于系统闹钟的定时执行Shell脚本的LSP模块，具有更高可靠性，妈妈再也不用担心定时任务不执行啦！
@@ -10365,7 +10371,7 @@ top.weixiansen574.alarmshell:
           id: top.weixiansen574.alarmshell
           name: AlarmShell
           releasedescription: <h3>第一个版本，使用教程详见readme</h3>
-    owner: weixiansen574
+    author_name: weixiansen574
 top.weixiansen574.fuckadjump:
     git: https://github.com/Xposed-Modules-Repo/top.weixiansen574.fuckadjump
     summary: 禁止应用跳转淘宝京东
@@ -10378,7 +10384,7 @@ top.weixiansen574.fuckadjump:
           id: top.weixiansen574.fuckadjump
           name: Fuck淘宝京东跳转
           releasedescription: "<p>618快乐\U0001F973</p>"
-    owner: weixiansen574
+    author_name: weixiansen574
 top.weixiansen574.fuckunknownsourcesrestrictions:
     git: https://github.com/Xposed-Modules-Repo/top.weixiansen574.fuckunknownsourcesrestrictions
     summary: 移除原生安装器的安装未知来源权限检查
@@ -10391,7 +10397,7 @@ top.weixiansen574.fuckunknownsourcesrestrictions:
           id: top.weixiansen574.fuckunknownsourcesrestrictions
           name: 去他妈的未知来源限制
           releasedescription: ""
-    owner: weixiansen574
+    author_name: weixiansen574
 tw.idv.palatis.xappdebug:
     git: https://github.com/Xposed-Modules-Repo/tw.idv.palatis.xappdebug
     summary: Debug any application of your choice!
@@ -10412,7 +10418,7 @@ tw.idv.palatis.xappdebug:
             <li>CI :-D</li>
             <li>Android 13 (Tiramisu) support, thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ElJaviLuki/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ElJaviLuki">@ElJaviLuki</a></li>
             </ul>
-    owner: Palatis
+    author_name: Palatis
 vn.kwaiching.anantaryamarga:
     git: https://github.com/Xposed-Modules-Repo/vn.kwaiching.anantaryamarga
     summary: 受身無間永遠不死，壽長乃無間地獄中之大劫
@@ -10435,7 +10441,7 @@ vn.kwaiching.anantaryamarga:
             <p>城通網盤<br>
             <a href="https://u062.com/d/16731109-40183208-4b8931" rel="nofollow">https://u062.com/d/16731109-40183208-4b8931</a><br>
             [访问密码：9214]</p>
-    owner: kwaiching
+    author_name: kwaiching
 vn.kwaiching.dj:
     git: https://github.com/Xposed-Modules-Repo/vn.kwaiching.dj
     summary: |-
@@ -10466,7 +10472,7 @@ vn.kwaiching.dj:
             <p>城通網盤<br>
             <a href="https://u062.com/d/16731109-40183208-4b8931" rel="nofollow">https://u062.com/d/16731109-40183208-4b8931</a><br>
             [访问密码：9214]</p>
-    owner: kwaiching
+    author_name: kwaiching
 vn.kwaiching.live:
     git: https://github.com/Xposed-Modules-Repo/vn.kwaiching.live
     summary: -蘋果/萌物/夏日/星耀/金沙/猫色/冰橙/情人/女王/雪碧/貴妃/戀人/玫瑰/银杏/久爱/妖精/小柒/榴莲/模特/舞姬/妃鱼/完美/愛愛你/小草莓/比赛 直播 增強插件
@@ -10503,7 +10509,7 @@ vn.kwaiching.live:
             <p>城通網盤<br>
             <a href="https://u062.com/d/16731109-40183208-4b8931" rel="nofollow">https://u062.com/d/16731109-40183208-4b8931</a><br>
             [访问密码：9214]</p>
-    owner: kwaiching
+    author_name: kwaiching
 vn.kwaiching.tao:
     git: https://github.com/Xposed-Modules-Repo/vn.kwaiching.tao
     summary: A module for Turbo VPN, Turbo VPN Lite, AdGuard VPN, Fast VPN, Goat VPN, Hola VPN Plus, VPN Robot, Snap VPN, VPN Monster, VPN Proxy Master Lite, VPN Proxy Master, SuperVPN, Tenon VPN, Today VPN, X-VPN, Yoga VPN, Secure VPN, TX VPN, Green VPN, Power VPN, GalaxyVPN, GalaxyVPN Lite, FoTiaoQiang VPN, Bit VPN, AT VPN, Panda VPN, Ant VPN, BlackHole VPN, XiaoHa VPN, SmallWings VPN, Tom VPN, Zeus VPN, YaYa VPN, Delta VPN, Fast_VPN_Proxy_Secure_VPN, LeiTing VPN, Xwind VPN, HoneyBee VPN, BorderVPN, AuroraVPN,…
@@ -10528,7 +10534,7 @@ vn.kwaiching.tao:
             <p>城通網盤<br>
             <a href="https://u062.com/d/16731109-40183208-4b8931" rel="nofollow">https://u062.com/d/16731109-40183208-4b8931</a><br>
             [访问密码：9214]</p>
-    owner: kwaiching
+    author_name: kwaiching
 vn.kwaiching.yauyin:
     git: https://github.com/Xposed-Modules-Repo/vn.kwaiching.yauyin
     summary: '頂點小說; 筆趣閣; 火星小說; 天天讀書; 淘小說; 必看小說; 51漫畫; 91次元: 去廣告/更新/VIP模塊'
@@ -10555,7 +10561,7 @@ vn.kwaiching.yauyin:
             [访问密码：9214]</p>
             <p>星耀雲盤<br>
             <a href="http://www.xingyaopan.com/space_kwaiching.html" rel="nofollow">http://www.xingyaopan.com/space_kwaiching.html</a></p>
-    owner: kwaiching
+    author_name: kwaiching
 wx.myfriends:
     git: https://github.com/Xposed-Modules-Repo/wx.myfriends
     summary: 微密友 - 隐藏微信好友
@@ -10568,7 +10574,7 @@ wx.myfriends:
           id: wx.myfriends
           name: 微密友 - 隐藏微信好友
           releasedescription: ""
-    owner: "476321234"
+    author_name: "476321234"
 xdc.destinyImm:
     git: https://github.com/Xposed-Modules-Repo/xdc.destinyImm
     summary: ""
@@ -10591,7 +10597,7 @@ xdc.destinyImm:
             修复一些其它已知问题</p>
             <p>#注</p>
             <p>极速版还未完全适配，无需反馈。</p>
-    owner: Sohoad
+    author_name: Sohoad
 xeed.xposed.cbppmod:
     git: https://github.com/Xposed-Modules-Repo/xeed.xposed.cbppmod
     summary: No more need to turn on screen to control the music player! Get the ultimate control over buttons on your device!
@@ -10616,7 +10622,7 @@ xeed.xposed.cbppmod:
             <li>Improved detection of screen and call states</li>
             <li>Look and feel upgrade</li>
             </ul>
-    owner: XspeedPL
+    author_name: XspeedPL
 xmnh.soulfrog:
     git: https://github.com/Xposed-Modules-Repo/xmnh.soulfrog
     summary: "SoulFrog hook vip and 广告\U0001F438"
@@ -10629,7 +10635,7 @@ xmnh.soulfrog:
           id: xmnh.soulfrog
           name: SoulFrog
           releasedescription: <p>releases-1.0.0</p>
-    owner: xmnh
+    author_name: xmnh
 xyz.ccat3z.nodisplaycutout:
     git: https://github.com/Xposed-Modules-Repo/xyz.ccat3z.nodisplaycutout
     summary: 强制应用在刘海/挖控区域中呈现. 主要用于小米Mix4这种挖了孔但又没挖孔的屏下摄像头手机.
@@ -10642,7 +10648,7 @@ xyz.ccat3z.nodisplaycutout:
           id: xyz.ccat3z.nodisplaycutout
           name: NoDisplayCutout
           releasedescription: ""
-    owner: ccat3z
+    author_name: ccat3z
 xyz.cirno.noswipetokill:
     git: https://github.com/Xposed-Modules-Repo/xyz.cirno.noswipetokill
     summary: 禁止 MIUI 划卡杀后台
@@ -10655,7 +10661,7 @@ xyz.cirno.noswipetokill:
           id: xyz.cirno.noswipetokill
           name: NoSwipeToKill
           releasedescription: ""
-    owner: dantmnf
+    author_name: dantmnf
 xyz.cirno.pseudodcdimming:
     git: https://github.com/Xposed-Modules-Repo/xyz.cirno.pseudodcdimming
     summary: |-
@@ -10670,7 +10676,7 @@ xyz.cirno.pseudodcdimming:
           id: xyz.cirno.pseudodcdimming
           name: Pseudo DC Dimming
           releasedescription: <p>Add support for Android 14.</p>
-    owner: dantmnf
+    author_name: dantmnf
 xyz.cirno.unfuckzui:
     git: https://github.com/Xposed-Modules-Repo/xyz.cirno.unfuckzui
     summary: |-
@@ -10685,7 +10691,7 @@ xyz.cirno.unfuckzui:
           id: xyz.cirno.unfuckzui
           name: Unfuck ZUI Tablet
           releasedescription: "<h3>ZUI 16 (Android 14) Support</h3>\n<p>⚠ <strong>Warning</strong>: features marked \"CN ROM only\" are no longer maintained and may not work on ZUI 16.<br>\n⚠ <strong>警告</strong>：标记「仅适用于中国版 ROM」的功能已不再维护，可能不适用于 ZUI 16。</p>\n<p>Also some trivial RRO as a Magisk module, for navigation bar height and settings two-pane layout tuning. Lenovo seems to think the navigation bar height should not change along with DPI. \U0001F937</p>\n<p>另附一个 Magisk 模块回滚 ZUI 16 上低 DPI 时的导航栏高度以及调整设置双栏布局的触发条件。联想似乎认为导航栏高度不应该随 DPI 变化。\U0001F937</p>"
-    owner: dantmnf
+    author_name: dantmnf
 xyz.xfqlittlefan.ciwong.hello:
     git: https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello
     summary: 习习向上优化模块
@@ -10708,7 +10714,7 @@ xyz.xfqlittlefan.ciwong.hello:
             <ul>
             <li>解决了无法取消显示在线作答的答案的问题</li>
             </ul>
-    owner: xfqwdsj
+    author_name: xfqwdsj
 xyz.xfqlittlefan.notdeveloper:
     git: https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.notdeveloper
     summary: |-
@@ -10757,7 +10763,7 @@ xyz.xfqlittlefan.notdeveloper:
             <li>ci: update by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2327026392" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/70" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/70/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/70">xfqwdsj/IAmNotADeveloper#70</a></li>
             </ul>
             <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/xfqwdsj/IAmNotADeveloper/compare/1.2.0...1.3.1">xfqwdsj/IAmNotADeveloper@<tt>1.2.0...1.3.1</tt></a></p>
-    owner: xfqwdsj
+    author_name: xfqwdsj
 yep.python.hook:
     git: https://github.com/Xposed-Modules-Repo/yep.python.hook
     summary: ""
@@ -10776,4 +10782,4 @@ yep.python.hook:
             <p><strong>2.1</strong><br>
             测试支持7.4版本.<br>
             移除不必要的判断.</p>
-    owner: yepqqw
+    author_name: yepqqw
