@@ -13,6 +13,19 @@ URL:
 https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
+## Instructions
+
+1. Install the [F-Droid client app](https://f-droid.org/).
+2. Scan the QR code from above or manually copy/paste the F-Droid repository [link](ttps://raw.githubusercontent.com/username/f-droid/main/fdroid/repo?fingerprint=XXX) into the F-Droid client app under Settings.
+3. Add the repository to the F-Droid client app.
+4. Refresh your F-Droid client app under the Categories tab.
+5. Install from the F-Droid client app listing.
+
+
+## Credits
+
+This GitHub repository was forked and adapted from https://github.com/xarantolus/fdroid and https://github.com/bitwarden/f-droid
+
 ## Apps
 
 <!-- This table is auto-generated. Do not edit -->
@@ -456,19 +469,4 @@ A plugin for Zhihu, currently an ad blocker. | 24.04.06 (202404060) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.hello.world"><img src="fdroid/repo/com.hello.world/en-US/icon.png" alt="飞哥传说 icon" width="36px" height="36px"></a> | [**飞哥传说**](https://github.com/Xposed-Modules-Repo/com.hello.world) | 飞哥传说&lt;br&gt;企业微信秒抢红包&lt;br&gt;网盘下载地址：https://www.123pan.com/s/1IGKVv-skXNv&lt;br&gt;密码：1188 | 1.12 (58) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer"><img src="fdroid/repo/com.simo.ssl.killer/en-US/icon.png" alt="𝙎𝙎𝙇 𝙆𝙞𝙇𝙇𝙀𝙍 icon" width="36px" height="36px"></a> | [**𝙎𝙎𝙇 𝙆𝙞𝙇𝙇𝙀𝙍**](https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer) | An advanced XPosed module to bypass ssl pinning. | 1.0.2 (1) |
 <!-- end apps table -->
-
-## Instructions
-
-1. Install the [F-Droid client app](https://f-droid.org/).
-2. Scan the QR code from above or manually copy/paste the F-Droid repository [link](ttps://raw.githubusercontent.com/username/f-droid/main/fdroid/repo?fingerprint=XXX) into the F-Droid client app under Settings.
-3. Add the repository to the F-Droid client app.
-4. Refresh your F-Droid client app under the Categories tab.
-5. Install from the F-Droid client app listing.
-
-## For developers
-If you are a developer and want to publish your own apps right from GitHub Actions as an F-Droid repo, you can fork/copy this repo and see the [documentation](setup.md) for more information on how to set it up.
-
-## Credits
-
-This GitHub repository was forked and adapted from https://github.com/xarantolus/fdroid and https://github.com/bitwarden/f-droid
 
