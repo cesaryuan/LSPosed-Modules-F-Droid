@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2_DisableUpdate
+CurrentVersionCode: 3
+Description: |-
+    <p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>
+    <p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>
+IssueTracker: ""
+Name: smobajump
+SourceCode: https://github.com/Xposed-Modules-Repo/com.bit747.smobajump
+Summary: 跳过王者营地的启动动画和推广的界面,版本号带“DisableUpdate”的会屏蔽启动时的自动更新
+WebSite: ""

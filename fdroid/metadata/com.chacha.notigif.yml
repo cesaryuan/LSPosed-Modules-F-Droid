@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.7"
+CurrentVersionCode: 1
+Description: |-
+    <p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>
+    Added show on lockscreen switch (Thanks @Hyper.Alvi)<br>
+    Added refresh gifs without SystemUI restart needed<br>
+    Added a reminder<br>
+    (Tell me if fade and show on lockscreen switches doesn't work on your device)<br>
+    Soon a matrix rain module</p>
+IssueTracker: ""
+Name: Notigif
+SourceCode: https://github.com/Xposed-Modules-Repo/com.chacha.notigif
+Summary: Allow you to add a gif or a picture in your notifications panel !
+WebSite: ""

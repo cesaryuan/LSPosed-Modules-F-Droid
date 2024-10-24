@@ -14,16 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1729701901000
+    "timestamp": 1729730869000
   },
   "packages": {
     "cn.amamiya.douyurepeat": {
       "metadata": {
-        "added": 1729701888000,
+        "added": 1729730827000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1729701888000,
+        "lastUpdated": 1729730827000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -33,7 +33,7 @@
       },
       "versions": {
         "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2": {
-          "added": 1729701888000,
+          "added": 1729730827000,
           "file": {
             "name": "/cn.amamiya.douyurepeat_v1.0.2.apk",
             "sha256": "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2",
@@ -62,11 +62,11 @@
     },
     "cn.amamiya.hupublacklist": {
       "metadata": {
-        "added": 1729701888000,
+        "added": 1729730828000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1729701888000,
+        "lastUpdated": 1729730828000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -79,7 +79,7 @@
       },
       "versions": {
         "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6": {
-          "added": 1729701888000,
+          "added": 1729730828000,
           "file": {
             "name": "/cn.amamiya.hupublacklist_v2.1.1.apk",
             "sha256": "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6",
@@ -106,13 +106,59 @@
         }
       }
     },
-    "com.alex193a.checkblue": {
+    "cn.android.x": {
       "metadata": {
-        "added": 1729701889000,
+        "added": 1729730829000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1729701889000,
+        "lastUpdated": 1729730829000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.android.x",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "X"
+        },
+        "summary": {
+          "en-US": "Add extra features to Wechat. 微信增加更多功能。"
+        },
+        "preferredSigner": "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4"
+      },
+      "versions": {
+        "671a9a8ba032764c7f7a8818a0db3d137c8cc39345fb0aeb512abff21f93fdd5": {
+          "added": 1729730829000,
+          "file": {
+            "name": "/cn.android.x_117-3.0.apk",
+            "sha256": "671a9a8ba032764c7f7a8818a0db3d137c8cc39345fb0aeb512abff21f93fdd5",
+            "size": 4106394
+          },
+          "manifest": {
+            "versionName": "3.0",
+            "versionCode": 117,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.android.x.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.alex193a.checkblue": {
+      "metadata": {
+        "added": 1729730829000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730829000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -128,7 +174,7 @@
       },
       "versions": {
         "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023": {
-          "added": 1729701889000,
+          "added": 1729730829000,
           "file": {
             "name": "/com.alex193a.checkblue_1-1.0.apk",
             "sha256": "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023",
@@ -155,13 +201,157 @@
         }
       }
     },
-    "com.amanoteam.sunny": {
+    "com.alex193a.opcameradebug": {
       "metadata": {
-        "added": 1729701889000,
+        "added": 1729730829000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1729701889000,
+        "lastUpdated": 1729730829000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.opcameradebug",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "OnePlus Camera Debug Mode Enabler"
+        },
+        "summary": {
+          "en-US": "Enable the hidden internal menu in the OnePlus camera app."
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Initial release</li>\n</ul>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.alex193a.opcameradebug.1.png",
+            "sha256": "9bfc919ebf856f67fb456ee454d8df4489ef70212cb9948079779eb22781c384",
+            "size": 1068
+          }
+        },
+        "preferredSigner": "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a"
+      },
+      "versions": {
+        "08d7adc9b1043205b61a8e95f3849e86741ca85005594ed7cec2277f5d6cfc27": {
+          "added": 1729730829000,
+          "file": {
+            "name": "/com.alex193a.opcameradebug_1-1.0.apk",
+            "sha256": "08d7adc9b1043205b61a8e95f3849e86741ca85005594ed7cec2277f5d6cfc27",
+            "size": 71492
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.alphi.actvityopenmanager": {
+      "metadata": {
+        "added": 1729730830000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730830000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Activity链式启动管理器"
+        },
+        "summary": {
+          "en-US": "叼毛广告，休想通过摇摇启动APP\nTools that block activity startup"
+        },
+        "description": {
+          "en-US": "<p>适配ColorOS等系统支持<br>\n逻辑优化，更加稳健<br>\n修复部分APP拦截住出现闪退的问题<br>\n可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>\nMD5:  A9AA30BACE96445A4F26D631284D66F0</p>"
+        },
+        "preferredSigner": "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493"
+      },
+      "versions": {
+        "90b5b249e10051a146784342aa478bb4c1c15d90653993528fb8c1f8491866ab": {
+          "added": 1729730830000,
+          "file": {
+            "name": "/com.alphi.actvityopenmanager_10-1.09.apk",
+            "sha256": "90b5b249e10051a146784342aa478bb4c1c15d90653993528fb8c1f8491866ab",
+            "size": 2060184
+          },
+          "manifest": {
+            "versionName": "1.09",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.amanoteam.nai": {
+      "metadata": {
+        "added": 1729730830000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730830000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.nai",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Nai"
+        },
+        "summary": {
+          "en-US": "Remove the annoying 'free storage space' pop-ups on Telegram"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "917b7e28dc9486545ca7de93845a8318b1ce26542e66e5730ab02fc49006cde5": {
+          "added": 1729730830000,
+          "file": {
+            "name": "/com.amanoteam.nai_1-0.1.apk",
+            "sha256": "917b7e28dc9486545ca7de93845a8318b1ce26542e66e5730ab02fc49006cde5",
+            "size": 12856
+          },
+          "manifest": {
+            "versionName": "0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.amanoteam.sunny": {
+      "metadata": {
+        "added": 1729730830000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730830000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -177,7 +367,7 @@
       },
       "versions": {
         "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229": {
-          "added": 1729701889000,
+          "added": 1729730830000,
           "file": {
             "name": "/com.amanoteam.sunny_4-0.4.apk",
             "sha256": "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229",
@@ -199,13 +389,2071 @@
         }
       }
     },
-    "space.aioilight.tsubonofuta": {
+    "com.bit747.smobajump": {
       "metadata": {
-        "added": 1729701889000,
+        "added": 1729730830000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1729701889000,
+        "lastUpdated": 1729730830000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bit747.smobajump",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "smobajump"
+        },
+        "summary": {
+          "en-US": "跳过王者营地的启动动画和推广的界面,版本号带“DisableUpdate”的会屏蔽启动时的自动更新"
+        },
+        "description": {
+          "en-US": "<p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>\n<p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.bit747.smobajump.3.png",
+            "sha256": "5d6c9771e8d64f3ed6290fef37954673b0ef69d9518ccf1281e639da4ef99a72",
+            "size": 3134
+          }
+        },
+        "preferredSigner": "690cda91163956dc51eff6a228ca5bc352ca1397abbf6ebb4c5053fb6492a61c"
+      },
+      "versions": {
+        "9ffddc02113a735c56b54107bf93226b0f4abce231a41fdcb00a64c64976969b": {
+          "added": 1729730830000,
+          "file": {
+            "name": "/com.bit747.smobajump_3-1.2_DisableUpdate.apk",
+            "sha256": "9ffddc02113a735c56b54107bf93226b0f4abce231a41fdcb00a64c64976969b",
+            "size": 36858
+          },
+          "manifest": {
+            "versionName": "1.2_DisableUpdate",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "690cda91163956dc51eff6a228ca5bc352ca1397abbf6ebb4c5053fb6492a61c"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.chacha.igexperiments": {
+      "metadata": {
+        "added": 1729730831000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730831000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.igexperiments",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "IGExperiments"
+        },
+        "description": {
+          "en-US": "<h3>Version 3 - What's New</h3>\n<ul>\n<li>🚀 <strong>Auto Mode:</strong> Automatically detects compatible classes for Instagram versions 334+.</li>\n<li>🔔 <strong>Update Checker:</strong> Get notified when a new module update is available with a direct download link.</li>\n<li>🎨 <strong>UI Enhancements:</strong> Improved user interface for a smoother and more intuitive experience.</li>\n<li>🛠️ <strong>Separate Hooks Repository:</strong> Hooks are now managed in a dedicated repository for easier updates<br>\nAvailable at: <strong><a href=\"https://github.com/ReSo7200/IGExperimentsHooksUpdates\">IGExperimentsHooksUpdates</a></strong></li>\n<li>🐛 <strong>Bug Fixes:</strong> Squashed various bugs to improve stability and performance.</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>Version 3 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ReSo7200/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ReSo7200\">@ReSo7200</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2506086274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xHookman/IGexperiments/issues/43\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xHookman/IGexperiments/pull/43/hovercard\" href=\"https://github.com/xHookman/IGexperiments/pull/43\">xHookman/IGexperiments#43</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xHookman/IGexperiments/compare/v2.5.1...v3.0\">xHookman/IGexperiments@<tt>v2.5.1...v3.0</tt></a></p>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.chacha.igexperiments.30.png",
+            "sha256": "6cae001141ab2274dd27331bf137ac579200aeea9e929e42c1e900e373939c50",
+            "size": 4654
+          }
+        },
+        "preferredSigner": "a4ff794e3aa63b0bee92999c2bf6a91c2734df8aa3495466b730e6b2cba8f1c8"
+      },
+      "versions": {
+        "84536d050385484b6d85dab06a4422601325a5d10ec129ff6415f64883c4412c": {
+          "added": 1729730831000,
+          "file": {
+            "name": "/com.chacha.igexperiments_30-3.0.apk",
+            "sha256": "84536d050385484b6d85dab06a4422601325a5d10ec129ff6415f64883c4412c",
+            "size": 6967460
+          },
+          "manifest": {
+            "versionName": "3.0",
+            "versionCode": 30,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a4ff794e3aa63b0bee92999c2bf6a91c2734df8aa3495466b730e6b2cba8f1c8"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REORDER_TASKS"
+              },
+              {
+                "name": "com.chacha.igexperiments.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.chacha.notigif": {
+      "metadata": {
+        "added": 1729730831000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730831000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.notigif",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Notigif"
+        },
+        "summary": {
+          "en-US": "Allow you to add a gif or a picture in your notifications panel !"
+        },
+        "description": {
+          "en-US": "<p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>\nAdded show on lockscreen switch (Thanks @Hyper.Alvi)<br>\nAdded refresh gifs without SystemUI restart needed<br>\nAdded a reminder<br>\n(Tell me if fade and show on lockscreen switches doesn't work on your device)<br>\nSoon a matrix rain module</p>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.chacha.notigif.1.png",
+            "sha256": "3666e735fc451d5980833d2198c14c1d3e9aa3fd129032eddc652165684d6fbe",
+            "size": 3125
+          }
+        },
+        "preferredSigner": "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704"
+      },
+      "versions": {
+        "03194f72d87c83c9079e2867cc823e6a414033d754d129e0c04876eda2094935": {
+          "added": 1729730831000,
+          "file": {
+            "name": "/com.chacha.notigif_1-1.7.apk",
+            "sha256": "03194f72d87c83c9079e2867cc823e6a414033d754d129e0c04876eda2094935",
+            "size": 22926314
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.chacha.smessagescustom": {
+      "metadata": {
+        "added": 1729730832000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730832000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.smessagescustom",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Samsung Messages Customiser"
+        },
+        "summary": {
+          "en-US": "This module allow you to customise colors of Samsung Messages app !\n /!\\ THIS..."
+        },
+        "description": {
+          "en-US": "<p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.chacha.smessagescustom.1.png",
+            "sha256": "69995ee32b0e696bec4e551021dba58536bad335c9f32b7d200b993744530896",
+            "size": 1604
+          }
+        },
+        "preferredSigner": "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704"
+      },
+      "versions": {
+        "0be9bf6fe562fd12069181ff815ad7ab84f2108b98ace04ae6d1a5024df9a995": {
+          "added": 1729730832000,
+          "file": {
+            "name": "/com.chacha.smessagescustom_1-1.5.1.apk",
+            "sha256": "0be9bf6fe562fd12069181ff815ad7ab84f2108b98ace04ae6d1a5024df9a995",
+            "size": 3630243
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_SUPERUSER"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.example.vcam": {
+      "metadata": {
+        "added": 1729730832000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730832000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.example.vcam",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "虚拟摄像头 virtual camera"
+        },
+        "summary": {
+          "en-US": "安卓虚拟摄像头 android virtual camera"
+        },
+        "description": {
+          "en-US": "<p>修正繁体中文翻译<br>\n感谢 <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/david082321/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/david082321\">@david082321</a> 的翻译贡献</p>"
+        },
+        "preferredSigner": "c00a7443cb6b02f6ae8433b95d919766131b2beeb86849a6933fc6411db0b398"
+      },
+      "versions": {
+        "ea6294852d2864c1d808b9b09cfff80a961af87226b7c437cff53751b3a0e1f6": {
+          "added": 1729730832000,
+          "file": {
+            "name": "/com.example.vcam_28-4.4.apk",
+            "sha256": "ea6294852d2864c1d808b9b09cfff80a961af87226b7c437cff53751b3a0e1f6",
+            "size": 77897
+          },
+          "manifest": {
+            "versionName": "4.4",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "c00a7443cb6b02f6ae8433b95d919766131b2beeb86849a6933fc6411db0b398"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.fkzhang.qqxposed": {
+      "metadata": {
+        "added": 1729730833000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730833000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fkzhang.qqxposed",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "QXposed （QX模块）"
+        },
+        "preferredSigner": "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4"
+      },
+      "versions": {
+        "f1ca0eaf8c6d0fa518412a2fcd588ff74efd23ce7b261b5789cb4fa70bf23d49": {
+          "added": 1729730833000,
+          "file": {
+            "name": "/com.fkzhang.qqxposed_44-2.18.apk",
+            "sha256": "f1ca0eaf8c6d0fa518412a2fcd588ff74efd23ce7b261b5789cb4fa70bf23d49",
+            "size": 4063568
+          },
+          "manifest": {
+            "versionName": "2.18",
+            "versionCode": 44,
+            "usesSdk": {
+              "minSdkVersion": 15,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.fuckcoolapk": {
+      "metadata": {
+        "added": 1729730833000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730833000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuckcoolapk",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "FuckCoolapk"
+        },
+        "summary": {
+          "en-US": "Best present for 316 and 423."
+        },
+        "preferredSigner": "69ad59f8b37f5a22aaf854ba622874090b33173efddc47f8c68146645f1ff808"
+      },
+      "versions": {
+        "6bd12d5bc633b7310acf59ac88976cdc52734e7973df9ac8b287bc929882428d": {
+          "added": 1729730833000,
+          "file": {
+            "name": "/com.fuckcoolapk_20210506.apk",
+            "sha256": "6bd12d5bc633b7310acf59ac88976cdc52734e7973df9ac8b287bc929882428d",
+            "size": 874541
+          },
+          "manifest": {
+            "versionName": "0.5.8",
+            "versionCode": 20210506,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "69ad59f8b37f5a22aaf854ba622874090b33173efddc47f8c68146645f1ff808"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.gauravssnl.mobileradioadaway": {
+      "metadata": {
+        "added": 1729730833000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730833000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gauravssnl.mobileradioadaway",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Mobile Radio Ad Away"
+        },
+        "summary": {
+          "en-US": "Mobile Radio Ad Away Xposed module for the Android app available in the Googl..."
+        },
+        "description": {
+          "en-US": "<p><strong>Change Log</strong><br>\nRemove unused libraries to minimise the APK size. The APK size is around 50 KB now.</p>"
+        },
+        "preferredSigner": "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff"
+      },
+      "versions": {
+        "960ff73ce926ff393842f3aa5d5a69769778d6800ec4ee0659c57a634600eda6": {
+          "added": 1729730833000,
+          "file": {
+            "name": "/com.gauravssnl.mobileradioadaway_1-1.2.apk",
+            "sha256": "960ff73ce926ff393842f3aa5d5a69769778d6800ec4ee0659c57a634600eda6",
+            "size": 55617
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.gauravssnl.simpleradioadaway": {
+      "metadata": {
+        "added": 1729730834000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730834000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gauravssnl.simpleradioadaway",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "SimpleRadio AdAway Modern Xposed API Module"
+        },
+        "summary": {
+          "en-US": "SimpleRadio AdAway Xposed module which has been developed using the `Modern X..."
+        },
+        "description": {
+          "en-US": "<p>Add the initial Xposed module code which has been developed using the <code>Modern Xposed API</code> provided by the LSPosed team.<br>\nEnjoy Ad-free radio experience.</p>"
+        },
+        "preferredSigner": "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff"
+      },
+      "versions": {
+        "e24af465733be1844520cad2ae4da3d8c2bcac09e75dd7e409d10494d83e575e": {
+          "added": 1729730834000,
+          "file": {
+            "name": "/com.gauravssnl.simpleradioadaway_1-1.0.apk",
+            "sha256": "e24af465733be1844520cad2ae4da3d8c2bcac09e75dd7e409d10494d83e575e",
+            "size": 2705647
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.github.dan.NoStorageRestrict": {
+      "metadata": {
+        "added": 1729730834000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730834000,
+        "name": {
+          "en-US": "NoStorageRestrict"
+        },
+        "description": {
+          "en-US": "<p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>"
+        },
+        "preferredSigner": "551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c"
+      },
+      "versions": {
+        "542e8b52db872fedc30beaaa92781bd51b0fc18045d1681fb0f6dc04ec32c0fe": {
+          "added": 1729730834000,
+          "file": {
+            "name": "/com.github.dan.nostoragerestrict_5-0.5.0.apk",
+            "sha256": "542e8b52db872fedc30beaaa92781bd51b0fc18045d1681fb0f6dc04ec32c0fe",
+            "size": 11391
+          },
+          "manifest": {
+            "versionName": "0.5.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 15,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.ljlvink.stylusplus.xposed": {
+      "metadata": {
+        "added": 1729730834000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730834000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.ljlvink.stylusplus.xposed",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "HyperOS for Pad 焦点笔激光 隔空鼠标"
+        },
+        "summary": {
+          "en-US": "HyperOS for Pad 焦点笔激光 隔空鼠标"
+        },
+        "preferredSigner": "281e9cba2329fc670f6f3f5a45ad160576af302a309197fb061b7b0519a8c856"
+      },
+      "versions": {
+        "91be57f5a30cce551b4d961ef114378cdac96635c62d5e5826181c314f49c4fe": {
+          "added": 1729730834000,
+          "file": {
+            "name": "/com.ljlvink.stylusplus.xposed_3-1.1_Release.apk",
+            "sha256": "91be57f5a30cce551b4d961ef114378cdac96635c62d5e5826181c314f49c4fe",
+            "size": 11972
+          },
+          "manifest": {
+            "versionName": "1.1_Release",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "281e9cba2329fc670f6f3f5a45ad160576af302a309197fb061b7b0519a8c856"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.luckyzyx.luckytool": {
+      "metadata": {
+        "added": 1729730835000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730835000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "LuckyTool Xposed 免费模块"
+        },
+        "summary": {
+          "en-US": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
+        },
+        "description": {
+          "en-US": "<h2>其他链接 (Other Links)</h2>\n<p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>\n<ul>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc\" rel=\"nofollow\">模块文档 ModuleDoc</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem\" rel=\"nofollow\">反馈流程 FeedbackProcess</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link\" rel=\"nofollow\">下载方式 DownloadLink</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/donate\" rel=\"nofollow\">捐赠方式 Donate</a></li>\n<li><a href=\"https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1\" rel=\"nofollow\">捐赠方式 腾讯文档</a></li>\n</ul>\n<h2>更新日志 (ChangeLog)</h2>\n<ul>\n<li>[适配] 三阶段响铃模式磁贴 C15.0</li>\n<li>[适配] 自定义磁贴背景透明度 C15.0</li>\n<li>[适配] 控制中心滑动条透明度 C15.0</li>\n<li>[修复] 状态栏电池hook异常 C15.0</li>\n<li>[适配] 自定义指纹图标 C15.0</li>\n<li>[适配] 禁用OTG自动关闭 C15.0</li>\n<li>[适配] 移除锁屏底部图标 C15.0</li>\n<li>[适配] 状态栏时钟农历计算逻辑 C15.0</li>\n<li>[适配] 状态栏电池通知充电技术字段显示 C15.0</li>\n<li>[适配] 锁屏充电动画样式与字段 C15.0</li>\n<li>[适配] 控制中心底部网络安全警告信息 C15.0</li>\n<li>[适配] 强制刷新率数据获取逻辑 C15.0</li>\n<li>[适配] 新版通知浮窗回复白名单 C15.0</li>\n<li>[适配] 自定义通知背景透明度 C15.0</li>\n<li>[修复] 相机旅行滤镜异常崩溃问题</li>\n<li>[适配] SIM卡首选网络类型 C15.0</li>\n<li>[适配] SIM卡VoLTE高清通话 C15.0</li>\n<li>[修复] 强制刷新率数据保存异常</li>\n<li>[添加] 移除浏览器搜索框App推广 C14+</li>\n<li>[添加] 禁用状态栏音乐流体云 C14.1+</li>\n<li>[添加] 浮窗贴边任务前台运行 C13+</li>\n<li>[添加] 恢复天气降雨云图页面 C14+</li>\n<li>[优化] 自定义OTA背景图片支持裁剪</li>\n<li>[添加] 强制启用媒体音乐流体云波纹 C14.1+</li>\n<li>[添加] 禁用云服务强制备份应用列表</li>\n<li>[添加] 修复设置CN特供版默认应用跳转</li>\n<li>[适配] 移除新版流体云系统提示图标 C14+</li>\n<li>[修复] 息屏一言Https证书访问问题</li>\n<li>[添加] 禁用长按HOME键启动语音助手</li>\n<li>[添加] 移除OTA本地更新校验</li>\n<li>[更改] 更改ADM解锁Pro方案</li>\n<li>[添加] ADM解锁更多下载线程</li>\n<li>[添加] 启用相册国庆水印 C13+</li>\n<li>[Fix] Three-stage ring mode tile C15.0</li>\n<li>[Fix] Customize tile background transparency C15.0</li>\n<li>[Fix] Control Center Slider Transparency C15.0</li>\n<li>[Fix] Status bar battery hook exception C15.0</li>\n<li>[Fix] Custom fingerprint icon C15.0</li>\n<li>[Fix] Disable OTG automatic shutdown C15.0</li>\n<li>[Fix] Remove the icon at the bottom of the lock screen C15.0</li>\n<li>[Fix] Status bar clock lunar calendar calculation logic C15.0</li>\n<li>[Fix] Status bar battery notification charging technology field display C15.0</li>\n<li>[Fix] Lock screen charging animation style and fields C15.0</li>\n<li>[Fix] Network security warning message at the bottom of the control center C15.0</li>\n<li>[Fix] Forced refresh rate data acquisition logic C15.0</li>\n<li>[Fix] New version of notification floating window reply whitelist C15.0</li>\n<li>[Fix] Custom notification background transparency C15.0</li>\n<li>[Fix] Camera travel filter crash issue</li>\n<li>[Fix] SIM card preferred network type C15.0</li>\n<li>[Fix] SIM Card VoLTE HD Call C15.0</li>\n<li>[Fix] Forced refresh rate data saving exception</li>\n<li>[Add] Remove browser search box App promotion C14+</li>\n<li>[Add] Disable status bar music fluid cloud C14.1+</li>\n<li>[Add] Floating window border task running in the foreground C13+</li>\n<li>[Add] Restore weather and rainfall cloud map page C14+</li>\n<li>[Optimize] Customized OTA background images support cropping</li>\n<li>[Add] Force enable media music fluid cloud ripple C14.1+</li>\n<li>[Add] Disable cloud service forced backup application list</li>\n<li>[Add] Fix setting the default application jump of CN special version</li>\n<li>[Fix] Remove the new version of Fluid Cloud system prompt icon C14+</li>\n<li>[Fix] Xipingyiyan HTTPS certificate access issue</li>\n<li>[Add] Disable long pressing HOME button to start voice assistant</li>\n<li>[Add] Remove OTA local update verification</li>\n<li>[Change] Change ADM Unlock Pro plan</li>\n<li>[Add] ADM unlocks more download threads</li>\n<li>[Add] Enable National Day watermark in photo album C13+</li>\n</ul>"
+        },
+        "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+      },
+      "versions": {
+        "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9": {
+          "added": 1729730835000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_16957-1.2.4.apk",
+            "sha256": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
+            "size": 8323091
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.4",
+            "versionCode": 16957,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.luckyzyx.notifyintercept": {
+      "metadata": {
+        "added": 1729730836000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730836000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "NotifyIntercept"
+        },
+        "summary": {
+          "en-US": "利用关键词匹配对通知进行拦截\nUse keyword matching to intercept notifications"
+        },
+        "description": {
+          "en-US": "<p>重构通知规则数据存储方案为Json<br>\n更新Kotlin与部分依赖项<br>\n更新YukiHookAPI</p>"
+        },
+        "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+      },
+      "versions": {
+        "514bb61b7e0499819237c202e60ba432a2218ec5a57d41a993977a9176e86cb8": {
+          "added": 1729730836000,
+          "file": {
+            "name": "/com.luckyzyx.notifyintercept_271-1.3.0.apk",
+            "sha256": "514bb61b7e0499819237c202e60ba432a2218ec5a57d41a993977a9176e86cb8",
+            "size": 3683126
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 271,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.luckyzyx.notifyintercept.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.nnnen.plusne": {
+      "metadata": {
+        "added": 1729730836000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730836000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.nnnen.plusne",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "PlusNE"
+        },
+        "summary": {
+          "en-US": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
+        },
+        "description": {
+          "en-US": "<p>[修复]微信 通讯录长按无密友菜单<br>\n[新增]抖音极速版 隐藏底部红包<br>\n[适配]Soul 5.9.1(23122606)<br>\n[适配]抖音 28.4.0(280401)<br>\n[适配]抖音极速版 28.4.0(280401)<br>\n[适配]快手 12.0.10.34804(34804)<br>\n[适配]快手极速版 12.0.10.7168(7168)<br>\n[适配]七猫免费小说 7.40(74000)<br>\n[适配]皮皮搞笑 2.92.0(2920000)<br>\n[适配]小红书 8.20.0(8200552)<br>\n[适配]最右 6.0.9(600090)<br>\n[适配]西瓜视频 8.1.8(818)<br>\n[适配]皮皮虾 4.9.0(490)<br>\n[公告]7.0正在开发中,进度百分之70左右,敬请期待</p>"
+        },
+        "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+      },
+      "versions": {
+        "32be98419b4d7d2cefdd4bf93b3abc9978613221341531b7901e90bcb1ef77ae": {
+          "added": 1729730836000,
+          "file": {
+            "name": "/com.nnnen.plusne_685-6.5.6.apk",
+            "sha256": "32be98419b4d7d2cefdd4bf93b3abc9978613221341531b7901e90bcb1ef77ae",
+            "size": 6659648
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86"
+            ],
+            "versionName": "6.5.6",
+            "versionCode": 685,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.LAUNCHER"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.rifsxd.processhook": {
+      "metadata": {
+        "added": 1729730837000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730837000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Process Hook - Unlock hidden features and options"
+        },
+        "summary": {
+          "en-US": "Hook specific process/apps/games to spoof your device as different model/devi..."
+        },
+        "description": {
+          "en-US": "<p>Process Hook</p>\n<ul>\n<li>\n<p>added new apps/games</p>\n<ul>\n<li>Aida64</li>\n<li>Dead by Daylight: Mobile</li>\n<li>Pubg: New State</li>\n<li>Pubg: Lite</li>\n</ul>\n</li>\n<li>\n<p>added new high end device</p>\n<ul>\n<li>Poco F6 Pro</li>\n</ul>\n</li>\n</ul>"
+        },
+        "preferredSigner": "13ef3cf1b4582f7615d11c0d8784bce402d2e1451bf965d2871212ef93fff81a"
+      },
+      "versions": {
+        "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a": {
+          "added": 1729730837000,
+          "file": {
+            "name": "/com.rifsxd.processhook_1-1.3.0.apk",
+            "sha256": "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a",
+            "size": 2268467
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "13ef3cf1b4582f7615d11c0d8784bce402d2e1451bf965d2871212ef93fff81a"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.rifsxd.processhook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.setoskins.hook": {
+      "metadata": {
+        "added": 1729730837000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730837000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.setoskins.hook",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "SetoHook"
+        },
+        "summary": {
+          "en-US": "一个用于Hook小米系统的工具"
+        },
+        "description": {
+          "en-US": "<p>修复弹窗</p>"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "47b1c7f31ca5a13fac743126d6eb34f18ab5c634ec9d422ec476fae441b3a6d1": {
+          "added": 1729730837000,
+          "file": {
+            "name": "/com.setoskins.hook_210-2.1.0.apk",
+            "sha256": "47b1c7f31ca5a13fac743126d6eb34f18ab5c634ec9d422ec476fae441b3a6d1",
+            "size": 6056724
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.1.0",
+            "versionCode": 210,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.GET_PACKAGE_SIZE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.simo.ssl.killer": {
+      "metadata": {
+        "added": 1729730837000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730837000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "𝙎𝙎𝙇 𝙆𝙞𝙇𝙇𝙀𝙍"
+        },
+        "summary": {
+          "en-US": "An advanced XPosed module to bypass ssl pinning."
+        },
+        "description": {
+          "en-US": "<p>Change logs:</p>\n<ul>\n<li>issues fixed.</li>\n</ul>"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "f97113a66fa9dbc8abd0f016990c1c1261e5cf01cee24ab360c52ad199ee6d00": {
+          "added": 1729730837000,
+          "file": {
+            "name": "/com.simo.ssl.killer_1-1.0.2.apk",
+            "sha256": "f97113a66fa9dbc8abd0f016990c1c1261e5cf01cee24ab360c52ad199ee6d00",
+            "size": 2446265
+          },
+          "manifest": {
+            "versionName": "1.0.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.simo.ssl.killer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.skyhand.redbookhelper": {
+      "metadata": {
+        "added": 1729730838000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730838000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "红薯猪手"
+        },
+        "summary": {
+          "en-US": "去除小红书的广告和更多好用的功能~\nRemove XiaoHongShu ads and more useful features~"
+        },
+        "description": {
+          "en-US": "<p>对比1.1.5更新记录：</p>\n<ol>\n<li>新增自定义图片视频的保存路径</li>\n<li>新增去除笔记详情中间的评论框</li>\n<li>新增长按保存用户头像和背景图</li>\n<li>修复关注页大图浏览可能不匹配</li>\n<li>修复可能保存图片失败的情况</li>\n<li>适配新版的分享下载</li>\n<li>修复获取配置错误</li>\n<li>优化大图浏览</li>\n<li>优化权限获取</li>\n<li>优化 部分UI</li>\n<li>适配 新版本</li>\n</ol>"
+        },
+        "preferredSigner": "5a18f9b131a5c5496c063fbf597a12b5cd3314003f286ad7f6223df7d6c3f555"
+      },
+      "versions": {
+        "6833351980667940510e1fbea5db7d175e285133987c67071f20fad7829e3973": {
+          "added": 1729730838000,
+          "file": {
+            "name": "/com.skyhand.redbookhelper_19-1.1.6.apk",
+            "sha256": "6833351980667940510e1fbea5db7d175e285133987c67071f20fad7829e3973",
+            "size": 462089
+          },
+          "manifest": {
+            "versionName": "1.1.6",
+            "versionCode": 19,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "5a18f9b131a5c5496c063fbf597a12b5cd3314003f286ad7f6223df7d6c3f555"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.souleven.photosfix": {
+      "metadata": {
+        "added": 1729730838000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730838000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.souleven.photosfix",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Xposed Google Photos FIX"
+        },
+        "summary": {
+          "en-US": "Xposed Module to Force Google Photos to separate each folder like Snapchat, S..."
+        },
+        "description": {
+          "en-US": "<p>More stable hook</p>"
+        },
+        "preferredSigner": "b9d6b999feaf95f2773c8cf68e83a251dcd845b102335a579c0aeacef703be3f"
+      },
+      "versions": {
+        "2f27d8c50ae0e537af2959ec44094eb6ce6f8c4cb9b8d1c3da8e7f8fb4495135": {
+          "added": 1729730838000,
+          "file": {
+            "name": "/com.souleven.photosfix_2-2.0.apk",
+            "sha256": "2f27d8c50ae0e537af2959ec44094eb6ce6f8c4cb9b8d1c3da8e7f8fb4495135",
+            "size": 1728811
+          },
+          "manifest": {
+            "versionName": "2.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "b9d6b999feaf95f2773c8cf68e83a251dcd845b102335a579c0aeacef703be3f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.hardware.sensor.proximity"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.th7.flinspirer.admin": {
+      "metadata": {
+        "added": 1729730838000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730838000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.th7.flinspirer.admin",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "FLinspirer"
+        },
+        "summary": {
+          "en-US": "Hook领创，让您的管理员懵逼。"
+        },
+        "description": {
+          "en-US": "<p>支持穿腾讯壳<br>\n功能一样</p>"
+        },
+        "preferredSigner": "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482"
+      },
+      "versions": {
+        "25ebb2ae50aa0d5d9ed2d30ce156c69915d4b0059e6e0c745209840cd4591b1d": {
+          "added": 1729730838000,
+          "file": {
+            "name": "/com.th7.flinspirer.admin_50-0.50.apk",
+            "sha256": "25ebb2ae50aa0d5d9ed2d30ce156c69915d4b0059e6e0c745209840cd4591b1d",
+            "size": 16151
+          },
+          "manifest": {
+            "versionName": "0.50",
+            "versionCode": 50,
+            "usesSdk": {
+              "minSdkVersion": 16,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.unexpected.capture.uc": {
+      "metadata": {
+        "added": 1729730839000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730839000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "UC 浏览器代理抓取"
+        },
+        "summary": {
+          "en-US": "UC 浏览器免流代理信息抓取"
+        },
+        "description": {
+          "en-US": "<ul>\n<li>现在使用在线配置获取被混淆的字段名进行hook</li>\n<li>配置请求使用<code>mirror.ghproxy.com</code>加速无需翻墙</li>\n<li>配置仅在当前版本第一次打开时才会下载，只有下载成功模块才会运行</li>\n<li>仅支持: UC浏览器(16.2.7.1278)联通和电信</li>\n<li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>\n<li>具体支持版本请在 <a href=\"https://github.com/unexpecteds/UCProxyCapture\">GitHub</a> 主页查看，不定期更新</li>\n</ul>"
+        },
+        "preferredSigner": "d861a9961d3c41a538fd969d98b9ea7976e3277060297ddd185d621b643fbed1"
+      },
+      "versions": {
+        "57483cb0e674348a24465004f9760aabe8dfb96330645bf063cd79d25be9009a": {
+          "added": 1729730839000,
+          "file": {
+            "name": "/com.unexpected.capture.uc_6-1.5.apk",
+            "sha256": "57483cb0e674348a24465004f9760aabe8dfb96330645bf063cd79d25be9009a",
+            "size": 3776918
+          },
+          "manifest": {
+            "versionName": "1.5",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "d861a9961d3c41a538fd969d98b9ea7976e3277060297ddd185d621b643fbed1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.unexpected.capture.uc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.wye4.hookforvip": {
+      "metadata": {
+        "added": 1729730839000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730839000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.wye4.hookforvip",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Hook for VIP"
+        },
+        "summary": {
+          "en-US": "获取部分软件会员与去广告弹窗的模块"
+        },
+        "description": {
+          "en-US": "<p>添加了一个主界面<br>\n新增</p>\n<ul>\n<li>屏幕使用时间_1.5.0627</li>\n<li>人猫翻译机_3.3.1</li>\n<li>实时宠物翻译器_4.0</li>\n<li>莉景天气_2.1.34</li>\n<li>奥维互动地图_10.1.3</li>\n</ul>"
+        },
+        "preferredSigner": "82d29f4a93eb8d365a2000c467e50bab3b043f36853402382695db8db976a3f3"
+      },
+      "versions": {
+        "51942c4e662e380ce7feb32bf1bb2e5540c5e70ab5aa8730c727c80e61720c84": {
+          "added": 1729730839000,
+          "file": {
+            "name": "/com.wye4.hookforvip_20241018-1.7.0.apk",
+            "sha256": "51942c4e662e380ce7feb32bf1bb2e5540c5e70ab5aa8730c727c80e61720c84",
+            "size": 5716829
+          },
+          "manifest": {
+            "versionName": "1.7.0",
+            "versionCode": 20241018,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "82d29f4a93eb8d365a2000c467e50bab3b043f36853402382695db8db976a3f3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.wye4.hookforvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.zhenxi.FunDex2": {
+      "metadata": {
+        "added": 1729730840000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730840000,
+        "name": {
+          "en-US": "FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。)"
+        },
+        "description": {
+          "en-US": "<p>1，fix read config error</p>"
+        },
+        "preferredSigner": "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c"
+      },
+      "versions": {
+        "38e8c4006be3aadccbb8ac6eb04574a900ccce1b66a86c411b9ce4088ca72fb8": {
+          "added": 1729730840000,
+          "file": {
+            "name": "/com.zhenxi.fundex2_710-7.1.0.apk",
+            "sha256": "38e8c4006be3aadccbb8ac6eb04574a900ccce1b66a86c411b9ce4088ca72fb8",
+            "size": 9088856
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "7.2.0",
+            "versionCode": 720,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.GET_PACKAGE_SIZE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.INSTALL_PACKAGES"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.zhenxi.il2cpptrace": {
+      "metadata": {
+        "added": 1729730840000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730840000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.zhenxi.il2cpptrace",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "FunIl2cpp(il2cpp游戏dump&il2cpp方法调用跟踪)"
+        },
+        "description": {
+          "en-US": "<p>1，fix read config error</p>"
+        },
+        "preferredSigner": "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c"
+      },
+      "versions": {
+        "97d5d10907c35322067715abc35ce690c30cd33c9e62880d0178eb1237e8f73e": {
+          "added": 1729730840000,
+          "file": {
+            "name": "/com.zhenxi.il2cpptrace_720-7.2.0.apk",
+            "sha256": "97d5d10907c35322067715abc35ce690c30cd33c9e62880d0178eb1237e8f73e",
+            "size": 9363567
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "7.2.0",
+            "versionCode": 720,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.GET_PACKAGE_SIZE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.INSTALL_PACKAGES"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.zhizi42.diymiuicard": {
+      "metadata": {
+        "added": 1729730841000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730841000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.zhizi42.diymiuicard",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "DIY MIUI Card"
+        },
+        "summary": {
+          "en-US": "自定义MIUI NFC卡片卡面"
+        },
+        "description": {
+          "en-US": "<p>更新 一键DIY卡面图片<br>\n修复 添加中文文件名图片失败的bug<br>\n更新 版本号</p>"
+        },
+        "preferredSigner": "c3c25fee0a212a08449f1c387e17ca05d3515e4f64c16ee6417cb59fbb504113"
+      },
+      "versions": {
+        "ce5ee1901b1be950596900003b84a860d9d3008eb81d1b3c4c8f81ff0f8f3043": {
+          "added": 1729730841000,
+          "file": {
+            "name": "/com.zhizi42.diymiuicard_5-1.4.apk",
+            "sha256": "ce5ee1901b1be950596900003b84a860d9d3008eb81d1b3c4c8f81ff0f8f3043",
+            "size": 2705200
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "c3c25fee0a212a08449f1c387e17ca05d3515e4f64c16ee6417cb59fbb504113"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.zhizi42.diymiuicard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "de.buttercookie.optionsmenufix": {
+      "metadata": {
+        "added": 1729730841000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730841000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/de.buttercookie.optionsmenufix",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Options Menu Fix"
+        },
+        "summary": {
+          "en-US": "Fix a bug regarding opening Activity options menus in Android 13/14"
+        },
+        "description": {
+          "en-US": "<p>Update German app title</p>"
+        },
+        "preferredSigner": "7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13"
+      },
+      "versions": {
+        "7d3d4fdf11e0eab8936a12db165461b6e3c46ddffc0ce19a0011a411eb290d41": {
+          "added": 1729730841000,
+          "file": {
+            "name": "/de.buttercookie.optionsmenufix_2-1.0.1.apk",
+            "sha256": "7d3d4fdf11e0eab8936a12db165461b6e3c46ddffc0ce19a0011a411eb290d41",
+            "size": 12064
+          },
+          "manifest": {
+            "versionName": "1.0.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dialog.box": {
+      "metadata": {
+        "added": 1729730842000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730842000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/dialog.box",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Dia"
+        },
+        "summary": {
+          "en-US": "Force to cancel some dialogs/popups that can't be canceled.  \r\n(原名：对话框取消)，强制取..."
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Automatic synchronization of scopes to LSposed: support for Lsposed 1.9.2</li>\n</ul>\n<hr>\n<ul>\n<li>自动同步作用域到LSposed：支持Lsposed 1.9.2</li>\n</ul>"
+        },
+        "preferredSigner": "05ce085033681b3ea3555a1b992075b0fad966720311081374a290c0a4bff9a5"
+      },
+      "versions": {
+        "95040a0671e3e86558bf2760c1fe7fa38f398b9ffb9ca70556898e635396fa46": {
+          "added": 1729730842000,
+          "file": {
+            "name": "/dialog.box_1-23.11.apk",
+            "sha256": "95040a0671e3e86558bf2760c1fe7fa38f398b9ffb9ca70556898e635396fa46",
+            "size": 14378439
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "23.11",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "05ce085033681b3ea3555a1b992075b0fad966720311081374a290c0a4bff9a5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.BROADCAST_STICKY"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_PRIVILEGED_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "dialog.box.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "github.zerorooot.copyfenbi": {
+      "metadata": {
+        "added": 1729730842000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730842000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "复制粉笔评论/CopyFenBiComment"
+        },
+        "summary": {
+          "en-US": "复制粉笔app用户的评论到剪贴板中（长按评论）"
+        },
+        "description": {
+          "en-US": "<p>仅支持6.17.4</p>\n<p>支持跳过首页广告、解析视频隐藏、评论过滤</p>"
+        },
+        "preferredSigner": "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25"
+      },
+      "versions": {
+        "09e402882578726778ffd1b77b5275b11475ca0857864bb3d081a5458ed95631": {
+          "added": 1729730842000,
+          "file": {
+            "name": "/github.zerorooot.copyfenbi_5-1.2.2.apk",
+            "sha256": "09e402882578726778ffd1b77b5275b11475ca0857864bb3d081a5458ed95631",
+            "size": 64529
+          },
+          "manifest": {
+            "versionName": "1.2.2",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "github.zerorooot.horizontalcontentextension": {
+      "metadata": {
+        "added": 1729730843000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730843000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/github.zerorooot.horizontalcontentextension",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "横屏传送门/HorizontalContentextension"
+        },
+        "summary": {
+          "en-US": "强行在横屏模式下启用miui传送门"
+        },
+        "description": {
+          "en-US": "<p>首次发布</p>\n<p><strong>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</strong></p>"
+        },
+        "preferredSigner": "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25"
+      },
+      "versions": {
+        "a3c4faf58b7243f1ea75a4a24979d74cba5f8abda53781a3f2a4628c541cf172": {
+          "added": 1729730843000,
+          "file": {
+            "name": "/github.zerorooot.horizontalcontentextension_2-1.1.apk",
+            "sha256": "a3c4faf58b7243f1ea75a4a24979d74cba5f8abda53781a3f2a4628c541cf172",
+            "size": 57722
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "io.github.nitsuya.donottryaccessibility": {
+      "metadata": {
+        "added": 1729730843000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730843000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "DoNotTryAccessibility"
+        },
+        "summary": {
+          "en-US": "Hook System Framework 让应用认为没有开启无障碍服务"
+        },
+        "description": {
+          "en-US": "<p>support Android 8.1 +</p>"
+        },
+        "preferredSigner": "455cadc62f8bd8f76b05863cb38470368f79af549bb60ada6745908c2d6d27b3"
+      },
+      "versions": {
+        "8ef0ec1a72e5b5658aa94e97f6b6a87717e02a0bfea29308a71c945c04578433": {
+          "added": 1729730843000,
+          "file": {
+            "name": "/io.github.nitsuya.donottryaccessibility_2-1.0.2.apk",
+            "sha256": "8ef0ec1a72e5b5658aa94e97f6b6a87717e02a0bfea29308a71c945c04578433",
+            "size": 1943281
+          },
+          "manifest": {
+            "versionName": "1.0.2",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "455cadc62f8bd8f76b05863cb38470368f79af549bb60ada6745908c2d6d27b3"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "io.github.nitsuya.donottryaccessibility.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "io.github.rushiranpise.gameunlocker": {
+      "metadata": {
+        "added": 1729730843000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730843000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.rushiranpise.gameunlocker",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Game Unlocker"
+        },
+        "summary": {
+          "en-US": "Spoof your device as different model for specific games to unlock higher FPS"
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Add new games</li>\n<li>Fix module not working on some devices</li>\n<li>Try to prevent ban</li>\n</ul>"
+        },
+        "preferredSigner": "753c332813804f7090f526ca51d2aca11c841224abdaa460765dd8f06a47ff80"
+      },
+      "versions": {
+        "6af2b06696ad3bcdf447901c3a41638c6f52fa5a107f692be1791ccba49a664a": {
+          "added": 1729730843000,
+          "file": {
+            "name": "/io.github.rushiranpise.gameunlocker_4-7.0.0.apk",
+            "sha256": "6af2b06696ad3bcdf447901c3a41638c6f52fa5a107f692be1791ccba49a664a",
+            "size": 17205
+          },
+          "manifest": {
+            "versionName": "7.0.0",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "753c332813804f7090f526ca51d2aca11c841224abdaa460765dd8f06a47ff80"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "me.kofua.qmhelper": {
+      "metadata": {
+        "added": 1729730843000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730843000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.kofua.qmhelper",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Q音助手"
+        },
+        "summary": {
+          "en-US": "Q音助手，还你一个干净的Q音 Android 客户端。"
+        },
+        "description": {
+          "en-US": "<h2>更新日志</h2>\n<ul>\n<li>兼容12.0.5.12及以上版本</li>\n</ul>"
+        },
+        "preferredSigner": "f24f7ee7dcc96895caf3eca6aaa0cc8c486fab24782ee4fdeb5764533d519955"
+      },
+      "versions": {
+        "77cb17f0df48e2f4d205c29430452624e08638d57056c05c6c01679c6e01ae45": {
+          "added": 1729730843000,
+          "file": {
+            "name": "/me.kofua.qmhelper_91-1.1.4.apk",
+            "sha256": "77cb17f0df48e2f4d205c29430452624e08638d57056c05c6c01679c6e01ae45",
+            "size": 388542
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86"
+            ],
+            "versionName": "1.1.4",
+            "versionCode": 91,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f24f7ee7dcc96895caf3eca6aaa0cc8c486fab24782ee4fdeb5764533d519955"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "me.zhenxin.thisreallylite": {
+      "metadata": {
+        "added": 1729730844000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730844000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.zhenxin.thisreallylite",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "这真轻享"
+        },
+        "summary": {
+          "en-US": "微博轻享版/极速版 去广告"
+        },
+        "description": {
+          "en-US": "<p>微博轻享版6.1.7-(去除开屏广告，去除时间线广告，强制暗黑模式)<br>\n原作者基础上修改适配；需卸载重装</p>"
+        },
+        "preferredSigner": "be509be0f6b2f5290f8051bc7bc568f0579e0f984def62d056ee655c7fcd3ac9"
+      },
+      "versions": {
+        "de7bcd7e77dd884df4b98609676bdb7fbd4b57e465d7c9dcc51a8d311b6a36a4": {
+          "added": 1729730844000,
+          "file": {
+            "name": "/me.zhenxin.thisreallylite_20230814-1.3.0.apk",
+            "sha256": "de7bcd7e77dd884df4b98609676bdb7fbd4b57e465d7c9dcc51a8d311b6a36a4",
+            "size": 2141090
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 20230814,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "be509be0f6b2f5290f8051bc7bc568f0579e0f984def62d056ee655c7fcd3ac9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.zhenxin.thisreallylite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "net.lonelytransistor.notificationinsystem": {
+      "metadata": {
+        "added": 1729730845000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730845000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Statusbar Icon Relocator"
+        },
+        "summary": {
+          "en-US": "Move chosen notification icons from the left to the right side of the system ..."
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Fixed the memory leak.</li>\n<li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>\n<li>Small GUI fixes</li>\n</ul>"
+        },
+        "preferredSigner": "80de908a2a83e34d81c16e731c0fc72515b53a57bbe9b58cf9d09d602c1056bc"
+      },
+      "versions": {
+        "9bc9a866f830e126c358b31d28a5c70b65430da4f408b00cbac44cd78312ccae": {
+          "added": 1729730845000,
+          "file": {
+            "name": "/net.lonelytransistor.notificationinsystem_1-1.3.apk",
+            "sha256": "9bc9a866f830e126c358b31d28a5c70b65430da4f408b00cbac44cd78312ccae",
+            "size": 3196598
+          },
+          "manifest": {
+            "versionName": "1.3",
+            "versionCode": 1,
+            "features": [
+              {
+                "name": "android.software.companion_device_setup"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "80de908a2a83e34d81c16e731c0fc72515b53a57bbe9b58cf9d09d602c1056bc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "net.lonelytransistor.notificationinsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "pub.chara.disablealttab": {
+      "metadata": {
+        "added": 1729730845000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730845000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "DisableAltTab"
+        },
+        "summary": {
+          "en-US": "禁用安卓的Alt-Tab快捷键，这样就可以用远程桌面的Alt-Tab了\nA Xposed module to disable Alt-Tab hotkey..."
+        },
+        "description": {
+          "en-US": "<p>first version.</p>"
+        },
+        "preferredSigner": "1ba0fb1b87d4aa0a11128873fafae536ac1e766172b3a33c199505d16f7f15fe"
+      },
+      "versions": {
+        "22a8a7d2120ec6e8d8b24ed6a8092b39ab33980ab464193cdd2109dcf873ad5e": {
+          "added": 1729730845000,
+          "file": {
+            "name": "/pub.chara.disablealttab_1-1.apk",
+            "sha256": "22a8a7d2120ec6e8d8b24ed6a8092b39ab33980ab464193cdd2109dcf873ad5e",
+            "size": 12741
+          },
+          "manifest": {
+            "versionName": "1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "1ba0fb1b87d4aa0a11128873fafae536ac1e766172b3a33c199505d16f7f15fe"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sb.firefds.r.firefdskit": {
+      "metadata": {
+        "added": 1729730845000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730845000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/sb.firefds.r.firefdskit",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Firefds Kit [R]"
+        },
+        "summary": {
+          "en-US": "Firefds Kit Xposed module for Samsung R (Android 11) devices"
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Added Czech strings</li>\n<li>Updated Advanced Power Menu icons (Thanks <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/okij/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/okij\">@okij</a> from XDA)</li>\n<li>Dependencies and Gradle update</li>\n</ul>"
+        },
+        "preferredSigner": "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c"
+      },
+      "versions": {
+        "bfd093c50e03fdd4c52bfa4226c55325eea85d8821941cb0b846b6af220ffddd": {
+          "added": 1729730845000,
+          "file": {
+            "name": "/sb.firefds.r.firefdskit_11030-11.0.3.0-STABLE-2.apk",
+            "sha256": "bfd093c50e03fdd4c52bfa4226c55325eea85d8821941cb0b846b6af220ffddd",
+            "size": 4271267
+          },
+          "manifest": {
+            "versionName": "11.0.3.0-STABLE-2",
+            "versionCode": 11030,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sb.firefds.s.firefdskit": {
+      "metadata": {
+        "added": 1729730846000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730846000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/sb.firefds.s.firefdskit",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Firefds Kit [S]"
+        },
+        "summary": {
+          "en-US": "Firefds Kit Xposed module for Samsung S (Android 12) devices"
+        },
+        "description": {
+          "en-US": "<p><strong>Please updated your LSPosed version to the latest version!!</strong></p>\n<ul>\n<li>Added Czech strings</li>\n<li>Updated Advanced Power Menu icons (Thanks <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/okij/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/okij\">@okij</a> from XDA)</li>\n<li>Dependencies and Gradle update</li>\n<li>Temporary disable Show Network Speed Menu to resolve bootloops</li>\n</ul>"
+        },
+        "preferredSigner": "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c"
+      },
+      "versions": {
+        "a4bb18f8eee9469aae07d8efdfcecebd849c465add1cee2566e008fb1fe7e6a7": {
+          "added": 1729730846000,
+          "file": {
+            "name": "/sb.firefds.s.firefdskit_12002-12.0.0.2-ALPHA-2.apk",
+            "sha256": "a4bb18f8eee9469aae07d8efdfcecebd849c465add1cee2566e008fb1fe7e6a7",
+            "size": 4264307
+          },
+          "manifest": {
+            "versionName": "12.0.0.2-ALPHA-2",
+            "versionCode": 12002,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 31
+            },
+            "signer": {
+              "sha256": [
+                "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "space.aioilight.tsubonofuta": {
+      "metadata": {
+        "added": 1729730846000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730846000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -221,7 +2469,7 @@
       },
       "versions": {
         "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621": {
-          "added": 1729701889000,
+          "added": 1729730846000,
           "file": {
             "name": "/space.aioilight.tsubonofuta_15-2.1.apk",
             "sha256": "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621",
@@ -239,6 +2487,163 @@
                 "44bdf16f4aed9f458612d7199600bdb5f09c83dc0f3308abd0dfacc6ed9420d4"
               ]
             }
+          }
+        }
+      }
+    },
+    "xeed.xposed.cbppmod": {
+      "metadata": {
+        "added": 1729730847000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730847000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/xeed.xposed.cbppmod",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Physical Button Master Control"
+        },
+        "summary": {
+          "en-US": "No more need to turn on screen to control the music player! Get the ultimate ..."
+        },
+        "description": {
+          "en-US": "<ul>\n<li>Backup and restore functionality</li>\n<li>Fixed preference handling issue on Nougat devices</li>\n<li>Improved detection of screen and call states</li>\n<li>Look and feel upgrade</li>\n</ul>"
+        },
+        "preferredSigner": "9b33d1793ec89491d4bc908f3733d2c1d8e98cda95ea030d41a89f2533ac4384"
+      },
+      "versions": {
+        "81101042d7291fb416e165ff4a4e2b5995c8d183b82da0faeac20f820673e9ef": {
+          "added": 1729730847000,
+          "file": {
+            "name": "/xeed.xposed.cbppmod_69-4.3.apk",
+            "sha256": "81101042d7291fb416e165ff4a4e2b5995c8d183b82da0faeac20f820673e9ef",
+            "size": 2834707
+          },
+          "manifest": {
+            "versionName": "4.3",
+            "versionCode": 69,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "9b33d1793ec89491d4bc908f3733d2c1d8e98cda95ea030d41a89f2533ac4384"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.android.vending.BILLING"
+              },
+              {
+                "name": "android.permission.FLASHLIGHT"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "xeed.xposed.cbppmod.SYSTEM_PERMISSION"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "xyz.xfqlittlefan.ciwong.hello": {
+      "metadata": {
+        "added": 1729730847000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730847000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "HelloCiwong"
+        },
+        "summary": {
+          "en-US": "习习向上优化模块"
+        },
+        "description": {
+          "en-US": "<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1\"><tt>v1.1.0...v1.1.1</tt></a></p>\n<h1>更新内容</h1>\n<ul>\n<li>解决了无法取消显示在线作答的答案的问题</li>\n</ul>"
+        },
+        "preferredSigner": "58538ffbce60e824e712939f4e09f76c0ef0905ba5369b8e0778a4f45875e6bc"
+      },
+      "versions": {
+        "d7073b762c217bf7317f3bbc8e39b427aca0fd8eac4d6426e1219620eb867c03": {
+          "added": 1729730847000,
+          "file": {
+            "name": "/xyz.xfqlittlefan.ciwong.hello_3-1.1.1.apk",
+            "sha256": "d7073b762c217bf7317f3bbc8e39b427aca0fd8eac4d6426e1219620eb867c03",
+            "size": 1625368
+          },
+          "manifest": {
+            "versionName": "1.1.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 32
+            },
+            "signer": {
+              "sha256": [
+                "58538ffbce60e824e712939f4e09f76c0ef0905ba5369b8e0778a4f45875e6bc"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "xyz.xfqlittlefan.notdeveloper": {
+      "metadata": {
+        "added": 1729730848000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1729730848000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.notdeveloper",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "我不是开发者 / IAmNotADeveloper"
+        },
+        "summary": {
+          "en-US": "隐藏开发者模式、USB 调试和无线调试。\nHide development mode, USB debugging mode and wireless d..."
+        },
+        "description": {
+          "en-US": "<h2>What's Changed</h2>\n<ul>\n<li>chore: bump org.jetbrains.kotlin.android from 1.9.21 to 1.9.22 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2053923705\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/42\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/42/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/42\">xfqwdsj/IAmNotADeveloper#42</a></li>\n<li>chore: bump compose_version from 1.5.1 to 1.6.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666068\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/48\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/48/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/48\">xfqwdsj/IAmNotADeveloper#48</a></li>\n<li>chore: bump androidx.activity:activity-compose from 1.7.2 to 1.8.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666223\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/49\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/49/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/49\">xfqwdsj/IAmNotADeveloper#49</a></li>\n<li>chore: bump lifecycle_version from 2.6.2 to 2.7.0 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666374\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/50\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/50/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/50\">xfqwdsj/IAmNotADeveloper#50</a></li>\n<li>chore: upgrade kotlin and compose compiler by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2222912961\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/56\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/56/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/56\">xfqwdsj/IAmNotADeveloper#56</a></li>\n<li>chore: bump androidx.compose.material3:material3 from 1.1.2 to 1.2.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2222907071\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/55\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/55/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/55\">xfqwdsj/IAmNotADeveloper#55</a></li>\n<li>chore: upgrade gradle by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2241707328\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/59\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/59/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/59\">xfqwdsj/IAmNotADeveloper#59</a></li>\n<li>chore: bump com.android.application from 8.1.2 to 8.3.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2235645420\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/57\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/57/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/57\">xfqwdsj/IAmNotADeveloper#57</a></li>\n<li>chore: bump com.android.library from 8.1.2 to 8.3.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2235645857\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/58\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/58/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/58\">xfqwdsj/IAmNotADeveloper#58</a></li>\n<li>chore: update Portuguese Brazilian by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/igormiguell/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/igormiguell\">@igormiguell</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2304062858\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/65\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/65/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/65\">xfqwdsj/IAmNotADeveloper#65</a></li>\n<li>docs: update README by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/igormiguell/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/igormiguell\">@igormiguell</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2304064240\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/66\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/66/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/66\">xfqwdsj/IAmNotADeveloper#66</a></li>\n<li>chore: 1.2.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2314458320\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/69\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/69/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/69\">xfqwdsj/IAmNotADeveloper#69</a></li>\n<li>ci: update by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2327026392\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/70\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/70/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/70\">xfqwdsj/IAmNotADeveloper#70</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/compare/1.2.0...1.3.1\">xfqwdsj/IAmNotADeveloper@<tt>1.2.0...1.3.1</tt></a></p>"
+        },
+        "preferredSigner": "2d23b9f7ea06ee62c590a6ad3cae5f3b26a891b0a141744ad6695396f82907eb"
+      },
+      "versions": {
+        "32a06617d882a0cba588a062b20fe5df06d9edb28844ba06a476173015c9fbd0": {
+          "added": 1729730848000,
+          "file": {
+            "name": "/xyz.xfqlittlefan.notdeveloper_3-1.0.2.apk",
+            "sha256": "32a06617d882a0cba588a062b20fe5df06d9edb28844ba06a476173015c9fbd0",
+            "size": 1741027
+          },
+          "manifest": {
+            "versionName": "1.0.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "2d23b9f7ea06ee62c590a6ad3cae5f3b26a891b0a141744ad6695396f82907eb"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "xyz.xfqlittlefan.notdeveloper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }

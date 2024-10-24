@@ -24,6 +24,19 @@ cn.amamiya.hupublacklist:
           name: 虎扑黑名单/HupuBlackList
           releasedescription: <p>新增关键词屏蔽</p>
     owner: AmamiyaHotaru
+cn.android.x:
+    git: https://github.com/Xposed-Modules-Repo/cn.android.x
+    summary: Add extra features to Wechat. 微信增加更多功能。
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: X_117_3.0.apk
+          id: cn.android.x
+          name: X
+          releasedescription: ""
+    owner: fkzhang
 com.alex193a.checkblue:
     git: https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue
     summary: A module that allows you to find out if a Twitter user is Blue Verified.
@@ -37,6 +50,63 @@ com.alex193a.checkblue:
           name: CheckBlue
           releasedescription: <p>First release</p>
     owner: alex193a
+com.alex193a.opcameradebug:
+    git: https://github.com/Xposed-Modules-Repo/com.alex193a.opcameradebug
+    summary: Enable the hidden internal menu in the OnePlus camera app.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Initial release</li>
+            </ul>
+          filename: com.alex193a.opcameradebug_v1_dab9fa.apk
+          id: com.alex193a.opcameradebug
+          name: OnePlus Camera Debug Mode Enabler
+          releasedescription: |-
+            <ul>
+            <li>Initial release</li>
+            </ul>
+    owner: alex193a
+com.alphi.actvityopenmanager:
+    git: https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager
+    summary: |-
+        叼毛广告，休想通过摇摇启动APP
+        Tools that block activity startup
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>适配ColorOS等系统支持<br>
+            逻辑优化，更加稳健<br>
+            修复部分APP拦截住出现闪退的问题<br>
+            可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>
+            MD5:  A9AA30BACE96445A4F26D631284D66F0</p>
+          filename: app-release.apk
+          id: com.alphi.actvityopenmanager
+          name: Activity链式启动管理器
+          releasedescription: |-
+            <p>适配ColorOS等系统支持<br>
+            逻辑优化，更加稳健<br>
+            修复部分APP拦截住出现闪退的问题<br>
+            可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>
+            MD5:  A9AA30BACE96445A4F26D631284D66F0</p>
+    owner: alphime
+com.amanoteam.nai:
+    git: https://github.com/Xposed-Modules-Repo/com.amanoteam.nai
+    summary: Remove the annoying 'free storage space' pop-ups on Telegram
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: app-release.apk
+          id: com.amanoteam.nai
+          name: Nai
+          releasedescription: ""
+    owner: Kartatz
 com.amanoteam.sunny:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny
     summary: Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits
@@ -56,6 +126,954 @@ com.amanoteam.sunny:
             <li>Fix issues with the manga tracking system (Thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Patriarch9307/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Patriarch9307">@Patriarch9307</a>)</li>
             </ul>
     owner: Kartatz
+com.bit747.smobajump:
+    git: https://github.com/Xposed-Modules-Repo/com.bit747.smobajump
+    summary: 跳过王者营地的启动动画和推广的界面,版本号带“DisableUpdate”的会屏蔽启动时的自动更新
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>
+            <p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>
+          filename: smobajump-v1.2_DisableUpdate.apk
+          id: com.bit747.smobajump
+          name: smobajump
+          releasedescription: |-
+            <p>懒得写操作逻辑了，繁琐，所以整了两个版本，DisableUpdate这个版本会屏蔽启动时的自动更新检查，设置里的手动更新会不会屏蔽不清楚。</p>
+            <p>不需要屏蔽自动更新的人，可以不更新模块。今早发的有问题，现在重新发。</p>
+    owner: Thiasap
+com.chacha.igexperiments:
+    git: https://github.com/Xposed-Modules-Repo/com.chacha.igexperiments
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<h3>Version 3 - What's New</h3>\n<ul>\n<li>\U0001F680 <strong>Auto Mode:</strong> Automatically detects compatible classes for Instagram versions 334+.</li>\n<li>\U0001F514 <strong>Update Checker:</strong> Get notified when a new module update is available with a direct download link.</li>\n<li>\U0001F3A8 <strong>UI Enhancements:</strong> Improved user interface for a smoother and more intuitive experience.</li>\n<li>\U0001F6E0️ <strong>Separate Hooks Repository:</strong> Hooks are now managed in a dedicated repository for easier updates<br>\nAvailable at: <strong><a href=\"https://github.com/ReSo7200/IGExperimentsHooksUpdates\">IGExperimentsHooksUpdates</a></strong></li>\n<li>\U0001F41B <strong>Bug Fixes:</strong> Squashed various bugs to improve stability and performance.</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>Version 3 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ReSo7200/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ReSo7200\">@ReSo7200</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2506086274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xHookman/IGexperiments/issues/43\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xHookman/IGexperiments/pull/43/hovercard\" href=\"https://github.com/xHookman/IGexperiments/pull/43\">xHookman/IGexperiments#43</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xHookman/IGexperiments/compare/v2.5.1...v3.0\">xHookman/IGexperiments@<tt>v2.5.1...v3.0</tt></a></p>"
+          filename: IGexperiments3.apk
+          id: com.chacha.igexperiments
+          name: IGExperiments
+          releasedescription: "<h3>Version 3 - What's New</h3>\n<ul>\n<li>\U0001F680 <strong>Auto Mode:</strong> Automatically detects compatible classes for Instagram versions 334+.</li>\n<li>\U0001F514 <strong>Update Checker:</strong> Get notified when a new module update is available with a direct download link.</li>\n<li>\U0001F3A8 <strong>UI Enhancements:</strong> Improved user interface for a smoother and more intuitive experience.</li>\n<li>\U0001F6E0️ <strong>Separate Hooks Repository:</strong> Hooks are now managed in a dedicated repository for easier updates<br>\nAvailable at: <strong><a href=\"https://github.com/ReSo7200/IGExperimentsHooksUpdates\">IGExperimentsHooksUpdates</a></strong></li>\n<li>\U0001F41B <strong>Bug Fixes:</strong> Squashed various bugs to improve stability and performance.</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>Version 3 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ReSo7200/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ReSo7200\">@ReSo7200</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2506086274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xHookman/IGexperiments/issues/43\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xHookman/IGexperiments/pull/43/hovercard\" href=\"https://github.com/xHookman/IGexperiments/pull/43\">xHookman/IGexperiments#43</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xHookman/IGexperiments/compare/v2.5.1...v3.0\">xHookman/IGexperiments@<tt>v2.5.1...v3.0</tt></a></p>"
+    owner: xHookman
+com.chacha.notigif:
+    git: https://github.com/Xposed-Modules-Repo/com.chacha.notigif
+    summary: Allow you to add a gif or a picture in your notifications panel !
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>
+            Added show on lockscreen switch (Thanks @Hyper.Alvi)<br>
+            Added refresh gifs without SystemUI restart needed<br>
+            Added a reminder<br>
+            (Tell me if fade and show on lockscreen switches doesn't work on your device)<br>
+            Soon a matrix rain module</p>
+          filename: Notigif1.7.apk
+          id: com.chacha.notigif
+          name: Notigif
+          releasedescription: |-
+            <p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>
+            Added show on lockscreen switch (Thanks @Hyper.Alvi)<br>
+            Added refresh gifs without SystemUI restart needed<br>
+            Added a reminder<br>
+            (Tell me if fade and show on lockscreen switches doesn't work on your device)<br>
+            Soon a matrix rain module</p>
+    owner: xHookman
+com.chacha.smessagescustom:
+    git: https://github.com/Xposed-Modules-Repo/com.chacha.smessagescustom
+    summary: |-
+        This module allow you to customise colors of Samsung Messages app !
+         /!\ THIS IS NOT COMPATIBLE WITH THE ONEUI 2.x MESSAGES VERSION /!\
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>
+          filename: SMessagesCustomiser1.5.1.apk
+          id: com.chacha.smessagescustom
+          name: Samsung Messages Customiser
+          releasedescription: <p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>
+    owner: xHookman
+com.example.vcam:
+    git: https://github.com/Xposed-Modules-Repo/com.example.vcam
+    summary: 安卓虚拟摄像头 android virtual camera
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>修正繁体中文翻译<br>
+            感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/david082321/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/david082321">@david082321</a> 的翻译贡献</p>
+          filename: app-release.apk
+          id: com.example.vcam
+          name: 虚拟摄像头 virtual camera
+          releasedescription: |-
+            <p>修正繁体中文翻译<br>
+            感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/david082321/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/david082321">@david082321</a> 的翻译贡献</p>
+    owner: w2016561536
+com.fkzhang.qqxposed:
+    git: https://github.com/Xposed-Modules-Repo/com.fkzhang.qqxposed
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: QQXposed.Qx.44_2.18.apk
+          id: com.fkzhang.qqxposed
+          name: QXposed （QX模块）
+          releasedescription: ""
+    owner: fkzhang
+com.fuckcoolapk:
+    git: https://github.com/Xposed-Modules-Repo/com.fuckcoolapk
+    summary: Best present for 316 and 423.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: fuckcoolapk_0.5.8_20210506.apk
+          id: com.fuckcoolapk
+          name: FuckCoolapk
+          releasedescription: ""
+    owner: lz233
+com.gauravssnl.mobileradioadaway:
+    git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.mobileradioadaway
+    summary: Mobile Radio Ad Away Xposed module for the Android app available in the Google PlayStore.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p><strong>Change Log</strong><br>
+            Remove unused libraries to minimise the APK size. The APK size is around 50 KB now.</p>
+          filename: MobileRadioAdAway_v1.2.apk
+          id: com.gauravssnl.mobileradioadaway
+          name: Mobile Radio Ad Away
+          releasedescription: |-
+            <p><strong>Change Log</strong><br>
+            Remove unused libraries to minimise the APK size. The APK size is around 50 KB now.</p>
+    owner: gauravssnl
+com.gauravssnl.simpleradioadaway:
+    git: https://github.com/Xposed-Modules-Repo/com.gauravssnl.simpleradioadaway
+    summary: SimpleRadio AdAway Xposed module which has been developed using the `Modern Xposed API` provided by LSPosed. Enjoy Ad free radio experience :)
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>Add the initial Xposed module code which has been developed using the <code>Modern Xposed API</code> provided by the LSPosed team.<br>
+            Enjoy Ad-free radio experience.</p>
+          filename: SimpleRadioAdAway.v1.0.apk
+          id: com.gauravssnl.simpleradioadaway
+          name: SimpleRadio AdAway Modern Xposed API Module
+          releasedescription: |-
+            <p>Add the initial Xposed module code which has been developed using the <code>Modern Xposed API</code> provided by the LSPosed team.<br>
+            Enjoy Ad-free radio experience.</p>
+    owner: gauravssnl
+com.github.dan.nostoragerestrict:
+    git: https://github.com/Xposed-Modules-Repo/com.github.dan.nostoragerestrict
+    summary: Removes the restriction when selecting folders (Downloads/Android) through the file manager on Android 11 and higher
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>
+          filename: NoStorageRestrict-5.0.apk
+          id: com.github.dan.nostoragerestrict
+          name: NoStorageRestrict
+          releasedescription: <p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>
+    owner: DanGLES3
+com.janking.viewperf:
+    git: https://github.com/Xposed-Modules-Repo/com.janking.viewperf
+    summary: 检测View测量、布局和绘制性能
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>可以显示View树</li>
+            <li>显示每次performTraversal耗时，以及performMeasure、performLayout、performDraw耗时</li>
+            <li>显示每个节点的measure、layout、draw耗时</li>
+            <li>显示每个节点的measure次数</li>
+            </ul>
+          filename: ViewPerf.apk
+          id: com.janking.viewperf
+          name: ViewPerf
+          releasedescription: |-
+            <ul>
+            <li>可以显示View树</li>
+            <li>显示每次performTraversal耗时，以及performMeasure、performLayout、performDraw耗时</li>
+            <li>显示每个节点的measure、layout、draw耗时</li>
+            <li>显示每个节点的measure次数</li>
+            </ul>
+    owner: JankingWon
+com.ljlvink.stylusplus.xposed:
+    git: https://github.com/Xposed-Modules-Repo/com.ljlvink.stylusplus.xposed
+    summary: HyperOS for Pad 焦点笔激光 隔空鼠标
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: StylusPlus_1.1.apk
+          id: com.ljlvink.stylusplus.xposed
+          name: HyperOS for Pad 焦点笔激光 隔空鼠标
+          releasedescription: ""
+    owner: ljlVink
+com.luckyzyx.luckytool:
+    git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool
+    summary: |-
+        对ColorOS系统进行的扩展优化的Xposed模块
+        Xposed module for extended optimization of ColorOS system
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <h2>其他链接 (Other Links)</h2>
+            <p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>
+            <ul>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc" rel="nofollow">模块文档 ModuleDoc</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem" rel="nofollow">反馈流程 FeedbackProcess</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link" rel="nofollow">下载方式 DownloadLink</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/donate" rel="nofollow">捐赠方式 Donate</a></li>
+            <li><a href="https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1" rel="nofollow">捐赠方式 腾讯文档</a></li>
+            </ul>
+            <h2>更新日志 (ChangeLog)</h2>
+            <ul>
+            <li>[适配] 三阶段响铃模式磁贴 C15.0</li>
+            <li>[适配] 自定义磁贴背景透明度 C15.0</li>
+            <li>[适配] 控制中心滑动条透明度 C15.0</li>
+            <li>[修复] 状态栏电池hook异常 C15.0</li>
+            <li>[适配] 自定义指纹图标 C15.0</li>
+            <li>[适配] 禁用OTG自动关闭 C15.0</li>
+            <li>[适配] 移除锁屏底部图标 C15.0</li>
+            <li>[适配] 状态栏时钟农历计算逻辑 C15.0</li>
+            <li>[适配] 状态栏电池通知充电技术字段显示 C15.0</li>
+            <li>[适配] 锁屏充电动画样式与字段 C15.0</li>
+            <li>[适配] 控制中心底部网络安全警告信息 C15.0</li>
+            <li>[适配] 强制刷新率数据获取逻辑 C15.0</li>
+            <li>[适配] 新版通知浮窗回复白名单 C15.0</li>
+            <li>[适配] 自定义通知背景透明度 C15.0</li>
+            <li>[修复] 相机旅行滤镜异常崩溃问题</li>
+            <li>[适配] SIM卡首选网络类型 C15.0</li>
+            <li>[适配] SIM卡VoLTE高清通话 C15.0</li>
+            <li>[修复] 强制刷新率数据保存异常</li>
+            <li>[添加] 移除浏览器搜索框App推广 C14+</li>
+            <li>[添加] 禁用状态栏音乐流体云 C14.1+</li>
+            <li>[添加] 浮窗贴边任务前台运行 C13+</li>
+            <li>[添加] 恢复天气降雨云图页面 C14+</li>
+            <li>[优化] 自定义OTA背景图片支持裁剪</li>
+            <li>[添加] 强制启用媒体音乐流体云波纹 C14.1+</li>
+            <li>[添加] 禁用云服务强制备份应用列表</li>
+            <li>[添加] 修复设置CN特供版默认应用跳转</li>
+            <li>[适配] 移除新版流体云系统提示图标 C14+</li>
+            <li>[修复] 息屏一言Https证书访问问题</li>
+            <li>[添加] 禁用长按HOME键启动语音助手</li>
+            <li>[添加] 移除OTA本地更新校验</li>
+            <li>[更改] 更改ADM解锁Pro方案</li>
+            <li>[添加] ADM解锁更多下载线程</li>
+            <li>[添加] 启用相册国庆水印 C13+</li>
+            <li>[Fix] Three-stage ring mode tile C15.0</li>
+            <li>[Fix] Customize tile background transparency C15.0</li>
+            <li>[Fix] Control Center Slider Transparency C15.0</li>
+            <li>[Fix] Status bar battery hook exception C15.0</li>
+            <li>[Fix] Custom fingerprint icon C15.0</li>
+            <li>[Fix] Disable OTG automatic shutdown C15.0</li>
+            <li>[Fix] Remove the icon at the bottom of the lock screen C15.0</li>
+            <li>[Fix] Status bar clock lunar calendar calculation logic C15.0</li>
+            <li>[Fix] Status bar battery notification charging technology field display C15.0</li>
+            <li>[Fix] Lock screen charging animation style and fields C15.0</li>
+            <li>[Fix] Network security warning message at the bottom of the control center C15.0</li>
+            <li>[Fix] Forced refresh rate data acquisition logic C15.0</li>
+            <li>[Fix] New version of notification floating window reply whitelist C15.0</li>
+            <li>[Fix] Custom notification background transparency C15.0</li>
+            <li>[Fix] Camera travel filter crash issue</li>
+            <li>[Fix] SIM card preferred network type C15.0</li>
+            <li>[Fix] SIM Card VoLTE HD Call C15.0</li>
+            <li>[Fix] Forced refresh rate data saving exception</li>
+            <li>[Add] Remove browser search box App promotion C14+</li>
+            <li>[Add] Disable status bar music fluid cloud C14.1+</li>
+            <li>[Add] Floating window border task running in the foreground C13+</li>
+            <li>[Add] Restore weather and rainfall cloud map page C14+</li>
+            <li>[Optimize] Customized OTA background images support cropping</li>
+            <li>[Add] Force enable media music fluid cloud ripple C14.1+</li>
+            <li>[Add] Disable cloud service forced backup application list</li>
+            <li>[Add] Fix setting the default application jump of CN special version</li>
+            <li>[Fix] Remove the new version of Fluid Cloud system prompt icon C14+</li>
+            <li>[Fix] Xipingyiyan HTTPS certificate access issue</li>
+            <li>[Add] Disable long pressing HOME button to start voice assistant</li>
+            <li>[Add] Remove OTA local update verification</li>
+            <li>[Change] Change ADM Unlock Pro plan</li>
+            <li>[Add] ADM unlocks more download threads</li>
+            <li>[Add] Enable National Day watermark in photo album C13+</li>
+            </ul>
+          filename: LuckyTool_v1.2.4.16957.apk
+          id: com.luckyzyx.luckytool
+          name: LuckyTool Xposed 免费模块
+          releasedescription: |-
+            <h2>其他链接 (Other Links)</h2>
+            <p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>
+            <ul>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc" rel="nofollow">模块文档 ModuleDoc</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem" rel="nofollow">反馈流程 FeedbackProcess</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link" rel="nofollow">下载方式 DownloadLink</a></li>
+            <li><a href="https://luckyzyx.gitlab.io/LuckyTool_Doc/donate" rel="nofollow">捐赠方式 Donate</a></li>
+            <li><a href="https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1" rel="nofollow">捐赠方式 腾讯文档</a></li>
+            </ul>
+            <h2>更新日志 (ChangeLog)</h2>
+            <ul>
+            <li>[适配] 三阶段响铃模式磁贴 C15.0</li>
+            <li>[适配] 自定义磁贴背景透明度 C15.0</li>
+            <li>[适配] 控制中心滑动条透明度 C15.0</li>
+            <li>[修复] 状态栏电池hook异常 C15.0</li>
+            <li>[适配] 自定义指纹图标 C15.0</li>
+            <li>[适配] 禁用OTG自动关闭 C15.0</li>
+            <li>[适配] 移除锁屏底部图标 C15.0</li>
+            <li>[适配] 状态栏时钟农历计算逻辑 C15.0</li>
+            <li>[适配] 状态栏电池通知充电技术字段显示 C15.0</li>
+            <li>[适配] 锁屏充电动画样式与字段 C15.0</li>
+            <li>[适配] 控制中心底部网络安全警告信息 C15.0</li>
+            <li>[适配] 强制刷新率数据获取逻辑 C15.0</li>
+            <li>[适配] 新版通知浮窗回复白名单 C15.0</li>
+            <li>[适配] 自定义通知背景透明度 C15.0</li>
+            <li>[修复] 相机旅行滤镜异常崩溃问题</li>
+            <li>[适配] SIM卡首选网络类型 C15.0</li>
+            <li>[适配] SIM卡VoLTE高清通话 C15.0</li>
+            <li>[修复] 强制刷新率数据保存异常</li>
+            <li>[添加] 移除浏览器搜索框App推广 C14+</li>
+            <li>[添加] 禁用状态栏音乐流体云 C14.1+</li>
+            <li>[添加] 浮窗贴边任务前台运行 C13+</li>
+            <li>[添加] 恢复天气降雨云图页面 C14+</li>
+            <li>[优化] 自定义OTA背景图片支持裁剪</li>
+            <li>[添加] 强制启用媒体音乐流体云波纹 C14.1+</li>
+            <li>[添加] 禁用云服务强制备份应用列表</li>
+            <li>[添加] 修复设置CN特供版默认应用跳转</li>
+            <li>[适配] 移除新版流体云系统提示图标 C14+</li>
+            <li>[修复] 息屏一言Https证书访问问题</li>
+            <li>[添加] 禁用长按HOME键启动语音助手</li>
+            <li>[添加] 移除OTA本地更新校验</li>
+            <li>[更改] 更改ADM解锁Pro方案</li>
+            <li>[添加] ADM解锁更多下载线程</li>
+            <li>[添加] 启用相册国庆水印 C13+</li>
+            <li>[Fix] Three-stage ring mode tile C15.0</li>
+            <li>[Fix] Customize tile background transparency C15.0</li>
+            <li>[Fix] Control Center Slider Transparency C15.0</li>
+            <li>[Fix] Status bar battery hook exception C15.0</li>
+            <li>[Fix] Custom fingerprint icon C15.0</li>
+            <li>[Fix] Disable OTG automatic shutdown C15.0</li>
+            <li>[Fix] Remove the icon at the bottom of the lock screen C15.0</li>
+            <li>[Fix] Status bar clock lunar calendar calculation logic C15.0</li>
+            <li>[Fix] Status bar battery notification charging technology field display C15.0</li>
+            <li>[Fix] Lock screen charging animation style and fields C15.0</li>
+            <li>[Fix] Network security warning message at the bottom of the control center C15.0</li>
+            <li>[Fix] Forced refresh rate data acquisition logic C15.0</li>
+            <li>[Fix] New version of notification floating window reply whitelist C15.0</li>
+            <li>[Fix] Custom notification background transparency C15.0</li>
+            <li>[Fix] Camera travel filter crash issue</li>
+            <li>[Fix] SIM card preferred network type C15.0</li>
+            <li>[Fix] SIM Card VoLTE HD Call C15.0</li>
+            <li>[Fix] Forced refresh rate data saving exception</li>
+            <li>[Add] Remove browser search box App promotion C14+</li>
+            <li>[Add] Disable status bar music fluid cloud C14.1+</li>
+            <li>[Add] Floating window border task running in the foreground C13+</li>
+            <li>[Add] Restore weather and rainfall cloud map page C14+</li>
+            <li>[Optimize] Customized OTA background images support cropping</li>
+            <li>[Add] Force enable media music fluid cloud ripple C14.1+</li>
+            <li>[Add] Disable cloud service forced backup application list</li>
+            <li>[Add] Fix setting the default application jump of CN special version</li>
+            <li>[Fix] Remove the new version of Fluid Cloud system prompt icon C14+</li>
+            <li>[Fix] Xipingyiyan HTTPS certificate access issue</li>
+            <li>[Add] Disable long pressing HOME button to start voice assistant</li>
+            <li>[Add] Remove OTA local update verification</li>
+            <li>[Change] Change ADM Unlock Pro plan</li>
+            <li>[Add] ADM unlocks more download threads</li>
+            <li>[Add] Enable National Day watermark in photo album C13+</li>
+            </ul>
+    owner: luckyzyx
+com.luckyzyx.notifyintercept:
+    git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept
+    summary: |-
+        利用关键词匹配对通知进行拦截
+        Use keyword matching to intercept notifications
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>重构通知规则数据存储方案为Json<br>
+            更新Kotlin与部分依赖项<br>
+            更新YukiHookAPI</p>
+          filename: NI_v1.3.0.271.apk
+          id: com.luckyzyx.notifyintercept
+          name: NotifyIntercept
+          releasedescription: |-
+            <p>重构通知规则数据存储方案为Json<br>
+            更新Kotlin与部分依赖项<br>
+            更新YukiHookAPI</p>
+    owner: luckyzyx
+com.nnnen.plusne:
+    git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
+    summary: |-
+        PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友
+        1.soul
+        2.TikTok(免费使用功能 解除网络限制)
+        3.七猫免费小说
+        4.微信
+        5.微博
+        6.快手
+        7.快手极速版
+        8.抖音
+        9.抖音极速版
+        10.最右
+        11.番茄免费小说
+        12.百度贴吧
+        13.皮皮虾
+        14.西瓜视频
+        15.MOMO陌陌
+        16.皮皮搞笑
+        17.MX Player Pro(免费使用)
+        18.ES File Explorer
+        19.小红书
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>[修复]微信 通讯录长按无密友菜单<br>
+            [新增]抖音极速版 隐藏底部红包<br>
+            [适配]Soul 5.9.1(23122606)<br>
+            [适配]抖音 28.4.0(280401)<br>
+            [适配]抖音极速版 28.4.0(280401)<br>
+            [适配]快手 12.0.10.34804(34804)<br>
+            [适配]快手极速版 12.0.10.7168(7168)<br>
+            [适配]七猫免费小说 7.40(74000)<br>
+            [适配]皮皮搞笑 2.92.0(2920000)<br>
+            [适配]小红书 8.20.0(8200552)<br>
+            [适配]最右 6.0.9(600090)<br>
+            [适配]西瓜视频 8.1.8(818)<br>
+            [适配]皮皮虾 4.9.0(490)<br>
+            [公告]7.0正在开发中,进度百分之70左右,敬请期待</p>
+          filename: PlusNE_New.6.5.6.apk
+          id: com.nnnen.plusne
+          name: PlusNE
+          releasedescription: |-
+            <p>[修复]微信 通讯录长按无密友菜单<br>
+            [新增]抖音极速版 隐藏底部红包<br>
+            [适配]Soul 5.9.1(23122606)<br>
+            [适配]抖音 28.4.0(280401)<br>
+            [适配]抖音极速版 28.4.0(280401)<br>
+            [适配]快手 12.0.10.34804(34804)<br>
+            [适配]快手极速版 12.0.10.7168(7168)<br>
+            [适配]七猫免费小说 7.40(74000)<br>
+            [适配]皮皮搞笑 2.92.0(2920000)<br>
+            [适配]小红书 8.20.0(8200552)<br>
+            [适配]最右 6.0.9(600090)<br>
+            [适配]西瓜视频 8.1.8(818)<br>
+            [适配]皮皮虾 4.9.0(490)<br>
+            [公告]7.0正在开发中,进度百分之70左右,敬请期待</p>
+    owner: ALittle-Cool
+com.rifsxd.processhook:
+    git: https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook
+    summary: Hook specific process/apps/games to spoof your device as different model/device to unlock hidden features and options.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>Process Hook</p>
+            <ul>
+            <li>
+            <p>added new apps/games</p>
+            <ul>
+            <li>Aida64</li>
+            <li>Dead by Daylight: Mobile</li>
+            <li>Pubg: New State</li>
+            <li>Pubg: Lite</li>
+            </ul>
+            </li>
+            <li>
+            <p>added new high end device</p>
+            <ul>
+            <li>Poco F6 Pro</li>
+            </ul>
+            </li>
+            </ul>
+          filename: process-hook-v1.3.0.apk
+          id: com.rifsxd.processhook
+          name: Process Hook - Unlock hidden features and options
+          releasedescription: |-
+            <p>Process Hook</p>
+            <ul>
+            <li>
+            <p>added new apps/games</p>
+            <ul>
+            <li>Aida64</li>
+            <li>Dead by Daylight: Mobile</li>
+            <li>Pubg: New State</li>
+            <li>Pubg: Lite</li>
+            </ul>
+            </li>
+            <li>
+            <p>added new high end device</p>
+            <ul>
+            <li>Poco F6 Pro</li>
+            </ul>
+            </li>
+            </ul>
+    owner: rifsxd
+com.setoskins.hook:
+    git: https://github.com/Xposed-Modules-Repo/com.setoskins.hook
+    summary: 一个用于Hook小米系统的工具
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>修复弹窗</p>
+          filename: SetoHook2.1.0.apk
+          id: com.setoskins.hook
+          name: SetoHook
+          releasedescription: <p>修复弹窗</p>
+    owner: SetoSkins
+com.simo.ssl.killer:
+    git: https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer
+    summary: An advanced XPosed module to bypass ssl pinning.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>Change logs:</p>
+            <ul>
+            <li>issues fixed.</li>
+            </ul>
+          filename: SSL_Killer_v1.0.2.apk
+          id: com.simo.ssl.killer
+          name: "\U0001D64E\U0001D64E\U0001D647 \U0001D646\U0001D65E\U0001D647\U0001D647\U0001D640\U0001D64D"
+          releasedescription: |-
+            <p>Change logs:</p>
+            <ul>
+            <li>issues fixed.</li>
+            </ul>
+    owner: Syntaxerr101
+com.skyhand.redbookhelper:
+    git: https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper
+    summary: |-
+        去除小红书的广告和更多好用的功能~
+        Remove XiaoHongShu ads and more useful features~
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>对比1.1.5更新记录：</p>
+            <ol>
+            <li>新增自定义图片视频的保存路径</li>
+            <li>新增去除笔记详情中间的评论框</li>
+            <li>新增长按保存用户头像和背景图</li>
+            <li>修复关注页大图浏览可能不匹配</li>
+            <li>修复可能保存图片失败的情况</li>
+            <li>适配新版的分享下载</li>
+            <li>修复获取配置错误</li>
+            <li>优化大图浏览</li>
+            <li>优化权限获取</li>
+            <li>优化 部分UI</li>
+            <li>适配 新版本</li>
+            </ol>
+          filename: 1.1.6.apk
+          id: com.skyhand.redbookhelper
+          name: 红薯猪手
+          releasedescription: |-
+            <p>对比1.1.5更新记录：</p>
+            <ol>
+            <li>新增自定义图片视频的保存路径</li>
+            <li>新增去除笔记详情中间的评论框</li>
+            <li>新增长按保存用户头像和背景图</li>
+            <li>修复关注页大图浏览可能不匹配</li>
+            <li>修复可能保存图片失败的情况</li>
+            <li>适配新版的分享下载</li>
+            <li>修复获取配置错误</li>
+            <li>优化大图浏览</li>
+            <li>优化权限获取</li>
+            <li>优化 部分UI</li>
+            <li>适配 新版本</li>
+            </ol>
+    owner: tpnet
+com.souleven.photosfix:
+    git: https://github.com/Xposed-Modules-Repo/com.souleven.photosfix
+    summary: Xposed Module to Force Google Photos to separate each folder like Snapchat, Screenshot, Facebook, and so on separated from the Camera folder.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>More stable hook</p>
+          filename: app-release.apk
+          id: com.souleven.photosfix
+          name: Xposed Google Photos FIX
+          releasedescription: <p>More stable hook</p>
+    owner: RevealedSoulEven
+com.th7.flinspirer.admin:
+    git: https://github.com/Xposed-Modules-Repo/com.th7.flinspirer.admin
+    summary: Hook领创，让您的管理员懵逼。
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>支持穿腾讯壳<br>
+            功能一样</p>
+          filename: app-release.apk
+          id: com.th7.flinspirer.admin
+          name: FLinspirer
+          releasedescription: |-
+            <p>支持穿腾讯壳<br>
+            功能一样</p>
+    owner: Tonyha7
+com.unexpected.capture.uc:
+    git: https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc
+    summary: UC 浏览器免流代理信息抓取
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>现在使用在线配置获取被混淆的字段名进行hook</li>
+            <li>配置请求使用<code>mirror.ghproxy.com</code>加速无需翻墙</li>
+            <li>配置仅在当前版本第一次打开时才会下载，只有下载成功模块才会运行</li>
+            <li>仅支持: UC浏览器(16.2.7.1278)联通和电信</li>
+            <li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>
+            <li>具体支持版本请在 <a href="https://github.com/unexpecteds/UCProxyCapture">GitHub</a> 主页查看，不定期更新</li>
+            </ul>
+          filename: UCProxyCapture_1.5.apk
+          id: com.unexpected.capture.uc
+          name: UC 浏览器代理抓取
+          releasedescription: |-
+            <ul>
+            <li>现在使用在线配置获取被混淆的字段名进行hook</li>
+            <li>配置请求使用<code>mirror.ghproxy.com</code>加速无需翻墙</li>
+            <li>配置仅在当前版本第一次打开时才会下载，只有下载成功模块才会运行</li>
+            <li>仅支持: UC浏览器(16.2.7.1278)联通和电信</li>
+            <li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>
+            <li>具体支持版本请在 <a href="https://github.com/unexpecteds/UCProxyCapture">GitHub</a> 主页查看，不定期更新</li>
+            </ul>
+    owner: unexpecteds
+com.wye4.hookforvip:
+    git: https://github.com/Xposed-Modules-Repo/com.wye4.hookforvip
+    summary: 获取部分软件会员与去广告弹窗的模块
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>添加了一个主界面<br>
+            新增</p>
+            <ul>
+            <li>屏幕使用时间_1.5.0627</li>
+            <li>人猫翻译机_3.3.1</li>
+            <li>实时宠物翻译器_4.0</li>
+            <li>莉景天气_2.1.34</li>
+            <li>奥维互动地图_10.1.3</li>
+            </ul>
+          filename: app-release-v1.7.0.apk
+          id: com.wye4.hookforvip
+          name: Hook for VIP
+          releasedescription: |-
+            <p>添加了一个主界面<br>
+            新增</p>
+            <ul>
+            <li>屏幕使用时间_1.5.0627</li>
+            <li>人猫翻译机_3.3.1</li>
+            <li>实时宠物翻译器_4.0</li>
+            <li>莉景天气_2.1.34</li>
+            <li>奥维互动地图_10.1.3</li>
+            </ul>
+    owner: wuye4
+com.zhenxi.fundex2:
+    git: https://github.com/Xposed-Modules-Repo/com.zhenxi.fundex2
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>1，fix read config error</p>
+          filename: FunDex_v7.2.0_2023-07-18_release.apk
+          id: com.zhenxi.fundex2
+          name: FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。)
+          releasedescription: <p>1，fix read config error</p>
+    owner: w296488320
+com.zhenxi.il2cpptrace:
+    git: https://github.com/Xposed-Modules-Repo/com.zhenxi.il2cpptrace
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>1，fix read config error</p>
+          filename: FunIl2cpp_v7.2.0_2023-07-18_release.apk
+          id: com.zhenxi.il2cpptrace
+          name: FunIl2cpp(il2cpp游戏dump&il2cpp方法调用跟踪)
+          releasedescription: <p>1，fix read config error</p>
+    owner: w296488320
+com.zhizi42.diymiuicard:
+    git: https://github.com/Xposed-Modules-Repo/com.zhizi42.diymiuicard
+    summary: 自定义MIUI NFC卡片卡面
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>更新 一键DIY卡面图片<br>
+            修复 添加中文文件名图片失败的bug<br>
+            更新 版本号</p>
+          filename: DIY.MIUI.Card.v1.4.apk
+          id: com.zhizi42.diymiuicard
+          name: DIY MIUI Card
+          releasedescription: |-
+            <p>更新 一键DIY卡面图片<br>
+            修复 添加中文文件名图片失败的bug<br>
+            更新 版本号</p>
+    owner: zhizi42
+de.buttercookie.optionsmenufix:
+    git: https://github.com/Xposed-Modules-Repo/de.buttercookie.optionsmenufix
+    summary: Fix a bug regarding opening Activity options menus in Android 13/14
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>Update German app title</p>
+          filename: de.buttercookie.optionsmenufix-1.0.1.apk
+          id: de.buttercookie.optionsmenufix
+          name: Options Menu Fix
+          releasedescription: <p>Update German app title</p>
+    owner: buttercookie42
+dialog.box:
+    git: https://github.com/Xposed-Modules-Repo/dialog.box
+    summary: "Force to cancel some dialogs/popups that can't be canceled.  \r\n(原名：对话框取消)，强制取消一些不能取消的对话框/弹窗。"
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Automatic synchronization of scopes to LSposed: support for Lsposed 1.9.2</li>
+            </ul>
+            <hr>
+            <ul>
+            <li>自动同步作用域到LSposed：支持Lsposed 1.9.2</li>
+            </ul>
+          filename: 23.11_20231030_093651.apk
+          id: dialog.box
+          name: Dia
+          releasedescription: |-
+            <ul>
+            <li>Automatic synchronization of scopes to LSposed: support for Lsposed 1.9.2</li>
+            </ul>
+            <hr>
+            <ul>
+            <li>自动同步作用域到LSposed：支持Lsposed 1.9.2</li>
+            </ul>
+    owner: serifer
+github.zerorooot.copyfenbi:
+    git: https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi
+    summary: 复制粉笔app用户的评论到剪贴板中（长按评论）
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>仅支持6.17.4</p>
+            <p>支持跳过首页广告、解析视频隐藏、评论过滤</p>
+          filename: app-release.apk
+          id: github.zerorooot.copyfenbi
+          name: 复制粉笔评论/CopyFenBiComment
+          releasedescription: |-
+            <p>仅支持6.17.4</p>
+            <p>支持跳过首页广告、解析视频隐藏、评论过滤</p>
+    owner: zerorooot
+github.zerorooot.horizontalcontentextension:
+    git: https://github.com/Xposed-Modules-Repo/github.zerorooot.horizontalcontentextension
+    summary: 强行在横屏模式下启用miui传送门
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>首次发布</p>
+            <p><strong>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</strong></p>
+          filename: app-release.apk
+          id: github.zerorooot.horizontalcontentextension
+          name: 横屏传送门/HorizontalContentextension
+          releasedescription: |-
+            <p>首次发布</p>
+            <p><strong>注:3.2.x 的传送门开始,小米取消了传送门在横屏下的限制</strong></p>
+    owner: zerorooot
+io.github.nitsuya.donottryaccessibility:
+    git: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility
+    summary: Hook System Framework 让应用认为没有开启无障碍服务
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>support Android 8.1 +</p>
+          filename: 1.0.2.apk
+          id: io.github.nitsuya.donottryaccessibility
+          name: DoNotTryAccessibility
+          releasedescription: <p>support Android 8.1 +</p>
+    owner: Nitsuya
+io.github.rushiranpise.gameunlocker:
+    git: https://github.com/Xposed-Modules-Repo/io.github.rushiranpise.gameunlocker
+    summary: Spoof your device as different model for specific games to unlock higher FPS
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Add new games</li>
+            <li>Fix module not working on some devices</li>
+            <li>Try to prevent ban</li>
+            </ul>
+          filename: game-unlocker-v7.0.0.apk
+          id: io.github.rushiranpise.gameunlocker
+          name: Game Unlocker
+          releasedescription: |-
+            <ul>
+            <li>Add new games</li>
+            <li>Fix module not working on some devices</li>
+            <li>Try to prevent ban</li>
+            </ul>
+    owner: rushiranpise
+me.kofua.qmhelper:
+    git: https://github.com/Xposed-Modules-Repo/me.kofua.qmhelper
+    summary: Q音助手，还你一个干净的Q音 Android 客户端。
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <h2>更新日志</h2>
+            <ul>
+            <li>兼容12.0.5.12及以上版本</li>
+            </ul>
+          filename: QMHelper-v1.1.4.apk
+          id: me.kofua.qmhelper
+          name: Q音助手
+          releasedescription: |-
+            <h2>更新日志</h2>
+            <ul>
+            <li>兼容12.0.5.12及以上版本</li>
+            </ul>
+    owner: zjns
+me.zhenxin.thisreallylite:
+    git: https://github.com/Xposed-Modules-Repo/me.zhenxin.thisreallylite
+    summary: 微博轻享版/极速版 去广告
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p>微博轻享版6.1.7-(去除开屏广告，去除时间线广告，强制暗黑模式)<br>
+            原作者基础上修改适配；需卸载重装</p>
+          filename: v1.3.0-20230814.apk
+          id: me.zhenxin.thisreallylite
+          name: 这真轻享
+          releasedescription: |-
+            <p>微博轻享版6.1.7-(去除开屏广告，去除时间线广告，强制暗黑模式)<br>
+            原作者基础上修改适配；需卸载重装</p>
+    owner: wangyuan0217
+net.lonelytransistor.notificationinsystem:
+    git: https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem
+    summary: Move chosen notification icons from the left to the right side of the system statusbar.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Fixed the memory leak.</li>
+            <li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>
+            <li>Small GUI fixes</li>
+            </ul>
+          filename: SystemUI_Notifier_v1.3.apk
+          id: net.lonelytransistor.notificationinsystem
+          name: Statusbar Icon Relocator
+          releasedescription: |-
+            <ul>
+            <li>Fixed the memory leak.</li>
+            <li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>
+            <li>Small GUI fixes</li>
+            </ul>
+    owner: lonelytransistor
+pub.chara.disablealttab:
+    git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab
+    summary: |-
+        禁用安卓的Alt-Tab快捷键，这样就可以用远程桌面的Alt-Tab了
+        A Xposed module to disable Alt-Tab hotkey for generic android devices, so we can use Alt-Tab in Remote Desktop.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: <p>first version.</p>
+          filename: app-release.apk
+          id: pub.chara.disablealttab
+          name: DisableAltTab
+          releasedescription: <p>first version.</p>
+    owner: CwithW
+sb.firefds.r.firefdskit:
+    git: https://github.com/Xposed-Modules-Repo/sb.firefds.r.firefdskit
+    summary: Firefds Kit Xposed module for Samsung R (Android 11) devices
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Added Czech strings</li>
+            <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
+            <li>Dependencies and Gradle update</li>
+            </ul>
+          filename: FirefdsKit_R_11.0.3.0-STABLE-2.apk
+          id: sb.firefds.r.firefdskit
+          name: Firefds Kit [R]
+          releasedescription: |-
+            <ul>
+            <li>Added Czech strings</li>
+            <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
+            <li>Dependencies and Gradle update</li>
+            </ul>
+    owner: Firefds
+sb.firefds.s.firefdskit:
+    git: https://github.com/Xposed-Modules-Repo/sb.firefds.s.firefdskit
+    summary: Firefds Kit Xposed module for Samsung S (Android 12) devices
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p><strong>Please updated your LSPosed version to the latest version!!</strong></p>
+            <ul>
+            <li>Added Czech strings</li>
+            <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
+            <li>Dependencies and Gradle update</li>
+            <li>Temporary disable Show Network Speed Menu to resolve bootloops</li>
+            </ul>
+          filename: FirefdsKit_S_12.0.0.2-ALPHA-2.apk
+          id: sb.firefds.s.firefdskit
+          name: Firefds Kit [S]
+          releasedescription: |-
+            <p><strong>Please updated your LSPosed version to the latest version!!</strong></p>
+            <ul>
+            <li>Added Czech strings</li>
+            <li>Updated Advanced Power Menu icons (Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/okij/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/okij">@okij</a> from XDA)</li>
+            <li>Dependencies and Gradle update</li>
+            <li>Temporary disable Show Network Speed Menu to resolve bootloops</li>
+            </ul>
+    owner: Firefds
 space.aioilight.tsubonofuta:
     git: https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta
     summary: F*ck ChMate's ads
@@ -95,3 +1113,100 @@ space.aioilight.tsubonofuta:
             <li><code>2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR</code></li>
             </ul>
     owner: AioiLight
+xeed.xposed.cbppmod:
+    git: https://github.com/Xposed-Modules-Repo/xeed.xposed.cbppmod
+    summary: No more need to turn on screen to control the music player! Get the ultimate control over buttons on your device!
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <ul>
+            <li>Backup and restore functionality</li>
+            <li>Fixed preference handling issue on Nougat devices</li>
+            <li>Improved detection of screen and call states</li>
+            <li>Look and feel upgrade</li>
+            </ul>
+          filename: pbmc_69.apk
+          id: xeed.xposed.cbppmod
+          name: Physical Button Master Control
+          releasedescription: |-
+            <ul>
+            <li>Backup and restore functionality</li>
+            <li>Fixed preference handling issue on Nougat devices</li>
+            <li>Improved detection of screen and call states</li>
+            <li>Look and feel upgrade</li>
+            </ul>
+    owner: XspeedPL
+xyz.xfqlittlefan.ciwong.hello:
+    git: https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello
+    summary: 习习向上优化模块
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1"><tt>v1.1.0...v1.1.1</tt></a></p>
+            <h1>更新内容</h1>
+            <ul>
+            <li>解决了无法取消显示在线作答的答案的问题</li>
+            </ul>
+          filename: app-release.apk
+          id: xyz.xfqlittlefan.ciwong.hello
+          name: HelloCiwong
+          releasedescription: |-
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1"><tt>v1.1.0...v1.1.1</tt></a></p>
+            <h1>更新内容</h1>
+            <ul>
+            <li>解决了无法取消显示在线作答的答案的问题</li>
+            </ul>
+    owner: xfqwdsj
+xyz.xfqlittlefan.notdeveloper:
+    git: https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.notdeveloper
+    summary: |-
+        隐藏开发者模式、USB 调试和无线调试。
+        Hide development mode, USB debugging mode and wireless debugging mode.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |-
+            <h2>What's Changed</h2>
+            <ul>
+            <li>chore: bump org.jetbrains.kotlin.android from 1.9.21 to 1.9.22 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2053923705" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/42" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/42/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/42">xfqwdsj/IAmNotADeveloper#42</a></li>
+            <li>chore: bump compose_version from 1.5.1 to 1.6.1 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666068" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/48" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/48/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/48">xfqwdsj/IAmNotADeveloper#48</a></li>
+            <li>chore: bump androidx.activity:activity-compose from 1.7.2 to 1.8.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666223" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/49" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/49/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/49">xfqwdsj/IAmNotADeveloper#49</a></li>
+            <li>chore: bump lifecycle_version from 2.6.2 to 2.7.0 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666374" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/50" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/50/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/50">xfqwdsj/IAmNotADeveloper#50</a></li>
+            <li>chore: upgrade kotlin and compose compiler by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2222912961" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/56" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/56/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/56">xfqwdsj/IAmNotADeveloper#56</a></li>
+            <li>chore: bump androidx.compose.material3:material3 from 1.1.2 to 1.2.1 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2222907071" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/55" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/55/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/55">xfqwdsj/IAmNotADeveloper#55</a></li>
+            <li>chore: upgrade gradle by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2241707328" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/59" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/59/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/59">xfqwdsj/IAmNotADeveloper#59</a></li>
+            <li>chore: bump com.android.application from 8.1.2 to 8.3.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2235645420" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/57" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/57/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/57">xfqwdsj/IAmNotADeveloper#57</a></li>
+            <li>chore: bump com.android.library from 8.1.2 to 8.3.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2235645857" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/58" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/58/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/58">xfqwdsj/IAmNotADeveloper#58</a></li>
+            <li>chore: update Portuguese Brazilian by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2304062858" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/65" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/65/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/65">xfqwdsj/IAmNotADeveloper#65</a></li>
+            <li>docs: update README by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2304064240" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/66" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/66/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/66">xfqwdsj/IAmNotADeveloper#66</a></li>
+            <li>chore: 1.2.1 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2314458320" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/69" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/69/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/69">xfqwdsj/IAmNotADeveloper#69</a></li>
+            <li>ci: update by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2327026392" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/70" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/70/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/70">xfqwdsj/IAmNotADeveloper#70</a></li>
+            </ul>
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/xfqwdsj/IAmNotADeveloper/compare/1.2.0...1.3.1">xfqwdsj/IAmNotADeveloper@<tt>1.2.0...1.3.1</tt></a></p>
+          filename: app-release.apk
+          id: xyz.xfqlittlefan.notdeveloper
+          name: 我不是开发者 / IAmNotADeveloper
+          releasedescription: |-
+            <h2>What's Changed</h2>
+            <ul>
+            <li>chore: bump org.jetbrains.kotlin.android from 1.9.21 to 1.9.22 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2053923705" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/42" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/42/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/42">xfqwdsj/IAmNotADeveloper#42</a></li>
+            <li>chore: bump compose_version from 1.5.1 to 1.6.1 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666068" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/48" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/48/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/48">xfqwdsj/IAmNotADeveloper#48</a></li>
+            <li>chore: bump androidx.activity:activity-compose from 1.7.2 to 1.8.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666223" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/49" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/49/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/49">xfqwdsj/IAmNotADeveloper#49</a></li>
+            <li>chore: bump lifecycle_version from 2.6.2 to 2.7.0 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2138666374" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/50" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/50/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/50">xfqwdsj/IAmNotADeveloper#50</a></li>
+            <li>chore: upgrade kotlin and compose compiler by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2222912961" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/56" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/56/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/56">xfqwdsj/IAmNotADeveloper#56</a></li>
+            <li>chore: bump androidx.compose.material3:material3 from 1.1.2 to 1.2.1 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2222907071" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/55" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/55/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/55">xfqwdsj/IAmNotADeveloper#55</a></li>
+            <li>chore: upgrade gradle by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2241707328" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/59" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/59/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/59">xfqwdsj/IAmNotADeveloper#59</a></li>
+            <li>chore: bump com.android.application from 8.1.2 to 8.3.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2235645420" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/57" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/57/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/57">xfqwdsj/IAmNotADeveloper#57</a></li>
+            <li>chore: bump com.android.library from 8.1.2 to 8.3.2 by <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2235645857" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/58" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/58/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/58">xfqwdsj/IAmNotADeveloper#58</a></li>
+            <li>chore: update Portuguese Brazilian by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2304062858" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/65" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/65/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/65">xfqwdsj/IAmNotADeveloper#65</a></li>
+            <li>docs: update README by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2304064240" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/66" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/66/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/66">xfqwdsj/IAmNotADeveloper#66</a></li>
+            <li>chore: 1.2.1 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2314458320" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/69" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/69/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/69">xfqwdsj/IAmNotADeveloper#69</a></li>
+            <li>ci: update by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xfqwdsj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xfqwdsj">@xfqwdsj</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2327026392" data-permission-text="Title is private" data-url="https://github.com/xfqwdsj/IAmNotADeveloper/issues/70" data-hovercard-type="pull_request" data-hovercard-url="/xfqwdsj/IAmNotADeveloper/pull/70/hovercard" href="https://github.com/xfqwdsj/IAmNotADeveloper/pull/70">xfqwdsj/IAmNotADeveloper#70</a></li>
+            </ul>
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/xfqwdsj/IAmNotADeveloper/compare/1.2.0...1.3.1">xfqwdsj/IAmNotADeveloper@<tt>1.2.0...1.3.1</tt></a></p>
+    owner: xfqwdsj

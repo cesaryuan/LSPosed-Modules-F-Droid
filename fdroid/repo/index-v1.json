@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1729701901000,
+    "timestamp": 1729730869000,
     "version": 20002,
     "name": "LSPosed Module Repository",
     "icon": "icon.png",
@@ -17,6 +17,27 @@
       "categories": [
         "Xposed"
       ],
+      "suggestedVersionName": "1.09",
+      "suggestedVersionCode": "10",
+      "description": "<p>\u9002\u914dColorOS\u7b49\u7cfb\u7edf\u652f\u6301<br>\n\u903b\u8f91\u4f18\u5316\uff0c\u66f4\u52a0\u7a33\u5065<br>\n\u4fee\u590d\u90e8\u5206APP\u62e6\u622a\u4f4f\u51fa\u73b0\u95ea\u9000\u7684\u95ee\u9898<br>\n\u53ef\u80fd\u6027\u4fee\u590d\u90e8\u5206App\u5f39\u51fa\u5bf9\u8bdd\u6846\u51fa\u73b0\u4e25\u91cd\u5361\u987f\u7684\u60c5\u51b5\uff08\u4e0d\u786e\u5b9a\uff09<br>\nMD5:  A9AA30BACE96445A4F26D631284D66F0</p>",
+      "license": "Unknown",
+      "name": "Activity\u94fe\u5f0f\u542f\u52a8\u7ba1\u7406\u5668",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager",
+      "summary": "\u53fc\u6bdb\u5e7f\u544a\uff0c\u4f11\u60f3\u901a\u8fc7\u6447\u6447\u542f\u52a8APP\nTools that block activity startup",
+      "added": 1729730830000,
+      "packageName": "com.alphi.actvityopenmanager",
+      "lastUpdated": 1729730830000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u9002\u914dColorOS\u7b49\u7cfb\u7edf\u652f\u6301\n\u903b\u8f91\u4f18\u5316\uff0c\u66f4\u52a0\u7a33\u5065\n\u4fee\u590d\u90e8\u5206APP\u62e6\u622a\u4f4f\u51fa\u73b0\u95ea\u9000\u7684\u95ee\u9898\n\u53ef\u80fd\u6027\u4fee\u590d\u90e8\u5206App\u5f39\u51fa\u5bf9\u8bdd\u6846\u51fa\u73b0\u4e25\u91cd\u5361\u987f\u7684\u60c5\u51b5\uff08\u4e0d\u786e\u5b9a\uff09\nMD5:  A9AA30BACE96445A4F26D631284D66F0"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
       "suggestedVersionName": "1.0",
       "suggestedVersionCode": "1",
       "description": "<p>First release</p>",
@@ -24,12 +45,682 @@
       "name": "CheckBlue",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.checkblue",
       "summary": "A module that allows you to find out if a Twitter user is Blue Verified.",
-      "added": 1729701889000,
+      "added": 1729730829000,
       "packageName": "com.alex193a.checkblue",
-      "lastUpdated": 1729701889000,
+      "lastUpdated": 1729730829000,
       "localized": {
         "en-US": {
           "whatsNew": "First release"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "23.11",
+      "suggestedVersionCode": "1",
+      "description": "<ul>\n<li>Automatic synchronization of scopes to LSposed: support for Lsposed 1.9.2</li>\n</ul>\n<hr>\n<ul>\n<li>\u81ea\u52a8\u540c\u6b65\u4f5c\u7528\u57df\u5230LSposed\uff1a\u652f\u6301Lsposed 1.9.2</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Dia",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/dialog.box",
+      "summary": "Force to cancel some dialogs/popups that can't be canceled.  \r\n(\u539f\u540d\uff1a\u5bf9\u8bdd\u6846\u53d6\u6d88)\uff0c\u5f3a\u5236\u53d6...",
+      "added": 1729730842000,
+      "packageName": "dialog.box",
+      "lastUpdated": 1729730842000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- Automatic synchronization of scopes to LSposed: support for Lsposed 1.9.2  \n-------------------  \n- \u81ea\u52a8\u540c\u6b65\u4f5c\u7528\u57df\u5230LSposed\uff1a\u652f\u6301Lsposed 1.9.2  "
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1",
+      "suggestedVersionCode": "1",
+      "description": "<p>first version.</p>",
+      "license": "Unknown",
+      "name": "DisableAltTab",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab",
+      "summary": "\u7981\u7528\u5b89\u5353\u7684Alt-Tab\u5feb\u6377\u952e\uff0c\u8fd9\u6837\u5c31\u53ef\u4ee5\u7528\u8fdc\u7a0b\u684c\u9762\u7684Alt-Tab\u4e86\nA Xposed module to disable Alt-Tab hotkey...",
+      "added": 1729730845000,
+      "packageName": "pub.chara.disablealttab",
+      "lastUpdated": 1729730845000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "first version."
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.4",
+      "suggestedVersionCode": "5",
+      "description": "<p>\u66f4\u65b0 \u4e00\u952eDIY\u5361\u9762\u56fe\u7247<br>\n\u4fee\u590d \u6dfb\u52a0\u4e2d\u6587\u6587\u4ef6\u540d\u56fe\u7247\u5931\u8d25\u7684bug<br>\n\u66f4\u65b0 \u7248\u672c\u53f7</p>",
+      "license": "Unknown",
+      "name": "DIY MIUI Card",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.zhizi42.diymiuicard",
+      "summary": "\u81ea\u5b9a\u4e49MIUI NFC\u5361\u7247\u5361\u9762",
+      "added": 1729730841000,
+      "packageName": "com.zhizi42.diymiuicard",
+      "lastUpdated": 1729730841000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u66f4\u65b0 \u4e00\u952eDIY\u5361\u9762\u56fe\u7247\n\u4fee\u590d \u6dfb\u52a0\u4e2d\u6587\u6587\u4ef6\u540d\u56fe\u7247\u5931\u8d25\u7684bug\n\u66f4\u65b0 \u7248\u672c\u53f7"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.2",
+      "suggestedVersionCode": "2",
+      "description": "<p>support Android 8.1 +</p>",
+      "license": "Unknown",
+      "name": "DoNotTryAccessibility",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility",
+      "summary": "Hook System Framework \u8ba9\u5e94\u7528\u8ba4\u4e3a\u6ca1\u6709\u5f00\u542f\u65e0\u969c\u788d\u670d\u52a1",
+      "added": 1729730843000,
+      "packageName": "io.github.nitsuya.donottryaccessibility",
+      "lastUpdated": 1729730843000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "support Android 8.1 +"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "11.0.3.0-STABLE-2",
+      "suggestedVersionCode": "11030",
+      "description": "<ul>\n<li>Added Czech strings</li>\n<li>Updated Advanced Power Menu icons (Thanks <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/okij/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/okij\">@okij</a> from XDA)</li>\n<li>Dependencies and Gradle update</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Firefds Kit [R]",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/sb.firefds.r.firefdskit",
+      "summary": "Firefds Kit Xposed module for Samsung R (Android 11) devices",
+      "added": 1729730845000,
+      "packageName": "sb.firefds.r.firefdskit",
+      "lastUpdated": 1729730845000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- Added Czech strings\n- Updated Advanced Power Menu icons (Thanks @okij from XDA)\n- Dependencies and Gradle update"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "12.0.0.2-ALPHA-2",
+      "suggestedVersionCode": "12002",
+      "description": "<p><strong>Please updated your LSPosed version to the latest version!!</strong></p>\n<ul>\n<li>Added Czech strings</li>\n<li>Updated Advanced Power Menu icons (Thanks <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/okij/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/okij\">@okij</a> from XDA)</li>\n<li>Dependencies and Gradle update</li>\n<li>Temporary disable Show Network Speed Menu to resolve bootloops</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Firefds Kit [S]",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/sb.firefds.s.firefdskit",
+      "summary": "Firefds Kit Xposed module for Samsung S (Android 12) devices",
+      "added": 1729730846000,
+      "packageName": "sb.firefds.s.firefdskit",
+      "lastUpdated": 1729730846000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "**Please updated your LSPosed version to the latest version!!**\n\n- Added Czech strings\n- Updated Advanced Power Menu icons (Thanks @okij from XDA)\n- Dependencies and Gradle update\n- Temporary disable Show Network Speed Menu to resolve bootloops\n"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.50",
+      "suggestedVersionCode": "50",
+      "description": "<p>\u652f\u6301\u7a7f\u817e\u8baf\u58f3<br>\n\u529f\u80fd\u4e00\u6837</p>",
+      "license": "Unknown",
+      "name": "FLinspirer",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.th7.flinspirer.admin",
+      "summary": "Hook\u9886\u521b\uff0c\u8ba9\u60a8\u7684\u7ba1\u7406\u5458\u61f5\u903c\u3002",
+      "added": 1729730838000,
+      "packageName": "com.th7.flinspirer.admin",
+      "lastUpdated": 1729730838000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u652f\u6301\u7a7f\u817e\u8baf\u58f3\n\u529f\u80fd\u4e00\u6837"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.5.8",
+      "suggestedVersionCode": "20210506",
+      "license": "Unknown",
+      "name": "FuckCoolapk",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuckcoolapk",
+      "summary": "Best present for 316 and 423.",
+      "added": 1729730833000,
+      "packageName": "com.fuckcoolapk",
+      "lastUpdated": 1729730833000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\n"
+        }
+      }
+    },
+    {
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "7.2.0",
+      "suggestedVersionCode": "720",
+      "description": "<p>1\uff0cfix read config error</p>",
+      "license": "Unknown",
+      "name": "FunDex(\u57fa\u4e8eXposed\u5b9e\u73b0\u7684\u8131\u58f3\u673a,\u652f\u63015-13,\u652f\u6301\u7c7b\u62bd\u53d6\u3002)",
+      "added": 1729730840000,
+      "packageName": "com.zhenxi.FunDex2",
+      "lastUpdated": 1729730840000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "1\uff0cfix read config error \n"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "7.2.0",
+      "suggestedVersionCode": "720",
+      "description": "<p>1\uff0cfix read config error</p>",
+      "license": "Unknown",
+      "name": "FunIl2cpp(il2cpp\u6e38\u620fdump&il2cpp\u65b9\u6cd5\u8c03\u7528\u8ddf\u8e2a)",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.zhenxi.il2cpptrace",
+      "added": 1729730840000,
+      "packageName": "com.zhenxi.il2cpptrace",
+      "lastUpdated": 1729730840000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "1\uff0cfix read config error \n"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "7.0.0",
+      "suggestedVersionCode": "4",
+      "description": "<ul>\n<li>Add new games</li>\n<li>Fix module not working on some devices</li>\n<li>Try to prevent ban</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Game Unlocker",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.rushiranpise.gameunlocker",
+      "summary": "Spoof your device as different model for specific games to unlock higher FPS",
+      "added": 1729730843000,
+      "packageName": "io.github.rushiranpise.gameunlocker",
+      "lastUpdated": 1729730843000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- Add new games\n- Fix module not working on some devices\n- Try to prevent ban"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.1.1",
+      "suggestedVersionCode": "3",
+      "description": "<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1\"><tt>v1.1.0...v1.1.1</tt></a></p>\n<h1>\u66f4\u65b0\u5185\u5bb9</h1>\n<ul>\n<li>\u89e3\u51b3\u4e86\u65e0\u6cd5\u53d6\u6d88\u663e\u793a\u5728\u7ebf\u4f5c\u7b54\u7684\u7b54\u6848\u7684\u95ee\u9898</li>\n</ul>",
+      "license": "Unknown",
+      "name": "HelloCiwong",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello",
+      "summary": "\u4e60\u4e60\u5411\u4e0a\u4f18\u5316\u6a21\u5757",
+      "added": 1729730847000,
+      "packageName": "xyz.xfqlittlefan.ciwong.hello",
+      "lastUpdated": 1729730847000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "**Full Changelog**: https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.ciwong.hello/compare/v1.1.0...v1.1.1\n# \u66f4\u65b0\u5185\u5bb9\n- \u89e3\u51b3\u4e86\u65e0\u6cd5\u53d6\u6d88\u663e\u793a\u5728\u7ebf\u4f5c\u7b54\u7684\u7b54\u6848\u7684\u95ee\u9898"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.7.0",
+      "suggestedVersionCode": "20241018",
+      "description": "<p>\u6dfb\u52a0\u4e86\u4e00\u4e2a\u4e3b\u754c\u9762<br>\n\u65b0\u589e</p>\n<ul>\n<li>\u5c4f\u5e55\u4f7f\u7528\u65f6\u95f4_1.5.0627</li>\n<li>\u4eba\u732b\u7ffb\u8bd1\u673a_3.3.1</li>\n<li>\u5b9e\u65f6\u5ba0\u7269\u7ffb\u8bd1\u5668_4.0</li>\n<li>\u8389\u666f\u5929\u6c14_2.1.34</li>\n<li>\u5965\u7ef4\u4e92\u52a8\u5730\u56fe_10.1.3</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Hook for VIP",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.wye4.hookforvip",
+      "summary": "\u83b7\u53d6\u90e8\u5206\u8f6f\u4ef6\u4f1a\u5458\u4e0e\u53bb\u5e7f\u544a\u5f39\u7a97\u7684\u6a21\u5757",
+      "added": 1729730839000,
+      "packageName": "com.wye4.hookforvip",
+      "lastUpdated": 1729730839000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u6dfb\u52a0\u4e86\u4e00\u4e2a\u4e3b\u754c\u9762\n\u65b0\u589e\n- \u5c4f\u5e55\u4f7f\u7528\u65f6\u95f4_1.5.0627\n- \u4eba\u732b\u7ffb\u8bd1\u673a_3.3.1\n- \u5b9e\u65f6\u5ba0\u7269\u7ffb\u8bd1\u5668_4.0\n- \u8389\u666f\u5929\u6c14_2.1.34\n- \u5965\u7ef4\u4e92\u52a8\u5730\u56fe_10.1.3"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.1_Release",
+      "suggestedVersionCode": "3",
+      "license": "Unknown",
+      "name": "HyperOS for Pad \u7126\u70b9\u7b14\u6fc0\u5149 \u9694\u7a7a\u9f20\u6807",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.ljlvink.stylusplus.xposed",
+      "summary": "HyperOS for Pad \u7126\u70b9\u7b14\u6fc0\u5149 \u9694\u7a7a\u9f20\u6807",
+      "added": 1729730834000,
+      "packageName": "com.ljlvink.stylusplus.xposed",
+      "lastUpdated": 1729730834000
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "3.0",
+      "suggestedVersionCode": "30",
+      "description": "<h3>Version 3 - What's New</h3>\n<ul>\n<li>\ud83d\ude80 <strong>Auto Mode:</strong> Automatically detects compatible classes for Instagram versions 334+.</li>\n<li>\ud83d\udd14 <strong>Update Checker:</strong> Get notified when a new module update is available with a direct download link.</li>\n<li>\ud83c\udfa8 <strong>UI Enhancements:</strong> Improved user interface for a smoother and more intuitive experience.</li>\n<li>\ud83d\udee0\ufe0f <strong>Separate Hooks Repository:</strong> Hooks are now managed in a dedicated repository for easier updates<br>\nAvailable at: <strong><a href=\"https://github.com/ReSo7200/IGExperimentsHooksUpdates\">IGExperimentsHooksUpdates</a></strong></li>\n<li>\ud83d\udc1b <strong>Bug Fixes:</strong> Squashed various bugs to improve stability and performance.</li>\n</ul>\n<h2>What's Changed</h2>\n<ul>\n<li>Version 3 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ReSo7200/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/ReSo7200\">@ReSo7200</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2506086274\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xHookman/IGexperiments/issues/43\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xHookman/IGexperiments/pull/43/hovercard\" href=\"https://github.com/xHookman/IGexperiments/pull/43\">xHookman/IGexperiments#43</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xHookman/IGexperiments/compare/v2.5.1...v3.0\">xHookman/IGexperiments@<tt>v2.5.1...v3.0</tt></a></p>",
+      "license": "Unknown",
+      "name": "IGExperiments",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.igexperiments",
+      "added": 1729730831000,
+      "icon": "com.chacha.igexperiments.30.png",
+      "packageName": "com.chacha.igexperiments",
+      "lastUpdated": 1729730831000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "### Version 3 - What's New\n\n- \ud83d\ude80 **Auto Mode:** Automatically detects compatible classes for Instagram versions 334+.\n- \ud83d\udd14 **Update Checker:** Get notified when a new module update is available with a direct download link.\n- \ud83c\udfa8 **UI Enhancements:** Improved user interface for a smoother and more intuitive experience.\n- \ud83d\udee0\ufe0f **Separate Hooks Repository:** Hooks are now managed in a dedicated repository for easier updates\n    Available at: **[IGExperimentsHooksUpdates](https://github.com/ReSo7200/IGExp"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.2.4",
+      "suggestedVersionCode": "16957",
+      "description": "<h2>\u5176\u4ed6\u94fe\u63a5 (Other Links)</h2>\n<p><em><strong>\u7981\u6b62\u5f15\u6d41\u3001\u642c\u8fd0\u3001\u8f6c\u8f7d\u3001\u552e\u5356\u3001\u5206\u4eab\u3001\u5206\u6d41</strong></em></p>\n<ul>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc\" rel=\"nofollow\">\u6a21\u5757\u6587\u6863 ModuleDoc</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem\" rel=\"nofollow\">\u53cd\u9988\u6d41\u7a0b FeedbackProcess</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link\" rel=\"nofollow\">\u4e0b\u8f7d\u65b9\u5f0f DownloadLink</a></li>\n<li><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/donate\" rel=\"nofollow\">\u6350\u8d60\u65b9\u5f0f Donate</a></li>\n<li><a href=\"https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1\" rel=\"nofollow\">\u6350\u8d60\u65b9\u5f0f \u817e\u8baf\u6587\u6863</a></li>\n</ul>\n<h2>\u66f4\u65b0\u65e5\u5fd7 (ChangeLog)</h2>\n<ul>\n<li>[\u9002\u914d] \u4e09\u9636\u6bb5\u54cd\u94c3\u6a21\u5f0f\u78c1\u8d34 C15.0</li>\n<li>[\u9002\u914d] \u81ea\u5b9a\u4e49\u78c1\u8d34\u80cc\u666f\u900f\u660e\u5ea6 C15.0</li>\n<li>[\u9002\u914d] \u63a7\u5236\u4e2d\u5fc3\u6ed1\u52a8\u6761\u900f\u660e\u5ea6 C15.0</li>\n<li>[\u4fee\u590d] \u72b6\u6001\u680f\u7535\u6c60hook\u5f02\u5e38 C15.0</li>\n<li>[\u9002\u914d] \u81ea\u5b9a\u4e49\u6307\u7eb9\u56fe\u6807 C15.0</li>\n<li>[\u9002\u914d] \u7981\u7528OTG\u81ea\u52a8\u5173\u95ed C15.0</li>\n<li>[\u9002\u914d] \u79fb\u9664\u9501\u5c4f\u5e95\u90e8\u56fe\u6807 C15.0</li>\n<li>[\u9002\u914d] \u72b6\u6001\u680f\u65f6\u949f\u519c\u5386\u8ba1\u7b97\u903b\u8f91 C15.0</li>\n<li>[\u9002\u914d] \u72b6\u6001\u680f\u7535\u6c60\u901a\u77e5\u5145\u7535\u6280\u672f\u5b57\u6bb5\u663e\u793a C15.0</li>\n<li>[\u9002\u914d] \u9501\u5c4f\u5145\u7535\u52a8\u753b\u6837\u5f0f\u4e0e\u5b57\u6bb5 C15.0</li>\n<li>[\u9002\u914d] \u63a7\u5236\u4e2d\u5fc3\u5e95\u90e8\u7f51\u7edc\u5b89\u5168\u8b66\u544a\u4fe1\u606f C15.0</li>\n<li>[\u9002\u914d] \u5f3a\u5236\u5237\u65b0\u7387\u6570\u636e\u83b7\u53d6\u903b\u8f91 C15.0</li>\n<li>[\u9002\u914d] \u65b0\u7248\u901a\u77e5\u6d6e\u7a97\u56de\u590d\u767d\u540d\u5355 C15.0</li>\n<li>[\u9002\u914d] \u81ea\u5b9a\u4e49\u901a\u77e5\u80cc\u666f\u900f\u660e\u5ea6 C15.0</li>\n<li>[\u4fee\u590d] \u76f8\u673a\u65c5\u884c\u6ee4\u955c\u5f02\u5e38\u5d29\u6e83\u95ee\u9898</li>\n<li>[\u9002\u914d] SIM\u5361\u9996\u9009\u7f51\u7edc\u7c7b\u578b C15.0</li>\n<li>[\u9002\u914d] SIM\u5361VoLTE\u9ad8\u6e05\u901a\u8bdd C15.0</li>\n<li>[\u4fee\u590d] \u5f3a\u5236\u5237\u65b0\u7387\u6570\u636e\u4fdd\u5b58\u5f02\u5e38</li>\n<li>[\u6dfb\u52a0] \u79fb\u9664\u6d4f\u89c8\u5668\u641c\u7d22\u6846App\u63a8\u5e7f C14+</li>\n<li>[\u6dfb\u52a0] \u7981\u7528\u72b6\u6001\u680f\u97f3\u4e50\u6d41\u4f53\u4e91 C14.1+</li>\n<li>[\u6dfb\u52a0] \u6d6e\u7a97\u8d34\u8fb9\u4efb\u52a1\u524d\u53f0\u8fd0\u884c C13+</li>\n<li>[\u6dfb\u52a0] \u6062\u590d\u5929\u6c14\u964d\u96e8\u4e91\u56fe\u9875\u9762 C14+</li>\n<li>[\u4f18\u5316] \u81ea\u5b9a\u4e49OTA\u80cc\u666f\u56fe\u7247\u652f\u6301\u88c1\u526a</li>\n<li>[\u6dfb\u52a0] \u5f3a\u5236\u542f\u7528\u5a92\u4f53\u97f3\u4e50\u6d41\u4f53\u4e91\u6ce2\u7eb9 C14.1+</li>\n<li>[\u6dfb\u52a0] \u7981\u7528\u4e91\u670d\u52a1\u5f3a\u5236\u5907\u4efd\u5e94\u7528\u5217\u8868</li>\n<li>[\u6dfb\u52a0] \u4fee\u590d\u8bbe\u7f6eCN\u7279\u4f9b\u7248\u9ed8\u8ba4\u5e94\u7528\u8df3\u8f6c</li>\n<li>[\u9002\u914d] \u79fb\u9664\u65b0\u7248\u6d41\u4f53\u4e91\u7cfb\u7edf\u63d0\u793a\u56fe\u6807 C14+</li>\n<li>[\u4fee\u590d] \u606f\u5c4f\u4e00\u8a00Https\u8bc1\u4e66\u8bbf\u95ee\u95ee\u9898</li>\n<li>[\u6dfb\u52a0] \u7981\u7528\u957f\u6309HOME\u952e\u542f\u52a8\u8bed\u97f3\u52a9\u624b</li>\n<li>[\u6dfb\u52a0] \u79fb\u9664OTA\u672c\u5730\u66f4\u65b0\u6821\u9a8c</li>\n<li>[\u66f4\u6539] \u66f4\u6539ADM\u89e3\u9501Pro\u65b9\u6848</li>\n<li>[\u6dfb\u52a0] ADM\u89e3\u9501\u66f4\u591a\u4e0b\u8f7d\u7ebf\u7a0b</li>\n<li>[\u6dfb\u52a0] \u542f\u7528\u76f8\u518c\u56fd\u5e86\u6c34\u5370 C13+</li>\n<li>[Fix] Three-stage ring mode tile C15.0</li>\n<li>[Fix] Customize tile background transparency C15.0</li>\n<li>[Fix] Control Center Slider Transparency C15.0</li>\n<li>[Fix] Status bar battery hook exception C15.0</li>\n<li>[Fix] Custom fingerprint icon C15.0</li>\n<li>[Fix] Disable OTG automatic shutdown C15.0</li>\n<li>[Fix] Remove the icon at the bottom of the lock screen C15.0</li>\n<li>[Fix] Status bar clock lunar calendar calculation logic C15.0</li>\n<li>[Fix] Status bar battery notification charging technology field display C15.0</li>\n<li>[Fix] Lock screen charging animation style and fields C15.0</li>\n<li>[Fix] Network security warning message at the bottom of the control center C15.0</li>\n<li>[Fix] Forced refresh rate data acquisition logic C15.0</li>\n<li>[Fix] New version of notification floating window reply whitelist C15.0</li>\n<li>[Fix] Custom notification background transparency C15.0</li>\n<li>[Fix] Camera travel filter crash issue</li>\n<li>[Fix] SIM card preferred network type C15.0</li>\n<li>[Fix] SIM Card VoLTE HD Call C15.0</li>\n<li>[Fix] Forced refresh rate data saving exception</li>\n<li>[Add] Remove browser search box App promotion C14+</li>\n<li>[Add] Disable status bar music fluid cloud C14.1+</li>\n<li>[Add] Floating window border task running in the foreground C13+</li>\n<li>[Add] Restore weather and rainfall cloud map page C14+</li>\n<li>[Optimize] Customized OTA background images support cropping</li>\n<li>[Add] Force enable media music fluid cloud ripple C14.1+</li>\n<li>[Add] Disable cloud service forced backup application list</li>\n<li>[Add] Fix setting the default application jump of CN special version</li>\n<li>[Fix] Remove the new version of Fluid Cloud system prompt icon C14+</li>\n<li>[Fix] Xipingyiyan HTTPS certificate access issue</li>\n<li>[Add] Disable long pressing HOME button to start voice assistant</li>\n<li>[Add] Remove OTA local update verification</li>\n<li>[Change] Change ADM Unlock Pro plan</li>\n<li>[Add] ADM unlocks more download threads</li>\n<li>[Add] Enable National Day watermark in photo album C13+</li>\n</ul>",
+      "license": "Unknown",
+      "name": "LuckyTool Xposed \u514d\u8d39\u6a21\u5757",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
+      "summary": "\u5bf9ColorOS\u7cfb\u7edf\u8fdb\u884c\u7684\u6269\u5c55\u4f18\u5316\u7684Xposed\u6a21\u5757\nXposed module for extended optimization of ColorOS...",
+      "added": 1729730835000,
+      "packageName": "com.luckyzyx.luckytool",
+      "lastUpdated": 1729730835000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "## \u5176\u4ed6\u94fe\u63a5 (Other Links)\n\n_**\u7981\u6b62\u5f15\u6d41\u3001\u642c\u8fd0\u3001\u8f6c\u8f7d\u3001\u552e\u5356\u3001\u5206\u4eab\u3001\u5206\u6d41**_\n- [\u6a21\u5757\u6587\u6863 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [\u53cd\u9988\u6d41\u7a0b FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [\u4e0b\u8f7d\u65b9\u5f0f DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [\u6350\u8d60\u65b9\u5f0f Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [\u6350\u8d60\u65b9\u5f0f \u817e\u8baf\u6587\u6863](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## \u66f4\u65b0\u65e5\u5fd7 (ChangeLog)\n\n\n- [\u9002\u914d] \u4e09\u9636\u6bb5\u54cd\u94c3\u6a21\u5f0f\u78c1\u8d34 C15.0\n- [\u9002\u914d] \u81ea\u5b9a\u4e49\u78c1\u8d34\u80cc\u666f\u900f\u660e\u5ea6 C15.0\n- [\u9002\u914d] \u63a7\u5236\u4e2d\u5fc3\u6ed1\u52a8\u6761\u900f\u660e\u5ea6 C15.0\n- [\u4fee\u590d] \u72b6\u6001\u680f\u7535"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.2",
+      "suggestedVersionCode": "1",
+      "description": "<p><strong>Change Log</strong><br>\nRemove unused libraries to minimise the APK size. The APK size is around 50 KB now.</p>",
+      "license": "Unknown",
+      "name": "Mobile Radio Ad Away",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gauravssnl.mobileradioadaway",
+      "summary": "Mobile Radio Ad Away Xposed module for the Android app available in the Googl...",
+      "added": 1729730833000,
+      "packageName": "com.gauravssnl.mobileradioadaway",
+      "lastUpdated": 1729730833000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "**Change Log**\nRemove unused libraries to minimise the APK size. The APK size is around 50 KB now."
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.1",
+      "suggestedVersionCode": "1",
+      "license": "Unknown",
+      "name": "Nai",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.nai",
+      "summary": "Remove the annoying 'free storage space' pop-ups on Telegram",
+      "added": 1729730830000,
+      "packageName": "com.amanoteam.nai",
+      "lastUpdated": 1729730830000
+    },
+    {
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.5.0",
+      "suggestedVersionCode": "5",
+      "description": "<p>Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)</p>",
+      "license": "Unknown",
+      "name": "NoStorageRestrict",
+      "added": 1729730834000,
+      "packageName": "com.github.dan.NoStorageRestrict",
+      "lastUpdated": 1729730834000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Fixed Android/data folders not showing up in apps like Mt Manager on Android 14 (February security patch)"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.3.0",
+      "suggestedVersionCode": "271",
+      "description": "<p>\u91cd\u6784\u901a\u77e5\u89c4\u5219\u6570\u636e\u5b58\u50a8\u65b9\u6848\u4e3aJson<br>\n\u66f4\u65b0Kotlin\u4e0e\u90e8\u5206\u4f9d\u8d56\u9879<br>\n\u66f4\u65b0YukiHookAPI</p>",
+      "license": "Unknown",
+      "name": "NotifyIntercept",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept",
+      "summary": "\u5229\u7528\u5173\u952e\u8bcd\u5339\u914d\u5bf9\u901a\u77e5\u8fdb\u884c\u62e6\u622a\nUse keyword matching to intercept notifications",
+      "added": 1729730836000,
+      "packageName": "com.luckyzyx.notifyintercept",
+      "lastUpdated": 1729730836000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u91cd\u6784\u901a\u77e5\u89c4\u5219\u6570\u636e\u5b58\u50a8\u65b9\u6848\u4e3aJson\n\u66f4\u65b0Kotlin\u4e0e\u90e8\u5206\u4f9d\u8d56\u9879\n\u66f4\u65b0YukiHookAPI"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.7",
+      "suggestedVersionCode": "1",
+      "description": "<p>Added fade with notifs panel switch (Thanks @Hyper.Alvi)<br>\nAdded show on lockscreen switch (Thanks @Hyper.Alvi)<br>\nAdded refresh gifs without SystemUI restart needed<br>\nAdded a reminder<br>\n(Tell me if fade and show on lockscreen switches doesn't work on your device)<br>\nSoon a matrix rain module</p>",
+      "license": "Unknown",
+      "name": "Notigif",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.notigif",
+      "summary": "Allow you to add a gif or a picture in your notifications panel !",
+      "added": 1729730831000,
+      "icon": "com.chacha.notigif.1.png",
+      "packageName": "com.chacha.notigif",
+      "lastUpdated": 1729730831000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Added fade with notifs panel switch (Thanks @Hyper.Alvi)\nAdded show on lockscreen switch (Thanks @Hyper.Alvi)\nAdded refresh gifs without SystemUI restart needed\nAdded a reminder\n(Tell me if fade and show on lockscreen switches doesn't work on your device)\nSoon a matrix rain module"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "1",
+      "description": "<ul>\n<li>Initial release</li>\n</ul>",
+      "license": "Unknown",
+      "name": "OnePlus Camera Debug Mode Enabler",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alex193a.opcameradebug",
+      "summary": "Enable the hidden internal menu in the OnePlus camera app.",
+      "added": 1729730829000,
+      "icon": "com.alex193a.opcameradebug.1.png",
+      "packageName": "com.alex193a.opcameradebug",
+      "lastUpdated": 1729730829000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "* Initial release"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.1",
+      "suggestedVersionCode": "2",
+      "description": "<p>Update German app title</p>",
+      "license": "Unknown",
+      "name": "Options Menu Fix",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/de.buttercookie.optionsmenufix",
+      "summary": "Fix a bug regarding opening Activity options menus in Android 13/14",
+      "added": 1729730841000,
+      "packageName": "de.buttercookie.optionsmenufix",
+      "lastUpdated": 1729730841000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Update German app title"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "4.3",
+      "suggestedVersionCode": "69",
+      "description": "<ul>\n<li>Backup and restore functionality</li>\n<li>Fixed preference handling issue on Nougat devices</li>\n<li>Improved detection of screen and call states</li>\n<li>Look and feel upgrade</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Physical Button Master Control",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/xeed.xposed.cbppmod",
+      "summary": "No more need to turn on screen to control the music player! Get the ultimate ...",
+      "added": 1729730847000,
+      "packageName": "xeed.xposed.cbppmod",
+      "lastUpdated": 1729730847000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- Backup and restore functionality\n- Fixed preference handling issue on Nougat devices\n- Improved detection of screen and call states\n- Look and feel upgrade"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "6.5.6",
+      "suggestedVersionCode": "685",
+      "description": "<p>[\u4fee\u590d]\u5fae\u4fe1 \u901a\u8baf\u5f55\u957f\u6309\u65e0\u5bc6\u53cb\u83dc\u5355<br>\n[\u65b0\u589e]\u6296\u97f3\u6781\u901f\u7248 \u9690\u85cf\u5e95\u90e8\u7ea2\u5305<br>\n[\u9002\u914d]Soul 5.9.1(23122606)<br>\n[\u9002\u914d]\u6296\u97f3 28.4.0(280401)<br>\n[\u9002\u914d]\u6296\u97f3\u6781\u901f\u7248 28.4.0(280401)<br>\n[\u9002\u914d]\u5feb\u624b 12.0.10.34804(34804)<br>\n[\u9002\u914d]\u5feb\u624b\u6781\u901f\u7248 12.0.10.7168(7168)<br>\n[\u9002\u914d]\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4 7.40(74000)<br>\n[\u9002\u914d]\u76ae\u76ae\u641e\u7b11 2.92.0(2920000)<br>\n[\u9002\u914d]\u5c0f\u7ea2\u4e66 8.20.0(8200552)<br>\n[\u9002\u914d]\u6700\u53f3 6.0.9(600090)<br>\n[\u9002\u914d]\u897f\u74dc\u89c6\u9891 8.1.8(818)<br>\n[\u9002\u914d]\u76ae\u76ae\u867e 4.9.0(490)<br>\n[\u516c\u544a]7.0\u6b63\u5728\u5f00\u53d1\u4e2d,\u8fdb\u5ea6\u767e\u5206\u4e4b70\u5de6\u53f3,\u656c\u8bf7\u671f\u5f85</p>",
+      "license": "Unknown",
+      "name": "PlusNE",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.nnnen.plusne",
+      "summary": "PlusNE(6.4.3)\u5df2\u652f\u6301\u5fae\u4fe1\u5bc6\u53cb\u529f\u80fd,\u5f00\u542f\u540e,\u5fae\u4fe1\u91cc\u5c06\u627e\u4e0d\u5230\u6b64\u5bc6\u53cb\n1.soul\n2.TikTok(\u514d\u8d39\u4f7f\u7528\u529f\u80fd \u89e3\u9664\u7f51\u7edc\u9650\u5236)\n3.\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4...",
+      "added": 1729730836000,
+      "packageName": "com.nnnen.plusne",
+      "lastUpdated": 1729730836000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "[\u4fee\u590d]\u5fae\u4fe1 \u901a\u8baf\u5f55\u957f\u6309\u65e0\u5bc6\u53cb\u83dc\u5355\n[\u65b0\u589e]\u6296\u97f3\u6781\u901f\u7248 \u9690\u85cf\u5e95\u90e8\u7ea2\u5305\n[\u9002\u914d]Soul 5.9.1(23122606)\n[\u9002\u914d]\u6296\u97f3 28.4.0(280401)\n[\u9002\u914d]\u6296\u97f3\u6781\u901f\u7248 28.4.0(280401)\n[\u9002\u914d]\u5feb\u624b 12.0.10.34804(34804)\n[\u9002\u914d]\u5feb\u624b\u6781\u901f\u7248 12.0.10.7168(7168)\n[\u9002\u914d]\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4 7.40(74000)\n[\u9002\u914d]\u76ae\u76ae\u641e\u7b11 2.92.0(2920000)\n[\u9002\u914d]\u5c0f\u7ea2\u4e66 8.20.0(8200552)\n[\u9002\u914d]\u6700\u53f3 6.0.9(600090)\n[\u9002\u914d]\u897f\u74dc\u89c6\u9891 8.1.8(818)\n[\u9002\u914d]\u76ae\u76ae\u867e 4.9.0(490)\n[\u516c\u544a]7.0\u6b63\u5728\u5f00\u53d1\u4e2d,\u8fdb\u5ea6\u767e\u5206\u4e4b70\u5de6\u53f3,\u656c\u8bf7\u671f\u5f85"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.3.0",
+      "suggestedVersionCode": "4",
+      "description": "<p>Process Hook</p>\n<ul>\n<li>\n<p>added new apps/games</p>\n<ul>\n<li>Aida64</li>\n<li>Dead by Daylight: Mobile</li>\n<li>Pubg: New State</li>\n<li>Pubg: Lite</li>\n</ul>\n</li>\n<li>\n<p>added new high end device</p>\n<ul>\n<li>Poco F6 Pro</li>\n</ul>\n</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Process Hook - Unlock hidden features and options",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook",
+      "summary": "Hook specific process/apps/games to spoof your device as different model/devi...",
+      "added": 1729730837000,
+      "packageName": "com.rifsxd.processhook",
+      "lastUpdated": 1729730837000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Process Hook\n\n- added new apps/games\n\n    - Aida64\n    - Dead by Daylight: Mobile\n    - Pubg: New State\n    - Pubg: Lite\n    \n- added new high end device\n\n    - Poco F6 Pro"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "2.18",
+      "suggestedVersionCode": "44",
+      "license": "Unknown",
+      "name": "QXposed \uff08QX\u6a21\u5757\uff09",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fkzhang.qqxposed",
+      "added": 1729730833000,
+      "packageName": "com.fkzhang.qqxposed",
+      "lastUpdated": 1729730833000
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.1.4",
+      "suggestedVersionCode": "91",
+      "description": "<h2>\u66f4\u65b0\u65e5\u5fd7</h2>\n<ul>\n<li>\u517c\u5bb912.0.5.12\u53ca\u4ee5\u4e0a\u7248\u672c</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Q\u97f3\u52a9\u624b",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/me.kofua.qmhelper",
+      "summary": "Q\u97f3\u52a9\u624b\uff0c\u8fd8\u4f60\u4e00\u4e2a\u5e72\u51c0\u7684Q\u97f3 Android \u5ba2\u6237\u7aef\u3002",
+      "added": 1729730843000,
+      "packageName": "me.kofua.qmhelper",
+      "lastUpdated": 1729730843000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "## \u66f4\u65b0\u65e5\u5fd7\n- \u517c\u5bb912.0.5.12\u53ca\u4ee5\u4e0a\u7248\u672c"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.5.1",
+      "suggestedVersionCode": "1",
+      "description": "<p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>",
+      "license": "Unknown",
+      "name": "Samsung Messages Customiser",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chacha.smessagescustom",
+      "summary": "This module allow you to customise colors of Samsung Messages app !\n /!\\ THIS...",
+      "added": 1729730832000,
+      "icon": "com.chacha.smessagescustom.1.png",
+      "packageName": "com.chacha.smessagescustom",
+      "lastUpdated": 1729730832000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Fixed a stupid bug preventing to change the appearance of Samsung Messages"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "2.1.0",
+      "suggestedVersionCode": "210",
+      "description": "<p>\u4fee\u590d\u5f39\u7a97</p>",
+      "license": "Unknown",
+      "name": "SetoHook",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.setoskins.hook",
+      "summary": "\u4e00\u4e2a\u7528\u4e8eHook\u5c0f\u7c73\u7cfb\u7edf\u7684\u5de5\u5177",
+      "added": 1729730837000,
+      "packageName": "com.setoskins.hook",
+      "lastUpdated": 1729730837000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u4fee\u590d\u5f39\u7a97"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "1",
+      "description": "<p>Add the initial Xposed module code which has been developed using the <code>Modern Xposed API</code> provided by the LSPosed team.<br>\nEnjoy Ad-free radio experience.</p>",
+      "license": "Unknown",
+      "name": "SimpleRadio AdAway Modern Xposed API Module",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gauravssnl.simpleradioadaway",
+      "summary": "SimpleRadio AdAway Xposed module which has been developed using the `Modern X...",
+      "added": 1729730834000,
+      "packageName": "com.gauravssnl.simpleradioadaway",
+      "lastUpdated": 1729730834000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Add the initial Xposed module code which has been developed using the `Modern Xposed API` provided by the LSPosed team.\nEnjoy Ad-free radio experience."
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.2_DisableUpdate",
+      "suggestedVersionCode": "3",
+      "description": "<p>\u61d2\u5f97\u5199\u64cd\u4f5c\u903b\u8f91\u4e86\uff0c\u7e41\u7410\uff0c\u6240\u4ee5\u6574\u4e86\u4e24\u4e2a\u7248\u672c\uff0cDisableUpdate\u8fd9\u4e2a\u7248\u672c\u4f1a\u5c4f\u853d\u542f\u52a8\u65f6\u7684\u81ea\u52a8\u66f4\u65b0\u68c0\u67e5\uff0c\u8bbe\u7f6e\u91cc\u7684\u624b\u52a8\u66f4\u65b0\u4f1a\u4e0d\u4f1a\u5c4f\u853d\u4e0d\u6e05\u695a\u3002</p>\n<p>\u4e0d\u9700\u8981\u5c4f\u853d\u81ea\u52a8\u66f4\u65b0\u7684\u4eba\uff0c\u53ef\u4ee5\u4e0d\u66f4\u65b0\u6a21\u5757\u3002\u4eca\u65e9\u53d1\u7684\u6709\u95ee\u9898\uff0c\u73b0\u5728\u91cd\u65b0\u53d1\u3002</p>",
+      "license": "Unknown",
+      "name": "smobajump",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bit747.smobajump",
+      "summary": "\u8df3\u8fc7\u738b\u8005\u8425\u5730\u7684\u542f\u52a8\u52a8\u753b\u548c\u63a8\u5e7f\u7684\u754c\u9762,\u7248\u672c\u53f7\u5e26\u201cDisableUpdate\u201d\u7684\u4f1a\u5c4f\u853d\u542f\u52a8\u65f6\u7684\u81ea\u52a8\u66f4\u65b0",
+      "added": 1729730830000,
+      "icon": "com.bit747.smobajump.3.png",
+      "packageName": "com.bit747.smobajump",
+      "lastUpdated": 1729730830000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u61d2\u5f97\u5199\u64cd\u4f5c\u903b\u8f91\u4e86\uff0c\u7e41\u7410\uff0c\u6240\u4ee5\u6574\u4e86\u4e24\u4e2a\u7248\u672c\uff0cDisableUpdate\u8fd9\u4e2a\u7248\u672c\u4f1a\u5c4f\u853d\u542f\u52a8\u65f6\u7684\u81ea\u52a8\u66f4\u65b0\u68c0\u67e5\uff0c\u8bbe\u7f6e\u91cc\u7684\u624b\u52a8\u66f4\u65b0\u4f1a\u4e0d\u4f1a\u5c4f\u853d\u4e0d\u6e05\u695a\u3002\n\n\u4e0d\u9700\u8981\u5c4f\u853d\u81ea\u52a8\u66f4\u65b0\u7684\u4eba\uff0c\u53ef\u4ee5\u4e0d\u66f4\u65b0\u6a21\u5757\u3002\u4eca\u65e9\u53d1\u7684\u6709\u95ee\u9898\uff0c\u73b0\u5728\u91cd\u65b0\u53d1\u3002"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.3",
+      "suggestedVersionCode": "1",
+      "description": "<ul>\n<li>Fixed the memory leak.</li>\n<li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>\n<li>Small GUI fixes</li>\n</ul>",
+      "license": "Unknown",
+      "name": "Statusbar Icon Relocator",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem",
+      "summary": "Move chosen notification icons from the left to the right side of the system ...",
+      "added": 1729730845000,
+      "packageName": "net.lonelytransistor.notificationinsystem",
+      "lastUpdated": 1729730845000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- Fixed the memory leak.\n- Each icon is now first tested to ensure it changed, reducing needless redraws\n- Small GUI fixes"
         }
       }
     },
@@ -45,9 +736,9 @@
       "name": "Sunny",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny",
       "summary": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li...",
-      "added": 1729701889000,
+      "added": 1729730830000,
       "packageName": "com.amanoteam.sunny",
-      "lastUpdated": 1729701889000,
+      "lastUpdated": 1729730830000,
       "localized": {
         "en-US": {
           "whatsNew": "* Fix issues with the manga tracking system (Thanks to @Patriarch9307)"
@@ -66,12 +757,111 @@
       "name": "Tsubonofuta",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/space.aioilight.tsubonofuta",
       "summary": "F*ck ChMate's ads",
-      "added": 1729701889000,
+      "added": 1729730846000,
       "packageName": "space.aioilight.tsubonofuta",
-      "lastUpdated": 1729701889000,
+      "lastUpdated": 1729730846000,
       "localized": {
         "en-US": {
           "whatsNew": "* Adapt to new ChMate version 0.8.10.153 (\u65b0\u3057\u3044 ChMate \u30d0\u30fc\u30b8\u30e7\u30f3 0.8.10.153 \u306b\u9069\u5fdc)\n* Change some strings (\u3044\u304f\u3064\u304b\u306e\u30c6\u30ad\u30b9\u30c8\u3092\u5909\u66f4)\n\nIf you'll see ads, try to remove the app from list of battery optimizing\n(\u3082\u3057\u5e83\u544a\u304c\u898b\u3048\u308b\u5834\u5408\u3001\u30a2\u30d7\u30ea\u3092\u30d0\u30c3\u30c6\u30ea\u30fc\u6700\u9069\u5316\u30ea\u30b9\u30c8\u304b\u3089\u9664\u5916\u3057\u3066\u304f\u3060\u3055\u3044)\n\nMake sure to enable this module on Xposed Manager FIRST, overwise it'll be crashing\n(\u306f\u3058\u3081\u306b Xposed Manager \u3067\u3053\u306e\u30e2\u30b8\u30e5\u30fc\u30eb\u3092\u6709\u52b9\u5316\u3057\u3066\u304f\u3060\u3055\u3044\u3001\u3067\u306a\u3044\u3068\u30af\u30e9\u30c3\u30b7\u30e5\u3057\u307e\u3059)\n\nTested on:\n* `2chMate 0.8.10.153/OnePlus/LE2115/12/DR`\n* `2chMate 0.8.10.153/OnePlus/ONEPLUS A6000/11/DR`\n"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.5",
+      "suggestedVersionCode": "6",
+      "description": "<ul>\n<li>\u73b0\u5728\u4f7f\u7528\u5728\u7ebf\u914d\u7f6e\u83b7\u53d6\u88ab\u6df7\u6dc6\u7684\u5b57\u6bb5\u540d\u8fdb\u884chook</li>\n<li>\u914d\u7f6e\u8bf7\u6c42\u4f7f\u7528<code>mirror.ghproxy.com</code>\u52a0\u901f\u65e0\u9700\u7ffb\u5899</li>\n<li>\u914d\u7f6e\u4ec5\u5728\u5f53\u524d\u7248\u672c\u7b2c\u4e00\u6b21\u6253\u5f00\u65f6\u624d\u4f1a\u4e0b\u8f7d\uff0c\u53ea\u6709\u4e0b\u8f7d\u6210\u529f\u6a21\u5757\u624d\u4f1a\u8fd0\u884c</li>\n<li>\u4ec5\u652f\u6301: UC\u6d4f\u89c8\u5668(16.2.7.1278)\u8054\u901a\u548c\u7535\u4fe1</li>\n<li>\u4ec5\u652f\u6301: UC\u6d4f\u89c8\u5668\u6781\u901f\u7248(15.5.2.1242)\u7535\u4fe1</li>\n<li>\u5177\u4f53\u652f\u6301\u7248\u672c\u8bf7\u5728 <a href=\"https://github.com/unexpecteds/UCProxyCapture\">GitHub</a> \u4e3b\u9875\u67e5\u770b\uff0c\u4e0d\u5b9a\u671f\u66f4\u65b0</li>\n</ul>",
+      "license": "Unknown",
+      "name": "UC \u6d4f\u89c8\u5668\u4ee3\u7406\u6293\u53d6",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc",
+      "summary": "UC \u6d4f\u89c8\u5668\u514d\u6d41\u4ee3\u7406\u4fe1\u606f\u6293\u53d6",
+      "added": 1729730839000,
+      "packageName": "com.unexpected.capture.uc",
+      "lastUpdated": 1729730839000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "- \u73b0\u5728\u4f7f\u7528\u5728\u7ebf\u914d\u7f6e\u83b7\u53d6\u88ab\u6df7\u6dc6\u7684\u5b57\u6bb5\u540d\u8fdb\u884chook\n- \u914d\u7f6e\u8bf7\u6c42\u4f7f\u7528`mirror.ghproxy.com`\u52a0\u901f\u65e0\u9700\u7ffb\u5899\n- \u914d\u7f6e\u4ec5\u5728\u5f53\u524d\u7248\u672c\u7b2c\u4e00\u6b21\u6253\u5f00\u65f6\u624d\u4f1a\u4e0b\u8f7d\uff0c\u53ea\u6709\u4e0b\u8f7d\u6210\u529f\u6a21\u5757\u624d\u4f1a\u8fd0\u884c\n- \u4ec5\u652f\u6301: UC\u6d4f\u89c8\u5668(16.2.7.1278)\u8054\u901a\u548c\u7535\u4fe1\n- \u4ec5\u652f\u6301: UC\u6d4f\u89c8\u5668\u6781\u901f\u7248(15.5.2.1242)\u7535\u4fe1\n- \u5177\u4f53\u652f\u6301\u7248\u672c\u8bf7\u5728 [GitHub](https://github.com/unexpecteds/UCProxyCapture) \u4e3b\u9875\u67e5\u770b\uff0c\u4e0d\u5b9a\u671f\u66f4\u65b0"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "3.0",
+      "suggestedVersionCode": "117",
+      "license": "Unknown",
+      "name": "X",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.android.x",
+      "summary": "Add extra features to Wechat. \u5fae\u4fe1\u589e\u52a0\u66f4\u591a\u529f\u80fd\u3002",
+      "added": 1729730829000,
+      "packageName": "cn.android.x",
+      "lastUpdated": 1729730829000
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "2.0",
+      "suggestedVersionCode": "2",
+      "description": "<p>More stable hook</p>",
+      "license": "Unknown",
+      "name": "Xposed Google Photos FIX",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.souleven.photosfix",
+      "summary": "Xposed Module to Force Google Photos to separate each folder like Snapchat, S...",
+      "added": 1729730838000,
+      "packageName": "com.souleven.photosfix",
+      "lastUpdated": 1729730838000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "More stable hook"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.2.2",
+      "suggestedVersionCode": "5",
+      "description": "<p>\u4ec5\u652f\u63016.17.4</p>\n<p>\u652f\u6301\u8df3\u8fc7\u9996\u9875\u5e7f\u544a\u3001\u89e3\u6790\u89c6\u9891\u9690\u85cf\u3001\u8bc4\u8bba\u8fc7\u6ee4</p>",
+      "license": "Unknown",
+      "name": "\u590d\u5236\u7c89\u7b14\u8bc4\u8bba/CopyFenBiComment",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi",
+      "summary": "\u590d\u5236\u7c89\u7b14app\u7528\u6237\u7684\u8bc4\u8bba\u5230\u526a\u8d34\u677f\u4e2d\uff08\u957f\u6309\u8bc4\u8bba\uff09",
+      "added": 1729730842000,
+      "packageName": "github.zerorooot.copyfenbi",
+      "lastUpdated": 1729730842000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u4ec5\u652f\u63016.17.4\n\n\u652f\u6301\u8df3\u8fc7\u9996\u9875\u5e7f\u544a\u3001\u89e3\u6790\u89c6\u9891\u9690\u85cf\u3001\u8bc4\u8bba\u8fc7\u6ee4"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.2",
+      "suggestedVersionCode": "3",
+      "description": "<h2>What's Changed</h2>\n<ul>\n<li>chore: bump org.jetbrains.kotlin.android from 1.9.21 to 1.9.22 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2053923705\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/42\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/42/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/42\">xfqwdsj/IAmNotADeveloper#42</a></li>\n<li>chore: bump compose_version from 1.5.1 to 1.6.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666068\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/48\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/48/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/48\">xfqwdsj/IAmNotADeveloper#48</a></li>\n<li>chore: bump androidx.activity:activity-compose from 1.7.2 to 1.8.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666223\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/49\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/49/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/49\">xfqwdsj/IAmNotADeveloper#49</a></li>\n<li>chore: bump lifecycle_version from 2.6.2 to 2.7.0 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2138666374\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/50\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/50/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/50\">xfqwdsj/IAmNotADeveloper#50</a></li>\n<li>chore: upgrade kotlin and compose compiler by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2222912961\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/56\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/56/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/56\">xfqwdsj/IAmNotADeveloper#56</a></li>\n<li>chore: bump androidx.compose.material3:material3 from 1.1.2 to 1.2.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2222907071\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/55\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/55/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/55\">xfqwdsj/IAmNotADeveloper#55</a></li>\n<li>chore: upgrade gradle by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2241707328\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/59\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/59/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/59\">xfqwdsj/IAmNotADeveloper#59</a></li>\n<li>chore: bump com.android.application from 8.1.2 to 8.3.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2235645420\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/57\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/57/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/57\">xfqwdsj/IAmNotADeveloper#57</a></li>\n<li>chore: bump com.android.library from 8.1.2 to 8.3.2 by <a class=\"user-mention notranslate\" data-hovercard-type=\"organization\" data-hovercard-url=\"/orgs/dependabot/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dependabot\">@dependabot</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2235645857\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/58\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/58/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/58\">xfqwdsj/IAmNotADeveloper#58</a></li>\n<li>chore: update Portuguese Brazilian by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/igormiguell/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/igormiguell\">@igormiguell</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2304062858\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/65\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/65/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/65\">xfqwdsj/IAmNotADeveloper#65</a></li>\n<li>docs: update README by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/igormiguell/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/igormiguell\">@igormiguell</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2304064240\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/66\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/66/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/66\">xfqwdsj/IAmNotADeveloper#66</a></li>\n<li>chore: 1.2.1 by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2314458320\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/69\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/69/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/69\">xfqwdsj/IAmNotADeveloper#69</a></li>\n<li>ci: update by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xfqwdsj/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/xfqwdsj\">@xfqwdsj</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2327026392\" data-permission-text=\"Title is private\" data-url=\"https://github.com/xfqwdsj/IAmNotADeveloper/issues/70\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/xfqwdsj/IAmNotADeveloper/pull/70/hovercard\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/pull/70\">xfqwdsj/IAmNotADeveloper#70</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/xfqwdsj/IAmNotADeveloper/compare/1.2.0...1.3.1\">xfqwdsj/IAmNotADeveloper@<tt>1.2.0...1.3.1</tt></a></p>",
+      "license": "Unknown",
+      "name": "\u6211\u4e0d\u662f\u5f00\u53d1\u8005 / IAmNotADeveloper",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/xyz.xfqlittlefan.notdeveloper",
+      "summary": "\u9690\u85cf\u5f00\u53d1\u8005\u6a21\u5f0f\u3001USB \u8c03\u8bd5\u548c\u65e0\u7ebf\u8c03\u8bd5\u3002\nHide development mode, USB debugging mode and wireless d...",
+      "added": 1729730848000,
+      "packageName": "xyz.xfqlittlefan.notdeveloper",
+      "lastUpdated": 1729730848000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u672c\u6b21\u66f4\u65b0\u6709\u4e24\u9879\u5fae\u4e0d\u8db3\u9053\u7684\u5185\u5bb9\uff1a\n\n- \u4fee\u6b63\u4e86\u5e94\u7528\u7684\u6587\u672c\u9519\u8bef\n- \u5bf9\u6700\u65b0\u7684\u4f9d\u8d56\u9879\u8fdb\u884c\u4e86\u4e00\u6b21\u540c\u6b65"
         }
       }
     },
@@ -85,12 +875,54 @@
       "license": "Unknown",
       "name": "\u6597\u9c7c\u590d\u8bfb\u59ec/DouyuRepeater",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat",
-      "added": 1729701888000,
+      "added": 1729730827000,
       "packageName": "cn.amamiya.douyurepeat",
-      "lastUpdated": 1729701888000,
+      "lastUpdated": 1729730827000,
       "localized": {
         "en-US": {
           "whatsNew": "\u8ba9+1\u6309\u94ae\u5e38\u663e\uff0c\u65e0\u89c6\u76f4\u64ad\u95f4\u8bbe\u7f6e"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.1",
+      "suggestedVersionCode": "2",
+      "description": "<p>\u9996\u6b21\u53d1\u5e03</p>\n<p><strong>\u6ce8:3.2.x \u7684\u4f20\u9001\u95e8\u5f00\u59cb,\u5c0f\u7c73\u53d6\u6d88\u4e86\u4f20\u9001\u95e8\u5728\u6a2a\u5c4f\u4e0b\u7684\u9650\u5236</strong></p>",
+      "license": "Unknown",
+      "name": "\u6a2a\u5c4f\u4f20\u9001\u95e8/HorizontalContentextension",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/github.zerorooot.horizontalcontentextension",
+      "summary": "\u5f3a\u884c\u5728\u6a2a\u5c4f\u6a21\u5f0f\u4e0b\u542f\u7528miui\u4f20\u9001\u95e8",
+      "added": 1729730843000,
+      "packageName": "github.zerorooot.horizontalcontentextension",
+      "lastUpdated": 1729730843000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u9996\u6b21\u53d1\u5e03\n\n**\u6ce8:3.2.x \u7684\u4f20\u9001\u95e8\u5f00\u59cb,\u5c0f\u7c73\u53d6\u6d88\u4e86\u4f20\u9001\u95e8\u5728\u6a2a\u5c4f\u4e0b\u7684\u9650\u5236**"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.1.6",
+      "suggestedVersionCode": "19",
+      "description": "<p>\u5bf9\u6bd41.1.5\u66f4\u65b0\u8bb0\u5f55\uff1a</p>\n<ol>\n<li>\u65b0\u589e\u81ea\u5b9a\u4e49\u56fe\u7247\u89c6\u9891\u7684\u4fdd\u5b58\u8def\u5f84</li>\n<li>\u65b0\u589e\u53bb\u9664\u7b14\u8bb0\u8be6\u60c5\u4e2d\u95f4\u7684\u8bc4\u8bba\u6846</li>\n<li>\u65b0\u589e\u957f\u6309\u4fdd\u5b58\u7528\u6237\u5934\u50cf\u548c\u80cc\u666f\u56fe</li>\n<li>\u4fee\u590d\u5173\u6ce8\u9875\u5927\u56fe\u6d4f\u89c8\u53ef\u80fd\u4e0d\u5339\u914d</li>\n<li>\u4fee\u590d\u53ef\u80fd\u4fdd\u5b58\u56fe\u7247\u5931\u8d25\u7684\u60c5\u51b5</li>\n<li>\u9002\u914d\u65b0\u7248\u7684\u5206\u4eab\u4e0b\u8f7d</li>\n<li>\u4fee\u590d\u83b7\u53d6\u914d\u7f6e\u9519\u8bef</li>\n<li>\u4f18\u5316\u5927\u56fe\u6d4f\u89c8</li>\n<li>\u4f18\u5316\u6743\u9650\u83b7\u53d6</li>\n<li>\u4f18\u5316 \u90e8\u5206UI</li>\n<li>\u9002\u914d \u65b0\u7248\u672c</li>\n</ol>",
+      "license": "Unknown",
+      "name": "\u7ea2\u85af\u732a\u624b",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper",
+      "summary": "\u53bb\u9664\u5c0f\u7ea2\u4e66\u7684\u5e7f\u544a\u548c\u66f4\u591a\u597d\u7528\u7684\u529f\u80fd~\nRemove XiaoHongShu ads and more useful features~",
+      "added": 1729730838000,
+      "packageName": "com.skyhand.redbookhelper",
+      "lastUpdated": 1729730838000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u5bf9\u6bd41.1.5\u66f4\u65b0\u8bb0\u5f55\uff1a\n\n1. \u65b0\u589e\u81ea\u5b9a\u4e49\u56fe\u7247\u89c6\u9891\u7684\u4fdd\u5b58\u8def\u5f84\n2. \u65b0\u589e\u53bb\u9664\u7b14\u8bb0\u8be6\u60c5\u4e2d\u95f4\u7684\u8bc4\u8bba\u6846\n3. \u65b0\u589e\u957f\u6309\u4fdd\u5b58\u7528\u6237\u5934\u50cf\u548c\u80cc\u666f\u56fe\n4. \u4fee\u590d\u5173\u6ce8\u9875\u5927\u56fe\u6d4f\u89c8\u53ef\u80fd\u4e0d\u5339\u914d\n5. \u4fee\u590d\u53ef\u80fd\u4fdd\u5b58\u56fe\u7247\u5931\u8d25\u7684\u60c5\u51b5\n6. \u9002\u914d\u65b0\u7248\u7684\u5206\u4eab\u4e0b\u8f7d\n7. \u4fee\u590d\u83b7\u53d6\u914d\u7f6e\u9519\u8bef\n8. \u4f18\u5316\u5927\u56fe\u6d4f\u89c8\n9. \u4f18\u5316\u6743\u9650\u83b7\u53d6\n10. \u4f18\u5316 \u90e8\u5206UI\n11. \u9002\u914d \u65b0\u7248\u672c\n"
         }
       }
     },
@@ -105,12 +937,75 @@
       "license": "Unknown",
       "name": "\u864e\u6251\u9ed1\u540d\u5355/HupuBlackList",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.amamiya.hupublacklist",
-      "added": 1729701888000,
+      "added": 1729730828000,
       "packageName": "cn.amamiya.hupublacklist",
-      "lastUpdated": 1729701888000,
+      "lastUpdated": 1729730828000,
       "localized": {
         "en-US": {
           "whatsNew": "\u65b0\u589e\u5173\u952e\u8bcd\u5c4f\u853d\n\u4fee\u6539\u4e86\u7b7e\u540d\u9700\u8981\u91cd\u65b0\u5b89\u88c5"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "4.4",
+      "suggestedVersionCode": "28",
+      "description": "<p>\u4fee\u6b63\u7e41\u4f53\u4e2d\u6587\u7ffb\u8bd1<br>\n\u611f\u8c22 <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/david082321/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/david082321\">@david082321</a> \u7684\u7ffb\u8bd1\u8d21\u732e</p>",
+      "license": "Unknown",
+      "name": "\u865a\u62df\u6444\u50cf\u5934 virtual camera",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.example.vcam",
+      "summary": "\u5b89\u5353\u865a\u62df\u6444\u50cf\u5934 android virtual camera",
+      "added": 1729730832000,
+      "packageName": "com.example.vcam",
+      "lastUpdated": 1729730832000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u4fee\u6b63\u7e41\u4f53\u4e2d\u6587\u7ffb\u8bd1\n\u611f\u8c22 @david082321 \u7684\u7ffb\u8bd1\u8d21\u732e"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.3.0",
+      "suggestedVersionCode": "20230814",
+      "description": "<p>\u5fae\u535a\u8f7b\u4eab\u72486.1.7-(\u53bb\u9664\u5f00\u5c4f\u5e7f\u544a\uff0c\u53bb\u9664\u65f6\u95f4\u7ebf\u5e7f\u544a\uff0c\u5f3a\u5236\u6697\u9ed1\u6a21\u5f0f)<br>\n\u539f\u4f5c\u8005\u57fa\u7840\u4e0a\u4fee\u6539\u9002\u914d\uff1b\u9700\u5378\u8f7d\u91cd\u88c5</p>",
+      "license": "Unknown",
+      "name": "\u8fd9\u771f\u8f7b\u4eab",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/me.zhenxin.thisreallylite",
+      "summary": "\u5fae\u535a\u8f7b\u4eab\u7248/\u6781\u901f\u7248 \u53bb\u5e7f\u544a",
+      "added": 1729730844000,
+      "packageName": "me.zhenxin.thisreallylite",
+      "lastUpdated": 1729730844000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u5fae\u535a\u8f7b\u4eab\u72486.1.7-(\u53bb\u9664\u5f00\u5c4f\u5e7f\u544a\uff0c\u53bb\u9664\u65f6\u95f4\u7ebf\u5e7f\u544a\uff0c\u5f3a\u5236\u6697\u9ed1\u6a21\u5f0f)\n\u539f\u4f5c\u8005\u57fa\u7840\u4e0a\u4fee\u6539\u9002\u914d\uff1b\u9700\u5378\u8f7d\u91cd\u88c5"
+        }
+      }
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.2",
+      "suggestedVersionCode": "1",
+      "description": "<p>Change logs:</p>\n<ul>\n<li>issues fixed.</li>\n</ul>",
+      "license": "Unknown",
+      "name": "\ud835\ude4e\ud835\ude4e\ud835\ude47 \ud835\ude46\ud835\ude5e\ud835\ude47\ud835\ude47\ud835\ude40\ud835\ude4d",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.simo.ssl.killer",
+      "summary": "An advanced XPosed module to bypass ssl pinning.",
+      "added": 1729730837000,
+      "packageName": "com.simo.ssl.killer",
+      "lastUpdated": 1729730837000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "Change logs:\n- issues fixed."
         }
       }
     }
@@ -118,7 +1013,7 @@
   "packages": {
     "cn.amamiya.douyurepeat": [
       {
-        "added": 1729701888000,
+        "added": 1729730827000,
         "apkName": "cn.amamiya.douyurepeat_v1.0.2.apk",
         "hash": "8d0c8dba0fc9f4da8b00ae257e0629b1c638cee07a4a20254dba29b0e06d28d2",
         "hashType": "sha256",
@@ -140,7 +1035,7 @@
     ],
     "cn.amamiya.hupublacklist": [
       {
-        "added": 1729701888000,
+        "added": 1729730828000,
         "apkName": "cn.amamiya.hupublacklist_v2.1.1.apk",
         "hash": "c3236d47b244c38f2f46e25c6f1a4dda3ecd431866dcd84aa534e4d5fb28bcb6",
         "hashType": "sha256",
@@ -160,9 +1055,31 @@
         "versionName": "2.1.0"
       }
     ],
+    "cn.android.x": [
+      {
+        "added": 1729730829000,
+        "apkName": "cn.android.x_117-3.0.apk",
+        "hash": "671a9a8ba032764c7f7a8818a0db3d137c8cc39345fb0aeb512abff21f93fdd5",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "packageName": "cn.android.x",
+        "sig": "e15e4f9c1e03dbc8d688157ae1e95ba6",
+        "signer": "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4",
+        "size": 4106394,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "cn.android.x.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 117,
+        "versionName": "3.0"
+      }
+    ],
     "com.alex193a.checkblue": [
       {
-        "added": 1729701889000,
+        "added": 1729730829000,
         "apkName": "com.alex193a.checkblue_1-1.0.apk",
         "hash": "7bc3da1622ec02d9af79d2f190155a6752964108bfc2bdab9a321714f86b4023",
         "hashType": "sha256",
@@ -182,9 +1099,67 @@
         "versionName": "1.0"
       }
     ],
+    "com.alex193a.opcameradebug": [
+      {
+        "added": 1729730829000,
+        "apkName": "com.alex193a.opcameradebug_1-1.0.apk",
+        "hash": "08d7adc9b1043205b61a8e95f3849e86741ca85005594ed7cec2277f5d6cfc27",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "packageName": "com.alex193a.opcameradebug",
+        "sig": "349ae2efa837f5e66999ba3638304eb9",
+        "signer": "e3711d95a84867c8df34cb0943b14418b2559ad056a47f51b5d02d5721d45b6a",
+        "size": 71492,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.alphi.actvityopenmanager": [
+      {
+        "added": 1729730830000,
+        "apkName": "com.alphi.actvityopenmanager_10-1.09.apk",
+        "hash": "90b5b249e10051a146784342aa478bb4c1c15d90653993528fb8c1f8491866ab",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "packageName": "com.alphi.actvityopenmanager",
+        "sig": "e0b9ddc814a52dbf29f19de82283507e",
+        "signer": "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493",
+        "size": 2060184,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.INTERACT_ACROSS_USERS",
+            null
+          ]
+        ],
+        "versionCode": 10,
+        "versionName": "1.09"
+      }
+    ],
+    "com.amanoteam.nai": [
+      {
+        "added": 1729730830000,
+        "apkName": "com.amanoteam.nai_1-0.1.apk",
+        "hash": "917b7e28dc9486545ca7de93845a8318b1ce26542e66e5730ab02fc49006cde5",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.amanoteam.nai",
+        "sig": "e967c9e5fd92879f6bac96358de84d90",
+        "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+        "size": 12856,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.1"
+      }
+    ],
     "com.amanoteam.sunny": [
       {
-        "added": 1729701889000,
+        "added": 1729730830000,
         "apkName": "com.amanoteam.sunny_4-0.4.apk",
         "hash": "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229",
         "hashType": "sha256",
@@ -198,9 +1173,1138 @@
         "versionName": "0.4"
       }
     ],
+    "com.bit747.smobajump": [
+      {
+        "added": 1729730830000,
+        "apkName": "com.bit747.smobajump_3-1.2_DisableUpdate.apk",
+        "hash": "9ffddc02113a735c56b54107bf93226b0f4abce231a41fdcb00a64c64976969b",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "com.bit747.smobajump",
+        "sig": "b07d01c95f22d4f9602406cc122c6665",
+        "signer": "690cda91163956dc51eff6a228ca5bc352ca1397abbf6ebb4c5053fb6492a61c",
+        "size": 36858,
+        "targetSdkVersion": 30,
+        "versionCode": 3,
+        "versionName": "1.2_DisableUpdate"
+      }
+    ],
+    "com.chacha.igexperiments": [
+      {
+        "added": 1729730831000,
+        "apkName": "com.chacha.igexperiments_30-3.0.apk",
+        "hash": "84536d050385484b6d85dab06a4422601325a5d10ec129ff6415f64883c4412c",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.chacha.igexperiments",
+        "sig": "48136d83c43678a280198800b16d9a80",
+        "signer": "a4ff794e3aa63b0bee92999c2bf6a91c2734df8aa3495466b730e6b2cba8f1c8",
+        "size": 6967460,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.REORDER_TASKS",
+            null
+          ],
+          [
+            "com.chacha.igexperiments.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 30,
+        "versionName": "3.0"
+      }
+    ],
+    "com.chacha.notigif": [
+      {
+        "added": 1729730831000,
+        "apkName": "com.chacha.notigif_1-1.7.apk",
+        "hash": "03194f72d87c83c9079e2867cc823e6a414033d754d129e0c04876eda2094935",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.chacha.notigif",
+        "sig": "4fac2685393f2aba5be95abc3ad7d825",
+        "signer": "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704",
+        "size": 22926314,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.7"
+      }
+    ],
+    "com.chacha.smessagescustom": [
+      {
+        "added": 1729730832000,
+        "apkName": "com.chacha.smessagescustom_1-1.5.1.apk",
+        "hash": "0be9bf6fe562fd12069181ff815ad7ab84f2108b98ace04ae6d1a5024df9a995",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.chacha.smessagescustom",
+        "sig": "4fac2685393f2aba5be95abc3ad7d825",
+        "signer": "a0feb4b6cb2bc764c5dc5e5530501860138a2f09967f98bd5fe19208d0ce4704",
+        "size": 3630243,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.5.1"
+      }
+    ],
+    "com.example.vcam": [
+      {
+        "added": 1729730832000,
+        "apkName": "com.example.vcam_28-4.4.apk",
+        "hash": "ea6294852d2864c1d808b9b09cfff80a961af87226b7c437cff53751b3a0e1f6",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.example.vcam",
+        "sig": "afd282832d5262e0ad8a01703eb666f6",
+        "signer": "c00a7443cb6b02f6ae8433b95d919766131b2beeb86849a6933fc6411db0b398",
+        "size": 77897,
+        "targetSdkVersion": 26,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 28,
+        "versionName": "4.4"
+      }
+    ],
+    "com.fkzhang.qqxposed": [
+      {
+        "added": 1729730833000,
+        "apkName": "com.fkzhang.qqxposed_44-2.18.apk",
+        "hash": "f1ca0eaf8c6d0fa518412a2fcd588ff74efd23ce7b261b5789cb4fa70bf23d49",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "packageName": "com.fkzhang.qqxposed",
+        "sig": "e15e4f9c1e03dbc8d688157ae1e95ba6",
+        "signer": "49c2224b23aabbe5fbb4ae765fa45a2dc4b7b29988183c61ca20b5db790136f4",
+        "size": 4063568,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 44,
+        "versionName": "2.18"
+      }
+    ],
+    "com.fuckcoolapk": [
+      {
+        "added": 1729730833000,
+        "apkName": "com.fuckcoolapk_20210506.apk",
+        "hash": "6bd12d5bc633b7310acf59ac88976cdc52734e7973df9ac8b287bc929882428d",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.fuckcoolapk",
+        "sig": "6ce3a0028072e0bc49c16c0b947a73fe",
+        "signer": "69ad59f8b37f5a22aaf854ba622874090b33173efddc47f8c68146645f1ff808",
+        "size": 874541,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 20210506,
+        "versionName": "0.5.8"
+      }
+    ],
+    "com.gauravssnl.mobileradioadaway": [
+      {
+        "added": 1729730833000,
+        "apkName": "com.gauravssnl.mobileradioadaway_1-1.2.apk",
+        "hash": "960ff73ce926ff393842f3aa5d5a69769778d6800ec4ee0659c57a634600eda6",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "packageName": "com.gauravssnl.mobileradioadaway",
+        "sig": "8cffddf0642bd8d85a095d4278193bfa",
+        "signer": "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff",
+        "size": 55617,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.2"
+      }
+    ],
+    "com.gauravssnl.simpleradioadaway": [
+      {
+        "added": 1729730834000,
+        "apkName": "com.gauravssnl.simpleradioadaway_1-1.0.apk",
+        "hash": "e24af465733be1844520cad2ae4da3d8c2bcac09e75dd7e409d10494d83e575e",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "packageName": "com.gauravssnl.simpleradioadaway",
+        "sig": "8cffddf0642bd8d85a095d4278193bfa",
+        "signer": "8548d99020461707d4c02d76aeca75790439000f8711496670a08198ffe6a9ff",
+        "size": 2705647,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.github.dan.NoStorageRestrict": [
+      {
+        "added": 1729730834000,
+        "apkName": "com.github.dan.nostoragerestrict_5-0.5.0.apk",
+        "hash": "542e8b52db872fedc30beaaa92781bd51b0fc18045d1681fb0f6dc04ec32c0fe",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "packageName": "com.github.dan.NoStorageRestrict",
+        "sig": "8e5380c9c335df93c8a89a342ee3e5c5",
+        "signer": "551353d4e096d5d117fc322dbfed42c5ae7c8f26ac1009a13edc0f39f80b4c8c",
+        "size": 11391,
+        "targetSdkVersion": 32,
+        "versionCode": 5,
+        "versionName": "0.5.0"
+      }
+    ],
+    "com.ljlvink.stylusplus.xposed": [
+      {
+        "added": 1729730834000,
+        "apkName": "com.ljlvink.stylusplus.xposed_3-1.1_Release.apk",
+        "hash": "91be57f5a30cce551b4d961ef114378cdac96635c62d5e5826181c314f49c4fe",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "packageName": "com.ljlvink.stylusplus.xposed",
+        "sig": "2905d7ae247b2c04129d566940ea66b1",
+        "signer": "281e9cba2329fc670f6f3f5a45ad160576af302a309197fb061b7b0519a8c856",
+        "size": 11972,
+        "targetSdkVersion": 34,
+        "versionCode": 3,
+        "versionName": "1.1_Release"
+      }
+    ],
+    "com.luckyzyx.luckytool": [
+      {
+        "added": 1729730835000,
+        "apkName": "com.luckyzyx.luckytool_16957-1.2.4.apk",
+        "hash": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8323091,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_IMAGES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.android.permission.GET_INSTALLED_APPS",
+            null
+          ],
+          [
+            "com.oplus.ocs.permission.third",
+            null
+          ],
+          [
+            "android.permission.NOTIFICATION_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 16957,
+        "versionName": "1.2.4"
+      }
+    ],
+    "com.luckyzyx.notifyintercept": [
+      {
+        "added": 1729730836000,
+        "apkName": "com.luckyzyx.notifyintercept_271-1.3.0.apk",
+        "hash": "514bb61b7e0499819237c202e60ba432a2218ec5a57d41a993977a9176e86cb8",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "packageName": "com.luckyzyx.notifyintercept",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 3683126,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.oplus.ocs.permission.third",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.luckyzyx.notifyintercept.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 271,
+        "versionName": "1.3.0"
+      }
+    ],
+    "com.nnnen.plusne": [
+      {
+        "added": 1729730836000,
+        "apkName": "com.nnnen.plusne_685-6.5.6.apk",
+        "hash": "32be98419b4d7d2cefdd4bf93b3abc9978613221341531b7901e90bcb1ef77ae",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "com.nnnen.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 6659648,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.LAUNCHER",
+            null
+          ],
+          [
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 685,
+        "versionName": "6.5.6"
+      }
+    ],
+    "com.rifsxd.processhook": [
+      {
+        "added": 1729730837000,
+        "apkName": "com.rifsxd.processhook_1-1.3.0.apk",
+        "hash": "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "com.rifsxd.processhook",
+        "sig": "6f57d97a44d4714e367b38e528e312f2",
+        "signer": "13ef3cf1b4582f7615d11c0d8784bce402d2e1451bf965d2871212ef93fff81a",
+        "size": 2268467,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "com.rifsxd.processhook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "1.3.0"
+      }
+    ],
+    "com.setoskins.hook": [
+      {
+        "added": 1729730837000,
+        "apkName": "com.setoskins.hook_210-2.1.0.apk",
+        "hash": "47b1c7f31ca5a13fac743126d6eb34f18ab5c634ec9d422ec476fae441b3a6d1",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.setoskins.hook",
+        "sig": "e967c9e5fd92879f6bac96358de84d90",
+        "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+        "size": 6056724,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.GET_PACKAGE_SIZE",
+            null
+          ]
+        ],
+        "versionCode": 210,
+        "versionName": "2.1.0"
+      }
+    ],
+    "com.simo.ssl.killer": [
+      {
+        "added": 1729730837000,
+        "apkName": "com.simo.ssl.killer_1-1.0.2.apk",
+        "hash": "f97113a66fa9dbc8abd0f016990c1c1261e5cf01cee24ab360c52ad199ee6d00",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "packageName": "com.simo.ssl.killer",
+        "sig": "e967c9e5fd92879f6bac96358de84d90",
+        "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+        "size": 2446265,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.simo.ssl.killer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0.2"
+      }
+    ],
+    "com.skyhand.redbookhelper": [
+      {
+        "added": 1729730838000,
+        "apkName": "com.skyhand.redbookhelper_19-1.1.6.apk",
+        "hash": "6833351980667940510e1fbea5db7d175e285133987c67071f20fad7829e3973",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.skyhand.redbookhelper",
+        "sig": "7a23ab2ad527570cd06f01e922d36cb7",
+        "signer": "5a18f9b131a5c5496c063fbf597a12b5cd3314003f286ad7f6223df7d6c3f555",
+        "size": 462089,
+        "targetSdkVersion": 27,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 19,
+        "versionName": "1.1.6"
+      }
+    ],
+    "com.souleven.photosfix": [
+      {
+        "added": 1729730838000,
+        "apkName": "com.souleven.photosfix_2-2.0.apk",
+        "hash": "2f27d8c50ae0e537af2959ec44094eb6ce6f8c4cb9b8d1c3da8e7f8fb4495135",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.souleven.photosfix",
+        "sig": "ff9975cba357ea6c833bada82697803a",
+        "signer": "b9d6b999feaf95f2773c8cf68e83a251dcd845b102335a579c0aeacef703be3f",
+        "size": 1728811,
+        "targetSdkVersion": 30,
+        "uses-permission": [
+          [
+            "android.hardware.sensor.proximity",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "2.0"
+      }
+    ],
+    "com.th7.flinspirer.admin": [
+      {
+        "added": 1729730838000,
+        "apkName": "com.th7.flinspirer.admin_50-0.50.apk",
+        "hash": "25ebb2ae50aa0d5d9ed2d30ce156c69915d4b0059e6e0c745209840cd4591b1d",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "packageName": "com.th7.flinspirer.admin",
+        "sig": "e67851911038d17cb129519408081224",
+        "signer": "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482",
+        "size": 16151,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "versionCode": 50,
+        "versionName": "0.50"
+      }
+    ],
+    "com.unexpected.capture.uc": [
+      {
+        "added": 1729730839000,
+        "apkName": "com.unexpected.capture.uc_6-1.5.apk",
+        "hash": "57483cb0e674348a24465004f9760aabe8dfb96330645bf063cd79d25be9009a",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "com.unexpected.capture.uc",
+        "sig": "4723045c331c041498f1f236321db047",
+        "signer": "d861a9961d3c41a538fd969d98b9ea7976e3277060297ddd185d621b643fbed1",
+        "size": 3776918,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "com.unexpected.capture.uc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 6,
+        "versionName": "1.5"
+      }
+    ],
+    "com.wye4.hookforvip": [
+      {
+        "added": 1729730839000,
+        "apkName": "com.wye4.hookforvip_20241018-1.7.0.apk",
+        "hash": "51942c4e662e380ce7feb32bf1bb2e5540c5e70ab5aa8730c727c80e61720c84",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "packageName": "com.wye4.hookforvip",
+        "sig": "82fb4a16ead181ea99d585d558501c84",
+        "signer": "82d29f4a93eb8d365a2000c467e50bab3b043f36853402382695db8db976a3f3",
+        "size": 5716829,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "com.wye4.hookforvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20241018,
+        "versionName": "1.7.0"
+      }
+    ],
+    "com.zhenxi.FunDex2": [
+      {
+        "added": 1729730840000,
+        "apkName": "com.zhenxi.fundex2_710-7.1.0.apk",
+        "hash": "38e8c4006be3aadccbb8ac6eb04574a900ccce1b66a86c411b9ce4088ca72fb8",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.zhenxi.FunDex2",
+        "sig": "b16e9894a5e56a7dd52111d6aac4113c",
+        "signer": "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c",
+        "size": 9088856,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.GET_PACKAGE_SIZE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 720,
+        "versionName": "7.2.0"
+      }
+    ],
+    "com.zhenxi.il2cpptrace": [
+      {
+        "added": 1729730840000,
+        "apkName": "com.zhenxi.il2cpptrace_720-7.2.0.apk",
+        "hash": "97d5d10907c35322067715abc35ce690c30cd33c9e62880d0178eb1237e8f73e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.zhenxi.il2cpptrace",
+        "sig": "b16e9894a5e56a7dd52111d6aac4113c",
+        "signer": "1e551523b5b7882c8dfef9e6a2ffd9405b3c15150d33acedcb67f29809ca210c",
+        "size": 9363567,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.GET_PACKAGE_SIZE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.INSTALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 720,
+        "versionName": "7.2.0"
+      }
+    ],
+    "com.zhizi42.diymiuicard": [
+      {
+        "added": 1729730841000,
+        "apkName": "com.zhizi42.diymiuicard_5-1.4.apk",
+        "hash": "ce5ee1901b1be950596900003b84a860d9d3008eb81d1b3c4c8f81ff0f8f3043",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.zhizi42.diymiuicard",
+        "sig": "c3f38946dcd4d7eb7ca9e403a4c98c5a",
+        "signer": "c3c25fee0a212a08449f1c387e17ca05d3515e4f64c16ee6417cb59fbb504113",
+        "size": 2705200,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.zhizi42.diymiuicard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "1.4"
+      }
+    ],
+    "de.buttercookie.optionsmenufix": [
+      {
+        "added": 1729730841000,
+        "apkName": "de.buttercookie.optionsmenufix_2-1.0.1.apk",
+        "hash": "7d3d4fdf11e0eab8936a12db165461b6e3c46ddffc0ce19a0011a411eb290d41",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "packageName": "de.buttercookie.optionsmenufix",
+        "sig": "537811ee198d9d58f04e81c153f7810f",
+        "signer": "7baab2feb8ac7fe10fe5414e4d28aa901a525981b1201e2d583df5bb6d9b1b13",
+        "size": 12064,
+        "targetSdkVersion": 34,
+        "versionCode": 2,
+        "versionName": "1.0.1"
+      }
+    ],
+    "dialog.box": [
+      {
+        "added": 1729730842000,
+        "apkName": "dialog.box_1-23.11.apk",
+        "hash": "95040a0671e3e86558bf2760c1fe7fa38f398b9ffb9ca70556898e635396fa46",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "dialog.box",
+        "sig": "188ed9e5862c22131c189faed56faa48",
+        "signer": "05ce085033681b3ea3555a1b992075b0fad966720311081374a290c0a4bff9a5",
+        "size": 14378439,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.BROADCAST_STICKY",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_PRIVILEGED_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "dialog.box.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "23.11"
+      }
+    ],
+    "github.zerorooot.copyfenbi": [
+      {
+        "added": 1729730842000,
+        "apkName": "github.zerorooot.copyfenbi_5-1.2.2.apk",
+        "hash": "09e402882578726778ffd1b77b5275b11475ca0857864bb3d081a5458ed95631",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "github.zerorooot.copyfenbi",
+        "sig": "12463490438f748229975837976a34e6",
+        "signer": "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25",
+        "size": 64529,
+        "targetSdkVersion": 33,
+        "versionCode": 5,
+        "versionName": "1.2.2"
+      }
+    ],
+    "github.zerorooot.horizontalcontentextension": [
+      {
+        "added": 1729730843000,
+        "apkName": "github.zerorooot.horizontalcontentextension_2-1.1.apk",
+        "hash": "a3c4faf58b7243f1ea75a4a24979d74cba5f8abda53781a3f2a4628c541cf172",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "github.zerorooot.horizontalcontentextension",
+        "sig": "12463490438f748229975837976a34e6",
+        "signer": "77fbc5bcb093db354a36ea5a9963aa5f405bb30bf997ed879fc88a23e8e71f25",
+        "size": 57722,
+        "targetSdkVersion": 32,
+        "versionCode": 2,
+        "versionName": "1.1"
+      }
+    ],
+    "io.github.nitsuya.donottryaccessibility": [
+      {
+        "added": 1729730843000,
+        "apkName": "io.github.nitsuya.donottryaccessibility_2-1.0.2.apk",
+        "hash": "8ef0ec1a72e5b5658aa94e97f6b6a87717e02a0bfea29308a71c945c04578433",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "packageName": "io.github.nitsuya.donottryaccessibility",
+        "sig": "f0f38a4e9df74dab1149b147a754cce8",
+        "signer": "455cadc62f8bd8f76b05863cb38470368f79af549bb60ada6745908c2d6d27b3",
+        "size": 1943281,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "io.github.nitsuya.donottryaccessibility.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.0.2"
+      }
+    ],
+    "io.github.rushiranpise.gameunlocker": [
+      {
+        "added": 1729730843000,
+        "apkName": "io.github.rushiranpise.gameunlocker_4-7.0.0.apk",
+        "hash": "6af2b06696ad3bcdf447901c3a41638c6f52fa5a107f692be1791ccba49a664a",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "packageName": "io.github.rushiranpise.gameunlocker",
+        "sig": "c353dba65ff7e4d0d5ac247d0866fa22",
+        "signer": "753c332813804f7090f526ca51d2aca11c841224abdaa460765dd8f06a47ff80",
+        "size": 17205,
+        "targetSdkVersion": 33,
+        "versionCode": 4,
+        "versionName": "7.0.0"
+      }
+    ],
+    "me.kofua.qmhelper": [
+      {
+        "added": 1729730843000,
+        "apkName": "me.kofua.qmhelper_91-1.1.4.apk",
+        "hash": "77cb17f0df48e2f4d205c29430452624e08638d57056c05c6c01679c6e01ae45",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86"
+        ],
+        "packageName": "me.kofua.qmhelper",
+        "sig": "2360d2d923cd040b2ac33b8a65e2f4bd",
+        "signer": "f24f7ee7dcc96895caf3eca6aaa0cc8c486fab24782ee4fdeb5764533d519955",
+        "size": 388542,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 91,
+        "versionName": "1.1.4"
+      }
+    ],
+    "me.zhenxin.thisreallylite": [
+      {
+        "added": 1729730844000,
+        "apkName": "me.zhenxin.thisreallylite_20230814-1.3.0.apk",
+        "hash": "de7bcd7e77dd884df4b98609676bdb7fbd4b57e465d7c9dcc51a8d311b6a36a4",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "me.zhenxin.thisreallylite",
+        "sig": "2a940b1aa9719909729fd9e93d3abaef",
+        "signer": "be509be0f6b2f5290f8051bc7bc568f0579e0f984def62d056ee655c7fcd3ac9",
+        "size": 2141090,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "me.zhenxin.thisreallylite.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20230814,
+        "versionName": "1.3.0"
+      }
+    ],
+    "net.lonelytransistor.notificationinsystem": [
+      {
+        "added": 1729730845000,
+        "apkName": "net.lonelytransistor.notificationinsystem_1-1.3.apk",
+        "features": [
+          "android.software.companion_device_setup"
+        ],
+        "hash": "9bc9a866f830e126c358b31d28a5c70b65430da4f408b00cbac44cd78312ccae",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "packageName": "net.lonelytransistor.notificationinsystem",
+        "sig": "3f0983e19bcc5c088ba1c4e70f9f263e",
+        "signer": "80de908a2a83e34d81c16e731c0fc72515b53a57bbe9b58cf9d09d602c1056bc",
+        "size": 3196598,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "net.lonelytransistor.notificationinsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.3"
+      }
+    ],
+    "pub.chara.disablealttab": [
+      {
+        "added": 1729730845000,
+        "apkName": "pub.chara.disablealttab_1-1.apk",
+        "hash": "22a8a7d2120ec6e8d8b24ed6a8092b39ab33980ab464193cdd2109dcf873ad5e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "pub.chara.disablealttab",
+        "sig": "1a5b73b4df6d052ebca09fca34a33708",
+        "signer": "1ba0fb1b87d4aa0a11128873fafae536ac1e766172b3a33c199505d16f7f15fe",
+        "size": 12741,
+        "targetSdkVersion": 32,
+        "versionCode": 1,
+        "versionName": "1"
+      }
+    ],
+    "sb.firefds.r.firefdskit": [
+      {
+        "added": 1729730845000,
+        "apkName": "sb.firefds.r.firefdskit_11030-11.0.3.0-STABLE-2.apk",
+        "hash": "bfd093c50e03fdd4c52bfa4226c55325eea85d8821941cb0b846b6af220ffddd",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "packageName": "sb.firefds.r.firefdskit",
+        "sig": "3a9b4b162f9405efbb474193d79e5357",
+        "signer": "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c",
+        "size": 4271267,
+        "targetSdkVersion": 31,
+        "versionCode": 11030,
+        "versionName": "11.0.3.0-STABLE-2"
+      }
+    ],
+    "sb.firefds.s.firefdskit": [
+      {
+        "added": 1729730846000,
+        "apkName": "sb.firefds.s.firefdskit_12002-12.0.0.2-ALPHA-2.apk",
+        "hash": "a4bb18f8eee9469aae07d8efdfcecebd849c465add1cee2566e008fb1fe7e6a7",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "packageName": "sb.firefds.s.firefdskit",
+        "sig": "3a9b4b162f9405efbb474193d79e5357",
+        "signer": "aa18dd9163e917c5d4a0aa617f7e77e9b24a4219116088c77e8262a7c703ce9c",
+        "size": 4264307,
+        "targetSdkVersion": 31,
+        "versionCode": 12002,
+        "versionName": "12.0.0.2-ALPHA-2"
+      }
+    ],
     "space.aioilight.tsubonofuta": [
       {
-        "added": 1729701889000,
+        "added": 1729730846000,
         "apkName": "space.aioilight.tsubonofuta_15-2.1.apk",
         "hash": "e8f5320cc1c7d4c4d4cc761f91443790013c0921677e0e98b943461a92b44621",
         "hashType": "sha256",
@@ -212,6 +2316,86 @@
         "targetSdkVersion": 32,
         "versionCode": 15,
         "versionName": "2.1"
+      }
+    ],
+    "xeed.xposed.cbppmod": [
+      {
+        "added": 1729730847000,
+        "apkName": "xeed.xposed.cbppmod_69-4.3.apk",
+        "hash": "81101042d7291fb416e165ff4a4e2b5995c8d183b82da0faeac20f820673e9ef",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "packageName": "xeed.xposed.cbppmod",
+        "sig": "d974c73c0f915e0b9708c97d13bc1fb4",
+        "signer": "9b33d1793ec89491d4bc908f3733d2c1d8e98cda95ea030d41a89f2533ac4384",
+        "size": 2834707,
+        "targetSdkVersion": 32,
+        "uses-permission": [
+          [
+            "com.android.vending.BILLING",
+            null
+          ],
+          [
+            "android.permission.FLASHLIGHT",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "xeed.xposed.cbppmod.SYSTEM_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 69,
+        "versionName": "4.3"
+      }
+    ],
+    "xyz.xfqlittlefan.ciwong.hello": [
+      {
+        "added": 1729730847000,
+        "apkName": "xyz.xfqlittlefan.ciwong.hello_3-1.1.1.apk",
+        "hash": "d7073b762c217bf7317f3bbc8e39b427aca0fd8eac4d6426e1219620eb867c03",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "xyz.xfqlittlefan.ciwong.hello",
+        "sig": "27eaae31098dfc3ece653d5a87c657de",
+        "signer": "58538ffbce60e824e712939f4e09f76c0ef0905ba5369b8e0778a4f45875e6bc",
+        "size": 1625368,
+        "targetSdkVersion": 32,
+        "versionCode": 3,
+        "versionName": "1.1.1"
+      }
+    ],
+    "xyz.xfqlittlefan.notdeveloper": [
+      {
+        "added": 1729730848000,
+        "apkName": "xyz.xfqlittlefan.notdeveloper_3-1.0.2.apk",
+        "hash": "32a06617d882a0cba588a062b20fe5df06d9edb28844ba06a476173015c9fbd0",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "packageName": "xyz.xfqlittlefan.notdeveloper",
+        "sig": "c29f28873a0f29426f22a2b5d07be9f1",
+        "signer": "2d23b9f7ea06ee62c590a6ad3cae5f3b26a891b0a141744ad6695396f82907eb",
+        "size": 1741027,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "xyz.xfqlittlefan.notdeveloper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3,
+        "versionName": "1.0.2"
       }
     ]
   }

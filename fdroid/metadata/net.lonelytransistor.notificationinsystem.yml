@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.3"
+CurrentVersionCode: 1
+Description: |-
+    <ul>
+    <li>Fixed the memory leak.</li>
+    <li>Each icon is now first tested to ensure it changed, reducing needless redraws</li>
+    <li>Small GUI fixes</li>
+    </ul>
+IssueTracker: ""
+Name: Statusbar Icon Relocator
+SourceCode: https://github.com/Xposed-Modules-Repo/net.lonelytransistor.notificationinsystem
+Summary: Move chosen notification icons from the left to the right side of the system ...
+WebSite: ""
