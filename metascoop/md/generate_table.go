@@ -19,12 +19,15 @@ const (
 	tableTmpl = `
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |{{range .Apps}}
-| <a href="{{.sourceCode}}"><img src="fdroid/repo/{{.packageName}}/en-US/icon.png" alt="{{.name}} icon" width="36px" height="36px"></a> | [**{{.name}}**]({{.sourceCode}}) | {{if .summary}}{{replace .summary "\n" "<br>"}}{{else}}No summary available{{end}} | {{.suggestedVersionName}} ({{.suggestedVersionCode}}) |{{end}}
+| <a href="{{.sourceCode}}"><img src="fdroid/repo/{{.packageName}}/en-US/icon.png" alt="{{.name}} icon" width="36px" height="36px"></a> | [**{{.name}}**]({{.sourceCode}}) | {{if .summary}}{{.summary | handleSummary}}{{else}}No summary available{{end}} | {{.suggestedVersionName}} ({{.suggestedVersionCode}}) |{{end}}
 ` + tableEnd
 )
 
 var tmpl = template.Must(template.New("").Funcs(template.FuncMap{
 	"replace": strings.ReplaceAll,
+	"handleSummary": func(s string) template.HTML {
+		return template.HTML(strings.ReplaceAll(s, "\n", "<br>"))
+	},
 }).Parse(tableTmpl))
 
 func RegenerateReadme(readMePath string, index *apps.RepoIndex, repoURL string) (err error) {
