@@ -3,9 +3,58 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: |-
+Description: |
+    <h1>Secure Lockscreen Camera</h1>
+    <p>Xposed Framework module to skip authentication on &quot;Quickly open camera&quot; gesture.</p>
+    <h2>Requirements</h2>
     <ul>
-    <li>Initial release</li>
+    <li>Android 11+ (other versions not tested)</li>
+    <li><a href="https://github.com/RikkaApps/Riru">Riru</a></li>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a> (<a href="https://github.com/ElderDrivers/EdXposed">EdXposed</a> not tested)</li>
+    <li><a href="https://github.com/XEonAX/ANXCamera10">ANXCamera</a> or <a href="https://www.celsoazevedo.com/files/android/google-camera/">GCam port</a> (other cameras not tested)</li>
+    </ul>
+    <h2>Installation</h2>
+    <ol>
+    <li>Install latest version of <a href="https://github.com/topjohnwu/Magisk">Magisk</a></li>
+    <li>Install <a href="https://github.com/Magisk-Modules-Repo/riru-core">Riru</a> and <a href="https://github.com/Magisk-Modules-Repo/riru_lsposed">Riru LSPosed</a> from Magisk module repository</li>
+    <li>Install Secure Lockscreen Camera package</li>
+    <li>Enable module in LSPosed app with recommended scope, reboot</li>
+    </ol>
+    <h2>How does it work</h2>
+    <p>This module patches two classes to achieve it’s goal:</p>
+    <ul>
+    <li><code>com.android.camera.Camera</code> to draw activity over lockscreen without invoking Keyguard.</li>
+    <li><code>com.android.server.GestureLauncherService</code> to create custom intent for this activity.</li>
+    </ul>
+    <h2>Thanks</h2>
+    <ul>
+    <li>Author of original <a href="">Enable Camera on Lockscreen</a> module with the same functionality but written 9 years ago.</li>
+    <li><a href="https://t.me/joinchat/Rtn1JXdFWlFclzIM">LSPosed Telegram group</a> for valuable advice.</li>
+    </ul>
+    <h2>Further reading</h2>
+    <p>Just a bunch of useful links I used while developing this module.</p>
+    <h3>General</h3>
+    <ul>
+    <li><a href="https://developer.android.com/reference/">Android API reference</a></li>
+    <li><a href="https://api.xposed.info/reference/packages.html">Xposed Framework API reference</a></li>
+    <li><a href="https://github.com/rovo89/XposedBridge/wiki/Development-tutorial">Xposed Framework development tutorial</a></li>
+    </ul>
+    <h3>StackOverflow quetions</h3>
+    <ul>
+    <li><a href="https://stackoverflow.com/questions/28059264/how-to-get-context-through-hooking-in-android">How to get Context through hooking in android</a></li>
+    <li><a href="https://stackoverflow.com/questions/37259755/hook-a-private-method-in-another-app-using-xposed">Hook A Private Method In Another App Using Xposed</a></li>
+    <li><a href="https://stackoverflow.com/questions/26137731/how-to-capture-multiple-photos-through-camera-in-android">How to capture multiple photos through camera in Android</a></li>
+    <li><a href="https://stackoverflow.com/questions/10628152/get-activity-name-dynamically-android">Get Activity name dynamically - android</a></li>
+    <li><a href="https://stackoverflow.com/questions/5152564/calling-one-activity-from-another-in-android">Calling one Activity from another in Android</a></li>
+    <li><a href="https://stackoverflow.com/questions/60732308/android-displaying-view-over-the-lockscreen-like-google-maps">Android : Displaying view over the lockscreen (like Google Maps)</a></li>
+    <li><a href="https://stackoverflow.com/questions/65809352/how-to-show-activity-on-lock-screen-when-password-is-set-in-android">How To Show Activity On Lock Screen When Password Is Set In Android</a></li>
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+    <li><a href="https://github.com/Xposed-Modules-Repo/nil.nadph.qnotified">Xposed-Modules-Repo/nil.nadph.qnotified</a> - one of the most complicated modules out there.</li>
+    <li><a href="https://github.com/Mohamed-Gibreel/jitsi-flutter-phone">Mohamed-Gibreel/jitsi-flutter-phone</a> - draws <code>JitsiMeetPluginActivity</code> activity the same way</li>
+    <li><a href="https://github.com/darkeyes84/dark_tricks">darkeyes84/dark_tricks</a> (outdated) - cool tricks</li>
+    <li><a href="https://github.com/sundayliu/XposedExamples">sundayliu/XposedExamples</a> - Xposed-related part of Lucky Patcher)</li>
     </ul>
 IssueTracker: ""
 Name: Secure Lockscreen Camera

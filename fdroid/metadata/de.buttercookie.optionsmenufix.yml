@@ -3,7 +3,18 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
-Description: <p>Update German app title</p>
+Description: |
+    <h1>Options Menu Fix</h1>
+    <p>In Android 14 and newer releases of Android 13 (somewhere between r31 and r38, i.e. around
+    March/April 2023), a bug was introduced into Android which can cause menus implemented as <a href="https://developer.android.com/develop/ui/views/components/menus#options-menu"><code>Activity</code>
+    options menus</a>
+    to open only once and to ignore subsequent attempts to open the menu again until the affected
+    activity has been re-started.</p>
+    <p>For apps that are unlikely to be updated any time soon, this Xposed module implements a simple
+    workaround to make affected menus work normally again on buggy Android versions.</p>
+    <p>See also <a href="https://issuetracker.google.com/issues/315761686">https://issuetracker.google.com/issues/315761686</a></p>
+    <h2>Compatibility and usage</h2>
+    <p>Requires at least Android 13. Enable the module for any app requiring this workaround.</p>
 IssueTracker: ""
 Name: Options Menu Fix
 SourceCode: https://github.com/Xposed-Modules-Repo/de.buttercookie.optionsmenufix

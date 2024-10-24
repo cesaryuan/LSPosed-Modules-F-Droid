@@ -3,7 +3,9 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: <p>Remove kotlin related things</p>
+Description: |
+    <h1>LDF - Let Develop Free</h1>
+    <p>Bypass Xiaomi ADB install confirmation (which invokes com.miui.guardprovider) to make adb installation available with guardprovider disabled/hided.</p>
 IssueTracker: ""
 Name: Let Develop Free
 SourceCode: https://github.com/Xposed-Modules-Repo/lialh4.ldf

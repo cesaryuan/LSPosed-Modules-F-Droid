@@ -3,10 +3,33 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.9
 CurrentVersionCode: 1109
-Description: |-
-    <p>问题修复以及细节优化</p>
-    <hr>
-    <p>Bug fixes and detail optimization</p>
+Description: |
+    <div align="center">
+    <h1>JsHook</h1>
+    <p><a href="#"><img src="https://img.shields.io/badge/-Xposed-3DDC84?style=flat&amp;logo=Android&amp;logoColor=white" alt="Xposed" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/me.jsonet.jshook/releases/latest"><img src="https://img.shields.io/github/release/Xposed-Modules-Repo/me.jsonet.jshook.svg" alt="GitHub release" /></a>
+    <a href="https://t.me/jshookapp"><img src="https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc" alt="Telegram" /></a>
+    <a href="https://t.me/jshookgroup"><img src="https://img.shields.io/static/v1?label=Telegram&amp;message=Chat&amp;color=0088cc" alt="Telegram" /></a></p>
+    <p>用js实现hook 支持java层和native层</p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/me.jsonet.jshook/blob/main/README.en.md">README of English</a></p>
+    </div>
+    <h2>关于</h2>
+    <p>jshook是对应用程序注入rhino/frida，你只需要会js就可以快速实现hook，并且支持java层和native层。</p>
+    <p>rhino包含了xposed的api，主要用于java层的hook；frida注入后js可以完全访问内存，支持java层和native层。</p>
+    <h2>兼容</h2>
+    <ol>
+    <li>Xposed api 82</li>
+    <li>Android 5 - 14</li>
+    </ol>
+    <h2>全新1.1版本</h2>
+    <table>
+    <thead>
+    <tr>
+    <th><img src="/imgs/1.png" alt="image" /></th>
+    <th><img src="/imgs/2.png" alt="image" /></th>
+    </tr>
+    </thead>
+    </table>
 IssueTracker: ""
 Name: 用js实现hook 支持java层和native层
 SourceCode: https://github.com/Xposed-Modules-Repo/me.jsonet.jshook

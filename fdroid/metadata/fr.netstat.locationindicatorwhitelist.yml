@@ -3,15 +3,58 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: |-
-    <p><strong>Changelog:</strong></p>
+Description: |
+    <h2>Location Indicator Whitelist</h2>
+    <p>This LSPosed module is supposed to prevent selected packages from spamming the annoying location
+    notification dot.</p>
+    <h3>How</h3>
     <ul>
-    <li>Show whitelisted packages first</li>
-    <li>Support system's theme</li>
-    <li>Print application name along with package name</li>
-    <li>Implement searching</li>
-    <li>Dependencies updates</li>
+    <li>Install Magisk/Riru/LSPosed</li>
+    <li>Install and enable this module</li>
+    <li>Open the main activity and select the packages you want to whitelist</li>
+    <li>Reboot</li>
     </ul>
+    <h3>Why</h3>
+    <ul>
+    <li>Some apps do access the location in background for legitimate reasons, and the user may not want
+    to be interrupted because of that.</li>
+    <li>Some location providers packages aren’t whitelisted by ROMs.</li>
+    <li>The “Status bar location indicator” switch in developer options has a lot of drawbacks:
+    <ul>
+    <li>It disables <strong>all</strong> notifications when the user might actually find the notification dot useful</li>
+    <li>It doesn’t survive a reboot, meaning that you consistently have to switch it off</li>
+    <li>It’s buggy: if you disable it at the wrong moment, you may get the notification dot stuck on
+    your screen until you reboot. On LOS20, it seems that it even doesn’t prevent the location
+    notification dot from showing at all.</li>
+    </ul>
+    </li>
+    </ul>
+    <h3>Caveats</h3>
+    <ul>
+    <li>Currently only tested on OnePlus 8 (instantnoodle) running LineageOS 20. Please note that I do not
+    plan on adding support for all ROMs and devices, and I might not even read or respond to issues
+    requesting new supports. However, I’ll gladly review PRs adding support for new ROMs or
+    devices.</li>
+    <li>The current hook is very weak and dirty. I would have preferred hooking into the core framework
+    directly, but none of my attempts were successful. I had to hook into SystemUI instead. If you
+    find a way to hook into android framework directly, please let me know. Here’s a sneak peek of my
+    unsuccessful hook attempts:
+    <ul>
+    <li><code>android.permission.PermissionUsageHelper</code> =&gt; <code>shouldShowLocationIndicator</code></li>
+    <li><code>android.provider.DeviceConfig</code> =&gt; <code>get/setBoolean(&quot;location_indicators_enabled&quot;)</code></li>
+    <li><code>android.permission.PermissionManager</code> =&gt; <code>getIndicatorExemptedPackages</code></li>
+    <li>Patching resource <code>config_locationExtraPackageNames</code></li>
+    <li>Systemizing whitelisted apps</li>
+    <li><code>com.android.systemui.statusbar.phone.PhoneStatusBarPolicy</code> =&gt; <code>onLocationActiveChanged</code></li>
+    <li>a combination of all those</li>
+    </ul>
+    </li>
+    <li>UI is clunky but simple and straight to the point. It lacks a search feature though.</li>
+    </ul>
+    <h3>Contributing</h3>
+    <p>Please open issues and PRs on <a href="https://github.com/gilbsgilbs/LocationIndicatorWhitelist">the upstream
+    repo</a>, not on the
+    <a href="https://github.com/Xposed-Modules-Repo/fr.netstat.locationindicatorwhitelist">XPosed-Module-Repo</a>.</p>
 IssueTracker: ""
 Name: Location Indicator Whitelist
 SourceCode: https://github.com/Xposed-Modules-Repo/fr.netstat.locationindicatorwhitelist

@@ -3,11 +3,27 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.3
 CurrentVersionCode: 103
-Description: |-
+Description: |
+    <h1>解锁MIUI+</h1>
+    <p>在未适配的型号（小米手机）上使用MIUI＋。</p>
+    <h2>模块作用</h2>
+    <p>去除MIUI+在扫描二维码时的机型检测。并在<code>设置</code>-&gt;<code>连接和共享</code>中显示<code>MIUI+ Beta版</code>设置项。</p>
+    <h2>模块需求</h2>
     <ol>
-    <li>尝试兼容3.6.13版本的MIUI+。</li>
-    <li>由于更换密钥，所以需要卸载旧版本之后再安装新版本。</li>
+    <li>MIUI12.5</li>
+    <li>Android 11</li>
     </ol>
+    <h2>安装方式</h2>
+    <ol>
+    <li>在下方的链接中下载新版本的MIUI+相关安装包并安装。
+    <img src="/picture/%E9%9C%80%E6%B1%82%E6%96%87%E4%BB%B6.jpg" alt="需求文件" /></li>
+    <li>安装模块并启用，选中<code>MIUI+ Beta版</code>和<code>设置(com.android.settings)</code>。</li>
+    <li>强制停止<code>MIUI+</code>和<code>设置</code>。</li>
+    </ol>
+    <h2>提取出的MIUI+相关文件</h2>
+    <p><a href="https://wws.lanzoux.com/b01u1if2d">下载链接</a>密码:h61h</p>
+    <p>（链接内有模块和提取出来的小米互联通信服务，扫一扫，MIUI+。）</p>
+    <p>注：该模块只去掉了在扫描二维码时的机型检测，无法解决其他问题。如使用了该模块仍旧无法使用MIUI＋，请查看是否已经关闭小米快传或者自行百度。</p>
 IssueTracker: ""
 Name: 解锁MIUI+
 SourceCode: https://github.com/Xposed-Modules-Repo/com.test.unlockmiui

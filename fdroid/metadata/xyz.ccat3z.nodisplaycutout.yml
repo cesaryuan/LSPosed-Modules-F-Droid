@@ -3,6 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
+Description: |
+    <h1>NoDisplayCutout</h1>
+    <p><strong>DEPRECATED</strong>: 使用<a href="https://github.com/MlgmXyysd/NoneDisplayCutout">MlgmXyysd/NoneDisplayCutout</a>.</p>
+    <p>强制应用在刘海/挖孔区域中呈现.
+    主要用于小米Mix4这种挖了孔但又没挖孔的屏下摄像头手机.</p>
+    <p><img src="https://raw.githubusercontent.com/ccat3z/no-display-cutout/master/screenshot.png" alt="" /></p>
+    <h2>使用方法</h2>
+    <ol>
+    <li>在Xposed (<a href="https://github.com/LSPosed/LSPosed">LSPosed</a>…) Manager启用本模块.</li>
+    <li>选择需要修改的应用.</li>
+    </ol>
+    <p>对于没有root或xposed的手机可以试试WindySha的<a href="https://github.com/WindySha/Xpatch">Xpatch</a>.</p>
+    <h2>致谢</h2>
+    <ul>
+    <li><a href="https://github.com/Magisk-Modules-Repo/noneDisplayCutout">Magisk-Modules-Repo/noneDisplayCutout</a></li>
+    <li><a href="https://www.coolapk.com/feed/29531787">小米MIX4全屏显示模块</a></li>
+    </ul>
 IssueTracker: ""
 Name: NoDisplayCutout
 SourceCode: https://github.com/Xposed-Modules-Repo/xyz.ccat3z.nodisplaycutout

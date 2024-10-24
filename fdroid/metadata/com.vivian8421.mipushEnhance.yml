@@ -3,7 +3,85 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.1
 CurrentVersionCode: 2
-Description: <p>增加了激活提示性文字</p>
+Description: |
+    <h1>小米push增强模块</h1>
+    <h2>[酷安@vivian8421]</h2>
+    <blockquote>
+    <p>启用模块 –&gt; 冻结app –&gt; mipush通知 （–&gt; 打开app –&gt; 点击进入通知）</p>
+    </blockquote>
+    <blockquote>
+    <p>众所周知，为了防止app后台通过恶意行为驻留内存，部分用户选择使用冻结类软件停用(pm disable) App，当App处于停用状态时其package或component不可用。然而，在这种情况下，一些必要的通知将会受到影响(Alipay,DingTalk,Bank,Stock,etc…)</p>
+    </blockquote>
+    <h4>本模块为此设计，在App冻结的情况下，实现接收各类app的push，让您在不消耗内存、保障隐私的同时，轻量接收推送消息，让您不再错过动账、交易类消息，福利活动不再后知后觉！</h4>
+    <p>完全兼容冰箱、黑白门等冻结类App！</p>
+    <p>注意：</p>
+    <h4>不建议精简或者修改版定制系统使用(可能会卡米)。如果您冻结了部分关键系统app或者破解卡米,请谨慎使用(可能会卡米或者第二屏)。</h4>
+    <ol>
+    <li>
+    <p>目前仅仅支持adb shell pm disable停用方式的冻结类App，对于挂起方式(变灰)的冻结(scene应用偏见…)，其应用状态可能留有后台，此方式冻结不彻底，不推荐使用，且此状态下push消息已经推送到通知栏，由于某些限制导致通知栏不能正常展示，后期视情况适配。</p>
+    </li>
+    <li>
+    <p>时间及技术有限，目前只能实现接收消息，暂时不能通过点击通知无法拉起已经冻结的App，需要手动进入App再点击通知查看。</p>
+    </li>
+    <li>
+    <p>本模块完全免费且开源，一切开发仅供学习参考，请勿用于非法用途。</p>
+    </li>
+    </ol>
+    <p>适配机型/环境:小米MIUI系列机型ROM+Magisk。</p>
+    <p>测试机型和进度:</p>
+    <pre lang="sh"><code>Mi10 Ultra/Pro 开发板每天跟随官方更新 小米服务框架版本如下:
+    5.3.1 已测试，冻结不自动注册，最新版已修复
+    5.3.3 已测试，(部分用户未能正常接收push，官方已确认bug，不建议使用)
+    5.3.6 已测试，(部分用户未能正常接收push，官方已确认bug，不建议使用)
+    5.3.8 已测试，未发现问题(20211026-now)，（安卓12已于20211116测试，推荐使用）
+    5.3.9 已测试，未发现问题(20211111-20211112)
+    </code></pre>
+    <h2>使用方法</h2>
+    <p><del>1. 确认应用列表中”小米服务框架” 版本为：5.3.1及以上。 （低版本请自行尝试，不保证可以正常使用）</del></p>
+    <ol>
+    <li>目前已经适配低版本(5.0+)小米服务框架，仅非修改/精简/冻结/卸载状态即可。</li>
+    <li>作用域已经默认勾选：系统框架 、小米服务框架。（com.xiaomi.xmsf）。</li>
+    <li>修改系统框架需要重启手机，单独修改小米服务框架停止其运行即可。</li>
+    <li>手机管家App处于正常状态(非冻结/卸载/版本过低)</li>
+    </ol>
+    <h2>Thanks</h2>
+    <p>Thanks <a href="https://github.com/soulpursuit">@Soulpursuit</a>  for providing the project requirements and completing the testing of each version</p>
+    <h2>Maintainers</h2>
+    <p><a href="https://github.com/vivian8421">@Vivian8421</a></p>
+    <p><a href="https://github.com/vivian8421/MiPush-Enhance/issues">Report Bug</a></p>
+    <h1>Xiaomi push enhancement module</h1>
+    <blockquote>
+    <p>Enable module – &gt; freeze app – &gt; mipush notification (- - &gt; Open app – &gt; Click to enter notification)</p>
+    </blockquote>
+    <blockquote>
+    <p>As we all know, in order to prevent the app background from residing in memory through malicious behavior, some users choose to use frozen software to disable the app. When the app is disabled, its package or component is unavailable. However, in this case, some necessary notifications will be affected (Alipay, dingtalk, bank, stock, etc…)</p>
+    </blockquote>
+    <blockquote>
+    </blockquote>
+    <h4>This module is designed for this purpose. When the app is frozen, it can receive the push of all kinds of apps, so that you can receive push messages lightly without consuming memory and ensuring privacy, so that you will no longer miss the dynamic account and transaction messages, and welfare activities will no longer be delayed!</h4>
+    <blockquote>
+    <p>Fully compatible pm disable and other frozen apps!</p>
+    </blockquote>
+    <blockquote>
+    <p>Note: time and technology are limited. At present, we can only receive messages. For the time being, we can’t click the notification to pull up the frozen app. We need to manually enter the app and click the notification to view it. We welcome all great gods PR and good people to give advice~</p>
+    </blockquote>
+    <blockquote>
+    <p>Note: This module is completely free and open source. All development is for learning reference only. Do not use it for illegal purposes.</p>
+    </blockquote>
+    <blockquote>
+    <p>Applicable model / environment: Xiaomi MIUI series model ROM + magisk.</p>
+    </blockquote>
+    <h4>Note: it is not recommended to use the simplified or modified customized system . If you freeze some key system apps , please use it with caution.</h4>
+    <h2>Method of use</h2>
+    <p><del>1. Confirm that the version of “Xiaomi service framework” in the application list is 5.3.1 and above. (please try the lower version by yourself, and it is not guaranteed that it can be used normally)</del></p>
+    <ol start="2">
+    <li>
+    <p>Scope check: system framework and Xiaomi service framework. （com.xiaomi.xmsf）</p>
+    </li>
+    <li>
+    <p>To modify the system framework, you need to restart the mobile phone, modify the Xiaomi service framework separately and stop its operation.</p>
+    </li>
+    </ol>
 IssueTracker: ""
 Name: 小米push增强模块
 SourceCode: ""

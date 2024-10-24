@@ -3,10 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: 1.3.4
 CurrentVersionCode: 1
-Description: |-
-    <p>Fixed font not applied after reboot<br>
-    Fixed settings edition when the settings are hidden<br>
-    Texts are more precise</p>
+Description: |
+    <h2><strong>This module allow you to add a customisable matrix rain in notifications panel !</strong></h2>
+    <p>/!\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN LSPOSED SETTINGS/!<br />
+    Thanks to @Hyper.Alvi for his help !
+    /!\ SystemUI must be restart to apply modifications (it changes dynamically after)/!<br />
+    Officially working with :
+    OneUI 3.x
+    AOSP R</p>
+    <p>/<em>PS : Don’t hesitate to try it on your rom and tell me if it work or no, I can support a lot of roms with your help</em>/</p>
+    <h2>Used libraries (Big thanks to all there developpers) :</h2>
+    <p><a href="https://github.com/chengxuncc/fileprefs">Fileprefs</a></p>
+    <p><a href="https://github.com/rovo89/XposedBridge">XposedBridge</a></p>
+    <p><a href="https://github.com/Chainfire/libsuperuser">Libsuperuser</a></p>
+    <p><a href="https://github.com/AzeeSoft/AndroidPhotoshopColorPicker">PhotoshopColorPicker</a></p>
+    <p>Contact :
+    If you want to help me or suggest me some ideas you can send mail</p>
+    <p>Mail : <a href="mailto:xhookmandev@gmail.com">xhookmandev@gmail.com</a></p>
+    <p>My other modules :</p>
+    <p><a href="https://forum.xda-developers.com/t/xposed-lsposed-samsung-music-customiser-change-app-colors.4076893/">Samsung Music Customiser</a></p>
+    <p><a href="https://forum.xda-developers.com/t/xposed-lsposed-samsung-messages-customiser-change-app-colors.4104635/">Samsung Messages Customiser</a></p>
+    <p><a href="https://forum.xda-developers.com/t/xposed-lsposed-notigif-add-a-gif-to-notifications-panel.4165259/">Notigif</a></p>
+    <h2>You can give me a <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3YW496LXQZ5A&amp;source=url">donation</a> if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)</h2>
+    <p>Thank you for reading this, don’t forget to press thanks on my XDA page ^_^
+    PS : I’m french, so I try to speak english I hope your eyes still lives and that there are not too mistakes.</p>
 IssueTracker: ""
 Name: Matrix Rain
 SourceCode: https://github.com/Xposed-Modules-Repo/com.chacha.matrixrain

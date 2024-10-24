@@ -3,22 +3,47 @@ Categories:
     - Xposed
 CurrentVersion: 1.7.5
 CurrentVersionCode: 75
-Description: |-
-    <ul>
-    <li>[新增] 禁用临时蓝牙关闭（A13）</li>
-    <li>[新增] 自定义时钟极客模式支持更多内容（A12）</li>
-    <li>[修复] 状态栏布局兼容模式调整左右边距功能，对默认布局和时间居右布局无效（A12/A13）</li>
-    <li>[修复] 状态栏布局兼容模式的一些BUG（A12）</li>
-    <li>[优化] 开启时间居中后横屏的细节（A12/A13）</li>
-    </ul>
-    <hr>
-    <ul>
-    <li>[New] Disable Temporary Bluetooth Off (A13)</li>
-    <li>[New] Custom Clock Geek Mode to support more content (A12)</li>
-    <li>[Fix] The status bar compatibility mode cannot be used in some layout (A12/A13)</li>
-    <li>[Fix] Some bugs of the compatible mode of the status bar (A12)</li>
-    <li>[Optime] Details of the Horizontal screen in the middle of the time (A12/A13)</li>
-    </ul>
+Description: |
+    <div align="center">
+       <img width="160" src="https://raw.githubusercontent.com/LittleTurtle2333/SimplicityTools/main/doc/ic_launcher.png" alt="logo">
+       <h1>WooBox For MIUI</h1>
+       <p>
+           <b><a href="https://github.com/LittleTurtle2333/SimplicityTools/blob/main/README_EN.md">English</a>  丨 简体中文</b>
+       </p>
+       <a href="https://github.com/Xposed-Modules-Repo/com.lt2333.simplicitytools/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.lt2333.simplicitytools/total?label=Downloads"></a>
+       <a href="https://github.com/LittleTurtle2333/SimplicityTools/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/LittleTurtle2333/SimplicityTools"></a>
+       <a href="https://github.com/LittleTurtle2333/SimplicityTools/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/LittleTurtle2333/SimplicityTools"></a>
+       <a href="https://github.com/LittleTurtle2333/SimplicityTools/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/LittleTurtle2333/SimplicityTools"></a>
+       <p>一个基于 MIUI13+（Android12+）适配的系统拓展Xposed模块</p>
+    </div>
+    <hr />
+    <h3>模块说明</h3>
+    <p>开发者：<a href="http://www.coolapk.com/u/883441">酷安@乌堆小透明</a></p>
+    <hr />
+    <h3>模块截图</h3>
+    <p><img src="https://raw.githubusercontent.com/LittleTurtle2333/SimplicityTools/main/doc/cn.jpg" alt="截图" /></p>
+    <hr />
+    <h3>下载地址</h3>
+    <p>Xposed仓库下载：<a href="https://github.com/Xposed-Modules-Repo/com.lt2333.simplicitytools/releases">点击此处下载最新发行版</a></p>
+    <p>酷安下载：<a href="https://www.coolapk.com/apk/com.lt2333.simplicitytools">点击此处下载最新发行版</a></p>
+    <hr />
+    <h3>改进翻译</h3>
+    <p><a href="https://crowdin.com/project/simplicitytools"><img src="https://badges.crowdin.net/simplicitytools/localized.svg" alt="Crowdin" /></a><a href="https://crowdin.com/project/simplicitytools">点击此处进入Crowdin</a></p>
+    <hr />
+    <h3>第三方开源引用</h3>
+    <h5>GNU General Public License v3.0</h5>
+    <p><a href="https://github.com/qqlittleice/MiuiHome">qqlittleice/MiuiHome</a><br />
+    <a href="https://github.com/yujincheng08/BiliRoaming">yujincheng08/BiliRoaming</a><br />
+    <a href="https://code.highspec.ru/Mikanoshi/CustoMIUIzer">Mikanoshi/CustoMIUIzer</a></p>
+    <h5>GNU General Public License v2.0</h5>
+    <p><a href="https://github.com/LSPosed/CorePatch">LSPosed/CorePatch</a></p>
+    <h5>GNU Lesser General Public License v2.1</h5>
+    <p><a href="https://github.com/577fkj/blockmiui">577fkj/blockmiui</a></p>
+    <h5>Apache License 2.0</h5>
+    <p><a href="https://github.com/KyuubiRan/EzXHelper">KyuubiRan/EzXHelper</a></p>
+    <hr />
+    <h3>License</h3>
+    <p><a href="https://github.com/LittleTurtle2333/SimplicityTools/blob/main/LICENSE">GNU General Public License v3.0</a></p>
 IssueTracker: ""
 Name: WooBox For MIUI
 SourceCode: https://github.com/Xposed-Modules-Repo/com.lt2333.simplicitytools

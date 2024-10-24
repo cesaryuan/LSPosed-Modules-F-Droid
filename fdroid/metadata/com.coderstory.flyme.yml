@@ -3,11 +3,25 @@ Categories:
     - Xposed
 CurrentVersion: 4.5.14 开源全功能版
 CurrentVersionCode: 513
-Description: |-
-    <p>很遗憾，本项目已经EOF<br>
-    源码已经上传github 可自行下载 <a href="https://github.com/coderstory/FlymeHelper">https://github.com/coderstory/FlymeHelper</a><br>
-    本次更新开放所有功能<br>
-    本项目开发了整整6年多 是时候结束了</p>
+Description: |
+    <h1>Flyme9助手</h1>
+    <p>Flyme9助手是基于LSPosed开发的Flyme系统优化工具
+    当前版本适用于flyme9系统,低版本的android系统可能部分功能不可使用。</p>
+    <h2>功能</h2>
+    <ul>
+    <li>屏蔽魅族自家广告SDK的广告</li>
+    <li>针对自家app隐藏root权限</li>
+    <li>获取更新包下载地址</li>
+    <li>安装apk的时候跳过安全检查</li>
+    <li>默认自动安装apk</li>
+    <li>主题和谐</li>
+    <li>状态栏时间居中</li>
+    <li>隐藏状态栏图标</li>
+    <li>时间显秒</li>
+    <li>冻结应用</li>
+    <li>清理应用缓存</li>
+    <li>…</li>
+    </ul>
 IssueTracker: ""
 Name: Flyme9助手
 SourceCode: https://github.com/Xposed-Modules-Repo/com.coderstory.flyme

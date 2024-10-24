@@ -3,15 +3,60 @@ Categories:
     - Xposed
 CurrentVersion: 1.7.0
 CurrentVersionCode: 1289
-Description: |-
-    <p>感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cxw620/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cxw620">@cxw620</a> 的贡献！</p>
-    <h3>更新日志</h3>
+Description: |
+    <h1>哔哩漫游</h1>
+    <p>解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能</p>
+    <h1>BiliRoaming</h1>
+    <p>An Xposed module that unblocks bangumi area limit of BILIBILI, and miscellaneous features</p>
+    <h1>支持以下功能</h1>
     <ul>
-    <li>修复大量自 7.41 版本兼容问题</li>
-    <li>改善 PCDN 替换</li>
-    <li>添加禁止播放器长按加速</li>
-    <li>支持固定推荐页面封面比例</li>
+    <li>解除B站番剧区域限制</li>
+    <li>港澳台CDN加速</li>
+    <li>缓存番剧</li>
+    <li>支持国际版和概念版</li>
+    <li>自定义主题色</li>
+    <li>关闭青少年模式弹窗</li>
+    <li>显示评论区楼层</li>
+    <li>~概念版添加直播入口~</li>
+    <li>不以小程序形式分享</li>
+    <li>自动点赞视频</li>
+    <li>把<em>我的</em>页面移到<strong>侧边栏</strong></li>
+    <li>替换音乐状态栏为原生样式</li>
+    <li>提取视频、直播封面</li>
+    <li>自定义屏启动图</li>
     </ul>
+    <h1>Features</h1>
+    <ul>
+    <li>Unlock bangumi area limit</li>
+    <li>CDN speedup</li>
+    <li>Download bangumi</li>
+    <li>Support International ver and blue ver</li>
+    <li>Customize theme</li>
+    <li>Close teenager dialog</li>
+    <li>Show comment floor</li>
+    <li>~Add live entry to blue ver~</li>
+    <li>Share without mini programs</li>
+    <li>Like videos automatically</li>
+    <li>Move ‘Mine page’ to sidebar drawer</li>
+    <li>Change music notification style to Primitive</li>
+    <li>Extra covers from videos and live rooms</li>
+    <li>Customized splash images</li>
+    </ul>
+    <h1>download/下载</h1>
+    <p><a href="https://github.com/yujincheng08/BiliRoaming/releases/latest">https://github.com/yujincheng08/BiliRoaming/releases/latest</a></p>
+    <p><a href="https://repo.xposed.info/module/me.iacn.biliroaming">https://repo.xposed.info/module/me.iacn.biliroaming</a></p>
+    <h1>使用方法</h1>
+    <p><a href="https://github.com/yujincheng08/BiliRoaming/wiki#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95">https://github.com/yujincheng08/BiliRoaming/wiki#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95</a></p>
+    <h1>特别鸣谢</h1>
+    <ul>
+    <li><a href="https://github.com/iAcn/BiliRoaming">原作者</a></li>
+    <li><a href="https://www.biliplus.com/">BiliPlus</a></li>
+    <li><a href="https://github.com/kghost/bilibili-area-limit">Kghost</a></li>
+    </ul>
+    <h3>交流</h3>
+    <p>Telegram: <a href="https://t.me/biliroaming">@biliroaming</a></p>
+    <h3>License</h3>
+    <p><a href="LICENSE">GNU General Public License, version 3</a></p>
 IssueTracker: ""
 Name: 哔哩漫游/BiliRoaming
 SourceCode: https://github.com/Xposed-Modules-Repo/me.iacn.biliroaming

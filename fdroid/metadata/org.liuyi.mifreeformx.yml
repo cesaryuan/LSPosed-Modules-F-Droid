@@ -3,47 +3,75 @@ Categories:
     - Xposed
 CurrentVersion: 23.07.19.11
 CurrentVersionCode: 10020
-Description: |-
+Description: |
+    <h1>MIUI自由小窗X（MiuiFreeFormX）</h1>
+    <h2>模块说明</h2>
+    <p>MIUI小窗增强扩展模块，实现类Flyme的手势操作逻辑</p>
+    <p>开发者：<a href="http://www.coolapk.com/u/1735098">酷安@LiuYi_GL</a></p>
+    <p>更新日志：<a href="https://github.com/LiuYiGL/MiFreeFormX/blob/master/update_log.md">Update</a></p>
+    <h2>使用环境</h2>
+    <p>Android 13、Android 12（未测试）</p>
+    <p>MIUI 14</p>
+    <p>xposed v93，推荐使用<a href="https://github.com/LSPosed/LSPosed">LSPosed Framework </a></p>
+    <h2>模块功能</h2>
     <ul>
     <li>
-    <p>[新增] 适配Android 12</p>
+    <p>通知</p>
+    <ul>
+    <li>点击通知打开小窗</li>
+    </ul>
     </li>
     <li>
-    <p>[新增] 禁止某些弹窗禁止使用消除功能</p>
+    <p>控制中心</p>
+    <ul>
+    <li>使用小窗打开快捷方式</li>
+    </ul>
     </li>
     <li>
-    <p>[新增] 控制中心点击通知忽略锁屏状态</p>
+    <p>应用间交互</p>
+    <ul>
+    <li>应用间跳转</li>
+    <li>应用间分享</li>
+    </ul>
     </li>
     <li>
-    <p>[新增] 控制中心点击通知忽略当前顶部应用</p>
+    <p>平行小窗</p>
+    <ul>
+    <li>
+    <blockquote>
+    <p>微信需要添加至作用域</p>
+    </blockquote>
+    </li>
+    </ul>
     </li>
     <li>
-    <p>[新增] 贴边小窗不暂停应用</p>
+    <p>杂项</p>
+    <ul>
+    <li>禁用小窗黑名单</li>
+    <li>禁用生成小窗的位置发生偏移</li>
+    <li>解除小窗数量限制</li>
+    <li>小窗失去焦点行为
+    <ul>
+    <li>挂起</li>
+    <li>贴边</li>
+    <li>关闭</li>
+    </ul>
     </li>
-    <li>
-    <p>[优化] 点击通知时判断活动是否支持下拉</p>
+    </ul>
     </li>
-    <li>
-    <p>[优化] 分离是否使用小窗安装应用</p>
-    </li>
-    <li>
-    <p>[修改] 更换图标，感谢酷安@一個小果冻 的贡献</p>
-    </li>
-    <li>
-    <p>[优化] 复刻魅族微信平行小窗的逻辑</p>
-    </li>
-    <li>
-    <p>[优化] 去除对微信的Hook</p>
-    </li>
-    <li>
-    <p>[优化] 黑名单应用搜索逻辑</p>
-    </li>
-    <li>
-    <p>[修复] 浏览器跳转小米社区无使用小窗</p>
-    </li>
-    <li>
-    <p>[修复] 电脑端打开“文件管理”、“笔记”等应用黑屏</p>
-    </li>
+    </ul>
+    <h2>开源引用</h2>
+    <h3><a href="https://choosealicense.com/licenses/mit">MIT</a></h3>
+    <ul>
+    <li><a href="https://github.com/fankes/YukiHookAPI">fankes/YukiHookAPI: ⛱️ An efficient Hook API and Xposed Module solution built in Kotlin.</a></li>
+    </ul>
+    <h3><a href="https://github.com/Block-Network/blockmiui/blob/NewApi/LICENSE">LGPL-2.1 license</a></h3>
+    <ul>
+    <li><a href="https://github.com/Block-Network/blockmiui">Block-Network/blockmiui: BlockMIUI / 方米UI</a></li>
+    </ul>
+    <h3><a href="https://github.com/Blankj/AndroidUtilCode/blob/master/LICENSE">Apache-2.0 license</a></h3>
+    <ul>
+    <li><a href="https://github.com/Blankj/AndroidUtilCode">Blankj/AndroidUtilCode: Android developers should collect the following utils(updating).</a></li>
     </ul>
 IssueTracker: ""
 Name: MIUI自由小窗X / MiuiFreeFormX

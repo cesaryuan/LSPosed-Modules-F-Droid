@@ -3,7 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: 7.2.0
 CurrentVersionCode: 720
-Description: <p>1，fix read config error</p>
+Description: |
+    <h1>FunDex2</h1>
+    <p>基于Xposed现实的Dex脱壳机：<br />
+    支持5-13系统</p>
+    <p>使用方式：<br />
+    1、在模块页面选择需要脱壳对应的Apk。<br />
+    2、Lsposed激活插件。<br />
+    3、启动目标Apk即可。</p>
+    <p>脱掉的Dex文件保存在/data/data/包名/目录下。</p>
 IssueTracker: ""
 Name: FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。)
 SourceCode: ""

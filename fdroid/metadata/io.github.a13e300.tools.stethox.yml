@@ -3,13 +3,81 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.2
 CurrentVersionCode: 2
-Description: |-
+Description: |
+    <h1>StethoX</h1>
+    <h2>Description</h2>
+    <p>Original Project: <a href="https://gitlab.com/derSchabi/Stethox">https://gitlab.com/derSchabi/Stethox</a></p>
+    <p>This is a <a href="http://repo.xposed.info/module/de.robv.android.xposed.installer">Xposed</a> Module
+    that enables <a href="https://github.com/5ec1cff/stetho">Stetho</a> (<a href="https://facebook.github.io/stetho/">origin</a>) for every application on your phone,
+    allows you inspect any application with Chrome Remote Devtools.</p>
+    <h2>Usage</h2>
+    <ol>
+    <li>Install Xposed and this module.</li>
+    <li>Enable this module for apps you need.</li>
+    <li>Connect to your PC via USB Debugging (ADB).</li>
+    <li>Open chrome://inspect , select your app to inspect.</li>
+    <li>Have fun !</li>
+    </ol>
+    <h2>Features</h2>
     <ul>
-    <li>支持启动时挂起进程（在 README.md 查看详细说明）</li>
-    <li>增加 <code>runOnUiThread</code> <code>runOnHandler</code> 函数</li>
-    <li>修复 hook 的一系列 bug ，让 hook 更加易用</li>
-    <li>增加 <code>hook.getClassLoaders</code> ，可以遍历所有 ClassLoader</li>
+    <li>View the View tree like an element (supports Activity, Dialog or other Window).</li>
+    <li>Screen mirroring and visual element selection (you need to select the required view in Elements to mirror).</li>
+    <li>Use Javascript in the console to access Java objects and hook Java methods (type <code>hook.help()</code> to view help).</li>
+    <li>Support for suspending process at startup</li>
     </ul>
+    <h2>Suspend process</h2>
+    <p>StethoX supports suspending the App process when it starts and displays the “Waiting for Debugger” dialog. When the user connects with Devtools, he can enter <code>cont</code> at the console to keep the process running.</p>
+    <p>Before the process continues to run, the process can also be accessed through Devtools, such as executing Javascript and other operations.</p>
+    <p>**NOTE: You may need to turn off StethoX’s battery optimization for this feature to work properly. **</p>
+    <p>You can configure suspend using the <code>content</code> command in the adb shell:</p>
+    <pre lang="shell"><code># Suspend once (take effect at next startup)
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method suspend --arg ${processName}
+    #Hang all the time
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method suspend_forever --arg ${processName}
+    # Clear configuration (clear all without specifying arg)
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method clear [--arg ${processName}]
+    # List configuration
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method list
+    </code></pre>
+    <h2>ATTENTION</h2>
+    <p>Never leave this Module enabled or installed on day to day use.
+    <strong>THIS IS A SECURITY RISK</strong>. Only enable this for Development.</p>
+    <hr />
+    <h2>描述</h2>
+    <p>原项目： <a href="https://gitlab.com/derSchabi/Stethox">https://gitlab.com/derSchabi/Stethox</a></p>
+    <p>这是一个能够为任意应用启用 <a href="https://github.com/5ec1cff/stetho">Stetho</a> (<a href="https://facebook.github.io/stetho/">原 facebook 项目</a>)
+    的 <a href="http://repo.xposed.info/module/de.robv.android.xposed.installer">Xposed</a> 模块，你可以借助它通过 Chrome 开发者工具检查任意 App 。</p>
+    <h2>用法</h2>
+    <ol>
+    <li>安装 Xposed 及该模块。</li>
+    <li>为你需要的应用启用模块。</li>
+    <li>通过 USB 调试 (ADB) 连接到电脑。</li>
+    <li>打开 chrome://inspect ，选择要检查的 App 。</li>
+    <li>祝你玩得开心！</li>
+    </ol>
+    <h2>功能</h2>
+    <ul>
+    <li>像审查元素一样查看 View 树（支持 Activity、Dialog 或其他 Window）。</li>
+    <li>画面镜像和可视的元素选择（需要在 Elements 中选中需要的 view 以镜像）。</li>
+    <li>在控制台使用 Javascript 访问 Java 对象和 hook Java 方法（输入 <code>hook.help()</code> 查看帮助）。</li>
+    <li>支持启动时挂起进程</li>
+    </ul>
+    <h2>挂起进程</h2>
+    <p>StethoX 支持在 App 进程启动时挂起进程，并显示「等待调试器」对话框。当用户使用 Devtools 连接后，可以在控制台输入 <code>cont</code> 让进程继续运行。</p>
+    <p>在进程继续运行之前，也可以通过 Devtools 访问进程，如执行 Javascript 等操作。</p>
+    <p><strong>注意：你可能需要关闭 StethoX 的电池优化确保该功能正常工作。</strong></p>
+    <p>你可以在 adb shell 使用 <code>content</code> 命令配置挂起：</p>
+    <pre lang="shell"><code># 挂起一次（下次启动时生效）
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method suspend --arg ${processName}
+    # 一直挂起
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method suspend_forever --arg ${processName}
+    # 清除配置（不指定 arg 则清除所有）
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method clear [--arg ${processName}]
+    # 列出配置
+    content call --uri content://io.github.a13e300.tools.stethox.suspend --method list
+    </code></pre>
+    <h2>注意</h2>
+    <p>日常使用请勿启用该模块，这样有安全风险，请只在开发时启用。</p>
 IssueTracker: ""
 Name: StethoX
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.a13e300.tools.stethox

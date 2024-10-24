@@ -3,7 +3,16 @@ Categories:
     - Xposed
 CurrentVersion: "2.1"
 CurrentVersionCode: 21
-Description: <p><strong>Full Changelog:</strong> <a href="https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree/commits/v2.1">https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree/commits/v2.1</a></p>
+Description: |
+    <h1>最右强力去广告</h1>
+    <p><img src="https://img.shields.io/badge/license-Anti--996%20License-blue" alt="Anti-996 License" /></p>
+    <h2>功能</h2>
+    <ul>
+    <li>移除所有广告（包括开屏广告、信息流广告、评论区广告）</li>
+    </ul>
+    <h2>致谢</h2>
+    <p>本模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a>。</p>
+    <p>Refer to <a href="https://github.com/kazutoiris/zuiyou-adfree">kazutoiris/zuiyou-adfree</a></p>
 IssueTracker: ""
 Name: 最右强力去广告
 SourceCode: https://github.com/Xposed-Modules-Repo/com.zuiyou.adfree

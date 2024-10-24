@@ -3,7 +3,31 @@ Categories:
     - Xposed
 CurrentVersion: "2.4"
 CurrentVersionCode: 20
-Description: <p>dev 版で広告が消えない問題を修正</p>
+Description: |
+    <h1><img src="app/src/main/ic_launcher-playstore.png" width="60px"> Binnosoko: F*ck ChMate’s ads</h1>
+    <p><a href="https://github.com/Chipppppppppp/Binnosoko/releases/latest"><img src="https://img.shields.io/github/v/release/Chipppppppppp/Binnosoko?label=latest" alt="Latest Release" /></a>
+    <img src="https://img.shields.io/github/license/Chipppppppppp/Binnosoko" alt="GitHub License" /></p>
+    <h2>Features</h2>
+    <ul>
+    <li>Remove ads (including margins)</li>
+    <li>Modify User-Agent</li>
+    <li>Remove MonaKey</li>
+    </ul>
+    <h2>Requirement</h2>
+    <ul>
+    <li>Android 6.0 or later</li>
+    <li>Xposed-compatible framework installed
+    <ul>
+    <li>For rooted users : <a href="https://github.com/LSPosed/LSPosed">LSPosed</a>, <a href="https://github.com/mywalkb/LSPosed_mod">LSPosed_mod</a></li>
+    </ul>
+    </li>
+    </ul>
+    <p>LSPatch and NPatch are not supported because ContentProvider crashes when changing the apk signature. Please make a pull request if you have a solution.</p>
+    <h2>Credit</h2>
+    <p>Original Tsubonofuta is developed by AioiLight. <br />
+    <a href="https://github.com/AioiLight/Tsubonofuta">https://github.com/AioiLight/Tsubonofuta</a></p>
+    <p>Forked from Tsubonofuta (Modify), developed by nonnonstop. <br />
+    <a href="https://github.com/nonnonstop/Tsubonofuta">https://github.com/nonnonstop/Tsubonofuta</a></p>
 IssueTracker: ""
 Name: Binnosoko
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.binnosoko

@@ -3,7 +3,42 @@ Categories:
     - Xposed
 CurrentVersion: 3.5.4
 CurrentVersionCode: 354
-Description: <p>修复cookie类动态hook失败导致的8.7.86以上版本报错</p>
+Description: |
+    <h1>杜比大喇叭β版</h1>
+    <p><a href="https://github.com/Dr-TSNG"><img src="https://img.shields.io/github/stars/nining377/dolby_beta?label=Stars" alt="Stars" /></a>
+    <a href="https://github.com/nining377/dolby_beta/releases/latest"><img src="https://img.shields.io/github/v/release/nining377/dolby_beta?label=Release" alt="Release" /></a>
+    <a href="https://github.com/nining377/dolby_beta/releases/latest"><img src="https://img.shields.io/github/downloads/nining377/dolby_beta/total" alt="Download" /></a>
+    <a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/github/license/nining377/dolby_beta?label=License" alt="License" /></a></p>
+    <h4>杜比大喇叭β是一款网易云音乐的音源代理模块，初衷只是我对网易云音乐的热爱，希望让更多的人使用网易云。</h4>
+    <h4>模块工作原理为音源替换而非破解，所以单曲付费与无版权歌曲有几率匹配错误，真心支持歌手请付费！</h4>
+    <p>杜比大喇叭β 3.X会有以下改变：</p>
+    <ul>
+    <li>编译版本提高至29并采用AndroidX API</li>
+    <li>模块被嵌入到网易云音乐的设置中</li>
+    <li>由于Android R对可执行文件的进一步限制，摒弃了2.X手动选择脚本与Node的方式</li>
+    <li>当前版本以稳定为主，杜比大喇叭β将能无缝适配最新版网易云音乐，如有问题请提交issue</li>
+    <li>因本人不使用太极，所以不保证太极等非root框架可以顺利运行，欢迎Fork适配</li>
+    </ul>
+    <p><a href="https://github.com/nining377/dolby_beta">快帮我点小星星呀，我要好多好多的小星星！</a></p>
+    <h2>下载方式</h2>
+    <p><a href="https://github.com/nining377/dolby_beta/releases/latest">GitHub Release</a></p>
+    <p><a href="https://wwi.lanzoui.com/b0cqxgwje">杜比大喇叭β版</a> 访问密码：brdb</p>
+    <p><a href="https://github.com/nining377/dolby_beta/issues/142">网易云音乐模块内嵌版（无需安装模块，适合不想用太极等框架的非root用户）</a></p>
+    <h2>TODO</h2>
+    <ul>
+    <li>尽可能保证不因模块造成crash（改版网易云往往经过二次混淆，将得不到适配）</li>
+    <li>部分美化功能的添加</li>
+    <li>更稳定的代理方式</li>
+    </ul>
+    <h2>主要功能</h2>
+    <img src="https://raw.githubusercontent.com/nining377/dolby_beta/master/image/img_01.png" width="50%">
+    <h2>致谢</h2>
+    <p><a href="https://github.com/nondanee/UnblockNeteaseMusic">nondanee/UnblockNeteaseMusic</a></p>
+    <p><a href="https://github.com/UnblockNeteaseMusic/server">Unblock Netease Music 维护小组</a></p>
+    <p><a href="https://github.com/bin456789/Unblock163MusicClient-Xposed">bin456789/Unblock163MusicClient-Xposed</a></p>
+    <p><a href="https://github.com/Flysky12138/UnblockNeteaseMusic-Android">Flysky12138/UnblockNeteaseMusic-Android</a></p>
+    <h2>许可</h2>
+    <p>The MIT License</p>
 IssueTracker: ""
 Name: 杜比大喇叭β版
 SourceCode: https://github.com/Xposed-Modules-Repo/com.raincat.dolby_beta

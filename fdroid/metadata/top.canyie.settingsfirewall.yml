@@ -3,7 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: <p>Initial release</p>
+Description: |
+    <h2>SettingsFirewall</h2>
+    <p>An Xposed module that blocks shitty apps from accessing your system settings (for example, check if development settings is enabled on the device, or check if there are running accessibility services).</p>
+    <p>Please note that only accesses to system settings (e.g. <a href="https://developer.android.com/reference/android/provider/Settings">Settings APIs</a> or <code>/system/bin/settings get</code>) can be intercepted by this module.
+    Accesses to system properties (e.g. <code>android.os.SystemProperties APIs</code>, <code>__system_property_get</code> or <code>getprop</code>) or other system APIs cannot be blocked.</p>
+    <h3>Usage</h3>
+    <p>Requirements: Android 4.3+ devices with a root Xposed framework installed.
+    This module requires to hook system components, so rootless Xposed frameworks (e.g. LSPatch, VirtualXposed or TaiChi-Ying) cannot be supported.</p>
+    <p>For LSPosed users, select only “System Framework” and reboot.</p>
+    <p>For <a href="https://github.com/canyie/Dreamland">Dreamland</a> users, select “Settings Provider” (<code>com.android.providers.settings</code>) and reboot.</p>
+    <h3>FAQ</h3>
+    <p>Q: Why is this module using the old Holo / Android Design?</p>
+    <p>A: Thanks to all Material Design 3 (Material You) missionaries,
+    I had to uninstall many apps and rollback my Android system to an old one
+    to avoid being attacked by your new “amazing” design. Happy now?</p>
+    <h3>License</h3>
+    <p>This project is under the MIT license with the following additional restrictions:</p>
+    <ul>
+    <li>You are <strong>FORBIDDEN</strong> to do anything that would make Android 4.3 users unable to use this app
+    (e.g. changing <code>minSdkVersion</code> to anything higher than <code>18</code>)
+    or use code from this project in a project that does not support Android 4.3.</li>
+    <li>You are <strong>FORBIDDEN</strong> to change the UI design style to Material Design 3 (Material You)
+    or use code from this project in a project that uses Material Design 3 (Material You).</li>
+    </ul>
 IssueTracker: ""
 Name: SettingsFirewall 设置防睛眼
 SourceCode: https://github.com/Xposed-Modules-Repo/top.canyie.settingsfirewall

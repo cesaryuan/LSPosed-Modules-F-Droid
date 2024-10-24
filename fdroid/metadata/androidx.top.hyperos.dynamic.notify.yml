@@ -3,13 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: 24.03.28
 CurrentVersionCode: 3
-Description: |-
-    <ul>
-    <li>简单优化了小图标显示</li>
-    <li>恢复以前的 tickerText</li>
-    <li>右边下滑小窗</li>
-    <li>右边图标点击跳转</li>
-    </ul>
+Description: |
+    <div align="center">
+    <h1>HyperIsle-Notify</h1>
+    <h2>HyperOS灵动接入通知</h2>
+    </div>
+    <h3>作用</h3>
+    <p>基于xp模块 作用给澎湃系统的灵动额头接入通知</p>
+    <h3>支持版本</h3>
+    <p>Android 13-14 并搭载HyperOS系统</p>
 IssueTracker: ""
 Name: IsleNotify
 SourceCode: https://github.com/Xposed-Modules-Repo/androidx.top.hyperos.dynamic.notify

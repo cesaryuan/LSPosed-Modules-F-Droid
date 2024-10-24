@@ -3,11 +3,29 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.0
 CurrentVersionCode: 3
-Description: |-
-    <ol>
-    <li>Fix: module config not work</li>
-    <li>Remove ConfigProvider and database, which means those configs of previous version will be discarded. It's better to do a clear-data job after upgrading to this new version.</li>
-    </ol>
+Description: |
+    <h1>Orange</h1>
+    <p>Orange is a xposed module that support to specify orientation per app, which is useful for some app
+    that need specified orientation to get better experience (such as MAME4droid).</p>
+    <h2>Target Platform</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="left">Platform</th>
+    <th align="center">Min API</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="left">Android</td>
+    <td align="center">30</td>
+    </tr>
+    <tr>
+    <td align="left">Xposed</td>
+    <td align="center">93</td>
+    </tr>
+    </tbody>
+    </table>
 IssueTracker: ""
 Name: Orange
 SourceCode: https://github.com/Xposed-Modules-Repo/lsposed.orange

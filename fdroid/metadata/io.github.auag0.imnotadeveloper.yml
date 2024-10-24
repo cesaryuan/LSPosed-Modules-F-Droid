@@ -3,7 +3,72 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: "<p>APK size was reduced due to changes in the native hook method\U0001FAE5<br>\n<strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/auag0/ImNotADeveloper/compare/80639b4ca0a257d34b4fb40022f703dff4c73a63...2-1.0.1\">auag0/ImNotADeveloper@<tt>80639b4...2-1.0.1</tt></a></p>"
+Description: |
+    <h1>ImNotADeveloper</h1>
+    <p>This is an Xposed module that hides things like developer mode and USB debugging status<br />
+    開発者モードやUsbデバッグの状態を隠すXposedモジュールです。</p>
+    <h2>How to open settings</h2>
+    <p>you can open module settings from LSPosed or open module settings from app info screen<br />
+    LSPosedでモジュール設定を押すか、アプリ情報画面の「アプリ内の設定」からモジュールの設定を開く事が出来ます</p>
+    <h2>hooked methods</h2>
+    <ul>
+    <li><strong>android.provider.Settings</strong>
+    <ul>
+    <li>Secure.getStringForUser()</li>
+    <li>System.getStringForUser()</li>
+    <li>Global.getStringForUser()</li>
+    <li>NameValueCache.getStringForUser()</li>
+    </ul>
+    </li>
+    <li><strong>android.os.SystemProperties</strong>
+    <ul>
+    <li>native_get()</li>
+    <li>native_get_int()</li>
+    <li>native_get_long()</li>
+    <li>native_get_boolean()</li>
+    </ul>
+    </li>
+    <li><strong>java.lang.ProcessManager</strong>
+    <ul>
+    <li>exec()</li>
+    </ul>
+    </li>
+    <li><strong>java.lang.ProcessImpl</strong>
+    <ul>
+    <li>start()</li>
+    </ul>
+    </li>
+    <li><strong>native</strong>
+    <ul>
+    <li>__system_property_get()</li>
+    <li>__system_property_find()</li>
+    </ul>
+    </li>
+    </ul>
+    <h2>banned keys (<a href="/app/src/main/java/io/github/auag0/imnotadeveloper/common/PropKeys.kt">latest</a>)</h2>
+    <ul>
+    <li><strong>property keys</strong>
+    <ul>
+    <li>sys.usb.ffs.ready</li>
+    <li>sys.usb.config</li>
+    <li>persist.sys.usb.config</li>
+    <li>sys.usb.state</li>
+    <li>init.svc.adbd</li>
+    </ul>
+    </li>
+    <li><strong>variable keys</strong>
+    <ul>
+    <li>development_settings_enabled</li>
+    <li>adb_enabled</li>
+    <li>adb_wifi_enabled</li>
+    </ul>
+    </li>
+    </ul>
+    <h2>super thanks (reference)</h2>
+    <ul>
+    <li><a href="https://github.com/xfqwdsj/IAmNotADeveloper"><strong>xfqwdsj/IAmNotADeveloper</strong></a></li>
+    <li><a href="https://github.com/rushiranpise/Hide-Debugging"><strong>rushiranpise/Hide-Debugging</strong></a></li>
+    </ul>
 IssueTracker: ""
 Name: ImNotADeveloper
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.auag0.imnotadeveloper

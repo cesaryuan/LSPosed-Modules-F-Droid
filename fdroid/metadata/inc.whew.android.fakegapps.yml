@@ -3,11 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "5"
 CurrentVersionCode: 10
-Description: |-
-    <h2>What's Changed</h2>
-    <ul>
-    <li>Add Android 14 support</li>
-    </ul>
+Description: |
+    <h1>FakeGApps</h1>
+    <p>Used in combination with <a href="https://microg.org/">MicroG</a> to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.</p>
+    <p>Supports Android 4.0 - 14</p>
+    <p><a href="https://github.com/whew-inc/FakeGApps">Original repository</a></p>
 IssueTracker: ""
 Name: FakeGApps
 SourceCode: https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps

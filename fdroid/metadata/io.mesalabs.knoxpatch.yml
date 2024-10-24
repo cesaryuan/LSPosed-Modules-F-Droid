@@ -3,12 +3,86 @@ Categories:
     - Xposed
 CurrentVersion: 0.7.2
 CurrentVersionCode: 7002
-Description: |-
+Description: |
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-readme-header.png" width="75%"/>
+      <br><br>
+      <a href="https://github.com/salvogiangri/KnoxPatch/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.mesalabs.knoxpatch?display_name=release&style=for-the-badge"/></a>
+      <a href="https://tooomm.github.io/github-release-stats/?username=Xposed-Modules-Repo&repository=io.mesalabs.knoxpatch"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.mesalabs.knoxpatch/total?style=for-the-badge"/></a>
+      <a href="https://github.com/salvogiangri/KnoxPatch"><img src="https://img.shields.io/badge/GitHub-Repo-lightgrey.svg?style=for-the-badge&logo=GitHub"/></a>
+      <br><br>
+      An <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> module to get Samsung apps/features working again in your rooted Galaxy device.
+      <br>
+    </p>
+    <h2>Supported Android versions</h2>
     <ul>
-    <li>SmartThings support</li>
+    <li>Android 9 (One UI 1.x)</li>
+    <li>Android 10 (One UI 2.x)</li>
+    <li>Android 11 (One UI 3.x)</li>
+    <li>Android 12 (One UI 4.x)</li>
+    <li>Android 12L (One UI 4.1.1)</li>
+    <li>Android 13 (One UI 5.x)</li>
+    <li>Android 14 (One UI 6.x)</li>
     </ul>
-    <p>* If you have troubles installing the app, try the "sep-lite" apk.<br>
-    ** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
+    <h2>Supported apps</h2>
+    <ul>
+    <li>✅ <a href="https://www.samsung.com/uk/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/">Auto Blocker</a></li>
+    <li>➖ <a href="https://www.samsung.com/us/support/owners/app/galaxy-wearable-watch">Galaxy Wearable (Gear Manager)</a> (<a href="#knoxpatch-enhancer">Enhancer</a> required)</li>
+    <li>✅ Samsung Cloud (<a href="https://www.samsung.com/uk/support/mobile-devices/what-is-find-my-mobile-and-how-can-i-use-it-to-locate-lock-or-wipe-my-device/">FMM</a>, <a href="https://www.samsung.com/ae/support/mobile-devices/what-is-the-enhanced-data-protection-function-and-when-can-i-use-it/">Enhanced data protection</a>)</li>
+    <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-flow/">Samsung Flow</a></li>
+    <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-health/">Samsung Health</a></li>
+    <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-health-monitor/">Samsung Health Monitor</a></li>
+    <li>✅ <a href="https://www.samsungknox.com/en/solutions/personal-apps/secure-folder">Secure Folder</a> (<a href="#knoxpatch-enhancer">Enhancer</a> might be required)</li>
+    <li>✅ <a href="https://www.samsung.com/uk/support/mobile-devices/what-is-the-secure-wifi-feature-and-how-do-i-enable-or-use-it/">Secure Wi-Fi</a></li>
+    <li>✅ <a href="https://www.samsung.com/uk/smartthings/app/">SmartThings</a></li>
+    <li>➖ <a href="https://www.samsung.com/uk/tvs/tv-buying-guide/what-is-samsung-smart-view/">Smart View</a> (<a href="#knoxpatch-enhancer">Enhancer</a> required)</li>
+    <li>✅ <a href="https://www.samsung.com/uk/support/mobile-devices/how-to-keep-your-personal-data-safe-using-private-share/">Private Share</a>*</li>
+    <li>❌ <a href="https://www.samsung.com/uk/apps/samsung-pass/">Samsung Pass</a></li>
+    <li>❌ <a href="https://www.samsung.com/uk/apps/samsung-wallet/">Samsung Wallet (Pay)</a></li>
+    </ul>
+    <p>* Devices running One UI 5.1 or lower might need <a href="https://github.com/chiteroman/PlayIntegrityFix/releases/latest">PIF</a> or similar for this feature to work correctly since the integration in Quick Share.</p>
+    <h2>KnoxPatch Enhancer</h2>
+    <p>KnoxPatch Enhancer is a flashable zip that will take care of the (currently) non-fixable apps/features via the Xposed API’s. There are two different install modes:</p>
+    <ul>
+    <li>
+    <p>Via the <a href="https://github.com/topjohnwu/Magisk">Magisk</a>/<a href="https://github.com/tiann/KernelSU">KernelSU</a> app (fix Galaxy Wearable apps/Smart View):</p>
+    <p>Download the module zip from the <a href="https://github.com/salvogiangri/KnoxPatch/releases/latest">latest release</a> and install it from the “Modules” tab inside the Magisk/KernelSU app. The app will then show an “Enhanced” badge if the module is installed and active:</p>
+    </li>
+    </ul>
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-enhancer.jpg" width="35%" />
+    </p>
+    <ul>
+    <li>
+    <p>Via a custom recovery (fix Secure Folder on legacy devices):</p>
+    <p>Legacy devices running One UI 2.x or 3.x with <a href="https://source.android.com/docs/security/features/encryption/file-based">FBE</a> require additional patches in the system partition to fix Secure Folder. Download the module zip from the <a href="https://github.com/salvogiangri/KnoxPatch/releases/latest">latest release</a> and install it via a custom recovery, this will apply the necessary patches to fix Secure Folder. The zip will also create a backup of your original system files, flashing it again will restore them.</p>
+    </li>
+    </ul>
+    <h2>Credits</h2>
+    <ul>
+    <li>Samsung</li>
+    <li><a href="https://github.com/LSPosed">LSPosed Team</a></li>
+    <li><a href="https://github.com/fankes/YukiHookAPI">YukiHookAPI</a></li>
+    <li><a href="https://github.com/RikkaApps">Rikka</a></li>
+    </ul>
+    <h2>Copyright</h2>
+    <pre><code>/*
+     * Copyright (C) 2022 BlackMesa123
+     *
+     * This program is free software: you can redistribute it and/or modify
+     * it under the terms of the GNU General Public License as published by
+     * the Free Software Foundation, either version 3 of the License, or
+     * (at your option) any later version.
+     *
+     * This program is distributed in the hope that it will be useful,
+     * but WITHOUT ANY WARRANTY; without even the implied warranty of
+     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     * GNU General Public License for more details.
+     *
+     * You should have received a copy of the GNU General Public License
+     * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+     */
+    </code></pre>
 IssueTracker: ""
 Name: KnoxPatch
 SourceCode: https://github.com/Xposed-Modules-Repo/io.mesalabs.knoxpatch

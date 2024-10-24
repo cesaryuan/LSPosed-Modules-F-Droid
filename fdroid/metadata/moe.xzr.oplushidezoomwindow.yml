@@ -3,10 +3,37 @@ Categories:
     - Xposed
 CurrentVersion: "1.2"
 CurrentVersionCode: 3
-Description: |-
+Description: |
+    <h1>OplusHideZoomWindow</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/moe.xzr.oplushidezoomwindow/blob/main/README_zh-rCN.md">中文版</a></p>
+    <p>Magic to hide zoom window from screenshots &amp; screen-records.</p>
+    <img src="https://github.com/libxzr/OplusHideZoomWindow/raw/master/gifs/1.gif" width="250" height="445" />
+    <h2>Compatibility</h2>
+    <p>This is a Xposed module.</p>
+    <p>Compatible for ColorOS 13 and OxygenOS 13 only.</p>
+    <p>Only adapted to <code>Oneplus 8 OxygenOS 13.0.0 F.13</code> and <code>Oneplus 8T ColorOS 13.0.0 F.13</code>.</p>
+    <p><strong>There’s no gurantee for any other version or device.</strong></p>
+    <h2>Features</h2>
     <ul>
-    <li>Hide all apps view of edge panel</li>
+    <li>Hide zoom window from screenshots &amp; screen-records.</li>
+    <li>Hide edge panel from screenshots &amp; screen-records.</li>
+    <li>Hide input method from screenshots &amp; screen-records.</li>
+    <li>Hide screenshot preview from screen-records.</li>
     </ul>
+    <h2>Known bugs</h2>
+    <p>When switching an app between zoom window and fullscreen mode:</p>
+    <ul>
+    <li>It flickers.</li>
+    <li>The app will go around in its lifecycle. (<code>onPause()</code>-&gt;<code>onStop()</code>-&gt;<code>onStart()</code>-&gt;<code>onResume()</code>)</li>
+    </ul>
+    <p>All of this won’t be fixed as they are technical compromises.</p>
+    <h2>Technical details</h2>
+    <p><a href="https://blog.xzr.moe/archives/136/">https://blog.xzr.moe/archives/136/</a></p>
+    <p>Sorry but there’s no English version :) .</p>
+    <h2>Notice</h2>
+    <p>This in only a POC. Do not use it in any illegal way.</p>
+    <h2>Source code</h2>
+    <p><a href="https://github.com/libxzr/OplusHideZoomWindow">https://github.com/libxzr/OplusHideZoomWindow</a></p>
 IssueTracker: ""
 Name: OplusHideZoomWindow
 SourceCode: https://github.com/Xposed-Modules-Repo/moe.xzr.oplushidezoomwindow

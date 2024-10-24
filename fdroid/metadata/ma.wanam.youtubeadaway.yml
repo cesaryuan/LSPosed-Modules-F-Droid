@@ -3,7 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: 5.1.0
 CurrentVersionCode: 510
-Description: <p>Update YouTube support to 18.36+</p>
+Description: |
+    <h1>YouTubeAdAway</h1>
+    <p>Xposed module to block YouTube in-video ads and enable background playback on the official YouTube app</p>
+    <p>Feel free to raise an issue if a newer YouTube update is not supported, and please make sure you provide your xposed logs.</p>
+    <p>You are more than welcome to contribute with pull requests!</p>
 IssueTracker: ""
 Name: YouTube AdAway
 SourceCode: https://github.com/Xposed-Modules-Repo/ma.wanam.youtubeadaway

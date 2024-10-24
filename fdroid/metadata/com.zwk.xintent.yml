@@ -3,7 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: v1.0.0
 CurrentVersionCode: 100
-Description: <p>Initial release</p>
+Description: |
+    <h1>XIntent</h1>
+    <p>An Intent traffic monitoring tool.</p>
+    <h2><a href="https://github.com/2Y2s1mple/xintent">Source</a></h2>
+    <h2>Features</h2>
+    <ol>
+    <li>Capture Intent communication and print its traffic data well.</li>
+    <li>Monitor the start and termination of App process.</li>
+    <li>Store the above records persistently.</li>
+    <li>Support dump log.zip to module external storage.</li>
+    </ol>
+    <h2>Requirements</h2>
+    <ul>
+    <li>Android 9+</li>
+    <li><a href="https://github.com/RikkaApps/Riru">Riru</a></li>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a> or <a href="https://github.com/ElderDrivers/EdXposed">EdXposed</a></li>
+    </ul>
+    <h2>Installation</h2>
+    <ol>
+    <li>Install latest version of <a href="https://github.com/topjohnwu/Magisk">Magisk</a></li>
+    <li>Install <a href="https://github.com/Magisk-Modules-Repo/riru-core">Riru</a> and <a href="https://github.com/Magisk-Modules-Repo/riru_lsposed">Riru LSPosed</a> from Magisk module repository</li>
+    <li>Install XIntent package</li>
+    <li>Enable module in LSPosed app with recommended scope, reboot</li>
+    </ol>
 IssueTracker: ""
 Name: An Intent traffic monitoring tool.
 SourceCode: https://github.com/Xposed-Modules-Repo/com.zwk.xintent

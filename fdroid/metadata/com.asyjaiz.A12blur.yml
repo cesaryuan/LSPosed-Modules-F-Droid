@@ -3,20 +3,21 @@ Categories:
     - Xposed
 CurrentVersion: 2.0-G
 CurrentVersionCode: 7
-Description: |-
-    <h2>Introducing to you: Translucent Shade with a GUI app!</h2>
-    <p>Now the QS area is customizable too! There may be not as many features as you've expected, but some are still planned.</p>
-    <h3>Upon activating the GUI version untick and tick SystemUI in LSPosed. It's important!</h3>
-    <h3>Additional note: the compatibility of the GUI app with Android 15 might be broken because of the LSPosed again. Keep that in mind.</h3>
-    <p>I know it sounds dumb, but there's some kind of preferences bug, and sadly on Android 15 they won't work at all. We'll have to wait for an official fix.<br>
-    It might work on your device, but it didn't on mine. Try it out.</p>
-    <h3>Changes</h3>
+Description: |
+    <h1>Translucent Shade</h1>
+    <h3>Previously known as “Notification Shade Transparency”</h3>
+    <p><strong>Compatible with Android 12+, AOSP-based only, GUI application available</strong></p>
+    <p><img src="https://raw.githubusercontent.com/AsyJAIZ/Notification-Shade-Transparency/refs/heads/main/notifshade15d.png" alt="Dark theme preview on Android 15" /><img src="https://raw.githubusercontent.com/AsyJAIZ/Notification-Shade-Transparency/refs/heads/main/notifshade15l.png" alt="Light theme preview on Android 15" /></p>
+    <h2>To-Do</h2>
     <ul>
-    <li>"Rebranding"</li>
-    <li>User interface</li>
-    <li>Improved logging</li>
-    <li>Additional option</li>
+    <li><input type="checkbox" checked="" disabled="" /> GUI</li>
+    <li><input type="checkbox" checked="" disabled="" /> QS tiles part</li>
+    <li><input type="checkbox" disabled="" /> Tint coloring</li>
     </ul>
+    <h2>Older systems preview</h2>
+    <p><img src="https://raw.githubusercontent.com/AsyJAIZ/Notification-Shade-Transparency/refs/heads/main/notifshade13.png" alt="Light theme preview on Android 13" /><img src="https://raw.githubusercontent.com/AsyJAIZ/Notification-Shade-Transparency/refs/heads/main/notifshade.png" alt="Preview on Android 12 without tint" title="Preview on Android 12 without tint" /></p>
+    <h3>License</h3>
+    <p>This project is licensed under the Apache License, Version 2.0 (the “License”). See <a href="https://github.com/AsyJAIZ/Notification-Shade-Transparency/blob/main/LICENSE">LICENSE</a> for details.</p>
 IssueTracker: ""
 Name: Translucent Shade
 SourceCode: ""

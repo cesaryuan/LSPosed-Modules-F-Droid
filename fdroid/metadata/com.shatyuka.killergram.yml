@@ -3,13 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: 22.03.12
 CurrentVersionCode: 202203120
-Description: |-
-    <h3>Add more apps support</h3>
+Description: |
+    <h1>Killergram</h1>
+    <p>An Android Xposed module to remove sponsored messages of Telegram.</p>
+    <p>Also allows you to copy or save messages when “Restrict saving content” is enabled. Forwarding messages is still not working due to server limitation.</p>
+    <h3>Support clients</h3>
     <ul>
+    <li><strong>Official</strong> org.telegram.messenger</li>
+    <li><strong>Official</strong> org.telegram.messenger.web</li>
+    <li><strong>Official</strong> org.telegram.messenger.beta</li>
+    <li><strong>NekoX</strong> nekox.messenger</li>
+    <li><strong>Nanogram</strong> com.cool2645.nekolite</li>
+    <li><strong>Plus Messenger</strong> org.telegram.plus</li>
+    <li><strong>iMe Messenger</strong> com.iMe.android</li>
+    <li><strong>BGram</strong> org.telegram.BifToGram</li>
+    <li><strong>Catogram</strong> ua.itaysonlab.messenger</li>
     <li><strong>Forkgram</strong> org.forkclient.messenger</li>
+    <li><strong>Forkgram</strong> org.forkclient.messenger.beta</li>
+    <li><strong>aka</strong> org.aka.messenger</li>
+    <li><strong>TurboTel Pro</strong> ellipi.messenger</li>
     <li><strong>Catogram X</strong> org.nift4.catox</li>
-    <li><strong>OwlGram</strong> ellipi.messenger</li>
+    <li><strong>OwlGram</strong> it.owlgram.android</li>
     </ul>
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="https://choosealicense.com/licenses/gpl-3.0/">GNU General Public Licence, version 3</a>.</p>
 IssueTracker: ""
 Name: Killergram
 SourceCode: https://github.com/Xposed-Modules-Repo/com.shatyuka.killergram

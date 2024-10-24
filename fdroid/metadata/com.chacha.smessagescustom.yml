@@ -3,7 +3,21 @@ Categories:
     - Xposed
 CurrentVersion: 1.5.1
 CurrentVersionCode: 1
-Description: <p>Fixed a stupid bug preventing to change the appearance of Samsung Messages</p>
+Description: |
+    <p>Hey !</p>
+    <h1>This module allow you to customize colors of Samsung Messages app !</h1>
+    <p>/!\ Samsung Messages must be killed after applying new colors /!<br />
+    /!\ THIS IS NOT COMPATIBLE WITH THE ONEUI 2.x MESSAGES VERSION /!\</p>
+    <p>DONT FORGET TO SAY THANKS ON MY XDA PAGE PLS ’^^</p>
+    <h2>Used libraries :</h2>
+    <p><a href="https://github.com/chengxuncc/fileprefs">Fileprefs</a></p>
+    <p><a href="https://github.com/AzeeSoft/AndroidPhotoshopColorPicker">PhotoshopColorPicker</a></p>
+    <p><a href="https://github.com/rovo89/XposedBridge">XposedBridge</a></p>
+    <p><a href="https://github.com/Chainfire/libsuperuser">Libsuperuser</a></p>
+    <p><a href="https://github.com/airbnb/paris">Airbnb Paris</a></p>
+    <p>If you want to help me or suggest me some ideas you can send mail
+    Mail : <a href="mailto:xhookmandev@gmail.com">xhookmandev@gmail.com</a></p>
+    <h3>You can now give me <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3YW496LXQZ5A&amp;source=url">donation</a> if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)</h3>
 IssueTracker: ""
 Name: Samsung Messages Customiser
 SourceCode: https://github.com/Xposed-Modules-Repo/com.chacha.smessagescustom

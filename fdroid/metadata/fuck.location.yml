@@ -3,9 +3,92 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.13
 CurrentVersionCode: 722
-Description: |-
-    <p>Support Android 12 based MIUI 13.</p>
-    <p>支持基于 Android 12 的 MIUI 13.</p>
+Description: |
+    <h1>Fuck Location</h1>
+    <p><a href="https://github.com/Mikotwa"><img src="https://img.shields.io/github/stars/Mikotwa/FuckLocation?label=Stars" alt="Stars" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/fuck.location/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/fuck.location?label=Release" alt="Release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/fuck.location/releases/latest"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/fuck.location/total" alt="Download" /></a>
+    <a href="https://t.me/FuckLocation"><img src="https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram" alt="Channel" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/fuck.location/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Xposed-Modules-Repo/fuck.location" alt="GitHub license" /></a>
+    <a href="https://github.com/Mikotwa/FuckLocation/actions"><img src="https://img.shields.io/github/workflow/status/Mikotwa/FuckLocation/Fuck%20Location%20CI%20Build?label=%F0%9F%9A%80%20CI%20Build&amp;logo=Fuck%20Location" alt="GitHub Workflow Status" /></a></p>
+    <p>A simple xposed module that helps you fully control your location.</p>
+    <p>一个可以帮助你完全控制位置授权的模块</p>
+    <p>Currently, you may return custom location to specific apps.</p>
+    <p>目前，你可以对特定的应用返回自定义位置信息。</p>
+    <h2>Early Alpha version / 早期版本</h2>
+    <p>This module is still in early developement stage. No guarantee whether it will works or not.</p>
+    <p>该模块处于早期开发阶段。不保证它一定按预期工作。</p>
+    <p>Targeted in Android 12. Previous versions (like Android 11, 10 and 9) are supported only in theory.</p>
+    <p>适配 Android 12。以前的版本（如 Android 11、10 或 9）仅仅制作了理论上（即未经真机测试）的支持。</p>
+    <h2>What’s working / 目前已经实现</h2>
+    <ul>
+    <li>Custom WiFi information / 自定义 WiFi 信息</li>
+    <li>Custom cell tower information (over LTE / Nr) / 自定义基站信息（LTE 或 Nr 网络制式）</li>
+    <li>Custom location provider (like GPS) information / 自定义基于 LocationProvider 返回的位置信息（如 GPS）</li>
+    <li>Custom location information coming from requestLocationUpdates / 自定义从 requestLocationUpdates 返回的位置信息</li>
+    </ul>
+    <h2>Plan / 待实现</h2>
+    <blockquote>
+    <p>⚠️ DO NOT urge any features that are listed below. They will coming soon in future. / 请<strong>不要</strong>催更下面的特性。它们将在合适的时间到来</p>
+    </blockquote>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> <del>Remove root requirement / 移除对 root 权限的需求</del></li>
+    <li><input type="checkbox" checked="" disabled="" /> <del>Better app selection page (Search, Organized by alphabets…) / 更好的应用选择页面（搜索、按字母排序…）</del></li>
+    <li><input type="checkbox" disabled="" /> Implement test settings page / 实现设置测试</li>
+    <li><input type="checkbox" disabled="" /> Fix issues that some apps still not working / 修复部分应用仍不能用的问题</li>
+    <li><input type="checkbox" checked="" disabled="" /> <del>Support custom values of cell tower. / 支持自定义基站的返回值</del></li>
+    <li><input type="checkbox" disabled="" /> Support custom values of WiFi, etc. / 支持 WiFi 等信息的自定义</li>
+    <li><input type="checkbox" disabled="" /> Support individual settings for apps / 支持对应用单独进行设置</li>
+    </ul>
+    <h2>Usage / 使用方法</h2>
+    <ol>
+    <li>
+    <p>Download &amp; activate this module, then restart. 下载并激活该模块，并重启手机</p>
+    </li>
+    <li>
+    <p>Select applications that you want to take ownership. 选择你想要接管权限的应用</p>
+    </li>
+    <li>
+    <p>Customize the information you want to return to these apps. 设置你想要给这些应用返回的自定义信息</p>
+    </li>
+    <li>
+    <p>That’s all. No reboot required. 完成。不需要重启，实时生效。</p>
+    </li>
+    </ol>
+    <h2>Q &amp; A / 常见疑问解答</h2>
+    <blockquote>
+    <p>After reboot, this module still crash unexpectedly. / 在重启后，模块依然意外闪退。</p>
+    </blockquote>
+    <p>Look at your log. If anything related to:</p>
+    <p><em>Crash unexpectedly: java.lang.NoClassDefFoundError</em></p>
+    <p>appears, please deactivate all your module (except Fuck Location) temporary and reboot your phone to see if it works.</p>
+    <p>If it works, then something went wrong on <em>your</em> side. Check if any incapable modules were activated.</p>
+    <p>If it still not work, file an issue.</p>
+    <p>请查看你的日志。如果有任何类似于：</p>
+    <p><em>Crash unexpectedly: java.lang.NoClassDefFoundError</em></p>
+    <p>的字样，请先临时禁用除 Fuck Location 以外的模块，并重启手机。</p>
+    <p>如果它能正常运行，问题出在<em>你</em>这里。请检查所有潜在的不兼容的模块。</p>
+    <p>如果依然出现崩溃问题，请发 issue。</p>
+    <blockquote>
+    <p>Will this module implement mock location? / 该模块是否会适配模拟位置信息？</p>
+    </blockquote>
+    <p>No. It is too easy to be detected. / 不会。它太容易被检测到了。</p>
+    <blockquote>
+    <p>About cell tower information? / 关于基站信息？</p>
+    </blockquote>
+    <p>Do NOT ask us. Find for yourself or leave it empty. / 请不要问。有能力自己找，没能力留空。</p>
+    <blockquote>
+    <p>Something went wrong on <em>Fuck Location</em> side! / Fuck Location 有问题！</p>
+    </blockquote>
+    <p>Please report this issue with <strong>detailed</strong> logs. / 请携带<strong>详尽</strong>日志文件发 issue。</p>
+    <h2>Scope / 作用域</h2>
+    <p>You should only select / 你只应选择：</p>
+    <ul>
+    <li>Android (android)</li>
+    <li>Phone (com.android.phone)</li>
+    </ul>
+    <p>Choose anything other than that would not bring you any extra benefits.
+    选择不是上述的两个应用不会给你带来额外的好处。</p>
 IssueTracker: ""
 Name: 虚拟定位 / Fuck Location
 SourceCode: https://github.com/Xposed-Modules-Repo/fuck.location

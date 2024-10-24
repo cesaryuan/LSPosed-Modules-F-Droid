@@ -3,16 +3,64 @@ Categories:
     - Xposed
 CurrentVersion: 2.6.0
 CurrentVersionCode: 221
-Description: |-
+Description: |
+    <div align="center">
+    <h1>Alfa Bank Patcher</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/total" alt="downloads" />
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher" alt="GitHub release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher" alt="GitHub Release Date" /></a>
+    <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Telegram Group" /></a>
+    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=117766501"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a></p>
+    <p>Скрытие рекламы различного формата и управление push уведомлениями в приложении <a href="https://apps.rustore.ru/app/ru.alfabank.mobile.android">Альфа Банк</a></p>
+    </div>
+    <h3>Общее:</h3>
     <ul>
-    <li>Поддержка версии 12.21.10</li>
-    <li>Скрытие иконки модуля теперь доступно только в root режиме.</li>
-    <li>Убрана верхняя навигация между экранами модуля.</li>
-    <li>Добавлена возможность видеть в интерфейсе модуля отвалившиеся перехваты после обновления. Данный функционал не будет активен если у вас включён "Автосканер" или Альфа Банк давно не запускался.</li>
-    <li>Добавлена возможность выбора типа сброса данных модуля.</li>
-    <li>Редизайн счётчика количества отфильтрованных push сообщений, теперь он располагается в разделе модуля "Push". Функционал зависим от активности процесса Альфа Банка.</li>
-    <li>Модуль теперь ссылается на репозитории JingMatrix.</li>
+    <li>Контроль проверок на валидность устройства для AlfaPay и сканера отпечатка включены всегда.</li>
     </ul>
+    <h3>Контролируемый функционал:</h3>
+    <ul>
+    <li>Различные баннеры с предложениями</li>
+    <li>Аналитика</li>
+    <li>Внутреннее самообновление</li>
+    <li>Профиль. Госуслуги</li>
+    <li>Скрытие раздела “Выгода”</li>
+    <li>Чат. Скрытие предложений в истории push уведомлений</li>
+    <li>Чат. Фильтрация видимости доступных чатов</li>
+    <li>Push. Загрузка конфигурации фильтрации</li>
+    <li>Push. Фильтрация по ключевым словам (белый/чёрный список)</li>
+    <li>Push. Логирование отфильтрованных Push сообщений</li>
+    </ul>
+    <h3>Расположения баннеров:</h3>
+    <ul>
+    <li>Главная: “призрачные” предложения в списке счетов, баннер-карусель как один из неубираемых виджетов, реферальный баннер сверху</li>
+    <li>Выгода: баннер-карусель в разделе “Всё”, реферальные баннеры и раздел, кредитные предложения в бизнес услугах, раздел предложений</li>
+    <li>История: предложения кредита сверху над самой историей</li>
+    <li>Переводы: предложение кредита после успешного перевода</li>
+    <li>После авторизации: истории, предложение биометрии</li>
+    </ul>
+    <h3>Аналитика:</h3>
+    <ul>
+    <li>AppCenter</li>
+    <li>AppsFlyer</li>
+    <li>Firebase analytics</li>
+    <li>Flurry</li>
+    <li>MyTracker</li>
+    <li>SnowPlow</li>
+    <li>GROUP-IB</li>
+    </ul>
+    <h3>Требования:</h3>
+    <ul>
+    <li>Android 8.0+</li>
+    <li>Установленное приложение <a href="https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android">Альфа-Банк</a></li>
+    </ul>
+    <h3>Обратите внимание:</h3>
+    <ul>
+    <li>Модульная часть использует рут возможности для завершения процесса Альфа Банка и манипуляции с логами push сообщений.</li>
+    <li>Для более эффективной работы push фильтра рекомендуется использовать сторонний фильтр sms сообщений т.к. реализация текущего фильтра работает по принципу “не в сети” для искомый push сообщений, сервер может вам присылать тоже сообщение на зарегистрированный номер через смс.</li>
+    <li>Модуль имеет возможность работать в режиме <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>
+    </ul>
+    <h2>For non-Russian users:</h2>
+    <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android">Alfa-Bank</a>, you don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
 IssueTracker: ""
 Name: Alfa Bank Patcher
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher

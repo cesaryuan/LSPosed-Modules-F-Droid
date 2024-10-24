@@ -3,10 +3,22 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.1
 CurrentVersionCode: 7
-Description: |-
-    <ul>
-    <li><a href="https://github.com/ztc1997/FakeDCBacklight/commit/ac8b4584fc121b67c556512c784f4a8e23781666">Add Disable on Screenoff switch</a>, Solve the problem of AOD brightness and under-screen fingerprint, which may cause flickering when opening the screen</li>
-    </ul>
+Description: |
+    <h1>伪 DC 调光</h1>
+    <p>当亮度设置低于某值时，拦截硬件亮度下调，并对应修改极暗模式的压暗强度。<br />
+    直接拖动系统亮度条即可自动调节，也不影响截图的亮度。</p>
+    <h2>注意</h2>
+    <p>最低屏幕亮度是HAL的亮度值，不一定每台机型都是0~100%，例如小米12s是0~50%，你可以调整亮度到不会频闪的最小亮度，然后查看”当前 HAL 亮度”。本人实测小米12s最低亮度为7.99%。</p>
+    <h2>已知问题</h2>
+    <ol>
+    <li>~屏下环境光传感器的机型，在低亮度下，自动亮度可能乱跳（1.0.1修复）~</li>
+    <li>会导致其它颜色管理功能（如色温管理、护眼模式等）失效</li>
+    </ol>
+    <h2>捐赠支持</h2>
+    <p>点个 <strong>Star</strong> 也是对我的支持。
+    如果这个项目对你帮助很大，可以考虑给我送杯奶茶。</p>
+    <img align="center" alt="donate_alipay" width = "250" src="https://github.com/Xposed-Modules-Repo/com.ztc1997.fakedcbacklight/raw/main/img/donate_alipay.jpg"/>
+    <img align="center" alt="donate_wechat" width = "250" src="https://github.com/Xposed-Modules-Repo/com.ztc1997.fakedcbacklight/raw/main/img/donate_wechat.jpg"/>
 IssueTracker: ""
 Name: 伪 DC 调光
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ztc1997.fakedcbacklight

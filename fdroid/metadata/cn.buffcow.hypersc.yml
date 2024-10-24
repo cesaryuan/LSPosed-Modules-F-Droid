@@ -3,14 +3,26 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
-Description: |-
-    <ul>
-    <li>首个版本</li>
-    </ul>
-    <hr>
-    <ul>
-    <li>The first version.</li>
-    </ul>
+Description: |
+    <h1>智能断充（HyperSmartCharge）</h1>
+    <p>让<strong>支持导航断充</strong>的设备在非导航情景下也能使用智能断充，妈妈再也不用担心我的手机过充啦！</p>
+    <p>Allow devices that <strong>support navigation smart charge</strong> to use smart charging in non-navigation situations.</p>
+    <h2>使用</h2>
+    <ol>
+    <li>在 LSPosed 管理器中激活模块</li>
+    <li>作用域勾选 系统框架(<strong><code>system</code></strong>)</li>
+    <li><strong>重启手机</strong></li>
+    </ol>
+    <h2>注意</h2>
+    <ol>
+    <li>需要设备本身支持导航断充并搭载了 HyperOS 系统</li>
+    <li>请到 <code>设置</code>——<code>省电与电池</code>——<code>电池保护</code> 界面并打开 <strong><code>导航断充保护</code></strong></li>
+    <li>目前仅在 小米14(pro) 下测试通过</li>
+    </ol>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc/releases">LSPosed 仓库</a></p>
+    <h2>无效</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
 IssueTracker: ""
 Name: 智能断充（HyperSmartCharge）
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc

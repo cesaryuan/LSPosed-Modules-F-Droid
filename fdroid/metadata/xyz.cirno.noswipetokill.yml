@@ -3,6 +3,27 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
+Description: |
+    <h1>NoSwipeToKill</h1>
+    <p>禁用 MIUI 划卡即强杀应用行为<del>，又名你杀我 VPN 干啥</del></p>
+    <h2>兼容性</h2>
+    <p>在 MIUI 14 以及基于 Android 14 的 HyperOS 上测试通过。</p>
+    <p>如果在其他版本上正常工作，欢迎前往<a href="https://github.com/dantmnf/NoSwipeToKill/issues">源码仓库</a>回报。</p>
+    <h2>配置</h2>
+    <table>
+    <thead>
+    <tr>
+    <th>在最近任务中上锁</th>
+    <th>或后台策略设置为无限制</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><img src="https://github.com/Xposed-Modules-Repo/xyz.cirno.noswipetokill/assets/2252500/117c34eb-3a02-4cf6-b091-8d3ece32ab71" alt="Screenshot_2024-01-10-22-25-07-905_com miui home" /></td>
+    <td><img src="https://github.com/Xposed-Modules-Repo/xyz.cirno.noswipetokill/assets/2252500/252e1206-60d7-4e73-9d57-1c360833cf51" alt="Screenshot_2024-01-10-22-25-16-662_com miui securitycenter" /></td>
+    </tr>
+    </tbody>
+    </table>
 IssueTracker: ""
 Name: NoSwipeToKill
 SourceCode: https://github.com/Xposed-Modules-Repo/xyz.cirno.noswipetokill

@@ -3,13 +3,70 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.0
 CurrentVersionCode: 2
-Description: |-
-    <h3>Compatibility Update</h3>
+Description: |
+    <h1>Disable-FLAG_SECURE</h1>
+    <p>Xposed Module to Disable <code>FLAG_SECURE</code>, enabling screenshots, screen sharing and recording in apps that normally
+    wouldn’t allow it.</p>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure/total?color=blue" alt="Download-Count" /></p>
+    <h2>Usage for LSPosed:</h2>
     <ul>
-    <li>Adds support for Netflix and Disney+</li>
-    <li>Should support some other apps too that work in the same way Netflix and Disney+ do</li>
-    <li>Additional instructions for Netflix and Disney+ support <a href="https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure#additional-information-on-drm-encrypted-content">here</a></li>
+    <li>Enable the module</li>
+    <li>Select <code>System Framework</code></li>
+    <li>Select the target app in which you want to enable screenshots</li>
+    <li>Reboot</li>
     </ul>
+    <h2>Note:</h2>
+    <ul>
+    <li>
+    <p>This app does not prevent apps from detecting that you’ve taken a screenshot or recorded it like Snap or Instagram.
+    This only enables it in apps that prohibit screenshots and recording. So don’t screenshot your girlfriend’s nudes.
+    (You probably don’t have one since you’re reading this anyway)</p>
+    </li>
+    <li>
+    <p>Apps Tested on:</p>
+    <ul>
+    <li>Amazon Prime Video</li>
+    <li>Netflix (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+    <li>Disney+ (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+    <li>Telegram (Secret Chat &amp; Disappearing Media)</li>
+    <li>Reddit (Anonymous Browsing Mode)</li>
+    <li>Google Chrome (Incognito Mode)</li>
+    <li>Brave Browser (Incognito Mode)</li>
+    </ul>
+    </li>
+    <li>
+    <p>This module may work on other apps too with or
+    without <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>.
+    (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</p>
+    </li>
+    <li>
+    <p>You can contribute names of apps <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">here</a> that are working and
+    are not listed here, so I can add it to the list.</p>
+    </li>
+    <li>
+    <p>If you face any issue or have a suggestion then feel free to open an
+    issue <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">here</a>.</p>
+    </li>
+    <li>
+    <p>This app is a fork of the existing apps but with better compatibility:</p>
+    <ul>
+    <li><a href="https://github.com/veeti/DisableFlagSecure/">https://github.com/veeti/DisableFlagSecure/</a></li>
+    <li><a href="https://github.com/LSPosed/DisableFlagSecure/">https://github.com/LSPosed/DisableFlagSecure/</a></li>
+    <li><a href="https://gitlab.com/azhao12345/disableflagsecure/">https://gitlab.com/azhao12345/disableflagsecure/</a></li>
+    </ul>
+    </li>
+    </ul>
+    <h3>Additional Information on DRM encrypted content</h3>
+    <p>This is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these
+    instructions.</p>
+    <p>When playing DRM encrypted content, most devices will use hardware decryption capabilities. This hardware decryption
+    will push the video directly onto the screen, bypassing any screenshots/screenshare/recording functionality.</p>
+    <p>One possible solution is to disable this hardware decryption by installing the Magisk
+    module <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>. This will force the
+    device to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and
+    recording.</p>
+    <p>Installing this module might have unintended consequences, such as lowered video quality.
+    <a href="https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393">Read more</a></p>
 IssueTracker: ""
 Name: Disable-FLAG_SECURE
 SourceCode: https://github.com/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure

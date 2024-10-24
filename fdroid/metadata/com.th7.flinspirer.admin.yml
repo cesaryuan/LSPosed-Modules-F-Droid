@@ -3,9 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: "0.50"
 CurrentVersionCode: 50
-Description: |-
-    <p>支持穿腾讯壳<br>
-    功能一样</p>
+Description: |
+    <h1>FLinspirer</h1>
+    <p>基于<strong>5.03.012.1</strong>和<strong>应用商店5.6.005</strong>编写 其余版本请自行定位被混淆的类和方法</p>
+    <h3>已实现的功能：</h3>
+    <p><code>管理员二维码瞎扫就开</code></p>
+    <p><code>禁止手动更新策略</code></p>
+    <p><code>禁止退出时动态密码</code></p>
+    <p><code>永不违规</code></p>
+    <p><code>违规日志null</code></p>
+    <p><code>不上报root</code></p>
+    <p><code>桌面强制显示所有系统应用（重新登陆或者联网）</code></p>
+    <p><code>可取消Dialog</code></p>
+    <p><code>取得内部Context</code></p>
+    <p><code>取消强制安装应用</code></p>
+    <p><code>所有应用网络例外白名单</code></p>
+    <p><code>所有非系统应用可卸载</code></p>
+    <p><code>显示应用“真实”下载次数</code></p>
+    <p><code>取消apk校验</code></p>
+    <p><code>领创log写入文件（日志在/sdcard/FLinspirer/Linspirer_log/下 第二天会删除之前的文件）</code></p>
+    <p><code>command过滤恢复出厂 重启 上报位置等</code></p>
+    <p><code>改名（代码被注释掉了 想要自己编译）</code></p>
+    <p><code>自定义桌面显示activity（同上）</code></p>
 IssueTracker: ""
 Name: FLinspirer
 SourceCode: https://github.com/Xposed-Modules-Repo/com.th7.flinspirer.admin

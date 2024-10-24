@@ -3,7 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: "<p>618快乐\U0001F973</p>"
+Description: |
+    <h1>Fuck淘宝京东跳转</h1>
+    <p>这是一个Lsposed模块，禁止应用跳转到淘宝京东应用，尤其是广告！本模块不会屏蔽应用的广告，仅屏蔽及其恶心的条跳转行为。启用后，点击广告将不再0秒跳转淘宝京东APP，但广告不会没有，如果你点击了广告，应用本身会进入广告内容，但不会跳转app。</p>
+    <h2>使用</h2>
+    <p>启用模块并且勾选上目标应用</p>
 IssueTracker: ""
 Name: Fuck淘宝京东跳转
 SourceCode: https://github.com/Xposed-Modules-Repo/top.weixiansen574.fuckadjump

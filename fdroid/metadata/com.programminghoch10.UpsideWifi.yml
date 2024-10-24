@@ -3,7 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.1
 CurrentVersionCode: 3
-Description: <p>replaced the icon with an own SVG remake to make the app even smaller</p>
+Description: |
+    <h1>UpsideWifi</h1>
+    <p>XPosed Module to turn the WiFi icon upside down.</p>
+    <p>This is an modified version of the legendary module <a href="https://github.com/rye761/upsidewifi">UpsideWifi</a> by <a href="https://github.com/rye761">rye761</a>.</p>
+    <p>This module needs the resource hooks enabled.</p>
 IssueTracker: ""
 Name: UpsideWiFi
 SourceCode: ""

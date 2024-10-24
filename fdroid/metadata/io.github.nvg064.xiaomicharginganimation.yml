@@ -3,9 +3,12 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: |-
-    <p>Xiaomi Charge Animation v1.0.0 (1)</p>
-    <p>Initial release</p>
+Description: |
+    <h1>Xiaomi Charging Animation</h1>
+    <p>A Xposed Module to fix the default charge animation for MIUI 14 and HyperOS 1.x. May compatible with older MIUI version. Requires Xposed.</p>
+    <h1>How To</h1>
+    <p>Just enable module with recommended scope (in this case is SystemUI). After that, you can restart SystemUI with tools or by this command:
+    <code>su -c killall com.android.systemui</code></p>
 IssueTracker: ""
 Name: Xiaomi Charging Animation
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.nvg064.xiaomicharginganimation

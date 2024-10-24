@@ -3,10 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: |-
-    <ul>
-    <li>Initial release</li>
-    </ul>
+Description: |
+    <h1>Integrity Verification Disabler</h1>
+    <p>Bypass the integrity verification introduced on Android 11 by allowing you to update the Google Camera to version 8.0+ on phones other than the Pixel 5.</p>
+    <p>Tested by installing the update via <strong>ADB</strong>.</p>
+    <p>No configuration needed, install and restart the phone.</p>
+    <p>The module is also available as a <em>Magisk Module</em>! You can download it from: <a href="https://modules.alex193a.com">https://modules.alex193a.com</a></p>
+    <p>⚠️ The Magisk Module has been tested <strong>ONLY</strong> on a Pixel 3XL. Use it at your own risk. ⚠️</p>
 IssueTracker: ""
 Name: Integrity Verification Disabler
 SourceCode: https://github.com/Xposed-Modules-Repo/com.alex193a.ivdisabler

@@ -3,13 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: 1.9.2
 CurrentVersionCode: 13
-Description: |-
-    <h1>更新内容</h1>
-    <p>ビルド設定をいじることでバグを修正</p>
-    <h2>対応するLINEのバージョン</h2>
-    <p>LINE 14.9.1</p>
-    <h3>差分</h3>
-    <p><a class="commit-link" href="https://github.com/Chipppppppppp/LIME/compare/v1.9.1...v1.9.2">Chipppppppppp/LIME@<tt>v1.9.1...v1.9.2</tt></a></p>
+Description: |
+    <h1><img src="https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.lime/assets/78024852/2f2f058f-98ea-4305-bda9-58785642111b" width="60px"> LIME: Adkiller for LINE</h1>
+    <p><a href="https://github.com/Chipppppppppp/LIME/releases/latest"><img src="https://img.shields.io/github/v/release/Chipppppppppp/LIME?label=latest" alt="Latest Release" /></a>
+    <img src="https://img.shields.io/github/license/Chipppppppppp/LIME" alt="GitHub License" /></p>
+    <h2>概要</h2>
+    <p>This is an Xposed Module to clean <a href="https://line.me"><strong>LINE</strong></a>.</p>
+    <p>LINE を掃除する Xposed Module です。</p>
+    <h2>インストール</h2>
+    <p><a href="https://github.com/Chipppppppppp/LIME">これ</a> に従ってください。</p>
 IssueTracker: ""
 Name: LIME
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.lime

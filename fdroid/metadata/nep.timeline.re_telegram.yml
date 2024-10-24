@@ -3,10 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: Shiori
 CurrentVersionCode: 150
-Description: |-
-    <p>Now you can customize the color and content of the deleted mark<br>
-    Fix lost animation when deleting own message<br>
-    Supported Nekogram v11.0.0 (5143)</p>
+Description: |
+    <h1>Re:Telegram</h1>
+    <p>An Xposed module to enhance the Telegram</p>
+    <p><a href="https://github.com/Sakion-Team/Re-Telegram/releases/latest"><img src="https://img.shields.io/github/release/Sakion-Team/Re-Telegram.svg" alt="Release" /></a>
+    <a href="https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml"><img src="https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml/badge.svg" alt="CI_Build" /></a>
+    <a href="https://t.me/Sakion_Team"><img height="26" src="https://shields.io/badge/Release-ffffff.svg?style=flat-square&logo=telegram" alt="Release" /></a></p>
+    <h2>FAQ</h2>
+    <h3>What is the difference between this and Telegram Anti-Recall</h3>
+    <p>Re:Telegram has more features than Telegram Anti-Recall</p>
+    <h3>What features does Re:Telegram have?</h3>
+    <p>Currently, Re:Telegram has the following features: AntiAntiForward, AntiRecall, NoSponsoredMessages, ProhibitChannelSwitching, AllowMoveAllChatFolder, UseSystemTypeface, HideStories</p>
+    <h3>Which telegram client are supported?</h3>
+    <p>Official, Plus Messenger, Nagram, Nnngram, NekoX, Nekogram (No Test Apk and Google Store Version), NekoLite, exteraGram, Forkgram, Cherrygram, MDgram (Old version), Yukigram, iMoe, OctoGram, Mercurygram</p>
+    <h3>Which telegram client will not be supported?</h3>
+    <p>Nullgram (You can use Nnngram), Telegram X, Forkgram F-Droid Build</p>
+    <h3>What if the client i am using is not supported?</h3>
+    <p>Submit the issue and include the client download link in the content, i will try to support your client.</p>
 IssueTracker: ""
 Name: Re Telegram
 SourceCode: https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram

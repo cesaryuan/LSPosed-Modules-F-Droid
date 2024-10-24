@@ -3,7 +3,17 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: <p>Initial release.</p>
+Description: |
+    <h1>Payoneer Root Detection Bypass</h1>
+    <p>An Xposed module that removes root detection from Payoneer’s banking app.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Remove root detection</li>
+    <li>Remove adb detection</li>
+    <li>Remove emulator detection</li>
+    <li>Remove mock location detection</li>
+    <li>Remove Frida detection</li>
+    </ul>
 IssueTracker: ""
 Name: Payoneer Root Detection Bypass
 SourceCode: https://github.com/Xposed-Modules-Repo/tn.payoneer.loukious

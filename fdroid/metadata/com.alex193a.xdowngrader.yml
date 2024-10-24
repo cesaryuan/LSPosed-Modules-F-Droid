@@ -3,7 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: <p>• Added support for Android 13</p>
+Description: |
+    <h1>XDowngrader</h1>
+    <p>XDowngrader downgrades any app by allowing you to install the APK of an old version on top of the new version on Android 5 and newer.</p>
+    <p>No configuration needed*, install and restart the phone.</p>
+    <p>*Make sure you allow the module to hook the <strong>System Framework</strong> if you are using LSPosed or EdXposed in WhiteList mode!</p>
 IssueTracker: ""
 Name: XDowngrader
 SourceCode: https://github.com/Xposed-Modules-Repo/com.alex193a.xdowngrader

@@ -3,9 +3,31 @@ Categories:
     - Xposed
 CurrentVersion: 1.4.0
 CurrentVersionCode: 17
-Description: |-
-    <p>New feature: block apps permissions revoke<br>
-    App theme switch added</p>
+Description: |
+    <h1>Update Locker</h1>
+    <p>Block updates (and auto-updates) selected apps via popular markets</p>
+    <p>Block apps permissions revoke (system-wide)</p>
+    <h2>List of supported markets:</h2>
+    <ul>
+    <li>Google Play Market</li>
+    <li>Aurora Store</li>
+    <li>Huawei AppGallery</li>
+    <li>Samsung Galaxy Store</li>
+    <li>Steam</li>
+    <li>F-Droid</li>
+    <li>App Lounge</li>
+    <li>Aptoide</li>
+    <li>RuMarket</li>
+    <li>RuStore</li>
+    <li>Mi GetApps</li>
+    <li>Xiaomi Market</li>
+    <li>Palm Store</li>
+    <li>M Store (ex. Meizu App Store Global)</li>
+    </ul>
+    <h2>Support/Discussion URL</h2>
+    <p><a href="https://forum.xda-developers.com/t/mod-xposed-4-1-updatelocker-stop-update-your-apps.4433253/">xda</a> or <a href="https://4pda.to/forum/index.php?s=&amp;showtopic=603033&amp;view=findpost&amp;p=114402375">4pda</a></p>
+    <h2>Author</h2>
+    <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2022-2024</p>
 IssueTracker: ""
 Name: 'Update Locker: stop update your apps'
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.updatelocker

@@ -3,15 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: "4.5"
 CurrentVersionCode: 2019
-Description: |-
-    <h3>Changelog</h3>
-    <ul>
-    <li>Support bypassing shared uid verification for A11+</li>
-    </ul>
-    <h3>更新日志</h3>
-    <ul>
-    <li>支持在 Android 11+ 上绕过 shared uid 验证</li>
-    </ul>
+Description: |
+    <h1>CorePatch</h1>
+    <pre><code>Disable signature verification For Android
+    禁用安装apk时候执行的签名校验
+    The current version support android 10-14
+    当前版本只支持安卓10-14
+    </code></pre>
+    <h2>Fetures 功能</h2>
+    <pre><code> allow downgrade application [INSTALL_FAILED_VERSION_DOWNGRADE]
+     允许降级安装应用
+
+     allows direct install apps after modify file in apk [ignore invalid digest error etc..]
+     允许安装签名错误的apk
+
+     allow overlay install apps with inconsistent signatures
+     允许在使用不同签名的情况下覆盖安装
+    </code></pre>
 IssueTracker: ""
 Name: CorePatch / 核心破解
 SourceCode: https://github.com/Xposed-Modules-Repo/com.coderstory.toolkit

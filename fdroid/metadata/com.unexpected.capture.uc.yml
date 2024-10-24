@@ -3,15 +3,40 @@ Categories:
     - Xposed
 CurrentVersion: "1.5"
 CurrentVersionCode: 6
-Description: |-
+Description: |
+    <h1>UCProxyCapture</h1>
+    <p>UC 浏览器代理抓取</p>
+    <h1>简介</h1>
+    <p>UC 浏览器自启动后会抓取已开启的免流代理信息</p>
+    <h1>文件路径</h1>
     <ul>
-    <li>现在使用在线配置获取被混淆的字段名进行hook</li>
-    <li>配置请求使用<code>mirror.ghproxy.com</code>加速无需翻墙</li>
-    <li>配置仅在当前版本第一次打开时才会下载，只有下载成功模块才会运行</li>
-    <li>仅支持: UC浏览器(16.2.7.1278)联通和电信</li>
-    <li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>
-    <li>具体支持版本请在 <a href="https://github.com/unexpecteds/UCProxyCapture">GitHub</a> 主页查看，不定期更新</li>
+    <li>/storage/emulated/0/UCDownloads</li>
+    <li>/storage/emulated/0/Download/UCDownloads</li>
+    <li>/storage/emulated/0/Android/data/包名/UCDownloads</li>
     </ul>
+    <h1>支持浏览器的版本</h1>
+    <p>UC浏览器:</p>
+    <ul>
+    <li>16.2.7.1278</li>
+    </ul>
+    <p>UC浏览器极速版:</p>
+    <ul>
+    <li>15.5.2.1242(仅电信)</li>
+    </ul>
+    <h1>使用教程</h1>
+    <ul>
+    <li>1.在 Xposed 框架找到模块并开启，打开模块作用域设置，勾选“UC 浏览器”。</li>
+    <li>2.打开“UC 浏览器”，打开设置→高级设置→浏览器专享流量，填写你的手机号，并点击开启</li>
+    <li>3.打开“文件管理”，打开配置保存路径: 可以看到 xxx.ini 文件，那个就是代理信息文件</li>
+    </ul>
+    <p><strong>注意:</strong></p>
+    <ul>
+    <li>现在联通也是动态生成的验证</li>
+    <li>电信代理抓取到也没什么用</li>
+    <li>如果抓取到的配置不会使用不要问我！！！</li>
+    </ul>
+    <h1>停止维护</h1>
+    <p>不再对这个项目进行更新</p>
 IssueTracker: ""
 Name: UC 浏览器代理抓取
 SourceCode: https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc

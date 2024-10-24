@@ -3,11 +3,38 @@ Categories:
     - Xposed
 CurrentVersion: 2.7.1
 CurrentVersionCode: 111
-Description: |-
+Description: |
+    <div align="center">
+    <h1>Megafon Cleaner</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.megafoncleaner/total" alt="downloads" />
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.megafoncleaner/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.megafoncleaner" alt="GitHub release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.megafoncleaner/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.megafoncleaner" alt="GitHub Release Date" /></a>
+    <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram" alt="Telegram" /></a>
+    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=111257541"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a></p>
+    <p>Скрытие баннеров и предложений в приложении <a href="https://www.rustore.ru/catalog/app/ru.megafon.mlk">Мегафон</a></p>
+    </div>
+    <h3>Возможности:</h3>
+    <p>Список скрываемых элементов:</p>
     <ul>
-    <li>Редизайн навигации завершения Мегафона. Теперь завершение выполняется плавающей кнопкой в правом нижнем углу.</li>
-    <li>Исправлена работа статусов модуля на KernelSU.</li>
+    <li>Аналитика</li>
+    <li>Сервисный блок мегафона на главной</li>
+    <li>Интересное в услугах</li>
+    <li>Весь раздел ‘для меня’</li>
+    <li>Различные баннеры по всему приложению</li>
+    <li>Предупреждение о VPN</li>
     </ul>
+    <h3>Требования:</h3>
+    <ul>
+    <li>Android 8.0+</li>
+    <li>Установленное приложение <a href="https://www.rustore.ru/catalog/app/ru.megafon.mlk">Мегафон</a></li>
+    </ul>
+    <h3>Обратите внимание:</h3>
+    <ul>
+    <li>Модульная часть использует рут возможности для завершения процесса.</li>
+    <li>Модуль имеет возможность работать в режиме <a href="https://github.com/LSPosed/LSPatch">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>
+    </ul>
+    <h2>For non-Russian users:</h2>
+    <p>This is a module for the russian application <a href="https://www.rustore.ru/catalog/app/ru.megafon.mlk">Megafon</a>, you don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
 IssueTracker: ""
 Name: Megafon Cleaner
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.megafoncleaner

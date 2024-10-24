@@ -3,6 +3,12 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
+Description: |
+    <h1>miui11.0.5 最新版‘手机管家’</h1>
+    <p>请尽量<strong>不要</strong>在作用域中勾选系统应用，这有可能使您的手机无法启动。正确的使用方式为勾选您<strong>想对其生效模块功能</strong>的应用。</p>
+    <p>Please try <strong>not</strong> to select <strong>any</strong> system apps in the scope, this may make your phone unbootable. The correct way to use is to select the application which you <strong>want the functions of this module to take effect</strong>.</p>
+    <p>miui usb安装无需sim卡、安装时不会弹框提示了</p>
+    <p>适配LSPosed，勾选‘手机管家’。</p>
 IssueTracker: ""
 Name: miui usb安装 sim卡限制屏蔽
 SourceCode: https://github.com/Xposed-Modules-Repo/com.miui.break.sim

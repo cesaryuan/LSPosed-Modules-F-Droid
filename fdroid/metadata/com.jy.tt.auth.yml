@@ -3,7 +3,14 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 103
-Description: <p>修复应用未申请获取所有应用列表时无法跳转分身的问题</p>
+Description: |
+    <h1>团团助手</h1>
+    <h3>本模块为团团分身(MochiCloner)辅助模块，方便分身与第三方应用交互、或第三方应用与分身交互</h3>
+    <ul>
+    <li>分身使用官方wx登录</li>
+    <li>第三方应用使用分身wx登录</li>
+    </ul>
+    <h2>团团分身最新版<a href="https://www.ttfs.vip/">下载地址</a></h2>
 IssueTracker: ""
 Name: 团团助手
 SourceCode: https://github.com/Xposed-Modules-Repo/com.jy.tt.auth

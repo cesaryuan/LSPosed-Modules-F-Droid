@@ -3,19 +3,48 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.100-release
 CurrentVersionCode: 20240408
-Description: |-
-    <h4>更新</h4>
-    <ul>
-    <li>初始化仓库</li>
-    <li>战区位置</li>
-    <li>实名认证</li>
-    </ul>
-    <h4>Updated</h4>
-    <ul>
-    <li>Initialize the repository</li>
-    <li>Map Location</li>
-    <li>Real Name</li>
-    </ul>
+Description: |
+    <div align="center">
+    <h1>HookWzry</h1>
+    <blockquote>
+    <p><strong>HookWzry By HdShare</strong></p>
+    </blockquote>
+    <div align="center">
+    <p><a href="https://github.com/Xposed-Modules-Repo/me.hd.hookwzry"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookwzry?label=LSP%20Stars" alt="LSP Stars" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/me.hd.hookwzry/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookwzry/total?label=LSP%20Repo&amp;labelColor=f48fb1" alt="LSP Repo" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/me.hd.hookwzry/issues"><img src="https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookwzry?label=LSP%20Issues" alt="LSP Issues" /></a></p>
+    <p><a href="https://github.com/HdShare/HookWzry"><img src="https://img.shields.io/github/stars/HdShare/HookWzry?label=Source%20Stars" alt="Source Stars" /></a>
+    <a href="https://github.com/HdShare/HookWzry/releases"><img src="https://img.shields.io/github/downloads/HdShare/HookWzry/total?label=Source%20Repo&amp;labelColor=1f2328" alt="Source Repo" /></a>
+    <a href="https://github.com/HdShare/HookWzry/issues"><img src="https://img.shields.io/github/issues/HdShare/HookWzry?label=Source%20Issues" alt="Source Issues" /></a></p>
+    </div>
+    <p><a href="https://github.com/Xposed-Modules-Repo/me.hd.hookwzry/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/me.hd.hookwzry" alt="Release" /></a></p>
+    </div>
+    <hr />
+    <h2>功能:</h2>
+    <p>后续将依据star和download情况进一步更新与适配.</p>
+    <p>We will continue to update and adapt based on the number of stars and downloads in the future.</p>
+    <table>
+        <tr>
+            <td align="center"><b>Name</b></td>
+            <td align="center"><b>Status</b></td>
+        </tr>
+        <tr>
+            <td align="center">战区位置</td>
+            <td align="center">✅</td>
+        </tr>
+        <tr>
+            <td align="center">实名认证</td>
+            <td align="center">✅</td>
+        </tr>
+        <tr>
+            <td align="center">更多功能</td>
+            <td align="center">❓</td>
+        </tr>
+    </table>
+    <hr />
+    <h2>贡献:</h2>
+    <p>在使用过程中有任何问题或建议, 请通过issues提交.</p>
+    <p>If you encounter any issues or have any suggestions during use, please submit them through issues.</p>
 IssueTracker: ""
 Name: '[开源]HookWzry'
 SourceCode: https://github.com/Xposed-Modules-Repo/me.hd.hookwzry

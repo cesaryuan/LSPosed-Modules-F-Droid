@@ -3,9 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: "1.6"
 CurrentVersionCode: 16
-Description: |-
-    <p>Xposed在获取不到SharedPreferences时尝试使用ContentProvider。<br>
-    调整hook位置。</p>
+Description: |
+    <h1>剪贴板过滤器</h1>
+    <h2>关于模块</h2>
+    <p>通过正则过滤APP写入剪贴板的内容，只过滤写入，防止各种口令、奇奇怪怪的字符串强x剪贴板。目前只支持有XSharedPreferences的xposed框架，比如lsposed。</p>
+    <p>内置一些规则，可以根据需要添加其他。作用域是被勾选的app，例如浏览器。</p>
+    <h3>v1.6</h3>
+    <p>Xposed在获取不到SharedPreferences时尝试使用ContentProvider。调整hook位置。</p>
+    <h3>v1.5</h3>
+    <p>更新使用提示，修复未勾选模块时导致的闪退。<br />
+    目前模块只支持有XSharedPreferences的xposed框架，比如lsposed</p>
+    <h3>v1.4</h3>
+    <p>刷新版本号，顺便调整了一下ui，改了点逻辑</p>
+    <h3>v1.3</h3>
+    <p>不再需要存储权限，写好规则保存正常使用即可，如果实在不知道怎么写，可以上酷安问<a href="http://www.coolapk.com/u/855305">今天内存降价了吗</a></p>
+    <p>开源: <a href="https://github.com/Thiasap/ClipboardFilter">ClipboardFilter</a></p>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.bit747.clipboardfilter/releases">Release</a></p>
 IssueTracker: ""
 Name: 剪贴板过滤器
 SourceCode: https://github.com/Xposed-Modules-Repo/com.bit747.clipboardfilter

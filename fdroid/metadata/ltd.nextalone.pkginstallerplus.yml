@@ -3,16 +3,30 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.e8c9341
 CurrentVersionCode: 1717993387
-Description: |-
-    <h2>What's Changed</h2>
+Description: |
+    <h1>InstallerPlus(Installer++)</h1>
+    <p><img src="https://img.shields.io/github/v/release/NextAlone/InstallerPlus?color=success&amp;label=Release&amp;logo=github" alt="GitHub release" /> <img src="https://img.shields.io/github/actions/workflow/status/NextAlone/InstallerPlus/autoci.yml?label=Build&amp;logo=github" alt="Build Status" /> <a href="https://github.com/NextAlone/InstallerPlus/blob/main/README_CN.md">[中文说明文档]</a></p>
+    <h2>Introduction</h2>
     <ul>
-    <li>Support A14 QPR2 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chip44/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chip44">@chip44</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2237444633" data-permission-text="Title is private" data-url="https://github.com/NextAlone/InstallerPlus/issues/24" data-hovercard-type="pull_request" data-hovercard-url="/NextAlone/InstallerPlus/pull/24/hovercard" href="https://github.com/NextAlone/InstallerPlus/pull/24">NextAlone/InstallerPlus#24</a></li>
+    <li>Show app’s package info for Package Installer.</li>
+    <li>See <a href="https://github.com/NextAlone/InstallerPlus/blob/main/image/README.md">features</a></li>
     </ul>
-    <h2>New Contributors</h2>
+    <h2>Compatibility</h2>
+    <p>Compatible with AOSP-like installer,been tested in:</p>
+    <ol>
+    <li>Hydrogen OS Android 7.1.1</li>
+    <li>Oxygen OS Android Q</li>
+    <li>Pixel Experience 11</li>
+    <li>LineageOS Android 12</li>
+    <li>LineageOS Android 13</li>
+    <li>Pixel/AOSP Android 13</li>
+    <li>Pixel/AOSP Android 14</li>
+    </ol>
+    <h2>Repo License</h2>
     <ul>
-    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chip44/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chip44">@chip44</a> made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2237444633" data-permission-text="Title is private" data-url="https://github.com/NextAlone/InstallerPlus/issues/24" data-hovercard-type="pull_request" data-hovercard-url="/NextAlone/InstallerPlus/pull/24/hovercard" href="https://github.com/NextAlone/InstallerPlus/pull/24">NextAlone/InstallerPlus#24</a></li>
+    <li><a href="https://github.com/NextAlone/InstallerPlus/blob/main/LICENSE.md">AGPL-3.0</a></li>
     </ul>
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/NextAlone/InstallerPlus/compare/v1.1...v1.2">NextAlone/InstallerPlus@<tt>v1.1...v1.2</tt></a></p>
+    <h3><a href="https://github.com/NextAlone/InstallerPlus/blob/main/app/src/main/assets/eula.md">InstallerPlus End User License Agreement(EULA) (Chinese Only)</a></h3>
 IssueTracker: ""
 Name: InstallerPlus(Installer++)
 SourceCode: https://github.com/Xposed-Modules-Repo/ltd.nextalone.pkginstallerplus

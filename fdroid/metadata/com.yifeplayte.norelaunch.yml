@@ -3,7 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
-Description: <p>First release</p>
+Description: |
+    <h1>NoRelaunch</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.norelaunch/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yifeplayte.norelaunch/total?label=Downloads"></a> <a href="https://github.com/YifePlayte/NoRelaunch/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/YifePlayte/NoRelaunch?style=flat"></a> <a href="https://github.com/YifePlayte/NoRelaunch/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/YifePlayte/NoRelaunch"></a> <a href="https://github.com/YifePlayte/NoRelaunch/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/YifePlayte/NoRelaunch"></a></p>
+    <p>屏蔽指定配置变更导致的 Activity 重启<br />
+    Prevent Activity restarts caused by configuration changes</p>
+    <hr />
+    <h3>第三方开源引用 / Third-party open source references</h3>
+    <h5>GNU Lesser General Public License v2.1</h5>
+    <p><a href="https://github.com/577fkj/blockmiui">577fkj/blockmiui</a></p>
+    <h5>Apache License 2.0</h5>
+    <p><a href="https://github.com/KyuubiRan/EzXHelper">KyuubiRan/EzXHelper</a></p>
+    <hr />
+    <h3>License</h3>
+    <p><a href="https://github.com/YifePlayte/NoRelaunch/blob/main/LICENSE">GNU General Public License v3.0</a></p>
+    <hr />
+    <h3>捐赠 / Sponsor</h3>
+    <p><a href="https://afdian.com/a/YifePlayte">爱发电 / AFDIAN</a></p>
 IssueTracker: ""
 Name: NoRelaunch
 SourceCode: https://github.com/Xposed-Modules-Repo/com.yifeplayte.norelaunch

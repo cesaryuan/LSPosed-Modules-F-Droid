@@ -3,47 +3,104 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 2024013100
-Description: |-
-    <h3>PinningApp v1.0</h3>
-    <h3>中文</h3>
+Description: |
+    <div align="center">
+    <h1>固定应用(Pinning App)</h1>
+    <p><img src="https://img.shields.io/github/stars/HChenX/PinningApp?style=flat" alt="stars" />
+    <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.pinningapp/total" alt="downloads" />
+    <img src="https://img.shields.io/github/repo-size/HChenX/PinningApp" alt="Github repo size" />
+    <a href="https://github.com/Xposed-Modules-Repo/com.hchen.pinningapp/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.hchen.pinningapp" alt="GitHub release (latest by date)" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.hchen.pinningapp/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.hchen.pinningapp" alt="GitHub Release Date" /></a>
+    <img src="https://img.shields.io/github/last-commit/HChenX/PinningApp?style=flat" alt="last commit" />
+    <img src="https://img.shields.io/badge/language-java-purple" alt="language" /></p>
+    <p><b><a href="README-en.md">English</a> | <a href="README.md">简体中文</a></b></p>
+    </div>
+    <h3>模块介绍:</h3>
     <ul>
-    <li>
-    <h3>固定应用模块首发！</h3>
-    </li>
-    <li>模块效果：</li>
-    <li>当进入固定模式时，手机将只显示被固定App的界面，系统返回等手势将失效。</li>
-    <li><del>类似IOS的引导式访问功能</del></li>
-    <li>
-    <h3>模块功能：</h3>
-    </li>
-    <li>手机：</li>
-    <li>固定应用、拒绝返回手势、拒绝呼出侧边栏（可选）、解除固定时锁屏（可选）等。</li>
-    <li>Pad：</li>
-    <li>固定应用、拒绝返回手势、拒绝呼出侧边栏（可选）、解除固定时锁屏（可选）、</li>
-    <li>拒绝呼出Dock栏、拒绝响应小窗手势、隐藏小白条 等。</li>
-    <li>
-    <h4>详细请参考README.md</h4>
-    </li>
+    <li>模块通过调用安卓自有的固定应用功能实现对应用的固定。</li>
+    <li>上层建筑比如：</li>
+    <li>触发固定方式、忽略退出手势、拒绝弹出侧边栏、退出固定息屏、</li>
+    <li>Pad： 拒绝呼出Dock栏，拒绝响应小窗手势，隐藏小白条。</li>
+    <li>等上述功能均为模块自身实现，不依赖原生安卓的固定应用功能。</li>
+    <li><del>本模块功能类似于IOS的引导式访问</del></li>
     </ul>
-    <h3>English</h3>
+    <h3>模块效果：</h3>
     <ul>
-    <li>
-    <h3>First Release of the Pinning App Module!</h3>
-    </li>
-    <li>Module Effects:</li>
-    <li>When entering pinning mode, the phone will only display the interface of the pinning app, and system gestures such as back will be disabled.</li>
-    <li><del>Similar to IOS's guided access feature.</del></li>
-    <li>
-    <h3>Module Features:</h3>
-    </li>
-    <li>For Phones:</li>
-    <li>Pinning App, reject back gestures, reject pop-up sidebar (optional), lock screen on exit (optional), etc.</li>
-    <li>For Pads:</li>
-    <li>Pinning App, reject back gestures, reject pop-up sidebar (optional), lock screen on exit (optional),</li>
-    <li>Reject call-out of Dock bar, reject response to small window gestures, hide the small white bar, etc.</li>
-    <li>
-    <h4>For details, please refer to README.md.</h4>
-    </li>
+    <li>当进入固定模式时，手机将被固定显示一个App，系统返回等手势将失效。</li>
+    <li>如下是GIF动图展示：</li>
+    </ul>
+    <p><img src="https://github.com/HChenX/PinningApp/blob/master/pinning_app_gif.gif" alt="GIF" /></p>
+    <ul>
+    <li>无法查看点击<a href="https://github.com/HChenX/PinningApp/blob/master/pinning_app_gif.gif">此处</a></li>
+    </ul>
+    <h3>使用方法：</h3>
+    <ul>
+    <li>首先确定你是小米手机，模块只支持小米手机！当然如果你有办法可以为本项目PR，来获得更广泛的支持！</li>
+    <li>其次下载本模块并勾选推荐的作用域，然后重启手机！</li>
+    <li>重启完成模块即正在运行。</li>
+    </ul>
+    <h5>开关固定模式：</h5>
+    <ul>
+    <li>在应用界面长按通知栏1~2秒即可进入，如果失败请确定期间手指没有移动！</li>
+    <li>进入时会有Toast提示，如果出现提示即成功进入</li>
+    <li>再次在本应用界面长按通知栏1~2秒即可退出！同样也会有Toast提示！</li>
+    </ul>
+    <h5>开关<code>退出固定时锁屏</code>功能：</h5>
+    <ul>
+    <li>打开MT或其他可以执行Shell命令的软件。</li>
+    <li>执行<code>su</code>回车获取ROOT权限，这是必要的！！</li>
+    <li>执行<code>pm pinning -l 0</code>为关闭本功能；</li>
+    <li>执行<code>pm pinning -l 1</code>为开启本功能。</li>
+    <li>执行<code>pm pinning -l -g</code>可获取本功能状态。</li>
+    <li>获取详细帮助可执行<code>pm pinning -h</code></li>
+    </ul>
+    <h6><code>退出固定时锁屏</code>功能效果：</h6>
+    <ul>
+    <li>开启后在退出固定模式时将强制跳转到锁屏密码界面。</li>
+    <li><del>妈妈再也不用担心手机隐私被别人看见啦！</del></li>
+    </ul>
+    <h5>开关<code>固定时拒绝弹出侧边栏</code>功能：</h5>
+    <ul>
+    <li>打开MT或其他可以执行Shell命令的软件。</li>
+    <li>执行<code>su</code>回车获取ROOT权限，这是必要的！！</li>
+    <li>执行<code>pm pinning -s 0</code>为关闭本功能；</li>
+    <li>执行<code>pm pinning -s 1</code>为开启本功能。</li>
+    <li>执行<code>pm pinning -s -g</code>可获取本功能状态。</li>
+    <li>获取详细帮助可执行<code>pm pinning -h</code></li>
+    </ul>
+    <h6><code>固定时拒绝弹出侧边栏</code>功能效果：</h6>
+    <ul>
+    <li>顾名思义，开启后进入固定模式不能呼出侧边栏。</li>
+    </ul>
+    <h5>使用时常见问题：</h5>
+    <ul>
+    <li>Q：为什么我没有成功进入？ A：可能长按时间偏短或者手指移动，请再试。</li>
+    <li>Q：为什么在桌面时长按无效？ A：模块暂不支持在桌面时进入固定模式。</li>
+    <li>Q：为什么提示“`请在被锁定应用界面解锁”？ A：你通过某种手段切换了界面，需要在进入固定模式的App界面解锁。但无需担心，超过一定次数会自动解除固定模式。</li>
+    <li>Q：为什么模块没有工作？ A：请带上Lsp日志等信息反馈，虽然我修的概率很小。</li>
+    </ul>
+    <h3>项目感谢：</h3>
+    <ul>
+    <li>感谢Android官方提供本功能的基本底层支持！</li>
+    <li>感谢Xposed工具提供强大的Hook支持！</li>
+    <li>感谢DexKit工具对本模块功能性支持！</li>
+    <li>感谢<a href="https://github.com/Sevtinge">Sevtinge</a>对本模块适配Pad做出的贡献！</li>
+    </ul>
+    <h3>项目要求：</h3>
+    <ul>
+    <li>本项目完全开源！</li>
+    <li>但是也请遵守GPL3.0的开源协议！</li>
+    <li>任何使用本模块必须注明作者和GitHub地址！</li>
+    <li>对本模块有任何要求请不要疯狂Call作者，请自行PR，我没有义务实现你的功能或适配你的手机！</li>
+    </ul>
+    <h3>交流群：</h3>
+    <ul>
+    <li>QQ：517788148</li>
+    <li>电报：t.me/HChen_AppRetention</li>
+    </ul>
+    <h3>赞助我：</h3>
+    <ul>
+    <li>爱发电：<a href="https://afdian.net/a/HChen">焕晨HChen</a></li>
     </ul>
 IssueTracker: ""
 Name: PinningApp

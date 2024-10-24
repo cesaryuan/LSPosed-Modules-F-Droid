@@ -3,9 +3,75 @@ Categories:
     - Xposed
 CurrentVersion: "4.4"
 CurrentVersionCode: 28
-Description: |-
-    <p>修正繁体中文翻译<br>
-    感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/david082321/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/david082321">@david082321</a> 的翻译贡献</p>
+Description: |
+    <h1>android_virtual_cam</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.example.vcam/blob/main/README.md">简体中文</a> | <a href="https://github.com/Xposed-Modules-Repo/com.example.vcam/blob/main/README_tc.md">繁體中文</a> | <a href="https://github.com/Xposed-Modules-Repo/com.example.vcam/blob/main/README_en.md">English</a></p>
+    <p>基于Xposed的虚拟摄像头</p>
+    <h1>请勿用于任何非法用途，所有后果自负。</h1>
+    <h3>中国大陆加速地址（Gitee平台）： <a href="https://gitee.com/w2016561536/android_virtual_cam">https://gitee.com/w2016561536/android_virtual_cam</a></h3>
+    <h2>支持平台：</h2>
+    <ul>
+    <li>安卓5.0+</li>
+    </ul>
+    <h2>使用方法</h2>
+    <ol>
+    <li>
+    <p>安装此模块，并在Xposed中启用此模块，Lsposed等包含作用域的框架需要选择目标app，无需选择系统框架。</p>
+    </li>
+    <li>
+    <p>在系统设置中，授予目标应用读取本地存储的权限，并强制结束目标应用程序。若应用程序未申请此权限，请见步骤3。</p>
+    </li>
+    <li>
+    <p>打开目标应用，若应用未能获得读取存储的权限，则会以气泡消息提示，<code>Camera1</code>目录被重定向至应用程序私有目录<code>/[内部存储]/Android/data/[应用包名]/files/Camera1/</code>。若未提示，则默认<code>Camera1</code>目录为<code>/[内部存储]/DCIM/Camera1/</code>。若目录不存在，请手动创建。</p>
+    </li>
+    </ol>
+    <blockquote>
+    <p>注意：私有目录下的<code>Camera1</code>仅对该应用单独生效。</p>
+    </blockquote>
+    <ol start="4">
+    <li>
+    <p>在目标应用中打开相机预览，会以气泡消息提示“宽：……高：……”，需要根据此分辨率数据制作替换视频，放置于<code>Camera1</code>目录下，并命名为<code>virtual.mp4</code>，若打开相机并无提示消息，则无需调整视频分辨率。</p>
+    </li>
+    <li>
+    <p>若在目标应用中拍照却显示真实图片，且出现气泡消息<code>发现拍照</code>和分辨率，则需根据此分辨率数据准备一张照片，命名为<code>1000.bmp</code>，放入<code>Camera1</code>目录下（支持其它格式改后缀为bmp）。如果拍照时无气泡消息提示，则<code>1000.bmp</code>无效。</p>
+    </li>
+    <li>
+    <p>如果需要播放视频的声音，需在<code>/[内部存储]/DCIM/Camera1/</code>目录下创建<code>no-silent.jpg</code>文件。（全局实时生效）</p>
+    </li>
+    <li>
+    <p>如果需要临时停用视频替换，需在<code>/[内部存储]/DCIM/Camera1/</code>目录下创建<code>disable.jpg</code>文件。（全局实时生效）</p>
+    </li>
+    <li>
+    <p>如果觉得Toast消息烦，可以在<code>/[内部存储]/DCIM/Camera1/</code>目录下创建<code>no_toast.jpg</code>文件。（全局实时生效）</p>
+    </li>
+    <li>
+    <p>目录重定向消息默认只显示一次，如果错过了目录重定向的Toast消息，可以在<code>/[内部存储]/DCIM/Camera1/</code>目录下创建<code>force_show.jpg</code>文件来覆盖默认设定。（全局实时生效）</p>
+    </li>
+    <li>
+    <p>如果需要为每一个应用程序分配视频，可以在<code>/[内部存储]/DCIM/Camera1/</code>目录下创建<code>private_dir.jpg</code>强制使用应用程序私有目录。（全局实时生效）</p>
+    </li>
+    </ol>
+    <blockquote>
+    <p>注意：6~10的配置开关均在应用程序中，您可以快捷地在应用程序中配置，也可以手动创建文件。</p>
+    </blockquote>
+    <h2>常见问题</h2>
+    <p>A1. 前置摄像头方向问题？<br />
+    Q1. 大多数情况下,替换前置摄像头的视频需要水平翻转并右旋90度，并且视频<em><strong>处理后</strong></em>的分辨率应与气泡消息内分辨率相同。但有时这并不需要，具体请根据实际情况判断。</p>
+    <p>Q2. 画面黑屏，相机启动失败？<br />
+    A2. 目前有些应用并不能成功替换（特别是系统相机）。或者是因为视频路径不对（是否创建了两级Camera1目录，如<code>./DCIM/Camera1/Camera1/virtual.mp4</code>，但只需要一级目录）。</p>
+    <p>Q3. 画面花屏？<br />
+    A3. 视频分辨率不对。</p>
+    <p>Q4. 画面扭曲，变形？<br />
+    A4. 请使用剪辑软件修改原视频来匹配屏幕。</p>
+    <p>Q5. 创建<code>disable.jpg</code>无效？<br />
+    A5. 如果应用版本<code>&lt;=4.0</code>，那么<code>[内部存储]/DCIM/Camera1</code>目录下的文件对<strong>具有访问存储权限</strong>的应用生效，其余无权限应用应在<strong>私有目录</strong>下创建<br />
+    如果应用版本<code>&gt;=4.1</code>，那么应在<code>[内部存储]/DCIM/Camera1</code>创建，无论目标应用是否具有权限。</p>
+    <h2>反馈问题</h2>
+    <p>请直接在issues中反馈，如果为BUG反馈，请附带Xposed<strong>模块</strong>日志信息。</p>
+    <h2>致谢:</h2>
+    <p>提供HOOK思路: <a href="https://github.com/wangwei1237/CameraHook">https://github.com/wangwei1237/CameraHook</a></p>
+    <p>H264硬解码： <a href="https://github.com/zhantong/Android-VideoToImages">https://github.com/zhantong/Android-VideoToImages</a></p>
+    <p>JPEG转YUV： <a href="https://blog.csdn.net/jacke121/article/details/73888732">https://blog.csdn.net/jacke121/article/details/73888732</a></p>
 IssueTracker: ""
 Name: 虚拟摄像头 virtual camera
 SourceCode: https://github.com/Xposed-Modules-Repo/com.example.vcam

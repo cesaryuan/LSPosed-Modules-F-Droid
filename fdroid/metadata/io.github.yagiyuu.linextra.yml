@@ -3,7 +3,17 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
-Description: <p>First release</p>
+Description: |
+    <h1>LineXtra</h1>
+    <p><a href="https://github.com/yagiyuu/LineXtra/releases/latest"><img src="https://img.shields.io/github/v/release/yagiyuu/LineXtra?label=Release" alt="Release" /></a>
+    <a href="https://github.com/yagiyuu/LineXtra/releases/latest"><img src="https://img.shields.io/github/downloads/yagiyuu/LineXtra/total" alt="Download" /></a></p>
+    <p>An Xposed module that supports LSPatch and is compatible with all versions</p>
+    <p>LSPatchをサポートし、すべてのバージョンに対応するXposedモジュール</p>
+    <h2>Features / 機能</h2>
+    <ul>
+    <li>Remove ads / 広告の削除</li>
+    <li>Remove tabs / タブの削除</li>
+    </ul>
 IssueTracker: ""
 Name: LineXtra
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.yagiyuu.linextra

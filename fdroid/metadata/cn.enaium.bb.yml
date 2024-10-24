@@ -3,7 +3,22 @@ Categories:
     - Xposed
 CurrentVersion: "1.4"
 CurrentVersionCode: 1
-Description: <p>1.4</p>
+Description: |
+    <h1>cn.enaium.bb</h1>
+    <p>请转到 <a href="https://github.com/FuckAntiAddiction/BiligameBypass">https://github.com/FuckAntiAddiction/BiligameBypass</a></p>
+    <h2>功能</h2>
+    <ul>
+    <li>到时间不被踢出</li>
+    <li>登录限制(仅支持单机游戏,并且每次都要登录)有的单机游戏有存档上传功能,需要在<code>/data/data/游戏包名/files</code>下创建一个<code>bilibili-uid.txt</code>(第一次登陆会自动创建)文件填入你的B站uid,这个功能和第一个功能有冲突,文件内容留空就可以了</li>
+    <li>游戏不会被强行退出</li>
+    </ul>
+    <p>更多功能正在开发中</p>
+    <h2>支持的游戏</h2>
+    <p>使用哩哔哩游戏SDK的游戏</p>
+    <h2>协议</h2>
+    <p>MIT协议</p>
+    <h2>参考</h2>
+    <p><a href="http://open.biligame.com/wiki/">哔哩哔哩游戏SDK集成指南</a></p>
 IssueTracker: ""
 Name: B站游戏绕过，关键字:B站游戏 BiliBili游戏 实名认证 防沉迷
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.enaium.bb

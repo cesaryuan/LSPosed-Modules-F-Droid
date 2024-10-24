@@ -3,10 +3,19 @@ Categories:
     - Xposed
 CurrentVersion: 4.6.8
 CurrentVersionCode: 556
-Description: |-
-    <p>1.新增浏览器去广告 【基于10.1.6版本测试】<br>
-    2.增强天气去广告【基于51.12.22版本测试】</p>
-    <p>因为代码混淆的原因，其他的版本可能无效</p>
+Description: |
+    <p>一个用于flyme10系统的lsposed插件</p>
+    <p>主要功能如下:</p>
+    <p>禁用安装APK时候的安全检查</p>
+    <p>使用原生的apk安装界面</p>
+    <p>自动apk</p>
+    <p>隐藏桌面应用标签</p>
+    <p>屏蔽充电动画</p>
+    <p>侧滑返回震动</p>
+    <p>隐藏状态看网速</p>
+    <p>主题和谐</p>
+    <p>…</p>
+    <p><img src="https://github.com/Xposed-Modules-Repo/com.coderstory.flyme10/assets/11525359/53d69d69-d907-4969-baa2-98a0e80247c9" alt="2222222222222" /></p>
 IssueTracker: ""
 Name: flyme10助手
 SourceCode: https://github.com/Xposed-Modules-Repo/com.coderstory.flyme10

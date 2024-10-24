@@ -3,11 +3,42 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.6
 CurrentVersionCode: 20240418
-Description: |-
-    <p>修复本地安装的弹窗bug<br>
-    表盘型号伪装增加非凡大师，Watch4Pro<br>
-    修复伪装型号获取其他表盘时的一个bug<br>
-    Add english support.</p>
+Description: |
+    <h1>HookUtils</h1>
+    <h3>华为运动健康Hook模块</h3>
+    <hr />
+    <p>华为运动健康(com.huawei.health)</p>
+    <ul>
+    <li>支持表盘本地安装，支持忽略尺寸检查和随机ID</li>
+    <li>表盘试用直接触发安装，取消试用事件</li>
+    <li>对表盘的下载自动提取hwt文件保存</li>
+    <li>强制不支持试用的型号支持试用，用来提取表盘</li>
+    <li>允许转储其他型号手表的表盘</li>
+    <li>支持表盘市场型号伪装</li>
+    <li>支持自定义系统更新</li>
+    </ul>
+    <hr />
+    <p>手记(cc.studio97.txt)</p>
+    <ul>
+    <li>去除登录</li>
+    <li>免购买</li>
+    </ul>
+    <hr />
+    <h2>具体请前往<a href="https://www.coolapk1s.com/feed/49865557">酷安图文</a>进行讨论和反馈。</h2>
+    <h2>English version</h2>
+    <h3>Huawei Health Xposed Module</h3>
+    <hr />
+    <p>Huawei Health(com.huawei.health)</p>
+    <ul>
+    <li>Support Local Install Watchface, Support Random ID</li>
+    <li>Get watchface by clicking “Tryout Watchface”</li>
+    <li>Dump Watchface .hwt file</li>
+    <li>Force enable Tryout on unsupported watch</li>
+    <li>Allow dump other model watchface</li>
+    <li>Allow fake watchface market model</li>
+    <li>Allow fake OTA</li>
+    </ul>
+    <h2>Report issue on <a href="https://github.com/wwlwwlwwlwwl/HookUtils/issues">issue tab</a></h2>
 IssueTracker: ""
 Name: HookUtils
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.wwl.xposed.hook

@@ -3,9 +3,48 @@ Categories:
     - Xposed
 CurrentVersion: 2.1.0
 CurrentVersionCode: 210
-Description: |-
-    <p>feat: optional hide launcher icon</p>
-    <p>支持隐藏启动器图标</p>
+Description: |
+    <h1>Hide App from Recent Task List</h1>
+    <p>Simple module to hide any app from recent task list.</p>
+    <p>Designed in pure Kotlin &amp; Jetpack Compose &amp; Material Design 3. Can be a template for any Xposed module with a application selection list.</p>
+    <p><img src="https://github.com/Young-Lord/hideRecent/raw/master/assets/image/preview.jpg" alt="UI Screenshot" /></p>
+    <h2>How to use</h2>
+    <blockquote>
+    <p>Tested on: Android 10 (AOSP),  Android 11 (MIUI 12), Android 13 (AOSP), Android 13 (MIUI 14), Android 14 (AOSP); may work on <a href="http://aospxref.com/android-10.0.0_r47/xref/frameworks/base/services/core/java/com/android/server/wm/RecentTasks.java#1272">10 &lt;= Android &lt;= 14</a></p>
+    </blockquote>
+    <ol>
+    <li>Select <code>System framework</code> (package name may be <code>android</code> or <code>system</code> or empty, <a href="https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1">see this</a>) in module scope and activate the module</li>
+    <li>Force stop module</li>
+    <li>Select the apps you want to hide from recent app list in module settings (if package list not shown, you can manually import / export settings to edit config)</li>
+    <li>Reboot (you MUST reboot when you modify the list, or changes will not be applied until next reboot)</li>
+    <li>If you need multi-user support, install this module only in main user, and use <a href="https://shizuku.rikka.app/download/">Shizuku</a> to get app info from other users.</li>
+    </ol>
+    <h2>Module Scope</h2>
+    <ul>
+    <li>android</li>
+    </ul>
+    <h2>Project URL</h2>
+    <p>Home URL: <a href="https://github.com/Young-Lord/hideRecent">https://github.com/Young-Lord/hideRecent</a></p>
+    <p>Xposed Modules Repo URL: <a href="https://github.com/Xposed-Modules-Repo/moe.lyniko.hiderecent">https://github.com/Xposed-Modules-Repo/moe.lyniko.hiderecent</a></p>
+    <h2>Technical Details</h2>
+    <p>UI: Material Design 3 + Jetpack Compose + Kotlin.</p>
+    <p>Hook: Hook <code>com.android.server.wm.RecentTasks.isVisibleRecentTask(com.android.server.wm.Task)</code>, <code>(callMethod(param.args[0], &quot;getBaseIntent&quot;) as Intent).component?.packageName</code> is package name.</p>
+    <h2>HELP ME IT DOESNT WORK!!!</h2>
+    <p>Please open a issue <a href="https://github.com/Young-Lord/hideRecent/issues">here</a>. Provide your Android version, <code>/system/framework/framework.jar</code> and all <code>/system/framework/framework{a number here}.jar</code> if exist.</p>
+    <p>I am not intended to support Android &lt; 10, but anyone is free to <a href="https://github.com/Young-Lord/hideRecent/pulls">send a PR</a> for Android &lt; 10 support.</p>
+    <p>PR for refactoring is also appreciated.</p>
+    <h2>License</h2>
+    <p>Apache-2.0 License or MIT License are all OK.</p>
+    <h2>Thanks</h2>
+    <p><a href="https://stackoverflow.com/questions/57266451/get-list-of-apps-of-all-users">https://stackoverflow.com/questions/57266451/get-list-of-apps-of-all-users</a></p>
+    <p><a href="https://github.com/LibChecker/LibChecker/pull/821/files">https://github.com/LibChecker/LibChecker/pull/821/files</a> (Apache-2.0 license)</p>
+    <p><del>Original code from: <a href="https://github.com/cokkeijigen/setAppFull">https://github.com/cokkeijigen/setAppFull</a></del> refactored.</p>
+    <p><a href="https://gitlab.com/newbit/rootAVD">rootAVD</a></p>
+    <h2>Why?</h2>
+    <p>出于隐私或便捷原因，有些时候我们总是想隐藏一些应用。</p>
+    <p>CrDroid 内置了这个功能，这是好的，然而并不是所有人都在用 CrDroid。</p>
+    <p>而且，国内的 ROM 的“最近任务列表”里划掉一个卡片，就等于杀死这个应用，这太蠢了！你也不想你的 Clash For Android 编辑完配置就挂了吧？</p>
+    <p>Thanox 等一些应用也有这个功能，但只为了这个功能氪金并装一个闭源应用，怎么看都很怪。于是我买了 Thanox 订阅，然后写完这个模块后又卖了。</p>
 IssueTracker: ""
 Name: HideRecentTask / 隐藏最近任务
 SourceCode: https://github.com/Xposed-Modules-Repo/moe.lyniko.hiderecent

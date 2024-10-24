@@ -3,10 +3,61 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.6
 CurrentVersionCode: 100006
-Description: |-
+Description: |
+    <h1>XAppDebug</h1>
+    <p>Debug any application of your choice!</p>
+    <p>In recent version of Android (starting from… Nougut or Oreo I guess?),
+    undebuggable apps won’t show its name in the logcat view of Android Studio.</p>
+    <p>This is somehow inconvenient since at some point we always have to build
+    our apps with release configuration, which disables the debuggable flag and
+    making life difficult.</p>
+    <h2>Features</h2>
     <ul>
-    <li>CI :-D</li>
-    <li>Android 13 (Tiramisu) support, thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ElJaviLuki/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ElJaviLuki">@ElJaviLuki</a></li>
+    <li>Reasonable UI</li>
+    <li>Hooks <strong>both</strong> <code>Process.start()</code> <strong>and</strong> <code>PackageManagerService.getPackageInfo()</code>.</li>
+    <li>Works with multi-user</li>
+    </ul>
+    <h2>Special Thanks</h2>
+    <p>I’ve tried several Xposed modules, but they either don’t work with multi-user
+    (work profile) or is too old to even work correctly.</p>
+    <p>That’s why I started this project. However, lots of codes are <del>copied from</del>
+    refactored out of these projects.</p>
+    <ul>
+    <li><a href="https://github.com/ttimasdf/XDebuggable">XDebuggable</a>:
+    <ul>
+    <li>Works the best IMHO</li>
+    <li>Hooks <code>Process.start()</code></li>
+    <li>Can only enable one app because it utilize the debug options in
+    “Developer Options” from <code>System.UI</code>.</li>
+    </ul>
+    </li>
+    <li><a href="https://github.com/deskid/XDebug">XDebug</a>:
+    <ul>
+    <li>Works, no UI.</li>
+    </ul>
+    <ul>
+    <li>Hooks <code>Process.start()</code></li>
+    </ul>
+    <ul>
+    <li>Making <strong>EVERY</strong> app debuggable</li>
+    </ul>
+    </li>
+    <li><a href="https://github.com/dirname/AppDebuggable">App Debuggable</a>:
+    <ul>
+    <li>Good UI</li>
+    <li>Hooks <code>PackageManagerService.getPackageInfo()</code></li>
+    <li>Writes file to <code>/sdcard</code> and <code>/data</code> (which is IMHO dirty)</li>
+    <li>No multi-user support (because of ↑↑↑)</li>
+    <li>Requests <strong>LOTS</strong> of unnecessary permissions (even wants SU…!!)</li>
+    </ul>
+    </li>
+    <li><a href="https://github.com/ZhouHoubin/OpenDbg">OpenDbg</a>:
+    <ul>
+    <li>Good UI, too.</li>
+    <li>Hooks <code>PackageManagerService.getPackageInfo()</code></li>
+    <li>Pollute <code>/sdcard</code></li>
+    </ul>
+    </li>
     </ul>
 IssueTracker: ""
 Name: XAppDebug

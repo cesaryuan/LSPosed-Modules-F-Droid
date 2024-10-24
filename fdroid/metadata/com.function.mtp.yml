@@ -3,7 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "200"
 CurrentVersionCode: 200
-Description: <p>仅在Pixel 6(Android14)测试可用。</p>
+Description: |
+    <h1>Android14</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.function.mtp/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.function.mtp/total?label=Downloads"></a></p>
+    <h3>每次连接电脑调试时，USB默认是不传输数据的，每次还需要点开通知，选择文件传输模式（MTP）</h3>
+    <h3>使用此插件，在手机连接电脑时，默认设置文件传输模式</h3>
 IssueTracker: ""
 Name: Android14连接电脑后，默认连接USB文件传输模式
 SourceCode: https://github.com/Xposed-Modules-Repo/com.function.mtp

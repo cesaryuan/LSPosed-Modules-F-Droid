@@ -3,7 +3,29 @@ Categories:
     - Xposed
 CurrentVersion: "1.31"
 CurrentVersionCode: 31
-Description: <p>[YM] v17+ support</p>
+Description: |
+    <h1>Maps tweaks</h1>
+    <p>Collection of the maps UI tweaks for Google maps, Yandex maps and Yandex Navi</p>
+    <h2>List of tweaks:</h2>
+    <ul>
+    <li>[GM] Hide “Explore Nearby” bottom slider</li>
+    <li>[GM] Hide bottom bar</li>
+    <li>[GM] Hide/shift Categories top list</li>
+    <li>[GM] Hide logos</li>
+    <li>[GM] Hide GSM update dialog</li>
+    <li>[GM] Hide Live (AR) layout</li>
+    <li>[YM] Hide top Search bar and move it buttons to the bottom nav bar</li>
+    <li>[YM] Hide Transport button (at the bottom nav bar)</li>
+    <li>[YM] Hide bottom suggestions list (“Explore Nearby” bottom bar in old versions)</li>
+    <li>[YM] Hide logo (old versions)</li>
+    <li>[YM] Remove routes launch limit</li>
+    <li>[YN] Remove routes launch limit</li>
+    </ul>
+    <p>Most of the UI tweaks are startup-tweaks that mean they handle during the apps launch only! The GM bottom slider and bar will be show again after e.g. cafe searching in Google Maps. It’s normal behavior.</p>
+    <h2>Support/Discussion URL / Страница программы:</h2>
+    <p><a href="https://forum.xda-developers.com/t/mod-xposed-4-0-3-mapstweaks-google-maps-yandex-maps.4010765/">xda</a> or <a href="https://4pda.to/forum/index.php?forums%5B%5D=489&amp;topics%5B%5D=603033&amp;act=search&amp;source=pst&amp;query=mapstweaks">4pda</a></p>
+    <h2>Author</h2>
+    <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2019-2024</p>
 IssueTracker: ""
 Name: Maps tweaks
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.mapstweaks

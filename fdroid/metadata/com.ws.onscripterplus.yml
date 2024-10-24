@@ -3,16 +3,25 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 11
-Description: |-
+Description: |
+    <h1>ONScripter Plus+</h1>
+    <img src="https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus/raw/master/images/ic_launcher.png" width="256" alt="ONScripter Plus" />
+    <h2>功能</h2>
     <ul>
     <li>解锁外部设备功能</li>
     <li>默认使用目录中的的 icon.png 文件作为封面</li>
     <li>去除广告</li>
-    <li>兼容版本 2.0.16</li>
     </ul>
     <h2>下载地址</h2>
     <p><a href="https://github.com/W2725730722/ONScripterPlus/releases/download/1.1/ONScripter.Plus+_1.1.apk">模块</a></p>
     <p><a href="https://github.com/W2725730722/ONScripterPlus/releases/download/1.1/ONScripter.Plus_2.0.16.apk">软件</a></p>
+    <h2>效果对比</h2>
+    <h4>xposed</h4>
+    <img src="https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus/raw/master/images/2-1.jpg" width="300">
+    <img src="https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus/raw/master/images/2-2.jpg" width="300">
+    <h4>原软件</h4>
+    <img src="https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus/raw/master/images/1-1.jpg" width="300">
+    <img src="https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus/raw/master/images/1-2.jpg" width="300">
 IssueTracker: ""
 Name: ONScripter Plus+
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ws.onscripterplus

@@ -3,6 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: "0.1"
 CurrentVersionCode: 1
+Description: |
+    <h1>Nai</h1>
+    <p>Remove the annoying ‘free storage space’ pop-ups on Telegram.</p>
+    <h2>Why?</h2>
+    <p>Because these pop-ups are annoying. Also, there is no way to disable them inside the Telegram app (you can dismiss the pop-ups, but they will reaper after some time).</p>
+    <h2>Usage</h2>
+    <p>Just install and reboot the device. If you are using LSposed, you just need to mark the “Telegram” package on the list of apps and then kill/force-close the <code>org.telegram.messenger</code> process (e.g., by running <code>/system/bin/am force-stop org.telegram.messenger</code> on a terminal emulator).</p>
+    <h2>Supported versions</h2>
+    <p>This module was only tested on Telegram 10.9.1. It might be compatible with older releases, but that is not guaranteed to work.</p>
 IssueTracker: ""
 Name: Nai
 SourceCode: https://github.com/Xposed-Modules-Repo/com.amanoteam.nai

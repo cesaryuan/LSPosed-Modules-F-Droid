@@ -3,11 +3,29 @@ Categories:
     - Xposed
 CurrentVersion: 1.9.9.9
 CurrentVersionCode: 31
-Description: |-
+Description: |
+    <h1>ColorOSTool</h1>
+    <p>增强 ColorOS 12(For OnePlus) 使用体验</p>
+    <h2>当前功能：</h2>
     <ul>
-    <li>Fixed some bug on COS12.1</li>
-    <li>Add a feature about setting default app</li>
-    <li>Remove feature about launcher layout</li>
+    <li>解除只允许5个非白名单应用自启动的限制</li>
+    <li>解除启动器只能锁定5个后台应用的限制</li>
+    <li>三方暗色支持所有的用户APP</li>
+    <li>移除apk安装前的安全验证</li>
+    <li>移除安装包扫描</li>
+    <li>移除安装前，因版本相同、低版本等弹出的警告提示</li>
+    <li>隐藏安装完成后的广告以及“前往应用商店安装更多应用”的提示</li>
+    <li>自带的原生安装界面可选</li>
+    <li>移除锁屏时钟里的红色1</li>
+    <li>禁用USB安装手动确认，自动静默安装</li>
+    <li>全局120hz</li>
+    <li>Root也可启用游戏滤镜</li>
+    </ul>
+    <h2>注意事项</h2>
+    <ul>
+    <li>安装或更新模块后，请强行停止推荐HOOK的应用以生效。</li>
+    <li>切换模块功能开关后，请强行停止推荐HOOK的应用以生效。</li>
+    <li>当前仅在 ColorOS 12 For OnePlus 上测试过。</li>
     </ul>
 IssueTracker: ""
 Name: ColorOSTool

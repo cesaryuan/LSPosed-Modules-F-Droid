@@ -3,10 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.3
 CurrentVersionCode: 4
-Description: |-
+Description: |
+    <h1>模拟蓝牙设备</h1>
+    <p>在蓝牙扫描结果中模拟一个 BLE 外围设备通告。<br />
+    支持动态通告数据同步，需要另一台 Android 5.0 以上的设备作为监听设备，安装<code>蓝牙通告监听器</code>，并创建一个<a href="https://www.leancloud.cn/">LeanCloud</a> 应用用于云端同步。<br />
+    仅用于蓝牙设备的开发与调试，请勿用于签到打卡等违法违纪用途。</p>
+    <h2>使用说明</h2>
+    <p>关闭模块状态下，使用 nRF Connect 扫描得到要模拟的通告信号，将结果填入对应选项。</p>
     <ul>
-    <li>修复 <code>MAC 地址</code>显示问题</li>
+    <li><code>Raw data</code> 去掉开头的 <code>0x</code> 填入<code>通告数据</code></li>
+    <li>支持 Android 8.0 或更高版本</li>
     </ul>
+    <img align="center" alt="howto" src="https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice/raw/main/img/howto.jpg"/>
+    <h2>捐赠支持</h2>
+    <p>点个 <strong>Star</strong> 也是对我的支持。
+    如果这个项目对你帮助很大，可以考虑给我送杯奶茶。</p>
+    <img align="center" alt="donate_alipay" width = "250" src="https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice/raw/main/img/donate_alipay.jpg"/>
+    <img align="center" alt="donate_wechat" width = "250" src="https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice/raw/main/img/donate_wechat.jpg"/>
 IssueTracker: ""
 Name: 模拟蓝牙设备
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ztc1997.mockbluetoothdevice

@@ -3,17 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: "0.21"
 CurrentVersionCode: 21
-Description: |-
-    <h1>Changes</h1>
+Description: |
+    <h1>Hachidori</h1>
+    <p>A X (formerly Twitter) Xposed modules.</p>
+    <h1>Requirements</h1>
     <ul>
-    <li>Update Chinese Simplified and Japanese language</li>
-    <li>Fix Google Ads showing up in replies</li>
-    <li>Fix <code>Unlock Local Premium</code> for <code>v10.64.0-alpha.3</code></li>
-    <li>Added <code>Disable SNI</code> feature</li>
+    <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
     </ul>
-    <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above</p>
-    <p>Long press X icon on top of the home screen or tap version in about section to access settings.</p>
-    <p>Please DO NOT tweet/post anything about this module at Twitter/X.</p>
 IssueTracker: ""
 Name: Hachidori
 SourceCode: https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori

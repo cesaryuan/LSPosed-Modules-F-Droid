@@ -3,27 +3,45 @@ Categories:
     - Xposed
 CurrentVersion: 7.0.1
 CurrentVersionCode: 701
-Description: |-
-    <h1>!!! 强烈建议更新，之前的版本有严重性能BUG !!!</h1>
-    <hr>
-    <p>7.0.1</p>
+Description: |
+    <h1 align="center">墨•状态栏歌词</h1>
+    <div align="center">
+    <p><img src="https://img.shields.io/github/downloads/577fkj/StatusBarLyric/total?style=flat-square" alt="Release Download" />
+    <a href="https://github.com/577fkj/StatusBarLyric/releases/latest"><img src="https://img.shields.io/github/v/release/577fkj/StatusBarLyric?style=flat-square" alt="Release Version" /></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/577fkj/StatusBarLyric?style=flat-square" alt="GitHub license" /></a>
+    <a href="https://github.com/577fkj/StatusBarLyric/stargazers"><img src="https://img.shields.io/github/stars/577fkj/StatusBarLyric?style=flat-square" alt="GitHub Star" /></a>
+    <a href="https://github.com/577fkj/StatusBarLyric/network/members"><img src="https://img.shields.io/github/forks/577fkj/StatusBarLyric?style=flat-square" alt="GitHub Fork" /></a>
+    <img src="https://img.shields.io/github/repo-size/577fkj/StatusBarLyric?style=flat-square&amp;color=3cb371" alt="GitHub Repo size" />
+    <a href="https://github.com/577fkj/StatusBarLyric/search?l=java"><img src="https://img.shields.io/github/languages/top/577fkj/StatusBarLyric?style=flat-square" alt="GitHub Repo Languages" /></a></p>
+    <p><a href="https://actions-badge.atrox.dev/577fkj/StatusBarLyric/goto?ref=main"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain&amp;style=flat" alt="Build Status" /></a>
+    <a href="https://github.com/577fkj/StatusBarLyric"><img src="https://img.shields.io/github/stars/577fkj/StatusBarLyric.svg?style=social" alt="GitHub Star" /></a>
+    <a href="https://t.me/StatusBatLyric"><img src="https://img.shields.io/badge/%E7%94%B5%E6%8A%A5%E7%BE%A4-StatusBatLyric-blue.svg?style=flat-square&amp;color=12b7f5" alt="电报群" /></a>
+    <a href="https://afdian.net/@xiao_wine"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@xiao_wine-blue.svg?style=flat-square&amp;color=12b7f5" alt="爱发电" /></a></p>
+    </div>
+    <h3>理论支持 <strong>所有</strong> 官方以及部分修改系统</h3>
+    <h3>奉献者</h3>
+    <p><a href="https://github.com/Block-Network/StatusBarLyric/graphs/contributors">奉献者</a></p>
+    <h2>帮助翻译</h2>
+    <p><a href="https://crowdin.com/project/statusbarlyric"><img src="https://badges.crowdin.net/statusbarlyric/localized.svg" alt="Crowdin" /></a></p>
+    <p><a href="https://crowdin.com/project/statusbarlyric">点击进入Crowdin</a></p>
+    <h3>下载</h3>
     <ul>
-    <li>修复 无法设置图标上边距</li>
-    <li>修复 悬浮标题背景颜色无法设置</li>
-    <li>修复 部分系统无法隐藏通知图标</li>
-    <li>修改 lyricEndMargins 默认值为7</li>
-    <li>添加 歌词添加位置</li>
-    <li>修复 无法输入渐变色</li>
-    <li>优化 图标样式页面中重启系统界面 Card 跳动</li>
-    <li>优化 标题间距</li>
-    <li>优化 竖屏下页面切换动画</li>
-    <li>修复 扩展选项界面字重错误</li>
-    <li>修复 重置配置 Dialog 文案</li>
-    <li>添加 横屏下右侧显示 Logo</li>
-    <li>优化 标题监听 解决蓝牙歌词导致歌词被当作标题</li>
-    <li>修复 屏幕缺口黑边</li>
-    <li>修复 歌词设置宽度过大时无法滚动</li>
+    <li><a href="https://github.com/577fkj/StatusBarLyric/releases">Releases</a></li>
+    <li><a href="https://github.com/577fkj/StatusBarLyric/actions/workflows/Android.yml">Beta</a></li>
+    <li><a href="https://github.com/577fkj/StatusBarLyric/actions/workflows/Android_Dev.yml">Canary</a></li>
     </ul>
+    <h3>联系我们</h3>
+    <ul>
+    <li><a href="https://t.me/StatusBatLyric">电报</a></li>
+    <li><a href="https://github.com/577fkj/StatusBarLyric/issues/new">BUG反馈(Github)</a></li>
+    </ul>
+    <h2>贡献</h2>
+    <p><a href="https://github.com/Block-Network/StatusBarLyric/doc/CONTRIBUTING.md">想做贡献？</a></p>
+    <h2>EULA &amp; License</h2>
+    <p><a href="https://github.com/Block-Network/StatusBarLyric/doc/EULA.md">EULA</a></p>
+    <p><a href="https://github.com/Block-Network/StatusBarLyric/LICENSE">GNU General Public License v3.0</a></p>
+    <h2>Star History</h2>
+    <p><a href="https://star-history.com/#Block-Network/StatusBarLyric&amp;Date"><img src="https://api.star-history.com/svg?repos=Block-Network/StatusBarLyric&amp;type=Date" alt="Star History Chart" /></a></p>
 IssueTracker: ""
 Name: StatusBar Lyric
 SourceCode: https://github.com/Xposed-Modules-Repo/statusbar.lyric

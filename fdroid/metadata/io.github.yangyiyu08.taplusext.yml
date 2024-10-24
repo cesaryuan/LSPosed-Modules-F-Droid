@@ -3,16 +3,55 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.8
 CurrentVersionCode: 8
-Description: |-
+Description: |
+    <h1>传送门增强 – TaplusExtension</h1>
+    <p>为 MIUI/HyperOS传送门 量身定做的增强模块</p>
+    <p>Enhanced modules tailored for MIUI/HyperOS Taplus</p>
+    <h2>支持版本</h2>
+    <p>原理上适配 <code>2.2.0 +</code>，建议升级到 <strong>最新</strong> 版本</p>
+    <h2>功能</h2>
     <ul>
+    <li>优化链接打开方式</li>
     <li>优化链接识别能力</li>
     <li>添加移除购物开关</li>
+    <li>优化复制，去除多余空格</li>
+    <li>添加长按批量复制，配合输入法的剪贴板使用</li>
+    <li>强化搜索，内置主流搜索引擎，并支持自定义</li>
     </ul>
-    <hr>
+    <h4>老机型强制开启：</h4>
     <ul>
-    <li>optimize link recognition ability</li>
-    <li>add remove shopping switch</li>
+    <li>双指长按</li>
+    <li>区域选择</li>
+    <li>图片保存模式</li>
     </ul>
+    <h2>使用</h2>
+    <ol>
+    <li>在 LSPosed管理器 中激活模块</li>
+    <li>作用域勾选 传送门(<strong><code>com.miui.contentextension</code></strong>)</li>
+    <li><strong>重启传送门</strong> (即强行停止)</li>
+    <li>更多配置请转到 <code>设置-更多设置(特色功能)-传送门</code></li>
+    </ol>
+    <h2>注意事项</h2>
+    <ol>
+    <li>
+    <p>自定义搜索引擎的 url 格式：</p>
+    <ol>
+    <li>必须以 <strong>http</strong> 开头</li>
+    <li>必须包含 <strong>%s</strong> ，用于代替搜索词</li>
+    </ol>
+    <p>示例：<code>https://www.exmaple.com/s?q=%s</code></p>
+    </li>
+    <li>
+    <p>关于老机型的强制开启功能，会因设备底层不支持的原因从而不生效</p>
+    </li>
+    </ol>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/io.github.yangyiyu08.taplusext/releases">LSPosed 仓库</a></p>
+    <p><a href="https://qyma.lanzout.com/b051gtd3i">蓝奏云</a> 密码:<code>miui</code></p>
+    <h2>无效</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a></p>
+    <h2>致谢</h2>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: 传送门增强(TaplusExtension)
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.yangyiyu08.taplusext

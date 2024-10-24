@@ -3,7 +3,10 @@ Categories:
     - Xposed
 CurrentVersion: "1"
 CurrentVersionCode: 1
-Description: <p>first version.</p>
+Description: |
+    <h1>DisableAltTab</h1>
+    <p>A Xposed module to disable Alt-Tab hotkey for generic android devices.</p>
+    <p>For MIUI Android12+ devices, use <a href="https://github.com/CwithW/MiuiPadMeta">MiuiPadMeta</a> instead which also disables MIUI Meta key hotkeys(eg. Win-A opens calculator).</p>
 IssueTracker: ""
 Name: DisableAltTab
 SourceCode: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab

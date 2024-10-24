@@ -3,6 +3,52 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
+Description: |
+    <h1>CameraControl</h1>
+    <p>Next level camera management.</p>
+    <p>CameraControl lets you manage access to your cameras depending on which side of the phone they face.</p>
+    <p>Why? Because I hate it when Snapchat opens up and forces me to see my own depression. But completely disabling all the cameras for Snapchat would render the whole app useless.</p>
+    <p>This was developed and tested on <code>LineageOS 17.1</code>, but should work on any android <code>&gt;= 8.1</code>.</p>
+    <h3>How to install:</h3>
+    <ol>
+    <li>Install the module on a system with a running XPosed framework</li>
+    <li>Activate the module and select apps you want to limit camera access to.</li>
+    </ol>
+    <h3>How to configure:</h3>
+    <ul>
+    <li>Route 1:
+    <ul>
+    <li>Go back to the module list</li>
+    <li>Long press on <code>CameraControl</code> and select App Info</li>
+    <li>On the bottom, click on <code>Advanced</code></li>
+    <li>Click on <code>Additional settings in the app</code></li>
+    </ul>
+    </li>
+    <li>Route 2:
+    <ul>
+    <li>Go into device settings</li>
+    <li>Click on apps</li>
+    <li>Somehow tell the device to show all apps</li>
+    <li>Select <code>CameraControl</code></li>
+    <li>On the bottom, click <code>Advanced</code></li>
+    <li>Click on <code>Additional settings in the app</code></li>
+    </ul>
+    </li>
+    <li>Route 3:
+    <ul>
+    <li>Open up an ADB shell</li>
+    <li>Run command <code>am start-activity com.programminghoch10.cameracontrol/.SettingsActivity</code></li>
+    </ul>
+    </li>
+    </ul>
+    <p>Now configure away!</p>
+    <p><em><strong>Small intel:</strong> The configure activity is not accessible from the launcher,
+    because LSPosed does not let modules hide their own launcher icons by default anymore.
+    Defining a settings activity is an easy way to provide an accessible configuration interface,
+    without forcing yet another launcher icon into the list.
+    One does not have to open the menu often anyways.</em></p>
+    <h3>What it looks like</h3>
+    <p><img src="screenshot.png" alt="Screenshot" /></p>
 IssueTracker: ""
 Name: CameraControl
 SourceCode: https://github.com/Xposed-Modules-Repo/com.programminghoch10.cameracontrol

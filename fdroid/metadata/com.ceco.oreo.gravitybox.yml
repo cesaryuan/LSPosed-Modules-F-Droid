@@ -3,32 +3,65 @@ Categories:
     - Xposed
 CurrentVersion: 8.6.0
 CurrentVersionCode: 8600
-Description: |-
+Description: |
+    <h1>GravityBox [O]</h1>
+    <p><strong>GravityBox</strong> is a module which primary goal is to provide the users of devices running vanilla or close to vanilla Android</p>
+    <p>with a tweak box that turns their stock ROM into a custom ROM packed with additional features and tweaks;</p>
+    <p>without the need of flashing a custom ROM. Most of the preferences can be changed on-the-fly without rebooting.</p>
+    <p><em><strong>THIS VERSION IS FOR OREO ROMs</strong></em></p>
     <ul>
-    <li>Added compatibility with EdXposed v0.5+ and LSPosed</li>
-    <li>Added support for LSPosed module scope feature (auto-whitelist)</li>
-    <li>Maintains backwards compatibility with EdXposed v0.4 and OG Xposed Framework<br>
-    --- moving from old OG Xposed Framework to EdXposed/LSPosed is now strongly recommended, though!</li>
-    <li>Does not require Xposed Resource Hooking support to be enabled anymore!</li>
-    <li>Resource replacement:<br>
-    --- redesigned for better compatibility and performance<br>
-    --- implemented support for aliased resources pointing to Framework resources<br>
-    --- Added support for resource overlays:<br>
-    ------ improves Advanced Tuning compatibility with systems using Theme overlays<br>
-    ------ fixes "Remove corner padding" option on Nokia (and other) devices<br>
-    ------ fixes hiding navigation bar by disabling "Enable navigation bar" option in Navbar tweaks</li>
-    <li>StatusbarClock: respect time zone changes when showing seconds</li>
-    <li>StatusbarClock: keep master switch for Clock tweaks off by default (thanks to aviraxp)</li>
-    <li>Media: improved compatibility of More music volume steps feature</li>
-    <li>Keys: improved reliability of Torch on power long-press</li>
-    <li>ImagePicker: use dedicated library for cropping images instead of unreliable camera CROP intent</li>
-    <li>About: added references to EdXposed and Riru</li>
-    <li>Fixed XSharedPreferences Unexpected EOF errors showing in Xposed log</li>
-    <li>Fixed layout/scaling of all GravityBox view elements affected by DPI change when screen resolution changes</li>
+    <li>For Lollipop, use GravityBox [LP]</li>
+    <li>For KitKat, use GravityBox [KK]</li>
+    <li>For JellyBean, use GravityBox [JB]</li>
+    <li>For Marshmallow, use GravityBox [MM]</li>
+    <li>For Nougat, use GravityBox [N]</li>
     </ul>
-    <p><em>IMPORTANT:</em> Module settings are reset when framework is upgraded from EdXposed v0.4/OG Xposed to EdXposed v0.5.1+/LSPosed<br>
-    due to changes in preferences storage location for modules in EdXposed v0.5/LSPosed<br>
-    It is recommended to create a backup of GravityBox settings before upgrading the framework.</p>
+    <h2>Main features</h2>
+    <ul>
+    <li>QuickSettings tile management with additional tiles</li>
+    <li>Pie Controls</li>
+    <li>Expanded desktop with semi-immersive and immersive modes</li>
+    <li>Lockscreen tweaks</li>
+    <li>Statusbar tweaks</li>
+    <li>Navigation bar tweaks</li>
+    <li>Power tweaks</li>
+    <li>Display tweaks</li>
+    <li>Media tweaks</li>
+    <li>Phone tweaks</li>
+    <li>Hardware key actions</li>
+    <li>Launcher tweaks</li>
+    <li>Screen recording</li>
+    <li>Smart radio</li>
+    <li>Notification control (per-app notification LED/sounds/vibrations)</li>
+    <li>Fingerprint Launcher</li>
+    <li>Advanced tuning of Framework and System UI parameters</li>
+    </ul>
+    <p>… and many more</p>
+    <h2>Compatibility</h2>
+    <ul>
+    <li>Supports AOSP devices running vanilla Android Oreo 8.0/8.1</li>
+    <li>Supports OnePlus 3T running official OOS 5.0.1</li>
+    <li>DOES NOT support devices running ROMs vastly modified by device manufacturers (HTC Sense, LG, Samsung Touchwiz, MIUI, LeWa, Xperia, …)</li>
+    <li>SHOULD NOT be used with custom ROMs like Lineage, AOSPA, or any other derivative - it makes no sense since the most of the features are already in the ROM (may cause conflicts and unexpected behavior)</li>
+    </ul>
+    <h2>EdXposed compatibility</h2>
+    <p>GravityBox requires EdXposed v0.4 or later with resource hooking support</p>
+    <h2>Info about premium features and PayPal transaction ID verification system</h2>
+    <ol>
+    <li>
+    <p>Those who supported development via PayPal donation can use their PayPal transaction ID to unlock premium features. Currently there are two premium features: 1) Backup/restore of GB settings 2) Ultimate notification control</p>
+    </li>
+    <li>
+    <p>If you contributed to the project by providing translations, code fragments, or by any other way. You can apply for a free transaction ID by contacting me via PM @ forum.xda-developers.com</p>
+    </li>
+    <li>
+    <p>Be aware that there’s a system that can identify potential transaction ID abuse. E.g. when one ID is being used by more users. Such IDs will get blocked automatically. This can also happen when you previously exposed your ID in public forum and other users took advantage of it. If this is the case, contact me via PM so I can issue new, special ID. In case you own more devices, you can use one transaction ID on up to 10 of them.</p>
+    </li>
+    <li>
+    <p>If you are using your own custom builds of GB for personal use, you will get hash mismatch upon verifying your ID as verification system accepts requests only from official releases of GB. If you want to be able to verify IDs with your custom build, contact me via PM so I can setup a special hash for your build. If you are using a custom build that you provide for broader group of users (e.g. in a custom ROM), It is necessary to ask for new hash everytime your new custom version is released for public use. These rules are based on mutual trust so please, do not violate them.</p>
+    </li>
+    </ol>
+    <p>Donation is also possible by purchasing GravityBox Unlocker from the Play Store</p>
 IssueTracker: ""
 Name: GravityBox [O]
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox

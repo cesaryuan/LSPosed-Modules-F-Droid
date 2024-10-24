@@ -3,9 +3,24 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.r89.db55550
 CurrentVersionCode: 2097182273
-Description: |-
-    <p>修复 2.45.10下载无水印失效<br>
-    添加 屏蔽视频帖子带游戏广告的帖子</p>
+Description: |
+    <h1>PPhelper</h1>
+    <p>皮皮搞笑的辅助xposed模块</p>
+    <p><img src="https://img.shields.io/badge/Android-7.0%20or%20above-brightgreen.svg" alt="above" />
+    <img src="https://img.shields.io/github/stars/lliioollcn/PPHelper" alt="1" />
+    <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lliiooll.pphelper/total" alt="downloads" />
+    <a href="../../releases"><img src="https://img.shields.io/github/release/Xposed-Modules-Repo/cn.lliiooll.pphelper.svg" alt="Latest Release" /></a>
+    <img src="https://img.shields.io/badge/author-lliioollcn-6cf.svg?style=flat" alt="https://github.com/lliioollcn" /></p>
+    <h2>皮皮搞笑辅助模块</h2>
+    <ul>
+    <li><input type="checkbox" checked="" disabled="" /> 去广告</li>
+    <li><input type="checkbox" checked="" disabled="" /> 帖子无水印</li>
+    <li><input type="checkbox" checked="" disabled="" /> 评论区无水印</li>
+    <li><input type="checkbox" checked="" disabled="" /> 去除语音房</li>
+    <li><input type="checkbox" disabled="" /> 评论自定义语音</li>
+    <li><input type="checkbox" disabled="" /> 去除直播</li>
+    <li><input type="checkbox" disabled="" /> 待续…</li>
+    </ul>
 IssueTracker: ""
 Name: 皮皮搞笑辅助模块
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.lliiooll.pphelper

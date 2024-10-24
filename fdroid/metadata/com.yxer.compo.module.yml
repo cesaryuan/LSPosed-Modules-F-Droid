@@ -3,7 +3,21 @@ Categories:
     - Xposed
 CurrentVersion: 2.6.2-beta
 CurrentVersionCode: 29
-Description: <p>细节优化。</p>
+Description: |
+    <h2>R-安装组件-扩展</h2>
+    <p>Xposed 插件</p>
+    <p>支持Android9~13</p>
+    <h3>功能:</h3>
+    <ul>
+    <li>重定向特定 intent (安装和卸载) 至 R-安装组件，可处理 显式Intent (R-安装组件 的默认安装器 无法处理)</li>
+    <li>重定向 R-安装组件 启动 已安装应用 的 intent 改用系统启动。</li>
+    <li>把WIFI伪装成数据网络</li>
+    <li>伪装未启用无障碍</li>
+    </ul>
+    <h2>R-安装组件 下载(Telegram)</h2>
+    <ul>
+    <li><a href="https://t.me/joinchat/AE6otyLVOCtlYzhl">https://t.me/joinchat/AE6otyLVOCtlYzhl</a></li>
+    </ul>
 IssueTracker: ""
 Name: R-安装组件-扩展
 SourceCode: https://github.com/Xposed-Modules-Repo/com.yxer.compo.module

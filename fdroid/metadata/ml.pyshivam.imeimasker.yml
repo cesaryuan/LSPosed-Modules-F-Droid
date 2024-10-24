@@ -3,11 +3,40 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.1
 CurrentVersionCode: 3
-Description: |-
+Description: |
+    <h1>IMEI Masker</h1>
+    <p>Utility To Mask IMEI Of Device.</p>
+    <p>The Main Aim Is To Spoof The Values From Third Party Apps Which Tracks Users And Their Personal Data.</p>
+    <hr />
+    <p>!!..REQUIREMENT..!!</p>
+    <p>-&gt; Rooted Device.
+    -&gt; Xposed Framework Installed.
+    -&gt; If You Don’t Know What Is Xposed Framework Then Do Not Download This Application As It Wont Work.</p>
+    <h2>(If You Don’t Know Then Google ‘‘What Is Xposed Framework’’)</h2>
     <p>!!..FEATURES..!!</p>
-    <p>Change The Value Of IMEI Number As Per Your Choice.</p>
+    <ol>
+    <li>
+    <p>Change The Value Of Below Field As Per Your Choice.
+    -&gt; IMEI Number</p>
+    </li>
+    <li>
     <p>Random, Original, Apply Options With One Click.</p>
+    </li>
+    <li>
     <p>Import/Export IMEI number.</p>
+    </li>
+    </ol>
+    <hr />
+    <p>!!..STEPS TO FOLLOW..!!</p>
+    <p>-&gt; Install The App.
+    -&gt; Enable Module In Xposed Framework And Reboot.
+    -&gt; Open The App And Enter New Values And Click Apply.
+    -&gt; Force Stop Apps to See Changes.
+    -&gt; Done, Value Will Be Changed.</p>
+    <hr />
+    <p>!!..VALUES ARE NOT CHANGED ?? ..!!</p>
+    <p>If Values are not changed try rebooting device.</p>
+    <hr />
 IssueTracker: ""
 Name: IMEI Masker
 SourceCode: https://github.com/Xposed-Modules-Repo/ml.pyshivam.imeimasker

@@ -3,32 +3,72 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2024010100
-Description: |-
-    <h4>ClipboardList v1.1</h4>
+Description: |
+    <h2>ClipboardList</h2>
+    <h3>解除剪贴板和常用语限制。</h3>
+    <h4>模块功能:</h4>
+    <ul>
+    <li>解除“剪贴板和常用语”功能的20条限制和时间限制。</li>
+    <li>解除输入法全面屏优化。</li>
+    <li>模块仅限小米设备使用！适配<code>MIUI</code>,<code>HyperOS</code>.</li>
+    </ul>
+    <h4>模块使用方法：</h4>
+    <ul>
+    <li>勾选需要解除限制的输入法后重启输入法即可。</li>
+    <li>如果无效请尝试重启手机后再试。</li>
+    </ul>
+    <h4>项目声明:</h4>
     <ul>
     <li>
-    <p>修复偶现的同步复制条目失败的问题。</p>
+    <p>[解除“剪贴板和常用语”功能的20条限制和时间限制]</p>
     </li>
     <li>
-    <p>修复切换输入法界面不显示第三方输入法的问题。</p>
+    <p>代码来源：@焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
     </li>
     <li>
-    <p>其他代码优化。</p>
+    <p>[解除输入法全面屏优化]</p>
     </li>
     <li>
-    <p>模块仅限小米设备使用！适配MIUI,HyperOS.</p>
+    <p>代码来源：HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
     </li>
     <li>
-    <p>Fix occasional synchronization replication entry failure issue.</p>
+    <p>项目将保持开源！欢迎互相学习！欢迎PR！</p>
     </li>
     <li>
-    <p>Fix the issue of not displaying third-party input methods when switching input method interfaces.</p>
+    <p>对本项目的使用需要注明，请遵守开源协议！</p>
+    </li>
+    </ul>
+    <h3>Remove Clipboard and Phrase Restrictions Module.</h3>
+    <h4>Module Features:</h4>
+    <ul>
+    <li>Removes the 20 restrictions and time limitations on the “Clipboard and Phrases” functionality.</li>
+    <li>Disables full-screen optimization for the input method.</li>
+    <li>This module is exclusively for Xiaomi devices! Compatible with <code>MIUI</code> and <code>HyperOS</code>.</li>
+    </ul>
+    <h4>Instructions for Using the Module:</h4>
+    <ul>
+    <li>Check the input methods for which you want to lift the restrictions, then restart the input method.</li>
+    <li>If it doesn’t work, try restarting your phone and then attempt again.</li>
+    </ul>
+    <h4>Project Disclaimer:</h4>
+    <ul>
+    <li>
+    <p>[Remove 20 restrictions and time limitations on “Clipboard and Phrases” functionality]</p>
     </li>
     <li>
-    <p>Other code optimizations.</p>
+    <p>Code source: @焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
     </li>
     <li>
-    <p>The module is only available for Xiaomi devices! Adapt to MIUI, HyperOS</p>
+    <p>[Remove full-screen optimization for the input method]</p>
+    </li>
+    <li>
+    <p>Code source: HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
+    </li>
+    <li>
+    <p>The project will remain open source! Collaboration and pull requests are welcome!</p>
+    </li>
+    <li>
+    <p>Proper attribution is required for using this project. Please adhere to the open-source license!</p>
     </li>
     </ul>
 IssueTracker: ""

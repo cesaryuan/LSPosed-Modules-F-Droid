@@ -3,6 +3,13 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 2
+Description: |
+    <h1>Monotype Patcher</h1>
+    <p>LSPosed module to patch Monotype for changing fonts on Samsung with FlipFonts.</p>
+    <p>Samsung offers a Font Style option in OneUI across all their devices, but they restrict font changes to those available in their store, signed by Monotype. Most fonts in the store are paid, with only 2-3 free options.</p>
+    <p>If you want to use a custom font, you can use zFont 3, but it requires multiple steps to bypass the restrictions. This module disables Monotype, allowing you to apply any font you like, just like the official FlipFont.</p>
+    <h3>Note</h3>
+    <p>You can download FlipFonts from the Google Play Store and create a FlipFont APK for any font using <a href="https://play.google.com/store/apps/details?id=com.htetznaing.zfont2">zFont 3</a></p>
 IssueTracker: ""
 Name: Monotype Patcher
 SourceCode: https://github.com/Xposed-Modules-Repo/com.htetz.monopatch

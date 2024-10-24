@@ -3,7 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
-Description: <p>fix label update</p>
+Description: |
+    <h1>TaskLabelAsTaskTitle</h1>
+    <p>use <code>taskDescription.label</code> as task title in recent task list</p>
+    <p>like for <code>Chrome Custom Tabs</code> and <code>Alipay Mini Program</code>, the task title is the page title, not the app name</p>
+    <table>
+    <thead>
+    <tr>
+    <th>before</th>
+    <th>after</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><img src="https://github.com/duzhaokun123/TaskLabelAsTaskTitle/raw/main/arts/before1.png" alt="before" /></td>
+    <td><img src="https://github.com/duzhaokun123/TaskLabelAsTaskTitle/raw/main/arts/after1.png" alt="after" /></td>
+    </tr>
+    <tr>
+    <td><img src="https://github.com/duzhaokun123/TaskLabelAsTaskTitle/raw/main/arts/before2.png" alt="before" /></td>
+    <td><img src="https://github.com/duzhaokun123/TaskLabelAsTaskTitle/raw/main/arts/after2.png" alt="after" /></td>
+    </tr>
+    </tbody>
+    </table>
 IssueTracker: ""
 Name: TaskLabelAsTaskTitle
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.tasklabelastasktitle

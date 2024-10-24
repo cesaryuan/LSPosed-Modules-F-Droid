@@ -3,7 +3,19 @@ Categories:
     - Xposed
 CurrentVersion: "1.3"
 CurrentVersionCode: 4
-Description: <p>support 8.0.40</p>
+Description: |
+    <h1>WechatMultiWebview</h1>
+    <p>利用 Xposed 实现微信以前的 <code>//multiwebview</code> 功能，在最近任务列表中可以同时显示微信聊天窗口和网页窗口，并可以互相切换，避免回消息的时候丢失网页窗口。</p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.zhangnew.wechatmultiwebview"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.zhangnew.wechatmultiwebview/total?logo=android&amp;label=Xposed%20Modules%20Repo%20Downloads&amp;color=F48FB1" alt="GitHub all releases" /></a>
+    <a href="https://github.com/zhangnew/WechatMultiWebview"><img src="https://img.shields.io/github/downloads/zhangnew/wechatmultiwebview/total?logo=android&amp;label=Source%20Code%20Repo%20Downloads&amp;color=F48FB1" alt="GitHub all releases" /></a></p>
+    <p><img src="https://raw.githubusercontent.com/zhangnew/WechatMultiWebview/master/images/demo.jpg" alt="demo" /></p>
+    <p>实现很简单：hook <code>startActivity</code>，向 <code>intent</code> 添加 <code>FLAG_ACTIVITY_NEW_DOCUMENT</code> 和 <code>FLAG_ACTIVITY_MULTIPLE_TASK</code> 两个 Flag 即可，其中前者使得 <code>activity</code> 在新任务中开启，后者使得开启多个 <code>activity</code> 时每个 <code>activity</code> 都在新的任务中开启，这样可以同时打开多个网页，分别在多个窗口中显示。</p>
+    <p><a href="https://github.com/chouqibao/WechatMultiWebview">感谢原作者</a>，原作者未适配 8.x 版本微信，这里做了更新，并提交到了<a href="https://modules.lsposed.org/module/com.zhangnew.wechatmultiwebview">LSPosed Repo</a> ，由于换了签名，所以也换了包名。</p>
+    <h2>更新日志</h2>
+    <h3>2023.08.09 适配 Google Play 版微信 8.0.37</h3>
+    <p>目前支持阅读公众号文章和小程序页面。如有问题或者需要适配新版本，欢迎提 Issue or PR</p>
+    <h3>2020.02.06 适配新版微信</h3>
+    <p>新版微信更改了公众号文章页面的 <code>Activity</code> 的类名。目前在 Google Play 版微信 7.0.3 和 7.0.10 版本测试通过。</p>
 IssueTracker: ""
 Name: 微信网页多窗口
 SourceCode: https://github.com/Xposed-Modules-Repo/com.zhangnew.wechatmultiwebview

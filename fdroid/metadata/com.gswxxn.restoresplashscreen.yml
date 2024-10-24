@@ -3,19 +3,74 @@ Categories:
     - Xposed
 CurrentVersion: "3.0"
 CurrentVersionCode: 3000
-Description: |-
+Description: |
+    <img src="https://raw.githubusercontent.com/GSWXXN/RestoreSplashScreen/master/doc/icon.svg" width="160">
+    <h1>启动遮罩进化</h1>
+    <p><a href="https://app.codacy.com/gh/GSWXXN/RestoreSplashScreen?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GSWXXN/RestoreSplashScreen&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/ffbf5a0bdf954416a2e1d4347b1ea797" alt="Codacy Badge" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/"><img src="https://img.shields.io/badge/-Xposed-green?style=flat&amp;logo=Android&amp;logoColor=white" alt="Xposed" /></a>
+    <a href="https://github.com/GSWXXN/RestoreSplashScreen/blob/master/LICENSE"><img src="https://img.shields.io/github/license/GSWXXN/RestoreSplashScreen" alt="GitHub" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/releases"><img src="https://img.shields.io/github/v/tag/GSWXXN/RestoreSplashScreen?label=version" alt="GitHub tag (latest by date)" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/total?label=Downloads" alt="GitHub all releases" /></a></p>
+    <p><del>尝试恢复被MIUI阉割的SplashScreen</del><br />
+    <del>自定义MIUI的Splash Screen</del><br />
+    为 Splash Screen 添加自定义选项</p>
+    <p>模块适配大部分安卓系统, 但目前还是以运行在高通 SoC 的 MIUI/HyperOS 为主, 如果在其他系统中使用遇到问题也欢迎反馈</p>
+    <h2>测试环境</h2>
+    <blockquote>
+    <p>小米12 Ultra<br />
+    Android 14<br />
+    HyperOS 1.0</p>
+    </blockquote>
+    <h2>模块功能</h2>
+    <ol>
+    <li>为所有应用显示原生 Splash Screen 界面</li>
+    <li>对于主动适配 Splash Screen 的应用使用默认静态图标</li>
+    <li>替换获取图标方式, 使 Splash Screen 的图标与桌面图标一致(多用于主题)</li>
+    <li>根据图标自适应 Splash Screen 背景颜色</li>
+    <li>彻底关闭 Splash Screen 特性</li>
+    </ol>
+    <h2>使用方法</h2>
+    <ol>
+    <li>在 Xposed 管理器 (LSPosed) 中激活模块</li>
+    <li>作用域勾选: 系统界面(<code>com.android.systemui</code>) 和 系统框架(<code>android</code>)</li>
+    <li>重启手机</li>
+    </ol>
+    <h2>已知问题</h2>
     <ul>
-    <li>[重构] 重构所有 SystemUI Hook, 这可能会导致一些问题, 可以连点关于页面图标临时切换回旧版 Hook</li>
-    <li>[重构] 重构 “绘制图标圆角“ 的实现方式</li>
-    <li>[新增] 图标 - 不显示图标</li>
-    <li>[新增] 图标 - 使用 MIUI 大图标 (仅 MIUI/HyperOS)</li>
-    <li>[新增] 图标 - 为缩小的图标添加模糊背景</li>
-    <li>[优化] 调整部分圆角大小, 边框粗细, 缩放比例数值</li>
-    <li>[优化] 仅在适用系统上展示部分选项 (如仅在 MIUI/ HyperOS 上显示 “忽略 MIUI 深色模式”)</li>
-    <li>[适配] ColorOS 13.1 - 14</li>
-    <li>[适配] Android 14</li>
-    <li>[其他] 变更应用名, 图标, 模块描述</li>
+    <li>
+    <p><del>微信、QQ、支付宝的Splash Screen只能在MIUI内测22.4.25后显示</del> (v1.9 已支持)</p>
+    </li>
+    <li>
+    <p>开启模块后出现启动应用卡顿可能与调度模块同时开启有关，这个我也在想办法优化 (v2.0 优化过，反馈似乎还不错)</p>
+    </li>
+    <li>
+    <p><del>部分机型 (如Redmi Note 10 Pro、小米12Pro) 的系统版本 (如稳定版、开发版) 可能无法使用本模块，
+    请等待系统更新</del> (v1.9 已支持)</p>
+    </li>
     </ul>
+    <h2>常见问题解答</h2>
+    <p><a href="https://gswxxn.coding.net/public/restoresplashscreen/faq/git">点击跳转</a></p>
+    <h2>无法使用</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。如果排查后仍有错误，请提交 issue，并附上 LSPosed 的日志，如有能力提取
+    SystemUI, 最好一并提交。<br />
+    也可以联系酷安 <a href="http://www.coolapk.com/u/1189245">@迷璐</a></p>
+    <h2>捐赠支持</h2>
+    <p>点个 <strong>Star</strong> 也是对我的支持。</p>
+    <p>如果你想捐赠，觉得这个模块好用的不得了，我会非常感谢你的！！！如果这个模块对你来说只要还差一点点意思，就不要捐赠啦</p>
+    <p><img
+    src="https://raw.githubusercontent.com/GSWXXN/RestoreSplashScreen/master/doc/donate.png"
+    width = "250"
+    alt="donate"
+    /></p>
+    <h2>致谢</h2>
+    <p>使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建模块<br />
+    UI界面改自 <a href="https://github.com/fankes/MIUINativeNotifyIcon">MIUI 原生通知图标</a><br />
+    使用 <a href="https://github.com/Block-Network/blockmiui">BlockMIUI</a> 的部分资源构建UI<br />
+    获取应用列表方式参考 <a href="https://github.com/Dr-TSNG/Hide-My-Applist">Hide My Applist</a><br />
+    曾使用 <a href="https://github.com/topjohnwu/libsu">libsu</a> 执行Shell命令<br />
+    参考 <a href="https://github.com/qqlittleice/MiuiHome_R">MIUIHomeR</a> 优化部分代码<br />
+    使用 <a href="https://github.com/HighCapable/SweetDependency">Sweet Dependency</a> 自动装配和管理依赖<br />
+    使用 <a href="https://github.com/HighCapable/SweetProperty">Sweet Property</a> 管理项目属性</p>
 IssueTracker: ""
 Name: 启动遮罩进化 / RestoreSplashScreen
 SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen

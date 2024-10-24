@@ -3,14 +3,15 @@ Categories:
     - Xposed
 CurrentVersion: 4.1.0
 CurrentVersionCode: 96
-Description: |-
-    <ul>
-    <li>Support Android 15 Beta 4</li>
-    </ul>
-    <hr>
-    <ul>
-    <li>Only <strong>official</strong> LSPosed is supported by this module, using the mod version is unexpected.</li>
-    </ul>
+Description: |
+    <h1>Enable Screenshot (formerly known as Disable FLAG_SECURE)</h1>
+    <p>Enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot(Android 14+) &amp; screen record(Android 15+) detection.</p>
+    <h2>Usage</h2>
+    <ol>
+    <li>Enable the module</li>
+    <li>Select <strong>ONLY</strong> recommended apps</li>
+    <li>Reboot</li>
+    </ol>
 IssueTracker: ""
 Name: Enable Screenshot (formerly known as Disable FLAG_SECURE)
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.lsposed.disableflagsecure

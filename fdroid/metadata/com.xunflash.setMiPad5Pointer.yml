@@ -3,7 +3,28 @@ Categories:
     - Xposed
 CurrentVersion: 0.3.0
 CurrentVersionCode: 1921
-Description: "<p>✨修复 设置异常 <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/YifePlayte/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/YifePlayte\">@YifePlayte</a><br>\n✨修复 未启用模块时闪退<br>\n\U0001F47B更新 版本号</p>"
+Description: |
+    <h1>SetMiPad5Pointer</h1>
+    <blockquote>
+    <p>替换小米平板圆点鼠标指针</p>
+    </blockquote>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xunflash.setMiPad5Pointer/total?style=flat-square" alt="GitHub all releases" /></p>
+    <h4>1.安装</h4>
+    <p>安装release页面的apk，并在lsposed管理器中勾选系统框架即可使用</p>
+    <h4>2.介绍</h4>
+    <p>通过hook系统框架中的MiuiMagicPointerService，修改被MIUI团队魔改过的圆形鼠标指针，提升鼠标操控时的定位精度</p>
+    <h4>3.截图</h4>
+    <h5>1）替换效果截图</h5>
+    <h6>替换前</h6>
+    <p><img src="https://s2.loli.net/2022/04/02/QDgeF9MPaRsni3G.jpg" alt="1648912716109" /></p>
+    <h6>替换后</h6>
+    <p><img src="https://s2.loli.net/2022/04/02/6ub7Aik5QdwnBzR.jpg" alt="1648912716096" /></p>
+    <p><img src="https://s2.loli.net/2022/04/02/LG1MqJuIAdSvOmN.jpg" alt="1648912716084" /></p>
+    <h5>2）应用内截图</h5>
+    <p><img src="https://s2.loli.net/2022/04/02/94In357yjpxSUow.jpg" alt="1648912815781" /></p>
+    <h4>4.未来</h4>
+    <p>由于作者Java还没学完就开始制作这个项目，谷歌乱搜索才完成了这个项目，水平还不太够。</p>
+    <p>想做自定义鼠标指针的，但是能力有限，希望有大佬帮帮pull request。现在暂时算是最基本的功能做好了</p>
 IssueTracker: ""
 Name: 小米平板指针替换
 SourceCode: https://github.com/Xposed-Modules-Repo/com.xunflash.setMiPad5Pointer

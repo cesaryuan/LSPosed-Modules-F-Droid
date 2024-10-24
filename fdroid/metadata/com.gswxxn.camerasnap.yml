@@ -3,11 +3,45 @@ Categories:
     - Xposed
 CurrentVersion: "1.7"
 CurrentVersionCode: 1700
-Description: |-
+Description: |
+    <img src="https://github.com/GSWXXN/UnlockMIUICameraSnap/blob/main/doc/CameraSnap.svg" width="200" alt="icon">
+    <h1>UnlockMIUICameraSnap</h1>
+    <p><a href="#"><img src="https://img.shields.io/badge/-Xposed-green?style=flat&amp;logo=Android&amp;logoColor=white" alt="Xposed" /></a>
+    <a href="https://github.com/GSWXXN/UnlockMIUICameraSnap/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GSWXXN/UnlockMIUICameraSnap" alt="GitHub" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.camerasnap/releases"><img src="https://img.shields.io/github/v/tag/GSWXXN/UnlockMIUICameraSnap?label=version" alt="GitHub tag (latest by date)" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.camerasnap/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.gswxxn.camerasnap/total?label=Downloads" alt="GitHub all releases" /></a></p>
+    <p>解锁/补全 MIUI 街拍模式</p>
+    <h2>测试环境</h2>
+    <blockquote>
+    <p>小米12S Ultra<br />
+    Android 13<br />
+    MIUI 14</p>
+    </blockquote>
+    <h2>模块功能</h2>
+    <ol>
+    <li>为所有机型/相机板本开放街拍模式</li>
+    <li>补全录像模式</li>
+    </ol>
+    <h2>使用方法</h2>
+    <ol>
+    <li>在Xposed管理器(LSPosed)中激活模块</li>
+    <li>作用域勾选相机</li>
+    <li>强制停止相机</li>
+    </ol>
+    <h2>已知问题</h2>
     <ul>
-    <li>适配 4.1 - 4.3 的相机</li>
-    <li>更新应用名及模块描述</li>
+    <li>录像途中可能会被打断重新录制, 经过调查后发现是系统向相机发送了音量下按键被抬起事件. 由于问题发生在系统内, 与相机无关, 所以暂时不打算解决.</li>
+    <li>5.0.x 的相机的设置中可能不会出现街拍模式的设置, 可以通过 LSPosed 管理器中的模块设置来开启调整街拍模式.</li>
     </ul>
+    <h2>无法使用</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。
+    如果排查后仍有错误，请提交issue，并附上 LSPosed 的日志.<br />
+    酷安<a href="http://www.coolapk.com/u/1189245">@迷璐</a></p>
+    <h2>致谢</h2>
+    <p>使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建模块<br />
+    使用 <a href="https://github.com/Block-Network/blockmiui">BlockMIUI</a> 构建UI界面<br />
+    使用 <a href="https://github.com/LuckyPray/DexKit">DexKit</a> 查找被混淆的方法<br />
+    使用 <a href="https://github.com/topjohnwu/libsu">libsu</a> 执行 Shell 命令</p>
 IssueTracker: ""
 Name: UnlockMIUICameraSnap
 SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.camerasnap

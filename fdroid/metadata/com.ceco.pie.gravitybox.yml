@@ -3,15 +3,74 @@ Categories:
     - Xposed
 CurrentVersion: 9.2.1
 CurrentVersionCode: 921
-Description: |-
+Description: |
+    <h1>GravityBox [P]</h1>
+    <p><strong>GravityBox</strong> is a module which primary goal is to provide the users of devices running vanilla or close to vanilla Android</p>
+    <p>with a tweak box that turns their stock ROM into a custom ROM packed with additional features and tweaks;</p>
+    <p>without the need of flashing a custom ROM. Most of the preferences can be changed on-the-fly without rebooting.</p>
+    <h2>!!!!!! WARNING !!!!!!</h2>
+    <p>This module utilizes EdXposed Framework which is still in early development stage and may contain bugs or might not be fully compatible with system of your Android device. I take no responsibility for any issues arising from using GravityBox with EdXposed and strongly recommend creating a full backup of your device before activating the module.</p>
+    <p><em><strong>THIS VERSION IS FOR PIE ROMs</strong></em></p>
     <ul>
-    <li>Added support for LSPosed module scope feature (auto-whitelist)</li>
-    <li>BatteryPercent: fixed percent text injection not working on some systems</li>
-    <li>BatteryPercent: follow status bar clock appearance</li>
-    <li>Clock: reverted to old hooking strategy for better compatibility</li>
-    <li>Dialer: adjusted for compatibility with the latest Google Dialer<br>
-    --- fixes muting Dialpad tones during UNC Quiet Hours</li>
+    <li>For Lollipop, use GravityBox [LP]</li>
+    <li>For KitKat, use GravityBox [KK]</li>
+    <li>For JellyBean, use GravityBox [JB]</li>
+    <li>For Marshmallow, use GravityBox [MM]</li>
+    <li>For Nougat, use GravityBox [N]</li>
+    <li>For Oreo, use GravityBox [O]</li>
     </ul>
+    <h2>Main features</h2>
+    <ul>
+    <li>QuickSettings tile management with additional tiles</li>
+    <li>Pie Controls</li>
+    <li>Expanded desktop with semi-immersive and immersive modes</li>
+    <li>Lockscreen tweaks</li>
+    <li>Statusbar tweaks</li>
+    <li>Navigation bar tweaks</li>
+    <li>Power tweaks</li>
+    <li>Display tweaks</li>
+    <li>Media tweaks</li>
+    <li>Phone tweaks</li>
+    <li>Hardware key actions</li>
+    <li>Launcher tweaks</li>
+    <li>Screen recording</li>
+    <li>Smart radio</li>
+    <li>Notification control (per-app notification LED/sounds/vibrations)</li>
+    <li>Fingerprint Launcher</li>
+    <li>Advanced tuning of Framework and System UI parameters</li>
+    </ul>
+    <p>… and many more</p>
+    <h2>Compatibility</h2>
+    <ul>
+    <li>Supports AOSP devices running vanilla Android Pie 9</li>
+    <li>Supports OnePlus devices running official OxygenOS</li>
+    <li>Supports Pixel devices running official Google OS</li>
+    <li><em>DOES NOT</em> support devices running ROMs vastly modified by device manufacturers (HTC Sense, LG, Samsung Touchwiz, MIUI, LeWa, Xperia, …)</li>
+    <li><em>SHOULD NOT</em> be used with custom ROMs like Lineage, AOSPA, or any other derivative - it makes no sense since the most of the features are already in the ROM (may cause conflicts and unexpected behavior)</li>
+    </ul>
+    <h2>Requirements</h2>
+    <ul>
+    <li>Magisk v19 or later</li>
+    <li>Riru core v19 or later (Magisk module)</li>
+    <li>Riru - EdXposed v0.4 or later (Magisk module; YAHFA or Sandhook whatever works best on your device)</li>
+    <li>EdXposed Installer</li>
+    </ul>
+    <h2>Info about premium features and PayPal transaction ID verification system</h2>
+    <ol>
+    <li>
+    <p>Those who supported development via PayPal donation can use their PayPal transaction ID to unlock premium features. Currently there are two premium features: 1) Backup/restore of GB settings 2) Ultimate notification control</p>
+    </li>
+    <li>
+    <p>If you contributed to the project by providing translations, code fragments, or by any other way. You can apply for a free transaction ID by contacting me via PM @ forum.xda-developers.com</p>
+    </li>
+    <li>
+    <p>Be aware that there’s a system that can identify potential transaction ID abuse. E.g. when one ID is being used by more users. Such IDs will get blocked automatically. This can also happen when you previously exposed your ID in public forum and other users took advantage of it. If this is the case, contact me via PM so I can issue new, special ID. In case you own more devices, you can use one transaction ID on up to 10 of them.</p>
+    </li>
+    <li>
+    <p>If you are using your own custom builds of GB for personal use, you will get hash mismatch upon verifying your ID as verification system accepts requests only from official releases of GB. If you want to be able to verify IDs with your custom build, contact me via PM so I can setup a special hash for your build. If you are using a custom build that you provide for broader group of users (e.g. in a custom ROM), It is necessary to ask for new hash everytime your new custom version is released for public use. These rules are based on mutual trust so please, do not violate them.</p>
+    </li>
+    </ol>
+    <p>Donation is also possible by purchasing GravityBox Unlocker from the Play Store</p>
 IssueTracker: ""
 Name: GravityBox [P]
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.pie.gravitybox

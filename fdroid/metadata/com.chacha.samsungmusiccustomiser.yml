@@ -3,11 +3,23 @@ Categories:
     - Xposed
 CurrentVersion: "1.18"
 CurrentVersionCode: 1
-Description: |-
-    <p>Added support for Android 11 (OneUI 3.1)<br>
-    Updated bools tab<br>
-    Fixed red background on track title font spinner<br>
-    Fixed bad icon quality on splash screen</p>
+Description: |
+    <p>Hey !</p>
+    <h2><strong>This module allow you to customize colors of Samsung Music app !</strong></h2>
+    <h3># This app works for versions higher than 16.2.25.11</h3>
+    <p>/!\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN LSPOSED SETTINGS/!<br />
+    /!\ Samsung Music must be killed after applying new colors /!\</p>
+    <p>DONT FORGET TO SAY THANKS ON MY XDA PAGE PLS ’^^</p>
+    <p>Note that three colors not working for now (Big player play button, shuffle, and repeat) : if you want help me you can and for sure you will be credited :)</p>
+    <h2>Used libraries :</h2>
+    <p><a href="https://github.com/chengxuncc/fileprefs">Fileprefs</a></p>
+    <p><a href="https://github.com/AzeeSoft/AndroidPhotoshopColorPicker">PhotoshopColorPicker</a></p>
+    <p><a href="https://github.com/rovo89/XposedBridge">XposedBridge</a></p>
+    <p><a href="https://github.com/Chainfire/libsuperuser">Libsuperuser</a></p>
+    <p><a href="https://github.com/airbnb/paris">Airbnb Paris</a></p>
+    <p>If you want to help me or suggest me some ideas you can send mail
+    Mail : <a href="mailto:xhookmandev@gmail.com">xhookmandev@gmail.com</a></p>
+    <h3>You can now give me <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=A3YW496LXQZ5A&amp;source=url">donation</a> if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)</h3>
 IssueTracker: ""
 Name: Samsung Music Customiser
 SourceCode: https://github.com/Xposed-Modules-Repo/com.chacha.samsungmusiccustomiser

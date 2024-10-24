@@ -3,12 +3,80 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.3
 CurrentVersionCode: 5
-Description: |-
-    <p><strong>What‘s Changed</strong></p>
+Description: |
+    <p align="center">
+      <img src="https://socialify.git.ci/dreamncn/bluetooth/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&logo=https%3A%2F%2Fpic.dreamn.cn%2FuPic%2F2023_04_22_23_52_24_1682178744_1682178744595_CRaKET.png&name=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Auto" alt="bluetooth" width="640" height="320" /></p>
+    <p><em>Read this in other languages: English、<a href="README.zh_CN.md">简体中文</a>.</em></p>
+    <h2>Introduction</h2>
+    <p>This is a tool for debugging low-power Bluetooth, which has functions such as Bluetooth discovery, vendor identification, data simulation, and data synchronization.</p>
+    <h2>Compatibility Warning</h2>
+    <p>If your Lsposed supports an API level <strong>lower than 93</strong>, you will not be able to use this plugin. You can check the currently supported API versions on the <code>API Version</code> section of the Lsposed homepage.</p>
+    <h2>Usage</h2>
     <ol>
-    <li>修复MIUI14模拟异常[<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1707309258" data-permission-text="Title is private" data-url="https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1" data-hovercard-type="issue" data-hovercard-url="/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1/hovercard" href="https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth/issues/1">#1</a>]</li>
+    <li>Download the latest version from <a href="https://github.com/dreamncn/bluetooth/releases">Release</a> and install it on the phone.</li>
+    <li>Activate and check <code>com.android.bluetooth</code> in Lsposed.</li>
+    <li>Search for Bluetooth on the homepage and select the Bluetooth device you want to emulate.</li>
+    <li>Return to the homepage and click “simulate” to start.</li>
+    <li>Enjoy it :)</li>
     </ol>
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dreamncn/bluetooth/compare/1.0.2...1.0.3">dreamncn/bluetooth@<tt>1.0.2...1.0.3</tt></a></p>
+    <h2>Contribute to the project</h2>
+    <p>Contributions make the open-source community an excellent place for learning, motivation, and creation. Any contribution you make is <strong>greatly appreciated</strong>.</p>
+    <ol>
+    <li>Fork the Project</li>
+    <li>Create your Feature Branch (<code>git checkout -b dreamncn/bluetooth</code>)</li>
+    <li>Commit your Changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+    <li>Push to the Branch (<code>git push origin dreamncn/bluetooth</code>)</li>
+    <li>Open a Pull Request</li>
+    </ol>
+    <blockquote>
+    <p>A small request about Commit:</p>
+    </blockquote>
+    <pre><code>The commit format should be: [Type]: [Change description]
+
+    feat: New feature
+    fix: Fix issue
+    docs: Update documentation
+    style: Modify code formatting without affecting code logic
+    refactor: Refactor code, theoretically without affecting existing functionality
+    perf: Improve performance
+    test: Add/modify test cases
+    chore: Modify tooling-related files (including but not limited to documentation, code generation, etc.)
+    deps: Upgrade dependencies
+    </code></pre>
+    <h2>Screenshots</h2>
+    <table>
+    <thead>
+    <tr>
+    <th><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_37_12_1682181432_1682181432157_FujGlZ.png" alt="image-20230423003709560" /></th>
+    <th><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_37_44_1682181464_1682181464412_pHiGh0.png" alt="image-20230423003741264" /></th>
+    <th><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_38_09_1682181489_1682181489088_Ek7N08.png" alt="image-20230423003806966" /></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_38_51_1682181531_1682181531325_4D4a83.png" alt="image-20230423003841647" /></td>
+    <td><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_39_14_1682181554_1682181554862_V0wqQf.png" alt="image-20230423003912924" /></td>
+    <td><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_39_40_1682181580_1682181580266_ruC8Tc.png" alt="image-20230423003938267" /></td>
+    </tr>
+    </tbody>
+    </table>
+    <h2>Sponsorship support</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">微信</th>
+    <th align="center">支付宝</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_41_49_1682181709_1682181709722_KGWAI6.jpg" alt="Wechat QRcode" /></td>
+    <td align="center"><img src="https://pic.dreamn.cn/uPic/2023_04_23_00_42_02_1682181722_1682181722820_82xpxH.jpg" alt="Alipay QRcode" /></td>
+    </tr>
+    </tbody>
+    </table>
+    <h2>Agreement</h2>
+    <p>GPL 3.0</p>
 IssueTracker: ""
 Name: 蓝牙调试、模拟
 SourceCode: https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth

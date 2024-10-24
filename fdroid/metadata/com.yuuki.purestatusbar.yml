@@ -3,7 +3,7 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: <h2>仅在魅族21pro FLYme10.5.5.1A上测试完美运行</h2>
+Description: "<h2>这是一个适用于FLYme 10.5.5.1A的可以修改状态栏的模块</h2>\n<p>自用模块。完美适用于FLYme 10.5.5.1A，附近的版本应该也适用，但是其他系统有些功能应该没法用。<br />\n功能有 :</p>\n<ul>\n<li>\n<p>隐藏wifi图标</p>\n</li>\n<li>\n<p>隐藏移动图标</p>\n</li>\n<li>\n<p>隐藏其他图标</p>\n</li>\n<li>\n<p>双击状态栏锁屏</p>\n</li>\n<li>\n<p>网速小于200kb/s不显示</p>\n</li>\n<li>\n<p>修改时间样式</p>\n</li>\n<li>\n<p>去除下拉通知中心背景</p>\n</li>\n</ul>\n<p><strong>目前只有这些，有意思的功能可以和我说，我也觉得有意思的话会实现一下哦\U0001F60B</strong></p>\n<p>由于自用，就没有怎么写ui，使用起来也很简单。</p>\n<p>下方文本是可以编辑的，只需要把”<strong>\U0001F60B</strong>”<strong>改为</strong>”<strong>☹️</strong>“或者反过来就行。代表应用，也就是<code>true</code>，代表不应用，也就是<code>false</code>。其中 <code>is_change_time_style</code>比较特殊，它有三个附加属性，<code>bold(加粗)</code>, <code>null(时间转换为时辰)</code>, <code>cpu(显示cpu温度)</code>，中间用<code>&amp;</code>链接。比如我图中状态栏的效果，你可以修改成<code> is_change_time_style = \U0001F60B&amp;bold&amp;cpu</code>。部分内容需要<strong>root</strong>，不要忘了手动授予<br />\n使用愉快\U0001F618</p>\n<p><img src=\"./show.png\" alt=\"\" /></p>\n"
 IssueTracker: ""
 Name: PureStatusBar
 SourceCode: ""

@@ -3,9 +3,90 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.590
 CurrentVersionCode: 20221108
-Description: |-
-    <p>【更新日志】<br>
-    1.测试提交到Lsposed仓库</p>
+Description: |
+    <p align="center">
+        <a href="https://github.com/HdShare/HdTool">
+            <img src="https://socialify.git.ci/HdShare/HdTool/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto" alt="socialify"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/HdShare/HdTool/releases">
+            <img src="https://img.shields.io/github/downloads/HdShare/HdTool/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee" alt="downloads">
+        </a>
+        <a href="https://github.com/HdShare/HdTool/stargazers">
+            <img src="https://img.shields.io/github/stars/HdShare/HdTool?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317" alt="stars">
+        </a>
+        <a href="https://github.com/HdShare/HdTool/network/members">
+            <img src="https://img.shields.io/github/forks/HdShare/HdTool?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00" alt="forks">
+        </a>
+        <a href="https://github.com/HdShare/HdTool/issues">
+            <img src="https://img.shields.io/github/issues/HdShare/HdTool?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6" alt="issues">
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/Xposed-Modules-Repo/com.hd.hdtool/releases">
+            <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hd.hdtool/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee" alt="downloads">
+        </a>
+        <a href="https://github.com/Xposed-Modules-Repo/com.hd.hdtool/stargazers">
+            <img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.hd.hdtool?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317" alt="stars">
+        </a>
+        <a href="https://github.com/Xposed-Modules-Repo/com.hd.hdtool/network/members">
+            <img src="https://img.shields.io/github/forks/Xposed-Modules-Repo/com.hd.hdtool?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00" alt="forks">
+        </a>
+        <a href="https://github.com/Xposed-Modules-Repo/com.hd.hdtool/issues">
+            <img src="https://img.shields.io/github/issues/Xposed-Modules-Repo/com.hd.hdtool?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6" alt="issues">
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/Xposed-Modules-Repo/com.hd.hdtool/releases/latest">
+            <img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.hd.hdtool?style=flat-square&label=Release" alt="release">
+        </a>
+    </p>
+    <hr />
+    <h2>截图:</h2>
+    <div align="left">
+    <div>
+        <img src="https://github.com/HdShare/HdTool/blob/master/images/image1.png" width="18%" />
+        <img src="https://github.com/HdShare/HdTool/blob/master/images/image2.png" width="18%" />
+        <img src="https://github.com/HdShare/HdTool/blob/master/images/image3.png" width="18%" />
+        <img src="https://github.com/HdShare/HdTool/blob/master/images/image4.png" width="18%" />
+        <img src="https://github.com/HdShare/HdTool/blob/master/images/image5.png" width="18%" />
+    </div>
+    </div>
+    <h3>参考：</h3>
+    <ul>
+    <li>对话框取消</li>
+    <li>算法助手</li>
+    <li>SimpleHook</li>
+    </ul>
+    <h3>缺陷：</h3>
+    <ul>
+    <li>众多未知bug</li>
+    <li>部分已知bug</li>
+    </ul>
+    <h3>介绍:</h3>
+    <ul>
+    <li>隐藏Root、Xp</li>
+    <li>隐藏Vpn、Wifi代理</li>
+    <li>伪装版本号、版本名</li>
+    <li>弹窗 强制可取消+拦截</li>
+    <li>事件监听(单击、长按、文字、退出)</li>
+    <li>算法监听(Base64、Md5等)</li>
+    <li>Json监听</li>
+    <li>文件监听(读、写、删)</li>
+    <li>签名监听</li>
+    <li>Shell命令监听</li>
+    <li>解除截屏限制</li>
+    <li>锁机软件监听输入框密码</li>
+    <li>广告屏蔽(穿山甲、优量汇、米盟)</li>
+    <li>ACE警告</li>
+    <li>CloudInject1.7.6弹窗</li>
+    <li>Arm Pro1.3.1弹窗</li>
+    <li>小纸片2.0弹窗</li>
+    <li>Andlua监听</li>
+    <li>GG修改器监听</li>
+    <li>以及一大堆没有写的功能</li>
+    </ul>
 IssueTracker: ""
 Name: '[开源]HdTool'
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hd.hdtool

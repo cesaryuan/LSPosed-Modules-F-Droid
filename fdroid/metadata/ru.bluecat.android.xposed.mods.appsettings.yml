@@ -3,16 +3,40 @@ Categories:
     - Xposed
 CurrentVersion: "1.7"
 CurrentVersionCode: 29
-Description: |-
+Description: |
+    <h1>App Settings Reborn</h1>
+    <p>Fork of the original App Settings by Rovo89. Supporting Android 8.0+</p>
+    <h3>Discussion/Support: <a href="https://forum.xda-developers.com/t/mod-xposed-app-settings-reborn.4141339">XDA thread</a></h3>
+    <h3>Compatibility:</h3>
+    <p>The application is tested only on Android 10/11/12/13 (Samsung firmware), but has theoretical support for earlier versions of the OS. I do not guarantee work on other firmware. I also note that not all applications will work with all functions.
+    If you do not see errors in LSPosed logs from this module, then your firmware requires additional hooks. I cannot provide development for such devices.</p>
+    <h3>Information:</h3>
+    <p>Using the function revoke/restore permissions: select the permissions and click ok + save, reboot, return to the submenu of the target application and click save again, reboot.</p>
+    <h3>Features:</h3>
     <ul>
-    <li>Android 13 support (xposed)</li>
-    <li>Android 13 support (targetSdk)</li>
+    <li>Screenshot control</li>
+    <li>density / dpi</li>
+    <li>font scale</li>
+    <li>fake screen size for resources loading</li>
+    <li>locale (language)</li>
+    <li>fullscreen mode</li>
+    <li>hide title bar</li>
+    <li>keep screen on while app is visible</li>
+    <li>show app above lockscreen</li>
+    <li>disable fullscreen keyboard input</li>
+    <li>Force LTR</li>
+    <li>Auto hide fullscreen (Android 11+)</li>
+    <li>force orientation (portrait/landscape/auto)</li>
+    <li>mute audio (for most apps)</li>
+    <li>insistent notifications (loop the sound / reboot required)</li>
+    <li>force or prevent ongoing notifications (reboot required)</li>
+    <li>mute notifications (reboot required)</li>
+    <li>stay resident in memory (reboot required)</li>
+    <li>force or exclude app from recents (reboot required)</li>
+    <li>access to recent tasks (reboot required)</li>
+    <li>revoke permissions (double reboot required)</li>
+    <li>force using legacy (navbar) menu button</li>
     </ul>
-    <p><strong>Note</strong><br>
-    This is the last update for this fork. The update contains fixes for xposed crashes on Android 13.<br>
-    The update <strong>does not contain</strong> new hooks for modern ways of existing features, so they may not work on some applications.<br>
-    The application fully uses the original hooks with support for new OS versions. Many applications use new methods added by Google later.</p>
-    <p>If anyone is interested, you can continue to develop new hooks methods.</p>
 IssueTracker: ""
 Name: App Settings Reborn
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.android.xposed.mods.appsettings

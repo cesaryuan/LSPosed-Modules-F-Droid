@@ -3,6 +3,45 @@ Categories:
     - Xposed
 CurrentVersion: "2.43"
 CurrentVersionCode: 110
+Description: |
+    <h1>com.fkzhang.wechatxposed</h1>
+    <p>下载镜像 (Download mirrors):</p>
+    <p><a href="http://0i.gs/fkz">http://0i.gs/fkz</a></p>
+    <p><a href="https://pan.lanzou.com/b44314">https://pan.lanzou.com/b44314</a></p>
+    <p><a href="https://mega.nz/#F!2lxySJbA!Yk_SfUikRqtQcwKCXyml_w">https://mega.nz/#F!2lxySJbA!Yk_SfUikRqtQcwKCXyml_w</a></p>
+    <p><a href="https://sourceforge.net/projects/wxposed/files/">https://sourceforge.net/projects/wxposed/files/</a></p>
+    <p>虚拟框架：
+    如果手机不能root或不能安装xposed框架 可以试试以下虚拟框架 不能保证100%兼容</p>
+    <p><a href="https://xposed.appkg.com/2666.html">https://xposed.appkg.com/2666.html</a></p>
+    <p><a href="https://vxposed.com/">https://vxposed.com/</a></p>
+    <p><a href="https://taichi.cool/">https://taichi.cool/</a></p>
+    <p>讨论：</p>
+    <p><a href="https://t.me/fkzhang_wx">https://t.me/fkzhang_wx</a></p>
+    <p>打赏：</p>
+    <p><a href="https://ko-fi.com/fkzhang">https://ko-fi.com/fkzhang</a></p>
+    <p>集合我之前的3个模块（微信转发模块，微信防撤回模块，微信通讯录管理模块）重新发布
+    之前的模块遭到盗版已经永久停更 免费提供 别用盗版
+    如果觉得这个模块对你有用，请捐赠支持我</p>
+    <p>Due to piracy my previous modules (WechatUnrecalled, WechatContactsManager, WechatForwarder) are deprecated
+    If you think this module is useful, please consider a donation to support me</p>
+    <ul>
+    <li>防止微信撤回消息</li>
+    <li>转发微信聊天里的图片和小视频到朋友圈</li>
+    <li>转发聊天里的多张图片（最多9张）到朋友圈</li>
+    <li>转发语音给朋友</li>
+    <li>转发收藏内容</li>
+    <li>转发朋友圈里的内容到自己的朋友圈</li>
+    <li>分享图片和小视频</li>
+    <li>屏蔽群聊成员</li>
+    <li>自动查找僵尸粉</li>
+    <li>批量删除好友</li>
+    <li>批量删除僵尸粉</li>
+    <li>自动回复</li>
+    <li>自定义表情最高限额</li>
+    <li>自动领取红包、转账</li>
+    <li>等等。。。</li>
+    </ul>
+    <p>请谨慎使用自动领取红包功能！</p>
 IssueTracker: ""
 Name: WeXposed （微X模块）
 SourceCode: https://github.com/Xposed-Modules-Repo/com.fkzhang.wechatxposed

@@ -3,11 +3,16 @@ Categories:
     - Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 11
-Description: |-
+Description: |
+    <h1>叮嗒出行强力去广告</h1>
+    <p><img src="https://img.shields.io/badge/license-Anti--996%20License-blue" alt="Anti-996 License" /></p>
+    <h2>功能</h2>
     <ul>
-    <li>Support 5.0.7</li>
+    <li>移除所有广告（包括开屏广告、商城功能、横幅广告）</li>
     </ul>
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Xposed-Modules-Repo/com.dingda.adfree/compare/10-1.0...11-1.1"><tt>10-1.0...11-1.1</tt></a></p>
+    <h2>致谢</h2>
+    <p>本模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a>。</p>
+    <p>Refer to <a href="https://github.com/kazutoiris/dingda-adfree">kazutoiris/dingda-adfree</a></p>
 IssueTracker: ""
 Name: 叮嗒出行强力去广告
 SourceCode: https://github.com/Xposed-Modules-Repo/com.dingda.adfree

@@ -3,15 +3,84 @@ Categories:
     - Xposed
 CurrentVersion: 24.04.06
 CurrentVersionCode: 202404060
-Description: |-
-    <h3>新增</h3>
-    <p>隐藏发现按钮<br>
-    禁止进入全屏模式</p>
-    <h3>修复</h3>
-    <p>某些渠道包启动报错<br>
-    左右划设置显示异常<br>
-    重启知乎后无法进入知了设置页面</p>
-    <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao/assets/31368738/52aede89-124f-46a7-8bf1-6f737cb2e3f4"><img src="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao/assets/31368738/52aede89-124f-46a7-8bf1-6f737cb2e3f4" alt="" content-type-secured-asset="image/jpeg" style="max-width: 100%;"></a></p>
+Description: |
+    <h1>知了</h1>
+    <p>知乎去广告Xposed模块</p>
+    <p><a href="https://t.me/joinchat/OibCWxbdCMkJ2fG8J1DpQQ"><img src="https://img.shields.io/badge/Telegram-Chat-blue.svg?logo=telegram" alt="Chat" /></a>
+    <a href="https://t.me/zhiliao"><img src="https://img.shields.io/badge/Telegram-Subscribe-blue.svg?logo=telegram" alt="Subscribe" /></a>
+    <a href="https://github.com/shatyuka/Zhiliao/releases/latest"><img src="https://img.shields.io/github/v/release/shatyuka/Zhiliao?label=Download" alt="Download" /></a>
+    <a href="https://github.com/shatyuka/Zhiliao"><img src="https://img.shields.io/github/stars/shatyuka/Zhiliao?label=Stars" alt="Stars" /></a>
+    <a href="https://choosealicense.com/licenses/gpl-3.0/"><img src="https://img.shields.io/github/license/shatyuka/Zhiliao?label=License" alt="License" /></a></p>
+    <h2>功能</h2>
+    <ul>
+    <li>广告
+    <ul>
+    <li>去启动页广告</li>
+    <li>去信息流广告</li>
+    <li>去回答列表广告</li>
+    <li>去评论广告</li>
+    <li>去分享广告</li>
+    <li>去回答底部广告</li>
+    <li>去搜索广告</li>
+    </ul>
+    </li>
+    <li>其他
+    <ul>
+    <li>过滤视频</li>
+    <li>过滤文章</li>
+    <li>去信息流会员推荐</li>
+    <li>去回答圈子</li>
+    <li>去商品推荐</li>
+    <li>去相关搜索</li>
+    <li>去关键字搜索</li>
+    <li>直接打开外部链接</li>
+    <li>禁止切换色彩模式</li>
+    <li>显示卡片类别</li>
+    <li>状态栏沉浸</li>
+    <li>禁止进入全屏模式</li>
+    <li>解锁第三方登录</li>
+    </ul>
+    </li>
+    <li>界面净化
+    <ul>
+    <li>移除直播按钮</li>
+    <li>不显示小红点</li>
+    <li>隐藏会员卡片</li>
+    <li>隐藏热点通知</li>
+    <li>精简文章页面</li>
+    <li>隐藏置顶热门</li>
+    <li>隐藏混合卡片</li>
+    </ul>
+    </li>
+    <li>导航栏
+    <ul>
+    <li>隐藏会员按钮</li>
+    <li>隐藏视频按钮</li>
+    <li>隐藏关注按钮</li>
+    <li>隐藏发布按钮</li>
+    <li>隐藏发现按钮</li>
+    <li>禁用活动主题</li>
+    <li>隐藏导航栏突起</li>
+    </ul>
+    </li>
+    <li>左右划
+    <ul>
+    <li>左右划切换回答</li>
+    <li>移除下一个回答按钮</li>
+    </ul>
+    </li>
+    <li>自定义过滤</li>
+    <li>注入JS脚本</li>
+    <li>清理临时文件</li>
+    </ul>
+    <h2>帮助</h2>
+    <p><a href="https://github.com/shatyuka/Zhiliao/wiki">Github Wiki</a></p>
+    <h2>下载</h2>
+    <p><a href="https://github.com/shatyuka/Zhiliao/releases/latest">Github Release</a></p>
+    <p><a href="https://repo.xposed.info/module/com.shatyuka.zhiliao">Xposed Repo</a></p>
+    <p><a href="https://wwa.lanzoux.com/b00tscbwd">蓝奏云</a> 密码:1hax</p>
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="https://choosealicense.com/licenses/gpl-3.0/">GNU General Public Licence, version 3</a>.</p>
 IssueTracker: ""
 Name: 知了 (Zhiliao)
 SourceCode: https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao

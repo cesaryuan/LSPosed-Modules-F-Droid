@@ -3,9 +3,84 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.4
 CurrentVersionCode: 204
-Description: |-
-    <p>i18n support / 中文翻译<br>
-    bugfix</p>
+Description: |
+    <h1>Replace Cursor</h1>
+    <p>Replace mouse cursor with a custom one.</p>
+    <p>自定义包括鼠标指针、触控点在内的各种图片资源。</p>
+    <p>Note: You can use Magisk + <a href="https://source.android.com/docs/core/runtime/rros">RRO</a> for better experience.
+    See <a href="https://github.com/Young-Lord/replaceCursor/tree/master/magisk"><code>magisk</code> folder</a> for more information.
+    (be aware of SELinux context, btw.)</p>
+    <p><img src="https://github.com/Young-Lord/replaceCursor/assets/51789698/416d64cc-f065-4b55-953a-6766c27e9f6a" alt="Demo picture, showing UI and example cursor" /></p>
+    <h2>How to use / 用法</h2>
+    <blockquote>
+    <p>Tested on:  Android 10 (AOSP), Android 12 (MIUI 13)</p>
+    </blockquote>
+    <ol>
+    <li>Select <code>System framework</code> (package name may be <code>android</code> or <code>system</code> or empty, <a href="https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1">see this</a>) in module scope and activate the module</li>
+    <li>Force stop module</li>
+    <li>Add resources to change. Please make sure that image sizes are bigger than hotspot (cursor left-top corner / touch point), otherwise nothing will show.</li>
+    <li>Reboot (you MUST reboot when you modify anything, or changes will not be applied until next reboot)</li>
+    <li>Reverse engineer <code>/system/framework/framework-res.apk</code> to find out the resource ID of the cursor you want to replace.</li>
+    </ol>
+    <p>For MiPad users, install <a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest">MaxMiPad</a> and enable <code>No Magic Pointer</code>.</p>
+    <p>If you have Windows-style <code>.ani</code> cursors, you can use <a href="https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c">ani2png</a> to convert them.
+    For example, use <code>ls -a *.ani | xargs -L1 ani2png</code> to convert all <code>.ani</code> files in current directory to <code>.png</code> files.</p>
+    <h2>Common resources / 常用资源</h2>
+    <p>From MIUI 13, Android 12.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Resource ID</th>
+    <th>Description</th>
+    <th>HotSpot</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>pointer_spot_touch</td>
+    <td>Touch point</td>
+    <td>(22, 22)</td>
+    </tr>
+    <tr>
+    <td>pointer_arrow</td>
+    <td>Mouse Pointer (Arrow)</td>
+    <td>(5, 5)</td>
+    </tr>
+    <tr>
+    <td>pointer_hand</td>
+    <td>Mouse Pointer (Hand, for example when hover on sth. clickable)</td>
+    <td>(9, 4)</td>
+    </tr>
+    <tr>
+    <td>pointer_text</td>
+    <td>Mouse Pointer (Looks like <code>|</code>， for editing vertical text input)</td>
+    <td>(12, 12)</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>Please note that the images may be scaled. See <a href="https://juejin.cn/post/6844903914022633480">Android 加载 drawable 中图片后自动缩放的原理</a> and <a href="https://blog.csdn.net/guolin_blog/article/details/50727753#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%EF%BC%8C%E6%AF%8F%E4%B8%80%E7%A7%8D%E5%AF%86%E5%BA%A6%E7%9A%84dpi%E8%8C%83%E5%9B%B4%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E4%BE%8B%E5%B0%B1%E6%98%AF%E5%9B%BE%E7%89%87%E4%BC%9A%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%94%BE%E5%A4%A7%E7%9A%84%E6%AF%94%E4%BE%8B%E3%80%82">Android drawable微技巧，你所不知道的drawable的那些细节</a> and <a href="https://blog.csdn.net/lgzaaron/article/details/52517941">getResources().getDisplayMetrics().density 的理解</a> for more informaton. In my case, <code>360x360</code> on a <code>xhdpi</code> device becomes <code>135x135</code> (<code>360 * (240 / 320) / 2 = 135</code>, not sure). You may need to manually adjust size &amp; padding (border) to fit size &amp; hotspot.</p>
+    <p>Mouse-related resource-id may have a <code>_large</code> suffix, used when <code>Accessibility</code> -&gt; <code>Large mouse pointer</code>(<code>大号鼠标指针</code>) is enabled.</p>
+    <h2>Module Scope</h2>
+    <ul>
+    <li>android</li>
+    </ul>
+    <h2>Project URL</h2>
+    <p>Home URL: <a href="https://github.com/Young-Lord/replaceCursor">https://github.com/Young-Lord/replaceCursor</a></p>
+    <p>Xposed Modules Repo URL: <a href="https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor">https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor</a></p>
+    <h2>License</h2>
+    <p>Apache-2.0 License or MIT License are all OK.</p>
+    <h2>Thanks</h2>
+    <ul>
+    <li><a href="https://github.com/thesandipv/pointer_replacer">https://github.com/thesandipv/pointer_replacer</a> (doesn’t work for me)</li>
+    <li><a href="https://github.com/hujiayucc/R-Pointer">https://github.com/hujiayucc/R-Pointer</a> (per-app configuration)</li>
+    <li><a href="https://github.com/quantum5/win2xcur">https://github.com/quantum5/win2xcur</a> (convert <code>.cur</code> and <code>.ani</code> to Xcursor format, for Linux)</li>
+    <li><a href="https://github.com/eworm-de/xcur2png">https://github.com/eworm-de/xcur2png</a> (convert Xcursor format to <code>.png</code>, see pull requests for a better version)</li>
+    <li><a href="https://blog.csdn.net/qq_41172785/article/details/89063164">将Windows上的鼠标指针主题移植到Linux上</a> (convert, edit, install Windows cursors to Linux)</li>
+    </ul>
+    <h2>TODO</h2>
+    <p>Currently, this module use SharedPreferences to store images, which is really shitty. Anyone is free to improve this module.</p>
+    <p>Also, I am too low to modify hotspot using Xposed. If you know how to do this, please tell me.</p>
+    <p>Also: Origin image resolution, disable scaling.</p>
 IssueTracker: ""
 Name: Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源
 SourceCode: https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor

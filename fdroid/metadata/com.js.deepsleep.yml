@@ -3,12 +3,122 @@ Categories:
     - Xposed
 CurrentVersion: 1.2.1
 CurrentVersionCode: 16
-Description: |-
-    <p>log</p>
+Description: |
+    <h1>DeepSleep</h1>
+    <h2>About</h2>
     <ul>
-    <li>进入长期维护阶段,有 bug 修 bug,暂时没有功能更新</li>
-    <li>更新依赖</li>
-    <li>修正一些翻译</li>
+    <li>
+    <p>DeepSleep is a Xposed module. It can limit the background behavior of apps and reduce the power consumption of apps in the background.</p>
+    <ul>
+    <li>Block acquire <a href="https://developer.android.com/training/scheduling/wakelock">wakelock</a> and <a href="https://developer.android.com/training/scheduling/alarms">alarms</a> to prevent redundant wake-ups.</li>
+    <li>Block start <a href="https://developer.android.com/guide/components/services">services</a> to reduce memory consumption.</li>
+    <li>Block <a href="https://developer.android.com/training/sync-adapters?hl=zh-cn">sync</a> to prevent redundant wake-ups.</li>
+    </ul>
+    </li>
+    <li>
+    <p>EDxposed/LSPosed scope Select the application to be limited.</p>
+    </li>
+    <li>
+    <p>Serious warning</p>
+    <ul>
+    <li>Using deepsleep is not recommended if your device has no standby power consumption problems.</li>
+    <li>Using deepsleep to limit the application may cause unusual problems with the application.
+    <ul>
+    <li>IM may experience message delays</li>
+    <li>Music player may not play on the lock screen</li>
+    <li>Other exceptions caused by restricting the background behavior of the app.</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <hr />
+    <ul>
+    <li>
+    <p>DeepSleep 是 Xposed 模块.可以限制应用后台行为,节省待机电量消耗.</p>
+    <ul>
+    <li>禁止申请 <a href="https://developer.android.com/training/scheduling/wakelock">唤醒锁/wakelock</a> 和 <a href="https://developer.android.com/training/scheduling/alarms">闹钟/alarms</a>,防止多余唤醒.</li>
+    <li>禁止启动 <a href="https://developer.android.com/guide/components/services">后台服务/Service</a>,减少内存消耗.</li>
+    <li>禁止 <a href="https://developer.android.com/training/sync-adapters?hl=zh-cn">同步/sync</a>,防止多余唤醒.</li>
+    </ul>
+    </li>
+    <li>
+    <p>EDxposed/LSPosed 作用域 选择需要限制应用.</p>
+    </li>
+    <li>
+    <p>严重警告</p>
+    <ul>
+    <li>如果您的设备没有待机耗电问题并不推荐使用 deepsleep.</li>
+    <li>使用 deepsleep 限制应用,可能会导致应用出现异常问题.
+    <ul>
+    <li>聊天应用 可能出现消息延迟</li>
+    <li>音乐播放器 可能无法锁屏播放</li>
+    <li>其他等因限制应用后台行为导致的异常.</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    <h2>Features</h2>
+    <ul>
+    <li>Beta:
+    <ul>
+    <li><del>wakelock/alarm/service/sync restriction</del></li>
+    <li><del>Data backup and recovery</del></li>
+    <li><del>help/about fragment</del></li>
+    <li><del>black/white list/regex support</del></li>
+    <li><del>dark/light theme switch</del></li>
+    <li><del>broadcast restriction(drop it)</del></li>
+    </ul>
+    </li>
+    </ul>
+    <hr />
+    <ul>
+    <li><del>Beta</del>:
+    <ul>
+    <li><del>wakelock/alarm/service/sync 限制</del></li>
+    <li><del>帮助/关于界面</del></li>
+    <li><del>黑白名单/正则支持</del></li>
+    <li><del>深色/浅色主题切换</del></li>
+    <li><del>备份/还原支持</del></li>
+    <li><del>广播限制(舍去)</del></li>
+    </ul>
+    </li>
+    </ul>
+    <h2>Compatibility</h2>
+    <ul>
+    <li>Android N ~</li>
+    <li>Edxpoed LSPosed</li>
+    </ul>
+    <hr />
+    <ul>
+    <li>Android N 及以上</li>
+    <li>Edxposed LSPosed 支持</li>
+    </ul>
+    <h2>Installation</h2>
+    <ul>
+    <li><a href="https://github.com/Jasper-1024/DeepSleep/releases">Github releases</a>, alpha/bate/Released.</li>
+    <li><a href="https://www.coolapk.com/apk/260112">酷安</a>, bate/Released</li>
+    <li>[Play] waiting</li>
+    </ul>
+    <h2>Support</h2>
+    <ul>
+    <li>Only DeepSleep downloaded from the above channels is supported</li>
+    <li>Please submit <a href="https://github.com/Jasper-1024/DeepSleep/issues">ISSUE</a></li>
+    </ul>
+    <hr />
+    <ul>
+    <li>只支持从上述渠道下载的 DeepSleep</li>
+    <li>bug 或 功能建议等可以提交 <a href="https://github.com/Jasper-1024/DeepSleep/issues">ISSUE</a> / 酷安评论区 / Play(等待审核)</li>
+    </ul>
+    <h2>Contributing</h2>
+    <ul>
+    <li><a href="https://github.com/Jasper-1024">Jasper Hale</a></li>
+    </ul>
+    <h2>License</h2>
+    <ul>
+    <li>DeepSleep is released under GNU GPLv3 (<a href="https://github.com/Jasper-1024/DeepSleep/blob/master/LICENSE">License</a>).</li>
+    <li>DeepSleep 以 GNU GPLv3 开源</li>
     </ul>
 IssueTracker: ""
 Name: DeepSleep

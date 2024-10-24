@@ -3,21 +3,59 @@ Categories:
     - Xposed
 CurrentVersion: 1.1.6
 CurrentVersionCode: 19
-Description: |-
-    <p>对比1.1.5更新记录：</p>
+Description: |
+    <h1>红薯猪手/RedbookHelper</h1>
+    <p>小红书去广告和功能强化~</p>
+    <h1>支持以下功能/Features</h1>
+    <h4>净化功能:</h4>
     <ol>
-    <li>新增自定义图片视频的保存路径</li>
-    <li>新增去除笔记详情中间的评论框</li>
-    <li>新增长按保存用户头像和背景图</li>
-    <li>修复关注页大图浏览可能不匹配</li>
-    <li>修复可能保存图片失败的情况</li>
-    <li>适配新版的分享下载</li>
-    <li>修复获取配置错误</li>
-    <li>优化大图浏览</li>
-    <li>优化权限获取</li>
-    <li>优化 部分UI</li>
-    <li>适配 新版本</li>
+    <li>去除开屏广告</li>
+    <li>去除首页悬浮控件</li>
+    <li>自定义我的侧边栏</li>
+    <li>自定义首页底部Tab</li>
+    <li>去除搜索笔记瀑布流广告</li>
+    <li>去除搜索商品瀑布流广告</li>
+    <li>去除首页瀑布流的赞助广告、直播、商品笔记</li>
+    <li>去除图片笔记详情中间评论框</li>
+    <li>去除截图分享</li>
     </ol>
+    <h4>加强功能:</h4>
+    <ol>
+    <li>视频全屏沉浸</li>
+    <li>长按视频下半区快进</li>
+    <li>强制开启笔记浏览历史</li>
+    <li>笔记详情图可以大图浏览</li>
+    <li>被拉黑也可以看Ta的笔记</li>
+    <li>可长按选择复制 笔记标题和内容</li>
+    <li>瀑布流点击用户头像或名字可直接进入用户主页</li>
+    </ol>
+    <h4>高级功能:</h4>
+    <ol>
+    <li>本地访问用户历史记录</li>
+    <li>本地评论回复历史记录</li>
+    <li>标题过滤、用户名过滤信息流和评论列表</li>
+    <li>去水印下载单张或全部原图图片</li>
+    <li>允许全部视频下载，去水印下载，原声下载</li>
+    </ol>
+    <h4>其它功能:</h4>
+    <ol>
+    <li>去除检查更新</li>
+    <li>头像和背景图下载</li>
+    <li>瞬间的图片和视频下载</li>
+    <li>直播间修改默认招呼语</li>
+    <li>直播间默认关闭礼物特效</li>
+    </ol>
+    <h1>版本支持/Support</h1>
+    <p>支持大部分7.x版本，具体适配的版本可打开模块app查看</p>
+    <blockquote>
+    <p>不支持精简版，暂不支持Play版</p>
+    </blockquote>
+    <h1>下载/Download</h1>
+    <p>Github: <a href="https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper/releases">https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper/releases</a></p>
+    <h1>使用方法/Used</h1>
+    <p><a href="https://shimo.im/docs/913JVGRJ8otDp63E">https://shimo.im/docs/913JVGRJ8otDp63E</a></p>
+    <h1>交流/Contact</h1>
+    <p>公众号: Skyhand的猪手圈</p>
 IssueTracker: ""
 Name: 红薯猪手
 SourceCode: https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper

@@ -3,59 +3,48 @@ Categories:
     - Xposed
 CurrentVersion: 3.0.0
 CurrentVersionCode: 219
-Description: |-
-    <h2>更新日志</h2>
-    <h3>新增</h3>
-    <ul>
-    <li>改善的用户界面</li>
-    <li>模块精简模式（只启用“自定义媒体控件”和“桌面高级模糊效果”两个功能）</li>
-    <li>强制控制电池指示器的显示模式（忽略系统设置）</li>
-    <li>高级模糊效果新增文件夹背景模糊</li>
-    <li>高级模糊效果适配平板桌面</li>
-    <li>高级模糊效果的动画曲线调整增加曲线预览</li>
-    <li>锁屏界面的运营商标签位置（左上角）可显示运营商标签或时间</li>
-    </ul>
-    <h3>修复</h3>
-    <ul>
-    <li>自定义媒体控件的尺寸问题</li>
-    <li>高级模糊效果的资源错误释放（部分动画曲线下模糊完全失效）</li>
-    <li>最近任务无法显示真实内存占用</li>
-    <li>备份与恢复数据类型问题</li>
-    <li>部分文本错误</li>
-    </ul>
-    <h3>其它</h3>
-    <ul>
-    <li>已测试手机桌面版本：RELEASE-4.39.15.8280-07041845 (439158280)</li>
-    <li>已测试平板桌面版本：RELEASE-4.40.0.7202-05162110 (440007202)</li>
-    <li>目前（手机）桌面版本较多，暂不会适配新版本（如重构版桌面）</li>
-    <li>由于之前的备份功能有些问题，强烈建议<strong>不要使用/恢复之前的备份文件</strong></li>
-    </ul>
-    <hr>
-    <h2>Changelog</h2>
-    <h3>Feature</h3>
-    <ul>
-    <li>Improved UI</li>
-    <li>Lite mode (Only load core functionality)</li>
-    <li>Modify the style of the battery indicator (ignore system settings)</li>
-    <li>Blur the background when opening a folder <strong>[Advanced blur effects]</strong></li>
-    <li>Support for tablets <strong>[Advanced blur effects]</strong></li>
-    <li>Improved custom animation curves <strong>[Advanced blur effects]</strong></li>
-    <li>Carrier label position on the lock screen can display the carrier label or time</li>
-    </ul>
-    <h3>Bugfix</h3>
-    <ul>
-    <li>Incorrect size of the media control panel <strong>[Customize the style of the media control]</strong></li>
-    <li>Blur effect disappears unexpectedly (when using some animated curves) <strong>[Advanced blur effects]</strong></li>
-    <li>Unable to show real memory usage in recent tasks <strong>[Show real memory usage]</strong></li>
-    <li>Crash after restoring a backup file</li>
-    <li>Some textual errors</li>
-    </ul>
-    <h3>Other</h3>
-    <ul>
-    <li>Recommended version of system launcher (Phone): RELEASE-4.39.15.8280-07041845 (439158280)</li>
-    <li>Recommended version of system launcher (Pad): RELEASE-4.40.0.7202-05162110 (440007202)</li>
-    <li>It is strongly recommended to <strong>AVOID using/restoring previous backup files</strong></li>
-    </ul>
+Description: |
+    <div align="center">
+    <img src="https://github.com/HowieHChen/XiaomiHelper/blob/master/img/app_icon.png?raw=true" width="25%" alt="app icon"/>
+    <h1>Hyper Helper</h1>
+    <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/LICENSE"><img src="https://img.shields.io/github/license/HowieHChen/XiaomiHelper" alt="GitHub License" /></a>
+    <a href="https://github.com/HowieHChen/XiaomiHelper/stargazers"><img src="https://img.shields.io/github/stars/HowieHChen/XiaomiHelper" alt="GitHub stars" /></a>
+    <a href="https://github.com/HowieHChen/XiaomiHelper/forks"><img src="https://img.shields.io/github/forks/HowieHChen/XiaomiHelper" alt="GitHub forks" /></a></p>
+    <p><a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub release (latest by date)" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub Release Date" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/dev.lackluster.mihelper/total" alt="GitHub Release Downloads" /></a></p>
+    </div>
+    <h2>介绍 (Introduction/紹介)</h2>
+    <p>HyperOS 的轻量级模块，仅适用于 HyperOS ！<br />
+    自用模块，基于小米 12S Pro 和小米 Pad 6 Pro 开发。<br />
+    主要基于其它模块的功能，少量原创。</p>
+    <p>Lightweight modules for HyperOS only!<br />
+    Self-use module, developed based on Xiaomi 12S Pro and Xiaomi Pad 6 Pro.<br />
+    Most functions are based on other modules, with a small amount of original.</p>
+    <p>HyperOS専用の軽量なモジュールです!
+    Xiaomi 12S ProとXiaomi Pad 6 Proに基づいて開発された自己使用なモジュールです。
+    ほとんどの機能は他のモジュールに基づいており、オリジナルな機能はわずかです。</p>
+    <h2>源代码 (Source code/ソースコード)</h2>
+    <p><a href="https://github.com/HowieHChen/XiaomiHelper">HowieHChen/XiaomiHelper</a></p>
+    <h2>捐赠 (Donate)</h2>
+    <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/DONATE.md">请我喝杯咖啡 (Buy me a coffee)</a></p>
+    <h2>引用 (References/リファレンス)</h2>
+    <h5>GNU General Public License v3.0</h5>
+    <p><a href="https://github.com/YifePlayte/MaxFreeForm">YifePlayte/MaxFreeForm</a><br />
+    <a href="https://github.com/YifePlayte/MaxMiPad">YifePlayte/MaxMiPad</a><br />
+    <a href="https://github.com/zerorooot/HorizontalContentextension">zerorooot/HorizontalContentextension</a><br />
+    <a href="https://github.com/LuckyPray/DexKit">LuckyPray/DexKit</a><br />
+    <a href="https://github.com/Simplicity-Team/WooBoxForMIUI">Simplicity-Team/WooBoxForMIUI</a><br />
+    <a href="https://github.com/HowieHChen/WooBoxForMIUI">HowieHChen/WooBoxForMIUI</a><br />
+    <a href="https://github.com/hosizoraru/WooBoxForMIUI">hosizoraru/WooBoxForMIUI</a><br />
+    <a href="https://github.com/hosizoraru/StarVoyager">hosizoraru/StarVoyager</a></p>
+    <h5>GNU Affero General Public License v3</h5>
+    <p><a href="https://github.com/ReChronoRain/HyperCeiler">ReChronoRain/HyperCeiler</a></p>
+    <h5>GNU Lesser General Public License v2.1</h5>
+    <p><a href="https://github.com/Block-Network/blockmiui">Block-Network/blockmiui</a></p>
+    <h5>Apache-2.0</h5>
+    <p><a href="https://github.com/HighCapable/YukiHookAPI">HighCapable/YukiHookAPI</a><br />
+    <a href="https://github.com/hellokaton/TinyPinyin">hellokaton/TinyPinyin</a></p>
 IssueTracker: ""
 Name: Hyper Helper
 SourceCode: https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper

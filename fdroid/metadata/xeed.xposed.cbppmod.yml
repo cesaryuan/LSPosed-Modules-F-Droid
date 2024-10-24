@@ -3,12 +3,36 @@ Categories:
     - Xposed
 CurrentVersion: "4.3"
 CurrentVersionCode: 69
-Description: |-
+Description: |
+    <h1>Physical Button Master Control</h1>
+    <p><strong>When the screen is off/locked/on this module allows you to:</strong></p>
     <ul>
-    <li>Backup and restore functionality</li>
-    <li>Fixed preference handling issue on Nougat devices</li>
-    <li>Improved detection of screen and call states</li>
-    <li>Look and feel upgrade</li>
+    <li>send media play signals</li>
+    <li>send media next/previous signals</li>
+    <li>send volume up/down signals</li>
+    <li>launch app shortcut actions
+    …with any buttons your phone might have!</li>
+    </ul>
+    <p><strong>And also:</strong></p>
+    <ul>
+    <li>Disable original button functions</li>
+    <li>Send a play signal when devices get plugged in</li>
+    <li>Send signals only when selected devices are plugged in</li>
+    <li>Set music volume when play signals are sent</li>
+    <li>Set a media player to send the signals to or use the last used one</li>
+    <li>Launch the selected player before sending signals</li>
+    </ul>
+    <p>Features can be greatly customized to suit all possible needs!
+    Compatible with all Android versions from <strong>7.1</strong> to <strong>12</strong>.</p>
+    <p>If you want to help other people see this app in your language, feel free to contribute on Crowdin:
+    <a href="https://crowdin.com/project/physical-button-music-control">PBMC translation project on Crowdin</a></p>
+    <p><strong>Donations welcome! (via the donation button on XDA)</strong></p>
+    <p><strong>How to report problems efficiently?</strong></p>
+    <ul>
+    <li>Enable the Debug log in PBMC settings</li>
+    <li>Use PBMC functions that don’t work as intended</li>
+    <li>Export the logs from Xposed app and put them on <a href="http://pastebin.com/">PasteBin</a></li>
+    <li>Post on the <a href="https://forum.xda-developers.com/showthread.php?t=2620777">XDA thread</a> the link along with more information about your device</li>
     </ul>
 IssueTracker: ""
 Name: Physical Button Master Control

@@ -3,20 +3,61 @@ Categories:
     - Xposed
 CurrentVersion: 1.0.9
 CurrentVersionCode: 1090
-Description: |-
+Description: |
+    <h1>MIUI 性能救星</h1>
+    <blockquote>
+    <p>移除 MIUI 对应用的性能限制，以最高帧率运行应用</p>
+    </blockquote>
+    <h2>介绍</h2>
+    <p>本模块旨在用各种方式提升系统运行应用的性能。
+    目前支持的功能：</p>
     <ul>
-    <li>功能：Joyose 规则内容支持长按复制到剪贴板</li>
-    <li>功能：提示电量性能、Joyose 应用不存在或被冻结</li>
-    <li>修复：某些机型修改 Joyose 帧率功能失效</li>
-    <li>修复：暗黑模式下 Joyose 规则内容背景色适配</li>
+    <li>
+    <p>对指定应用解除 MIUI 系统 “电量与性能” 应用云控限制屏幕刷新率。对于 DC 调光和高刷新率不兼容的情况，支持强行锁定 “DC+高刷” 或低亮度时自动切换到支持 DC 的刷新率</p>
+    <blockquote>
+    <p>“电量与性能” 应用会根据前台应用情况，限制应用的运行帧数。比如王者荣耀等游戏会被限制 60 刷新率，导致游戏最高只能达到 60 帧</p>
+    </blockquote>
+    <img src='https://github.com/test01wrk/MIUIPerfSaver/blob/master/public/images/refresh_rate.jpg' style='width: 240px;' alt='refresh_rate' />
+    </li>
+    <li>
+    <p>屏蔽或修改 MIUI 系统 “Joyose” 应用的云控性能限制，屏蔽其广告和跟踪请求</p>
+    <blockquote>
+    <p>“Joyose” 应用会拉取云控规则，调整应用的性能。比如在手机温度较高时降低游戏帧数</p>
+    </blockquote>
+    <img src='https://github.com/test01wrk/MIUIPerfSaver/blob/master/public/images/joyose.jpg' style='width: 240px;' alt='joyose' />
+    </li>
     </ul>
-    <hr>
+    <h2>使用方式</h2>
+    <ol>
+    <li>安装 MIUIPerfSaver.apk [MIUI 性能救星]</li>
+    <li>在 LSPosed 管理器中启用模块
     <ul>
-    <li>Feature：Allow copy Joyose profile content to clipboard by long pressing</li>
-    <li>Feature：Notify if PowerKeeper or Joyose app not working</li>
-    <li>Fix：Remote FPS limit not working on some devices</li>
-    <li>Fix: Joyose profile content background color in dark mode</li>
+    <li>首次启用模块、更新模块版本时，需要强制停止 “性能与电量” / “Joyose” 应用一次</li>
+    <li>首次启用需清空 “Joyose” 全部数据</li>
     </ul>
+    </li>
+    <li>在 MIUI 性能救星 模块自己的设置中
+    <ul>
+    <li>刷新率：可修改全局刷新率，或锁定单个应用的刷新率。这里的改动立即生效，重启也仍然生效，无需强制停止任何应用</li>
+    <li>Joyose：选择云控规则处理方式，默认完全屏蔽，可选仅删除或修改云控规则内容，切换规则后需清除 Joyose 数据</li>
+    </ul>
+    </li>
+    </ol>
+    <h2>反馈 bug</h2>
+    <p>请在 <a href="https://github.com/test01wrk/MIUIPerfSaver/issues">https://github.com/test01wrk/MIUIPerfSaver/issues</a> 创建 issue，并提供 LSPosed 管理器中的详细日志</p>
+    <h2>感谢</h2>
+    <p>应用列表界面的 UI 和基础逻辑，改自 <a href="https://github.com/Palatis/XAppDebug">XAppDebug</a> 项目</p>
+    <h2>已知问题</h2>
+    <ul>
+    <li>MIUI 开发版、测试版系统上可能失效，目前只适配正式版系统</li>
+    <li>DC 高刷不兼容的设备强制同时开启 DC + 高刷后，可能出现屏幕颜色偏色、部分刷新率下 DC 无效等情况</li>
+    </ul>
+    <hr />
+    <h1>MIUI Performance Saver</h1>
+    <blockquote>
+    <p>Remove MIUI's performance limit, run app at maximum FPS</p>
+    </blockquote>
+    <p>UI from <a href="https://github.com/Palatis/XAppDebug">XAppDebug</a>, thanks~</p>
 IssueTracker: ""
 Name: MIUI 性能救星 / MIUI Performance Saver
 SourceCode: https://github.com/Xposed-Modules-Repo/com.rdstory.miuiperfsaver

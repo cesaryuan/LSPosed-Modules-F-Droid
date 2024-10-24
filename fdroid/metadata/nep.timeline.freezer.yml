@@ -3,15 +3,12 @@ Categories:
     - Xposed
 CurrentVersion: LTS
 CurrentVersionCode: 26
-Description: |-
-    <p>移除: 移除一些无用Hook<br>
-    优化: 优化使用<br>
-    移除: 对Millet底层冻结的Hook 因为没有任何作用<br>
-    修复: 杀死应用可能出现bug<br>
-    优化: 提高线程安全<br>
-    优化: 性能<br>
-    修复: PID不正确<br>
-    新增: 加回输入法检测</p>
+Description: |
+    <h1>Freezer Cream Edition</h1>
+    <p>New third-party Android Tombstone, rewrite from NoActive</p>
+    <p><a href="https://freezer.sakion.top/">Document</a>
+    <a href="https://github.com/Nep-Timeline/Freezer/releases/tag/release"><img src="https://img.shields.io/github/release/Nep-Timeline/Freezer.svg" alt="Release" /></a>
+    <a href="https://t.me/TimeWorkshop"><img height="26" src="https://shields.io/badge/Group-ffffff.svg?style=flat-square&logo=telegram" alt="Release" /></a></p>
 IssueTracker: ""
 Name: Freezer Cream Edition
 SourceCode: https://github.com/Xposed-Modules-Repo/nep.timeline.freezer

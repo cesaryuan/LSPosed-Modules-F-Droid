@@ -3,11 +3,69 @@ Categories:
     - Xposed
 CurrentVersion: "1.21"
 CurrentVersionCode: 324
-Description: |-
+Description: |
+    <div align="center">
+    <h1>Sberbank Patcher</h1>
+    <p><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total" alt="downloads" />
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher" alt="GitHub release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher" alt="GitHub Release Date" /></a>
+    <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram" alt="Telegram" /></a>
+    <a href="https://t.me/lsposed_workshop_forum"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Telegram Group" /></a>
+    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=123542189"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a>
+    <a href="https://pay.cloudtips.ru/p/85f8cf00"><img src="https://img.shields.io/badge/Donate_Form-blue" alt="Donate" /></a></p>
+    <p>Различные модификации в приложении <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">СберБанк</a></p>
+    </div>
+    <h3>Контролируемый функционал:</h3>
     <ul>
-    <li>Поддержка версии 16.0.0</li>
-    <li>Скрытие иконки модуля теперь доступно только в root режиме.</li>
+    <li>Антивирус Касперского</li>
+    <li>Система самообновления</li>
+    <li>Аналитика</li>
+    <li>Ориентация</li>
+    <li>Номер по умолчанию для СБП переводов</li>
+    <li>Скрытие не убираемых разделов</li>
+    <li>Бета</li>
+    <li>Экосистема сбера</li>
+    <li>СберПрайм</li>
+    <li>Ассистент</li>
+    <li>Информационные и обучаемые карточки</li>
+    <li>Подсказки при переводах</li>
+    <li>Профиль. Что нового</li>
+    <li>Поиск. Скрытие предложений и каналов</li>
+    <li>Карты. СберСпасибо</li>
+    <li>История. Очистка истории транзакций от рекламы и сервисных уведомлений</li>
+    <li>История. Скрытие микро кредитования</li>
+    <li>Push. Глушение информационно-рекламного канала</li>
+    <li>Push. Фильтрация по ключевым словам(чёрный/белый список)</li>
+    <li>Push. Логирование информационно-рекламного канала</li>
+    <li>Push. Очистка истории push уведомлений</li>
+    <li>Push. Скрытие кнопок действий в истории уведомлений</li>
     </ul>
+    <h3>Не контролируемый функционал(всегда включён):</h3>
+    <ul>
+    <li>CovidQR</li>
+    <li>Промо на главном экране</li>
+    <li>Запрос оценить приложение и другие разделы приложения отдельно</li>
+    <li>Запрос разрешения телефонии (Android 9 и ниже)</li>
+    <li>Безопасность устройства. Проверка на root, целостности устройства, контроль SberPay</li>
+    <li>VPN статус</li>
+    </ul>
+    <h3>Аналитика:</h3>
+    <ul>
+    <li>Внутренняя аналитика</li>
+    <li>Firebase Analytics</li>
+    </ul>
+    <h3>Требования:</h3>
+    <ul>
+    <li>Android 8.0+</li>
+    <li>Установленное приложение <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Сбербанк</a></li>
+    </ul>
+    <h3>Обратите внимание:</h3>
+    <ul>
+    <li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.</li>
+    <li>Модуль имеет возможность работать в режиме <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>
+    </ul>
+    <h2>For non-Russian users:</h2>
+    <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
 IssueTracker: ""
 Name: Sberbank Patcher
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher

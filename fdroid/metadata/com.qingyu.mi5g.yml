@@ -3,11 +3,53 @@ Categories:
     - Xposed
 CurrentVersion: 2.0.4
 CurrentVersionCode: 14
-Description: |-
+Description: |
+    <h1>5G开关 – FiveGSwitcher</h1>
+    <p>仅适用于MIUI，在移动网络面板或快捷开关中添加 5G 开关</p>
+    <p>For MIUI only, add 5G switch in the network panel or qs tile.</p>
+    <h2>特点</h2>
+    <ol>
+    <li>无后台服务</li>
+    <li>无图标，无配置，即装即用</li>
+    </ol>
+    <h2>使用</h2>
+    <ol>
+    <li>在Xposed管理器(LSPosed, EdXposed…)中激活模块 (推荐使用LSP)</li>
+    <li>作用域勾选 系统界面(<strong><code>com.android.systemui</code></strong>)、电话服务(<code>com.android.phone</code>)</li>
+    <li><strong>重启手机</strong></li>
+    </ol>
+    <p>❗电话服务为可选作用域，其作用于老版本的 MIUI(12) 自动打开 5G 的 SA 服务，无此需求可不勾选</p>
+    <h2>版本</h2>
     <ul>
-    <li>fix string</li>
-    <li>fix tile of miui12.5+</li>
+    <li>文件以 <code>-tile</code> 结尾的为磁贴开关</li>
+    <li>文件以 <code>-panel</code> 结尾的为面板开关</li>
     </ul>
+    <h2>下载</h2>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.qingyu.mi5g/releases">LSPosed 仓库</a></p>
+    <p><a href="https://qyma.lanzout.com/b051np9gf">蓝奏云</a> 密码:<code>miui</code></p>
+    <h2>截图</h2>
+    <table>
+      <tr>
+        <td>
+          <img src="https://user-images.githubusercontent.com/42611305/236685136-788c230f-e21c-4083-aeb3-78d21616b481.png" alt="磁贴开关" />
+        </td>
+        <td>
+          <img src="https://user-images.githubusercontent.com/42611305/236685166-9934747c-c98a-43a2-9301-2e82b0c82607.png" alt="面板开关" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          磁贴开关
+        </td>
+        <td align="center">
+          面板开关
+        </td>
+      </tr>
+    </table>
+    <h2>无效</h2>
+    <p>请先检查模块是否正常激活，并且作用域是否勾选。如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a></p>
+    <h2>致谢</h2>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: MIUI 5G开关
 SourceCode: https://github.com/Xposed-Modules-Repo/com.qingyu.mi5g

@@ -3,10 +3,10 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
-Description: |-
-    <ul>
-    <li>首个版本。</li>
-    </ul>
+Description: |
+    <h1>BoardDeepHook</h1>
+    <p>适用于「阳光自律」免费开启无限期会员的模块。</p>
+    <p>安装模块后，（若使用 LSPosed 则需要启用「阳光自律」作用域），重新启动「阳光自律」即可使用。</p>
 IssueTracker: ""
 Name: BoardDeepHook
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.jackuxl.boarddeephook

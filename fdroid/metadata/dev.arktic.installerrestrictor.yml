@@ -3,6 +3,24 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
+Description: |
+    <h1><img height="50" src="https://github.com/redacted-text/InstallerRestrictor/blob/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png?raw=true"> InstallerRestrictor</h1>
+    <p>Simple ExPosed module to restrict any installation / uninstallation process across the system.</p>
+    <p>Tested with LSPosed.</p>
+    <h3>How to use</h3>
+    <ul>
+    <li>Install module</li>
+    <li>Enable module in LSPosed</li>
+    <li>Scope to recommended scope (system_server)</li>
+    <li>Reboot device</li>
+    </ul>
+    <h3>Uninstallation</h3>
+    <ul>
+    <li>Turn module off</li>
+    <li>Reboot</li>
+    <li>Uninstall</li>
+    </ul>
+    <p><a href="https://github.com/redacted-text/InstallerRestrictor">Original repository</a></p>
 IssueTracker: ""
 Name: InstallerRestrictor
 SourceCode: https://github.com/Xposed-Modules-Repo/dev.arktic.installerrestrictor

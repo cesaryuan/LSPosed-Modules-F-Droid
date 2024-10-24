@@ -3,6 +3,11 @@ Categories:
     - Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
+Description: |
+    <h1>FormHook</h1>
+    <p>在miui for pad 14测试通过，可以在桌面打开小窗和在工作台模式下无限制打开窗口。</p>
+    <p>miui手机理论上也支持。</p>
+    <p><img src="read.jpg" alt="" /></p>
 IssueTracker: ""
 Name: miui14平板解除小窗限制
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ljlvink.formhook
