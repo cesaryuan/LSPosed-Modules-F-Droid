@@ -12,18 +12,18 @@ COMMIT_MSG_FILE="$1"
 if [ -f "$COMMIT_MSG_FILE" ]; then
     echo "Changes detected. Proceeding with git operations."
 
-    # Read the first line as the PR title. If length is longer than 200 characters, truncate it and add ellipsis.
+    # Read the first line as the PR title. If length is longer than 100 characters, truncate it and add ellipsis.
     PR_TITLE=$(head -n 1 "$COMMIT_MSG_FILE")
-    if [ ${#PR_TITLE} -gt 200 ]; then
-        PR_TITLE=$(echo "$PR_TITLE" | cut -c 1-200)
+    if [ ${#PR_TITLE} -gt 100 ]; then
+        PR_TITLE=$(echo "$PR_TITLE" | cut -c 1-100)
         PR_TITLE="$PR_TITLE..."
     fi
     echo "PR Title: $PR_TITLE"
 
-    # Read the remaining lines as the PR body. If length is longer than 10000 characters, truncate it.
+    # Read the remaining lines as the PR body. If length is longer than 1000 characters, truncate it.
     PR_BODY=$(tail -n +2 "$COMMIT_MSG_FILE")
-    if [ ${#PR_BODY} -gt 10000 ]; then
-        PR_BODY=$(echo "$PR_BODY" | cut -c 1-10000)
+    if [ ${#PR_BODY} -gt 1000 ]; then
+        PR_BODY=$(echo "$PR_BODY" | cut -c 1-1000)
         PR_BODY="$PR_BODY..."
     fi
     echo "PR Body: $PR_BODY"
@@ -43,7 +43,7 @@ if [ -f "$COMMIT_MSG_FILE" ]; then
     PR_URL=$(gh pr create --title "$PR_TITLE" \
         --base main \
         --label "automated pr" \
-        --body "")
+        --body "$PR_BODY")
     echo "pr_number=${PR_URL##*/}"
 
     gh pr merge $PR_URL --squash --admin --delete-branch
