@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.09"
+CurrentVersionCode: 10
+Description: |-
+    <p>适配ColorOS等系统支持<br>
+    逻辑优化，更加稳健<br>
+    修复部分APP拦截住出现闪退的问题<br>
+    可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>
+    MD5:  A9AA30BACE96445A4F26D631284D66F0</p>
+IssueTracker: ""
+Name: Activity链式启动管理器
+SourceCode: https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager
+Summary: |-
+    叼毛广告，休想通过摇摇启动APP
+    Tools that block activity startup
+WebSite: ""

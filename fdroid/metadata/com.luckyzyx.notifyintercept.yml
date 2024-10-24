@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.3.0
+CurrentVersionCode: 271
+Description: |-
+    <p>重构通知规则数据存储方案为Json<br>
+    更新Kotlin与部分依赖项<br>
+    更新YukiHookAPI</p>
+IssueTracker: ""
+Name: NotifyIntercept
+SourceCode: https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept
+Summary: |-
+    利用关键词匹配对通知进行拦截
+    Use keyword matching to intercept notifications
+WebSite: ""

@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.5"
+CurrentVersionCode: 6
+Description: |-
+    <ul>
+    <li>现在使用在线配置获取被混淆的字段名进行hook</li>
+    <li>配置请求使用<code>mirror.ghproxy.com</code>加速无需翻墙</li>
+    <li>配置仅在当前版本第一次打开时才会下载，只有下载成功模块才会运行</li>
+    <li>仅支持: UC浏览器(16.2.7.1278)联通和电信</li>
+    <li>仅支持: UC浏览器极速版(15.5.2.1242)电信</li>
+    <li>具体支持版本请在 <a href="https://github.com/unexpecteds/UCProxyCapture">GitHub</a> 主页查看，不定期更新</li>
+    </ul>
+IssueTracker: ""
+Name: UC 浏览器代理抓取
+SourceCode: https://github.com/Xposed-Modules-Repo/com.unexpected.capture.uc
+Summary: UC 浏览器免流代理信息抓取
+WebSite: ""

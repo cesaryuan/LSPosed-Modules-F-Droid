@@ -1,0 +1,27 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.1.6
+CurrentVersionCode: 19
+Description: |-
+    <p>对比1.1.5更新记录：</p>
+    <ol>
+    <li>新增自定义图片视频的保存路径</li>
+    <li>新增去除笔记详情中间的评论框</li>
+    <li>新增长按保存用户头像和背景图</li>
+    <li>修复关注页大图浏览可能不匹配</li>
+    <li>修复可能保存图片失败的情况</li>
+    <li>适配新版的分享下载</li>
+    <li>修复获取配置错误</li>
+    <li>优化大图浏览</li>
+    <li>优化权限获取</li>
+    <li>优化 部分UI</li>
+    <li>适配 新版本</li>
+    </ol>
+IssueTracker: ""
+Name: 红薯猪手
+SourceCode: https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper
+Summary: |-
+    去除小红书的广告和更多好用的功能~
+    Remove XiaoHongShu ads and more useful features~
+WebSite: ""

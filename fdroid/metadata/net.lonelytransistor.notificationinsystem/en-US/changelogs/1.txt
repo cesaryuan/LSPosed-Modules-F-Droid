@@ -1,0 +1,3 @@
+- Fixed the memory leak.
+- Each icon is now first tested to ensure it changed, reducing needless redraws
+- Small GUI fixes
