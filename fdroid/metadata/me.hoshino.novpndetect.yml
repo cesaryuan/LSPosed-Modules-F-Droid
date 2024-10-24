@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 2
+Description: |-
+    <p>Better <strong>NetworkInterface</strong> name spoofing<br>
+    Prevent <strong>NetworkInfo</strong> getType detect</p>
+IssueTracker: ""
+Name: NoVPNDetect
+SourceCode: https://github.com/Xposed-Modules-Repo/me.hoshino.novpndetect
+Summary: Prevent some apps detect your phone connected to VPN.
+WebSite: ""

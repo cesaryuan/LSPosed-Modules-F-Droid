@@ -1,0 +1,40 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 2024010100
+Description: |-
+    <h4>ClipboardList v1.1</h4>
+    <ul>
+    <li>
+    <p>修复偶现的同步复制条目失败的问题。</p>
+    </li>
+    <li>
+    <p>修复切换输入法界面不显示第三方输入法的问题。</p>
+    </li>
+    <li>
+    <p>其他代码优化。</p>
+    </li>
+    <li>
+    <p>模块仅限小米设备使用！适配MIUI,HyperOS.</p>
+    </li>
+    <li>
+    <p>Fix occasional synchronization replication entry failure issue.</p>
+    </li>
+    <li>
+    <p>Fix the issue of not displaying third-party input methods when switching input method interfaces.</p>
+    </li>
+    <li>
+    <p>Other code optimizations.</p>
+    </li>
+    <li>
+    <p>The module is only available for Xiaomi devices! Adapt to MIUI, HyperOS</p>
+    </li>
+    </ul>
+IssueTracker: ""
+Name: ClipboardList
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.clipboardlist
+Summary: |-
+    解除小米"剪贴板和常用语"限制。
+    Remove restrictions on Xiaomi's clipboard and common phrases.
+WebSite: ""

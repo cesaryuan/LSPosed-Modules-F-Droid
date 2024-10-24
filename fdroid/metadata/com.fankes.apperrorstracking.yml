@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.3"
+CurrentVersionCode: 6
+Description: |-
+    <ol>
+    <li>修复异常信息界面存在时不会展示最新内容问题，感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a> <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ZQDesigned/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ZQDesigned">@ZQDesigned</a></li>
+    <li>更新底层 Hook API，适配 Android 14</li>
+    <li>优化异常堆栈分享信息相关内容与风格</li>
+    <li>新增支持在分享异常堆栈时的可选信息对话框 (隐私保护)</li>
+    <li>更换新的 Hook 点修复在部分系统上无法展示错误对话框的问题</li>
+    <li>新增 APP 目标 SDK 和最小 SDK 版本展示</li>
+    </ol>
+IssueTracker: ""
+Name: AppErrorsTracking
+SourceCode: https://github.com/Xposed-Modules-Repo/com.fankes.apperrorstracking
+Summary: 为原生 FC 对话框增加更多功能并修复国内定制 ROM 删除 FC 对话框的问题，给 Android 开发者带来更好的体验。
+WebSite: ""

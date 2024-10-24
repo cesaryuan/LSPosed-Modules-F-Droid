@@ -1,0 +1,37 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 4.2.5
+CurrentVersionCode: 2024021503
+Description: |-
+    <h3>新年快乐，龙年福瑞双收！</h3>
+    <ul>
+    <li>1.更改模块包名，更改模块签名！</li>
+    <li>Tip：这是为了解决报毒，和历史遗留问题。</li>
+    <li>所以一定要卸载之前版本的模块重新安装！！！</li>
+    <li>否则会出现两个相同的模块（因为包名改了不会覆盖）！</li>
+    <li>卸载安装后需要重新激活模块！</li>
+    <li>2.解决Hook到某些点时崩溃导致整个进程退出。</li>
+    <li>3.其他优化和其他Bug修复。</li>
+    <li>交流群：</li>
+    <li>QQ：517788148</li>
+    <li>电报(Telegram)： <a href="https://t.me/HChen_AppRetention" rel="nofollow">https://t.me/HChen_AppRetention</a></li>
+    </ul>
+    <h3>Happy Chinese New Year!!</h3>
+    <ul>
+    <li>1.Change the module package name and module signature!</li>
+    <li>Tip: This is to address false positives and historical legacy issues.</li>
+    <li>Therefore, make sure to uninstall the previous version of the module and reinstall it!!!</li>
+    <li>Otherwise, two identical modules will appear (because changing the package name will not overwrite)!</li>
+    <li>Module needs to be reactivated after uninstallation and installation!</li>
+    <li>2.Fix crashes causing the entire process to exit when hooking into certain points.</li>
+    <li>3.Other optimizations and bug fixes.</li>
+    <li>Communication group:</li>
+    <li>QQ: 517788148</li>
+    <li>Telegram: <a href="https://t.me/hchen_appretention" rel="nofollow">https://t.me/hchen_appretention</a></li>
+    </ul>
+IssueTracker: ""
+Name: AppRetention
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.appretention
+Summary: Achieving app retention by modifying the system kill logic through Hook. Supp...
+WebSite: ""

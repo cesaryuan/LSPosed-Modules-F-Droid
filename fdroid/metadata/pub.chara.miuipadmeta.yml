@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "2.4"
+CurrentVersionCode: 7
+Description: |-
+    <p>should fix hyperos<br>
+    win+xx快捷键，没找着在哪handle的，建议小米设置里关了得了</p>
+IssueTracker: ""
+Name: MiuiPadMeta
+SourceCode: https://github.com/Xposed-Modules-Repo/pub.chara.miuipadmeta
+Summary: 为小米平板5系列和其他MIUI/HyperOS设备恢复键盘Meta/Win键功能，同时禁用Alt-Tab快捷键。这样就可以在远程桌面里用Meta键和Alt...
+WebSite: ""

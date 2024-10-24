@@ -1,0 +1,25 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.0.27
+CurrentVersionCode: 24080405
+Description: |-
+    <p><strong>功能</strong></p>
+    <ul>
+    <li>适配 续火支持 QQ v9.0.75 (6808) 及更高版本；</li>
+    <li>优化 NT 架构 QQ 好友续火相关业务逻辑，提升续火稳定性。</li>
+    </ul>
+    <p><strong>体验</strong></p>
+    <ul>
+    <li>优化 配置解析逻辑；</li>
+    <li>适配 新版配置。</li>
+    </ul>
+    <p><strong>问题修复</strong></p>
+    <ul>
+    <li>修复 在 QQ v9.0.75 (6808) 及更高版本中获取群列表可能发生闪退的问题。</li>
+    </ul>
+IssueTracker: ""
+Name: XAutoDaily
+SourceCode: https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily
+Summary: 一个兼容QQ大部分版本的开源签到 Xposed 模块
+WebSite: ""

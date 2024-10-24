@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 2
+Description: |-
+    <p><strong>Changelog:</strong></p>
+    <ul>
+    <li>Show whitelisted packages first</li>
+    <li>Support system's theme</li>
+    <li>Print application name along with package name</li>
+    <li>Implement searching</li>
+    <li>Dependencies updates</li>
+    </ul>
+IssueTracker: ""
+Name: Location Indicator Whitelist
+SourceCode: https://github.com/Xposed-Modules-Repo/fr.netstat.locationindicatorwhitelist
+Summary: Prevent packages to trigger the location indicator in status bar.
+WebSite: ""

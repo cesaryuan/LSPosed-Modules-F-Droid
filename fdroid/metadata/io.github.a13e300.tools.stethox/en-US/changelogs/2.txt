@@ -1,0 +1,4 @@
+- 支持启动时挂起进程（在 README.md 查看详细说明）
+- 增加 `runOnUiThread` `runOnHandler` 函数
+- 修复 hook 的一系列 bug ，让 hook 更加易用
+- 增加 `hook.getClassLoaders` ，可以遍历所有 ClassLoader

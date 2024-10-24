@@ -1,0 +1,4 @@
+- New: Custom UA for redirect rules
+- Fix: Keep original links if no rule matched
+- 新增：对于重定向规则，可以自定义 UA
+- 修复：若没有匹配到任何规则，则不变更内容

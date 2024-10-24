@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.5"
+CurrentVersionCode: 15
+Description: |-
+    <ul>
+    <li>适配旧版小米智能卡</li>
+    <li>自动开启 NFC 时, 将默认钱包设置为小米钱包</li>
+    </ul>
+IssueTracker: ""
+Name: Auto NFC
+SourceCode: https://github.com/Xposed-Modules-Repo/com.gswxxn.autonfc
+Summary: 仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC
+WebSite: ""

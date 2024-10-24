@@ -1,0 +1,61 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.5.6
+CurrentVersionCode: 20240608
+Description: |-
+    <h1>新增</h1>
+    <ul>
+    <li><strong>52虚拟机 解锁永久会员 全版本通杀</strong></li>
+    <li><strong>彩云天气 解锁SVIP 全版本通杀</strong></li>
+    <li><strong>章鱼隐藏 解锁永久会员 全版本通杀</strong></li>
+    <li><strong>音频提取器 免登录 解锁永久会员 全版本通杀</strong></li>
+    <li><strong>多邻国 解锁订阅 全版本通杀</strong></li>
+    <li><strong>美册视频制作 解锁至尊永久会员 全版本通杀</strong></li>
+    <li><strong>解说 解锁会员功能 全版本通杀</strong></li>
+    <li><strong>扫一扫 解锁永久会员 全版本通杀</strong></li>
+    <li><strong><a href="http://bizhi.soutushenqi.com" rel="nofollow">元气壁纸</a> 解锁永久会员 全版本通杀</strong></li>
+    <li><strong>视频无痕去水印 解锁会员 全版本通杀</strong></li>
+    </ul>
+    <h1>在线</h1>
+    <ul>
+    <li><strong>观色配色 解锁永久会员 全版本通杀</strong></li>
+    <li><strong>雨见 解除插件白名单 全版本通杀</strong></li>
+    </ul>
+    <h1>修复</h1>
+    <ul>
+    <li><strong>知拾笔记 4.2.3 无效</strong></li>
+    <li><strong>图叨叨 视频转gif提示会员</strong></li>
+    <li><strong>AppShare 去开屏广告失效(请更新到最新版)</strong></li>
+    <li><strong>99手游加速器 加速界面提示应用签名不合规</strong></li>
+    </ul>
+    <h1>优化</h1>
+    <ul>
+    <li><strong>支持在服务器上更新一些适配APP</strong></li>
+    <li><strong>支持自定义模块主页背景图</strong></li>
+    <li><strong>(上述均可前往模块设置界面查看)</strong></li>
+    </ul>
+    <h1>调整</h1>
+    <ul>
+    <li><strong>移除 AndPods(内置永久会员账号被封禁)</strong></li>
+    </ul>
+    <h1>微信</h1>
+    <h2>修复</h2>
+    <ul>
+    <li><strong>保存表情包 选择文件路径保存闪退/分身无法保存</strong></li>
+    <li><strong>听筒播放模式的语音 无法转发</strong></li>
+    <li><strong>在线脚本 简介为空不隐藏布局的问题</strong></li>
+    <li><strong>Java脚本界面 多次来回切换本地/在线 没做限制而导致的布局混淆</strong></li>
+    <li><strong>8.0.50 长按语音消息闪退</strong></li>
+    </ul>
+    <h2>优化</h2>
+    <ul>
+    <li><strong>禁止被敷衍 不对群消息生效</strong></li>
+    <li><strong>支持单独隐藏设置入口/Java脚本入口</strong></li>
+    <li><strong>支持批量保存表情包(长按消息多选)</strong></li>
+    </ul>
+IssueTracker: ""
+Name: HookVip
+SourceCode: https://github.com/Xposed-Modules-Repo/Hook.JiuWu.Xp
+Summary: 用于解锁部分应用的会员和一些应用的拓展功能
+WebSite: ""

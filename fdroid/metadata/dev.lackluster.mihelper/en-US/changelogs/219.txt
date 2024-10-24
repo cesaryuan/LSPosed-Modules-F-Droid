@@ -1,0 +1,48 @@
+## 更新日志
+
+### 新增
+- 改善的用户界面
+- 模块精简模式（只启用“自定义媒体控件”和“桌面高级模糊效果”两个功能）
+- 强制控制电池指示器的显示模式（忽略系统设置）
+- 高级模糊效果新增文件夹背景模糊
+- 高级模糊效果适配平板桌面
+- 高级模糊效果的动画曲线调整增加曲线预览
+- 锁屏界面的运营商标签位置（左上角）可显示运营商标签或时间
+
+### 修复
+- 自定义媒体控件的尺寸问题
+- 高级模糊效果的资源错误释放（部分动画曲线下模糊完全失效）
+- 最近任务无法显示真实内存占用
+- 备份与恢复数据类型问题
+- 部分文本错误
+
+### 其它
+- 已测试手机桌面版本：RELEASE-4.39.15.8280-07041845 (439158280)
+- 已测试平板桌面版本：RELEASE-4.40.0.7202-05162110 (440007202)
+- 目前（手机）桌面版本较多，暂不会适配新版本（如重构版桌面）
+- 由于之前的备份功能有些问题，强烈建议**不要使用/恢复之前的备份文件**
+
+------
+
+## Changelog
+
+### Feature
+- Improved UI
+- Lite mode (Only load core functionality)
+- Modify the style of the battery indicator (ignore system settings)
+- Blur the background when opening a folder **[Advanced blur effects]**
+- Support for tablets **[Advanced blur effects]**
+- Improved custom animation curves **[Advanced blur effects]**
+- Carrier label position on the lock screen can display the carrier label or time
+
+### Bugfix
+- Incorrect size of the media control panel **[Customize the style of the media control]**
+- Blur effect disappears unexpectedly (when using some animated curves) **[Advanced blur effects]**
+- Unable to show real memory usage in recent tasks **[Show real memory usage]**
+- Crash after restoring a backup file
+- Some textual errors
+
+### Other
+- Recommended version of system launcher (Phone): RELEASE-4.39.15.8280-07041845 (439158280)
+- Recommended version of system launcher (Pad): RELEASE-4.40.0.7202-05162110 (440007202)
+- It is strongly recommended to **AVOID using/restoring previous backup files**

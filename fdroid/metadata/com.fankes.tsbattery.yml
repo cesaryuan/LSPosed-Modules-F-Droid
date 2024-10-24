@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "4.4"
+CurrentVersionCode: 30
+Description: |-
+    <ol>
+    <li>使用 DexKit 来动态适配每个版本的 QQ</li>
+    <li>更新底层 Hook API</li>
+    <li>更新 API 34</li>
+    <li>其它功能优化，提升稳定性</li>
+    </ol>
+IssueTracker: ""
+Name: TSBattery
+SourceCode: https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery
+Summary: TSBattery 是一个旨在使 QQ、TIM、微信 变得更省电的开源 Xposed 模块
+WebSite: ""

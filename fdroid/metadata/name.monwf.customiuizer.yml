@@ -1,0 +1,21 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 24.10.12
+CurrentVersionCode: 73
+Description: |-
+    <p>Maybe this is the final release for Android 14</p>
+    <p>disable resetting of the privacy blur list in recents<br>
+    fix: invalid 'switch to prev app' action<br>
+    fix: systemui crash when the clock format is set</p>
+    <h2>这可能是支持A14的最后版本</h2>
+    <p>禁止最近任务的模糊列表被重置<br>
+    修复切换至上一应用的动作失效问题<br>
+    修复部分新系统在设置时钟格式后，系统界面crash的问题</p>
+IssueTracker: ""
+Name: Pengeek(米客)
+SourceCode: https://github.com/Xposed-Modules-Repo/name.monwf.customiuizer
+Summary: |-
+    客制化你的HyperOS - 支持基于A14的HyperOS
+    Customize HyperOS to your liking - For HyperOS...
+WebSite: ""

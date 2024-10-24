@@ -1,0 +1,22 @@
+# Geergit v2.5.2 (20513) Release Notes
+
+1. Module Status Handling:
+   - If a module is not enabled, it will no longer redirect to the "module not working" page. Instead, a warning will be shown at the top while still allowing access to features.
+
+2. General Improvements and Bug Fixes:
+   - Various improvements and bug fixes to enhance overall performance and stability.
+
+3. Mock Location Spoofing:
+   - Improved handling of mock location spoofing for better accuracy and reliability.
+
+4. Backup Awareness:
+   - Users are now informed that victim app data backups are only stored on the device.
+
+5. Anti-Fingerprinting Switch (Experimental):
+   - Added an Anti-Fingerprinting switch with multiple methods to prevent device fingerprinting.
+
+6. Group and Profile Fixes:
+   - Fixed group-related bugs and resolved the "Profile Not Found" issue.
+
+7. Non-English Support:
+   - Geergit now supports non-English devices and apps, fixing previous errors encountered with non-English applications.

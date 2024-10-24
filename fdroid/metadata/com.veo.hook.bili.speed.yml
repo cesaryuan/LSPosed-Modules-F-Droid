@@ -1,0 +1,24 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.1.7
+CurrentVersionCode: 1001007
+Description: |-
+    <p>哔哩哔哩B站基于7.25.0适配，兼容适配新老版本，PLAY版本<br>
+    推特Twitter，基于9.85.0-release.0适配，兼容适配新版本<br>
+    抖音Douyin，基于25.6.0适配，兼容适配新版本，极速版等<br>
+    小红书, 基于8.23.0.5适配, 兼容新老版本<br>
+    Instagram, 基于315.0.0.29.109, 兼容新老版本, 包括Instander<br>
+    电报Telegram, 不上混淆兼容<br>
+    微信视频号Wechat Finger Video, 基于8.0.43, 不上混淆兼容<br>
+    微博Weibo, 基于14.6.0, 理论上兼容新老版本<br>
+    如有不兼容，issue里反馈或提交PR到 <a href="https://github.com/V-E-O/biliSpeed/">https://github.com/V-E-O/biliSpeed/</a></p>
+    <h2>CHANGELOG</h2>
+    <p>修复小红书, 微信新版本</p>
+IssueTracker: ""
+Name: Bili调速 biliSpeed
+SourceCode: https://github.com/Xposed-Modules-Repo/com.veo.hook.bili.speed
+Summary: |-
+    哔哩哔哩B站, 推特X, 抖音, 小红书, IG, TG, 微信视频号, 微博默认播放速度调节，可以任意倍数:)
+    Bilibili, Twitter X,...
+WebSite: ""

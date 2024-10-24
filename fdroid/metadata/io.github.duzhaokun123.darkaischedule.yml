@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 0.0.1
+CurrentVersionCode: 1
+Description: |-
+    <p>已知问题</p>
+    <ul>
+    <li>登录失效</li>
+    <li>状态栏不正常</li>
+    <li><code>getUserInfo error, retry</code>反复重试可能增加耗电</li>
+    <li>周数更新不正常</li>
+    </ul>
+IssueTracker: ""
+Name: DarkAISchedule / 小爱课程表暗色
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.darkaischedule
+Summary: 小爱课程表暗色支持
+WebSite: ""

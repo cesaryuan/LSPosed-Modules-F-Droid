@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.10"
+CurrentVersionCode: 171
+Description: |-
+    <ul>
+    <li>Поддержка версии 20.2.0</li>
+    <li>Добавлена возможность видеть в интерфейсе модуля отвалившиеся перехваты после обновления. Данный функционал не будет активен если у вас включён "Автосканер" или Яндекс Карты давно не запускались.</li>
+    </ul>
+IssueTracker: ""
+Name: Yandex Maps Patcher
+SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher
+Summary: Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты.
+WebSite: ""

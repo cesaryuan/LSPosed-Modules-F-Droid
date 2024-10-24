@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.3"
+CurrentVersionCode: 103
+Description: <p>修复应用未申请获取所有应用列表时无法跳转分身的问题</p>
+IssueTracker: ""
+Name: 团团助手
+SourceCode: https://github.com/Xposed-Modules-Repo/com.jy.tt.auth
+Summary: |-
+    本模块为团团分身辅助模块，方便分身与第三方应用交互、或第三方应用与分身交互(无法在团团分身中使用需Lsp等框架)
+    如：分身使用官方wx登录、第三方应用使用...
+WebSite: ""

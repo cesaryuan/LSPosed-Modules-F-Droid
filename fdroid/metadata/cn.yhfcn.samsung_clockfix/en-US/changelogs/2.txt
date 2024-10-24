@@ -1,0 +1,3 @@
+- base samsung clock app 12.1.17.0
+- 基于三星时钟12.1.17.0进行适配
+- 新版本时钟app代码有混淆，现在改为hook底层一点的api: AudioManager.class，伪装没有占用麦克风

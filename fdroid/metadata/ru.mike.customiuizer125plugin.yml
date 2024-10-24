@@ -1,0 +1,29 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3
+Description: |-
+    <p>Init LSPosed release</p>
+    <p>Fixed mods:</p>
+    <ul>
+    <li>Status bar battery icon hide</li>
+    <li>Status bar VPN hide</li>
+    <li>Status bar Bluetooth icon handle</li>
+    <li>Status bar show clock's seconds</li>
+    <li>Show lockscreen notification after reboot</li>
+    <li>Hide lockscreen status bar</li>
+    <li>Hide lockscreen top block (clock, date etc)</li>
+    <li>Hide lockscreen unlock hint</li>
+    <li>Show LTE icon for 4G</li>
+    </ul>
+    <p>Added mods:</p>
+    <ul>
+    <li>Remove unused free space in the quick settings bottom (xiaomi.eu)</li>
+    <li>Increase battery font size</li>
+    </ul>
+IssueTracker: ""
+Name: Mikanoshi's CustoMIUIzer plugin for MIUI 12.5 & Android 11
+SourceCode: https://github.com/Xposed-Modules-Repo/ru.mike.customiuizer125plugin
+Summary: Mikanoshi's CustoMIUIzer plugin for MIUI 12.5 & Android 11
+WebSite: ""

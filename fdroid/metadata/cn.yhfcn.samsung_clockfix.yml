@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.1_c12.1.17.0
+CurrentVersionCode: 2
+Description: |-
+    <ul>
+    <li>base samsung clock app 12.1.17.0</li>
+    <li>基于三星时钟12.1.17.0进行适配</li>
+    <li>新版本时钟app代码有混淆，现在改为hook底层一点的api: AudioManager.class，伪装没有占用麦克风</li>
+    </ul>
+IssueTracker: ""
+Name: Samsung-ClockFix
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.yhfcn.samsung_clockfix
+Summary: 解除三星系统时钟通话中不提醒不响铃的限制
+WebSite: ""

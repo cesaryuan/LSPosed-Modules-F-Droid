@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.6"
+CurrentVersionCode: 46
+Description: |-
+    <ul>
+    <li>Поддержка версии 1.46.3.350</li>
+    <li>Убрано скрытие ленты с промо товарами т.к. разработчики её убрали.</li>
+    </ul>
+    <p>Сменилась методика работы модуля, к сожалению после обновления защиты приложения больше нет возможности автоматически обновлять правки при помощи DexKit. Будет правится по факту вручную.</p>
+IssueTracker: ""
+Name: Mir Pay Security
+SourceCode: https://github.com/Xposed-Modules-Repo/ru.bluecat.mirpaysecurity
+Summary: Обход проверок безопасности приложения Mir Pay
+WebSite: ""

@@ -1,0 +1,23 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |-
+    <p>Initial release. Features implemented in v1.0  are :<br>
+    Bypass all <a href="https://github.com/KimChangYoun/rootbeerFresh">RootBeerFresh</a> detections.<br>
+    Bypass all <a href="https://github.com/scottyab/rootbeer">RootBeer</a> detections<br>
+    Bypass SELinux test to avoid root detection.<br>
+    Bypass R/W System check to avoid root detection.<br>
+    Bypass check for su, magisk &amp; busybox binaries.<br>
+    Bypass check for root related Android apps.<br>
+    Bypass check OS Build Test Keys presence.<br>
+    Bypass check for props related to root.<br>
+    Bypass check for root cloaking apps.<br>
+    Bypass check for Unix Domain Socket used by Magisk.<br>
+    System Native Hooks in C/C++ apart from Java hooks to make root hiding possible.</p>
+IssueTracker: ""
+Name: Bypass Root Check Pro with Java & Native C/C++ Hooks
+SourceCode: https://github.com/Xposed-Modules-Repo/com.gauravssnl.bypassrootcheck.pro
+Summary: Bypass Root Check Pro Xposed Module with Java and Native (C/C++) Hooks based ...
+WebSite: ""

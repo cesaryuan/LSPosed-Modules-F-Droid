@@ -1,0 +1,37 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.0.4
+CurrentVersionCode: 14
+Description: |-
+    <p>Changes:</p>
+    <ul>
+    <li>Completely new UI/UX</li>
+    <li>Remove persistent editing, since it's too buggy. If you need this feature, please don't update</li>
+    <li>Far more convenient for selecting views</li>
+    <li>Remove launcher icon, may add it in later versions</li>
+    <li>Add a button to remove views</li>
+    <li>Not hooking system server any longer</li>
+    <li>Fix crash on probably most apps</li>
+    <li>Add exported properties viewer</li>
+    <li>Add properties filtering</li>
+    <li>Add alpha/scroll/rotation/scale/translation modification entry</li>
+    </ul>
+    <p>变更：</p>
+    <ul>
+    <li>全新操作界面</li>
+    <li>移除了持久编辑，因为问题很多。如果你需要此功能，请不要更新新版本</li>
+    <li>选择控件的方法更加方便</li>
+    <li>移除了桌面图标，后续可能会加回来</li>
+    <li>添加删除控件按钮</li>
+    <li>不再需要 hook 框架</li>
+    <li>修复了在大多数应用上的崩溃</li>
+    <li>增加了属性查看器</li>
+    <li>添加属性过滤器</li>
+    <li>添加 alpha/scroll/rotation/scale/translation 等属性的修改</li>
+    </ul>
+IssueTracker: ""
+Name: ViewEditor/视图编辑器
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug
+Summary: Like element inspection on browser platform, this module provides similar fun...
+WebSite: ""

@@ -1,0 +1,18 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 0.16.1#12.8+
+CurrentVersionCode: 1601
+Description: |-
+    <h2>[0.16.1]</h2>
+    <ul>
+    <li>1.修复[AA12.8]引起的DPI Hook报错问题.</li>
+    <li>2.修复[仅熄屏]默认参数不正确问题.</li>
+    <li>3.添加映射窗口显示分辨率和DPI.</li>
+    <li>4.添加prop支持非基础类型的简单修改</li>
+    </ul>
+IssueTracker: ""
+Name: AADisplay
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.aa.display
+Summary: 让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案.
+WebSite: ""

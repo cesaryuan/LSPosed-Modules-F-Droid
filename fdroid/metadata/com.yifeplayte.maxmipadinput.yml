@@ -1,0 +1,22 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.6.2
+CurrentVersionCode: 22
+Description: |-
+    <ul>
+    <li>[优化] 应用选择界面</li>
+    <li>[优化] 允许 Android 11 安装（只有去除触控笔蓝牙限制可用，其余功能恕无法维护）</li>
+    </ul>
+    <hr>
+    <ul>
+    <li>[Optimize] Improve the app selection interface</li>
+    <li>[Optimize] Allow installation on Android 11 devices (Only the removal of stylus bluetooth restriction is available, other functions cannot be maintained)</li>
+    </ul>
+IssueTracker: ""
+Name: MaxMiPad
+SourceCode: https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput
+Summary: |-
+    为小米平板的输入系统提供一些增强功能
+    Provide some enhancements to Mi Pad's input system
+WebSite: ""

@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.6"
+CurrentVersionCode: 16
+Description: |-
+    <p>Xposed在获取不到SharedPreferences时尝试使用ContentProvider。<br>
+    调整hook位置。</p>
+IssueTracker: ""
+Name: 剪贴板过滤器
+SourceCode: https://github.com/Xposed-Modules-Repo/com.bit747.clipboardfilter
+Summary: 过滤剪贴板写入内容，重点防止某些网站强迫剪贴板。作用于选择浏览器等需要被过滤的app。
+WebSite: ""

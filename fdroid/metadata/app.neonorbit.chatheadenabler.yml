@@ -1,0 +1,28 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.4.5
+CurrentVersionCode: 245
+Description: |-
+    <p><strong>Changelog</strong></p>
+    <ul>
+    <li>Minor bug fixes</li>
+    </ul>
+    <p>By default, this module enables the chat head feature.<br>
+    In order to change it to bubble,<br>
+    -&gt; Open Messenger app and go to its setting page.<br>
+    -&gt; Click on the toggle <themed-picture data-catalyst-inline="true"><picture><img src="https://user-images.githubusercontent.com/66206913/196722700-48762c5e-dc9c-45e5-b7ae-f04df727a56f.png" height="12"></picture></themed-picture> icon from the top-right corner.<br>
+    -&gt; Choose bubble option from the pop-up dialog.<br>
+    [If you want to hide the toggle icon, long press on it and remove.]</p>
+    <h2><themed-picture data-catalyst-inline="true"><picture><img src="https://user-images.githubusercontent.com/66206913/196719803-522ebb84-40d7-46d3-bf85-f7a80f406e62.png" width="400/"></picture></themed-picture></h2>
+    <p>[Solution for Android 12 freezing issue] ✔<br>
+    -&gt; Install <code>Termux</code> app and run this command:</p>
+    <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="su -c settings put global block_untrusted_touches 0"><pre class="notranslate"><code>su -c settings put global block_untrusted_touches 0
+    </code></pre></div>
+    <p>[uninstall termux again if you don't need it]<br>
+    Source code: <a href="https://github.com/NeonOrbit/ChatHeadEnabler">https://github.com/NeonOrbit/ChatHeadEnabler</a></p>
+IssueTracker: ""
+Name: ChatHeadEnabler - ChatHead or Bubble in Messenger
+SourceCode: https://github.com/Xposed-Modules-Repo/app.neonorbit.chatheadenabler
+Summary: This module lets you choose between ChatHead and Bubble in Facebook Messenger
+WebSite: ""

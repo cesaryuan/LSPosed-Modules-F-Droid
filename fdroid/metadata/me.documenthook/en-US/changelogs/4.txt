@@ -1,0 +1,17 @@
+### Auth-one
+- 此版本是申请一个授权一个，取决于目标应用（如【MT管理器】）的申请，作用域仅给【文件】app即可
+
+### Auth-all
+- 此版本通过Hook目标应用（如【MT管理器】app），可以一次性授权所有应用（存在个别的应用无法授权）
+- 已经在【MT管理器】app、【雪豹速清】app 测试通过
+- 此版本LSPosed作用域为目标应用（如【MT管理器】app），和【文件】app
+
+
+
+### Auth-one
+- This version is to apply for one authorization, depending on the application of the target application (such as [MT Manager]), the scope is only for the [File] app
+
+### Auth-all
+- This version can authorize all applications at one time through the Hook target application (such as [MT Manager] app) (some applications cannot be authorized)
+- It has passed the test in [MT Manager] app and [雪豹速清] app
+- The scope of this version of LSPosed is the target application (such as [MT Manager] app), and [File] app

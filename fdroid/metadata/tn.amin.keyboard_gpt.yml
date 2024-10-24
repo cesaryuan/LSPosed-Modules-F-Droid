@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.1.1
+CurrentVersionCode: 12
+Description: |-
+    <ul>
+    <li>Fixed a bug that would prevent launching "Chose Model Dialog" since version 1.1 for new users</li>
+    <li>Added support for samsung keyboard</li>
+    </ul>
+IssueTracker: ""
+Name: Keyboard GPT
+SourceCode: https://github.com/Xposed-Modules-Repo/tn.amin.keyboard_gpt
+Summary: Integrate Generative AI like ChatGPT in keyboard.
+WebSite: ""

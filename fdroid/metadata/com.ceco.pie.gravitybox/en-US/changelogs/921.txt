@@ -1,0 +1,6 @@
+- Added support for LSPosed module scope feature (auto-whitelist)
+- BatteryPercent: fixed percent text injection not working on some systems
+- BatteryPercent: follow status bar clock appearance
+- Clock: reverted to old hooking strategy for better compatibility
+- Dialer: adjusted for compatibility with the latest Google Dialer
+--- fixes muting Dialpad tones during UNC Quiet Hours

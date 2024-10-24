@@ -1,0 +1,16 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.6"
+CurrentVersionCode: 7
+Description: |-
+    <ol>
+    <li>模块只支持有XSharedPreferences的Xposed框架，比如LSPosed</li>
+    <li>增加图标</li>
+    <li>增加首条通知默认折叠,感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SpeedPartner/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SpeedPartner">@SpeedPartner</a>  (<a href="https://github.com/lamprose/MIUltra/issues/1" data-hovercard-type="issue" data-hovercard-url="/lamprose/MIUltra/issues/1/hovercard">#1</a>)</li>
+    </ol>
+IssueTracker: ""
+Name: MIUI12.5扩展
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.lamprose.mi_ultra
+Summary: MIUI12.5扩展
+WebSite: ""

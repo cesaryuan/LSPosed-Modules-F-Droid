@@ -1,0 +1,37 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "3.1"
+CurrentVersionCode: 2024052605
+Description: |-
+    <h4>ForegroundPin v.3.1</h4>
+    <ul>
+    <li>新增贴边进入息屏听剧模式。
+    <ul>
+    <li>举例：贴边抖音App自动息屏且播放不停止。</li>
+    <li>触发方法：
+    <ul>
+    <li>Miui：长按小窗左或右下角边界 1 秒，即可进入。</li>
+    <li>Hyper：点击小窗上部三点，再点击小窗按键即可进入(即 标蓝的按键)。</li>
+    <li>全部为一次性设置，进入一次后失效，下次需要重新设置！</li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li>更新依赖，更新代码。</li>
+    <li>使用 HookTool 工具。</li>
+    </ul>
+    <h4>文件基本信息</h4>
+    <ul>
+    <li>Hash256：</li>
+    <li>D0B234098A927159B22E6C4DCA6C5268E6468A0FDE8FF11EB83133FE72478C2C</li>
+    <li>MD5：</li>
+    <li>2BCD8ACADACE8D3EE46D38ECE927DC43</li>
+    </ul>
+IssueTracker: ""
+Name: ForegroundPin
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.foregroundpin
+Summary: |-
+    贴边小窗强制前台。
+    Welt freeform force the front desk.
+WebSite: ""

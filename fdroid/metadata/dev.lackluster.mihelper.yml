@@ -1,0 +1,65 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 3.0.0
+CurrentVersionCode: 219
+Description: |-
+    <h2>更新日志</h2>
+    <h3>新增</h3>
+    <ul>
+    <li>改善的用户界面</li>
+    <li>模块精简模式（只启用“自定义媒体控件”和“桌面高级模糊效果”两个功能）</li>
+    <li>强制控制电池指示器的显示模式（忽略系统设置）</li>
+    <li>高级模糊效果新增文件夹背景模糊</li>
+    <li>高级模糊效果适配平板桌面</li>
+    <li>高级模糊效果的动画曲线调整增加曲线预览</li>
+    <li>锁屏界面的运营商标签位置（左上角）可显示运营商标签或时间</li>
+    </ul>
+    <h3>修复</h3>
+    <ul>
+    <li>自定义媒体控件的尺寸问题</li>
+    <li>高级模糊效果的资源错误释放（部分动画曲线下模糊完全失效）</li>
+    <li>最近任务无法显示真实内存占用</li>
+    <li>备份与恢复数据类型问题</li>
+    <li>部分文本错误</li>
+    </ul>
+    <h3>其它</h3>
+    <ul>
+    <li>已测试手机桌面版本：RELEASE-4.39.15.8280-07041845 (439158280)</li>
+    <li>已测试平板桌面版本：RELEASE-4.40.0.7202-05162110 (440007202)</li>
+    <li>目前（手机）桌面版本较多，暂不会适配新版本（如重构版桌面）</li>
+    <li>由于之前的备份功能有些问题，强烈建议<strong>不要使用/恢复之前的备份文件</strong></li>
+    </ul>
+    <hr>
+    <h2>Changelog</h2>
+    <h3>Feature</h3>
+    <ul>
+    <li>Improved UI</li>
+    <li>Lite mode (Only load core functionality)</li>
+    <li>Modify the style of the battery indicator (ignore system settings)</li>
+    <li>Blur the background when opening a folder <strong>[Advanced blur effects]</strong></li>
+    <li>Support for tablets <strong>[Advanced blur effects]</strong></li>
+    <li>Improved custom animation curves <strong>[Advanced blur effects]</strong></li>
+    <li>Carrier label position on the lock screen can display the carrier label or time</li>
+    </ul>
+    <h3>Bugfix</h3>
+    <ul>
+    <li>Incorrect size of the media control panel <strong>[Customize the style of the media control]</strong></li>
+    <li>Blur effect disappears unexpectedly (when using some animated curves) <strong>[Advanced blur effects]</strong></li>
+    <li>Unable to show real memory usage in recent tasks <strong>[Show real memory usage]</strong></li>
+    <li>Crash after restoring a backup file</li>
+    <li>Some textual errors</li>
+    </ul>
+    <h3>Other</h3>
+    <ul>
+    <li>Recommended version of system launcher (Phone): RELEASE-4.39.15.8280-07041845 (439158280)</li>
+    <li>Recommended version of system launcher (Pad): RELEASE-4.40.0.7202-05162110 (440007202)</li>
+    <li>It is strongly recommended to <strong>AVOID using/restoring previous backup files</strong></li>
+    </ul>
+IssueTracker: ""
+Name: Hyper Helper
+SourceCode: https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper
+Summary: |-
+    我 心 澎 湃 ！！！
+    A module for HyperOS
+WebSite: ""

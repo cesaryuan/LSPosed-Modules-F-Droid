@@ -1,0 +1,20 @@
+# 本版本更新内容较多
+## 与[Suzhelan](https://github.com/Suzhelan) 开发了QStoryCloud版本 ，可以自动检测QStory的更新并加载 有兴趣可查看 https://github.com/Suzhelan/QStoryCloud
+
+### QStory自动云更新也可以在下方的release中下载QStoryCloud
+----
+### 前些版本更新日志太多，可查看[Telegram频道](https://t.me/WhenFlowersAreInBloom) 查看历史更新日志
+修复：图片与表情-图片转大图卡片失效的问题
+修复：表情面板保存获取不到图片链接保存闪退的问题
+修复脚本悬浮窗菜单回调-回调方法三参数时会被调用两次的问题
+增加爱发电赞助渠道
+可能修复了某些用户打开模块主页闪退的问题
+脚本增加getRealSkey()方法（获取可能是真实的skey）
+修复脚本Kick(踢人)方法在新版本QQ失效的问题
+修复脚本getGroupList(获取所有群列表)在新版本QQ失效的问题
+修复脚本Forbidden（对成员禁言，全体禁言）在新版本QQ失效的问题
+删除了自动备份表情，脚本
+脚本新增接口：
+ String getGroupRKey() //获取群聊rkey
+ String getFriendRKey() ///获取私聊rkey
+脚本onMsg监听到图片消息 图片链接自动识别使用标准链接或者新图片链接

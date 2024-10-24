@@ -1,0 +1,14 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.1
+CurrentVersionCode: 7
+Description: |-
+    <ul>
+    <li><a href="https://github.com/ztc1997/FakeDCBacklight/commit/ac8b4584fc121b67c556512c784f4a8e23781666">Add Disable on Screenoff switch</a>, Solve the problem of AOD brightness and under-screen fingerprint, which may cause flickering when opening the screen</li>
+    </ul>
+IssueTracker: ""
+Name: 伪 DC 调光
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ztc1997.fakedcbacklight
+Summary: Enable Extra dim when the brightness is lower than the minimum screen brightn...
+WebSite: ""

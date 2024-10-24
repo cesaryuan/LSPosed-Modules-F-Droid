@@ -1,0 +1,25 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.3.2
+CurrentVersionCode: 303
+Description: |-
+    <p>对比2.3.1更新记录：</p>
+    <ol>
+    <li>新增 去除博文详情页的铁粉互动提示</li>
+    <li>优化 转发列表广告可能去除不完整</li>
+    <li>适配 新版微博保存视频无法弹窗选择问题</li>
+    <li>修复 视频流点击可能无法显示更多弹窗</li>
+    <li>修复 部分用户博文详情页可能出现广告</li>
+    <li>修复 平板等部分设备设置弹窗显示不全</li>
+    <li>修复 新版微博可能无法保存全部图片</li>
+    <li>适配 新版微博视频流状态栏沉浸</li>
+    <li>适配 新版微博信息流自动领红包</li>
+    </ol>
+IssueTracker: ""
+Name: 微博猪手
+SourceCode: https://github.com/Xposed-Modules-Repo/com.skyhand.sinahelper
+Summary: |-
+    去除微博的广告和更多好用的功能~
+    Remove Weibo ads and more useful features~
+WebSite: ""

@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.3
+CurrentVersionCode: 103
+Description: |-
+    <ol>
+    <li>尝试兼容3.6.13版本的MIUI+。</li>
+    <li>由于更换密钥，所以需要卸载旧版本之后再安装新版本。</li>
+    </ol>
+IssueTracker: ""
+Name: 解锁MIUI+
+SourceCode: https://github.com/Xposed-Modules-Repo/com.test.unlockmiui
+Summary: 解锁MIUI12.5的MIUI+
+WebSite: ""

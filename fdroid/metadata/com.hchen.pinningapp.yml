@@ -1,0 +1,54 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 2024013100
+Description: |-
+    <h3>PinningApp v1.0</h3>
+    <h3>中文</h3>
+    <ul>
+    <li>
+    <h3>固定应用模块首发！</h3>
+    </li>
+    <li>模块效果：</li>
+    <li>当进入固定模式时，手机将只显示被固定App的界面，系统返回等手势将失效。</li>
+    <li><del>类似IOS的引导式访问功能</del></li>
+    <li>
+    <h3>模块功能：</h3>
+    </li>
+    <li>手机：</li>
+    <li>固定应用、拒绝返回手势、拒绝呼出侧边栏（可选）、解除固定时锁屏（可选）等。</li>
+    <li>Pad：</li>
+    <li>固定应用、拒绝返回手势、拒绝呼出侧边栏（可选）、解除固定时锁屏（可选）、</li>
+    <li>拒绝呼出Dock栏、拒绝响应小窗手势、隐藏小白条 等。</li>
+    <li>
+    <h4>详细请参考README.md</h4>
+    </li>
+    </ul>
+    <h3>English</h3>
+    <ul>
+    <li>
+    <h3>First Release of the Pinning App Module!</h3>
+    </li>
+    <li>Module Effects:</li>
+    <li>When entering pinning mode, the phone will only display the interface of the pinning app, and system gestures such as back will be disabled.</li>
+    <li><del>Similar to IOS's guided access feature.</del></li>
+    <li>
+    <h3>Module Features:</h3>
+    </li>
+    <li>For Phones:</li>
+    <li>Pinning App, reject back gestures, reject pop-up sidebar (optional), lock screen on exit (optional), etc.</li>
+    <li>For Pads:</li>
+    <li>Pinning App, reject back gestures, reject pop-up sidebar (optional), lock screen on exit (optional),</li>
+    <li>Reject call-out of Dock bar, reject response to small window gestures, hide the small white bar, etc.</li>
+    <li>
+    <h4>For details, please refer to README.md.</h4>
+    </li>
+    </ul>
+IssueTracker: ""
+Name: PinningApp
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.pinningapp
+Summary: |-
+    固定应用，类似于IOS的引导式访问。
+    Pinning App, Guided access similar to IOS
+WebSite: ""

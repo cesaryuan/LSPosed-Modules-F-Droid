@@ -1,0 +1,63 @@
+AuthorName: ""
+Categories:
+    - Xposed
+CurrentVersion: 1.3.4
+CurrentVersionCode: 24030222
+Description: |-
+    <p><a href="https://wwp.lanzoub.com/b0177tlri" rel="nofollow">蓝奏云下载</a> 密码: simple<br>
+    Update/更新记录</p>
+    <ul>
+    <li>
+    <p>优化: 收藏配置功能</p>
+    </li>
+    <li>
+    <p>优化: 应用列表页加载速度</p>
+    </li>
+    <li>
+    <p>增加: 支持新版JsHook配置导出</p>
+    </li>
+    <li>
+    <p>增加: 可以单独为每个配置 增加描述（需要在设置页面开启「配置弹窗在底部」功能）</p>
+    </li>
+    <li>
+    <p>修复: 「记录」搜索问题</p>
+    </li>
+    <li>
+    <p>修复: 应用版本名为空时的错误</p>
+    </li>
+    <li>
+    <p>优化: UI, 支持跟随系统主题色</p>
+    </li>
+    <li>
+    <p>Optimize: favorite config</p>
+    </li>
+    <li>
+    <p>Optimize: the loading speed of app list</p>
+    </li>
+    <li>
+    <p>Add: support export config for new JsHook</p>
+    </li>
+    <li>
+    <p>Add: can add a note for each config ( need to enable the ｢Config dialog at the bottom｣ on the settings page)</p>
+    </li>
+    <li>
+    <p>Fix: ｢Record｣ search</p>
+    </li>
+    <li>
+    <p>Fix: crash with app version-name is null</p>
+    </li>
+    <li>
+    <p>Optimize: UI, support follow system theme color</p>
+    </li>
+    </ul>
+    <p><strong>ROOT</strong>[Recommend]: Root permission is required to write configuration and read records (Log)<br>
+    Normal: Storage permissions are required to write configurations and read records (Log). Android 13 requires each app to grant permissions individually<br>
+    Lite: No permission required, only for LSPosed, no extensions, no recording, Android version &gt;8</p>
+    <p><strong>ROOT</strong>【推荐】: 需要root权限进行写入配置，以及读取记录（Log）<br>
+    Normal: 需要存储权限进行写入配置，以及读取记录（Log），同样适用于LSPatch，安卓13需要每个应用单独授予权限<br>
+    Lite: 无需任何权限，仅用于LSPosed，无扩展功能，无记录功能，安卓版本 &gt;8</p>
+IssueTracker: ""
+Name: SimpleHook
+SourceCode: ""
+Summary: ""
+WebSite: ""

@@ -1,0 +1,14 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.100"
+CurrentVersionCode: 23
+Description: |-
+    <p>1.修复并已查明从 1.9 版本开始长达 5 个版本系统界面 OOM 的问题，感谢 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Art-Chen/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Art-Chen">@Art-Chen</a> 提供的 VM Heap 查到的问题<br>
+    2.更新底层 Hook 框架<br>
+    3.优化部分代码，提升应用稳定性</p>
+IssueTracker: ""
+Name: ColorOS 通知图标增强
+SourceCode: https://github.com/Xposed-Modules-Repo/com.fankes.coloros.notify
+Summary: 为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeUI
+WebSite: ""

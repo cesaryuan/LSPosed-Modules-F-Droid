@@ -1,0 +1,11 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 2
+Description: <p>修复哔哩哔哩 HD 和部分仅横屏 APP 不能竖屏的问题</p>
+IssueTracker: ""
+Name: 自由屏幕旋转
+SourceCode: https://github.com/Xposed-Modules-Repo/com.fankes.forcerotate
+Summary: 解除 APP 对屏幕旋转的控制，针对所有 Android Pad 设计，拒绝强制竖屏从我做起
+WebSite: ""

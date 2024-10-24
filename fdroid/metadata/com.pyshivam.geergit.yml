@@ -1,0 +1,56 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.5.2
+CurrentVersionCode: 20513
+Description: |-
+    <h1>Geergit v2.5.2 (20513) Release Notes</h1>
+    <ol>
+    <li>
+    <p>Module Status Handling:</p>
+    <ul>
+    <li>If a module is not enabled, it will no longer redirect to the "module not working" page. Instead, a warning will be shown at the top while still allowing access to features.</li>
+    </ul>
+    </li>
+    <li>
+    <p>General Improvements and Bug Fixes:</p>
+    <ul>
+    <li>Various improvements and bug fixes to enhance overall performance and stability.</li>
+    </ul>
+    </li>
+    <li>
+    <p>Mock Location Spoofing:</p>
+    <ul>
+    <li>Improved handling of mock location spoofing for better accuracy and reliability.</li>
+    </ul>
+    </li>
+    <li>
+    <p>Backup Awareness:</p>
+    <ul>
+    <li>Users are now informed that victim app data backups are only stored on the device.</li>
+    </ul>
+    </li>
+    <li>
+    <p>Anti-Fingerprinting Switch (Experimental):</p>
+    <ul>
+    <li>Added an Anti-Fingerprinting switch with multiple methods to prevent device fingerprinting.</li>
+    </ul>
+    </li>
+    <li>
+    <p>Group and Profile Fixes:</p>
+    <ul>
+    <li>Fixed group-related bugs and resolved the "Profile Not Found" issue.</li>
+    </ul>
+    </li>
+    <li>
+    <p>Non-English Support:</p>
+    <ul>
+    <li>Geergit now supports non-English devices and apps, fixing previous errors encountered with non-English applications.</li>
+    </ul>
+    </li>
+    </ol>
+IssueTracker: ""
+Name: Geergit - Protect Your Privacy
+SourceCode: https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit
+Summary: The main aim is to spoof the values from third party apps which tracks users ...
+WebSite: ""

@@ -1,0 +1,2 @@
+1. Fix: module config not work
+2. Remove ConfigProvider and database, which means those configs of previous version will be discarded. It's better to do a clear-data job after upgrading to this new version.

@@ -1,0 +1,17 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: beta-1.3.2
+CurrentVersionCode: 132
+Description: |-
+    <blockquote>
+    <p>配置存储方式更换为NewXSharePrefs，因此可能需要重新勾选目标应用<br>
+    新增作用域模式（免重启）</p>
+    </blockquote>
+IssueTracker: ""
+Name: setAppFull - 设置应用全屏
+SourceCode: https://github.com/Xposed-Modules-Repo/ss.colytitse.setappfull
+Summary: |-
+    set app to full screen run.
+    将应用突破次元壁，覆盖异形屏幕限制全面显示_(:з」∠)_
+WebSite: ""

@@ -1,0 +1,13 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.2.0
+CurrentVersionCode: 3
+Description: "<p>implement hooks for the following functions</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\"><pre class=\"notranslate\"><code>&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\n</code></pre></div>\n<p>refactor code<br>\n<strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/auag0/HideMockLocation/compare/v1.1.0...v1.2.0\">auag0/HideMockLocation@<tt>v1.1.0...v1.2.0</tt></a></p>"
+IssueTracker: ""
+Name: HideMockLocation
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.auag0.hidemocklocation
+Summary: |-
+    hide mock location
+    位置情報偽装アプリを非表示にします
+WebSite: ""

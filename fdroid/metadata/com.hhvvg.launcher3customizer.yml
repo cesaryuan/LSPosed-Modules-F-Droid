@@ -1,0 +1,51 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 1.0.1
+CurrentVersionCode: 5
+Description: |-
+    <p>Initial release on <code>lsposed</code> repository.</p>
+    <p>Features:</p>
+    <ul>
+    <li>Change icon packs</li>
+    <li>Change label for app icons as you want</li>
+    <li>Customized icon touch effect</li>
+    <li>Adaptive icon supported</li>
+    <li>Able to hide icon text on workspace</li>
+    <li>Able to hide icon text on apps drawer</li>
+    <li>Able to change icon size</li>
+    <li>Able to change icon text size</li>
+    <li>Able to change icon text drawable padding</li>
+    <li>Change color of notification dots</li>
+    <li>Show notification count on badges</li>
+    <li>Hide SpringLoaded background</li>
+    <li>Hide useless Qsb on first screen</li>
+    <li>Center opened folder</li>
+    <li>Manage privacy apps</li>
+    <li>... May be more</li>
+    </ul>
+    <p>在 <code>lsposed</code> 仓库的首次发行。</p>
+    <p>功能：</p>
+    <ul>
+    <li>更改图标包</li>
+    <li>更改应用的名字</li>
+    <li>使用自定义的图标点击效果</li>
+    <li>支持自适应图标</li>
+    <li>支持隐藏桌面图标标题</li>
+    <li>支持隐藏应用抽屉图标标题</li>
+    <li>支持改变图标大小</li>
+    <li>支持改变图标标题大小</li>
+    <li>支持改变图标与标题之间的间距大小</li>
+    <li>更改桌面红点通知的颜色</li>
+    <li>支持在通知红点上显示通知数量</li>
+    <li>隐藏桌面拖动的时候的背景</li>
+    <li>关闭没有用的 <code>At A Glance</code> 组件</li>
+    <li>打开文件夹居中</li>
+    <li>管理隐私应用</li>
+    <li>... 待开发</li>
+    </ul>
+IssueTracker: ""
+Name: Utilities for Launcher3 customization
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hhvvg.launcher3customizer
+Summary: Customization For Launcher3
+WebSite: ""

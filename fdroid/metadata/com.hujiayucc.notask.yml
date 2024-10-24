@@ -1,0 +1,15 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 11
+Description: |-
+    <ul>
+    <li>修复 部分应用隐藏视图后会销毁Activity</li>
+    <li>适配 单独优化QQ、微信</li>
+    </ul>
+IssueTracker: ""
+Name: NoTask
+SourceCode: https://github.com/Xposed-Modules-Repo/com.hujiayucc.notask
+Summary: 隐藏最近任务列表视图
+WebSite: ""

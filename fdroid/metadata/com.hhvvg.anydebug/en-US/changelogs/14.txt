@@ -1,0 +1,25 @@
+Changes:
+
++ Completely new UI/UX
++ Remove persistent editing, since it's too buggy. If you need this feature, please don't update
++ Far more convenient for selecting views
++ Remove launcher icon, may add it in later versions
++ Add a button to remove views
++ Not hooking system server any longer
++ Fix crash on probably most apps
++ Add exported properties viewer
++ Add properties filtering
++ Add alpha/scroll/rotation/scale/translation modification entry
+
+变更：
+
++ 全新操作界面
++ 移除了持久编辑，因为问题很多。如果你需要此功能，请不要更新新版本
++ 选择控件的方法更加方便
++ 移除了桌面图标，后续可能会加回来
++ 添加删除控件按钮
++ 不再需要 hook 框架
++ 修复了在大多数应用上的崩溃
++ 增加了属性查看器
++ 添加属性过滤器
++ 添加 alpha/scroll/rotation/scale/translation 等属性的修改

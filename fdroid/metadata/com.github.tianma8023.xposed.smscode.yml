@@ -1,0 +1,25 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 2.5.1
+CurrentVersionCode: 52
+Description: |-
+    <p>v2.5.1 Reboot required</p>
+    <ol>
+    <li>Fix: the issue of cannot show sms notification on Android 14 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a></li>
+    <li>Fix: the issue of cannot open the webpage for viewing the source code</li>
+    </ol>
+    <br>
+    <p>v2.5.1 需要重启</p>
+    <ol>
+    <li>修复：修复在 Android 14 上，不显示验证码通知的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a></li>
+    <li>修复：修复查看源码失败的问题</li>
+    </ol>
+    <p>sha 256: d16f00e82654d5d22e7a0a94eaec82ae617bf3bd71f02aac8ea5364d27ee7a51</p>
+IssueTracker: ""
+Name: XposedSmsCode
+SourceCode: https://github.com/Xposed-Modules-Repo/com.github.tianma8023.xposed.smscode
+Summary: |-
+    识别短信验证码的Xposed模块，并将验证码拷贝到剪切板，亦可以自动输入验证码。
+    An Xposed module which can recognize...
+WebSite: ""

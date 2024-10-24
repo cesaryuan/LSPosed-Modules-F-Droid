@@ -1,0 +1,19 @@
+AuthorName: Xposed-Modules-Repo
+Categories:
+    - Xposed
+CurrentVersion: 9.2.1
+CurrentVersionCode: 921
+Description: |-
+    <ul>
+    <li>Added support for LSPosed module scope feature (auto-whitelist)</li>
+    <li>BatteryPercent: fixed percent text injection not working on some systems</li>
+    <li>BatteryPercent: follow status bar clock appearance</li>
+    <li>Clock: reverted to old hooking strategy for better compatibility</li>
+    <li>Dialer: adjusted for compatibility with the latest Google Dialer<br>
+    --- fixes muting Dialpad tones during UNC Quiet Hours</li>
+    </ul>
+IssueTracker: ""
+Name: GravityBox [P]
+SourceCode: https://github.com/Xposed-Modules-Repo/com.ceco.pie.gravitybox
+Summary: All-in-one complex module for devices running vanilla Android 9 Pie
+WebSite: ""
