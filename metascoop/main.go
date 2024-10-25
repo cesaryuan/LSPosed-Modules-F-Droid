@@ -361,7 +361,7 @@ func main() {
 
 			// Now update with some info
 			for _, repo := range reposList {
-				if repoHasApp(repo, latestPackage.PackageName) {
+				if repoApp, ok := apkInfoMap[latestPackage.ApkName]; ok && repoHasApp(repo, repoApp.Id) {
 					setNonEmpty(meta, "AuthorName", repo.AuthorName)
 					setNonEmpty(meta, "License", repo.License)
 					setNonEmpty(meta, "SourceCode", repo.GitURL)
