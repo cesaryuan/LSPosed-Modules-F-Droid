@@ -527,20 +527,34 @@ func main() {
 		log.Fatalf("reading f-droid repo index: %s\n::endgroup::\n", err.Error())
 	}
 
-	// update apps[].lastUpdated to repo's applications[].lastUpdated
+	// update lastUpdated and added correctly
 	for _, app := range fdroidIndex.Apps {
-		for _, repo := range reposList {
-			for _, repoApp := range repo.Applications {
-				if repoApp.Id == app["packageName"] && strings.TrimSpace(repoApp.LastUpdated) != "" {
-					t, err := time.Parse(time.RFC3339, repoApp.LastUpdated)
-					if err != nil {
-						log.Printf("Error parsing time: %v", err)
-						continue
-					}
-					app["lastUpdated"] = float64(t.UnixMilli())
-					app["added"] = float64(t.UnixMilli())
-					break
+		pkg, ok := fdroidIndex.Packages[app["packageName"].(string)]
+		if !ok || len(pkg) == 0 {
+			log.Printf("Invalid packageName: %v", app["packageName"])
+			continue
+		}
+		repoApp, ok := apkInfoMap[pkg[0].ApkName]
+		if ok && strings.TrimSpace(repoApp.LastUpdated) != "" {
+			t, err := time.Parse(time.RFC3339, repoApp.LastUpdated)
+			if err != nil {
+				log.Printf("Error parsing time: %v", err)
+				continue
+			}
+			app["lastUpdated"] = float64(t.UnixMilli())
+			app["added"] = float64(t.UnixMilli())
+		}
+	}
+	for _, pkgs := range fdroidIndex.Packages {
+		for _, pkg := range pkgs {
+			repoApp, ok := apkInfoMap[pkg.ApkName]
+			if ok && strings.TrimSpace(repoApp.LastUpdated) != "" {
+				t, err := time.Parse(time.RFC3339, repoApp.LastUpdated)
+				if err != nil {
+					log.Printf("Error parsing time: %v", err)
+					continue
 				}
+				pkg.Added = int64(t.UnixMilli())
 			}
 		}
 	}
