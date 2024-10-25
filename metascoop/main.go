@@ -544,6 +544,25 @@ func main() {
 		}
 	}
 	apps.WriteIndex(fdroidIndexFilePath, fdroidIndex)
+	if !*debugMode {
+		fmt.Println("::group::F-Droid: Signing index")
+
+		// Now, we run the fdroid update command again to regenerate the index with our new metadata
+		cmd := exec.Command("fdroid", "signindex")
+		cmd.Stderr = os.Stderr
+		cmd.Stdout = os.Stdout
+		cmd.Stdin = os.Stdin
+		cmd.Dir = filepath.Dir(*repoDir)
+
+		log.Printf("Running %q in %s", cmd.String(), cmd.Dir)
+
+		err = cmd.Run()
+		if err != nil {
+			log.Printf("Error while signing index: %s", err.Error())
+		}
+
+		fmt.Println("::endgroup::F-Droid: Signing index")
+	}
 
 	// Now we can remove all paths that were marked for doing so
 
