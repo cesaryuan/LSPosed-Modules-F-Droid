@@ -538,6 +538,7 @@ func main() {
 						continue
 					}
 					app["lastUpdated"] = float64(t.UnixMilli())
+					app["added"] = float64(t.UnixMilli())
 					break
 				}
 			}
