@@ -546,15 +546,15 @@ func main() {
 		}
 	}
 	for _, pkgs := range fdroidIndex.Packages {
-		for _, pkg := range pkgs {
-			repoApp, ok := apkInfoMap[pkg.ApkName]
+		for i := range pkgs {
+			repoApp, ok := apkInfoMap[pkgs[i].ApkName]
 			if ok && strings.TrimSpace(repoApp.LastUpdated) != "" {
 				t, err := time.Parse(time.RFC3339, repoApp.LastUpdated)
 				if err != nil {
 					log.Printf("Error parsing time: %v", err)
 					continue
 				}
-				pkg.Added = int64(t.UnixMilli())
+				pkgs[i].Added = int64(t.UnixMilli()) // 通过索引修改原始值
 			}
 		}
 	}
