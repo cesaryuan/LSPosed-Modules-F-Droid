@@ -105,11 +105,11 @@ func addOrChangeBackground(svgPath, backgroundColor string) error {
 	if err != nil {
 		return err
 	}
-	styleRegex := regexp.MustCompile(`(<svg[^>]* style="[^"]*background:)([^ ]+)`)
+	styleRegex := regexp.MustCompile(`(<svg[^>]* style="[^"]*background-color:)([^ ]+)`)
 	if styleRegex.Match(svgContent) {
 		svgContent = styleRegex.ReplaceAll(svgContent, []byte(fmt.Sprintf(`$1%s`, backgroundColor)))
 	} else {
-		svgContent = []byte(strings.Replace(string(svgContent), "<svg", `<svg style="background:`+backgroundColor+`"`, 1))
+		svgContent = []byte(strings.Replace(string(svgContent), "<svg", `<svg style="background-color:`+backgroundColor+`"`, 1))
 	}
 	return os.WriteFile(svgPath, svgContent, 0644)
 }
@@ -226,6 +226,9 @@ func findIconFile(resDir, iconPath string) (string, error) {
 				}
 				return []byte(color)
 			})
+
+			// 去除 width="xxx.xd" height="xxx.xd" 中的 d
+			svgContent = regexp.MustCompile(`((width|height)="[\d\.]+)d"`).ReplaceAll(svgContent, []byte("$1"))
 			if err := os.WriteFile(svgPath, svgContent, 0644); err != nil {
 				return "", err
 			}
