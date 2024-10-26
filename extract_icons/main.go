@@ -46,7 +46,7 @@ func findIconFile(resDir, iconPath string) (string, error) {
 	iconName := filepath.Base(iconPath)
 
 	// find image format first
-	extensions := []string{"webp", "svg", "png", "jpeg", "jpg"}
+	extensions := []string{"webp", "png", "jpeg", "jpg", "svg"}
 
 	for _, ext := range extensions {
 		pattern := filepath.Join(resDir, prefix+"*", iconName+"."+ext)
@@ -156,6 +156,7 @@ d. For each <path> element:
 e. If there are any @drawable references (like "@drawable/$ic_launcher_foreground__0"), replace them with a placeholder color (e.g., "#00000000") and add a comment noting that this color needs to be manually replaced.
 
 2. Output your converted SVG inside <svg> tags. Make sure to include the XML declaration and the SVG namespace.
+3. If all elements's color are white, this means we should add a background color to the svg. For example color: #2B7CD3
 3. Do not output any other redundant things, such as code block identifiers. And don't add anyexplanations, comments, and so on.
 
 Remember, the goal is to create a valid SVG that closely resembles the original Android vector drawable. Some complex features might not have direct SVG equivalents, so use your best judgment to approximate them.
