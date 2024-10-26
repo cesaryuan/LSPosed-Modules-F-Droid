@@ -104,7 +104,7 @@ func findIconFile(resDir, iconPath string) (string, error) {
 
 func copyIconFile(iconFile, outputDir, packageName string) (string, error) {
 	iconExt := filepath.Ext(iconFile)
-	outputPath := filepath.Join(outputDir, "fdroid", "repo", "icons", packageName+iconExt)
+	outputPath := filepath.Join(outputDir, packageName+iconExt)
 
 	if err := os.MkdirAll(filepath.Dir(outputPath), os.ModePerm); err != nil {
 		return "", err
@@ -129,10 +129,9 @@ You are tasked with converting an Android vector drawable XML to an SVG (Scalabl
 1. To convert this Android vector to SVG, follow these steps:
 
 a. Remove all Android-specific attributes (those with the "android:" prefix).
-
 b. Convert the <vector> tag to an <svg> tag.
-
 c. Set the viewBox attribute of the <svg> tag using the values from android:viewportWidth and android:viewportHeight. The format should be viewBox="0 0 [width] [height]".
+d. Any tag should be closed correctly.
 
 d. For each <path> element:
    - Keep the "d" attribute (pathData in Android becomes d in SVG).
@@ -140,11 +139,12 @@ d. For each <path> element:
    - Convert android:strokeColor to stroke.
    - Convert android:strokeWidth to stroke-width.
    - Remove any Android-specific attributes.
+   - For color, the android's format is #AARRGGBB, you need to convert it to #RRGGBBAA.
 
-e. If there are any @drawable references (like "@drawable/$ic_launcher_foreground__0"), replace them with a placeholder color (e.g., "#000000") and add a comment noting that this color needs to be manually replaced.
+e. If there are any @drawable references (like "@drawable/$ic_launcher_foreground__0"), replace them with a placeholder color (e.g., "#00000000") and add a comment noting that this color needs to be manually replaced.
 
 2. Output your converted SVG inside <svg> tags. Make sure to include the XML declaration and the SVG namespace.
-3. Do not output any other redundant things, such as code block identifiers, explanations, comments, and so on.
+3. Do not output any other redundant things, such as code block identifiers. And don't add anyexplanations, comments, and so on.
 
 Remember, the goal is to create a valid SVG that closely resembles the original Android vector drawable. Some complex features might not have direct SVG equivalents, so use your best judgment to approximate them.
     `
@@ -157,7 +157,7 @@ Remember, the goal is to create a valid SVG that closely resembles the original 
 			openai.UserMessage(prompt),
 			openai.UserMessage(fmt.Sprintf("The following is the Android vector XML: %s", xmlContent)),
 		}),
-		Model: openai.F("deepseek-coder"),
+		Model: openai.F("deepseek-chat"),
 	})
 	if err != nil {
 		return "", err
@@ -219,7 +219,13 @@ func processApp(app map[string]interface{}, indexJson map[string]interface{}, mu
 		return
 	}
 
-	outputPath, err := copyIconFile(iconFile, ".", packageName)
+	outputPath, err := copyIconFile(iconFile, "./fdroid/repo/icons", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-120", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-160", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-240", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-320", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-480", packageName)
+	copyIconFile(iconFile, "./fdroid/repo/icons-640", packageName)
 	if err != nil {
 		fmt.Printf("Failed to copy icon file: %v\n", err)
 		return
@@ -246,7 +252,7 @@ func main() {
 
 	var wg sync.WaitGroup
 	var mu sync.Mutex
-	semaphore := make(chan struct{}, 8) // 限制同时运行的线程数为 5
+	semaphore := make(chan struct{}, 10)
 
 	apps, ok := indexJson["apps"].([]interface{})
 	if !ok {
@@ -259,15 +265,21 @@ func main() {
 			fmt.Printf("Failed to get app\n")
 			continue
 		}
-		if icon, ok := appMap["icon"]; !ok || icon == "" {
-			wg.Add(1)
-			semaphore <- struct{}{} // 获取信号量
-			go func(app map[string]interface{}) {
-				defer wg.Done()
-				defer func() { <-semaphore }() // 释放信号量
-				processApp(appMap, indexJson, &mu)
-			}(appMap)
+		icon, ok := appMap["icon"]
+		if ok {
+			iconPath := filepath.Join("fdroid/repo/icons", icon.(string))
+			if _, err := os.Stat(iconPath); !os.IsNotExist(err) {
+				continue
+			}
 		}
+
+		wg.Add(1)
+		semaphore <- struct{}{}
+		go func(app map[string]interface{}) {
+			defer wg.Done()
+			defer func() { <-semaphore }()
+			processApp(appMap, indexJson, &mu)
+		}(appMap)
 	}
 
 	wg.Wait()
