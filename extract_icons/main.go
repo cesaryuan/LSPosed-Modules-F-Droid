@@ -9,6 +9,7 @@ import (
 	"os/exec"
 	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
 	"sync"
 
@@ -54,7 +55,18 @@ func findIconFile(resDir, iconPath string) (string, error) {
 			return "", err
 		}
 		if len(matches) > 0 {
-			// todo: find the best quality image
+			// order by size descending
+			sort.Slice(matches, func(i, j int) bool {
+				infoI, err := os.Stat(matches[i])
+				if err != nil {
+					return false
+				}
+				infoJ, err := os.Stat(matches[j])
+				if err != nil {
+					return false
+				}
+				return infoI.Size() > infoJ.Size()
+			})
 			return matches[0], nil
 		}
 	}
