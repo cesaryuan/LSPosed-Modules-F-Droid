@@ -149,7 +149,7 @@ e. If there are any @drawable references (like "@drawable/$ic_launcher_foregroun
 Remember, the goal is to create a valid SVG that closely resembles the original Android vector drawable. Some complex features might not have direct SVG equivalents, so use your best judgment to approximate them.
     `
 	client := openai.NewClient(
-		option.WithAPIKey("***REMOVED***"), // defaults to os.LookupEnv("OPENAI_API_KEY")
+		// defaults to os.LookupEnv("OPENAI_API_KEY")
 		option.WithBaseURL("https://api.deepseek.com/v1"),
 	)
 	chatCompletion, err := client.Chat.Completions.New(context.TODO(), openai.ChatCompletionNewParams{
