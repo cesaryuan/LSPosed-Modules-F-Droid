@@ -553,6 +553,8 @@ func main() {
 			iconPath := filepath.Join(*repoDir, "icons", icon.(string))
 			if _, err := os.Stat(iconPath); !os.IsNotExist(err) {
 				continue
+			} else {
+				app["icon"] = ""
 			}
 		}
 		pattern := filepath.Join(*repoDir, "icons", packageName+".*")
