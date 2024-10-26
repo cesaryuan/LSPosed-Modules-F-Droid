@@ -1,0 +1,89 @@
+## 其他链接 (Other Links)
+
+_**禁止引流、搬运、转载、售卖、分享、分流**_
+- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)
+- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)
+- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)
+- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)
+- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)
+
+## 更新日志 (ChangeLog)
+
+- [添加] 作用域功能支持搜索跳转
+- [添加] 自动点击开始录制或投射对话框
+- [修复] 指纹图标Hook异常 C15
+- [适配] 应用分身黑名单 C14+
+- [添加] 禁用OTA dm-verity校验
+- [适配] App浮窗与分屏白名单 C15
+- [适配] 桌面与文件夹分页指示器 C15
+- [移除] 流体云图标背景透明度 C15
+- [移除] 控制中心磁贴背景透明度 C15
+- [适配] 移除USB连接对话框 C15
+- [移除] 控制中心滑动条透明度 C15
+- [适配] 桌面App更新圆点 C15
+- [适配] 自定义OTA卡片背景 C15
+- [添加] OTA卡片背景应用到设备参数分享页面 C15
+- [适配] 后台挂机/听剧模式 C15
+- [适配] 流体云通知两侧对齐 C15
+- [移除] 控制中心背景透明度 C15
+- [适配] 音量条背景透明度 C15
+- [移除] 通知背景透明度 C15
+- [添加] 减小横屏亮度条顶部间隙 C14+
+- [适配] 控制中心日期农历显示 C15
+- [适配] 磁贴编辑页面行数 C15
+- [适配] 相册哈苏水印状态判断
+- [适配] 状态栏电池图标百分号 C15
+- [适配] 隐藏非上网卡移动数据图标 C15
+- [适配] 移除WiFi数据箭头图标 C15
+- [移除] 自定义锁屏时钟样式 C15
+- [适配] 锁屏时钟红一显示模式 C15
+- [适配] 移除锁屏时钟组件 C15
+- [适配] 移除锁屏状态栏运营商 15
+- [适配] 自定义替换指纹图标 C15
+- [适配] 移除DPI重启恢复 C15
+- [移除] 自动息屏永不超时 C15
+- [移除] 相册AIGC消除限制 C15
+- [Add] Support search jump for scope function
+- [Add] Automatically click to start recording or casting dialog box
+- [Fix] Fingerprint icon Hook exception C15
+- [Fix] App clone blacklist C14+
+- [Add] Disable OTA dm-verity verification
+- [Fix] App floating window and split screen whitelist C15
+- [Fix] Desktop and folder paging indicator C15
+- [Remove] Fluid cloud icon background transparency C15
+- [Remove] Control center tile background transparency C15
+- [Fix] Remove USB connection dialog box C15
+- [Remove] Control center slider transparency C15
+- [Fix] Desktop App update dot C15
+- [Fix] Custom OTA card background C15
+- [Add] OTA card background applied to device parameter sharing page C15
+- [Fix] Background hang-up/listening mode C15
+- [Fix] Fluid cloud notification alignment C15
+- [Remove] Control center background transparency C15
+- [Fix] Volume bar background transparency C15
+- [Remove] Notification background transparency C15
+- [Add] Reduce the top gap of the horizontal screen brightness bar C14+
+- [Fix] Control center date and lunar calendar display C15
+- [Fix] Number of rows on the tile editing page C15
+- [Fix] Album Hasselblad watermark status judgment
+- [Fix] Status bar battery icon percentage sign C15
+- [Fix] Hide non-network card mobile data icon C15
+- [Fix] Remove WiFi data arrow icon C15
+- [Remove] Custom lock screen clock style C15
+- [Fix] Lock screen clock red display mode C15
+- [Fix] Remove lock screen clock component C15
+- [Fix] Remove lock screen status bar operator 15
+- [Fix] Custom replacement fingerprint icon C15
+- [Fix] Remove DPI restart recovery C15
+- [Remove] Automatic screen off will never time out C15
+- [Remove] Album AIGC removes restrictions C15
+
+## Notes
+
+升级ColorOS15后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里把对应的作用域长按进行重新优化
+
+例如：开发者选项通知，则重新优化系统界面（
+
+If you encounter a situation where there is no error but the solution does not work after upgrading to ColorOS15, you can try to re-optimize by long pressing the corresponding scope in LSPosed
+
+For example: developer option notification, re-optimize the system interface (
