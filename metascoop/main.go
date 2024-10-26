@@ -529,9 +529,10 @@ func main() {
 
 	// update lastUpdated and added correctly
 	for _, app := range fdroidIndex.Apps {
-		pkg, ok := fdroidIndex.Packages[app["packageName"].(string)]
+		packageName := app["packageName"].(string)
+		pkg, ok := fdroidIndex.Packages[packageName]
 		if !ok || len(pkg) == 0 {
-			log.Printf("Invalid packageName: %v", app["packageName"])
+			log.Printf("Invalid packageName: %v", packageName)
 			continue
 		}
 		repoApp, ok := apkInfoMap[pkg[0].ApkName]
