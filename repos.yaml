@@ -7725,10 +7725,10 @@ com.luckyzyx.luckytool:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>LuckyTool</h1>\n<p>\n   <b><a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\">English</a>  丨 简体中文</b>\n</p>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://t.me/LuckyTool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a>   \n<a href=\"https://crowdin.com/project/luckytool\"><img alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"></a>\n<p>对ColorOS系统进行的扩展优化的Xposed模块</p>\n<p>永久免费模块，请勿上当受骗</p>\n<p>禁止引流、搬运、转载、售卖、分享、分流</p>\n<p>提倡授之以渔，切莫授之以鱼</p>\n</div>\n<hr />\n<h2>功能请求与BUG反馈</h2>\n<p>请前往TG群组进行反馈交流</p>\n<div align=\"left\">\n<p>\n   <b><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\">更新日志</a> | <a href=\"https://crwd.in/luckytool\">参与翻译</a></b>\n</p>\n</div>\n<h2>作用域优化</h2>\n<p>升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化</p>\n<p>例如：开发者选项通知，则重新优化系统界面（</p>\n<h2>模块违规条例解析</h2>\n<p>引流：包括但不限于快手、抖音、公众号等引流行为</p>\n<p>售卖：免费模块，不再解释</p>\n<p>搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能</p>\n<p>开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)</p>\n<p>注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规</p>\n<p>违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜</p>\n<h2>Xposed API</h2>\n<p><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></p>\n"
-          filename: LuckyTool_v1.2.4.16957.apk
+          filename: LuckyTool_v1.2.5.17333.apk
           id: com.luckyzyx.luckytool
           name: LuckyTool Xposed 免费模块
-          last_updated: "2024-10-01T10:28:27Z"
+          last_updated: "2024-10-26T10:55:30Z"
           releasedescription: |-
             <h2>其他链接 (Other Links)</h2>
             <p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>
@@ -7741,73 +7741,80 @@ com.luckyzyx.luckytool:
             </ul>
             <h2>更新日志 (ChangeLog)</h2>
             <ul>
-            <li>[适配] 三阶段响铃模式磁贴 C15.0</li>
-            <li>[适配] 自定义磁贴背景透明度 C15.0</li>
-            <li>[适配] 控制中心滑动条透明度 C15.0</li>
-            <li>[修复] 状态栏电池hook异常 C15.0</li>
-            <li>[适配] 自定义指纹图标 C15.0</li>
-            <li>[适配] 禁用OTG自动关闭 C15.0</li>
-            <li>[适配] 移除锁屏底部图标 C15.0</li>
-            <li>[适配] 状态栏时钟农历计算逻辑 C15.0</li>
-            <li>[适配] 状态栏电池通知充电技术字段显示 C15.0</li>
-            <li>[适配] 锁屏充电动画样式与字段 C15.0</li>
-            <li>[适配] 控制中心底部网络安全警告信息 C15.0</li>
-            <li>[适配] 强制刷新率数据获取逻辑 C15.0</li>
-            <li>[适配] 新版通知浮窗回复白名单 C15.0</li>
-            <li>[适配] 自定义通知背景透明度 C15.0</li>
-            <li>[修复] 相机旅行滤镜异常崩溃问题</li>
-            <li>[适配] SIM卡首选网络类型 C15.0</li>
-            <li>[适配] SIM卡VoLTE高清通话 C15.0</li>
-            <li>[修复] 强制刷新率数据保存异常</li>
-            <li>[添加] 移除浏览器搜索框App推广 C14+</li>
-            <li>[添加] 禁用状态栏音乐流体云 C14.1+</li>
-            <li>[添加] 浮窗贴边任务前台运行 C13+</li>
-            <li>[添加] 恢复天气降雨云图页面 C14+</li>
-            <li>[优化] 自定义OTA背景图片支持裁剪</li>
-            <li>[添加] 强制启用媒体音乐流体云波纹 C14.1+</li>
-            <li>[添加] 禁用云服务强制备份应用列表</li>
-            <li>[添加] 修复设置CN特供版默认应用跳转</li>
-            <li>[适配] 移除新版流体云系统提示图标 C14+</li>
-            <li>[修复] 息屏一言Https证书访问问题</li>
-            <li>[添加] 禁用长按HOME键启动语音助手</li>
-            <li>[添加] 移除OTA本地更新校验</li>
-            <li>[更改] 更改ADM解锁Pro方案</li>
-            <li>[添加] ADM解锁更多下载线程</li>
-            <li>[添加] 启用相册国庆水印 C13+</li>
-            <li>[Fix] Three-stage ring mode tile C15.0</li>
-            <li>[Fix] Customize tile background transparency C15.0</li>
-            <li>[Fix] Control Center Slider Transparency C15.0</li>
-            <li>[Fix] Status bar battery hook exception C15.0</li>
-            <li>[Fix] Custom fingerprint icon C15.0</li>
-            <li>[Fix] Disable OTG automatic shutdown C15.0</li>
-            <li>[Fix] Remove the icon at the bottom of the lock screen C15.0</li>
-            <li>[Fix] Status bar clock lunar calendar calculation logic C15.0</li>
-            <li>[Fix] Status bar battery notification charging technology field display C15.0</li>
-            <li>[Fix] Lock screen charging animation style and fields C15.0</li>
-            <li>[Fix] Network security warning message at the bottom of the control center C15.0</li>
-            <li>[Fix] Forced refresh rate data acquisition logic C15.0</li>
-            <li>[Fix] New version of notification floating window reply whitelist C15.0</li>
-            <li>[Fix] Custom notification background transparency C15.0</li>
-            <li>[Fix] Camera travel filter crash issue</li>
-            <li>[Fix] SIM card preferred network type C15.0</li>
-            <li>[Fix] SIM Card VoLTE HD Call C15.0</li>
-            <li>[Fix] Forced refresh rate data saving exception</li>
-            <li>[Add] Remove browser search box App promotion C14+</li>
-            <li>[Add] Disable status bar music fluid cloud C14.1+</li>
-            <li>[Add] Floating window border task running in the foreground C13+</li>
-            <li>[Add] Restore weather and rainfall cloud map page C14+</li>
-            <li>[Optimize] Customized OTA background images support cropping</li>
-            <li>[Add] Force enable media music fluid cloud ripple C14.1+</li>
-            <li>[Add] Disable cloud service forced backup application list</li>
-            <li>[Add] Fix setting the default application jump of CN special version</li>
-            <li>[Fix] Remove the new version of Fluid Cloud system prompt icon C14+</li>
-            <li>[Fix] Xipingyiyan HTTPS certificate access issue</li>
-            <li>[Add] Disable long pressing HOME button to start voice assistant</li>
-            <li>[Add] Remove OTA local update verification</li>
-            <li>[Change] Change ADM Unlock Pro plan</li>
-            <li>[Add] ADM unlocks more download threads</li>
-            <li>[Add] Enable National Day watermark in photo album C13+</li>
+            <li>[添加] 作用域功能支持搜索跳转</li>
+            <li>[添加] 自动点击开始录制或投射对话框</li>
+            <li>[修复] 指纹图标Hook异常 C15</li>
+            <li>[适配] 应用分身黑名单 C14+</li>
+            <li>[添加] 禁用OTA dm-verity校验</li>
+            <li>[适配] App浮窗与分屏白名单 C15</li>
+            <li>[适配] 桌面与文件夹分页指示器 C15</li>
+            <li>[移除] 流体云图标背景透明度 C15</li>
+            <li>[移除] 控制中心磁贴背景透明度 C15</li>
+            <li>[适配] 移除USB连接对话框 C15</li>
+            <li>[移除] 控制中心滑动条透明度 C15</li>
+            <li>[适配] 桌面App更新圆点 C15</li>
+            <li>[适配] 自定义OTA卡片背景 C15</li>
+            <li>[添加] OTA卡片背景应用到设备参数分享页面 C15</li>
+            <li>[适配] 后台挂机/听剧模式 C15</li>
+            <li>[适配] 流体云通知两侧对齐 C15</li>
+            <li>[移除] 控制中心背景透明度 C15</li>
+            <li>[适配] 音量条背景透明度 C15</li>
+            <li>[移除] 通知背景透明度 C15</li>
+            <li>[添加] 减小横屏亮度条顶部间隙 C14+</li>
+            <li>[适配] 控制中心日期农历显示 C15</li>
+            <li>[适配] 磁贴编辑页面行数 C15</li>
+            <li>[适配] 相册哈苏水印状态判断</li>
+            <li>[适配] 状态栏电池图标百分号 C15</li>
+            <li>[适配] 隐藏非上网卡移动数据图标 C15</li>
+            <li>[适配] 移除WiFi数据箭头图标 C15</li>
+            <li>[移除] 自定义锁屏时钟样式 C15</li>
+            <li>[适配] 锁屏时钟红一显示模式 C15</li>
+            <li>[适配] 移除锁屏时钟组件 C15</li>
+            <li>[适配] 移除锁屏状态栏运营商 15</li>
+            <li>[适配] 自定义替换指纹图标 C15</li>
+            <li>[适配] 移除DPI重启恢复 C15</li>
+            <li>[移除] 自动息屏永不超时 C15</li>
+            <li>[移除] 相册AIGC消除限制 C15</li>
+            <li>[Add] Support search jump for scope function</li>
+            <li>[Add] Automatically click to start recording or casting dialog box</li>
+            <li>[Fix] Fingerprint icon Hook exception C15</li>
+            <li>[Fix] App clone blacklist C14+</li>
+            <li>[Add] Disable OTA dm-verity verification</li>
+            <li>[Fix] App floating window and split screen whitelist C15</li>
+            <li>[Fix] Desktop and folder paging indicator C15</li>
+            <li>[Remove] Fluid cloud icon background transparency C15</li>
+            <li>[Remove] Control center tile background transparency C15</li>
+            <li>[Fix] Remove USB connection dialog box C15</li>
+            <li>[Remove] Control center slider transparency C15</li>
+            <li>[Fix] Desktop App update dot C15</li>
+            <li>[Fix] Custom OTA card background C15</li>
+            <li>[Add] OTA card background applied to device parameter sharing page C15</li>
+            <li>[Fix] Background hang-up/listening mode C15</li>
+            <li>[Fix] Fluid cloud notification alignment C15</li>
+            <li>[Remove] Control center background transparency C15</li>
+            <li>[Fix] Volume bar background transparency C15</li>
+            <li>[Remove] Notification background transparency C15</li>
+            <li>[Add] Reduce the top gap of the horizontal screen brightness bar C14+</li>
+            <li>[Fix] Control center date and lunar calendar display C15</li>
+            <li>[Fix] Number of rows on the tile editing page C15</li>
+            <li>[Fix] Album Hasselblad watermark status judgment</li>
+            <li>[Fix] Status bar battery icon percentage sign C15</li>
+            <li>[Fix] Hide non-network card mobile data icon C15</li>
+            <li>[Fix] Remove WiFi data arrow icon C15</li>
+            <li>[Remove] Custom lock screen clock style C15</li>
+            <li>[Fix] Lock screen clock red display mode C15</li>
+            <li>[Fix] Remove lock screen clock component C15</li>
+            <li>[Fix] Remove lock screen status bar operator 15</li>
+            <li>[Fix] Custom replacement fingerprint icon C15</li>
+            <li>[Fix] Remove DPI restart recovery C15</li>
+            <li>[Remove] Automatic screen off will never time out C15</li>
+            <li>[Remove] Album AIGC removes restrictions C15</li>
             </ul>
+            <h2>Notes</h2>
+            <p>升级ColorOS15后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里把对应的作用域长按进行重新优化</p>
+            <p>例如：开发者选项通知，则重新优化系统界面（</p>
+            <p>If you encounter a situation where there is no error but the solution does not work after upgrading to ColorOS15, you can try to re-optimize by long pressing the corresponding scope in LSPosed</p>
+            <p>For example: developer option notification, re-optimize the system interface (</p>
     author_name: luckyzyx
 com.luckyzyx.notifyintercept:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept
