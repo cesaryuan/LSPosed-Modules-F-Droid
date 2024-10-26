@@ -549,16 +549,20 @@ func main() {
 	for _, app := range fdroidIndex.Apps {
 		packageName := app["packageName"].(string)
 		icon, ok := app["icon"]
-		if !ok || icon == "" {
-			pattern := filepath.Join(*repoDir, "icons", packageName+".*")
-			matches, err := filepath.Glob(pattern)
-			if err != nil {
-				log.Printf("Error globbing pattern %q: %s", pattern, err.Error())
+		if ok && icon != "" {
+			iconPath := filepath.Join(*repoDir, "icons", icon.(string))
+			if _, err := os.Stat(iconPath); !os.IsNotExist(err) {
 				continue
 			}
-			if len(matches) > 0 {
-				app["icon"] = filepath.Base(matches[0])
-			}
+		}
+		pattern := filepath.Join(*repoDir, "icons", packageName+".*")
+		matches, err := filepath.Glob(pattern)
+		if err != nil {
+			log.Printf("Error globbing pattern %q: %s", pattern, err.Error())
+			continue
+		}
+		if len(matches) > 0 {
+			app["icon"] = filepath.Base(matches[0])
 		}
 	}
 	for _, pkgs := range fdroidIndex.Packages {
