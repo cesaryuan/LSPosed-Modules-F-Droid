@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
-    <path fill="#ffffffff" d="M 54 27 A 27 27 90 0 1 54 81 A 27 27 90 0 1 54 27 Z" />
-    <path fill="#ffffec99" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
-    <path fill="#ff8ce99a" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
-    <path fill="#ffff8787" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
-    <path fill="#ffffffff" d="M 54 46 A 1 1 0 0 0 54 62 A 1 1 0 0 0 54 46 Z" />
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" d="M 54 27 A 27 27 90 0 1 54 81 A 27 27 90 0 1 54 27 Z" />
+    <g transform="rotate(0 54 54)">
+        <path fill="#ec99" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
+    </g>
+    <g transform="rotate(120 54 54)">
+        <path fill="#8ce99a" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
+    </g>
+    <g transform="rotate(240 54 54)">
+        <path fill="#ff8787" d="M 65 60.35 C 54 41.35 65 22.35 98 41.35 L 98 98.35 L 43 98.35 L 43 98.35 C 76 79.35 65 60.35 43 60.35 Z" />
+    </g>
+    <path fill="#ffffff" d="M 54 46 A 1 1 0 0 0 54 62 A 1 1 0 0 0 54 46 Z" />
 </svg>
