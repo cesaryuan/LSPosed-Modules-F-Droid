@@ -10,7 +10,10 @@
       "request": "launch",
       "mode": "debug",
       "program": "${file}",
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "OPENAI_API_KEY": ""
+      }
     },
     {
       "name": "Launch Package",
@@ -24,7 +27,7 @@
         "--rd",
         "../fdroid/repo",
         "--pat",
-        "<your-github-token>",
+        "",
         "--cm",
         "./commit_message.txt",
         // "--debug"
