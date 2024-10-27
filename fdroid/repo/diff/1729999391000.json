@@ -1,0 +1,19 @@
+{
+  "repo": {
+    "timestamp": 1729999478000
+  },
+  "packages": {
+    "ru.bluecat.yandexmapspatcher": {
+      "metadata": {
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>Yandex Maps Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Скрывает рекламу и навязчивые сервисы в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Долгое нажатие на иконку профиля на главной</li>\n<li>Яндекс.Плюс для Android Auto и музыка включены всегда</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Список последних маршрутов поверх карты</li>\n<li>Контроль видимости сервисов на цветной навигационной панели</li>\n<li>Реклама</li>\n<li>Скрытие ленты историй, предложений, товаров в карточках организаций</li>\n<li>Список категорий на карточках зданий</li>\n<li>Управление видом поисковой строки</li>\n<li>Блокировка появления уведомлений и стартовых историй на главной</li>\n<li>Скрытие профиля с социальной сетью</li>\n</ul>\n<h3>Платные сервисы (скрытие):</h3>\n<ul>\n<li>Яндекс.Плюс</li>\n<li>Такси</li>\n<li>Заправки</li>\n<li>Парковки</li>\n</ul>\n<h3>Расположения баннеров:</h3>\n<ul>\n<li>Поисковые категории</li>\n<li>Поисковые запросы</li>\n<li>Всплывающие баннеры организаций при движении в режиме навигатора</li>\n<li>Карточки организаций / зданий</li>\n<li>Кнопка о покупке рекламы в карточке организации</li>\n<li>Горизонтальная кнопка в профиле о покупке рекламы</li>\n<li>Вызов такси</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.</li>\n<li>Доступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian cartographic service <a href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\">Yandex Maps</a>.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>\n"
+        }
+      },
+      "versions": {
+        "0d483d26b133f58d7e2648a47409e6cdce642c9dca46500c34bfc597c04873ba": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
