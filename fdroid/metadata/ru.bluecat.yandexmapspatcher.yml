@@ -1,8 +1,8 @@
 AuthorName: BlueCat300
 Categories:
     - Xposed
-CurrentVersion: "1.10"
-CurrentVersionCode: 171
+CurrentVersion: "1.11"
+CurrentVersionCode: 199
 Description: |
     <div align="center">
     <h1>Yandex Maps Patcher</h1>
@@ -11,12 +11,13 @@ Description: |
     <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher" alt="GitHub Release Date" /></a>
     <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram" alt="Telegram" /></a>
     <a href="https://t.me/lsposed_workshop_forum"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Telegram Group" /></a>
-    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a></p>
+    <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a>
+    <a href="https://pay.cloudtips.ru/p/85f8cf00"><img src="https://img.shields.io/badge/Donate_Form-blue" alt="Donate" /></a></p>
     <p>Скрывает рекламу и навязчивые сервисы в приложении <a href="https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps">Яндекс Карты</a></p>
     </div>
     <h3>Общее:</h3>
     <ul>
-    <li>Запуск настроек: Долгое нажатие на иконку профиля у поисковой строки</li>
+    <li>Запуск настроек: Долгое нажатие на иконку профиля на главной</li>
     <li>Яндекс.Плюс для Android Auto и музыка включены всегда</li>
     </ul>
     <h3>Контролируемый функционал:</h3>
@@ -28,12 +29,12 @@ Description: |
     <li>Список категорий на карточках зданий</li>
     <li>Управление видом поисковой строки</li>
     <li>Блокировка появления уведомлений и стартовых историй на главной</li>
+    <li>Скрытие профиля с социальной сетью</li>
     </ul>
     <h3>Платные сервисы (скрытие):</h3>
     <ul>
     <li>Яндекс.Плюс</li>
     <li>Такси</li>
-    <li>Каршеринг</li>
     <li>Заправки</li>
     <li>Парковки</li>
     </ul>
@@ -56,7 +57,7 @@ Description: |
     <ul>
     <li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.</li>
     <li>Доступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.</li>
-    <li>Модуль имеет возможность работать в режиме <a href="https://github.com/LSPosed/LSPatch">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>
+    <li>Модуль имеет возможность работать в режиме <a href="https://github.com/JingMatrix/LSPatch">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>
     </ul>
     <h2>For non-Russian users:</h2>
     <p>This is a module for the russian cartographic service <a href="https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps">Yandex Maps</a>.
