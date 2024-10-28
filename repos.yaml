@@ -8345,6 +8345,39 @@ com.oosl.colorostool:
             <li>Remove feature about launcher layout</li>
             </ul>
     author_name: Oosl
+com.parallelc.micts:
+    git: https://github.com/Xposed-Modules-Repo/com.parallelc.micts
+    summary: |-
+        小米系统桌面开启圈定即搜（Circle to Search）功能
+        Enable Circle to Search for Xiaomi System Launcher
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>MiCTS</h1>
+            <p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>
+            <h2>操作步骤</h2>
+            <ol>
+            <li>
+            <p>在<code>桌面设置-系统导航方式</code>里，选择<code>全面屏手势</code>，关闭<code>隐藏手势提示线</code></p>
+            </li>
+            <li>
+            <p>安装最新版<a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>
+            </li>
+            <li>
+            <p>安装并启用模块，重启手机</p>
+            </li>
+            <li>
+            <p>长按底部小白条，如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
+            </li>
+            </ol>
+          filename: MiCTS_1.0.apk
+          id: com.parallelc.micts
+          name: MiCTS
+          last_updated: "2024-10-27T07:54:57Z"
+          releasedescription: ""
+    author_name: parallelcc
 com.programminghoch10.cameracontrol:
     git: https://github.com/Xposed-Modules-Repo/com.programminghoch10.cameracontrol
     summary: Next level camera control! Control access to the cameras depending on which side they face.
@@ -15328,16 +15361,17 @@ io.mesalabs.knoxpatch:
              * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
              */
             </code></pre>
-          filename: KnoxPatch-v0.7.2.apk
+          filename: KnoxPatch-v0.7.3.apk
           id: io.mesalabs.knoxpatch
           name: KnoxPatch
-          last_updated: "2024-10-23T11:27:50Z"
+          last_updated: "2024-10-27T11:30:02Z"
           releasedescription: |-
             <ul>
             <li>SmartThings support</li>
             </ul>
-            <p>* If you have troubles installing the app, try the "sep-lite" apk.<br>
-            ** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
+            <p>* The previous release (v0.7.2) introduced a few regressions due to a bug in the hooks, please update if you haven't done this yet.<br>
+            ** If you have troubles installing the app, try the "sep-lite" apk.<br>
+            *** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
     author_name: salvogiangri
 io.noisyfox.oplongshotxposed:
     git: https://github.com/Xposed-Modules-Repo/io.noisyfox.oplongshotxposed

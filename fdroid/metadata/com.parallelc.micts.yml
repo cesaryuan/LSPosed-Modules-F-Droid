@@ -1,0 +1,30 @@
+AuthorName: parallelcc
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <h1>MiCTS</h1>
+    <p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>
+    <h2>操作步骤</h2>
+    <ol>
+    <li>
+    <p>在<code>桌面设置-系统导航方式</code>里，选择<code>全面屏手势</code>，关闭<code>隐藏手势提示线</code></p>
+    </li>
+    <li>
+    <p>安装最新版<a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>
+    </li>
+    <li>
+    <p>安装并启用模块，重启手机</p>
+    </li>
+    <li>
+    <p>长按底部小白条，如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
+    </li>
+    </ol>
+IssueTracker: ""
+Name: MiCTS
+SourceCode: https://github.com/Xposed-Modules-Repo/com.parallelc.micts
+Summary: |-
+    小米系统桌面开启圈定即搜（Circle to Search）功能
+    Enable Circle to Search for Xiaomi System La...
+WebSite: ""
