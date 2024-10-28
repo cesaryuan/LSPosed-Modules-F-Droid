@@ -1,0 +1,29 @@
+{
+  "repo": {
+    "timestamp": 1730086051000
+  },
+  "packages": {
+    "com.parallelc.micts": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
+        "authorName": "parallelcc",
+        "summary": {
+          "en-US": "小米系统桌面开启圈定即搜（Circle to Search）功能\nEnable Circle to Search for Xiaomi System La..."
+        },
+        "description": {
+          "en-US": "<h1>MiCTS</h1>\n<p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>\n<h2>操作步骤</h2>\n<ol>\n<li>\n<p>在<code>桌面设置-系统导航方式</code>里，选择<code>全面屏手势</code>，关闭<code>隐藏手势提示线</code></p>\n</li>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>\n</li>\n<li>\n<p>安装并启用模块，重启手机</p>\n</li>\n<li>\n<p>长按底部小白条，如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>\n</li>\n</ol>\n"
+        }
+      }
+    },
+    "io.mesalabs.knoxpatch": {
+      "versions": {
+        "08a64bd0231b60844d7033fc973845f42d03fe03e58f34810e46ff183d066613": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
