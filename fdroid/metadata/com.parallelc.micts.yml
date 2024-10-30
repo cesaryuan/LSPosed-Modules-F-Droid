@@ -1,16 +1,14 @@
 AuthorName: parallelcc
 Categories:
     - Xposed
-CurrentVersion: "1.0"
-CurrentVersionCode: 1
+CurrentVersion: "1.1"
+CurrentVersionCode: 2
 Description: |
     <h1>MiCTS</h1>
+    <p>简体中文  |  <a href="/README_en.md">English</a></p>
     <p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>
     <h2>操作步骤</h2>
     <ol>
-    <li>
-    <p>在<code>桌面设置-系统导航方式</code>里，选择<code>全面屏手势</code>，关闭<code>隐藏手势提示线</code></p>
-    </li>
     <li>
     <p>安装最新版<a href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>
     </li>
@@ -18,7 +16,14 @@ Description: |
     <p>安装并启用模块，重启手机</p>
     </li>
     <li>
-    <p>长按底部小白条，如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
+    <p>执行相应的动作触发</p>
+    <ul>
+    <li>如果是全面屏手势，需要在<code>桌面设置-系统导航方式</code>里，关闭<code>隐藏手势提示线</code>，之后长按底部小白条触发</li>
+    <li>如果是经典导航键（三按钮），需要在<code>桌面设置-系统导航方式-按键快捷方式-长按Home键</code>里，选择<code>语音助手</code>，之后长按Home键触发</li>
+    </ul>
+    </li>
+    <li>
+    <p>如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
     </li>
     </ol>
 IssueTracker: ""
