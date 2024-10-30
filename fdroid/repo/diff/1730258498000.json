@@ -1,0 +1,56 @@
+{
+  "repo": {
+    "timestamp": 1730258636000
+  },
+  "packages": {
+    "com.bug.hookvip": {
+      "versions": {
+        "eb20d0460e6c00cb4eb8982928599b31b99cc201c8db10dd45c22c78dfc05e6d": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.kgg.hhvideo": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://dyls.club/\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<p>无法安装Xposed框架的手机，可直接下载使用<a href=\"https://www.123684.com/s/XY3fjv-XEQKd\">内置模块版</a></p>\n<h1>更新日志</h1>\n<p>2024.10.30    v1.0.17    适配电影猎手v3.1.0.7版本</p>\n<p>2024.10.08    v1.0.16    适配电影猎手v3.1.0.6版本</p>\n<h1>安利一个微信小程序</h1>\n<p>打车、加油、寄快递、点外卖、住酒店、看电影、都有折扣，充话费、电费96折，还可领取拼多多、淘宝、京东、唯品会等电商购物优惠券</p>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/stsh.png\" alt=\"\" /></p>\n<p>模块开发不易，还请多多支持!</p>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png\" alt=\"\" /></p>\n"
+        }
+      },
+      "versions": {
+        "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.parallelc.micts": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>MiCTS</h1>\n<p>简体中文  |  <a href=\"/README_en.md\">English</a></p>\n<p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>\n<h2>操作步骤</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>\n</li>\n<li>\n<p>安装并启用模块，重启手机</p>\n</li>\n<li>\n<p>执行相应的动作触发</p>\n<ul>\n<li>如果是全面屏手势，需要在<code>桌面设置-系统导航方式</code>里，关闭<code>隐藏手势提示线</code>，之后长按底部小白条触发</li>\n<li>如果是经典导航键（三按钮），需要在<code>桌面设置-系统导航方式-按键快捷方式-长按Home键</code>里，选择<code>语音助手</code>，之后长按Home键触发</li>\n</ul>\n</li>\n<li>\n<p>如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>\n</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "top.hookvip.pro": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
+        "authorName": "lovejiuwu",
+        "name": {
+          "en-US": "NewHookVip"
+        },
+        "summary": {
+          "en-US": "解锁部分APP高级版及添加拓展功能"
+        },
+        "description": {
+          "en-US": "<h1>NewHookVip</h1>\n<p>用于解锁部分App会员以及添加一些拓展功能的Xposed模块</br>(重构自HookVip)</p>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /></a>\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /></a></p>\n<h2>Telegram</h2>\n<p><a href=\"https://t.me/HookVipCl\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram\"></a><br />\n<a href=\"https://t.me/HookVipChat\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram\"></a></p>\n"
+        }
+      }
+    }
+  }
+}
