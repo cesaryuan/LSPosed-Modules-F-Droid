@@ -4123,15 +4123,15 @@ com.close.hook.ads:
           categories:
             - Xposed
           description: "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>\U0001F31F <strong>频道入口</strong>: @AdClose</p>\n"
-          filename: AdClose_2.0.5.apk
+          filename: AdClose_2.1.1.apk
           id: com.close.hook.ads
           name: AdClose
-          last_updated: "2024-10-19T19:49:31Z"
+          last_updated: "2024-11-01T08:52:45Z"
           releasedescription: |-
             <ul>
-            <li>功能调整</li>
-            <li>优化回调机制</li>
-            <li>解决部分应用使用功能一闪退的问题(com.bytedance.sdk)</li>
+            <li>优化数据库查询</li>
+            <li>优化页面显示与加载</li>
+            <li>修复Request页面搜索过滤问题</li>
             </ul>
     author_name: zjyzip
 com.coderstory.flyme:
@@ -9304,28 +9304,14 @@ com.rifsxd.processhook:
             </details>
             <h2>License</h2>
             <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-          filename: process-hook-v1.3.0.apk
+          filename: process-hook-v1.3.1.apk
           id: com.rifsxd.processhook
           name: Process Hook - Unlock hidden features and options
-          last_updated: "2024-10-20T20:38:11Z"
+          last_updated: "2024-11-01T20:47:29Z"
           releasedescription: |-
             <p>Process Hook</p>
             <ul>
-            <li>
-            <p>added new apps/games</p>
-            <ul>
-            <li>Aida64</li>
-            <li>Dead by Daylight: Mobile</li>
-            <li>Pubg: New State</li>
-            <li>Pubg: Lite</li>
-            </ul>
-            </li>
-            <li>
-            <p>added new high end device</p>
-            <ul>
-            <li>Poco F6 Pro</li>
-            </ul>
-            </li>
+            <li>revert changes to previous refactored code and fix debug app ids</li>
             </ul>
     author_name: rifsxd
 com.rong862.splashad:
@@ -11533,8 +11519,8 @@ com.xunflash.setMiPad5Pointer:
 com.yifeplayte.logrequestmanager:
     git: https://github.com/Xposed-Modules-Repo/com.yifeplayte.logrequestmanager
     summary: |-
-        屏蔽指定配置变更导致的 Activity 重启
-        Prevent Activity restarts caused by configuration changes
+        一站式管理访问设备日志请求
+        Manage all device log access requests at once
     applications:
         - anti_features: []
           categories:
@@ -15345,8 +15331,10 @@ io.kazutoiris.mrga:
           filename: app-debug.apk
           id: io.kazutoiris.mrga
           name: Make RoamingX Great Again
-          last_updated: "2024-10-31T17:28:01Z"
-          releasedescription: '<p><strong>Full Changelog</strong>: <a href="https://github.com/Xposed-Modules-Repo/io.kazutoiris.mrga/commits/10-1.0">https://github.com/Xposed-Modules-Repo/io.kazutoiris.mrga/commits/10-1.0</a></p>'
+          last_updated: "2024-11-01T06:25:56Z"
+          releasedescription: |-
+            <p>[feat] support more version</p>
+            <p><strong>Full Changelog</strong>: <a href="https://github.com/Xposed-Modules-Repo/io.kazutoiris.mrga/commits/11-1.1">https://github.com/Xposed-Modules-Repo/io.kazutoiris.mrga/commits/11-1.1</a></p>
     author_name: kazutoiris
 io.mesalabs.knoxpatch:
     git: https://github.com/Xposed-Modules-Repo/io.mesalabs.knoxpatch
