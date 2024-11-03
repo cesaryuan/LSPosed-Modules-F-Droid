@@ -1,8 +1,8 @@
 AuthorName: cledwynl
 Categories:
     - Xposed
-CurrentVersion: 1.2.1
-CurrentVersionCode: 89
+CurrentVersion: 1.3.0
+CurrentVersionCode: 103
 Description: |
     <h1>Make Bilibili Great Again!</h1>
     <p>欢迎来主仓库提问题和催更～ <a href="https://github.com/cledwynl/mbga/issues">https://github.com/cledwynl/mbga/issues</a></p>
@@ -50,12 +50,14 @@ Description: |
     </ul>
     <h3>视频评论区</h3>
     <ul>
+    <li>完全隐藏评论区</li>
     <li>点击评论区文字不会自动弹出回复区</li>
     <li>干掉评论区投票</li>
     <li>干掉评论区的关注按钮（笔记类型的评论右上角）</li>
     <li>干掉评论内的关键词高亮搜索</li>
     <li>没有评论时禁止一键发送评论</li>
     <li>禁止展示反馈问卷</li>
+    <li>禁止展示评论区顶部推广内容</li>
     </ul>
     <h3>我的</h3>
     <ul>
@@ -80,12 +82,17 @@ Description: |
     </li>
     <li>MBGA v1.1.0 ~
     <ul>
-    <li>兼容国际版 未知 ~ 3.19.2</li>
+    <li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>
     </ul>
     </li>
     <li>MBGA v1.2.0 ~
     <ul>
-    <li>兼容国际版 未知 ~ 3.19.2</li>
+    <li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>
+    </ul>
+    </li>
+    <li>MBGA v1.3.0 ~
+    <ul>
+    <li>兼容国际版 未知 ~ 3.19.0 ~ 3.19.2</li>
     </ul>
     </li>
     </ul>
