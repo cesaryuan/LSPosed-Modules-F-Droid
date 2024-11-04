@@ -1,0 +1,23 @@
+
+## [3.2.5](https://github.com/xihan123/QDReadHook/compare/v3.2.4...v3.2.5) (2024-11-03)
+
+### Features
+
+* **拦截设置:** 新增`通知权限弹框拦截` ([f123dd2](https://github.com/xihan123/QDReadHook/commit/f123dd282330d858b85b03fb2d9891efae01500c))
+
+
+### Miscellaneous
+
+* 更新automerge-action到v0.16.4 ([e1d3d32](https://github.com/xihan123/QDReadHook/commit/e1d3d32aa567025a8e04412936f9150754a6a9d9))
+* 更新Gradle版本至8.10.2 ([91033b4](https://github.com/xihan123/QDReadHook/commit/91033b460d7762020ee1f7a9d26a4370148cfb53))
+
+
+### Refactoring
+
+* **gradle:** 优化JVM参数并启用非最终资源ID ([873d60a](https://github.com/xihan123/QDReadHook/commit/873d60a87c781ee21b2a5d2112d406e6c28ec034))
+* **ui:** 更新信息 ([ceae8b4](https://github.com/xihan123/QDReadHook/commit/ceae8b4bd24b010955a09307fa18a1bcc31057f0))
+
+### Build
+
+* **release:** bump release version to 3.2.5 ([57d26c7](https://github.com/xihan123/QDReadHook/commit/57d26c7583df495da7c90683518f0ac75465d348))
+* 更新多个依赖库版本- Android Gradle Plugin (agp) 从 8.6.1 升级到 8.7.2 ([f7f8d46](https://github.com/xihan123/QDReadHook/commit/f7f8d46cf29d511f31bfce36e865e5fbddc57404))
