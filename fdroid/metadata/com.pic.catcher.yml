@@ -1,0 +1,23 @@
+AuthorName: Mingyueyixi
+Categories:
+    - Xposed
+CurrentVersion: 1.0-gaoji
+CurrentVersionCode: 1
+Description: |
+    <h1>PicCatcher(图片捕手)</h1>
+    <p><a href="https://github.com/Mingyueyixi/PicCatcher">Source link / 项目地址</a></p>
+    <p>反馈问题可点击以上地址，发起issues</p>
+    <h2>介绍</h2>
+    <p>抓取 app 运行中的图片，并保存的sdcard/Picture目录下，方便取用和查看。</p>
+    <p>作者开发初衷只是用来抓表情包<img src="056A9564.png" alt="alt text" /></p>
+    <h2>声明</h2>
+    <ul>
+    <li>本项目仅供学习交流使用，请勿用于商业用途，请勿用于非法用途；</li>
+    </ul>
+IssueTracker: ""
+Name: 图片捕手/Catch app's picture
+SourceCode: https://github.com/Xposed-Modules-Repo/com.pic.catcher
+Summary: |-
+    抓取任意app的图片并保存到/sdcard/Pictures/app包名/目录下；
+    catch any app's picture and save it...
+WebSite: ""

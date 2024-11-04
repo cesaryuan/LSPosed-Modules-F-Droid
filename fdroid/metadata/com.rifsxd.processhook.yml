@@ -14,7 +14,7 @@ Description: |
     <p><a href="https://github.com/rifsxd/process-hook/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rifsxd/process-hook?logo=apache&amp;label=License&amp;style=flat" alt="GitHub license" /></a>
     <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.rifsxd.processhook/total?logo=github&amp;label=Downloads&amp;style=flat" alt="GitHub Downloads (all assets, all releases)" />
     <img src="https://img.shields.io/github/languages/code-size/rifsxd/process-hook?style=flat&amp;label=Code%20Size" alt="GitHub code size in bytes" />
-    <a href="https://github.com/rifsxd/process-hook/actions/workflows/debug.yml"><img src="https://img.shields.io/github/actions/workflow/status/rifsxd/process-hook/debug.yml?logo=github&amp;label=Debug%20CI&amp;style=flat" alt="GitHub Debug CI Status" /></a></p>
+    <a href="https://github.com/rifsxd/process-hook/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rifsxd/process-hook/ci.yml?logo=github&amp;label=Debug%20CI&amp;style=flat" alt="GitHub Debug CI Status" /></a></p>
     </div>
     <h2>Features</h2>
     <ul>
@@ -26,14 +26,14 @@ Description: |
     <h2>High End Devices</h2>
     <p>The following is the current list of devices that Process Hook will spoof your device into for supported games and apps. Click on the device names to view the corresponding profile in the code:</p>
     <ul>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18">ROG_PHONE_8</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L19">SAMSUNG_S24_ULTRA</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L20">BLACKSHARK_5_PRO</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L21">REALME_GT6_5G</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L22">ONEPLUS_12</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L23">VIVO_IQOO_11_PRO</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L24">POCO_F6_PRO</a></li>
-    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L25">MI_14_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L37">ROG_PHONE_8</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L53">SAMSUNG_S24_ULTRA</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L69">BLACKSHARK_5_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L85">REALME_GT6_5G</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L101">ONEPLUS_12</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L117">VIVO_IQOO_11_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L133">POCO_F6_PRO</a></li>
+    <li><a href="https://github.com/rifsxd/process-hook/blob/master/app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L18app/src/main/java/com/rifsxd/processhook/deviceProperties.java#L149">MI_14_PRO</a></li>
     </ul>
     <h2>Table of Contents</h2>
     <ul>
@@ -74,9 +74,9 @@ Description: |
     <details>
       <summary>Click to expand the list of supported apps</summary>
     <ul>
+    <li><a href="https://play.google.com/store/apps/details?id=com.finalwire.aida64&amp;hl=en">Aida64</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.ytheekshana.deviceinfo&amp;hl=en">Device Info</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=ru.andr7e.deviceinfohw&amp;hl=en">Device Info HW</a></li>
-    <li><a href="https://play.google.com/store/apps/details?id=com.finalwire.aida64&amp;hl=en">Aida64</a></li>
     </ul>
     </details>
     <h2>Supported Games</h2>
@@ -85,7 +85,6 @@ Description: |
     <ul>
     <li><a href="https://play.google.com/store/apps/details?id=com.ea.gp.apexlegendsmobilefps&amp;hl=en&amp;gl=US">Apex Legends Mobile</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA9HM&amp;hl=en&amp;gl=US">Asphalt 9: Legends</a></li>
-    <li><a href="https://play.google.com/store/details?id=com.ea.game.nfs14_row&amp;hl=en&amp;gl=US">Need for Speed: No Limits</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.pubg.imobile&amp;hl=en&amp;gl=US">Battlegrounds Mobile India</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.pearlabyss.blackdesertm.gl&amp;hl=en&amp;gl=US">Black Desert Mobile</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.vng.codmvn&amp;hl=en&amp;gl=US">Call Of Duty: Mobile VN</a></li>
@@ -108,6 +107,7 @@ Description: |
     <li><a href="https://play.google.com/store/apps/details?id=com.vng.mlbbvn&amp;hl=en&amp;gl=US">Mobile Legends: Bang Bang VNG</a></li>
     <li><a href="https://global.app.mi.com/details?lo=ID&amp;la=en&amp;id=com.mobilelegends.mi&amp;hl=en&amp;gl=US">Mobile Legends: Mi</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.mobile.legends&amp;hl=en&amp;gl=US">Mobile Legends</a></li>
+    <li><a href="https://play.google.com/store/apps/details?id=com.ea.game.nfs14_row&amp;hl=rn&amp;gl=US">Need for Speed: No Limits</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.rekoo.pubgm&amp;hl=en&amp;gl=US">PUBG MOBILE：絕地求生M</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.tencent.ig&amp;hl=en&amp;gl=US">PUBG Mobile Beta</a></li>
     <li><a href="https://play.google.com/store/apps/details?id=com.vng.pubgmobile&amp;hl=en&amp;gl=US">PUBG Mobile VN</a></li>
