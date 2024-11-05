@@ -1,0 +1,33 @@
+{
+  "repo": {
+    "timestamp": 1730776363000
+  },
+  "packages": {
+    "com.parallelc.micts": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>MiCTS</h1>\n<p>简体中文  |  <a href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\">English</a></p>\n<p>小米系统桌面开启圈定即搜（Circle to Search）功能</p>\n<h2>操作步骤</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启<code>自启动</code>权限，<code>省电策略</code>选择<code>无限制</code></p>\n</li>\n<li>\n<p>安装并启用模块，重启手机</p>\n</li>\n<li>\n<p>执行相应的动作触发</p>\n<ul>\n<li>如果是全面屏手势，需要在<code>桌面设置-系统导航方式</code>里，关闭<code>隐藏手势提示线</code>，之后长按底部小白条触发</li>\n<li>如果是经典导航键（三按钮），需要在<code>桌面设置-系统导航方式-按键快捷方式-长按Home键</code>里，选择<code>语音助手</code>，之后长按Home键触发</li>\n</ul>\n</li>\n<li>\n<p>如果没有反应，尝试执行以下选项后重试:</p>\n<ul>\n<li>在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</li>\n<li>在Google的应用信息里<code>清除全部数据</code>，再打开Google，再到应用信息里<code>结束运行</code>并开启<code>自启动</code></li>\n</ul>\n</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "a38cf40876feee4f46b2d15e06c4cb5debb33a2f3906c788c3d1e0189780926b": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "icu.freedomIntrovert.biliSendCommAntifraud": {
+      "versions": {
+        "156cf8eb00a1e95bc072b0f9f1ed1b909c646ebcd247db8377c342b70075bdec": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "yep.python.hook": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Pydroid 3 Premium</h1>\n<p>解锁Pydroid 3</p>\n<p>支持6.4版本与7.52版本</p>\n<p>链接:\n<a href=\"https://www.123pan.com/s/KhjA-M44g3.html\">123云盘</a></p>\n<h1>截图:</h1>\n<table>\n<thead>\n<tr>\n<th align=\"center\">1</th>\n<th align=\"center\">2</th>\n<th align=\"center\">3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><img src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_1.png\"/></td>\n<td align=\"center\"><img src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_2.png\"/></td>\n<td align=\"center\"><img src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_3.png\"/></td>\n</tr>\n</tbody>\n</table>\n"
+        }
+      }
+    }
+  }
+}
