@@ -8385,16 +8385,20 @@ com.parallelc.micts:
             </ul>
             </li>
             <li>
-            <p>如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
+            <p>如果没有反应，尝试执行以下选项后重试:</p>
+            <ul>
+            <li>在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</li>
+            <li>在Google的应用信息里<code>清除全部数据</code>，再打开Google，再到应用信息里<code>结束运行</code>并开启<code>自启动</code></li>
+            </ul>
             </li>
             </ol>
-          filename: MiCTS_1.1.apk
+          filename: MiCTS_1.2.apk
           id: com.parallelc.micts
           name: MiCTS
-          last_updated: "2024-10-29T17:08:32Z"
+          last_updated: "2024-11-04T17:07:40Z"
           releasedescription: |-
-            <p>支持经典导航键（三按钮）长按Home键触发<br>
-            Support long press the Home button to trigger</p>
+            <p>修复在一些设备上无法长按小白条触发的问题<br>
+            Fix the issue that the long press on the navigation handle does not trigger on some devices</p>
     author_name: parallelcc
 com.pic.catcher:
     git: https://github.com/Xposed-Modules-Repo/com.pic.catcher
@@ -13369,16 +13373,31 @@ icu.freedomIntrovert.biliSendCommAntifraud:
           filename: app-release.apk
           id: icu.freedomIntrovert.biliSendCommAntifraud
           name: 哔哩发评反诈
-          last_updated: "2024-10-20T05:43:27Z"
+          last_updated: "2024-11-04T09:39:21Z"
           releasedescription: |-
             <h3>更新日志</h3>
             <ul>
-            <li>修复删除发布的评论没反应的bug</li>
-            <li>修复转发动态设置后未提交的bug</li>
-            <li>修复动态楼中楼发布评论时出现无法调用反诈的bug（动态ID获取时出错导致的）</li>
-            <li>修复多种动态Activity下获取动态ID的一些bug</li>
-            <li>评论监控支持所有除了包含敏感词（未发送成功）的评论，不限于疑似审核，直到状态变化</li>
-            <li>评论监控可自定义监控超时时间，可取消监控</li>
+            <li>
+            <p>LSP日志，对cookie extra的打印用■■■■代替，避免发日志导致账号被盗用（还是不建议将日志发给除了开发者之外的人）</p>
+            </li>
+            <li>
+            <p>“修复”安卓14后台等待闪退的bug（调低TargetAPI罢了）</p>
+            </li>
+            <li>
+            <p>新增『』号匹配评论，专门解决系统通知弱智打码问题。列如评论被举报、违规，系统给你发的通知。搜索输入样例：<code>『我*****马』</code>，<code>『我*马』</code>，匹配到：<code>我超市里的马</code>。输入应保证<code>『</code>开头<code>』</code>结尾，<code>*</code>非码去的单字符，而是可变长度。也支持<code>『回复*****』</code>=&gt;<code>回复@自由的内向者……</code>;<code>『*批』</code>=&gt;<code>原批</code></p>
+            </li>
+            <li>
+            <p>优化历史评论过滤、排序、搜索机制，移除屎山代码，提升查询效率。<a href="https://github.com/freedom-introvert/biliSendCommAntifraud?tab=readme-ov-file#%E6%90%9C%E7%B4%A2%E8%AF%84%E8%AE%BA">搜索评论说明</a>已更新。</p>
+            </li>
+            <li>
+            <p>README更新：如果一定要使用自动获取cookie，但是cookie无效，可以尝试打开b站APP内依赖webview的地方，例如“客服”</p>
+            </li>
+            <li>
+            <p>修复了通知ID紊乱导致的后台等待等服务异常的bug，如后台等待结束后点通知检查，找不到评论ID对应的待检查评论且评论rpid一样。</p>
+            </li>
+            <li>
+            <p>修复了检查评论后，关闭对话框，对话框界面还保留在任务栏的Bug</p>
+            </li>
             </ul>
     author_name: freedom-introvert
 icu.freedomintrovert.YTSendCommAntiFraud:
@@ -21537,7 +21556,7 @@ yep.python.hook:
           description: |
             <h1>Pydroid 3 Premium</h1>
             <p>解锁Pydroid 3</p>
-            <p>支持6.4版本与7.2版本</p>
+            <p>支持6.4版本与7.52版本</p>
             <p>链接:
             <a href="https://www.123pan.com/s/KhjA-M44g3.html">123云盘</a></p>
             <h1>截图:</h1>
@@ -21557,12 +21576,11 @@ yep.python.hook:
             </tr>
             </tbody>
             </table>
-          filename: Pydroid3.hook.ver2.1.apk
+          filename: Pydroid.3.Premium_2.2.apk
           id: yep.python.hook
           name: 解锁Py3 ‖ Pydroid 3 Premium
-          last_updated: "2024-08-13T12:37:06Z"
+          last_updated: "2024-11-04T04:27:51Z"
           releasedescription: |-
-            <p><strong>2.1</strong><br>
-            测试支持7.4版本.<br>
-            移除不必要的判断.</p>
+            <p>更新支持7.52版本.<br>
+            Update supports version 7.52.</p>
     author_name: yepqqw

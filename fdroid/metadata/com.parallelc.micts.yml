@@ -1,8 +1,8 @@
 AuthorName: parallelcc
 Categories:
     - Xposed
-CurrentVersion: "1.1"
-CurrentVersionCode: 2
+CurrentVersion: "1.2"
+CurrentVersionCode: 3
 Description: |
     <h1>MiCTS</h1>
     <p>简体中文  |  <a href="https://github.com/parallelcc/MiCTS/blob/main/README_en.md">English</a></p>
@@ -23,7 +23,11 @@ Description: |
     </ul>
     </li>
     <li>
-    <p>如果没有反应，尝试在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</p>
+    <p>如果没有反应，尝试执行以下选项后重试:</p>
+    <ul>
+    <li>在<code>设置-应用设置-右上角其他设置-默认应用设置-助手和语音输入-数字助理应用</code>里选择Google</li>
+    <li>在Google的应用信息里<code>清除全部数据</code>，再打开Google，再到应用信息里<code>结束运行</code>并开启<code>自启动</code></li>
+    </ul>
     </li>
     </ol>
 IssueTracker: ""
