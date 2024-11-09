@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1731035546000,
+    "timestamp": 1731122164000,
     "version": 20002
   },
   "requests": {
@@ -122,25 +122,25 @@
       "summary": "叼毛广告，休想通过摇摇启动APP\nTools that block activity startup"
     },
     {
-      "added": 1730451165000,
+      "added": 1731081736000,
       "authorName": "zjyzip",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eAdClose\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eAdClose\u003c/strong\u003e 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。\u003c/p\u003e\n\u003cp\u003eAdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。\u003c/p\u003e\n\u003ch2\u003e主要特性\u003c/h2\u003e\n\u003cp\u003e功能支持(顺序)：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e精准处理\u003c/strong\u003e：阻止应用内广告SDK初始化。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e广告请求拦截\u003c/strong\u003e：拦截屏蔽应用的网络广告请求。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e截图录屏限制移除\u003c/strong\u003e：允许在应用中自由截图和录屏。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eVPN与代理检测移除\u003c/strong\u003e：去除应用内的VPN和系统代理检测。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e传感器监听移除\u003c/strong\u003e：用于禁用摇一摇等基于传感器的广告跳转。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRoot检测规避\u003c/strong\u003e：去除应用内的一般性Root，Magisk和Xposed框架检测。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的应用范围\u003c/h2\u003e\n\u003cp\u003eAdClose支持众多流行的Android应用，包括但不限于：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e视频播放应用\u003c/li\u003e\n\u003cli\u003e阅读和新闻应用\u003c/li\u003e\n\u003cli\u003e工具和便捷应用\u003c/li\u003e\n\u003cli\u003e商务办公应用\u003c/li\u003e\n\u003cli\u003e社交和通讯应用\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e广告SDK处理\u003c/h2\u003e\n\u003cp\u003eAdClose能够处理应用内包含以下在内的多种SDK类型：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eADSuyiSdk Ads\u003c/li\u003e\n\u003cli\u003eAdScope\u003c/li\u003e\n\u003cli\u003eAli BaiChuan Ads\u003c/li\u003e\n\u003cli\u003eApplovin Sdk\u003c/li\u003e\n\u003cli\u003eAppic Ads\u003c/li\u003e\n\u003cli\u003eBaidu Ads\u003c/li\u003e\n\u003cli\u003eBJXingu Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) GroMore\u003c/li\u003e\n\u003cli\u003eFaceBook Ads\u003c/li\u003e\n\u003cli\u003eGoogle Ads\u003c/li\u003e\n\u003cli\u003eGoogle FireBase Crashlytics Sdk\u003c/li\u003e\n\u003cli\u003eHuawei Ads\u003c/li\u003e\n\u003cli\u003eInmobi Ads\u003c/li\u003e\n\u003cli\u003eKwai Ads\u003c/li\u003e\n\u003cli\u003eMeiShu Ads\u003c/li\u003e\n\u003cli\u003eMintegral Ads\u003c/li\u003e\n\u003cli\u003eMbridge Ads\u003c/li\u003e\n\u003cli\u003ePinduoduo Ads\u003c/li\u003e\n\u003cli\u003eQumeng Ads\u003c/li\u003e\n\u003cli\u003eSigmob Ads\u003c/li\u003e\n\u003cli\u003eTanx Ads\u003c/li\u003e\n\u003cli\u003eTencent Ads\u003c/li\u003e\n\u003cli\u003eTencent SDK\u003c/li\u003e\n\u003cli\u003eTopOn SDK (anythink)\u003c/li\u003e\n\u003cli\u003eTradPlus Ads\u003c/li\u003e\n\u003cli\u003eUmeng SDK\u003c/li\u003e\n\u003cli\u003eUnity3d Ads\u003c/li\u003e\n\u003cli\u003eVungle Sdk\u003c/li\u003e\n\u003cli\u003eXiaoChuang Ads (ZuiYou)\u003c/li\u003e\n\u003cli\u003eXinwuPaijin Ads\u003c/li\u003e\n\u003cli\u003eXiaomi Ads\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用指南\u003c/h2\u003e\n\u003cp\u003e在安装AdClose之前，请确保您的设备已经安装LSPosed框架。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e下载并安装AdClose模块。\u003c/li\u003e\n\u003cli\u003e在LSPosed模块管理器中激活AdClose模块。\u003c/li\u003e\n\u003cli\u003e在模块作用域中选择您希望去除广告的应用。\u003c/li\u003e\n\u003cli\u003e启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e如何贡献\u003c/h2\u003e\n\u003cp\u003e如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。\u003c/p\u003e\n\u003ch2\u003e支持我们\u003c/h2\u003e\n\u003cp\u003e如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。\u003c/p\u003e\n\u003ch2\u003e关注我们\u003c/h2\u003e\n\u003cp\u003e获取更多更新和帮助，请关注我们的Telegram频道：\u003c/p\u003e\n\u003cp\u003e🌟 \u003cstrong\u003e频道入口\u003c/strong\u003e: @AdClose\u003c/p\u003e\n",
       "icon": "com.close.hook.ads.png",
-      "lastUpdated": 1730451165000,
+      "lastUpdated": 1731081736000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 优化数据库查询\n- 优化页面显示与加载\n- 修复Request页面搜索过滤问题"
+          "whatsNew": "- 优化工具类\n- 优化服务绑定\n- 优化页面显示与加载\n- 修复功能三空指针问题\n- 功能二增加前台服务(保活)"
         }
       },
       "name": "AdClose",
       "packageName": "com.close.hook.ads",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
-      "suggestedVersionCode": "20241101",
-      "suggestedVersionName": "2.1.1"
+      "suggestedVersionCode": "20241108",
+      "suggestedVersionName": "2.1.5"
     },
     {
       "added": 1703150040000,
@@ -295,6 +295,27 @@
       "suggestedVersionCode": "2",
       "suggestedVersionName": "1.1",
       "summary": "Let third-party launcher always get themed icon in MIUI (Maybe also works for..."
+    },
+    {
+      "added": 1731076780000,
+      "authorName": "mcAmiya",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003c!--\n * @Author: Amiya mc.amiya@qq.com\n * @Date: 2024-11-07 22:55:40\n * @LastEditors: Amiya mc.amiya@qq.com\n * @LastEditTime: 2024-11-07 23:29:33\n * @FilePath: /fer.amiya.amiyahooks/README.md\n * @Description: AmiyaHooks模块仓库README\n--\u003e\n\u003ch1\u003eAmiyaHooks\u003c/h1\u003e\n\u003cp\u003eAmiya’s Hooks! 使部分应用成为plus version\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/fer.amiya.amiyahooks\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/fer.amiya.amiyahooks?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/fer.amiya.amiyahooks/total\" alt=\"Downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/fer.amiya.amiyahooks/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/fer.amiya.amiyahooks\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/fer.amiya.amiyahooks/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/fer.amiya.amiyahooks\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003ch3\u003e\u003cstrong\u003e严禁倒卖！！！\u003c/strong\u003e\u003c/h3\u003e\n\u003ch3\u003e\u003cstrong\u003e倒卖 = 取消公测！！！\u003c/strong\u003e\u003c/h3\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e✨ 特性\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003eApp\u003c/th\u003e\n\u003cth align=\"center\"\u003eContent\u003c/th\u003e\n\u003cth align=\"center\"\u003eStatus\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eMinecraft\u003c/td\u003e\n\u003ctd align=\"center\"\u003e绕过谷歌许可证校验\u003c/td\u003e\n\u003ctd align=\"center\"\u003e全版本通杀\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e古文岛\u003c/td\u003e\n\u003ctd align=\"center\"\u003e解锁纯净模式\u003cbr /\u003e紫金会员\u003cbr /\u003e无限制模式\u003c/td\u003e\n\u003ctd align=\"center\"\u003e全版本通杀\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e微信\u003c/td\u003e\n\u003ctd align=\"center\"\u003e消息防撤回\u003cbr /\u003e原相机扫码\u003cbr /\u003e平板模式\u003cbr /\u003e朋友圈去广告\u003cbr /\u003e上传半透明头像\u003c/td\u003e\n\u003ctd align=\"center\"\u003eToast为准\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e拼多多商家版\u003c/td\u003e\n\u003ctd align=\"center\"\u003e主页数据999\u003c/td\u003e\n\u003ctd align=\"center\"\u003e全版本通杀\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e📨 吹水\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/AmiyaHooksPublicCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Channel-@AmiyaHooksPublicCl-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\n\u003cbr\u003e\n\u003ca href=\"https://t.me/AmiyaHooksPublicChat\"\u003e\u003cimg alt=\"Telegram Chat\" src=\"https://img.shields.io/badge/Chat-@AmiyaHooksPublicChat-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e☕ 请我喝杯咖啡\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003ch3\u003e\u003cstrong\u003e您的支持将使我感到夜不是白熬的！\u003c/strong\u003e\u003c/h3\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/fer.amiya.amiyahooks/refs/heads/main/image/README/Donate/alipay.jpg\" alt=\"alipay\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/fer.amiya.amiyahooks/refs/heads/main/image/README/Donate/mm.png\" alt=\"mm\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/fer.amiya.amiyahooks/refs/heads/main/image/README/Donate/qq.png\" alt=\"qq\" /\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1731076780000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "# AmiyaHooks - v1.4.8\n\u003e### **发布首个公测版本 感谢大家的期待与支持！**\n\u003e ### **严禁倒卖！！！**\n\u003e ### **倒卖 = 取消公测！！！**\n## ✨ 新特性\n|     App     |                                    Content                                    |   Status   |\n| :----------: | :----------------------------------------------------------------------------: | :--------: |\n|  Minecraft  |                               绕过谷歌许可证校验                               | 全版本通杀 |\n|    古文岛    |                   解锁纯净模式\u003cbr /\u003e紫金会员\u003cbr /\u003e无限制模式                   | 全版"
+        }
+      },
+      "name": "AmiyaHooks",
+      "packageName": "fer.amiya.amiyahooks",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/fer.amiya.amiyahooks",
+      "suggestedVersionCode": "24110722",
+      "suggestedVersionName": "1.4.8",
+      "summary": "Amiya's Hooks! 使部分应用成为plus version\n\nMinecraft、古文岛、微信、拼多多商家版"
     },
     {
       "added": 1656951264000,
@@ -1115,14 +1136,14 @@
       "summary": "Allowing apps to access the clipboard in the background on Android 10+."
     },
     {
-      "added": 1731035315000,
+      "added": 1731121801000,
       "authorName": "HChenX",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003eClipboardList\u003c/h2\u003e\n\u003ch3\u003e解除剪贴板和常用语限制。\u003c/h3\u003e\n\u003ch4\u003e模块功能:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e解除“剪贴板和常用语”功能的20条限制和时间限制。\u003c/li\u003e\n\u003cli\u003e解除输入法全面屏优化。\u003c/li\u003e\n\u003cli\u003e模块仅限小米设备使用！适配\u003ccode\u003eMIUI\u003c/code\u003e,\u003ccode\u003eHyperOS\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e模块使用方法：\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e勾选需要解除限制的输入法后重启输入法即可。\u003c/li\u003e\n\u003cli\u003e如果无效请尝试重启手机后再试。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e项目声明:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e[解除“剪贴板和常用语”功能的20条限制和时间限制]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e代码来源：@焕晨HChen(\u003ca href=\"https://github.com/HChenX\"\u003e@HChenX\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e[解除输入法全面屏优化]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e代码来源：HyperCelier(\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCelier\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e项目将保持开源！欢迎互相学习！欢迎PR！\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e对本项目的使用需要注明，请遵守开源协议！\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eRemove Clipboard and Phrase Restrictions Module.\u003c/h3\u003e\n\u003ch4\u003eModule Features:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eRemoves the 20 restrictions and time limitations on the “Clipboard and Phrases” functionality.\u003c/li\u003e\n\u003cli\u003eDisables full-screen optimization for the input method.\u003c/li\u003e\n\u003cli\u003eThis module is exclusively for Xiaomi devices! Compatible with \u003ccode\u003eMIUI\u003c/code\u003e and \u003ccode\u003eHyperOS\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eInstructions for Using the Module:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eCheck the input methods for which you want to lift the restrictions, then restart the input method.\u003c/li\u003e\n\u003cli\u003eIf it doesn’t work, try restarting your phone and then attempt again.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eProject Disclaimer:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e[Remove 20 restrictions and time limitations on “Clipboard and Phrases” functionality]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCode source: @焕晨HChen(\u003ca href=\"https://github.com/HChenX\"\u003e@HChenX\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e[Remove full-screen optimization for the input method]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCode source: HyperCelier(\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCelier\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThe project will remain open source! Collaboration and pull requests are welcome!\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eProper attribution is required for using this project. Please adhere to the open-source license!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.hchen.clipboardlist.png",
-      "lastUpdated": 1731035315000,
+      "lastUpdated": 1731121802000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -2877,25 +2898,25 @@
       "summary": "我 心 澎 湃 ！！！\nA module for HyperOS"
     },
     {
-      "added": 1719649102000,
+      "added": 1731091760000,
       "authorName": "lingqiqi5211",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eHyperCeiler\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jq.qq.com/?_wv=1027\u0026amp;k=TedCJq8V\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qgroup\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pd.qq.com/s/35ooe0ssj\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qguild\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/cemiuiler\"\u003e\u003cimg src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge\u0026amp;color=2CA5E0\u0026amp;label=Telegram\u0026amp;logo=telegram\u0026amp;query=%24.data.totalSubs\u0026amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003e让 MIUI/HyperOS 再次伟大 ！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003e本项目源码\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e当前支持的版本\u003c/h2\u003e\n\u003cp\u003eAndroid 13-14 的 MIUI 和 HyperOS\u003c/p\u003e\n\u003ch2\u003e使用前说明\u003c/h2\u003e\n\u003cp\u003e请在 \u003ca href=\"https://github.com/LSPosed/LSPosed/releases\"\u003eLSPosed\u003c/a\u003e 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；\u003c/p\u003e\n\u003cp\u003e本模块\u003cb\u003e不支持\u003c/b\u003e \u003ccode\u003e修改较多的第三方 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e、\u003ccode\u003e修改较多的系统软件\u003c/code\u003e，以及\u003ccode\u003e部分国际 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e；\u003c/p\u003e\n\u003cp\u003e目前 HyperCeiler 是基于 Android 14 的 Xiaomi HyperOS1.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进\u003c/p\u003e\n\u003cp\u003e在\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler/issues\"\u003e提交反馈\u003c/a\u003e前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情\u003c/p\u003e\n\u003cp\u003eHyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留\u003ca href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\"\u003e此版本\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e为 HyperCeiler 项目提交翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/cemiuiler\"\u003e\u003cimg src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e您可以在\u003ca href=\"https://crwd.in/cemiuiler\"\u003e这里\u003c/a\u003e为 HyperCeiler 项目贡献翻译。\u003c/p\u003e\n",
       "icon": "com.sevtinge.hyperceiler.png",
-      "lastUpdated": 1719649102000,
+      "lastUpdated": 1731091760000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 支持版本：\nMIUI 13.0(130) / 13.1(130) / 13.2(130) / 14.0(140)\nHyperOS 1.0(816/818)\nAndroid 13(T, 33) / 14(U, 34)\n\n### 更新日志：\n模块：\n1. 新增 系统框架-禁用持久性检查; (@HChenX)\n2. 新增 系统框架-其他-引导式访问-固定时完全隐藏状态栏; (@nxiibjz)\n3. 新增 系统框架-其他-引导式访问 允许通过不同区域进入引导式访问来决定是否跳转锁屏; (#553, @nxiibjz)\n4. 新增 系统框架-其他-禁止显示剪贴板粘贴 Toast; (@HChenX)\n5. 新增 系统框架-其他-允许冻结受保护的应用; (@Sevtinge)\n6. 新增 系统框架-其他-限制链豁免; (@HChenX)\n7. 新增 系统框架-显示-强制启用高级材质; (@HChenX)\n8. 新增 系统框架-显示-Toast 高级材质; (@HChenX)\n9. 新增 系统框架-显示-允许使用第三方主题; (@Sevtinge)\n10. 新增 系统界面-通知与控制中心-"
+          "whatsNew": "### 支持版本：\nMIUI 13.0(130) / 13.1(130) / 13.2(130) / 14.0(140)\nHyperOS 1.0(816/818)\nAndroid 13(T, 33) / 14(U, 34)\n\n**部分功能暂不支持 HyperOS 1.1(816) / 2.0(816) / Android 15(V, 35)**\n\n### 更新日志：\n应用：\n修复 主动安全模式. (@Sevtinge)\n\n### 注意事项：\n1. 出现任何问题**请至少将日志等级设置为 Warn 后携带日志及必要信息提交至 GitHub issue**。\n2. 该版本仅为针对 **Android 15(V, 35)** 的重大安全性补丁修补版本，若您并不处于该版本，可忽略此次更新。\n\n**Copyright © 2023-2024 Sevtinge \u0026 HyperCeiler Contributions**"
         }
       },
       "name": "HyperCeiler",
       "packageName": "com.sevtinge.hyperceiler",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
-      "suggestedVersionCode": "148",
-      "suggestedVersionName": "2.4.148_20240629",
+      "suggestedVersionCode": "151",
+      "suggestedVersionName": "2.5.151_20241109",
       "summary": "让 MIUI/HyperOS 再次伟大！\nMake MIUI/HyperOS Great Again!"
     },
     {
@@ -3535,13 +3556,13 @@
       "summary": "MACsposed - Add support for MAC Address spoofing to Android 12 through 14!"
     },
     {
-      "added": 1731035396000,
+      "added": 1731121883000,
       "authorName": "kazutoiris",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMake RoamingX Great Again\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/badge/license-Anti--996%20License-blue\" alt=\"Anti-996 License\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eMake RoamingX Great Again !\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eIssue\u003c/code\u003e, \u003ccode\u003ePull Requests\u003c/code\u003e, \u003ccode\u003eStar\u003c/code\u003e, \u003ccode\u003eFork\u003c/code\u003e are all welcomed.\u003c/p\u003e\n\u003cp\u003eDesigned for:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eBypass restrictions of \u003ccode\u003eRoamingX\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOnly support \u003ccode\u003eLSPosed\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eEnjoy :)\u003c/p\u003e\n\u003ch3\u003eAcknowledgements\u003c/h3\u003e\n\u003cp\u003eThis module is built using \u003ca href=\"https://github.com/fankes/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e.\u003c/p\u003e\n",
-      "lastUpdated": 1731035397000,
+      "lastUpdated": 1731121884000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4440,13 +4461,13 @@
       "summary": "Bring back KeyChain.createInstallIntent's old behavior to Android 11+"
     },
     {
-      "added": 1731035437000,
+      "added": 1731121926000,
       "authorName": "lovejiuwu",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNewHookVip\u003c/h1\u003e\n\u003cp\u003e用于解锁部分App会员以及添加一些拓展功能的Xposed模块\u003c/br\u003e(重构自HookVip)\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTelegram\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/HookVipCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://t.me/HookVipChat\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1731035438000,
+      "lastUpdated": 1731121926000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -5124,25 +5145,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1728292045000,
+      "added": 1731066879000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1728292045000,
+      "lastUpdated": 1731066879000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[优化]下载模式(Fetch下载模式改为自写库下载)\n[修复]小红书无法无水印下载图片\n[适配]抖音 31.6.0(310601)\n[适配]抖音极速版 31.6.0(310601)\n[适配]快手 12.8.40.38625(38625)\n[适配]快手极速版 12.8.40.8764(8764)\n[适配]番茄免费小说 6.4.3.32(64332)\n[适配]番茄畅听 5.6.1.32(561)\n[适配]皮皮搞笑 2.98.90(2989000)\n[适配]皮皮虾 5.1.5(515)\n[适配]七猫免费小说 7.57(75700)"
+          "whatsNew": "[修复]已知BUG\n[适配]部分App最新版"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7127",
-      "suggestedVersionName": "7.5.1",
+      "suggestedVersionCode": "7129",
+      "suggestedVersionName": "7.5.3",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -6506,25 +6527,25 @@
       "summary": "Like element inspection on browser platform, this module provides similar fun..."
     },
     {
-      "added": 1726756589000,
+      "added": 1731085340000,
       "authorName": "Hepolise",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eVolume Key Track Control Module\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed module that allows to skip and play/pause track with volume keys. Inspired by \u003ca href=\"https://github.com/GravityBox/GravityBox\"\u003eGravity Box\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eWorks when the screen is off.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eNext Track: Long press volume up\u003c/li\u003e\n\u003cli\u003ePrev Track: Long press volume down\u003c/li\u003e\n\u003cli\u003ePlay/Pause: Long press both keys simultaneously\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eRequirements\u003c/h2\u003e\n\u003cp\u003eAndroid 11+ (may be working on lower versions, you can try and install it even on Android 7)\u003c/p\u003e\n\u003ch2\u003eTested on\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eOnePlus 10 Pro (Android 13 \u0026amp; 14)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new\"\u003eOpen an issue\u003c/a\u003e if you are experiencing some troubles on your device\u003c/p\u003e\n",
       "icon": "ru.hepolise.volumekeymusicmanagermodule.webp",
-      "lastUpdated": 1726756589000,
+      "lastUpdated": 1731085340000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Fixed working with HyperOS\n- Fixed the initialization error (no functional impacting)"
+          "whatsNew": "* Added vibration effect on action\n* Bump SDK to 35 (Android 15 support announced)"
         }
       },
       "name": "Volume Key Track Control Module",
       "packageName": "ru.hepolise.volumekeymusicmanagermodule",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
-      "suggestedVersionCode": "6",
-      "suggestedVersionName": "1.14.3"
+      "suggestedVersionCode": "7",
+      "suggestedVersionName": "1.15.0"
     },
     {
       "added": 1727156766000,
@@ -7300,14 +7321,14 @@
       "summary": "一键管理所有应用的运营消息通知通道，仅支持 MIUI"
     },
     {
-      "added": 1731035402000,
+      "added": 1731121889000,
       "authorName": "bingqiu456",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"https://pic.imgdb.cn/item/671c8857d29ded1a8ce444d9.png\"  width=\"250\" height=\"250\" /\u003e\n\u003ch1\u003e冰社 / IceCore\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e✨一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能 ✨\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e✨如何使用\u003c/h2\u003e\n\u003cp\u003e点击\u003ca href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\"\u003e这里\u003c/a\u003e，下载\u003cstrong\u003e最新版本\u003c/strong\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨请看我\u003c/h2\u003e\n\u003cp\u003e由于本模块是最近开始写的，很多\u003ccode\u003eapp\u003c/code\u003e还没适配，目前在写\u003ccode\u003eui\u003c/code\u003e了，如果你对冰社有更好的建议，可以加入\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003eQQ群\u003c/a\u003e来跟我们探讨模块\u003c/p\u003e\n\u003cp\u003e你也可以提出想适配的\u003ccode\u003eapp\u003c/code\u003e 我会看看行不行\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨目前支持的功能\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e获取\u003ccode\u003eVIP\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e附加功能\u003c/td\u003e\n\u003ctd\u003e🔴\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎇适配的APP\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPP名字\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e测试的版本\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e一叶日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e1.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e365日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e7.6.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e倒数日\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了内购，点击购买后退出即可获得\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.22.0\\\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小黑屋\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了使用激活码激活，随便输入一个支付宝订单号即可\u003c/td\u003e\n\u003ctd\u003e1.9.18c\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e完整版\u003c/td\u003e\n\u003ctd\u003e1.3.5 BETA\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e堆糖\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以自由使用vip功能\u003c/td\u003e\n\u003ctd\u003e8.42.3\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e番茄小说\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e6.4.5.32\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🖋本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003ehttps://github.com/bingqiu456/IceCore\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456\"\u003eAonther: bingyue\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📜LICENSE\u003c/h2\u003e\n\u003cpre\u003e\u003ccode\u003e                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. \u0026lt;https://fsf.org/\u0026gt;\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free\nsoftware for all its users.  We, the Free Software Foundation, use the\nGNU General Public License for most of our software; it applies also to\nany other work released this way by its authors.  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthem if you wish), that you receive source code or can get it if you\nwant it, that you can change the software or use pieces of it in new\nfree programs, and that you know you can do these things.\n\n  To protect your rights, we need to prevent others from denying you\nthese rights or asking you to surrender the rights.  Therefore, you have\ncertain responsibilities if you distribute copies of the software, or if\nyou modify it: responsibilities to respect the freedom of others.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must pass on to the recipients the same\nfreedoms that you received.  You must make sure that they, too, receive\nor can get the source code.  And you must show them these terms so they\nknow their rights.\n\n  Developers that use the GNU GPL protect your rights with two steps:\n(1) assert copyright on the software, and (2) offer you this License\ngiving you legal permission to copy, distribute and/or modify it.\n\n  For the developers' and authors' protection, the GPL clearly explains\nthat there is no warranty for this free software.  For both users' and\nauthors' sake, the GPL requires that modified versions be marked as\nchanged, so that their problems will not be attributed erroneously to\nauthors of previous versions.\n\n  Some devices are designed to deny users access to install or run\nmodified versions of the software inside them, although the manufacturer\ncan do so.  This is fundamentally incompatible with the aim of\nprotecting users' freedom to change the software.  The systematic\npattern of such abuse occurs in the area of products for individuals to\nuse, which is precisely where it is most unacceptable.  Therefore, we\nhave designed this version of the GPL to prohibit the practice for those\nproducts.  If such problems arise substantially in other domains, we\nstand ready to extend this provision to those domains in future versions\nof the GPL, as needed to protect the freedom of users.\n\n  Finally, every program is threatened constantly by software patents.\nStates should not allow patents to restrict development and use of\nsoftware on general-purpose computers, but in those that do, we wish to\navoid the special danger that patents applied to a free program could\nmake it effectively proprietary.  To prevent this, the GPL assures that\npatents cannot be used to render the program non-free.\n\n  The precise terms and conditions for copying, distribution and\nmodification follow.\n\n                       TERMS AND CONDITIONS\n\n  0. Definitions.\n\n  \u0026quot;This License\u0026quot; refers to version 3 of the GNU General Public License.\n\n  \u0026quot;Copyright\u0026quot; also means copyright-like laws that apply to other kinds of\nworks, such as semiconductor masks.\n\n  \u0026quot;The Program\u0026quot; refers to any copyrightable work licensed under this\nLicense.  Each licensee is addressed as \u0026quot;you\u0026quot;.  \u0026quot;Licensees\u0026quot; and\n\u0026quot;recipients\u0026quot; may be individuals or organizations.\n\n  To \u0026quot;modify\u0026quot; a work means to copy from or adapt all or part of the work\nin a fashion requiring copyright permission, other than the making of an\nexact copy.  The resulting work is called a \u0026quot;modified version\u0026quot; of the\nearlier work or a work \u0026quot;based on\u0026quot; the earlier work.\n\n  A \u0026quot;covered work\u0026quot; means either the unmodified Program or a work based\non the Program.\n\n  To \u0026quot;propagate\u0026quot; a work means to do anything with it that, without\npermission, would make you directly or secondarily liable for\ninfringement under applicable copyright law, except executing it on a\ncomputer or modifying a private copy.  Propagation includes copying,\ndistribution (with or without modification), making available to the\npublic, and in some countries other activities as well.\n\n  To \u0026quot;convey\u0026quot; a work means any kind of propagation that enables other\nparties to make or receive copies.  Mere interaction with a user through\na computer network, with no transfer of a copy, is not conveying.\n\n  An interactive user interface displays \u0026quot;Appropriate Legal Notices\u0026quot;\nto the extent that it includes a convenient and prominently visible\nfeature that (1) displays an appropriate copyright notice, and (2)\ntells the user that there is no warranty for the work (except to the\nextent that warranties are provided), that licensees may convey the\nwork under this License, and how to view a copy of this License.  If\nthe interface presents a list of user commands or options, such as a\nmenu, a prominent item in the list meets this criterion.\n\n  1. Source Code.\n\n  The \u0026quot;source code\u0026quot; for a work means the preferred form of the work\nfor making modifications to it.  \u0026quot;Object code\u0026quot; means any non-source\nform of a work.\n\n  A \u0026quot;Standard Interface\u0026quot; means an interface that either is an official\nstandard defined by a recognized standards body, or, in the case of\ninterfaces specified for a particular programming language, one that\nis widely used among developers working in that language.\n\n  The \u0026quot;System Libraries\u0026quot; of an executable work include anything, other\nthan the work as a whole, that (a) is included in the normal form of\npackaging a Major Component, but which is not part of that Major\nComponent, and (b) serves only to enable use of the work with that\nMajor Component, or to implement a Standard Interface for which an\nimplementation is available to the public in source code form.  A\n\u0026quot;Major Component\u0026quot;, in this context, means a major essential component\n(kernel, window system, and so on) of the specific operating system\n(if any) on which the executable work runs, or a compiler used to\nproduce the work, or an object code interpreter used to run it.\n\n  The \u0026quot;Corresponding Source\u0026quot; for a work in object code form means all\nthe source code needed to generate, install, and (for an executable\nwork) run the object code and to modify the work, including scripts to\ncontrol those activities.  However, it does not include the work's\nSystem Libraries, or general-purpose tools or generally available free\nprograms which are used unmodified in performing those activities but\nwhich are not part of the work.  For example, Corresponding Source\nincludes interface definition files associated with source files for\nthe work, and the source code for shared libraries and dynamically\nlinked subprograms that the work is specifically designed to require,\nsuch as by intimate data communication or control flow between those\nsubprograms and other parts of the work.\n\n  The Corresponding Source need not include anything that users\ncan regenerate automatically from other parts of the Corresponding\nSource.\n\n  The Corresponding Source for a work in source code form is that\nsame work.\n\n  2. Basic Permissions.\n\n  All rights granted under this License are granted for the term of\ncopyright on the Program, and are irrevocable provided the stated\nconditions are met.  This License explicitly affirms your unlimited\npermission to run the unmodified Program.  The output from running a\ncovered work is covered by this License only if the output, given its\ncontent, constitutes a covered work.  This License acknowledges your\nrights of fair use or other equivalent, as provided by copyright law.\n\n  You may make, run and propagate covered works that you do not\nconvey, without conditions so long as your license otherwise remains\nin force.  You may convey covered works to others for the sole purpose\nof having them make modifications exclusively for you, or provide you\nwith facilities for running those works, provided that you comply with\nthe terms of this License in conveying all material for which you do\nnot control copyright.  Those thus making or running the covered works\nfor you must do so exclusively on your behalf, under your direction\nand control, on terms that prohibit them from making any copies of\nyour copyrighted material outside their relationship with you.\n\n  Conveying under any other circumstances is permitted solely under\nthe conditions stated below.  Sublicensing is not allowed; section 10\nmakes it unnecessary.\n\n  3. Protecting Users' Legal Rights From Anti-Circumvention Law.\n\n  No covered work shall be deemed part of an effective technological\nmeasure under any applicable law fulfilling obligations under article\n11 of the WIPO copyright treaty adopted on 20 December 1996, or\nsimilar laws prohibiting or restricting circumvention of such\nmeasures.\n\n  When you convey a covered work, you waive any legal power to forbid\ncircumvention of technological measures to the extent such circumvention\nis effected by exercising rights under this License with respect to\nthe covered work, and you disclaim any intention to limit operation or\nmodification of the work as a means of enforcing, against the work's\nusers, your or third parties' legal rights to forbid circumvention of\ntechnological measures.\n\n  4. Conveying Verbatim Copies.\n\n  You may convey verbatim copies of the Program's source code as you\nreceive it, in any medium, provided that you conspicuously and\nappropriately publish on each copy an appropriate copyright notice;\nkeep intact all notices stating that this License and any\nnon-permissive terms added in accord with section 7 apply to the code;\nkeep intact all notices of the absence of any warranty; and give all\nrecipients a copy of this License along with the Program.\n\n  You may charge any price or no price for each copy that you convey,\nand you may offer support or warranty protection for a fee.\n\n  5. Conveying Modified Source Versions.\n\n  You may convey a work based on the Program, or the modifications to\nproduce it from the Program, in the form of source code under the\nterms of section 4, provided that you also meet all of these conditions:\n\n    a) The work must carry prominent notices stating that you modified\n    it, and giving a relevant date.\n\n    b) The work must carry prominent notices stating that it is\n    released under this License and any conditions added under section\n    7.  This requirement modifies the requirement in section 4 to\n    \u0026quot;keep intact all notices\u0026quot;.\n\n    c) You must license the entire work, as a whole, under this\n    License to anyone who comes into possession of a copy.  This\n    License will therefore apply, along with any applicable section 7\n    additional terms, to the whole of the work, and all its parts,\n    regardless of how they are packaged.  This License gives no\n    permission to license the work in any other way, but it does not\n    invalidate such permission if you have separately received it.\n\n    d) If the work has interactive user interfaces, each must display\n    Appropriate Legal Notices; however, if the Program has interactive\n    interfaces that do not display Appropriate Legal Notices, your\n    work need not make them do so.\n\n  A compilation of a covered work with other separate and independent\nworks, which are not by their nature extensions of the covered work,\nand which are not combined with it such as to form a larger program,\nin or on a volume of a storage or distribution medium, is called an\n\u0026quot;aggregate\u0026quot; if the compilation and its resulting copyright are not\nused to limit the access or legal rights of the compilation's users\nbeyond what the individual works permit.  Inclusion of a covered work\nin an aggregate does not cause this License to apply to the other\nparts of the aggregate.\n\n  6. Conveying Non-Source Forms.\n\n  You may convey a covered work in object code form under the terms\nof sections 4 and 5, provided that you also convey the\nmachine-readable Corresponding Source under the terms of this License,\nin one of these ways:\n\n    a) Convey the object code in, or embodied in, a physical product\n    (including a physical distribution medium), accompanied by the\n    Corresponding Source fixed on a durable physical medium\n    customarily used for software interchange.\n\n    b) Convey the object code in, or embodied in, a physical product\n    (including a physical distribution medium), accompanied by a\n    written offer, valid for at least three years and valid for as\n    long as you offer spare parts or customer support for that product\n    model, to give anyone who possesses the object code either (1) a\n    copy of the Corresponding Source for all the software in the\n    product that is covered by this License, on a durable physical\n    medium customarily used for software interchange, for a price no\n    more than your reasonable cost of physically performing this\n    conveying of source, or (2) access to copy the\n    Corresponding Source from a network server at no charge.\n\n    c) Convey individual copies of the object code with a copy of the\n    written offer to provide the Corresponding Source.  This\n    alternative is allowed only occasionally and noncommercially, and\n    only if you received the object code with such an offer, in accord\n    with subsection 6b.\n\n    d) Convey the object code by offering access from a designated\n    place (gratis or for a charge), and offer equivalent access to the\n    Corresponding Source in the same way through the same place at no\n    further charge.  You need not require recipients to copy the\n    Corresponding Source along with the object code.  If the place to\n    copy the object code is a network server, the Corresponding Source\n    may be on a different server (operated by you or a third party)\n    that supports equivalent copying facilities, provided you maintain\n    clear directions next to the object code saying where to find the\n    Corresponding Source.  Regardless of what server hosts the\n    Corresponding Source, you remain obligated to ensure that it is\n    available for as long as needed to satisfy these requirements.\n\n    e) Convey the object code using peer-to-peer transmission, provided\n    you inform other peers where the object code and Corresponding\n    Source of the work are being offered to the general public at no\n    charge under subsection 6d.\n\n  A separable portion of the object code, whose source code is excluded\nfrom the Corresponding Source as a System Library, need not be\nincluded in conveying the object code work.\n\n  A \u0026quot;User Product\u0026quot; is either (1) a \u0026quot;consumer product\u0026quot;, which means any\ntangible personal property which is normally used for personal, family,\nor household purposes, or (2) anything designed or sold for incorporation\ninto a dwelling.  In determining whether a product is a consumer product,\ndoubtful cases shall be resolved in favor of coverage.  For a particular\nproduct received by a particular user, \u0026quot;normally used\u0026quot; refers to a\ntypical or common use of that class of product, regardless of the status\nof the particular user or of the way in which the particular user\nactually uses, or expects or is expected to use, the product.  A product\nis a consumer product regardless of whether the product has substantial\ncommercial, industrial or non-consumer uses, unless such uses represent\nthe only significant mode of use of the product.\n\n  \u0026quot;Installation Information\u0026quot; for a User Product means any methods,\nprocedures, authorization keys, or other information required to install\nand execute modified versions of a covered work in that User Product from\na modified version of its Corresponding Source.  The information must\nsuffice to ensure that the continued functioning of the modified object\ncode is in no case prevented or interfered with solely because\nmodification has been made.\n\n  If you convey an object code work under this section in, or with, or\nspecifically for use in, a User Product, and the conveying occurs as\npart of a transaction in which the right of possession and use of the\nUser Product is transferred to the recipient in perpetuity or for a\nfixed term (regardless of how the transaction is characterized), the\nCorresponding Source conveyed under this section must be accompanied\nby the Installation Information.  But this requirement does not apply\nif neither you nor any third party retains the ability to install\nmodified object code on the User Product (for example, the work has\nbeen installed in ROM).\n\n  The requirement to provide Installation Information does not include a\nrequirement to continue to provide support service, warranty, or updates\nfor a work that has been modified or installed by the recipient, or for\nthe User Product in which it has been modified or installed.  Access to a\nnetwork may be denied when the modification itself materially and\nadversely affects the operation of the network or violates the rules and\nprotocols for communication across the network.\n\n  Corresponding Source conveyed, and Installation Information provided,\nin accord with this section must be in a format that is publicly\ndocumented (and with an implementation available to the public in\nsource code form), and must require no special password or key for\nunpacking, reading or copying.\n\n  7. Additional Terms.\n\n  \u0026quot;Additional permissions\u0026quot; are terms that supplement the terms of this\nLicense by making exceptions from one or more of its conditions.\nAdditional permissions that are applicable to the entire Program shall\nbe treated as though they were included in this License, to the extent\nthat they are valid under applicable law.  If additional permissions\napply only to part of the Program, that part may be used separately\nunder those permissions, but the entire Program remains governed by\nthis License without regard to the additional permissions.\n\n  When you convey a copy of a covered work, you may at your option\nremove any additional permissions from that copy, or from any part of\nit.  (Additional permissions may be written to require their own\nremoval in certain cases when you modify the work.)  You may place\nadditional permissions on material, added by you to a covered work,\nfor which you have or can give appropriate copyright permission.\n\n  Notwithstanding any other provision of this License, for material you\nadd to a covered work, you may (if authorized by the copyright holders of\nthat material) supplement the terms of this License with terms:\n\n    a) Disclaiming warranty or limiting liability differently from the\n    terms of sections 15 and 16 of this License; or\n\n    b) Requiring preservation of specified reasonable legal notices or\n    author attributions in that material or in the Appropriate Legal\n    Notices displayed by works containing it; or\n\n    c) Prohibiting misrepresentation of the origin of that material, or\n    requiring that modified versions of such material be marked in\n    reasonable ways as different from the original version; or\n\n    d) Limiting the use for publicity purposes of names of licensors or\n    authors of the material; or\n\n    e) Declining to grant rights under trademark law for use of some\n    trade names, trademarks, or service marks; or\n\n    f) Requiring indemnification of licensors and authors of that\n    material by anyone who conveys the material (or modified versions of\n    it) with contractual assumptions of liability to the recipient, for\n    any liability that these contractual assumptions directly impose on\n    those licensors and authors.\n\n  All other non-permissive additional terms are considered \u0026quot;further\nrestrictions\u0026quot; within the meaning of section 10.  If the Program as you\nreceived it, or any part of it, contains a notice stating that it is\ngoverned by this License along with a term that is a further\nrestriction, you may remove that term.  If a license document contains\na further restriction but permits relicensing or conveying under this\nLicense, you may add to a covered work material governed by the terms\nof that license document, provided that the further restriction does\nnot survive such relicensing or conveying.\n\n  If you add terms to a covered work in accord with this section, you\nmust place, in the relevant source files, a statement of the\nadditional terms that apply to those files, or a notice indicating\nwhere to find the applicable terms.\n\n  Additional terms, permissive or non-permissive, may be stated in the\nform of a separately written license, or stated as exceptions;\nthe above requirements apply either way.\n\n  8. Termination.\n\n  You may not propagate or modify a covered work except as expressly\nprovided under this License.  Any attempt otherwise to propagate or\nmodify it is void, and will automatically terminate your rights under\nthis License (including any patent licenses granted under the third\nparagraph of section 11).\n\n  However, if you cease all violation of this License, then your\nlicense from a particular copyright holder is reinstated (a)\nprovisionally, unless and until the copyright holder explicitly and\nfinally terminates your license, and (b) permanently, if the copyright\nholder fails to notify you of the violation by some reasonable means\nprior to 60 days after the cessation.\n\n  Moreover, your license from a particular copyright holder is\nreinstated permanently if the copyright holder notifies you of the\nviolation by some reasonable means, this is the first time you have\nreceived notice of violation of this License (for any work) from that\ncopyright holder, and you cure the violation prior to 30 days after\nyour receipt of the notice.\n\n  Termination of your rights under this section does not terminate the\nlicenses of parties who have received copies or rights from you under\nthis License.  If your rights have been terminated and not permanently\nreinstated, you do not qualify to receive new licenses for the same\nmaterial under section 10.\n\n  9. Acceptance Not Required for Having Copies.\n\n  You are not required to accept this License in order to receive or\nrun a copy of the Program.  Ancillary propagation of a covered work\noccurring solely as a consequence of using peer-to-peer transmission\nto receive a copy likewise does not require acceptance.  However,\nnothing other than this License grants you permission to propagate or\nmodify any covered work.  These actions infringe copyright if you do\nnot accept this License.  Therefore, by modifying or propagating a\ncovered work, you indicate your acceptance of this License to do so.\n\n  10. Automatic Licensing of Downstream Recipients.\n\n  Each time you convey a covered work, the recipient automatically\nreceives a license from the original licensors, to run, modify and\npropagate that work, subject to this License.  You are not responsible\nfor enforcing compliance by third parties with this License.\n\n  An \u0026quot;entity transaction\u0026quot; is a transaction transferring control of an\norganization, or substantially all assets of one, or subdividing an\norganization, or merging organizations.  If propagation of a covered\nwork results from an entity transaction, each party to that\ntransaction who receives a copy of the work also receives whatever\nlicenses to the work the party's predecessor in interest had or could\ngive under the previous paragraph, plus a right to possession of the\nCorresponding Source of the work from the predecessor in interest, if\nthe predecessor has it or can get it with reasonable efforts.\n\n  You may not impose any further restrictions on the exercise of the\nrights granted or affirmed under this License.  For example, you may\nnot impose a license fee, royalty, or other charge for exercise of\nrights granted under this License, and you may not initiate litigation\n(including a cross-claim or counterclaim in a lawsuit) alleging that\nany patent claim is infringed by making, using, selling, offering for\nsale, or importing the Program or any portion of it.\n\n  11. Patents.\n\n  A \u0026quot;contributor\u0026quot; is a copyright holder who authorizes use under this\nLicense of the Program or a work on which the Program is based.  The\nwork thus licensed is called the contributor's \u0026quot;contributor version\u0026quot;.\n\n  A contributor's \u0026quot;essential patent claims\u0026quot; are all patent claims\nowned or controlled by the contributor, whether already acquired or\nhereafter acquired, that would be infringed by some manner, permitted\nby this License, of making, using, or selling its contributor version,\nbut do not include claims that would be infringed only as a\nconsequence of further modification of the contributor version.  For\npurposes of this definition, \u0026quot;control\u0026quot; includes the right to grant\npatent sublicenses in a manner consistent with the requirements of\nthis License.\n\n  Each contributor grants you a non-exclusive, worldwide, royalty-free\npatent license under the contributor's essential patent claims, to\nmake, use, sell, offer for sale, import and otherwise run, modify and\npropagate the contents of its contributor version.\n\n  In the following three paragraphs, a \u0026quot;patent license\u0026quot; is any express\nagreement or commitment, however denominated, not to enforce a patent\n(such as an express permission to practice a patent or covenant not to\nsue for patent infringement).  To \u0026quot;grant\u0026quot; such a patent license to a\nparty means to make such an agreement or commitment not to enforce a\npatent against the party.\n\n  If you convey a covered work, knowingly relying on a patent license,\nand the Corresponding Source of the work is not available for anyone\nto copy, free of charge and under the terms of this License, through a\npublicly available network server or other readily accessible means,\nthen you must either (1) cause the Corresponding Source to be so\navailable, or (2) arrange to deprive yourself of the benefit of the\npatent license for this particular work, or (3) arrange, in a manner\nconsistent with the requirements of this License, to extend the patent\nlicense to downstream recipients.  \u0026quot;Knowingly relying\u0026quot; means you have\nactual knowledge that, but for the patent license, your conveying the\ncovered work in a country, or your recipient's use of the covered work\nin a country, would infringe one or more identifiable patents in that\ncountry that you have reason to believe are valid.\n\n  If, pursuant to or in connection with a single transaction or\narrangement, you convey, or propagate by procuring conveyance of, a\ncovered work, and grant a patent license to some of the parties\nreceiving the covered work authorizing them to use, propagate, modify\nor convey a specific copy of the covered work, then the patent license\nyou grant is automatically extended to all recipients of the covered\nwork and works based on it.\n\n  A patent license is \u0026quot;discriminatory\u0026quot; if it does not include within\nthe scope of its coverage, prohibits the exercise of, or is\nconditioned on the non-exercise of one or more of the rights that are\nspecifically granted under this License.  You may not convey a covered\nwork if you are a party to an arrangement with a third party that is\nin the business of distributing software, under which you make payment\nto the third party based on the extent of your activity of conveying\nthe work, and under which the third party grants, to any of the\nparties who would receive the covered work from you, a discriminatory\npatent license (a) in connection with copies of the covered work\nconveyed by you (or copies made from those copies), or (b) primarily\nfor and in connection with specific products or compilations that\ncontain the covered work, unless you entered into that arrangement,\nor that patent license was granted, prior to 28 March 2007.\n\n  Nothing in this License shall be construed as excluding or limiting\nany implied license or other defenses to infringement that may\notherwise be available to you under applicable patent law.\n\n  12. No Surrender of Others' Freedom.\n\n  If conditions are imposed on you (whether by court order, agreement or\notherwise) that contradict the conditions of this License, they do not\nexcuse you from the conditions of this License.  If you cannot convey a\ncovered work so as to satisfy simultaneously your obligations under this\nLicense and any other pertinent obligations, then as a consequence you may\nnot convey it at all.  For example, if you agree to terms that obligate you\nto collect a royalty for further conveying from those to whom you convey\nthe Program, the only way you could satisfy both those terms and this\nLicense would be to refrain entirely from conveying the Program.\n\n  13. Use with the GNU Affero General Public License.\n\n  Notwithstanding any other provision of this License, you have\npermission to link or combine any covered work with a work licensed\nunder version 3 of the GNU Affero General Public License into a single\ncombined work, and to convey the resulting work.  The terms of this\nLicense will continue to apply to the part which is the covered work,\nbut the special requirements of the GNU Affero General Public License,\nsection 13, concerning interaction through a network will apply to the\ncombination as such.\n\n  14. Revised Versions of this License.\n\n  The Free Software Foundation may publish revised and/or new versions of\nthe GNU General Public License from time to time.  Such new versions will\nbe similar in spirit to the present version, but may differ in detail to\naddress new problems or concerns.\n\n  Each version is given a distinguishing version number.  If the\nProgram specifies that a certain numbered version of the GNU General\nPublic License \u0026quot;or any later version\u0026quot; applies to it, you have the\noption of following the terms and conditions either of that numbered\nversion or of any later version published by the Free Software\nFoundation.  If the Program does not specify a version number of the\nGNU General Public License, you may choose any version ever published\nby the Free Software Foundation.\n\n  If the Program specifies that a proxy can decide which future\nversions of the GNU General Public License can be used, that proxy's\npublic statement of acceptance of a version permanently authorizes you\nto choose that version for the Program.\n\n  Later license versions may give you additional or different\npermissions.  However, no additional obligations are imposed on any\nauthor or copyright holder as a result of your choosing to follow a\nlater version.\n\n  15. Disclaimer of Warranty.\n\n  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY\nAPPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\nHOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \u0026quot;AS IS\u0026quot; WITHOUT WARRANTY\nOF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\nTHE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM\nIS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF\nALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n  16. Limitation of Liability.\n\n  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\nWILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS\nTHE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\nGENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE\nUSE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF\nDATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD\nPARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),\nEVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF\nSUCH DAMAGES.\n\n  17. Interpretation of Sections 15 and 16.\n\n  If the disclaimer of warranty and limitation of liability provided\nabove cannot be given local legal effect according to their terms,\nreviewing courts shall apply local law that most closely approximates\nan absolute waiver of all civil liability in connection with the\nProgram, unless a warranty or assumption of liability accompanies a\ncopy of the Program in return for a fee.\n\n                     END OF TERMS AND CONDITIONS\n\n            How to Apply These Terms to Your New Programs\n\n  If you develop a new program, and you want it to be of the greatest\npossible use to the public, the best way to achieve this is to make it\nfree software which everyone can redistribute and change under these terms.\n\n  To do so, attach the following notices to the program.  It is safest\nto attach them to the start of each source file to most effectively\nstate the exclusion of warranty; and each file should have at least\nthe \u0026quot;copyright\u0026quot; line and a pointer to where the full notice is found.\n\n    \u0026lt;one line to give the program's name and a brief idea of what it does.\u0026gt;\n    Copyright (C) \u0026lt;year\u0026gt;  \u0026lt;name of author\u0026gt;\n\n    This program is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    This program is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with this program.  If not, see \u0026lt;https://www.gnu.org/licenses/\u0026gt;.\n\nAlso add information on how to contact you by electronic and paper mail.\n\n  If the program does terminal interaction, make it output a short\nnotice like this when it starts in an interactive mode:\n\n    \u0026lt;program\u0026gt;  Copyright (C) \u0026lt;year\u0026gt;  \u0026lt;name of author\u0026gt;\n    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n    This is free software, and you are welcome to redistribute it\n    under certain conditions; type `show c' for details.\n\nThe hypothetical commands `show w' and `show c' should show the appropriate\nparts of the General Public License.  Of course, your program's commands\nmight be different; for a GUI interface, you would use an \u0026quot;about box\u0026quot;.\n\n  You should also get your employer (if you work as a programmer) or school,\nif any, to sign a \u0026quot;copyright disclaimer\u0026quot; for the program, if necessary.\nFor more information on this, and how to apply and follow the GNU GPL, see\n\u0026lt;https://www.gnu.org/licenses/\u0026gt;.\n\n  The GNU General Public License does not permit incorporating your program\ninto proprietary programs.  If your program is a subroutine library, you\nmay consider it more useful to permit linking proprietary applications with\nthe library.  If this is what you want to do, use the GNU Lesser General\nPublic License instead of this License.  But first, please read\n\u0026lt;https://www.gnu.org/licenses/why-not-lgpl.html\u0026gt;.\n\u003c/code\u003e\u003c/pre\u003e\n",
       "icon": "me.bingyue.IceCore.1.png",
-      "lastUpdated": 1731035403000,
+      "lastUpdated": 1731121889000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -9008,14 +9029,14 @@
       "summary": "解锁MIUI12.5的MIUI+"
     },
     {
-      "added": 1731035447000,
+      "added": 1731121936000,
       "authorName": "yepqqw",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePydroid 3 Premium\u003c/h1\u003e\n\u003cp\u003e解锁Pydroid 3\u003c/p\u003e\n\u003cp\u003e支持6.4版本与7.52版本\u003c/p\u003e\n\u003cp\u003e链接:\n\u003ca href=\"https://www.123pan.com/s/KhjA-M44g3.html\"\u003e123云盘\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e截图:\u003c/h1\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e1\u003c/th\u003e\n\u003cth align=\"center\"\u003e2\u003c/th\u003e\n\u003cth align=\"center\"\u003e3\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_1.png\"/\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_2.png\"/\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://github.com/yd5513868/yep.python.hook/blob/main/截图_3.png\"/\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
       "icon": "yep.python.hook.webp",
-      "lastUpdated": 1731035448000,
+      "lastUpdated": 1731121937000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -10233,7 +10254,7 @@
         "versionName": "3.2.5"
       },
       {
-        "added": 1731035277000,
+        "added": 1731121762000,
         "apkName": "cn.xihan.qdds_593-3.2.4.apk",
         "hash": "cf7a1c802acf6e685ed7cd9561f8af26ab2b93a7aa424f7f225ed58ae30130e1",
         "hashType": "sha256",
@@ -10590,7 +10611,7 @@
         "versionName": "0.5"
       },
       {
-        "added": 1731035283000,
+        "added": 1731121768000,
         "apkName": "com.amanoteam.sunny_4-0.4.apk",
         "hash": "9cc6c62cf1f117102f4a2d7767ef2ec934b00aca547ef4a5e1dc30fa929bf229",
         "hashType": "sha256",
@@ -10803,7 +10824,7 @@
         "versionName": "4.5.6-release_1"
       },
       {
-        "added": 1731035288000,
+        "added": 1731121774000,
         "apkName": "com.bug.hookvip_24101421-4.5.1-release.apk",
         "hash": "7d36419de9b058cf04c898ed44411fa9436217d93965256d93e4c6040be56ee9",
         "hashType": "sha256",
@@ -10998,7 +11019,25 @@
     ],
     "com.close.hook.ads": [
       {
-        "added": 1730451165000,
+        "added": 1731081736000,
+        "apkName": "com.close.hook.ads_20241108-2.1.5.apk",
+        "hash": "6e3be1be363c6ed9e731b376e59496ce70f7d60164d7d1af352167d07ef66e15",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.close.hook.ads",
+        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
+        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
+        "size": 3374698,
+        "targetSdkVersion": 34,
+        "versionCode": 20241108,
+        "versionName": "2.1.5"
+      },
+      {
+        "added": 1731121782000,
         "apkName": "com.close.hook.ads_20241101-2.1.1.apk",
         "hash": "fb1ec4368f271ba71a395898e39d7d5e4cf0468439db7f93a71c4ab230de076a",
         "hashType": "sha256",
@@ -11016,7 +11055,7 @@
         "versionName": "2.1.1"
       },
       {
-        "added": 1731035296000,
+        "added": 1731121782000,
         "apkName": "com.close.hook.ads_20241019-2.0.5.apk",
         "hash": "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672",
         "hashType": "sha256",
@@ -11835,7 +11874,7 @@
     ],
     "com.hchen.clipboardlist": [
       {
-        "added": 1731035315000,
+        "added": 1731121801000,
         "apkName": "com.hchen.clipboardlist_2024010100-1.1.apk",
         "hash": "21c95dc056d452cbb60c2295aaba92f4911742eb48c149f629d9280cc8540898",
         "hashType": "sha256",
@@ -12357,7 +12396,7 @@
         "versionName": "1.0.18"
       },
       {
-        "added": 1731035328000,
+        "added": 1731121815000,
         "apkName": "com.kgg.hhvideo_17-1.0.17.apk",
         "hash": "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab",
         "hashType": "sha256",
@@ -12372,7 +12411,7 @@
         "versionName": "1.0.17"
       },
       {
-        "added": 1731035328000,
+        "added": 1731121814000,
         "apkName": "com.kgg.hhvideo_16-1.0.16.apk",
         "hash": "6e3a56e10919566c5f10abf380fc57fe7a42417286290634755e531d75f3f900",
         "hashType": "sha256",
@@ -12561,7 +12600,7 @@
         "versionName": "1.2.5"
       },
       {
-        "added": 1731035332000,
+        "added": 1731121819000,
         "apkName": "com.luckyzyx.luckytool_16957-1.2.4.apk",
         "hash": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
         "hashType": "sha256",
@@ -12842,7 +12881,7 @@
         "versionName": "1.3"
       },
       {
-        "added": 1731035341000,
+        "added": 1731121827000,
         "apkName": "com.parallelc.micts_3-1.2.apk",
         "hash": "a38cf40876feee4f46b2d15e06c4cb5debb33a2f3906c788c3d1e0189780926b",
         "hashType": "sha256",
@@ -12857,7 +12896,7 @@
         "versionName": "1.2"
       },
       {
-        "added": 1731035341000,
+        "added": 1731121827000,
         "apkName": "com.parallelc.micts_2-1.1.apk",
         "hash": "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a",
         "hashType": "sha256",
@@ -13099,7 +13138,7 @@
         "versionName": "1.3.1"
       },
       {
-        "added": 1731035346000,
+        "added": 1731121832000,
         "apkName": "com.rifsxd.processhook_1-1.3.0.apk",
         "hash": "7de19406aaeab9831d555768461df5d562dba1efcfab29dcebb534f23195a78a",
         "hashType": "sha256",
@@ -13175,7 +13214,24 @@
     ],
     "com.sevtinge.hyperceiler": [
       {
-        "added": 1719649102000,
+        "added": 1731091760000,
+        "apkName": "com.sevtinge.hyperceiler_151-2.5.151_20241109.apk",
+        "hash": "7503121c740b86b2351feb0d51b5b0428979a20a543b3008b0c0ef04435305a7",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.sevtinge.hyperceiler",
+        "sig": "6086d32fd2a34070ad1219c3dfd8fb42",
+        "signer": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c",
+        "size": 5582238,
+        "targetSdkVersion": 35,
+        "versionCode": 151,
+        "versionName": "2.5.151_20241109"
+      },
+      {
+        "added": 1731121835000,
         "apkName": "com.sevtinge.hyperceiler_148-2.4.148_20240629.apk",
         "hash": "6a03e446581bf1d996fedebdaff6161c4e029e4cac892135804ca6fd6249fbd6",
         "hashType": "sha256",
@@ -14508,6 +14564,23 @@
         "versionName": "1.35"
       }
     ],
+    "fer.amiya.amiyahooks": [
+      {
+        "added": 1731076780000,
+        "apkName": "fer.amiya.amiyahooks_24110722-1.4.8.apk",
+        "hash": "a3b40a279e4c79050dab040bea45027b45b79c63dfa63ae4b22dd87f31ae2b4d",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": null,
+        "packageName": "fer.amiya.amiyahooks",
+        "sig": "1d93782776f5ad009ffac5f7e5486a39",
+        "signer": "1b2725db206905afe880a48d1c98e568b35076fc49d028d3539d2a43d75a7150",
+        "size": 4653197,
+        "targetSdkVersion": 34,
+        "versionCode": 24110722,
+        "versionName": "1.4.8"
+      }
+    ],
     "foss.coolest.fucker": [
       {
         "added": 1683636020000,
@@ -14661,7 +14734,7 @@
         "versionName": "6.1.0"
       },
       {
-        "added": 1731035382000,
+        "added": 1731121868000,
         "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_600-6.0.0.apk",
         "hash": "c52fb7d5db655db2eea0a7e141f266fc22d35080b29d2c1f1c5289666346bf84",
         "hashType": "sha256",
@@ -14710,7 +14783,7 @@
         "versionName": "2.0 a"
       },
       {
-        "added": 1731035383000,
+        "added": 1731121870000,
         "apkName": "icu.insomnia.qavatar_2-1.0_b.apk",
         "hash": "f6f682e229e637fa4ce73f2a3bc933658dafdc932ada9b133cfe2f78e8a72b4c",
         "hashType": "sha256",
@@ -15496,7 +15569,7 @@
     ],
     "io.kazutoiris.mrga": [
       {
-        "added": 1731035396000,
+        "added": 1731121883000,
         "apkName": "io.kazutoiris.mrga_10-1.0.apk",
         "hash": "350d8db9629de37ac9f882884db3e3c19a3757c2e51de9d79ac89348b11ece84",
         "hashType": "sha256",
@@ -15526,7 +15599,7 @@
         "versionName": "1.3"
       },
       {
-        "added": 1731035397000,
+        "added": 1731121883000,
         "apkName": "io.kazutoiris.mrga_11-1.1.apk",
         "hash": "ac9e78ef6a2889faad9b06710e52433f4716c15029058f3232d1fa4b758cc8ea",
         "hashType": "sha256",
@@ -15558,7 +15631,7 @@
         "versionName": "0.7.3"
       },
       {
-        "added": 1731035398000,
+        "added": 1731121884000,
         "apkName": "io.mesalabs.knoxpatch_7002-0.7.2.apk",
         "hash": "bf3b763a147dc141edb3c10d4c62748f3d83070773a4dd4e23a4cb035c14c7e8",
         "hashType": "sha256",
@@ -15728,7 +15801,7 @@
     ],
     "me.bingyue.IceCore": [
       {
-        "added": 1731035402000,
+        "added": 1731121889000,
         "apkName": "me.bingyue.IceCore_1-1.1.apk",
         "hash": "d18e1b597b99228e9d5a965ecb7b2215483add084ad3ff9ae23aefceb00879ec",
         "hashType": "sha256",
@@ -15943,7 +16016,27 @@
     ],
     "me.plusne": [
       {
-        "added": 1728292045000,
+        "added": 1731066879000,
+        "apkName": "me.plusne_7129-7.5.3.apk",
+        "hash": "fe5b75415a38610741ba86464c2bdf70797668687f38bfa26b990a204e883b99",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10521216,
+        "targetSdkVersion": 33,
+        "versionCode": 7129,
+        "versionName": "7.5.3"
+      },
+      {
+        "added": 1731121894000,
         "apkName": "me.plusne_7127-7.5.1.apk",
         "hash": "b8830141a6d70391622f5ac3919fbe15e5aefc4d43d71f1f321f8355e6e67033",
         "hashType": "sha256",
@@ -16658,7 +16751,7 @@
         "versionName": "1.12"
       },
       {
-        "added": 1731035424000,
+        "added": 1731121912000,
         "apkName": "ru.bluecat.yandexmapspatcher_209-1.11.1.apk",
         "hash": "9810e2761b981254c376fa9a65e9de745c7ca9bb881113baab3f47777a747fe0",
         "hashType": "sha256",
@@ -16678,7 +16771,7 @@
         "versionName": "1.11.1"
       },
       {
-        "added": 1731035423000,
+        "added": 1731121911000,
         "apkName": "ru.bluecat.yandexmapspatcher_199-1.11.apk",
         "hash": "0d483d26b133f58d7e2648a47409e6cdce642c9dca46500c34bfc597c04873ba",
         "hashType": "sha256",
@@ -16700,7 +16793,22 @@
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
       {
-        "added": 1726756589000,
+        "added": 1731085340000,
+        "apkName": "ru.hepolise.volumekeymusicmanagermodule_7-1.15.0.apk",
+        "hash": "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": null,
+        "packageName": "ru.hepolise.volumekeymusicmanagermodule",
+        "sig": "b85aeb812187a58a7426201ab0ead809",
+        "signer": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836",
+        "size": 169403,
+        "targetSdkVersion": 35,
+        "versionCode": 7,
+        "versionName": "1.15.0"
+      },
+      {
+        "added": 1731121913000,
         "apkName": "ru.hepolise.volumekeymusicmanagermodule_6-1.14.3.apk",
         "hash": "e6ef102380cb94ec2bd4c4474f8f19bef290589d45db906f166efb647835946b",
         "hashType": "sha256",
@@ -17142,7 +17250,7 @@
     ],
     "top.hookvip.pro": [
       {
-        "added": 1731035437000,
+        "added": 1731121926000,
         "apkName": "top.hookvip.pro_20241030-4.0.0.apk",
         "hash": "178c5c7f39dad441b54eef85392062dc0120eb38f53380a153275eed4a039ad5",
         "hashType": "sha256",
@@ -17195,7 +17303,7 @@
         "versionName": "1.3.0"
       },
       {
-        "added": 1731035439000,
+        "added": 1731121927000,
         "apkName": "top.trangle.mbga_89-1.2.1.apk",
         "hash": "c8d130b324b53bedd60d455d0e39ad0a183748d3183ffa3267365a5922bce033",
         "hashType": "sha256",
@@ -17551,7 +17659,7 @@
     ],
     "yep.python.hook": [
       {
-        "added": 1731035447000,
+        "added": 1731121936000,
         "apkName": "yep.python.hook_2-2.1.apk",
         "hash": "4c84767658b9d5c9cf319470d7bbaca95570b0212278339c63d35343ecc6337e",
         "hashType": "sha256",
