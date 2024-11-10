@@ -14,16 +14,87 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1731122153000
+    "timestamp": 1731208768000
   },
   "packages": {
-    "com.parallelc.micts": {
+    "com.close.hook.ads": {
       "metadata": {
-        "added": 1731121827000,
+        "added": 1731208394000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1731121938000,
+        "lastUpdated": 1731208395000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
+        "authorName": "zjyzip",
+        "name": {
+          "en-US": "AdClose"
+        },
+        "description": {
+          "en-US": "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>🌟 <strong>频道入口</strong>: @AdClose</p>\n"
+        },
+        "preferredSigner": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+      },
+      "versions": {
+        "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672": {
+          "added": 1731208394000,
+          "file": {
+            "name": "/com.close.hook.ads_20241019-2.0.5.apk",
+            "sha256": "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672",
+            "size": 3358194
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.0.5",
+            "versionCode": 20241019,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.parallelc.micts": {
+      "metadata": {
+        "added": 1731208438000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1731208544000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
         "authorName": "parallelcc",
         "name": {
@@ -39,7 +110,7 @@
       },
       "versions": {
         "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0": {
-          "added": 1731121938000,
+          "added": 1731208544000,
           "file": {
             "name": "/com.parallelc.micts_1-1.0.apk",
             "sha256": "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0",
@@ -63,11 +134,11 @@
     },
     "ru.bluecat.yandexmapspatcher": {
       "metadata": {
-        "added": 1731121911000,
+        "added": 1731208519000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1731121939000,
+        "lastUpdated": 1731208545000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -83,7 +154,7 @@
       },
       "versions": {
         "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da": {
-          "added": 1731121939000,
+          "added": 1731208545000,
           "file": {
             "name": "/ru.bluecat.yandexmapspatcher_171-1.10.apk",
             "sha256": "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da",
