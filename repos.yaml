@@ -8684,15 +8684,13 @@ com.parallelc.micts:
             </ul>
             </li>
             </ol>
-          filename: MiCTS_1.3.apk
+          filename: MiCTS_1.4.apk
           id: com.parallelc.micts
           name: MiCTS
-          last_updated: "2024-11-06T18:12:01Z"
+          last_updated: "2024-11-10T09:48:16Z"
           releasedescription: |-
-            <ul>
-            <li>支持POCO Launcher / Support POCO Launcher</li>
-            <li>修复1.2在公开版lsposed上hook系统桌面失败的问题 / Fix 1.2 hook system launcher failed on the public version of lsposed</li>
-            </ul>
+            <p>增强与其他修改版launcher的兼容性<br>
+            Enhanced compatibility with other modified launcher</p>
     author_name: parallelcc
 com.pic.catcher:
     git: https://github.com/Xposed-Modules-Repo/com.pic.catcher
@@ -12392,14 +12390,11 @@ com.zhizi42.diymiuicard:
             <p>本项目采用GPL-3.0进行开源。</p>
             <p>欢迎star和PR，有问题可提issue。</p>
             <p>作者不常看GitHub，有任何问题建议等可进<a href="https://qm.qq.com/q/6mzLNEtrzi">qq群</a>联系群主</p>
-          filename: DIY.MIUI.Card.v1.4.1.apk
+          filename: DIY.MIUI.Card.v1.4.2.apk
           id: com.zhizi42.diymiuicard
           name: DIY MIUI Card
-          last_updated: "2024-11-09T09:09:32Z"
-          releasedescription: |-
-            <p>适配Android15（API35），现在Android15的机器不会出现显示错误了。<br>
-            感谢catbl的反馈。<br>
-            很抱歉没有测试就使用了targetSdk35。</p>
+          last_updated: "2024-11-10T07:37:52Z"
+          releasedescription: <p>修复了 当小米智能卡的图片文件不存在时，应用无法删除图片的问题。感谢 "肖申克的救赎" 的反馈。</p>
     author_name: zhizi42
 com.zhufucdev.cp_plugin:
     git: https://github.com/Xposed-Modules-Repo/com.zhufucdev.cp_plugin
