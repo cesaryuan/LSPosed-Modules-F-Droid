@@ -14,16 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1731208768000
+    "timestamp": 1731295143000
   },
   "packages": {
     "com.close.hook.ads": {
       "metadata": {
-        "added": 1731208394000,
+        "added": 1731294771000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1731208395000,
+        "lastUpdated": 1731294923000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
         "authorName": "zjyzip",
         "name": {
@@ -36,7 +36,7 @@
       },
       "versions": {
         "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672": {
-          "added": 1731208394000,
+          "added": 1731294923000,
           "file": {
             "name": "/com.close.hook.ads_20241019-2.0.5.apk",
             "sha256": "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672",
@@ -90,11 +90,11 @@
     },
     "com.parallelc.micts": {
       "metadata": {
-        "added": 1731208438000,
+        "added": 1731294815000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1731208544000,
+        "lastUpdated": 1731294924000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
         "authorName": "parallelcc",
         "name": {
@@ -109,8 +109,29 @@
         "preferredSigner": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
       },
       "versions": {
+        "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a": {
+          "added": 1731294815000,
+          "file": {
+            "name": "/com.parallelc.micts_2-1.1.apk",
+            "sha256": "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a",
+            "size": 626638
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        },
         "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0": {
-          "added": 1731208544000,
+          "added": 1731294924000,
           "file": {
             "name": "/com.parallelc.micts_1-1.0.apk",
             "sha256": "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0",
@@ -134,11 +155,11 @@
     },
     "ru.bluecat.yandexmapspatcher": {
       "metadata": {
-        "added": 1731208519000,
+        "added": 1731294898000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1731208545000,
+        "lastUpdated": 1731294925000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -154,7 +175,7 @@
       },
       "versions": {
         "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da": {
-          "added": 1731208545000,
+          "added": 1731294925000,
           "file": {
             "name": "/ru.bluecat.yandexmapspatcher_171-1.10.apk",
             "sha256": "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da",
