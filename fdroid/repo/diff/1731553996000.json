@@ -1,0 +1,48 @@
+{
+  "repo": {
+    "timestamp": 1731554092000
+  },
+  "packages": {
+    "com.close.hook.ads": {
+      "versions": {
+        "e066a6e51cacd0a42cb8c622c0c868af4ef6801c7153e4aa642703baae46487d": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.fuck.snotes": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuck.snotes",
+        "authorName": "cc1477",
+        "summary": {
+          "en-US": "锤子便签优化模块\n解锁高级会员权限\n移除开屏广告\n关闭更新提示弹窗\n去除分享内容敏感词检测\n理论全版本通杀"
+        },
+        "description": {
+          "en-US": "<h1>锤子便签优化模块</h1>\n<ul>\n<li>解锁Vip</li>\n<li>移除开屏广告</li>\n<li>关闭更新提示弹窗</li>\n<li>去除分享内容敏感词检测</li>\n</ul>\n"
+        }
+      }
+    },
+    "io.github.auag0.hidemocklocation": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Hide Mock Location</h1>\n<p><strong>Prevents detection of mock location</strong><br />\n<strong>Supported Android 6~15</strong><br />\nTestapp: <strong><a href=\"https://github.com/auag0/MockLocationDetector\">MockLocationDetector</a></strong></p>\n<h2>usage</h2>\n<ul>\n<li>Download the APK(<a href=\"https://github.com/auag0/HideMockLocation/releases/latest\">here</a>) and install APK on device</li>\n<li>Enable the module in xposed</li>\n<li>if use lsposed, choose the app from which to hide mock location</li>\n<li>owari!</li>\n</ul>\n<h2>hooked methods</h2>\n<ul>\n<li>android.location.Location\n<ul>\n<li>isFromMockProvider()</li>\n<li>isMock()</li>\n<li>setIsFromMockProvider()</li>\n<li>setMock()</li>\n<li>getExtras()</li>\n<li>setExtras()</li>\n<li>set()</li>\n</ul>\n</li>\n<li>android.provider.Settings\n<ul>\n<li>Secure.getStringForUser(name=“mock_location”)</li>\n<li>System.getStringForUser(name=“mock_location”)</li>\n<li>Global.getStringForUser(name=“mock_location”)</li>\n<li>NameValueCache.getStringForUser(name=“mock_location”)</li>\n</ul>\n</li>\n</ul>\n<h2>how to set MockLocation app from Adb <a href=\"https://stackoverflow.com/questions/40414011/how-to-set-the-android-6-0-mock-location-app-from-adb/43747384#43747384\">(stackoverflow)</a></h2>\n<h3>Allowing app for mock locaiton</h3>\n<p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location allow</code></p>\n<h3>Removing app for mock location</h3>\n<p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location deny</code></p>\n<h4>for root device, remove <code>adb shell</code> in terminal and run</h4>\n<h2>super thanks (reference)</h2>\n<p><a href=\"https://github.com/ThePieMonster/HideMockLocation\">ThePieMonster#HideMockLocation</a></p>\n"
+        }
+      },
+      "versions": {
+        "17a489cb2959b281ed2383725db12649a7790c5284f28d7792ad10240ed4919b": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "me.plusne": {
+      "versions": {
+        "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
