@@ -4414,16 +4414,18 @@ com.close.hook.ads:
           categories:
             - Xposed
           description: "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>\U0001F31F <strong>频道入口</strong>: @AdClose</p>\n"
-          filename: AdClose_2.1.6.apk
+          filename: AdClose_2.1.8.apk
           id: com.close.hook.ads
           name: AdClose
-          last_updated: "2024-11-10T01:20:31Z"
+          last_updated: "2024-11-13T10:34:15Z"
           releasedescription: |-
             <ul>
-            <li>优化工具类</li>
-            <li>优化页面显示与加载</li>
-            <li>修复功能三空指针问题</li>
-            <li>功能二：使用Content Provider替换Service传递黑名单数据</li>
+            <li>代码调整</li>
+            <li>完成页面翻译</li>
+            <li>修复优化功能六</li>
+            <li>修复模块未激活问题</li>
+            <li>优化广播发送(功能二)</li>
+            <li>为DNS请求类型增加Log(功能二)</li>
             </ul>
     author_name: zjyzip
 com.coderstory.flyme:
@@ -5230,6 +5232,33 @@ com.fuck.android.rimet:
             <li>支持使用LSPosed api大于92的情况下对目标应用隐藏模块</li>
             </ul>
     author_name: kaisar945
+com.fuck.snotes:
+    git: https://github.com/Xposed-Modules-Repo/com.fuck.snotes
+    summary: |-
+        锤子便签优化模块
+        解锁高级会员权限
+        移除开屏广告
+        关闭更新提示弹窗
+        去除分享内容敏感词检测
+        理论全版本通杀
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>锤子便签优化模块</h1>
+            <ul>
+            <li>解锁Vip</li>
+            <li>移除开屏广告</li>
+            <li>关闭更新提示弹窗</li>
+            <li>去除分享内容敏感词检测</li>
+            </ul>
+          filename: FuckSmartisanNotes-v1.0.apk
+          id: com.fuck.snotes
+          name: FuckSmartisanNotes
+          last_updated: "2024-11-14T02:38:19Z"
+          releasedescription: ""
+    author_name: cc1477
 com.fuckcoolapk:
     git: https://github.com/Xposed-Modules-Repo/com.fuckcoolapk
     summary: Best present for 316 and 423.
@@ -14347,7 +14376,7 @@ io.github.auag0.hidemocklocation:
           description: |
             <h1>Hide Mock Location</h1>
             <p><strong>Prevents detection of mock location</strong><br />
-            <strong>Supported Android 6~14</strong><br />
+            <strong>Supported Android 6~15</strong><br />
             Testapp: <strong><a href="https://github.com/auag0/MockLocationDetector">MockLocationDetector</a></strong></p>
             <h2>usage</h2>
             <ul>
@@ -14389,8 +14418,13 @@ io.github.auag0.hidemocklocation:
           filename: app-release.apk
           id: io.github.auag0.hidemocklocation
           name: HideMockLocation
-          last_updated: "2024-03-08T10:27:04Z"
-          releasedescription: "<p>implement hooks for the following functions</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\"><pre class=\"notranslate\"><code>&gt; android.location.Location \n- setIsFromMockProvider()\n- setMock()\n- setExtras()\n- set()\n</code></pre></div>\n<p>refactor code<br>\n<strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/auag0/HideMockLocation/compare/v1.1.0...v1.2.0\">auag0/HideMockLocation@<tt>v1.1.0...v1.2.0</tt></a></p>"
+          last_updated: "2024-11-13T08:26:22Z"
+          releasedescription: |-
+            <p><strong>Supported android 15</strong></p>
+            <p>Fixed exception such as securityexception<br>
+            Fixed incorrect variable mockLocation with mExtras<br>
+            updated gradle<br>
+            <strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/auag0/HideMockLocation/compare/v1.2.0...v1.2.1">auag0/HideMockLocation@<tt>v1.2.0...v1.2.1</tt></a></p>
     author_name: auag0
 io.github.auag0.imnotadeveloper:
     git: https://github.com/Xposed-Modules-Repo/io.github.auag0.imnotadeveloper
@@ -16675,13 +16709,13 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.5.3.apk
+          filename: PlusNE7_New.7.5.4.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2024-11-08T11:54:39Z"
+          last_updated: "2024-11-13T03:33:47Z"
           releasedescription: |-
-            <p>[修复]已知BUG<br>
-            [适配]部分App最新版</p>
+            <p>[修复]已知问题<br>
+            [适配]Soul最新版</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
