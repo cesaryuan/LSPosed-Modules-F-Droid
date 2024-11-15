@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1731554081000,
+    "timestamp": 1731641663000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -23,9 +23,9 @@
       "license": "Unknown",
       "name": "AdClose",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
-      "added": 1731553814000,
+      "added": 1731641243000,
       "packageName": "com.close.hook.ads",
-      "lastUpdated": 1731553989000
+      "lastUpdated": 1731641409000
     },
     {
       "authorName": "parallelcc",
@@ -39,9 +39,9 @@
       "name": "MiCTS",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
       "summary": "\u5c0f\u7c73\u7cfb\u7edf\u684c\u9762\u5f00\u542f\u5708\u5b9a\u5373\u641c\uff08Circle to Search\uff09\u529f\u80fd\nEnable Circle to Search for Xiaomi System La...",
-      "added": 1731553865000,
+      "added": 1731641291000,
       "packageName": "com.parallelc.micts",
-      "lastUpdated": 1731553990000
+      "lastUpdated": 1731641410000
     },
     {
       "authorName": "BlueCat300",
@@ -55,15 +55,15 @@
       "name": "Yandex Maps Patcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
       "summary": "\u0421\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u0440\u0435\u043a\u043b\u0430\u043c\u0443 \u0438 \u043d\u0430\u0432\u044f\u0437\u0447\u0438\u0432\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u042f\u043d\u0434\u0435\u043a\u0441 \u041a\u0430\u0440\u0442\u044b.",
-      "added": 1731553960000,
+      "added": 1731641381000,
       "packageName": "ru.bluecat.yandexmapspatcher",
-      "lastUpdated": 1731553991000
+      "lastUpdated": 1731641411000
     }
   ],
   "packages": {
     "com.close.hook.ads": [
       {
-        "added": 1731553814000,
+        "added": 1731641409000,
         "apkName": "com.close.hook.ads_20241101-2.1.1.apk",
         "hash": "fb1ec4368f271ba71a395898e39d7d5e4cf0468439db7f93a71c4ab230de076a",
         "hashType": "sha256",
@@ -115,7 +115,7 @@
         "versionName": "2.1.1"
       },
       {
-        "added": 1731553989000,
+        "added": 1731641408000,
         "apkName": "com.close.hook.ads_20241019-2.0.5.apk",
         "hash": "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672",
         "hashType": "sha256",
@@ -169,7 +169,7 @@
     ],
     "com.parallelc.micts": [
       {
-        "added": 1731553990000,
+        "added": 1731641410000,
         "apkName": "com.parallelc.micts_2-1.1.apk",
         "hash": "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a",
         "hashType": "sha256",
@@ -183,7 +183,7 @@
         "versionName": "1.1"
       },
       {
-        "added": 1731553990000,
+        "added": 1731641410000,
         "apkName": "com.parallelc.micts_1-1.0.apk",
         "hash": "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0",
         "hashType": "sha256",
@@ -199,7 +199,7 @@
     ],
     "ru.bluecat.yandexmapspatcher": [
       {
-        "added": 1731553991000,
+        "added": 1731641411000,
         "apkName": "ru.bluecat.yandexmapspatcher_171-1.10.apk",
         "hash": "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da",
         "hashType": "sha256",
