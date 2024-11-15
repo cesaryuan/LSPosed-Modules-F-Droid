@@ -5249,15 +5249,20 @@ com.fuck.snotes:
             <h1>锤子便签优化模块</h1>
             <ul>
             <li>解锁Vip</li>
-            <li>移除开屏广告</li>
-            <li>关闭更新提示弹窗</li>
+            <li>去除开屏广告</li>
+            <li>去除更新提示弹窗</li>
             <li>去除分享内容敏感词检测</li>
             </ul>
-          filename: FuckSmartisanNotes-v1.0.apk
+          filename: FuckSmartisanNotes-v1.1.apk
           id: com.fuck.snotes
           name: FuckSmartisanNotes
-          last_updated: "2024-11-14T02:38:19Z"
-          releasedescription: ""
+          last_updated: "2024-11-15T02:21:59Z"
+          releasedescription: |-
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cc1477/FuckSmartisanNotes/compare/v1.0...v1.1">cc1477/FuckSmartisanNotes@<tt>v1.0...v1.1</tt></a></p>
+            <ul>
+            <li>修复分享加载问题</li>
+            <li>更新模块描述</li>
+            </ul>
     author_name: cc1477
 com.fuckcoolapk:
     git: https://github.com/Xposed-Modules-Repo/com.fuckcoolapk
@@ -13715,32 +13720,23 @@ icu.freedomIntrovert.biliSendCommAntifraud:
           filename: app-release.apk
           id: icu.freedomIntrovert.biliSendCommAntifraud
           name: 哔哩发评反诈
-          last_updated: "2024-11-04T09:39:21Z"
+          last_updated: "2024-11-14T15:58:22Z"
           releasedescription: |-
             <h3>更新日志</h3>
             <ul>
-            <li>
-            <p>LSP日志，对cookie extra的打印用■■■■代替，避免发日志导致账号被盗用（还是不建议将日志发给除了开发者之外的人）</p>
-            </li>
-            <li>
-            <p>“修复”安卓14后台等待闪退的bug（调低TargetAPI罢了）</p>
-            </li>
-            <li>
-            <p>新增『』号匹配评论，专门解决系统通知弱智打码问题。列如评论被举报、违规，系统给你发的通知。搜索输入样例：<code>『我*****马』</code>，<code>『我*马』</code>，匹配到：<code>我超市里的马</code>。输入应保证<code>『</code>开头<code>』</code>结尾，<code>*</code>非码去的单字符，而是可变长度。也支持<code>『回复*****』</code>=&gt;<code>回复@自由的内向者……</code>;<code>『*批』</code>=&gt;<code>原批</code></p>
-            </li>
-            <li>
-            <p>优化历史评论过滤、排序、搜索机制，移除屎山代码，提升查询效率。<a href="https://github.com/freedom-introvert/biliSendCommAntifraud?tab=readme-ov-file#%E6%90%9C%E7%B4%A2%E8%AF%84%E8%AE%BA">搜索评论说明</a>已更新。</p>
-            </li>
-            <li>
-            <p>README更新：如果一定要使用自动获取cookie，但是cookie无效，可以尝试打开b站APP内依赖webview的地方，例如“客服”</p>
-            </li>
-            <li>
-            <p>修复了通知ID紊乱导致的后台等待等服务异常的bug，如后台等待结束后点通知检查，找不到评论ID对应的待检查评论且评论rpid一样。</p>
-            </li>
-            <li>
-            <p>修复了检查评论后，关闭对话框，对话框界面还保留在任务栏的Bug</p>
-            </li>
+            <li>新增【去他妈的图片折叠】，一些评论区的评论图片只显示<code>笔记</code>要点击详情才显示，恶意提升操作难度。此功能禁止折叠评论区中的图片</li>
+            <li><strong>v5.2.0旧更新</strong>：替换拍照为从相册选择图片，给评论选择图片的时候可点击图片列表里的拍照按钮打开系统相册选择图片。（我忘写到软件说明里了）</li>
             </ul>
+            <h3>附加小功能预览</h3>
+            <blockquote>
+            <p>去他妈的图片折叠</p>
+            </blockquote>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/freedom-introvert/biliSendCommAntifraud/blob/main/image-20241114233442725.png?raw=true"><img src="https://github.com/freedom-introvert/biliSendCommAntifraud/raw/main/image-20241114233442725.png?raw=true" alt="image-20241114233442725" style="max-width: 100%;"></a></p>
+            <blockquote>
+            <p>替换拍照为从相册选择选择图片</p>
+            </blockquote>
+            <p>点击拍摄按钮会从相册选择图片，虽然它还叫“拍摄”。原本垃圾图片选择器难难用了。</p>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/freedom-introvert/biliSendCommAntifraud/raw/main/Screenshot_2024-11-13-23-00-46-156_tv.danmaku.bili.jpg"><img src="https://github.com/freedom-introvert/biliSendCommAntifraud/raw/main/Screenshot_2024-11-13-23-00-46-156_tv.danmaku.bili.jpg" alt="Screenshot_2024-11-13-23-00-46-156_tv.danmaku.bili" style="max-width: 100%;"></a></p>
     author_name: freedom-introvert
 icu.freedomintrovert.YTSendCommAntiFraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomintrovert.YTSendCommAntiFraud
@@ -14564,20 +14560,20 @@ io.github.chipppppppppp.binnosoko:
     author_name: Chipppppppppp
 io.github.chipppppppppp.lime:
     git: https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.lime
-    summary: Adkiller for LIME
+    summary: Ad-killer for LINE
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: |
-            <h1><img src="https://github.com/Xposed-Modules-Repo/io.github.chipppppppppp.lime/assets/78024852/2f2f058f-98ea-4305-bda9-58785642111b" width="60px"> LIME: Adkiller for LINE</h1>
+            <h1><img src="https://github.com/Chipppppppppp/LIME/blob/master/app/src/main/ic_launcher-playstore.png?raw=true" width="60px"> LIME: Ad-killer for LINE</h1>
             <p><a href="https://github.com/Chipppppppppp/LIME/releases/latest"><img src="https://img.shields.io/github/v/release/Chipppppppppp/LIME?label=latest" alt="Latest Release" /></a>
             <img src="https://img.shields.io/github/license/Chipppppppppp/LIME" alt="GitHub License" /></p>
             <h2>概要</h2>
             <p>This is an Xposed Module to clean <a href="https://line.me"><strong>LINE</strong></a>.</p>
             <p>LINE を掃除する Xposed Module です。</p>
-            <h2>インストール</h2>
-            <p><a href="https://github.com/Chipppppppppp/LIME">これ</a> に従ってください。</p>
+            <hr />
+            <p>Details: <a href="https://github.com/Chipppppppppp/LIME">https://github.com/Chipppppppppp/LIME</a></p>
           filename: LIME-v1.9.2.apk
           id: io.github.chipppppppppp.lime
           name: LIME
@@ -14589,7 +14585,7 @@ io.github.chipppppppppp.lime:
             <p>LINE 14.9.1</p>
             <h3>差分</h3>
             <p><a class="commit-link" href="https://github.com/Chipppppppppp/LIME/compare/v1.9.1...v1.9.2">Chipppppppppp/LIME@<tt>v1.9.1...v1.9.2</tt></a></p>
-    author_name: Chipppppppppp
+    author_name: s1204IT
 io.github.chsbuffer.miuihelper:
     git: https://github.com/Xposed-Modules-Repo/io.github.chsbuffer.miuihelper
     summary: |-
@@ -18652,6 +18648,46 @@ pansong291.xposed.quickenergy.repair:
           last_updated: "2023-07-26T15:14:07Z"
           releasedescription: ""
     author_name: constanline
+pokego.pip:
+    git: https://github.com/Xposed-Modules-Repo/pokego.pip
+    summary: An xposed module to enable picture-in-picture in Pokemon GO
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>PokeGOPip</h1>
+            <p>PokeGOPip is an Xposed module that enables Picture-in-Picture (PiP) mode in Pokémon GO, allowing you to play the game in a small, resizable overlay window. This feature can be useful for multitasking while keeping the game open, ideal for users who want to continue their Pokémon GO sessions while using other apps.</p>
+            <h2>Features</h2>
+            <ul>
+            <li>Enables Picture-in-Picture (PiP) mode in Pokémon GO</li>
+            <li>Allows users to continue playing while multitasking</li>
+            <li>Resizable, movable overlay window</li>
+            </ul>
+            <h2>Installation</h2>
+            <ol>
+            <li>Install <a href="https://repo.xposed.info/">Xposed</a> or <a href="https://github.com/LSPosed/LSPosed">LSPosed</a></li>
+            <li>Install <a href="https://github.com/auag0/PokeGOPip/releases/latest">PokeGOPip</a></li>
+            <li>Enable the module in Xposed/LSPosed</li>
+            <li>Select both <code>Pokémon GO</code> and <code>System Framework</code> in the scope settings
+            <ul>
+            <li>System Framework access is required to grant PiP permissions</li>
+            </ul>
+            </li>
+            <li>Reboot your device for the changes to take effect</li>
+            </ol>
+            <h2>Preview</h2>
+            <p><img src="preview/preview1.png" alt="preview" /></p>
+            <h2>Disclaimer</h2>
+            <p>This module is intended for personal use only and is not affiliated with or endorsed by Niantic, Inc., or The Pokémon Company. Use of this module may violate Pokémon GO’s terms of service. Use at your own risk.</p>
+            <hr />
+            <p>Enjoy multitasking with Pokémon GO in PiP mode!</p>
+          filename: app-release.apk
+          id: pokego.pip
+          name: PokeGO Pip
+          last_updated: "2024-11-14T02:54:33Z"
+          releasedescription: <p>First release^_~</p>
+    author_name: auag0
 pub.chara.disablealttab:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab
     summary: |-
@@ -20696,16 +20732,39 @@ top.hookvip.pro:
             <h2>Telegram</h2>
             <p><a href="https://t.me/HookVipCl"><img alt="Telegram Channel" src="https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram"></a><br />
             <a href="https://t.me/HookVipChat"><img alt="Telegram Channel" src="https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram"></a></p>
-          filename: HookVip-4.0.1-release.apk
+          filename: HookVip-4.0.2-release.apk
           id: top.hookvip.pro
           name: NewHookVip
-          last_updated: "2024-10-30T14:49:42Z"
+          last_updated: "2024-11-14T18:52:24Z"
           releasedescription: |-
+            <h2>新增</h2>
+            <ul>
+            <li><strong>美册视频制作</strong> 解锁至尊永久会员 全版本通杀</li>
+            <li><strong>AppShare</strong> 自动签到/移除开屏广告 全版本通杀</li>
+            <li><strong>瞬译</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>墨迹天气</strong> 解锁终身会员 全版本通杀</li>
+            <li><strong>ES文件浏览器</strong> 解锁会员 全版本通杀</li>
+            <li><strong>虚拟大师</strong> 解锁订阅 全版本通杀</li>
+            <li><strong>滴答清单</strong> 解锁会员 全版本通杀</li>
+            <li><strong>WPS Office</strong> 解锁Pro 全版本通杀(Play版)</li>
+            <li><strong>锤子便签</strong> 去广告(ai不可用 为服务器功能) 全版本通杀</li>
+            <li><strong>岸听音乐</strong> 解锁会员 全版本通杀</li>
+            <li><strong>七猫免费小说</strong> 解锁会员/去广告 全版本通杀</li>
+            <li><strong>爱笔思画X</strong> 解锁高级会员 全版本通杀</li>
+            <li><strong>ShortX</strong> 解锁高级版 全版本通杀</li>
+            </ul>
+            <h2>拓展</h2>
+            <ul>
+            <li><strong>去除VPN检测</strong></li>
+            <li><strong>网易游戏</strong> Android强制登录IOS</li>
+            <li><strong>replaceSu+</strong> 自定义su指令</li>
+            <li><strong>快手</strong> 解析视频/图集 全版本通杀(分享&gt;复制链接&gt;解析)</li>
+            <li><strong>快手极速版</strong> 解析视频/图集 全版本通杀(分享&gt;复制链接&gt;解析)</li>
+            </ul>
             <h2>修复</h2>
             <ul>
-            <li><strong>UniDreamAI</strong> 部分功能无法连接服务器(移除免登录)</li>
-            <li><strong>快连VPN</strong> 随机id的一些问题</li>
-            <li><strong>一木记账</strong> 云备份提示鉴权失败</li>
+            <li><strong>菜鸟</strong> 主页滑动包裹列表闪退</li>
+            <li><strong>快连VPN</strong> 每次进入主页都弹出toast</li>
             </ul>
     author_name: lovejiuwu
 top.trangle.mbga:
