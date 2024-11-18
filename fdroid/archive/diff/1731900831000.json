@@ -1,0 +1,17 @@
+{
+  "repo": {
+    "timestamp": 1731901083000
+  },
+  "packages": {
+    "com.parallelc.micts": {
+      "metadata": {
+        "summary": {
+          "en-US": "在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
+        },
+        "description": {
+          "en-US": "<h1>MiCTS</h1>\n<p>简体中文  |  <a href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\">English</a></p>\n<p>在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能</p>\n<p><em>本应用只负责触发圈定即搜，无法处理触发成功后可能出现的问题</em></p>\n<h2>使用方法</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启自启动，关闭后台限制，将默认助理应用设置为Google</p>\n</li>\n<li>\n<p>安装并打开MiCTS</p>\n<ul>\n<li>如果幸运的话，在不用LSPosed的情况下，打开MiCTS就会直接触发圈定即搜</li>\n<li>如果没有反应，则需要在LSPosed里激活模块，在<a href=\"#%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE%E7%9A%84%E6%96%B9%E5%BC%8F\">MiCTS设置</a>里开启<code>Google机型伪装</code>后，强制重启Google</li>\n<li>如果还是没有反应，尝试清除Google的数据，然后打开Google，再强制重启Google</li>\n</ul>\n</li>\n<li>\n<p>设置触发方式</p>\n<ul>\n<li>打开MiCTS即可触发，因此可以利用其他软件，比如悬浮球、Xposed Edge、ShortX等，将动作设置为打开MiCTS，实现自定义触发方式</li>\n<li>MiCTS提供了一个触发磁贴，可将其添加到快速设置面板里，通过点击磁贴触发</li>\n<li>对于小米设备，MiCTS内置了长按小白条触发和长按Home键触发的功能，可以在MiCTS设置里开启（安装MiCTS后需要激活模块并重启手机才能使用）</li>\n</ul>\n</li>\n</ol>\n<h2>设置</h2>\n<h3>进入设置的方式</h3>\n<ul>\n<li>长按MiCTS应用图标，出现设置选项，点击进入</li>\n<li>从LSPosed模块页面，点击MiCTS，再点击设置图标进入</li>\n<li>长按快速设置面板的磁贴进入</li>\n</ul>\n<h3>应用设置</h3>\n<ul>\n<li>默认触发延迟：通过打开MiCTS触发的延迟</li>\n<li>磁贴触发延迟：通过点击快速设置面板的磁贴触发的延迟</li>\n</ul>\n<h3>模块设置</h3>\n<p>需要在LSPosed里激活模块</p>\n<ul>\n<li>\n<p>系统触发服务：触发所使用的系统服务，只会显示当前支持的选项，依赖作用域选择系统框架</p>\n<ul>\n<li>VIS：支持Android 9–15，需要将默认助理应用设置为Google，触发时屏幕边缘会闪，没有激活模块的情况下只能使用此服务</li>\n<li>CSHelper：支持Android 14 QPR3及以上，不需要设置默认助理应用，触发时屏幕边缘不会闪</li>\n</ul>\n</li>\n<li>\n<p>长按小白条触发：仅支持小米设备，依赖作用域选择系统桌面</p>\n</li>\n<li>\n<p>长按Home键触发：仅支持小米设备，依赖作用域选择系统框架</p>\n</li>\n<li>\n<p>Google机型伪装：依赖作用域选择Google</p>\n<ul>\n<li>制造商：修改Google读取到的ro.product.manufacturer</li>\n<li>品牌：修改Google读取到的ro.product.brand</li>\n<li>型号：修改Google读取到的ro.product.model</li>\n<li>设备：修改Google读取到的ro.product.device</li>\n</ul>\n</li>\n</ul>\n"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
 AuthorName: Kartatz
 Categories:
     - Xposed
-CurrentVersion: "0.1"
-CurrentVersionCode: 1
+CurrentVersion: "0.2"
+CurrentVersionCode: 2
 Description: |
     <h1>Nel</h1>
     <p>Bring back <code>KeyChain.createInstallIntent</code>’s old behavior to Android 11+.</p>
@@ -12,9 +12,9 @@ Description: |
     <p>This module will (hopefully) make them work correctly on Android 11+.</p>
     <p><img src="https://raw.githubusercontent.com/AmanoTeam/Nel/master/images/2.png" alt="1" /></p>
     <h2>Usage</h2>
-    <p>Just install and reboot the device. If you are using LSposed, you just need to mark the “Certificate Installer” package on the list of apps and then kill/force-close the <code>com.android.certinstaller</code> process (e.g., by running <code>/system/bin/am force-stop com.android.certinstaller</code> on a terminal emulator.</p>
+    <p>Just install and reboot the device. If you are using LSposed, you just need to mark the “Certificate Installer” package on the list of apps and then kill/force-close the <code>com.android.certinstaller</code> process (e.g., by running <code>/system/bin/am force-stop com.android.certinstaller</code> on a terminal emulator).</p>
     <h2>Supported Android versions</h2>
-    <p>This module was only tested on Android 13, but should work on any device running Android 11 or higher.</p>
+    <p>This module was only tested on Android 13-15, but should work on any device running Android 11 or higher.</p>
 IssueTracker: ""
 Name: Nel
 SourceCode: https://github.com/Xposed-Modules-Repo/com.amanoteam.nel
