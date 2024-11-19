@@ -1082,13 +1082,15 @@ cn.ac.lz233.tarnhelm:
           filename: app-github-release.apk
           id: cn.ac.lz233.tarnhelm
           name: Tarnhelm
-          last_updated: "2024-06-28T15:45:28Z"
+          last_updated: "2024-11-18T10:09:59Z"
           releasedescription: |-
             <ul>
-            <li>New: Custom UA for redirect rules</li>
-            <li>Fix: Keep original links if no rule matched</li>
-            <li>新增：对于重定向规则，可以自定义 UA</li>
-            <li>修复：若没有匹配到任何规则，则不变更内容</li>
+            <li>
+            <p>Adapt to Android 15</p>
+            </li>
+            <li>
+            <p>适配 Android 15</p>
+            </li>
             </ul>
     author_name: lz233
 cn.amamiya.douyurepeat:
@@ -3629,60 +3631,71 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.5.6-release_1.apk
+          filename: app_4.6.2-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2024-10-29T12:30:59Z"
+          last_updated: "2024-11-18T12:22:52Z"
           releasedescription: |-
             <p>新增：</p>
             <ul>
-            <li>追剧达人 3.2.0</li>
-            <li>GIF工具箱</li>
-            <li>Rain Viewer 5.7</li>
-            <li>EasyNotes</li>
-            <li>ColorOS主题破解</li>
-            <li>MaldiVes 4.20</li>
-            <li>向日葵远程控制 15.3.1.66811 无限试用CMD和摄像头</li>
+            <li>Anti-recall v5.9.0</li>
+            <li>Slidebox 3.11</li>
+            <li>特种作业宝典 3.8.2</li>
+            <li>芒果游戏翻译</li>
+            <li>乱七八糟工具箱</li>
+            <li>摩途</li>
+            <li>P2P下载器-Plus</li>
+            <li>知拾笔记 4.6.5</li>
+            <li>计时器倒计时</li>
             </ul>
             <p>优化：</p>
             <ul>
-            <li>优化暗色模式显示逻辑</li>
-            <li>优化模块性能</li>
-            </ul>
-            <p>修复：</p>
-            <ul>
-            <li>今日水印相机 闪退问题</li>
+            <li>更新依赖项</li>
+            <li>Y2002电音 解除下载限制</li>
+            <li>阿里云盘 Hook</li>
+            <li>调整部分UI</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>大师兄影视 3.3.7</li>
-            <li>微信 8.0.53</li>
-            <li>今日水印相机 v3.0.175.4</li>
-            <li>懒人驾考 2.12.8</li>
-            <li>美图秀秀 10.21.0</li>
-            <li>inBox笔记 1.7.82</li>
-            <li>Lightroom 10.0.1</li>
-            <li>MOJi辞書 8.6.0</li>
-            <li>Nekogram 11.2.3</li>
-            <li>Telegraph T11.2.3 - P11.14.0</li>
-            <li>WPS Office 18.13.2</li>
-            <li>多邻国 6.4.5</li>
-            <li>黃品匯 4.6.0</li>
-            <li>建工计算器 4.00.31</li>
-            <li>欧路词典 9.8.1</li>
-            <li>七猫免费小说 7.59</li>
-            <li>轻羽写作 1.82.1</li>
-            <li>通知滤盒 3.3.7</li>
-            <li>网飞猫 3.2.2</li>
-            <li>可可影视 3.2.2</li>
-            <li>我要做计划 4.7.3</li>
-            <li>醒图 11.0.0</li>
-            <li>一刻日记 2.0.2</li>
-            <li>佐糖 1.7.9</li>
-            </ul>
-            <p>其他：</p>
-            <ul>
-            <li>去除 91快播</li>
+            <li>123云盘 2.4.8</li>
+            <li>AfuseKt 1.4.0-10191</li>
+            <li>B612咔叽 13.4.10</li>
+            <li>Battery Guru 2.3.12</li>
+            <li>Clone App 3.1.21</li>
+            <li>Fing 12.8.5</li>
+            <li>Flyy 2.4.2.4</li>
+            <li>inBox笔记 1.7.85</li>
+            <li>MOJi辞書 8.7.0</li>
+            <li>Rain Viewer 5.9.1</li>
+            <li>XRecorder 2.3.8.5</li>
+            <li>多邻国 6.7.3</li>
+            <li>建工计算器 4.00.32</li>
+            <li>今日水印相机 v3.0.181.2</li>
+            <li>乐秀 10.2.5.0</li>
+            <li>美图秀秀 10.23.0</li>
+            <li>欧路词典 9.8.3</li>
+            <li>轻羽写作 1.84.0</li>
+            <li>扫描全能王 6.75.0.2411050000</li>
+            <li>搜图神器 5.1.7</li>
+            <li>微分身多开 13.1.6.0</li>
+            <li>我的听书 2.5.5</li>
+            <li>无界趣连 1.3.28.1</li>
+            <li>向日葵远程控制 15.3.4.68794</li>
+            <li>一刻日记 2.0.4</li>
+            <li>元气壁纸 1.8.3</li>
+            <li>佐糖 1.8.1</li>
+            <li>七猫免费小说 7.60.20</li>
+            <li>醒图 11.1.0</li>
+            <li>浩克下载 1.8.1</li>
+            <li>种子磁力下载器 1.5.2</li>
+            <li>PassStore 1.1.7</li>
+            <li>囧次元 1.5.7.5</li>
+            <li>冰箱 IceBox 3.25.4 C</li>
+            <li>Niagara Launcher 1.12.12</li>
+            <li>Lightroom 10.0.2</li>
+            <li>小星记账 3.4.5</li>
+            <li>QQ音乐 13.11.0.8</li>
+            <li>贝利自动点击器 2.8.8</li>
             </ul>
     author_name: bug-bit
 com.ceco.oreo.gravitybox:
@@ -16181,30 +16194,24 @@ me.hd.hookgg:
           categories:
             - Xposed
           description: "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明:</h2>\n<table>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>Icon</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Name</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Description</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Example</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">⚠️</td>\n        <td align=\"center\">高风险</td>\n        <td align=\"center\">存在惩罚机制</td>\n        <td align=\"center\">RLGG拉黑并重启设备</td>\n    </tr>\n    <tr>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">已适配</td>\n        <td align=\"center\">暂无说明</td>\n        <td align=\"center\">暂无案例</td>\n    </tr>\n    <tr>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">未适配</td>\n        <td align=\"center\">暂无说明</td>\n        <td align=\"center\">暂无案例</td>\n    </tr>\n    <tr>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">不存在</td>\n        <td align=\"center\">暂无说明</td>\n        <td align=\"center\">暂无案例</td>\n    </tr>\n    <tr>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">不支持</td>\n        <td align=\"center\">暂无说明</td>\n        <td align=\"center\">暂无案例</td>\n    </tr>\n</table>\n<hr />\n<h2>功能:</h2>\n<p>后续将依据star和download情况进一步更新与适配.</p>\n<p>We will continue to update and adapt based on the number of stars and downloads in the future.</p>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"2\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~98.0</b></td>\n        <td align=\"center\"><b>99.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.0~1.2.2</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.addListItems</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.alert</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.allocatePage</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.bytes</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.choice</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.clearList</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.clearResults</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.copyMemory</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.copyText</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.disasm</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.dumpMemory</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.editAll</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getActiveTab</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getFile</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getLine</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getListItems</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getLocale</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getRanges</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getRangesList</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getResults</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getResultsCount</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getSelectedElements</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getSelectedListItems</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getSelectedResults</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getSpeed</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getTargetInfo</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getTargetPackage</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getValues</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.getValuesRange</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.gotoAddress</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.hideUiButton</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.isClickedUiButton</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.isPackageInstalled</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.isProcessPaused</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.isVisible</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.loadList</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.loadResults</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.makeRequest</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.multiChoice</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.numberFromLocale</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.numberToLocale</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.processKill</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.processPause</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.processResume</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.processToggle</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.prompt</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.removeListItems</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.removeResults</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.require</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.saveList</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.saveVariable</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.searchAddress</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.searchFuzzy</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.searchNumber</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.searchPointer</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.setRanges</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.setSpeed</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.setValues</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.setVisible</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.showUiButton</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.skipRestoreState</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.sleep</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.startFuzzy</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.timeJump</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.toast</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">gg.unrandomizer</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">otherFunction</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n    </tr>\n</table>\n<hr />\n<h2>贡献:</h2>\n<p>在使用过程中有任何问题或建议, 请通过issues提交.</p>\n<p>If you encounter any issues or have any suggestions during use, please submit them through issues.</p>\n<hr />\n<h2>致谢:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n</tbody>\n</table>\n"
-          filename: 20240813-2.0.0-release.apk
+          filename: 20241119-2.0.5-release.apk
           id: me.hd.hookgg
           name: '[开源]HookGG'
-          last_updated: "2024-08-13T09:02:43Z"
+          last_updated: "2024-11-18T22:27:58Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
-            <li>新增 字符串(""), GG常量(gg.TYPE_), 地址(0x) 处理</li>
-            <li>修复 版本&gt;=98.0的searchAddress函数limit参数遗漏</li>
-            <li>新增 设置页 拦截包名 快捷填入选项</li>
-            <li>新增 设置页 应用语言 手动切换</li>
-            <li>修复 协程输出日志不同步问题</li>
-            <li>新增 ELGG 部分函数参数解密</li>
-            <li>新增 模块-base64(encode, decode)</li>
+            <li>适配ELGG新版本</li>
+            <li>修复过滤参数问题</li>
+            <li>新增GG内部函数</li>
+            <li>重构逻辑与优化界面</li>
             </ul>
             <h4>Updated</h4>
             <ul>
-            <li>Added String(""), GG Const(gg.TYPE_), Address(0x) processing</li>
-            <li>Fixed the missing limit parameter of the searchAddress function in version &gt;=98.0</li>
-            <li>Added the option to shortcut in Intercept Package Name</li>
-            <li>Added manual switching of application language</li>
-            <li>Fixed the issue that the output logs of coroutines were not synchronized</li>
-            <li>Added decryption of some ELGG function parameters</li>
-            <li>Added module-base64(encode, decode)</li>
+            <li>Adapt to the new version of ELGG</li>
+            <li>Fix the issue of filter param</li>
+            <li>Add GG intrinsic func</li>
+            <li>Refactor logic and optimized Ui</li>
             </ul>
     author_name: HdShare
 me.hd.hookwzry:
