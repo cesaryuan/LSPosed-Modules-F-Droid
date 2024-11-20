@@ -1,0 +1,22 @@
+{
+  "repo": {
+    "timestamp": 1732073390000
+  },
+  "packages": {
+    "com.suisho.pixelposed": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.pixelposed",
+        "authorName": "NativeStar",
+        "summary": {
+          "en-US": "无限续命安卓Pixel客户端搜索结果热度排序7天试用"
+        },
+        "description": {
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/PixelPosed\">https://github.com/NativeStar/PixelPosed</a></p>\n<p>无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块</p>\n<p>(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)</p>\n<p>在Pixel版本 6.130.0 测试正常</p>\n<h3>使用方法</h3>\n<p>1:刷入LSPosed</p>\n<p>2:在LSPosed管理器中勾选作用域为Pixel</p>\n<p>3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效</p>\n"
+        }
+      }
+    }
+  }
+}
