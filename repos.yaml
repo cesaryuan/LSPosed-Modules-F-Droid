@@ -13309,6 +13309,20 @@ eu.faircode.xlua:
             <br>
             <p>All changes: <a class="commit-link" href="https://github.com/M66B/XPrivacyLua/compare/1.34...1.35">M66B/XPrivacyLua@<tt>1.34...1.35</tt></a></p>
     author_name: M66B
+fansirsqi.xposed.sesame:
+    git: https://github.com/Xposed-Modules-Repo/fansirsqi.xposed.sesame
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: Sesame-Normal-alpha-test.apk
+          id: fansirsqi.xposed.sesame
+          name: 芝麻粒-TK
+          last_updated: "2024-11-20T11:46:52Z"
+          releasedescription: <p>just test</p>
+    author_name: Fansirsqi
 fer.amiya.amiyahooks:
     git: https://github.com/Xposed-Modules-Repo/fer.amiya.amiyahooks
     summary: |-
