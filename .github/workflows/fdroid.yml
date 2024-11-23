@@ -13,7 +13,7 @@ on:
         description: "Maximum number of items to convert. Optional. Defaults to all."
         type: number
         required: false
-        default: 0 
+        default: 0
 
   schedule:
     - cron: "45 2 * * *"
@@ -82,10 +82,16 @@ jobs:
           sudo apt-get update
 
       - name: Cache apt packages
+        id: cache-apt-packages
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: fdroidserver
           version: "@latest"
+
+      - name: Install apt packages if cache fails
+        if: steps.cache-apt-packages.outcome != 'success'
+        run: |
+          sudo apt-get install -y fdroidserver
 
       - name: Set up Go
         uses: actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32 # v5.0.2
