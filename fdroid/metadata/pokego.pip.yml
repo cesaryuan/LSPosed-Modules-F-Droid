@@ -1,0 +1,39 @@
+AuthorName: auag0
+Categories:
+    - Xposed
+CurrentVersion: 1.1.0
+CurrentVersionCode: 2
+Description: |
+    <h1>PokeGOPip</h1>
+    <p>PokeGOPip is an Xposed module that enables Picture-in-Picture (PiP) mode in Pokémon GO, allowing you to play the game in a small, resizable overlay window. This feature can be useful for multitasking while keeping the game open, ideal for users who want to continue their Pokémon GO sessions while using other apps.</p>
+    <h2>Features</h2>
+    <ul>
+    <li>Enables Picture-in-Picture (PiP) mode in Pokémon GO</li>
+    <li>Allows users to continue playing while multitasking</li>
+    <li>Resizable, movable overlay window</li>
+    </ul>
+    <h2>Installation</h2>
+    <ol>
+    <li>Install <a href="https://repo.xposed.info/">Xposed</a> or <a href="https://github.com/LSPosed/LSPosed">LSPosed</a></li>
+    <li>Install <a href="https://github.com/auag0/PokeGOPip/releases/latest">PokeGOPip</a></li>
+    <li>Enable the module in Xposed/LSPosed</li>
+    <li>Select both <code>Pokémon GO</code> and <code>System Framework</code> in the scope settings
+    <ul>
+    <li>System Framework access is required to grant PiP permissions</li>
+    </ul>
+    </li>
+    <li>Reboot your device for the changes to take effect</li>
+    </ol>
+    <h2>Preview</h2>
+    <p><img src="preview/preview1.gif" alt="preview1" />
+    <img src="https://github.com/user-attachments/assets/0c71400e-6bc6-43c6-a270-81785dee5c27" alt="preview2" /></p>
+    <h2>My <a href="https://discord.gg/j2g97Cm9Kc">Discord</a> for japanese</h2>
+    <h2>Disclaimer</h2>
+    <p>This module is intended for personal use only and is not affiliated with or endorsed by Niantic, Inc., or The Pokémon Company. Use of this module may violate Pokémon GO’s terms of service. Use at your own risk.</p>
+    <hr />
+    <p>Enjoy multitasking with Pokémon GO in PiP mode!</p>
+IssueTracker: ""
+Name: PokeGO Pip
+SourceCode: https://github.com/Xposed-Modules-Repo/pokego.pip
+Summary: An xposed module to enable picture-in-picture in Pokemon GO
+WebSite: ""

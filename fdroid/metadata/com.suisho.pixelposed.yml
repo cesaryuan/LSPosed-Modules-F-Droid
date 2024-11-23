@@ -1,0 +1,19 @@
+AuthorName: NativeStar
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <p>源码:<a href="https://github.com/NativeStar/PixelPosed">https://github.com/NativeStar/PixelPosed</a></p>
+    <p>无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块</p>
+    <p>(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)</p>
+    <p>在Pixel版本 6.130.0 测试正常</p>
+    <h3>使用方法</h3>
+    <p>1:刷入LSPosed</p>
+    <p>2:在LSPosed管理器中勾选作用域为Pixel</p>
+    <p>3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效</p>
+IssueTracker: ""
+Name: PixelPosed
+SourceCode: https://github.com/Xposed-Modules-Repo/com.suisho.pixelposed
+Summary: 无限续命安卓Pixel客户端搜索结果热度排序7天试用
+WebSite: ""

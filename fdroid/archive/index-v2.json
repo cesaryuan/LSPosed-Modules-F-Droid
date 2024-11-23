@@ -14,7 +14,301 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1729999468000
+    "timestamp": 1732159688000
   },
-  "packages": {}
+  "packages": {
+    "com.close.hook.ads": {
+      "metadata": {
+        "added": 1732159442000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1732159600000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
+        "authorName": "zjyzip",
+        "name": {
+          "en-US": "AdClose"
+        },
+        "description": {
+          "en-US": "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>🌟 <strong>频道入口</strong>: @AdClose</p>\n"
+        },
+        "preferredSigner": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+      },
+      "versions": {
+        "fb1ec4368f271ba71a395898e39d7d5e4cf0468439db7f93a71c4ab230de076a": {
+          "added": 1732159600000,
+          "file": {
+            "name": "/com.close.hook.ads_20241101-2.1.1.apk",
+            "sha256": "fb1ec4368f271ba71a395898e39d7d5e4cf0468439db7f93a71c4ab230de076a",
+            "size": 3354098
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.1.1",
+            "versionCode": 20241101,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
+        "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672": {
+          "added": 1732159600000,
+          "file": {
+            "name": "/com.close.hook.ads_20241019-2.0.5.apk",
+            "sha256": "3529cd0c5b6ede0720828ba26fb28969f960acc646995a769f66b79580dbf672",
+            "size": 3358194
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.0.5",
+            "versionCode": 20241019,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.parallelc.micts": {
+      "metadata": {
+        "added": 1732159487000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1732159602000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
+        "authorName": "parallelcc",
+        "name": {
+          "en-US": "MiCTS"
+        },
+        "summary": {
+          "en-US": "在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
+        },
+        "description": {
+          "en-US": "<h1>MiCTS</h1>\n<p>简体中文  |  <a href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\">English</a></p>\n<p>在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能</p>\n<p><em>本应用只负责触发圈定即搜，无法处理触发成功后可能出现的问题</em></p>\n<h2>使用方法</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启自启动，关闭后台限制，将默认助理应用设置为Google</p>\n</li>\n<li>\n<p>安装并打开MiCTS</p>\n<ul>\n<li>如果幸运的话，在不用LSPosed的情况下，打开MiCTS就会直接触发圈定即搜</li>\n<li>如果没有反应，则需要在LSPosed里激活模块，在<a href=\"#%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE%E7%9A%84%E6%96%B9%E5%BC%8F\">MiCTS设置</a>里开启<code>Google机型伪装</code>后，强制重启Google</li>\n<li>如果还是没有反应，尝试清除Google的数据，然后打开Google，再强制重启Google</li>\n</ul>\n</li>\n<li>\n<p>设置触发方式</p>\n<ul>\n<li>打开MiCTS即可触发，因此可以利用其他软件，比如悬浮球、Xposed Edge、ShortX等，将动作设置为打开MiCTS，实现自定义触发方式</li>\n<li>MiCTS提供了一个触发磁贴，可将其添加到快速设置面板里，通过点击磁贴触发</li>\n<li>对于小米设备，MiCTS内置了长按小白条触发和长按Home键触发的功能，可以在MiCTS设置里开启（安装MiCTS后需要激活模块并重启手机才能使用）</li>\n</ul>\n</li>\n</ol>\n<h2>设置</h2>\n<h3>进入设置的方式</h3>\n<ul>\n<li>长按MiCTS应用图标，出现设置选项，点击进入</li>\n<li>从LSPosed模块页面，点击MiCTS，再点击设置图标进入</li>\n<li>长按快速设置面板的磁贴进入</li>\n</ul>\n<h3>应用设置</h3>\n<ul>\n<li>默认触发延迟：通过打开MiCTS触发的延迟</li>\n<li>磁贴触发延迟：通过点击快速设置面板的磁贴触发的延迟</li>\n</ul>\n<h3>模块设置</h3>\n<p>需要在LSPosed里激活模块</p>\n<ul>\n<li>\n<p>系统触发服务：触发所使用的系统服务，只会显示当前支持的选项，依赖作用域选择系统框架</p>\n<ul>\n<li>VIS：支持Android 9–15，需要将默认助理应用设置为Google，触发时屏幕边缘会闪，没有激活模块的情况下只能使用此服务</li>\n<li>CSHelper：支持Android 14 QPR3及以上，不需要设置默认助理应用，触发时屏幕边缘不会闪</li>\n</ul>\n</li>\n<li>\n<p>长按小白条触发：仅支持小米设备，依赖作用域选择系统桌面</p>\n</li>\n<li>\n<p>长按Home键触发：仅支持小米设备，依赖作用域选择系统框架</p>\n</li>\n<li>\n<p>Google机型伪装：依赖作用域选择Google</p>\n<ul>\n<li>制造商：修改Google读取到的ro.product.manufacturer</li>\n<li>品牌：修改Google读取到的ro.product.brand</li>\n<li>型号：修改Google读取到的ro.product.model</li>\n<li>设备：修改Google读取到的ro.product.device</li>\n</ul>\n</li>\n</ul>\n"
+        },
+        "preferredSigner": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+      },
+      "versions": {
+        "a38cf40876feee4f46b2d15e06c4cb5debb33a2f3906c788c3d1e0189780926b": {
+          "added": 1732159602000,
+          "file": {
+            "name": "/com.parallelc.micts_3-1.2.apk",
+            "sha256": "a38cf40876feee4f46b2d15e06c4cb5debb33a2f3906c788c3d1e0189780926b",
+            "size": 627982
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        },
+        "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a": {
+          "added": 1732159602000,
+          "file": {
+            "name": "/com.parallelc.micts_2-1.1.apk",
+            "sha256": "bfde33103202e643578fa350093b1767b2d318abf4cde666e290594412796e2a",
+            "size": 626638
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        },
+        "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0": {
+          "added": 1732159601000,
+          "file": {
+            "name": "/com.parallelc.micts_1-1.0.apk",
+            "sha256": "129d522210d9185d5cc51f7e5669ff5a9e2aa982758f934efa6b8ebe6a6224d0",
+            "size": 625150
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ru.bluecat.yandexmapspatcher": {
+      "metadata": {
+        "added": 1732159574000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1732159602000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
+        "authorName": "BlueCat300",
+        "name": {
+          "en-US": "Yandex Maps Patcher"
+        },
+        "summary": {
+          "en-US": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>Yandex Maps Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Скрывает рекламу и навязчивые сервисы в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Долгое нажатие на иконку профиля на главной</li>\n<li>Яндекс.Плюс для Android Auto и музыка включены всегда</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Список последних маршрутов поверх карты</li>\n<li>Контроль видимости сервисов на цветной навигационной панели</li>\n<li>Реклама</li>\n<li>Скрытие ленты историй, предложений, товаров в карточках организаций</li>\n<li>Список категорий на карточках зданий</li>\n<li>Управление видом поисковой строки</li>\n<li>Блокировка появления уведомлений и стартовых историй на главной</li>\n<li>Скрытие профиля с социальной сетью</li>\n<li>Управление дизайном истории поиска</li>\n</ul>\n<h3>Платные сервисы (скрытие):</h3>\n<ul>\n<li>Яндекс.Плюс</li>\n<li>Такси</li>\n<li>Заправки</li>\n<li>Парковки</li>\n</ul>\n<h3>Расположения баннеров:</h3>\n<ul>\n<li>Поисковые категории</li>\n<li>Поисковые запросы</li>\n<li>Всплывающие баннеры организаций при движении в режиме навигатора</li>\n<li>Карточки организаций / зданий</li>\n<li>Кнопка о покупке рекламы в карточке организации</li>\n<li>Горизонтальная кнопка в профиле о покупке рекламы</li>\n<li>Вызов такси</li>\n<li>Во время построения автомобильного маршрута</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.</li>\n<li>Доступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian cartographic service <a href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\">Yandex Maps</a>.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>\n"
+        },
+        "preferredSigner": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
+      },
+      "versions": {
+        "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da": {
+          "added": 1732159602000,
+          "file": {
+            "name": "/ru.bluecat.yandexmapspatcher_171-1.10.apk",
+            "sha256": "d048968b25cd0b06dce7d16a049591fa058787775029c6eaa2af08dbb0ac69da",
+            "size": 7854039
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.10",
+            "versionCode": 171,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.yandexmapspatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }
