@@ -87,6 +87,7 @@ jobs:
         with:
           packages: fdroidserver
           version: "@latest"
+        continue-on-error: true
 
       - name: Install apt packages if cache fails
         if: steps.cache-apt-packages.outcome != 'success'
