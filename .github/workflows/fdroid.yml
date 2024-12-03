@@ -76,10 +76,10 @@ jobs:
           repo=$(echo "${{ github.repository }}" | sed 's/\//\\\//g')
           sed -i "s/\[GithubRepo\]/$repo/g" fdroid/config.yml
 
-      - name: Add apt repository
-        run: |
-          sudo add-apt-repository ppa:fdroid/fdroidserver
-          sudo apt-get update
+      # - name: Add apt repository
+      #   run: |
+      #     sudo add-apt-repository ppa:fdroid/fdroidserver
+      #     sudo apt-get update
 
       - name: Cache apt packages
         id: cache-apt-packages
