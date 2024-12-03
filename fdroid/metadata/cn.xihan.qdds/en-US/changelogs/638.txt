@@ -1,0 +1,38 @@
+## [3.2.6](https://github.com/xihan123/QDReadHook/compare/v3.2.5...v3.2.6) (2024-11-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* 提高最低支持的版本为`7.9.374-1416`
+
+### Features
+
+* **option:** 更新选项实体并添加新功能 ([c7303af](https://github.com/xihan123/QDReadHook/commit/c7303afa162e57deffbfa4d5355173f4832ce011))
+* **read:** 增加隐藏标签推荐和相关推荐功能 ([0ea3160](https://github.com/xihan123/QDReadHook/commit/0ea31603a4d3ed002a209a2132256e3afeac508d))
+* **广告设置:** 更新阅读页面广告拦截功能 ([32c9328](https://github.com/xihan123/QDReadHook/commit/32c93282da7e6d5c2d66eedc497656dd3806ac70))
+* 提高最低支持的版本为`7.9.374-1416` ([3bbb523](https://github.com/xihan123/QDReadHook/commit/3bbb523b1b2d34b8f5baa1b906b8b55413cb701f))
+
+
+### Docs
+
+* **changelog:** 更新 CHANGELOG.md 文件 ([b36c75c](https://github.com/xihan123/QDReadHook/commit/b36c75c90f9784129c3c44e818753c1417ded67a))
+* **README:** 更新文档内容 ([0275826](https://github.com/xihan123/QDReadHook/commit/02758260056d994f6714ce367523baed5ab0fe83))
+
+
+### Miscellaneous
+
+* **master:** release 3.2.5 ([538bffe](https://github.com/xihan123/QDReadHook/commit/538bffe90ff21fee4e96e25808bfbcdf7418b187))
+
+
+### Refactoring
+
+* **app:** 优化 HookEntry 类并添加新功能 ([cc40e94](https://github.com/xihan123/QDReadHook/commit/cc40e948f865b757cbf9114434f04afbc97af27d))
+* **gradle:** 优化JVM参数 ([dfc2747](https://github.com/xihan123/QDReadHook/commit/dfc274779983286fa4bd1cb393cb305e502aeee1))
+* **ViewHide:** 优化搜索包路径配置 ([3ccac3b](https://github.com/xihan123/QDReadHook/commit/3ccac3b9f2fe03aefab7b5df5246b443dc7355ce))
+
+
+### Build
+
+* **deps:** 更新依赖库版本 ([0d1f5e8](https://github.com/xihan123/QDReadHook/commit/0d1f5e87e8368ce2e7e646f299fe707892ce9286))
+* **release:** 更新发布版本 ([7df4d1d](https://github.com/xihan123/QDReadHook/commit/7df4d1d3f3704003dac1c51be92e231cbac11ba7))
+* 更新Gradle版本至8.11 ([0472412](https://github.com/xihan123/QDReadHook/commit/047241253afe2e9415e309b6d83713161d6e2ac3))

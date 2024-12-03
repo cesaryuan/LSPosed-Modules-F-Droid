@@ -1,0 +1,28 @@
+AuthorName: ghhccghk
+Categories:
+    - Xposed
+CurrentVersion: 1.0.1
+CurrentVersionCode: 1
+Description: |
+    <h2><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1" alt="GitHub releases" /> <img src="https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square" alt="Release Download" /> <a href="https://github.com/ghhccghk/mhspay/releases/latest"><img src="https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square" alt="Release Version" /></a><br />
+    <a href="https://github.com/ghhccghk/mhspay/LICENSE.md"><img src="https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square" alt="GitHub license" /></a><br />
+    <a href="https://github.com/ghhccghk/mhspay/stargazers"><img src="https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square" alt="GitHub Star" /></a> <a href="https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1" alt="GitHub Star" /></a>
+    <a href="https://github.com/ghhccghk/mhspay/network/members"><img src="https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square" alt="GitHub Fork" /></a></h2>
+    <p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>
+    <h1>完整使用说明/GitHub项目</h1>
+    <h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>
+    <p><a href="https://github.com/ghhccghk/mhspay">https://github.com/ghhccghk/mhspay</a></p>
+    <h2>输入的密码会不会被窃取？</h2>
+    <h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>
+    <h2>关于</h2>
+    <h3>讨论交流</h3>
+    <p>去<a href="https://github.com/ghhccghk/mhspay">这里</a>的Issue 交流</p>
+    <h3>关于转载</h3>
+    <p>该模块仅在Xposed module repo官方仓库发布</p>
+    <h3>使用守则</h3>
+    <p>严禁在公开区域宣传与展示本软件！</p>
+IssueTracker: ""
+Name: 米画师支付模块
+SourceCode: https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger
+Summary: 米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()
+WebSite: ""
