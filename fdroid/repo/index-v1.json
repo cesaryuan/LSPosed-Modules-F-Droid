@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1732159699000,
+    "timestamp": 1733214407000,
     "version": 20002
   },
   "requests": {
@@ -236,7 +236,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e支付宝装X模块\u003c/h1\u003e\n\u003cp\u003eXposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.\u003c/p\u003e\n\u003cp\u003e这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。\u003c/em\u003e\u003c/p\u003e\n\u003ch3\u003e界面\u003c/h3\u003e\n\u003cp\u003e得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。\u003c/p\u003e\n\u003cp\u003e另外觉得好用请右上角Star ❥这个Repo，^_^\u003c/p\u003e\n\u003ch3\u003e版本\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e版本\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e最后更新时间\u003c/th\u003e\n\u003cth\u003e是否可用\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e余额宝修改及收益自动计算、 自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;=10.0.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;10.2.33\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.3.0\u003c/td\u003e\n\u003ctd\u003e仅钻石付款背景\u003c/td\u003e\n\u003ctd\u003e2021.09\u003c/td\u003e\n\u003ctd\u003e所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤\u003c/td\u003e\n\u003ctd\u003e2022.01\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.2\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.09\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.5.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.11\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e快速手机修改背景步骤\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。\u003c/li\u003e\n\u003cli\u003e打开支付宝付款码即可看到效果如图。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003e其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e自定义皮肤说明（手动模式）\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e手动下载DEMO资源包，放入SD卡对应程序文件目录。(\u003cstrong\u003e[SD CARD]\u003c/strong\u003e\n\\Android\\media\\com.eg.android.AlipayGphone)\u003c/li\u003e\n\u003cli\u003e如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）\u003c/li\u003e\n\u003cli\u003e**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e目录结构说明（手动模式及自定义修改需了解）\u003c/h3\u003e\n\u003cp\u003e以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e命名\u003c/th\u003e\n\u003cth\u003e含义\u003c/th\u003e\n\u003cth\u003e是否目录\u003c/th\u003e\n\u003cth\u003e手动创建\u003c/th\u003e\n\u003cth\u003e作用后文件消失\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eactived\u003c/td\u003e\n\u003ctd\u003e开启自定义皮肤功能\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eupdate\u003c/td\u003e\n\u003ctd\u003e触发支付宝增量自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003edelete\u003c/td\u003e\n\u003ctd\u003e触发支付宝删除自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eexport\u003c/td\u003e\n\u003ctd\u003e导出支付宝拥有皮肤\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称目录\u003c/td\u003e\n\u003ctd\u003e自定义皮肤文件夹\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称文件\u003c/td\u003e\n\u003ctd\u003e无作用\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cblockquote\u003e\n\u003cp\u003e通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e触发仅在展示二维码时有效\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eexport文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003ch2\u003e更新历史\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"Updates.md\"\u003e更新历史\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e【作者自用】\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e支付宝装X模块\u003c/h1\u003e\n\u003cp\u003eXposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.\u003c/p\u003e\n\u003cp\u003e这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。\u003c/em\u003e\u003c/p\u003e\n\u003ch3\u003e界面\u003c/h3\u003e\n\u003cp\u003e得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。\u003c/p\u003e\n\u003cp\u003e另外觉得好用请右上角Star ❥这个Repo，^_^\u003c/p\u003e\n\u003ch3\u003e版本\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e版本\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e最后更新时间\u003c/th\u003e\n\u003cth\u003e是否可用\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e余额宝修改及收益自动计算、 自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;=10.0.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;10.2.33\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.3.0\u003c/td\u003e\n\u003ctd\u003e仅钻石付款背景\u003c/td\u003e\n\u003ctd\u003e2021.09\u003c/td\u003e\n\u003ctd\u003e所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤\u003c/td\u003e\n\u003ctd\u003e2022.01\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.2\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.09\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.5.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.11\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e快速手机修改背景步骤\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。\u003c/li\u003e\n\u003cli\u003e打开支付宝付款码即可看到效果如图。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003e其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e自定义皮肤说明（手动模式）\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e手动下载DEMO资源包，放入SD卡对应程序文件目录。(\u003cstrong\u003e[SD CARD]\u003c/strong\u003e\n\\Android\\media\\com.eg.android.AlipayGphone)\u003c/li\u003e\n\u003cli\u003e如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）\u003c/li\u003e\n\u003cli\u003e**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e目录结构说明（手动模式及自定义修改需了解）\u003c/h3\u003e\n\u003cp\u003e以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e命名\u003c/th\u003e\n\u003cth\u003e含义\u003c/th\u003e\n\u003cth\u003e是否目录\u003c/th\u003e\n\u003cth\u003e手动创建\u003c/th\u003e\n\u003cth\u003e作用后文件消失\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eactived\u003c/td\u003e\n\u003ctd\u003e开启自定义皮肤功能\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eupdate\u003c/td\u003e\n\u003ctd\u003e触发支付宝增量自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003edelete\u003c/td\u003e\n\u003ctd\u003e触发支付宝删除自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eexport\u003c/td\u003e\n\u003ctd\u003e导出支付宝拥有皮肤\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称目录\u003c/td\u003e\n\u003ctd\u003e自定义皮肤文件夹\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称文件\u003c/td\u003e\n\u003ctd\u003e无作用\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cblockquote\u003e\n\u003cp\u003e通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e触发仅在展示二维码时有效\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eexport文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003ch2\u003e更新历史\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\"\u003e源代码\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e【作者自用】\u003c/p\u003e\n",
       "icon": "im.hoho.alipayInstallB.png",
       "lastUpdated": 1728865749000,
       "license": "Unknown",
@@ -983,6 +983,17 @@
       "suggestedVersionName": "1.0"
     },
     {
+      "added": 1733214171000,
+      "categories": [
+        "fdroid"
+      ],
+      "lastUpdated": 1733214171000,
+      "license": "Unknown",
+      "name": "categories",
+      "packageName": "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2",
+      "suggestedVersionCode": "2147483647"
+    },
+    {
       "added": 1723861533000,
       "authorName": "catsmoker",
       "categories": [
@@ -1025,6 +1036,27 @@
       "suggestedVersionCode": "130",
       "suggestedVersionName": "1.3.130_20231101",
       "summary": "让 MIUI 再次伟大！\nMake MIUI Great Again!"
+    },
+    {
+      "added": 1733149308000,
+      "authorName": "Tonyha7",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eCGSportBypass\u003c/h1\u003e\n\u003ch3\u003e某校园跑APP辅助模块\u003c/h3\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cpre\u003e\u003ccode\u003e绕过大多数检测(如某虚拟定位软件，Xposed，Frida等)\n伪造安卓id\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cpre\u003e\u003ccode\u003e2.9.8\n3.0.0\n\u003c/code\u003e\u003c/pre\u003e\n",
+      "lastUpdated": 1733149308000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "**Full Changelog**: https://github.com/Tonyha7/CGSportBypass/compare/1.1...1.1.1\n\n[APP下载 提取码:PnFn](https://www.123684.com/s/kHtA-BowN)"
+        }
+      },
+      "name": "CGSportBypass",
+      "packageName": "com.th7.cgsportbypass",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.th7.cgsportbypass",
+      "suggestedVersionCode": "111",
+      "suggestedVersionName": "1.1.1",
+      "summary": "某高校园跑APP辅助模块"
     },
     {
       "added": 1678390980000,
@@ -1223,25 +1255,25 @@
       "summary": "Disable signature verification\n版本降级,签名不一致,签名错误的apk都能安装"
     },
     {
-      "added": 1727197808000,
+      "added": 1732472632000,
       "authorName": "tomakino",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/tomakino/CSLyric/image?description=1\u0026amp;descriptionEditable=%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%8A%B6%E6%80%81%E6%A0%8F%E6%98%BE%E7%A4%BA%E6%AD%8C%E8%AF%8D%E7%9A%84Xposed%E6%A8%A1%E5%9D%97\u0026amp;font=Jost\u0026amp;language=1\u0026amp;name=1\u0026amp;owner=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"HEAD\" /\u003e\n\u003cimg src=\"demo.png\" alt=\"图片\" /\u003e\u003c/p\u003e\n\u003ch2\u003e已支持软件\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e名称\u003c/th\u003e\n\u003cth align=\"right\"\u003e基于版本\u003c/th\u003e\n\u003cth\u003e歌词提供方式\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eQQ音乐\u003c/td\u003e\n\u003ctd align=\"right\"\u003e13.6.5.8\u003c/td\u003e\n\u003ctd\u003eHook\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e网易云音乐\u003c/td\u003e\n\u003ctd align=\"right\"\u003e9.1.05\u003c/td\u003e\n\u003ctd\u003e魅族状态栏歌词\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e酷狗音乐\u003c/td\u003e\n\u003ctd align=\"right\"\u003e12.3.6\u003c/td\u003e\n\u003ctd\u003eHook\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSalt Player\u003c/td\u003e\n\u003ctd align=\"right\"\u003e10.4.3\u003c/td\u003e\n\u003ctd\u003e魅族状态栏歌词\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eApple Music\u003c/td\u003e\n\u003ctd align=\"right\"\u003e4.8.0\u003c/td\u003e\n\u003ctd\u003eHook\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e酷我音乐\u003c/td\u003e\n\u003ctd align=\"right\"\u003e10.9.1.1\u003c/td\u003e\n\u003ctd\u003e车载蓝牙歌词\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e酷狗音乐概念版\u003c/td\u003e\n\u003ctd align=\"right\"\u003e3.5.2\u003c/td\u003e\n\u003ctd\u003e车载蓝牙歌词\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eRepo\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.makino.cslyric\"\u003ehttps://github.com/Xposed-Modules-Repo/com.makino.cslyric\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e主页\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/tomakino/CSLyric/\"\u003ehttps://github.com/tomakino/CSLyric/\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.makino.cslyric.png",
-      "lastUpdated": 1727197808000,
+      "lastUpdated": 1732472632000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "首次提交"
+          "whatsNew": "- 适配Android15\n- 适配留声机\n- 适配ColorOS流体云\n- 更好的动画系统\n- 更好的界面"
         }
       },
       "name": "CSLyric - 状态栏歌词",
       "packageName": "com.makino.cslyric",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.makino.cslyric",
-      "suggestedVersionCode": "7",
-      "suggestedVersionName": "0.2.6",
+      "suggestedVersionCode": "11",
+      "suggestedVersionName": "3.0-beta",
       "summary": "状态栏歌词"
     },
     {
@@ -2258,6 +2290,26 @@
       "summary": "Fuck coolapk again"
     },
     {
+      "added": 1692459153000,
+      "authorName": "inory121",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eFuckDDVip\u003c/h1\u003e\n\u003cp\u003e解锁嘀嘀动漫VIP功能\u003c/p\u003e\n",
+      "lastUpdated": 1692459153000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "使用lsposed或其他xposed框架安装\n原版嘀嘀下载地址 http://dddh.pub/\n模块安装包https://hiiro.lanzouw.com/iqwBt15uweve 密码:8paa\n内置模块嘀嘀安装包 https://hiiro.lanzouw.com/imNjo15uwf3c 密码:bmt4"
+        }
+      },
+      "name": "FuckDDVip",
+      "packageName": "com.hiiro.fuckddvip",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hiiro.fuckddvip",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0.0"
+    },
+    {
       "added": 1675579993000,
       "authorName": "liyafe1997",
       "categories": [
@@ -2647,24 +2699,24 @@
       "summary": "All-in-one complex module for devices running vanilla Android 11 (R)"
     },
     {
-      "added": 1729096890000,
+      "added": 1732463993000,
       "authorName": "Xposed-Modules-Repo",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eHachidori\u003c/h1\u003e\n\u003cp\u003eA X (formerly Twitter) Xposed modules.\u003c/p\u003e\n\u003ch1\u003eRequirements\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eLSPosed v1.9.2 (7024) (Rooted Android only) and above\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1729096890000,
+      "lastUpdated": 1732463993000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# Changes\n\n- Update Chinese Simplified and Japanese language\n- Fix Google Ads showing up in replies\n- Fix `Unlock Local Premium` for `v10.64.0-alpha.3`\n- Added `Disable SNI` feature\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above\n\nLong press X icon on top of the home screen or tap version in about section to access settings.\n\nPlease DO NOT tweet/post anything about this module at Twitter/X."
+          "whatsNew": "# Changes\n\n- update Chinese Traditional\n- fix Google Ads again\n- minor bug fixes\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above\n\nLong press X icon on top of the home screen or tap version in about section to access settings.\n\nPlease DO NOT tweet/post anything about this module at Twitter/X."
         }
       },
       "name": "Hachidori",
       "packageName": "com.twifucker.hachidori",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
-      "suggestedVersionCode": "21",
-      "suggestedVersionName": "0.21",
+      "suggestedVersionCode": "22",
+      "suggestedVersionName": "0.22",
       "summary": "A X (formerly Twitter) Xposed modules."
     },
     {
@@ -3416,7 +3468,7 @@
     },
     {
       "added": 1701857823000,
-      "authorName": "XingLiAl",
+      "authorName": "LiAlH4qwq",
       "categories": [
         "Xposed"
       ],
@@ -3567,25 +3619,25 @@
       "summary": "Hide chats in the Telegram messenger"
     },
     {
-      "added": 1729940130000,
+      "added": 1733043531000,
       "authorName": "luckyzyx",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eLuckyTool\u003c/h1\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\"\u003eEnglish\u003c/a\u003e  丨 简体中文\u003c/b\u003e\n\u003c/p\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/LuckyTool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e   \n\u003ca href=\"https://crowdin.com/project/luckytool\"\u003e\u003cimg alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"\u003e\u003c/a\u003e\n\u003cp\u003e对ColorOS系统进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003cp\u003e禁止引流、搬运、转载、售卖、分享、分流\u003c/p\u003e\n\u003cp\u003e提倡授之以渔，切莫授之以鱼\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能请求与BUG反馈\u003c/h2\u003e\n\u003cp\u003e请前往TG群组进行反馈交流\u003c/p\u003e\n\u003cdiv align=\"left\"\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\"\u003e更新日志\u003c/a\u003e | \u003ca href=\"https://crwd.in/luckytool\"\u003e参与翻译\u003c/a\u003e\u003c/b\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e作用域优化\u003c/h2\u003e\n\u003cp\u003e升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化\u003c/p\u003e\n\u003cp\u003e例如：开发者选项通知，则重新优化系统界面（\u003c/p\u003e\n\u003ch2\u003e模块违规条例解析\u003c/h2\u003e\n\u003cp\u003e引流：包括但不限于快手、抖音、公众号等引流行为\u003c/p\u003e\n\u003cp\u003e售卖：免费模块，不再解释\u003c/p\u003e\n\u003cp\u003e搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能\u003c/p\u003e\n\u003cp\u003e开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)\u003c/p\u003e\n\u003cp\u003e注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规\u003c/p\u003e\n\u003cp\u003e违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜\u003c/p\u003e\n\u003ch2\u003eXposed API\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.luckyzyx.luckytool.png",
-      "lastUpdated": 1729940130000,
+      "lastUpdated": 1733043531000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n- [添加] 作用域功能支持搜索跳转\n- [添加] 自动点击开始录制或投射对话框\n- [修复] 指纹图标Hook异常 C15\n- [适配] 应用分身黑名单 C14+\n"
+          "whatsNew": "## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n\n- [修复] 分身 App 浮窗贴边显示异常 C14+\n- [适配] 浮窗贴边后台运行 C15\n- [移除] 浮窗回复白名单 C15\n- [适配] 控制中心分离模式"
         }
       },
       "name": "LuckyTool Xposed 免费模块",
       "packageName": "com.luckyzyx.luckytool",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
-      "suggestedVersionCode": "17333",
-      "suggestedVersionName": "1.2.5",
+      "suggestedVersionCode": "17737",
+      "suggestedVersionName": "1.2.6",
       "summary": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
     },
     {
@@ -4538,24 +4590,24 @@
       "summary": "Bring back KeyChain.createInstallIntent's old behavior to Android 11+"
     },
     {
-      "added": 1731610344000,
+      "added": 1733040919000,
       "authorName": "lovejiuwu",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNewHookVip\u003c/h1\u003e\n\u003cp\u003e用于解锁部分App会员以及添加一些拓展功能的Xposed模块\u003c/br\u003e(重构自HookVip)\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTelegram\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/HookVipCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://t.me/HookVipChat\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1731610344000,
+      "lastUpdated": 1733040919000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## 新增\n\n+ **美册视频制作** 解锁至尊永久会员 全版本通杀\n+ **AppShare** 自动签到/移除开屏广告 全版本通杀\n+ **瞬译** 解锁高级版 全版本通杀\n+ **墨迹天气** 解锁终身会员 全版本通杀\n+ **ES文件浏览器** 解锁会员 全版本通杀\n+ **虚拟大师** 解锁订阅 全版本通杀\n+ **滴答清单** 解锁会员 全版本通杀\n+ **WPS Office** 解锁Pro 全版本通杀(Play版)\n+ **锤子便签** 去广告(ai不可用 为服务器功能) 全版本通杀\n+ **岸听音乐** 解锁会员 全版本通杀\n+ **七猫免费小说** 解锁会员/去广告 全版本通杀\n+ **爱笔思画X** 解锁高级会员 全版本通杀\n+ **ShortX** 解锁高级版 全版本通杀\n\n## 拓展\n\n+ **去除VPN检测**\n+ **网易游戏** Android强制登录IOS\n+ **replaceSu+** 自定义su指令\n+ **快手** 解析视频/图集 全版本通杀(分享\u003e复制链接\u003e解析)\n+ **快手极速版** 解析视频/图集 全版本通杀(分享\u003e复制链接\u003e解析)\n\n"
+          "whatsNew": "### 新增\n\n+ **SelfyzAI** 解锁会员/无限积分(内置账号) 全版本通杀\n+ **傲软投屏** 解锁永久会员/无限云投屏时长 全版本通杀\n+ **哔哩哔哩** 解锁画质 适配范围需自测\n+ **冰箱** 解锁高级版 全版本通杀\n\n### 拓展\n\n+ **biubiu加速器** 自动领取加速时长/去除root检测/去开屏广告(功能开关在个人信息页) 全版本通杀\n\n### 修复\n\n+ **AppShare** 自动签到闪退\n+ **免root框架** 无法加载模块\n+ **ApiService** 抛出 ```Crash unexpectedly: java.lang.RuntimeException: android.os.NetworkOnMainThreadException```导致的部分应用失效\n\n### 适配\n\n+ **岸听音乐(com.szxinlianyun.yunjx.dagge)** 解锁会员 全版本通杀\n\n### 调整\n\n+ **快手/快手极速版** 支持免root框架(仅本地模式)"
         }
       },
       "name": "NewHookVip",
       "packageName": "top.hookvip.pro",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
-      "suggestedVersionCode": "20241115",
-      "suggestedVersionName": "4.0.2",
+      "suggestedVersionCode": "20241201",
+      "suggestedVersionName": "4.0.3",
       "summary": "解锁部分APP高级版及添加拓展功能"
     },
     {
@@ -5243,25 +5295,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1731468827000,
+      "added": 1732506390000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1731468827000,
+      "lastUpdated": 1732506390000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[修复]已知问题\n[适配]Soul最新版"
+          "whatsNew": "[新增]抖音,抖音极速版 快捷操作 不喜欢该视频\n[修复]已知部分BUG"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7130",
-      "suggestedVersionName": "7.5.4",
+      "suggestedVersionCode": "7133",
+      "suggestedVersionName": "7.5.7",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -5374,14 +5426,14 @@
       "summary": "A module to edit your statusbar.\ndownload and enjoy it!😘"
     },
     {
-      "added": 1729341968000,
+      "added": 1732159540000,
       "authorName": "NextAlone",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1\u003e QAuxiliary \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/cinit/QAuxiliary.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/cinit/QAuxiliary/actions/workflows/push_ci.yml\"\u003e\u003cimg src=\"https://github.com/cinit/QAuxiliary/actions/workflows/push_ci.yml/badge.svg\" alt=\"main\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliary\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliary_CI\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=CI\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliaryChat\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Chat\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003cp\u003eQAuxiliary 是一个基于 QNotified 的开源 Xposed 模块\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e激活本模块后，在 QQ 或者 TIM 自带设置中点击 QAuxiliary 即可进入设置页面\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid \u0026gt;= 7.0\u003c/li\u003e\n\u003cli\u003eQQ \u0026gt;= 8.0.0, TIM \u0026gt;= 2.2.0, QQLite \u0026gt;= 4.0, QQ HD \u0026gt;= 5.9.3\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e一切开发旨在学习，请勿用于非法用途\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e本项目保证永久开源，欢迎提交 PR，但是请不要提交用于非法用途的功能。\u003c/li\u003e\n\u003cli\u003e如果某功能被大量运用于非法用途或严重侵害插件使用者权益，那么该功能将会被移除。\u003c/li\u003e\n\u003cli\u003e本模块完全免费开源，没有任何收费，请勿二次贩卖。\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e许可证\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gnu.org/licenses/agpl-3.0.html\"\u003eAGPL-3.0\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003eCopyright (C) 2019-2022 qwq233@qwq2333.top\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as\npublished by the Free Software Foundation, either version 3 of the\nLicense, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see \u0026lt;http://www.gnu.org/licenses/\u0026gt;.\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/app/src/main/assets/eula.md\"\u003eEULA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003e版权所有©2022 gao_cai_sheng \u0026lt;qwq233@qwq2333.top, qwq2333.top\u0026gt;\n\n允许在其遵守CC BY-NC-SA 4.0协议的同时，每个人复制和分发此许可证文档的逐字记录副本，且允许对其进行更改，但必须保留其版权信息与原作者。\n请务必仔细阅读和理解 QAuxiliary 最终用户许可协议中规定的所有权利和限制。在使用前，您需要仔细阅读并决定接受或不接受本协议的条款。除非或直至您接受本协议的条款，否则本软件及其相关副本、相关程序代码或相关资源不得在您的任何终端上下载、安装或使用。\n您一旦下载、使用本软件及其相关副本、相关程序代码或相关资源，即表示您同意接受本协议各项条款的约束。如您不同意本协议中的条款，您则应当立即删除本软件、附属资源及其相关源代码。\n本软件权利只许可使用，而不出售。\n本协议与GNU Affero通用公共许可证(即AGPL协议)共同作为本软件与您的协议，且本协议与AGPL协议的冲突部分均按照本协议约束。您必须同时同意并遵守本协议与AGPL协议，否则，您应立即卸载、删除本软件、附属资源及其相关源代码。\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e发行渠道说明\u003c/h2\u003e\n\u003cdetails\u003e\n\u003cp\u003eQAuxiliary 采用滚动更新方式发布新版本，我们总是推荐用户使用最新版 QAuxiliary，无论您的 QQ 或者 TIM 客户端是哪个版本。\u003c/p\u003e\n\u003cp\u003eQAuxiliary 将为分 \u003ccode\u003eCI\u003c/code\u003e 和 \u003ccode\u003e推荐的CI\u003c/code\u003e 两个版本\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003eCI\u003c/code\u003e 版本为 commit 后自动触发更新，可能包含外围文档或 CI 流程更新，不会编写任何更新文档或说明，\n具体更新内容可在\u003ca href=\"https://github.com/cinit/QAuxiliary/commits/master\"\u003eGithub\u003c/a\u003e\n自行查看，本更新由开源的流程自动编译发布，可能包含严重的功能及行为异常。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003e推荐的CI\u003c/code\u003e 版本为重大功能变更或长期积累更新，发布频率由开发组决定，包含上次\u003ccode\u003eCI\u003c/code\u003e\n版至今的所有功能更新及 Bug 修复，但可能不包括尚未稳定或正在开发中的功能；\n\u003ccode\u003e推荐的CI\u003c/code\u003e 版本是被挑选出的推荐用户更新的 \u003ccode\u003eCI\u003c/code\u003e 版本 (如：添加功能或者修复重要 Bug)\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e开发组不限制用户选择自己需要的版本，同时也不为任何版本产生的任何后果承担任何责任\n（详情请见\u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/app/src/main/assets/eula.md\"\u003eQAuxiliary EULA\u003c/a\u003e），\n但希望各位用户各取所需，根据自己的能力范围选择适合自己的版本。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eQAuxiliary 的版本号组成为\u003ccode\u003emajor.minor.bugfix.rev.commit\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e其中 major 为 主版本号，minor 为 次版本号，bugfix 为修正版本号；\u003c/li\u003e\n\u003cli\u003e所有版本更新的\u003ccode\u003erev\u003c/code\u003e为 commit 计数，\u003ccode\u003ecommit\u003c/code\u003e 位都会是触发此次更新的 commit 的 hash 的前 7 位。\u003c/li\u003e\n\u003c/ul\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/QAuxiliary\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=QAuxiliary%E9%A2%91%E9%81%93\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e 将只发布 \u003ccode\u003e推荐的CI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/QAuxiliary_CI\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=QAuxiliary_CI%E9%A2%91%E9%81%93\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e 发布 \u003ccode\u003eCI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/cinit/QAuxiliary.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e 将只发布 \u003ccode\u003e推荐的CI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.qauxv/releases/\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-ClickMe-blue?link=https://github.com/Xposed-Modules-Repo/io.github.qauxv/releases/\" alt=\"\" /\u003e\u003c/a\u003e 将发布所有版本更新，其中\u003ccode\u003eCI\u003c/code\u003e版本更新将被标注为 Pre-release。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/details\u003e\n\u003ch2\u003e不会支持的功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e抢红包及其他金钱相关功能\u003c/li\u003e\n\u003cli\u003e修改聊天记录等可能被恶意利用的功能\u003c/li\u003e\n\u003cli\u003e群发消息\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e编译\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e安装 git, ccache(可选), cmake, SDK 和 NDK, 版本参考 \u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/build-logic/convention/src/main/kotlin/Version.kt\"\u003eVersion.kt\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003e将本仓库 clone 至本地，本仓库含有 git submodule 所以请使用 git clone 而不是下载源代码压缩包；\u003c/li\u003e\n\u003cli\u003e拉取 MMKV, DexKit 等子模块, \u003ccode\u003egit submodule init \u0026amp;\u0026amp; git submodule update --recursive\u003c/code\u003e;\u003c/li\u003e\n\u003cli\u003e使用 Gradle 编译安装包。\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr /\u003e\n\u003ch2\u003e赞助\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e由于项目的特殊性，我们不接受任何形式的捐赠，但是我们希望有更多的人能够参与本项目的开发\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/qwq233/License/blob/master/v2/LICENSE.md\"\u003e通用许可协议\u003c/a\u003e\u003c/h2\u003e\n",
       "icon": "io.github.qauxv.png",
-      "lastUpdated": 1729341968000,
+      "lastUpdated": 1732159540000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -5418,25 +5470,31 @@
       "summary": "自动更换QQ头像"
     },
     {
-      "added": 1730653985000,
+      "added": 1732366735000,
       "authorName": "xihan123",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/xihan123/QDReadHook/image?description=1\u0026amp;font=Inter\u0026amp;forks=1\u0026amp;issues=1\u0026amp;language=1\u0026amp;logo=https%3A%2F%2Ft3.picb.cc%2F2023%2F05%2F30%2FIj8tn6.png\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Plus\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Light\" alt=\"QDReadHook\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/badge/Android-8.0%20or%20above-brightgreen.svg\" alt=\"above\" /\u003e\n\u003ca href=\"https://github.com/xihan123/QDReadHook/actions/workflows/build.yml\"\u003e\u003cimg src=\"https://github.com/xihan123/QDReadHook/actions/workflows/build.yml/badge.svg\" alt=\"Android CI\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/xihan123/QDReadHook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release/xihan123/QDReadHook.svg\" alt=\"Latest Release\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/xihan123/QDReadHook/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/cn.xihan.qdds/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.xihan.qdds/total?label=LSPosed%20Repo\u0026amp;logo=Android\u0026amp;style=flat\u0026amp;labelColor=F48FB1\u0026amp;logoColor=ffffff\" alt=\"Blank\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003e\u003cimg src=\"https://img.shields.io/github/license/xihan123/QDReadHook.svg\" alt=\"license\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e起点阅读 Xp模块\u003c/h2\u003e\n\u003ch3\u003e注意事项\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e使用前注意给予起点存储权限\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e设置页面在:起点-\u0026gt;我的-\u0026gt;左上角设置-\u0026gt;阅读设置/模块设置(长按)(1.1.2+)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e由于 \u003ca href=\"https://jihulab.com/\"\u003e极狐Gitlab\u003c/a\u003e 封禁导致 \u003ca href=\"https://jihulab.com/xihan123/QDReadHook\"\u003e极狐Gitlab-QDReadHook\u003c/a\u003e 我已无权限更改，该仓库内容已过时\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e支持版本范围\u003c/h3\u003e\n\u003cp\u003e暂时提高版本号范围以支持一些不容易改变的类\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e758~768、772、776、780、784、788、792、796\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e800、804、808、812、827、834、842、843、850、854、858、860、868、872、878、884、890、896\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e900、906、916、924、932、938、944、950、958、970、980、994\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e1005、1020、1030 ~ 1105、1106 ~ 1146、1196 ~ 1299\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e1296\u003c/del\u003e 1336 ~ 1499\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e配置文件路径\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.2.7+ 配置文件路径为 “/sdcard/Download/QDReader”,会自行移动原配置文件并删除原配置文件目录,注意原配置文件目录不要有重要文件\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e共存包名设定\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e共存包名设定需要在原始包名后面增改(直接共存内置版即可)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e起点下载地址\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e\u003ca href=\"https://xihan.lanzouv.com/b0413c6he\"\u003e支持的版本合集蓝奏云\u003c/a\u003e 密码:xihan\u003c/del\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  不再提供内置版，如有需要自行制作\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.coolapk.com/apk/5066/\"\u003e酷安\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.yuewen.com/app.html#appqd\"\u003e官方网站\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e模块下载地址:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/xihan123/QDReadHook/releases\"\u003ereleases\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://xihan.lanzouj.com/b042w7oqb\"\u003e蓝奏云\u003c/a\u003e 密码:9ikq\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e交流群\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/+tHAFB7FQKHdiYjU9\"\u003eTG防失联交流群\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eQD模块交流群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot\u0026amp;jump_from=webapi\u0026amp;authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"\u003e963079548\u003c/a\u003e \u003ca target=\"_blank\" href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot\u0026jump_from=webapi\u0026authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"\u003e\u003cimg border=\"0\" src=\"//pub.idqqimg.com/wpa/images/group.png\" alt=\"QD模块交流群\" title=\"QD模块交流群\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e声明\u003c/h3\u003e\n\u003cpre\u003e\u003ccode\u003e各位用户\n\n我们必须立即停止在任何公共平台上宣传 QDReadHook 项目，以及在非 QD 模块的群组内讨论相关内容\n\n这是为了保护整个项目和作者不受潜在风险的必要措施\n\n请明白，如果我们发现项目继续被公开讨论和传播，我们将不得不采取行动，包括但不限于关闭仓库，甚至项目和作者都可能会从网络上消失。这将是我们不愿意看到的最后手段\n\n因此，我们强烈要求您立即遵守这一指示，以避免任何不利的后果\n\n感谢大家的支持与配合！\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch3\u003e\u003ca href=\"https://xihan123.github.io/QDReadHook/docs/app/cn.xihan.qdds.hook/index.html\"\u003e大部分功能和介绍列表\u003c/a\u003e\u003c/h3\u003e\n\u003ch3\u003e收集服务特别声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e收集书籍信息、阅读时长、书架的书ID，开发统计和推荐模型。该功能完全自愿开启，基于cloudflare，部分地区可能速度不理想，可以的话优选一下ip,域名是\u003ca href=\"https://collect.qidian.lat/\"\u003ehttps://collect.qidian.lat/\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e收集服务仅供统计和训练模型使用，不提供任何其他形式的服务，也不参与任何商业行为\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e目前初步成果: 阅读时长排行榜，共有日、周、月、季、年、总榜，在Q交流群可召唤机器人显示。推荐模型暂时使用的基于用户书架的协同过滤算法进行相似度推荐，数据量较少效果不是很好，后续会加入更多的推荐算法\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://rank.xihan.website/\"\u003e阅读时长排行榜\u003c/a\u003e，仅是使用模块收集服务的数据，不代表起点官方数据，仅供参考!!!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e如提示 “\u003cstrong\u003eManifest文件中Activity/Service/Permission的声明有问题或者Permission权限未授予\u003c/strong\u003e”、”\u003cstrong\u003e初始化错误\u003c/strong\u003e”、”\u003cstrong\u003e初始化失败\u003c/strong\u003e”\n把 “\u003cstrong\u003e广告配置\u003c/strong\u003e” 中 “\u003cstrong\u003eGDT(TX)广告\u003c/strong\u003e” 去掉勾选\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e如提示 “\u003cstrong\u003e激励广告拉取失败,详细错误码:50000\u003c/strong\u003e” 则检查设备网络，\u003cstrong\u003eDNS\u003c/strong\u003e或者\u003cstrong\u003eHosts\u003c/strong\u003e 是否拦截了”\u003cstrong\u003ee.qq.com\u003c/strong\u003e”、”\u003cstrong\u003egdt.qq.com\u003c/strong\u003e”、”\u003cstrong\u003egtimg.cn\u003c/strong\u003e”、”\u003cstrong\u003egdtimg.com\u003c/strong\u003e“域名\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开关功能不生效\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  注意看上述所提到支持的版本号\n\n  1.1.2版本以前如还不生效则查看/data/misc/某个文件夹/prefs/cn.xihan.qdds 这个文件夹权限是否可读,如果不可读手动设置一下，每次修改了配置都需要修改此权限,并应用子文件 权限 都设定为755最佳。还不行就把模块卸载了重新安装，激活后先去把配置调整好，再去上述路径改权限，完事最好清下起点数据，打开就完美了!!!\n\n  1.1.2及以后则查看起点是否有存储权限，查看是否存在\u0026quot;/sdcard/QDReader/option.json\u0026quot;这个文件(没有就创建一个)\n\n  1.2.7+ 3.0.5+配置文件路径为 \u0026quot;/sdcard/Download/QDReader\u0026quot;,其他如上\n\n  3.0.4 配置在起点私有目录\n\n  ps:根据版本不同，显示的路径可能也不同，可能是\u0026quot;/storage/emulated/0/QDReader/option.json\u0026quot;.\n  如果使用系统自带文件管理器，直接在\u0026quot;根目录(内部存储)\u0026quot;创建文件夹\u0026quot;QDReader\u0026quot;即可\n  \n  如果上述都不行，那就试着清除起点数据或者重装模块(同时删除上述路径所在的配置文件)，也可能需要重启一下手机。\n\n  还不行就附上日志提issues或酷安留言私信我即可(语气不要太冲，说的好像我欠你啥的，上来就质疑我的也不一定会回复。以为自己是谁啊，你用不了我就一定要让你也能用上，我还能远程施法单单让你用不了不成?)\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e没开启闪屏页却一直显示闪屏页\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  这种情况一般是因为本地已经有缓存了,最简单的方法是清除起点的数据,把要开的功能提前开好\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开启自定义启动图无效?\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  多进几次起点等启动图全部下载完成就会开始随机\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开启去广告无效\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  和上述一致，清数据重启即可\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e目前去青少年模式弹框仅仅只是防止频繁弹，不是完全去掉,我之前测试用隔一会弹一下，开启后仅弹一次\u003c/del\u003e 1.0.2+版本是通过 Hook 自定义Dialog 的 \u003cstrong\u003eshow()\u003c/strong\u003e 方法，会导致投月票或者特殊订阅弹框不显示(1.1.6+已修复此问题) 1.1.6+是通过拦截上级调用\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e模块初次使用建议操作流程\u003c/del\u003e1.1.2及以上无需此操作，授予起点存储权限即可\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  1.安装好模块后把模块和起点都强行停止运行\n  2.激活(勾选)模块\n  3.打开模块配置好相关选项\n  4.强行停止模块运行\n  5.修改上述所提到的文件夹权限\n  6.清除起点数据\n  7.打开起点\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e部分功能之前好好的，突然失效，\u003cstrong\u003e1.2.9+ 配置文件模型改变，部分设定需要重新设置!!!\u003c/strong\u003e 开关以及配置都正常却失效日志也没有。可以理解为被热修复了，一般来说更新最新版即可或者提Issues\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e激活模块或使用Lspatch版起点闪退,可按如下流程排查.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e1.关闭免广告领取奖励\n2.关闭快速屏蔽弹框\n3.是否使用了lspatch修补的起点并且同时启用了模块\n4.关闭模块\nps: 保持试用模式可有效防止闪退\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e如果上述流程走完还是无法解决闪退，可以把配置文件删除并重启起点，再不济重启手机\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e如提示”检测到您当前设备环境有异常，请确保规范使用后再进行尝试”、“账号存在异常，请稍后再试”\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e起点加强了风控\n前者自行隐藏设备Root环境\n后者就要先确定是账号高风险还是被检测ROOT\nps:手动签到需要验证码则是高风险\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eAndroid 9 从起点内进入设置界面白屏,这是一个奇怪的bug，暂时找不到解决方法,内置版可以另外安装一个模块本体来管理配置文件\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e起点版本:994-232+ 以及模块版本:3.0.0以下的内置版卡启动、白屏等按照以下步骤排除问题\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e1.清除起点数据并手动授予存储权限\n2.首次启动起点拒绝隐私策略后关闭起点\n3.开启跳过闪屏页功能后即可正常使用起点\n\n3.0.0之后的版本\n1.清除起点数据\n2.首次启动启动拒绝隐私策略并在弹框授予存储权限和安装未知应用权限\n\n3.0.5之后的版本 无法授予存储权限\n1.检查起点版本是否高于7.9.318-1106\n\nMIUI 可以尝试关闭MIUI优化，有接到反馈关闭该功能就正常了\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003eLspatch 使用说明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e安装后启动前需要授予起点存储权限!!!要不然无法读取配置文件则不会生效,或者你设定错了可能会使用默认配置\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e已支持动态配置(1.1.2+)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e因为修改了签名,所以快速登录无法使用,只能用手机号登录!!!所以如果可以还是使用 Xp 模式\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e用 \u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 把 \u003ca href=\"https://github.com/xihan123/SignHook\"\u003eSignHook\u003c/a\u003e 打包进目标平台即可调用第三方(登录/分享)等\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eQQ\u003c/li\u003e\n\u003cli\u003e微信\u003c/li\u003e\n\u003cli\u003e抖音\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e请勿激活模块的同时使用此版本!!!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e起点读书用户服务协议\u003c/h2\u003e\n\u003cp\u003e使用本模块可能违反 \u003ca href=\"https://acts.qidian.com/pact/user_pact.html\"\u003e起点读书用户服务协议\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e四、使用本服务的方式\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e4.1 使用方式\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e3.您不得使用未经起点授权的插件、外挂或第三方工具对本协议项下的服务进行干扰、破坏、修改或施加其他影响\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e4.2 违反以上约定视为您的严重违约，起点可以终止对您的服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e十二、知识产权声明\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e12.2 起点所提供的服务与服务有关的全部信息、资料、文字、软件、声音、图片、视频、图表的知识产权和其他权益均属于起点或其权利人，受中华人民共和国相关法律及国际协定和国际条约保护，除非事先获得起点或其权利人的合法授权，您不得对上述任何内容进行修改、展示、复制、发行、授权、制作衍生著作、转让或销售。如您未遵守本条款的上述规定，视为您严重违约，起点可无须通知立即终止向您提供服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。同时，起点可根据违约情节严重程度对用户部分或全部账号采取包括不限于预先警示、要求提供不违规保证、限制或调整起点提供的阅读内容，限制正常使用部分/全部产品或服务功能、限制【阅文通行证】账号于阅文集团旗下产品部分/全部功能直至终止提供服务、冻结限制或封禁账号、发送函件、提起诉讼/仲裁等依法维权措施。您必须销毁任何已经获得的上述信息、资料、文字、软件、声音、图片、视频、图表。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e二十、服务的变更、中断、终止\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e20.2 如发生下列任何一种情形，起点有权不经通知而中断或终止向您提供的服务：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e2.您违反相关法律法规或本协议的约定；\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e本模块是基于Xposed框架开发的，使用本模块需要您的设备已经安装了Xposed框架。Xposed框架是一种修改Android系统行为的工具，它可能会导致系统不稳定、无法开机或损坏设备。您在使用本模块之前，应该了解Xposed框架的原理和风险，并自行承担后果。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e本模块的源代码是公开的，任何人都可以查看或修改它，开发者不对本模块的功能和效果做任何保证，也不对本模块可能造成的任何损失或损害负责。请在使用前确认你下载的 \u003cstrong\u003eQDReadHook\u003c/strong\u003e 是来自可信的渠道，并且没有被恶意篡改或添加木马等病毒。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e本模块不是为了破坏起点中文网的正常运营和作者的合法权益。请在使用本模块时，尊重作者的劳动成果，支持正版阅读，不要利用本模块进行非法活动或其他损害起点合法权益的行为。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开发者保留对该Xposed模块的更新、修改、暂停、终止等权利，使用者应该自行确认其使用版本的安全性和稳定性。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003e本模块仅供学习交流，请在下载24小时内删除。在使用该Xposed模块之前认真审慎阅读、充分理解 \u003ca href=\"#%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE\"\u003e起点读书用户服务协议\u003c/a\u003e 以及上述 \u003ca href=\"#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\"\u003e免责声明\u003c/a\u003e，如有异议请勿使用。如果您使用了该Xposed模块，即代表您已经完全接受本免责声明。\u003c/strong\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e截图\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/1.png?raw=true\" width=270 \u003e\n\u003c/td\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/2.png?raw=true\" width=270 \u003e\n\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e打赏\u003c/h2\u003e\n\u003ch3\u003e入驻了 \u003ca href=\"https://afdian.net/a/xihan123\"\u003e爱发电\u003c/a\u003e，点击前往我的个人主页\u003c/h3\u003e\n\u003ch2\u003e如果觉得这个模块对您有用，可扫描下方二维码或者 \u003ca href=\"https://afdian.net/a/xihan123\"\u003e爱发电\u003c/a\u003e 随意打赏,要是能打赏个 10.24 🐵就太👍了。您的支持就是我更新的动力\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003ctd align=center\u003e支付宝\u003c/td\u003e\n\u003ctd align=center\u003e微信\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/zfb.jpg\" width=270 \u003e\n\u003c/td\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/wx.png\" width=270 \u003e\n\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#xihan123/QDReadHook\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=xihan123/QDReadHook\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/xihan123/QDReadHook/image?description=1\u0026amp;font=Inter\u0026amp;forks=1\u0026amp;issues=1\u0026amp;language=1\u0026amp;logo=https%3A%2F%2Ft3.picb.cc%2F2023%2F05%2F30%2FIj8tn6.png\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Plus\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Light\" alt=\"QDReadHook\" /\u003e\u003c/p\u003e\n\u003c!-- ![above](https://img.shields.io/badge/Android-8.0%20or%20above-brightgreen.svg)\n[![Android CI](https://github.com/xihan123/QDReadHook/actions/workflows/build.yml/badge.svg)](https://github.com/xihan123/QDReadHook/actions/workflows/build.yml)\n[![Latest Release](https://img.shields.io/github/release/xihan123/QDReadHook.svg)](https://github.com/xihan123/QDReadHook/releases) --\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/xihan123/QDReadHook/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/cn.xihan.qdds/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.xihan.qdds/total?label=LSPosed%20Repo\u0026amp;logo=Android\u0026amp;style=flat\u0026amp;labelColor=F48FB1\u0026amp;logoColor=ffffff\" alt=\"Blank\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003e\u003cimg src=\"https://img.shields.io/github/license/xihan123/QDReadHook.svg\" alt=\"license\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e起点阅读 Xp模块\u003c/h2\u003e\n\u003ch3\u003e注意事项\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e使用前注意给予起点存储权限\u003c/del\u003e3.2.5+无需存储权限\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e设置页面在:起点-\u0026gt;我的-\u0026gt;左上角设置-\u0026gt;阅读设置/模块设置(长按)(1.1.2+)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e由于 \u003ca href=\"https://jihulab.com/\"\u003e极狐Gitlab\u003c/a\u003e 封禁导致 \u003ca href=\"https://jihulab.com/xihan123/QDReadHook\"\u003e极狐Gitlab-QDReadHook\u003c/a\u003e 我已无权限更改，该仓库内容已过时\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e支持版本范围\u003c/h3\u003e\n\u003cp\u003e暂时提高版本号范围以支持一些不容易改变的类\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e758~768、772、776、780、784、788、792、796\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e800、804、808、812、827、834、842、843、850、854、858、860、868、872、878、884、890、896\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e900、906、916、924、932、938、944、950、958、970、980、994\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e1005、1020、1030 ~ 1105、1106 ~ 1146、1196 ~ 1299、~1296 ~ 1336\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e1416 ~ 1499\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e配置文件路径\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e1.2.7+ 配置文件路径为 “/sdcard/Download/QDReader”,会自行移动原配置文件并删除原配置文件目录,注意原配置文件目录不要有重要文件\u003c/del\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e3.2.5+ 配置文件为 “/storage/emulated/$userId/Android/data/$packageName/files/QDReadHook”\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e共存包名设定\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e共存包名设定需要在原始包名后面增改(直接共存内置版即可)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e起点下载地址\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e\u003ca href=\"https://xihan.lanzouv.com/b0413c6he\"\u003e支持的版本合集蓝奏云\u003c/a\u003e 密码:xihan\u003c/del\u003e\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  不再提供内置版，如有需要自行制作\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.coolapk.com/apk/5066/\"\u003e酷安\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://www.yuewen.com/app.html#appqd\"\u003e官方网站\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e模块下载地址:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/xihan123/QDReadHook/releases\"\u003ereleases\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://xihan.lanzouj.com/b042w7oqb\"\u003e蓝奏云\u003c/a\u003e 密码:9ikq\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e交流群\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/+tHAFB7FQKHdiYjU9\"\u003eTG防失联交流群\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eQD模块交流群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot\u0026amp;jump_from=webapi\u0026amp;authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"\u003e963079548\u003c/a\u003e \u003ca target=\"_blank\" href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot\u0026jump_from=webapi\u0026authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"\u003e\u003cimg border=\"0\" src=\"//pub.idqqimg.com/wpa/images/group.png\" alt=\"QD模块交流群\" title=\"QD模块交流群\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e声明\u003c/h3\u003e\n\u003cpre\u003e\u003ccode\u003e各位用户\n\n我们必须立即停止在任何公共平台上宣传 QDReadHook 项目，以及在非 QD 模块的群组内讨论相关内容\n\n这是为了保护整个项目和作者不受潜在风险的必要措施\n\n请明白，如果我们发现项目继续被公开讨论和传播，我们将不得不采取行动，包括但不限于关闭仓库，甚至项目和作者都可能会从网络上消失。这将是我们不愿意看到的最后手段\n\n因此，我们强烈要求您立即遵守这一指示，以避免任何不利的后果\n\n感谢大家的支持与配合！\n\u003c/code\u003e\u003c/pre\u003e\n\u003c!-- ### [大部分功能和介绍列表](https://xihan123.github.io/QDReadHook/docs/app/cn.xihan.qdds.hook/index.html) --\u003e\n\u003ch3\u003e收集服务特别声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e收集书籍信息、阅读时长、书架的书ID，开发统计和推荐模型。该功能完全自愿开启\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e收集服务仅供统计和训练模型使用，不提供任何其他形式的服务，也不参与任何商业行为\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e目前初步成果: 阅读时长排行榜，共有日、周、月、季、年、总榜，在Q交流群可召唤机器人显示。推荐模型暂时使用的基于用户书架的协同过滤算法进行相似度推荐，数据量较少效果不是很好，后续会加入更多的推荐算法\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://rank.xihan.website/\"\u003e阅读时长排行榜\u003c/a\u003e，仅是使用模块收集服务的数据，不代表起点官方数据，仅供参考!!!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e如提示 “\u003cstrong\u003eManifest文件中Activity/Service/Permission的声明有问题或者Permission权限未授予\u003c/strong\u003e”、”\u003cstrong\u003e初始化错误\u003c/strong\u003e”、”\u003cstrong\u003e初始化失败\u003c/strong\u003e”\n把 “\u003cstrong\u003e广告配置\u003c/strong\u003e” 中 “\u003cstrong\u003eGDT(TX)广告\u003c/strong\u003e” 去掉勾选\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e如提示 “\u003cstrong\u003e激励广告拉取失败,详细错误码:50000\u003c/strong\u003e” 则检查设备网络，\u003cstrong\u003eDNS\u003c/strong\u003e或者\u003cstrong\u003eHosts\u003c/strong\u003e 是否拦截了”\u003cstrong\u003ee.qq.com\u003c/strong\u003e”、”\u003cstrong\u003egdt.qq.com\u003c/strong\u003e”、”\u003cstrong\u003egtimg.cn\u003c/strong\u003e”、”\u003cstrong\u003egdtimg.com\u003c/strong\u003e“域名\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开关功能不生效\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  注意看上述所提到支持的版本号\n\n  1.1.2版本以前如还不生效则查看/data/misc/某个文件夹/prefs/cn.xihan.qdds 这个文件夹权限是否可读,如果不可读手动设置一下，每次修改了配置都需要修改此权限,并应用子文件 权限 都设定为755最佳。还不行就把模块卸载了重新安装，激活后先去把配置调整好，再去上述路径改权限，完事最好清下起点数据，打开就完美了!!!\n\n  1.1.2及以后则查看起点是否有存储权限，查看是否存在\u0026quot;/sdcard/QDReader/option.json\u0026quot;这个文件(没有就创建一个)\n\n  1.2.7+ 3.0.5+配置文件路径为 \u0026quot;/sdcard/Download/QDReader\u0026quot;,其他如上\n\n  3.0.4 配置在起点私有目录\n\n  ps:根据版本不同，显示的路径可能也不同，可能是\u0026quot;/storage/emulated/0/QDReader/option.json\u0026quot;.\n  如果使用系统自带文件管理器，直接在\u0026quot;根目录(内部存储)\u0026quot;创建文件夹\u0026quot;QDReader\u0026quot;即可\n  \n  如果上述都不行，那就试着清除起点数据或者重装模块(同时删除上述路径所在的配置文件)，也可能需要重启一下手机。\n\n  还不行就附上日志提issues或酷安留言私信我即可(语气不要太冲，说的好像我欠你啥的，上来就质疑我的也不一定会回复。以为自己是谁啊，你用不了我就一定要让你也能用上，我还能远程施法单单让你用不了不成?)\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e没开启闪屏页却一直显示闪屏页\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  这种情况一般是因为本地已经有缓存了,最简单的方法是清除起点的数据,把要开的功能提前开好\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开启自定义启动图无效?\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  多进几次起点等启动图全部下载完成就会开始随机\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开启去广告无效\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  和上述一致，清数据重启即可\n\n  3.0.4之后可用关于-\u0026gt;清除起点缓存\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e目前去青少年模式弹框仅仅只是防止频繁弹，不是完全去掉,我之前测试用隔一会弹一下，开启后仅弹一次\u003c/del\u003e 1.0.2+版本是通过 Hook 自定义Dialog 的 \u003cstrong\u003eshow()\u003c/strong\u003e 方法，会导致投月票或者特殊订阅弹框不显示(1.1.6+已修复此问题) 1.1.6+是通过拦截上级调用\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e模块初次使用建议操作流程\u003c/del\u003e1.1.2及以上无需此操作，授予起点存储权限即可\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e  1.安装好模块后把模块和起点都强行停止运行\n  2.激活(勾选)模块\n  3.打开模块配置好相关选项\n  4.强行停止模块运行\n  5.修改上述所提到的文件夹权限\n  6.清除起点数据\n  7.打开起点\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e部分功能之前好好的，突然失效，\u003cstrong\u003e1.2.9+ 配置文件模型改变，部分设定需要重新设置!!!\u003c/strong\u003e 开关以及配置都正常却失效日志也没有。可以理解为被热修复了，一般来说更新最新版即可或者提Issues\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e激活模块或使用Lspatch版起点闪退,可按如下流程排查.\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e1.关闭免广告领取奖励\n2.关闭快速屏蔽弹框\n3.是否使用了lspatch修补的起点并且同时启用了模块\n4.关闭模块\nps: 保持试用模式可有效防止闪退\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e如果上述流程走完还是无法解决闪退，可以把配置文件删除并重启起点，再不济重启手机\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e如提示”检测到您当前设备环境有异常，请确保规范使用后再进行尝试”、“账号存在异常，请稍后再试”\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e起点加强了风控\n前者自行隐藏设备Root环境\n后者就要先确定是账号高风险还是被检测ROOT\nps:手动签到需要验证码则是高风险\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eAndroid 9 从起点内进入设置界面白屏,这是一个奇怪的bug，暂时找不到解决方法,内置版可以另外安装一个模块本体来管理配置文件\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e起点版本:994-232+ 以及模块版本:3.0.0以下的内置版卡启动、白屏等按照以下步骤排除问题\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e1.清除起点数据并手动授予存储权限\n2.首次启动起点拒绝隐私策略后关闭起点\n3.开启跳过闪屏页功能后即可正常使用起点\n\n3.0.0之后的版本\n1.清除起点数据\n2.首次启动启动拒绝隐私策略并在弹框授予存储权限和安装未知应用权限\n\n3.0.5之后的版本 无法授予存储权限\n1.检查起点版本是否高于7.9.318-1106\n\nMIUI 可以尝试关闭MIUI优化，有接到反馈关闭该功能就正常了\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e试用模式、正文章节异常、红包广场无限加载\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e1.试用模式必开自定义QIMEI且不能为空\n\n2.正文章节异常，提示账号风险、设备异常、环境异常等原因有以下几点：QIMEI是空的、试用模式，、你开了自定义QIMEI但是没填、真 · 账号异常等，具体还是询问起点客服\n\n3.参考上述1\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003eLspatch 使用说明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e安装后启动前需要授予起点存储权限!!!要不然无法读取配置文件则不会生效,或者你设定错了可能会使用默认配置\u003c/del\u003e3.2.5+无需存储权限\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e已支持动态配置(1.1.2+)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e因为修改了签名,所以快速登录无法使用,只能用手机号登录!!!所以如果可以还是使用 Xp 模式\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e用 \u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 把 \u003ca href=\"https://github.com/xihan123/SignHook\"\u003eSignHook\u003c/a\u003e 打包进目标平台即可调用第三方(登录/分享)等\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eQQ\u003c/li\u003e\n\u003cli\u003e微信\u003c/li\u003e\n\u003cli\u003e抖音\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e请勿激活模块的同时使用此版本!!!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e起点读书用户服务协议\u003c/h2\u003e\n\u003cp\u003e使用本模块可能违反 \u003ca href=\"https://acts.qidian.com/pact/user_pact.html\"\u003e起点读书用户服务协议\u003c/a\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e四、使用本服务的方式\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e4.1 使用方式\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e3.您不得使用未经起点授权的插件、外挂或第三方工具对本协议项下的服务进行干扰、破坏、修改或施加其他影响\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e4.2 违反以上约定视为您的严重违约，起点可以终止对您的服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e十二、知识产权声明\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e12.2 起点所提供的服务与服务有关的全部信息、资料、文字、软件、声音、图片、视频、图表的知识产权和其他权益均属于起点或其权利人，受中华人民共和国相关法律及国际协定和国际条约保护，除非事先获得起点或其权利人的合法授权，您不得对上述任何内容进行修改、展示、复制、发行、授权、制作衍生著作、转让或销售。如您未遵守本条款的上述规定，视为您严重违约，起点可无须通知立即终止向您提供服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。同时，起点可根据违约情节严重程度对用户部分或全部账号采取包括不限于预先警示、要求提供不违规保证、限制或调整起点提供的阅读内容，限制正常使用部分/全部产品或服务功能、限制【阅文通行证】账号于阅文集团旗下产品部分/全部功能直至终止提供服务、冻结限制或封禁账号、发送函件、提起诉讼/仲裁等依法维权措施。您必须销毁任何已经获得的上述信息、资料、文字、软件、声音、图片、视频、图表。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e二十、服务的变更、中断、终止\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e20.2 如发生下列任何一种情形，起点有权不经通知而中断或终止向您提供的服务：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e2.您违反相关法律法规或本协议的约定；\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e本模块是基于Xposed框架开发的，使用本模块需要您的设备已经安装了Xposed框架。Xposed框架是一种修改Android系统行为的工具，它可能会导致系统不稳定、无法开机或损坏设备。您在使用本模块之前，应该了解Xposed框架的原理和风险，并自行承担后果。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e本模块的源代码是公开的，任何人都可以查看或修改它，开发者不对本模块的功能和效果做任何保证，也不对本模块可能造成的任何损失或损害负责。请在使用前确认你下载的 \u003cstrong\u003eQDReadHook\u003c/strong\u003e 是来自可信的渠道，并且没有被恶意篡改或添加木马等病毒。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e本模块不是为了破坏起点中文网的正常运营和作者的合法权益。请在使用本模块时，尊重作者的劳动成果，支持正版阅读，不要利用本模块进行非法活动或其他损害起点合法权益的行为。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开发者保留对该Xposed模块的更新、修改、暂停、终止等权利，使用者应该自行确认其使用版本的安全性和稳定性。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cstrong\u003e本模块仅供学习交流，请在下载24小时内删除。在使用该Xposed模块之前认真审慎阅读、充分理解 \u003ca href=\"#%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE\"\u003e起点读书用户服务协议\u003c/a\u003e 以及上述 \u003ca href=\"#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\"\u003e免责声明\u003c/a\u003e，如有异议请勿使用。如果您使用了该Xposed模块，即代表您已经完全接受本免责声明。\u003c/strong\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e截图\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/1.png?raw=true\" width=270 \u003e\n\u003c/td\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/2.png?raw=true\" width=270 \u003e\n\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e打赏\u003c/h2\u003e\n\u003ch3\u003e入驻了 \u003ca href=\"https://afdian.net/a/xihan123\"\u003e爱发电\u003c/a\u003e，点击前往我的个人主页\u003c/h3\u003e\n\u003ch2\u003e如果觉得这个模块对您有用，可扫描下方二维码或者 \u003ca href=\"https://afdian.net/a/xihan123\"\u003e爱发电\u003c/a\u003e 随意打赏,要是能打赏个 10.24 🐵就太👍了。您的支持就是我更新的动力\u003c/h2\u003e\n\u003ctable\u003e\n\u003ctr\u003e\n\u003ctd align=center\u003e支付宝\u003c/td\u003e\n\u003ctd align=center\u003e微信\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/zfb.jpg\" width=270 \u003e\n\u003c/td\u003e\n\u003ctd\u003e\n\u003cimg src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/wx.png\" width=270 \u003e\n\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#xihan123/QDReadHook\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=xihan123/QDReadHook\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.xihan.qdds.webp",
-      "lastUpdated": 1730653985000,
+      "lastUpdated": 1732366735000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "\n## [3.2.5](https://github.com/xihan123/QDReadHook/compare/v3.2.4...v3.2.5) (2024-11-03)\n\n### Features\n\n* **拦截设置:** 新增`通知权限弹框拦截` ([f123dd2](https://github.com/xihan123/QDReadHook/commit/f123dd282330d858b85b03fb2d9891efae01500c))\n\n\n### Miscellaneous\n\n* 更新automerge-action到v0.16.4 ([e1d3d32](https://github.com/xihan123/QDReadHook/commit/e1d3d32aa567025a8e04412936f9150754a6a9d9))\n* 更新Gradle版本至8.10.2 ([91033b4](https://github.com/xihan123/QDReadHook/commit/91033b460d7762020ee1f7a9d26a4370148cfb53))\n\n"
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.jpg"
+          ],
+          "whatsNew": "## [3.2.6](https://github.com/xihan123/QDReadHook/compare/v3.2.5...v3.2.6) (2024-11-23)\n\n\n### ⚠ BREAKING CHANGES\n\n* 提高最低支持的版本为`7.9.374-1416`\n\n### Features\n\n* **option:** 更新选项实体并添加新功能 ([c7303af](https://github.com/xihan123/QDReadHook/commit/c7303afa162e57deffbfa4d5355173f4832ce011))\n* **read:** 增加隐藏标签推荐和相关推荐功能 ([0ea3160](https://github.com/xihan123/QDReadHook/commit/0ea31603a4d3ed002a209a2132256e3afeac508d))\n* **广告设置:** 更新阅读页面广告拦截功能 ([32c9328](https://github.com/xihan123/QDReadHook/commit/32c9328"
         }
       },
       "name": "QDReadHook",
       "packageName": "cn.xihan.qdds",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.xihan.qdds",
-      "suggestedVersionCode": "628",
-      "suggestedVersionName": "3.2.5",
+      "suggestedVersionCode": "638",
+      "suggestedVersionName": "3.2.6",
       "summary": "起点阅读-自定义增强功能\n1.主要功能\n2.广告相关\n3.闪屏页相关\n4.隐藏控件\n5.替换净化\n\n目前支持 758+ 正式版"
     },
     {
@@ -5807,25 +5865,25 @@
       "summary": "解除三星系统时钟通话中不提醒不响铃的限制"
     },
     {
-      "added": 1729358103000,
+      "added": 1732987904000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eНомер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисных уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eCovidQR\u003c/li\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения отдельно\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root, целостности устройства, контроль SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eНомер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПрофиль. Реклама в разделе недвижимость\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисный уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root и целостности устройства для SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003cli\u003eИстория. Увеличено количество скрываемых транзакций до 300\u003c/li\u003e\n\u003cli\u003eАктивирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.sberbankpatcher.png",
-      "lastUpdated": 1729358103000,
+      "lastUpdated": 1732987904000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Поддержка версии 16.0.0\n- Скрытие иконки модуля теперь доступно только в root режиме."
+          "whatsNew": "- Поддержка версии 16.1.0\n- Добавлена возможность скрыть рекламные предложения в разделе недвижимость.\n- Добавлена возможность скрыть ассистента в разделе инвестиций/пенсий.\n- Изменено максимальное количество скрываемых транзакций в истории со 100 до 300.\n- Включен новый функционал автозаполнения своего номера телефона из под нового раздела переводов.\n- Скрыто напоминание выдать доступ к контактам из под нового раздела переводов.\n- Скрыто предложение оценить в разделе пенсий.\n- Вход в настройки "
         }
       },
       "name": "Sberbank Patcher",
       "packageName": "ru.bluecat.sberbankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
-      "suggestedVersionCode": "324",
-      "suggestedVersionName": "1.21",
+      "suggestedVersionCode": "352",
+      "suggestedVersionName": "1.22",
       "summary": "Различные модификации в приложении СберБанк."
     },
     {
@@ -6646,25 +6704,46 @@
       "summary": "Like element inspection on browser platform, this module provides similar fun..."
     },
     {
-      "added": 1731085340000,
+      "added": 1732468458000,
       "authorName": "Hepolise",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eVolume Key Track Control Module\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed module that allows to skip and play/pause track with volume keys. Inspired by \u003ca href=\"https://github.com/GravityBox/GravityBox\"\u003eGravity Box\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eWorks when the screen is off.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eNext Track: Long press volume up\u003c/li\u003e\n\u003cli\u003ePrev Track: Long press volume down\u003c/li\u003e\n\u003cli\u003ePlay/Pause: Long press both keys simultaneously\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eRequirements\u003c/h2\u003e\n\u003cp\u003eAndroid 11+ (may be working on lower versions, you can try and install it even on Android 7)\u003c/p\u003e\n\u003ch2\u003eTested on\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eOnePlus 10 Pro (Android 13 \u0026amp; 14)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new\"\u003eOpen an issue\u003c/a\u003e if you are experiencing some troubles on your device\u003c/p\u003e\n",
       "icon": "ru.hepolise.volumekeymusicmanagermodule.webp",
-      "lastUpdated": 1731085340000,
+      "lastUpdated": 1732468458000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "* Added vibration effect on action\n* Bump SDK to 35 (Android 15 support announced)"
+          "whatsNew": "Fixed working with remote devices (like screen casting)\nUpdated vibration effect for newer devices "
         }
       },
       "name": "Volume Key Track Control Module",
       "packageName": "ru.hepolise.volumekeymusicmanagermodule",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
-      "suggestedVersionCode": "7",
-      "suggestedVersionName": "1.15.0"
+      "suggestedVersionCode": "8",
+      "suggestedVersionName": "1.15.1"
+    },
+    {
+      "added": 1733008016000,
+      "authorName": "ItsMadruga",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eWa Revamp\u003c/h1\u003e\n\u003cp\u003eContinuation of the Old MdgWa.\u003cbr /\u003e\nMore information coming soon…\u003c/p\u003e\n\u003ch2\u003eDownload\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003ePre-Releases\u003c/a\u003e (More Updates)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003eTelegram\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003eChannel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/+7xV9KAEkO10yYjZh\"\u003eChat\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1733008016000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "New Update Available\n\n| FIXED |\n\n- Missing strings\n\n| ADDED |\n\n- Module update system"
+        }
+      },
+      "name": "Wa Revamp",
+      "packageName": "its.madruga.warevamp",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.0.4",
+      "summary": "An Xposed module to customize your WhatsApp."
     },
     {
       "added": 1727156766000,
@@ -6840,25 +6919,25 @@
       "summary": "Debug any application of your choice!"
     },
     {
-      "added": 1731341483000,
+      "added": 1732723065000,
       "authorName": "teble",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1\u003e XAutoDaily \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003e\u003cimg src=\"https://img.shields.io/github/license/teble/XAutoDaily.svg\" alt=\"license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/teble/XAutoDaily/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/teble/XAutoDaily.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/XAutoDaily\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/XAutoDailyChat\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Chat\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003eXAutoDaily 是一个兼容QQ大部分版本(包括新版TIM)的开源签到 Xposed 模块\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e激活本模块后，在 QQ 客户端的设置中点击 “XAutoDaily 设置” 即可开关对应功能。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid \u0026gt;= 7.0\u003c/li\u003e\n\u003cli\u003eQQ \u0026gt;= 8.0.0, TIM(新版全功能支持，旧版\u003cstrong\u003e可能\u003c/strong\u003e不兼容小程序签到)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e对于部分用户的特殊说明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e安卓12太极阴64位QQ用户\u003c/strong\u003e: 由于太极在安卓12上可能存在bug，勾选XA后会导致QQ闪退（根据日志查看，art崩溃不属于模块本身的bug），请更换32位QQ或者更换框架以解决问题。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003evivo(包括子产品)全面屏用户\u003c/strong\u003e: \u003cstrong\u003e可能\u003c/strong\u003e存在由于未知魔改导致模块Compose UI渲染白屏的问题，只能通过\u003cstrong\u003e切屏\u003c/strong\u003e(前台后台切换)/\u003cstrong\u003e切换虚拟按键\u003c/strong\u003e(虚拟导航)来解决问题。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e转生用户\u003c/strong\u003e: 由于框架本身可能存在bug，\u003cstrong\u003e部分用户\u003c/strong\u003e在勾选模块后可能无法生效（加载模块流程中断导致后续模块不加载），请先勾选xa再勾选其它模块(根据勾选顺序先后加载模块)。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e功能介绍\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e会员任务以及签到\u003c/li\u003e\n\u003cli\u003e黄钻签到\u003c/li\u003e\n\u003cli\u003e腾讯视频会员打卡\u003c/li\u003e\n\u003cli\u003e会员排行榜点赞\u003c/li\u003e\n\u003cli\u003eQQ日签卡\u003c/li\u003e\n\u003cli\u003e小程序打卡/任务\u003c/li\u003e\n\u003cli\u003e大会员任务(个性赞需要手动点赞)\u003c/li\u003e\n\u003cli\u003e好友名片自动点赞回赞\u003c/li\u003e\n\u003cli\u003e好友续火（避免滥用限制字符为20）\u003c/li\u003e\n\u003cli\u003e会员公众号签到\u003c/li\u003e\n\u003cli\u003e新版群打卡\u003c/li\u003e\n\u003cli\u003eQQ好友字符抽取\u003c/li\u003e\n\u003cli\u003e萌宠任务\u003c/li\u003e\n\u003cli\u003e好友空间互访\u003c/li\u003e\n\u003cli\u003e好友名片点赞\u003c/li\u003e\n\u003cli\u003e好友续火\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e一切开发旨在学习，请勿用于非法用途\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e本项目保证永久开源，欢迎提交 Issue 或者 Pull Request，但是请不要提交用于非法用途的功能。\u003c/li\u003e\n\u003cli\u003e如果某功能被大量运用于非法用途，那么该功能将会被移除。\u003c/li\u003e\n\u003cli\u003e开发人员可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003eGPL-3.0\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003eCopyright (C) 2022 teble@github.com\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as\npublished by the Free Software Foundation, either version 3 of the\nLicense, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see \u0026lt;http://www.gnu.org/licenses/\u0026gt;.\n\u003c/code\u003e\u003c/pre\u003e\n",
       "icon": "me.teble.xposed.autodaily.png",
-      "lastUpdated": 1731341483000,
+      "lastUpdated": 1732723065000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**更新日志**\n\n- 修复 在 TIM 4.0.95.4001 中入口创建失败的问题。"
+          "whatsNew": "**更新日志**\n\n- 修复 在 QQ v9.1.20 灰度设置界面无法显示模块入口的问题。"
         }
       },
       "name": "XAutoDaily",
       "packageName": "me.teble.xposed.autodaily",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily",
-      "suggestedVersionCode": "24111200",
-      "suggestedVersionName": "3.0.28",
+      "suggestedVersionCode": "24112723",
+      "suggestedVersionName": "3.0.29",
       "summary": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
     },
     {
@@ -7630,25 +7709,25 @@
       "summary": "自定义MIUI的Splash Screen"
     },
     {
-      "added": 1731599902000,
+      "added": 1732359188000,
       "authorName": "freedom-introvert",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e哔哩发评反诈\u003c/h1\u003e\n\u003cp\u003e发送评论后自动检查评论是否正常的Xposed模块。避免你的评论被仅自己可见或者被秒删了还给系统“发送成功”的谎言所欺骗，恢复在阿瓦隆系统下你对评论状态的知情权！\u003cbr /\u003e\n同时帮你记录所发布的评论，拒绝遗忘！\u003c/p\u003e\n\u003ch1\u003e简要使用说明\u003c/h1\u003e\n\u003ch2\u003e账号\u003c/h2\u003e\n\u003cp\u003e对于评论的检查，需要获取对应UID对应账号cookie进行检查。需要在账号管理器中添加对应账号。\u003c/p\u003e\n\u003ch3\u003e自动获取b站客户端cookie\u003c/h3\u003e\n\u003cp\u003e自动获取哔哩哔哩客户端的cookie，检查时自动添加对应的账号到用户列表，无需手动添加账号。\u003c/p\u003e\n\u003cp\u003ecookie来源于webview中的cookies数据库，若该cookie无法使用可关闭该功能。\u003c/p\u003e\n\u003ch3\u003e手动添加账号\u003c/h3\u003e\n\u003cp\u003e右上角小饼干（旧版本的cookie设置），账号列表，添加账号。你可以在内置浏览器进行登录获取cookie，或者你通过别的方式获取到cookie（列如从Chrome抓取到的），填写完毕后完成以添加账号。\u003c/p\u003e\n\u003ch3\u003e更新账号\u003c/h3\u003e\n\u003cp\u003e若账号cookie失效，可在账号列表点击账号，获取新的cookie填写上去并更新\u003c/p\u003e\n\u003ch3\u003e账号的评论区\u003c/h3\u003e\n\u003cp\u003e填写自己发布内容的评论区地址，可以是你所发布的视频、动态、专栏，请勿填别人的。由检查评论是否只在当前评论区被Ban、扫描敏感词，这两个功能所使用\u003c/p\u003e\n\u003ch3\u003e之前版本的小号\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e由于阿瓦隆的“查重黑名单”、“反刷屏”、账号风控……等机制，前面发送的评论可能会“污染了评论区”，导致检查评论区是否戒严时会把正常的评论区判定为戒严。此时可以用小号来检查，以避免主号发送评论所带来的影响，使评论区戒严检测的结果更精确（前提是你小号没被风控）。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e检查评论区、扫描敏感词等功能所使用。6.0.0版本之后引入了多账号，旧概念已废除，现小号指的是非当前被检查评论所属发送者的账号。\u003c/p\u003e\n\u003ch2\u003e检查与统计\u003c/h2\u003e\n\u003cp\u003e在哔哩哔哩APP里评论发送成功后，会调起本发评反诈进行检查，并在上面显示的对话框展示进度与检查结果。\u003c/p\u003e\n\u003ch3\u003e评论8种状态\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e评论正常\u003c/li\u003e\n\u003cli\u003e仅自己可见\u003c/li\u003e\n\u003cli\u003e被系统秒删\u003c/li\u003e\n\u003cli\u003e包含敏感词\u003c/li\u003e\n\u003cli\u003e评论被隐身（invisible）\u003c/li\u003e\n\u003cli\u003e评论疑似审核\u003c/li\u003e\n\u003cli\u003e评论疑似正常（申诉时提示无可申诉评论时状态会切换为此）\u003c/li\u003e\n\u003cli\u003e未知状态（直接去申诉无法得知状态）\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e遇到评论疑似审核的，建议使用『监控评论』功能，后台1分钟检查一次，状态发生变化时通知提醒你。当然出现疑似审核的原因也可能是评论区有戒严，评论应该是扔给更复杂的AI审核（少些评论区是人工），耗时较高（几乎持平视频的AI审核）\u003c/p\u003e\n\u003cp\u003e当然，b站对于被ban的评论你还可以去\u003ca href=\"https://www.bilibili.com/h5/comment/appeal\"\u003e申诉\u003c/a\u003e，如果评论没毛病，多数时候是可以恢复正常显示的（当然你得自己发现评论是否异常🙃）。本软件集成了申诉功能，评论不能正常显示时可在对话框内选择[更多评论选项]==\u0026gt;[申诉]。\u003c/p\u003e\n\u003cp\u003e开启历史记录功能可记录所有评论以及检查时发现戒严的评论区。借助历史评论记录可帮助你分析它爱ban什么评论，以及你的评论被ban率有多高。同时也是你的“小日记”，记录你的评论使其不被遗忘。同时对于“你的评论[hell**]已被移除”的智障隐私保护，能帮你找到目标评论\u003c/p\u003e\n\u003cp\u003e刚开始的时候（v1.0.0）并没有作为Xposed模块，要复制评论bv号，并在发评反诈里输入评论再发送进行检查。发送评论多了个复制bv号或链接的步骤，较为麻烦，但是开发了Xposed功能就舒服多了。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e详细使用教程与说明请查看本github项目主页\u003c/strong\u003e，一定得先了解哔哩哔哩的「阿瓦隆」系统！\u003c/p\u003e\n\u003ch2\u003e保证支持的版本\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e国内版已适配版本\n\u003cul\u003e\n\u003cli\u003e? - 7.25.0 - 7.27.0\u003c/li\u003e\n\u003cli\u003e7.28.0 - 7.33.0\u003c/li\u003e\n\u003cli\u003e7.34.0\u003c/li\u003e\n\u003cli\u003e7.35.0 - ?\u003c/li\u003e\n\u003cli\u003e~7.68.0~\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e国际版已适配版本：\n\u003cul\u003e\n\u003cli\u003e? - 3.16.0 - ？\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e下载\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/freedom-introvert/biliSendCommAntifraud/releases\"\u003ehttps://github.com/freedom-introvert/biliSendCommAntifraud/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e关于之前LSPosed仓库删档\u003c/h1\u003e\n\u003cp\u003e有很多群友反馈，发布更新了，但是LSPosed仓库未提示有更新，同时安装了也没显示“\u003cem\u003e已安装\u003c/em\u003e”。\u003c/p\u003e\n\u003cp\u003e才发现，lsp仓库里显示的是全小写的包名\u003ccode\u003eicu.freedomintrovert.bilisendcommantifraud\u003c/code\u003e，而软件真正的包名是\u003ccode\u003eicu.freedomIntrovert.biliSendCommAntifraud\u003c/code\u003e，导致LSP没匹配到已安装的模块。我想单独建一个与包名正确对应的新仓库，并保留原来的。但由于submission不区分大小写包名，提交时提示重复，只能删库重建，需要了解历史版本更新信息的可移步项目源地址。\u003c/p\u003e\n\u003cp\u003e首次上传时没注意，很抱歉给大家带来了那么多麻烦。\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/freedom-introvert/biliSendCommAntifraud\"\u003ehttps://github.com/freedom-introvert/biliSendCommAntifraud\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003eTelegram: \u003ca href=\"https://t.me/+6Ugpd4TtB8liZDg1\"\u003e@biliSendCommAntifraud\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eLOGO含义\u003c/h3\u003e\n\u003cp\u003e来自：Never Gonna Give You Up - Rick Astley\u003cbr /\u003e\n意为“发送成功”但是你被骗了🤪\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布，请不要在哔哩哔哩以视频动态专栏宣传本模块！更不要在推特宣传本模块！其他平台随意，但也要考虑情况（比如小绿书慎重考虑）。\u003cstrong\u003e转发包括readme一起请注意潜在的敏感信息，比如测试“包含敏感内容”的64，不然你的网站或者是号要没了哦:(\u003c/strong\u003e\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在b站公开区域宣传与展示本软件，尤其是视频、动态、文章！\u003c/p\u003e\n\u003ch3\u003e用户耻辱柱\u003c/h3\u003e\n\u003cp\u003eUID：398650682\u003c/p\u003e\n\u003cp\u003e公开在个人动态中宣传哔哩发评反诈，并且被官方关进小黑屋。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"%E9%83%9D%E6%B0%94-1.png\" alt=\"image-20240918003345883\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"%E9%83%9D%E6%B0%94-2.png\" alt=\"image-20240918003552700\" /\u003e\u003c/p\u003e\n\u003ch2\u003e插曲\u003c/h2\u003e\n\u003ch3\u003e百度搜索\u003c/h3\u003e\n\u003cp\u003e请不要过度在百度搜索此模块名称：“哔哩发评反诈”，已造成不良影响了😅。\n\u003cimg src=\"https://github.com/Xposed-Modules-Repo/icu.freedomintrovert.bilisendcommantifraud/raw/main/IMG_20230803_223529.jpg\" alt=\"IMG_20230803_223529\" /\u003e\u003c/p\u003e\n\u003ch3\u003e命名与国家反诈中心\u003c/h3\u003e\n\u003cp\u003e由于本应用的名称包含“反诈”一词，在受国家反诈中心监控的手机里，\u003cstrong\u003e被误以为是假冒国家反诈中心\u003c/strong\u003e，所以会有安装导致被反诈中心打电话😰。群里有真实被打电话的案例，但他却没有安装反诈中心。手机是MIUI14的系统，看来MIUI内置国家反诈中心的传闻并非危言耸听。究其原因是“应用包管理组件”上传了你所安装应用的信息，接着会传给MIUI服务器然后再发给真的反诈中心，手机号码绑定了小米账号，反诈中心就会根据这个手机号给你打电话。\u003cstrong\u003e安装时记得断网，避免被上传信息\u003c/strong\u003e！如果你怕会后台偷偷上传，那么聪明的你可以去找些屏蔽系统应用联网的模块，把一切所谓“保护安全”的应用禁止联网😉。\u003c/p\u003e\n\u003ch2\u003e我的另一个作品与嘲讽\u003c/h2\u003e\n\u003ch3\u003e\u003ca href=\"https://github.com/freedom-introvert/YouTubeSendCommentAntiFraud\"\u003eYouTube发评反诈\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e没错，油管发评反诈，YouTube版阿瓦隆！他不仅把阿瓦隆完整的抄了一遍，甚至能做得比b站更绝！b站可恶之处只在于隐评删评，YouTube可恶之处不止隐评删评，部分评论还会不让出现在“热门”列表里，接着热门的列表还故意让那些它认为偏向夸赞的评论排在前面（如“暖心”），有些评论即使点赞多的，但是不够暖心但它也会被排到后面去。所以为什么YouTube的评论区都是夸赞一边倒的，似乎看不到骂与批评。\u003c/p\u003e\n\u003cp\u003e你阿美莉卡说的言论自由何存呢？我们小粉红最喜欢看你们闹笑话了🤣👉🤡\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eps：当然对于热门列表的相关检测暂未支持，因为没啥人用，我不想多费力气，想要的话去YouTube发评反诈的仓库发issues，我立即编写代码更新\u003c/em\u003e\u003c/p\u003e\n",
-      "icon": "icu.freedomIntrovert.biliSendCommAntifraud.612.png",
-      "lastUpdated": 1731599902000,
+      "icon": "icu.freedomIntrovert.biliSendCommAntifraud.621.png",
+      "lastUpdated": 1732359188000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 更新日志\n\n- 新增【去他妈的图片折叠】，一些评论区的评论图片只显示`笔记`要点击详情才显示，恶意提升操作难度。此功能禁止折叠评论区中的图片\n- **v5.2.0旧更新**：替换拍照为从相册选择图片，给评论选择图片的时候可点击图片列表里的拍照按钮打开系统相册选择图片。（我忘写到软件说明里了）\n\n### 附加小功能预览\n\n\u003e 去他妈的图片折叠\n\n![image-20241114233442725](https://github.com/freedom-introvert/biliSendCommAntifraud/blob/main/image-20241114233442725.png?raw=true)\n\n\u003e 替换拍照为从相册选择选择图片\n\n点击拍摄按钮会从相册选择图片，虽然它还叫“拍摄”。原本垃圾图片选择器难难用了。\n\n![Screenshot_2024-11-13-23-00-46-156_tv.danmaku.bili](https://github.com/freedom-introvert/biliSendCommAntifraud/raw/main/Screens"
+          "whatsNew": "- 添加XPosed小功能开关，可选开关【去他妈的评论图片折叠】【替换拍照为从相册选择】。注：由于XSP的问题，Private模式获取到的shared_prefs路径也被强改了，故升级后会对配置进行迁移，迁移到XSP的位置。配置信息除了XPosed功能开关还包含等待时间、转发动态等，**若你启用模块与禁用模块，将是两个配置文件**（账号历史记录等依赖数据库的不受影响）。\n- 优化了下BV号的获取逻辑，先从视频播放Activity里获取，若获取不到再网络调用API进行查询，若网络这时也出现了问题了，将使用AV号，避免网络问题导致评论丢失。修复了某些情况下发送评论后因网络问题导致无法调起反诈的问题（待检查评论也没有评论）。之前没做的原因就是视频播放Activity启动传参没有BV号而是AV号，要获取只能网络请求。"
         }
       },
       "name": "哔哩发评反诈",
       "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud",
-      "suggestedVersionCode": "612",
-      "suggestedVersionName": "6.1.2",
+      "suggestedVersionCode": "621",
+      "suggestedVersionName": "6.2.1",
       "summary": "哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论"
     },
     {
@@ -8845,25 +8924,46 @@
       "suggestedVersionName": "2.1.2"
     },
     {
-      "added": 1721457196000,
+      "added": 1732450845000,
+      "authorName": "ghhccghk",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n",
+      "lastUpdated": 1732450845000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "## 更新日志\n### 第一个正式版本\n## 有问题希望能及时反馈"
+        }
+      },
+      "name": "米画师支付模块",
+      "packageName": "com.mihuashi.paybyfinger",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0.1",
+      "summary": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
+    },
+    {
+      "added": 1732985883000,
       "authorName": "Mingyueyixi",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMaskWechat\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Mingyueyixi/MaskWechat\"\u003eSource link / 项目地址\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e反馈问题可点击以上地址，发起issues\u003c/p\u003e\n\u003ch2\u003e介绍\u003c/h2\u003e\n\u003cp\u003e这是一个微信 Xposed 模块，她可以隐藏掉特定用户的聊天记录，防止私密的聊天被第三人偷看\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003ch3\u003e添加配置\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e在模块App中点击\u003ccode\u003e添加配置\u003c/code\u003e卡片\u003c/li\u003e\n\u003cli\u003e跳转到微信主页（若微信本身不在首页，请自行返回主页后操作），点击用户发起聊天\u003c/li\u003e\n\u003cli\u003e模块会抓取糊脸Id（微信用户的唯一id），并弹出对话框。\u003c/li\u003e\n\u003cli\u003e确认后，点击对话框确定按钮。再次进入聊天页即隐藏与此用户的聊天记录\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e2.0版本变更\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e全局配置移动不再个人弹窗中出现，而是移动到了配置中心\u003c/li\u003e\n\u003cli\u003e配置中心打开路径为：“微信设置-\u0026gt;关怀模式-\u0026gt;开启按钮（长按）”\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e临时解除隐藏（Since v1.6）\u003c/h3\u003e\n\u003cp\u003ev1.6版本：\u003cbr /\u003e\n在聊天记录空白处，连续点击5次以上（不包含5次），每次点击间隔不超过150毫秒（超过则重新计数），则解除隐藏\u003c/p\u003e\n\u003cp\u003ev1.8版本：\u003cbr /\u003e\n实现了自定义点击次数与时间间隔\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003ePS.\u003c/strong\u003e\u003cbr /\u003e\n150毫秒/次，意味着一秒内需要点击6次（普通人极限手速），才能解开，如果你无法解开，不用怀疑，就是手速太慢了，去修改时间间隔吧\u003c/p\u003e\n\u003ch3\u003e搜索列表隐藏特定用户所在行（Since V1.7）\u003c/h3\u003e\n\u003cp\u003ev1.7版本开始新增功能：当Wechat主页发起的搜索结果命中糊脸ID时，将隐藏所在行视图\u003c/p\u003e\n\u003cp\u003ev2.2版本变更：开启sql hook，通过拦截并修改sql实现搜索功能过滤掉指定用户，从而避免搜出。对应微信版本8.0.49，其他版本也开启，但未测试。\u003c/p\u003e\n\u003ch3\u003e清除配置\u003c/h3\u003e\n\u003cp\u003e通过\u003ccode\u003e配置管理\u003c/code\u003e清除即可\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003ePS.\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e模块仅仅是隐藏了视图，不对用户数据进行修改\u003c/li\u003e\n\u003cli\u003e模块目前仅隐藏聊天记录，防止被偷窥，而不会”伪装“或修改好友/群组信息，此类功能暂时不会添加\u003c/li\u003e\n\u003cli\u003e模块正常只隐藏主页相关消息，不包括通知栏等渠道的消息，有较强隐私需求用户，建议关闭微信的\u003ccode\u003e通知显示消息详情\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e隐藏App图标（Since V1.13）\u003c/h3\u003e\n\u003cp\u003ev1.13版本开始，默认隐藏App在桌面的图标。隐藏以后，打开模块App可以通过以下途径：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e从 lsp 模块管理器打开App\u003c/li\u003e\n\u003cli\u003e从网页链接（deeplink）打开App\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003cstrong\u003ePS.\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eApp主页跳转链接：\u003ca href=\"maskwechat://com.lu.wxmask\"\u003emaskwechat://com.lu.wxmask\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e小米系统可通过系统的”扫一扫“扫描上述链接对应的二维马直接打开（请自行去生成一个吧），其他app如浏览器需可点击短链打开：\u003ca href=\"https://sourl.cn/sPfEeY\"\u003ehttps://sourl.cn/sPfEeY\u003c/a\u003e，可以保存为书签\u003c/li\u003e\n\u003cli\u003e微信/QQ不支持通过此类链接跳转\u003c/li\u003e\n\u003cli\u003e自行配置 html 如：\u003ccode\u003e\u0026lt;a href=\u0026quot;maskwechat://com.lu.wxmask\u0026quot;\u0026gt;maskwechat://com.lu.wxmask\u0026lt;/a\u0026gt;\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cp\u003eplay store版本：\u003c/p\u003e\n\u003cp\u003e8.0.42 2429\u003cbr /\u003e\n8.0.48 2589\u003c/p\u003e\n\u003cp\u003e感谢 @mislock 大胸弟。\u003c/p\u003e\n\u003cp\u003e官网版本：\u003cbr /\u003e\n8.0.22 (2140) 2022-04-29\u003cbr /\u003e\n80.0.32 (2300) 2023-01-06\u003cbr /\u003e\n8.0.33 (2320) 2023-02-23\u003cbr /\u003e\n8.0.34 (2340) 2023-03-23\u003cbr /\u003e\n8.0.35 (2340) 2023-04-20 (PS. 不是作者写错，而是特么下载到了一个和8.0.34版本号一样的8.0.35)\u003cbr /\u003e\n8.0.35 (2360) 2023-04-20\u003cbr /\u003e\n8.0.37 (2380) 2023-05-25\u003cbr /\u003e\n8.0.38 (2400) 2023-06-21\u003cbr /\u003e\n8.0.40 (2420) 2023-07-20\u003cbr /\u003e\n8.0.40 (2420) 2023-07-20\u003cbr /\u003e\n8.0.41 (2441) 2023-09-06\u003cbr /\u003e\n8.0.42 (2460) 2023-09-22\u003cbr /\u003e\n8.0.43 (2480) 2023-11-06\u003cbr /\u003e\n8.0.44 (2502) 2023-12-04\u003cbr /\u003e\n8.0.45 (2521) 2024-01-02\u003cbr /\u003e\n8.0.46 (2540) 2024-01-23\u003cbr /\u003e\n8.0.47 (2560) 2024-02-01\n8.0.49 (2600) 2024-04-22\n8.0.50 (2701) 2024-07-02\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003ePS.\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e仅支持上述版本，所有其他版本号以及32位版本未经测试，预计百分之九十九不可用\u003c/li\u003e\n\u003cli\u003e模块一般只测试通过了最后一个适配的微信版本，因为作者精力有限+穷没有多余手机测试\u003c/li\u003e\n\u003cli\u003e微信更新记录官网： \u003ca href=\"https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN\u0026amp;t=weixin_faq_list\u0026amp;head=true\"\u003ehttps://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN\u0026amp;t=weixin_faq_list\u0026amp;head=true\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e如果你版本是受支持的，但无法正常使用，请参考以下问题：\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e问题1：为什么我的微信版本是8.0.32，但是无法正常使用，什么反应都没有？\u003c/strong\u003e\u003cbr /\u003e\n答：微信实际上特么的有很多个8.0.32版本，而你的版本悲剧了不支持。在官网上，截止当前时间（2023/02/24），作者能找到的8.0.32就有8个版本下载链接：\u003cbr /\u003e\n（1）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_arm64.apk\u003c/a\u003e\u003cbr /\u003e\n（2）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_1.apk\u003c/a\u003e\u003cbr /\u003e\n（3）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_2.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_2.apk\u003c/a\u003e\u003cbr /\u003e\n（4）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk\u003c/a\u003e\u003cbr /\u003e\n（5）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300.apk\u003c/a\u003e\u003cbr /\u003e\n（6）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_1.apk\u003c/a\u003e\u003cbr /\u003e\n（7）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_2.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_2.apk\u003c/a\u003e\u003cbr /\u003e\n（8）\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_3.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_3.apk\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e问题2：为什么我的微信版本是8.0.32，仍然弹出不支持的版本对话框？\u003c/strong\u003e\u003cbr /\u003e\n答：原因类似问题1，只不过你的微信版本号不是2300，仅仅是版本名称叫8.0.32，而这、导致模块不支持。由此可见，8.0.32的安装包也远不止问题1所列。假如你能正常使用，但是弹窗，请反馈版本号以便去除弹窗。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e问题3：上面列举了那么多个下载链接，到底下载那个？\u003c/strong\u003e\u003cbr /\u003e\n答：官网去下载，比对下sha1。当然，正常来说版本号相同就支持。\u003c/p\u003e\n\u003cp\u003e以下链接来自官网：\u003cbr /\u003e\n8.0.22（2140）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8022android2140_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8022android2140_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 2FAB9BF8E160F38494FE7D6D4D7A56DF63B6EB58\u003c/p\u003e\n\u003cp\u003e8.0.32（2300）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8032android2300_arm64_3.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 45A408C5222C1A03D3B7C84F06DA97AD2F5B4ADC\u003c/p\u003e\n\u003cp\u003e8.0.33（2320）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8033android2320_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 8069F4730CF8839BE68609EF2F4702349E23A86B\u003c/p\u003e\n\u003cp\u003e8.0.34（2340）: \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8034android2340_arm64_1.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 30D0D0C25561D367A9E359A1804EA90352BEA7F5\u003c/p\u003e\n\u003cp\u003e8.0.35 (2360): \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8035android2360_arm64_3.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8035android2360_arm64_3.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 5593FB24667D44ABD2299EF1118CD3498099B719\u003c/p\u003e\n\u003cp\u003e8.0.37（2380）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8037android2380_arm64_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8037android2380_arm64_1.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 410E675B0014F6DF768825F647F69D98A110D50D\u003c/p\u003e\n\u003cp\u003e8.0.38（2400）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8038android2400_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8038android2400_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: F62FAD64F70F1181EC62DD3BD796A047028078FA\u003c/p\u003e\n\u003cp\u003e8.0.40（2420）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8040android2420_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8040android2420_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: BCCA3CCACE5F40184A42FEFB06190C7279024985\u003c/p\u003e\n\u003cp\u003e8.0.41（2441）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8041android2441_arm64_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8041android2441_arm64_1.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 51D3E1C9594723FE8A69B68780C4B561964C7718\u003c/p\u003e\n\u003cp\u003e8.0.42（2460）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8042android2460_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8042android2460_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 227E395C67A2C0B0BCC750E1A3C52F642B433441\u003c/p\u003e\n\u003cp\u003e8.0.43（2480）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b35_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8043android2480_0x28002b35_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: C46C85AF05130EDABCDBA8D487A5373ECE4AE6D0\u003c/p\u003e\n\u003cp\u003e8.0.44（2502）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8044android2502_0x28002c36_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8044android2502_0x28002c36_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 38525994D6D69106CDB3D6F9F62B045CFF9CC4D5\u003c/p\u003e\n\u003cp\u003e8.0.45（2521）：\u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8045android2521_0x28002d34_arm64_1.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8045android2521_0x28002d34_arm64_1.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: F44F35663E2A2C3BF9EA671270D65902AB5727DA\u003c/p\u003e\n\u003cp\u003e8.0.46（2540）: \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin/android/weixin8046android2540_0x28002e34_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin/android/weixin8046android2540_0x28002e34_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 173D8632093949D7AB1DA6D8B8CB5C1252876BEB\u003c/p\u003e\n\u003cp\u003e8.0.47（2560）: \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8047android2560_0x28002f36_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8047android2560_0x28002f36_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 79F1341563A9CCCAF3090D27A5E9D529008EEC42\u003c/p\u003e\n\u003cp\u003e8.0.49（2600）: \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8049android2600_0x2800313d_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8049android2600_0x2800313d_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: 6F2B100D9A14833E371651017E154147C21BC6B9\u003c/p\u003e\n\u003cp\u003e8.0.50（2701）: \u003ca href=\"https://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323e_arm64.apk\"\u003ehttps://dldir1.qq.com/weixin/android/weixin8050android2701_0x2800323e_arm64.apk\u003c/a\u003e\u003cbr /\u003e\nSHA1: EC9A3352879B3B9793A9FA1A9FCCD31D48F88DB0\u003c/p\u003e\n\u003cp\u003e推荐适配的最后两个版本，因为其他版本，作者自己不再使用\u003c/p\u003e\n\u003ch2\u003e交流\u003c/h2\u003e\n\u003cp\u003eCI编译telegram频道（频道不能聊天）： 点击添加 \u003ca href=\"https://t.me/MaskWechatCI\"\u003ehttps://t.me/MaskWechatCI\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003etelegram普通群：点击添加 \u003ca href=\"https://t.me/MaskWechatX\"\u003ehttps://t.me/MaskWechatX\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e声明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e项目旨在个人测试与学习开发，请勿用于商业用途，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e项目所发布的所有App版本，虽名为release，实际均为开发包，均使用同一个测试签名，因此它将不会在应用市场发布\u003c/li\u003e\n\u003cli\u003e项目只保证自身不会包含任何恶意代码，不会主动收集任何个人信息，但不能保证第三方库安全\u003c/li\u003e\n\u003cli\u003e您应当知道并理解使用\u003ccode\u003e模块\u003c/code\u003e的风险，使用此模块如造成问题与作者无关\u003c/li\u003e\n\u003cli\u003e您只有在清楚并同意本声明的情况下，才可使用本项目的App\u003c/li\u003e\n\u003c/ol\u003e\n",
       "icon": "com.lu.wxmask.webp",
-      "lastUpdated": 1721457196000,
+      "lastUpdated": 1732985883000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1. 适配8.0.50\n2. 修复2.2朋友圈、单聊详情退出崩溃 bug\n重要变更：2.2版本开始，hook了sql（不区分微信版本）可能存在bug。"
+          "whatsNew": "1. fix bug\n2. support 8.0.51~8.0.53\n3. time travel for message list item "
         }
       },
       "name": "糊脸WeChat",
       "packageName": "com.lu.wxmask",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.lu.wxmask",
-      "suggestedVersionCode": "1003",
-      "suggestedVersionName": "2.3-niubi",
+      "suggestedVersionCode": "1004",
+      "suggestedVersionName": "2.4-xb",
       "summary": "微信糊脸模块。隐藏特定用户的聊天记录，防止私密的聊天被第三人偷看"
     },
     {
@@ -8977,23 +9077,25 @@
       "summary": "解除 APP 对屏幕旋转的控制，针对所有 Android Pad 设计，拒绝强制竖屏从我做起"
     },
     {
-      "added": 1732103212000,
+      "added": 1732878002000,
       "authorName": "Fansirsqi",
       "categories": [
         "Xposed"
       ],
-      "lastUpdated": 1732103212000,
+      "description": "\u003ch1\u003eSesame-TK\u003c/h1\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1\u0026amp;font=Source%20Code%20Pro\u0026amp;forks=1\u0026amp;issues=1\u0026amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Circuit%20Board\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"Sesame-TK\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff\u0026amp;label=License\u0026amp;logo=gnuprivacyguard\" alt=\"License\" /\u003e\u003c/a\u003e\n\u003ca href=\"../../releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff\u0026amp;label=Releases\u0026amp;logo=gitlfs\" alt=\"Latest Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"../../releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff\u0026amp;label=Downloads\u0026amp;logo=codefresh\" alt=\"All Releases Download\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/fansirsqi_xposed_sesame\"\u003e\u003cimg src=\"https://img.shields.io/badge/Sesame--TK-nul?\u0026amp;logo=Telegram\u0026amp;label=Telegram-Channel\u0026amp;labelColor=fff\u0026amp;link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/center\u003e\n\u003ch2\u003eforked from \u003ca href=\"https://github.com/TKaxv-7S/Sesame-TK\"\u003eTKaxv-7S\u003c/a\u003e\u003c/h2\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/Fansirsqi/Sesame-TK\"\u003e本项目地址\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e感谢蚂蚁森林对绿化事业的贡献。快速收取蚂蚁森林能量，也为祖国的绿化事业出一份微薄之力~\u003c/p\u003e\n\u003cp\u003e你 可 以 fork \u003ca href=\"https://github.com/Fansirsqi/Sesame-TK\"\u003e源代码\u003c/a\u003e 自 行 编 译 ⚙️。\u003c/p\u003e\n\u003cp\u003e我 是 一 个 新 手 ，所 以 代 码 的 质 量 可 能 不 那 么 好 。 欢 迎 提 出 建 议。\u003c/p\u003e\n\u003cp\u003e（尽管我不确定我能做些什么）因为我可能真的不能做些什么。\u003c/p\u003e\n\u003cp\u003e如 果 你 喜 欢 这 个 项 目 ， 欢 迎 提 交 PR。\u003c/p\u003e\n\u003cp\u003e感谢🙏。\u003c/p\u003e\n\u003cdetails\u003e\n\u003csummary\u003e图 片 预 览\u003c/summary\u003e\n\u003cdiv style=\"display: flex; align-items: flex-start; justify-content: center;\"\u003e\n  \u003cimg src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg\" alt=\"Screenshot 1\" style=\"max-width: 35%; height: auto; margin-right: 10px;\"\u003e\n  \u003cimg src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg\" alt=\"Screenshot 2\" style=\"max-width: 35%; height: auto;\"\u003e\n\u003c/div\u003e\n\u003c/details\u003e\n\u003cstrong style=\"color:red;\"\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本软件仅供学习和研究使用，禁止任何形式的转发、发布或传播。本应用程序（以下简称“本APP”）仅供学习和研究用途，严禁以任何形式进行转发、发布或传播。\u003c/li\u003e\n\u003cli\u003e使用者应在下载本APP后24小时内自行卸载。若在使用期间造成任何损失，作者概不负责。\u003c/li\u003e\n\u003cli\u003e本APP不篡改、不修改、不收集、不存储任何个人信息或支付宝相关信息。\u003c/li\u003e\n\u003cli\u003e因违反本声明内容触犯中华人民共和国法律的行为，其一切后果由使用者自行承担，作者不承担任何法律责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接或间接使用本APP的行为，均视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e若本APP无意中侵犯了任何媒体或个人的知识产权，请通过邮件或电话告知，作者将立即删除相关内容或应用。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eDisclaimer\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eThis application (hereinafter referred to as “the APP”) is solely for educational and research purposes. Redistribution, publication, or dissemination in any form is strictly prohibited.\u003c/li\u003e\n\u003cli\u003eUsers must uninstall this APP within 24 hours of downloading. The author is not responsible for any damage or loss caused during its use.\u003c/li\u003e\n\u003cli\u003eThis APP does not alter, modify, collect, or store any personal information or Alipay-related data.\u003c/li\u003e\n\u003cli\u003eAny user violating this disclaimer and breaching the laws of the People’s Republic of China shall bear full responsibility for the consequences. The author assumes no legal liability.\u003c/li\u003e\n\u003cli\u003eAny person who directly or indirectly uses this APP is deemed to have voluntarily accepted the constraints of this disclaimer.\u003c/li\u003e\n\u003cli\u003eIf this APP unintentionally infringes upon the intellectual property rights of any individual or entity, please contact the author via email or phone. The author will immediately remove the relevant content or application.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/strong\u003e\n",
+      "lastUpdated": 1732878002000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "just test"
+          "whatsNew": "## What's Changed\n* 扩展功能 by @loool-com in https://github.com/Fansirsqi/Sesame-TK/pull/12\n* 使旧UI的对话框按钮颜色统一调用color中的button；更改Switch开关样式 by @Zhangfanyu1222 in https://github.com/Fansirsqi/Sesame-TK/pull/14\n* fix https://github.com/Fansirsqi/Sesame-TK/pull/12 扩展未实现的后台逻辑 by @Fansirsqi      https://github.com/Fansirsqi/Sesame-TK/commit/4432b958f6715a14f187e2f8942fce942745f196\n* 添加自动使用每天领的限时保护罩功能 by @Fansirsqi     https://github.com/Fansirsqi/Sesame-TK/commit/44472c4dfb442985035b24fe9196008072c6941b\n\n#"
         }
       },
       "name": "芝麻粒-TK",
       "packageName": "fansirsqi.xposed.sesame",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/fansirsqi.xposed.sesame",
-      "suggestedVersionCode": "80",
-      "suggestedVersionName": "ffa7f8de-alpha"
+      "suggestedVersionCode": "1138",
+      "suggestedVersionName": "24.11.29.alpha.18.31.52",
+      "summary": "蚂蚁森林快速收取能量"
     },
     {
       "added": 1684206812000,
@@ -9556,6 +9658,22 @@
     }
   ],
   "packages": {
+    "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2": [
+      {
+        "added": 1733214171000,
+        "apkName": "categories.txt",
+        "hash": "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2",
+        "hashType": "sha256",
+        "minSdkVersion": 0,
+        "nativecode": null,
+        "packageName": "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2",
+        "sig": "",
+        "signer": "",
+        "size": 7,
+        "targetSdkVersion": 0,
+        "versionName": "4865572"
+      }
+    ],
     "Cai_Ming_Yu.CacheCleaner": [
       {
         "added": 1726907345000,
@@ -10407,7 +10525,24 @@
     ],
     "cn.xihan.qdds": [
       {
-        "added": 1730653985000,
+        "added": 1732366735000,
+        "apkName": "cn.xihan.qdds_638-3.2.6.apk",
+        "hash": "c34222e010a32c4e77d56f24f83f010ae09beba3ace55d24a97fa6951ddc95d2",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "cn.xihan.qdds",
+        "sig": "935d0e4e4b7b2baca270dd55d865ba7b",
+        "signer": "3391700379baae3961268bec62a34f36fde8c9541e34d03050cd33e96fbdb58d",
+        "size": 4378759,
+        "targetSdkVersion": 35,
+        "versionCode": 638,
+        "versionName": "3.2.6"
+      },
+      {
+        "added": 1732159422000,
         "apkName": "cn.xihan.qdds_628-3.2.5.apk",
         "hash": "23852f47fc0a677bed4fe5d480eca4830cf94d278e36a5e863aa934cf6b92a93",
         "hashType": "sha256",
@@ -12294,6 +12429,23 @@
         "versionName": "1.0.1"
       }
     ],
+    "com.hiiro.fuckddvip": [
+      {
+        "added": 1692459153000,
+        "apkName": "com.hiiro.fuckddvip_1-1.0.0.apk",
+        "hash": "70fae9c66687bd6a952ea012e510718de011866163e139468f1a034320c64421",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.hiiro.fuckddvip",
+        "sig": "02e53d803a28b90fc1d0725c0bae00db",
+        "signer": "5f70698420d423b2ce0b00185e404bc04a403add416302f8f0cf1cc91c1262c7",
+        "size": 89301,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.0"
+      }
+    ],
     "com.hiwechart.translate": [
       {
         "added": 1665976946000,
@@ -12805,7 +12957,22 @@
     ],
     "com.lu.wxmask": [
       {
-        "added": 1721457196000,
+        "added": 1732985883000,
+        "apkName": "com.lu.wxmask_1004-2.4-xb.apk",
+        "hash": "6036cf76e034cff0f6d7e17fdc9580860de34400ab35b7575f970d07512e478c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.lu.wxmask",
+        "sig": "d139aa4ad7e53c58c8fccdb67eae8750",
+        "signer": "144f663f47b90c07db065b5dbd7ddb20fc5794083d7b40ac266581aae69d8928",
+        "size": 793896,
+        "targetSdkVersion": 35,
+        "versionCode": 1004,
+        "versionName": "2.4-xb"
+      },
+      {
+        "added": 1732159478000,
         "apkName": "com.lu.wxmask_1003-2.3-niubi.apk",
         "hash": "0d9f15449044842af10f723d9c2b2da1afe311fa616b001324876bb64d5ef087",
         "hashType": "sha256",
@@ -12839,7 +13006,24 @@
     ],
     "com.luckyzyx.luckytool": [
       {
-        "added": 1729940130000,
+        "added": 1733043531000,
+        "apkName": "com.luckyzyx.luckytool_17737-1.2.6.apk",
+        "hash": "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8074328,
+        "targetSdkVersion": 28,
+        "versionCode": 17737,
+        "versionName": "1.2.6"
+      },
+      {
+        "added": 1732159480000,
         "apkName": "com.luckyzyx.luckytool_17333-1.2.5.apk",
         "hash": "688922e2dc9ecfca7e7c21b6b46367726c011b5004cad93ca7634cd051286009",
         "hashType": "sha256",
@@ -12960,7 +13144,27 @@
     ],
     "com.makino.cslyric": [
       {
-        "added": 1727197808000,
+        "added": 1732472632000,
+        "apkName": "com.makino.cslyric_11-3.0-beta.apk",
+        "hash": "3686b9d116a63c858985d2be8449b2f6dd7c827bc601ec13380a49f146f6d5b6",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.makino.cslyric",
+        "sig": "ed75ad9ec81a577cfee47055947be08c",
+        "signer": "71649f9594ef55cadac1400305236226d52f381361140438281043d7a729e0e9",
+        "size": 5488948,
+        "targetSdkVersion": 35,
+        "versionCode": 11,
+        "versionName": "3.0-beta"
+      },
+      {
+        "added": 1732159483000,
         "apkName": "com.makino.cslyric_7-0.2.6.apk",
         "hash": "822e67e2a99a17fde11daf166f552d11134e2bafce0a0f4e73b6724f394c466f",
         "hashType": "sha256",
@@ -13029,6 +13233,23 @@
         "targetSdkVersion": 34,
         "versionCode": 25,
         "versionName": "1.5.2-beta"
+      }
+    ],
+    "com.mihuashi.paybyfinger": [
+      {
+        "added": 1732450845000,
+        "apkName": "com.mihuashi.paybyfinger_1-1.0.1.apk",
+        "hash": "8acf0202c935ac3a059f3826838f71fe3f9bcb53eb668cd33f058c5f6b42d40c",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "com.mihuashi.paybyfinger",
+        "sig": "f29dee814be9c84dcc8a1392ef4d24e6",
+        "signer": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159",
+        "size": 2255657,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.1"
       }
     ],
     "com.miui.break.sim": [
@@ -13738,6 +13959,23 @@
         "versionName": "1.0.3"
       }
     ],
+    "com.th7.cgsportbypass": [
+      {
+        "added": 1733149308000,
+        "apkName": "com.th7.cgsportbypass_111-1.1.1.apk",
+        "hash": "63389f8652e50b50fbb91847949a3e00e4e012c81a00f59044f79489847d888e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.th7.cgsportbypass",
+        "sig": "e67851911038d17cb129519408081224",
+        "signer": "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482",
+        "size": 11240,
+        "targetSdkVersion": 35,
+        "versionCode": 111,
+        "versionName": "1.1.1"
+      }
+    ],
     "com.th7.fcsdk": [
       {
         "added": 1676177593000,
@@ -13842,7 +14080,25 @@
     ],
     "com.twifucker.hachidori": [
       {
-        "added": 1729096890000,
+        "added": 1732463993000,
+        "apkName": "com.twifucker.hachidori_22-0.22.apk",
+        "hash": "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.twifucker.hachidori",
+        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
+        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
+        "size": 4641238,
+        "targetSdkVersion": 35,
+        "versionCode": 22,
+        "versionName": "0.22"
+      },
+      {
+        "added": 1732159503000,
         "apkName": "com.twifucker.hachidori_21-0.21.apk",
         "hash": "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10",
         "hashType": "sha256",
@@ -14874,7 +15130,22 @@
     ],
     "fansirsqi.xposed.sesame": [
       {
-        "added": 1732103212000,
+        "added": 1732878002000,
+        "apkName": "fansirsqi.xposed.sesame_1138-24.11.29.alpha.18.31.52.apk",
+        "hash": "d5deecb41af4676747415c4e08e7581d023147c6f817c3a82d60134c5be125f4",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": null,
+        "packageName": "fansirsqi.xposed.sesame",
+        "sig": "83caf298b1e552712a198432c83fcaa6",
+        "signer": "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981",
+        "size": 8229958,
+        "targetSdkVersion": 34,
+        "versionCode": 1138,
+        "versionName": "24.11.29.alpha.18.31.52"
+      },
+      {
+        "added": 1732159525000,
         "apkName": "fansirsqi.xposed.sesame_80-ffa7f8de-alpha.apk",
         "hash": "128dabcc2f0c6b2faaf6b43842bdd90de4cc3bffe66aca4e9f70a21bfa86c2c0",
         "hashType": "sha256",
@@ -15044,7 +15315,22 @@
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
       {
-        "added": 1731599902000,
+        "added": 1732359188000,
+        "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_621-6.2.1.apk",
+        "hash": "601a36a4f8e525f2f5b6372b280b9387a80a18f76c5cd60578192f8cf06c8697",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
+        "sig": "bc2ef2716deebff7810b544ed6e15b06",
+        "signer": "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf",
+        "size": 2054991,
+        "targetSdkVersion": 33,
+        "versionCode": 621,
+        "versionName": "6.2.1"
+      },
+      {
+        "added": 1732159530000,
         "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_612-6.1.2.apk",
         "hash": "b7fb32fa493ef4261f661a1739209e12d36876d13c5d782881ecbed4c1fa1c75",
         "hashType": "sha256",
@@ -15072,21 +15358,6 @@
         "targetSdkVersion": 33,
         "versionCode": 610,
         "versionName": "6.1.0"
-      },
-      {
-        "added": 1732159529000,
-        "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_600-6.0.0.apk",
-        "hash": "c52fb7d5db655db2eea0a7e141f266fc22d35080b29d2c1f1c5289666346bf84",
-        "hashType": "sha256",
-        "minSdkVersion": 21,
-        "nativecode": null,
-        "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
-        "sig": "bc2ef2716deebff7810b544ed6e15b06",
-        "signer": "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf",
-        "size": 2049354,
-        "targetSdkVersion": 34,
-        "versionCode": 600,
-        "versionName": "6.0.0"
       }
     ],
     "icu.freedomintrovert.YTSendCommAntiFraud": [
@@ -15659,7 +15930,7 @@
     ],
     "io.github.qauxv": [
       {
-        "added": 1729341968000,
+        "added": 1732159540000,
         "apkName": "io.github.qauxv_2483-1.5.4.r2483.eecf29b.apk",
         "hash": "8ded9ad42c299d020dbb764a8886875ff66a6a71b49cbb1cf683fcd0a98e2c0e",
         "hashType": "sha256",
@@ -16077,6 +16348,28 @@
         "versionName": "2.2"
       }
     ],
+    "its.madruga.warevamp": [
+      {
+        "added": 1733008016000,
+        "apkName": "its.madruga.warevamp_1-0.0.4.apk",
+        "hash": "6507d7e7552dd2cd8a6504169b5c37fc9ccce3ebfa3ae8e942a52dd394ead093",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "its.madruga.warevamp",
+        "sig": "643f6250425529e287ad7f1d14fef6b2",
+        "signer": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc",
+        "size": 3068797,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.0.4"
+      }
+    ],
     "lialh4.ldf": [
       {
         "added": 1701857823000,
@@ -16463,7 +16756,27 @@
     ],
     "me.plusne": [
       {
-        "added": 1731468827000,
+        "added": 1732506390000,
+        "apkName": "me.plusne_7133-7.5.7.apk",
+        "hash": "8d8c50827e84d2e01cfb0d6b2562bcccd35966030653ab8feb142b5c5cc7f554",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10525309,
+        "targetSdkVersion": 33,
+        "versionCode": 7133,
+        "versionName": "7.5.7"
+      },
+      {
+        "added": 1732159558000,
         "apkName": "me.plusne_7130-7.5.4.apk",
         "hash": "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288",
         "hashType": "sha256",
@@ -16501,26 +16814,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7129,
         "versionName": "7.5.3"
-      },
-      {
-        "added": 1732159557000,
-        "apkName": "me.plusne_7127-7.5.1.apk",
-        "hash": "b8830141a6d70391622f5ac3919fbe15e5aefc4d43d71f1f321f8355e6e67033",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "me.plusne",
-        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
-        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
-        "size": 10521205,
-        "targetSdkVersion": 33,
-        "versionCode": 7127,
-        "versionName": "7.5.1"
       }
     ],
     "me.rhunk.snapenhance": [
@@ -16578,7 +16871,25 @@
     ],
     "me.teble.xposed.autodaily": [
       {
-        "added": 1731341483000,
+        "added": 1732723065000,
+        "apkName": "me.teble.xposed.autodaily_24112723-3.0.29.apk",
+        "hash": "e57f84c1cdfe93160de391e2f6912c7f30cd15b90a9ea0061debd966b778ea70",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "me.teble.xposed.autodaily",
+        "sig": "6d6346b7d7802b4ab25f93cb904d8a4c",
+        "signer": "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908",
+        "size": 7599046,
+        "targetSdkVersion": 33,
+        "versionCode": 24112723,
+        "versionName": "3.0.29"
+      },
+      {
+        "added": 1732159560000,
         "apkName": "me.teble.xposed.autodaily_24111200-3.0.28.apk",
         "hash": "3efbd750331179a452763baa9a767b5bf10b8f409252355ff3786084e980bcb8",
         "hashType": "sha256",
@@ -17226,7 +17537,27 @@
     ],
     "ru.bluecat.sberbankpatcher": [
       {
-        "added": 1729358103000,
+        "added": 1732987904000,
+        "apkName": "ru.bluecat.sberbankpatcher_352-1.22.apk",
+        "hash": "3b1889c06186933de651e1c66c85fb2c03a5da44eb00153534cfb12a7e21fa4f",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 8891399,
+        "targetSdkVersion": 34,
+        "versionCode": 352,
+        "versionName": "1.22"
+      },
+      {
+        "added": 1732159573000,
         "apkName": "ru.bluecat.sberbankpatcher_324-1.21.apk",
         "hash": "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c",
         "hashType": "sha256",
@@ -17310,7 +17641,22 @@
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
       {
-        "added": 1731085340000,
+        "added": 1732468458000,
+        "apkName": "ru.hepolise.volumekeymusicmanagermodule_8-1.15.1.apk",
+        "hash": "d77e0bb4cbe1d2a87645541c329a51aa8907cb6631905c280779d73fe0cdb274",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": null,
+        "packageName": "ru.hepolise.volumekeymusicmanagermodule",
+        "sig": "b85aeb812187a58a7426201ab0ead809",
+        "signer": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836",
+        "size": 169403,
+        "targetSdkVersion": 35,
+        "versionCode": 8,
+        "versionName": "1.15.1"
+      },
+      {
+        "added": 1732159575000,
         "apkName": "ru.hepolise.volumekeymusicmanagermodule_7-1.15.0.apk",
         "hash": "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1",
         "hashType": "sha256",
@@ -17767,7 +18113,25 @@
     ],
     "top.hookvip.pro": [
       {
-        "added": 1731610344000,
+        "added": 1733040919000,
+        "apkName": "top.hookvip.pro_20241201-4.0.3.apk",
+        "hash": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "top.hookvip.pro",
+        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
+        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
+        "size": 5159130,
+        "targetSdkVersion": 34,
+        "versionCode": 20241201,
+        "versionName": "4.0.3"
+      },
+      {
+        "added": 1732159589000,
         "apkName": "top.hookvip.pro_20241115-4.0.2.apk",
         "hash": "8f5d2657a34285af40bcddc502a50f1c2850ee284498f75730d1babb27db11b4",
         "hashType": "sha256",
@@ -17801,24 +18165,6 @@
         "targetSdkVersion": 34,
         "versionCode": 20241030,
         "versionName": "4.0.0"
-      },
-      {
-        "added": 1732159588000,
-        "apkName": "top.hookvip.pro_20241030-4.0.1.apk",
-        "hash": "24e6d1136f56ff447d0d71550c986949369523baa5558d941f6a0b9fa43678ae",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "top.hookvip.pro",
-        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
-        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
-        "size": 4626185,
-        "targetSdkVersion": 34,
-        "versionCode": 20241030,
-        "versionName": "4.0.1"
       }
     ],
     "top.trangle.mbga": [

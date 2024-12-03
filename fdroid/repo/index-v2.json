@@ -14,9 +14,47 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1732159699000
+    "timestamp": 1733214407000,
+    "categories": {
+      "Xposed": {
+        "name": {
+          "en-US": "Xposed"
+        }
+      },
+      "fdroid": {
+        "name": {
+          "en-US": "fdroid"
+        }
+      }
+    }
   },
   "packages": {
+    "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2": {
+      "metadata": {
+        "added": 1733214171000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1733214171000,
+        "name": {
+          "en-US": "categories"
+        }
+      },
+      "versions": {
+        "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2": {
+          "added": 1733214171000,
+          "file": {
+            "name": "/categories.txt",
+            "sha256": "4865572f842a0973a16d9b66b0ab865a561b6e39cf624389bd0ed1283427deb2",
+            "size": 7
+          },
+          "manifest": {
+            "versionName": "4865572",
+            "versionCode": 0
+          }
+        }
+      }
+    },
     "Cai_Ming_Yu.CacheCleaner": {
       "metadata": {
         "added": 1732159400000,
@@ -2283,11 +2321,11 @@
     },
     "cn.wankkoree.xp.portrait2landscape": {
       "metadata": {
-        "added": 1732159420000,
+        "added": 1732159421000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159421000,
+        "lastUpdated": 1733214026000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -2343,38 +2381,38 @@
             "en-US": [
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/1.png",
-                "sha256": "66856da70d19a0e68cc5ca91533f5f374f28b7a3f07f676d0ff06ab8c2e8997d",
-                "size": 337806
+                "sha256": "ba6e162e1365e1e932826d2b51e88b078793c2752d1d681dfdb109a77f48a486",
+                "size": 337500
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/2.png",
-                "sha256": "87e658f1ac033400c64ed7e0c65793067b6863d50c2d85303bc9399927ddcbea",
-                "size": 267047
+                "sha256": "81be456ee0fbdd205a5fdaf9a2c65efe2b88cbbabfd24df1ad006590b9f16285",
+                "size": 266741
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/3.png",
-                "sha256": "c23a222e8b9f7091806aeab4b788433f5f5a551c23346dc13a0a349ce7e52a7a",
-                "size": 431975
+                "sha256": "b9d749abec97d81a0884f8ead164f927d7914697186e3a1358f1c9a98ee2d64c",
+                "size": 431669
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/4.png",
-                "sha256": "02abf615d94f3c6d6cbfac53ac74b04e6bf5d561cf292e25a1b65b9ee4c42bab",
-                "size": 296797
+                "sha256": "b96a846d35ce7d7137d34a37a3cc91c075e0681797241d07197426fac362cc6e",
+                "size": 296491
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/5.png",
-                "sha256": "544890cd0b18bf73a35298f4b0e0a8bd02d7fb1b5411881ce9b4e577c44b9715",
-                "size": 113186
+                "sha256": "56c60b36d247b5855de63018743d5311ba8c9c67c08d3a08cee5606bfbcedd34",
+                "size": 112880
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/6.png",
-                "sha256": "ac9c2bed502d4653381b44b73d970045496b71b79bfe430f016613172619a6bd",
-                "size": 115855
+                "sha256": "20d12f0e97327cc9f64fc5bab2bfe9d621f8c2c15b787144f1fb96ddc8c95103",
+                "size": 115549
               },
               {
                 "name": "/cn.wankkoree.xp.webviewpp/en-US/phoneScreenshots/7.png",
-                "sha256": "f3070d4c7d378dc87bc78777215cded2bd68e4a7e2c3a9233db84305f2ef0fa6",
-                "size": 215915
+                "sha256": "9ebcd105c24091e8c4bc63bfd5b90e69ba3fb881299315b6d3bca62f1c1c5982",
+                "size": 215609
               }
             ]
           }
@@ -2525,8 +2563,34 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159422000,
+        "lastUpdated": 1733214028000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.xihan.qdds",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/cn.xihan.qdds/en-US/phoneScreenshots/1.png",
+                "sha256": "10b2998c8acc841e1b1c80e513fd29c776c73e3988a52e4f785acbe33cf7695b",
+                "size": 256542
+              },
+              {
+                "name": "/cn.xihan.qdds/en-US/phoneScreenshots/2.png",
+                "sha256": "891e3725cd7e5512f5b68bfae5b4b63d8d5290fa7ab6336339247baf1894c894",
+                "size": 674637
+              },
+              {
+                "name": "/cn.xihan.qdds/en-US/phoneScreenshots/3.png",
+                "sha256": "76b016bd8db25e4e40d4962eee6231f49c3cf04500bf24e71f515a46ccd424f7",
+                "size": 158948
+              },
+              {
+                "name": "/cn.xihan.qdds/en-US/phoneScreenshots/4.jpg",
+                "sha256": "bb2679a3c08f27029e852dc08845f346d36e6beabd7efdf121089f87ffcb4eef",
+                "size": 93414
+              }
+            ]
+          }
+        },
         "authorName": "xihan123",
         "name": {
           "en-US": "QDReadHook"
@@ -2535,11 +2599,40 @@
           "en-US": "起点阅读-自定义增强功能\n1.主要功能\n2.广告相关\n3.闪屏页相关\n4.隐藏控件\n5.替换净化\n\n目前支持 758+ 正式版"
         },
         "description": {
-          "en-US": "<p><img src=\"https://socialify.git.ci/xihan123/QDReadHook/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Ft3.picb.cc%2F2023%2F05%2F30%2FIj8tn6.png&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Light\" alt=\"QDReadHook\" /></p>\n<p><img src=\"https://img.shields.io/badge/Android-8.0%20or%20above-brightgreen.svg\" alt=\"above\" />\n<a href=\"https://github.com/xihan123/QDReadHook/actions/workflows/build.yml\"><img src=\"https://github.com/xihan123/QDReadHook/actions/workflows/build.yml/badge.svg\" alt=\"Android CI\" /></a>\n<a href=\"https://github.com/xihan123/QDReadHook/releases\"><img src=\"https://img.shields.io/github/release/xihan123/QDReadHook.svg\" alt=\"Latest Release\" /></a>\n<img src=\"https://img.shields.io/github/downloads/xihan123/QDReadHook/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/cn.xihan.qdds/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.xihan.qdds/total?label=LSPosed%20Repo&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff\" alt=\"Blank\" /></a>\n<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img src=\"https://img.shields.io/github/license/xihan123/QDReadHook.svg\" alt=\"license\" /></a></p>\n<hr />\n<h2>起点阅读 Xp模块</h2>\n<h3>注意事项</h3>\n<ul>\n<li>\n<p>使用前注意给予起点存储权限</p>\n</li>\n<li>\n<p>设置页面在:起点-&gt;我的-&gt;左上角设置-&gt;阅读设置/模块设置(长按)(1.1.2+)</p>\n</li>\n<li>\n<p>由于 <a href=\"https://jihulab.com/\">极狐Gitlab</a> 封禁导致 <a href=\"https://jihulab.com/xihan123/QDReadHook\">极狐Gitlab-QDReadHook</a> 我已无权限更改，该仓库内容已过时</p>\n</li>\n</ul>\n<h3>支持版本范围</h3>\n<p>暂时提高版本号范围以支持一些不容易改变的类</p>\n<ul>\n<li>\n<p><del>758~768、772、776、780、784、788、792、796</del></p>\n</li>\n<li>\n<p><del>800、804、808、812、827、834、842、843、850、854、858、860、868、872、878、884、890、896</del></p>\n</li>\n<li>\n<p><del>900、906、916、924、932、938、944、950、958、970、980、994</del></p>\n</li>\n<li>\n<p><del>1005、1020、1030 ~ 1105、1106 ~ 1146、1196 ~ 1299</del></p>\n</li>\n<li>\n<p><del>1296</del> 1336 ~ 1499</p>\n</li>\n</ul>\n<h3>配置文件路径</h3>\n<ul>\n<li>1.2.7+ 配置文件路径为 “/sdcard/Download/QDReader”,会自行移动原配置文件并删除原配置文件目录,注意原配置文件目录不要有重要文件</li>\n</ul>\n<h3>共存包名设定</h3>\n<ul>\n<li>共存包名设定需要在原始包名后面增改(直接共存内置版即可)</li>\n</ul>\n<h3>起点下载地址</h3>\n<ul>\n<li>\n<p><del><a href=\"https://xihan.lanzouv.com/b0413c6he\">支持的版本合集蓝奏云</a> 密码:xihan</del></p>\n<pre><code>  不再提供内置版，如有需要自行制作\n</code></pre>\n</li>\n<li>\n<p><a href=\"https://www.coolapk.com/apk/5066/\">酷安</a></p>\n</li>\n<li>\n<p><a href=\"https://www.yuewen.com/app.html#appqd\">官方网站</a></p>\n</li>\n</ul>\n<h3>模块下载地址:</h3>\n<ul>\n<li>\n<p><a href=\"https://github.com/xihan123/QDReadHook/releases\">releases</a></p>\n</li>\n<li>\n<p><a href=\"https://xihan.lanzouj.com/b042w7oqb\">蓝奏云</a> 密码:9ikq</p>\n</li>\n</ul>\n<h3>交流群</h3>\n<ul>\n<li>\n<p><a href=\"https://t.me/+tHAFB7FQKHdiYjU9\">TG防失联交流群</a></p>\n</li>\n<li>\n<p>QD模块交流群: <a href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot&amp;jump_from=webapi&amp;authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\">963079548</a> <a target=\"_blank\" href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot&jump_from=webapi&authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"><img border=\"0\" src=\"//pub.idqqimg.com/wpa/images/group.png\" alt=\"QD模块交流群\" title=\"QD模块交流群\"></a></p>\n</li>\n</ul>\n<h3>声明</h3>\n<pre><code>各位用户\n\n我们必须立即停止在任何公共平台上宣传 QDReadHook 项目，以及在非 QD 模块的群组内讨论相关内容\n\n这是为了保护整个项目和作者不受潜在风险的必要措施\n\n请明白，如果我们发现项目继续被公开讨论和传播，我们将不得不采取行动，包括但不限于关闭仓库，甚至项目和作者都可能会从网络上消失。这将是我们不愿意看到的最后手段\n\n因此，我们强烈要求您立即遵守这一指示，以避免任何不利的后果\n\n感谢大家的支持与配合！\n</code></pre>\n<h3><a href=\"https://xihan123.github.io/QDReadHook/docs/app/cn.xihan.qdds.hook/index.html\">大部分功能和介绍列表</a></h3>\n<h3>收集服务特别声明</h3>\n<ul>\n<li>\n<p>收集书籍信息、阅读时长、书架的书ID，开发统计和推荐模型。该功能完全自愿开启，基于cloudflare，部分地区可能速度不理想，可以的话优选一下ip,域名是<a href=\"https://collect.qidian.lat/\">https://collect.qidian.lat/</a></p>\n</li>\n<li>\n<p>收集服务仅供统计和训练模型使用，不提供任何其他形式的服务，也不参与任何商业行为</p>\n</li>\n<li>\n<p>目前初步成果: 阅读时长排行榜，共有日、周、月、季、年、总榜，在Q交流群可召唤机器人显示。推荐模型暂时使用的基于用户书架的协同过滤算法进行相似度推荐，数据量较少效果不是很好，后续会加入更多的推荐算法</p>\n</li>\n<li>\n<p><a href=\"https://rank.xihan.website/\">阅读时长排行榜</a>，仅是使用模块收集服务的数据，不代表起点官方数据，仅供参考!!!</p>\n</li>\n</ul>\n<hr />\n<h2>常见问题</h2>\n<ul>\n<li>\n<p>如提示 “<strong>Manifest文件中Activity/Service/Permission的声明有问题或者Permission权限未授予</strong>”、”<strong>初始化错误</strong>”、”<strong>初始化失败</strong>”\n把 “<strong>广告配置</strong>” 中 “<strong>GDT(TX)广告</strong>” 去掉勾选</p>\n</li>\n<li>\n<p>如提示 “<strong>激励广告拉取失败,详细错误码:50000</strong>” 则检查设备网络，<strong>DNS</strong>或者<strong>Hosts</strong> 是否拦截了”<strong>e.qq.com</strong>”、”<strong>gdt.qq.com</strong>”、”<strong>gtimg.cn</strong>”、”<strong>gdtimg.com</strong>“域名</p>\n</li>\n<li>\n<p>开关功能不生效</p>\n<pre><code>  注意看上述所提到支持的版本号\n\n  1.1.2版本以前如还不生效则查看/data/misc/某个文件夹/prefs/cn.xihan.qdds 这个文件夹权限是否可读,如果不可读手动设置一下，每次修改了配置都需要修改此权限,并应用子文件 权限 都设定为755最佳。还不行就把模块卸载了重新安装，激活后先去把配置调整好，再去上述路径改权限，完事最好清下起点数据，打开就完美了!!!\n\n  1.1.2及以后则查看起点是否有存储权限，查看是否存在&quot;/sdcard/QDReader/option.json&quot;这个文件(没有就创建一个)\n\n  1.2.7+ 3.0.5+配置文件路径为 &quot;/sdcard/Download/QDReader&quot;,其他如上\n\n  3.0.4 配置在起点私有目录\n\n  ps:根据版本不同，显示的路径可能也不同，可能是&quot;/storage/emulated/0/QDReader/option.json&quot;.\n  如果使用系统自带文件管理器，直接在&quot;根目录(内部存储)&quot;创建文件夹&quot;QDReader&quot;即可\n  \n  如果上述都不行，那就试着清除起点数据或者重装模块(同时删除上述路径所在的配置文件)，也可能需要重启一下手机。\n\n  还不行就附上日志提issues或酷安留言私信我即可(语气不要太冲，说的好像我欠你啥的，上来就质疑我的也不一定会回复。以为自己是谁啊，你用不了我就一定要让你也能用上，我还能远程施法单单让你用不了不成?)\n</code></pre>\n</li>\n<li>\n<p>没开启闪屏页却一直显示闪屏页</p>\n<pre><code>  这种情况一般是因为本地已经有缓存了,最简单的方法是清除起点的数据,把要开的功能提前开好\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p>开启自定义启动图无效?</p>\n<pre><code>  多进几次起点等启动图全部下载完成就会开始随机\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p>开启去广告无效</p>\n<pre><code>  和上述一致，清数据重启即可\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p><del>目前去青少年模式弹框仅仅只是防止频繁弹，不是完全去掉,我之前测试用隔一会弹一下，开启后仅弹一次</del> 1.0.2+版本是通过 Hook 自定义Dialog 的 <strong>show()</strong> 方法，会导致投月票或者特殊订阅弹框不显示(1.1.6+已修复此问题) 1.1.6+是通过拦截上级调用</p>\n</li>\n<li>\n<p><del>模块初次使用建议操作流程</del>1.1.2及以上无需此操作，授予起点存储权限即可</p>\n<pre><code>  1.安装好模块后把模块和起点都强行停止运行\n  2.激活(勾选)模块\n  3.打开模块配置好相关选项\n  4.强行停止模块运行\n  5.修改上述所提到的文件夹权限\n  6.清除起点数据\n  7.打开起点\n</code></pre>\n</li>\n<li>\n<p>部分功能之前好好的，突然失效，<strong>1.2.9+ 配置文件模型改变，部分设定需要重新设置!!!</strong> 开关以及配置都正常却失效日志也没有。可以理解为被热修复了，一般来说更新最新版即可或者提Issues</p>\n</li>\n<li>\n<p>激活模块或使用Lspatch版起点闪退,可按如下流程排查.</p>\n<pre><code>1.关闭免广告领取奖励\n2.关闭快速屏蔽弹框\n3.是否使用了lspatch修补的起点并且同时启用了模块\n4.关闭模块\nps: 保持试用模式可有效防止闪退\n</code></pre>\n<p>如果上述流程走完还是无法解决闪退，可以把配置文件删除并重启起点，再不济重启手机</p>\n</li>\n<li>\n<p>如提示”检测到您当前设备环境有异常，请确保规范使用后再进行尝试”、“账号存在异常，请稍后再试”</p>\n<pre><code>起点加强了风控\n前者自行隐藏设备Root环境\n后者就要先确定是账号高风险还是被检测ROOT\nps:手动签到需要验证码则是高风险\n</code></pre>\n</li>\n<li>\n<p>Android 9 从起点内进入设置界面白屏,这是一个奇怪的bug，暂时找不到解决方法,内置版可以另外安装一个模块本体来管理配置文件</p>\n</li>\n<li>\n<p>起点版本:994-232+ 以及模块版本:3.0.0以下的内置版卡启动、白屏等按照以下步骤排除问题</p>\n<pre><code>1.清除起点数据并手动授予存储权限\n2.首次启动起点拒绝隐私策略后关闭起点\n3.开启跳过闪屏页功能后即可正常使用起点\n\n3.0.0之后的版本\n1.清除起点数据\n2.首次启动启动拒绝隐私策略并在弹框授予存储权限和安装未知应用权限\n\n3.0.5之后的版本 无法授予存储权限\n1.检查起点版本是否高于7.9.318-1106\n\nMIUI 可以尝试关闭MIUI优化，有接到反馈关闭该功能就正常了\n</code></pre>\n</li>\n</ul>\n<hr />\n<h2>Lspatch 使用说明</h2>\n<ul>\n<li>\n<p>安装后启动前需要授予起点存储权限!!!要不然无法读取配置文件则不会生效,或者你设定错了可能会使用默认配置</p>\n</li>\n<li>\n<p>已支持动态配置(1.1.2+)</p>\n</li>\n<li>\n<p>因为修改了签名,所以快速登录无法使用,只能用手机号登录!!!所以如果可以还是使用 Xp 模式</p>\n</li>\n<li>\n<p>用 <a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 把 <a href=\"https://github.com/xihan123/SignHook\">SignHook</a> 打包进目标平台即可调用第三方(登录/分享)等</p>\n<ul>\n<li>QQ</li>\n<li>微信</li>\n<li>抖音</li>\n</ul>\n</li>\n<li>\n<p>请勿激活模块的同时使用此版本!!!</p>\n</li>\n</ul>\n<hr />\n<h2>起点读书用户服务协议</h2>\n<p>使用本模块可能违反 <a href=\"https://acts.qidian.com/pact/user_pact.html\">起点读书用户服务协议</a></p>\n<ul>\n<li>\n<p><strong>四、使用本服务的方式</strong></p>\n<ul>\n<li>\n<p>4.1 使用方式</p>\n<ul>\n<li>3.您不得使用未经起点授权的插件、外挂或第三方工具对本协议项下的服务进行干扰、破坏、修改或施加其他影响</li>\n</ul>\n</li>\n<li>\n<p>4.2 违反以上约定视为您的严重违约，起点可以终止对您的服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。</p>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>十二、知识产权声明</strong></p>\n<ul>\n<li>12.2 起点所提供的服务与服务有关的全部信息、资料、文字、软件、声音、图片、视频、图表的知识产权和其他权益均属于起点或其权利人，受中华人民共和国相关法律及国际协定和国际条约保护，除非事先获得起点或其权利人的合法授权，您不得对上述任何内容进行修改、展示、复制、发行、授权、制作衍生著作、转让或销售。如您未遵守本条款的上述规定，视为您严重违约，起点可无须通知立即终止向您提供服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。同时，起点可根据违约情节严重程度对用户部分或全部账号采取包括不限于预先警示、要求提供不违规保证、限制或调整起点提供的阅读内容，限制正常使用部分/全部产品或服务功能、限制【阅文通行证】账号于阅文集团旗下产品部分/全部功能直至终止提供服务、冻结限制或封禁账号、发送函件、提起诉讼/仲裁等依法维权措施。您必须销毁任何已经获得的上述信息、资料、文字、软件、声音、图片、视频、图表。</li>\n</ul>\n</li>\n<li>\n<p><strong>二十、服务的变更、中断、终止</strong></p>\n<ul>\n<li>\n<p>20.2 如发生下列任何一种情形，起点有权不经通知而中断或终止向您提供的服务：</p>\n<ul>\n<li>2.您违反相关法律法规或本协议的约定；</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr />\n<h2>免责声明</h2>\n<ul>\n<li>\n<p>本模块是基于Xposed框架开发的，使用本模块需要您的设备已经安装了Xposed框架。Xposed框架是一种修改Android系统行为的工具，它可能会导致系统不稳定、无法开机或损坏设备。您在使用本模块之前，应该了解Xposed框架的原理和风险，并自行承担后果。</p>\n</li>\n<li>\n<p>本模块的源代码是公开的，任何人都可以查看或修改它，开发者不对本模块的功能和效果做任何保证，也不对本模块可能造成的任何损失或损害负责。请在使用前确认你下载的 <strong>QDReadHook</strong> 是来自可信的渠道，并且没有被恶意篡改或添加木马等病毒。</p>\n</li>\n<li>\n<p>本模块不是为了破坏起点中文网的正常运营和作者的合法权益。请在使用本模块时，尊重作者的劳动成果，支持正版阅读，不要利用本模块进行非法活动或其他损害起点合法权益的行为。</p>\n</li>\n<li>\n<p>开发者保留对该Xposed模块的更新、修改、暂停、终止等权利，使用者应该自行确认其使用版本的安全性和稳定性。</p>\n</li>\n</ul>\n<p><strong>本模块仅供学习交流，请在下载24小时内删除。在使用该Xposed模块之前认真审慎阅读、充分理解 <a href=\"#%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE\">起点读书用户服务协议</a> 以及上述 <a href=\"#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\">免责声明</a>，如有异议请勿使用。如果您使用了该Xposed模块，即代表您已经完全接受本免责声明。</strong></p>\n<hr />\n<h2>截图</h2>\n<table>\n<tr>\n<td>\n<img src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/1.png?raw=true\" width=270 >\n</td>\n<td>\n<img src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/2.png?raw=true\" width=270 >\n</td>\n</tr>\n</table>\n<hr />\n<h2>打赏</h2>\n<h3>入驻了 <a href=\"https://afdian.net/a/xihan123\">爱发电</a>，点击前往我的个人主页</h3>\n<h2>如果觉得这个模块对您有用，可扫描下方二维码或者 <a href=\"https://afdian.net/a/xihan123\">爱发电</a> 随意打赏,要是能打赏个 10.24 🐵就太👍了。您的支持就是我更新的动力</h2>\n<table>\n<tr>\n<td align=center>支付宝</td>\n<td align=center>微信</td>\n</tr>\n<tr>\n<td>\n<img src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/zfb.jpg\" width=270 >\n</td>\n<td>\n<img src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/wx.png\" width=270 >\n</td>\n</tr>\n</table>\n<hr />\n<h2>Star History</h2>\n<p><a href=\"https://star-history.com/#xihan123/QDReadHook&amp;Date\"><img src=\"https://api.star-history.com/svg?repos=xihan123/QDReadHook&amp;type=Date\" alt=\"Star History Chart\" /></a></p>\n"
+          "en-US": "<p><img src=\"https://socialify.git.ci/xihan123/QDReadHook/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Ft3.picb.cc%2F2023%2F05%2F30%2FIj8tn6.png&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;pulls=1&amp;stargazers=1&amp;theme=Light\" alt=\"QDReadHook\" /></p>\n<!-- ![above](https://img.shields.io/badge/Android-8.0%20or%20above-brightgreen.svg)\n[![Android CI](https://github.com/xihan123/QDReadHook/actions/workflows/build.yml/badge.svg)](https://github.com/xihan123/QDReadHook/actions/workflows/build.yml)\n[![Latest Release](https://img.shields.io/github/release/xihan123/QDReadHook.svg)](https://github.com/xihan123/QDReadHook/releases) -->\n<p><img src=\"https://img.shields.io/github/downloads/xihan123/QDReadHook/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/cn.xihan.qdds/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.xihan.qdds/total?label=LSPosed%20Repo&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff\" alt=\"Blank\" /></a>\n<a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img src=\"https://img.shields.io/github/license/xihan123/QDReadHook.svg\" alt=\"license\" /></a></p>\n<hr />\n<h2>起点阅读 Xp模块</h2>\n<h3>注意事项</h3>\n<ul>\n<li>\n<p><del>使用前注意给予起点存储权限</del>3.2.5+无需存储权限</p>\n</li>\n<li>\n<p>设置页面在:起点-&gt;我的-&gt;左上角设置-&gt;阅读设置/模块设置(长按)(1.1.2+)</p>\n</li>\n<li>\n<p>由于 <a href=\"https://jihulab.com/\">极狐Gitlab</a> 封禁导致 <a href=\"https://jihulab.com/xihan123/QDReadHook\">极狐Gitlab-QDReadHook</a> 我已无权限更改，该仓库内容已过时</p>\n</li>\n</ul>\n<h3>支持版本范围</h3>\n<p>暂时提高版本号范围以支持一些不容易改变的类</p>\n<ul>\n<li>\n<p><del>758~768、772、776、780、784、788、792、796</del></p>\n</li>\n<li>\n<p><del>800、804、808、812、827、834、842、843、850、854、858、860、868、872、878、884、890、896</del></p>\n</li>\n<li>\n<p><del>900、906、916、924、932、938、944、950、958、970、980、994</del></p>\n</li>\n<li>\n<p><del>1005、1020、1030 ~ 1105、1106 ~ 1146、1196 ~ 1299、~1296 ~ 1336</del></p>\n</li>\n<li>\n<p>1416 ~ 1499</p>\n</li>\n</ul>\n<h3>配置文件路径</h3>\n<ul>\n<li>\n<p><del>1.2.7+ 配置文件路径为 “/sdcard/Download/QDReader”,会自行移动原配置文件并删除原配置文件目录,注意原配置文件目录不要有重要文件</del></p>\n</li>\n<li>\n<p>3.2.5+ 配置文件为 “/storage/emulated/$userId/Android/data/$packageName/files/QDReadHook”</p>\n</li>\n</ul>\n<h3>共存包名设定</h3>\n<ul>\n<li>共存包名设定需要在原始包名后面增改(直接共存内置版即可)</li>\n</ul>\n<h3>起点下载地址</h3>\n<ul>\n<li>\n<p><del><a href=\"https://xihan.lanzouv.com/b0413c6he\">支持的版本合集蓝奏云</a> 密码:xihan</del></p>\n<pre><code>  不再提供内置版，如有需要自行制作\n</code></pre>\n</li>\n<li>\n<p><a href=\"https://www.coolapk.com/apk/5066/\">酷安</a></p>\n</li>\n<li>\n<p><a href=\"https://www.yuewen.com/app.html#appqd\">官方网站</a></p>\n</li>\n</ul>\n<h3>模块下载地址:</h3>\n<ul>\n<li>\n<p><a href=\"https://github.com/xihan123/QDReadHook/releases\">releases</a></p>\n</li>\n<li>\n<p><a href=\"https://xihan.lanzouj.com/b042w7oqb\">蓝奏云</a> 密码:9ikq</p>\n</li>\n</ul>\n<h3>交流群</h3>\n<ul>\n<li>\n<p><a href=\"https://t.me/+tHAFB7FQKHdiYjU9\">TG防失联交流群</a></p>\n</li>\n<li>\n<p>QD模块交流群: <a href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot&amp;jump_from=webapi&amp;authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\">963079548</a> <a target=\"_blank\" href=\"https://qm.qq.com/cgi-bin/qm/qr?k=wlD8adp7c17yXvnrJWrq_bNkjSpos6ot&jump_from=webapi&authKey=vkNN3oR/ZwsHJjzLRakReCG5Yf4wv6Kcyn3K/MydwaX8kMoqBj6Qen3DfZJCfxB8\"><img border=\"0\" src=\"//pub.idqqimg.com/wpa/images/group.png\" alt=\"QD模块交流群\" title=\"QD模块交流群\"></a></p>\n</li>\n</ul>\n<h3>声明</h3>\n<pre><code>各位用户\n\n我们必须立即停止在任何公共平台上宣传 QDReadHook 项目，以及在非 QD 模块的群组内讨论相关内容\n\n这是为了保护整个项目和作者不受潜在风险的必要措施\n\n请明白，如果我们发现项目继续被公开讨论和传播，我们将不得不采取行动，包括但不限于关闭仓库，甚至项目和作者都可能会从网络上消失。这将是我们不愿意看到的最后手段\n\n因此，我们强烈要求您立即遵守这一指示，以避免任何不利的后果\n\n感谢大家的支持与配合！\n</code></pre>\n<!-- ### [大部分功能和介绍列表](https://xihan123.github.io/QDReadHook/docs/app/cn.xihan.qdds.hook/index.html) -->\n<h3>收集服务特别声明</h3>\n<ul>\n<li>\n<p>收集书籍信息、阅读时长、书架的书ID，开发统计和推荐模型。该功能完全自愿开启</p>\n</li>\n<li>\n<p>收集服务仅供统计和训练模型使用，不提供任何其他形式的服务，也不参与任何商业行为</p>\n</li>\n<li>\n<p>目前初步成果: 阅读时长排行榜，共有日、周、月、季、年、总榜，在Q交流群可召唤机器人显示。推荐模型暂时使用的基于用户书架的协同过滤算法进行相似度推荐，数据量较少效果不是很好，后续会加入更多的推荐算法</p>\n</li>\n<li>\n<p><a href=\"https://rank.xihan.website/\">阅读时长排行榜</a>，仅是使用模块收集服务的数据，不代表起点官方数据，仅供参考!!!</p>\n</li>\n</ul>\n<hr />\n<h2>常见问题</h2>\n<ul>\n<li>\n<p>如提示 “<strong>Manifest文件中Activity/Service/Permission的声明有问题或者Permission权限未授予</strong>”、”<strong>初始化错误</strong>”、”<strong>初始化失败</strong>”\n把 “<strong>广告配置</strong>” 中 “<strong>GDT(TX)广告</strong>” 去掉勾选</p>\n</li>\n<li>\n<p>如提示 “<strong>激励广告拉取失败,详细错误码:50000</strong>” 则检查设备网络，<strong>DNS</strong>或者<strong>Hosts</strong> 是否拦截了”<strong>e.qq.com</strong>”、”<strong>gdt.qq.com</strong>”、”<strong>gtimg.cn</strong>”、”<strong>gdtimg.com</strong>“域名</p>\n</li>\n<li>\n<p>开关功能不生效</p>\n<pre><code>  注意看上述所提到支持的版本号\n\n  1.1.2版本以前如还不生效则查看/data/misc/某个文件夹/prefs/cn.xihan.qdds 这个文件夹权限是否可读,如果不可读手动设置一下，每次修改了配置都需要修改此权限,并应用子文件 权限 都设定为755最佳。还不行就把模块卸载了重新安装，激活后先去把配置调整好，再去上述路径改权限，完事最好清下起点数据，打开就完美了!!!\n\n  1.1.2及以后则查看起点是否有存储权限，查看是否存在&quot;/sdcard/QDReader/option.json&quot;这个文件(没有就创建一个)\n\n  1.2.7+ 3.0.5+配置文件路径为 &quot;/sdcard/Download/QDReader&quot;,其他如上\n\n  3.0.4 配置在起点私有目录\n\n  ps:根据版本不同，显示的路径可能也不同，可能是&quot;/storage/emulated/0/QDReader/option.json&quot;.\n  如果使用系统自带文件管理器，直接在&quot;根目录(内部存储)&quot;创建文件夹&quot;QDReader&quot;即可\n  \n  如果上述都不行，那就试着清除起点数据或者重装模块(同时删除上述路径所在的配置文件)，也可能需要重启一下手机。\n\n  还不行就附上日志提issues或酷安留言私信我即可(语气不要太冲，说的好像我欠你啥的，上来就质疑我的也不一定会回复。以为自己是谁啊，你用不了我就一定要让你也能用上，我还能远程施法单单让你用不了不成?)\n</code></pre>\n</li>\n<li>\n<p>没开启闪屏页却一直显示闪屏页</p>\n<pre><code>  这种情况一般是因为本地已经有缓存了,最简单的方法是清除起点的数据,把要开的功能提前开好\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p>开启自定义启动图无效?</p>\n<pre><code>  多进几次起点等启动图全部下载完成就会开始随机\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p>开启去广告无效</p>\n<pre><code>  和上述一致，清数据重启即可\n\n  3.0.4之后可用关于-&gt;清除起点缓存\n</code></pre>\n</li>\n<li>\n<p><del>目前去青少年模式弹框仅仅只是防止频繁弹，不是完全去掉,我之前测试用隔一会弹一下，开启后仅弹一次</del> 1.0.2+版本是通过 Hook 自定义Dialog 的 <strong>show()</strong> 方法，会导致投月票或者特殊订阅弹框不显示(1.1.6+已修复此问题) 1.1.6+是通过拦截上级调用</p>\n</li>\n<li>\n<p><del>模块初次使用建议操作流程</del>1.1.2及以上无需此操作，授予起点存储权限即可</p>\n<pre><code>  1.安装好模块后把模块和起点都强行停止运行\n  2.激活(勾选)模块\n  3.打开模块配置好相关选项\n  4.强行停止模块运行\n  5.修改上述所提到的文件夹权限\n  6.清除起点数据\n  7.打开起点\n</code></pre>\n</li>\n<li>\n<p>部分功能之前好好的，突然失效，<strong>1.2.9+ 配置文件模型改变，部分设定需要重新设置!!!</strong> 开关以及配置都正常却失效日志也没有。可以理解为被热修复了，一般来说更新最新版即可或者提Issues</p>\n</li>\n<li>\n<p>激活模块或使用Lspatch版起点闪退,可按如下流程排查.</p>\n<pre><code>1.关闭免广告领取奖励\n2.关闭快速屏蔽弹框\n3.是否使用了lspatch修补的起点并且同时启用了模块\n4.关闭模块\nps: 保持试用模式可有效防止闪退\n</code></pre>\n<p>如果上述流程走完还是无法解决闪退，可以把配置文件删除并重启起点，再不济重启手机</p>\n</li>\n<li>\n<p>如提示”检测到您当前设备环境有异常，请确保规范使用后再进行尝试”、“账号存在异常，请稍后再试”</p>\n<pre><code>起点加强了风控\n前者自行隐藏设备Root环境\n后者就要先确定是账号高风险还是被检测ROOT\nps:手动签到需要验证码则是高风险\n</code></pre>\n</li>\n<li>\n<p>Android 9 从起点内进入设置界面白屏,这是一个奇怪的bug，暂时找不到解决方法,内置版可以另外安装一个模块本体来管理配置文件</p>\n</li>\n<li>\n<p>起点版本:994-232+ 以及模块版本:3.0.0以下的内置版卡启动、白屏等按照以下步骤排除问题</p>\n<pre><code>1.清除起点数据并手动授予存储权限\n2.首次启动起点拒绝隐私策略后关闭起点\n3.开启跳过闪屏页功能后即可正常使用起点\n\n3.0.0之后的版本\n1.清除起点数据\n2.首次启动启动拒绝隐私策略并在弹框授予存储权限和安装未知应用权限\n\n3.0.5之后的版本 无法授予存储权限\n1.检查起点版本是否高于7.9.318-1106\n\nMIUI 可以尝试关闭MIUI优化，有接到反馈关闭该功能就正常了\n</code></pre>\n</li>\n<li>\n<p>试用模式、正文章节异常、红包广场无限加载</p>\n<pre><code>1.试用模式必开自定义QIMEI且不能为空\n\n2.正文章节异常，提示账号风险、设备异常、环境异常等原因有以下几点：QIMEI是空的、试用模式，、你开了自定义QIMEI但是没填、真 · 账号异常等，具体还是询问起点客服\n\n3.参考上述1\n</code></pre>\n</li>\n</ul>\n<hr />\n<h2>Lspatch 使用说明</h2>\n<ul>\n<li>\n<p><del>安装后启动前需要授予起点存储权限!!!要不然无法读取配置文件则不会生效,或者你设定错了可能会使用默认配置</del>3.2.5+无需存储权限</p>\n</li>\n<li>\n<p>已支持动态配置(1.1.2+)</p>\n</li>\n<li>\n<p>因为修改了签名,所以快速登录无法使用,只能用手机号登录!!!所以如果可以还是使用 Xp 模式</p>\n</li>\n<li>\n<p>用 <a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 把 <a href=\"https://github.com/xihan123/SignHook\">SignHook</a> 打包进目标平台即可调用第三方(登录/分享)等</p>\n<ul>\n<li>QQ</li>\n<li>微信</li>\n<li>抖音</li>\n</ul>\n</li>\n<li>\n<p>请勿激活模块的同时使用此版本!!!</p>\n</li>\n</ul>\n<hr />\n<h2>起点读书用户服务协议</h2>\n<p>使用本模块可能违反 <a href=\"https://acts.qidian.com/pact/user_pact.html\">起点读书用户服务协议</a></p>\n<ul>\n<li>\n<p><strong>四、使用本服务的方式</strong></p>\n<ul>\n<li>\n<p>4.1 使用方式</p>\n<ul>\n<li>3.您不得使用未经起点授权的插件、外挂或第三方工具对本协议项下的服务进行干扰、破坏、修改或施加其他影响</li>\n</ul>\n</li>\n<li>\n<p>4.2 违反以上约定视为您的严重违约，起点可以终止对您的服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。</p>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>十二、知识产权声明</strong></p>\n<ul>\n<li>12.2 起点所提供的服务与服务有关的全部信息、资料、文字、软件、声音、图片、视频、图表的知识产权和其他权益均属于起点或其权利人，受中华人民共和国相关法律及国际协定和国际条约保护，除非事先获得起点或其权利人的合法授权，您不得对上述任何内容进行修改、展示、复制、发行、授权、制作衍生著作、转让或销售。如您未遵守本条款的上述规定，视为您严重违约，起点可无须通知立即终止向您提供服务，解除双方间的服务协议和法律关系，且无需退还您所支付的费用，视为您支付起点的违约金，如违约金不足以弥补起点的损失的，起点还可通过其他法律途径向您追索。同时，起点可根据违约情节严重程度对用户部分或全部账号采取包括不限于预先警示、要求提供不违规保证、限制或调整起点提供的阅读内容，限制正常使用部分/全部产品或服务功能、限制【阅文通行证】账号于阅文集团旗下产品部分/全部功能直至终止提供服务、冻结限制或封禁账号、发送函件、提起诉讼/仲裁等依法维权措施。您必须销毁任何已经获得的上述信息、资料、文字、软件、声音、图片、视频、图表。</li>\n</ul>\n</li>\n<li>\n<p><strong>二十、服务的变更、中断、终止</strong></p>\n<ul>\n<li>\n<p>20.2 如发生下列任何一种情形，起点有权不经通知而中断或终止向您提供的服务：</p>\n<ul>\n<li>2.您违反相关法律法规或本协议的约定；</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr />\n<h2>免责声明</h2>\n<ul>\n<li>\n<p>本模块是基于Xposed框架开发的，使用本模块需要您的设备已经安装了Xposed框架。Xposed框架是一种修改Android系统行为的工具，它可能会导致系统不稳定、无法开机或损坏设备。您在使用本模块之前，应该了解Xposed框架的原理和风险，并自行承担后果。</p>\n</li>\n<li>\n<p>本模块的源代码是公开的，任何人都可以查看或修改它，开发者不对本模块的功能和效果做任何保证，也不对本模块可能造成的任何损失或损害负责。请在使用前确认你下载的 <strong>QDReadHook</strong> 是来自可信的渠道，并且没有被恶意篡改或添加木马等病毒。</p>\n</li>\n<li>\n<p>本模块不是为了破坏起点中文网的正常运营和作者的合法权益。请在使用本模块时，尊重作者的劳动成果，支持正版阅读，不要利用本模块进行非法活动或其他损害起点合法权益的行为。</p>\n</li>\n<li>\n<p>开发者保留对该Xposed模块的更新、修改、暂停、终止等权利，使用者应该自行确认其使用版本的安全性和稳定性。</p>\n</li>\n</ul>\n<p><strong>本模块仅供学习交流，请在下载24小时内删除。在使用该Xposed模块之前认真审慎阅读、充分理解 <a href=\"#%E8%B5%B7%E7%82%B9%E8%AF%BB%E4%B9%A6%E7%94%A8%E6%88%B7%E6%9C%8D%E5%8A%A1%E5%8D%8F%E8%AE%AE\">起点读书用户服务协议</a> 以及上述 <a href=\"#%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E\">免责声明</a>，如有异议请勿使用。如果您使用了该Xposed模块，即代表您已经完全接受本免责声明。</strong></p>\n<hr />\n<h2>截图</h2>\n<table>\n<tr>\n<td>\n<img src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/1.png?raw=true\" width=270 >\n</td>\n<td>\n<img src=\"https://github.com/xihan123/QDReadHook/blob/master/Screenshots/2.png?raw=true\" width=270 >\n</td>\n</tr>\n</table>\n<hr />\n<h2>打赏</h2>\n<h3>入驻了 <a href=\"https://afdian.net/a/xihan123\">爱发电</a>，点击前往我的个人主页</h3>\n<h2>如果觉得这个模块对您有用，可扫描下方二维码或者 <a href=\"https://afdian.net/a/xihan123\">爱发电</a> 随意打赏,要是能打赏个 10.24 🐵就太👍了。您的支持就是我更新的动力</h2>\n<table>\n<tr>\n<td align=center>支付宝</td>\n<td align=center>微信</td>\n</tr>\n<tr>\n<td>\n<img src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/zfb.jpg\" width=270 >\n</td>\n<td>\n<img src=\"https://github.moeyy.xyz/https://raw.githubusercontent.com/xihan123/QDReadHook/master/Screenshots/wx.png\" width=270 >\n</td>\n</tr>\n</table>\n<hr />\n<h2>Star History</h2>\n<p><a href=\"https://star-history.com/#xihan123/QDReadHook&amp;Date\"><img src=\"https://api.star-history.com/svg?repos=xihan123/QDReadHook&amp;type=Date\" alt=\"Star History Chart\" /></a></p>\n"
         },
         "preferredSigner": "3391700379baae3961268bec62a34f36fde8c9541e34d03050cd33e96fbdb58d"
       },
       "versions": {
+        "c34222e010a32c4e77d56f24f83f010ae09beba3ace55d24a97fa6951ddc95d2": {
+          "added": 1733214028000,
+          "file": {
+            "name": "/cn.xihan.qdds_638-3.2.6.apk",
+            "sha256": "c34222e010a32c4e77d56f24f83f010ae09beba3ace55d24a97fa6951ddc95d2",
+            "size": 4378759
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "3.2.6",
+            "versionCode": 638,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3391700379baae3961268bec62a34f36fde8c9541e34d03050cd33e96fbdb58d"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.xihan.qdds.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "23852f47fc0a677bed4fe5d480eca4830cf94d278e36a5e863aa934cf6b92a93": {
           "added": 1732159422000,
           "file": {
@@ -8237,6 +8330,47 @@
         }
       }
     },
+    "com.hiiro.fuckddvip": {
+      "metadata": {
+        "added": 1733214063000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1733214063000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hiiro.fuckddvip",
+        "authorName": "inory121",
+        "name": {
+          "en-US": "FuckDDVip"
+        },
+        "description": {
+          "en-US": "<h1>FuckDDVip</h1>\n<p>解锁嘀嘀动漫VIP功能</p>\n"
+        },
+        "preferredSigner": "5f70698420d423b2ce0b00185e404bc04a403add416302f8f0cf1cc91c1262c7"
+      },
+      "versions": {
+        "70fae9c66687bd6a952ea012e510718de011866163e139468f1a034320c64421": {
+          "added": 1733214063000,
+          "file": {
+            "name": "/com.hiiro.fuckddvip_1-1.0.0.apk",
+            "sha256": "70fae9c66687bd6a952ea012e510718de011866163e139468f1a034320c64421",
+            "size": 89301
+          },
+          "manifest": {
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "5f70698420d423b2ce0b00185e404bc04a403add416302f8f0cf1cc91c1262c7"
+              ]
+            }
+          }
+        }
+      }
+    },
     "com.hiwechart.translate": {
       "metadata": {
         "added": 1732159467000,
@@ -9865,7 +9999,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159478000,
+        "lastUpdated": 1733214072000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.lu.wxmask",
         "authorName": "Mingyueyixi",
         "name": {
@@ -9880,6 +10014,35 @@
         "preferredSigner": "144f663f47b90c07db065b5dbd7ddb20fc5794083d7b40ac266581aae69d8928"
       },
       "versions": {
+        "6036cf76e034cff0f6d7e17fdc9580860de34400ab35b7575f970d07512e478c": {
+          "added": 1733214072000,
+          "file": {
+            "name": "/com.lu.wxmask_1004-2.4-xb.apk",
+            "sha256": "6036cf76e034cff0f6d7e17fdc9580860de34400ab35b7575f970d07512e478c",
+            "size": 793896
+          },
+          "manifest": {
+            "versionName": "2.4-xb",
+            "versionCode": 1004,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "144f663f47b90c07db065b5dbd7ddb20fc5794083d7b40ac266581aae69d8928"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.lu.wxmask.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "0d9f15449044842af10f723d9c2b2da1afe311fa616b001324876bb64d5ef087": {
           "added": 1732159478000,
           "file": {
@@ -9969,7 +10132,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159480000,
+        "lastUpdated": 1733214074000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
         "authorName": "luckyzyx",
         "name": {
@@ -9984,6 +10147,86 @@
         "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
       },
       "versions": {
+        "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a": {
+          "added": 1733214074000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_17737-1.2.6.apk",
+            "sha256": "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a",
+            "size": 8074328
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.6",
+            "versionCode": 17737,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "688922e2dc9ecfca7e7c21b6b46367726c011b5004cad93ca7634cd051286009": {
           "added": 1732159480000,
           "file": {
@@ -10402,7 +10645,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159483000,
+        "lastUpdated": 1733214076000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.makino.cslyric",
         "authorName": "tomakino",
         "name": {
@@ -10417,6 +10660,38 @@
         "preferredSigner": "71649f9594ef55cadac1400305236226d52f381361140438281043d7a729e0e9"
       },
       "versions": {
+        "3686b9d116a63c858985d2be8449b2f6dd7c827bc601ec13380a49f146f6d5b6": {
+          "added": 1733214076000,
+          "file": {
+            "name": "/com.makino.cslyric_11-3.0-beta.apk",
+            "sha256": "3686b9d116a63c858985d2be8449b2f6dd7c827bc601ec13380a49f146f6d5b6",
+            "size": 5488948
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.0-beta",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "71649f9594ef55cadac1400305236226d52f381361140438281043d7a729e0e9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.makino.cslyric.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "822e67e2a99a17fde11daf166f552d11134e2bafce0a0f4e73b6724f394c466f": {
           "added": 1732159483000,
           "file": {
@@ -10624,6 +10899,73 @@
               },
               {
                 "name": "android.permission.INTERNET"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.mihuashi.paybyfinger": {
+      "metadata": {
+        "added": 1733214078000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1733214078000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger",
+        "authorName": "ghhccghk",
+        "name": {
+          "en-US": "米画师支付模块"
+        },
+        "summary": {
+          "en-US": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
+        },
+        "description": {
+          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n"
+        },
+        "preferredSigner": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159"
+      },
+      "versions": {
+        "8acf0202c935ac3a059f3826838f71fe3f9bcb53eb668cd33f058c5f6b42d40c": {
+          "added": 1733214078000,
+          "file": {
+            "name": "/com.mihuashi.paybyfinger_1-1.0.1.apk",
+            "sha256": "8acf0202c935ac3a059f3826838f71fe3f9bcb53eb668cd33f058c5f6b42d40c",
+            "size": 2255657
+          },
+          "manifest": {
+            "versionName": "1.0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.mihuashi.paybyfinger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
@@ -12832,6 +13174,50 @@
         }
       }
     },
+    "com.th7.cgsportbypass": {
+      "metadata": {
+        "added": 1733214091000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1733214091000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.th7.cgsportbypass",
+        "authorName": "Tonyha7",
+        "name": {
+          "en-US": "CGSportBypass"
+        },
+        "summary": {
+          "en-US": "某高校园跑APP辅助模块"
+        },
+        "description": {
+          "en-US": "<h1>CGSportBypass</h1>\n<h3>某校园跑APP辅助模块</h3>\n<h2>功能</h2>\n<pre><code>绕过大多数检测(如某虚拟定位软件，Xposed，Frida等)\n伪造安卓id\n</code></pre>\n<h2>适用版本</h2>\n<pre><code>2.9.8\n3.0.0\n</code></pre>\n"
+        },
+        "preferredSigner": "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482"
+      },
+      "versions": {
+        "63389f8652e50b50fbb91847949a3e00e4e012c81a00f59044f79489847d888e": {
+          "added": 1733214091000,
+          "file": {
+            "name": "/com.th7.cgsportbypass_111-1.1.1.apk",
+            "sha256": "63389f8652e50b50fbb91847949a3e00e4e012c81a00f59044f79489847d888e",
+            "size": 11240
+          },
+          "manifest": {
+            "versionName": "1.1.1",
+            "versionCode": 111,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "897e30b72f93c71f4887a973671960c104d220d1533d62daddd1e0f48dcab482"
+              ]
+            }
+          }
+        }
+      }
+    },
     "com.th7.fcsdk": {
       "metadata": {
         "added": 1732159500000,
@@ -13153,7 +13539,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159503000,
+        "lastUpdated": 1733214094000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -13168,6 +13554,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4": {
+          "added": 1733214094000,
+          "file": {
+            "name": "/com.twifucker.hachidori_22-0.22.apk",
+            "sha256": "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4",
+            "size": 4641238
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.22",
+            "versionCode": 22,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10": {
           "added": 1732159503000,
           "file": {
@@ -14504,8 +14915,8 @@
             "en-US": [
               {
                 "name": "/com.yubyf.quotelockx/en-US/phoneScreenshots/1.png",
-                "sha256": "71a290fdf2db32174b943654b128c830215fa7a89ef037c1ab7bf4d8777c1978",
-                "size": 124503
+                "sha256": "f082e7f9a719de953b10b219bb711ce60a9a00d630fa56043524204c35552875",
+                "size": 124423
               }
             ]
           }
@@ -16189,15 +16600,59 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159525000,
+        "lastUpdated": 1733214111000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/fansirsqi.xposed.sesame",
         "authorName": "Fansirsqi",
         "name": {
           "en-US": "芝麻粒-TK"
         },
+        "summary": {
+          "en-US": "蚂蚁森林快速收取能量"
+        },
+        "description": {
+          "en-US": "<h1>Sesame-TK</h1>\n<center>\n<p><img src=\"https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto\" alt=\"Sesame-TK\" /></p>\n<p><a href=\"https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE\"><img src=\"https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=License&amp;logo=gnuprivacyguard\" alt=\"License\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=Releases&amp;logo=gitlfs\" alt=\"Latest Release\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff&amp;label=Downloads&amp;logo=codefresh\" alt=\"All Releases Download\" /></a>\n<a href=\"https://t.me/fansirsqi_xposed_sesame\"><img src=\"https://img.shields.io/badge/Sesame--TK-nul?&amp;logo=Telegram&amp;label=Telegram-Channel&amp;labelColor=fff&amp;link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame\" alt=\"Telegram\" /></a></p>\n</center>\n<h2>forked from <a href=\"https://github.com/TKaxv-7S/Sesame-TK\">TKaxv-7S</a></h2>\n<h2><a href=\"https://github.com/Fansirsqi/Sesame-TK\">本项目地址</a></h2>\n<p>感谢蚂蚁森林对绿化事业的贡献。快速收取蚂蚁森林能量，也为祖国的绿化事业出一份微薄之力~</p>\n<p>你 可 以 fork <a href=\"https://github.com/Fansirsqi/Sesame-TK\">源代码</a> 自 行 编 译 ⚙️。</p>\n<p>我 是 一 个 新 手 ，所 以 代 码 的 质 量 可 能 不 那 么 好 。 欢 迎 提 出 建 议。</p>\n<p>（尽管我不确定我能做些什么）因为我可能真的不能做些什么。</p>\n<p>如 果 你 喜 欢 这 个 项 目 ， 欢 迎 提 交 PR。</p>\n<p>感谢🙏。</p>\n<details>\n<summary>图 片 预 览</summary>\n<div style=\"display: flex; align-items: flex-start; justify-content: center;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg\" alt=\"Screenshot 1\" style=\"max-width: 35%; height: auto; margin-right: 10px;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg\" alt=\"Screenshot 2\" style=\"max-width: 35%; height: auto;\">\n</div>\n</details>\n<strong style=\"color:red;\">\n<h2>免责声明</h2>\n<ol>\n<li>本软件仅供学习和研究使用，禁止任何形式的转发、发布或传播。本应用程序（以下简称“本APP”）仅供学习和研究用途，严禁以任何形式进行转发、发布或传播。</li>\n<li>使用者应在下载本APP后24小时内自行卸载。若在使用期间造成任何损失，作者概不负责。</li>\n<li>本APP不篡改、不修改、不收集、不存储任何个人信息或支付宝相关信息。</li>\n<li>因违反本声明内容触犯中华人民共和国法律的行为，其一切后果由使用者自行承担，作者不承担任何法律责任。</li>\n<li>凡以任何方式直接或间接使用本APP的行为，均视为自愿接受本声明的约束。</li>\n<li>若本APP无意中侵犯了任何媒体或个人的知识产权，请通过邮件或电话告知，作者将立即删除相关内容或应用。</li>\n</ol>\n<h2>Disclaimer</h2>\n<ol>\n<li>This application (hereinafter referred to as “the APP”) is solely for educational and research purposes. Redistribution, publication, or dissemination in any form is strictly prohibited.</li>\n<li>Users must uninstall this APP within 24 hours of downloading. The author is not responsible for any damage or loss caused during its use.</li>\n<li>This APP does not alter, modify, collect, or store any personal information or Alipay-related data.</li>\n<li>Any user violating this disclaimer and breaching the laws of the People’s Republic of China shall bear full responsibility for the consequences. The author assumes no legal liability.</li>\n<li>Any person who directly or indirectly uses this APP is deemed to have voluntarily accepted the constraints of this disclaimer.</li>\n<li>If this APP unintentionally infringes upon the intellectual property rights of any individual or entity, please contact the author via email or phone. The author will immediately remove the relevant content or application.</li>\n</ol>\n</strong>\n"
+        },
         "preferredSigner": "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981"
       },
       "versions": {
+        "d5deecb41af4676747415c4e08e7581d023147c6f817c3a82d60134c5be125f4": {
+          "added": 1733214111000,
+          "file": {
+            "name": "/fansirsqi.xposed.sesame_1138-24.11.29.alpha.18.31.52.apk",
+            "sha256": "d5deecb41af4676747415c4e08e7581d023147c6f817c3a82d60134c5be125f4",
+            "size": 8229958
+          },
+          "manifest": {
+            "versionName": "24.11.29.alpha.18.31.52",
+            "versionCode": 1138,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
+          }
+        },
         "128dabcc2f0c6b2faaf6b43842bdd90de4cc3bffe66aca4e9f70a21bfa86c2c0": {
           "added": 1732159525000,
           "file": {
@@ -16666,7 +17121,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159530000,
+        "lastUpdated": 1733214116000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud",
         "authorName": "freedom-introvert",
         "name": {
@@ -16680,7 +17135,7 @@
         },
         "icon": {
           "en-US": {
-            "name": "/icons/icu.freedomIntrovert.biliSendCommAntifraud.612.png",
+            "name": "/icons/icu.freedomIntrovert.biliSendCommAntifraud.621.png",
             "sha256": "b386bfd7975be8f6125ee73487ad5a91bc7750bd4b7b8340a00d8c1b296701c5",
             "size": 4426
           }
@@ -16688,6 +17143,44 @@
         "preferredSigner": "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf"
       },
       "versions": {
+        "601a36a4f8e525f2f5b6372b280b9387a80a18f76c5cd60578192f8cf06c8697": {
+          "added": 1733214116000,
+          "file": {
+            "name": "/icu.freedomIntrovert.biliSendCommAntifraud_621-6.2.1.apk",
+            "sha256": "601a36a4f8e525f2f5b6372b280b9387a80a18f76c5cd60578192f8cf06c8697",
+            "size": 2054991
+          },
+          "manifest": {
+            "versionName": "6.2.1",
+            "versionCode": 621,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "icu.freedomIntrovert.biliSendCommAntifraud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "b7fb32fa493ef4261f661a1739209e12d36876d13c5d782881ecbed4c1fa1c75": {
           "added": 1732159530000,
           "file": {
@@ -16739,44 +17232,6 @@
             "usesSdk": {
               "minSdkVersion": 21,
               "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "icu.freedomIntrovert.biliSendCommAntifraud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "c52fb7d5db655db2eea0a7e141f266fc22d35080b29d2c1f1c5289666346bf84": {
-          "added": 1732159529000,
-          "file": {
-            "name": "/icu.freedomIntrovert.biliSendCommAntifraud_600-6.0.0.apk",
-            "sha256": "c52fb7d5db655db2eea0a7e141f266fc22d35080b29d2c1f1c5289666346bf84",
-            "size": 2049354
-          },
-          "manifest": {
-            "versionName": "6.0.0",
-            "versionCode": 600,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
@@ -17117,7 +17572,7 @@
           "en-US": "Alipay High Headsome Rich (支付宝装X模块)"
         },
         "description": {
-          "en-US": "<h1>支付宝装X模块</h1>\n<p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.</p>\n<p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>\n<p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>\n<h3>界面</h3>\n<p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>\n<p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>\n<h3>版本</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>功能</th>\n<th>最后更新时间</th>\n<th>是否可用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>仅钻石付款背景</td>\n<td>2021.09</td>\n<td>所有版本</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石背景或自定义皮肤</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>快速手机修改背景步骤</h2>\n<ol>\n<li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" />\n</blockquote>\n<ol start=\"2\">\n<li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>\n<li>打开支付宝付款码即可看到效果如图。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" />\n</blockquote>\n<ol start=\"4\">\n<li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>\n</ol>\n<h3>自定义皮肤说明（手动模式）</h3>\n<ul>\n<li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>\n\\Android\\media\\com.eg.android.AlipayGphone)</li>\n<li>如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>\n<li>**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>\n<li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>\n</ul>\n<h3>目录结构说明（手动模式及自定义修改需了解）</h3>\n<p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>\n<table>\n<thead>\n<tr>\n<th>命名</th>\n<th>含义</th>\n<th>是否目录</th>\n<th>手动创建</th>\n<th>作用后文件消失</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>开启自定义皮肤功能</td>\n<td>随意</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发支付宝增量自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发支付宝删除自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出支付宝拥有皮肤</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>任意名称目录</td>\n<td>自定义皮肤文件夹</td>\n<td>是</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>任意名称文件</td>\n<td>无作用</td>\n<td>否</td>\n<td>是</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>\n</blockquote>\n<blockquote>\n<p>触发仅在展示二维码时有效</p>\n</blockquote>\n<blockquote>\n<p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>\n</blockquote>\n<blockquote>\n<p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>\n</blockquote>\n<blockquote>\n<p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>\n</blockquote>\n<p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>\n<h2>更新历史</h2>\n<p><a href=\"Updates.md\">更新历史</a></p>\n<p>【作者自用】</p>\n"
+          "en-US": "<h1>支付宝装X模块</h1>\n<p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.</p>\n<p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>\n<p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>\n<h3>界面</h3>\n<p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>\n<p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>\n<h3>版本</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>功能</th>\n<th>最后更新时间</th>\n<th>是否可用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>仅钻石付款背景</td>\n<td>2021.09</td>\n<td>所有版本</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石背景或自定义皮肤</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>快速手机修改背景步骤</h2>\n<ol>\n<li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" />\n</blockquote>\n<ol start=\"2\">\n<li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>\n<li>打开支付宝付款码即可看到效果如图。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" />\n</blockquote>\n<ol start=\"4\">\n<li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>\n</ol>\n<h3>自定义皮肤说明（手动模式）</h3>\n<ul>\n<li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>\n\\Android\\media\\com.eg.android.AlipayGphone)</li>\n<li>如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>\n<li>**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>\n<li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>\n</ul>\n<h3>目录结构说明（手动模式及自定义修改需了解）</h3>\n<p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>\n<table>\n<thead>\n<tr>\n<th>命名</th>\n<th>含义</th>\n<th>是否目录</th>\n<th>手动创建</th>\n<th>作用后文件消失</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>开启自定义皮肤功能</td>\n<td>随意</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发支付宝增量自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发支付宝删除自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出支付宝拥有皮肤</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>任意名称目录</td>\n<td>自定义皮肤文件夹</td>\n<td>是</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>任意名称文件</td>\n<td>无作用</td>\n<td>否</td>\n<td>是</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>\n</blockquote>\n<blockquote>\n<p>触发仅在展示二维码时有效</p>\n</blockquote>\n<blockquote>\n<p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>\n</blockquote>\n<blockquote>\n<p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>\n</blockquote>\n<blockquote>\n<p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>\n</blockquote>\n<p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>\n<h2>更新历史</h2>\n<p><a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\">源代码</a></p>\n<p>【作者自用】</p>\n"
         },
         "preferredSigner": "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
       },
@@ -19484,6 +19939,64 @@
         }
       }
     },
+    "its.madruga.warevamp": {
+      "metadata": {
+        "added": 1733214129000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1733214129000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
+        "authorName": "ItsMadruga",
+        "name": {
+          "en-US": "Wa Revamp"
+        },
+        "summary": {
+          "en-US": "An Xposed module to customize your WhatsApp."
+        },
+        "description": {
+          "en-US": "<h1>Wa Revamp</h1>\n<p>Continuation of the Old MdgWa.<br />\nMore information coming soon…</p>\n<h2>Download</h2>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\">Releases</a></li>\n<li><a href=\"https://t.me/warevampmodule\">Pre-Releases</a> (More Updates)</li>\n</ul>\n<h1>Telegram</h1>\n<ul>\n<li><a href=\"https://t.me/warevampmodule\">Channel</a></li>\n<li><a href=\"https://t.me/+7xV9KAEkO10yYjZh\">Chat</a></li>\n</ul>\n"
+        },
+        "preferredSigner": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+      },
+      "versions": {
+        "6507d7e7552dd2cd8a6504169b5c37fc9ccce3ebfa3ae8e942a52dd394ead093": {
+          "added": 1733214129000,
+          "file": {
+            "name": "/its.madruga.warevamp_1-0.0.4.apk",
+            "sha256": "6507d7e7552dd2cd8a6504169b5c37fc9ccce3ebfa3ae8e942a52dd394ead093",
+            "size": 3068797
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.4",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "its.madruga.warevamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "lialh4.ldf": {
       "metadata": {
         "added": 1732159546000,
@@ -19492,7 +20005,7 @@
         ],
         "lastUpdated": 1732159546000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/lialh4.ldf",
-        "authorName": "XingLiAl",
+        "authorName": "LiAlH4qwq",
         "name": {
           "en-US": "Let Develop Free"
         },
@@ -20635,7 +21148,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159558000,
+        "lastUpdated": 1733214138000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -20650,6 +21163,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "8d8c50827e84d2e01cfb0d6b2562bcccd35966030653ab8feb142b5c5cc7f554": {
+          "added": 1733214138000,
+          "file": {
+            "name": "/me.plusne_7133-7.5.7.apk",
+            "sha256": "8d8c50827e84d2e01cfb0d6b2562bcccd35966030653ab8feb142b5c5cc7f554",
+            "size": 10525309
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.5.7",
+            "versionCode": 7133,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288": {
           "added": 1732159558000,
           "file": {
@@ -20725,65 +21297,6 @@
             ],
             "versionName": "7.5.3",
             "versionCode": 7129,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              }
-            ]
-          }
-        },
-        "b8830141a6d70391622f5ac3919fbe15e5aefc4d43d71f1f321f8355e6e67033": {
-          "added": 1732159557000,
-          "file": {
-            "name": "/me.plusne_7127-7.5.1.apk",
-            "sha256": "b8830141a6d70391622f5ac3919fbe15e5aefc4d43d71f1f321f8355e6e67033",
-            "size": 10521205
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "7.5.1",
-            "versionCode": 7127,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33
@@ -21045,7 +21558,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159560000,
+        "lastUpdated": 1733214139000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily",
         "authorName": "teble",
         "name": {
@@ -21060,6 +21573,36 @@
         "preferredSigner": "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908"
       },
       "versions": {
+        "e57f84c1cdfe93160de391e2f6912c7f30cd15b90a9ea0061debd966b778ea70": {
+          "added": 1733214139000,
+          "file": {
+            "name": "/me.teble.xposed.autodaily_24112723-3.0.29.apk",
+            "sha256": "e57f84c1cdfe93160de391e2f6912c7f30cd15b90a9ea0061debd966b778ea70",
+            "size": 7599046
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0.29",
+            "versionCode": 24112723,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "3efbd750331179a452763baa9a767b5bf10b8f409252355ff3786084e980bcb8": {
           "added": 1732159560000,
           "file": {
@@ -23242,7 +23785,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159573000,
+        "lastUpdated": 1733214151000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -23252,11 +23795,73 @@
           "en-US": "Различные модификации в приложении СберБанк."
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>Sberbank Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=123542189\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Различные модификации в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">СберБанк</a></p>\n</div>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Антивирус Касперского</li>\n<li>Система самообновления</li>\n<li>Аналитика</li>\n<li>Ориентация</li>\n<li>Номер по умолчанию для СБП переводов</li>\n<li>Скрытие не убираемых разделов</li>\n<li>Бета</li>\n<li>Экосистема сбера</li>\n<li>СберПрайм</li>\n<li>Ассистент</li>\n<li>Информационные и обучаемые карточки</li>\n<li>Подсказки при переводах</li>\n<li>Профиль. Что нового</li>\n<li>Поиск. Скрытие предложений и каналов</li>\n<li>Карты. СберСпасибо</li>\n<li>История. Очистка истории транзакций от рекламы и сервисных уведомлений</li>\n<li>История. Скрытие микро кредитования</li>\n<li>Push. Глушение информационно-рекламного канала</li>\n<li>Push. Фильтрация по ключевым словам(чёрный/белый список)</li>\n<li>Push. Логирование информационно-рекламного канала</li>\n<li>Push. Очистка истории push уведомлений</li>\n<li>Push. Скрытие кнопок действий в истории уведомлений</li>\n</ul>\n<h3>Не контролируемый функционал(всегда включён):</h3>\n<ul>\n<li>CovidQR</li>\n<li>Промо на главном экране</li>\n<li>Запрос оценить приложение и другие разделы приложения отдельно</li>\n<li>Запрос разрешения телефонии (Android 9 и ниже)</li>\n<li>Безопасность устройства. Проверка на root, целостности устройства, контроль SberPay</li>\n<li>VPN статус</li>\n</ul>\n<h3>Аналитика:</h3>\n<ul>\n<li>Внутренняя аналитика</li>\n<li>Firebase Analytics</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Сбербанк</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian banking application <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>Sberbank Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=123542189\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Различные модификации в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">СберБанк</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Антивирус Касперского</li>\n<li>Система самообновления</li>\n<li>Аналитика</li>\n<li>Ориентация</li>\n<li>Номер по умолчанию для СБП переводов</li>\n<li>Скрытие не убираемых разделов</li>\n<li>Бета</li>\n<li>Экосистема сбера</li>\n<li>СберПрайм</li>\n<li>Ассистент</li>\n<li>Информационные и обучаемые карточки</li>\n<li>Подсказки при переводах</li>\n<li>Профиль. Что нового</li>\n<li>Профиль. Реклама в разделе недвижимость</li>\n<li>Поиск. Скрытие предложений и каналов</li>\n<li>Карты. СберСпасибо</li>\n<li>История. Очистка истории транзакций от рекламы и сервисный уведомлений</li>\n<li>История. Скрытие микро кредитования</li>\n<li>Push. Глушение информационно-рекламного канала</li>\n<li>Push. Фильтрация по ключевым словам(чёрный/белый список)</li>\n<li>Push. Логирование информационно-рекламного канала</li>\n<li>Push. Очистка истории push уведомлений</li>\n<li>Push. Скрытие кнопок действий в истории уведомлений</li>\n</ul>\n<h3>Не контролируемый функционал(всегда включён):</h3>\n<ul>\n<li>Промо на главном экране</li>\n<li>Запрос оценить приложение и другие разделы приложения</li>\n<li>Запрос разрешения телефонии (Android 9 и ниже)</li>\n<li>Безопасность устройства. Проверка на root и целостности устройства для SberPay</li>\n<li>VPN статус</li>\n<li>История. Увеличено количество скрываемых транзакций до 300</li>\n<li>Активирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной</li>\n</ul>\n<h3>Аналитика:</h3>\n<ul>\n<li>Внутренняя аналитика</li>\n<li>Firebase Analytics</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Сбербанк</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian banking application <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>\n"
         },
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "3b1889c06186933de651e1c66c85fb2c03a5da44eb00153534cfb12a7e21fa4f": {
+          "added": 1733214151000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_352-1.22.apk",
+            "sha256": "3b1889c06186933de651e1c66c85fb2c03a5da44eb00153534cfb12a7e21fa4f",
+            "size": 8891399
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.22",
+            "versionCode": 352,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c": {
           "added": 1732159573000,
           "file": {
@@ -23536,7 +24141,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159575000,
+        "lastUpdated": 1733214152000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
         "authorName": "Hepolise",
         "name": {
@@ -23548,6 +24153,32 @@
         "preferredSigner": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
       },
       "versions": {
+        "d77e0bb4cbe1d2a87645541c329a51aa8907cb6631905c280779d73fe0cdb274": {
+          "added": 1733214152000,
+          "file": {
+            "name": "/ru.hepolise.volumekeymusicmanagermodule_8-1.15.1.apk",
+            "sha256": "d77e0bb4cbe1d2a87645541c329a51aa8907cb6631905c280779d73fe0cdb274",
+            "size": 169403
+          },
+          "manifest": {
+            "versionName": "1.15.1",
+            "versionCode": 8,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1": {
           "added": 1732159575000,
           "file": {
@@ -24815,7 +25446,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159589000,
+        "lastUpdated": 1733214163000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
         "authorName": "lovejiuwu",
         "name": {
@@ -24830,6 +25461,72 @@
         "preferredSigner": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
       },
       "versions": {
+        "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015": {
+          "added": 1733214163000,
+          "file": {
+            "name": "/top.hookvip.pro_20241201-4.0.3.apk",
+            "sha256": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
+            "size": 5159130
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.3",
+            "versionCode": 20241201,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "8f5d2657a34285af40bcddc502a50f1c2850ee284498f75730d1babb27db11b4": {
           "added": 1732159589000,
           "file": {
@@ -24909,72 +25606,6 @@
               "armeabi-v7a"
             ],
             "versionName": "4.0.0",
-            "versionCode": 20241030,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.CHANGE_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "24e6d1136f56ff447d0d71550c986949369523baa5558d941f6a0b9fa43678ae": {
-          "added": 1732159588000,
-          "file": {
-            "name": "/top.hookvip.pro_20241030-4.0.1.apk",
-            "sha256": "24e6d1136f56ff447d0d71550c986949369523baa5558d941f6a0b9fa43678ae",
-            "size": 4626185
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.0.1",
             "versionCode": 20241030,
             "usesSdk": {
               "minSdkVersion": 26,
