@@ -93,6 +93,9 @@ jobs:
         if: steps.cache-apt-packages.outcome != 'success'
         run: |
           sudo apt-get install -y fdroidserver
+
+      - name: Fix androidguard
+        run: |
           sudo sed -i 's|raise ResParserError("res0 must be zero!")|log.warning("res0 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
           sudo sed -i 's|raise ResParserError("res1 must be zero!")|log.warning("res1 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
 
