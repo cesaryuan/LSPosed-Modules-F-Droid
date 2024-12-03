@@ -76,10 +76,10 @@ jobs:
           repo=$(echo "${{ github.repository }}" | sed 's/\//\\\//g')
           sed -i "s/\[GithubRepo\]/$repo/g" fdroid/config.yml
 
-      # - name: Add apt repository
-      #   run: |
-      #     sudo add-apt-repository ppa:fdroid/fdroidserver
-      #     sudo apt-get update
+      - name: Add apt repository
+        run: |
+          sudo add-apt-repository ppa:fdroid/fdroidserver
+          sudo apt-get update
 
       - name: Cache apt packages
         id: cache-apt-packages
@@ -93,6 +93,8 @@ jobs:
         if: steps.cache-apt-packages.outcome != 'success'
         run: |
           sudo apt-get install -y fdroidserver
+          sudo sed -i 's|raise ResParserError("res0 must be zero!")|log.warning("res0 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
+          sudo sed -i 's|raise ResParserError("res1 must be zero!")|log.warning("res1 must be zero!")|g' /usr/lib/python3/dist-packages/androguard/core/bytecodes/axml/__init__.py
 
       - name: Set up Go
         uses: actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32 # v5.0.2
