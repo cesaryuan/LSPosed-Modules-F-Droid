@@ -1,15 +1,15 @@
 AuthorName: Mygod
 Categories:
     - Xposed
-CurrentVersion: 0.0.1
-CurrentVersionCode: 1
+CurrentVersion: 0.0.2
+CurrentVersionCode: 2
 Description: |
     <h1>OnePlus Battery Waster</h1>
     <p><a href="https://android-arsenal.com/api?level=33"><img src="https://img.shields.io/badge/API-33%2B-brightgreen.svg?style=flat" alt="API" /></a>
     <a href="https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/total.svg" alt="Releases" /></a>
     <a href="https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/search?l=java"><img src="https://img.shields.io/github/languages/top/Xposed-Modules-Repo/be.mygod.oplus.batterywaster.svg" alt="Language: Java" /></a></p>
     <p>Disable OnePlus battery saving features that hurt user experience (Android 13+).</p>
-    <p>Only tested on OxygenOS 14.
+    <p>Only tested on OxygenOS 14/15.
     File a PR if anything is not working.</p>
     <h2>List of patches included</h2>
     <ul>
@@ -26,6 +26,11 @@ Description: |
     <li>Restore AOSP notification settings.</li>
     <li>Allow disabling/modifying useless notifications (e.g. battery alerts).
     Also requires patching <code>android</code>.</li>
+    </ul>
+    </li>
+    <li><code>com.android.systemui</code>:
+    <ul>
+    <li>(OxygenOS 15) Disable swipe down notification to open floating window.</li>
     </ul>
     </li>
     <li><code>com.oplus.battery</code>:

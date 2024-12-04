@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733214407000,
+    "timestamp": 1733283540000,
     "version": 20002
   },
   "requests": {
@@ -105,7 +105,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eActivity链式启动管理器\u003c/h1\u003e\n\u003cp\u003e这是一个拦截三方App自动启动另一个三方App的模块，当存在三方app启动另一个三方App该模块会弹出一个对话框征求自己意见，同时也可以设置自定义规则。 欢迎尝试吧！\u003cbr /\u003e\n如果你觉得这个模块好用，您可打开应用打赏支持作者，要是能打赏一杯咖啡6.66，一顿晚餐12.00🍯，一顿烧烤66.66… 那真是太棒了！\u003cbr /\u003e\n您的支持就是作者更新维护的动力！（每次更新需重启手机）\u003c/p\u003e\n\u003ch3\u003e自定义规则说明\u003c/h3\u003e\n\u003cp\u003e自定义规则可以灵活的配置各种应用（暂不支持配置系统应用），有三种指令，指令中\u003ccode\u003eallow\u003c/code\u003e \u003ccode\u003eask\u003c/code\u003e \u003ccode\u003edeny\u003c/code\u003e分别是允许、询问、拒绝。默认情况下是询问规则（除非特殊链式启动才需要配置ask规则）\u003cbr /\u003e\n规则模板1：\u003ccode\u003eallow  包名A  包名B\u003c/code\u003e  允许应用A启动应用B，不会弹出启动对话框\u003cbr /\u003e\n规则模板2：\u003ccode\u003edeny  包名C  A:活动D\u003c/code\u003e 拒绝应用C启动应用活动D，不会弹出启动对话框（注意Activity活动名前面要加\u003ccode\u003eA:\u003c/code\u003e）\u003cbr /\u003e\n更多高级规则模板请打开应用查看注释\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e图标计划 如果你有好的图标设计建议，您可提一个\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues\"\u003eIssue建议\u003c/a\u003e，图标前提要求是前景（矢量图标）与背景分离。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e新的后台自启拦截设置\u003c/h4\u003e\n\u003cp\u003e自1.06(7)版本开始，为了解决部分应用采用特殊方式启动app，我们不得不废除废弃旧的复杂多链式\u003ccode\u003eA:{**}\u003c/code\u003e拦截功能，并替换为后台拦截启动功能，新引入的后台拦截启动功能能够更有效的拦截应用后台自启Activity，语法也更简单。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e新的后台自启拦截模板语法: \u003ccode\u003eask -b * A:活动名\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c\" alt=\"pic_20240730011109\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/b040fc11-623b-45c0-b100-cfa8b7e07c7d\" alt=\"Screenshot_20240910_Activity链式启动管理\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n",
+      "description": "\u003ch1\u003eActivity链式启动管理器\u003c/h1\u003e\n\u003cp\u003e这是一个拦截三方App自动启动另一个三方App的模块，激活模块后当存在三方app启动另一个三方App时，系统会弹出一个App启动对话框，同时也可以设置自定义允许拒绝规则。欢迎尝试吧！\u003cbr /\u003e\n如果你觉得这个模块好用，不妨将模块分享给你的好友，您也可以在模块应用打赏支持作者，要是能打赏一杯咖啡6.66，一顿晚餐12.00🍯，一顿烧烤66.66… 那真是太棒了！\u003cbr /\u003e\n您的支持就是作者更新维护的动力！（每次更新需重启手机）\u003c/p\u003e\n\u003ch3\u003e自定义规则说明\u003c/h3\u003e\n\u003cp\u003e自定义规则可以灵活的配置各种应用（暂不支持配置系统应用），有三种指令，指令中\u003ccode\u003eallow\u003c/code\u003e \u003ccode\u003eask\u003c/code\u003e \u003ccode\u003edeny\u003c/code\u003e分别是允许、询问、拒绝。默认情况下是询问规则（除非特殊链式启动才需要配置ask规则）\u003cbr /\u003e\n规则模板1：\u003ccode\u003eallow  包名A  包名B\u003c/code\u003e  允许应用A启动应用B，不会弹出启动对话框\u003cbr /\u003e\n规则模板2：\u003ccode\u003edeny  包名C  A:活动D\u003c/code\u003e 拒绝应用C启动应用活动D，不会弹出启动对话框（注意Activity活动名前面要加\u003ccode\u003eA:\u003c/code\u003e）\u003cbr /\u003e\n更多高级规则模板请打开应用查看注释\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e图标计划 如果你有好的图标设计建议，您可提一个\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues\"\u003eIssue建议\u003c/a\u003e，图标前提要求是前景（矢量图标）与背景分离。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e新的后台自启拦截设置\u003c/h4\u003e\n\u003cp\u003e自1.06(7)版本开始，为了解决部分应用采用特殊方式启动app，我们不得不废除废弃旧的复杂多链式\u003ccode\u003eA:{**}\u003c/code\u003e拦截功能，并替换为后台拦截启动功能，新引入的后台拦截启动功能能够更有效的拦截应用后台自启Activity，语法也更简单。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e新的后台自启拦截模板语法: \u003ccode\u003eask -b * A:活动名\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c\" alt=\"pic_20240730011109\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/b040fc11-623b-45c0-b100-cfa8b7e07c7d\" alt=\"Screenshot_20240910_Activity链式启动管理\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n",
       "icon": "com.alphi.actvityopenmanager.png",
       "lastUpdated": 1729848974000,
       "license": "Unknown",
@@ -1467,24 +1467,24 @@
       "summary": "Disable app link verify on Android 12, restore to old behaviour when opening ..."
     },
     {
-      "added": 1731133894000,
+      "added": 1733267428000,
       "authorName": "Mygod",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eOnePlus Battery Waster\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://android-arsenal.com/api?level=33\"\u003e\u003cimg src=\"https://img.shields.io/badge/API-33%2B-brightgreen.svg?style=flat\" alt=\"API\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/total.svg\" alt=\"Releases\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/search?l=java\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/Xposed-Modules-Repo/be.mygod.oplus.batterywaster.svg\" alt=\"Language: Java\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eDisable OnePlus battery saving features that hurt user experience (Android 13+).\u003c/p\u003e\n\u003cp\u003eOnly tested on OxygenOS 14.\nFile a PR if anything is not working.\u003c/p\u003e\n\u003ch2\u003eList of patches included\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eandroid\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eAllow background app startup (by e.g. FCM) in game mode.\n(Fixes \u003ccode\u003eno response to broadcast from\u003c/code\u003e errors.)\u003c/li\u003e\n\u003cli\u003ePrevent unnecessary notification removals.\u003c/li\u003e\n\u003cli\u003ePatch permissionless dangerous system service calls.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.android.settings\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eRestore AOSP notification settings.\u003c/li\u003e\n\u003cli\u003eAllow disabling/modifying useless notifications (e.g. battery alerts).\nAlso requires patching \u003ccode\u003eandroid\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.oplus.battery\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eDisable all poorly-implemented thermal control features.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1731133894000,
+      "description": "\u003ch1\u003eOnePlus Battery Waster\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://android-arsenal.com/api?level=33\"\u003e\u003cimg src=\"https://img.shields.io/badge/API-33%2B-brightgreen.svg?style=flat\" alt=\"API\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/total.svg\" alt=\"Releases\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/search?l=java\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/Xposed-Modules-Repo/be.mygod.oplus.batterywaster.svg\" alt=\"Language: Java\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eDisable OnePlus battery saving features that hurt user experience (Android 13+).\u003c/p\u003e\n\u003cp\u003eOnly tested on OxygenOS 14/15.\nFile a PR if anything is not working.\u003c/p\u003e\n\u003ch2\u003eList of patches included\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eandroid\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eAllow background app startup (by e.g. FCM) in game mode.\n(Fixes \u003ccode\u003eno response to broadcast from\u003c/code\u003e errors.)\u003c/li\u003e\n\u003cli\u003ePrevent unnecessary notification removals.\u003c/li\u003e\n\u003cli\u003ePatch permissionless dangerous system service calls.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.android.settings\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eRestore AOSP notification settings.\u003c/li\u003e\n\u003cli\u003eAllow disabling/modifying useless notifications (e.g. battery alerts).\nAlso requires patching \u003ccode\u003eandroid\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.android.systemui\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003e(OxygenOS 15) Disable swipe down notification to open floating window.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.oplus.battery\u003c/code\u003e:\n\u003cul\u003e\n\u003cli\u003eDisable all poorly-implemented thermal control features.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1733267428000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "First release. Read README for more details.\n\n**Full Changelog**: https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/commits/v0.0.1"
+          "whatsNew": "[Disable swipe down notification to open floating window on OOS 15](https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/commit/eadcbdaaf3869025d127dfcbd839fe17d8999cb8).\n\n**Full Changelog**: https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster/compare/v0.0.1...v0.0.2"
         }
       },
       "name": "Disable OnePlus battery saving features that hurt user experience",
       "packageName": "be.mygod.oplus.batterywaster",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.0.1"
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "0.0.2"
     },
     {
       "added": 1694246584000,
@@ -2359,19 +2359,19 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e锤子便签优化模块\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e解锁Vip\u003c/li\u003e\n\u003cli\u003e去除开屏广告\u003c/li\u003e\n\u003cli\u003e去除更新提示弹窗\u003c/li\u003e\n\u003cli\u003e去除分享内容敏感词检测\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1732159455000,
+      "description": "\u003ch1\u003e锤子便签优化模块\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e解锁Vip\u003c/li\u003e\n\u003cli\u003e去除开屏广告\u003c/li\u003e\n\u003cli\u003e去除更新提示弹窗\u003c/li\u003e\n\u003cli\u003e去除分享内容敏感词检测\u003c/li\u003e\n\u003cli\u003e精简布局\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1733283191000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**Full Changelog**: https://github.com/cc1477/FuckSmartisanNotes/compare/v1.0...v1.1\n- 修复分享加载问题\n- 更新模块描述"
+          "whatsNew": "- 去除主页知识库按钮\n- 去除 Ai 按钮\n- 去除设置横幅广告"
         }
       },
       "name": "FuckSmartisanNotes",
       "packageName": "com.fuck.snotes",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuck.snotes",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.1",
+      "suggestedVersionName": "1.2",
       "summary": "锤子便签优化模块\n解锁高级会员权限\n移除开屏广告\n关闭更新提示弹窗\n去除分享内容敏感词检测\n理论全版本通杀"
     },
     {
@@ -9820,7 +9820,22 @@
     ],
     "be.mygod.oplus.batterywaster": [
       {
-        "added": 1731133894000,
+        "added": 1733267428000,
+        "apkName": "be.mygod.oplus.batterywaster_2-0.0.2.apk",
+        "hash": "c831d1bae160a3b5d9c07b9ec20401ec23ad4e5c01bd8833116be0c0be7a3307",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "nativecode": null,
+        "packageName": "be.mygod.oplus.batterywaster",
+        "sig": "cfa74d66948ce191b520b0d6cd306602",
+        "signer": "724fffe17e1188533c0d6a7af3c1dc12947cb554323af2b187c1f5ec1963f2b7",
+        "size": 13868,
+        "targetSdkVersion": 35,
+        "versionCode": 2,
+        "versionName": "0.0.2"
+      },
+      {
+        "added": 1732159406000,
         "apkName": "be.mygod.oplus.batterywaster_1-0.0.1.apk",
         "hash": "2c243d8a5c36d0d3636f9b1176109612b4d41bfa8e3f9607a5dd42d355267986",
         "hashType": "sha256",
@@ -11887,7 +11902,7 @@
         "versionName": "1.0"
       },
       {
-        "added": 1731637319000,
+        "added": 1732159455000,
         "apkName": "com.fuck.snotes_1-1.1.apk",
         "hash": "df448dc59e7eb88ced2f8f8d69a02965752ff3d0fd11a25f8611176a91b44467",
         "hashType": "sha256",
@@ -11902,6 +11917,23 @@
         "targetSdkVersion": 33,
         "versionCode": 1,
         "versionName": "1.1"
+      },
+      {
+        "added": 1733272725000,
+        "apkName": "com.fuck.snotes_1-1.2.apk",
+        "hash": "26693fec884bbcec5777b734be50becef1a0a2ab881ffed473bc94661061279b",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.fuck.snotes",
+        "sig": "529ec3252b1b21f26efef89125693af5",
+        "signer": "ecec8a60eafd932ae142b9fef7d955cbbf5bfc867571e999ea39d33ccea25ae1",
+        "size": 323313,
+        "targetSdkVersion": 33,
+        "versionCode": 1,
+        "versionName": "1.2"
       }
     ],
     "com.fuckcoolapk": [

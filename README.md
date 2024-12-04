@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -103,7 +103,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/dialog.box"><img src="fdroid/repo/icons/dialog.box.png" alt="Dia icon" width="36px" height="36px"></a> | [**Dia**](https://github.com/Xposed-Modules-Repo/dialog.box) | Force to cancel some dialogs/popups that can't be canceled.  <br>(原名：对话框取消)，强制取... | 23.11 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/ru.mike.diiatweaks"><img src="fdroid/repo/icons/ru.mike.diiatweaks.png" alt="Diia Tweaks: root checks removing & other tweaks icon" width="36px" height="36px"></a> | [**Diia Tweaks: root checks removing & other tweaks**](https://github.com/Xposed-Modules-Repo/ru.mike.diiatweaks) | Diia Tweaks: remove root checks | 1.20c (18) |
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.applinkverify"><img src="assets/ic_launcher.png" alt="Disable app link verify / 禁用应用链接验证 icon" width="36px" height="36px"></a> | [**Disable app link verify / 禁用应用链接验证**](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.applinkverify) | Disable app link verify on Android 12, restore to old behaviour when opening ... | 1.0.0 (1) |
-| <a href="https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster"><img src="assets/ic_launcher.png" alt="Disable OnePlus battery saving features that hurt user experience icon" width="36px" height="36px"></a> | [**Disable OnePlus battery saving features that hurt user experience**](https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster) | No summary available | 0.0.1 (1) |
+| <a href="https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster"><img src="assets/ic_launcher.png" alt="Disable OnePlus battery saving features that hurt user experience icon" width="36px" height="36px"></a> | [**Disable OnePlus battery saving features that hurt user experience**](https://github.com/Xposed-Modules-Repo/be.mygod.oplus.batterywaster) | No summary available | 0.0.2 (2) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.unexpected.hook.disable.security.windows"><img src="assets/ic_launcher.png" alt="Disable Security Windows icon" width="36px" height="36px"></a> | [**Disable Security Windows**](https://github.com/Xposed-Modules-Repo/com.unexpected.hook.disable.security.windows) | Disable Security Windows (禁用安全窗口) | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/de.buttercookie.disabletargetapiblock"><img src="fdroid/repo/icons/de.buttercookie.disabletargetapiblock.png" alt="Disable Target API Block icon" width="36px" height="36px"></a> | [**Disable Target API Block**](https://github.com/Xposed-Modules-Repo/de.buttercookie.disabletargetapiblock) | Re-enable installation of apps targeting old Android versions | 1.0.0 (2) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.w311ang.disable_flag_keep_screen_on"><img src="fdroid/repo/icons/com.w311ang.disable_flag_keep_screen_on.png" alt="Disable-FLAG_KEEP_SCREEN_ON icon" width="36px" height="36px"></a> | [**Disable-FLAG_KEEP_SCREEN_ON**](https://github.com/Xposed-Modules-Repo/com.w311ang.disable_flag_keep_screen_on) | Disable FLAG_KEEP_SCREEN_ON. 阻止应用常亮，按照系统屏幕超时时间息屏 | 2.0.0 (2) |
@@ -145,7 +145,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/com.hiiro.fuckddvip"><img src="assets/ic_launcher.png" alt="FuckDDVip icon" width="36px" height="36px"></a> | [**FuckDDVip**](https://github.com/Xposed-Modules-Repo/com.hiiro.fuckddvip) | No summary available | 1.0.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.strawing.fuckdevicepolicy"><img src="fdroid/repo/icons/com.strawing.fuckdevicepolicy.png" alt="FuckDevicePolicy / 去你大爷的设备策略 icon" width="36px" height="36px"></a> | [**FuckDevicePolicy / 去你大爷的设备策略**](https://github.com/Xposed-Modules-Repo/com.strawing.fuckdevicepolicy) | Make user restriction policy(e.g work profile policies) nonfunctional. | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/fucking.internet.tile"><img src="fdroid/repo/icons/fucking.internet.tile.png" alt="Fucking Internet Tile icon" width="36px" height="36px"></a> | [**Fucking Internet Tile**](https://github.com/Xposed-Modules-Repo/fucking.internet.tile) | Bring back the Mobile data and Wi-Fi Quick Settings tiles.<br>还原 移动数据 和 WLAN 快速设... | 1.2 (3) |
-| <a href="https://github.com/Xposed-Modules-Repo/com.fuck.snotes"><img src="assets/ic_launcher.png" alt="FuckSmartisanNotes icon" width="36px" height="36px"></a> | [**FuckSmartisanNotes**](https://github.com/Xposed-Modules-Repo/com.fuck.snotes) | 锤子便签优化模块<br>解锁高级会员权限<br>移除开屏广告<br>关闭更新提示弹窗<br>去除分享内容敏感词检测<br>理论全版本通杀 | 1.1 (1) |
+| <a href="https://github.com/Xposed-Modules-Repo/com.fuck.snotes"><img src="assets/ic_launcher.png" alt="FuckSmartisanNotes icon" width="36px" height="36px"></a> | [**FuckSmartisanNotes**](https://github.com/Xposed-Modules-Repo/com.fuck.snotes) | 锤子便签优化模块<br>解锁高级会员权限<br>移除开屏广告<br>关闭更新提示弹窗<br>去除分享内容敏感词检测<br>理论全版本通杀 | 1.2 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/top.weixiansen574.fuckadjump"><img src="assets/ic_launcher.png" alt="Fuck淘宝京东跳转 icon" width="36px" height="36px"></a> | [**Fuck淘宝京东跳转**](https://github.com/Xposed-Modules-Repo/top.weixiansen574.fuckadjump) | 禁止应用跳转淘宝京东 | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.zhenxi.fundex2"><img src="fdroid/repo/icons/com.zhenxi.FunDex2.png" alt="FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。) icon" width="36px" height="36px"></a> | [**FunDex(基于Xposed实现的脱壳机,支持5-13,支持类抽取。)**](https://github.com/Xposed-Modules-Repo/com.zhenxi.fundex2) | No summary available | 7.2.0 (720) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.zhenxi.funelf"><img src="fdroid/repo/icons/com.zhenxi.FunELF.png" alt="FunELF(基于Xposed实现的SO脱壳机,用于还原内存中释放的SO文件。) icon" width="36px" height="36px"></a> | [**FunELF(基于Xposed实现的SO脱壳机,用于还原内存中释放的SO文件。)**](https://github.com/Xposed-Modules-Repo/com.zhenxi.funelf) | No summary available | 7.2.0 (720) |
