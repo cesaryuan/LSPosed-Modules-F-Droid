@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1733283540000,
+    "timestamp": 1733369766000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733283163000,
+        "lastUpdated": 1733369475000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -19990,7 +19990,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733214129000,
+        "lastUpdated": 1733369582000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
         "authorName": "ItsMadruga",
         "name": {
@@ -20020,6 +20020,41 @@
               "x86_64"
             ],
             "versionName": "0.0.4",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "its.madruga.warevamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "5aad95fd534338719e8b71fe286ece272c09321c62062e7acd23a0d420654e0f": {
+          "added": 1733369582000,
+          "file": {
+            "name": "/its.madruga.warevamp_1-0.0.5.apk",
+            "sha256": "5aad95fd534338719e8b71fe286ece272c09321c62062e7acd23a0d420654e0f",
+            "size": 3073113
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.5",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 26,

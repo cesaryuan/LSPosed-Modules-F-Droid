@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -349,7 +349,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/com.hhvvg.launcher3customizer"><img src="fdroid/repo/icons/com.hhvvg.launcher3customizer.png" alt="Utilities for Launcher3 customization icon" width="36px" height="36px"></a> | [**Utilities for Launcher3 customization**](https://github.com/Xposed-Modules-Repo/com.hhvvg.launcher3customizer) | Customization For Launcher3 | 1.0.1 (5) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug"><img src="fdroid/repo/icons/com.hhvvg.anydebug.webp" alt="ViewEditor/视图编辑器 icon" width="36px" height="36px"></a> | [**ViewEditor/视图编辑器**](https://github.com/Xposed-Modules-Repo/com.hhvvg.anydebug) | Like element inspection on browser platform, this module provides similar fun... | 3.0.4 (14) |
 | <a href="https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule"><img src="fdroid/repo/icons/ru.hepolise.volumekeymusicmanagermodule.webp" alt="Volume Key Track Control Module icon" width="36px" height="36px"></a> | [**Volume Key Track Control Module**](https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule) | No summary available | 1.15.1 (8) |
-| <a href="https://github.com/Xposed-Modules-Repo/its.madruga.warevamp"><img src="assets/ic_launcher.png" alt="Wa Revamp icon" width="36px" height="36px"></a> | [**Wa Revamp**](https://github.com/Xposed-Modules-Repo/its.madruga.warevamp) | An Xposed module to customize your WhatsApp. | 0.0.4 (1) |
+| <a href="https://github.com/Xposed-Modules-Repo/its.madruga.warevamp"><img src="assets/ic_launcher.png" alt="Wa Revamp icon" width="36px" height="36px"></a> | [**Wa Revamp**](https://github.com/Xposed-Modules-Repo/its.madruga.warevamp) | An Xposed module to customize your WhatsApp. | 0.0.5 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.brucezhang1993.warp_loves_play_store"><img src="fdroid/repo/icons/io.github.brucezhang1993.warp_loves_play_store.webp" alt="WarpLovesPlayStore - Forces Cloudflare 1.1.1.1 App to allow Play Store using WARP&#43;  icon" width="36px" height="36px"></a> | [**WarpLovesPlayStore - Forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+ **](https://github.com/Xposed-Modules-Repo/io.github.brucezhang1993.warp_loves_play_store) | This xposed module forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+ | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.wavecharge"><img src="assets/ic_launcher.png" alt="WaveCharge icon" width="36px" height="36px"></a> | [**WaveCharge**](https://github.com/Xposed-Modules-Repo/com.yifeplayte.wavecharge) | 为MIUI，Android 11及以上启用被隐藏的波浪充电动画<br>Enable the wave charge animation for MIUI, An... | 1.3 (4) |
 | <a href="https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp"><img src="fdroid/repo/icons/cn.wankkoree.xp.webviewpp.png" alt="WebViewPP icon" width="36px" height="36px"></a> | [**WebViewPP**](https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.webviewpp) | Enable WebView debugging and add vConsole in it. Support WebView, TBS X5, UC ... | v3.1.0.179.8ebb609 (16) |

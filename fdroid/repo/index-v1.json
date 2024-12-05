@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733283540000,
+    "timestamp": 1733369766000,
     "version": 20002
   },
   "requests": {
@@ -6725,24 +6725,24 @@
       "suggestedVersionName": "1.15.1"
     },
     {
-      "added": 1733008016000,
+      "added": 1733214129000,
       "authorName": "ItsMadruga",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eWa Revamp\u003c/h1\u003e\n\u003cp\u003eContinuation of the Old MdgWa.\u003cbr /\u003e\nMore information coming soon…\u003c/p\u003e\n\u003ch2\u003eDownload\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003ePre-Releases\u003c/a\u003e (More Updates)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003eTelegram\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003eChannel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/+7xV9KAEkO10yYjZh\"\u003eChat\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1733008016000,
+      "lastUpdated": 1733369582000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "New Update Available\n\n| FIXED |\n\n- Missing strings\n\n| ADDED |\n\n- Module update system"
+          "whatsNew": "New Update Available\n\n| ADDED |\n\n- Download Status Button\n- Download View Once Button\n- Disable Secure Flags Button"
         }
       },
       "name": "Wa Revamp",
       "packageName": "its.madruga.warevamp",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.0.4",
+      "suggestedVersionName": "0.0.5",
       "summary": "An Xposed module to customize your WhatsApp."
     },
     {
@@ -16382,7 +16382,7 @@
     ],
     "its.madruga.warevamp": [
       {
-        "added": 1733008016000,
+        "added": 1733214129000,
         "apkName": "its.madruga.warevamp_1-0.0.4.apk",
         "hash": "6507d7e7552dd2cd8a6504169b5c37fc9ccce3ebfa3ae8e942a52dd394ead093",
         "hashType": "sha256",
@@ -16400,6 +16400,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "0.0.4"
+      },
+      {
+        "added": 1733339115000,
+        "apkName": "its.madruga.warevamp_1-0.0.5.apk",
+        "hash": "5aad95fd534338719e8b71fe286ece272c09321c62062e7acd23a0d420654e0f",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "its.madruga.warevamp",
+        "sig": "643f6250425529e287ad7f1d14fef6b2",
+        "signer": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc",
+        "size": 3073113,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.0.5"
       }
     ],
     "lialh4.ldf": [
