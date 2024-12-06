@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
