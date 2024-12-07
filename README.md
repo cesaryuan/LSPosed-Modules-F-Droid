@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -334,6 +334,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.telespeed"><img src="assets/ic_launcher.png" alt="TeleSpeed icon" width="36px" height="36px"></a> | [**TeleSpeed**](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.telespeed) | Speed up your Telegram download.<br>提升你的 Telegram 下载速度。 | 1.0.6 (7) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate"><img src="fdroid/repo/icons/com.ailr.SeemNetOfTranslate.png" alt="Telionslate icon" width="36px" height="36px"></a> | [**Telionslate**](https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate) | 解除谷歌离线翻译在大陆的限制并使用屏幕翻译! | 1.6.0.698504882 (2023090901) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.simo.tgramhooks"><img src="fdroid/repo/icons/com.simo.tgramhooks.png" alt="TGɾαɱHσσƙʂ icon" width="36px" height="36px"></a> | [**TGɾαɱHσσƙʂ**](https://github.com/Xposed-Modules-Repo/com.simo.tgramhooks) | Free Telegram Premium | 1.3.5 (1) |
+| <a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool"><img src="assets/ic_launcher.png" alt="Tim小助手(TimTool) icon" width="36px" height="36px"></a> | [**Tim小助手(TimTool)**](https://github.com/Xposed-Modules-Repo/top.sacz.timtool) | Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 <br>适配最新Tim<br>适配版本 4.0.97 + | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock"><img src="fdroid/repo/icons/com.luckyzyx.toolboxunlock.png" alt="Toolbox For Minecraft:PE Premium Unlock icon" width="36px" height="36px"></a> | [**Toolbox For Minecraft:PE Premium Unlock**](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | Toolbox for Minecraft:PE Unlock | 1.3 (91) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur"><img src="fdroid/repo/icons/com.asyjaiz.A12blur.png" alt="Translucent Shade icon" width="36px" height="36px"></a> | [**Translucent Shade**](https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur) | Lets you set up the translucency of your shade the way you want it to be | 2.0-G (7) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery"><img src="fdroid/repo/icons/com.fankes.tsbattery.png" alt="TSBattery icon" width="36px" height="36px"></a> | [**TSBattery**](https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery) | TSBattery 是一个旨在使 QQ、TIM、微信 变得更省电的开源 Xposed 模块 | 4.4 (30) |
@@ -394,7 +395,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/github.zerorooot.fuckbilibilivote"><img src="fdroid/repo/icons/github.zerorooot.fuckbilibilivote.webp" alt="去你妈b站视频投票弹窗/FuckBilibiliVote icon" width="36px" height="36px"></a> | [**去你妈b站视频投票弹窗/FuckBilibiliVote**](https://github.com/Xposed-Modules-Repo/github.zerorooot.fuckbilibilivote) | remove vote(投票) 、attention(一键三连)、link(预告)、up(up主弹幕)、grade(打分) of Bilibili | 4.1.4 (9) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.dingda.adfree"><img src="assets/ic_launcher.png" alt="叮嗒出行强力去广告 icon" width="36px" height="36px"></a> | [**叮嗒出行强力去广告**](https://github.com/Xposed-Modules-Repo/com.dingda.adfree) | 叮嗒出行强力去广告 | 1.1 (11) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.blanke.diaomao163"><img src="fdroid/repo/icons/com.blanke.diaomao163.54.png" alt="叼毛网抑云 icon" width="36px" height="36px"></a> | [**叼毛网抑云**](https://github.com/Xposed-Modules-Repo/com.blanke.diaomao163) | 网抑叼毛云，网易云换源插件 | 3.5.5 (54) |
-| <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen"><img src="fdroid/repo/icons/com.gswxxn.restoresplashscreen.png" alt="启动遮罩进化 / RestoreSplashScreen icon" width="36px" height="36px"></a> | [**启动遮罩进化 / RestoreSplashScreen**](https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen) | 自定义MIUI的Splash Screen | 3.0 (3000) |
+| <a href="https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen"><img src="fdroid/repo/icons/com.gswxxn.restoresplashscreen.png" alt="启动遮罩进化 / RestoreSplashScreen icon" width="36px" height="36px"></a> | [**启动遮罩进化 / RestoreSplashScreen**](https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen) | 自定义MIUI的Splash Screen | 3.1 (3100) |
 | <a href="https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud"><img src="fdroid/repo/icons/icu.freedomIntrovert.biliSendCommAntifraud.621.png" alt="哔哩发评反诈 icon" width="36px" height="36px"></a> | [**哔哩发评反诈**](https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud) | 哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论 | 6.2.1 (621) |
 | <a href="https://github.com/Xposed-Modules-Repo/me.iacn.biliroaming"><img src="fdroid/repo/icons/me.iacn.biliroaming.png" alt="哔哩漫游/BiliRoaming icon" width="36px" height="36px"></a> | [**哔哩漫游/BiliRoaming**](https://github.com/Xposed-Modules-Repo/me.iacn.biliroaming) | 解除B站客户端番剧区域限制，并且提供其他小功能<br>Unblock bangumi area limit of BILIBILI, and miscellan... | 1.7.0 (1289) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.jy.tt.auth"><img src="fdroid/repo/icons/com.jy.tt.auth.png" alt="团团助手 icon" width="36px" height="36px"></a> | [**团团助手**](https://github.com/Xposed-Modules-Repo/com.jy.tt.auth) | 本模块为团团分身辅助模块，方便分身与第三方应用交互、或第三方应用与分身交互(无法在团团分身中使用需Lsp等框架)<br>如：分身使用官方wx登录、第三方应用使用... | 1.3 (103) |

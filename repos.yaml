@@ -5726,22 +5726,23 @@ com.gswxxn.restoresplashscreen:
             参考 <a href="https://github.com/qqlittleice/MiuiHome_R">MIUIHomeR</a> 优化部分代码<br />
             使用 <a href="https://github.com/HighCapable/SweetDependency">Sweet Dependency</a> 自动装配和管理依赖<br />
             使用 <a href="https://github.com/HighCapable/SweetProperty">Sweet Property</a> 管理项目属性</p>
-          filename: RestoreSplashScreen_3.0.apk
+          filename: RestoreSplashScreen_3.1.apk
           id: com.gswxxn.restoresplashscreen
           name: 启动遮罩进化 / RestoreSplashScreen
-          last_updated: "2023-12-30T07:00:03Z"
+          last_updated: "2024-12-06T19:28:35Z"
           releasedescription: |-
             <ul>
-            <li>[重构] 重构所有 SystemUI Hook, 这可能会导致一些问题, 可以连点关于页面图标临时切换回旧版 Hook</li>
-            <li>[重构] 重构 “绘制图标圆角“ 的实现方式</li>
-            <li>[新增] 图标 - 不显示图标</li>
-            <li>[新增] 图标 - 使用 MIUI 大图标 (仅 MIUI/HyperOS)</li>
-            <li>[新增] 图标 - 为缩小的图标添加模糊背景</li>
-            <li>[优化] 调整部分圆角大小, 边框粗细, 缩放比例数值</li>
-            <li>[优化] 仅在适用系统上展示部分选项 (如仅在 MIUI/ HyperOS 上显示 “忽略 MIUI 深色模式”)</li>
-            <li>[适配] ColorOS 13.1 - 14</li>
-            <li>[适配] Android 14</li>
-            <li>[其他] 变更应用名, 图标, 模块描述</li>
+            <li>[新增] 模块开发者选项</li>
+            <li>[优化] 单独配置应用背景颜色的预览图标可显示图标包图标</li>
+            <li>[优化] 调整深色模式下莫奈取色方案</li>
+            <li>[优化] 可以随时单独配置应用背景颜色</li>
+            <li>[优化] 启用日志 24 小时后自动关闭</li>
+            <li>[修复] 忽略应用主动设置的图标在 ColorOS 中不生效</li>
+            <li>[修复] 修复 ColorOS 中 拨号 图标的获取 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YuKongA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YuKongA">@YuKongA</a>)</li>
+            <li>[修复] HyperOS Android15 部分图标缩放异常 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YuKongA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YuKongA">@YuKongA</a>)</li>
+            <li>[移除] 移除背景颜色 选项, 请使用 "单独配置应用背景颜色" 代替</li>
+            <li>[重构] 实验功能 更名为 显示设置</li>
+            <li>[重构] 格式化大量项目代码 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YuKongA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YuKongA">@YuKongA</a>)</li>
             </ul>
     author_name: GSWXXN
 com.gswxxn.unlockmilink:
@@ -8484,10 +8485,17 @@ com.mihuashi.paybyfinger:
             <p>该模块仅在Xposed module repo官方仓库发布</p>
             <h3>使用守则</h3>
             <p>严禁在公开区域宣传与展示本软件！</p>
+            <h2>致谢</h2>
+            <h4><a href="https://github.com/ShellWen">Shellwen</a> 感谢其帮忙脱壳</h4>
+            <h4><a href="https://github.com/KyuubiRan/EzXHelper">EzXHelper</a> 使用了其项目</h4>
+            <h4><a href="https://github.com/xiaowine/XKT">XKT</a> 使用了其项目</h4>
+            <h4><a href="https://github.com/xiaowine/Lyric-Getter">Lyric-Getter</a> 参考了界面写法</h4>
+            <h4><a href="https://github.com/ReChronoRain/HyperCeiler">HyperCeiler</a> 参考了焦点通知实现</h4>
+            <p><a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="200"/></a></p>
           filename: Rice.Painter.Fingerprint.Pay-1.0.1-1-release-1732448409636.apk
           id: com.mihuashi.paybyfinger
           name: 米画师支付模块
-          last_updated: "2024-11-24T12:20:45Z"
+          last_updated: "2024-12-06T14:16:36Z"
           releasedescription: |-
             <h2>更新日志</h2>
             <h3>第一个正式版本</h3>
@@ -20888,6 +20896,47 @@ top.hookvip.pro:
             <li><strong>快手/快手极速版</strong> 支持免root框架(仅本地模式)</li>
             </ul>
     author_name: lovejiuwu
+top.sacz.timtool:
+    git: https://github.com/Xposed-Modules-Repo/top.sacz.timtool
+    summary: "Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 \n适配最新Tim\n适配版本 4.0.97 +"
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <div align="center">
+            <h1>Tim小助手</h1>
+            <p><a href="https://github.com/suzhelan/TimTool/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/suzhelan/TimTool/total?label=Downloads"></a>
+            <a href="https://github.com/suzhelan/TimTool/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/suzhelan/TimTool"></a>
+            <a href="https://github.com/suzhelan/TimTool/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/suzhelan/TimTool"></a>
+            <a href="https://t.me/timtool"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram"></a></p>
+            <p>对Tim,QQ进行的扩展优化的Xposed模块</p>
+            <p>永久免费模块，请勿上当受骗</p>
+            </div>
+            <hr />
+            <h2><a href="https://github.com/suzhelan/TimTool">连接到主仓库</a></h2>
+            <hr />
+            <h2>适配的版本范围 TimNT 4.x.x(目前维护到4.0.97 最新版)</h2>
+            <h3>该插件仅供学习与练习</h3>
+            <p>请勿使用此插件用于违法 商业行为<br />
+            插件只是提高日常方便性的工具 请勿过度依赖该插件<br />
+            此项目会因为各种可抗不可抗因素随时停止维护<br />
+            如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />
+            在此之前你或许可以及时保存我们的工作成品</p>
+            <p><a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool">LSPosed-Repo-Github</a></p>
+          filename: TimTool_1.0.apk
+          id: top.sacz.timtool
+          name: Tim小助手(TimTool)
+          last_updated: "2024-12-06T05:27:15Z"
+          releasedescription: |-
+            <h2>Tim 专属Xposed模块</h2>
+            <h3>新增 复读</h3>
+            <h3>新增 禁用表情下载限制</h3>
+            <h3>新增 表情面板</h3>
+            <h3>新增 防撤回</h3>
+            <h3>新增 消息显示时间</h3>
+            <h3>新增 移除主界面语音图标</h3>
+    author_name: suzhelan
 top.trangle.mbga:
     git: https://github.com/Xposed-Modules-Repo/top.trangle.mbga
     summary: |-
