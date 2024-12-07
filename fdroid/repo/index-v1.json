@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733456029000,
+    "timestamp": 1733542633000,
     "version": 20002
   },
   "requests": {
@@ -6397,6 +6397,27 @@
       "summary": "Free Telegram Premium"
     },
     {
+      "added": 1733462835000,
+      "authorName": "suzhelan",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eTim小助手\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/suzhelan/TimTool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/suzhelan/TimTool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/suzhelan/TimTool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/suzhelan/TimTool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/suzhelan/TimTool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/suzhelan/TimTool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/timtool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e对Tim,QQ进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003e连接到主仓库\u003c/a\u003e\u003c/h2\u003e\n\u003chr /\u003e\n\u003ch2\u003e适配的版本范围 TimNT 4.x.x(目前维护到4.0.97 最新版)\u003c/h2\u003e\n\u003ch3\u003e该插件仅供学习与练习\u003c/h3\u003e\n\u003cp\u003e请勿使用此插件用于违法 商业行为\u003cbr /\u003e\n插件只是提高日常方便性的工具 请勿过度依赖该插件\u003cbr /\u003e\n此项目会因为各种可抗不可抗因素随时停止维护\u003cbr /\u003e\n如果发生了更糟糕的情况我们会及时 \u003cstrong\u003e删除代码库\u003c/strong\u003e 以及 \u003cstrong\u003e发行渠道的所有版本\u003c/strong\u003e\u003cbr /\u003e\n在此之前你或许可以及时保存我们的工作成品\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.sacz.timtool\"\u003eLSPosed-Repo-Github\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1733462835000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "## Tim 专属Xposed模块\n### 新增 复读\n### 新增 禁用表情下载限制\n### 新增 表情面板\n### 新增 防撤回\n### 新增 消息显示时间\n### 新增 移除主界面语音图标"
+        }
+      },
+      "name": "Tim小助手(TimTool)",
+      "packageName": "top.sacz.timtool",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/top.sacz.timtool",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 \n适配最新Tim\n适配版本 4.0.97 +"
+    },
+    {
       "added": 1708523440000,
       "authorName": "luckyzyx",
       "categories": [
@@ -7687,25 +7708,25 @@
       "summary": "网抑叼毛云，网易云换源插件"
     },
     {
-      "added": 1703919603000,
+      "added": 1733513315000,
       "authorName": "GSWXXN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cimg src=\"https://raw.githubusercontent.com/GSWXXN/RestoreSplashScreen/master/doc/icon.svg\" width=\"160\"\u003e\n\u003ch1\u003e启动遮罩进化\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://app.codacy.com/gh/GSWXXN/RestoreSplashScreen?utm_source=github.com\u0026amp;utm_medium=referral\u0026amp;utm_content=GSWXXN/RestoreSplashScreen\u0026amp;utm_campaign=Badge_Grade\"\u003e\u003cimg src=\"https://api.codacy.com/project/badge/Grade/ffbf5a0bdf954416a2e1d4347b1ea797\" alt=\"Codacy Badge\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/\"\u003e\u003cimg src=\"https://img.shields.io/badge/-Xposed-green?style=flat\u0026amp;logo=Android\u0026amp;logoColor=white\" alt=\"Xposed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/GSWXXN/RestoreSplashScreen/blob/master/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/GSWXXN/RestoreSplashScreen\" alt=\"GitHub\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/tag/GSWXXN/RestoreSplashScreen?label=version\" alt=\"GitHub tag (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen/total?label=Downloads\" alt=\"GitHub all releases\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003cdel\u003e尝试恢复被MIUI阉割的SplashScreen\u003c/del\u003e\u003cbr /\u003e\n\u003cdel\u003e自定义MIUI的Splash Screen\u003c/del\u003e\u003cbr /\u003e\n为 Splash Screen 添加自定义选项\u003c/p\u003e\n\u003cp\u003e模块适配大部分安卓系统, 但目前还是以运行在高通 SoC 的 MIUI/HyperOS 为主, 如果在其他系统中使用遇到问题也欢迎反馈\u003c/p\u003e\n\u003ch2\u003e测试环境\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e小米12 Ultra\u003cbr /\u003e\nAndroid 14\u003cbr /\u003e\nHyperOS 1.0\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e模块功能\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e为所有应用显示原生 Splash Screen 界面\u003c/li\u003e\n\u003cli\u003e对于主动适配 Splash Screen 的应用使用默认静态图标\u003c/li\u003e\n\u003cli\u003e替换获取图标方式, 使 Splash Screen 的图标与桌面图标一致(多用于主题)\u003c/li\u003e\n\u003cli\u003e根据图标自适应 Splash Screen 背景颜色\u003c/li\u003e\n\u003cli\u003e彻底关闭 Splash Screen 特性\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e在 Xposed 管理器 (LSPosed) 中激活模块\u003c/li\u003e\n\u003cli\u003e作用域勾选: 系统界面(\u003ccode\u003ecom.android.systemui\u003c/code\u003e) 和 系统框架(\u003ccode\u003eandroid\u003c/code\u003e)\u003c/li\u003e\n\u003cli\u003e重启手机\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e已知问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e微信、QQ、支付宝的Splash Screen只能在MIUI内测22.4.25后显示\u003c/del\u003e (v1.9 已支持)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e开启模块后出现启动应用卡顿可能与调度模块同时开启有关，这个我也在想办法优化 (v2.0 优化过，反馈似乎还不错)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cdel\u003e部分机型 (如Redmi Note 10 Pro、小米12Pro) 的系统版本 (如稳定版、开发版) 可能无法使用本模块，\n请等待系统更新\u003c/del\u003e (v1.9 已支持)\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题解答\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://gswxxn.coding.net/public/restoresplashscreen/faq/git\"\u003e点击跳转\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e无法使用\u003c/h2\u003e\n\u003cp\u003e请先检查模块是否正常激活，并且作用域是否勾选。如果排查后仍有错误，请提交 issue，并附上 LSPosed 的日志，如有能力提取\nSystemUI, 最好一并提交。\u003cbr /\u003e\n也可以联系酷安 \u003ca href=\"http://www.coolapk.com/u/1189245\"\u003e@迷璐\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e捐赠支持\u003c/h2\u003e\n\u003cp\u003e点个 \u003cstrong\u003eStar\u003c/strong\u003e 也是对我的支持。\u003c/p\u003e\n\u003cp\u003e如果你想捐赠，觉得这个模块好用的不得了，我会非常感谢你的！！！如果这个模块对你来说只要还差一点点意思，就不要捐赠啦\u003c/p\u003e\n\u003cp\u003e\u003cimg\nsrc=\"https://raw.githubusercontent.com/GSWXXN/RestoreSplashScreen/master/doc/donate.png\"\nwidth = \"250\"\nalt=\"donate\"\n/\u003e\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003cp\u003e使用 \u003ca href=\"https://github.com/fankes/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e 构建模块\u003cbr /\u003e\nUI界面改自 \u003ca href=\"https://github.com/fankes/MIUINativeNotifyIcon\"\u003eMIUI 原生通知图标\u003c/a\u003e\u003cbr /\u003e\n使用 \u003ca href=\"https://github.com/Block-Network/blockmiui\"\u003eBlockMIUI\u003c/a\u003e 的部分资源构建UI\u003cbr /\u003e\n获取应用列表方式参考 \u003ca href=\"https://github.com/Dr-TSNG/Hide-My-Applist\"\u003eHide My Applist\u003c/a\u003e\u003cbr /\u003e\n曾使用 \u003ca href=\"https://github.com/topjohnwu/libsu\"\u003elibsu\u003c/a\u003e 执行Shell命令\u003cbr /\u003e\n参考 \u003ca href=\"https://github.com/qqlittleice/MiuiHome_R\"\u003eMIUIHomeR\u003c/a\u003e 优化部分代码\u003cbr /\u003e\n使用 \u003ca href=\"https://github.com/HighCapable/SweetDependency\"\u003eSweet Dependency\u003c/a\u003e 自动装配和管理依赖\u003cbr /\u003e\n使用 \u003ca href=\"https://github.com/HighCapable/SweetProperty\"\u003eSweet Property\u003c/a\u003e 管理项目属性\u003c/p\u003e\n",
       "icon": "com.gswxxn.restoresplashscreen.png",
-      "lastUpdated": 1703919603000,
+      "lastUpdated": 1733513315000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- [重构] 重构所有 SystemUI Hook, 这可能会导致一些问题, 可以连点关于页面图标临时切换回旧版 Hook\n- [重构] 重构 “绘制图标圆角“ 的实现方式\n- [新增] 图标 - 不显示图标\n- [新增] 图标 - 使用 MIUI 大图标 (仅 MIUI/HyperOS)\n- [新增] 图标 - 为缩小的图标添加模糊背景\n- [优化] 调整部分圆角大小, 边框粗细, 缩放比例数值\n- [优化] 仅在适用系统上展示部分选项 (如仅在 MIUI/ HyperOS 上显示 “忽略 MIUI 深色模式”)\n- [适配] ColorOS 13.1 - 14\n- [适配] Android 14\n- [其他] 变更应用名, 图标, 模块描述"
+          "whatsNew": "- [新增] 模块开发者选项\n- [优化] 单独配置应用背景颜色的预览图标可显示图标包图标\n- [优化] 调整深色模式下莫奈取色方案\n- [优化] 可以随时单独配置应用背景颜色\n- [优化] 启用日志 24 小时后自动关闭\n- [修复] 忽略应用主动设置的图标在 ColorOS 中不生效\n- [修复] 修复 ColorOS 中 拨号 图标的获取 (@YukongA)\n- [修复] HyperOS Android15 部分图标缩放异常 (@YukongA)\n- [移除] 移除背景颜色 选项, 请使用 \"单独配置应用背景颜色\" 代替\n- [重构] 实验功能 更名为 显示设置\n- [重构] 格式化大量项目代码 (@YukongA)\n"
         }
       },
       "name": "启动遮罩进化 / RestoreSplashScreen",
       "packageName": "com.gswxxn.restoresplashscreen",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen",
-      "suggestedVersionCode": "3000",
-      "suggestedVersionName": "3.0",
+      "suggestedVersionCode": "3100",
+      "suggestedVersionName": "3.1",
       "summary": "自定义MIUI的Splash Screen"
     },
     {
@@ -8924,13 +8945,13 @@
       "suggestedVersionName": "2.1.2"
     },
     {
-      "added": 1732450845000,
+      "added": 1733494596000,
       "authorName": "ghhccghk",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n",
-      "lastUpdated": 1732450845000,
+      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1733494596000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -12167,7 +12188,27 @@
     ],
     "com.gswxxn.restoresplashscreen": [
       {
-        "added": 1703919603000,
+        "added": 1733513315000,
+        "apkName": "com.gswxxn.restoresplashscreen_3100-3.1.apk",
+        "hash": "9360dc5f2cbf3f359cc604640fca66fc9e1eea350b0c35d60e9bd329cf734003",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.gswxxn.restoresplashscreen",
+        "sig": "5195c78f92aeba6c8dac6cdd775a2b4f",
+        "signer": "140237dfadfa3ba6db016824385d362bc79fcbf005933c67ed234a95e5434930",
+        "size": 1857059,
+        "targetSdkVersion": 35,
+        "versionCode": 3100,
+        "versionName": "3.1"
+      },
+      {
+        "added": 1732159460000,
         "apkName": "com.gswxxn.restoresplashscreen_3000-3.0.apk",
         "hash": "79f8a88a0c438b0aa05f4d74183c87b798255bc800a09597e1fda3a7ded9345f",
         "hashType": "sha256",
@@ -13269,7 +13310,7 @@
     ],
     "com.mihuashi.paybyfinger": [
       {
-        "added": 1732450845000,
+        "added": 1733494596000,
         "apkName": "com.mihuashi.paybyfinger_1-1.0.1.apk",
         "hash": "8acf0202c935ac3a059f3826838f71fe3f9bcb53eb668cd33f058c5f6b42d40c",
         "hashType": "sha256",
@@ -18217,6 +18258,25 @@
         "targetSdkVersion": 34,
         "versionCode": 20241030,
         "versionName": "4.0.0"
+      }
+    ],
+    "top.sacz.timtool": [
+      {
+        "added": 1733462835000,
+        "apkName": "top.sacz.timtool_1-1.0.apk",
+        "hash": "59155a030526d17fa9d1d8d64d9748900a0cbda470472648c62372970f20763b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "top.sacz.timtool",
+        "sig": "1cfd43e125c620e8fb98680152f8cf82",
+        "signer": "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077",
+        "size": 5161173,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.0"
       }
     ],
     "top.trangle.mbga": [

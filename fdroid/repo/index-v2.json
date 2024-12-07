@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1733456029000,
+    "timestamp": 1733542633000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733455791000,
+        "lastUpdated": 1733542250000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -7560,7 +7560,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159460000,
+        "lastUpdated": 1733542281000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.gswxxn.restoresplashscreen",
         "authorName": "GSWXXN",
         "name": {
@@ -7575,6 +7575,38 @@
         "preferredSigner": "140237dfadfa3ba6db016824385d362bc79fcbf005933c67ed234a95e5434930"
       },
       "versions": {
+        "9360dc5f2cbf3f359cc604640fca66fc9e1eea350b0c35d60e9bd329cf734003": {
+          "added": 1733542281000,
+          "file": {
+            "name": "/com.gswxxn.restoresplashscreen_3100-3.1.apk",
+            "sha256": "9360dc5f2cbf3f359cc604640fca66fc9e1eea350b0c35d60e9bd329cf734003",
+            "size": 1857059
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "3.1",
+            "versionCode": 3100,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "140237dfadfa3ba6db016824385d362bc79fcbf005933c67ed234a95e5434930"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "79f8a88a0c438b0aa05f4d74183c87b798255bc800a09597e1fda3a7ded9345f": {
           "added": 1732159460000,
           "file": {
@@ -10966,7 +10998,7 @@
           "en-US": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
         },
         "description": {
-          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n"
+          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n<h2>致谢</h2>\n<h4><a href=\"https://github.com/ShellWen\">Shellwen</a> 感谢其帮忙脱壳</h4>\n<h4><a href=\"https://github.com/KyuubiRan/EzXHelper\">EzXHelper</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/XKT\">XKT</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/Lyric-Getter\">Lyric-Getter</a> 参考了界面写法</h4>\n<h4><a href=\"https://github.com/ReChronoRain/HyperCeiler\">HyperCeiler</a> 参考了焦点通知实现</h4>\n<p><a href=\"https://www.jetbrains.com\"><img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/></a></p>\n"
         },
         "preferredSigner": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159"
       },
@@ -25735,6 +25767,61 @@
               },
               {
                 "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "top.sacz.timtool": {
+      "metadata": {
+        "added": 1733542387000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1733542387000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/top.sacz.timtool",
+        "authorName": "suzhelan",
+        "name": {
+          "en-US": "Tim小助手(TimTool)"
+        },
+        "summary": {
+          "en-US": "Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 \n适配最新Tim\n适配版本 4.0.97 +"
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>Tim小助手</h1>\n<p><a href=\"https://github.com/suzhelan/TimTool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/suzhelan/TimTool/total?label=Downloads\"></a>\n<a href=\"https://github.com/suzhelan/TimTool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/suzhelan/TimTool\"></a>\n<a href=\"https://github.com/suzhelan/TimTool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/suzhelan/TimTool\"></a>\n<a href=\"https://t.me/timtool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>对Tim,QQ进行的扩展优化的Xposed模块</p>\n<p>永久免费模块，请勿上当受骗</p>\n</div>\n<hr />\n<h2><a href=\"https://github.com/suzhelan/TimTool\">连接到主仓库</a></h2>\n<hr />\n<h2>适配的版本范围 TimNT 4.x.x(目前维护到4.0.97 最新版)</h2>\n<h3>该插件仅供学习与练习</h3>\n<p>请勿使用此插件用于违法 商业行为<br />\n插件只是提高日常方便性的工具 请勿过度依赖该插件<br />\n此项目会因为各种可抗不可抗因素随时停止维护<br />\n如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />\n在此之前你或许可以及时保存我们的工作成品</p>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.sacz.timtool\">LSPosed-Repo-Github</a></p>\n"
+        },
+        "preferredSigner": "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077"
+      },
+      "versions": {
+        "59155a030526d17fa9d1d8d64d9748900a0cbda470472648c62372970f20763b": {
+          "added": 1733542387000,
+          "file": {
+            "name": "/top.sacz.timtool_1-1.0.apk",
+            "sha256": "59155a030526d17fa9d1d8d64d9748900a0cbda470472648c62372970f20763b",
+            "size": 5161173
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "top.sacz.timtool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
