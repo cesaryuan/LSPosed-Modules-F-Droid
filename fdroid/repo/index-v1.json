@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733542633000,
+    "timestamp": 1733629039000,
     "version": 20002
   },
   "requests": {
@@ -9487,25 +9487,25 @@
       "suggestedVersionName": "涅槃 3.3.4"
     },
     {
-      "added": 1697785211000,
+      "added": 1733577578000,
       "authorName": "kaisar945",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003e锤锤 Smartisan\u003c/h1\u003e\n\u003cp\u003e仅限于使用高德SDK开发调试模拟位置，请勿用于钉钉打卡等非法用途！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.fuck.android.rimet?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.fuck.android.rimet?include_prereleases\" alt=\"Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.fuck.android.rimet/total\" alt=\"Download\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+m2sDh0iN8y41MjM1\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E9%94%A4%E9%94%A4-2k+%20users-green?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e自用机场推荐\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://user.by.ltd/aff.php?aff=12669\"\u003e\u003cimg src=\"https://user.by.ltd/templates/lagom/assets/img/logo/logo_big.png\" alt=\"BYWAVE\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e注意事项\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e环境快照数据存储位置\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e版本号\u003c/th\u003e\n\u003cth\u003e数据存储位置\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e0.4\u003c/td\u003e\n\u003ctd\u003e/sdcard/Android/data/com.fuck.android.rimet/files/profiles\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e0.3.1\u003c/td\u003e\n\u003ctd\u003e/sdcard/Download/SmartisanProfile\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e0.3\u003c/td\u003e\n\u003ctd\u003e/sdcard/Download/SmartisonProfile\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e0.2\u003c/td\u003e\n\u003ctd\u003e/data/system/hammer_profiles\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e0.1\u003c/td\u003e\n\u003ctd\u003e/sdcard/current-profile\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e大版本号之间数据互不兼容且升级系统后数据可能也不兼容需重新创建环境快照\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的应用\u003c/h2\u003e\n\u003cp\u003e所有使用高德定位SDK的应用，兼容性请自行测试。\u003c/p\u003e\n\u003ch2\u003e已实现的功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e支持快照GPS数据\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e支持快照附近WIFI数据\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e支持模拟附近5米内随机位置\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e禁用对目标应用隐藏本模块（可选）\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e允许锤锤自启动/关联唤醒之类的功能（重要）\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e打开锤锤点击+号按钮创建环境快照\u003c/li\u003e\n\u003cli\u003e在锤锤列表中选择需要模拟环境快照\u003c/li\u003e\n\u003cli\u003e在模块管理器中激活锤锤并勾选推荐应用\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e强行停止目标应用并重新打开（重要）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e运行环境\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e支持系统：Android 8 - 14\u003c/li\u003e\n\u003cli\u003e支持框架：LSPosed（推荐）/LSPatch（不推荐）/太极（不推荐）\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e问题排查\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e关闭其他模块仅保留本模块以排除模块间互相冲突\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e确认模块是否正确加载，以LSPosed管理器为例打开管理器-\u0026gt;选择“日志”标签-\u0026gt;查看“模块日志”，检查日志是否包含以下内容\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eSmartisan INFO LoadPackage: pkg=xxx.xxx.xxx proc=xxx.xxx.xxx ifa=xxx\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e确认模块是否加正确加载环境快照数据，检查日志是否包含以下内容\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003eSmartisan INFO selected profile: {xxx}\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e检查日志中是否存在以下类似的错误码\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e错误码x 参考https://modules.lsposed.org/module/com.fuck.android.rimet#问题排查\n\u003c/code\u003e\u003c/pre\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e错误码\u003c/th\u003e\n\u003cth\u003e含义\u003c/th\u003e\n\u003cth\u003e解决方案\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e1\u003c/td\u003e\n\u003ctd\u003e不支持该应用\u003c/td\u003e\n\u003ctd\u003e取消对目标应用开启模块\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2\u003c/td\u003e\n\u003ctd\u003e无法访问锤锤应用\u003c/td\u003e\n\u003ctd\u003e是否对目标应用隐藏了模块？\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e3\u003c/td\u003e\n\u003ctd\u003e无法获取环境快照数据\u003c/td\u003e\n\u003ctd\u003e在锤锤列表中勾选一个环境快照\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e100\u003c/td\u003e\n\u003ctd\u003e不预期的错误\u003c/td\u003e\n\u003ctd\u003e加入群组提供相应的日志寻求帮助\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e如仍未解决可加入\u003ca href=\"https://t.me/+m2sDh0iN8y41MjM1\"\u003eTG讨论组\u003c/a\u003e寻求帮助，提问时参考\u003ca href=\"#%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF\"\u003e提问的艺术\u003c/a\u003e部分\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e提问的艺术\u003c/h2\u003e\n\u003cp\u003e不欢迎无效的提问\u003c/p\u003e\n\u003cp\u003e✖ \u003cdel\u003e我的锤锤为什么用不了？\u003c/del\u003e\u003c/p\u003e\n\u003cp\u003e欢迎这样的提问\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e手机型号：小米13 Ultra\nMIUI版本：14.0.17\nAndroid系统版本：13\n钉钉版本：6.0.0\n锤锤版本：0.4\n框架类型：LSPosed/LSPatch/太极\n问题描述：我已按照使用说明创建了环境快照，并且按照文档要求排查了问题，但是打开目标应用位置没有改变。\n日志文件：\n附上框架导出的日志文件\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003eFAQ\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e为什么不支持手动选择位置？\u003c/p\u003e\n\u003cp\u003e因为手动选择的位置不准，所以不支持。以后也不会支持！\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e是否支持xx应用？\u003c/p\u003e\n\u003cp\u003e自行测试理论上使用高德定位SDK的应用都支持。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e0.4版本偶尔失效\u003c/p\u003e\n\u003cp\u003e从此版本开始更改了存储机制因此需唤醒锤锤读取环境快照数据，但是国内厂商在Android系统上做了一些省电的优化因此可能会导致功能失效，建议开启锤锤自启动/关联唤醒之类的功能。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e贡献者\u003c/h2\u003e\n\u003cp\u003e@春秋四季天\u003c/p\u003e\n\u003ch2\u003e捐赠名单\u003c/h2\u003e\n\u003cp\u003e@C_aa @ttd_xg @苏 @tiantianxiangshang12138 @HouhTung @🈚️ @DooDoo @Gimcy @佞臣 @BenBen @mf_lll @你个死胖子 @jenova.w @No_Name @abuzz1966 @@nijqu_niyqu @realki\u003c/p\u003e\n",
       "icon": "com.fuck.android.rimet.png",
-      "lastUpdated": 1697785211000,
+      "lastUpdated": 1733577578000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "Changelog\n- 支持使用LSPosed api大于92的情况下免后台常驻\n- 支持使用LSPosed api大于92的情况下对目标应用隐藏模块"
+          "whatsNew": "Changlog\n1. 修复创建环境快照失败\n2. 增加创建快照预览详细数据\n3. 其他微小更新"
         }
       },
       "name": "锤锤",
       "packageName": "com.fuck.android.rimet",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet",
-      "suggestedVersionCode": "8",
-      "suggestedVersionName": "0.4-beta2",
+      "suggestedVersionCode": "11",
+      "suggestedVersionName": "0.4-beta5",
       "summary": "仅限于开发调试模拟位置，请勿用于钉钉打卡等非法用途！"
     },
     {
@@ -11889,7 +11889,22 @@
     ],
     "com.fuck.android.rimet": [
       {
-        "added": 1697785211000,
+        "added": 1733577578000,
+        "apkName": "com.fuck.android.rimet_11-0.4-beta5.apk",
+        "hash": "90c6bfaa674fe39e6eebf2fb929f4ca3833882b0db51486c8701cbe6d27eb854",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": null,
+        "packageName": "com.fuck.android.rimet",
+        "sig": "ade607590875710f906dd69988dab666",
+        "signer": "66067e357a0ee4d48550256aef35d90875bddac706c5ba3933b555b2588df3d2",
+        "size": 4332383,
+        "targetSdkVersion": 34,
+        "versionCode": 11,
+        "versionName": "0.4-beta5"
+      },
+      {
+        "added": 1732159455000,
         "apkName": "com.fuck.android.rimet_8-0.4-beta2.apk",
         "hash": "af20474590bd5b4af945449a71f4d3373ed4eac9387a6218ad210c030d581e7c",
         "hashType": "sha256",

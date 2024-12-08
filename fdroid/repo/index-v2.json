@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1733542633000,
+    "timestamp": 1733629039000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733542250000,
+        "lastUpdated": 1733628788000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -6743,7 +6743,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159455000,
+        "lastUpdated": 1733628816000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet",
         "authorName": "kaisar945",
         "name": {
@@ -6758,6 +6758,56 @@
         "preferredSigner": "66067e357a0ee4d48550256aef35d90875bddac706c5ba3933b555b2588df3d2"
       },
       "versions": {
+        "90c6bfaa674fe39e6eebf2fb929f4ca3833882b0db51486c8701cbe6d27eb854": {
+          "added": 1733628816000,
+          "file": {
+            "name": "/com.fuck.android.rimet_11-0.4-beta5.apk",
+            "sha256": "90c6bfaa674fe39e6eebf2fb929f4ca3833882b0db51486c8701cbe6d27eb854",
+            "size": 4332383
+          },
+          "manifest": {
+            "versionName": "0.4-beta5",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "66067e357a0ee4d48550256aef35d90875bddac706c5ba3933b555b2588df3d2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"
+              },
+              {
+                "name": "com.fuck.android.rimet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "af20474590bd5b4af945449a71f4d3373ed4eac9387a6218ad210c030d581e7c": {
           "added": 1732159455000,
           "file": {

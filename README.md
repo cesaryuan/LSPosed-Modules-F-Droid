@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -478,7 +478,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/vn.kwaiching.yauyin"><img src="fdroid/repo/icons/vn.kwaiching.yauyin.png" alt="野草集 icon" width="36px" height="36px"></a> | [**野草集**](https://github.com/Xposed-Modules-Repo/vn.kwaiching.yauyin) | 頂點小說; 筆趣閣; 火星小說; 天天讀書; 淘小說; 必看小說; 51漫畫; 91次元: 去廣告/更新/VIP模塊 | 22.12.12 (22) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.dingtalk.recall"><img src="fdroid/repo/icons/com.dingtalk.recall.1.png" alt="钉钉反撤回神器 icon" width="36px" height="36px"></a> | [**钉钉反撤回神器**](https://github.com/Xposed-Modules-Repo/com.dingtalk.recall) | 钉钉反撤回神器 | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/cn.dreamn.qianji_auto"><img src="fdroid/repo/icons/cn.dreamn.qianji_auto.189.png" alt="钱迹自动记账 icon" width="36px" height="36px"></a> | [**钱迹自动记账**](https://github.com/Xposed-Modules-Repo/cn.dreamn.qianji_auto) | No summary available | 涅槃 3.3.4 (189) |
-| <a href="https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet"><img src="fdroid/repo/icons/com.fuck.android.rimet.png" alt="锤锤 icon" width="36px" height="36px"></a> | [**锤锤**](https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet) | 仅限于开发调试模拟位置，请勿用于钉钉打卡等非法用途！ | 0.4-beta2 (8) |
+| <a href="https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet"><img src="fdroid/repo/icons/com.fuck.android.rimet.png" alt="锤锤 icon" width="36px" height="36px"></a> | [**锤锤**](https://github.com/Xposed-Modules-Repo/com.fuck.android.rimet) | 仅限于开发调试模拟位置，请勿用于钉钉打卡等非法用途！ | 0.4-beta5 (11) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.jy.xp.lk"><img src="assets/ic_launcher.png" alt="长按复制链接 icon" width="36px" height="36px"></a> | [**长按复制链接**](https://github.com/Xposed-Modules-Repo/com.jy.xp.lk) | 长按复制WebView链接 | 2 (2) |
 | <a href="https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace"><img src="fdroid/repo/icons/cn.geektang.privacyspace.png" alt="隐秘空间/PrivacySpace icon" width="36px" height="36px"></a> | [**隐秘空间/PrivacySpace**](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) | Hide the apps.<br>把App隐藏起来 | 1.3.11 (10311) |
 | <a href="https://github.com/Xposed-Modules-Repo/github.zerorooot.hidemiuiclipboarddialog"><img src="fdroid/repo/icons/github.zerorooot.hidemiuiclipboarddialog.webp" alt="隐藏miui剪贴板对话框/HideMiuiClipboardDialog icon" width="36px" height="36px"></a> | [**隐藏miui剪贴板对话框/HideMiuiClipboardDialog**](https://github.com/Xposed-Modules-Repo/github.zerorooot.hidemiuiclipboarddialog) | 隐藏miui剪贴板对话框 | 1.0 (1) |
