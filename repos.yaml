@@ -7545,24 +7545,18 @@ com.kgg.hlddz:
             广告页面弹出1秒后自动关闭并领取奖励</p>
             <p>本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！</p>
             <h1>更新日志</h1>
+            <p>2024.12.09    v1.0.6    适配欢乐斗地主8.032.016版本</p>
             <p>2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题</p>
             <p>2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本</p>
-            <p>2023.07.09    v1.0.5    适配欢乐斗地主8.021.016版本</p>
-            <p>2023.04.19    v1.0.4    适配欢乐斗地主8.019.018版本</p>
-            <p>2023.03.02    v1.0.3    解决小于15秒的广告跳过后不会自动领取奖励的问题；
-            新增自动跳过竖屏广告的功能</p>
-            <p>2023.02.21    v1.0.2    解决某些广告跳过后不会自动领取奖励的问题</p>
-            <p>2023.02.20    v1.0.1    广告视频静音，缩短广告页面展示时长</p>
-            <p>2023.02.17    v1.0.0    发布第一个版本</p>
             <h1>Buy me a beer</h1>
             <p>如果您觉得好用，请给个打赏，谢谢！</p>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png" alt="" /></p>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg" alt="" /></p>
-          filename: ddzNoAd_1.0.7_release.apk
+          filename: ddzNoAd_1.0.8_release.apk
           id: com.kgg.hlddz
           name: 地主不看广告
-          last_updated: "2023-11-17T12:25:48Z"
-          releasedescription: <p>解决必须手动点击的5秒广告不会自动跳过的问题</p>
+          last_updated: "2024-12-08T17:46:33Z"
+          releasedescription: <p>适配欢乐斗地主8.032.016版本</p>
     author_name: KongGuoguang
 com.king250.fightoppoinstaller:
     git: https://github.com/Xposed-Modules-Repo/com.king250.fightoppoinstaller
@@ -10200,11 +10194,11 @@ com.sevtinge.hyperceiler:
             <p><a href="https://github.com/ReChronoRain/HyperCeiler">本项目源码</a></p>
             </blockquote>
             <h2>当前支持的版本</h2>
-            <p>Android 13-14 的 MIUI 和 HyperOS</p>
+            <p>Android 13-15 的 MIUI 和 HyperOS</p>
             <h2>使用前说明</h2>
             <p>请在 <a href="https://github.com/LSPosed/LSPosed/releases">LSPosed</a> 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；</p>
             <p>本模块<b>不支持</b> <code>修改较多的第三方 MIUI/Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 MIUI/Xiaomi HyperOS ROM</code>；</p>
-            <p>目前 HyperCeiler 是基于 Android 14 的 Xiaomi HyperOS1.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>
+            <p>目前 HyperCeiler 是基于 Android 14-15 的 Xiaomi HyperOS 1.0-2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>
             <p>在<a href="https://github.com/ReChronoRain/HyperCeiler/issues">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>
             <p>HyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留<a href="https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130">此版本</a></p>
             <h2>为 HyperCeiler 项目提交翻译</h2>
@@ -17816,14 +17810,11 @@ nep.timeline.re_telegram:
             <p>Nullgram (You can use Nnngram), Telegram X, Forkgram F-Droid Build</p>
             <h3>What if the client i am using is not supported?</h3>
             <p>Submit the issue and include the client download link in the content, i will try to support your client.</p>
-          filename: Re-Telegram-v15.0-Release.apk
+          filename: Re-Telegram-v16.0-Release.apk
           id: nep.timeline.re_telegram
           name: Re Telegram
-          last_updated: "2024-08-16T15:26:09Z"
-          releasedescription: |-
-            <p>Now you can customize the color and content of the deleted mark<br>
-            Fix lost animation when deleting own message<br>
-            Supported Nekogram v11.0.0 (5143)</p>
+          last_updated: "2024-12-08T11:01:39Z"
+          releasedescription: <p>Supported Nekogram v11.4.2 (5469)</p>
     author_name: Nep-Timeline
 net.ankio.bluetooth:
     git: https://github.com/Xposed-Modules-Repo/net.ankio.bluetooth
