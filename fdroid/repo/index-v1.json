@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733629039000,
+    "timestamp": 1733715526000,
     "version": 20002
   },
   "requests": {
@@ -3032,7 +3032,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eHyperCeiler\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jq.qq.com/?_wv=1027\u0026amp;k=TedCJq8V\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qgroup\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pd.qq.com/s/35ooe0ssj\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qguild\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/cemiuiler\"\u003e\u003cimg src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge\u0026amp;color=2CA5E0\u0026amp;label=Telegram\u0026amp;logo=telegram\u0026amp;query=%24.data.totalSubs\u0026amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003e让 MIUI/HyperOS 再次伟大 ！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003e本项目源码\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e当前支持的版本\u003c/h2\u003e\n\u003cp\u003eAndroid 13-14 的 MIUI 和 HyperOS\u003c/p\u003e\n\u003ch2\u003e使用前说明\u003c/h2\u003e\n\u003cp\u003e请在 \u003ca href=\"https://github.com/LSPosed/LSPosed/releases\"\u003eLSPosed\u003c/a\u003e 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；\u003c/p\u003e\n\u003cp\u003e本模块\u003cb\u003e不支持\u003c/b\u003e \u003ccode\u003e修改较多的第三方 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e、\u003ccode\u003e修改较多的系统软件\u003c/code\u003e，以及\u003ccode\u003e部分国际 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e；\u003c/p\u003e\n\u003cp\u003e目前 HyperCeiler 是基于 Android 14 的 Xiaomi HyperOS1.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进\u003c/p\u003e\n\u003cp\u003e在\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler/issues\"\u003e提交反馈\u003c/a\u003e前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情\u003c/p\u003e\n\u003cp\u003eHyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留\u003ca href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\"\u003e此版本\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e为 HyperCeiler 项目提交翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/cemiuiler\"\u003e\u003cimg src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e您可以在\u003ca href=\"https://crwd.in/cemiuiler\"\u003e这里\u003c/a\u003e为 HyperCeiler 项目贡献翻译。\u003c/p\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eHyperCeiler\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jq.qq.com/?_wv=1027\u0026amp;k=TedCJq8V\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qgroup\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pd.qq.com/s/35ooe0ssj\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qguild\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/cemiuiler\"\u003e\u003cimg src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge\u0026amp;color=2CA5E0\u0026amp;label=Telegram\u0026amp;logo=telegram\u0026amp;query=%24.data.totalSubs\u0026amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003e让 MIUI/HyperOS 再次伟大 ！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003e本项目源码\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e当前支持的版本\u003c/h2\u003e\n\u003cp\u003eAndroid 13-15 的 MIUI 和 HyperOS\u003c/p\u003e\n\u003ch2\u003e使用前说明\u003c/h2\u003e\n\u003cp\u003e请在 \u003ca href=\"https://github.com/LSPosed/LSPosed/releases\"\u003eLSPosed\u003c/a\u003e 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；\u003c/p\u003e\n\u003cp\u003e本模块\u003cb\u003e不支持\u003c/b\u003e \u003ccode\u003e修改较多的第三方 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e、\u003ccode\u003e修改较多的系统软件\u003c/code\u003e，以及\u003ccode\u003e部分国际 MIUI/Xiaomi HyperOS ROM\u003c/code\u003e；\u003c/p\u003e\n\u003cp\u003e目前 HyperCeiler 是基于 Android 14-15 的 Xiaomi HyperOS 1.0-2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进\u003c/p\u003e\n\u003cp\u003e在\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler/issues\"\u003e提交反馈\u003c/a\u003e前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情\u003c/p\u003e\n\u003cp\u003eHyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留\u003ca href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\"\u003e此版本\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e为 HyperCeiler 项目提交翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/cemiuiler\"\u003e\u003cimg src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e您可以在\u003ca href=\"https://crwd.in/cemiuiler\"\u003e这里\u003c/a\u003e为 HyperCeiler 项目贡献翻译。\u003c/p\u003e\n",
       "icon": "com.sevtinge.hyperceiler.png",
       "lastUpdated": 1731091760000,
       "license": "Unknown",
@@ -5692,23 +5692,23 @@
       "summary": "Online RadioBox App PRO / Ad free version activator Xposed module for the And..."
     },
     {
-      "added": 1723821969000,
+      "added": 1733655699000,
       "authorName": "Nep-Timeline",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eRe:Telegram\u003c/h1\u003e\n\u003cp\u003eAn Xposed module to enhance the Telegram\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Sakion-Team/Re-Telegram/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Sakion-Team/Re-Telegram.svg\" alt=\"Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml\"\u003e\u003cimg src=\"https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml/badge.svg\" alt=\"CI_Build\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/Sakion_Team\"\u003e\u003cimg height=\"26\" src=\"https://shields.io/badge/Release-ffffff.svg?style=flat-square\u0026logo=telegram\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eFAQ\u003c/h2\u003e\n\u003ch3\u003eWhat is the difference between this and Telegram Anti-Recall\u003c/h3\u003e\n\u003cp\u003eRe:Telegram has more features than Telegram Anti-Recall\u003c/p\u003e\n\u003ch3\u003eWhat features does Re:Telegram have?\u003c/h3\u003e\n\u003cp\u003eCurrently, Re:Telegram has the following features: AntiAntiForward, AntiRecall, NoSponsoredMessages, ProhibitChannelSwitching, AllowMoveAllChatFolder, UseSystemTypeface, HideStories\u003c/p\u003e\n\u003ch3\u003eWhich telegram client are supported?\u003c/h3\u003e\n\u003cp\u003eOfficial, Plus Messenger, Nagram, Nnngram, NekoX, Nekogram (No Test Apk and Google Store Version), NekoLite, exteraGram, Forkgram, Cherrygram, MDgram (Old version), Yukigram, iMoe, OctoGram, Mercurygram\u003c/p\u003e\n\u003ch3\u003eWhich telegram client will not be supported?\u003c/h3\u003e\n\u003cp\u003eNullgram (You can use Nnngram), Telegram X, Forkgram F-Droid Build\u003c/p\u003e\n\u003ch3\u003eWhat if the client i am using is not supported?\u003c/h3\u003e\n\u003cp\u003eSubmit the issue and include the client download link in the content, i will try to support your client.\u003c/p\u003e\n",
-      "lastUpdated": 1723821969000,
+      "lastUpdated": 1733655699000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "Now you can customize the color and content of the deleted mark\nFix lost animation when deleting own message\nSupported Nekogram v11.0.0 (5143)"
+          "whatsNew": "Supported Nekogram v11.4.2 (5469)"
         }
       },
       "name": "Re Telegram",
       "packageName": "nep.timeline.re_telegram",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram",
-      "suggestedVersionCode": "150",
+      "suggestedVersionCode": "160",
       "suggestedVersionName": "Shiori",
       "summary": "An Xposed module to enhance the Telegram\nSupported Telegram, Nekogram and oth..."
     },
@@ -7817,25 +7817,25 @@
       "summary": "抓取任意app的图片并保存到/sdcard/Pictures/app包名/目录下；\ncatch any app's picture and save it..."
     },
     {
-      "added": 1700223948000,
+      "added": 1732159475000,
       "authorName": "KongGuoguang",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e欢乐斗地主不看广告\u003c/h1\u003e\n\u003cp\u003e欢乐斗地主看广告给奖励，需要看15秒视频后才能关闭领取，有了这个模块，再也不用忍受这种恶心的行为，\n广告页面弹出1秒后自动关闭并领取奖励\u003c/p\u003e\n\u003cp\u003e本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题\u003c/p\u003e\n\u003cp\u003e2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本\u003c/p\u003e\n\u003cp\u003e2023.07.09    v1.0.5    适配欢乐斗地主8.021.016版本\u003c/p\u003e\n\u003cp\u003e2023.04.19    v1.0.4    适配欢乐斗地主8.019.018版本\u003c/p\u003e\n\u003cp\u003e2023.03.02    v1.0.3    解决小于15秒的广告跳过后不会自动领取奖励的问题；\n新增自动跳过竖屏广告的功能\u003c/p\u003e\n\u003cp\u003e2023.02.21    v1.0.2    解决某些广告跳过后不会自动领取奖励的问题\u003c/p\u003e\n\u003cp\u003e2023.02.20    v1.0.1    广告视频静音，缩短广告页面展示时长\u003c/p\u003e\n\u003cp\u003e2023.02.17    v1.0.0    发布第一个版本\u003c/p\u003e\n\u003ch1\u003eBuy me a beer\u003c/h1\u003e\n\u003cp\u003e如果您觉得好用，请给个打赏，谢谢！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e欢乐斗地主不看广告\u003c/h1\u003e\n\u003cp\u003e欢乐斗地主看广告给奖励，需要看15秒视频后才能关闭领取，有了这个模块，再也不用忍受这种恶心的行为，\n广告页面弹出1秒后自动关闭并领取奖励\u003c/p\u003e\n\u003cp\u003e本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2024.12.09    v1.0.6    适配欢乐斗地主8.032.016版本\u003c/p\u003e\n\u003cp\u003e2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题\u003c/p\u003e\n\u003cp\u003e2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本\u003c/p\u003e\n\u003ch1\u003eBuy me a beer\u003c/h1\u003e\n\u003cp\u003e如果您觉得好用，请给个打赏，谢谢！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
       "icon": "com.kgg.hlddz.png",
-      "lastUpdated": 1700223948000,
+      "lastUpdated": 1733715291000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "解决必须手动点击的5秒广告不会自动跳过的问题"
+          "whatsNew": "适配欢乐斗地主8.032.016版本"
         }
       },
       "name": "地主不看广告",
       "packageName": "com.kgg.hlddz",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hlddz",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0.7",
+      "suggestedVersionName": "1.0.8",
       "summary": "欢乐斗地主看广告领奖励，广告页面弹出1秒后自动关闭"
     },
     {
@@ -12907,7 +12907,7 @@
     ],
     "com.kgg.hlddz": [
       {
-        "added": 1700223948000,
+        "added": 1732159475000,
         "apkName": "com.kgg.hlddz_1-1.0.7.apk",
         "hash": "c6b89c488d61a6795b11e38dcca5d12c6a694c18e8539cacc6931fc5cedf9c01",
         "hashType": "sha256",
@@ -12920,6 +12920,21 @@
         "targetSdkVersion": 33,
         "versionCode": 1,
         "versionName": "1.0.7"
+      },
+      {
+        "added": 1733679993000,
+        "apkName": "com.kgg.hlddz_1-1.0.8.apk",
+        "hash": "68ebb9b04c2e5b5833f26b15e9f45f9b2601de14b4656ecd504d6e77bdf01e34",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.kgg.hlddz",
+        "sig": "6883073c7355e7e21707a573344978d7",
+        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
+        "size": 991122,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.8"
       }
     ],
     "com.king250.fightoppoinstaller": [
@@ -17283,7 +17298,22 @@
     ],
     "nep.timeline.re_telegram": [
       {
-        "added": 1723821969000,
+        "added": 1733655699000,
+        "apkName": "nep.timeline.re_telegram_160-Shiori.apk",
+        "hash": "c4e7b108554946aa6516cf92c5c4eff765fe464379c1190fab9c079e565e3f8b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": null,
+        "packageName": "nep.timeline.re_telegram",
+        "sig": "834db92625fc0d27dc0f22a1b97ddb34",
+        "signer": "cc437a8c20884735fce878e1ce02014cf69e7b360eec5f13f438e516973d2fa6",
+        "size": 75148,
+        "targetSdkVersion": 35,
+        "versionCode": 160,
+        "versionName": "Shiori"
+      },
+      {
+        "added": 1732159566000,
         "apkName": "nep.timeline.re_telegram_150-Shiori.apk",
         "hash": "f607e82a6824a412b976af9a0cf44bef4f0916c22a6f6fbefba6b59ba250407e",
         "hashType": "sha256",
