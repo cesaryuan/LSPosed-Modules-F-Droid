@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -301,7 +301,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/com.hujiayucc.rpointer"><img src="fdroid/repo/icons/com.hujiayucc.rpointer.png" alt="R-Pointer icon" width="36px" height="36px"></a> | [**R-Pointer**](https://github.com/Xposed-Modules-Repo/com.hujiayucc.rpointer) | This module is for modifying the icon of the mouse pointer.<br>此模块用于修改鼠标指针图标. | 1.0.1 (200) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.yxer.compo.module"><img src="fdroid/repo/icons/com.yxer.compo.module.png" alt="R-安装组件-扩展 icon" width="36px" height="36px"></a> | [**R-安装组件-扩展**](https://github.com/Xposed-Modules-Repo/com.yxer.compo.module) | R-安装组件扩展,强制调用 R-安装组件 进行安装应用. | 2.6.2-beta (29) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.gauravssnl.radiobox"><img src="fdroid/repo/icons/com.gauravssnl.radiobox.webp" alt="Radio Box PRO / Ad Free Xposed Module icon" width="36px" height="36px"></a> | [**Radio Box PRO / Ad Free Xposed Module**](https://github.com/Xposed-Modules-Repo/com.gauravssnl.radiobox) | Online RadioBox App PRO / Ad free version activator Xposed module for the And... | 1.1 (1) |
-| <a href="https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram"><img src="assets/ic_launcher.png" alt="Re Telegram icon" width="36px" height="36px"></a> | [**Re Telegram**](https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram) | An Xposed module to enhance the Telegram<br>Supported Telegram, Nekogram and oth... | Shiori (160) |
+| <a href="https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram"><img src="assets/ic_launcher.png" alt="Re Telegram icon" width="36px" height="36px"></a> | [**Re Telegram**](https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram) | An Xposed module to enhance the Telegram<br>Supported Telegram, Nekogram and oth... | Akiyama (170) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp"><img src="fdroid/repo/icons/com.agoines.relaxhelp.png" alt="RelaxHelper icon" width="36px" height="36px"></a> | [**RelaxHelper**](https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp) | 解除 Relax 的限制 | 1.0.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/ru.mike.sidestories"><img src="assets/ic_launcher.png" alt="Remove action bar stories in the Telegram messenger (&#43;block unmute button) icon" width="36px" height="36px"></a> | [**Remove action bar stories in the Telegram messenger (+block unmute button)**](https://github.com/Xposed-Modules-Repo/ru.mike.sidestories) | Remove action bar stories in the Telegram messenger | 1.3 (4) |
 | <a href="https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor"><img src="fdroid/repo/icons/moe.lyniko.replacecursor.png" alt="Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源 icon" width="36px" height="36px"></a> | [**Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源**](https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor) | Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源 | 2.0.4 (204) |
