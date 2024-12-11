@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1733801849000,
+    "timestamp": 1733888274000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733801567000,
+        "lastUpdated": 1733887891000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -4317,7 +4317,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159435000,
+        "lastUpdated": 1733887903000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -4332,6 +4332,53 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c": {
+          "added": 1733887903000,
+          "file": {
+            "name": "/com.bug.hookvip_24121018-4.6.8-release.apk",
+            "sha256": "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c",
+            "size": 5354787
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.6.8-release",
+            "versionCode": 24121018,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de": {
           "added": 1732159435000,
           "file": {
@@ -4391,51 +4438,6 @@
             ],
             "versionName": "4.5.6-release_1",
             "versionCode": 24102919,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "7d36419de9b058cf04c898ed44411fa9436217d93965256d93e4c6040be56ee9": {
-          "added": 1732159434000,
-          "file": {
-            "name": "/com.bug.hookvip_24101421-4.5.1-release.apk",
-            "sha256": "7d36419de9b058cf04c898ed44411fa9436217d93965256d93e4c6040be56ee9",
-            "size": 5198341
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.5.1-release",
-            "versionCode": 24101421,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
