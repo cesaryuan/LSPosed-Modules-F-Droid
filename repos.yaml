@@ -3649,72 +3649,83 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.6.2-release.apk
+          filename: app_4.6.8-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2024-11-18T12:22:52Z"
+          last_updated: "2024-12-10T10:27:03Z"
           releasedescription: |-
             <p>新增：</p>
             <ul>
-            <li>Anti-recall v5.9.0</li>
-            <li>Slidebox 3.11</li>
-            <li>特种作业宝典 3.8.2</li>
-            <li>芒果游戏翻译</li>
-            <li>乱七八糟工具箱</li>
-            <li>摩途</li>
-            <li>P2P下载器-Plus</li>
-            <li>知拾笔记 4.6.5</li>
-            <li>计时器倒计时</li>
+            <li>录风者 v1.5.54.241105</li>
             </ul>
             <p>优化：</p>
             <ul>
-            <li>更新依赖项</li>
-            <li>Y2002电音 解除下载限制</li>
-            <li>阿里云盘 Hook</li>
-            <li>调整部分UI</li>
+            <li>变更用户协议</li>
+            <li>优化模块激活时的逻辑</li>
+            </ul>
+            <p>修复：</p>
+            <ul>
+            <li>部分已知问题</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>123云盘 2.4.8</li>
-            <li>AfuseKt 1.4.0-10191</li>
-            <li>B612咔叽 13.4.10</li>
-            <li>Battery Guru 2.3.12</li>
-            <li>Clone App 3.1.21</li>
-            <li>Fing 12.8.5</li>
-            <li>Flyy 2.4.2.4</li>
-            <li>inBox笔记 1.7.85</li>
-            <li>MOJi辞書 8.7.0</li>
-            <li>Rain Viewer 5.9.1</li>
-            <li>XRecorder 2.3.8.5</li>
-            <li>多邻国 6.7.3</li>
-            <li>建工计算器 4.00.32</li>
-            <li>今日水印相机 v3.0.181.2</li>
-            <li>乐秀 10.2.5.0</li>
-            <li>美图秀秀 10.23.0</li>
-            <li>欧路词典 9.8.3</li>
-            <li>轻羽写作 1.84.0</li>
-            <li>扫描全能王 6.75.0.2411050000</li>
-            <li>搜图神器 5.1.7</li>
-            <li>微分身多开 13.1.6.0</li>
-            <li>我的听书 2.5.5</li>
-            <li>无界趣连 1.3.28.1</li>
-            <li>向日葵远程控制 15.3.4.68794</li>
-            <li>一刻日记 2.0.4</li>
-            <li>元气壁纸 1.8.3</li>
-            <li>佐糖 1.8.1</li>
-            <li>七猫免费小说 7.60.20</li>
-            <li>醒图 11.1.0</li>
-            <li>浩克下载 1.8.1</li>
-            <li>种子磁力下载器 1.5.2</li>
-            <li>PassStore 1.1.7</li>
-            <li>囧次元 1.5.7.5</li>
-            <li>冰箱 IceBox 3.25.4 C</li>
-            <li>Niagara Launcher 1.12.12</li>
-            <li>Lightroom 10.0.2</li>
-            <li>小星记账 3.4.5</li>
-            <li>QQ音乐 13.11.0.8</li>
-            <li>贝利自动点击器 2.8.8</li>
+            <li>奇妙应用 1.2.7</li>
+            <li>50度灰 6.1.0</li>
+            <li>Adobe Scan 24.12.04-google-dynamic</li>
+            <li>B612咔叽 13.5.5</li>
+            <li>inBox笔记 1.7.88</li>
+            <li>MOJi辞書 8.7.1</li>
+            <li>Niagara Launcher 1.12.14</li>
+            <li>Rain Viewer 6.0.2</li>
+            <li>ShortX 1.0.0-rc2-275-82a5c40-main-prc</li>
+            <li>Slidebox 3.12</li>
+            <li>XPlayer - Video Player 2.4.3.3</li>
+            <li>薄荷记账 10.8.1</li>
+            <li>贝利自动点击器 2.8.9</li>
+            <li>倒数日 1.24.0</li>
+            <li>多邻国 6.9.5</li>
+            <li>浩克下载 1.8.3</li>
+            <li>种子磁力下载器 1.5.4</li>
+            <li>今日水印相机 v3.0.190.6</li>
+            <li>猫头鹰文件 13.2.6</li>
+            <li>美图秀秀 10.25.5</li>
+            <li>幕布 2.50.1</li>
+            <li>欧路词典 9.8.9</li>
+            <li>七猫免费小说 7.62</li>
+            <li>轻羽写作 1.85.5</li>
+            <li>扫描全能王 6.76.0.24111600000</li>
+            <li>时间日志 1.7.2</li>
+            <li>瞬译 v6.9.30905</li>
+            <li>网梭 3.5.0</li>
+            <li>微分身多开 13.1.8.0</li>
+            <li>我要做计划 5.0.2</li>
+            <li>醒图 11.3.0</li>
+            <li>知拾笔记 4.6.7</li>
+            <li>Fake Location 1.3.5 BETA 1597</li>
+            <li>小星记账 3.4.6</li>
+            <li>Nekogram 11.5.3</li>
+            <li>新大师兄影视 3.3.8</li>
+            <li>FilterBox（通知滤盒-Play） 3.3.8</li>
+            <li>QQ音乐 13.12.0.8</li>
+            <li>黃品匯 4.7.0</li>
+            <li>Nullgram v11.4.2-e59b839</li>
+            <li>Telegraph T11.4.2 - P11.15.0</li>
+            <li>建工计算器 4.00.33</li>
+            <li>懒人驾考 2.12.10</li>
+            <li>乐秀 10.2.5.1</li>
+            <li>排班助手 3.9.4</li>
+            <li>微信 8.0.54</li>
+            <li>毒舌加速器 1.0.7</li>
+            <li>123云盘 2.4.9</li>
+            <li>词根单词 2.2.10</li>
             </ul>
+            <p>其他：</p>
+            <ul>
+            <li>去除 AfuseKt</li>
+            </ul>
+            <hr>
+            <p>天天开心！</p>
+            <p>by：只有风知道~</p>
     author_name: bug-bit
 com.ceco.oreo.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox

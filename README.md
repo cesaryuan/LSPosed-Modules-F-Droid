@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -137,7 +137,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/com.hchen.foregroundpin"><img src="fdroid/repo/icons/com.hchen.foregroundpin.png" alt="ForegroundPin icon" width="36px" height="36px"></a> | [**ForegroundPin**](https://github.com/Xposed-Modules-Repo/com.hchen.foregroundpin) | 贴边小窗强制前台。<br>Welt freeform force the front desk. | 3.1 (2024052605) |
 | <a href="https://github.com/Xposed-Modules-Repo/nep.timeline.freezer"><img src="fdroid/repo/icons/nep.timeline.freezer.png" alt="Freezer Cream Edition icon" width="36px" height="36px"></a> | [**Freezer Cream Edition**](https://github.com/Xposed-Modules-Repo/nep.timeline.freezer) | Third party Android Tombstone, rewrite from NoActive | LTS (26) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.hujiayucc.hook"><img src="fdroid/repo/icons/com.hujiayucc.hook.png" alt="Fuck AD icon" width="36px" height="36px"></a> | [**Fuck AD**](https://github.com/Xposed-Modules-Repo/com.hujiayucc.hook) | 去他妈的广告<br>Fuck Ads | 1.3.8-release (6800) |
-| <a href="https://github.com/Xposed-Modules-Repo/com.bug.hookvip"><img src="fdroid/repo/icons/com.bug.hookvip.png" alt="Fuck for VIP icon" width="36px" height="36px"></a> | [**Fuck for VIP**](https://github.com/Xposed-Modules-Repo/com.bug.hookvip) | 解锁部分软件的会员 | 4.6.2-release (24111819) |
+| <a href="https://github.com/Xposed-Modules-Repo/com.bug.hookvip"><img src="fdroid/repo/icons/com.bug.hookvip.png" alt="Fuck for VIP icon" width="36px" height="36px"></a> | [**Fuck for VIP**](https://github.com/Xposed-Modules-Repo/com.bug.hookvip) | 解锁部分软件的会员 | 4.6.8-release (24121018) |
 | <a href="https://github.com/Xposed-Modules-Repo/Fuck.RollingSky.Pay"><img src="fdroid/repo/icons/Fuck.RollingSky.Pay.131.png" alt="Fuck RollingSky Pay icon" width="36px" height="36px"></a> | [**Fuck RollingSky Pay**](https://github.com/Xposed-Modules-Repo/Fuck.RollingSky.Pay) | No summary available | 1.3.1 (131) |
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.fuckcainiao"><img src="assets/ic_launcher.png" alt="FuckCainiao icon" width="36px" height="36px"></a> | [**FuckCainiao**](https://github.com/Xposed-Modules-Repo/io.github.duzhaokun123.fuckcainiao) | 菜鸟界面优化和广告移除 | 0.1.1 (7) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.fuckcoolapk"><img src="assets/ic_launcher.png" alt="FuckCoolapk icon" width="36px" height="36px"></a> | [**FuckCoolapk**](https://github.com/Xposed-Modules-Repo/com.fuckcoolapk) | Best present for 316 and 423. | 0.5.8 (20210506) |
