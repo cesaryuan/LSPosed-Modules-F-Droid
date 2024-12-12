@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1733888260000,
+    "timestamp": 1733974579000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -17,15 +17,15 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "2.1.8",
-      "suggestedVersionCode": "20241113",
+      "suggestedVersionName": "2.2.2",
+      "suggestedVersionCode": "20241210",
       "description": "<h1>AdClose</h1>\n<p><strong>AdClose</strong> \u662f\u4e00\u4e2a\u57fa\u4e8eXposed\u6846\u67b6\u7684Android\u5e7f\u544a\u5c4f\u853d\u5de5\u5177\uff0c\u81f4\u529b\u4e8e\u63d0\u4f9b\u4e00\u4e2a\u65e0\u5e7f\u544a\u7684\u5e94\u7528\u6d4f\u89c8\u4f53\u9a8c\uff0c\u65e8\u5728\u4f18\u5316\u7528\u6237\u4f53\u9a8c\u5e76\u51cf\u5c11\u5e72\u6270\u3002\u8bf7\u5728LSPosed\u6846\u67b6\u73af\u5883\u4e2d\u4f7f\u7528\u3002</p>\n<p>AdClose\u7684\u6838\u5fc3\u529f\u80fd\u662f\u963b\u6b62\u5e94\u7528\u5185\u7684\u5e7f\u544aSDK\u521d\u59cb\u5316\u52a0\u8f7d\uff0c\u5e76\u62e6\u622a\u5e94\u7528\u5e7f\u544a\u8bf7\u6c42\u4ee5\u5c4f\u853d\u5e7f\u544a\u3002</p>\n<h2>\u4e3b\u8981\u7279\u6027</h2>\n<p>\u529f\u80fd\u652f\u6301(\u987a\u5e8f)\uff1a</p>\n<ul>\n<li><strong>\u7cbe\u51c6\u5904\u7406</strong>\uff1a\u963b\u6b62\u5e94\u7528\u5185\u5e7f\u544aSDK\u521d\u59cb\u5316\u3002</li>\n<li><strong>\u5e7f\u544a\u8bf7\u6c42\u62e6\u622a</strong>\uff1a\u62e6\u622a\u5c4f\u853d\u5e94\u7528\u7684\u7f51\u7edc\u5e7f\u544a\u8bf7\u6c42\u3002</li>\n<li><strong>\u622a\u56fe\u5f55\u5c4f\u9650\u5236\u79fb\u9664</strong>\uff1a\u5141\u8bb8\u5728\u5e94\u7528\u4e2d\u81ea\u7531\u622a\u56fe\u548c\u5f55\u5c4f\u3002</li>\n<li><strong>VPN\u4e0e\u4ee3\u7406\u68c0\u6d4b\u79fb\u9664</strong>\uff1a\u53bb\u9664\u5e94\u7528\u5185\u7684VPN\u548c\u7cfb\u7edf\u4ee3\u7406\u68c0\u6d4b\u3002</li>\n<li><strong>\u4f20\u611f\u5668\u76d1\u542c\u79fb\u9664</strong>\uff1a\u7528\u4e8e\u7981\u7528\u6447\u4e00\u6447\u7b49\u57fa\u4e8e\u4f20\u611f\u5668\u7684\u5e7f\u544a\u8df3\u8f6c\u3002</li>\n<li><strong>Root\u68c0\u6d4b\u89c4\u907f</strong>\uff1a\u53bb\u9664\u5e94\u7528\u5185\u7684\u4e00\u822c\u6027Root\uff0cMagisk\u548cXposed\u6846\u67b6\u68c0\u6d4b\u3002</li>\n</ul>\n<h2>\u652f\u6301\u7684\u5e94\u7528\u8303\u56f4</h2>\n<p>AdClose\u652f\u6301\u4f17\u591a\u6d41\u884c\u7684Android\u5e94\u7528\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e\uff1a</p>\n<ul>\n<li>\u89c6\u9891\u64ad\u653e\u5e94\u7528</li>\n<li>\u9605\u8bfb\u548c\u65b0\u95fb\u5e94\u7528</li>\n<li>\u5de5\u5177\u548c\u4fbf\u6377\u5e94\u7528</li>\n<li>\u5546\u52a1\u529e\u516c\u5e94\u7528</li>\n<li>\u793e\u4ea4\u548c\u901a\u8baf\u5e94\u7528</li>\n</ul>\n<h2>\u5e7f\u544aSDK\u5904\u7406</h2>\n<p>AdClose\u80fd\u591f\u5904\u7406\u5e94\u7528\u5185\u5305\u542b\u4ee5\u4e0b\u5728\u5185\u7684\u591a\u79cdSDK\u7c7b\u578b\uff1a</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>\u4f7f\u7528\u6307\u5357</h2>\n<p>\u5728\u5b89\u88c5AdClose\u4e4b\u524d\uff0c\u8bf7\u786e\u4fdd\u60a8\u7684\u8bbe\u5907\u5df2\u7ecf\u5b89\u88c5LSPosed\u6846\u67b6\u3002</p>\n<ol>\n<li>\u4e0b\u8f7d\u5e76\u5b89\u88c5AdClose\u6a21\u5757\u3002</li>\n<li>\u5728LSPosed\u6a21\u5757\u7ba1\u7406\u5668\u4e2d\u6fc0\u6d3bAdClose\u6a21\u5757\u3002</li>\n<li>\u5728\u6a21\u5757\u4f5c\u7528\u57df\u4e2d\u9009\u62e9\u60a8\u5e0c\u671b\u53bb\u9664\u5e7f\u544a\u7684\u5e94\u7528\u3002</li>\n<li>\u542f\u52a8AdClose\u6a21\u5757\uff0c\u9009\u62e9\u5e76\u70b9\u51fb\u5e94\u7528\u5217\u8868\uff0c\u542f\u7528\u76f8\u5e94\u7684Hook\u529f\u80fd\u3002</li>\n</ol>\n<h2>\u5982\u4f55\u8d21\u732e</h2>\n<p>\u5982\u679c\u60a8\u5bf9AdClose\u6709\u6539\u8fdb\u5efa\u8bae\uff0c\u6216\u53d1\u73b0Bug\uff0c\u6b22\u8fce\u901a\u8fc7Issues\u53cd\u9988\u3002</p>\n<h2>\u652f\u6301\u6211\u4eec</h2>\n<p>\u5982\u679cAdClose\u5bf9\u60a8\u6709\u5e2e\u52a9\uff0c\u8bf7\u7ed9\u4e88\u6211\u4eecStar\u652f\u6301\uff01\u8fd9\u662f\u6211\u4eec\u6301\u7eed\u6539\u8fdb\u7684\u6700\u5927\u52a8\u529b\u3002</p>\n<h2>\u5173\u6ce8\u6211\u4eec</h2>\n<p>\u83b7\u53d6\u66f4\u591a\u66f4\u65b0\u548c\u5e2e\u52a9\uff0c\u8bf7\u5173\u6ce8\u6211\u4eec\u7684Telegram\u9891\u9053\uff1a</p>\n<p>\ud83c\udf1f <strong>\u9891\u9053\u5165\u53e3</strong>: @AdClose</p>\n",
       "license": "Unknown",
       "name": "AdClose",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
       "added": 1732159442000,
       "packageName": "com.close.hook.ads",
-      "lastUpdated": 1732159600000
+      "lastUpdated": 1733974360000
     },
     {
       "authorName": "bug-bit",
@@ -173,6 +173,66 @@
       }
     ],
     "com.close.hook.ads": [
+      {
+        "added": 1732159442000,
+        "apkName": "com.close.hook.ads_20241108-2.1.5.apk",
+        "hash": "6e3be1be363c6ed9e731b376e59496ce70f7d60164d7d1af352167d07ef66e15",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.close.hook.ads",
+        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
+        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
+        "size": 3374698,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 20241108,
+        "versionName": "2.1.5"
+      },
       {
         "added": 1732159600000,
         "apkName": "com.close.hook.ads_20241101-2.1.1.apk",
