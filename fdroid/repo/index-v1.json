@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1733888274000,
+    "timestamp": 1733974592000,
     "version": 20002
   },
   "requests": {
@@ -122,25 +122,25 @@
       "summary": "叼毛广告，休想通过摇摇启动APP\nTools that block activity startup"
     },
     {
-      "added": 1731494055000,
+      "added": 1733896206000,
       "authorName": "zjyzip",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eAdClose\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eAdClose\u003c/strong\u003e 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。\u003c/p\u003e\n\u003cp\u003eAdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。\u003c/p\u003e\n\u003ch2\u003e主要特性\u003c/h2\u003e\n\u003cp\u003e功能支持(顺序)：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e精准处理\u003c/strong\u003e：阻止应用内广告SDK初始化。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e广告请求拦截\u003c/strong\u003e：拦截屏蔽应用的网络广告请求。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e截图录屏限制移除\u003c/strong\u003e：允许在应用中自由截图和录屏。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eVPN与代理检测移除\u003c/strong\u003e：去除应用内的VPN和系统代理检测。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e传感器监听移除\u003c/strong\u003e：用于禁用摇一摇等基于传感器的广告跳转。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRoot检测规避\u003c/strong\u003e：去除应用内的一般性Root，Magisk和Xposed框架检测。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的应用范围\u003c/h2\u003e\n\u003cp\u003eAdClose支持众多流行的Android应用，包括但不限于：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e视频播放应用\u003c/li\u003e\n\u003cli\u003e阅读和新闻应用\u003c/li\u003e\n\u003cli\u003e工具和便捷应用\u003c/li\u003e\n\u003cli\u003e商务办公应用\u003c/li\u003e\n\u003cli\u003e社交和通讯应用\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e广告SDK处理\u003c/h2\u003e\n\u003cp\u003eAdClose能够处理应用内包含以下在内的多种SDK类型：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eADSuyiSdk Ads\u003c/li\u003e\n\u003cli\u003eAdScope\u003c/li\u003e\n\u003cli\u003eAli BaiChuan Ads\u003c/li\u003e\n\u003cli\u003eApplovin Sdk\u003c/li\u003e\n\u003cli\u003eAppic Ads\u003c/li\u003e\n\u003cli\u003eBaidu Ads\u003c/li\u003e\n\u003cli\u003eBJXingu Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) GroMore\u003c/li\u003e\n\u003cli\u003eFaceBook Ads\u003c/li\u003e\n\u003cli\u003eGoogle Ads\u003c/li\u003e\n\u003cli\u003eGoogle FireBase Crashlytics Sdk\u003c/li\u003e\n\u003cli\u003eHuawei Ads\u003c/li\u003e\n\u003cli\u003eInmobi Ads\u003c/li\u003e\n\u003cli\u003eKwai Ads\u003c/li\u003e\n\u003cli\u003eMeiShu Ads\u003c/li\u003e\n\u003cli\u003eMintegral Ads\u003c/li\u003e\n\u003cli\u003eMbridge Ads\u003c/li\u003e\n\u003cli\u003ePinduoduo Ads\u003c/li\u003e\n\u003cli\u003eQumeng Ads\u003c/li\u003e\n\u003cli\u003eSigmob Ads\u003c/li\u003e\n\u003cli\u003eTanx Ads\u003c/li\u003e\n\u003cli\u003eTencent Ads\u003c/li\u003e\n\u003cli\u003eTencent SDK\u003c/li\u003e\n\u003cli\u003eTopOn SDK (anythink)\u003c/li\u003e\n\u003cli\u003eTradPlus Ads\u003c/li\u003e\n\u003cli\u003eUmeng SDK\u003c/li\u003e\n\u003cli\u003eUnity3d Ads\u003c/li\u003e\n\u003cli\u003eVungle Sdk\u003c/li\u003e\n\u003cli\u003eXiaoChuang Ads (ZuiYou)\u003c/li\u003e\n\u003cli\u003eXinwuPaijin Ads\u003c/li\u003e\n\u003cli\u003eXiaomi Ads\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用指南\u003c/h2\u003e\n\u003cp\u003e在安装AdClose之前，请确保您的设备已经安装LSPosed框架。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e下载并安装AdClose模块。\u003c/li\u003e\n\u003cli\u003e在LSPosed模块管理器中激活AdClose模块。\u003c/li\u003e\n\u003cli\u003e在模块作用域中选择您希望去除广告的应用。\u003c/li\u003e\n\u003cli\u003e启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e如何贡献\u003c/h2\u003e\n\u003cp\u003e如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。\u003c/p\u003e\n\u003ch2\u003e支持我们\u003c/h2\u003e\n\u003cp\u003e如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。\u003c/p\u003e\n\u003ch2\u003e关注我们\u003c/h2\u003e\n\u003cp\u003e获取更多更新和帮助，请关注我们的Telegram频道：\u003c/p\u003e\n\u003cp\u003e🌟 \u003cstrong\u003e频道入口\u003c/strong\u003e: @AdClose\u003c/p\u003e\n",
       "icon": "com.close.hook.ads.png",
-      "lastUpdated": 1731494055000,
+      "lastUpdated": 1733896206000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 代码调整\n- 完成页面翻译\n- 修复优化功能六\n- 修复模块未激活问题\n- 优化广播发送(功能二)\n- 为DNS请求类型增加Log(功能二)"
+          "whatsNew": "- 完善 Hook 操作\n- 优化页面显示与加载\n- 修复功能三空指针问题\n- 功能二支持记录WebView请求\n(已通过测试Via浏览器，Stay浏览器等，但除了Chrome)"
         }
       },
       "name": "AdClose",
       "packageName": "com.close.hook.ads",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
-      "suggestedVersionCode": "20241113",
-      "suggestedVersionName": "2.1.8"
+      "suggestedVersionCode": "20241210",
+      "suggestedVersionName": "2.2.2"
     },
     {
       "added": 1703150040000,
@@ -3814,25 +3814,25 @@
       "summary": "为小米平板的输入系统提供一些增强功能\nProvide some enhancements to Mi Pad's input system"
     },
     {
-      "added": 1730528496000,
+      "added": 1733901219000,
       "authorName": "cledwynl",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eMake Bilibili Great Again!\u003c/h1\u003e\n\u003cp\u003e欢迎来主仓库提问题和催更～ \u003ca href=\"https://github.com/cledwynl/mbga/issues\"\u003ehttps://github.com/cledwynl/mbga/issues\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cp\u003e目前只支持国际版(com.bilibili.app.in)，兼容性见文末\u003c/p\u003e\n\u003ch3\u003e设置\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e打开B站-\u0026gt;我的-\u0026gt;设置-\u0026gt;标题上有MBGA字样，点击打开设置界面\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e底部Tab\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e允许干掉除了“我的”以外的所有Tab\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e首页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉竖屏\u003c/li\u003e\n\u003cli\u003e禁止切后台一段时间回来后自动刷新视频列表\u003c/li\u003e\n\u003cli\u003e防止刷新推荐视频时之前的列表被自动清除\u003c/li\u003e\n\u003cli\u003e支持过滤非UGC，只展示用户上传的视频\u003c/li\u003e\n\u003cli\u003e支持过滤过短的视频\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e搜索页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉热搜\u003c/li\u003e\n\u003cli\u003e干掉搜索历史\u003c/li\u003e\n\u003cli\u003e干掉搜索发现\u003c/li\u003e\n\u003cli\u003e禁止在搜索框内推荐搜索词\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频播放器\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉播放器内展示的“云视听小电视”等activityMeta（不确定未来这个字段里还会塞些什么乱七八糟的东西，目前要么没有要么就是这个云视听，直接全部干掉了）\u003c/li\u003e\n\u003cli\u003e干掉播放器内展示的关注弹窗、投票弹窗等（包括UP主弹幕）\u003c/li\u003e\n\u003cli\u003e禁止播放器自动开启章节进度条\u003c/li\u003e\n\u003cli\u003e允许在小窗、分屏模式下全屏播放（体验并不是非常好）\u003c/li\u003e\n\u003cli\u003e禁止展示竖屏全屏按钮\u003c/li\u003e\n\u003cli\u003e禁止点击弹幕\u003c/li\u003e\n\u003cli\u003e禁止展示反馈弹窗\u003c/li\u003e\n\u003cli\u003e全屏时禁止展示在线人数\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频详情页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e视频标题左边的“热门”等标签\u003c/li\u003e\n\u003cli\u003e更纯粹的链接分享\n原来分享链接是\u003ccode\u003ehttps://b23.tv/xxxxxxx\u003c/code\u003e这样的短链，展开后有乱七八糟的参数，让它变成\u003ccode\u003ehttps://b23.tv/av10492\u003c/code\u003e这样干净的av号链接\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频评论区\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e完全隐藏评论区\u003c/li\u003e\n\u003cli\u003e点击评论区文字不会自动弹出回复区\u003c/li\u003e\n\u003cli\u003e干掉评论区投票\u003c/li\u003e\n\u003cli\u003e干掉评论区的关注按钮（笔记类型的评论右上角）\u003c/li\u003e\n\u003cli\u003e干掉评论内的关键词高亮搜索\u003c/li\u003e\n\u003cli\u003e没有评论时禁止一键发送评论\u003c/li\u003e\n\u003cli\u003e禁止展示反馈问卷\u003c/li\u003e\n\u003cli\u003e禁止展示评论区顶部推广内容\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e我的\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e在“更多服务”部分添加搜索入口，配合隐藏“首页”tab食用\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e感谢\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目参考、使用了下列开源项目的部分或全部内容\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/zerorooot/FuckBilibiliVote\"\u003eFuckBilibiliVote\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/WankkoRee/Portrait2Landscape\"\u003e不要竖屏\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e兼容性\u003c/h2\u003e\n\u003cp\u003e下面仅列出测试过的版本，相近版本大概率能兼容\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMBGA v1.0.0 ~ v1.0.6\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.18.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eMBGA v1.1.0 ~\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.18.2 ~ 3.19.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eMBGA v1.2.0 ~\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.18.2 ~ 3.19.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eMBGA v1.3.0 ~\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.19.0 ~ 3.19.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "description": "\u003ch1\u003eMake Bilibili Great Again!\u003c/h1\u003e\n\u003cp\u003e欢迎来主仓库提问题和催更～ \u003ca href=\"https://github.com/cledwynl/mbga/issues\"\u003ehttps://github.com/cledwynl/mbga/issues\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cp\u003e目前只支持国际版(com.bilibili.app.in)，兼容性见文末\u003c/p\u003e\n\u003ch3\u003e设置\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e打开B站-\u0026gt;我的-\u0026gt;设置-\u0026gt;标题上有MBGA字样，点击打开设置界面\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e底部Tab\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e允许干掉除了“我的”以外的所有Tab\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e首页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉竖屏\u003c/li\u003e\n\u003cli\u003e禁止切后台一段时间回来后自动刷新视频列表\u003c/li\u003e\n\u003cli\u003e防止刷新推荐视频时之前的列表被自动清除\u003c/li\u003e\n\u003cli\u003e支持过滤非UGC，只展示用户上传的视频\u003c/li\u003e\n\u003cli\u003e支持过滤过短的视频\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e搜索页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉热搜\u003c/li\u003e\n\u003cli\u003e干掉搜索历史\u003c/li\u003e\n\u003cli\u003e干掉搜索发现\u003c/li\u003e\n\u003cli\u003e禁止在搜索框内推荐搜索词\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频播放器\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e干掉播放器内展示的“云视听小电视”等activityMeta（不确定未来这个字段里还会塞些什么乱七八糟的东西，目前要么没有要么就是这个云视听，直接全部干掉了）\u003c/li\u003e\n\u003cli\u003e干掉播放器内展示的关注弹窗、投票弹窗等（包括UP主弹幕）\u003c/li\u003e\n\u003cli\u003e禁止播放器自动开启章节进度条\u003c/li\u003e\n\u003cli\u003e允许在小窗、分屏模式下全屏播放（体验并不是非常好）\u003c/li\u003e\n\u003cli\u003e禁止展示竖屏全屏按钮\u003c/li\u003e\n\u003cli\u003e禁止点击弹幕\u003c/li\u003e\n\u003cli\u003e禁止展示反馈弹窗\u003c/li\u003e\n\u003cli\u003e全屏时禁止展示在线人数\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频详情页\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e视频标题左边的“热门”等标签\u003c/li\u003e\n\u003cli\u003e更纯粹的链接分享\n原来分享链接是\u003ccode\u003ehttps://b23.tv/xxxxxxx\u003c/code\u003e这样的短链，展开后有乱七八糟的参数，让它变成\u003ccode\u003ehttps://b23.tv/av10492\u003c/code\u003e这样干净的av号链接\u003c/li\u003e\n\u003cli\u003e干掉下方相关视频\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e视频评论区\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e完全隐藏评论区\u003c/li\u003e\n\u003cli\u003e点击评论区文字不会自动弹出回复区\u003c/li\u003e\n\u003cli\u003e干掉评论区投票\u003c/li\u003e\n\u003cli\u003e干掉评论区的关注按钮（笔记类型的评论右上角）\u003c/li\u003e\n\u003cli\u003e干掉评论内的关键词高亮搜索\u003c/li\u003e\n\u003cli\u003e没有评论时禁止一键发送评论\u003c/li\u003e\n\u003cli\u003e禁止展示反馈问卷\u003c/li\u003e\n\u003cli\u003e禁止展示评论区顶部推广内容\u003c/li\u003e\n\u003cli\u003e支持根据关键词过滤评论，\u003ca href=\"https://github.com/cledwynl/mbga/issues/79\"\u003e这里\u003c/a\u003e提供了一些常见的灌水内容\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e我的\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e在“更多服务”部分添加搜索入口，配合隐藏“首页”tab食用\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e感谢\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目参考、使用了下列开源项目的部分或全部内容\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/zerorooot/FuckBilibiliVote\"\u003eFuckBilibiliVote\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/WankkoRee/Portrait2Landscape\"\u003e不要竖屏\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e兼容性\u003c/h2\u003e\n\u003cp\u003e下面仅列出测试过的版本，相近版本大概率能兼容\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eMBGA v1.0.0 ~ v1.0.6\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.18.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eMBGA v1.1.0 ~\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.18.2 ~ 3.19.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eMBGA v1.3.0 ~\n\u003cul\u003e\n\u003cli\u003e兼容国际版 未知 ~ 3.19.0 ~ 3.19.2\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "top.trangle.mbga.webp",
-      "lastUpdated": 1730528496000,
+      "lastUpdated": 1733901219000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**新功能**\n\n* feat: 完全隐藏评论区 by @cledwynl in https://github.com/cledwynl/mbga/pull/65 https://github.com/cledwynl/mbga/pull/60\n* doc: 禁止评论区顶部推广内容 by @cledwynl in https://github.com/cledwynl/mbga/pull/66 https://github.com/cledwynl/mbga/pull/52\n\n\n**Full Changelog**: https://github.com/cledwynl/mbga/compare/v1.2.1...v1.3.0"
+          "whatsNew": "**新功能**\n\n* feat: 支持隐藏相关视频 by @cledwynl in https://github.com/cledwynl/mbga/pull/78\n* feat: 支持根据关键词过滤视频评论 by @cledwynl in https://github.com/cledwynl/mbga/pull/80\n\n**缺陷修复**\n\n* fix: 修复竖屏视频分享链接错误 by @cledwynl in https://github.com/cledwynl/mbga/pull/77\n\n**Full Changelog**: https://github.com/cledwynl/mbga/compare/v1.3.0...v1.4.0"
         }
       },
       "name": "MBGA",
       "packageName": "top.trangle.mbga",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.trangle.mbga",
-      "suggestedVersionCode": "103",
-      "suggestedVersionName": "1.3.0",
+      "suggestedVersionCode": "118",
+      "suggestedVersionName": "1.4.0",
       "summary": "Make Bilibili Great Again!\n干掉B站那些碍眼的东西"
     },
     {
@@ -11393,7 +11393,25 @@
     ],
     "com.close.hook.ads": [
       {
-        "added": 1731494055000,
+        "added": 1733896206000,
+        "apkName": "com.close.hook.ads_20241210-2.2.2.apk",
+        "hash": "6822141da0a93238f1a1eb2a0cf9ca28b24258f865ba0d4fe098beb2a4669bd2",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.close.hook.ads",
+        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
+        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
+        "size": 3382826,
+        "targetSdkVersion": 34,
+        "versionCode": 20241210,
+        "versionName": "2.2.2"
+      },
+      {
+        "added": 1732159443000,
         "apkName": "com.close.hook.ads_20241113-2.1.8.apk",
         "hash": "e066a6e51cacd0a42cb8c622c0c868af4ef6801c7153e4aa642703baae46487d",
         "hashType": "sha256",
@@ -11427,24 +11445,6 @@
         "targetSdkVersion": 34,
         "versionCode": 20241109,
         "versionName": "2.1.6"
-      },
-      {
-        "added": 1732159442000,
-        "apkName": "com.close.hook.ads_20241108-2.1.5.apk",
-        "hash": "6e3be1be363c6ed9e731b376e59496ce70f7d60164d7d1af352167d07ef66e15",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.close.hook.ads",
-        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
-        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
-        "size": 3374698,
-        "targetSdkVersion": 34,
-        "versionCode": 20241108,
-        "versionName": "2.1.5"
       }
     ],
     "com.coderstory.flyme": [
@@ -18341,7 +18341,22 @@
     ],
     "top.trangle.mbga": [
       {
-        "added": 1730528496000,
+        "added": 1733901219000,
+        "apkName": "top.trangle.mbga_118-1.4.0.apk",
+        "hash": "c16ae70a26ee026c22c0bd5a91b54d056a4af8ea7c87e7b1c60d854c244478c8",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "top.trangle.mbga",
+        "sig": "981ed8d431242f6e2b760772e97edf89",
+        "signer": "005f0dbea5ec322285daf2de9d714f0d54f2464fc976189ff5138a49abc50c5f",
+        "size": 2045684,
+        "targetSdkVersion": 34,
+        "versionCode": 118,
+        "versionName": "1.4.0"
+      },
+      {
+        "added": 1732159589000,
         "apkName": "top.trangle.mbga_103-1.3.0.apk",
         "hash": "e0041b810649447457fe43c92a1963e240ad60b9f970a17b4c600d1d5009e9f2",
         "hashType": "sha256",

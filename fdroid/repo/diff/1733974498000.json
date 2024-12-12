@@ -1,0 +1,26 @@
+{
+  "repo": {
+    "timestamp": 1733974592000
+  },
+  "packages": {
+    "com.close.hook.ads": {
+      "versions": {
+        "6822141da0a93238f1a1eb2a0cf9ca28b24258f865ba0d4fe098beb2a4669bd2": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "top.trangle.mbga": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Make Bilibili Great Again!</h1>\n<p>欢迎来主仓库提问题和催更～ <a href=\"https://github.com/cledwynl/mbga/issues\">https://github.com/cledwynl/mbga/issues</a></p>\n<h2>功能</h2>\n<p>目前只支持国际版(com.bilibili.app.in)，兼容性见文末</p>\n<h3>设置</h3>\n<ul>\n<li>打开B站-&gt;我的-&gt;设置-&gt;标题上有MBGA字样，点击打开设置界面</li>\n</ul>\n<h3>底部Tab</h3>\n<ul>\n<li>允许干掉除了“我的”以外的所有Tab</li>\n</ul>\n<h3>首页</h3>\n<ul>\n<li>干掉竖屏</li>\n<li>禁止切后台一段时间回来后自动刷新视频列表</li>\n<li>防止刷新推荐视频时之前的列表被自动清除</li>\n<li>支持过滤非UGC，只展示用户上传的视频</li>\n<li>支持过滤过短的视频</li>\n</ul>\n<h3>搜索页</h3>\n<ul>\n<li>干掉热搜</li>\n<li>干掉搜索历史</li>\n<li>干掉搜索发现</li>\n<li>禁止在搜索框内推荐搜索词</li>\n</ul>\n<h3>视频播放器</h3>\n<ul>\n<li>干掉播放器内展示的“云视听小电视”等activityMeta（不确定未来这个字段里还会塞些什么乱七八糟的东西，目前要么没有要么就是这个云视听，直接全部干掉了）</li>\n<li>干掉播放器内展示的关注弹窗、投票弹窗等（包括UP主弹幕）</li>\n<li>禁止播放器自动开启章节进度条</li>\n<li>允许在小窗、分屏模式下全屏播放（体验并不是非常好）</li>\n<li>禁止展示竖屏全屏按钮</li>\n<li>禁止点击弹幕</li>\n<li>禁止展示反馈弹窗</li>\n<li>全屏时禁止展示在线人数</li>\n</ul>\n<h3>视频详情页</h3>\n<ul>\n<li>视频标题左边的“热门”等标签</li>\n<li>更纯粹的链接分享\n原来分享链接是<code>https://b23.tv/xxxxxxx</code>这样的短链，展开后有乱七八糟的参数，让它变成<code>https://b23.tv/av10492</code>这样干净的av号链接</li>\n<li>干掉下方相关视频</li>\n</ul>\n<h3>视频评论区</h3>\n<ul>\n<li>完全隐藏评论区</li>\n<li>点击评论区文字不会自动弹出回复区</li>\n<li>干掉评论区投票</li>\n<li>干掉评论区的关注按钮（笔记类型的评论右上角）</li>\n<li>干掉评论内的关键词高亮搜索</li>\n<li>没有评论时禁止一键发送评论</li>\n<li>禁止展示反馈问卷</li>\n<li>禁止展示评论区顶部推广内容</li>\n<li>支持根据关键词过滤评论，<a href=\"https://github.com/cledwynl/mbga/issues/79\">这里</a>提供了一些常见的灌水内容</li>\n</ul>\n<h3>我的</h3>\n<ul>\n<li>在“更多服务”部分添加搜索入口，配合隐藏“首页”tab食用</li>\n</ul>\n<h2>感谢</h2>\n<blockquote>\n<p>本项目参考、使用了下列开源项目的部分或全部内容</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/HighCapable/YukiHookAPI\">Yuki Hook API</a></li>\n<li><a href=\"https://github.com/zerorooot/FuckBilibiliVote\">FuckBilibiliVote</a></li>\n<li><a href=\"https://github.com/WankkoRee/Portrait2Landscape\">不要竖屏</a></li>\n</ul>\n<h2>兼容性</h2>\n<p>下面仅列出测试过的版本，相近版本大概率能兼容</p>\n<ul>\n<li>MBGA v1.0.0 ~ v1.0.6\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2</li>\n</ul>\n</li>\n<li>MBGA v1.1.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>\n</ul>\n</li>\n<li>MBGA v1.3.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.19.0 ~ 3.19.2</li>\n</ul>\n</li>\n</ul>\n"
+        }
+      },
+      "versions": {
+        "c16ae70a26ee026c22c0bd5a91b54d056a4af8ea7c87e7b1c60d854c244478c8": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

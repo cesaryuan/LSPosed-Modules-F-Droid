@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1733888260000,
+    "timestamp": 1733974579000,
     "categories": {
       "Xposed": {
         "name": {
@@ -98,7 +98,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159600000,
+        "lastUpdated": 1733974360000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
         "authorName": "zjyzip",
         "name": {
@@ -110,6 +110,63 @@
         "preferredSigner": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
       },
       "versions": {
+        "6e3be1be363c6ed9e731b376e59496ce70f7d60164d7d1af352167d07ef66e15": {
+          "added": 1732159442000,
+          "file": {
+            "name": "/com.close.hook.ads_20241108-2.1.5.apk",
+            "sha256": "6e3be1be363c6ed9e731b376e59496ce70f7d60164d7d1af352167d07ef66e15",
+            "size": 3374698
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.1.5",
+            "versionCode": 20241108,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "fb1ec4368f271ba71a395898e39d7d5e4cf0468439db7f93a71c4ab230de076a": {
           "added": 1732159600000,
           "file": {

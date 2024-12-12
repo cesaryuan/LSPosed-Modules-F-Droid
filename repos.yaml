@@ -4354,18 +4354,17 @@ com.close.hook.ads:
           categories:
             - Xposed
           description: "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>\U0001F31F <strong>频道入口</strong>: @AdClose</p>\n"
-          filename: AdClose_2.1.8.apk
+          filename: AdClose_2.2.2.apk
           id: com.close.hook.ads
           name: AdClose
-          last_updated: "2024-11-13T10:34:15Z"
+          last_updated: "2024-12-11T05:50:06Z"
           releasedescription: |-
             <ul>
-            <li>代码调整</li>
-            <li>完成页面翻译</li>
-            <li>修复优化功能六</li>
-            <li>修复模块未激活问题</li>
-            <li>优化广播发送(功能二)</li>
-            <li>为DNS请求类型增加Log(功能二)</li>
+            <li>完善 Hook 操作</li>
+            <li>优化页面显示与加载</li>
+            <li>修复功能三空指针问题</li>
+            <li>功能二支持记录WebView请求<br>
+            (已通过测试Via浏览器，Stay浏览器等，但除了Chrome)</li>
             </ul>
     author_name: zjyzip
 com.coderstory.flyme:
@@ -20993,6 +20992,7 @@ top.trangle.mbga:
             <li>视频标题左边的“热门”等标签</li>
             <li>更纯粹的链接分享
             原来分享链接是<code>https://b23.tv/xxxxxxx</code>这样的短链，展开后有乱七八糟的参数，让它变成<code>https://b23.tv/av10492</code>这样干净的av号链接</li>
+            <li>干掉下方相关视频</li>
             </ul>
             <h3>视频评论区</h3>
             <ul>
@@ -21004,6 +21004,7 @@ top.trangle.mbga:
             <li>没有评论时禁止一键发送评论</li>
             <li>禁止展示反馈问卷</li>
             <li>禁止展示评论区顶部推广内容</li>
+            <li>支持根据关键词过滤评论，<a href="https://github.com/cledwynl/mbga/issues/79">这里</a>提供了一些常见的灌水内容</li>
             </ul>
             <h3>我的</h3>
             <ul>
@@ -21031,28 +21032,27 @@ top.trangle.mbga:
             <li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>
             </ul>
             </li>
-            <li>MBGA v1.2.0 ~
-            <ul>
-            <li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>
-            </ul>
-            </li>
             <li>MBGA v1.3.0 ~
             <ul>
             <li>兼容国际版 未知 ~ 3.19.0 ~ 3.19.2</li>
             </ul>
             </li>
             </ul>
-          filename: top.trangle.mbga-v103_1.3.0.apk
+          filename: top.trangle.mbga-v118_1.4.0.apk
           id: top.trangle.mbga
           name: MBGA
-          last_updated: "2024-11-02T06:21:36Z"
+          last_updated: "2024-12-11T07:13:39Z"
           releasedescription: |-
             <p><strong>新功能</strong></p>
             <ul>
-            <li>feat: 完全隐藏评论区 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2595021824" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/65" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/65/hovercard" href="https://github.com/cledwynl/mbga/pull/65">cledwynl/mbga#65</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2582568082" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/60" data-hovercard-type="issue" data-hovercard-url="/cledwynl/mbga/issues/60/hovercard" href="https://github.com/cledwynl/mbga/issues/60">cledwynl/mbga#60</a></li>
-            <li>doc: 禁止评论区顶部推广内容 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2595056141" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/66" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/66/hovercard" href="https://github.com/cledwynl/mbga/pull/66">cledwynl/mbga#66</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2554843293" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/52" data-hovercard-type="issue" data-hovercard-url="/cledwynl/mbga/issues/52/hovercard" href="https://github.com/cledwynl/mbga/issues/52">cledwynl/mbga#52</a></li>
+            <li>feat: 支持隐藏相关视频 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2730716829" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/78" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/78/hovercard" href="https://github.com/cledwynl/mbga/pull/78">cledwynl/mbga#78</a></li>
+            <li>feat: 支持根据关键词过滤视频评论 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2731933868" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/80" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/80/hovercard" href="https://github.com/cledwynl/mbga/pull/80">cledwynl/mbga#80</a></li>
             </ul>
-            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cledwynl/mbga/compare/v1.2.1...v1.3.0">cledwynl/mbga@<tt>v1.2.1...v1.3.0</tt></a></p>
+            <p><strong>缺陷修复</strong></p>
+            <ul>
+            <li>fix: 修复竖屏视频分享链接错误 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cledwynl/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cledwynl">@cledwynl</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2730301147" data-permission-text="Title is private" data-url="https://github.com/cledwynl/mbga/issues/77" data-hovercard-type="pull_request" data-hovercard-url="/cledwynl/mbga/pull/77/hovercard" href="https://github.com/cledwynl/mbga/pull/77">cledwynl/mbga#77</a></li>
+            </ul>
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cledwynl/mbga/compare/v1.3.0...v1.4.0">cledwynl/mbga@<tt>v1.3.0...v1.4.0</tt></a></p>
     author_name: cledwynl
 top.weixiansen574.alarmshell:
     git: https://github.com/Xposed-Modules-Repo/top.weixiansen574.alarmshell
