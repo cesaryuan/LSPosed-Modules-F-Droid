@@ -1,18 +1,18 @@
 # LSPosed Modules F-Droid Repository
 
 <p align="center">
-    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <!-- <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="assets/btn.png" alt="F-Droid repo url button" width="323" height="125"/>
     </a> -->
     <br>
-    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
+    <a href="https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">
         <img src="fdroid/repo/index.png?raw=true" alt="F-Droid repo QR code" width="200" height="200"/>
     </a>
 </p>
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
@@ -334,7 +334,7 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.tehcneko.telespeed"><img src="assets/ic_launcher.png" alt="TeleSpeed icon" width="36px" height="36px"></a> | [**TeleSpeed**](https://github.com/Xposed-Modules-Repo/io.github.tehcneko.telespeed) | Speed up your Telegram download.<br>提升你的 Telegram 下载速度。 | 1.0.6 (7) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate"><img src="fdroid/repo/icons/com.ailr.SeemNetOfTranslate.png" alt="Telionslate icon" width="36px" height="36px"></a> | [**Telionslate**](https://github.com/Xposed-Modules-Repo/com.ailr.SeemNetOfTranslate) | 解除谷歌离线翻译在大陆的限制并使用屏幕翻译! | 1.6.0.698504882 (2023090901) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.simo.tgramhooks"><img src="fdroid/repo/icons/com.simo.tgramhooks.png" alt="TGɾαɱHσσƙʂ icon" width="36px" height="36px"></a> | [**TGɾαɱHσσƙʂ**](https://github.com/Xposed-Modules-Repo/com.simo.tgramhooks) | Free Telegram Premium | 1.3.5 (1) |
-| <a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool"><img src="assets/ic_launcher.png" alt="Tim小助手(TimTool) icon" width="36px" height="36px"></a> | [**Tim小助手(TimTool)**](https://github.com/Xposed-Modules-Repo/top.sacz.timtool) | Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 <br>适配最新Tim<br>适配版本 4.0.97 + | 1.0 (1) |
+| <a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool"><img src="assets/ic_launcher.png" alt="Tim小助手(TimTool) icon" width="36px" height="36px"></a> | [**Tim小助手(TimTool)**](https://github.com/Xposed-Modules-Repo/top.sacz.timtool) | Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 <br>适配最新Tim<br>适配版本 4.0.97 + | 1.5fix (15) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock"><img src="fdroid/repo/icons/com.luckyzyx.toolboxunlock.png" alt="Toolbox For Minecraft:PE Premium Unlock icon" width="36px" height="36px"></a> | [**Toolbox For Minecraft:PE Premium Unlock**](https://github.com/Xposed-Modules-Repo/com.luckyzyx.toolboxunlock) | Toolbox for Minecraft:PE Unlock | 1.3 (91) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur"><img src="fdroid/repo/icons/com.asyjaiz.A12blur.png" alt="Translucent Shade icon" width="36px" height="36px"></a> | [**Translucent Shade**](https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur) | Lets you set up the translucency of your shade the way you want it to be | 2.0-G (7) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery"><img src="fdroid/repo/icons/com.fankes.tsbattery.png" alt="TSBattery icon" width="36px" height="36px"></a> | [**TSBattery**](https://github.com/Xposed-Modules-Repo/com.fankes.tsbattery) | TSBattery 是一个旨在使 QQ、TIM、微信 变得更省电的开源 Xposed 模块 | 4.4 (30) |
