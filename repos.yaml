@@ -16828,13 +16828,22 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.5.7.apk
+          filename: PlusNE7_New.7.5.1.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2024-11-25T03:46:30Z"
+          last_updated: "2024-10-07T09:07:25Z"
           releasedescription: |-
-            <p>[新增]抖音,抖音极速版 快捷操作 不喜欢该视频<br>
-            [修复]已知部分BUG</p>
+            <p>[优化]下载模式(Fetch下载模式改为自写库下载)<br>
+            [修复]小红书无法无水印下载图片<br>
+            [适配]抖音 31.6.0(310601)<br>
+            [适配]抖音极速版 31.6.0(310601)<br>
+            [适配]快手 12.8.40.38625(38625)<br>
+            [适配]快手极速版 12.8.40.8764(8764)<br>
+            [适配]番茄免费小说 6.4.3.32(64332)<br>
+            [适配]番茄畅听 5.6.1.32(561)<br>
+            [适配]皮皮搞笑 2.98.90(2989000)<br>
+            [适配]皮皮虾 5.1.5(515)<br>
+            [适配]七猫免费小说 7.57(75700)</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
@@ -20926,18 +20935,25 @@ top.sacz.timtool:
             如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />
             在此之前你或许可以及时保存我们的工作成品</p>
             <p><a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool">LSPosed-Repo-Github</a></p>
-          filename: TimTool_1.0.apk
+          filename: TimTool_1.5fix.apk
           id: top.sacz.timtool
           name: Tim小助手(TimTool)
-          last_updated: "2024-12-06T05:27:15Z"
+          last_updated: "2024-12-12T14:46:18Z"
           releasedescription: |-
-            <h2>Tim 专属Xposed模块</h2>
-            <h3>新增 复读</h3>
-            <h3>新增 禁用表情下载限制</h3>
-            <h3>新增 表情面板</h3>
-            <h3>新增 防撤回</h3>
-            <h3>新增 消息显示时间</h3>
-            <h3>新增 移除主界面语音图标</h3>
+            <p>新增 文件上传重命名*默认开启 (自动重命名base为包名或应用名 自动将.apk重命名成.APK 防止被QQ自动重命名成.apk.1<br>
+            私聊暂未适配,等待后续适配)<br>
+            新增 消息气泡圆角度优化<br>
+            修复 复读开启后QQ原本复读图标仍然会出现<br>
+            新增 禁用QQ内置浏览器<br>
+            新增 复读可设置双击复读 图标大小<br>
+            新增 去除回复自动艾特<br>
+            新增 显示具体的消息数量<br>
+            新增 消息气泡优化支持自定义的HEX颜色值<br>
+            新增 模块设置页和app主页可查看历史更新日志<br>
+            新增 app主页隐藏桌面图标</p>
+            <p>性能优化 优化打开模块设置页面的性能</p>
+            <p>适配 私聊时文件上传重命名<br>
+            适配 回复消息和带图消息气泡没有被优化的问题</p>
     author_name: suzhelan
 top.trangle.mbga:
     git: https://github.com/Xposed-Modules-Repo/top.trangle.mbga

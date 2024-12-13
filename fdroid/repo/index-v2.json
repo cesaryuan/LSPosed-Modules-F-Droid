@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1733974592000,
+    "timestamp": 1734061369000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733974342000,
+        "lastUpdated": 1734060982000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -25890,7 +25890,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733542387000,
+        "lastUpdated": 1734061122000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.sacz.timtool",
         "authorName": "suzhelan",
         "name": {
@@ -25905,6 +25905,38 @@
         "preferredSigner": "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077"
       },
       "versions": {
+        "9919b135b7c5251546d59dce7d5d0c5ad98cfd03fba3823f37619a1e0e8e80ee": {
+          "added": 1734061122000,
+          "file": {
+            "name": "/top.sacz.timtool_15-1.5.apk",
+            "sha256": "9919b135b7c5251546d59dce7d5d0c5ad98cfd03fba3823f37619a1e0e8e80ee",
+            "size": 5170497
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.5fix",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "top.sacz.timtool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "59155a030526d17fa9d1d8d64d9748900a0cbda470472648c62372970f20763b": {
           "added": 1733542387000,
           "file": {
