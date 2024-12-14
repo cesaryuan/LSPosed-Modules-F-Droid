@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734061369000,
+    "timestamp": 1734146990000,
     "version": 20002
   },
   "requests": {
@@ -5295,25 +5295,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1732159557000,
+      "added": 1734060845000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1733214138000,
+      "lastUpdated": 1734060845000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[新增]抖音,抖音极速版 快捷操作 不喜欢该视频\n[修复]已知部分BUG"
+          "whatsNew": "[适配]大部分最新App\n[修复]已知BUG"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7133",
-      "suggestedVersionName": "7.5.7",
+      "suggestedVersionCode": "7134",
+      "suggestedVersionName": "7.5.8",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -16879,6 +16879,26 @@
     ],
     "me.plusne": [
       {
+        "added": 1734060845000,
+        "apkName": "me.plusne_7134-7.5.8.apk",
+        "hash": "76c8cfe235e85bf01dec5f8f9060ff11fc19c4275e5951da4842b1c4798bdd08",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10525298,
+        "targetSdkVersion": 33,
+        "versionCode": 7134,
+        "versionName": "7.5.8"
+      },
+      {
         "added": 1733214138000,
         "apkName": "me.plusne_7133-7.5.7.apk",
         "hash": "8d8c50827e84d2e01cfb0d6b2562bcccd35966030653ab8feb142b5c5cc7f554",
@@ -16917,26 +16937,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7130,
         "versionName": "7.5.4"
-      },
-      {
-        "added": 1732159557000,
-        "apkName": "me.plusne_7129-7.5.3.apk",
-        "hash": "fe5b75415a38610741ba86464c2bdf70797668687f38bfa26b990a204e883b99",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "me.plusne",
-        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
-        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
-        "size": 10521216,
-        "targetSdkVersion": 33,
-        "versionCode": 7129,
-        "versionName": "7.5.3"
       }
     ],
     "me.rhunk.snapenhance": [
