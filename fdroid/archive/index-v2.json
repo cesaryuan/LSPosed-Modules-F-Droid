@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1734146977000,
+    "timestamp": 1734233871000,
     "categories": {
       "Xposed": {
         "name": {
@@ -277,7 +277,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159602000,
+        "lastUpdated": 1734233688000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
         "authorName": "parallelcc",
         "name": {
@@ -287,11 +287,32 @@
           "en-US": "在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
         },
         "description": {
-          "en-US": "<h1>MiCTS</h1>\n<p>简体中文  |  <a href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\">English</a></p>\n<p>在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能</p>\n<p><em>本应用只负责触发圈定即搜，无法处理触发成功后可能出现的问题</em></p>\n<h2>使用方法</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启自启动，关闭后台限制，将默认助理应用设置为Google</p>\n</li>\n<li>\n<p>安装并打开MiCTS</p>\n<ul>\n<li>如果幸运的话，在不用LSPosed的情况下，打开MiCTS就会直接触发圈定即搜</li>\n<li>如果没有反应，则需要在LSPosed里激活模块，在<a href=\"#%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE%E7%9A%84%E6%96%B9%E5%BC%8F\">MiCTS设置</a>里开启<code>Google机型伪装</code>后，强制重启Google</li>\n<li>如果还是没有反应，尝试清除Google的数据，然后打开Google，再强制重启Google</li>\n</ul>\n</li>\n<li>\n<p>设置触发方式</p>\n<ul>\n<li>打开MiCTS即可触发，因此可以利用其他软件，比如悬浮球、Xposed Edge、ShortX等，将动作设置为打开MiCTS，实现自定义触发方式</li>\n<li>MiCTS提供了一个触发磁贴，可将其添加到快速设置面板里，通过点击磁贴触发</li>\n<li>对于小米设备，MiCTS内置了长按小白条触发和长按Home键触发的功能，可以在MiCTS设置里开启（安装MiCTS后需要激活模块并重启手机才能使用）</li>\n</ul>\n</li>\n</ol>\n<h2>设置</h2>\n<h3>进入设置的方式</h3>\n<ul>\n<li>长按MiCTS应用图标，出现设置选项，点击进入</li>\n<li>从LSPosed模块页面，点击MiCTS，再点击设置图标进入</li>\n<li>长按快速设置面板的磁贴进入</li>\n</ul>\n<h3>应用设置</h3>\n<ul>\n<li>默认触发延迟：通过打开MiCTS触发的延迟</li>\n<li>磁贴触发延迟：通过点击快速设置面板的磁贴触发的延迟</li>\n</ul>\n<h3>模块设置</h3>\n<p>需要在LSPosed里激活模块</p>\n<ul>\n<li>\n<p>系统触发服务：触发所使用的系统服务，只会显示当前支持的选项，依赖作用域选择系统框架</p>\n<ul>\n<li>VIS：支持Android 9–15，需要将默认助理应用设置为Google，触发时屏幕边缘会闪，没有激活模块的情况下只能使用此服务</li>\n<li>CSHelper：支持Android 14 QPR3及以上，不需要设置默认助理应用，触发时屏幕边缘不会闪</li>\n</ul>\n</li>\n<li>\n<p>长按小白条触发：仅支持小米设备，依赖作用域选择系统桌面</p>\n</li>\n<li>\n<p>长按Home键触发：仅支持小米设备，依赖作用域选择系统框架</p>\n</li>\n<li>\n<p>Google机型伪装：依赖作用域选择Google</p>\n<ul>\n<li>制造商：修改Google读取到的ro.product.manufacturer</li>\n<li>品牌：修改Google读取到的ro.product.brand</li>\n<li>型号：修改Google读取到的ro.product.model</li>\n<li>设备：修改Google读取到的ro.product.device</li>\n</ul>\n</li>\n</ul>\n"
+          "en-US": "<h1>MiCTS</h1>\n<p><a href=\"https://github.com/parallelcc/MiCTS\"><img src=\"https://img.shields.io/github/stars/parallelcc/MiCTS\" alt=\"Stars\" /></a> <a href=\"https://github.com/parallelcc/MiCTS/releases\"><img src=\"https://img.shields.io/github/downloads/parallelcc/MiCTS/total\" alt=\"Downloads\" /></a> <a href=\"https://github.com/parallelcc/MiCTS/releases/latest\"><img src=\"https://img.shields.io/github/v/release/parallelcc/MiCTS\" alt=\"Release\" /></a></p>\n<p>简体中文  |  <a href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\">English</a></p>\n<p>在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能</p>\n<p><em>本应用只负责触发圈定即搜，无法处理触发成功后可能出现的问题</em></p>\n<h2>使用方法</h2>\n<ol>\n<li>\n<p>安装最新版<a href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\">Google</a>应用，开启自启动，关闭后台限制，将默认助理应用设置为Google</p>\n</li>\n<li>\n<p>安装并打开MiCTS</p>\n<ul>\n<li>如果幸运的话，在不需要root的情况下，打开MiCTS就会直接触发圈定即搜</li>\n<li>如果没有反应，大概率是因为Google对你的设备禁用了圈定即搜功能（可以通过在Logcat日志中查找<code>Omni invocation failed: not enabled</code>确认），在有root的情况下，可以尝试以下方法：\n<ul>\n<li>在LSPosed里激活模块，在<a href=\"#%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE%E7%9A%84%E6%96%B9%E5%BC%8F\">MiCTS设置</a>里开启<code>Google机型伪装</code>后，强制重启Google</li>\n<li>如果还是不行，使用<a href=\"https://github.com/polodarb/GMS-Flags\">GMS-Flags</a>，将<code>com.google.android.apps.search.omnient.device</code>的flag<code>45631784</code>设为true</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p>设置触发方式</p>\n<ul>\n<li>打开MiCTS即可触发，因此可以利用其他软件，比如悬浮球、Xposed Edge、ShortX等，将动作设置为打开MiCTS，实现自定义触发方式</li>\n<li>MiCTS提供了一个触发磁贴，可将其添加到快速设置面板里，通过点击磁贴触发</li>\n<li>对于小米设备，MiCTS内置了长按小白条触发和长按Home键触发的功能，可以在MiCTS设置里开启（安装MiCTS后需要激活模块并重启手机才能使用）</li>\n</ul>\n</li>\n</ol>\n<h2>设置</h2>\n<h3>进入设置的方式</h3>\n<ul>\n<li>长按MiCTS应用图标，出现设置选项，点击进入</li>\n<li>从LSPosed模块页面，点击MiCTS，再点击设置图标进入</li>\n<li>长按快速设置面板的磁贴进入</li>\n</ul>\n<h3>应用设置</h3>\n<ul>\n<li>默认触发延迟：通过打开MiCTS触发的延迟</li>\n<li>磁贴触发延迟：通过点击快速设置面板的磁贴触发的延迟</li>\n</ul>\n<h3>模块设置</h3>\n<p>需要在LSPosed里激活模块</p>\n<ul>\n<li>\n<p>系统触发服务：触发所使用的系统服务，只会显示当前支持的选项，依赖作用域选择系统框架</p>\n<ul>\n<li>VIS：支持Android 9–15，需要将默认助理应用设置为Google，触发时一些设备的屏幕边缘会闪，没有激活模块的情况下只能使用此服务</li>\n<li>CSHelper：支持Android 14 QPR3及以上，不需要设置默认助理应用，触发时屏幕边缘不会闪</li>\n<li>CSService：支持Android 15及以上，圈定即搜专用的服务，效果同CSHelper</li>\n</ul>\n</li>\n<li>\n<p>长按小白条触发：仅支持小米设备，依赖作用域选择系统桌面</p>\n</li>\n<li>\n<p>长按Home键触发：仅支持小米设备，依赖作用域选择系统框架</p>\n</li>\n<li>\n<p>Google机型伪装：依赖作用域选择Google</p>\n<ul>\n<li>制造商：修改Google读取到的ro.product.manufacturer</li>\n<li>品牌：修改Google读取到的ro.product.brand</li>\n<li>型号：修改Google读取到的ro.product.model</li>\n<li>设备：修改Google读取到的ro.product.device</li>\n</ul>\n</li>\n</ul>\n<h2>常见问题</h2>\n<h3>提示“触发失败！”</h3>\n<p>大概率是没有将Google设为默认助理，检查一下</p>\n<h3>触发出来是Google助理，不是圈定即搜</h3>\n<p>Google不是最新版，更新一下</p>\n<h3>有时无法成功触发，手动打开Google后才会出现刚才圈定即搜的界面</h3>\n<p>原因应该是墓碑机制导致的，看看手机有没有相关的设置可以把Google加到白名单里，比如电池优化选择无限制等，在模块设置里<code>系统触发服务</code>使用<code>CSHelper</code>应该没有这个问题</p>\n<h2>Star History</h2>\n<a href=\"https://star-history.com/#parallelcc/micts&Date\">\n <picture>\n   <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=parallelcc/micts&type=Date&theme=dark\" />\n   <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=parallelcc/micts&type=Date\" />\n   <img alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=parallelcc/micts&type=Date\" />\n </picture>\n</a>\n"
         },
         "preferredSigner": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
       },
       "versions": {
+        "5d7d7d9cbaae4e666c037355aa38e4cd4cee811f48473fe61e8e518b5523a3f4": {
+          "added": 1732159487000,
+          "file": {
+            "name": "/com.parallelc.micts_4-1.3.apk",
+            "sha256": "5d7d7d9cbaae4e666c037355aa38e4cd4cee811f48473fe61e8e518b5523a3f4",
+            "size": 628034
+          },
+          "manifest": {
+            "versionName": "1.3",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        },
         "a38cf40876feee4f46b2d15e06c4cb5debb33a2f3906c788c3d1e0189780926b": {
           "added": 1732159602000,
           "file": {

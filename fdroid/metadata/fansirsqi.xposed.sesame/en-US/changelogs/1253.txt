@@ -1,0 +1,16 @@
+自动同步貌似不会触发什么LSP仓库更新？？手动创建好麻烦 😡不知道能不能...
+
+## 更新日志
+
+* 重构日志库
+* 尝试修复一些异常情况
+
+>无响应的情况请尝试重启手机
+再不行尝试降低支付宝版本
+实在不行，我可能也没有更好的解决办法，因为我好像没遇到过，程序无响应的情况看下插件有没有产生运行时的日志？
+如还存在其他问题以及功能上的建议请[提交issues](https://github.com/Fansirsqi/Sesame-TK/issues/new/choose)
+
+### ⚠️注意该模块配置可能会和@LazyImmortal 、@lazy-immortal 作者版本的配置可能会有所冲突因为配置文件夹在同一个目录，请酌情选择使用本插件
+### ⚠️本插件不会主动删除任何用户的文件，除了插件自己产生的log以及你手动操作清除的日志内容
+
+**Full Changelog**: https://github.com/Fansirsqi/Sesame-TK/compare/0.1.0-release...v0.2.1-beta
