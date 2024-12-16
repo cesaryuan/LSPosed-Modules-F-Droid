@@ -7554,8 +7554,9 @@ com.kgg.hlddz:
             <p>欢乐斗地主看广告给奖励，需要看15秒视频后才能关闭领取，有了这个模块，再也不用忍受这种恶心的行为，
             广告页面弹出1秒后自动关闭并领取奖励</p>
             <p>本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！</p>
+            <p>严禁基于本模块进行二次开发，一经发现永久停更！</p>
             <h1>更新日志</h1>
-            <p>2024.12.09    v1.0.6    适配欢乐斗地主8.032.016版本</p>
+            <p>2024.12.09    v1.0.8    适配欢乐斗地主8.032.016版本</p>
             <p>2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题</p>
             <p>2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本</p>
             <h1>Buy me a beer</h1>
@@ -7565,7 +7566,7 @@ com.kgg.hlddz:
           filename: ddzNoAd_1.0.8_release.apk
           id: com.kgg.hlddz
           name: 地主不看广告
-          last_updated: "2024-12-08T17:46:33Z"
+          last_updated: "2024-12-15T16:44:06Z"
           releasedescription: <p>适配欢乐斗地主8.032.016版本</p>
     author_name: KongGuoguang
 com.king250.fightoppoinstaller:
@@ -14290,11 +14291,12 @@ inc.whew.android.fakegapps:
           filename: app-release.apk
           id: inc.whew.android.fakegapps
           name: FakeGApps
-          last_updated: "2023-11-12T20:25:37Z"
+          last_updated: "2024-12-15T15:40:51Z"
           releasedescription: |-
             <h2>What's Changed</h2>
             <ul>
-            <li>Add Android 14 support</li>
+            <li>Cleanup and modernize build system by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nift4/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nift4">@nift4</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2492465754" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/21" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/21/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/21">whew-inc/FakeGApps#21</a></li>
+            <li>Add spoofing of SigningInfo to fix Android &gt;= 9 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gilbsgilbs/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gilbsgilbs">@gilbsgilbs</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2738400360" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/23" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/23/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/23">whew-inc/FakeGApps#23</a></li>
             </ul>
     author_name: whew-inc
 io.github.a13e300.tools.stethox:
@@ -20879,44 +20881,110 @@ top.hookvip.pro:
           categories:
             - Xposed
           description: |
+            <div align="center">
             <h1>NewHookVip</h1>
-            <p>用于解锁部分App会员以及添加一些拓展功能的Xposed模块</br>(重构自HookVip)</p>
-            <p><a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars" alt="Stars" /></a>
-            <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total" alt="Downloads" />
-            <a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro" alt="GitHub Release" /></a>
-            <a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro" alt="GitHub Release Date" /></a></p>
-            <h2>Telegram</h2>
-            <p><a href="https://t.me/HookVipCl"><img alt="Telegram Channel" src="https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram"></a><br />
-            <a href="https://t.me/HookVipChat"><img alt="Telegram Channel" src="https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram"></a></p>
-          filename: HookVip-4.0.3-fix-release.apk
+            <p><a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars"></a>
+            <a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total?label=Downloads"></a>
+            <a href="https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest"><img alt="GitHub lastest release" src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro"></a></p>
+            <p><a href="https://t.me/HookVipCl"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram"></a>
+            <a href="https://t.me/HookVipChat"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-群组-blue.svg?logo=telegram"></a></p>
+            <p>用于解锁部分App会员以及添加一些拓展功能的Xposed模块</p>
+            <p>
+               <b>支持框架 | <a href="https://github.com/LSPosed/LSPosed">LSPosed</a> | <a href="https://github.com/LSPosed/LSPatch">LSPatch</a>
+            </p>
+            </div>
+            <h2>关于</h2>
+            <ul>
+            <li>此项目在前HookVip的基础上重构于2024.10.30</li>
+            <li>这是一款基于XposedApi开发的Xposed模块</li>
+            <li>用于对APP解锁高级功能/限制及添加一些拓展功能</li>
+            <li>旨在优化用户使用体验 为用户提供更便利的功能</li>
+            <li>应用内所有功能仅供学习交流 请勿用于商业/违法用途</li>
+            <li>本模块完全免费使用 不存在收费盈利</li>
+            <li>如果你是付费购买的 请联系售卖者退款</li>
+            <li>若有任何售卖/倒卖本插件者 则替模块开发者挡灾挡难</li>
+            <li>如有侵权问题 请联系邮箱<a href="mailto:hookvip@163.com">hookvip@163.com</a></li>
+            </ul>
+            <h2>使用说明</h2>
+            <h3>破解功能</h3>
+            <ul>
+            <li>1.勾选对应应用重启后生效</li>
+            <li>2.如果没有生效请尝试登录一下账号</li>
+            <li>3.如果仍然不生效可能是坏掉了</li>
+            <li>4.欢迎提交issues反馈问题</li>
+            </ul>
+            <h3>拓展功能</h3>
+            <ul>
+            <li>1.请先前往模块主页</li>
+            <li>2.点击左上角/主页右滑 打开侧滑栏</li>
+            <li>3.打开拓展功能页</li>
+            <li>4.找到并点击你需要作用于的应用</li>
+            <li>5.再选择性打开你需要使用的功能</li>
+            <li>6.确保已经打开了总开关</li>
+            <li>7.重启对应应用后生效</li>
+            </ul>
+            <h3>拓展应用</h3>
+            <ul>
+            <li>1.勾选对应应用</li>
+            <li>2.重启此应用</li>
+            <li>3.前往应用设置页/用户信息页</li>
+            <li>4.模块会注入相关的功能开关</li>
+            <li>5.找到并打开对应功能开关即可</li>
+            <li>6.需要重启应用后生效</li>
+            </ul>
+            <h2>框架限制</h2>
+            <h3>LSPosed</h3>
+            <ul>
+            <li>可以正常使用此模块的所有功能</li>
+            </ul>
+            <h3>LSPatch</h3>
+            <ul>
+            <li>只允许使用破解功能</li>
+            <li>无法使用拓展应用功能</li>
+            <li>部分危险破解功能也会限制使用</li>
+            <li>不允许使用内置 只可使用本地模式</li>
+            <li>不接受任何此框架用户的反馈</li>
+            </ul>
+          filename: HookVip-4.0.4-release.apk
           id: top.hookvip.pro
           name: NewHookVip
-          last_updated: "2024-12-01T08:15:19Z"
+          last_updated: "2024-12-15T05:19:28Z"
           releasedescription: |-
             <h3>新增</h3>
             <ul>
-            <li><strong>SelfyzAI</strong> 解锁会员/无限积分(内置账号) 全版本通杀</li>
-            <li><strong>傲软投屏</strong> 解锁永久会员/无限云投屏时长 全版本通杀</li>
-            <li><strong>哔哩哔哩</strong> 解锁画质 适配范围需自测</li>
-            <li><strong>冰箱</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>图叨叨</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>Lightroom</strong> 解锁订阅 全版本通杀</li>
+            <li><strong>书旗小说</strong> 解锁本地会员/去除广告 全版本通杀</li>
+            <li><strong>PUBG Tool Pro</strong> 移除付费 全版本通杀</li>
+            <li><strong>VPN Client Pro</strong> 解锁许可证 全版本通杀</li>
+            <li><strong>AppShare</strong> 解锁本地会员 全版本通杀</li>
+            <li><strong>摩途</strong> 解锁会员 全版本通杀</li>
+            <li><strong>喵喵记账</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>资源大师plus</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>布丁扫描</strong> 解锁终身会员 全版本通杀</li>
+            <li><strong>SD Maid SE</strong> 解锁Pro Github/Play版 全版本通杀</li>
+            <li><strong>经纬度定位</strong> 解锁会员 全版本通杀</li>
+            <li><strong>元气壁纸</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>红果免费短剧</strong> 解锁会员 去广告 全版本通杀</li>
+            <li><strong>饭团追书</strong> 解锁会员/去广告 全版本通杀</li>
+            <li><strong>思维导图MindMaster</strong> 解锁本地永久会员(部分服务器功能不可用) 全版本通杀</li>
+            <li><strong>倒数日</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>多邻国</strong> 解锁订阅 全版本通杀</li>
+            <li><strong>双开助手微分身版</strong> 解锁SVIP会员 全版本通杀</li>
+            <li><strong>傲软抠图</strong> 解锁会员 全版本通杀</li>
             </ul>
             <h3>拓展</h3>
             <ul>
-            <li><strong>biubiu加速器</strong> 自动领取加速时长/去除root检测/去开屏广告(功能开关在个人信息页) 全版本通杀</li>
+            <li><strong>CC加速器</strong> 自动领取加速时长/去广告/去除实名认证 全版本通杀</li>
+            <li><strong>网络协议降级</strong> 可以实现将网络协议从QUIC降级到HTTP(可能只支持部分应用)</li>
+            <li><strong>JustTrustMe++</strong> 用来禁用/绕过SSL证书检查</li>
+            <li><strong>过游戏实名认证</strong> 可过腾讯部分游戏新号实名认证(王者荣耀/穿越火线/元梦之星等)</li>
             </ul>
-            <h3>修复</h3>
+            <h3>优化</h3>
             <ul>
-            <li><strong>AppShare</strong> 自动签到闪退</li>
-            <li><strong>免root框架</strong> 无法加载模块</li>
-            <li><strong>ApiService</strong> 抛出 <code>Crash unexpectedly: java.lang.RuntimeException: android.os.NetworkOnMainThreadException</code>导致的部分应用失效</li>
-            </ul>
-            <h3>适配</h3>
-            <ul>
-            <li><strong>岸听音乐(com.szxinlianyun.yunjx.dagge)</strong> 解锁会员 全版本通杀</li>
-            </ul>
-            <h3>调整</h3>
-            <ul>
-            <li><strong>快手/快手极速版</strong> 支持免root框架(仅本地模式)</li>
+            <li><strong>主页UI</strong> 支持点击功能item右侧按钮 动态申请作用域</li>
+            <li><strong>主页UI</strong> 支持长按功能item(已安装的应用常规操作/未安装的应用一键查找下载地址)</li>
+            <li><strong>主页UI</strong> 微调item图标/字体大小</li>
             </ul>
     author_name: lovejiuwu
 top.sacz.timtool:
@@ -20947,25 +21015,11 @@ top.sacz.timtool:
             如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />
             在此之前你或许可以及时保存我们的工作成品</p>
             <p><a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool">LSPosed-Repo-Github</a></p>
-          filename: TimTool_1.5fix.apk
+          filename: TimTool_1.6.apk
           id: top.sacz.timtool
           name: Tim小助手(TimTool)
-          last_updated: "2024-12-12T14:46:18Z"
-          releasedescription: |-
-            <p>新增 文件上传重命名*默认开启 (自动重命名base为包名或应用名 自动将.apk重命名成.APK 防止被QQ自动重命名成.apk.1<br>
-            私聊暂未适配,等待后续适配)<br>
-            新增 消息气泡圆角度优化<br>
-            修复 复读开启后QQ原本复读图标仍然会出现<br>
-            新增 禁用QQ内置浏览器<br>
-            新增 复读可设置双击复读 图标大小<br>
-            新增 去除回复自动艾特<br>
-            新增 显示具体的消息数量<br>
-            新增 消息气泡优化支持自定义的HEX颜色值<br>
-            新增 模块设置页和app主页可查看历史更新日志<br>
-            新增 app主页隐藏桌面图标</p>
-            <p>性能优化 优化打开模块设置页面的性能</p>
-            <p>适配 私聊时文件上传重命名<br>
-            适配 回复消息和带图消息气泡没有被优化的问题</p>
+          last_updated: "2024-12-15T12:20:54Z"
+          releasedescription: <p>消除LSPosed更新提示</p>
     author_name: suzhelan
 top.trangle.mbga:
     git: https://github.com/Xposed-Modules-Repo/top.trangle.mbga

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734233884000,
+    "timestamp": 1734320557000,
     "version": 20002
   },
   "requests": {
@@ -1809,25 +1809,25 @@
       "summary": "Enhance Xperia Game Enhancer"
     },
     {
-      "added": 1699820737000,
+      "added": 1734277251000,
       "authorName": "whew-inc",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eFakeGApps\u003c/h1\u003e\n\u003cp\u003eUsed in combination with \u003ca href=\"https://microg.org/\"\u003eMicroG\u003c/a\u003e to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.\u003c/p\u003e\n\u003cp\u003eSupports Android 4.0 - 14\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/whew-inc/FakeGApps\"\u003eOriginal repository\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "inc.whew.android.fakegapps.png",
-      "lastUpdated": 1699820737000,
+      "lastUpdated": 1734277251000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## What's Changed\n* Add Android 14 support"
+          "whatsNew": "## What's Changed\n* Cleanup and modernize build system by @nift4 in https://github.com/whew-inc/FakeGApps/pull/21\n* Add spoofing of SigningInfo to fix Android \u003e= 9 by @gilbsgilbs in https://github.com/whew-inc/FakeGApps/pull/23"
         }
       },
       "name": "FakeGApps",
       "packageName": "inc.whew.android.fakegapps",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps",
-      "suggestedVersionCode": "10",
-      "suggestedVersionName": "5"
+      "suggestedVersionCode": "11",
+      "suggestedVersionName": "6"
     },
     {
       "added": 1703836825000,
@@ -4590,24 +4590,24 @@
       "summary": "Bring back KeyChain.createInstallIntent's old behavior to Android 11+"
     },
     {
-      "added": 1733040919000,
+      "added": 1734239968000,
       "authorName": "lovejiuwu",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eNewHookVip\u003c/h1\u003e\n\u003cp\u003e用于解锁部分App会员以及添加一些拓展功能的Xposed模块\u003c/br\u003e(重构自HookVip)\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTelegram\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/HookVipCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://t.me/HookVipChat\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1733040919000,
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eNewHookVip\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest\"\u003e\u003cimg alt=\"GitHub lastest release\" src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/HookVipCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/HookVipChat\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-群组-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e用于解锁部分App会员以及添加一些拓展功能的Xposed模块\u003c/p\u003e\n\u003cp\u003e\n   \u003cb\u003e支持框架 | \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e | \u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e此项目在前HookVip的基础上重构于2024.10.30\u003c/li\u003e\n\u003cli\u003e这是一款基于XposedApi开发的Xposed模块\u003c/li\u003e\n\u003cli\u003e用于对APP解锁高级功能/限制及添加一些拓展功能\u003c/li\u003e\n\u003cli\u003e旨在优化用户使用体验 为用户提供更便利的功能\u003c/li\u003e\n\u003cli\u003e应用内所有功能仅供学习交流 请勿用于商业/违法用途\u003c/li\u003e\n\u003cli\u003e本模块完全免费使用 不存在收费盈利\u003c/li\u003e\n\u003cli\u003e如果你是付费购买的 请联系售卖者退款\u003c/li\u003e\n\u003cli\u003e若有任何售卖/倒卖本插件者 则替模块开发者挡灾挡难\u003c/li\u003e\n\u003cli\u003e如有侵权问题 请联系邮箱\u003ca href=\"mailto:hookvip@163.com\"\u003ehookvip@163.com\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003ch3\u003e破解功能\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.勾选对应应用重启后生效\u003c/li\u003e\n\u003cli\u003e2.如果没有生效请尝试登录一下账号\u003c/li\u003e\n\u003cli\u003e3.如果仍然不生效可能是坏掉了\u003c/li\u003e\n\u003cli\u003e4.欢迎提交issues反馈问题\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e拓展功能\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.请先前往模块主页\u003c/li\u003e\n\u003cli\u003e2.点击左上角/主页右滑 打开侧滑栏\u003c/li\u003e\n\u003cli\u003e3.打开拓展功能页\u003c/li\u003e\n\u003cli\u003e4.找到并点击你需要作用于的应用\u003c/li\u003e\n\u003cli\u003e5.再选择性打开你需要使用的功能\u003c/li\u003e\n\u003cli\u003e6.确保已经打开了总开关\u003c/li\u003e\n\u003cli\u003e7.重启对应应用后生效\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e拓展应用\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.勾选对应应用\u003c/li\u003e\n\u003cli\u003e2.重启此应用\u003c/li\u003e\n\u003cli\u003e3.前往应用设置页/用户信息页\u003c/li\u003e\n\u003cli\u003e4.模块会注入相关的功能开关\u003c/li\u003e\n\u003cli\u003e5.找到并打开对应功能开关即可\u003c/li\u003e\n\u003cli\u003e6.需要重启应用后生效\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e框架限制\u003c/h2\u003e\n\u003ch3\u003eLSPosed\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e可以正常使用此模块的所有功能\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLSPatch\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e只允许使用破解功能\u003c/li\u003e\n\u003cli\u003e无法使用拓展应用功能\u003c/li\u003e\n\u003cli\u003e部分危险破解功能也会限制使用\u003c/li\u003e\n\u003cli\u003e不允许使用内置 只可使用本地模式\u003c/li\u003e\n\u003cli\u003e不接受任何此框架用户的反馈\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1734239968000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 新增\n\n+ **SelfyzAI** 解锁会员/无限积分(内置账号) 全版本通杀\n+ **傲软投屏** 解锁永久会员/无限云投屏时长 全版本通杀\n+ **哔哩哔哩** 解锁画质 适配范围需自测\n+ **冰箱** 解锁高级版 全版本通杀\n\n### 拓展\n\n+ **biubiu加速器** 自动领取加速时长/去除root检测/去开屏广告(功能开关在个人信息页) 全版本通杀\n\n### 修复\n\n+ **AppShare** 自动签到闪退\n+ **免root框架** 无法加载模块\n+ **ApiService** 抛出 ```Crash unexpectedly: java.lang.RuntimeException: android.os.NetworkOnMainThreadException```导致的部分应用失效\n\n### 适配\n\n+ **岸听音乐(com.szxinlianyun.yunjx.dagge)** 解锁会员 全版本通杀\n\n### 调整\n\n+ **快手/快手极速版** 支持免root框架(仅本地模式)"
+          "whatsNew": "\n### 新增\n\n+ **图叨叨** 解锁永久会员 全版本通杀\n+ **Lightroom** 解锁订阅 全版本通杀\n+ **书旗小说** 解锁本地会员/去除广告 全版本通杀\n+ **PUBG Tool Pro** 移除付费 全版本通杀\n+ **VPN Client Pro** 解锁许可证 全版本通杀\n+ **AppShare** 解锁本地会员 全版本通杀\n+ **摩途** 解锁会员 全版本通杀\n+ **喵喵记账** 解锁永久会员 全版本通杀\n+ **资源大师plus** 解锁永久会员 全版本通杀\n+ **布丁扫描** 解锁终身会员 全版本通杀\n+ **SD Maid SE** 解锁Pro Github/Play版 全版本通杀\n+ **经纬度定位** 解锁会员 全版本通杀\n+ **元气壁纸** 解锁永久会员 全版本通杀\n+ **红果免费短剧** 解锁会员 去广告 全版本通杀\n+ **饭团追书** 解锁会员/去广告 全版本通杀\n+ **思维导图MindMaster** 解锁本地永久会员(部分服务器功能不可用) 全版本通杀\n+ **倒数日** 解锁高级版 全版本通杀\n+ **多邻国** 解"
         }
       },
       "name": "NewHookVip",
       "packageName": "top.hookvip.pro",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
-      "suggestedVersionCode": "20241201",
-      "suggestedVersionName": "4.0.3",
+      "suggestedVersionCode": "20241215",
+      "suggestedVersionName": "4.0.4",
       "summary": "解锁部分APP高级版及添加拓展功能"
     },
     {
@@ -6397,24 +6397,24 @@
       "summary": "Free Telegram Premium"
     },
     {
-      "added": 1734014778000,
+      "added": 1734265254000,
       "authorName": "suzhelan",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eTim小助手\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/suzhelan/TimTool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/suzhelan/TimTool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/suzhelan/TimTool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/suzhelan/TimTool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/suzhelan/TimTool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/suzhelan/TimTool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/timtool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e对Tim,QQ进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003e连接到主仓库\u003c/a\u003e\u003c/h2\u003e\n\u003chr /\u003e\n\u003ch2\u003e适配的版本范围 TimNT 4.x.x(目前维护到4.0.97 最新版)\u003c/h2\u003e\n\u003ch3\u003e该插件仅供学习与练习\u003c/h3\u003e\n\u003cp\u003e请勿使用此插件用于违法 商业行为\u003cbr /\u003e\n插件只是提高日常方便性的工具 请勿过度依赖该插件\u003cbr /\u003e\n此项目会因为各种可抗不可抗因素随时停止维护\u003cbr /\u003e\n如果发生了更糟糕的情况我们会及时 \u003cstrong\u003e删除代码库\u003c/strong\u003e 以及 \u003cstrong\u003e发行渠道的所有版本\u003c/strong\u003e\u003cbr /\u003e\n在此之前你或许可以及时保存我们的工作成品\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.sacz.timtool\"\u003eLSPosed-Repo-Github\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1734014778000,
+      "lastUpdated": 1734265254000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 文件上传重命名*默认开启 (自动重命名base为包名或应用名 自动将.apk重命名成.APK 防止被QQ自动重命名成.apk.1\n私聊暂未适配,等待后续适配)\n新增 消息气泡圆角度优化\n修复 复读开启后QQ原本复读图标仍然会出现\n新增 禁用QQ内置浏览器\n新增 复读可设置双击复读 图标大小\n新增 去除回复自动艾特\n新增 显示具体的消息数量\n新增 消息气泡优化支持自定义的HEX颜色值\n新增 模块设置页和app主页可查看历史更新日志\n新增 app主页隐藏桌面图标\n\n性能优化 优化打开模块设置页面的性能\n\n适配 私聊时文件上传重命名\n适配 回复消息和带图消息气泡没有被优化的问题"
+          "whatsNew": "消除LSPosed更新提示"
         }
       },
       "name": "Tim小助手(TimTool)",
       "packageName": "top.sacz.timtool",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.sacz.timtool",
-      "suggestedVersionCode": "15",
-      "suggestedVersionName": "1.5fix",
+      "suggestedVersionCode": "16",
+      "suggestedVersionName": "1.6",
       "summary": "Tim,QQ 功能性模块 为Tim增加更多功能 正在持续维护 \n适配最新Tim\n适配版本 4.0.97 +"
     },
     {
@@ -7822,7 +7822,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e欢乐斗地主不看广告\u003c/h1\u003e\n\u003cp\u003e欢乐斗地主看广告给奖励，需要看15秒视频后才能关闭领取，有了这个模块，再也不用忍受这种恶心的行为，\n广告页面弹出1秒后自动关闭并领取奖励\u003c/p\u003e\n\u003cp\u003e本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2024.12.09    v1.0.6    适配欢乐斗地主8.032.016版本\u003c/p\u003e\n\u003cp\u003e2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题\u003c/p\u003e\n\u003cp\u003e2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本\u003c/p\u003e\n\u003ch1\u003eBuy me a beer\u003c/h1\u003e\n\u003cp\u003e如果您觉得好用，请给个打赏，谢谢！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e欢乐斗地主不看广告\u003c/h1\u003e\n\u003cp\u003e欢乐斗地主看广告给奖励，需要看15秒视频后才能关闭领取，有了这个模块，再也不用忍受这种恶心的行为，\n广告页面弹出1秒后自动关闭并领取奖励\u003c/p\u003e\n\u003cp\u003e本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！\u003c/p\u003e\n\u003cp\u003e严禁基于本模块进行二次开发，一经发现永久停更！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2024.12.09    v1.0.8    适配欢乐斗地主8.032.016版本\u003c/p\u003e\n\u003cp\u003e2023.11.17    v1.0.7    解决必须手动点击的5秒广告不会自动跳过的问题\u003c/p\u003e\n\u003cp\u003e2023.11.11    v1.0.6    适配欢乐斗地主8.024.016版本\u003c/p\u003e\n\u003ch1\u003eBuy me a beer\u003c/h1\u003e\n\u003cp\u003e如果您觉得好用，请给个打赏，谢谢！\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
       "icon": "com.kgg.hlddz.png",
       "lastUpdated": 1733715291000,
       "license": "Unknown",
@@ -12922,7 +12922,7 @@
         "versionName": "1.0.7"
       },
       {
-        "added": 1733679993000,
+        "added": 1734281046000,
         "apkName": "com.kgg.hlddz_1-1.0.8.apk",
         "hash": "68ebb9b04c2e5b5833f26b15e9f45f9b2601de14b4656ecd504d6e77bdf01e34",
         "hashType": "sha256",
@@ -15623,7 +15623,22 @@
     ],
     "inc.whew.android.fakegapps": [
       {
-        "added": 1699820737000,
+        "added": 1734277251000,
+        "apkName": "inc.whew.android.fakegapps_11-6.apk",
+        "hash": "c910c43b460154a0ec29d5c9164ded8aec9f63750205bc7edbc34ebd25aa4073",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": null,
+        "packageName": "inc.whew.android.fakegapps",
+        "sig": "3cfe0ae92b9d36fc60e0f11c23f9420d",
+        "signer": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b",
+        "size": 33054,
+        "targetSdkVersion": 35,
+        "versionCode": 11,
+        "versionName": "6"
+      },
+      {
+        "added": 1732159532000,
         "apkName": "inc.whew.android.fakegapps_10-5.apk",
         "hash": "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce",
         "hashType": "sha256",
@@ -18319,7 +18334,25 @@
     ],
     "top.hookvip.pro": [
       {
-        "added": 1733040919000,
+        "added": 1734239968000,
+        "apkName": "top.hookvip.pro_20241215-4.0.4.apk",
+        "hash": "a81e276ac7c095c9ae55fbb554fb48ac84258855bae679c77015bcd0e40a107d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "top.hookvip.pro",
+        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
+        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
+        "size": 5228482,
+        "targetSdkVersion": 34,
+        "versionCode": 20241215,
+        "versionName": "4.0.4"
+      },
+      {
+        "added": 1733214163000,
         "apkName": "top.hookvip.pro_20241201-4.0.3.apk",
         "hash": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
         "hashType": "sha256",
@@ -18353,29 +18386,28 @@
         "targetSdkVersion": 34,
         "versionCode": 20241115,
         "versionName": "4.0.2"
-      },
-      {
-        "added": 1732159588000,
-        "apkName": "top.hookvip.pro_20241030-4.0.0.apk",
-        "hash": "178c5c7f39dad441b54eef85392062dc0120eb38f53380a153275eed4a039ad5",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "top.hookvip.pro",
-        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
-        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
-        "size": 4626099,
-        "targetSdkVersion": 34,
-        "versionCode": 20241030,
-        "versionName": "4.0.0"
       }
     ],
     "top.sacz.timtool": [
       {
-        "added": 1734014778000,
+        "added": 1734265254000,
+        "apkName": "top.sacz.timtool_16-1.6.apk",
+        "hash": "bf385967188217cbf135a87b80f51934f6a5757c6c9b9d4d0df4b954644349a6",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "top.sacz.timtool",
+        "sig": "1cfd43e125c620e8fb98680152f8cf82",
+        "signer": "3f620fe56f820460e20d4ffcbf077e0778e10fd0d565b03d8fe7a84536ec2077",
+        "size": 5170685,
+        "targetSdkVersion": 35,
+        "versionCode": 16,
+        "versionName": "1.6"
+      },
+      {
+        "added": 1734061122000,
         "apkName": "top.sacz.timtool_15-1.5.apk",
         "hash": "9919b135b7c5251546d59dce7d5d0c5ad98cfd03fba3823f37619a1e0e8e80ee",
         "hashType": "sha256",
