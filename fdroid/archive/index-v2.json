@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1734233871000,
+    "timestamp": 1734320543000,
     "categories": {
       "Xposed": {
         "name": {
@@ -678,7 +678,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733214163000,
+        "lastUpdated": 1734320314000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
         "authorName": "lovejiuwu",
         "name": {
@@ -688,11 +688,77 @@
           "en-US": "解锁部分APP高级版及添加拓展功能"
         },
         "description": {
-          "en-US": "<h1>NewHookVip</h1>\n<p>用于解锁部分App会员以及添加一些拓展功能的Xposed模块</br>(重构自HookVip)</p>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /></a>\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /></a></p>\n<h2>Telegram</h2>\n<p><a href=\"https://t.me/HookVipCl\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/频道-@HookVipCl-blue.svg?logo=telegram\"></a><br />\n<a href=\"https://t.me/HookVipChat\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/群组-@HookVipChat-blue.svg?logo=telegram\"></a></p>\n"
+          "en-US": "<div align=\"center\">\n<h1>NewHookVip</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest\"><img alt=\"GitHub lastest release\" src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\"></a></p>\n<p><a href=\"https://t.me/HookVipCl\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a>\n<a href=\"https://t.me/HookVipChat\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-群组-blue.svg?logo=telegram\"></a></p>\n<p>用于解锁部分App会员以及添加一些拓展功能的Xposed模块</p>\n<p>\n   <b>支持框架 | <a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a> | <a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a>\n</p>\n</div>\n<h2>关于</h2>\n<ul>\n<li>此项目在前HookVip的基础上重构于2024.10.30</li>\n<li>这是一款基于XposedApi开发的Xposed模块</li>\n<li>用于对APP解锁高级功能/限制及添加一些拓展功能</li>\n<li>旨在优化用户使用体验 为用户提供更便利的功能</li>\n<li>应用内所有功能仅供学习交流 请勿用于商业/违法用途</li>\n<li>本模块完全免费使用 不存在收费盈利</li>\n<li>如果你是付费购买的 请联系售卖者退款</li>\n<li>若有任何售卖/倒卖本插件者 则替模块开发者挡灾挡难</li>\n<li>如有侵权问题 请联系邮箱<a href=\"mailto:hookvip@163.com\">hookvip@163.com</a></li>\n</ul>\n<h2>使用说明</h2>\n<h3>破解功能</h3>\n<ul>\n<li>1.勾选对应应用重启后生效</li>\n<li>2.如果没有生效请尝试登录一下账号</li>\n<li>3.如果仍然不生效可能是坏掉了</li>\n<li>4.欢迎提交issues反馈问题</li>\n</ul>\n<h3>拓展功能</h3>\n<ul>\n<li>1.请先前往模块主页</li>\n<li>2.点击左上角/主页右滑 打开侧滑栏</li>\n<li>3.打开拓展功能页</li>\n<li>4.找到并点击你需要作用于的应用</li>\n<li>5.再选择性打开你需要使用的功能</li>\n<li>6.确保已经打开了总开关</li>\n<li>7.重启对应应用后生效</li>\n</ul>\n<h3>拓展应用</h3>\n<ul>\n<li>1.勾选对应应用</li>\n<li>2.重启此应用</li>\n<li>3.前往应用设置页/用户信息页</li>\n<li>4.模块会注入相关的功能开关</li>\n<li>5.找到并打开对应功能开关即可</li>\n<li>6.需要重启应用后生效</li>\n</ul>\n<h2>框架限制</h2>\n<h3>LSPosed</h3>\n<ul>\n<li>可以正常使用此模块的所有功能</li>\n</ul>\n<h3>LSPatch</h3>\n<ul>\n<li>只允许使用破解功能</li>\n<li>无法使用拓展应用功能</li>\n<li>部分危险破解功能也会限制使用</li>\n<li>不允许使用内置 只可使用本地模式</li>\n<li>不接受任何此框架用户的反馈</li>\n</ul>\n"
         },
         "preferredSigner": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
       },
       "versions": {
+        "178c5c7f39dad441b54eef85392062dc0120eb38f53380a153275eed4a039ad5": {
+          "added": 1732159588000,
+          "file": {
+            "name": "/top.hookvip.pro_20241030-4.0.0.apk",
+            "sha256": "178c5c7f39dad441b54eef85392062dc0120eb38f53380a153275eed4a039ad5",
+            "size": 4626099
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.0",
+            "versionCode": 20241030,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "24e6d1136f56ff447d0d71550c986949369523baa5558d941f6a0b9fa43678ae": {
           "added": 1732159588000,
           "file": {

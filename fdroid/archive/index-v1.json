@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734233871000,
+    "timestamp": 1734320543000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -64,16 +64,16 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "4.0.3",
-      "suggestedVersionCode": "20241201",
-      "description": "<h1>NewHookVip</h1>\n<p>\u7528\u4e8e\u89e3\u9501\u90e8\u5206App\u4f1a\u5458\u4ee5\u53ca\u6dfb\u52a0\u4e00\u4e9b\u62d3\u5c55\u529f\u80fd\u7684Xposed\u6a21\u5757</br>(\u91cd\u6784\u81eaHookVip)</p>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\" alt=\"Stars\" /></a>\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total\" alt=\"Downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/top.hookvip.pro\" alt=\"GitHub Release Date\" /></a></p>\n<h2>Telegram</h2>\n<p><a href=\"https://t.me/HookVipCl\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/\u9891\u9053-@HookVipCl-blue.svg?logo=telegram\"></a><br />\n<a href=\"https://t.me/HookVipChat\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/\u7fa4\u7ec4-@HookVipChat-blue.svg?logo=telegram\"></a></p>\n",
+      "suggestedVersionName": "4.0.4",
+      "suggestedVersionCode": "20241215",
+      "description": "<div align=\"center\">\n<h1>NewHookVip</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest\"><img alt=\"GitHub lastest release\" src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\"></a></p>\n<p><a href=\"https://t.me/HookVipCl\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-\u9891\u9053-blue.svg?logo=telegram\"></a>\n<a href=\"https://t.me/HookVipChat\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-\u7fa4\u7ec4-blue.svg?logo=telegram\"></a></p>\n<p>\u7528\u4e8e\u89e3\u9501\u90e8\u5206App\u4f1a\u5458\u4ee5\u53ca\u6dfb\u52a0\u4e00\u4e9b\u62d3\u5c55\u529f\u80fd\u7684Xposed\u6a21\u5757</p>\n<p>\n   <b>\u652f\u6301\u6846\u67b6 | <a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a> | <a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a>\n</p>\n</div>\n<h2>\u5173\u4e8e</h2>\n<ul>\n<li>\u6b64\u9879\u76ee\u5728\u524dHookVip\u7684\u57fa\u7840\u4e0a\u91cd\u6784\u4e8e2024.10.30</li>\n<li>\u8fd9\u662f\u4e00\u6b3e\u57fa\u4e8eXposedApi\u5f00\u53d1\u7684Xposed\u6a21\u5757</li>\n<li>\u7528\u4e8e\u5bf9APP\u89e3\u9501\u9ad8\u7ea7\u529f\u80fd/\u9650\u5236\u53ca\u6dfb\u52a0\u4e00\u4e9b\u62d3\u5c55\u529f\u80fd</li>\n<li>\u65e8\u5728\u4f18\u5316\u7528\u6237\u4f7f\u7528\u4f53\u9a8c \u4e3a\u7528\u6237\u63d0\u4f9b\u66f4\u4fbf\u5229\u7684\u529f\u80fd</li>\n<li>\u5e94\u7528\u5185\u6240\u6709\u529f\u80fd\u4ec5\u4f9b\u5b66\u4e60\u4ea4\u6d41 \u8bf7\u52ff\u7528\u4e8e\u5546\u4e1a/\u8fdd\u6cd5\u7528\u9014</li>\n<li>\u672c\u6a21\u5757\u5b8c\u5168\u514d\u8d39\u4f7f\u7528 \u4e0d\u5b58\u5728\u6536\u8d39\u76c8\u5229</li>\n<li>\u5982\u679c\u4f60\u662f\u4ed8\u8d39\u8d2d\u4e70\u7684 \u8bf7\u8054\u7cfb\u552e\u5356\u8005\u9000\u6b3e</li>\n<li>\u82e5\u6709\u4efb\u4f55\u552e\u5356/\u5012\u5356\u672c\u63d2\u4ef6\u8005 \u5219\u66ff\u6a21\u5757\u5f00\u53d1\u8005\u6321\u707e\u6321\u96be</li>\n<li>\u5982\u6709\u4fb5\u6743\u95ee\u9898 \u8bf7\u8054\u7cfb\u90ae\u7bb1<a href=\"mailto:hookvip@163.com\">hookvip@163.com</a></li>\n</ul>\n<h2>\u4f7f\u7528\u8bf4\u660e</h2>\n<h3>\u7834\u89e3\u529f\u80fd</h3>\n<ul>\n<li>1.\u52fe\u9009\u5bf9\u5e94\u5e94\u7528\u91cd\u542f\u540e\u751f\u6548</li>\n<li>2.\u5982\u679c\u6ca1\u6709\u751f\u6548\u8bf7\u5c1d\u8bd5\u767b\u5f55\u4e00\u4e0b\u8d26\u53f7</li>\n<li>3.\u5982\u679c\u4ecd\u7136\u4e0d\u751f\u6548\u53ef\u80fd\u662f\u574f\u6389\u4e86</li>\n<li>4.\u6b22\u8fce\u63d0\u4ea4issues\u53cd\u9988\u95ee\u9898</li>\n</ul>\n<h3>\u62d3\u5c55\u529f\u80fd</h3>\n<ul>\n<li>1.\u8bf7\u5148\u524d\u5f80\u6a21\u5757\u4e3b\u9875</li>\n<li>2.\u70b9\u51fb\u5de6\u4e0a\u89d2/\u4e3b\u9875\u53f3\u6ed1 \u6253\u5f00\u4fa7\u6ed1\u680f</li>\n<li>3.\u6253\u5f00\u62d3\u5c55\u529f\u80fd\u9875</li>\n<li>4.\u627e\u5230\u5e76\u70b9\u51fb\u4f60\u9700\u8981\u4f5c\u7528\u4e8e\u7684\u5e94\u7528</li>\n<li>5.\u518d\u9009\u62e9\u6027\u6253\u5f00\u4f60\u9700\u8981\u4f7f\u7528\u7684\u529f\u80fd</li>\n<li>6.\u786e\u4fdd\u5df2\u7ecf\u6253\u5f00\u4e86\u603b\u5f00\u5173</li>\n<li>7.\u91cd\u542f\u5bf9\u5e94\u5e94\u7528\u540e\u751f\u6548</li>\n</ul>\n<h3>\u62d3\u5c55\u5e94\u7528</h3>\n<ul>\n<li>1.\u52fe\u9009\u5bf9\u5e94\u5e94\u7528</li>\n<li>2.\u91cd\u542f\u6b64\u5e94\u7528</li>\n<li>3.\u524d\u5f80\u5e94\u7528\u8bbe\u7f6e\u9875/\u7528\u6237\u4fe1\u606f\u9875</li>\n<li>4.\u6a21\u5757\u4f1a\u6ce8\u5165\u76f8\u5173\u7684\u529f\u80fd\u5f00\u5173</li>\n<li>5.\u627e\u5230\u5e76\u6253\u5f00\u5bf9\u5e94\u529f\u80fd\u5f00\u5173\u5373\u53ef</li>\n<li>6.\u9700\u8981\u91cd\u542f\u5e94\u7528\u540e\u751f\u6548</li>\n</ul>\n<h2>\u6846\u67b6\u9650\u5236</h2>\n<h3>LSPosed</h3>\n<ul>\n<li>\u53ef\u4ee5\u6b63\u5e38\u4f7f\u7528\u6b64\u6a21\u5757\u7684\u6240\u6709\u529f\u80fd</li>\n</ul>\n<h3>LSPatch</h3>\n<ul>\n<li>\u53ea\u5141\u8bb8\u4f7f\u7528\u7834\u89e3\u529f\u80fd</li>\n<li>\u65e0\u6cd5\u4f7f\u7528\u62d3\u5c55\u5e94\u7528\u529f\u80fd</li>\n<li>\u90e8\u5206\u5371\u9669\u7834\u89e3\u529f\u80fd\u4e5f\u4f1a\u9650\u5236\u4f7f\u7528</li>\n<li>\u4e0d\u5141\u8bb8\u4f7f\u7528\u5185\u7f6e \u53ea\u53ef\u4f7f\u7528\u672c\u5730\u6a21\u5f0f</li>\n<li>\u4e0d\u63a5\u53d7\u4efb\u4f55\u6b64\u6846\u67b6\u7528\u6237\u7684\u53cd\u9988</li>\n</ul>\n",
       "license": "Unknown",
       "name": "NewHookVip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
       "summary": "\u89e3\u9501\u90e8\u5206APP\u9ad8\u7ea7\u7248\u53ca\u6dfb\u52a0\u62d3\u5c55\u529f\u80fd",
       "added": 1732159588000,
       "packageName": "top.hookvip.pro",
-      "lastUpdated": 1733214163000
+      "lastUpdated": 1734320314000
     },
     {
       "authorName": "ALittle-Cool",
@@ -629,6 +629,78 @@
       }
     ],
     "top.hookvip.pro": [
+      {
+        "added": 1732159588000,
+        "apkName": "top.hookvip.pro_20241030-4.0.0.apk",
+        "hash": "178c5c7f39dad441b54eef85392062dc0120eb38f53380a153275eed4a039ad5",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "top.hookvip.pro",
+        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
+        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
+        "size": 4626099,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.KILL_BACKGROUND_PROCESSES",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 20241030,
+        "versionName": "4.0.0"
+      },
       {
         "added": 1732159588000,
         "apkName": "top.hookvip.pro_20241030-4.0.1.apk",
