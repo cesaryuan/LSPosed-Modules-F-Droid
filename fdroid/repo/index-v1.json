@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734320557000,
+    "timestamp": 1734406434000,
     "version": 20002
   },
   "requests": {
@@ -2182,6 +2182,27 @@
       "suggestedVersionCode": "6800",
       "suggestedVersionName": "1.3.8-release",
       "summary": "去他妈的广告\nFuck Ads"
+    },
+    {
+      "added": 1734403902000,
+      "authorName": "bug-bit",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eFuck for Game\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.gamehook?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.gamehook/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.gamehook\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/bugccx\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eFuck for Game 是一个基于 Xposed 的免费的游戏内购模块。\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch3\u003e注意\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e基于某个版本适配｜可能通杀｜如果无效你可能需要下载模块内标注的对应适配版本才可能正常使用模块的功能。\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e所有适配的游戏都已经通过测试，你不会用和无效要分清\u003c/em\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e免责声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e本模块完全免费！禁止倒卖、搬运、引流、转载、分享！否则一切后果自行承担！\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！\u003c/li\u003e\n\u003cli\u003e本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e须知\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗了！请不遗余力的进行举报！\u003c/li\u003e\n\u003cli\u003e唯一Telegram频道：@bugccx\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1734403902000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "首个公开上传测试版"
+        }
+      },
+      "name": "Fuck for Game",
+      "packageName": "com.bug.gamehook",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.gamehook",
+      "suggestedVersionCode": "24121515",
+      "suggestedVersionName": "1.0.0-cb-5-57",
+      "summary": "一个基于 Xposed 的免费的游戏内购模块。"
     },
     {
       "added": 1733826423000,
@@ -6351,6 +6372,28 @@
       "suggestedVersionCode": "7",
       "suggestedVersionName": "1.0.6",
       "summary": "Speed up your Telegram download.\n提升你的 Telegram 下载速度。"
+    },
+    {
+      "added": 1734362134000,
+      "authorName": "mustafa1dev",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003cp\u003eThis module is compatible with the latest version of the official Telegram app.\u003c/p\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
+      "icon": "com.my.televip.1.png",
+      "lastUpdated": 1734362134000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "TeleVip LSPosed Module\n\nA module for modifying Telegram with the following features:\n\n1. Hide \"Seen\" status for messages.\n\n\n2. Hide \"Typing...\" indicator.\n\n\n3. Hide story view status.\n\n\n4. Unlock all restricted and encrypted features for channels.\n\n\n5. Boost Telegram download speed.\n\n\n6. Enable Telegram Premium features.\n\n\n7. Save stories to the gallery, including those that cannot normally be saved.\n\n\n8. Change name (Note: The name changes only on your device).\n\n\nThere are additional features t"
+        }
+      },
+      "name": "TeleVip",
+      "packageName": "com.my.televip",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "TeleVip A module for modifying Telegram"
     },
     {
       "added": 1694231765000,
@@ -11160,6 +11203,23 @@
         "versionName": "3.5.5"
       }
     ],
+    "com.bug.gamehook": [
+      {
+        "added": 1734403902000,
+        "apkName": "com.bug.gamehook_24121515-1.0.0-cb-5-57.apk",
+        "hash": "4601faa84ad5b06238e3f27fe26d012354548da6f852691f27870df15bf3a0e7",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "com.bug.gamehook",
+        "sig": "90172522574ef52dc6d68c644d2fb88b",
+        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
+        "size": 2978402,
+        "targetSdkVersion": 35,
+        "versionCode": 24121515,
+        "versionName": "1.0.0-cb-5-57"
+      }
+    ],
     "com.bug.hookvip": [
       {
         "added": 1733826423000,
@@ -13387,6 +13447,23 @@
         "targetSdkVersion": 31,
         "versionCode": 20240914,
         "versionName": "2.0.0"
+      }
+    ],
+    "com.my.televip": [
+      {
+        "added": 1734362134000,
+        "apkName": "com.my.televip_1-1.0.apk",
+        "hash": "29da19940053a5744ad0fae958900703b88b2daaec4a857075bf149af8ec0be2",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.my.televip",
+        "sig": "5e1c289354cddde261ea459a57985099",
+        "signer": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+        "size": 78620,
+        "targetSdkVersion": 28,
+        "versionCode": 1,
+        "versionName": "1.0"
       }
     ],
     "com.nnnen.plusne": [
