@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1734406421000,
+    "timestamp": 1734493268000,
     "categories": {
       "Xposed": {
         "name": {
@@ -372,6 +372,54 @@
             "signer": {
               "sha256": [
                 "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.twifucker.hachidori": {
+      "metadata": {
+        "added": 1732159503000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1734492445000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
+        "authorName": "Xposed-Modules-Repo",
+        "name": {
+          "en-US": "Hachidori"
+        },
+        "summary": {
+          "en-US": "A X (formerly Twitter) Xposed modules."
+        },
+        "description": {
+          "en-US": "<h1>Hachidori</h1>\n<p>A X (formerly Twitter) Xposed modules.</p>\n<h1>Requirements</h1>\n<ul>\n<li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>\n</ul>\n"
+        },
+        "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+      },
+      "versions": {
+        "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10": {
+          "added": 1732159503000,
+          "file": {
+            "name": "/com.twifucker.hachidori_21-0.21.apk",
+            "sha256": "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10",
+            "size": 4639250
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.21",
+            "versionCode": 21,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
               ]
             }
           }
