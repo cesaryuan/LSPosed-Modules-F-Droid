@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734406434000,
+    "timestamp": 1734493282000,
     "version": 20002
   },
   "requests": {
@@ -597,25 +597,25 @@
       "summary": "仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC"
     },
     {
-      "added": 1716388683000,
+      "added": 1734432955000,
       "authorName": "HChenX",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAutoSEffSwitch\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O\u003c/li\u003e\n\u003cli\u003e模块只支持小米哦！ (\u003ccode\u003eMiui\u003c/code\u003e, \u003ccode\u003eHyperOS\u003c/code\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e模块具体功能如下\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e详细：\n\u003cul\u003e\n\u003cli\u003e1.连接蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e2.连接有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e3.断开蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003cli\u003e4.断开有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e模块需要使用的作用域: \u003ccode\u003e音质音效\u003c/code\u003e \u003ccode\u003e系统\u003c/code\u003e。\u003c/li\u003e\n\u003cli\u003e安装模块重启系统即可使用。\u003c/li\u003e\n\u003cli\u003e如果无法使用说明可能不适配，请带着日志反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eHookTool\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eLSPosed\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eDexKit\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAutoSEffSwitch\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O\u003c/li\u003e\n\u003cli\u003e模块只支持小米哦！ (\u003ccode\u003eMiui\u003c/code\u003e, \u003ccode\u003eHyperOS\u003c/code\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e模块具体功能如下\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e详细：\n\u003cul\u003e\n\u003cli\u003e1.连接蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e2.连接有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e3.断开蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003cli\u003e4.断开有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e模块需要使用的作用域: \u003ccode\u003e音质音效\u003c/code\u003e。\u003c/li\u003e\n\u003cli\u003e安装模块重启系统或音质音效即可使用。\u003c/li\u003e\n\u003cli\u003e如果无法使用说明可能不适配，请带着日志反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eHookTool\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eLSPosed\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eDexKit\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.hchen.autoseffswitch.png",
-      "lastUpdated": 1716388683000,
+      "lastUpdated": 1734432955000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "#### AutoSEffSwitch v.1.6\n\n- 是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O\n- 模块只支持小米哦！ (`Miui`, `HyperOS`)\n- 详细参见 README\n-----\n- 模块需要使用的作用域: `音质音效` `系统`。\n- 安装模块重启系统即可使用。\n- 如果无法使用说明可能不适配，请带着日志反馈。"
+          "whatsNew": "### AutoSEffSwitch v.2.0\n#### 更新日志：\n- 重构模块代码，删除多余的 `CmdHelper` 类，优化代码逻辑。\n- 全面适配 OS2、OS1 等 XiaoMi 系统。\n- 支持连接蓝牙、有线耳机时切换声音效果为原声。\n- 更新 HookTool 版本至 v.1.1.2。\n- 更新模块依赖至最新版。\n\n#### 修复问题：\n- #1 、 #4 \n\n#### 新贡献者：\n- @hank9999 \n\n#### 文件 Hash256 值：\n- 61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09"
         }
       },
       "name": "AutoSEffSwitch",
       "packageName": "com.hchen.autoseffswitch",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
-      "suggestedVersionCode": "2024052201",
-      "suggestedVersionName": "1.6",
+      "suggestedVersionCode": "2024121700",
+      "suggestedVersionName": "2.0",
       "summary": "连接蓝牙耳机或有线耳机时自动切换音效为原声！Automatically switch sound effects to original sound wh..."
     },
     {
@@ -2720,24 +2720,24 @@
       "summary": "All-in-one complex module for devices running vanilla Android 11 (R)"
     },
     {
-      "added": 1734180686000,
+      "added": 1734451862000,
       "authorName": "Xposed-Modules-Repo",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eHachidori\u003c/h1\u003e\n\u003cp\u003eA X (formerly Twitter) Xposed modules.\u003c/p\u003e\n\u003ch1\u003eRequirements\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eLSPosed v1.9.2 (7024) (Rooted Android only) and above\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1734180686000,
+      "lastUpdated": 1734451862000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# Changes\n\n- fix: custom media download for `10.71.0-release.2`\n- Integrated [BugSnag](https://www.bugsnag.com/) into module, if any feature breaks, it will report to us automatically\n- minor bug fixes\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (`LSPosed_mod` is not working in Android 15, please join [LSPosed Internal Testing](https://t.me/LSPosed/287) or change to another LSPosed fork)\n\nLong press X icon on top of the home screen or tap version in about section to"
+          "whatsNew": "# Changes\n\n- fix remove promoted banner ads in explore tab\n- add remove \"Discover new Lists\" feature\n- minor bug fixes\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (`LSPosed_mod` is not working in Android 15, please join [LSPosed Internal Testing](https://t.me/LSPosed/287) or change to another LSPosed fork)\n\nLong press X icon on top of the home screen or tap version in about section to access settings.\n\nPlease DO NOT tweet/post anything about this module at Twitter/X"
         }
       },
       "name": "Hachidori",
       "packageName": "com.twifucker.hachidori",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
-      "suggestedVersionCode": "23",
-      "suggestedVersionName": "0.23",
+      "suggestedVersionCode": "24",
+      "suggestedVersionName": "0.24",
       "summary": "A X (formerly Twitter) Xposed modules."
     },
     {
@@ -6374,25 +6374,25 @@
       "summary": "Speed up your Telegram download.\n提升你的 Telegram 下载速度。"
     },
     {
-      "added": 1734362134000,
+      "added": 1734406228000,
       "authorName": "mustafa1dev",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003cp\u003eThis module is compatible with the latest version of the official Telegram app.\u003c/p\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003cp\u003eThis module is compatible with:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eTelegram\u003c/li\u003e\n\u003cli\u003ePlus\u003c/li\u003e\n\u003cli\u003eTG Connect\u003c/li\u003e\n\u003cli\u003eSkygram\u003c/li\u003e\n\u003cli\u003eiMe\u003c/li\u003e\n\u003cli\u003eX Plus\u003c/li\u003e\n\u003cli\u003eCherrygram\u003c/li\u003e\n\u003cli\u003eNicegram\u003c/li\u003e\n\u003cli\u003eNagram\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
       "icon": "com.my.televip.1.png",
-      "lastUpdated": 1734362134000,
+      "lastUpdated": 1734492430000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "TeleVip LSPosed Module\n\nA module for modifying Telegram with the following features:\n\n1. Hide \"Seen\" status for messages.\n\n\n2. Hide \"Typing...\" indicator.\n\n\n3. Hide story view status.\n\n\n4. Unlock all restricted and encrypted features for channels.\n\n\n5. Boost Telegram download speed.\n\n\n6. Enable Telegram Premium features.\n\n\n7. Save stories to the gallery, including those that cannot normally be saved.\n\n\n8. Change name (Note: The name changes only on your device).\n\n\nThere are additional features t"
+          "whatsNew": "We have made the TeleVip module support the following:\n\nTelegram\nPlus\nTG Connect\nSkygram\niMe\nX Plus\nCherrygram\nNicegram\nNagram\n![Screenshot_20241217-221803_1](https://github.com/user-attachments/assets/3ff67ac4-4504-4154-9bc0-fd7f9704a512)\n\nAdditionally, we have addressed some existing issues within the module."
         }
       },
       "name": "TeleVip",
       "packageName": "com.my.televip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionName": "1.1",
       "summary": "TeleVip A module for modifying Telegram"
     },
     {
@@ -8993,7 +8993,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch2\u003e告示\u003c/h2\u003e\n\u003ch5\u003e本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看\u003c/h5\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "lastUpdated": 1733494596000,
       "license": "Unknown",
       "localized": {
@@ -12376,7 +12376,25 @@
     ],
     "com.hchen.autoseffswitch": [
       {
-        "added": 1716388683000,
+        "added": 1734432955000,
+        "apkName": "com.hchen.autoseffswitch_2024121700-2.0.apk",
+        "hash": "61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.hchen.autoseffswitch",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 572498,
+        "targetSdkVersion": 34,
+        "versionCode": 2024121700,
+        "versionName": "2.0"
+      },
+      {
+        "added": 1732159462000,
         "apkName": "com.hchen.autoseffswitch_2024052201-1.6.apk",
         "hash": "8f5bb2bbd11d1194f210e40e84f5c95f58bd2e26805fb8c29d32ce6073fcc7ca",
         "hashType": "sha256",
@@ -13451,7 +13469,7 @@
     ],
     "com.my.televip": [
       {
-        "added": 1734362134000,
+        "added": 1734406228000,
         "apkName": "com.my.televip_1-1.0.apk",
         "hash": "29da19940053a5744ad0fae958900703b88b2daaec4a857075bf149af8ec0be2",
         "hashType": "sha256",
@@ -13464,6 +13482,21 @@
         "targetSdkVersion": 28,
         "versionCode": 1,
         "versionName": "1.0"
+      },
+      {
+        "added": 1734463293000,
+        "apkName": "com.my.televip_1-1.1.apk",
+        "hash": "8ec8387c7758b970bba9d94f50d67f9212f801594b1e1ed92589f6c76ed56441",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.my.televip",
+        "sig": "5e1c289354cddde261ea459a57985099",
+        "signer": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+        "size": 62142,
+        "targetSdkVersion": 28,
+        "versionCode": 1,
+        "versionName": "1.1"
       }
     ],
     "com.nnnen.plusne": [
@@ -14265,7 +14298,25 @@
     ],
     "com.twifucker.hachidori": [
       {
-        "added": 1734180686000,
+        "added": 1734451862000,
+        "apkName": "com.twifucker.hachidori_24-0.24.apk",
+        "hash": "6c9ce241ebd42e98f4bdd5f2de8fcf89bf62f8868271e6472e3565e93e2bc024",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.twifucker.hachidori",
+        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
+        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
+        "size": 4813538,
+        "targetSdkVersion": 35,
+        "versionCode": 24,
+        "versionName": "0.24"
+      },
+      {
+        "added": 1734233701000,
         "apkName": "com.twifucker.hachidori_23-0.23.apk",
         "hash": "1228800d8767f44ea67a20cfb1b212bf2f5954a4334d88e4b0fea6ef5449ce15",
         "hashType": "sha256",
@@ -14299,24 +14350,6 @@
         "targetSdkVersion": 35,
         "versionCode": 22,
         "versionName": "0.22"
-      },
-      {
-        "added": 1732159503000,
-        "apkName": "com.twifucker.hachidori_21-0.21.apk",
-        "hash": "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.twifucker.hachidori",
-        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
-        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
-        "size": 4639250,
-        "targetSdkVersion": 35,
-        "versionCode": 21,
-        "versionName": "0.21"
       }
     ],
     "com.unexpected.capture.uc": [

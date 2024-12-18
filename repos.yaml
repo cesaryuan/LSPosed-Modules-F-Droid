@@ -5987,23 +5987,32 @@ com.hchen.autoseffswitch:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<h1>AutoSEffSwitch</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O</li>\n<li>模块只支持小米哦！ (<code>Miui</code>, <code>HyperOS</code>)</li>\n</ul>\n<h1>\U0001F4A1模块说明</h1>\n<ul>\n<li>模块具体功能如下</li>\n</ul>\n<ul>\n<li>详细：\n<ul>\n<li>1.连接蓝牙耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>2.连接有线耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>3.断开蓝牙耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n<li>4.断开有线耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>模块需要使用的作用域: <code>音质音效</code> <code>系统</code>。</li>\n<li>安装模块重启系统即可使用。</li>\n<li>如果无法使用说明可能不适配，请带着日志反馈。</li>\n</ul>\n<h1>\U0001F64F致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">LSPosed</td>\n<td align=\"center\"><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></td>\n</tr>\n<tr>\n<td align=\"center\">DexKit</td>\n<td align=\"center\"><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\U0001F4E2项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n</ul>\n<h1>\U0001F30F免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>\U0001F389结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
-          filename: AutoSEffSwitch.v.1.6.apk
+          description: "<div align=\"center\">\n<h1>AutoSEffSwitch</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O</li>\n<li>模块只支持小米哦！ (<code>Miui</code>, <code>HyperOS</code>)</li>\n</ul>\n<h1>\U0001F4A1模块说明</h1>\n<ul>\n<li>模块具体功能如下</li>\n</ul>\n<ul>\n<li>详细：\n<ul>\n<li>1.连接蓝牙耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>2.连接有线耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>3.断开蓝牙耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n<li>4.断开有线耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>模块需要使用的作用域: <code>音质音效</code>。</li>\n<li>安装模块重启系统或音质音效即可使用。</li>\n<li>如果无法使用说明可能不适配，请带着日志反馈。</li>\n</ul>\n<h1>\U0001F64F致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">LSPosed</td>\n<td align=\"center\"><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></td>\n</tr>\n<tr>\n<td align=\"center\">DexKit</td>\n<td align=\"center\"><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\U0001F4E2项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n</ul>\n<h1>\U0001F30F免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>\U0001F389结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
+          filename: AutoSEffSwitch-v.2.0.apk
           id: com.hchen.autoseffswitch
           name: AutoSEffSwitch
-          last_updated: "2024-05-22T14:38:03Z"
+          last_updated: "2024-12-17T10:55:55Z"
           releasedescription: |-
-            <h4>AutoSEffSwitch v.1.6</h4>
+            <h3>AutoSEffSwitch v.2.0</h3>
+            <h4>更新日志：</h4>
             <ul>
-            <li>是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O</li>
-            <li>模块只支持小米哦！ (<code>Miui</code>, <code>HyperOS</code>)</li>
-            <li>详细参见 README</li>
+            <li>重构模块代码，删除多余的 <code>CmdHelper</code> 类，优化代码逻辑。</li>
+            <li>全面适配 OS2、OS1 等 XiaoMi 系统。</li>
+            <li>支持连接蓝牙、有线耳机时切换声音效果为原声。</li>
+            <li>更新 HookTool 版本至 v.1.1.2。</li>
+            <li>更新模块依赖至最新版。</li>
             </ul>
-            <hr>
+            <h4>修复问题：</h4>
             <ul>
-            <li>模块需要使用的作用域: <code>音质音效</code> <code>系统</code>。</li>
-            <li>安装模块重启系统即可使用。</li>
-            <li>如果无法使用说明可能不适配，请带着日志反馈。</li>
+            <li>#1 、 #4</li>
+            </ul>
+            <h4>新贡献者：</h4>
+            <ul>
+            <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hank9999/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hank9999">@hank9999</a></li>
+            </ul>
+            <h4>文件 Hash256 值：</h4>
+            <ul>
+            <li>61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09</li>
             </ul>
     author_name: HChenX
 com.hchen.clipboardlist:
@@ -8520,6 +8529,8 @@ com.mihuashi.paybyfinger:
             <a href="https://github.com/ghhccghk/mhspay/stargazers"><img src="https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square" alt="GitHub Star" /></a> <a href="https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1" alt="GitHub Star" /></a>
             <a href="https://github.com/ghhccghk/mhspay/network/members"><img src="https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square" alt="GitHub Fork" /></a></h2>
             <p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>
+            <h2>告示</h2>
+            <h5>本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看</h5>
             <h1>完整使用说明/GitHub项目</h1>
             <h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>
             <p><a href="https://github.com/ghhccghk/mhspay">https://github.com/ghhccghk/mhspay</a></p>
@@ -8648,45 +8659,36 @@ com.my.televip:
             </li>
             </ol>
             <p>There are additional features that are not listed here.</p>
-            <p>This module is compatible with the latest version of the official Telegram app.</p>
+            <p>This module is compatible with:</p>
+            <ol>
+            <li>Telegram</li>
+            <li>Plus</li>
+            <li>TG Connect</li>
+            <li>Skygram</li>
+            <li>iMe</li>
+            <li>X Plus</li>
+            <li>Cherrygram</li>
+            <li>Nicegram</li>
+            <li>Nagram</li>
+            </ol>
             <p>Developed by an @mustafa1dev</p>
-          filename: TeleVip_1.0.apk
+          filename: TeleVip_1.1.apk
           id: com.my.televip
           name: TeleVip
-          last_updated: "2024-12-16T15:15:34Z"
+          last_updated: "2024-12-17T19:21:33Z"
           releasedescription: |-
-            <p>TeleVip LSPosed Module</p>
-            <p>A module for modifying Telegram with the following features:</p>
-            <ol>
-            <li>
-            <p>Hide "Seen" status for messages.</p>
-            </li>
-            <li>
-            <p>Hide "Typing..." indicator.</p>
-            </li>
-            <li>
-            <p>Hide story view status.</p>
-            </li>
-            <li>
-            <p>Unlock all restricted and encrypted features for channels.</p>
-            </li>
-            <li>
-            <p>Boost Telegram download speed.</p>
-            </li>
-            <li>
-            <p>Enable Telegram Premium features.</p>
-            </li>
-            <li>
-            <p>Save stories to the gallery, including those that cannot normally be saved.</p>
-            </li>
-            <li>
-            <p>Change name (Note: The name changes only on your device).</p>
-            </li>
-            </ol>
-            <p>There are additional features that are not listed here.</p>
-            <p>This module is compatible with the latest version of the official Telegram app.<br>
-            You can access the module from the left menu in Telegram.</p>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/393533767-73b41190-1eb1-4297-a767-f874f2756bdc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0MDUzMDYsIm5iZiI6MTczNDQwNTAwNiwicGF0aCI6Ii81ODM1NDM5MC8zOTM1MzM3NjctNzNiNDExOTAtMWViMS00Mjk3LWE3NjctZjg3NGYyNzU2YmRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDAzMTAwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwODNhNTRjZDFhYTMxNjc3Zjc4NWE3NThlYmFiZjE0NzExYTFjZTI5NGZiMGY2ZGFhNGE1MTBlN2NiNGVlZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XSfPJCU8iE3Pf8eZlB3asI0iVWb4Bqq_XauGeFoiQP0"><img src="https://private-user-images.githubusercontent.com/58354390/393533767-73b41190-1eb1-4297-a767-f874f2756bdc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0MDUzMDYsIm5iZiI6MTczNDQwNTAwNiwicGF0aCI6Ii81ODM1NDM5MC8zOTM1MzM3NjctNzNiNDExOTAtMWViMS00Mjk3LWE3NjctZjg3NGYyNzU2YmRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDAzMTAwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUwODNhNTRjZDFhYTMxNjc3Zjc4NWE3NThlYmFiZjE0NzExYTFjZTI5NGZiMGY2ZGFhNGE1MTBlN2NiNGVlZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XSfPJCU8iE3Pf8eZlB3asI0iVWb4Bqq_XauGeFoiQP0" alt="Screenshot_20241207-192359" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p>We have made the TeleVip module support the following:</p>
+            <p>Telegram<br>
+            Plus<br>
+            TG Connect<br>
+            Skygram<br>
+            iMe<br>
+            X Plus<br>
+            Cherrygram<br>
+            Nicegram<br>
+            Nagram<br>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0NjQ5MzQsIm5iZiI6MTczNDQ2NDYzNCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDE5NDM1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlY2M4Y2UwZmY5ZTMwYzNmM2QwMmE3MTBkMWNiM2FlMWJhMmM2NWFhNjc1YzU0NTNjNjllMTE3NGM4OTIxNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qzwLRp6mT77RSPHnwTPrsajZuCBv4PxbFmWBaWMsp1s"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0NjQ5MzQsIm5iZiI6MTczNDQ2NDYzNCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDE5NDM1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlY2M4Y2UwZmY5ZTMwYzNmM2QwMmE3MTBkMWNiM2FlMWJhMmM2NWFhNjc1YzU0NTNjNjllMTE3NGM4OTIxNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qzwLRp6mT77RSPHnwTPrsajZuCBv4PxbFmWBaWMsp1s" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p>Additionally, we have addressed some existing issues within the module.</p>
     author_name: mustafa1dev
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
@@ -11172,15 +11174,15 @@ com.twifucker.hachidori:
             <ul>
             <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
             </ul>
-          filename: Hachidori_23_v0.23.apk
+          filename: Hachidori_24_v0.24.apk
           id: com.twifucker.hachidori
           name: Hachidori
-          last_updated: "2024-12-14T12:51:26Z"
+          last_updated: "2024-12-17T16:11:02Z"
           releasedescription: |-
             <h1>Changes</h1>
             <ul>
-            <li>fix: custom media download for <code>10.71.0-release.2</code></li>
-            <li>Integrated <a href="https://www.bugsnag.com/" rel="nofollow">BugSnag</a> into module, if any feature breaks, it will report to us automatically</li>
+            <li>fix remove promoted banner ads in explore tab</li>
+            <li>add remove "Discover new Lists" feature</li>
             <li>minor bug fixes</li>
             </ul>
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (<code>LSPosed_mod</code> is not working in Android 15, please join <a href="https://t.me/LSPosed/287" rel="nofollow">LSPosed Internal Testing</a> or change to another LSPosed fork)</p>

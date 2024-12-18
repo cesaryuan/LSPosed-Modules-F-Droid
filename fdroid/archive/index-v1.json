@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734406421000,
+    "timestamp": 1734493268000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -42,6 +42,22 @@
       "added": 1732159434000,
       "packageName": "com.bug.hookvip",
       "lastUpdated": 1733887903000
+    },
+    {
+      "authorName": "Xposed-Modules-Repo",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "0.24",
+      "suggestedVersionCode": "24",
+      "description": "<h1>Hachidori</h1>\n<p>A X (formerly Twitter) Xposed modules.</p>\n<h1>Requirements</h1>\n<ul>\n<li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>\n</ul>\n",
+      "license": "Unknown",
+      "name": "Hachidori",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
+      "summary": "A X (formerly Twitter) Xposed modules.",
+      "added": 1732159503000,
+      "packageName": "com.twifucker.hachidori",
+      "lastUpdated": 1734492445000
     },
     {
       "authorName": "parallelcc",
@@ -394,6 +410,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "1.0"
+      }
+    ],
+    "com.twifucker.hachidori": [
+      {
+        "added": 1732159503000,
+        "apkName": "com.twifucker.hachidori_21-0.21.apk",
+        "hash": "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.twifucker.hachidori",
+        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
+        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
+        "size": 4639250,
+        "targetSdkVersion": 35,
+        "versionCode": 21,
+        "versionName": "0.21"
       }
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
