@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1734493282000,
+    "timestamp": 1734579020000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734492375000,
+        "lastUpdated": 1734578755000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -5256,7 +5256,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159441000,
+        "lastUpdated": 1734578774000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chrxw.purenga",
         "authorName": "chr233",
         "name": {
@@ -5271,6 +5271,41 @@
         "preferredSigner": "243fa2260d9a2135adc36c100ecffe14ac69aeece898a54bfd7855e78e16132b"
       },
       "versions": {
+        "d6ea9621c9742c79619bf4c8120f26d58e6dd0a639b8bd639ebc0d223888e27d": {
+          "added": 1734578774000,
+          "file": {
+            "name": "/com.chrxw.purenga_44-2.9.3.apk",
+            "sha256": "d6ea9621c9742c79619bf4c8120f26d58e6dd0a639b8bd639ebc0d223888e27d",
+            "size": 2531330
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.9.3",
+            "versionCode": 44,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "243fa2260d9a2135adc36c100ecffe14ac69aeece898a54bfd7855e78e16132b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.chrxw.purenga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "368224198c615a188e31d055867d27fc51f1b51a2d45caaa558b47beb4e73535": {
           "added": 1732159441000,
           "file": {
@@ -11318,7 +11353,7 @@
           "en-US": "TeleVip A module for modifying Telegram"
         },
         "description": {
-          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<p>This module is compatible with:</p>\n<ol>\n<li>Telegram</li>\n<li>Plus</li>\n<li>TG Connect</li>\n<li>Skygram</li>\n<li>iMe</li>\n<li>X Plus</li>\n<li>Cherrygram</li>\n<li>Nicegram</li>\n<li>Nagram</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.4 (55282)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Nagram 11.4.2 (1200)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
         },
         "icon": {
           "en-US": {
@@ -13865,7 +13900,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734492445000,
+        "lastUpdated": 1734578832000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -13880,6 +13915,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4": {
+          "added": 1734578832000,
+          "file": {
+            "name": "/com.twifucker.hachidori_25-0.25.apk",
+            "sha256": "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4",
+            "size": 4817474
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.25",
+            "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "6c9ce241ebd42e98f4bdd5f2de8fcf89bf62f8868271e6472e3565e93e2bc024": {
           "added": 1734492445000,
           "file": {
@@ -13919,31 +13979,6 @@
             ],
             "versionName": "0.23",
             "versionCode": 23,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
-              ]
-            }
-          }
-        },
-        "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4": {
-          "added": 1733214094000,
-          "file": {
-            "name": "/com.twifucker.hachidori_22-0.22.apk",
-            "sha256": "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4",
-            "size": 4641238
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "0.22",
-            "versionCode": 22,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
@@ -21572,7 +21607,7 @@
         ],
         "lastUpdated": 1732159556000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.neversleep.plusplus",
-        "authorName": "jitcor",
+        "authorName": "xpko",
         "name": {
           "en-US": "开屏伪装|FakeScreen"
         },

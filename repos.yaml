@@ -4379,10 +4379,11 @@ com.chrxw.purenga:
           filename: app-release.apk
           id: com.chrxw.purenga
           name: NGA玩家论坛去广告模块
-          last_updated: "2024-09-26T06:36:28Z"
+          last_updated: "2024-12-18T09:21:47Z"
           releasedescription: |-
-            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f1ed4fed7a179cadd83784fd6d5909bd6f74f4d88d6862e1dd8722bc5b5b8648/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34322d322e392e312f746f74616c"><img src="https://camo.githubusercontent.com/f1ed4fed7a179cadd83784fd6d5909bd6f74f4d88d6862e1dd8722bc5b5b8648/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34322d322e392e312f746f74616c" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/42-2.9.1/total" style="max-width: 100%;"></a> <a href="https://afdian.com/@chr233" rel="nofollow"><img src="https://camo.githubusercontent.com/5f1d2924a048053ce6d6ef9917d3cdc3b97599b11b6d1662e3b10d3743aff925/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545372538382542312545352538462539312545372539342542352d6368725f5f2d6561346161612e7376673f6c6f676f3d6769746875622d73706f6e736f7273" alt="爱发电" data-canonical-src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" style="max-width: 100%;"></a></p>
-            <p>适配 9.9.37</p>
+            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/935e9bca499a42d3ea6a440f0814c5e8568a886e68bd1ded11c31834582ad747/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34342d322e392e332f746f74616c"><img src="https://camo.githubusercontent.com/935e9bca499a42d3ea6a440f0814c5e8568a886e68bd1ded11c31834582ad747/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34342d322e392e332f746f74616c" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/44-2.9.3/total" style="max-width: 100%;"></a> <a href="https://afdian.com/@chr233" rel="nofollow"><img src="https://camo.githubusercontent.com/5f1d2924a048053ce6d6ef9917d3cdc3b97599b11b6d1662e3b10d3743aff925/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545372538382542312545352538462539312545372539342542352d6368725f5f2d6561346161612e7376673f6c6f676f3d6769746875622d73706f6e736f7273" alt="爱发电" data-canonical-src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" style="max-width: 100%;"></a></p>
+            <p>适配 9.9.40<br>
+            新增首页悬浮广告净化</p>
             <hr>
             <h1>捐赠 <a href="https://afdian.com/a/chr233" rel="nofollow">爱发电</a></h1>
             <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67"><img src="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67" alt="image" data-canonical-src="https://raw.chrxw.com/chr233/master/afadian_qr.png" style="max-width: 100%;"></a></p>
@@ -8659,35 +8660,34 @@ com.my.televip:
             </li>
             </ol>
             <p>There are additional features that are not listed here.</p>
-            <p>This module is compatible with:</p>
+            <h1>Support clients</h1>
             <ol>
-            <li>Telegram</li>
-            <li>Plus</li>
-            <li>TG Connect</li>
-            <li>Skygram</li>
-            <li>iMe</li>
-            <li>X Plus</li>
-            <li>Cherrygram</li>
-            <li>Nicegram</li>
-            <li>Nagram</li>
+            <li>Telegram 11.5.4 (55282)</li>
+            <li>Plus 11.5.3.0 (21340)</li>
+            <li>TG Connect 11.0.1 (1100109)</li>
+            <li>Skygram 10.20.6 (40639)</li>
+            <li>iMe 11.5.3 (11050302)</li>
+            <li>X Plus 11.5.4 (55159)</li>
+            <li>Cherrygram 11.5.3 (55110)</li>
+            <li>Nicegram 1.38.0 (1459)</li>
+            <li>Nagram 11.4.2 (1200)</li>
             </ol>
             <p>Developed by an @mustafa1dev</p>
           filename: TeleVip_1.1.apk
           id: com.my.televip
           name: TeleVip
-          last_updated: "2024-12-17T19:21:33Z"
+          last_updated: "2024-12-18T07:31:40Z"
           releasedescription: |-
-            <p>We have made the TeleVip module support the following:</p>
-            <p>Telegram<br>
-            Plus<br>
-            TG Connect<br>
-            Skygram<br>
-            iMe<br>
-            X Plus<br>
-            Cherrygram<br>
-            Nicegram<br>
-            Nagram<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0NjQ5MzQsIm5iZiI6MTczNDQ2NDYzNCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDE5NDM1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlY2M4Y2UwZmY5ZTMwYzNmM2QwMmE3MTBkMWNiM2FlMWJhMmM2NWFhNjc1YzU0NTNjNjllMTE3NGM4OTIxNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qzwLRp6mT77RSPHnwTPrsajZuCBv4PxbFmWBaWMsp1s"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ0NjQ5MzQsIm5iZiI6MTczNDQ2NDYzNCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE3VDE5NDM1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRlY2M4Y2UwZmY5ZTMwYzNmM2QwMmE3MTBkMWNiM2FlMWJhMmM2NWFhNjc1YzU0NTNjNjllMTE3NGM4OTIxNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qzwLRp6mT77RSPHnwTPrsajZuCBv4PxbFmWBaWMsp1s" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p>Supported Telegram<br>
+            Supported Plus<br>
+            Supported TG Connect<br>
+            Supported Skygram<br>
+            Supported iMe<br>
+            Supported X Plus<br>
+            Supported Cherrygram<br>
+            Supported Nicegram<br>
+            Supported Nagram<br>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ1NzY2ODMsIm5iZiI6MTczNDU3NjM4MywicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE5VDAyNDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhY2E4MjA0NWRmMDNkZDgzNTMzZTU2NGE1MzY3ZjI5ZGJkNzk1MjY2MWNjOGI1M2FiZDU4NzBhNjU0YTRhM2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.juxAY-TzQ2j5utjG7o845yAHGK2joXb27ix6licrmtg"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ1NzY2ODMsIm5iZiI6MTczNDU3NjM4MywicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE5VDAyNDYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhY2E4MjA0NWRmMDNkZDgzNTMzZTU2NGE1MzY3ZjI5ZGJkNzk1MjY2MWNjOGI1M2FiZDU4NzBhNjU0YTRhM2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.juxAY-TzQ2j5utjG7o845yAHGK2joXb27ix6licrmtg" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             <p>Additionally, we have addressed some existing issues within the module.</p>
     author_name: mustafa1dev
 com.nnnen.plusne:
@@ -11174,15 +11174,14 @@ com.twifucker.hachidori:
             <ul>
             <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
             </ul>
-          filename: Hachidori_24_v0.24.apk
+          filename: Hachidori_25_v0.25.apk
           id: com.twifucker.hachidori
           name: Hachidori
-          last_updated: "2024-12-17T16:11:02Z"
+          last_updated: "2024-12-18T14:46:58Z"
           releasedescription: |-
             <h1>Changes</h1>
             <ul>
-            <li>fix remove promoted banner ads in explore tab</li>
-            <li>add remove "Discover new Lists" feature</li>
+            <li>add remove premium upsell prompt feature</li>
             <li>minor bug fixes</li>
             </ul>
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (<code>LSPosed_mod</code> is not working in Android 15, please join <a href="https://t.me/LSPosed/287" rel="nofollow">LSPosed Internal Testing</a> or change to another LSPosed fork)</p>
@@ -16910,7 +16909,7 @@ me.neversleep.plusplus:
           releasedescription: |-
             <h2>禁用休眠不再重启手机</h2>
             <p>Disabling hibernation no longer restarts the phone</p>
-    author_name: jitcor
+    author_name: xpko
 me.plusne:
     git: https://github.com/Xposed-Modules-Repo/me.plusne
     summary: |-
