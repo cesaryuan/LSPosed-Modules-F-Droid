@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734493282000,
+    "timestamp": 1734579020000,
     "version": 20002
   },
   "requests": {
@@ -2720,24 +2720,24 @@
       "summary": "All-in-one complex module for devices running vanilla Android 11 (R)"
     },
     {
-      "added": 1734451862000,
+      "added": 1734533218000,
       "authorName": "Xposed-Modules-Repo",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eHachidori\u003c/h1\u003e\n\u003cp\u003eA X (formerly Twitter) Xposed modules.\u003c/p\u003e\n\u003ch1\u003eRequirements\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eLSPosed v1.9.2 (7024) (Rooted Android only) and above\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1734451862000,
+      "lastUpdated": 1734533218000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# Changes\n\n- fix remove promoted banner ads in explore tab\n- add remove \"Discover new Lists\" feature\n- minor bug fixes\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (`LSPosed_mod` is not working in Android 15, please join [LSPosed Internal Testing](https://t.me/LSPosed/287) or change to another LSPosed fork)\n\nLong press X icon on top of the home screen or tap version in about section to access settings.\n\nPlease DO NOT tweet/post anything about this module at Twitter/X"
+          "whatsNew": "# Changes\n\n- add remove premium upsell prompt feature\n- minor bug fixes\n\nONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (`LSPosed_mod` is not working in Android 15, please join [LSPosed Internal Testing](https://t.me/LSPosed/287) or change to another LSPosed fork)\n\nLong press X icon on top of the home screen or tap version in about section to access settings.\n\nPlease DO NOT tweet/post anything about this module at Twitter/X."
         }
       },
       "name": "Hachidori",
       "packageName": "com.twifucker.hachidori",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
-      "suggestedVersionCode": "24",
-      "suggestedVersionName": "0.24",
+      "suggestedVersionCode": "25",
+      "suggestedVersionName": "0.25",
       "summary": "A X (formerly Twitter) Xposed modules."
     },
     {
@@ -4652,25 +4652,25 @@
       "suggestedVersionName": "0.2.0"
     },
     {
-      "added": 1727332588000,
+      "added": 1734513707000,
       "authorName": "chr233",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePureNGA\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.codacy.com/gh/chr233/PureNGA/dashboard\"\u003e\u003cimg src=\"https://app.codacy.com/project/badge/Grade/de4c75db7487426285bf38f90ad94e6c\" alt=\"Codacy Badge\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/chr233/PureNGA/blob/master/license\"\u003e\u003cimg src=\"https://img.shields.io/github/license/chr233/PureNGA?logo=apache\" alt=\"License\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/chr233/PureNGA?logo=github\" alt=\"GitHub last commit\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/chr233/PureNGA?logo=github\" alt=\"GitHub Repo stars\" /\u003e\n\u003ca href=\"https://img.shields.io/github/v/release/chr233/PureNGA\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github\" alt=\"GitHub Download\" /\u003e\u003c/a\u003e\n插件仓库\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.purenga?logo=github\" alt=\"GitHub Repo stars\" /\u003e\n\u003ca href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github\" alt=\"GitHub Download\" /\u003e\u003c/a\u003e\nXposed 仓库\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://space.bilibili.com/5805394\"\u003e\u003cimg src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://steamcommunity.com/id/Chr_\"\u003e\u003cimg src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487\u0026amp;token=xgqMgL-i\"\u003e\u003cimg src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://afdian.net/@chr233\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e版本说明\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e类型\u003c/th\u003e\n\u003cth align=\"center\"\u003e特性\u003c/th\u003e\n\u003cth align=\"center\"\u003e发行版链接\u003c/th\u003e\n\u003cth align=\"center\"\u003e下载量\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e整合版 NGA\u003c/td\u003e\n\u003ctd align=\"center\"\u003e无需 Xposed 框架, 覆盖安装原版 App, 体积大\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/chr233/PureNGA?logo=github\u0026amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github\u0026amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /\u003e\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e独立插件版\u003c/td\u003e\n\u003ctd align=\"center\"\u003e依赖 Xposed 框架, 独立更新, 体积小\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga?logo=github\u0026amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /\u003e\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github\u0026amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /\u003e\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cblockquote\u003e\n\u003cp\u003e历时一年的开发, 所有功能趋于稳定, 后续不再开发新功能\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e主要功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 开屏广告跳过\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 信息流广告过滤\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 去广告任务破解\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽更新检测\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽内置浏览器\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 假装分享\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自定义首页\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自动签到\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 字体更换\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 快捷方式支持\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e同时兼容 Lspatch, 支持 9.9.x 版本的 NGA 客户端, 理论向后兼容\u003c/p\u003e\n\u003ch2\u003e捐赠\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /\u003e \u003cbr\u003e \u003ca href=\"https://afdian.net/@chr233\"\u003e链接\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /\u003e \u003cbr\u003e \u003ca href=\"https://www.buymeacoffee.com/chr233\"\u003e链接\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /\u003e \u003cbr\u003e \u003ccode\u003eTW41eecZ199QK6zujgKP4j1cz2bXzRus3c\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/chr233/PureNGA\"\u003e使用文档\u003c/a\u003e\u003c/h2\u003e\n",
       "icon": "com.chrxw.purenga.png",
-      "lastUpdated": 1727332588000,
+      "lastUpdated": 1734513707000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/42-2.9.1/total) [![爱发电](https://img.shields.io/badge/爱发电-chr__-ea4aaa.svg?logo=github-sponsors)](https://afdian.com/@chr233)\n\n适配 9.9.37\n\n---\n\n# 捐赠 [爱发电](https://afdian.com/a/chr233)\n\n![image](https://raw.chrxw.com/chr233/master/afadian_qr.png) "
+          "whatsNew": "![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/44-2.9.3/total) [![爱发电](https://img.shields.io/badge/爱发电-chr__-ea4aaa.svg?logo=github-sponsors)](https://afdian.com/@chr233)\n\n适配 9.9.40\n新增首页悬浮广告净化\n\n---\n\n# 捐赠 [爱发电](https://afdian.com/a/chr233)\n\n![image](https://raw.chrxw.com/chr233/master/afadian_qr.png) "
         }
       },
       "name": "NGA玩家论坛去广告模块",
       "packageName": "com.chrxw.purenga",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chrxw.purenga",
-      "suggestedVersionCode": "42",
-      "suggestedVersionName": "2.9.1",
+      "suggestedVersionCode": "44",
+      "suggestedVersionName": "2.9.3",
       "summary": "NGA论坛APP广告净化模块"
     },
     {
@@ -6379,13 +6379,13 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003cp\u003eThis module is compatible with:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eTelegram\u003c/li\u003e\n\u003cli\u003ePlus\u003c/li\u003e\n\u003cli\u003eTG Connect\u003c/li\u003e\n\u003cli\u003eSkygram\u003c/li\u003e\n\u003cli\u003eiMe\u003c/li\u003e\n\u003cli\u003eX Plus\u003c/li\u003e\n\u003cli\u003eCherrygram\u003c/li\u003e\n\u003cli\u003eNicegram\u003c/li\u003e\n\u003cli\u003eNagram\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003ch1\u003eSupport clients\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eTelegram 11.5.4 (55282)\u003c/li\u003e\n\u003cli\u003ePlus 11.5.3.0 (21340)\u003c/li\u003e\n\u003cli\u003eTG Connect 11.0.1 (1100109)\u003c/li\u003e\n\u003cli\u003eSkygram 10.20.6 (40639)\u003c/li\u003e\n\u003cli\u003eiMe 11.5.3 (11050302)\u003c/li\u003e\n\u003cli\u003eX Plus 11.5.4 (55159)\u003c/li\u003e\n\u003cli\u003eCherrygram 11.5.3 (55110)\u003c/li\u003e\n\u003cli\u003eNicegram 1.38.0 (1459)\u003c/li\u003e\n\u003cli\u003eNagram 11.4.2 (1200)\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
       "icon": "com.my.televip.1.png",
       "lastUpdated": 1734492430000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "We have made the TeleVip module support the following:\n\nTelegram\nPlus\nTG Connect\nSkygram\niMe\nX Plus\nCherrygram\nNicegram\nNagram\n![Screenshot_20241217-221803_1](https://github.com/user-attachments/assets/3ff67ac4-4504-4154-9bc0-fd7f9704a512)\n\nAdditionally, we have addressed some existing issues within the module."
+          "whatsNew": "Supported Telegram\nSupported Plus\nSupported TG Connect\nSupported Skygram\nSupported iMe\nSupported X Plus\nSupported Cherrygram\nSupported Nicegram\nSupported Nagram\n![Screenshot_20241217-221803_1](https://github.com/user-attachments/assets/3ff67ac4-4504-4154-9bc0-fd7f9704a512)\n\nAdditionally, we have addressed some existing issues within the module."
         }
       },
       "name": "TeleVip",
@@ -8118,7 +8118,7 @@
     },
     {
       "added": 1716434668000,
-      "authorName": "jitcor",
+      "authorName": "xpko",
       "categories": [
         "Xposed"
       ],
@@ -11436,7 +11436,27 @@
     ],
     "com.chrxw.purenga": [
       {
-        "added": 1727332588000,
+        "added": 1734513707000,
+        "apkName": "com.chrxw.purenga_44-2.9.3.apk",
+        "hash": "d6ea9621c9742c79619bf4c8120f26d58e6dd0a639b8bd639ebc0d223888e27d",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.chrxw.purenga",
+        "sig": "bcf919ebf9cecd9b9a4895c9499dd480",
+        "signer": "243fa2260d9a2135adc36c100ecffe14ac69aeece898a54bfd7855e78e16132b",
+        "size": 2531330,
+        "targetSdkVersion": 35,
+        "versionCode": 44,
+        "versionName": "2.9.3"
+      },
+      {
+        "added": 1732159441000,
         "apkName": "com.chrxw.purenga_42-2.9.1.apk",
         "hash": "368224198c615a188e31d055867d27fc51f1b51a2d45caaa558b47beb4e73535",
         "hashType": "sha256",
@@ -13484,7 +13504,7 @@
         "versionName": "1.0"
       },
       {
-        "added": 1734463293000,
+        "added": 1734507100000,
         "apkName": "com.my.televip_1-1.1.apk",
         "hash": "8ec8387c7758b970bba9d94f50d67f9212f801594b1e1ed92589f6c76ed56441",
         "hashType": "sha256",
@@ -14298,7 +14318,25 @@
     ],
     "com.twifucker.hachidori": [
       {
-        "added": 1734451862000,
+        "added": 1734533218000,
+        "apkName": "com.twifucker.hachidori_25-0.25.apk",
+        "hash": "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.twifucker.hachidori",
+        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
+        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
+        "size": 4817474,
+        "targetSdkVersion": 35,
+        "versionCode": 25,
+        "versionName": "0.25"
+      },
+      {
+        "added": 1734492445000,
         "apkName": "com.twifucker.hachidori_24-0.24.apk",
         "hash": "6c9ce241ebd42e98f4bdd5f2de8fcf89bf62f8868271e6472e3565e93e2bc024",
         "hashType": "sha256",
@@ -14332,24 +14370,6 @@
         "targetSdkVersion": 35,
         "versionCode": 23,
         "versionName": "0.23"
-      },
-      {
-        "added": 1733214094000,
-        "apkName": "com.twifucker.hachidori_22-0.22.apk",
-        "hash": "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.twifucker.hachidori",
-        "sig": "891fc45bccbc6032d1bca0942abe0ed6",
-        "signer": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92",
-        "size": 4641238,
-        "targetSdkVersion": 35,
-        "versionCode": 22,
-        "versionName": "0.22"
       }
     ],
     "com.unexpected.capture.uc": [

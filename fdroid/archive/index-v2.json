@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1734493268000,
+    "timestamp": 1734579006000,
     "categories": {
       "Xposed": {
         "name": {
@@ -384,7 +384,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734492445000,
+        "lastUpdated": 1734578832000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -399,6 +399,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4": {
+          "added": 1733214094000,
+          "file": {
+            "name": "/com.twifucker.hachidori_22-0.22.apk",
+            "sha256": "e3a74acc81d00a71f6d2f61f3a3776e81aea3d2db2c2f373452a1944698e65a4",
+            "size": 4641238
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.22",
+            "versionCode": 22,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "53c414e36cebae194a44aa81898760cf7af89cda066fb8273622e669455a0e10": {
           "added": 1732159503000,
           "file": {
