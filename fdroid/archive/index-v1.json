@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734579006000,
+    "timestamp": 1734664593000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -96,8 +96,8 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "7.5.8",
-      "suggestedVersionCode": "7134",
+      "suggestedVersionName": "7.6.0",
+      "suggestedVersionCode": "7136",
       "description": "<h1>PlusNE(7.0+)</h1>\n<p>\u73b0\u9636\u6bb5\u652f\u6301 <br><br>\n1.soul<br>\n2.\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4<br>\n3.\u5feb\u624b<br>\n4.\u5feb\u624b\u6781\u901f\u7248<br>\n5.\u6296\u97f3<br>\n6.\u6296\u97f3\u6781\u901f\u7248<br>\n7.\u6700\u53f3<br>\n8.\u756a\u8304\u514d\u8d39\u5c0f\u8bf4<br>\n9.\u76ae\u76ae\u867e<br>\n10.\u897f\u74dc\u89c6\u9891<br>\n11.\u76ae\u76ae\u641e\u7b11<br>\n12.MX Player Pro(\u514d\u8d39\u4f7f\u7528)<br>\n13.\u5c0f\u7ea2\u4e66<br>\n14.TikTok<br>\n15.\u767e\u5ea6\u8d34\u5427<br>\n16.\u6700\u53f3<br>\n17.\u756a\u8304\u7545\u542c<br>\n18.ES \u6587\u4ef6\u6d4f\u89c8\u5668<br>\n19.QQ<br></p>\n<p>\u4f7f\u7528\u65b9\u6cd5<br>\n\u5728\u6846\u67b6\u4e2d\u52fe\u9009PlusNE,\u5e76\u4e14\u8bbe\u7f6e\u4f5c\u7528\u57df\n<br>\n1.\u8fdb\u5165\u6296\u97f3\\\u6296\u97f3\u6781\u901f\u7248\u7b49\n<br>\n2.\u6253\u5f00\u8bbe\u7f6e\u9875\u9762\n<br>\n3.\u62c9\u5230\u6700\u4e0b\u9762\u70b9\u51fbPlusNE\u7248\u672c\u4fe1\u606f\u5373\u53ef</p>\n<h3>\u4ea4\u6d41</h3>\n<p>QQ\u7fa4: <a href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\">596565319</a>\nQQ\u7fa4: <a href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi\">643354312</a></p>\n",
       "license": "Unknown",
       "name": "PlusNE 7+",
@@ -105,7 +105,7 @@
       "summary": "PlusNE(7.0+) \u91cd\u6784\u7248\n1.soul\n2.\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4\n3.\u5feb\u624b\n4.\u5feb\u624b\u6781\u901f\u7248\n5.\u6296\u97f3\n6.\u6296\u97f3\u6781\u901f\u7248\n7.\u6700\u53f3\n8.\u756a\u8304\u514d\u8d39\u5c0f\u8bf4\n9.\u76ae\u76ae...",
       "added": 1732159557000,
       "packageName": "me.plusne",
-      "lastUpdated": 1734146858000
+      "lastUpdated": 1734664430000
     },
     {
       "authorName": "BlueCat300",
@@ -489,6 +489,68 @@
       }
     ],
     "me.plusne": [
+      {
+        "added": 1732159558000,
+        "apkName": "me.plusne_7130-7.5.4.apk",
+        "hash": "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10521212,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ]
+        ],
+        "versionCode": 7130,
+        "versionName": "7.5.4"
+      },
       {
         "added": 1732159557000,
         "apkName": "me.plusne_7129-7.5.3.apk",

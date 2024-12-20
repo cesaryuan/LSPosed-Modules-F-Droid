@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1734579020000,
+    "timestamp": 1734664606000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734578755000,
+        "lastUpdated": 1734664311000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -7990,7 +7990,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734492409000,
+        "lastUpdated": 1734664347000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
         "authorName": "HChenX",
         "name": {
@@ -8005,6 +8005,31 @@
         "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
       },
       "versions": {
+        "1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4": {
+          "added": 1734664347000,
+          "file": {
+            "name": "/com.hchen.autoseffswitch_2024121900-3.0.apk",
+            "sha256": "1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4",
+            "size": 572502
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0",
+            "versionCode": 2024121900,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        },
         "61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09": {
           "added": 1734492409000,
           "file": {
@@ -21654,7 +21679,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734146858000,
+        "lastUpdated": 1734664430000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -21669,6 +21694,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5": {
+          "added": 1734664430000,
+          "file": {
+            "name": "/me.plusne_7136-7.6.0.apk",
+            "sha256": "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5",
+            "size": 10525305
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.6.0",
+            "versionCode": 7136,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "76c8cfe235e85bf01dec5f8f9060ff11fc19c4275e5951da4842b1c4798bdd08": {
           "added": 1734146858000,
           "file": {
@@ -21744,65 +21828,6 @@
             ],
             "versionName": "7.5.7",
             "versionCode": 7133,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              }
-            ]
-          }
-        },
-        "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288": {
-          "added": 1732159558000,
-          "file": {
-            "name": "/me.plusne_7130-7.5.4.apk",
-            "sha256": "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288",
-            "size": 10521212
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "7.5.4",
-            "versionCode": 7130,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734579020000,
+    "timestamp": 1734664606000,
     "version": 20002
   },
   "requests": {
@@ -597,25 +597,25 @@
       "summary": "仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC"
     },
     {
-      "added": 1734432955000,
+      "added": 1734621981000,
       "authorName": "HChenX",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAutoSEffSwitch\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O\u003c/li\u003e\n\u003cli\u003e模块只支持小米哦！ (\u003ccode\u003eMiui\u003c/code\u003e, \u003ccode\u003eHyperOS\u003c/code\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e模块具体功能如下\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e详细：\n\u003cul\u003e\n\u003cli\u003e1.连接蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e2.连接有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e3.断开蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003cli\u003e4.断开有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e模块需要使用的作用域: \u003ccode\u003e音质音效\u003c/code\u003e。\u003c/li\u003e\n\u003cli\u003e安装模块重启系统或音质音效即可使用。\u003c/li\u003e\n\u003cli\u003e如果无法使用说明可能不适配，请带着日志反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eHookTool\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eLSPosed\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eDexKit\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.hchen.autoseffswitch.png",
-      "lastUpdated": 1734432955000,
+      "lastUpdated": 1734621981000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### AutoSEffSwitch v.2.0\n#### 更新日志：\n- 重构模块代码，删除多余的 `CmdHelper` 类，优化代码逻辑。\n- 全面适配 OS2、OS1 等 XiaoMi 系统。\n- 支持连接蓝牙、有线耳机时切换声音效果为原声。\n- 更新 HookTool 版本至 v.1.1.2。\n- 更新模块依赖至最新版。\n\n#### 修复问题：\n- #1 、 #4 \n\n#### 新贡献者：\n- @hank9999 \n\n#### 文件 Hash256 值：\n- 61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09"
+          "whatsNew": "### AutoSEffSwitch v.3.0\n#### 更新日志：\n- 修复：在连接耳机的情况下异常切换回音效的问题。\n- 修复：完善对非 FW 模式的支持，支持在连接耳机时关闭沉浸声等效果。\n- 修复：音质音效发送错误广播导致模块被干扰的问题。\n- 新增：注入音质音效界面，显示模块和当前音效的基本信息。\n- 更新：HookTool 版本至 v.1.1.3。\n\n#### 鸣谢：\n- @hank9999 \n- @Voemp・he/him\n\n#### 文件 Hash256 值：\n- 1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4"
         }
       },
       "name": "AutoSEffSwitch",
       "packageName": "com.hchen.autoseffswitch",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
-      "suggestedVersionCode": "2024121700",
-      "suggestedVersionName": "2.0",
+      "suggestedVersionCode": "2024121900",
+      "suggestedVersionName": "3.0",
       "summary": "连接蓝牙耳机或有线耳机时自动切换音效为原声！Automatically switch sound effects to original sound wh..."
     },
     {
@@ -5316,25 +5316,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1734060845000,
+      "added": 1734613720000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1734060845000,
+      "lastUpdated": 1734613720000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[适配]大部分最新App\n[修复]已知BUG"
+          "whatsNew": "[适配]部分常用软件\n[修复]部分BUG"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7134",
-      "suggestedVersionName": "7.5.8",
+      "suggestedVersionCode": "7136",
+      "suggestedVersionName": "7.6.0",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -12396,7 +12396,25 @@
     ],
     "com.hchen.autoseffswitch": [
       {
-        "added": 1734432955000,
+        "added": 1734621981000,
+        "apkName": "com.hchen.autoseffswitch_2024121900-3.0.apk",
+        "hash": "1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.hchen.autoseffswitch",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 572502,
+        "targetSdkVersion": 34,
+        "versionCode": 2024121900,
+        "versionName": "3.0"
+      },
+      {
+        "added": 1734492409000,
         "apkName": "com.hchen.autoseffswitch_2024121700-2.0.apk",
         "hash": "61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09",
         "hashType": "sha256",
@@ -17077,7 +17095,27 @@
     ],
     "me.plusne": [
       {
-        "added": 1734060845000,
+        "added": 1734613720000,
+        "apkName": "me.plusne_7136-7.6.0.apk",
+        "hash": "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10525305,
+        "targetSdkVersion": 33,
+        "versionCode": 7136,
+        "versionName": "7.6.0"
+      },
+      {
+        "added": 1734146858000,
         "apkName": "me.plusne_7134-7.5.8.apk",
         "hash": "76c8cfe235e85bf01dec5f8f9060ff11fc19c4275e5951da4842b1c4798bdd08",
         "hashType": "sha256",
@@ -17115,26 +17153,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7133,
         "versionName": "7.5.7"
-      },
-      {
-        "added": 1732159558000,
-        "apkName": "me.plusne_7130-7.5.4.apk",
-        "hash": "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "me.plusne",
-        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
-        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
-        "size": 10521212,
-        "targetSdkVersion": 33,
-        "versionCode": 7130,
-        "versionName": "7.5.4"
       }
     ],
     "me.rhunk.snapenhance": [
