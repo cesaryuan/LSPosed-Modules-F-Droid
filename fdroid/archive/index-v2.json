@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1734579006000,
+    "timestamp": 1734664593000,
     "categories": {
       "Xposed": {
         "name": {
@@ -525,7 +525,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734146858000,
+        "lastUpdated": 1734664430000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -540,6 +540,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288": {
+          "added": 1732159558000,
+          "file": {
+            "name": "/me.plusne_7130-7.5.4.apk",
+            "sha256": "d9f4734fa7170976009fa27519518f31f4ed22cfb166730bb1f80785715f6288",
+            "size": 10521212
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.5.4",
+            "versionCode": 7130,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "fe5b75415a38610741ba86464c2bdf70797668687f38bfa26b990a204e883b99": {
           "added": 1732159557000,
           "file": {
