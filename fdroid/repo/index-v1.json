@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734664606000,
+    "timestamp": 1734750796000,
     "version": 20002
   },
   "requests": {
@@ -597,25 +597,25 @@
       "summary": "仅适用于MIUI，进入/退出 刷卡页面时自动 开启/关闭 NFC"
     },
     {
-      "added": 1734621981000,
+      "added": 1734713148000,
       "authorName": "HChenX",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAutoSEffSwitch\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O\u003c/li\u003e\n\u003cli\u003e模块只支持小米哦！ (\u003ccode\u003eMiui\u003c/code\u003e, \u003ccode\u003eHyperOS\u003c/code\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e模块具体功能如下\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e详细：\n\u003cul\u003e\n\u003cli\u003e1.连接蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e2.连接有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为原声。\u003c/li\u003e\n\u003cli\u003e3.断开蓝牙耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003cli\u003e4.断开有线耳机 –\u0026gt; 音质音效 –\u0026gt; 切换为上次使用的音效模式。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e模块需要使用的作用域: \u003ccode\u003e音质音效\u003c/code\u003e。\u003c/li\u003e\n\u003cli\u003e安装模块重启系统或音质音效即可使用。\u003c/li\u003e\n\u003cli\u003e如果无法使用说明可能不适配，请带着日志反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eHookTool\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eLSPosed\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eDexKit\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.hchen.autoseffswitch.png",
-      "lastUpdated": 1734621981000,
+      "lastUpdated": 1734713148000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### AutoSEffSwitch v.3.0\n#### 更新日志：\n- 修复：在连接耳机的情况下异常切换回音效的问题。\n- 修复：完善对非 FW 模式的支持，支持在连接耳机时关闭沉浸声等效果。\n- 修复：音质音效发送错误广播导致模块被干扰的问题。\n- 新增：注入音质音效界面，显示模块和当前音效的基本信息。\n- 更新：HookTool 版本至 v.1.1.3。\n\n#### 鸣谢：\n- @hank9999 \n- @Voemp・he/him\n\n#### 文件 Hash256 值：\n- 1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4"
+          "whatsNew": "### AutoSEffSwitch v.3.2\n#### 更新日志：\n- 修复：可能的蓝牙连接状态判断错误的问题。\n\n#### 文件 Hash256 值：\n- 3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0"
         }
       },
       "name": "AutoSEffSwitch",
       "packageName": "com.hchen.autoseffswitch",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
-      "suggestedVersionCode": "2024121900",
-      "suggestedVersionName": "3.0",
+      "suggestedVersionCode": "2024122100",
+      "suggestedVersionName": "3.2",
       "summary": "连接蓝牙耳机或有线耳机时自动切换音效为原声！Automatically switch sound effects to original sound wh..."
     },
     {
@@ -1655,18 +1655,18 @@
       "summary": "音樂軟件NhacCuaTui/Zing MP3/DJ多多/酷我音樂/酷狗音樂/ChiaSeNhac增強插件\nVIP for NhacCuaTui, Zin..."
     },
     {
-      "added": 1727421403000,
+      "added": 1734709276000,
       "authorName": "Nitsuya",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eDoNotTryAccessibility\u003c/h1\u003e\n\u003cp\u003eHook System Framework 让应用认为没有开启无障碍服务\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nitsuya/DoNotTryAccessibility\"\u003e\u003cimg src=\"https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github\" alt=\"DoNotTryAccessibility\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/badge/Xposed-Module-blue\" alt=\"Xposed Module\" /\u003e\n\u003ca href=\"https://github.com/nitsuya/DoNotTryAccessibility/blob/main/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/nitsuya/DoNotTryAccessibility\" alt=\"License\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/badge/Android%20SDK-%3E%3D%2027-brightgreen?logo=android\" alt=\"Android SDK min 27\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/Android%20SDK-target%2034-brightgreen?logo=android\" alt=\"Android SDK target 34\" /\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003cp\u003e针对读取你无障碍服务的\u003ccode\u003e[!@#$%^\u0026amp;*]\u003c/code\u003e应用, 让它认为你没有开启无障碍!!\u003c/p\u003e\n\u003cp\u003e被阻止的应用不再享有被读取的功能! Android Client SDK 设计如此, 如果你既要又要, 请自行研究!!\u003c/p\u003e\n\u003ch2\u003eThanks\u003c/h2\u003e\n\u003ch3\u003e库\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/AoEiuV020/IAmNotDisabled\"\u003eIAmNotDisabled\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/KitsunePie/AppErrorsTracking\"\u003eAppErrorsTracking\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/YuKiHookAPI\"\u003eYuKiHookAPI\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/SweetDependency\"\u003eSweetDependency\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://source.android.com/\"\u003eAOSP\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://material.io/\"\u003eMaterial\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003cp\u003e该仓库为LSP发布仓库！\u003c/p\u003e\n\u003cp\u003e源码仓库：\u003ca href=\"https://github.com/Nitsuya/DoNotTryAccessibility\"\u003e\u003cimg src=\"https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github\" alt=\"DoNotTryAccessibility\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "io.github.nitsuya.donottryaccessibility.png",
-      "lastUpdated": 1727421403000,
+      "lastUpdated": 1734709276000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "support Android 8.1 +"
+          "whatsNew": "support A8.1 +"
         }
       },
       "name": "DoNotTryAccessibility",
@@ -2522,25 +2522,25 @@
       "summary": "Spoof your device as different model for specific games to unlock higher FPS"
     },
     {
-      "added": 1725302425000,
+      "added": 1734716857000,
       "authorName": "pyshivam",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eGeergit - Protect Your Privacy\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"banner.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003eROOT REQUIRED\u003c/p\u003e\n\u003cp\u003eXPOSED FRAMEWORK REQUIRED\u003c/p\u003e\n\u003cp\u003eIF You dont know What is XPOSED FRAMEWORK then do not try this application (it wont work).\nTo Know more about Xposed Read Here.\n\u003ca href=\"http://forum.xda-developers.com/xposed/\"\u003ehttp://forum.xda-developers.com/xposed/\u003c/a\u003e\n\u003cbr/\u003e\u003cbr/\u003e\u003c/p\u003e\n\u003ch2\u003eIMPORTANT\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAlthough this app has been tested on several devices, there arealways chance something can go wrong. It is always recommended to have a backup of your ROM and other important data before trying this app.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThis is Xposed Module For Changing (MASKING) the various IDs in the Phone.\nChange means when an application access these parameters this appwill replace original value with user provided value. Original values are always intact in device.\n\u003cbr/\u003e\u003cbr/\u003e\u003c/p\u003e\n\u003ch2\u003ePricing Table\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eFeatures\u003c/th\u003e\n\u003cth\u003eFreemium\u003c/th\u003e\n\u003cth\u003eSilver (Lifetime)\u003c/th\u003e\n\u003cth\u003ePremium (Subscription)\u003c/th\u003e\n\u003cth\u003eAlpha (Subscription)\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eIMEI1\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eIMEI2\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eHardware Serial\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eBluetooth Mac\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eWifi Mac\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eWifi SSID\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMobile Number\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAdvertising ID\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCountry\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSIM Operator\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSIM MCC/MNC\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSIM Subscriber\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSIM Card Serial\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eGoogle Service Framework (GSF)\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eSpoof Google Accounts (Gmail)\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAndroid ID\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDRM Media\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eOn click random all the values\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMake device look more legit (hide root, xposed, etc)\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eMock location\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eBackup/Restore app data\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eCreate groups of target apps\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eProfile creation per App and Group\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAdd notes to profile\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e✔️\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e\u003cstrong\u003eFreemium:\u003c/strong\u003e The Freemium membership provides essential features to enhance your privacy control on Android. With Freemium, you can protect your IMEI, hardware serial, Bluetooth MAC, Wi-Fi MAC, mobile number, advertising ID, and Wi-Fi SSID. It’s a great starting point for securing your information.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eSilver (Lifetime):\u003c/strong\u003e Upgrade to the Silver membership and make a one-time payment to unlock advanced features. The Silver membership provides lifetime access to all the functionalities available in the Freemium plan, along with additional features. With Silver, you gain access to country information, SIM operator details, SIM MCC/MNC, SIM subscriber information, SIM card serial, Google Service Framework (GSF), and the ability to spoof Google accounts (Gmail). Silver expands your privacy control capabilities for a lifetime.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003ePremium (Subscription):\u003c/strong\u003e Subscribe to the Premium membership and unlock everything provided in the Freemium and Lifetime plans. Additionally, as a Premium member, you gain access to upcoming features mentioned in the table above. With Premium, you stay up-to-date with the latest developments and enjoy comprehensive privacy control options. Premium membership is available through a subscription.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eAlpha (Subscription):\u003c/strong\u003e The Alpha membership encompasses all the features provided in the Freemium, Lifetime, and Premium plans. On top of that, Alpha offers advanced features that are still under development. These exclusive features are not available in the other plans and enable you to experience cutting-edge privacy control on your Android device. Alpha membership is available through a subscription.\u003c/p\u003e\n\u003cp\u003ePlease note that the availability of certain features may vary depending on the membership level.\u003c/p\u003e\n\u003cp\u003e(\u003cem\u003eNote: Pricing plans are based on monthly per-device subscriptions. Prices and features are subject to change as Geergit is still under development.\u003c/em\u003e)\u003c/p\u003e\n\u003ch3\u003eFeature request\u003c/h3\u003e\n\u003cp\u003eThere are multiple methods to request feature\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eYou can open feature request issue to this repository.\u003c/li\u003e\n\u003cli\u003eSubmit this Google Form: \u003ca href=\"https://forms.gle/X8sX6PcSi9bRbK1YA\"\u003ehttps://forms.gle/X8sX6PcSi9bRbK1YA\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/geergit_xposed\"\u003eTelegram Group\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://forum.xda-developers.com/t/app-xposed-5-0-13-geergit-a-module-to-protect-your-privacy.4573243/\"\u003eXDA Thread\u003c/a\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cbr/\u003e\n\u003ch3\u003eNOTE:\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eFor changes to take effect close all running applications alsoswipe / clear apps from recent list. No need to reboot.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eSteps to enable app in Xposed Framework (LSPosed Recommended).\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eInstall app\u003c/li\u003e\n\u003cli\u003eGo to xposed module\u003c/li\u003e\n\u003cli\u003eEnable module in xposed framework\u003c/li\u003e\n\u003cli\u003eSelect target/victim apps in module’s scope incase of LSPosed\u003c/li\u003e\n\u003cli\u003eRestart phone\u003c/li\u003e\n\u003cli\u003eOpen the app\u003c/li\u003e\n\u003cli\u003eAnd you can start using it by changing settings.\u003c/li\u003e\n\u003c/ul\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003eDon’t use this app for any illegal purpose or cheat any program this module is just for better privacy.\n\u003cbr/\u003e\u003cbr/\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eCredits:\u003c/p\u003e\n\u003cp\u003e@DE - For inspiring me for this module. \u003cbr/\u003e\n@Lsposed Team - For their efforts. \u003cbr/\u003e\n@VD171 - for his app VDInfo which will help to check spoof values.\n\u003cbr/\u003e\u003cbr/\u003e\u003c/p\u003e\n\u003ch3\u003eEnd User Licence Agreement (EULA)\u003c/h3\u003e\n\u003cp\u003e“THE SOFTWARE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SOFTWARE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SOFTWARE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT WILL AUTHOR BE LIABLE FOR ANY DAMAGES CAUSED BY USING THIS PRODUCT”\u003c/p\u003e\n",
       "icon": "com.pyshivam.geergit.png",
-      "lastUpdated": 1725302425000,
+      "lastUpdated": 1734716857000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# Geergit v2.5.2 (20513) Release Notes\n\n1. Module Status Handling:\n   - If a module is not enabled, it will no longer redirect to the \"module not working\" page. Instead, a warning will be shown at the top while still allowing access to features.\n\n2. General Improvements and Bug Fixes:\n   - Various improvements and bug fixes to enhance overall performance and stability.\n\n3. Mock Location Spoofing:\n   - Improved handling of mock location spoofing for better accuracy and reliability.\n\n4. Backup Awa"
+          "whatsNew": "# Geergit v2.5.3 (20514) Release Notes\n\n1. **Anti-Fingerprinting Enhancements:**\n   - Improved the Anti-Fingerprinting feature for better protection against device identification.\n\n2. **Make Device Legit Improvements:**\n   - Enhanced the \"Make Device Legit\" option for more effective device masking.\n\n"
         }
       },
       "name": "Geergit - Protect Your Privacy",
       "packageName": "com.pyshivam.geergit",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit",
-      "suggestedVersionCode": "20513",
-      "suggestedVersionName": "2.5.2",
+      "suggestedVersionCode": "20514",
+      "suggestedVersionName": "2.5.3",
       "summary": "The main aim is to spoof the values from third party apps which tracks users ..."
     },
     {
@@ -7795,6 +7795,27 @@
       "summary": "哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论"
     },
     {
+      "added": 1734706847000,
+      "authorName": "lzghzr",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003e哔哩哔哩直播隐身观看\u003c/h1\u003e\n\u003cp\u003e在哔哩哔哩直播间进场隐身, 榜单隐身\u003c/p\u003e\n",
+      "lastUpdated": 1734706847000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "在哔哩哔哩直播间进场隐身, 榜单隐身"
+        }
+      },
+      "name": "哔哩哔哩直播隐身观看",
+      "packageName": "io.github.lzghzr.biliveinvisible",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.biliveinvisible",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "在哔哩哔哩直播间进场隐身, 榜单隐身"
+    },
+    {
       "added": 1697105439000,
       "authorName": "yujincheng08",
       "categories": [
@@ -12396,7 +12417,25 @@
     ],
     "com.hchen.autoseffswitch": [
       {
-        "added": 1734621981000,
+        "added": 1734713148000,
+        "apkName": "com.hchen.autoseffswitch_2024122100-3.2.apk",
+        "hash": "3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.hchen.autoseffswitch",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 572502,
+        "targetSdkVersion": 34,
+        "versionCode": 2024122100,
+        "versionName": "3.2"
+      },
+      {
+        "added": 1734664347000,
         "apkName": "com.hchen.autoseffswitch_2024121900-3.0.apk",
         "hash": "1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4",
         "hashType": "sha256",
@@ -12430,24 +12469,6 @@
         "targetSdkVersion": 34,
         "versionCode": 2024121700,
         "versionName": "2.0"
-      },
-      {
-        "added": 1732159462000,
-        "apkName": "com.hchen.autoseffswitch_2024052201-1.6.apk",
-        "hash": "8f5bb2bbd11d1194f210e40e84f5c95f58bd2e26805fb8c29d32ce6073fcc7ca",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.hchen.autoseffswitch",
-        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
-        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
-        "size": 555978,
-        "targetSdkVersion": 34,
-        "versionCode": 2024052201,
-        "versionName": "1.6"
       }
     ],
     "com.hchen.clipboardlist": [
@@ -13736,7 +13757,26 @@
     ],
     "com.pyshivam.geergit": [
       {
-        "added": 1725302425000,
+        "added": 1734716857000,
+        "apkName": "com.pyshivam.geergit_20514-2.5.3.apk",
+        "hash": "45b395a7df27ae52d46244af693bc9e36a35d2f6a9d060df058dce73eefb2312",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.pyshivam.geergit",
+        "sig": "91a5319f21f8950ca60f2f3bb4661f1e",
+        "signer": "5a6b2299c9b2dcfe0c5ec2c5a3c1ea5c8c4339d9c1aafe8584362bfe42c4ff50",
+        "size": 50342602,
+        "targetSdkVersion": 27,
+        "versionCode": 20514,
+        "versionName": "2.5.3"
+      },
+      {
+        "added": 1732159489000,
         "apkName": "com.pyshivam.geergit_20513-2.5.2.apk",
         "hash": "47669d1e893c2b14275fa5b6c9d5b218ed743eb51974bd47d5b153552c35b90a",
         "hashType": "sha256",
@@ -16159,6 +16199,23 @@
         "versionName": "4.1.0"
       }
     ],
+    "io.github.lzghzr.biliveinvisible": [
+      {
+        "added": 1734706847000,
+        "apkName": "io.github.lzghzr.biliveinvisible_1-1.0.apk",
+        "hash": "6e246a472b3ba906b08c118c9e267b7d860b3f10d166c5e4dda35989c2ab3d7d",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": null,
+        "packageName": "io.github.lzghzr.biliveinvisible",
+        "sig": "14271ac87974fae2e2ed988884af35ef",
+        "signer": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58",
+        "size": 12159,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "io.github.lzghzr.xperiaupdatecenter": [
       {
         "added": 1729010177000,
@@ -16200,7 +16257,7 @@
     ],
     "io.github.nitsuya.donottryaccessibility": [
       {
-        "added": 1727421403000,
+        "added": 1734709276000,
         "apkName": "io.github.nitsuya.donottryaccessibility_2-1.0.2.apk",
         "hash": "8ef0ec1a72e5b5658aa94e97f6b6a87717e02a0bfea29308a71c945c04578433",
         "hashType": "sha256",

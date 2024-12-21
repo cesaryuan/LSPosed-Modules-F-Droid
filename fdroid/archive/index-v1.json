@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1734664593000,
+    "timestamp": 1734750782000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -26,6 +26,22 @@
       "added": 1732159442000,
       "packageName": "com.close.hook.ads",
       "lastUpdated": 1733974360000
+    },
+    {
+      "authorName": "HChenX",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "3.2",
+      "suggestedVersionCode": "2024122100",
+      "description": "<div align=\"center\">\n<h1>AutoSEffSwitch</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>\u662f\u4e00\u4e2a\u5728\u8fde\u63a5\u84dd\u7259\u8033\u673a\u6216\u6709\u7ebf\u8033\u673a\u81ea\u52a8\u5207\u6362\u97f3\u6548\u4e3a\u539f\u58f0\u72b6\u6001\u7684\u6a21\u5757\uff01</p>\n</div>\n<h1>\u2728\u6a21\u5757\u4ecb\u7ecd</h1>\n<ul>\n<li>\u662f\u4e00\u4e2a\u53ef\u4ee5\u5728\u8fde\u63a5\u84dd\u7259\u8033\u673a\u6216\u8005\u6709\u7ebf\u8033\u673a\u65f6\u81ea\u52a8\u5207\u6362\u97f3\u6548\u4e3a\u539f\u58f0\u7684\u6a21\u5757\u3002 O_O</li>\n<li>\u6a21\u5757\u53ea\u652f\u6301\u5c0f\u7c73\u54e6\uff01 (<code>Miui</code>, <code>HyperOS</code>)</li>\n</ul>\n<h1>\ud83d\udca1\u6a21\u5757\u8bf4\u660e</h1>\n<ul>\n<li>\u6a21\u5757\u5177\u4f53\u529f\u80fd\u5982\u4e0b</li>\n</ul>\n<ul>\n<li>\u8be6\u7ec6\uff1a\n<ul>\n<li>1.\u8fde\u63a5\u84dd\u7259\u8033\u673a \u2013&gt; \u97f3\u8d28\u97f3\u6548 \u2013&gt; \u5207\u6362\u4e3a\u539f\u58f0\u3002</li>\n<li>2.\u8fde\u63a5\u6709\u7ebf\u8033\u673a \u2013&gt; \u97f3\u8d28\u97f3\u6548 \u2013&gt; \u5207\u6362\u4e3a\u539f\u58f0\u3002</li>\n<li>3.\u65ad\u5f00\u84dd\u7259\u8033\u673a \u2013&gt; \u97f3\u8d28\u97f3\u6548 \u2013&gt; \u5207\u6362\u4e3a\u4e0a\u6b21\u4f7f\u7528\u7684\u97f3\u6548\u6a21\u5f0f\u3002</li>\n<li>4.\u65ad\u5f00\u6709\u7ebf\u8033\u673a \u2013&gt; \u97f3\u8d28\u97f3\u6548 \u2013&gt; \u5207\u6362\u4e3a\u4e0a\u6b21\u4f7f\u7528\u7684\u97f3\u6548\u6a21\u5f0f\u3002</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>\u6a21\u5757\u9700\u8981\u4f7f\u7528\u7684\u4f5c\u7528\u57df: <code>\u97f3\u8d28\u97f3\u6548</code>\u3002</li>\n<li>\u5b89\u88c5\u6a21\u5757\u91cd\u542f\u7cfb\u7edf\u6216\u97f3\u8d28\u97f3\u6548\u5373\u53ef\u4f7f\u7528\u3002</li>\n<li>\u5982\u679c\u65e0\u6cd5\u4f7f\u7528\u8bf4\u660e\u53ef\u80fd\u4e0d\u9002\u914d\uff0c\u8bf7\u5e26\u7740\u65e5\u5fd7\u53cd\u9988\u3002</li>\n</ul>\n<h1>\ud83d\ude4f\u81f4\u8c22\u540d\u5355</h1>\n<ul>\n<li>\u672c\u6a21\u5757\u4f7f\u7528\u4e86\u5982\u4e0b\u9879\u76ee\u4f5c\u4e3a\u4f9d\u8d56\u6216\u5f15\u7528\u5176\u4ee3\u7801\uff0c\u5bf9\u6b64\u8868\u793a\u7531\u8877\u7684\u611f\u8c22\uff1a</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">\u9879\u76ee\u540d\u79f0</th>\n<th align=\"center\">\u9879\u76ee\u94fe\u63a5</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">LSPosed</td>\n<td align=\"center\"><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></td>\n</tr>\n<tr>\n<td align=\"center\">DexKit</td>\n<td align=\"center\"><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td align=\"center\">\u7ffb\u8bd1\u63d0\u4f9b</td>\n<td align=\"center\">\u63d0\u4f9b\u8005</td>\n</tr>\n<tr>\n<td align=\"center\">\u7b80\u4f53\u4e2d\u6587</td>\n<td align=\"center\">\u7115\u6668HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\ud83d\udce2\u9879\u76ee\u58f0\u660e</h1>\n<ul>\n<li>\u4efb\u4f55\u5bf9\u672c\u9879\u76ee\u7684\u4f7f\u7528\u5fc5\u987b\u6ce8\u660e\u4f5c\u8005\uff0c\u6284\u88ad\u662f\u4e0d\u53ef\u63a5\u53d7\u7684\uff01</li>\n</ul>\n<h1>\ud83c\udf0f\u514d\u8d23\u58f0\u660e</h1>\n<ul>\n<li>\u4f7f\u7528\u672c\u6a21\u5757\u5373\u4ee3\u8868\u613f\u610f\u627f\u62c5\u4e00\u5207\u540e\u679c\u3002</li>\n<li>\u4efb\u4f55\u7531\u672c\u9879\u76ee\u884d\u751f\u51fa\u7684\u9879\u76ee\u672c\u9879\u76ee\u4e0d\u627f\u62c5\u4efb\u4f55\u8d23\u4efb\u3002</li>\n</ul>\n<h1>\ud83c\udf89\u7ed3\u5c3e</h1>\n<ul>\n<li>\u611f\u8c22\u60a8\u613f\u610f\u4f7f\u7528\u672c\u6a21\u5757\uff01Enjoy your day! \u2665\ufe0f</li>\n</ul>\n",
+      "license": "Unknown",
+      "name": "AutoSEffSwitch",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
+      "summary": "\u8fde\u63a5\u84dd\u7259\u8033\u673a\u6216\u6709\u7ebf\u8033\u673a\u65f6\u81ea\u52a8\u5207\u6362\u97f3\u6548\u4e3a\u539f\u58f0\uff01Automatically switch sound effects to original sound wh...",
+      "added": 1732159462000,
+      "packageName": "com.hchen.autoseffswitch",
+      "lastUpdated": 1734750526000
     },
     {
       "authorName": "bug-bit",
@@ -352,6 +368,26 @@
         ],
         "versionCode": 20241019,
         "versionName": "2.0.5"
+      }
+    ],
+    "com.hchen.autoseffswitch": [
+      {
+        "added": 1732159462000,
+        "apkName": "com.hchen.autoseffswitch_2024052201-1.6.apk",
+        "hash": "8f5bb2bbd11d1194f210e40e84f5c95f58bd2e26805fb8c29d32ce6073fcc7ca",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.hchen.autoseffswitch",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 555978,
+        "targetSdkVersion": 34,
+        "versionCode": 2024052201,
+        "versionName": "1.6"
       }
     ],
     "com.parallelc.micts": [

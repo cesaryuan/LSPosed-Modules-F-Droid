@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1734664606000,
+    "timestamp": 1734750796000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734664311000,
+        "lastUpdated": 1734750489000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -7990,7 +7990,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734664347000,
+        "lastUpdated": 1734750526000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
         "authorName": "HChenX",
         "name": {
@@ -8005,6 +8005,31 @@
         "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
       },
       "versions": {
+        "3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0": {
+          "added": 1734750526000,
+          "file": {
+            "name": "/com.hchen.autoseffswitch_2024122100-3.2.apk",
+            "sha256": "3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0",
+            "size": 572502
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.2",
+            "versionCode": 2024122100,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        },
         "1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4": {
           "added": 1734664347000,
           "file": {
@@ -8044,31 +8069,6 @@
             ],
             "versionName": "2.0",
             "versionCode": 2024121700,
-            "usesSdk": {
-              "minSdkVersion": 29,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
-              ]
-            }
-          }
-        },
-        "8f5bb2bbd11d1194f210e40e84f5c95f58bd2e26805fb8c29d32ce6073fcc7ca": {
-          "added": 1732159462000,
-          "file": {
-            "name": "/com.hchen.autoseffswitch_2024052201-1.6.apk",
-            "sha256": "8f5bb2bbd11d1194f210e40e84f5c95f58bd2e26805fb8c29d32ce6073fcc7ca",
-            "size": 555978
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "1.6",
-            "versionCode": 2024052201,
             "usesSdk": {
               "minSdkVersion": 29,
               "targetSdkVersion": 34
@@ -11988,7 +11988,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159489000,
+        "lastUpdated": 1734750553000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.pyshivam.geergit",
         "authorName": "pyshivam",
         "name": {
@@ -12003,6 +12003,83 @@
         "preferredSigner": "5a6b2299c9b2dcfe0c5ec2c5a3c1ea5c8c4339d9c1aafe8584362bfe42c4ff50"
       },
       "versions": {
+        "45b395a7df27ae52d46244af693bc9e36a35d2f6a9d060df058dce73eefb2312": {
+          "added": 1734750553000,
+          "file": {
+            "name": "/com.pyshivam.geergit_20514-2.5.3.apk",
+            "sha256": "45b395a7df27ae52d46244af693bc9e36a35d2f6a9d060df058dce73eefb2312",
+            "size": 50342602
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "2.5.3",
+            "versionCode": 20514,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "5a6b2299c9b2dcfe0c5ec2c5a3c1ea5c8c4339d9c1aafe8584362bfe42c4ff50"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.SCHEDULE_EXACT_ALARM"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "com.pyshivam.geergit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "47669d1e893c2b14275fa5b6c9d5b218ed743eb51974bd47d5b153552c35b90a": {
           "added": 1732159489000,
           "file": {
@@ -19045,6 +19122,50 @@
         }
       }
     },
+    "io.github.lzghzr.biliveinvisible": {
+      "metadata": {
+        "added": 1734750595000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1734750595000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.biliveinvisible",
+        "authorName": "lzghzr",
+        "name": {
+          "en-US": "哔哩哔哩直播隐身观看"
+        },
+        "summary": {
+          "en-US": "在哔哩哔哩直播间进场隐身, 榜单隐身"
+        },
+        "description": {
+          "en-US": "<h1>哔哩哔哩直播隐身观看</h1>\n<p>在哔哩哔哩直播间进场隐身, 榜单隐身</p>\n"
+        },
+        "preferredSigner": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+      },
+      "versions": {
+        "6e246a472b3ba906b08c118c9e267b7d860b3f10d166c5e4dda35989c2ab3d7d": {
+          "added": 1734750595000,
+          "file": {
+            "name": "/io.github.lzghzr.biliveinvisible_1-1.0.apk",
+            "sha256": "6e246a472b3ba906b08c118c9e267b7d860b3f10d166c5e4dda35989c2ab3d7d",
+            "size": 12159
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+              ]
+            }
+          }
+        }
+      }
+    },
     "io.github.lzghzr.xperiaupdatecenter": {
       "metadata": {
         "added": 1732159538000,
@@ -19160,7 +19281,7 @@
           "en-US": "Hook System Framework 让应用认为没有开启无障碍服务"
         },
         "description": {
-          "en-US": "<h1>DoNotTryAccessibility</h1>\n<p>Hook System Framework 让应用认为没有开启无障碍服务</p>\n<p><a href=\"https://github.com/Nitsuya/DoNotTryAccessibility\"><img src=\"https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github\" alt=\"DoNotTryAccessibility\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility\" alt=\"GitHub Release\" /></a>\n<img src=\"https://img.shields.io/badge/Xposed-Module-blue\" alt=\"Xposed Module\" />\n<a href=\"https://github.com/nitsuya/DoNotTryAccessibility/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/nitsuya/DoNotTryAccessibility\" alt=\"License\" /></a>\n<img src=\"https://img.shields.io/badge/Android%20SDK-%3E%3D%2027-brightgreen?logo=android\" alt=\"Android SDK min 27\" />\n<img src=\"https://img.shields.io/badge/Android%20SDK-target%2034-brightgreen?logo=android\" alt=\"Android SDK target 34\" /></p>\n<hr />\n<p>针对读取你无障碍服务的<code>[!@#$%^&amp;*]</code>应用, 让它认为你没有开启无障碍!!</p>\n<p>被阻止的应用不再享有被读取的功能! Android Client SDK 设计如此, 如果你既要又要, 请自行研究!!</p>\n<h2>Thanks</h2>\n<h3>库</h3>\n<p><a href=\"https://github.com/AoEiuV020/IAmNotDisabled\">IAmNotDisabled</a></p>\n<p><a href=\"https://github.com/KitsunePie/AppErrorsTracking\">AppErrorsTracking</a></p>\n<p><a href=\"https://github.com/HighCapable/YuKiHookAPI\">YuKiHookAPI</a></p>\n<p><a href=\"https://github.com/HighCapable/SweetDependency\">SweetDependency</a></p>\n<p><a href=\"https://source.android.com/\">AOSP</a></p>\n<p><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></p>\n<p><a href=\"https://material.io/\">Material</a></p>\n"
+          "en-US": "<p>该仓库为LSP发布仓库！</p>\n<p>源码仓库：<a href=\"https://github.com/Nitsuya/DoNotTryAccessibility\"><img src=\"https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github\" alt=\"DoNotTryAccessibility\" /></a></p>\n"
         },
         "preferredSigner": "455cadc62f8bd8f76b05863cb38470368f79af549bb60ada6745908c2d6d27b3"
       },
