@@ -5989,28 +5989,19 @@ com.hchen.autoseffswitch:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>AutoSEffSwitch</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AutoSEffSwitch?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.hchen.autoseffswitch/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AutoSEffSwitch\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/AutoSEffSwitch\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/AutoSEffSwitch/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/AutoSEffSwitch\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AutoSEffSwitch?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>是一个在连接蓝牙耳机或有线耳机自动切换音效为原声状态的模块！</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>是一个可以在连接蓝牙耳机或者有线耳机时自动切换音效为原声的模块。 O_O</li>\n<li>模块只支持小米哦！ (<code>Miui</code>, <code>HyperOS</code>)</li>\n</ul>\n<h1>\U0001F4A1模块说明</h1>\n<ul>\n<li>模块具体功能如下</li>\n</ul>\n<ul>\n<li>详细：\n<ul>\n<li>1.连接蓝牙耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>2.连接有线耳机 –&gt; 音质音效 –&gt; 切换为原声。</li>\n<li>3.断开蓝牙耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n<li>4.断开有线耳机 –&gt; 音质音效 –&gt; 切换为上次使用的音效模式。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>模块需要使用的作用域: <code>音质音效</code>。</li>\n<li>安装模块重启系统或音质音效即可使用。</li>\n<li>如果无法使用说明可能不适配，请带着日志反馈。</li>\n</ul>\n<h1>\U0001F64F致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">LSPosed</td>\n<td align=\"center\"><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></td>\n</tr>\n<tr>\n<td align=\"center\">DexKit</td>\n<td align=\"center\"><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\U0001F4E2项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n</ul>\n<h1>\U0001F30F免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>\U0001F389结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
-          filename: AutoSEffSwitch-v.3.0.apk
+          filename: AutoSEffSwitch-v.3.2.apk
           id: com.hchen.autoseffswitch
           name: AutoSEffSwitch
-          last_updated: "2024-12-19T15:26:21Z"
+          last_updated: "2024-12-20T16:45:48Z"
           releasedescription: |-
-            <h3>AutoSEffSwitch v.3.0</h3>
+            <h3>AutoSEffSwitch v.3.2</h3>
             <h4>更新日志：</h4>
             <ul>
-            <li>修复：在连接耳机的情况下异常切换回音效的问题。</li>
-            <li>修复：完善对非 FW 模式的支持，支持在连接耳机时关闭沉浸声等效果。</li>
-            <li>修复：音质音效发送错误广播导致模块被干扰的问题。</li>
-            <li>新增：注入音质音效界面，显示模块和当前音效的基本信息。</li>
-            <li>更新：HookTool 版本至 v.1.1.3。</li>
-            </ul>
-            <h4>鸣谢：</h4>
-            <ul>
-            <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hank9999/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hank9999">@hank9999</a></li>
-            <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>・he/him</li>
+            <li>修复：可能的蓝牙连接状态判断错误的问题。</li>
             </ul>
             <h4>文件 Hash256 值：</h4>
             <ul>
-            <li>1bc1b7866ff8936f3596872eef60f8e7b3e5e1bc419f36fc052a99f6810b0eb4</li>
+            <li>3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0</li>
             </ul>
     author_name: HChenX
 com.hchen.clipboardlist:
@@ -8684,7 +8675,7 @@ com.my.televip:
             Supported Cherrygram<br>
             Supported Nicegram<br>
             Supported Nagram<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ2MjM0MDgsIm5iZiI6MTczNDYyMzEwOCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE5VDE1NDUwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1YmI3MjRkMTlmOTgyMWFmZTVkMTlhY2YwNmQwMTQ1ZTI4NmViMTYyNjA1MTcxZjAxZGNiOGRkYTM5N2NlN2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2oQXiE3ZHezW61WYx4x_ppo4tOrGBLnLbbFz0rMmIRs"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ2MjM0MDgsIm5iZiI6MTczNDYyMzEwOCwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjE5VDE1NDUwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1YmI3MjRkMTlmOTgyMWFmZTVkMTlhY2YwNmQwMTQ1ZTI4NmViMTYyNjA1MTcxZjAxZGNiOGRkYTM5N2NlN2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.2oQXiE3ZHezW61WYx4x_ppo4tOrGBLnLbbFz0rMmIRs" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ3MTg1NDEsIm5iZiI6MTczNDcxODI0MSwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIwVDE4MTA0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiNjBlOTcwMDlhYWRmYTY4MDIxODlkMmM2MzNiZGM0MGY1MDgxMmU2ZGFiZDMzNTRjMjljNDgxZjljMWNkZGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mKuEcQ84LgI5HrdbHYvD2AHEIDm4SHamITR0PFzaL-Y"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ3MTg1NDEsIm5iZiI6MTczNDcxODI0MSwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIwVDE4MTA0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiNjBlOTcwMDlhYWRmYTY4MDIxODlkMmM2MzNiZGM0MGY1MDgxMmU2ZGFiZDMzNTRjMjljNDgxZjljMWNkZGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mKuEcQ84LgI5HrdbHYvD2AHEIDm4SHamITR0PFzaL-Y" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             <p>Additionally, we have addressed some existing issues within the module.</p>
     author_name: mustafa1dev
 com.nnnen.plusne:
@@ -9450,53 +9441,23 @@ com.pyshivam.geergit:
             <br/><br/></p>
             <h3>End User Licence Agreement (EULA)</h3>
             <p>“THE SOFTWARE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SOFTWARE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SOFTWARE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT WILL AUTHOR BE LIABLE FOR ANY DAMAGES CAUSED BY USING THIS PRODUCT”</p>
-          filename: Geergit-2.5.2+20513.apk
+          filename: Geergit-v2.5.3+20514.apk
           id: com.pyshivam.geergit
           name: Geergit - Protect Your Privacy
-          last_updated: "2024-09-02T18:40:25Z"
+          last_updated: "2024-12-20T17:47:37Z"
           releasedescription: |-
-            <h1>Geergit v2.5.2 (20513) Release Notes</h1>
+            <h1>Geergit v2.5.3 (20514) Release Notes</h1>
             <ol>
             <li>
-            <p>Module Status Handling:</p>
+            <p><strong>Anti-Fingerprinting Enhancements:</strong></p>
             <ul>
-            <li>If a module is not enabled, it will no longer redirect to the "module not working" page. Instead, a warning will be shown at the top while still allowing access to features.</li>
+            <li>Improved the Anti-Fingerprinting feature for better protection against device identification.</li>
             </ul>
             </li>
             <li>
-            <p>General Improvements and Bug Fixes:</p>
+            <p><strong>Make Device Legit Improvements:</strong></p>
             <ul>
-            <li>Various improvements and bug fixes to enhance overall performance and stability.</li>
-            </ul>
-            </li>
-            <li>
-            <p>Mock Location Spoofing:</p>
-            <ul>
-            <li>Improved handling of mock location spoofing for better accuracy and reliability.</li>
-            </ul>
-            </li>
-            <li>
-            <p>Backup Awareness:</p>
-            <ul>
-            <li>Users are now informed that victim app data backups are only stored on the device.</li>
-            </ul>
-            </li>
-            <li>
-            <p>Anti-Fingerprinting Switch (Experimental):</p>
-            <ul>
-            <li>Added an Anti-Fingerprinting switch with multiple methods to prevent device fingerprinting.</li>
-            </ul>
-            </li>
-            <li>
-            <p>Group and Profile Fixes:</p>
-            <ul>
-            <li>Fixed group-related bugs and resolved the "Profile Not Found" issue.</li>
-            </ul>
-            </li>
-            <li>
-            <p>Non-English Support:</p>
-            <ul>
-            <li>Geergit now supports non-English devices and apps, fixing previous errors encountered with non-English applications.</li>
+            <li>Enhanced the "Make Device Legit" option for more effective device masking.</li>
             </ul>
             </li>
             </ol>
@@ -15220,6 +15181,22 @@ io.github.lsposed.disableflagsecure:
             <li>Only <strong>official</strong> LSPosed is supported by this module, using the mod version is unexpected.</li>
             </ul>
     author_name: tehcneko
+io.github.lzghzr.biliveinvisible:
+    git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.biliveinvisible
+    summary: 在哔哩哔哩直播间进场隐身, 榜单隐身
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>哔哩哔哩直播隐身观看</h1>
+            <p>在哔哩哔哩直播间进场隐身, 榜单隐身</p>
+          filename: BiLiveInvisible_v1.0.apk
+          id: io.github.lzghzr.biliveinvisible
+          name: 哔哩哔哩直播隐身观看
+          last_updated: "2024-12-20T15:00:47Z"
+          releasedescription: <p>在哔哩哔哩直播间进场隐身, 榜单隐身</p>
+    author_name: lzghzr
 io.github.lzghzr.xperiaupdatecenter:
     git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaupdatecenter
     summary: 为Xperia解除UpdateCenter限制
@@ -15304,31 +15281,13 @@ io.github.nitsuya.donottryaccessibility:
           categories:
             - Xposed
           description: |
-            <h1>DoNotTryAccessibility</h1>
-            <p>Hook System Framework 让应用认为没有开启无障碍服务</p>
-            <p><a href="https://github.com/Nitsuya/DoNotTryAccessibility"><img src="https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github" alt="DoNotTryAccessibility" /></a>
-            <a href="https://github.com/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.donottryaccessibility" alt="GitHub Release" /></a>
-            <img src="https://img.shields.io/badge/Xposed-Module-blue" alt="Xposed Module" />
-            <a href="https://github.com/nitsuya/DoNotTryAccessibility/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nitsuya/DoNotTryAccessibility" alt="License" /></a>
-            <img src="https://img.shields.io/badge/Android%20SDK-%3E%3D%2027-brightgreen?logo=android" alt="Android SDK min 27" />
-            <img src="https://img.shields.io/badge/Android%20SDK-target%2034-brightgreen?logo=android" alt="Android SDK target 34" /></p>
-            <hr />
-            <p>针对读取你无障碍服务的<code>[!@#$%^&amp;*]</code>应用, 让它认为你没有开启无障碍!!</p>
-            <p>被阻止的应用不再享有被读取的功能! Android Client SDK 设计如此, 如果你既要又要, 请自行研究!!</p>
-            <h2>Thanks</h2>
-            <h3>库</h3>
-            <p><a href="https://github.com/AoEiuV020/IAmNotDisabled">IAmNotDisabled</a></p>
-            <p><a href="https://github.com/KitsunePie/AppErrorsTracking">AppErrorsTracking</a></p>
-            <p><a href="https://github.com/HighCapable/YuKiHookAPI">YuKiHookAPI</a></p>
-            <p><a href="https://github.com/HighCapable/SweetDependency">SweetDependency</a></p>
-            <p><a href="https://source.android.com/">AOSP</a></p>
-            <p><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></p>
-            <p><a href="https://material.io/">Material</a></p>
+            <p>该仓库为LSP发布仓库！</p>
+            <p>源码仓库：<a href="https://github.com/Nitsuya/DoNotTryAccessibility"><img src="https://img.shields.io/badge/DoNotTryAccessibility-Project-blue?logo=github" alt="DoNotTryAccessibility" /></a></p>
           filename: 1.0.2.apk
           id: io.github.nitsuya.donottryaccessibility
           name: DoNotTryAccessibility
-          last_updated: "2024-09-27T07:16:43Z"
-          releasedescription: <p>support Android 8.1 +</p>
+          last_updated: "2024-12-20T15:41:16Z"
+          releasedescription: <p>support A8.1 +</p>
     author_name: Nitsuya
 io.github.nvg064.xiaomicharginganimation:
     git: https://github.com/Xposed-Modules-Repo/io.github.nvg064.xiaomicharginganimation
