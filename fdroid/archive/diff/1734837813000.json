@@ -1,0 +1,72 @@
+{
+  "repo": {
+    "timestamp": 1734837896000
+  },
+  "packages": {
+    "me.bingyue.IceCore": {
+      "metadata": {
+        "added": 1732159550000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1734837764000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore",
+        "authorName": "bingqiu456",
+        "name": {
+          "en-US": "冰社 IceCore"
+        },
+        "summary": {
+          "en-US": "一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\nAn Xposed module that integrates variou..."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<img src=\"https://pic.imgdb.cn/item/671c8857d29ded1a8ce444d9.png\"  width=\"250\" height=\"250\" />\n<h1>冰社 / IceCore</h1>\n<p><a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /></a>\n<a href=\"https://qm.qq.com/q/hnbnj43qwM\"><img src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /></a></p>\n<p>✨一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能 ✨</p>\n</div>\n<p><strong>🌈冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下🌈</strong></p>\n<h2>✨如何使用</h2>\n<p>点击<a href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\">这里</a>，下载<strong>最新版本</strong></p>\n<blockquote>\n<p>注：部分软件可能需要登录才能获取会员</p>\n</blockquote>\n<hr />\n<h2>✨免责声明</h2>\n<blockquote>\n<p>本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除</p>\n</blockquote>\n<p>本模块仅适配<code>Lsposed</code>，不适配<code>opatch</code>或者<code>lspatch</code>，如果使用<code>opatch</code>或者<code>lspatch</code>出现问题请不要在群里提问</p>\n<hr />\n<h2>✨常见问题</h2>\n<ul>\n<li><strong>Q：为什么我勾了软件没会员</strong></li>\n<li><strong>A：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员</strong></li>\n<li><strong>Q：为什么点开模块设置会闪退</strong></li>\n<li><strong>A：请先前往LSPosed激活模块</strong></li>\n</ul>\n<hr />\n<h2>✨联系方式</h2>\n<p>我们目前有<a href=\"https://qm.qq.com/q/hnbnj43qwM\">QQ群</a>，<a href=\"https://t.me/bingyue_personal\">TG频道</a>，可以自由选择加入</p>\n<hr />\n<h2>✨目前支持的功能</h2>\n<table>\n<thead>\n<tr>\n<th>功能</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>获取<code>VIP</code></td>\n<td>🟢</td>\n</tr>\n<tr>\n<td>去除广告</td>\n<td>🟢</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>🎇适配的APP</h2>\n<table>\n<thead>\n<tr>\n<th>APP名字</th>\n<th>状态</th>\n<th>功能</th>\n<th>测试的版本</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>一叶日历</td>\n<td>🟢</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>1.17</td>\n</tr>\n<tr>\n<td>彩云天气</td>\n<td>🟢</td>\n<td>解锁vip</td>\n<td>7.24.0</td>\n</tr>\n<tr>\n<td>365日历</td>\n<td>🟢</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>7.6.7</td>\n</tr>\n<tr>\n<td>es文件管理</td>\n<td>🟢</td>\n<td>解锁vip</td>\n<td>4.4.2.17</td>\n</tr>\n<tr>\n<td>钱迹</td>\n<td>🟢</td>\n<td>解锁<code>vip</code></td>\n<td>4.1.1</td>\n</tr>\n<tr>\n<td>倒数日</td>\n<td>🟢</td>\n<td>破解了内购，点击购买后退出即可获得<code>vip</code></td>\n<td>1.22.0\\</td>\n</tr>\n<tr>\n<td>小黑屋</td>\n<td>🟢</td>\n<td>破解了使用激活码激活，随便输入一个支付宝订单号即可</td>\n<td>1.9.18c</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>🟢</td>\n<td>解锁<code>vip</code></td>\n<td>1.3.5 BETA</td>\n</tr>\n<tr>\n<td>堆糖</td>\n<td>🟢</td>\n<td>可以自由使用vip功能</td>\n<td>8.42.3</td>\n</tr>\n<tr>\n<td>vmos pro</td>\n<td>🟢</td>\n<td>去登录</td>\n<td>3.0.7</td>\n</tr>\n<tr>\n<td>番茄小说</td>\n<td>🟢</td>\n<td>去除广告</td>\n<td>6.4.5.32</td>\n</tr>\n<tr>\n<td>小熊录屏</td>\n<td>🟢</td>\n<td>可以使用vip功能</td>\n<td>2.4.4</td>\n</tr>\n<tr>\n<td>一木记账</td>\n<td>🟢</td>\n<td><code>vip</code>功能解锁</td>\n<td>5.8.9</td>\n</tr>\n<tr>\n<td>nfc tool</td>\n<td>🟢</td>\n<td>可以使用vip功能</td>\n<td>2.6.5</td>\n</tr>\n<tr>\n<td>滴答清单</td>\n<td>🟢</td>\n<td><code>vip</code>破解</td>\n<td>7.3.1.0</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>🍋适配的版本</h2>\n<p>这里我提供了适配的app的版本安装包</p>\n<pre lang=\"bash\"><code>https://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n</code></pre>\n<hr />\n<h2>🖋本项目源代码</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore\">https://github.com/bingqiu456/IceCore</a></p>\n<p><a href=\"https://github.com/bingqiu456\">Aonther: bingyue</a></p>\n<hr />\n<h2>📜LICENSE</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\">GNU General Public License v3.0</a></p>\n"
+        },
+        "preferredSigner": "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53"
+      },
+      "versions": {
+        "af5829013ce91909fb42161017b28a23a4f15fec32066b90a3fc4e1d0cebc287": {
+          "added": 1732159551000,
+          "file": {
+            "name": "/me.bingyue.IceCore_1-1.2.2.apk",
+            "sha256": "af5829013ce91909fb42161017b28a23a4f15fec32066b90a3fc4e1d0cebc287",
+            "size": 1653742
+          },
+          "manifest": {
+            "versionName": "1.2.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53"
+              ]
+            }
+          }
+        },
+        "826649b5bf051e383e39956e28b68a789843475d5baea6d0c1d0fddcd735fd33": {
+          "added": 1732159551000,
+          "file": {
+            "name": "/me.bingyue.IceCore_1-1.2.apk",
+            "sha256": "826649b5bf051e383e39956e28b68a789843475d5baea6d0c1d0fddcd735fd33",
+            "size": 1383746
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 30
+            },
+            "signer": {
+              "sha256": [
+                "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
