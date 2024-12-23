@@ -12,18 +12,23 @@
 
 URL:
 ```
-https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
+https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4
 ```
 
 This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.
 
+Because the built-in repository of LSPosed manager doesn't support one-click download and update of modules, we have made a F-Droid repository synchronized with LSPosed Modules Repo. After adding this repository to the official F-Droid or Droid-ify APP, you can download and update modules based on the F-Droid client. Currently, the repository is automatically synchronized with LSPosed Modules Repo using GitHub Actions, and the security of the repository is the same as LSPosed Modules Repo.
+
 ## Instructions
 
-1. Install the [F-Droid client app](https://f-droid.org/).
-2. Scan the QR code from above or manually copy/paste the F-Droid repository [link](ttps://raw.githubusercontent.com/username/f-droid/main/fdroid/repo?fingerprint=XXX) into the F-Droid client app under Settings.
-3. Add the repository to the F-Droid client app.
-4. Refresh your F-Droid client app under the Categories tab.
-5. Install from the F-Droid client app listing.
+1. Install the [F-Droid client app](https://f-droid.org/) or other F-Droid client apps.
+2. Add the repository to the F-Droid client app using one of the following ways:
+
+   - 1st way: Open the link on Android browser [froidrepos://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4](froidrepos://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4)
+   - 2nd way: Scan the QR code.
+   - 3rd way: Manually copy/paste the F-Droid repository [link](https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4) into the F-Droid client app under Settings.
+3. Refresh your F-Droid client app under the Categories tab.
+4. Install from the F-Droid client app listing.
 
 
 ## Credits
@@ -449,7 +454,8 @@ This GitHub repository was forked and adapted from https://github.com/xarantolus
 | <a href="https://github.com/Xposed-Modules-Repo/cn.lliiooll.pphelper"><img src="fdroid/repo/icons/cn.lliiooll.pphelper.png" alt="皮皮搞笑辅助模块 icon" width="36px" height="36px"></a> | [**皮皮搞笑辅助模块**](https://github.com/Xposed-Modules-Repo/cn.lliiooll.pphelper) | 皮皮搞笑辅助模块<br>目前有以下功能:<br>1. 去水印<br>2. 去广告<br>3. 去语音房<br>4. 等待你的建议... | 2.0.r89.db55550 (2097182273) |
 | <a href="https://github.com/Xposed-Modules-Repo/android.xiaolan.ppxshare.tools"><img src="assets/ic_launcher.png" alt="皮皮虾Share icon" width="36px" height="36px"></a> | [**皮皮虾Share**](https://github.com/Xposed-Modules-Repo/android.xiaolan.ppxshare.tools) | 【微信，QQ】打开 [皮皮虾 , 抖音] 分享的地址并跳转到应用<br><br>MIUI13 双排状态栏 （根据小米10s 小米11U 左挖孔设备开发）[默认不勾选M... | 1.4 (5) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.akari.ppx"><img src="fdroid/repo/icons/com.akari.ppx.png" alt="皮皮虾助手 icon" width="36px" height="36px"></a> | [**皮皮虾助手**](https://github.com/Xposed-Modules-Repo/com.akari.ppx) | No summary available | 1.9.9.1 (1991) |
-| <a href="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao"><img src="fdroid/repo/icons/com.shatyuka.zhiliao.png" alt="知了 (Zhiliao) icon" width="36px" height="36px"></a> | [**知了 (Zhiliao)**](https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao) | 目前还只是个知乎去广告模块。A plugin for Zhihu, currently an ad blocker. | 24.04.06 (202404060) |
+| <a href="https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao"><img src="fdroid/repo/icons/com.shatyuka.zhiliao.png" alt="知了 (Zhiliao) icon" width="36px" height="36px"></a> | [**知了 (Zhiliao)**](https://github.com/Xposed-Modules-Repo/com.shatyuka.zhiliao) | 目前还只是个知乎去广告模块。
+A plugin for Zhihu, currently an ad blocker. | 24.04.06 (202404060) |
 | <a href="https://github.com/Xposed-Modules-Repo/io.github.liusj5257"><img src="assets/ic_launcher.png" alt="碧蓝航线反和谐 icon" width="36px" height="36px"></a> | [**碧蓝航线反和谐**](https://github.com/Xposed-Modules-Repo/io.github.liusj5257) | AzurlaneUncensored 碧蓝航线反和谐 | 1.0 (1) |
 | <a href="https://github.com/Xposed-Modules-Repo/cn.tinyhai.ban_uninstall"><img src="fdroid/repo/icons/cn.tinyhai.ban_uninstall.png" alt="禁止卸载 \| BanUninstall icon" width="36px" height="36px"></a> | [**禁止卸载 \| BanUninstall**](https://github.com/Xposed-Modules-Repo/cn.tinyhai.ban_uninstall) | 禁止卸载和清除应用数据<br>A Xposed Module that prevents apps be uninstall or apps' data be ... | 1.4.0-b279b70 (8) |
 | <a href="https://github.com/Xposed-Modules-Repo/com.queallytech.disablelogrequest"><img src="assets/ic_launcher.png" alt="禁用日志访问请求(DisableLogRequest) icon" width="36px" height="36px"></a> | [**禁用日志访问请求(DisableLogRequest)**](https://github.com/Xposed-Modules-Repo/com.queallytech.disablelogrequest) | Automatic approve for app to access device logs (Android 13+)<br>自动同意应用访问设备日志 (A... | 1.0 (1) |

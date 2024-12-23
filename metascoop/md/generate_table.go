@@ -70,5 +70,8 @@ func RegenerateReadme(readMePath string, index *apps.RepoIndex, repoURL string) 
 	re := regexp.MustCompile(`https://[\w\.\/\-]+\?fingerprint=[\w]+`)
 	newContent = re.ReplaceAll(newContent, []byte(repoURL))
 
+	re_intent := regexp.MustCompile(`froidrepos://[\w\.\/\-]+\?fingerprint=[\w]+`)
+	newContent = re_intent.ReplaceAll(newContent, []byte(strings.Replace(repoURL, "https://", "froidrepos://", 1)))
+
 	return os.WriteFile(readMePath, newContent, os.ModePerm)
 }

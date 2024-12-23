@@ -632,7 +632,7 @@ func main() {
 
 	repoURL := string(matches[0][8 : len(matches[0])-1])
 
-	err = md.RegenerateReadme(readmePath, fdroidIndex, repoURL)
+	err = md.RegenerateReadme(readmePath, fdroidIndex, strings.Replace(repoURL, "https://fdroid.link/#", "", 1))
 	if err != nil {
 		log.Fatalf("error generating %q: %s\n", readmePath, err.Error())
 	}
