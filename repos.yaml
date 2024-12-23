@@ -3676,11 +3676,23 @@ com.bug.gamehook:
             <li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗了！请不遗余力的进行举报！</li>
             <li>唯一Telegram频道：@bugccx</li>
             </ul>
-          filename: app_1.0.0-cb-5-57.apk
+          filename: app_1.0.0-cb-6-19.apk
           id: com.bug.gamehook
           name: Fuck for Game
-          last_updated: "2024-12-17T02:51:42Z"
-          releasedescription: <p>首个公开上传测试版</p>
+          last_updated: "2024-12-22T06:05:55Z"
+          releasedescription: |-
+            <p>新增：<br>
+            【Taptap】：</p>
+            <ul>
+            <li>迷失岛2：时间的灰烬 2.1.5</li>
+            <li>登山赛车 1.60.3</li>
+            <li>登山赛车2 1.63.1</li>
+            <li>绝尘漂移 2.2.50</li>
+            <li>一起玩陶艺 3.6.3</li>
+            <li>铁匠日记2 1.1.0</li>
+            <li>可口的比萨 5.19.1</li>
+            <li>未上锁的房间2 1.0.6</li>
+            </ul>
     author_name: bug-bit
 com.bug.hookvip:
     git: https://github.com/Xposed-Modules-Repo/com.bug.hookvip
@@ -5519,6 +5531,57 @@ com.github.droserasprout.lockscreencamera:
             <li>Initial release</li>
             </ul>
     author_name: droserasprout
+com.github.hank9999.chargeprotectsetter:
+    git: https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter
+    summary: 一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the HyperOS global battery charge protection level to 90% | 关键词：电池健康保护
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>ChargeProtectSetter</h1>
+            <p>一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块</p>
+            <blockquote>
+            <p>[!WARNING]<br />
+            如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />
+            本项目不对任何任何衍生项目负责。</p>
+            </blockquote>
+            <h2>使用条件</h2>
+            <p>目前仅测试了 HyperOS 2, 其他版本可能会有问题<br />
+            在<code>省电与电池-电池保护</code>页面中, 必须有<code>电池健康保护</code>选项</p>
+            <h2>使用方法</h2>
+            <p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>
+            <h2>使用效果</h2>
+            <p>全部 80% 的地方都改为 90%<br />
+            充电电量最高到 90%, <code>电池保护</code> 页面 UI 显示 90%, 通知提示显示 90%</p>
+            <h2>致谢</h2>
+            <ul>
+            <li><a href="https://github.com/HChenX/HookTool">HookTool</a></li>
+            <li><a href="https://github.com/luckypray/DexKit">DexKit</a></li>
+            </ul>
+            <p>特此感谢 焕晨的 <a href="https://github.com/HChenX/AutoSEffSwitch">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>
+            <h2>许可协议</h2>
+            <p><a href="LICENSE">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>
+          filename: ChargeProtectSetter-release-1.1.apk
+          id: com.github.hank9999.chargeprotectsetter
+          name: ChargeProtectSetter
+          last_updated: "2024-12-23T02:45:02Z"
+          releasedescription: |-
+            <div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br>
+            本项目不对任何任何衍生项目负责。</p>
+            </div>
+            <p>作用域: 安全服务  .<br>
+            在 <code>省电与电池-电池保护</code> 页面中, 必须有 <code>电池健康保护</code> 选项<br>
+            <strong>先看 README 再安装</strong></p>
+            <p>其他事项请见 README</p>
+            <p>更新日志：</p>
+            <ul>
+            <li>调用路径判断添加类判断, 防止误修改其他调用</li>
+            <li>使用 <code>DexMethod</code> 代替 <code>Method</code>, 减少了不必要的反射开销</li>
+            <li>访问方法内字段后, 保持字段可见性处于原状态, 避免可能的访问问题</li>
+            </ul>
+            <p>sha256: 1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1</p>
+    author_name: hank9999
 com.github.jamsilva.ptgov_rootskip:
     git: https://github.com/Xposed-Modules-Repo/com.github.jamsilva.ptgov_rootskip
     summary: Módulo Xposed para aplicações do governo português.
@@ -8646,11 +8709,20 @@ com.my.televip:
             <li>
             <p>Change name (Note: The name changes only on your device).</p>
             </li>
+            <li>
+            <p>Hide Phone Number</p>
+            </li>
+            <li>
+            <p>Hide Online Status</p>
+            </li>
+            <li>
+            <p>Prevent Deletion of Secret Media</p>
+            </li>
             </ol>
             <p>There are additional features that are not listed here.</p>
             <h1>Support clients</h1>
             <ol>
-            <li>Telegram 11.5.4 (55282)</li>
+            <li>Telegram 11.5.5 (55312)</li>
             <li>Plus 11.5.3.0 (21340)</li>
             <li>TG Connect 11.0.1 (1100109)</li>
             <li>Skygram 10.20.6 (40639)</li>
@@ -8658,25 +8730,33 @@ com.my.televip:
             <li>X Plus 11.5.4 (55159)</li>
             <li>Cherrygram 11.5.3 (55110)</li>
             <li>Nicegram 1.38.0 (1459)</li>
-            <li>Nagram 11.4.2 (1200)</li>
+            <li>Telegram web 11.5.5 (55319)</li>
             </ol>
             <p>Developed by an @mustafa1dev</p>
-          filename: TeleVip_1.1.apk
+          filename: TeleVip_1.2.apk
           id: com.my.televip
           name: TeleVip
-          last_updated: "2024-12-18T07:31:40Z"
+          last_updated: "2024-12-22T17:03:28Z"
           releasedescription: |-
-            <p>Supported Telegram<br>
-            Supported Plus<br>
-            Supported TG Connect<br>
-            Supported Skygram<br>
-            Supported iMe<br>
-            Supported X Plus<br>
-            Supported Cherrygram<br>
-            Supported Nicegram<br>
-            Supported Nagram<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ4MDE4OTIsIm5iZiI6MTczNDgwMTU5MiwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIxVDE3MTk1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxZjgxNWRmODEwODQ2OThiMmRkY2FkZTg5MDM1YzBhMjdkZTdiODY1MjdiNWRiYjdlZGEyYzNjYjIxZWMxNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._MyKii-8mSrTZEaZO4dhp4XssKTl2a5OGHQglhvz39U"><img src="https://private-user-images.githubusercontent.com/58354390/396634739-3ff67ac4-4504-4154-9bc0-fd7f9704a512.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQ4MDE4OTIsIm5iZiI6MTczNDgwMTU5MiwicGF0aCI6Ii81ODM1NDM5MC8zOTY2MzQ3MzktM2ZmNjdhYzQtNDUwNC00MTU0LTliYzAtZmQ3Zjk3MDRhNTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjIxVDE3MTk1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTgxZjgxNWRmODEwODQ2OThiMmRkY2FkZTg5MDM1YzBhMjdkZTdiODY1MjdiNWRiYjdlZGEyYzNjYjIxZWMxNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._MyKii-8mSrTZEaZO4dhp4XssKTl2a5OGHQglhvz39U" alt="Screenshot_20241217-221803_1" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
-            <p>Additionally, we have addressed some existing issues within the module.</p>
+            <p>TeleVip 1.2 Update Features:</p>
+            <ol>
+            <li>
+            <p>Hide 'Phone' Number<br>
+            Allows users to conceal their phone numbers for enhanced privacy.</p>
+            </li>
+            <li>
+            <p>Hide 'Online' Status<br>
+            Prevents others from seeing your online status on Telegram.</p>
+            </li>
+            <li>
+            <p>Prevent Deletion of Secret Media</p>
+            </li>
+            </ol>
+            <p>Additional Features:</p>
+            <p>Go to First Message: Quickly navigate to the very first message in a chat.</p>
+            <p>Go to Message: Jump to a specific message in a chat.</p>
+            <p>Support for Telegram Web Client:</p>
+            <p>Added support for the simplified Chinese language.</p>
     author_name: mustafa1dev
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne

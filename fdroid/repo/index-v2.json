@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1734837910000,
+    "timestamp": 1734923727000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734837651000,
+        "lastUpdated": 1734923468000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -4317,7 +4317,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734406182000,
+        "lastUpdated": 1734923480000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.gamehook",
         "authorName": "bug-bit",
         "name": {
@@ -4332,6 +4332,47 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "1e7dfc924d63c5409bc87d5079f3e992d81bbf53cae24bef71846320a6f2c126": {
+          "added": 1734923480000,
+          "file": {
+            "name": "/com.bug.gamehook_24122213-1.0.0-cb-6-19.apk",
+            "sha256": "1e7dfc924d63c5409bc87d5079f3e992d81bbf53cae24bef71846320a6f2c126",
+            "size": 3276067
+          },
+          "manifest": {
+            "versionName": "1.0.0-cb-6-19",
+            "versionCode": 24122213,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "com.bug.gamehook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "4601faa84ad5b06238e3f27fe26d012354548da6f852691f27870df15bf3a0e7": {
           "added": 1734406182000,
           "file": {
@@ -7434,6 +7475,54 @@
             "signer": {
               "sha256": [
                 "6c85cf1b1ddd45b9aefda3f660a610602898ca90ae940d9c346c52d28be763dc"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.github.hank9999.chargeprotectsetter": {
+      "metadata": {
+        "added": 1734923502000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1734923502000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter",
+        "authorName": "hank9999",
+        "name": {
+          "en-US": "ChargeProtectSetter"
+        },
+        "summary": {
+          "en-US": "一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the Hy..."
+        },
+        "description": {
+          "en-US": "<h1>ChargeProtectSetter</h1>\n<p>一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块</p>\n<blockquote>\n<p>[!WARNING]<br />\n如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />\n本项目不对任何任何衍生项目负责。</p>\n</blockquote>\n<h2>使用条件</h2>\n<p>目前仅测试了 HyperOS 2, 其他版本可能会有问题<br />\n在<code>省电与电池-电池保护</code>页面中, 必须有<code>电池健康保护</code>选项</p>\n<h2>使用方法</h2>\n<p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>\n<h2>使用效果</h2>\n<p>全部 80% 的地方都改为 90%<br />\n充电电量最高到 90%, <code>电池保护</code> 页面 UI 显示 90%, 通知提示显示 90%</p>\n<h2>致谢</h2>\n<ul>\n<li><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></li>\n<li><a href=\"https://github.com/luckypray/DexKit\">DexKit</a></li>\n</ul>\n<p>特此感谢 焕晨的 <a href=\"https://github.com/HChenX/AutoSEffSwitch\">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>\n<h2>许可协议</h2>\n<p><a href=\"LICENSE\">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>\n"
+        },
+        "preferredSigner": "fef15f230ff6e4191509d020323f4cd695cf81c91b34b8567b63790c36ef93ff"
+      },
+      "versions": {
+        "1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1": {
+          "added": 1734923502000,
+          "file": {
+            "name": "/com.github.hank9999.chargeprotectsetter_24122302-1.1.apk",
+            "sha256": "1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1",
+            "size": 1401451
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1",
+            "versionCode": 24122302,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fef15f230ff6e4191509d020323f4cd695cf81c91b34b8567b63790c36ef93ff"
               ]
             }
           }
@@ -11368,7 +11457,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734492430000,
+        "lastUpdated": 1734923529000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
         "authorName": "mustafa1dev",
         "name": {
@@ -11378,7 +11467,7 @@
           "en-US": "TeleVip A module for modifying Telegram"
         },
         "description": {
-          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.4 (55282)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Nagram 11.4.2 (1200)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.5 (55312)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Telegram web 11.5.5 (55319)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
         },
         "icon": {
           "en-US": {
@@ -11428,6 +11517,27 @@
           },
           "manifest": {
             "versionName": "1.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        },
+        "d7dcd6e799c550564ace2cf1dc98853dd75e77edaca5045c425d5508f10aa677": {
+          "added": 1734923529000,
+          "file": {
+            "name": "/com.my.televip_1-1.2.apk",
+            "sha256": "d7dcd6e799c550564ace2cf1dc98853dd75e77edaca5045c425d5508f10aa677",
+            "size": 58046
+          },
+          "manifest": {
+            "versionName": "1.2",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 21,
