@@ -24,9 +24,9 @@ Because the built-in repository of LSPosed manager doesn't support one-click dow
 1. Install the [F-Droid client app](https://f-droid.org/) or other F-Droid client apps.
 2. Add the repository to the F-Droid client app using one of the following ways:
 
-   - 1st way: Open the link on Android browser <a href="froidrepos://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4">froidrepos://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4</a>
-   - 2nd way: Scan the QR code.
-   - 3rd way: Manually copy/paste the F-Droid repository [link](https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4) into the F-Droid client app under Settings.
+   - First way (**recommended**): Open the [F-Droid Link page](https://fdroid.link/#https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4) and click "Android Deep Link".
+   - Second way: Scan the QR code.
+   - Third way: Manually copy/paste the F-Droid repository [link](https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo?fingerprint=D75D709FBC3A398D186C849D5EF327C632178FB7368E1C7F42C9DD19258BFAE4) into the F-Droid client app under Settings.
 3. Refresh your F-Droid client app under the Categories tab.
 4. Install from the F-Droid client app listing.
 
