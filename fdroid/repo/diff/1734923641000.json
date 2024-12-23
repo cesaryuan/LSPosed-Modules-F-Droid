@@ -1,0 +1,36 @@
+{
+  "repo": {
+    "timestamp": 1734923727000
+  },
+  "packages": {
+    "com.bug.gamehook": {
+      "versions": {
+        "1e7dfc924d63c5409bc87d5079f3e992d81bbf53cae24bef71846320a6f2c126": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.github.hank9999.chargeprotectsetter": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter",
+        "authorName": "hank9999",
+        "summary": {
+          "en-US": "一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the Hy..."
+        },
+        "description": {
+          "en-US": "<h1>ChargeProtectSetter</h1>\n<p>一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块</p>\n<blockquote>\n<p>[!WARNING]<br />\n如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />\n本项目不对任何任何衍生项目负责。</p>\n</blockquote>\n<h2>使用条件</h2>\n<p>目前仅测试了 HyperOS 2, 其他版本可能会有问题<br />\n在<code>省电与电池-电池保护</code>页面中, 必须有<code>电池健康保护</code>选项</p>\n<h2>使用方法</h2>\n<p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>\n<h2>使用效果</h2>\n<p>全部 80% 的地方都改为 90%<br />\n充电电量最高到 90%, <code>电池保护</code> 页面 UI 显示 90%, 通知提示显示 90%</p>\n<h2>致谢</h2>\n<ul>\n<li><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></li>\n<li><a href=\"https://github.com/luckypray/DexKit\">DexKit</a></li>\n</ul>\n<p>特此感谢 焕晨的 <a href=\"https://github.com/HChenX/AutoSEffSwitch\">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>\n<h2>许可协议</h2>\n<p><a href=\"LICENSE\">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>\n"
+        }
+      }
+    },
+    "com.my.televip": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.5 (55312)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Telegram web 11.5.5 (55319)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+        }
+      }
+    }
+  }
+}

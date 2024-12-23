@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734837910000,
+    "timestamp": 1734923727000,
     "version": 20002
   },
   "requests": {
@@ -1057,6 +1057,27 @@
       "suggestedVersionCode": "111",
       "suggestedVersionName": "1.1.1",
       "summary": "某高校园跑APP辅助模块"
+    },
+    {
+      "added": 1734921902000,
+      "authorName": "hank9999",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eChargeProtectSetter\u003c/h1\u003e\n\u003cp\u003e一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!WARNING]\u003cbr /\u003e\n如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。\u003cbr /\u003e\n本项目不对任何任何衍生项目负责。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e使用条件\u003c/h2\u003e\n\u003cp\u003e目前仅测试了 HyperOS 2, 其他版本可能会有问题\u003cbr /\u003e\n在\u003ccode\u003e省电与电池-电池保护\u003c/code\u003e页面中, 必须有\u003ccode\u003e电池健康保护\u003c/code\u003e选项\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e安装 Xposed 模块后, 进入\u003ccode\u003e省电与电池-电池保护\u003c/code\u003e页面, 启用\u003ccode\u003e电池健康保护\u003c/code\u003e, 重启作用域或手机即可\u003c/p\u003e\n\u003ch2\u003e使用效果\u003c/h2\u003e\n\u003cp\u003e全部 80% 的地方都改为 90%\u003cbr /\u003e\n充电电量最高到 90%, \u003ccode\u003e电池保护\u003c/code\u003e 页面 UI 显示 90%, 通知提示显示 90%\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/luckypray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e特此感谢 焕晨的 \u003ca href=\"https://github.com/HChenX/AutoSEffSwitch\"\u003eAutoSEffSwitch\u003c/a\u003e 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢\u003c/p\u003e\n\u003ch2\u003e许可协议\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"LICENSE\"\u003eGPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1734921902000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "\u003e [!WARNING]  \n\u003e 如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。  \n\u003e 本项目不对任何任何衍生项目负责。\n\n作用域: 安全服务  .\n在 `省电与电池-电池保护` 页面中, 必须有 `电池健康保护` 选项  \n**先看 README 再安装**\n\n其他事项请见 README  \n\n更新日志：\n - 调用路径判断添加类判断, 防止误修改其他调用\n - 使用 `DexMethod` 代替 `Method`, 减少了不必要的反射开销\n - 访问方法内字段后, 保持字段可见性处于原状态, 避免可能的访问问题\n\nsha256: 1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1"
+        }
+      },
+      "name": "ChargeProtectSetter",
+      "packageName": "com.github.hank9999.chargeprotectsetter",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter",
+      "suggestedVersionCode": "24122302",
+      "suggestedVersionName": "1.1",
+      "summary": "一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the Hy..."
     },
     {
       "added": 1678390980000,
@@ -2184,24 +2205,24 @@
       "summary": "去他妈的广告\nFuck Ads"
     },
     {
-      "added": 1734403902000,
+      "added": 1734847555000,
       "authorName": "bug-bit",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eFuck for Game\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.gamehook?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.gamehook/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.gamehook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.gamehook\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/bugccx\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eFuck for Game 是一个基于 Xposed 的免费的游戏内购模块。\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch3\u003e注意\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e基于某个版本适配｜可能通杀｜如果无效你可能需要下载模块内标注的对应适配版本才可能正常使用模块的功能。\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e所有适配的游戏都已经通过测试，你不会用和无效要分清\u003c/em\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e免责声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e本模块完全免费！禁止倒卖、搬运、引流、转载、分享！否则一切后果自行承担！\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！\u003c/li\u003e\n\u003cli\u003e本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e须知\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗了！请不遗余力的进行举报！\u003c/li\u003e\n\u003cli\u003e唯一Telegram频道：@bugccx\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1734403902000,
+      "lastUpdated": 1734847555000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "首个公开上传测试版"
+          "whatsNew": "新增：\n【Taptap】：\n- 迷失岛2：时间的灰烬 2.1.5\n- 登山赛车 1.60.3\n- 登山赛车2 1.63.1\n- 绝尘漂移 2.2.50\n- 一起玩陶艺 3.6.3\n- 铁匠日记2 1.1.0\n- 可口的比萨 5.19.1\n- 未上锁的房间2 1.0.6"
         }
       },
       "name": "Fuck for Game",
       "packageName": "com.bug.gamehook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.gamehook",
-      "suggestedVersionCode": "24121515",
-      "suggestedVersionName": "1.0.0-cb-5-57",
+      "suggestedVersionCode": "24122213",
+      "suggestedVersionName": "1.0.0-cb-6-19",
       "summary": "一个基于 Xposed 的免费的游戏内购模块。"
     },
     {
@@ -6379,20 +6400,20 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003ch1\u003eSupport clients\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eTelegram 11.5.4 (55282)\u003c/li\u003e\n\u003cli\u003ePlus 11.5.3.0 (21340)\u003c/li\u003e\n\u003cli\u003eTG Connect 11.0.1 (1100109)\u003c/li\u003e\n\u003cli\u003eSkygram 10.20.6 (40639)\u003c/li\u003e\n\u003cli\u003eiMe 11.5.3 (11050302)\u003c/li\u003e\n\u003cli\u003eX Plus 11.5.4 (55159)\u003c/li\u003e\n\u003cli\u003eCherrygram 11.5.3 (55110)\u003c/li\u003e\n\u003cli\u003eNicegram 1.38.0 (1459)\u003c/li\u003e\n\u003cli\u003eNagram 11.4.2 (1200)\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Phone Number\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Online Status\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003ePrevent Deletion of Secret Media\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003ch1\u003eSupport clients\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eTelegram 11.5.5 (55312)\u003c/li\u003e\n\u003cli\u003ePlus 11.5.3.0 (21340)\u003c/li\u003e\n\u003cli\u003eTG Connect 11.0.1 (1100109)\u003c/li\u003e\n\u003cli\u003eSkygram 10.20.6 (40639)\u003c/li\u003e\n\u003cli\u003eiMe 11.5.3 (11050302)\u003c/li\u003e\n\u003cli\u003eX Plus 11.5.4 (55159)\u003c/li\u003e\n\u003cli\u003eCherrygram 11.5.3 (55110)\u003c/li\u003e\n\u003cli\u003eNicegram 1.38.0 (1459)\u003c/li\u003e\n\u003cli\u003eTelegram web 11.5.5 (55319)\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
       "icon": "com.my.televip.1.png",
-      "lastUpdated": 1734492430000,
+      "lastUpdated": 1734923529000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "Supported Telegram\nSupported Plus\nSupported TG Connect\nSupported Skygram\nSupported iMe\nSupported X Plus\nSupported Cherrygram\nSupported Nicegram\nSupported Nagram\n![Screenshot_20241217-221803_1](https://github.com/user-attachments/assets/3ff67ac4-4504-4154-9bc0-fd7f9704a512)\n\nAdditionally, we have addressed some existing issues within the module."
+          "whatsNew": "TeleVip 1.2 Update Features:\n\n1. Hide 'Phone' Number\nAllows users to conceal their phone numbers for enhanced privacy.\n\n2. Hide 'Online' Status\nPrevents others from seeing your online status on Telegram.\n\n3. Prevent Deletion of Secret Media\n\nAdditional Features:\n\nGo to First Message: Quickly navigate to the very first message in a chat.\n\nGo to Message: Jump to a specific message in a chat.\n\nSupport for Telegram Web Client:\n\nAdded support for the simplified Chinese language."
         }
       },
       "name": "TeleVip",
       "packageName": "com.my.televip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.1",
+      "suggestedVersionName": "1.2",
       "summary": "TeleVip A module for modifying Telegram"
     },
     {
@@ -11226,7 +11247,22 @@
     ],
     "com.bug.gamehook": [
       {
-        "added": 1734403902000,
+        "added": 1734847555000,
+        "apkName": "com.bug.gamehook_24122213-1.0.0-cb-6-19.apk",
+        "hash": "1e7dfc924d63c5409bc87d5079f3e992d81bbf53cae24bef71846320a6f2c126",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "com.bug.gamehook",
+        "sig": "90172522574ef52dc6d68c644d2fb88b",
+        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
+        "size": 3276067,
+        "targetSdkVersion": 35,
+        "versionCode": 24122213,
+        "versionName": "1.0.0-cb-6-19"
+      },
+      {
+        "added": 1734406182000,
         "apkName": "com.bug.gamehook_24121515-1.0.0-cb-5-57.apk",
         "hash": "4601faa84ad5b06238e3f27fe26d012354548da6f852691f27870df15bf3a0e7",
         "hashType": "sha256",
@@ -12212,6 +12248,26 @@
         "targetSdkVersion": 30,
         "versionCode": 1,
         "versionName": "1.0.0"
+      }
+    ],
+    "com.github.hank9999.chargeprotectsetter": [
+      {
+        "added": 1734921902000,
+        "apkName": "com.github.hank9999.chargeprotectsetter_24122302-1.1.apk",
+        "hash": "1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.github.hank9999.chargeprotectsetter",
+        "sig": "da96000d8d1d595a8b0c5e6b2e14959b",
+        "signer": "fef15f230ff6e4191509d020323f4cd695cf81c91b34b8567b63790c36ef93ff",
+        "size": 1401451,
+        "targetSdkVersion": 34,
+        "versionCode": 24122302,
+        "versionName": "1.1"
       }
     ],
     "com.github.jamsilva.ptgov_rootskip": [
@@ -13543,7 +13599,7 @@
         "versionName": "1.0"
       },
       {
-        "added": 1734507100000,
+        "added": 1734492430000,
         "apkName": "com.my.televip_1-1.1.apk",
         "hash": "8ec8387c7758b970bba9d94f50d67f9212f801594b1e1ed92589f6c76ed56441",
         "hashType": "sha256",
@@ -13556,6 +13612,21 @@
         "targetSdkVersion": 28,
         "versionCode": 1,
         "versionName": "1.1"
+      },
+      {
+        "added": 1734887008000,
+        "apkName": "com.my.televip_1-1.2.apk",
+        "hash": "d7dcd6e799c550564ace2cf1dc98853dd75e77edaca5045c425d5508f10aa677",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.my.televip",
+        "sig": "5e1c289354cddde261ea459a57985099",
+        "signer": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1",
+        "size": 58046,
+        "targetSdkVersion": 28,
+        "versionCode": 1,
+        "versionName": "1.2"
       }
     ],
     "com.nnnen.plusne": [

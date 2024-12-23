@@ -1,7 +1,7 @@
 AuthorName: mustafa1dev
 Categories:
     - Xposed
-CurrentVersion: "1.1"
+CurrentVersion: "1.2"
 CurrentVersionCode: 1
 Description: |
     <h1>TeleVip LSPosed</h1>
@@ -31,11 +31,20 @@ Description: |
     <li>
     <p>Change name (Note: The name changes only on your device).</p>
     </li>
+    <li>
+    <p>Hide Phone Number</p>
+    </li>
+    <li>
+    <p>Hide Online Status</p>
+    </li>
+    <li>
+    <p>Prevent Deletion of Secret Media</p>
+    </li>
     </ol>
     <p>There are additional features that are not listed here.</p>
     <h1>Support clients</h1>
     <ol>
-    <li>Telegram 11.5.4 (55282)</li>
+    <li>Telegram 11.5.5 (55312)</li>
     <li>Plus 11.5.3.0 (21340)</li>
     <li>TG Connect 11.0.1 (1100109)</li>
     <li>Skygram 10.20.6 (40639)</li>
@@ -43,7 +52,7 @@ Description: |
     <li>X Plus 11.5.4 (55159)</li>
     <li>Cherrygram 11.5.3 (55110)</li>
     <li>Nicegram 1.38.0 (1459)</li>
-    <li>Nagram 11.4.2 (1200)</li>
+    <li>Telegram web 11.5.5 (55319)</li>
     </ol>
     <p>Developed by an @mustafa1dev</p>
 IssueTracker: ""
