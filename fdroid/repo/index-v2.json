@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1734923727000,
+    "timestamp": 1735010023000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734923468000,
+        "lastUpdated": 1735009767000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -3678,7 +3678,7 @@
           "en-US": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li..."
         },
         "description": {
-          "en-US": "<h1>Sunny</h1>\n<p>Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.</p>\n<h2>Features</h2>\n<ul>\n<li>Ignore extension-specific rate limits (makes page loading and browsing faster).</li>\n<li>Increase max number of concurrent downloads from 2 to 16.</li>\n</ul>\n<h2>What is this?</h2>\n<p>Tachiyomi has a rate limit system. This system was designed to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked by manga sources due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending networks requests.</p>\n<p>The downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.</p>\n<p>Unfortunately, this results in browsing and downloading being slower than necessary.</p>\n<p>Bellow is a video comparison:</p>\n<p><img src=\"https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif\" alt=\"Video comparison\" /></p>\n<p><strong>Left side</strong>: Tachiyomi <strong>with</strong> the Sunny module enabled.<br />\n<strong>Right side</strong>: Tachiyomi <strong>without</strong> the Sunny module.</p>\n<h2>Usage</h2>\n<p>This module requires root and an API-compatible Xposed implementation to work.</p>\n<p>Firstly, download and install the APK from the <a href=\"https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny/releases/latest/download/app-release.apk\">releases</a> page.</p>\n<ul>\n<li>\n<p><strong>LSposed</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and mark the Tachiyomi package in the list of apps. Then, kill/force-close the Tachiyomi process.</li>\n</ul>\n</li>\n<li>\n<p><strong>Legacy Xposed</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and reboot the device.</li>\n</ul>\n</li>\n</ul>\n<h2>Supported versions</h2>\n<p>The minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.</p>\n<p>This was tested up to Mihon v0.17.0.</p>\n<h2>Non-root alternative</h2>\n<p>If you don’t have root or are just looking for a more native alternative, try my <a href=\"https://github.com/AmanoTeam/mihon\">fork</a> of Mihon. It’s the original Mihon app with my changes on top of it.</p>\n"
+          "en-US": "<h1>Sunny</h1>\n<p>Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.</p>\n<h2>Features</h2>\n<ul>\n<li>Ignore extension-specific rate limits (makes page loading, downloading and browsing faster).</li>\n<li>Increase max number of concurrent downloads from 2 to 16.</li>\n</ul>\n<h2>What is this?</h2>\n<p>Tachiyomi has a rate limit system that was designed to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked by manga sources due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending networks requests.</p>\n<p>The downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.</p>\n<p>Unfortunately, this results in browsing and downloading being slower than necessary, degrading the overall user experience.</p>\n<p>Bellow is a video comparison:</p>\n<p><img src=\"https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif\" alt=\"Video comparison\" /></p>\n<p><strong>Left side</strong>: Tachiyomi <strong>with</strong> the Sunny module enabled.<br />\n<strong>Right side</strong>: Tachiyomi <strong>without</strong> the Sunny module.</p>\n<h2>Usage</h2>\n<p>This module requires root and an API-compatible Xposed implementation to work.</p>\n<p>Firstly, download and install the APK from the <a href=\"https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny/releases/latest/download/app-release.apk\">releases</a> page.</p>\n<ul>\n<li>\n<p><strong>LSposed (Android 8 and up)</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and mark the Tachiyomi package in the list of apps. Then, kill/force-close the Tachiyomi process.</li>\n</ul>\n</li>\n<li>\n<p><strong>Legacy Xposed (Android 7 and below)</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and reboot the device.</li>\n</ul>\n</li>\n</ul>\n<h2>Supported versions</h2>\n<p>The minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.</p>\n<p>This was tested up to Mihon v0.17.1.</p>\n<h2>Non-root alternative</h2>\n<p>If you are looking for a non-root alternative, try my <a href=\"https://github.com/AmanoTeam/mihon\">fork</a> of Mihon. It’s the original Mihon app with my changes on top of it.</p>\n"
         },
         "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
       },
@@ -5285,6 +5285,61 @@
               },
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.chrxw.justenablednotification": {
+      "metadata": {
+        "added": 1735009784000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1735009784000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chrxw.justenablednotification",
+        "authorName": "chr233",
+        "name": {
+          "en-US": "假装开启小黑盒的通知权限"
+        },
+        "summary": {
+          "en-US": "假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效"
+        },
+        "description": {
+          "en-US": "<h1>justenablednotification</h1>\n<p><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.justenablednotification?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.justenablednotification/total?logo=github\" alt=\"GitHub Download\" /></a>\nXposed 仓库</p>\n<p><a href=\"https://space.bilibili.com/5805394\"><img src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /></a>\n<a href=\"https://steamcommunity.com/id/Chr_\"><img src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /></a></p>\n<p><a href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i\"><img src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /></a>\n<a href=\"https://afdian.net/@chr233\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /></a></p>\n<h2>主要功能</h2>\n<p>假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效</p>\n<h2>捐赠</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /> <br> <a href=\"https://afdian.net/@chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /> <br> <a href=\"https://www.buymeacoffee.com/chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>\n</tr>\n</tbody>\n</table>\n"
+        },
+        "preferredSigner": "75f38a235b328c05ae399df8ae06a97d5efe66cc23c0a0bbf40789e18062a269"
+      },
+      "versions": {
+        "cc34e89371bda501e8b5b7a85ee46be63930eb662a76a6939bf3b422fd848896": {
+          "added": 1735009784000,
+          "file": {
+            "name": "/com.chrxw.justenablednotification_1-1.0.apk",
+            "sha256": "cc34e89371bda501e8b5b7a85ee46be63930eb662a76a6939bf3b422fd848896",
+            "size": 614857
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "75f38a235b328c05ae399df8ae06a97d5efe66cc23c0a0bbf40789e18062a269"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.chrxw.justenablednotification.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
@@ -11467,7 +11522,7 @@
           "en-US": "TeleVip A module for modifying Telegram"
         },
         "description": {
-          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.5 (55312)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Telegram web 11.5.5 (55319)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.5 (55312)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Nagram 11.4.2 (1200)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Telegram web 11.5.5 (55319)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
         },
         "icon": {
           "en-US": {
@@ -15224,7 +15279,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159511000,
+        "lastUpdated": 1735009846000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform",
         "authorName": "YifePlayte",
         "name": {
@@ -15239,6 +15294,32 @@
         "preferredSigner": "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d"
       },
       "versions": {
+        "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf": {
+          "added": 1735009846000,
+          "file": {
+            "name": "/com.yifeplayte.maxfreeform_26-4.0.0.apk",
+            "sha256": "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf",
+            "size": 297450
+          },
+          "manifest": {
+            "versionName": "4.0.0",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "a1337b01bc2e7945f79ef7dd15e929414c91a305543f1569c4dd77b51c989632": {
           "added": 1732159511000,
           "file": {
@@ -18256,7 +18337,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734320267000,
+        "lastUpdated": 1735009865000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps",
         "authorName": "whew-inc",
         "name": {
@@ -18268,6 +18349,27 @@
         "preferredSigner": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b"
       },
       "versions": {
+        "fd01915d4a8dbeced73ca907eff022edc0779899a26d4b61d5d35bc06dcbbd00": {
+          "added": 1735009865000,
+          "file": {
+            "name": "/inc.whew.android.fakegapps_11-6.5.apk",
+            "sha256": "fd01915d4a8dbeced73ca907eff022edc0779899a26d4b61d5d35bc06dcbbd00",
+            "size": 33471
+          },
+          "manifest": {
+            "versionName": "6.5",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 15,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b"
+              ]
+            }
+          }
+        },
         "c910c43b460154a0ec29d5c9164ded8aec9f63750205bc7edbc34ebd25aa4073": {
           "added": 1734320267000,
           "file": {
@@ -19674,7 +19776,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159541000,
+        "lastUpdated": 1735009872000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.tehcneko.hyperos.aospinstaller",
         "authorName": "tehcneko",
         "name": {
@@ -19689,6 +19791,27 @@
         "preferredSigner": "2651b5caf28b2f62be8cead5df2be82cc90f9c8a954464878bb5880b62db718f"
       },
       "versions": {
+        "7d934dede17266794d4dcb1f4856d97342367718c289a8cd466eef69623d8d18": {
+          "added": 1735009872000,
+          "file": {
+            "name": "/io.github.tehcneko.hyperos.aospinstaller_6-1.1.0.apk",
+            "sha256": "7d934dede17266794d4dcb1f4856d97342367718c289a8cd466eef69623d8d18",
+            "size": 10217
+          },
+          "manifest": {
+            "versionName": "1.1.0",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "2651b5caf28b2f62be8cead5df2be82cc90f9c8a954464878bb5880b62db718f"
+              ]
+            }
+          }
+        },
         "531d8023fac2c1fc4f93f242c0741661c76c0d896983dbba69b7dcc67d0aa215": {
           "added": 1732159541000,
           "file": {
