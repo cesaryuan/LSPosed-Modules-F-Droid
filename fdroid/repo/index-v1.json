@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1734923727000,
+    "timestamp": 1735010023000,
     "version": 20002
   },
   "requests": {
@@ -1830,14 +1830,14 @@
       "summary": "Enhance Xperia Game Enhancer"
     },
     {
-      "added": 1734277251000,
+      "added": 1735007481000,
       "authorName": "whew-inc",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eFakeGApps\u003c/h1\u003e\n\u003cp\u003eUsed in combination with \u003ca href=\"https://microg.org/\"\u003eMicroG\u003c/a\u003e to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.\u003c/p\u003e\n\u003cp\u003eSupports Android 4.0 - 14\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/whew-inc/FakeGApps\"\u003eOriginal repository\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "inc.whew.android.fakegapps.png",
-      "lastUpdated": 1734277251000,
+      "lastUpdated": 1735007481000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3812,25 +3812,25 @@
       "summary": "Allow you to add a customisable matrix rain in your notifications panel !"
     },
     {
-      "added": 1726303813000,
+      "added": 1734932442000,
       "authorName": "YifePlayte",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMaxFreeForm\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yifeplayte.maxfreeform/total?label=Downloads\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/YifePlayte/MaxFreeForm?style=flat\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/YifePlayte/MaxFreeForm\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/blob/main/LICENSE\"\u003e\u003cimg alt=\"GitHub license\" src=\"https://img.shields.io/github/license/YifePlayte/MaxFreeForm\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e为各种 MIUI / HyperOS 设备解除多小窗限制\u003cbr /\u003e\nUnlock multi freeform limits for MIUI / HyperOS devices\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e第三方开源引用 / Third-party open source references\u003c/h3\u003e\n\u003ch5\u003eGNU Lesser General Public License v2.1\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/577fkj/blockmiui\"\u003e577fkj/blockmiui\u003c/a\u003e\u003c/p\u003e\n\u003ch5\u003eApache License 2.0\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eKyuubiRan/EzXHelper\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/zhanghai/AppIconLoader\"\u003ezhanghai/AppIconLoader\u003c/a\u003e\u003c/p\u003e\n\u003ch5\u003eGNU General Public License v3.0\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Simplicity-Team/WooBoxForMIUI\"\u003eSimplicity-Team/WooBoxForMIUI\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HChenX/ForegroundPin\"\u003eHChenX/ForegroundPin\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ranLee1/jpinyin\"\u003eranLee1/jpinyin\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003eLicense\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e捐赠 / Sponsor\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://afdian.com/a/YifePlayte\"\u003e爱发电 / AFDIAN\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.yifeplayte.maxfreeform.png",
-      "lastUpdated": 1726303813000,
+      "lastUpdated": 1734932442000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- [新增] 选择应用移除小窗顶栏\n---\n- [New] Remove top bar of floating windows for selected apps\n"
+          "whatsNew": "- [修复] 适配 HyperOS 2\n- [修复] 应用选择界面图标展示\n- [新增] 日语本地化\n---\n- [Fix] Fix for HyperOS 2\n- [Fix] Application list icons\n- [New] Japanese localization\n"
         }
       },
       "name": "MaxFreeForm",
       "packageName": "com.yifeplayte.maxfreeform",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform",
-      "suggestedVersionCode": "25",
-      "suggestedVersionName": "3.3.1",
+      "suggestedVersionCode": "26",
+      "suggestedVersionName": "4.0.0",
       "summary": "为各种 MIUI / HyperOS 设备解除多小窗限制\nUnlock multi freeform limits for MIUI / HyperOS ..."
     },
     {
@@ -6293,7 +6293,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eSunny\u003c/h1\u003e\n\u003cp\u003ePrevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eIgnore extension-specific rate limits (makes page loading and browsing faster).\u003c/li\u003e\n\u003cli\u003eIncrease max number of concurrent downloads from 2 to 16.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eWhat is this?\u003c/h2\u003e\n\u003cp\u003eTachiyomi has a rate limit system. This system was designed to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked by manga sources due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending networks requests.\u003c/p\u003e\n\u003cp\u003eThe downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.\u003c/p\u003e\n\u003cp\u003eUnfortunately, this results in browsing and downloading being slower than necessary.\u003c/p\u003e\n\u003cp\u003eBellow is a video comparison:\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif\" alt=\"Video comparison\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eLeft side\u003c/strong\u003e: Tachiyomi \u003cstrong\u003ewith\u003c/strong\u003e the Sunny module enabled.\u003cbr /\u003e\n\u003cstrong\u003eRight side\u003c/strong\u003e: Tachiyomi \u003cstrong\u003ewithout\u003c/strong\u003e the Sunny module.\u003c/p\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eThis module requires root and an API-compatible Xposed implementation to work.\u003c/p\u003e\n\u003cp\u003eFirstly, download and install the APK from the \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny/releases/latest/download/app-release.apk\"\u003ereleases\u003c/a\u003e page.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eLSposed\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the modules section, enable Sunny, and mark the Tachiyomi package in the list of apps. Then, kill/force-close the Tachiyomi process.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eLegacy Xposed\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the modules section, enable Sunny, and reboot the device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eSupported versions\u003c/h2\u003e\n\u003cp\u003eThe minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.\u003c/p\u003e\n\u003cp\u003eThis was tested up to Mihon v0.17.0.\u003c/p\u003e\n\u003ch2\u003eNon-root alternative\u003c/h2\u003e\n\u003cp\u003eIf you don’t have root or are just looking for a more native alternative, try my \u003ca href=\"https://github.com/AmanoTeam/mihon\"\u003efork\u003c/a\u003e of Mihon. It’s the original Mihon app with my changes on top of it.\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eSunny\u003c/h1\u003e\n\u003cp\u003ePrevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eIgnore extension-specific rate limits (makes page loading, downloading and browsing faster).\u003c/li\u003e\n\u003cli\u003eIncrease max number of concurrent downloads from 2 to 16.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eWhat is this?\u003c/h2\u003e\n\u003cp\u003eTachiyomi has a rate limit system that was designed to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked by manga sources due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending networks requests.\u003c/p\u003e\n\u003cp\u003eThe downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.\u003c/p\u003e\n\u003cp\u003eUnfortunately, this results in browsing and downloading being slower than necessary, degrading the overall user experience.\u003c/p\u003e\n\u003cp\u003eBellow is a video comparison:\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif\" alt=\"Video comparison\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eLeft side\u003c/strong\u003e: Tachiyomi \u003cstrong\u003ewith\u003c/strong\u003e the Sunny module enabled.\u003cbr /\u003e\n\u003cstrong\u003eRight side\u003c/strong\u003e: Tachiyomi \u003cstrong\u003ewithout\u003c/strong\u003e the Sunny module.\u003c/p\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eThis module requires root and an API-compatible Xposed implementation to work.\u003c/p\u003e\n\u003cp\u003eFirstly, download and install the APK from the \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny/releases/latest/download/app-release.apk\"\u003ereleases\u003c/a\u003e page.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eLSposed (Android 8 and up)\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the modules section, enable Sunny, and mark the Tachiyomi package in the list of apps. Then, kill/force-close the Tachiyomi process.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eLegacy Xposed (Android 7 and below)\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the modules section, enable Sunny, and reboot the device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eSupported versions\u003c/h2\u003e\n\u003cp\u003eThe minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.\u003c/p\u003e\n\u003cp\u003eThis was tested up to Mihon v0.17.1.\u003c/p\u003e\n\u003ch2\u003eNon-root alternative\u003c/h2\u003e\n\u003cp\u003eIf you are looking for a non-root alternative, try my \u003ca href=\"https://github.com/AmanoTeam/mihon\"\u003efork\u003c/a\u003e of Mihon. It’s the original Mihon app with my changes on top of it.\u003c/p\u003e\n",
       "lastUpdated": 1730568194000,
       "license": "Unknown",
       "localized": {
@@ -6400,7 +6400,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Phone Number\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Online Status\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003ePrevent Deletion of Secret Media\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003ch1\u003eSupport clients\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eTelegram 11.5.5 (55312)\u003c/li\u003e\n\u003cli\u003ePlus 11.5.3.0 (21340)\u003c/li\u003e\n\u003cli\u003eTG Connect 11.0.1 (1100109)\u003c/li\u003e\n\u003cli\u003eSkygram 10.20.6 (40639)\u003c/li\u003e\n\u003cli\u003eiMe 11.5.3 (11050302)\u003c/li\u003e\n\u003cli\u003eX Plus 11.5.4 (55159)\u003c/li\u003e\n\u003cli\u003eCherrygram 11.5.3 (55110)\u003c/li\u003e\n\u003cli\u003eNicegram 1.38.0 (1459)\u003c/li\u003e\n\u003cli\u003eTelegram web 11.5.5 (55319)\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eTeleVip LSPosed\u003c/h1\u003e\n\u003cp\u003eA module for modifying Telegram with the following features:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Seen” status for messages.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide “Typing…” indicator.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide story view status.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUnlock all restricted and encrypted features for channels.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBoost Telegram download speed.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eEnable Telegram Premium features.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eSave stories to the gallery, including those that cannot normally be saved.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eChange name (Note: The name changes only on your device).\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Phone Number\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eHide Online Status\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003ePrevent Deletion of Secret Media\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eThere are additional features that are not listed here.\u003c/p\u003e\n\u003ch1\u003eSupport clients\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003eTelegram 11.5.5 (55312)\u003c/li\u003e\n\u003cli\u003ePlus 11.5.3.0 (21340)\u003c/li\u003e\n\u003cli\u003eTG Connect 11.0.1 (1100109)\u003c/li\u003e\n\u003cli\u003eNagram 11.4.2 (1200)\u003c/li\u003e\n\u003cli\u003eSkygram 10.20.6 (40639)\u003c/li\u003e\n\u003cli\u003eiMe 11.5.3 (11050302)\u003c/li\u003e\n\u003cli\u003eX Plus 11.5.4 (55159)\u003c/li\u003e\n\u003cli\u003eCherrygram 11.5.3 (55110)\u003c/li\u003e\n\u003cli\u003eNicegram 1.38.0 (1459)\u003c/li\u003e\n\u003cli\u003eTelegram web 11.5.5 (55319)\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eDeveloped by an @mustafa1dev\u003c/p\u003e\n",
       "icon": "com.my.televip.1.png",
       "lastUpdated": 1734923529000,
       "license": "Unknown",
@@ -7604,6 +7604,22 @@
       "summary": "一键管理所有应用的运营消息通知通道，仅支持 MIUI"
     },
     {
+      "added": 1734143367000,
+      "authorName": "chr233",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003ejustenablednotification\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.justenablednotification?logo=github\" alt=\"GitHub Repo stars\" /\u003e\n\u003ca href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.justenablednotification/total?logo=github\" alt=\"GitHub Download\" /\u003e\u003c/a\u003e\nXposed 仓库\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://space.bilibili.com/5805394\"\u003e\u003cimg src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://steamcommunity.com/id/Chr_\"\u003e\u003cimg src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487\u0026amp;token=xgqMgL-i\"\u003e\u003cimg src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://afdian.net/@chr233\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e主要功能\u003c/h2\u003e\n\u003cp\u003e假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效\u003c/p\u003e\n\u003ch2\u003e捐赠\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /\u003e \u003cbr\u003e \u003ca href=\"https://afdian.net/@chr233\"\u003e链接\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /\u003e \u003cbr\u003e \u003ca href=\"https://www.buymeacoffee.com/chr233\"\u003e链接\u003c/a\u003e\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003cimg src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /\u003e \u003cbr\u003e \u003ccode\u003eTW41eecZ199QK6zujgKP4j1cz2bXzRus3c\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "lastUpdated": 1734143367000,
+      "license": "Unknown",
+      "name": "假装开启小黑盒的通知权限",
+      "packageName": "com.chrxw.justenablednotification",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chrxw.justenablednotification",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效"
+    },
+    {
       "added": 1734801097000,
       "authorName": "bingqiu456",
       "categories": [
@@ -7670,24 +7686,24 @@
       "summary": "动漫之家增强模块"
     },
     {
-      "added": 1724052531000,
+      "added": 1734928057000,
       "authorName": "tehcneko",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e原生软件包安装器\u003c/h1\u003e\n\u003cp\u003e在小米澎湃OS或 MIUI 上使用原生软件包安装器。\n\u003cimg src=\"https://github.com/user-attachments/assets/5f9668ab-a84b-4204-9500-79874a4a0b9f\" alt=\"\" /\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1724052531000,
+      "lastUpdated": 1734928057000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- init release"
+          "whatsNew": "- fixed compatibility with more OS versions"
         }
       },
       "name": "原生软件包安装器",
       "packageName": "io.github.tehcneko.hyperos.aospinstaller",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.tehcneko.hyperos.aospinstaller",
-      "suggestedVersionCode": "2",
-      "suggestedVersionName": "1.0.0",
+      "suggestedVersionCode": "6",
+      "suggestedVersionName": "1.1.0",
       "summary": "在小米澎湃OS或 MIUI 上使用原生软件包安装器。"
     },
     {
@@ -11491,6 +11507,28 @@
         "versionName": "1.5.1"
       }
     ],
+    "com.chrxw.justenablednotification": [
+      {
+        "added": 1734143367000,
+        "apkName": "com.chrxw.justenablednotification_1-1.0.apk",
+        "hash": "cc34e89371bda501e8b5b7a85ee46be63930eb662a76a6939bf3b422fd848896",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.chrxw.justenablednotification",
+        "sig": "aae636caddc9f64a41e9d3a8a30ecfe6",
+        "signer": "75f38a235b328c05ae399df8ae06a97d5efe66cc23c0a0bbf40789e18062a269",
+        "size": 614857,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "com.chrxw.purenga": [
       {
         "added": 1734513707000,
@@ -14860,7 +14898,22 @@
     ],
     "com.yifeplayte.maxfreeform": [
       {
-        "added": 1726303813000,
+        "added": 1734932442000,
+        "apkName": "com.yifeplayte.maxfreeform_26-4.0.0.apk",
+        "hash": "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": null,
+        "packageName": "com.yifeplayte.maxfreeform",
+        "sig": "121bb912608569ca35b976a4ba5bc447",
+        "signer": "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d",
+        "size": 297450,
+        "targetSdkVersion": 34,
+        "versionCode": 26,
+        "versionName": "4.0.0"
+      },
+      {
+        "added": 1732159511000,
         "apkName": "com.yifeplayte.maxfreeform_25-3.3.1.apk",
         "hash": "a1337b01bc2e7945f79ef7dd15e929414c91a305543f1569c4dd77b51c989632",
         "hashType": "sha256",
@@ -15882,7 +15935,22 @@
     ],
     "inc.whew.android.fakegapps": [
       {
-        "added": 1734277251000,
+        "added": 1735007481000,
+        "apkName": "inc.whew.android.fakegapps_11-6.5.apk",
+        "hash": "fd01915d4a8dbeced73ca907eff022edc0779899a26d4b61d5d35bc06dcbbd00",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": null,
+        "packageName": "inc.whew.android.fakegapps",
+        "sig": "3cfe0ae92b9d36fc60e0f11c23f9420d",
+        "signer": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b",
+        "size": 33471,
+        "targetSdkVersion": 35,
+        "versionCode": 11,
+        "versionName": "6.5"
+      },
+      {
+        "added": 1734320267000,
         "apkName": "inc.whew.android.fakegapps_11-6.apk",
         "hash": "c910c43b460154a0ec29d5c9164ded8aec9f63750205bc7edbc34ebd25aa4073",
         "hashType": "sha256",
@@ -16435,7 +16503,22 @@
     ],
     "io.github.tehcneko.hyperos.aospinstaller": [
       {
-        "added": 1724052531000,
+        "added": 1734928057000,
+        "apkName": "io.github.tehcneko.hyperos.aospinstaller_6-1.1.0.apk",
+        "hash": "7d934dede17266794d4dcb1f4856d97342367718c289a8cd466eef69623d8d18",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": null,
+        "packageName": "io.github.tehcneko.hyperos.aospinstaller",
+        "sig": "80f4261a58d1d1630c6204477c1cee7a",
+        "signer": "2651b5caf28b2f62be8cead5df2be82cc90f9c8a954464878bb5880b62db718f",
+        "size": 10217,
+        "targetSdkVersion": 35,
+        "versionCode": 6,
+        "versionName": "1.1.0"
+      },
+      {
+        "added": 1732159541000,
         "apkName": "io.github.tehcneko.hyperos.aospinstaller_2-1.0.0.apk",
         "hash": "531d8023fac2c1fc4f93f242c0741661c76c0d896983dbba69b7dcc67d0aa215",
         "hashType": "sha256",

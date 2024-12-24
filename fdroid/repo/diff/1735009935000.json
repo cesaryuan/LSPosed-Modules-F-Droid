@@ -1,0 +1,53 @@
+{
+  "repo": {
+    "timestamp": 1735010023000
+  },
+  "packages": {
+    "com.amanoteam.sunny": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Sunny</h1>\n<p>Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate limits.</p>\n<h2>Features</h2>\n<ul>\n<li>Ignore extension-specific rate limits (makes page loading, downloading and browsing faster).</li>\n<li>Increase max number of concurrent downloads from 2 to 16.</li>\n</ul>\n<h2>What is this?</h2>\n<p>Tachiyomi has a rate limit system that was designed to prevent manga sources from being overloaded with too many requests and to avoid specific users from being blocked by manga sources due to high network traffic (i.e. bulk downloads). This is achieved by deliberately waiting for a specific amount of seconds before sending networks requests.</p>\n<p>The downside is that nowadays these rate limits are applied to every extension; even those that do not actually require any rate limit. “just in case”.</p>\n<p>Unfortunately, this results in browsing and downloading being slower than necessary, degrading the overall user experience.</p>\n<p>Bellow is a video comparison:</p>\n<p><img src=\"https://raw.githubusercontent.com/Kartatz/r/main/sunny.gif\" alt=\"Video comparison\" /></p>\n<p><strong>Left side</strong>: Tachiyomi <strong>with</strong> the Sunny module enabled.<br />\n<strong>Right side</strong>: Tachiyomi <strong>without</strong> the Sunny module.</p>\n<h2>Usage</h2>\n<p>This module requires root and an API-compatible Xposed implementation to work.</p>\n<p>Firstly, download and install the APK from the <a href=\"https://github.com/Xposed-Modules-Repo/com.amanoteam.sunny/releases/latest/download/app-release.apk\">releases</a> page.</p>\n<ul>\n<li>\n<p><strong>LSposed (Android 8 and up)</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and mark the Tachiyomi package in the list of apps. Then, kill/force-close the Tachiyomi process.</li>\n</ul>\n</li>\n<li>\n<p><strong>Legacy Xposed (Android 7 and below)</strong></p>\n<ul>\n<li>Go to the modules section, enable Sunny, and reboot the device.</li>\n</ul>\n</li>\n</ul>\n<h2>Supported versions</h2>\n<p>The minimum supported version is Tachiyomi v0.12.0. It might be compatible with older releases, but that is not guaranteed to work.</p>\n<p>This was tested up to Mihon v0.17.1.</p>\n<h2>Non-root alternative</h2>\n<p>If you are looking for a non-root alternative, try my <a href=\"https://github.com/AmanoTeam/mihon\">fork</a> of Mihon. It’s the original Mihon app with my changes on top of it.</p>\n"
+        }
+      }
+    },
+    "com.chrxw.justenablednotification": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.chrxw.justenablednotification",
+        "authorName": "chr233",
+        "name": {
+          "en-US": "假装开启小黑盒的通知权限"
+        },
+        "summary": {
+          "en-US": "假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效"
+        },
+        "description": {
+          "en-US": "<h1>justenablednotification</h1>\n<p><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.justenablednotification?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.justenablednotification/total?logo=github\" alt=\"GitHub Download\" /></a>\nXposed 仓库</p>\n<p><a href=\"https://space.bilibili.com/5805394\"><img src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /></a>\n<a href=\"https://steamcommunity.com/id/Chr_\"><img src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /></a></p>\n<p><a href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i\"><img src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /></a>\n<a href=\"https://afdian.net/@chr233\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /></a></p>\n<h2>主要功能</h2>\n<p>假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效</p>\n<h2>捐赠</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /> <br> <a href=\"https://afdian.net/@chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /> <br> <a href=\"https://www.buymeacoffee.com/chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>\n</tr>\n</tbody>\n</table>\n"
+        }
+      }
+    },
+    "com.my.televip": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.5.5 (55312)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Nagram 11.4.2 (1200)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.38.0 (1459)</li>\n<li>Telegram web 11.5.5 (55319)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+        }
+      }
+    },
+    "com.yifeplayte.maxfreeform": {
+      "versions": {
+        "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "io.github.tehcneko.hyperos.aospinstaller": {
+      "versions": {
+        "7d934dede17266794d4dcb1f4856d97342367718c289a8cd466eef69623d8d18": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
