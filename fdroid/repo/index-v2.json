@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1735183118000,
+    "timestamp": 1735269240000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735182727000,
+        "lastUpdated": 1735268975000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -24310,7 +24310,10 @@
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
         "authorName": "ReSo7200",
         "name": {
-          "en-US": "An Instagram Xposed module with features like Developer Options, Ghost Mode, Ad-Free browsing, and Distraction-Free Mode."
+          "en-US": "InstaEclipse"
+        },
+        "summary": {
+          "en-US": "An Instagram enhancer module with features like Developer Options, Ghost Mode..."
         },
         "description": {
           "en-US": "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨</p>\n<hr />\n<h2>✨ Features</h2>\n<h3>🎛️ Developer Options</h3>\n<ul>\n<li>Unlock hidden developer tools within Instagram.</li>\n<li><strong>Note:</strong> Developer Options should only be used with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n</ul>\n<h3>👻 Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>🧘 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>🚫 Remove Ads</h3>\n<ul>\n<li>Declutter your feed by removing intrusive ads.</li>\n</ul>\n<hr />\n<h2>🛠️ Installation Instructions</h2>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n<hr />\n<h2>📖 FAQ</h2>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n<hr />\n<h2>📂 Resources</h2>\n<ul>\n<li>🐙 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>💬 <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n</ul>\n<hr />\n<h2>🎉 Contributors</h2>\n<hr />\n<h3>👑 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<hr />\n<h3>🙌 Special Thanks to:</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n</ul>\n<hr />\n<h3>💡 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n<hr />\n"
