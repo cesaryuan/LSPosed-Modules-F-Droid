@@ -12225,21 +12225,17 @@ com.yifeplayte.maxfreeform:
             <hr />
             <h3>捐赠 / Sponsor</h3>
             <p><a href="https://afdian.com/a/YifePlayte">爱发电 / AFDIAN</a></p>
-          filename: MaxFreeForm_4.0.0_sign.apk
+          filename: MaxFreeForm-4.0.1.apk
           id: com.yifeplayte.maxfreeform
           name: MaxFreeForm
-          last_updated: "2024-12-23T05:40:42Z"
+          last_updated: "2024-12-27T15:57:00Z"
           releasedescription: |-
             <ul>
-            <li>[修复] 适配 HyperOS 2</li>
-            <li>[修复] 应用选择界面图标展示</li>
-            <li>[新增] 日语本地化</li>
+            <li>[修复] HyperOS 2 上的强制允许小窗在拖拽图标打开小窗或分屏时失效的问题</li>
             </ul>
             <hr>
             <ul>
-            <li>[Fix] Fix for HyperOS 2</li>
-            <li>[Fix] Application list icons</li>
-            <li>[New] Japanese localization</li>
+            <li>[Fix] Force enable floating window failed on HyperOS 2 when dragging icon to open app in floating window</li>
             </ul>
     author_name: YifePlayte
 com.yifeplayte.maxmipadinput:
@@ -15317,11 +15313,11 @@ io.github.lzghzr.biliveinvisible:
           description: |
             <h1>哔哩哔哩直播隐身观看</h1>
             <p>在哔哩哔哩直播间进场隐身, 榜单隐身</p>
-          filename: BiLiveInvisible_v1.0.apk
+          filename: BiLiveInvisible_v1.0.1.apk
           id: io.github.lzghzr.biliveinvisible
           name: 哔哩哔哩直播隐身观看
-          last_updated: "2024-12-20T15:00:47Z"
-          releasedescription: <p>在哔哩哔哩直播间进场隐身, 榜单隐身</p>
+          last_updated: "2024-12-27T12:47:19Z"
+          releasedescription: <p>国际版更新</p>
     author_name: lzghzr
 io.github.lzghzr.xperiaupdatecenter:
     git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaupdatecenter

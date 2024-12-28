@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1735269240000,
+    "timestamp": 1735355522000,
     "version": 20002
   },
   "requests": {
@@ -3833,25 +3833,25 @@
       "summary": "Allow you to add a customisable matrix rain in your notifications panel !"
     },
     {
-      "added": 1734932442000,
+      "added": 1735315020000,
       "authorName": "YifePlayte",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMaxFreeForm\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yifeplayte.maxfreeform/total?label=Downloads\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/YifePlayte/MaxFreeForm?style=flat\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/YifePlayte/MaxFreeForm\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/blob/main/LICENSE\"\u003e\u003cimg alt=\"GitHub license\" src=\"https://img.shields.io/github/license/YifePlayte/MaxFreeForm\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e为各种 MIUI / HyperOS 设备解除多小窗限制\u003cbr /\u003e\nUnlock multi freeform limits for MIUI / HyperOS devices\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e第三方开源引用 / Third-party open source references\u003c/h3\u003e\n\u003ch5\u003eGNU Lesser General Public License v2.1\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/577fkj/blockmiui\"\u003e577fkj/blockmiui\u003c/a\u003e\u003c/p\u003e\n\u003ch5\u003eApache License 2.0\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eKyuubiRan/EzXHelper\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/zhanghai/AppIconLoader\"\u003ezhanghai/AppIconLoader\u003c/a\u003e\u003c/p\u003e\n\u003ch5\u003eGNU General Public License v3.0\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Simplicity-Team/WooBoxForMIUI\"\u003eSimplicity-Team/WooBoxForMIUI\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HChenX/ForegroundPin\"\u003eHChenX/ForegroundPin\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ranLee1/jpinyin\"\u003eranLee1/jpinyin\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003eLicense\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/YifePlayte/MaxFreeForm/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e捐赠 / Sponsor\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://afdian.com/a/YifePlayte\"\u003e爱发电 / AFDIAN\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.yifeplayte.maxfreeform.png",
-      "lastUpdated": 1734932442000,
+      "lastUpdated": 1735315020000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- [修复] 适配 HyperOS 2\n- [修复] 应用选择界面图标展示\n- [新增] 日语本地化\n---\n- [Fix] Fix for HyperOS 2\n- [Fix] Application list icons\n- [New] Japanese localization\n"
+          "whatsNew": "- [修复] HyperOS 2 上的强制允许小窗在拖拽图标打开小窗或分屏时失效的问题\n---\n- [Fix] Force enable floating window failed on HyperOS 2 when dragging icon to open app in floating window\n"
         }
       },
       "name": "MaxFreeForm",
       "packageName": "com.yifeplayte.maxfreeform",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform",
-      "suggestedVersionCode": "26",
-      "suggestedVersionName": "4.0.0",
+      "suggestedVersionCode": "27",
+      "suggestedVersionName": "4.0.1",
       "summary": "为各种 MIUI / HyperOS 设备解除多小窗限制\nUnlock multi freeform limits for MIUI / HyperOS ..."
     },
     {
@@ -7853,24 +7853,24 @@
       "summary": "哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论"
     },
     {
-      "added": 1734706847000,
+      "added": 1735303639000,
       "authorName": "lzghzr",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e哔哩哔哩直播隐身观看\u003c/h1\u003e\n\u003cp\u003e在哔哩哔哩直播间进场隐身, 榜单隐身\u003c/p\u003e\n",
-      "lastUpdated": 1734706847000,
+      "lastUpdated": 1735303639000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "在哔哩哔哩直播间进场隐身, 榜单隐身"
+          "whatsNew": "国际版更新"
         }
       },
       "name": "哔哩哔哩直播隐身观看",
       "packageName": "io.github.lzghzr.biliveinvisible",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.biliveinvisible",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "1.0.1",
       "summary": "在哔哩哔哩直播间进场隐身, 榜单隐身"
     },
     {
@@ -14919,7 +14919,22 @@
     ],
     "com.yifeplayte.maxfreeform": [
       {
-        "added": 1734932442000,
+        "added": 1735315020000,
+        "apkName": "com.yifeplayte.maxfreeform_27-4.0.1.apk",
+        "hash": "440494dc2b16fc68c21d744e1bf55732f9e652971cd2da6c40c1311e76cac0c8",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": null,
+        "packageName": "com.yifeplayte.maxfreeform",
+        "sig": "121bb912608569ca35b976a4ba5bc447",
+        "signer": "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d",
+        "size": 290483,
+        "targetSdkVersion": 34,
+        "versionCode": 27,
+        "versionName": "4.0.1"
+      },
+      {
+        "added": 1735009846000,
         "apkName": "com.yifeplayte.maxfreeform_26-4.0.0.apk",
         "hash": "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf",
         "hashType": "sha256",
@@ -16361,7 +16376,22 @@
     ],
     "io.github.lzghzr.biliveinvisible": [
       {
-        "added": 1734706847000,
+        "added": 1735303639000,
+        "apkName": "io.github.lzghzr.biliveinvisible_2-1.0.1.apk",
+        "hash": "8496e4d52251e17db92268fea49ba2b3d099d73ecddaf22b4d94791735bbc5b9",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "io.github.lzghzr.biliveinvisible",
+        "sig": "14271ac87974fae2e2ed988884af35ef",
+        "signer": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58",
+        "size": 9964,
+        "targetSdkVersion": 34,
+        "versionCode": 2,
+        "versionName": "1.0.1"
+      },
+      {
+        "added": 1734750595000,
         "apkName": "io.github.lzghzr.biliveinvisible_1-1.0.apk",
         "hash": "6e246a472b3ba906b08c118c9e267b7d860b3f10d166c5e4dda35989c2ab3d7d",
         "hashType": "sha256",
