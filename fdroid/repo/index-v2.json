@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1735269240000,
+    "timestamp": 1735355522000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735268975000,
+        "lastUpdated": 1735355261000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -15279,7 +15279,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735009846000,
+        "lastUpdated": 1735355340000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxfreeform",
         "authorName": "YifePlayte",
         "name": {
@@ -15294,6 +15294,32 @@
         "preferredSigner": "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d"
       },
       "versions": {
+        "440494dc2b16fc68c21d744e1bf55732f9e652971cd2da6c40c1311e76cac0c8": {
+          "added": 1735355340000,
+          "file": {
+            "name": "/com.yifeplayte.maxfreeform_27-4.0.1.apk",
+            "sha256": "440494dc2b16fc68c21d744e1bf55732f9e652971cd2da6c40c1311e76cac0c8",
+            "size": 290483
+          },
+          "manifest": {
+            "versionName": "4.0.1",
+            "versionCode": 27,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "271c2cff8f0d360754a7c5273427c892c3c424ee5ceedae053c7c4f7fe5ab19d"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "53ca31c4a303b643ef7544c8c8fd1388e778bde880bb86d17c1ac7da3ca414bf": {
           "added": 1735009846000,
           "file": {
@@ -19340,7 +19366,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734750595000,
+        "lastUpdated": 1735355363000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.biliveinvisible",
         "authorName": "lzghzr",
         "name": {
@@ -19355,6 +19381,27 @@
         "preferredSigner": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
       },
       "versions": {
+        "8496e4d52251e17db92268fea49ba2b3d099d73ecddaf22b4d94791735bbc5b9": {
+          "added": 1735355363000,
+          "file": {
+            "name": "/io.github.lzghzr.biliveinvisible_2-1.0.1.apk",
+            "sha256": "8496e4d52251e17db92268fea49ba2b3d099d73ecddaf22b4d94791735bbc5b9",
+            "size": 9964
+          },
+          "manifest": {
+            "versionName": "1.0.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+              ]
+            }
+          }
+        },
         "6e246a472b3ba906b08c118c9e267b7d860b3f10d166c5e4dda35989c2ab3d7d": {
           "added": 1734750595000,
           "file": {
