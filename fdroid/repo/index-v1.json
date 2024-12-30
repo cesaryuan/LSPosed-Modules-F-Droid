@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1735443116000,
+    "timestamp": 1735529070000,
     "version": 20002
   },
   "requests": {
@@ -236,20 +236,20 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e支付宝装X模块\u003c/h1\u003e\n\u003cp\u003eXposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.\u003c/p\u003e\n\u003cp\u003e这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。\u003c/em\u003e\u003c/p\u003e\n\u003ch3\u003e界面\u003c/h3\u003e\n\u003cp\u003e得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。\u003c/p\u003e\n\u003cp\u003e另外觉得好用请右上角Star ❥这个Repo，^_^\u003c/p\u003e\n\u003ch3\u003e版本\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e版本\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e最后更新时间\u003c/th\u003e\n\u003cth\u003e是否可用\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e余额宝修改及收益自动计算、 自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;=10.0.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;10.2.33\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.3.0\u003c/td\u003e\n\u003ctd\u003e仅钻石付款背景\u003c/td\u003e\n\u003ctd\u003e2021.09\u003c/td\u003e\n\u003ctd\u003e所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤\u003c/td\u003e\n\u003ctd\u003e2022.01\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.2\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.09\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.5.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.11\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e快速手机修改背景步骤\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。\u003c/li\u003e\n\u003cli\u003e打开支付宝付款码即可看到效果如图。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003e其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e自定义皮肤说明（手动模式）\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e手动下载DEMO资源包，放入SD卡对应程序文件目录。(\u003cstrong\u003e[SD CARD]\u003c/strong\u003e\n\\Android\\media\\com.eg.android.AlipayGphone)\u003c/li\u003e\n\u003cli\u003e如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）\u003c/li\u003e\n\u003cli\u003e**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e目录结构说明（手动模式及自定义修改需了解）\u003c/h3\u003e\n\u003cp\u003e以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e命名\u003c/th\u003e\n\u003cth\u003e含义\u003c/th\u003e\n\u003cth\u003e是否目录\u003c/th\u003e\n\u003cth\u003e手动创建\u003c/th\u003e\n\u003cth\u003e作用后文件消失\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eactived\u003c/td\u003e\n\u003ctd\u003e开启自定义皮肤功能\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eupdate\u003c/td\u003e\n\u003ctd\u003e触发支付宝增量自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003edelete\u003c/td\u003e\n\u003ctd\u003e触发支付宝删除自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eexport\u003c/td\u003e\n\u003ctd\u003e导出支付宝拥有皮肤\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称目录\u003c/td\u003e\n\u003ctd\u003e自定义皮肤文件夹\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称文件\u003c/td\u003e\n\u003ctd\u003e无作用\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cblockquote\u003e\n\u003cp\u003e通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e触发仅在展示二维码时有效\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eexport文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003ch2\u003e更新历史\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\"\u003e源代码\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e【作者自用】\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e支付宝装X模块\u003c/h1\u003e\n\u003cp\u003eXposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.\u003c/p\u003e\n\u003cp\u003e这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。\u003c/em\u003e\u003c/p\u003e\n\u003ch3\u003e界面\u003c/h3\u003e\n\u003cp\u003e得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。\u003c/p\u003e\n\u003cp\u003e另外觉得好用请右上角Star ❥这个Repo，^_^\u003c/p\u003e\n\u003ch3\u003e版本\u003c/h3\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e版本\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e最后更新时间\u003c/th\u003e\n\u003cth\u003e是否可用\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e余额宝修改及收益自动计算、 自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;=10.0.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.2.8\u003c/td\u003e\n\u003ctd\u003e自由选择支付宝付款码背景\u003c/td\u003e\n\u003ctd\u003e2018.06\u003c/td\u003e\n\u003ctd\u003e\u0026lt;10.2.33\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.3.0\u003c/td\u003e\n\u003ctd\u003e仅钻石付款背景\u003c/td\u003e\n\u003ctd\u003e2021.09\u003c/td\u003e\n\u003ctd\u003e\u0026lt;10.6.76\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤\u003c/td\u003e\n\u003ctd\u003e2022.01\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, \u0026lt;10.6.76 （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.4.2\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.09\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, \u0026lt;10.6.76 （皮肤\u0026lt;10.5.53）\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.5.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2023.11\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23, \u0026lt;10.6.76\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e2.6.0\u003c/td\u003e\n\u003ctd\u003e钻石背景或自定义皮肤(含导出)\u003c/td\u003e\n\u003ctd\u003e2024.12\u003c/td\u003e\n\u003ctd\u003e\u0026gt;=10.2.23\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e快速手机修改背景步骤\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。\u003c/li\u003e\n\u003cli\u003e打开支付宝付款码即可看到效果如图。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cblockquote\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" /\u003e\n\u003c/blockquote\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003e其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e自定义皮肤说明（手动模式）\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e手动下载DEMO资源包，放入SD卡对应程序文件目录。(\u003cstrong\u003e[SD CARD]\u003c/strong\u003e\n\\Android\\media\\com.eg.android.AlipayGphone)\u003c/li\u003e\n\u003cli\u003e如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）\u003c/li\u003e\n\u003cli\u003e**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e目录结构说明（手动模式及自定义修改需了解）\u003c/h3\u003e\n\u003cp\u003e以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e命名\u003c/th\u003e\n\u003cth\u003e含义\u003c/th\u003e\n\u003cth\u003e是否目录\u003c/th\u003e\n\u003cth\u003e手动创建\u003c/th\u003e\n\u003cth\u003e作用后文件消失\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eactived\u003c/td\u003e\n\u003ctd\u003e开启自定义皮肤功能\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eupdate\u003c/td\u003e\n\u003ctd\u003e触发支付宝增量自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003edelete\u003c/td\u003e\n\u003ctd\u003e触发支付宝删除自定义皮肤缓存\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eexport\u003c/td\u003e\n\u003ctd\u003e导出支付宝拥有皮肤\u003c/td\u003e\n\u003ctd\u003e随意\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称目录\u003c/td\u003e\n\u003ctd\u003e自定义皮肤文件夹\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e任意名称文件\u003c/td\u003e\n\u003ctd\u003e无作用\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003ctd\u003e是\u003c/td\u003e\n\u003ctd\u003e否\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cblockquote\u003e\n\u003cp\u003e通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e触发仅在展示二维码时有效\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eexport文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003ch2\u003e更新历史\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\"\u003e源代码\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e【作者自用】\u003c/p\u003e\n",
       "icon": "im.hoho.alipayInstallB.png",
       "lastUpdated": 1728865749000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1. 界面更新为中文\n2. 添加了等级选择，钻石会员可以选择大众反向install\n3. SD存储卡Full access只在下载资源包才会请求\n\n较[2.5.1]新增了界面操作和等级选择，正常使用的无需更新。\n\n**Full Changelog**: https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/compare/V2.5.3...v2.5.4"
+          "whatsNew": "修复支付宝10.6.76附近版本更新后等级修改失效问题"
         }
       },
       "name": "Alipay High Headsome Rich (支付宝装X模块)",
       "packageName": "im.hoho.alipayInstallB",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/im.hoho.alipayinstallb",
-      "suggestedVersionCode": "107",
-      "suggestedVersionName": "2.5.4",
+      "suggestedVersionCode": "111",
+      "suggestedVersionName": "2.6.0",
       "summary": "Alipay High Headsome Rich (支付宝装X模块)"
     },
     {
@@ -4007,24 +4007,24 @@
       "summary": "Enhance mi translator experience."
     },
     {
-      "added": 1734180055000,
+      "added": 1735464565000,
       "authorName": "parallelcc",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMiCTS\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/parallelcc/MiCTS\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/parallelcc/MiCTS\" alt=\"Stars\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/parallelcc/MiCTS/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/parallelcc/MiCTS/total\" alt=\"Downloads\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/parallelcc/MiCTS/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/parallelcc/MiCTS\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e简体中文  |  \u003ca href=\"https://github.com/parallelcc/MiCTS/blob/main/README_en.md\"\u003eEnglish\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e本应用只负责触发圈定即搜，无法处理触发成功后可能出现的问题\u003c/em\u003e\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e安装最新版\u003ca href=\"https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox\"\u003eGoogle\u003c/a\u003e应用，开启自启动，关闭后台限制，将默认助理应用设置为Google\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e安装并打开MiCTS\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e如果幸运的话，在不需要root的情况下，打开MiCTS就会直接触发圈定即搜\u003c/li\u003e\n\u003cli\u003e如果没有反应，大概率是因为Google对你的设备禁用了圈定即搜功能（可以通过在Logcat日志中查找\u003ccode\u003eOmni invocation failed: not enabled\u003c/code\u003e确认），在有root的情况下，可以尝试以下方法：\n\u003cul\u003e\n\u003cli\u003e在LSPosed里激活模块，在\u003ca href=\"#%E8%BF%9B%E5%85%A5%E8%AE%BE%E7%BD%AE%E7%9A%84%E6%96%B9%E5%BC%8F\"\u003eMiCTS设置\u003c/a\u003e里开启\u003ccode\u003eGoogle机型伪装\u003c/code\u003e后，强制重启Google\u003c/li\u003e\n\u003cli\u003e如果还是不行，使用\u003ca href=\"https://github.com/polodarb/GMS-Flags\"\u003eGMS-Flags\u003c/a\u003e，将\u003ccode\u003ecom.google.android.apps.search.omnient.device\u003c/code\u003e的flag\u003ccode\u003e45631784\u003c/code\u003e设为true\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e设置触发方式\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e打开MiCTS即可触发，因此可以利用其他软件，比如悬浮球、Xposed Edge、ShortX等，将动作设置为打开MiCTS，实现自定义触发方式\u003c/li\u003e\n\u003cli\u003eMiCTS提供了一个触发磁贴，可将其添加到快速设置面板里，通过点击磁贴触发\u003c/li\u003e\n\u003cli\u003e对于小米设备，MiCTS内置了长按小白条触发和长按Home键触发的功能，可以在MiCTS设置里开启（安装MiCTS后需要激活模块并重启手机才能使用）\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e设置\u003c/h2\u003e\n\u003ch3\u003e进入设置的方式\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e长按MiCTS应用图标，出现设置选项，点击进入\u003c/li\u003e\n\u003cli\u003e从LSPosed模块页面，点击MiCTS，再点击设置图标进入\u003c/li\u003e\n\u003cli\u003e长按快速设置面板的磁贴进入\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e应用设置\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e默认触发延迟：通过打开MiCTS触发的延迟\u003c/li\u003e\n\u003cli\u003e磁贴触发延迟：通过点击快速设置面板的磁贴触发的延迟\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e模块设置\u003c/h3\u003e\n\u003cp\u003e需要在LSPosed里激活模块\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e系统触发服务：触发所使用的系统服务，只会显示当前支持的选项，依赖作用域选择系统框架\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eVIS：支持Android 9–15，需要将默认助理应用设置为Google，触发时一些设备的屏幕边缘会闪，没有激活模块的情况下只能使用此服务\u003c/li\u003e\n\u003cli\u003eCSHelper：支持Android 14 QPR3及以上，不需要设置默认助理应用，触发时屏幕边缘不会闪\u003c/li\u003e\n\u003cli\u003eCSService：支持Android 15及以上，圈定即搜专用的服务，效果同CSHelper\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e长按小白条触发：仅支持小米设备，依赖作用域选择系统桌面\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e长按Home键触发：仅支持小米设备，依赖作用域选择系统框架\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eGoogle机型伪装：依赖作用域选择Google\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e制造商：修改Google读取到的ro.product.manufacturer\u003c/li\u003e\n\u003cli\u003e品牌：修改Google读取到的ro.product.brand\u003c/li\u003e\n\u003cli\u003e型号：修改Google读取到的ro.product.model\u003c/li\u003e\n\u003cli\u003e设备：修改Google读取到的ro.product.device\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003ch3\u003e提示“触发失败！”\u003c/h3\u003e\n\u003cp\u003e大概率是没有将Google设为默认助理，检查一下\u003c/p\u003e\n\u003ch3\u003e触发出来是Google助理，不是圈定即搜\u003c/h3\u003e\n\u003cp\u003eGoogle不是最新版，更新一下\u003c/p\u003e\n\u003ch3\u003e有时无法成功触发，手动打开Google后才会出现刚才圈定即搜的界面\u003c/h3\u003e\n\u003cp\u003e原因应该是墓碑机制导致的，看看手机有没有相关的设置可以把Google加到白名单里，比如电池优化选择无限制等，在模块设置里\u003ccode\u003e系统触发服务\u003c/code\u003e使用\u003ccode\u003eCSHelper\u003c/code\u003e应该没有这个问题\u003c/p\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003ca href=\"https://star-history.com/#parallelcc/micts\u0026Date\"\u003e\n \u003cpicture\u003e\n   \u003csource media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/svg?repos=parallelcc/micts\u0026type=Date\u0026theme=dark\" /\u003e\n   \u003csource media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/svg?repos=parallelcc/micts\u0026type=Date\" /\u003e\n   \u003cimg alt=\"Star History Chart\" src=\"https://api.star-history.com/svg?repos=parallelcc/micts\u0026type=Date\" /\u003e\n \u003c/picture\u003e\n\u003c/a\u003e\n",
-      "lastUpdated": 1734180055000,
+      "lastUpdated": 1735464565000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "系统触发服务：支持Android 15上的CSService\nSystem trigger service: Support CSService on Android 15"
+          "whatsNew": "- 支持触发时震动（在应用设置中开启）/ Support vibration when triggering (enable in App Settings)\n- 修复最新小米系统桌面上的触发问题 / Fix trigger issues on the latest Xiaomi System Launcher"
         }
       },
       "name": "MiCTS",
       "packageName": "com.parallelc.micts",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
-      "suggestedVersionCode": "27",
-      "suggestedVersionName": "2.1",
+      "suggestedVersionCode": "30",
+      "suggestedVersionName": "2.2",
       "summary": "在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
     },
     {
@@ -5928,25 +5928,25 @@
       "summary": "解除三星系统时钟通话中不提醒不响铃的限制"
     },
     {
-      "added": 1735427123000,
+      "added": 1735488277000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eБаннеры с персональными предложениями\u003c/li\u003e\n\u003cli\u003eУдерживание экрана для карт лояльности\u003c/li\u003e\n\u003cli\u003eПлатежи. Номер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eПлатежи. Раздел благотворительности\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПрофиль. Реклама в разделе недвижимость\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисный уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root и целостности устройства для SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003cli\u003eИстория. Увеличено количество скрываемых транзакций до 300\u003c/li\u003e\n\u003cli\u003eАктивирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.sberbankpatcher.png",
-      "lastUpdated": 1735427123000,
+      "lastUpdated": 1735488277000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Поддержка версии 16.2.0\n- Добавлена поддержка Shizuku / SUI, в дополнении к классическому root доступу. Доступно только для root пользователей.\n- Убран переход в системные настройки уведомлений сбера из настроек модуля.\n- Убрана разблокировка разделов на главной т.к. разработчики разрешили скрывать все разделы.\n- Убрано скрытие СберПрайма на главной. Добавлено скрытие СберПрайма во всех сервисах.\n- Добавлено скрытие новых элементов ассистента сверху на главной, в разделе безопасности и в поиск"
+          "whatsNew": "- Shizuku теперь автоматически переключается на SU режим при неожиданном обрыве связи со службой.\n- Исправлены вылеты при запуске Shizuku."
         }
       },
       "name": "Sberbank Patcher",
       "packageName": "ru.bluecat.sberbankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
-      "suggestedVersionCode": "380",
-      "suggestedVersionName": "1.23",
+      "suggestedVersionCode": "384",
+      "suggestedVersionName": "1.23.1",
       "summary": "Различные модификации в приложении СберБанк."
     },
     {
@@ -13760,7 +13760,27 @@
     ],
     "com.parallelc.micts": [
       {
-        "added": 1734180055000,
+        "added": 1735464565000,
+        "apkName": "com.parallelc.micts_30-2.2.apk",
+        "hash": "eaf1df8d2a9bf4a1f3edf272bf718c35d009c5f9f950feca668cd8e0393b3ae3",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.parallelc.micts",
+        "sig": "a6b720c1d2bb9dcfe16fa5572ed3236e",
+        "signer": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f",
+        "size": 2429277,
+        "targetSdkVersion": 35,
+        "versionCode": 30,
+        "versionName": "2.2"
+      },
+      {
+        "added": 1734233688000,
         "apkName": "com.parallelc.micts_27-2.1.apk",
         "hash": "85b8caa9bd33814d504ceebcd8e5c30e1c075cd976d285a9412a79a3e7745dc1",
         "hashType": "sha256",
@@ -13798,21 +13818,6 @@
         "targetSdkVersion": 35,
         "versionCode": 17,
         "versionName": "2.0"
-      },
-      {
-        "added": 1732159488000,
-        "apkName": "com.parallelc.micts_5-1.4.apk",
-        "hash": "3552d7bc6389330065762f857f6335b679d70274057be1adf2ff7b309b968cbb",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": null,
-        "packageName": "com.parallelc.micts",
-        "sig": "a6b720c1d2bb9dcfe16fa5572ed3236e",
-        "signer": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f",
-        "size": 627670,
-        "targetSdkVersion": 35,
-        "versionCode": 5,
-        "versionName": "1.4"
       }
     ],
     "com.pic.catcher": [
@@ -15970,6 +15975,21 @@
     "im.hoho.alipayInstallB": [
       {
         "added": 1728865749000,
+        "apkName": "im.hoho.alipayinstallb_v2.6.0.apk",
+        "hash": "93961fdf9b20f1f737121deac0d6f3b21bd9be1b595ba545eaa0f86177402254",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": null,
+        "packageName": "im.hoho.alipayInstallB",
+        "sig": "a6ebdd6e2e496ce6eb4b741e6e4ad30f",
+        "signer": "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26",
+        "size": 333305,
+        "targetSdkVersion": 33,
+        "versionCode": 111,
+        "versionName": "2.6.0"
+      },
+      {
+        "added": 1732159532000,
         "apkName": "im.hoho.alipayinstallb_107-2.5.4.apk",
         "hash": "d278b781a9abf4888623c912dae0224ce7d492755ef0cabe4a429b875052fa47",
         "hashType": "sha256",
@@ -18200,7 +18220,27 @@
     ],
     "ru.bluecat.sberbankpatcher": [
       {
-        "added": 1735427123000,
+        "added": 1735488277000,
+        "apkName": "ru.bluecat.sberbankpatcher_384-1.23.1.apk",
+        "hash": "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 8934786,
+        "targetSdkVersion": 34,
+        "versionCode": 384,
+        "versionName": "1.23.1"
+      },
+      {
+        "added": 1735442852000,
         "apkName": "ru.bluecat.sberbankpatcher_380-1.23.apk",
         "hash": "22d4015ab712c177c4fd203040c0203e78b4795e11c60de8eb3d6e88f08278ed",
         "hashType": "sha256",
@@ -18238,26 +18278,6 @@
         "targetSdkVersion": 34,
         "versionCode": 352,
         "versionName": "1.22"
-      },
-      {
-        "added": 1732159573000,
-        "apkName": "ru.bluecat.sberbankpatcher_324-1.21.apk",
-        "hash": "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "ru.bluecat.sberbankpatcher",
-        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
-        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
-        "size": 8862763,
-        "targetSdkVersion": 34,
-        "versionCode": 324,
-        "versionName": "1.21"
       }
     ],
     "ru.bluecat.yandexmapspatcher": [

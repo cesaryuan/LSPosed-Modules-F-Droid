@@ -9057,13 +9057,15 @@ com.parallelc.micts:
                <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=parallelcc/micts&type=Date" />
              </picture>
             </a>
-          filename: MiCTS_2.1.apk
+          filename: MiCTS_2.2.apk
           id: com.parallelc.micts
           name: MiCTS
-          last_updated: "2024-12-14T12:40:55Z"
+          last_updated: "2024-12-29T09:29:25Z"
           releasedescription: |-
-            <p>系统触发服务：支持Android 15上的CSService<br>
-            System trigger service: Support CSService on Android 15</p>
+            <ul>
+            <li>支持触发时震动（在应用设置中开启）/ Support vibration when triggering (enable in App Settings)</li>
+            <li>修复最新小米系统桌面上的触发问题 / Fix trigger issues on the latest Xiaomi System Launcher</li>
+            </ul>
     author_name: parallelcc
 com.pic.catcher:
     git: https://github.com/Xposed-Modules-Repo/com.pic.catcher
@@ -14340,24 +14342,30 @@ im.hoho.alipayinstallb:
             <td>2.3.0</td>
             <td>仅钻石付款背景</td>
             <td>2021.09</td>
-            <td>所有版本</td>
+            <td>&lt;10.6.76</td>
             </tr>
             <tr>
             <td>2.4.0</td>
             <td>钻石背景或自定义皮肤</td>
             <td>2022.01</td>
-            <td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>
+            <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
             </tr>
             <tr>
             <td>2.4.2</td>
             <td>钻石背景或自定义皮肤(含导出)</td>
             <td>2023.09</td>
-            <td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>
+            <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
             </tr>
             <tr>
             <td>2.5.0</td>
             <td>钻石背景或自定义皮肤(含导出)</td>
             <td>2023.11</td>
+            <td>&gt;=10.2.23, &lt;10.6.76</td>
+            </tr>
+            <tr>
+            <td>2.6.0</td>
+            <td>钻石背景或自定义皮肤(含导出)</td>
+            <td>2024.12</td>
             <td>&gt;=10.2.23</td>
             </tr>
             </tbody>
@@ -19439,25 +19447,15 @@ ru.bluecat.sberbankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Sberbank_Patcher_v1.23.apk
+          filename: Sberbank_Patcher_v1.23.1.apk
           id: ru.bluecat.sberbankpatcher
           name: Sberbank Patcher
-          last_updated: "2024-12-28T23:05:23Z"
+          last_updated: "2024-12-29T16:04:37Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 16.2.0</li>
-            <li>Добавлена поддержка Shizuku / SUI, в дополнении к классическому root доступу. Доступно только для root пользователей.</li>
-            <li>Убран переход в системные настройки уведомлений сбера из настроек модуля.</li>
-            <li>Убрана разблокировка разделов на главной т.к. разработчики разрешили скрывать все разделы.</li>
-            <li>Убрано скрытие СберПрайма на главной. Добавлено скрытие СберПрайма во всех сервисах.</li>
-            <li>Добавлено скрытие новых элементов ассистента сверху на главной, в разделе безопасности и в поиске по приложению.</li>
-            <li>Добавлен раздел "Для жизни" к эко системе.</li>
-            <li>Добавлена опция отключения персональных предложений из под настроек модуля. Оригинальная настройка находившиеся в разделе "Основные экраны" убрана разработчиками в версии 16.1.0+</li>
-            <li>Добавлена возможность отключать раздел благотворительности в платежах.</li>
-            <li>Возвращение удерживания экрана для карт лояльности. Функционал подключается когда приложение само повышает яркость экрана!</li>
-            <li>Редизайн push экранов.</li>
+            <li>Shizuku теперь автоматически переключается на SU режим при неожиданном обрыве связи со службой.</li>
+            <li>Исправлены вылеты при запуске Shizuku.</li>
             </ul>
-            <p><strong>До обновления</strong> необходимо сделать сброс тех данных <strong>И</strong> настроек модуля.</p>
     author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher

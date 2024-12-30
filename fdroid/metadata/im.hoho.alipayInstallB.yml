@@ -1,8 +1,8 @@
 AuthorName: nov30th
 Categories:
     - Xposed
-CurrentVersion: 2.5.4
-CurrentVersionCode: 107
+CurrentVersion: 2.6.0
+CurrentVersionCode: 111
 Description: |
     <h1>支付宝装X模块</h1>
     <p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or
@@ -39,24 +39,30 @@ Description: |
     <td>2.3.0</td>
     <td>仅钻石付款背景</td>
     <td>2021.09</td>
-    <td>所有版本</td>
+    <td>&lt;10.6.76</td>
     </tr>
     <tr>
     <td>2.4.0</td>
     <td>钻石背景或自定义皮肤</td>
     <td>2022.01</td>
-    <td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>
+    <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
     </tr>
     <tr>
     <td>2.4.2</td>
     <td>钻石背景或自定义皮肤(含导出)</td>
     <td>2023.09</td>
-    <td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>
+    <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
     </tr>
     <tr>
     <td>2.5.0</td>
     <td>钻石背景或自定义皮肤(含导出)</td>
     <td>2023.11</td>
+    <td>&gt;=10.2.23, &lt;10.6.76</td>
+    </tr>
+    <tr>
+    <td>2.6.0</td>
+    <td>钻石背景或自定义皮肤(含导出)</td>
+    <td>2024.12</td>
     <td>&gt;=10.2.23</td>
     </tr>
     </tbody>

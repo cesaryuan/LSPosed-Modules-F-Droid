@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1735443102000,
+    "timestamp": 1735529056000,
     "categories": {
       "Xposed": {
         "name": {
@@ -325,7 +325,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734233688000,
+        "lastUpdated": 1735528868000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
         "authorName": "parallelcc",
         "name": {
@@ -340,6 +340,27 @@
         "preferredSigner": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
       },
       "versions": {
+        "3552d7bc6389330065762f857f6335b679d70274057be1adf2ff7b309b968cbb": {
+          "added": 1732159488000,
+          "file": {
+            "name": "/com.parallelc.micts_5-1.4.apk",
+            "sha256": "3552d7bc6389330065762f857f6335b679d70274057be1adf2ff7b309b968cbb",
+            "size": 627670
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            }
+          }
+        },
         "5d7d7d9cbaae4e666c037355aa38e4cd4cee811f48473fe61e8e518b5523a3f4": {
           "added": 1732159487000,
           "file": {
@@ -879,6 +900,91 @@
               },
               {
                 "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ru.bluecat.sberbankpatcher": {
+      "metadata": {
+        "added": 1732159573000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1735528943000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
+        "authorName": "BlueCat300",
+        "name": {
+          "en-US": "Sberbank Patcher"
+        },
+        "summary": {
+          "en-US": "Различные модификации в приложении СберБанк."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>Sberbank Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=123542189\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Различные модификации в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">СберБанк</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Антивирус Касперского</li>\n<li>Система самообновления</li>\n<li>Аналитика</li>\n<li>Ориентация</li>\n<li>Скрытие не убираемых разделов</li>\n<li>Бета</li>\n<li>Экосистема сбера</li>\n<li>СберПрайм</li>\n<li>Ассистент</li>\n<li>Информационные и обучаемые карточки</li>\n<li>Подсказки при переводах</li>\n<li>Баннеры с персональными предложениями</li>\n<li>Удерживание экрана для карт лояльности</li>\n<li>Платежи. Номер по умолчанию для СБП переводов</li>\n<li>Платежи. Раздел благотворительности</li>\n<li>Профиль. Что нового</li>\n<li>Профиль. Реклама в разделе недвижимость</li>\n<li>Поиск. Скрытие предложений и каналов</li>\n<li>Карты. СберСпасибо</li>\n<li>История. Очистка истории транзакций от рекламы и сервисный уведомлений</li>\n<li>История. Скрытие микро кредитования</li>\n<li>Push. Глушение информационно-рекламного канала</li>\n<li>Push. Фильтрация по ключевым словам(чёрный/белый список)</li>\n<li>Push. Логирование информационно-рекламного канала</li>\n<li>Push. Очистка истории push уведомлений</li>\n<li>Push. Скрытие кнопок действий в истории уведомлений</li>\n</ul>\n<h3>Не контролируемый функционал(всегда включён):</h3>\n<ul>\n<li>Промо на главном экране</li>\n<li>Запрос оценить приложение и другие разделы приложения</li>\n<li>Запрос разрешения телефонии (Android 9 и ниже)</li>\n<li>Безопасность устройства. Проверка на root и целостности устройства для SberPay</li>\n<li>VPN статус</li>\n<li>История. Увеличено количество скрываемых транзакций до 300</li>\n<li>Активирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной</li>\n</ul>\n<h3>Аналитика:</h3>\n<ul>\n<li>Внутренняя аналитика</li>\n<li>Firebase Analytics</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Сбербанк</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian banking application <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>\n"
+        },
+        "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+      },
+      "versions": {
+        "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c": {
+          "added": 1732159573000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_324-1.21.apk",
+            "sha256": "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c",
+            "size": 8862763
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.21",
+            "versionCode": 324,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
