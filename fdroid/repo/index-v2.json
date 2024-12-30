@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1735443116000,
+    "timestamp": 1735529070000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2346,7 +2346,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735442713000,
+        "lastUpdated": 1735528808000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -11823,7 +11823,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734233688000,
+        "lastUpdated": 1735528868000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.parallelc.micts",
         "authorName": "parallelcc",
         "name": {
@@ -11838,6 +11838,41 @@
         "preferredSigner": "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
       },
       "versions": {
+        "eaf1df8d2a9bf4a1f3edf272bf718c35d009c5f9f950feca668cd8e0393b3ae3": {
+          "added": 1735528868000,
+          "file": {
+            "name": "/com.parallelc.micts_30-2.2.apk",
+            "sha256": "eaf1df8d2a9bf4a1f3edf272bf718c35d009c5f9f950feca668cd8e0393b3ae3",
+            "size": 2429277
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.2",
+            "versionCode": 30,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "com.parallelc.micts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "85b8caa9bd33814d504ceebcd8e5c30e1c075cd976d285a9412a79a3e7745dc1": {
           "added": 1734233688000,
           "file": {
@@ -11900,27 +11935,6 @@
                 "name": "com.parallelc.micts.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
-        },
-        "3552d7bc6389330065762f857f6335b679d70274057be1adf2ff7b309b968cbb": {
-          "added": 1732159488000,
-          "file": {
-            "name": "/com.parallelc.micts_5-1.4.apk",
-            "sha256": "3552d7bc6389330065762f857f6335b679d70274057be1adf2ff7b309b968cbb",
-            "size": 627670
-          },
-          "manifest": {
-            "versionName": "1.4",
-            "versionCode": 5,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "21eddc00ff8b47127fc6a639d39c2a0d52b39faaf7a817e012a1d2306d3a991f"
-              ]
-            }
           }
         }
       }
@@ -18326,7 +18340,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159532000,
+        "lastUpdated": 1735528906000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/im.hoho.alipayinstallb",
         "authorName": "nov30th",
         "name": {
@@ -18336,11 +18350,46 @@
           "en-US": "Alipay High Headsome Rich (支付宝装X模块)"
         },
         "description": {
-          "en-US": "<h1>支付宝装X模块</h1>\n<p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.</p>\n<p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>\n<p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>\n<h3>界面</h3>\n<p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>\n<p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>\n<h3>版本</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>功能</th>\n<th>最后更新时间</th>\n<th>是否可用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>仅钻石付款背景</td>\n<td>2021.09</td>\n<td>所有版本</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石背景或自定义皮肤</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>快速手机修改背景步骤</h2>\n<ol>\n<li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" />\n</blockquote>\n<ol start=\"2\">\n<li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>\n<li>打开支付宝付款码即可看到效果如图。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" />\n</blockquote>\n<ol start=\"4\">\n<li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>\n</ol>\n<h3>自定义皮肤说明（手动模式）</h3>\n<ul>\n<li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>\n\\Android\\media\\com.eg.android.AlipayGphone)</li>\n<li>如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>\n<li>**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>\n<li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>\n</ul>\n<h3>目录结构说明（手动模式及自定义修改需了解）</h3>\n<p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>\n<table>\n<thead>\n<tr>\n<th>命名</th>\n<th>含义</th>\n<th>是否目录</th>\n<th>手动创建</th>\n<th>作用后文件消失</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>开启自定义皮肤功能</td>\n<td>随意</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发支付宝增量自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发支付宝删除自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出支付宝拥有皮肤</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>任意名称目录</td>\n<td>自定义皮肤文件夹</td>\n<td>是</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>任意名称文件</td>\n<td>无作用</td>\n<td>否</td>\n<td>是</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>\n</blockquote>\n<blockquote>\n<p>触发仅在展示二维码时有效</p>\n</blockquote>\n<blockquote>\n<p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>\n</blockquote>\n<blockquote>\n<p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>\n</blockquote>\n<blockquote>\n<p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>\n</blockquote>\n<p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>\n<h2>更新历史</h2>\n<p><a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\">源代码</a></p>\n<p>【作者自用】</p>\n"
+          "en-US": "<h1>支付宝装X模块</h1>\n<p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.</p>\n<p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>\n<p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>\n<h3>界面</h3>\n<p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>\n<p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>\n<h3>版本</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>功能</th>\n<th>最后更新时间</th>\n<th>是否可用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>仅钻石付款背景</td>\n<td>2021.09</td>\n<td>&lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石背景或自定义皮肤</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23, &lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.6.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2024.12</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>快速手机修改背景步骤</h2>\n<ol>\n<li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" />\n</blockquote>\n<ol start=\"2\">\n<li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>\n<li>打开支付宝付款码即可看到效果如图。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" />\n</blockquote>\n<ol start=\"4\">\n<li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>\n</ol>\n<h3>自定义皮肤说明（手动模式）</h3>\n<ul>\n<li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>\n\\Android\\media\\com.eg.android.AlipayGphone)</li>\n<li>如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>\n<li>**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>\n<li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>\n</ul>\n<h3>目录结构说明（手动模式及自定义修改需了解）</h3>\n<p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>\n<table>\n<thead>\n<tr>\n<th>命名</th>\n<th>含义</th>\n<th>是否目录</th>\n<th>手动创建</th>\n<th>作用后文件消失</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>开启自定义皮肤功能</td>\n<td>随意</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发支付宝增量自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发支付宝删除自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出支付宝拥有皮肤</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>任意名称目录</td>\n<td>自定义皮肤文件夹</td>\n<td>是</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>任意名称文件</td>\n<td>无作用</td>\n<td>否</td>\n<td>是</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>\n</blockquote>\n<blockquote>\n<p>触发仅在展示二维码时有效</p>\n</blockquote>\n<blockquote>\n<p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>\n</blockquote>\n<blockquote>\n<p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>\n</blockquote>\n<blockquote>\n<p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>\n</blockquote>\n<p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>\n<h2>更新历史</h2>\n<p><a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\">源代码</a></p>\n<p>【作者自用】</p>\n"
         },
         "preferredSigner": "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
       },
       "versions": {
+        "93961fdf9b20f1f737121deac0d6f3b21bd9be1b595ba545eaa0f86177402254": {
+          "added": 1735528906000,
+          "file": {
+            "name": "/im.hoho.alipayinstallb_v2.6.0.apk",
+            "sha256": "93961fdf9b20f1f737121deac0d6f3b21bd9be1b595ba545eaa0f86177402254",
+            "size": 333305
+          },
+          "manifest": {
+            "versionName": "2.6.0",
+            "versionCode": 111,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
         "d278b781a9abf4888623c912dae0224ce7d492755ef0cabe4a429b875052fa47": {
           "added": 1732159532000,
           "file": {
@@ -24885,7 +24934,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735442852000,
+        "lastUpdated": 1735528943000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -24900,6 +24949,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99": {
+          "added": 1735528943000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_384-1.23.1.apk",
+            "sha256": "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99",
+            "size": 8934786
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.23.1",
+            "versionCode": 384,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "22d4015ab712c177c4fd203040c0203e78b4795e11c60de8eb3d6e88f08278ed": {
           "added": 1735442852000,
           "file": {
@@ -24981,68 +25095,6 @@
             ],
             "versionName": "1.22",
             "versionCode": 352,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              },
-              {
-                "name": "com.google.android.gms.permission.AD_ID"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c": {
-          "added": 1732159573000,
-          "file": {
-            "name": "/ru.bluecat.sberbankpatcher_324-1.21.apk",
-            "sha256": "e8656e3140fb66e21beb28be353f4f7f2b45e93a14623faa208d69f6a2e42e0c",
-            "size": 8862763
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.21",
-            "versionCode": 324,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34
