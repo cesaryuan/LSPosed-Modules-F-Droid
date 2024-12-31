@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1735529070000,
+    "timestamp": 1735614789000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2178,7 +2178,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159419000,
+        "lastUpdated": 1735614490000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.lyric.getter",
         "authorName": "xiaowine",
         "name": {
@@ -2193,6 +2193,44 @@
         "preferredSigner": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
       },
       "versions": {
+        "d389ba07d8b79b707ad6daecb6c9c4b7d197a8aaf7f7228027f97373a6e0f85d": {
+          "added": 1735614490000,
+          "file": {
+            "name": "/cn.lyric.getter_24-2.0.16.apk",
+            "sha256": "d389ba07d8b79b707ad6daecb6c9c4b7d197a8aaf7f7228027f97373a6e0f85d",
+            "size": 8544629
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.16",
+            "versionCode": 24,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "cn.lyric.getter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48": {
           "added": 1732159419000,
           "file": {
@@ -2346,7 +2384,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735528808000,
+        "lastUpdated": 1735614491000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -21113,11 +21151,14 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159548000,
+        "lastUpdated": 1735614605000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/lozn.hookui",
         "authorName": "lozn00",
         "name": {
-          "en-US": "Easy HOOK UI,No Code, dyamic analaysis"
+          "en-US": "HOOKUI,No Code, dyamic analaysis"
+        },
+        "summary": {
+          "en-US": "HOOKUI是一款逆向傻瓜式分析工具， 可以在手机端点ui或者编写hook代码来分析 ，可以用于快速爆破，无需脱壳  窥探 内存 动态hook,支持HOO..."
         },
         "description": {
           "en-US": "<p>HOOKUI1.9.0_build_26-release.apk</p>"
@@ -21125,6 +21166,86 @@
         "preferredSigner": "de12ce9aaccaacd642d1a795ad412279bcb49502d9c2e5f7ebf6d70c1a465de0"
       },
       "versions": {
+        "18b5313eff4edfbce42156935a4f86d99550aa9341ec71d88676222819a3ad75": {
+          "added": 1735614605000,
+          "file": {
+            "name": "/lozn.hookui_28-2.0-m.apk",
+            "sha256": "18b5313eff4edfbce42156935a4f86d99550aa9341ec71d88676222819a3ad75",
+            "size": 8989574
+          },
+          "manifest": {
+            "versionName": "2.0-m",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "de12ce9aaccaacd642d1a795ad412279bcb49502d9c2e5f7ebf6d70c1a465de0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "lozn.hookui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "b8feba8ac75d0d1801d23878e813554a399607fbaf0eefdc155e2126fba53404": {
           "added": 1732159548000,
           "file": {
@@ -24436,7 +24557,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735442849000,
+        "lastUpdated": 1735614624000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
         "authorName": "ReSo7200",
         "name": {
@@ -24510,6 +24631,48 @@
             "signer": {
               "sha256": [
                 "69a053a56f1f4b4e26494882ec9118876ee68b16a47808071a878651a27ea986"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "ps.reso.instaeclipse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "da4eaa3f7bd5140553afa3d1b81fe7f60fc762ded5d758b6c3979312687509bc": {
+          "added": 1735614624000,
+          "file": {
+            "name": "/ps.reso.instaeclipse_3-0.2.1.apk",
+            "sha256": "da4eaa3f7bd5140553afa3d1b81fe7f60fc762ded5d758b6c3979312687509bc",
+            "size": 12746665
+          },
+          "manifest": {
+            "versionName": "0.2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fbf8739dc2a453a21662f08de46f013d26aa0d37d6922a3fc30a11df2f67c2e4"
               ]
             },
             "usesPermission": [
@@ -26258,7 +26421,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159585000,
+        "lastUpdated": 1735614637000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/statusbar.lyric",
         "authorName": "qqlittleice233",
         "name": {
@@ -26273,6 +26436,44 @@
         "preferredSigner": "a570b673bf489e3e893dd1fefce7a475a310c0e50f493cde5ceafbbb36041370"
       },
       "versions": {
+        "39a179806b5b7e899b2e1f3ec6da3fc6d6da4da1838241fd99d31c8cef628e0c": {
+          "added": 1735614637000,
+          "file": {
+            "name": "/statusbar.lyric_702-7.0.2.apk",
+            "sha256": "39a179806b5b7e899b2e1f3ec6da3fc6d6da4da1838241fd99d31c8cef628e0c",
+            "size": 1541977
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.0.2",
+            "versionCode": 702,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "a570b673bf489e3e893dd1fefce7a475a310c0e50f493cde5ceafbbb36041370"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "statusbar.lyric.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "07bf6ea8f9f25b9c8e555ced7acce190effd6e731115cef9d8cbf6142f7ab467": {
           "added": 1732159585000,
           "file": {
