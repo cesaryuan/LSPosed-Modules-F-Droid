@@ -2055,17 +2055,25 @@ cn.lyric.getter:
             <hr />
             <h2>Star History</h2>
             <p><a href="https://star-history.com/#xiaowine/Lyric-Getter&amp;Timeline"><img src="https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter&amp;type=Timeline" alt="Star History Chart" /></a></p>
-          filename: Lyrics.Getter-2.0.15-23-release-1729076849560.apk
+          filename: Lyrics.Getter-2.0.16-24-debug-1735537572924.apk
           id: cn.lyric.getter
           name: Lyric Getter | 酒域-歌词获取
-          last_updated: "2024-10-16T11:13:03Z"
+          last_updated: "2024-12-30T05:53:18Z"
           releasedescription: |-
-            <p>2.0.15</p>
             <ul>
-            <li>修复 酷狗hook状态栏歌词崩溃问题</li>
-            <li>修复 酷狗音乐会重复获取歌词</li>
-            <li>修复 酷狗版本判断导致概念版4.0.0无法使用问题</li>
-            <li>添加 华为音乐支持</li>
+            <li>优化：设备名称获取。</li>
+            <li>优化：为图标添加 monochrome 属性。</li>
+            <li>修复：澎湃上修改机型导致网易云喜欢按键与歌词按键异常的问题。</li>
+            <li>优化：添加日语翻译，更新日语翻译。</li>
+            <li>新增：葡萄牙语（巴西），更新英语翻译。</li>
+            <li>新增：对“音乐播放器”的支持。</li>
+            <li>新增：对“Gramophone”的支持。</li>
+            <li>修复：酷狗概念被概率崩溃的问题。</li>
+            <li>优化：完善 lyricData 中的包名数据。</li>
+            <li>修复：因过滤进程导致酷狗开关消失的问题。</li>
+            <li>优化：允许 log 输出至 lsposed。</li>
+            <li>优化：部分 Hook 点。</li>
+            <li>优化：更新依赖。</li>
             </ul>
     author_name: xiaowine
 cn.myflv.noactive:
@@ -16269,17 +16277,26 @@ lin.xposed:
     author_name: lovejiuwu
 lozn.hookui:
     git: https://github.com/Xposed-Modules-Repo/lozn.hookui
-    summary: ""
+    summary: |-
+        HOOKUI是一款逆向傻瓜式分析工具， 可以在手机端点ui或者编写hook代码来分析 ，可以用于快速爆破，无需脱壳  窥探 内存 动态hook,支持HOOK记忆，还支持js hook 配置分享。
+        支持快捷加载so文件 快捷载入frida 逆向分析。
+        结合电脑查看logcat 事半功倍
+        关注https://t.me/qssq666作者将在群里不定期分享 软件的使用姿势和技巧。
+
+        为爱发电，你的更新会使我动力更足。
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: ""
-          filename: HOOKUI1.9.0_build_26-release.apk
+          filename: hookui-XSimple-2.0-m_28-202412301554.apk
           id: lozn.hookui
-          name: Easy HOOK UI,No Code, dyamic analaysis
-          last_updated: "2024-01-20T09:30:10Z"
-          releasedescription: <p>HOOKUI1.9.0_build_26-release.apk</p>
+          name: HOOKUI,No Code, dyamic analaysis
+          last_updated: "2024-12-30T12:03:53Z"
+          releasedescription: |-
+            <p>增加实时日志功能。<br>
+            重构诸多配置和权限读取失败问题，以及开关配置经常不起作用问题。方便使用js脚本和挂载SO/FRIDA 。 因现在都是使用的lsposed hookui内部不再使用免重启热更技术<br>
+            自身HOOKUI菜单不再显示，若要显示自己操作自己需要打开自身的开关，谨慎开启自身hook,可能改错配置将无法进入hookui，届时需要清除自身配置数据或者（下次自动禁用）。。</p>
     author_name: lozn00
 lsposed.orange:
     git: https://github.com/Xposed-Modules-Repo/lsposed.orange
@@ -19047,11 +19064,11 @@ ps.reso.instaeclipse:
           categories:
             - Xposed
           description: "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! \U0001F680</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. \U0001F9E0✨</p>\n<hr />\n<h2>✨ Features</h2>\n<h3>\U0001F39B️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n<li>Ensure you are signed in before enabling Developer Options through the module and follow the provided guide for proper setup.</li>\n</ul>\n<h3>\U0001F47B Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>\U0001F9D8 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>\U0001F6AB Remove Ads</h3>\n<ul>\n<li>Declutter your feed by removing intrusive ads.</li>\n</ul>\n<h3>\U0001F4C9 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<hr />\n<h2>\U0001F6E0️ Installation Instructions</h2>\n<hr />\n<h2>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google play store versions yet!</h2>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<hr />\n<h2>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a></h2>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n<hr />\n<h2>\U0001F4D6 FAQ</h2>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n<hr />\n<h2>\U0001F4C2 Resources</h2>\n<ul>\n<li>\U0001F419 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>\U0001F4AC <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n<hr />\n<h2>\U0001F389 Contributors</h2>\n<hr />\n<h3>\U0001F451 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<hr />\n<h3>\U0001F64C Special Thanks to:</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<hr />\n<h3>\U0001F4A1 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n<hr />\n"
-          filename: InstaEclipse.0.2.apk
+          filename: InstaEclipse.0.2.1.apk
           id: ps.reso.instaeclipse
           name: InstaEclipse
-          last_updated: "2024-12-28T12:20:30Z"
-          releasedescription: "<p>\U0001F4E6 Release: Version 0.2<br>\n\U0001F389 InstaEclipse Update \U0001F389</p>\n<p>We're excited to bring you Version 0.2 of InstaEclipse! \U0001F680</p>\n<hr>\n<h3>\U0001F195 What's New?</h3>\n<h4>\U0001F4C9 Remove Analytics</h4>\n<ul>\n<li>Block Instagram's tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<h4>\U0001F4A1 Improved UI and FAQ</h4>\n<ul>\n<li>Enhanced interface for a smoother user experience.</li>\n<li>Updated FAQ section with more clarity and helpful guidance.</li>\n</ul>\n<hr>\n<h3>\U0001F4CC Important Notes</h3>\n<ul>\n<li><strong>Compatible Instagram Version</strong>: The module currently supports only Instagram versions from APKMirror. Please avoid using the Google Play version as it may not function correctly.</li>\n<li><strong>LSPosed Compatibility</strong>: To ensure optimal performance, use the latest LSPosed fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>, as it provides enhanced stability and support for this module.</li>\n<li><strong>Distraction-Free Mode</strong>: Remember to force stop Instagram and clear its cache after enabling.</li>\n<li><strong>Developer Options</strong>: Ensure you're signed in before enabling and follow the guide for proper setup.</li>\n</ul>\n<p>Thank you for your feedback and support as we continue to improve InstaEclipse! \U0001F49C</p>"
+          last_updated: "2024-12-30T20:34:30Z"
+          releasedescription: "<h1>\U0001F4E6 Release: Version 0.2.1</h1>\n<p>\U0001F389 InstaEclipse Update \U0001F389</p>\n<p>We’re excited to bring you Version 0.2.1 of InstaEclipse! \U0001F680</p>\n<hr>\n<h2>\U0001F195 What's New?</h2>\n<h3>\U0001F47B <strong>Ghost Mode Enhancements</strong></h3>\n<ul>\n<li>Added <strong>Hide Typing Status</strong>: Stay completely invisible while replying to DMs.</li>\n</ul>\n<h3>\U0001F9D8 <strong>Distraction-Free Mode Enhancements</strong></h3>\n<ul>\n<li>Added <strong>Hide Comments</strong>: Remove comments from posts for an even cleaner experience.</li>\n</ul>\n<h3>\U0001F30D <strong>Improved App Translation Compatibility</strong></h3>\n<ul>\n<li>Full support for app translations by moving to <code>@string</code> resources for better adaptability and flexibility.</li>\n</ul>\n<h3>\U0001F310 <strong>New Language Support</strong></h3>\n<ul>\n<li><strong>Turkish</strong> and <strong>Portuguese</strong> languages have been added.\n<ul>\n<li>\n<p>Thanks to the contributors behind:</p>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/10\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/10/hovercard\">Merge Pull Request #10</a> from <a href=\"https://github.com/akifakif32\">akifakif32</a> - <strong>Turkish</strong></li>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/11\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/11/hovercard\">Merge Pull Request #11</a> from <a href=\"https://github.com/oka1da\">oka1da</a> - <strong>Portuguese</strong></li>\n<li><a href=\"https://github.com/ffnuser\">ffnuser</a> - <strong>Russian</strong></li>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/14\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/14/hovercard\">Merge Pull Request #14</a> from <a href=\"https://github.com/Lxchoooo\">Lxchoooo</a> - Spanish</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h2>\U0001F4CC Important Notes</h2>\n<ul>\n<li><strong>Compatible Instagram Version</strong>: The module currently supports only Instagram versions from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\" rel=\"nofollow\">APKMirror</a>. Avoid using the Google Play version as it may not function correctly.</li>\n<li><strong>LSPosed Compatibility</strong>: For optimal performance, ensure you are using the latest LSPosed fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</li>\n<li><strong>Feature Activation</strong>:\n<ul>\n<li><strong>Ghost Mode</strong>: Works seamlessly after enabling via the module.</li>\n<li><strong>Distraction-Free Mode</strong>: Force stop Instagram and clear its cache to apply changes properly.</li>\n</ul>\n</li>\n<li><strong>Developer Options</strong>: Ensure you’re signed in before enabling and follow the guide for proper setup.</li>\n</ul>\n<hr>\n<p>Thank you for your continued support as we enhance InstaEclipse! \U0001F49C</p>"
     author_name: ReSo7200
 pub.chara.disablealttab:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab
@@ -20835,30 +20852,62 @@ statusbar.lyric:
             <p><a href="https://github.com/Block-Network/StatusBarLyric/LICENSE">GNU General Public License v3.0</a></p>
             <h2>Star History</h2>
             <p><a href="https://star-history.com/#Block-Network/StatusBarLyric&amp;Date"><img src="https://api.star-history.com/svg?repos=Block-Network/StatusBarLyric&amp;type=Date" alt="Star History Chart" /></a></p>
-          filename: StatusBarLyric-7.0.1-701-release-1727837810028.apk
+          filename: StatusBarLyric-7.0.2-702-release-1735533009603.apk
           id: statusbar.lyric
           name: StatusBar Lyric
-          last_updated: "2024-10-02T06:20:06Z"
+          last_updated: "2024-12-30T05:54:38Z"
           releasedescription: |-
-            <h1>!!! 强烈建议更新，之前的版本有严重性能BUG !!!</h1>
-            <hr>
-            <p>7.0.1</p>
+            <h3>7.0.2</h3>
+            <h4>重要提醒：</h4>
             <ul>
-            <li>修复 无法设置图标上边距</li>
-            <li>修复 悬浮标题背景颜色无法设置</li>
-            <li>修复 部分系统无法隐藏通知图标</li>
-            <li>修改 lyricEndMargins 默认值为7</li>
-            <li>添加 歌词添加位置</li>
-            <li>修复 无法输入渐变色</li>
-            <li>优化 图标样式页面中重启系统界面 Card 跳动</li>
-            <li>优化 标题间距</li>
-            <li>优化 竖屏下页面切换动画</li>
-            <li>修复 扩展选项界面字重错误</li>
-            <li>修复 重置配置 Dialog 文案</li>
-            <li>添加 横屏下右侧显示 Logo</li>
-            <li>优化 标题监听 解决蓝牙歌词导致歌词被当作标题</li>
-            <li>修复 屏幕缺口黑边</li>
-            <li>修复 歌词设置宽度过大时无法滚动</li>
+            <li>为了确保使用体验请务必更新 Lyric-Getter 至  2.0.16 版以上。</li>
+            </ul>
+            <hr>
+            <ul>
+            <li>修复：隐藏通知图标功能在非播放状态生效的问题。#462</li>
+            <li>修复：横屏状态栏隐藏时概率高级材质背景未能隐藏的问题。#479，#480，#485，#486，#504</li>
+            <li>修复：悬浮标题无法弹出的问题。#478</li>
+            <li>修复：概率获取到其他应用视频标题触发弹出悬浮标题的问题。#478</li>
+            <li>修复：播放状态受其他应用干扰的问题。#478</li>
+            <li>修复：状态栏歌词与焦点通知冲突的问题。#481，#483，#484，#496，#508</li>
+            <li>修复：在 HyperOS 2 上通知图标隐藏失败的问题。#493</li>
+            <li>修复：切换壁纸后概率状态栏歌词不再显示的问题。#509</li>
+            <li>修复：选择不隐藏某些项目后项目仍然被隐藏的问题。#507</li>
+            <li>新增：模块将自动处理与焦点通知的兼容功能 *1。</li>
+            <li>优化：Hyper OS 2 上隐藏时钟后，调整大时钟过渡动画。#497，#499，#506</li>
+            <li>*1：焦点通知弹出时将自动隐藏歌词，点击状态栏可重新显示但焦点通知会被隐藏，反之亦然。</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a></li>
+            </ul>
+            <hr>
+            <ul>
+            <li>修复：模块返回图标。#491</li>
+            <li>优化：更改歌词宽度时支持同步修改至状态栏歌词。#492</li>
+            <li>优化：移除对 material3 的依赖，添加顶栏模糊，优化横屏边到边适配，更新翻译。#494</li>
+            <li>优化：小米设备名称获取逻辑。#495</li>
+            <li>优化：更新 miuix 至 0.3.0。#490</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YuKongA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YuKongA">@YuKongA</a></li>
+            </ul>
+            <hr>
+            <ul>
+            <li>新增：日语。#489</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/577fkj/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/577fkj">@577fkj</a></li>
+            </ul>
+            <hr>
+            <ul>
+            <li>优化：理论适配所有 A15 系统隐藏状态栏图标。</li>
+            <li>优化：添加自动处理焦点通知功能的开关。#507</li>
+            <li>优化：将图标左边距范围改为-2000到2000。</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xiaowine/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xiaowine">@xiaowine</a></li>
+            </ul>
+            <hr>
+            <ul>
+            <li>优化：设备名称显示。#502</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ghhccghk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ghhccghk">@ghhccghk</a></li>
+            </ul>
+            <hr>
+            <ul>
+            <li>修复：typo。#473</li>
+            <li>by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/klxiaoniu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klxiaoniu">@klxiaoniu</a></li>
             </ul>
     author_name: qqlittleice233
 tech.oliet.hcefunlocker:

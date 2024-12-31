@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1735529070000,
+    "timestamp": 1735614789000,
     "version": 20002
   },
   "requests": {
@@ -1763,27 +1763,6 @@
       "summary": "Removes root and bootloader checks from the Austrian e-government apps"
     },
     {
-      "added": 1705743010000,
-      "authorName": "lozn00",
-      "categories": [
-        "Xposed"
-      ],
-      "description": "\u003cp\u003eHOOKUI1.9.0_build_26-release.apk\u003c/p\u003e",
-      "icon": "lozn.hookui.png",
-      "lastUpdated": 1705743010000,
-      "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "HOOKUI1.9.0_build_26-release.apk"
-        }
-      },
-      "name": "Easy HOOK UI,No Code, dyamic analaysis",
-      "packageName": "lozn.hookui",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/lozn.hookui",
-      "suggestedVersionCode": "26",
-      "suggestedVersionName": "1.9.0"
-    },
-    {
       "added": 1724137575000,
       "authorName": "tehcneko",
       "categories": [
@@ -3003,6 +2982,28 @@
       "summary": "给哔咔去广告，"
     },
     {
+      "added": 1735560233000,
+      "authorName": "lozn00",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp\u003eHOOKUI1.9.0_build_26-release.apk\u003c/p\u003e",
+      "icon": "lozn.hookui.png",
+      "lastUpdated": 1735560233000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "增加实时日志功能。\n重构诸多配置和权限读取失败问题，以及开关配置经常不起作用问题。方便使用js脚本和挂载SO/FRIDA 。 因现在都是使用的lsposed hookui内部不再使用免重启热更技术\n自身HOOKUI菜单不再显示，若要显示自己操作自己需要打开自身的开关，谨慎开启自身hook,可能改错配置将无法进入hookui，届时需要清除自身配置数据或者（下次自动禁用）。。"
+        }
+      },
+      "name": "HOOKUI,No Code, dyamic analaysis",
+      "packageName": "lozn.hookui",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/lozn.hookui",
+      "suggestedVersionCode": "28",
+      "suggestedVersionName": "2.0-m",
+      "summary": "HOOKUI是一款逆向傻瓜式分析工具， 可以在手机端点ui或者编写hook代码来分析 ，可以用于快速爆破，无需脱壳  窥探 内存 动态hook,支持HOO..."
+    },
+    {
       "added": 1713440669000,
       "authorName": "wwlwwlwwlwwl",
       "categories": [
@@ -3241,18 +3242,18 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/\u003e\n\u003c/p\u003e\n\u003ch1\u003eInstaEclipse ⚡ Enhance Your Instagram Experience!\u003c/h1\u003e\n\u003cp\u003eInstaEclipse is an \u003cstrong\u003eLSPosed module\u003c/strong\u003e designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀\u003c/p\u003e\n\u003cp\u003eThis module is built to stay compatible with \u003cstrong\u003enew Instagram releases\u003c/strong\u003e by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨ Features\u003c/h2\u003e\n\u003ch3\u003e🎛️ Developer Options\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAccess hidden developer tools within Instagram for advanced functionality.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eNote:\u003c/strong\u003e These options are intended for use with \u003cstrong\u003eAlpha\u003c/strong\u003e or \u003cstrong\u003eBeta\u003c/strong\u003e versions of Instagram.\u003c/li\u003e\n\u003cli\u003eEnsure you are signed in before enabling Developer Options through the module and follow the provided guide for proper setup.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e👻 Ghost Mode\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eStay incognito while browsing stories, lives, or DMs.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🧘 Distraction-Free Mode\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eEnjoy Instagram without stories, reels, or explore feed distractions.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eImportant:\u003c/strong\u003e After enabling Distraction-Free Mode:\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003eForce stop Instagram\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eClear Instagram’s cache\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eLaunch Instagram for a clean experience.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🚫 Remove Ads\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDeclutter your feed by removing intrusive ads.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e📉 Remove Analytics\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBlock Instagram’s tracking and analytics to protect your privacy.\u003c/li\u003e\n\u003cli\u003ePrevent unnecessary data sharing and usage metrics.\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e🛠️ Installation Instructions\u003c/h2\u003e\n\u003chr /\u003e\n\u003ch2\u003e⚠️ Install Instagram from \u003ca href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\"\u003eAPKMirror\u003c/a\u003e, as the module doesn’t fully support Google play store versions yet!\u003c/h2\u003e\n\u003ch3\u003e1️⃣ Install the Module\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDownload and install the \u003cstrong\u003eInstaEclipse APK\u003c/strong\u003e. You can find the latest release \u003ca href=\"https://github.com/ReSo7200/InstaEclipse/releases\"\u003ehere\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e2️⃣ Enable the Module in LSPosed\u003c/h3\u003e\n\u003chr /\u003e\n\u003ch2\u003e⚠️ Make sure you are using the latest LSPosed Fork by \u003ca href=\"https://github.com/JingMatrix/LSPosed\"\u003eJingMatrix\u003c/a\u003e\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eOpen the \u003cstrong\u003eLSPosed Manager\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eEnable the \u003cstrong\u003eInstaEclipse Module\u003c/strong\u003e for the \u003cstrong\u003eInstagram app\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e3️⃣ Open the Module\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eLaunch \u003cstrong\u003eInstaEclipse\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e4️⃣ Configure Your Features\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the \u003cstrong\u003eFeatures Tab\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eSelect the features you want to enable or customize.\u003c/li\u003e\n\u003cli\u003eSave your preferences.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e5️⃣ Restart Instagram\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eGo back to the \u003cstrong\u003eHome Tab\u003c/strong\u003e in the InstaEclipse module.\u003c/li\u003e\n\u003cli\u003eClick \u003cstrong\u003eRestart Instagram\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e📖 FAQ\u003c/h2\u003e\n\u003ch3\u003e❓ Module not enabled?\u003c/h3\u003e\n\u003cp\u003eDisable and re-enable the module in LSPosed.\u003c/p\u003e\n\u003ch3\u003e❓ Features not working?\u003c/h3\u003e\n\u003cp\u003eForce stop and restart Instagram.\u003c/p\u003e\n\u003ch3\u003e❓ Developer options causing crashes?\u003c/h3\u003e\n\u003cp\u003eFollow the provided instructions for developer options and ensure you’re using \u003cstrong\u003eAlpha\u003c/strong\u003e or \u003cstrong\u003eBeta\u003c/strong\u003e versions of Instagram.\u003c/p\u003e\n\u003ch3\u003e❓ Why are some labels obfuscated or numbered?\u003c/h3\u003e\n\u003cp\u003eThis is due to obfuscation in \u003cstrong\u003eStable\u003c/strong\u003e versions of Instagram. Use \u003cstrong\u003eBeta\u003c/strong\u003e or \u003cstrong\u003eAlpha\u003c/strong\u003e versions to avoid this.\u003c/p\u003e\n\u003ch3\u003e❓ Distraction-Free Mode enabled, but content still appears?\u003c/h3\u003e\n\u003cp\u003eForce stop Instagram and \u003cstrong\u003eclear its cache\u003c/strong\u003e to apply the changes properly.\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📂 Resources\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e🐙 \u003cstrong\u003eGitHub Repository:\u003c/strong\u003e \u003ca href=\"https://github.com/ReSo7200/InstaEclipse\"\u003eExplore InstaEclipse\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e💬 \u003cstrong\u003eSupport \u0026amp; Updates:\u003c/strong\u003e \u003ca href=\"https://t.me/InstaEclipse\"\u003eTelegram Channel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e⚙️ \u003cstrong\u003eLSPosed - Fork By \u003ca href=\"https://github.com/JingMatrix/\"\u003eJingMatrix\u003c/a\u003e\u003c/strong\u003e \u003ca href=\"https://github.com/JingMatrix/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎉 Contributors\u003c/h2\u003e\n\u003chr /\u003e\n\u003ch3\u003e👑 Project Owner\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/ReSo7200/\"\u003eReSo7200\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e🙌 Special Thanks to:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/ReSo7200/\"\u003exHookman\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAmàzing World\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBluepapilte (MyInsta Mod Owner)\u003c/strong\u003e \u003ca href=\"https://t.me/instasmashrepo\"\u003eTelegram\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBdrcnAYYDIN\u003c/strong\u003e \u003ca href=\"https://t.me/BdrcnAYYDIN\"\u003eTelegram\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e💡 Contributions\u003c/h3\u003e\n\u003cp\u003eWe welcome contributions from everyone!\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eHave an idea?\u003c/strong\u003e Open an issue or submit a feature request.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFound a bug?\u003c/strong\u003e Report it through our \u003ca href=\"https://github.com/ReSo7200/InstaEclipse/issues\"\u003eGitHub Issues\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWant to help?\u003c/strong\u003e Submit a pull request to improve InstaEclipse.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003eEvery contribution, big or small, is highly valued. Thank you for helping us grow!\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n",
-      "lastUpdated": 1735442849000,
+      "lastUpdated": 1735614624000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "📦 Release: Version 0.2  \n🎉 InstaEclipse Update 🎉  \n\nWe're excited to bring you Version 0.2 of InstaEclipse! 🚀  \n\n---\n\n### 🆕 What's New?  \n\n#### 📉 Remove Analytics  \n- Block Instagram's tracking and analytics to protect your privacy.  \n- Prevent unnecessary data sharing and usage metrics.  \n\n#### 💡 Improved UI and FAQ  \n- Enhanced interface for a smoother user experience.  \n- Updated FAQ section with more clarity and helpful guidance.  \n---\n\n### 📌 Important Notes  \n\n- **Compatible Instagram Versi"
+          "whatsNew": "# 📦 Release: Version 0.2.1  \n🎉 InstaEclipse Update 🎉  \n\nWe’re excited to bring you Version 0.2.1 of InstaEclipse! 🚀  \n\n---\n\n## 🆕 What's New?  \n\n### 👻 **Ghost Mode Enhancements**  \n- Added **Hide Typing Status**: Stay completely invisible while replying to DMs.\n\n### 🧘 **Distraction-Free Mode Enhancements**  \n- Added **Hide Comments**: Remove comments from posts for an even cleaner experience.\n\n### 🌍 **Improved App Translation Compatibility**  \n- Full support for app translations by moving to `@st"
         }
       },
       "name": "InstaEclipse",
       "packageName": "ps.reso.instaeclipse",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
-      "suggestedVersionCode": "2",
-      "suggestedVersionName": "0.2",
+      "suggestedVersionCode": "3",
+      "suggestedVersionName": "0.2.1",
       "summary": "An Instagram enhancer module with features like Developer Options, Ghost Mode..."
     },
     {
@@ -3704,25 +3705,25 @@
       "summary": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
     },
     {
-      "added": 1729077183000,
+      "added": 1735537998000,
       "authorName": "xiaowine",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lyric.getter/total?style=flat-square\" alt=\"Release Download\" /\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/xiaowine/Lyric-Getter/total?style=flat-square\" alt=\"Release Download\" /\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/xiaowine/Lyric-Getter?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/xiaowine/Lyric-Getter?style=flat-square\u0026amp;color=3cb371\" alt=\"GitHub Repo size\" /\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/search?l=koltin\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Repo Languages\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://actions-badge.atrox.dev/xiaowine/Lyric-Getter/goto?ref=main\"\u003e\u003cimg src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain\u0026amp;style=flat\" alt=\"Build Status\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter.svg?style=social\" alt=\"GitHub Star\" /\u003e\u003c/p\u003e\n\u003ch2\u003e这是什么东西？\u003c/h2\u003e\n\u003ch4\u003e这是一个Xposed模块（现支持LSPosed\\LSPatch），通过Hook获取音乐软件的歌词，提供给其他模块\\软件使用\u003c/h4\u003e\n\u003ch2\u003e为什么我的歌词不隐藏？\u003c/h2\u003e\n\u003ch4\u003e因为模块通过监听媒体通知事件，来判断是否应该隐藏歌词。而部分音乐软件默认通知样式为自定义的，所以需要将通知样式改为系统样式\u003c/h4\u003e\n\u003chr /\u003e\n\u003ch3\u003e支持软件请在模块内查看，或查看\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/blob/gh-pages/app_rules_version\"\u003e规则文件\u003c/a\u003e\u003c/h3\u003e\n\u003chr /\u003e\n\u003ch3\u003e你也可以主动使用本模块API，用于收发歌词\u003ca href=\"https://github.com/xiaowine/Lyric-Getter-Api\"\u003eLyric-Getter-Api\u003c/a\u003e\u003c/h3\u003e\n\u003chr /\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#xiaowine/Lyric-Getter\u0026amp;Timeline\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter\u0026amp;type=Timeline\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.lyric.getter.png",
-      "lastUpdated": 1729077183000,
+      "lastUpdated": 1735537998000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "2.0.15\n- 修复 酷狗hook状态栏歌词崩溃问题\n- 修复 酷狗音乐会重复获取歌词\n- 修复 酷狗版本判断导致概念版4.0.0无法使用问题\n- 添加 华为音乐支持"
+          "whatsNew": "- 优化：设备名称获取。\n- 优化：为图标添加 monochrome 属性。\n- 修复：澎湃上修改机型导致网易云喜欢按键与歌词按键异常的问题。\n- 优化：添加日语翻译，更新日语翻译。\n- 新增：葡萄牙语（巴西），更新英语翻译。\n- 新增：对“音乐播放器”的支持。\n- 新增：对“Gramophone”的支持。\n- 修复：酷狗概念被概率崩溃的问题。\n- 优化：完善 lyricData 中的包名数据。\n- 修复：因过滤进程导致酷狗开关消失的问题。\n- 优化：允许 log 输出至 lsposed。\n- 优化：部分 Hook 点。\n- 优化：更新依赖。"
         }
       },
       "name": "Lyric Getter | 酒域-歌词获取",
       "packageName": "cn.lyric.getter",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.lyric.getter",
-      "suggestedVersionCode": "23",
-      "suggestedVersionName": "2.0.15",
+      "suggestedVersionCode": "24",
+      "suggestedVersionName": "2.0.16",
       "summary": "Lyric Getter"
     },
     {
@@ -6248,25 +6249,25 @@
       "summary": "Move chosen notification icons from the left to the right side of the system ..."
     },
     {
-      "added": 1727850006000,
+      "added": 1735538078000,
       "authorName": "qqlittleice233",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1 align=\"center\"\u003e墨•状态栏歌词\u003c/h1\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/577fkj/StatusBarLyric/total?style=flat-square\" alt=\"Release Download\" /\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/577fkj/StatusBarLyric?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\n\u003ca href=\"LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/577fkj/StatusBarLyric?style=flat-square\u0026amp;color=3cb371\" alt=\"GitHub Repo size\" /\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/search?l=java\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Repo Languages\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://actions-badge.atrox.dev/577fkj/StatusBarLyric/goto?ref=main\"\u003e\u003cimg src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain\u0026amp;style=flat\" alt=\"Build Status\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/577fkj/StatusBarLyric.svg?style=social\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/StatusBatLyric\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%94%B5%E6%8A%A5%E7%BE%A4-StatusBatLyric-blue.svg?style=flat-square\u0026amp;color=12b7f5\" alt=\"电报群\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://afdian.net/@xiao_wine\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@xiao_wine-blue.svg?style=flat-square\u0026amp;color=12b7f5\" alt=\"爱发电\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003e理论支持 \u003cstrong\u003e所有\u003c/strong\u003e 官方以及部分修改系统\u003c/h3\u003e\n\u003ch3\u003e奉献者\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/graphs/contributors\"\u003e奉献者\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e帮助翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/statusbarlyric\"\u003e\u003cimg src=\"https://badges.crowdin.net/statusbarlyric/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/statusbarlyric\"\u003e点击进入Crowdin\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003e下载\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/actions/workflows/Android.yml\"\u003eBeta\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/actions/workflows/Android_Dev.yml\"\u003eCanary\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e联系我们\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/StatusBatLyric\"\u003e电报\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/issues/new\"\u003eBUG反馈(Github)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e贡献\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/doc/CONTRIBUTING.md\"\u003e想做贡献？\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eEULA \u0026amp; License\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/doc/EULA.md\"\u003eEULA\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#Block-Network/StatusBarLyric\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=Block-Network/StatusBarLyric\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "statusbar.lyric.png",
-      "lastUpdated": 1727850006000,
+      "lastUpdated": 1735538078000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# !!! 强烈建议更新，之前的版本有严重性能BUG !!!\n----\n7.0.1\n\n- 修复 无法设置图标上边距\n- 修复 悬浮标题背景颜色无法设置\n- 修复 部分系统无法隐藏通知图标\n- 修改 lyricEndMargins 默认值为7\n- 添加 歌词添加位置\n- 修复 无法输入渐变色\n- 优化 图标样式页面中重启系统界面 Card 跳动\n- 优化 标题间距\n- 优化 竖屏下页面切换动画\n- 修复 扩展选项界面字重错误\n- 修复 重置配置 Dialog 文案\n- 添加 横屏下右侧显示 Logo\n- 优化 标题监听 解决蓝牙歌词导致歌词被当作标题\n- 修复 屏幕缺口黑边\n- 修复 歌词设置宽度过大时无法滚动"
+          "whatsNew": "### 7.0.2\n#### 重要提醒：\n- 为了确保使用体验请务必更新 Lyric-Getter 至  2.0.16 版以上。\n---\n- 修复：隐藏通知图标功能在非播放状态生效的问题。#462\n- 修复：横屏状态栏隐藏时概率高级材质背景未能隐藏的问题。#479，#480，#485，#486，#504\n- 修复：悬浮标题无法弹出的问题。#478\n- 修复：概率获取到其他应用视频标题触发弹出悬浮标题的问题。#478\n- 修复：播放状态受其他应用干扰的问题。#478\n- 修复：状态栏歌词与焦点通知冲突的问题。#481，#483，#484，#496，#508\n- 修复：在 HyperOS 2 上通知图标隐藏失败的问题。#493\n- 修复：切换壁纸后概率状态栏歌词不再显示的问题。#509\n- 修复：选择不隐藏某些项目后项目仍然被隐藏的问题。#507\n- 新增：模块将自动处理与焦点通知的兼容功能 *1。\n- 优化：Hyper OS 2 上隐藏时钟后，调整大时钟过渡动画。#497，#499，#506\n- *1：焦点通知弹出时将自动隐藏歌词，点击状态栏可重新显示但焦点通知会被隐藏，反之亦然。\n- "
         }
       },
       "name": "StatusBar Lyric",
       "packageName": "statusbar.lyric",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/statusbar.lyric",
-      "suggestedVersionCode": "701",
-      "suggestedVersionName": "7.0.1",
+      "suggestedVersionCode": "702",
+      "suggestedVersionName": "7.0.2",
       "summary": "StatusBar Lyric / 墨•状态栏歌词"
     },
     {
@@ -10541,7 +10542,27 @@
     ],
     "cn.lyric.getter": [
       {
-        "added": 1729077183000,
+        "added": 1735537998000,
+        "apkName": "cn.lyric.getter_24-2.0.16.apk",
+        "hash": "d389ba07d8b79b707ad6daecb6c9c4b7d197a8aaf7f7228027f97373a6e0f85d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "cn.lyric.getter",
+        "sig": "7c1a0b1d09dfda7eef52f3fc2d6af586",
+        "signer": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39",
+        "size": 8544629,
+        "targetSdkVersion": 35,
+        "versionCode": 24,
+        "versionName": "2.0.16"
+      },
+      {
+        "added": 1732159419000,
         "apkName": "cn.lyric.getter_23-2.0.15.apk",
         "hash": "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48",
         "hashType": "sha256",
@@ -17042,7 +17063,22 @@
     ],
     "lozn.hookui": [
       {
-        "added": 1705743010000,
+        "added": 1735560233000,
+        "apkName": "lozn.hookui_28-2.0-m.apk",
+        "hash": "18b5313eff4edfbce42156935a4f86d99550aa9341ec71d88676222819a3ad75",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": null,
+        "packageName": "lozn.hookui",
+        "sig": "262e5a7782950b5579d0a68e42638ee6",
+        "signer": "de12ce9aaccaacd642d1a795ad412279bcb49502d9c2e5f7ebf6d70c1a465de0",
+        "size": 8989574,
+        "targetSdkVersion": 34,
+        "versionCode": 28,
+        "versionName": "2.0-m"
+      },
+      {
+        "added": 1732159548000,
         "apkName": "lozn.hookui_26-1.9.0.apk",
         "hash": "b8feba8ac75d0d1801d23878e813554a399607fbaf0eefdc155e2126fba53404",
         "hashType": "sha256",
@@ -18091,7 +18127,7 @@
         "versionName": "0.1"
       },
       {
-        "added": 1735388430000,
+        "added": 1735442849000,
         "apkName": "ps.reso.instaeclipse_2-0.2.apk",
         "hash": "34e8176593bdc58cb6c34ad5fb1b74a40ba89af6ff8b60427f58645eb62b23cd",
         "hashType": "sha256",
@@ -18104,6 +18140,21 @@
         "targetSdkVersion": 34,
         "versionCode": 2,
         "versionName": "0.2"
+      },
+      {
+        "added": 1735590870000,
+        "apkName": "ps.reso.instaeclipse_3-0.2.1.apk",
+        "hash": "da4eaa3f7bd5140553afa3d1b81fe7f60fc762ded5d758b6c3979312687509bc",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "ps.reso.instaeclipse",
+        "sig": "ad49cdf73618ec7a3fd42cdd93568dd9",
+        "signer": "fbf8739dc2a453a21662f08de46f013d26aa0d37d6922a3fc30a11df2f67c2e4",
+        "size": 12746665,
+        "targetSdkVersion": 34,
+        "versionCode": 3,
+        "versionName": "0.2.1"
       }
     ],
     "pub.chara.disablealttab": [
@@ -18682,7 +18733,27 @@
     ],
     "statusbar.lyric": [
       {
-        "added": 1727850006000,
+        "added": 1735538078000,
+        "apkName": "statusbar.lyric_702-7.0.2.apk",
+        "hash": "39a179806b5b7e899b2e1f3ec6da3fc6d6da4da1838241fd99d31c8cef628e0c",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "statusbar.lyric",
+        "sig": "315d1b21f09588e123c2ff7f2927750e",
+        "signer": "a570b673bf489e3e893dd1fefce7a475a310c0e50f493cde5ceafbbb36041370",
+        "size": 1541977,
+        "targetSdkVersion": 35,
+        "versionCode": 702,
+        "versionName": "7.0.2"
+      },
+      {
+        "added": 1732159585000,
         "apkName": "statusbar.lyric_701-7.0.1.apk",
         "hash": "07bf6ea8f9f25b9c8e555ced7acce190effd6e731115cef9d8cbf6142f7ab467",
         "hashType": "sha256",
