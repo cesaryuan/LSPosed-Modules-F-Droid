@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1735614789000,
+    "timestamp": 1735702061000,
     "version": 20002
   },
   "requests": {
@@ -2205,25 +2205,25 @@
       "summary": "一个基于 Xposed 的免费的游戏内购模块。"
     },
     {
-      "added": 1733826423000,
+      "added": 1735642668000,
       "authorName": "bug-bit",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eFuck for VIP\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/bugccx\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e一个解锁部分软件会员与去广告的模块（详情见模块内）\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch3\u003e注意\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e不要提交任何issues，因为你不会得到任何有用的回复\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e免责声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e禁止发送、分享至国内平台！否则一切后果自行承担！\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！\u003c/li\u003e\n\u003cli\u003e本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e须知\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报🔆\u003c/li\u003e\n\u003cli\u003e唯一Telegram频道：@bugccx\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.bug.hookvip.png",
-      "lastUpdated": 1733826423000,
+      "lastUpdated": 1735642668000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增：\n- 录风者 v1.5.54.241105\n\n优化：\n- 变更用户协议\n- 优化模块激活时的逻辑\n\n修复：\n- 部分已知问题\n\n适配：\n- 奇妙应用 1.2.7\n- 50度灰 6.1.0\n- Adobe Scan 24.12.04-google-dynamic\n- B612咔叽 13.5.5\n- inBox笔记 1.7.88\n- MOJi辞書 8.7.1\n- Niagara Launcher 1.12.14\n- Rain Viewer 6.0.2\n- ShortX 1.0.0-rc2-275-82a5c40-main-prc\n- Slidebox 3.12\n- XPlayer - Video Player 2.4.3.3\n- 薄荷记账 10.8.1\n- 贝利自动点击器 2.8.9\n- 倒数日 1.24.0\n- 多邻国 6.9.5\n- 浩克下载 1.8.3\n- 种子磁力下载器 1.5.4\n- 今日水印相机 v3.0.190.6\n- 猫头鹰文件 13.2.6\n- 美图秀秀 10.25.5\n- 幕布 2.50.1\n- 欧路词典 9.8.9\n- 七猫免费小说 7.62\n- 轻羽写作 1."
+          "whatsNew": "新增：\n- 特狗影视APP 3.2.0\n- 良人剧场 1.1.0\n- 佩奇影视 3.4.0\n- 迅雷 8.26.0.9580\n- FlowMark 1.1.2\n\n优化：\n- 重构设置页面\n- 优化语言自动选择逻辑\n- 支持LSPatch本地模式 不支持集成（内置）模式\n\n适配：\n- 123云盘 2.4.10\n- AB神社 2.4.7\n- Adobe Scan 24.12.17-google-dynamic\n- inBox笔记 1.7.91\n- B612咔叽 13.6.5\n- Battery Guru 2.3.13\n- CamScanner 6.79.0.2412230000\n- Clone App 3.2.0\n- Flyy 2.4.3.0\n- Lightroom 10.1.0\n- MOJi辞書 8.11.2\n- Niagara Launcher 1.13.1\n- NyaFun 3.5.2\n- Rain Viewer 6.2\n- Slidebox 3.13\n- ShortX 1.0.0-rc2-310-f4bf296-main-prc\n- TB Checker 2.7.7.r363.1f"
         }
       },
       "name": "Fuck for VIP",
       "packageName": "com.bug.hookvip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
-      "suggestedVersionCode": "24121018",
-      "suggestedVersionName": "4.6.8-release",
+      "suggestedVersionCode": "24123118",
+      "suggestedVersionName": "4.7.4-release",
       "summary": "解锁部分软件的会员"
     },
     {
@@ -7642,25 +7642,25 @@
       "summary": "假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效"
     },
     {
-      "added": 1735395274000,
+      "added": 1735660933000,
       "authorName": "bingqiu456",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"https://pic.imgdb.cn/item/671c8857d29ded1a8ce444d9.png\"  width=\"250\" height=\"250\" /\u003e\n\u003ch1\u003e冰社 / IceCore\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e✨一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能 ✨\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003e🌈冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下🌈\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e✨如何使用\u003c/h2\u003e\n\u003cp\u003e点击\u003ca href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\"\u003e这里\u003c/a\u003e，下载\u003cstrong\u003e最新版本\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e注：部分软件可能需要登录才能获取会员\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨免责声明\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e本模块仅适配\u003ccode\u003eLsposed\u003c/code\u003e，不适配\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e，如果使用\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e出现问题请不要在群里提问\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么我勾了软件没会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么点开模块设置会闪退\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请先前往LSPosed激活模块\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨联系方式\u003c/h2\u003e\n\u003cp\u003e我们目前有\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003eQQ群\u003c/a\u003e，\u003ca href=\"https://t.me/bingyue_personal\"\u003eTG频道\u003c/a\u003e，可以自由选择加入\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨目前支持的功能\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e获取\u003ccode\u003eVIP\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎇适配的APP\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPP名字\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e测试的版本\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e一叶日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e1.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e彩云天气\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e7.24.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e365日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e7.6.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ees文件管理\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e4.4.2.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e钱迹\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e4.1.1\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e倒数日\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了内购，点击购买后退出即可获得\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.22.0\\\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小黑屋\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了使用激活码激活，随便输入一个支付宝订单号即可\u003c/td\u003e\n\u003ctd\u003e1.9.18c\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.3.5 BETA\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e堆糖\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以自由使用vip功能\u003c/td\u003e\n\u003ctd\u003e8.42.3\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003evmos pro\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去登录\u003c/td\u003e\n\u003ctd\u003e3.0.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e番茄小说\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e6.4.5.32\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小熊录屏\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.4.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不背单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员\u003c/td\u003e\n\u003ctd\u003e8.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAutocmd\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁专业版\u003c/td\u003e\n\u003ctd\u003e1.1.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e一木记账\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e功能解锁\u003c/td\u003e\n\u003ctd\u003e5.8.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003enfc tool\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.6.5\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e滴答清单\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e破解\u003c/td\u003e\n\u003ctd\u003e7.3.1.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🍋适配的版本\u003c/h2\u003e\n\u003cp\u003e这里我提供了适配的app的版本安装包\u003c/p\u003e\n\u003cpre lang=\"bash\"\u003e\u003ccode\u003ehttps://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n\u003c/code\u003e\u003c/pre\u003e\n\u003chr /\u003e\n\u003ch2\u003e🖋本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003ehttps://github.com/bingqiu456/IceCore\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456\"\u003eAonther: bingyue\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e⭐Star\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://starchart.cc/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📜LICENSE\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" /\u003e\n\u003ch1\u003e冰社 / IceCore\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e✨\u003cstrong\u003e一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\u003c/strong\u003e ✨\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003e🌈冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下🌈\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e🎉\u003cstrong\u003e编写模块不易 有能力的大佬不如\u003ca href=\"https://afdian.com/a/bingyueblog\"\u003e捐赠\u003c/a\u003e一下\u003c/strong\u003e🎉\u003c/p\u003e\n\u003ch2\u003e✨如何使用\u003c/h2\u003e\n\u003cp\u003e点击\u003ca href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\"\u003e这里\u003c/a\u003e，下载\u003cstrong\u003e最新版本\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e注：部分软件可能需要登录才能获取会员\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨免责声明\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e本模块仅适配\u003ccode\u003eLsposed\u003c/code\u003e，不适配\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e，如果使用\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e出现问题请不要在群里提问\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么我勾了软件没会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么点开模块设置会闪退\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请先前往LSPosed激活模块\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨联系方式\u003c/h2\u003e\n\u003cp\u003e我们目前有\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003eQQ群\u003c/a\u003e，\u003ca href=\"https://t.me/bingyue_personal\"\u003eTG频道\u003c/a\u003e，可以自由选择加入\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨目前支持的功能\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e获取\u003ccode\u003eVIP\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎇适配的APP\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPP名字\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e测试的版本\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e一叶日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e1.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e彩云天气\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e7.24.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e365日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e7.6.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ees文件管理\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e4.4.2.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e钱迹\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e4.1.1\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e倒数日\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了内购，点击购买后退出即可获得\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.22.0\\\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小黑屋\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了使用激活码激活，随便输入一个支付宝订单号即可\u003c/td\u003e\n\u003ctd\u003e1.9.18c\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.3.5 BETA\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip，去除更新，去除云控\u003c/td\u003e\n\u003ctd\u003e1.3.2.2\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e堆糖\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以自由使用vip功能\u003c/td\u003e\n\u003ctd\u003e8.42.3\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003evmos pro\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去登录\u003c/td\u003e\n\u003ctd\u003e3.0.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e番茄小说\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e6.4.5.32\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小熊录屏\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.4.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不背单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员\u003c/td\u003e\n\u003ctd\u003e5.0-5.5.6\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e潮汐\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e功能，大部分功能有服务器校验\u003c/td\u003e\n\u003ctd\u003e4.2.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e无痛单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁终生vip\u003c/td\u003e\n\u003ctd\u003e1.18.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAutocmd\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁专业版\u003c/td\u003e\n\u003ctd\u003e1.1.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e一木记账\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e功能解锁\u003c/td\u003e\n\u003ctd\u003e5.8.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003enfc tool\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.6.5\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e滴答清单\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e破解\u003c/td\u003e\n\u003ctd\u003e7.3.1.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🍋适配的版本\u003c/h2\u003e\n\u003cp\u003e这里我提供了适配的app的版本安装包\u003c/p\u003e\n\u003cpre lang=\"bash\"\u003e\u003ccode\u003ehttps://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n\u003c/code\u003e\u003c/pre\u003e\n\u003chr /\u003e\n\u003ch2\u003e🖋本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003ehttps://github.com/bingqiu456/IceCore\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456\"\u003eAonther: bingyue\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e⭐Star\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://starchart.cc/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📜LICENSE\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.bingyue.IceCore.png",
-      "lastUpdated": 1735395274000,
+      "lastUpdated": 1735660933000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- ✨️修复fake location vip\n- ✨️修复fake location 软件黑名单\n- ✨️新增去除fake location服务器验证\n- ✨️新增不背单词\n- ✨️新增Autocmd+\n- ✨️修复钱迹提示升级vip"
+          "whatsNew": "**🧨冰社2.0.2 2025新年快乐🧨**\n\n- 🎐1.适配无痛单词\n- 🎐2.适配潮汐（部分功能不可用 因为服务器验证）\n- 🎐3.修复autocmd无法运行\n- 🎐4.新增fakelocation最后一个完整版\n- 🎐5.换新logo\n\n🎊祝大家新的一年 平平安安🎊"
         }
       },
       "name": "冰社 IceCore",
       "packageName": "me.bingyue.IceCore",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore",
-      "suggestedVersionCode": "3",
-      "suggestedVersionName": "2.0.1",
+      "suggestedVersionCode": "4",
+      "suggestedVersionName": "2.0.2",
       "summary": "一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\nAn Xposed module that integrates variou..."
     },
     {
@@ -11337,7 +11337,25 @@
     ],
     "com.bug.hookvip": [
       {
-        "added": 1733826423000,
+        "added": 1735642668000,
+        "apkName": "com.bug.hookvip_24123118-4.7.4-release.apk",
+        "hash": "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.bug.hookvip",
+        "sig": "90172522574ef52dc6d68c644d2fb88b",
+        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
+        "size": 5420704,
+        "targetSdkVersion": 35,
+        "versionCode": 24123118,
+        "versionName": "4.7.4-release"
+      },
+      {
+        "added": 1733887903000,
         "apkName": "com.bug.hookvip_24121018-4.6.8-release.apk",
         "hash": "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c",
         "hashType": "sha256",
@@ -11371,24 +11389,6 @@
         "targetSdkVersion": 35,
         "versionCode": 24111819,
         "versionName": "4.6.2-release"
-      },
-      {
-        "added": 1732159434000,
-        "apkName": "com.bug.hookvip_24102919-4.5.6-release_1.apk",
-        "hash": "eb20d0460e6c00cb4eb8982928599b31b99cc201c8db10dd45c22c78dfc05e6d",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.bug.hookvip",
-        "sig": "90172522574ef52dc6d68c644d2fb88b",
-        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
-        "size": 5317923,
-        "targetSdkVersion": 35,
-        "versionCode": 24102919,
-        "versionName": "4.5.6-release_1"
       }
     ],
     "com.ceco.oreo.gravitybox": [
@@ -17163,7 +17163,22 @@
     ],
     "me.bingyue.IceCore": [
       {
-        "added": 1735395274000,
+        "added": 1735660933000,
+        "apkName": "me.bingyue.IceCore_4-2.0.2.apk",
+        "hash": "c8be1f031bc49d3876403b5d74a942cd2a93646837fdcf7c51956b3eda3f961b",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "me.bingyue.IceCore",
+        "sig": "d4a3faf257eeeefabdfa18af329ff7e4",
+        "signer": "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53",
+        "size": 1959776,
+        "targetSdkVersion": 33,
+        "versionCode": 4,
+        "versionName": "2.0.2"
+      },
+      {
+        "added": 1735442832000,
         "apkName": "me.bingyue.IceCore_3-2.0.1.apk",
         "hash": "5a45c7fd9be095178f90cf7d7e55bc31d0d25e42b06fecd19868dc75f08761fe",
         "hashType": "sha256",
@@ -17191,21 +17206,6 @@
         "targetSdkVersion": 33,
         "versionCode": 2,
         "versionName": "2.0.0"
-      },
-      {
-        "added": 1732159550000,
-        "apkName": "me.bingyue.IceCore_1-1.1.apk",
-        "hash": "d18e1b597b99228e9d5a965ecb7b2215483add084ad3ff9ae23aefceb00879ec",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": null,
-        "packageName": "me.bingyue.IceCore",
-        "sig": "d4a3faf257eeeefabdfa18af329ff7e4",
-        "signer": "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53",
-        "size": 2164056,
-        "targetSdkVersion": 30,
-        "versionCode": 1,
-        "versionName": "1.1"
       }
     ],
     "me.documenthook": [

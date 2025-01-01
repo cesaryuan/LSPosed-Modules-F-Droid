@@ -3710,79 +3710,80 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.6.8-release.apk
+          filename: app_4.7.4-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2024-12-10T10:27:03Z"
+          last_updated: "2024-12-31T10:57:48Z"
           releasedescription: |-
             <p>新增：</p>
             <ul>
-            <li>录风者 v1.5.54.241105</li>
+            <li>特狗影视APP 3.2.0</li>
+            <li>良人剧场 1.1.0</li>
+            <li>佩奇影视 3.4.0</li>
+            <li>迅雷 8.26.0.9580</li>
+            <li>FlowMark 1.1.2</li>
             </ul>
             <p>优化：</p>
             <ul>
-            <li>变更用户协议</li>
-            <li>优化模块激活时的逻辑</li>
-            </ul>
-            <p>修复：</p>
-            <ul>
-            <li>部分已知问题</li>
+            <li>重构设置页面</li>
+            <li>优化语言自动选择逻辑</li>
+            <li>支持LSPatch本地模式 不支持集成（内置）模式</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>奇妙应用 1.2.7</li>
-            <li>50度灰 6.1.0</li>
-            <li>Adobe Scan 24.12.04-google-dynamic</li>
-            <li>B612咔叽 13.5.5</li>
-            <li>inBox笔记 1.7.88</li>
-            <li>MOJi辞書 8.7.1</li>
-            <li>Niagara Launcher 1.12.14</li>
-            <li>Rain Viewer 6.0.2</li>
-            <li>ShortX 1.0.0-rc2-275-82a5c40-main-prc</li>
-            <li>Slidebox 3.12</li>
-            <li>XPlayer - Video Player 2.4.3.3</li>
-            <li>薄荷记账 10.8.1</li>
-            <li>贝利自动点击器 2.8.9</li>
-            <li>倒数日 1.24.0</li>
-            <li>多邻国 6.9.5</li>
-            <li>浩克下载 1.8.3</li>
-            <li>种子磁力下载器 1.5.4</li>
-            <li>今日水印相机 v3.0.190.6</li>
-            <li>猫头鹰文件 13.2.6</li>
-            <li>美图秀秀 10.25.5</li>
-            <li>幕布 2.50.1</li>
-            <li>欧路词典 9.8.9</li>
-            <li>七猫免费小说 7.62</li>
-            <li>轻羽写作 1.85.5</li>
-            <li>扫描全能王 6.76.0.24111600000</li>
-            <li>时间日志 1.7.2</li>
-            <li>瞬译 v6.9.30905</li>
-            <li>网梭 3.5.0</li>
-            <li>微分身多开 13.1.8.0</li>
-            <li>我要做计划 5.0.2</li>
-            <li>醒图 11.3.0</li>
-            <li>知拾笔记 4.6.7</li>
-            <li>Fake Location 1.3.5 BETA 1597</li>
-            <li>小星记账 3.4.6</li>
-            <li>Nekogram 11.5.3</li>
-            <li>新大师兄影视 3.3.8</li>
-            <li>FilterBox（通知滤盒-Play） 3.3.8</li>
-            <li>QQ音乐 13.12.0.8</li>
-            <li>黃品匯 4.7.0</li>
-            <li>Nullgram v11.4.2-e59b839</li>
-            <li>Telegraph T11.4.2 - P11.15.0</li>
-            <li>建工计算器 4.00.33</li>
-            <li>懒人驾考 2.12.10</li>
-            <li>乐秀 10.2.5.1</li>
-            <li>排班助手 3.9.4</li>
-            <li>微信 8.0.54</li>
-            <li>毒舌加速器 1.0.7</li>
-            <li>123云盘 2.4.9</li>
-            <li>词根单词 2.2.10</li>
-            </ul>
-            <p>其他：</p>
-            <ul>
-            <li>去除 AfuseKt</li>
+            <li>123云盘 2.4.10</li>
+            <li>AB神社 2.4.7</li>
+            <li>Adobe Scan 24.12.17-google-dynamic</li>
+            <li>inBox笔记 1.7.91</li>
+            <li>B612咔叽 13.6.5</li>
+            <li>Battery Guru 2.3.13</li>
+            <li>CamScanner 6.79.0.2412230000</li>
+            <li>Clone App 3.2.0</li>
+            <li>Flyy 2.4.3.0</li>
+            <li>Lightroom 10.1.0</li>
+            <li>MOJi辞書 8.11.2</li>
+            <li>Niagara Launcher 1.13.1</li>
+            <li>NyaFun 3.5.2</li>
+            <li>Rain Viewer 6.2</li>
+            <li>Slidebox 3.13</li>
+            <li>ShortX 1.0.0-rc2-310-f4bf296-main-prc</li>
+            <li>TB Checker 2.7.7.r363.1fc6788</li>
+            <li>Thanox 5.2.6-1-b7a3741-prc</li>
+            <li>Telegraph T11.5.3 - P11.16.0</li>
+            <li>Nullgram v11.5.3-preview-daa40e4</li>
+            <li>WPS Office 18.14.2</li>
+            <li>XPlayer - Video Player 2.4.4</li>
+            <li>XRecorder 2.3.9.2</li>
+            <li>浩克下载 1.8.6</li>
+            <li>种子磁力下载器 1.5.5</li>
+            <li>今日水印相机 v3.0.200.6</li>
+            <li>可可影视 3.3.1</li>
+            <li>网飞猫 3.3.1</li>
+            <li>美图秀秀 10.27.0</li>
+            <li>幕布 2.51.0</li>
+            <li>微分身多开 13.2.0.0</li>
+            <li>星空免费小说 2.20</li>
+            <li>知拾笔记 4.7.5</li>
+            <li>追剧达人 3.2.1</li>
+            <li>黃品匯 4.8.1</li>
+            <li>QQ音乐 14.0.0.8</li>
+            <li>懒人驾考 2.13.0</li>
+            <li>录风者 v1.5.55.241130</li>
+            <li>猫头鹰文件 13.2.7</li>
+            <li>欧路词典 10.0.0</li>
+            <li>轻羽写作 1.85.7</li>
+            <li>七猫免费小说 7.63</li>
+            <li>时间日志 1.7.4</li>
+            <li>资源大师 1.6.3</li>
+            <li>多邻国 6.11.4</li>
+            <li>微信 8.0.55</li>
+            <li>迅龙视频 更新为 小草视频</li>
+            <li>蓝狐视频 3.6.1</li>
+            <li>油条视频 3.6.0</li>
+            <li>日历记加班 4.5.4</li>
+            <li>特种作业宝典 3.9.8</li>
+            <li>我要做计划 5.1.0</li>
+            <li>醒图 11.4.0</li>
             </ul>
             <hr>
             <p>天天开心！</p>
@@ -16458,20 +16459,12 @@ me.bingyue.IceCore:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<img src=\"https://pic.imgdb.cn/item/671c8857d29ded1a8ce444d9.png\"  width=\"250\" height=\"250\" />\n<h1>冰社 / IceCore</h1>\n<p><a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /></a>\n<a href=\"https://qm.qq.com/q/hnbnj43qwM\"><img src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /></a></p>\n<p>✨一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能 ✨</p>\n</div>\n<p><strong>\U0001F308冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下\U0001F308</strong></p>\n<h2>✨如何使用</h2>\n<p>点击<a href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\">这里</a>，下载<strong>最新版本</strong></p>\n<blockquote>\n<p>注：部分软件可能需要登录才能获取会员</p>\n</blockquote>\n<hr />\n<h2>✨免责声明</h2>\n<blockquote>\n<p>本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除</p>\n</blockquote>\n<p>本模块仅适配<code>Lsposed</code>，不适配<code>opatch</code>或者<code>lspatch</code>，如果使用<code>opatch</code>或者<code>lspatch</code>出现问题请不要在群里提问</p>\n<hr />\n<h2>✨常见问题</h2>\n<ul>\n<li><strong>Q：为什么我勾了软件没会员</strong></li>\n<li><strong>A：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员</strong></li>\n<li><strong>Q：为什么点开模块设置会闪退</strong></li>\n<li><strong>A：请先前往LSPosed激活模块</strong></li>\n</ul>\n<hr />\n<h2>✨联系方式</h2>\n<p>我们目前有<a href=\"https://qm.qq.com/q/hnbnj43qwM\">QQ群</a>，<a href=\"https://t.me/bingyue_personal\">TG频道</a>，可以自由选择加入</p>\n<hr />\n<h2>✨目前支持的功能</h2>\n<table>\n<thead>\n<tr>\n<th>功能</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>获取<code>VIP</code></td>\n<td>\U0001F7E2</td>\n</tr>\n<tr>\n<td>去除广告</td>\n<td>\U0001F7E2</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F387适配的APP</h2>\n<table>\n<thead>\n<tr>\n<th>APP名字</th>\n<th>状态</th>\n<th>功能</th>\n<th>测试的版本</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>一叶日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>1.17</td>\n</tr>\n<tr>\n<td>彩云天气</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>7.24.0</td>\n</tr>\n<tr>\n<td>365日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>7.6.7</td>\n</tr>\n<tr>\n<td>es文件管理</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>4.4.2.17</td>\n</tr>\n<tr>\n<td>钱迹</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>4.1.1</td>\n</tr>\n<tr>\n<td>倒数日</td>\n<td>\U0001F7E2</td>\n<td>破解了内购，点击购买后退出即可获得<code>vip</code></td>\n<td>1.22.0\\</td>\n</tr>\n<tr>\n<td>小黑屋</td>\n<td>\U0001F7E2</td>\n<td>破解了使用激活码激活，随便输入一个支付宝订单号即可</td>\n<td>1.9.18c</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>1.3.5 BETA</td>\n</tr>\n<tr>\n<td>堆糖</td>\n<td>\U0001F7E2</td>\n<td>可以自由使用vip功能</td>\n<td>8.42.3</td>\n</tr>\n<tr>\n<td>vmos pro</td>\n<td>\U0001F7E2</td>\n<td>去登录</td>\n<td>3.0.7</td>\n</tr>\n<tr>\n<td>番茄小说</td>\n<td>\U0001F7E2</td>\n<td>去除广告</td>\n<td>6.4.5.32</td>\n</tr>\n<tr>\n<td>小熊录屏</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.4.4</td>\n</tr>\n<tr>\n<td>不背单词</td>\n<td>\U0001F7E2</td>\n<td>终生大会员</td>\n<td>8.0</td>\n</tr>\n<tr>\n<td>Autocmd</td>\n<td>\U0001F7E2</td>\n<td>解锁专业版</td>\n<td>1.1.9</td>\n</tr>\n<tr>\n<td>一木记账</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>功能解锁</td>\n<td>5.8.9</td>\n</tr>\n<tr>\n<td>nfc tool</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.6.5</td>\n</tr>\n<tr>\n<td>滴答清单</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>破解</td>\n<td>7.3.1.0</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F34B适配的版本</h2>\n<p>这里我提供了适配的app的版本安装包</p>\n<pre lang=\"bash\"><code>https://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n</code></pre>\n<hr />\n<h2>\U0001F58B本项目源代码</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore\">https://github.com/bingqiu456/IceCore</a></p>\n<p><a href=\"https://github.com/bingqiu456\">Aonther: bingyue</a></p>\n<hr />\n<h2>⭐Star</h2>\n<p><a href=\"https://starchart.cc/bingqiu456/IceCore\"><img src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /></a></p>\n<hr />\n<h2>\U0001F4DCLICENSE</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\">GNU General Public License v3.0</a></p>\n"
+          description: "<div align=\"center\">\n<img src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" />\n<h1>冰社 / IceCore</h1>\n<p><a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /></a>\n<a href=\"https://qm.qq.com/q/hnbnj43qwM\"><img src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /></a></p>\n<p>✨<strong>一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能</strong> ✨</p>\n</div>\n<p><strong>\U0001F308冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下\U0001F308</strong></p>\n<p>\U0001F389<strong>编写模块不易 有能力的大佬不如<a href=\"https://afdian.com/a/bingyueblog\">捐赠</a>一下</strong>\U0001F389</p>\n<h2>✨如何使用</h2>\n<p>点击<a href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\">这里</a>，下载<strong>最新版本</strong></p>\n<blockquote>\n<p>注：部分软件可能需要登录才能获取会员</p>\n</blockquote>\n<hr />\n<h2>✨免责声明</h2>\n<blockquote>\n<p>本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除</p>\n</blockquote>\n<p>本模块仅适配<code>Lsposed</code>，不适配<code>opatch</code>或者<code>lspatch</code>，如果使用<code>opatch</code>或者<code>lspatch</code>出现问题请不要在群里提问</p>\n<hr />\n<h2>✨常见问题</h2>\n<ul>\n<li><strong>Q：为什么我勾了软件没会员</strong></li>\n<li><strong>A：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员</strong></li>\n<li><strong>Q：为什么点开模块设置会闪退</strong></li>\n<li><strong>A：请先前往LSPosed激活模块</strong></li>\n</ul>\n<hr />\n<h2>✨联系方式</h2>\n<p>我们目前有<a href=\"https://qm.qq.com/q/hnbnj43qwM\">QQ群</a>，<a href=\"https://t.me/bingyue_personal\">TG频道</a>，可以自由选择加入</p>\n<hr />\n<h2>✨目前支持的功能</h2>\n<table>\n<thead>\n<tr>\n<th>功能</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>获取<code>VIP</code></td>\n<td>\U0001F7E2</td>\n</tr>\n<tr>\n<td>去除广告</td>\n<td>\U0001F7E2</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F387适配的APP</h2>\n<table>\n<thead>\n<tr>\n<th>APP名字</th>\n<th>状态</th>\n<th>功能</th>\n<th>测试的版本</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>一叶日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>1.17</td>\n</tr>\n<tr>\n<td>彩云天气</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>7.24.0</td>\n</tr>\n<tr>\n<td>365日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>7.6.7</td>\n</tr>\n<tr>\n<td>es文件管理</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>4.4.2.17</td>\n</tr>\n<tr>\n<td>钱迹</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>4.1.1</td>\n</tr>\n<tr>\n<td>倒数日</td>\n<td>\U0001F7E2</td>\n<td>破解了内购，点击购买后退出即可获得<code>vip</code></td>\n<td>1.22.0\\</td>\n</tr>\n<tr>\n<td>小黑屋</td>\n<td>\U0001F7E2</td>\n<td>破解了使用激活码激活，随便输入一个支付宝订单号即可</td>\n<td>1.9.18c</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>1.3.5 BETA</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁vip，去除更新，去除云控</td>\n<td>1.3.2.2</td>\n</tr>\n<tr>\n<td>堆糖</td>\n<td>\U0001F7E2</td>\n<td>可以自由使用vip功能</td>\n<td>8.42.3</td>\n</tr>\n<tr>\n<td>vmos pro</td>\n<td>\U0001F7E2</td>\n<td>去登录</td>\n<td>3.0.7</td>\n</tr>\n<tr>\n<td>番茄小说</td>\n<td>\U0001F7E2</td>\n<td>去除广告</td>\n<td>6.4.5.32</td>\n</tr>\n<tr>\n<td>小熊录屏</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.4.4</td>\n</tr>\n<tr>\n<td>不背单词</td>\n<td>\U0001F7E2</td>\n<td>终生大会员</td>\n<td>5.0-5.5.6</td>\n</tr>\n<tr>\n<td>潮汐</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code>功能，大部分功能有服务器校验</td>\n<td>4.2.4</td>\n</tr>\n<tr>\n<td>无痛单词</td>\n<td>\U0001F7E2</td>\n<td>解锁终生vip</td>\n<td>1.18.0</td>\n</tr>\n<tr>\n<td>Autocmd</td>\n<td>\U0001F7E2</td>\n<td>解锁专业版</td>\n<td>1.1.9</td>\n</tr>\n<tr>\n<td>一木记账</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>功能解锁</td>\n<td>5.8.9</td>\n</tr>\n<tr>\n<td>nfc tool</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.6.5</td>\n</tr>\n<tr>\n<td>滴答清单</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>破解</td>\n<td>7.3.1.0</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F34B适配的版本</h2>\n<p>这里我提供了适配的app的版本安装包</p>\n<pre lang=\"bash\"><code>https://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n</code></pre>\n<hr />\n<h2>\U0001F58B本项目源代码</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore\">https://github.com/bingqiu456/IceCore</a></p>\n<p><a href=\"https://github.com/bingqiu456\">Aonther: bingyue</a></p>\n<hr />\n<h2>⭐Star</h2>\n<p><a href=\"https://starchart.cc/bingqiu456/IceCore\"><img src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /></a></p>\n<hr />\n<h2>\U0001F4DCLICENSE</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\">GNU General Public License v3.0</a></p>\n"
           filename: app-release.apk
           id: me.bingyue.IceCore
           name: 冰社 IceCore
-          last_updated: "2024-12-28T14:14:34Z"
-          releasedescription: |-
-            <ul>
-            <li>✨️修复fake location vip</li>
-            <li>✨️修复fake location 软件黑名单</li>
-            <li>✨️新增去除fake location服务器验证</li>
-            <li>✨️新增不背单词</li>
-            <li>✨️新增Autocmd+</li>
-            <li>✨️修复钱迹提示升级vip</li>
-            </ul>
+          last_updated: "2024-12-31T16:02:13Z"
+          releasedescription: "<p><strong>\U0001F9E8冰社2.0.2 2025新年快乐\U0001F9E8</strong></p>\n<ul>\n<li>\U0001F3901.适配无痛单词</li>\n<li>\U0001F3902.适配潮汐（部分功能不可用 因为服务器验证）</li>\n<li>\U0001F3903.修复autocmd无法运行</li>\n<li>\U0001F3904.新增fakelocation最后一个完整版</li>\n<li>\U0001F3905.换新logo</li>\n</ul>\n<p>\U0001F38A祝大家新的一年 平平安安\U0001F38A</p>"
     author_name: bingqiu456
 me.documenthook:
     git: https://github.com/Xposed-Modules-Repo/me.documenthook
