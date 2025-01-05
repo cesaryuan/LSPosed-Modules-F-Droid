@@ -74,11 +74,11 @@ func main() {
 			log.Fatalf("Error: More than one release for item %s", item.Name)
 		}
 		if len(item.Releases) == 0 {
-			log.Fatalf("Error: No release for item %s", item.Name)
+			log.Printf("Warning: No release for item %s", item.Name)
 			continue
 		}
 		if len(item.Releases[0].ReleaseAssets) == 0 {
-			log.Fatalf("Error: No release assets for item %s", item.Name)
+			log.Printf("Error: No release assets for item %s", item.Name)
 			continue
 		}
 		repo := apps.Repo{
