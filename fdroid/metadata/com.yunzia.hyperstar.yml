@@ -1,0 +1,57 @@
+AuthorName: YunZiA
+Categories:
+    - Xposed
+CurrentVersion: 2.0.0_202501041947
+CurrentVersionCode: 1041947
+Description: |
+    <div align="center">
+    <picture  >
+    <img src="https://github.com/YunZiA/HyperStar/blob/master/img/app_icon.png?raw=true" width="150" height="150" alt="icon"/>
+    </picture>
+    <h1>HypersStar</h1>
+    <p><a href="https://github.com/YunZiA/HyperStar/blob/master/LICENSE"><img src="https://img.shields.io/github/license/YunZiA/HyperStar" alt="GitHub License" /></a></p>
+    <p><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=5ONF7LuaoQS6RWEOUYBuA0x4X8ssvHJp&amp;authKey=Pic4VQJxKBJwSjFzsIzbJ50ILs0vAEPjdC8Nat4zmiuJRlftqz9%2FKjrBwZPQTc4I&amp;noverify=0&amp;group_code=810317966"><img src="https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge&amp;logo=tencentqq" alt="badge_qgroup" /></a>
+    <a href="https://t.me/Hyperstar_chat"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler" alt="badge_telegram" /></a></p>
+    </div>
+    <blockquote>
+    <p>信hyper，得永生！</p>
+    <p><a href="https://github.com/YunZiA/HyperStar">本项目源码</a></p>
+    </blockquote>
+    <h2>当前支持的版本</h2>
+    <table>
+    <thead>
+    <tr>
+    <th align="left">系统版本</th>
+    <th align="left">安卓版本</th>
+    <th align="left">支持状态</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="left">HyperOS1.0</td>
+    <td align="left">14</td>
+    <td align="left">支持</td>
+    </tr>
+    <tr>
+    <td align="left">HyperOS1.0 Beta</td>
+    <td align="left">15</td>
+    <td align="left">支持</td>
+    </tr>
+    <tr>
+    <td align="left">HyperOS2.0</td>
+    <td align="left">15</td>
+    <td align="left">支持</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2>使用前说明</h2>
+    <p>请在 <a href="https://github.com/LSPosed/LSPosed/releases">LSPosed</a> 中启用 HyperStar， 然后在 HyperStar 应用内启用功能后，重启作用域 (需要授予模块 Root 权限)；</p>
+    <p>对于<code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，本模块<b>不会适配</b> ，但也不保证功能一定失效，如若功能在此环境下出现异常，请<b>关闭功能</b>或者<b>卸载模块</b>;</p>
+    <p>目前 HyperStar 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机设备进行适配，功能并不能保证覆盖完整，请多多向我反馈！</p>
+IssueTracker: ""
+Name: HyperStar
+SourceCode: https://github.com/Xposed-Modules-Repo/com.yunzia.hyperstar
+Summary: |-
+    信hyper，得永生！
+    Trust Hyper, you will live forever!
+WebSite: ""

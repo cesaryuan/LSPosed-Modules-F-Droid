@@ -863,15 +863,13 @@ cc.aoeiuv020.hookfanqie:
             不保证兼容更新版本的目标app，</p>
             <p>已知不支持用于LSPatch注入破解目标app，<br />
             本项目不提供破解版相关支持，只提供LSPosed支持，</p>
-          filename: HookFanqie-5.8.5.18-hook.apk
+          filename: HookFanqie-6.5.5.32-hook.apk
           id: cc.aoeiuv020.hookfanqie
           name: HookFanqie
-          last_updated: "2023-07-13T02:15:14Z"
+          last_updated: "2025-01-01T17:31:21Z"
           releasedescription: |-
-            <h3>去除更新弹窗</h3>
-            <p>去除听书页面热门直播,<br>
-            更换VIP的Hook点方便适配后续版本,<br>
-            去除小说章末广告，</p>
+            <h3>整个去广告重做</h3>
+            <p>净化我的页面，</p>
     author_name: AoEiuV020
 cc.aoeiuv020.hookpicacg:
     git: https://github.com/Xposed-Modules-Repo/cc.aoeiuv020.hookpicacg
@@ -1237,17 +1235,21 @@ cn.buffcow.hyper5g:
             <p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
             <h2>致谢</h2>
             <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
-          filename: Hyper5GSwitch-1.1.3_19.apk
+          filename: Hyper5GSwitch-1.2.1_21.apk
           id: cn.buffcow.hyper5g
           name: 5G开关（Hyper5GSwitch）
-          last_updated: "2023-12-30T02:20:08Z"
+          last_updated: "2025-01-02T06:09:59Z"
           releasedescription: |-
             <ul>
-            <li>修复双击标题事件偶尔失效</li>
+            <li>升级 gradle 插件版本</li>
+            <li>重构代码</li>
+            <li>适配 HyperOS2</li>
             </ul>
             <hr>
             <ul>
-            <li>Fix occasional invalidation of double-click title event</li>
+            <li>Update gradle plugins</li>
+            <li>Refactor the code</li>
+            <li>Support HyperOS2</li>
             </ul>
     author_name: buffcow
 cn.buffcow.hyperaodzen:
@@ -4458,17 +4460,18 @@ com.close.hook.ads:
           categories:
             - Xposed
           description: "<h1>AdClose</h1>\n<p><strong>AdClose</strong> 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。</p>\n<p>AdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。</p>\n<h2>主要特性</h2>\n<p>功能支持(顺序)：</p>\n<ul>\n<li><strong>精准处理</strong>：阻止应用内广告SDK初始化。</li>\n<li><strong>广告请求拦截</strong>：拦截屏蔽应用的网络广告请求。</li>\n<li><strong>截图录屏限制移除</strong>：允许在应用中自由截图和录屏。</li>\n<li><strong>VPN与代理检测移除</strong>：去除应用内的VPN和系统代理检测。</li>\n<li><strong>传感器监听移除</strong>：用于禁用摇一摇等基于传感器的广告跳转。</li>\n<li><strong>Root检测规避</strong>：去除应用内的一般性Root，Magisk和Xposed框架检测。</li>\n</ul>\n<h2>支持的应用范围</h2>\n<p>AdClose支持众多流行的Android应用，包括但不限于：</p>\n<ul>\n<li>视频播放应用</li>\n<li>阅读和新闻应用</li>\n<li>工具和便捷应用</li>\n<li>商务办公应用</li>\n<li>社交和通讯应用</li>\n</ul>\n<h2>广告SDK处理</h2>\n<p>AdClose能够处理应用内包含以下在内的多种SDK类型：</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>使用指南</h2>\n<p>在安装AdClose之前，请确保您的设备已经安装LSPosed框架。</p>\n<ol>\n<li>下载并安装AdClose模块。</li>\n<li>在LSPosed模块管理器中激活AdClose模块。</li>\n<li>在模块作用域中选择您希望去除广告的应用。</li>\n<li>启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。</li>\n</ol>\n<h2>如何贡献</h2>\n<p>如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。</p>\n<h2>支持我们</h2>\n<p>如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。</p>\n<h2>关注我们</h2>\n<p>获取更多更新和帮助，请关注我们的Telegram频道：</p>\n<p>\U0001F31F <strong>频道入口</strong>: @AdClose</p>\n"
-          filename: AdClose_2.2.2.apk
+          filename: AdClose_2.2.4.apk
           id: com.close.hook.ads
           name: AdClose
-          last_updated: "2024-12-11T05:50:06Z"
+          last_updated: "2025-01-01T13:14:32Z"
           releasedescription: |-
             <ul>
-            <li>完善 Hook 操作</li>
-            <li>优化页面显示与加载</li>
-            <li>修复功能三空指针问题</li>
-            <li>功能二支持记录WebView请求<br>
-            (已通过测试Via浏览器，Stay浏览器等，但除了Chrome)</li>
+            <li>代码优化</li>
+            <li>修复闪退问题</li>
+            <li>重构 RequestHook</li>
+            <li>增加更多的调试日志</li>
+            <li>增加简易的Hook提示</li>
+            <li>优化 ContextUtil 回调注册</li>
             </ul>
     author_name: zjyzip
 com.coderstory.flyme:
@@ -5583,14 +5586,14 @@ com.github.droserasprout.lockscreencamera:
     author_name: droserasprout
 com.github.hank9999.chargeprotectsetter:
     git: https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter
-    summary: 一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the HyperOS global battery charge protection level to 90% | 关键词：电池健康保护
+    summary: 一个 HyperOS 自定义全局电池充电保护电量设置的 Xposed 模块 | An Xposed module that customises the HyperOS global battery charge protection level | 关键词：电池健康保护
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: |
             <h1>ChargeProtectSetter</h1>
-            <p>一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块</p>
+            <p>一个自定义全局电池电量保护值的 Xposed 模块</p>
             <blockquote>
             <p>[!WARNING]<br />
             如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />
@@ -5602,8 +5605,16 @@ com.github.hank9999.chargeprotectsetter:
             <h2>使用方法</h2>
             <p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>
             <h2>使用效果</h2>
-            <p>全部 80% 的地方都改为 90%<br />
-            充电电量最高到 90%, <code>电池保护</code> 页面 UI 显示 90%, 通知提示显示 90%</p>
+            <p>如果配置为 75%<br />
+            全部 80% 的地方都改为 75%<br />
+            充电电量最高到 75%, <code>电池保护</code> 页面 UI 显示 75%, 通知提示显示 75%</p>
+            <h2>配置方法</h2>
+            <p>无配置文件默认为 75%<br />
+            如需调整充电限制, 需要修改 <code>/Android/data/com.miui.securitycenter/files/ChargeProtectSetter/charge_level</code> 文件, 不存在需要创建一个<br />
+            直接填写电量数字, 没有百分号，没有换行<br />
+            比如 调整至 75%, 则文件内容为 <code>75</code><br />
+            为了保持电池安全/健康, 限制范围不低于 15%, 不超过 95%<br />
+            <strong>电池健康的循环范围是 20%-80%, 超出范围导致的一切问题 由使用者自行承担责任, 项目组概不负责</strong></p>
             <h2>致谢</h2>
             <ul>
             <li><a href="https://github.com/HChenX/HookTool">HookTool</a></li>
@@ -5612,10 +5623,10 @@ com.github.hank9999.chargeprotectsetter:
             <p>特此感谢 焕晨的 <a href="https://github.com/HChenX/AutoSEffSwitch">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>
             <h2>许可协议</h2>
             <p><a href="LICENSE">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>
-          filename: ChargeProtectSetter-release-1.1.apk
+          filename: ChargeProtectSetter-release-1.2.apk
           id: com.github.hank9999.chargeprotectsetter
           name: ChargeProtectSetter
-          last_updated: "2024-12-23T02:45:02Z"
+          last_updated: "2025-01-02T16:56:08Z"
           releasedescription: |-
             <div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br>
             本项目不对任何任何衍生项目负责。</p>
@@ -5626,11 +5637,11 @@ com.github.hank9999.chargeprotectsetter:
             <p>其他事项请见 README</p>
             <p>更新日志：</p>
             <ul>
-            <li>调用路径判断添加类判断, 防止误修改其他调用</li>
-            <li>使用 <code>DexMethod</code> 代替 <code>Method</code>, 减少了不必要的反射开销</li>
-            <li>访问方法内字段后, 保持字段可见性处于原状态, 避免可能的访问问题</li>
+            <li>修复了错误的日志方法引用, 修复 Xpsosed 日志输出问题</li>
+            <li>完善 mChargeProtectionUtils 方法检查，避免出错</li>
+            <li>安装后默认修改为 75%, 新增自定义电量功能, 设置方法请看 README</li>
             </ul>
-            <p>sha256: 1d8d6b20cb03f5046947cad91a2721240e440b17c1ac89f6e5d426c3e97a42a1</p>
+            <p>sha256: 2e8c3e720c29445d395595b5d2e18a963b6774a630dfcfb7dc23027be60e53bd</p>
     author_name: hank9999
 com.github.jamsilva.ptgov_rootskip:
     git: https://github.com/Xposed-Modules-Repo/com.github.jamsilva.ptgov_rootskip
@@ -8703,26 +8714,29 @@ com.mln.momoxposed:
           filename: app-release.apk
           id: com.mln.momoxposed
           name: 墨墨Xposed
-          last_updated: "2024-09-14T15:03:58Z"
+          last_updated: "2025-01-02T03:50:41Z"
           releasedescription: |-
-            <p>新增：特征检测，理论适配全部版本</p>
-            <p>祝大家，不断进步，学有所成</p>
+            <p>功能：修改单词上限、修改用户等级为21</p>
+            <p>适配版本：全版本</p>
+            <p>没有什么 bug 就不会再更新了，只是一个自用的背单词的小工具而已</p>
             <hr>
             <h3>使用方式：</h3>
             <ol>
             <li>
-            <p>第一次打开 app ，会自动寻找 hook 函数，并保存在本地</p>
+            <p>安装插件，在相应框架内勾选墨墨背单词</p>
+            </li>
+            <li>
+            <p>打开墨墨背单词 app，首次打开会自动寻找 hook 函数，并保存在本地</p>
             </li>
             <li>
             <p>弹出已找到 hook 函数的消息后，退出 app</p>
             </li>
             <li>
-            <p>再次打开即生效</p>
+            <p>再次打开 app 即生效</p>
             </li>
             </ol>
             <hr>
-            <p>测试通过环境：Redmik50pro A13 XposedAPI 100 arm64-v8a<br>
-            反馈 issue: <a href="https://github.com/mmmlllnnn/com.mln.momoxposed/issues">https://github.com/mmmlllnnn/com.mln.momoxposed/issues</a></p>
+            <p>反馈 issue: <a href="https://github.com/mmmlllnnn/com.mln.momoxposed/issues">https://github.com/mmmlllnnn/com.mln.momoxposed/issues</a></p>
     author_name: mmmlllnnn
 com.my.televip:
     git: https://github.com/Xposed-Modules-Repo/com.my.televip
@@ -8736,7 +8750,7 @@ com.my.televip:
             <p>A module for modifying Telegram with the following features:</p>
             <ol>
             <li>
-            <p>Hide “Seen” status for messages.</p>
+            <p>Hide “Seen” status for groups, channels, and private messages.</p>
             </li>
             <li>
             <p>Hide “Typing…” indicator.</p>
@@ -8771,45 +8785,42 @@ com.my.televip:
             <li>
             <p>Show Deleted Messages</p>
             </li>
+            <li>
+            <p>Disable Stories</p>
+            </li>
             </ol>
             <p>There are additional features that are not listed here.</p>
             <h1>Support clients</h1>
             <ol>
-            <li>Telegram 11.5.5 (55312)</li>
+            <li>Telegram 11.6.1 (55852)</li>
             <li>Plus 11.5.3.0 (21340)</li>
             <li>TG Connect 11.0.1 (1100109)</li>
-            <li>Nagram 11.4.2 (1200)</li>
+            <li>Nagram 11.5.3 (1202)</li>
             <li>Skygram 10.20.6 (40639)</li>
             <li>iMe 11.5.3 (11050302)</li>
             <li>X Plus 11.5.4 (55159)</li>
             <li>Cherrygram 11.5.3 (55110)</li>
-            <li>Nicegram 1.39.2 (1519)</li>
-            <li>Telegram web 11.5.5 (55319)</li>
-            <li>Telegram Beta 11.5.5 (55309)</li>
-            <li>exteraGram 10.5.0 (42285)</li>
-            <li>Nekogram 11.5.3 (55111)</li>
+            <li>Nicegram 1.39.3 (1529)</li>
+            <li>Telegram web 11.6.1 (55859)</li>
+            <li>Telegram Beta 11.6.1 (55859)</li>
+            <li>exteraGram 11.5.3 (55119)</li>
+            <li>Nekogram 11.5.3S (55150)</li>
+            <li>ForkGram 11.5.3.0 (551108)</li>
+            <li>ForkClient Beta 11.5.3.0 (551109)</li>
             </ol>
             <p>Developed by an @mustafa1dev</p>
-          filename: TeleVip_1.3.apk
+          filename: TeleVip_1.4.apk
           id: com.my.televip
           name: TeleVip
-          last_updated: "2024-12-28T10:47:40Z"
+          last_updated: "2025-01-04T10:01:31Z"
           releasedescription: |-
-            <p>New TeleVip 1.3 Update Features:</p>
-            <ol>
-            <li>
-            <p>Show deleted messages.</p>
-            </li>
-            <li>
-            <p>Hide the "Online" status in the profile.</p>
-            </li>
-            </ol>
-            <p>Additional features include:</p>
-            <p>Copying the person's name when clicked.</p>
-            <p>Support for Telegram Beta client.</p>
-            <p>Support for Nekogram client.</p>
-            <p>Support for ExteraGram client.</p>
-            <p>The issue of changing the profile color has been resolved.</p>
+            <p>Telegram Client has been updated to the latest version.</p>
+            <p>Telegram Beta Client has been updated to the latest version.</p>
+            <p>Telegram Web Client has been updated to the latest version.</p>
+            <p>Nekogram Client has been updated to the latest version.</p>
+            <p>Fixed issues with deleted messages not appearing.</p>
+            <p>Added the feature to disable Stories.</p>
+            <p>Other issues have been resolved.</p>
     author_name: mustafa1dev
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
@@ -10449,25 +10460,158 @@ com.sevtinge.hyperceiler:
             <h2>为 HyperCeiler 项目提交翻译</h2>
             <p><a href="https://crowdin.com/project/cemiuiler"><img src="https://badges.crowdin.net/cemiuiler/localized.svg" alt="Crowdin" /></a></p>
             <p>您可以在<a href="https://crwd.in/cemiuiler">这里</a>为 HyperCeiler 项目贡献翻译。</p>
-          filename: HyperCeiler_2.5.151_20241109_151_tau-release.apk
+          filename: HyperCeiler_2.5.154_20250101_154_release.apk
           id: com.sevtinge.hyperceiler
           name: HyperCeiler
-          last_updated: "2024-11-08T18:49:20Z"
+          last_updated: "2025-01-01T04:09:08Z"
           releasedescription: |-
+            <p><strong>新年快乐！</strong></p>
             <h3>支持版本：</h3>
             <p>MIUI 13.0(130) / 13.1(130) / 13.2(130) / 14.0(140)<br>
-            HyperOS 1.0(816/818)<br>
-            Android 13(T, 33) / 14(U, 34)</p>
-            <p><strong>部分功能暂不支持 HyperOS 1.1(816) / 2.0(816) / Android 15(V, 35)</strong></p>
+            HyperOS 1.0 / 2.0<br>
+            Android 13(T, 33) / 14(U, 34) / Android 15(V, 35)</p>
+            <p><strong>部分功能暂不支持 HyperOS 1.1</strong></p>
             <h3>更新日志：</h3>
+            <p>模块：<br>
+            新增 系统框架-包管理服务-禁用隔离应用检查；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统框架-包管理服务-允许安装系统应用；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-锁屏-解除通知限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nep-Timeline/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nep-Timeline">@Nep-Timeline</a>, #1030)<br>
+            新增 系统界面-状态栏-焦点歌词；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            新增 系统界面-通知与控制中心-优化焦点通知背景混色；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-通知与控制中心-通知与控制中心头部渐变模糊；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-通知与控制中心-移除通知数量限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-通知与控制中心-亮度值显示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-通知与控制中心-音量值显示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-雪豹模式；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-其他-扩展计时器；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统界面-其他-将 statusbar_gestures.dat 移动到 MIUI 目录；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Adlyq/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Adlyq">@Adlyq</a>, #944, #945)<br>
+            新增 系统界面-其他-解除高级材质模糊限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            新增 系统桌面-布局-指示器；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #952)<br>
+            新增 系统桌面-布局-文件夹-标题位置；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #975)<br>
+            新增 系统桌面-图标与标题-通知角标颜色自定义；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统桌面-图标与标题-图标大小；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Adlyq/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Adlyq">@Adlyq</a>, #995)<br>
+            新增 系统桌面-最近任务-隐藏后台卡片；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #955)<br>
+            新增 系统桌面-其他-优化应用启动延迟；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nakixii/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nakixii">@nakixii</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 安全服务-其他-移除 SIM 卡安全保护验证成功的弹窗; (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeepChirp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeepChirp">@DeepChirp</a>, #889)<br>
+            新增 安全服务-其他-精简手机管家首页：(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #916)<br>
+            新增 安全服务-其他-禁用环境检查；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统设置-显示更多 VPN 类型；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统设置-解锁小米澎湃 AI 入口；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/zjw2017/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zjw2017">@zjw2017</a>, #987)<br>
+            新增 电话服务-解锁通话辅助；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 下载管理-总是显示完整下载链接；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/frank-782/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/frank-782">@frank-782</a>, #872)<br>
+            新增 应用商店-禁用开启推送弹窗；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #1056)<br>
+            新增 短信-禁止识别为新设备；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 录音机-禁用水印；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 笔记-禁用水印；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 小米相册编辑-解锁 AIGC；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 小米互传-禁用分享文件时自动开启定位服务；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            新增 LPA-自定义 IMEI；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 系统安全组件-禁用环境检查；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 音质音效-断开耳机强制打开沉浸声；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #967)<br>
+            新增 其他-添加清空剪贴板按钮；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Adlyq/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Adlyq">@Adlyq</a>, #974)<br>
+            修复 系统框架-包管理服务 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统框架-小窗-强制允许小窗；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统框架-其他-允许管理所有通知；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统框架-其他-旋转建议；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统框架-其他-使用原生安装器；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统框架-其他-允许截屏；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-锁屏-禁止显示 "已通过蓝牙解锁" Toast；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #937)<br>
+            修复 系统界面-锁屏-隐藏勿扰模式通知；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #937)<br>
+            修复 系统界面-锁屏-隐藏屏幕底部解锁提示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-状态栏-图标-移动网络类型图标 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #1014)<br>
+            修复 系统界面-状态栏-图标-双排移动网络图标 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #997)<br>
+            修复 系统界面-状态栏-图标-通知图标最大数量 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #943)<br>
+            修复 系统界面-状态栏-图标-隐藏 VoWiFi 图标 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-状态栏-图标-隐藏电池图标 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-状态栏-图标-电池指示器 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-状态栏-图标-交换 WIFI 与移动网络 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NextAlone/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NextAlone">@NextAlone</a>, #931)<br>
+            修复 系统界面-状态栏-时钟指示器 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-通知与控制中心-禁止折叠为历史通知；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-隐藏网络监控提示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-媒体通知卡片-优化音乐面板背景混色效果 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-媒体通知卡片-解除自定义动作应用限制 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-更多应用通知栏下拉打开小窗 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-5G 网络开关；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #982)<br>
+            修复 系统界面-通知与控制中心-磁贴-GMS 开关；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-阳光模式；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-手电筒亮度控制 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-圆角矩形磁贴 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-卡片磁贴自定义 VoWiFi 磁贴失控；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-已启用磁贴颜色自定义；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-通知与控制中心-磁贴-已启用卡片磁贴颜色自定义；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面-其他-隐藏快捷窗口按钮；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #938)<br>
+            修复 系统界面-其他-显示声音百分比 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-显示亮度百分比 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-禁用快捷窗口按钮 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-禁用无极缩放手势 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-隐藏小窗手势提示线 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-解锁超大音量 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统界面-其他-禁用通知白名单 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hamjin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hamjin">@hamjin</a>)<br>
+            修复 系统界面 IconsFromSystemManager 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统界面 PluginLoader 在 Android 15 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 系统桌面-手势与导航-切换上一个应用 快速切换上一个应用导致无法操作应用的问题；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a>)<br>
+            修复 系统桌面-图标与标题-文本大小；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Adlyq/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Adlyq">@Adlyq</a>, #980, #984)<br>
+            修复 系统桌面-布局-解锁布局 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, #946, #952)<br>
+            修复 系统桌面-布局-文件夹；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #971, #975)<br>
+            修复 系统桌面-文件夹-真九宫格；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #980)<br>
+            修复 安全服务 在 HyperOS 2 的 hook 问题；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 安全服务-应用管理-应用打开链接管理；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chsbuffer/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chsbuffer">@chsbuffer</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 安全服务-应用管理-应用状态控制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chsbuffer/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chsbuffer">@chsbuffer</a>)<br>
+            修复 安全服务-省电与电池-显示电池温度 在 HyperOS 2 异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 安全服务-省电与电池-解锁极速无线充电模式；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 安全服务-其他-禁用体验优化；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, #947)<br>
+            修复 安全服务-其他-解锁智能调节补光灯亮度；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 安全服务-其他-解锁视频通话美颜；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 系统设置-解锁控制中心样式；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 相机-使用相机时使屏幕亮度最大；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 短信-禁用诈骗风险提示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 短信-禁用境外短信风险提示；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 小米互传-禁用自动关闭小米互传；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 互联互通服务-阻止生成乐播投屏相关文件；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Adlyq/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Adlyq">@Adlyq</a>, #951)<br>
+            修复 互联互通服务-解锁 Xiaomi HyperMind；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 截屏-移除最小裁切图片限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 小米相册编辑-移除最小裁切图片限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            修复 超级小爱-禁用对话界面水印；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 应用商店-强制应用安全检测为优秀；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #1075)<br>
+            修复 音质音效-耳机状态自动切换原声；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #941)<br>
+            修复 其他-解除常用语剪贴板条数和数量限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 其他-解除剪贴板数量；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a>)<br>
+            优化 系统框架-小窗-跳转应用使用小窗打开 禁止在截屏分享页面使用小窗；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SpaceVector/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SpaceVector">@SpaceVector</a>, #958)<br>
+            优化 系统界面-通知与控制中心-显示天气；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NextAlone/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NextAlone">@NextAlone</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #933, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/1009/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/1009">@1009</a>)<br>
+            优化 系统界面-通知与控制中心-运营商名称自定义；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 系统桌面-底栏-解锁底栏图标数量限制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #959)<br>
+            优化 系统桌面-底栏-添加 Dock 栏背景 添加动画；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, #1024)<br>
+            优化 应用商店-机型伪装 机型列表；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hamjin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hamjin">@hamjin</a>)</p>
             <p>应用：<br>
-            修复 主动安全模式. (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</p>
+            新增 帮助；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            新增 应用选择器顶部搜索栏；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #961)<br>
+            修复 主动安全模式；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>)<br>
+            修复 下载管理与下载管理服务作用域混淆；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 miuistub Java 版本异常；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hamjin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hamjin">@hamjin</a>, #921)<br>
+            修复 ResTool 使用过多的 Context 空间；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            修复 桌面图标 闪退；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>)<br>
+            修复 开发者选项-调试信息 错误的页面布局；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 底层 hook 逻辑；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hamjin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hamjin">@hamjin</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/qdsp6sw/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/qdsp6sw">@qdsp6sw</a>, #919, #923, #1064)<br>
+            优化 Miuix；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lightsummer233/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lightsummer233">@lightsummer233</a>)<br>
+            优化 搜索结果；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>)<br>
+            优化 不再显示不在已勾选作用域内的应用功能；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 DexKit；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            优化 Logger Live 弹窗载入机制；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 入口加载；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)<br>
+            优化 安全模式载入时间；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 应用选择器已选应用置顶；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #961)<br>
+            优化 头部提示显示逻辑；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 签名校验；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 图标和应用名称实时获取；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 语言支持新增阿拉伯语与波兰语；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)<br>
+            优化 混淆规则；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hamjin/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hamjin">@hamjin</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nep-Timeline/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nep-Timeline">@Nep-Timeline</a>, #922, #968)<br>
+            优化 文本描述；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a>, #871, #879)<br>
+            优化 页面布局；(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeepChirp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeepChirp">@DeepChirp</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lightsummer233/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lightsummer233">@lightsummer233</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/LiuBodong/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/LiuBodong">@LiuBodong</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, #871, #879, #937)</p>
             <h3>注意事项：</h3>
             <ol>
             <li>出现任何问题<strong>请至少将日志等级设置为 Warn 后携带日志及必要信息提交至 GitHub issue</strong>。</li>
-            <li>该版本仅为针对 <strong>Android 15(V, 35)</strong> 的重大安全性补丁修补版本，若您并不处于该版本，可忽略此次更新。</li>
             </ol>
-            <p><strong>Copyright © 2023-2024 Sevtinge &amp; HyperCeiler Contributions</strong></p>
+            <p><strong>Copyright © 2023-2025 Re.chronoRain &amp; Sevtinge &amp; HyperCeiler Contributions</strong></p>
     author_name: lingqiqi5211
 com.shatyuka.killergram:
     git: https://github.com/Xposed-Modules-Repo/com.shatyuka.killergram
@@ -11981,6 +12125,111 @@ com.wye4.hookforvip:
             <li>奥维互动地图_10.1.3</li>
             </ul>
     author_name: wuye4
+com.xchat:
+    git: https://github.com/Xposed-Modules-Repo/com.xchat
+    summary: Enhance Wechat!
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+iQDVYJRqfkY4YzRl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是耗时...</p>\n  <p>目前只有禁止撤回功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li>下载apk，安装</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>强制重启wechat</li>\n<li>长按 ”我的“ -&gt; “设置” 选项 可呼出设置面板，目前较为简陋…\U0001F937\U0001F3FB‍♀️</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 防撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n</ul>\n<h2>常见问题</h2>\n<h4>1. 第一次打开app，提示配置异常</h4>\n<p>检查网络是否能正常打开github。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>请作者喝杯茶</h2>\n<div>\n  <img width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\"/>\n  <img width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\"/>\n</div>\n"
+          filename: app-release.apk
+          id: com.xchat
+          name: XChat
+          last_updated: "2025-01-04T21:29:34Z"
+          releasedescription: <p>1、消息防撤回 适配 8.0.55</p>
+    author_name: "1248774172"
+com.xconst.Vavatar:
+    git: https://github.com/Xposed-Modules-Repo/com.xconst.Vavatar
+    summary: 自动更换QQ头像
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <div align="center">
+            <h1>VAvatar</h1>
+            <h2>自动更换微信头像</h2>
+            <div align="center">
+            <p><a href="https://github.com/Nooniebao/vavatar"><img src="https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars" alt="Stars" /></a>
+            <a href="https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo&amp;labelColor=F48FB1" alt="LSP%20Repo" /></a></p>
+            </div>
+            <p><a href="https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar" alt="Release" /></a></p>
+            </div>
+            <h2>适用版本</h2>
+            <p>8.0.47、8.0.48、8.0.49、<del>8.0.50</del>、8.0.51、8.0.53、8.0.54、8.0.55</p>
+            <p>不支持<code>8.0.50</code> ！</p>
+            <p>8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。</p>
+            <blockquote>
+            <p>强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看<a href="https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E">额外说明</a></p>
+            </blockquote>
+            <h2>头像源url</h2>
+            <ul>
+            <li><code>https://avatar.corosy.com/</code> 【默认使用】</li>
+            <li><code>https://uglyavatar.corosy.com</code></li>
+            </ul>
+            <blockquote>
+            <p><a href="https://avatar.corosy.com/">https://avatar.corosy.com/</a> 可以返回一张<strong>远古的潮流头像</strong></p>
+            <p><a href="https://uglyavatar.corosy.com/">https://uglyavatar.corosy.com/</a> 可以返回一张<strong>丑陋头像</strong>。丑陋头像的生成依赖于<a href="https://github.com/txstc55">txstc55</a>的项目<a href="https://github.com/txstc55/ugly-avatar">ugly-avatar</a></p>
+            </blockquote>
+            <h2>用法</h2>
+            <ul>
+            <li>
+            <p>Vavatar总是尝试从上传<code>默认头像路径</code>的图片到用户头像 （这个<code>默认头像路径</code>会被打印在Vavatar的设置界面）。</p>
+            </li>
+            <li>
+            <p>可以手动拷贝 1:1 的 jpg或png到<code>默认头像路径</code>，但请设置正确权限（如660）。</p>
+            </li>
+            <li>
+            <p>Vavatar提供了<code>自动下载</code>头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。</p>
+            </li>
+            <li>
+            <p>Vavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。</p>
+            </li>
+            </ul>
+            <h2>Vavatar设置入口</h2>
+            <p><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg" alt="setting_capture" /></p>
+            <h1>触发时机</h1>
+            <p><code>com.tencent.mm.ui.LauncherUI#onResume()</code>方法执行时。</p>
+            <p>即：每次<strong>启动打开vx主界面或切屏回到vx主界面</strong>会执行Vavatar的逻辑。</p>
+            <h2>测试列表：</h2>
+            <p>在这些环境下通过测试：</p>
+            <table>
+            <thead>
+            <tr>
+            <th>phone</th>
+            <th>API</th>
+            <th>lsposed_api</th>
+            <th>os</th>
+            <th>VX_version</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>Mi 10 Ultra</td>
+            <td>Android 11</td>
+            <td>1.9.2(7024)</td>
+            <td>MIUI12.5 12.5.10</td>
+            <td>8.0.48</td>
+            </tr>
+            <tr>
+            <td>Xiaomi Note3</td>
+            <td>Android 11</td>
+            <td>1.9.2(7024)</td>
+            <td>crDroid 7.21</td>
+            <td>上述所有版本</td>
+            </tr>
+            </tbody>
+            </table>
+            <h2>源代码</h2>
+            <p><a href="https://github.com/NoonieBao/vavatar">源代码仓库 https://github.com/NoonieBao/vavatar</a></p>
+            <p>接受建议和反馈。</p>
+          filename: app-release.apk.APK
+          id: com.xconst.Vavatar
+          name: VAvatar
+          last_updated: "2025-01-04T15:43:00Z"
+          releasedescription: ""
+    author_name: NoonieBao
 com.xiaoer.watermark:
     git: https://github.com/Xposed-Modules-Repo/com.xiaoer.watermark
     summary: 在任意应用上增加水印，可自定义文字、颜色、大小
@@ -12539,6 +12788,84 @@ com.yubyf.quotelockx:
             </li>
             </ol>
     author_name: Yubyf
+com.yunzia.hyperstar:
+    git: https://github.com/Xposed-Modules-Repo/com.yunzia.hyperstar
+    summary: |-
+        信hyper，得永生！
+        Trust Hyper, you will live forever!
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <div align="center">
+            <picture  >
+            <img src="https://github.com/YunZiA/HyperStar/blob/master/img/app_icon.png?raw=true" width="150" height="150" alt="icon"/>
+            </picture>
+            <h1>HypersStar</h1>
+            <p><a href="https://github.com/YunZiA/HyperStar/blob/master/LICENSE"><img src="https://img.shields.io/github/license/YunZiA/HyperStar" alt="GitHub License" /></a></p>
+            <p><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=5ONF7LuaoQS6RWEOUYBuA0x4X8ssvHJp&amp;authKey=Pic4VQJxKBJwSjFzsIzbJ50ILs0vAEPjdC8Nat4zmiuJRlftqz9%2FKjrBwZPQTc4I&amp;noverify=0&amp;group_code=810317966"><img src="https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge&amp;logo=tencentqq" alt="badge_qgroup" /></a>
+            <a href="https://t.me/Hyperstar_chat"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler" alt="badge_telegram" /></a></p>
+            </div>
+            <blockquote>
+            <p>信hyper，得永生！</p>
+            <p><a href="https://github.com/YunZiA/HyperStar">本项目源码</a></p>
+            </blockquote>
+            <h2>当前支持的版本</h2>
+            <table>
+            <thead>
+            <tr>
+            <th align="left">系统版本</th>
+            <th align="left">安卓版本</th>
+            <th align="left">支持状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td align="left">HyperOS1.0</td>
+            <td align="left">14</td>
+            <td align="left">支持</td>
+            </tr>
+            <tr>
+            <td align="left">HyperOS1.0 Beta</td>
+            <td align="left">15</td>
+            <td align="left">支持</td>
+            </tr>
+            <tr>
+            <td align="left">HyperOS2.0</td>
+            <td align="left">15</td>
+            <td align="left">支持</td>
+            </tr>
+            </tbody>
+            </table>
+            <h2>使用前说明</h2>
+            <p>请在 <a href="https://github.com/LSPosed/LSPosed/releases">LSPosed</a> 中启用 HyperStar， 然后在 HyperStar 应用内启用功能后，重启作用域 (需要授予模块 Root 权限)；</p>
+            <p>对于<code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，本模块<b>不会适配</b> ，但也不保证功能一定失效，如若功能在此环境下出现异常，请<b>关闭功能</b>或者<b>卸载模块</b>;</p>
+            <p>目前 HyperStar 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机设备进行适配，功能并不能保证覆盖完整，请多多向我反馈！</p>
+          filename: HyperStar_v2.0.0_202501041947_Release.apk
+          id: com.yunzia.hyperstar
+          name: HyperStar
+          last_updated: "2025-01-04T23:11:24Z"
+          releasedescription: |-
+            <p>--页面框架改写，为手机，平板，折叠屏的不同状态启用不同样式的布局（折叠屏未知,如适）<br>
+            --关于页面移植os2关于手机样式<br>
+            --优化模块备份相关功能<br>
+            --优化点击回弹动画<br>
+            --新增语言 Русский（Telegram@Osean22），tiếng việt（Telegram@Minggg07）支持<br>
+            --新增调试数据显示<br>
+            --新增首页重启风格切换<br>
+            --默认妙播页面选择页面弹出获取应用列表授权弹窗</p>
+            <p>--原功能全部适配os2（有的话，you告诉me）<br>
+            --支持切换模块hook通道，以防模块内部判断错误<br>
+            --移除下拉动画功能<br>
+            --新增控制中心-编辑文本自定义<br>
+            --新增妙播设置-暂无播放文本自定义<br>
+            --新增妙播设置-扩展详情页-音量进度条显示<br>
+            --新增系统桌面-强制识别为支持模糊设备<br>
+            --优化磁贴圆角功能<br>
+            --优化妙播设置-扩展详情页-设备名显示模式功能<br>
+            --修复电源菜单扩展-飞行模式无效</p>
+    author_name: YunZiA
 com.yuuki.puresatusbar:
     git: https://github.com/Xposed-Modules-Repo/com.yuuki.puresatusbar
     summary: "A module to edit your statusbar.\ndownload and enjoy it!\U0001F618"
@@ -15767,28 +16094,6 @@ io.github.tehcneko.hyperos.aospinstaller:
             <li>fixed compatibility with more OS versions</li>
             </ul>
     author_name: tehcneko
-io.github.tehcneko.mifit:
-    git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.mifit
-    summary: |-
-        Let Zepp Life treat third-party telegram clients as official Telegram.
-        让 Zepp Lift 将第三方 Telegram 客户端视为官方 Telegram。
-    applications:
-        - anti_features: []
-          categories:
-            - Xposed
-          description: |
-            <h1>Zepp Life Hooks</h1>
-            <p>Let Zepp Life treat third-party telegram clients as official Telegram.
-            让 Zepp Lift 将第三方 Telegram 客户端视为官方 Telegram。</p>
-          filename: app-release.apk
-          id: io.github.tehcneko.mifit
-          name: Zepp Life Hook
-          last_updated: "2022-03-22T09:10:00Z"
-          releasedescription: |-
-            <ul>
-            <li>Fixed support for 6.0.0 (50542)</li>
-            </ul>
-    author_name: tehcneko
 io.github.tehcneko.miuinotificationfix:
     git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.miuinotificationfix
     summary: 禁用 MIUI 通知白名单
@@ -15862,28 +16167,6 @@ io.github.tehcneko.telespeed:
           releasedescription: |-
             <ul>
             <li>Initial release</li>
-            </ul>
-    author_name: tehcneko
-io.github.tehcneko.undo:
-    git: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.undo
-    summary: |-
-        Add undo and redo to all EditText context menus.
-        将撤消和重做添加到所有 EditText 上下文菜单。
-    applications:
-        - anti_features: []
-          categories:
-            - Xposed
-          description: |
-            <h1>Undo</h1>
-            <p>Add undo and redo to all EditText context menus.
-            将撤消和重做添加到所有 EditText 上下文菜单。</p>
-          filename: app-release.apk
-          id: io.github.tehcneko.undo
-          name: Undo
-          last_updated: "2022-03-25T11:35:38Z"
-          releasedescription: |-
-            <ul>
-            <li>Fix duplicated item on MIUI</li>
             </ul>
     author_name: tehcneko
 io.github.vvb2060.callrecording:
@@ -16251,30 +16534,16 @@ lin.xposed:
           categories:
             - Xposed
           description: "<div align=\"center\">\n    <h1 > NewQStory </h1>\n<p><a href=\"https://t.me/WhenFlowersAreInBloom\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>Xposed QQ模块</h2>\n<ul>\n<li>\n<p><strong>预估支持的QQ版本 8.9.68 +</strong></p>\n<ul>\n<li>其他版本未经测试 您或许可以自己尝试</li>\n</ul>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.太极-无极</li>\n</ul>\n</li>\n</ul>\n<hr />\n<ul>\n<li>\n<p><strong>更新频率</strong></p>\n<ul>\n<li>随缘更新</li>\n<li><a href=\"https://qstory.linl.top/update/downloadApk\">Releases</a> 更新直链</li>\n<li><a href=\"https://t.me/WhenFlowersAreInBloom\">Telegram</a> 在构建测试结束后会更新</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p><del>由于开发人员的急缺暂时无法测试其他框架是否可用</del><br />\n经过大多数用户的测试目前在所有的框架中已经完成了适配</p>\n<h3>该插件仅供学习与练习</h3>\n<p>请勿使用此插件用于违法 商业行为<br />\n插件只是提高日常方便性的工具 请勿过度依赖该插件<br />\n此项目会因为各种可抗不可抗因素随时停止维护<br />\n如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />\n在此之前你或许可以及时保存我们的工作成品</p>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/lin.xposed\">LSPosed-Repo-Github</a></p>\n"
-          filename: QStory_1.2.1-release.apk
+          filename: QStory_1.3.5-release.APK
           id: lin.xposed
           name: QStory
-          last_updated: "2024-09-19T07:19:26Z"
+          last_updated: "2025-01-01T08:43:07Z"
           releasedescription: |-
-            <h1>本版本更新内容较多</h1>
-            <h2>与<a href="https://github.com/Suzhelan">Suzhelan</a> 开发了QStoryCloud版本 ，可以自动检测QStory的更新并加载 有兴趣可查看 <a href="https://github.com/Suzhelan/QStoryCloud">https://github.com/Suzhelan/QStoryCloud</a></h2>
-            <h3>QStory自动云更新也可以在下方的release中下载QStoryCloud</h3>
-            <hr>
-            <h3>前些版本更新日志太多，可查看<a href="https://t.me/WhenFlowersAreInBloom" rel="nofollow">Telegram频道</a> 查看历史更新日志</h3>
-            <p>修复：图片与表情-图片转大图卡片失效的问题<br>
-            修复：表情面板保存获取不到图片链接保存闪退的问题<br>
-            修复脚本悬浮窗菜单回调-回调方法三参数时会被调用两次的问题<br>
-            增加爱发电赞助渠道<br>
-            可能修复了某些用户打开模块主页闪退的问题<br>
-            脚本增加getRealSkey()方法（获取可能是真实的skey）<br>
-            修复脚本Kick(踢人)方法在新版本QQ失效的问题<br>
-            修复脚本getGroupList(获取所有群列表)在新版本QQ失效的问题<br>
-            修复脚本Forbidden（对成员禁言，全体禁言）在新版本QQ失效的问题<br>
-            删除了自动备份表情，脚本<br>
-            脚本新增接口：<br>
-            String getGroupRKey() //获取群聊rkey<br>
-            String getFriendRKey() ///获取私聊rkey<br>
-            脚本onMsg监听到图片消息 图片链接自动识别使用标准链接或者新图片链接</p>
+            <p>就在刚刚 QStory服务器出现了比较严重的异常 导致全局不可用</p>
+            <p>并出现QQ闪退的情况 此版本临时解决了此问题</p>
+            <p>开发者正在尝试修复此异常（请更新到此版本或使用Tim过渡）</p>
+            <p>受到影响的功能<br>
+            脚本 赞助 更新</p>
     author_name: lovejiuwu
 lozn.hookui:
     git: https://github.com/Xposed-Modules-Repo/lozn.hookui
@@ -16290,14 +16559,11 @@ lozn.hookui:
           categories:
             - Xposed
           description: ""
-          filename: hookui-XSimple-2.0-m_28-202412301554.apk
+          filename: hookui-XSimple-2.0-m_30-202501041643.apk
           id: lozn.hookui
           name: HOOKUI,No Code, dyamic analaysis
-          last_updated: "2024-12-30T12:03:53Z"
-          releasedescription: |-
-            <p>增加实时日志功能。<br>
-            重构诸多配置和权限读取失败问题，以及开关配置经常不起作用问题。方便使用js脚本和挂载SO/FRIDA 。 因现在都是使用的lsposed hookui内部不再使用免重启热更技术<br>
-            自身HOOKUI菜单不再显示，若要显示自己操作自己需要打开自身的开关，谨慎开启自身hook,可能改错配置将无法进入hookui，届时需要清除自身配置数据或者（下次自动禁用）。。</p>
+          last_updated: "2025-01-04T09:42:52Z"
+          releasedescription: "<p>完善js hook，另外vsocde和傻瓜式编程工具curosr都可以在市场搜索插件HOOKUI 关键词 下载，然后新建2个js把下面的内容发给它，你就可以让他继续帮你写 指定的定制hook代码了，让他遵循hook回调是这种模式 ，基本是仿造xposed api来的，降低学习成本。<br>\n然后写完代码直接就邮件同步 直接被hook应用就能重启了，记得在第一行写上//package:com.xx.xx 不然重启功能玩不了，还有默认情况是没有开启js加载的，非赞助用户可以在里面直接手动点那个测试运行就好了。 效果是一样的，只是不能启动就加载。</p>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"//package:com.xx.xx\n//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!\n//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用\n//findAndHookMethod 在2015年1月4日版本有效\nfunction handleLoadPackage(loadPackageParam) {\n\n    log.toast(&quot;COMMON_AAAJS:&quot; + loadPackageParam.packageName);\n    log.v(&quot;COMMON_JS-AAFF-&gt;&quot; + loadPackageParam.packageName);  \n\n    try {\n        // Hook View 的触摸事件\n        XposedHelpers.findAndHookMethod(&quot;android.view.View&quot;, \n       \n            &quot;onTouchEvent&quot;,\n            [&quot;android.view.MotionEvent&quot;],\n            function(param, phase) {\n                if (phase === &quot;before&quot;) {\n                    try {\n                        var Arrays = Packages.java.util.Arrays;\n                        let args = param.getArguments();\n                        \n                        if(args &amp;&amp; args[0]) {\n                            let motionEvent = args[0];\n                            let x = motionEvent.getX();\n                            let y = motionEvent.getY();\n                            let action = motionEvent.getAction();\n                            \n                            log.v(&quot;触摸事件: x=&quot; + x + &quot;, y=&quot; + y + &quot;, action=&quot; + action);\n                        }\n                        \n                        // 检查 args 是否为数组\n                        if (args ) {\n                            log.v(&quot;触摸参数: &quot; + Arrays.toString(args));\n                        } else {\n                            log.v(&quot;触摸参数: 获取定义失败&quot;+args);\n                        }\n                    } catch(e) {\n                        log.e(&quot;View onTouchEvent hook error: &quot; + e);\n                    }\n                } else if (phase === &quot;after&quot;) {\n                    log.v(&quot;调用堆栈: &quot; + log.getStackTraceString());\n                }\n            }\n        );\n    } catch(e) {\n        log.e(&quot;找不到 View.onTouchEvent 方法: &quot; + e);\n    }\n\n    // Hook Activity 创建\n    XposedHelpers.findAndHookMethod(&quot;android.app.Activity&quot;,\n        loadPackageParam.classLoader,\n        &quot;onCreate&quot;,\n        [&quot;android.os.Bundle&quot;],\n        function(param, phase) {\n            if (phase === &quot;before&quot;) {\n                log.v(&quot;检测到新Activity创建&quot;);\n                try {\n                    log.v(&quot;当前时间: &quot; + new Date().toLocaleString());\n                } catch(e) {\n                    log.v(&quot;Activity Hook 触发&quot;);\n                }\n            } else if (phase === &quot;after&quot;) {\n                log.v(&quot;Activity onCreate 完成&quot;);\n            }\n        }\n    );\n\n    // Hook Dialog 显示\n    XposedHelpers.findAndHookMethod(&quot;android.app.Dialog&quot;,\n        loadPackageParam.classLoader,\n        &quot;show&quot;,\n        [],\n        function(param, phase) {\n            if (phase === &quot;before&quot;) {\n                log.v(&quot;检测到Dialog显示&quot;);\n                try {\n                    log.v(&quot;当前时间: &quot; + new Date().toLocaleString());\n                } catch(e) {\n                    log.v(&quot;Dialog Hook 触发&quot;);\n                }\n            } else if (phase === &quot;after&quot;) {\n                log.v(&quot;Dialog show 完成&quot;);\n            }\n        }\n    );\n\n    return true;\n}\"><pre class=\"notranslate\"><code>//package:com.xx.xx\n//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!\n//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用\n//findAndHookMethod 在2015年1月4日版本有效\nfunction handleLoadPackage(loadPackageParam) {\n\n    log.toast(\"COMMON_AAAJS:\" + loadPackageParam.packageName);\n    log.v(\"COMMON_JS-AAFF-&gt;\" + loadPackageParam.packageName);  \n\n    try {\n        // Hook View 的触摸事件\n        XposedHelpers.findAndHookMethod(\"android.view.View\", \n       \n            \"onTouchEvent\",\n            [\"android.view.MotionEvent\"],\n            function(param, phase) {\n                if (phase === \"before\") {\n                    try {\n                        var Arrays = Packages.java.util.Arrays;\n                        let args = param.getArguments();\n                        \n                        if(args &amp;&amp; args[0]) {\n                            let motionEvent = args[0];\n                            let x = motionEvent.getX();\n                            let y = motionEvent.getY();\n                            let action = motionEvent.getAction();\n                            \n                            log.v(\"触摸事件: x=\" + x + \", y=\" + y + \", action=\" + action);\n                        }\n                        \n                        // 检查 args 是否为数组\n                        if (args ) {\n                            log.v(\"触摸参数: \" + Arrays.toString(args));\n                        } else {\n                            log.v(\"触摸参数: 获取定义失败\"+args);\n                        }\n                    } catch(e) {\n                        log.e(\"View onTouchEvent hook error: \" + e);\n                    }\n                } else if (phase === \"after\") {\n                    log.v(\"调用堆栈: \" + log.getStackTraceString());\n                }\n            }\n        );\n    } catch(e) {\n        log.e(\"找不到 View.onTouchEvent 方法: \" + e);\n    }\n\n    // Hook Activity 创建\n    XposedHelpers.findAndHookMethod(\"android.app.Activity\",\n        loadPackageParam.classLoader,\n        \"onCreate\",\n        [\"android.os.Bundle\"],\n        function(param, phase) {\n            if (phase === \"before\") {\n                log.v(\"检测到新Activity创建\");\n                try {\n                    log.v(\"当前时间: \" + new Date().toLocaleString());\n                } catch(e) {\n                    log.v(\"Activity Hook 触发\");\n                }\n            } else if (phase === \"after\") {\n                log.v(\"Activity onCreate 完成\");\n            }\n        }\n    );\n\n    // Hook Dialog 显示\n    XposedHelpers.findAndHookMethod(\"android.app.Dialog\",\n        loadPackageParam.classLoader,\n        \"show\",\n        [],\n        function(param, phase) {\n            if (phase === \"before\") {\n                log.v(\"检测到Dialog显示\");\n                try {\n                    log.v(\"当前时间: \" + new Date().toLocaleString());\n                } catch(e) {\n                    log.v(\"Dialog Hook 触发\");\n                }\n            } else if (phase === \"after\") {\n                log.v(\"Dialog show 完成\");\n            }\n        }\n    );\n\n    return true;\n}\n</code></pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"//package:com.xx.xx\n//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!\n//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用\nfunction handleLoadPackage(loadPackageParam) {\n\n    log.toast(&quot;COMMON_AAAJS:&quot; + loadPackageParam.packageName);\n    log.v(&quot;COMMON_JS-AAFF-&gt;&quot; + loadPackageParam.packageName);  \n\n    // Hook View 的触摸事件\n    XposedBridge.hookMethod(&quot;android.view.View&quot;, &quot;onTouchEvent&quot;, function(param, phase) {\n        if (phase === &quot;before&quot;) {\n            var Arrays = Packages.java.util.Arrays;\n            let args = param.getArguments();\n            \n            // 记录触摸事件的详细信息\n            if(args &amp;&amp; args[0]) {\n                let motionEvent = args[0];\n                let x = motionEvent.getX();\n                let y = motionEvent.getY();\n                let action = motionEvent.getAction();\n                \n                log.v(&quot;触摸事件: x=&quot; + x + &quot;, y=&quot; + y + &quot;, action=&quot; + action);\n            }\n            \n            log.v(&quot;触摸参数: &quot; + Arrays.toString(args));\n            param.setArguments(args);\n        } else if (phase === &quot;after&quot;) {\n            log.v(&quot;调用堆栈: &quot; + log.getStackTraceString());\n        }\n    });\n\n    // Hook Activity 创建\n    XposedBridge.hookMethod(&quot;android.app.Activity&quot;, &quot;onCreate&quot;, function(param, phase) {\n        if (phase === &quot;before&quot;) {\n            // 只打印基本信息\n            log.v(&quot;检测到新Activity创建&quot;);\n            try {\n                log.v(&quot;当前时间: &quot; + new Date().toLocaleString());\n            } catch(e) {\n                log.v(&quot;Activity Hook 触发&quot;);\n            }\n        }\n    });\n\n\n    return true;\n}\"><pre class=\"notranslate\"><code>//package:com.xx.xx\n//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!\n//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用\nfunction handleLoadPackage(loadPackageParam) {\n\n    log.toast(\"COMMON_AAAJS:\" + loadPackageParam.packageName);\n    log.v(\"COMMON_JS-AAFF-&gt;\" + loadPackageParam.packageName);  \n\n    // Hook View 的触摸事件\n    XposedBridge.hookMethod(\"android.view.View\", \"onTouchEvent\", function(param, phase) {\n        if (phase === \"before\") {\n            var Arrays = Packages.java.util.Arrays;\n            let args = param.getArguments();\n            \n            // 记录触摸事件的详细信息\n            if(args &amp;&amp; args[0]) {\n                let motionEvent = args[0];\n                let x = motionEvent.getX();\n                let y = motionEvent.getY();\n                let action = motionEvent.getAction();\n                \n                log.v(\"触摸事件: x=\" + x + \", y=\" + y + \", action=\" + action);\n            }\n            \n            log.v(\"触摸参数: \" + Arrays.toString(args));\n            param.setArguments(args);\n        } else if (phase === \"after\") {\n            log.v(\"调用堆栈: \" + log.getStackTraceString());\n        }\n    });\n\n    // Hook Activity 创建\n    XposedBridge.hookMethod(\"android.app.Activity\", \"onCreate\", function(param, phase) {\n        if (phase === \"before\") {\n            // 只打印基本信息\n            log.v(\"检测到新Activity创建\");\n            try {\n                log.v(\"当前时间: \" + new Date().toLocaleString());\n            } catch(e) {\n                log.v(\"Activity Hook 触发\");\n            }\n        }\n    });\n\n\n    return true;\n}\n</code></pre></div>"
     author_name: lozn00
 lsposed.orange:
     git: https://github.com/Xposed-Modules-Repo/lsposed.orange
@@ -16459,12 +16725,12 @@ me.bingyue.IceCore:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<img src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" />\n<h1>冰社 / IceCore</h1>\n<p><a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /></a>\n<a href=\"https://qm.qq.com/q/hnbnj43qwM\"><img src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /></a></p>\n<p>✨<strong>一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能</strong> ✨</p>\n</div>\n<p><strong>\U0001F308冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下\U0001F308</strong></p>\n<p>\U0001F389<strong>编写模块不易 有能力的大佬不如<a href=\"https://afdian.com/a/bingyueblog\">捐赠</a>一下</strong>\U0001F389</p>\n<h2>✨如何使用</h2>\n<p>点击<a href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\">这里</a>，下载<strong>最新版本</strong></p>\n<blockquote>\n<p>注：部分软件可能需要登录才能获取会员</p>\n</blockquote>\n<hr />\n<h2>✨免责声明</h2>\n<blockquote>\n<p>本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除</p>\n</blockquote>\n<p>本模块仅适配<code>Lsposed</code>，不适配<code>opatch</code>或者<code>lspatch</code>，如果使用<code>opatch</code>或者<code>lspatch</code>出现问题请不要在群里提问</p>\n<hr />\n<h2>✨常见问题</h2>\n<ul>\n<li><strong>Q：为什么我勾了软件没会员</strong></li>\n<li><strong>A：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员</strong></li>\n<li><strong>Q：为什么点开模块设置会闪退</strong></li>\n<li><strong>A：请先前往LSPosed激活模块</strong></li>\n</ul>\n<hr />\n<h2>✨联系方式</h2>\n<p>我们目前有<a href=\"https://qm.qq.com/q/hnbnj43qwM\">QQ群</a>，<a href=\"https://t.me/bingyue_personal\">TG频道</a>，可以自由选择加入</p>\n<hr />\n<h2>✨目前支持的功能</h2>\n<table>\n<thead>\n<tr>\n<th>功能</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>获取<code>VIP</code></td>\n<td>\U0001F7E2</td>\n</tr>\n<tr>\n<td>去除广告</td>\n<td>\U0001F7E2</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F387适配的APP</h2>\n<table>\n<thead>\n<tr>\n<th>APP名字</th>\n<th>状态</th>\n<th>功能</th>\n<th>测试的版本</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>一叶日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>1.17</td>\n</tr>\n<tr>\n<td>彩云天气</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>7.24.0</td>\n</tr>\n<tr>\n<td>365日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>7.6.7</td>\n</tr>\n<tr>\n<td>es文件管理</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>4.4.2.17</td>\n</tr>\n<tr>\n<td>钱迹</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>4.1.1</td>\n</tr>\n<tr>\n<td>倒数日</td>\n<td>\U0001F7E2</td>\n<td>破解了内购，点击购买后退出即可获得<code>vip</code></td>\n<td>1.22.0\\</td>\n</tr>\n<tr>\n<td>小黑屋</td>\n<td>\U0001F7E2</td>\n<td>破解了使用激活码激活，随便输入一个支付宝订单号即可</td>\n<td>1.9.18c</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>1.3.5 BETA</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁vip，去除更新，去除云控</td>\n<td>1.3.2.2</td>\n</tr>\n<tr>\n<td>堆糖</td>\n<td>\U0001F7E2</td>\n<td>可以自由使用vip功能</td>\n<td>8.42.3</td>\n</tr>\n<tr>\n<td>vmos pro</td>\n<td>\U0001F7E2</td>\n<td>去登录</td>\n<td>3.0.7</td>\n</tr>\n<tr>\n<td>番茄小说</td>\n<td>\U0001F7E2</td>\n<td>去除广告</td>\n<td>6.4.5.32</td>\n</tr>\n<tr>\n<td>小熊录屏</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.4.4</td>\n</tr>\n<tr>\n<td>不背单词</td>\n<td>\U0001F7E2</td>\n<td>终生大会员</td>\n<td>5.0-5.5.6</td>\n</tr>\n<tr>\n<td>潮汐</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code>功能，大部分功能有服务器校验</td>\n<td>4.2.4</td>\n</tr>\n<tr>\n<td>无痛单词</td>\n<td>\U0001F7E2</td>\n<td>解锁终生vip</td>\n<td>1.18.0</td>\n</tr>\n<tr>\n<td>Autocmd</td>\n<td>\U0001F7E2</td>\n<td>解锁专业版</td>\n<td>1.1.9</td>\n</tr>\n<tr>\n<td>一木记账</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>功能解锁</td>\n<td>5.8.9</td>\n</tr>\n<tr>\n<td>nfc tool</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.6.5</td>\n</tr>\n<tr>\n<td>滴答清单</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>破解</td>\n<td>7.3.1.0</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F34B适配的版本</h2>\n<p>这里我提供了适配的app的版本安装包</p>\n<pre lang=\"bash\"><code>https://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n</code></pre>\n<hr />\n<h2>\U0001F58B本项目源代码</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore\">https://github.com/bingqiu456/IceCore</a></p>\n<p><a href=\"https://github.com/bingqiu456\">Aonther: bingyue</a></p>\n<hr />\n<h2>⭐Star</h2>\n<p><a href=\"https://starchart.cc/bingqiu456/IceCore\"><img src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /></a></p>\n<hr />\n<h2>\U0001F4DCLICENSE</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\">GNU General Public License v3.0</a></p>\n"
+          description: "<div align=\"center\">\n<img src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" />\n<h1>冰社 / IceCore</h1>\n<p><a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/bingqiu456/IceCore\"><img src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /></a>\n<a href=\"https://qm.qq.com/q/hnbnj43qwM\"><img src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /></a></p>\n<p>✨<strong>一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能</strong> ✨</p>\n</div>\n<p><strong>\U0001F308冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下\U0001F308</strong></p>\n<p>\U0001F389<strong>编写模块不易 有能力的大佬不如<a href=\"https://afdian.com/a/bingyueblog\">捐赠</a>一下</strong>\U0001F389</p>\n<h2>✨如何使用</h2>\n<p>点击<a href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\">这里</a>，下载<strong>最新版本</strong></p>\n<blockquote>\n<p>注：部分软件可能需要登录才能获取会员</p>\n</blockquote>\n<hr />\n<h2>✨免责声明</h2>\n<blockquote>\n<p>本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除</p>\n</blockquote>\n<p>本模块仅适配<code>Lsposed</code>，不适配<code>opatch</code>或者<code>lspatch</code>，如果使用<code>opatch</code>或者<code>lspatch</code>出现问题请不要在群里提问</p>\n<hr />\n<h2>✨常见问题</h2>\n<ul>\n<li><strong>Q：为什么我勾了软件没会员</strong></li>\n<li><strong>A：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员</strong></li>\n<li><strong>Q：为什么点开模块设置会闪退</strong></li>\n<li><strong>A：请先前往LSPosed激活模块</strong></li>\n</ul>\n<hr />\n<h2>✨联系方式</h2>\n<p>我们目前有<a href=\"https://qm.qq.com/q/hnbnj43qwM\">QQ群</a>，<a href=\"https://t.me/bingyue_personal\">TG频道</a>，可以自由选择加入</p>\n<hr />\n<h2>✨目前支持的功能</h2>\n<table>\n<thead>\n<tr>\n<th>功能</th>\n<th>状态</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>获取<code>VIP</code></td>\n<td>\U0001F7E2</td>\n</tr>\n<tr>\n<td>去除广告</td>\n<td>\U0001F7E2</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F387适配的APP</h2>\n<table>\n<thead>\n<tr>\n<th>APP名字</th>\n<th>状态</th>\n<th>功能</th>\n<th>测试的版本</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>一叶日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>1.17</td>\n</tr>\n<tr>\n<td>彩云天气</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>7.24.0</td>\n</tr>\n<tr>\n<td>365日历</td>\n<td>\U0001F7E2</td>\n<td>获取<code>vip</code>解锁完整版</td>\n<td>7.6.7</td>\n</tr>\n<tr>\n<td>es文件管理</td>\n<td>\U0001F7E2</td>\n<td>解锁vip</td>\n<td>4.4.2.17</td>\n</tr>\n<tr>\n<td>钱迹</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>4.1.1</td>\n</tr>\n<tr>\n<td>倒数日</td>\n<td>\U0001F7E2</td>\n<td>破解了内购，点击购买后退出即可获得<code>vip</code></td>\n<td>1.22.0\\</td>\n</tr>\n<tr>\n<td>小黑屋</td>\n<td>\U0001F7E2</td>\n<td>破解了使用激活码激活，随便输入一个支付宝订单号即可</td>\n<td>1.9.18c</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code></td>\n<td>1.3.5 BETA 1598</td>\n</tr>\n<tr>\n<td>奶酪单词</td>\n<td>\U0001F7E2</td>\n<td>终生大会员</td>\n<td>3.7.8</td>\n</tr>\n<tr>\n<td>fake_location</td>\n<td>\U0001F7E2</td>\n<td>解锁vip，去除更新，去除云控</td>\n<td>1.3.2.2</td>\n</tr>\n<tr>\n<td>堆糖</td>\n<td>\U0001F7E2</td>\n<td>可以自由使用vip功能</td>\n<td>8.42.3</td>\n</tr>\n<tr>\n<td>vmos pro</td>\n<td>\U0001F7E2</td>\n<td>去登录</td>\n<td>3.0.7</td>\n</tr>\n<tr>\n<td>番茄小说</td>\n<td>\U0001F7E2</td>\n<td>去除广告</td>\n<td>6.4.5.32</td>\n</tr>\n<tr>\n<td>小熊录屏</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.4.4</td>\n</tr>\n<tr>\n<td>不背单词</td>\n<td>\U0001F7E2</td>\n<td>终生大会员</td>\n<td>5.0-5.5.6</td>\n</tr>\n<tr>\n<td>潮汐</td>\n<td>\U0001F7E2</td>\n<td>解锁<code>vip</code>功能，大部分功能有服务器校验</td>\n<td>4.2.4</td>\n</tr>\n<tr>\n<td>无痛单词</td>\n<td>\U0001F7E2</td>\n<td>解锁终生vip</td>\n<td>1.18.0</td>\n</tr>\n<tr>\n<td>Autocmd</td>\n<td>\U0001F7E2</td>\n<td>解锁专业版</td>\n<td>1.1.9</td>\n</tr>\n<tr>\n<td>一木记账</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>功能解锁</td>\n<td>5.8.9</td>\n</tr>\n<tr>\n<td>nfc tool</td>\n<td>\U0001F7E2</td>\n<td>可以使用vip功能</td>\n<td>2.6.5</td>\n</tr>\n<tr>\n<td>滴答清单</td>\n<td>\U0001F7E2</td>\n<td><code>vip</code>破解</td>\n<td>7.3.1.0</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>\U0001F34B适配的版本</h2>\n<p>这里我提供了适配的app的版本安装包</p>\n<pre lang=\"bash\"><code>https://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n</code></pre>\n<hr />\n<h2>\U0001F58B本项目源代码</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore\">https://github.com/bingqiu456/IceCore</a></p>\n<p><a href=\"https://github.com/bingqiu456\">Aonther: bingyue</a></p>\n<hr />\n<h2>⭐Star</h2>\n<p><a href=\"https://starchart.cc/bingqiu456/IceCore\"><img src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /></a></p>\n<hr />\n<h2>\U0001F4DCLICENSE</h2>\n<p><a href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\">GNU General Public License v3.0</a></p>\n"
           filename: app-release.apk
           id: me.bingyue.IceCore
           name: 冰社 IceCore
-          last_updated: "2024-12-31T16:02:13Z"
-          releasedescription: "<p><strong>\U0001F9E8冰社2.0.2 2025新年快乐\U0001F9E8</strong></p>\n<ul>\n<li>\U0001F3901.适配无痛单词</li>\n<li>\U0001F3902.适配潮汐（部分功能不可用 因为服务器验证）</li>\n<li>\U0001F3903.修复autocmd无法运行</li>\n<li>\U0001F3904.新增fakelocation最后一个完整版</li>\n<li>\U0001F3905.换新logo</li>\n</ul>\n<p>\U0001F38A祝大家新的一年 平平安安\U0001F38A</p>"
+          last_updated: "2025-01-05T05:08:11Z"
+          releasedescription: "<p><strong>\U0001F9E8冰社2.0.3\U0001F9E8</strong></p>\n<p>\U0001F3901.新增去除fakelocation用户协议弹窗<br>\n\U0001F3902.适配1.3.5去除服务器验证<br>\n\U0001F3903.适配奶酪单词</p>\n<p><strong>注：仅适配fakelocation最新 1.3.5 1598版本</strong></p>"
     author_name: bingqiu456
 me.documenthook:
     git: https://github.com/Xposed-Modules-Repo/me.documenthook
@@ -16608,7 +16874,7 @@ me.hd.hookgg:
         - anti_features: []
           categories:
             - Xposed
-          description: "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明:</h2>\n<p>拦截 GameGuardian 函数调用输出</p>\n<hr />\n<h2>功能:</h2>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"1\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.0~1.2.4</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">GG</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">String</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Math</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Other</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n    </tr>\n</table>\n<hr />\n<h2>贡献:</h2>\n<p>无</p>\n<hr />\n<h2>致谢:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n</tbody>\n</table>\n"
+          description: "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明:</h2>\n<p>调试输出 GameGuardian 脚本执行函数</p>\n<hr />\n<h2>功能:</h2>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"1\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.9~1.2.5</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">GG</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">String</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Math</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Other</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n    </tr>\n</table>\n<hr />\n<h2>计划:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>Name</b></td>\n        <td align=\"center\"><b>Desc</b></td>\n        <td align=\"center\"><b>Status</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">Plugin</td>\n        <td align=\"center\">use lua script hook</td>\n        <td align=\"center\">0%</td>\n    </tr>\n</table>\n<hr />\n<h2>致谢:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>IconFont</td>\n<td><a href=\"https://www.iconfont.cn/\">IconFont</a></td>\n</tr>\n</tbody>\n</table>\n"
           filename: 20241119-2.0.5-release.apk
           id: me.hd.hookgg
           name: '[开源]HookGG'
@@ -19169,12 +19435,13 @@ ru.bluecat.alfabankpatcher:
             <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher" alt="GitHub release" /></a>
             <a href="https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher" alt="GitHub Release Date" /></a>
             <a href="https://t.me/lsposed_workshop"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram" alt="Telegram Group" /></a>
-            <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=117766501"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a></p>
+            <a href="https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=117766501"><img src="https://img.shields.io/badge/4PDA-Topic-blue" alt="4PDA" /></a>
+            <a href="https://pay.cloudtips.ru/p/85f8cf00"><img src="https://img.shields.io/badge/Donate_Form-blue" alt="Donate" /></a></p>
             <p>Скрытие рекламы различного формата и управление push уведомлениями в приложении <a href="https://apps.rustore.ru/app/ru.alfabank.mobile.android">Альфа Банк</a></p>
             </div>
             <h3>Общее:</h3>
             <ul>
-            <li>Контроль проверок на валидность устройства для AlfaPay и сканера отпечатка включены всегда.</li>
+            <li>Контроль проверок на валидность устройства / VPN для AlfaPay и сканера отпечатка включены всегда.</li>
             </ul>
             <h3>Контролируемый функционал:</h3>
             <ul>
@@ -19186,7 +19453,7 @@ ru.bluecat.alfabankpatcher:
             <li>Чат. Скрытие предложений в истории push уведомлений</li>
             <li>Чат. Фильтрация видимости доступных чатов</li>
             <li>Push. Загрузка конфигурации фильтрации</li>
-            <li>Push. Фильтрация по ключевым словам (белый/чёрный список)</li>
+            <li>Push. Фильтрация по ключевым словам (белый / чёрный список)</li>
             <li>Push. Логирование отфильтрованных Push сообщений</li>
             </ul>
             <h3>Расположения баннеров:</h3>
@@ -19199,7 +19466,6 @@ ru.bluecat.alfabankpatcher:
             </ul>
             <h3>Аналитика:</h3>
             <ul>
-            <li>AppCenter</li>
             <li>AppsFlyer</li>
             <li>Firebase analytics</li>
             <li>Flurry</li>
@@ -19220,19 +19486,13 @@ ru.bluecat.alfabankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android">Alfa-Bank</a>, you don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Alfa_Bank_Patcher_v2.6.0.apk
+          filename: Alfa_Bank_Patcher_v2.7.1.apk
           id: ru.bluecat.alfabankpatcher
           name: Alfa Bank Patcher
-          last_updated: "2024-10-15T21:08:04Z"
+          last_updated: "2025-01-04T15:25:12Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 12.21.10</li>
-            <li>Скрытие иконки модуля теперь доступно только в root режиме.</li>
-            <li>Убрана верхняя навигация между экранами модуля.</li>
-            <li>Добавлена возможность видеть в интерфейсе модуля отвалившиеся перехваты после обновления. Данный функционал не будет активен если у вас включён "Автосканер" или Альфа Банк давно не запускался.</li>
-            <li>Добавлена возможность выбора типа сброса данных модуля.</li>
-            <li>Редизайн счётчика количества отфильтрованных push сообщений, теперь он располагается в разделе модуля "Push". Функционал зависим от активности процесса Альфа Банка.</li>
-            <li>Модуль теперь ссылается на репозитории JingMatrix.</li>
+            <li>Шлифовка миграции настроек и тех данных</li>
             </ul>
     author_name: BlueCat300
 ru.bluecat.android.xposed.mods.appsettings:
@@ -19457,15 +19717,16 @@ ru.bluecat.sberbankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Sberbank_Patcher_v1.23.1.apk
+          filename: Sberbank_Patcher_v1.23.2.apk
           id: ru.bluecat.sberbankpatcher
           name: Sberbank Patcher
-          last_updated: "2024-12-29T16:04:37Z"
+          last_updated: "2025-01-04T01:34:12Z"
           releasedescription: |-
             <ul>
-            <li>Shizuku теперь автоматически переключается на SU режим при неожиданном обрыве связи со службой.</li>
-            <li>Исправлены вылеты при запуске Shizuku.</li>
+            <li>Добавлена автоматическая миграция настроек и тех данных. Для пользователей без root доступа доступно только очистка локально хранимых настроек самим модулем, остальное всё так же вручную.</li>
+            <li>Попытка исправить редкую проблему коммуникации с сервисами Google Play.</li>
             </ul>
+            <p>Теперь сообщения о необходимости сброса относятся только для пользователей без рут доступа. Так же прошу отписаться в группе пользователей с редкой проблемой помогла ли вам правка.</p>
     author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher
@@ -19724,12 +19985,12 @@ ru.mike.mapstweaks:
             <h2>Support/Discussion URL / Страница программы:</h2>
             <p><a href="https://forum.xda-developers.com/t/mod-xposed-4-0-3-mapstweaks-google-maps-yandex-maps.4010765/">xda</a> or <a href="https://4pda.to/forum/index.php?forums%5B%5D=489&amp;topics%5B%5D=603033&amp;act=search&amp;source=pst&amp;query=mapstweaks">4pda</a></p>
             <h2>Author</h2>
-            <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2019-2024</p>
-          filename: mapstweaks_v1.31.apk
+            <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2019-2025</p>
+          filename: mapstweaks_v1.32.apk
           id: ru.mike.mapstweaks
           name: Maps tweaks
-          last_updated: "2024-04-26T16:01:29Z"
-          releasedescription: <p>[YM] v17+ support</p>
+          last_updated: "2025-01-04T13:41:08Z"
+          releasedescription: <p>[GM] v11+ support</p>
     author_name: MichaelZhuravsky
 ru.mike.mcroot:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.mcroot
@@ -21201,46 +21462,36 @@ top.hookvip.pro:
             <li>不允许使用内置 只可使用本地模式</li>
             <li>不接受任何此框架用户的反馈</li>
             </ul>
-          filename: HookVip-4.0.4-release.apk
+          filename: HookVip-4.0.5-release.apk
           id: top.hookvip.pro
           name: NewHookVip
-          last_updated: "2024-12-15T05:19:28Z"
+          last_updated: "2025-01-02T12:51:09Z"
           releasedescription: |-
             <h3>新增</h3>
             <ul>
-            <li><strong>图叨叨</strong> 解锁永久会员 全版本通杀</li>
-            <li><strong>Lightroom</strong> 解锁订阅 全版本通杀</li>
-            <li><strong>书旗小说</strong> 解锁本地会员/去除广告 全版本通杀</li>
-            <li><strong>PUBG Tool Pro</strong> 移除付费 全版本通杀</li>
-            <li><strong>VPN Client Pro</strong> 解锁许可证 全版本通杀</li>
-            <li><strong>AppShare</strong> 解锁本地会员 全版本通杀</li>
-            <li><strong>摩途</strong> 解锁会员 全版本通杀</li>
-            <li><strong>喵喵记账</strong> 解锁永久会员 全版本通杀</li>
-            <li><strong>资源大师plus</strong> 解锁永久会员 全版本通杀</li>
-            <li><strong>布丁扫描</strong> 解锁终身会员 全版本通杀</li>
-            <li><strong>SD Maid SE</strong> 解锁Pro Github/Play版 全版本通杀</li>
-            <li><strong>经纬度定位</strong> 解锁会员 全版本通杀</li>
-            <li><strong>元气壁纸</strong> 解锁永久会员 全版本通杀</li>
-            <li><strong>红果免费短剧</strong> 解锁会员 去广告 全版本通杀</li>
-            <li><strong>饭团追书</strong> 解锁会员/去广告 全版本通杀</li>
-            <li><strong>思维导图MindMaster</strong> 解锁本地永久会员(部分服务器功能不可用) 全版本通杀</li>
-            <li><strong>倒数日</strong> 解锁高级版 全版本通杀</li>
-            <li><strong>多邻国</strong> 解锁订阅 全版本通杀</li>
-            <li><strong>双开助手微分身版</strong> 解锁SVIP会员 全版本通杀</li>
-            <li><strong>傲软抠图</strong> 解锁会员 全版本通杀</li>
+            <li><strong>See微博</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>通知滤盒</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>App Ops</strong> 解锁永久订阅 全版本通杀</li>
+            <li><strong>无界趣连</strong> 解锁会员 全版本通杀</li>
+            <li><strong>设备信息</strong> 解锁Pro 全版本通杀</li>
             </ul>
             <h3>拓展</h3>
             <ul>
-            <li><strong>CC加速器</strong> 自动领取加速时长/去广告/去除实名认证 全版本通杀</li>
-            <li><strong>网络协议降级</strong> 可以实现将网络协议从QUIC降级到HTTP(可能只支持部分应用)</li>
-            <li><strong>JustTrustMe++</strong> 用来禁用/绕过SSL证书检查</li>
-            <li><strong>过游戏实名认证</strong> 可过腾讯部分游戏新号实名认证(王者荣耀/穿越火线/元梦之星等)</li>
+            <li><strong>自定义禁用传感器</strong> 可以禁用各种各样的传感器</li>
+            <li><strong>解除截图录屏限制</strong> 禁用<code>FLAG_SECURE</code>/阻止<code>SurfaceView.setSecure</code></li>
+            </ul>
+            <h3>修复</h3>
+            <ul>
+            <li><strong>Dialogx</strong> 未适配暗夜模式</li>
+            <li><strong>图叨叨</strong> 使用部分功能提示盗版弹窗</li>
+            <li><strong>Android15设备</strong> 无法自适配加固应用(<a href="https://github.com/LuckyPray/DexKit/releases/tag/2.0.3">升级Dexkit到2.0.3</a>)</li>
+            <li><strong>主页UI</strong> 拓展功能 排序和过滤 菜单上 部分TextView在深色模式的显示异常</li>
+            <li><strong>主页UI</strong> 拓展功能 部分情况下无法正常写入开关配置</li>
             </ul>
             <h3>优化</h3>
             <ul>
-            <li><strong>主页UI</strong> 支持点击功能item右侧按钮 动态申请作用域</li>
-            <li><strong>主页UI</strong> 支持长按功能item(已安装的应用常规操作/未安装的应用一键查找下载地址)</li>
-            <li><strong>主页UI</strong> 微调item图标/字体大小</li>
+            <li><strong>快手/快手极速版</strong> 解析视频/图集 支持复制原始链接</li>
+            <li><strong>主页UI</strong> 拓展功能 弃用旧的BottomSheetDialog 重构并使用新的BottomDialog</li>
             </ul>
     author_name: lovejiuwu
 top.sacz.timtool:
@@ -21263,13 +21514,26 @@ top.sacz.timtool:
             <hr />
             <h2><a href="https://github.com/suzhelan/TimTool">连接到主仓库</a></h2>
             <hr />
+            <h3>各渠道更新频率</h3>
+            <ul>
+            <li><strong>更新频率</strong>
+            <ul>
+            <li>随缘更新</li>
+            <li><a href="https://t.me/timtool">Telegram</a> 在构建测试结束后会更新</li>
+            <li><a href="https://github.com/suzhelan/TimTool/releases">Releases</a> 每5个版本更新一次</li>
+            <li><a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool">LSPosedRepo</a> 每10个版本更新一次</li>
+            <li><a href="https://github.com/suzhelan/TimTool/blob/master/.github/devhelp/update-api.md">更新API</a></li>
+            </ul>
+            </li>
+            </ul>
             <h2>适配的版本范围 TimNT 4.x.x(目前维护到4.0.97 最新版)</h2>
+            <p><img src="https://github.com/suzhelan/TimTool/blob/master/.github/img/v2.0.jpg" alt="Module-Img" /></p>
             <h3>该插件仅供学习与练习</h3>
-            <p>请勿使用此插件用于违法 商业行为<br />
+            <h2>请勿使用此插件用于违法 商业行为<br />
             插件只是提高日常方便性的工具 请勿过度依赖该插件<br />
             此项目会因为各种可抗不可抗因素随时停止维护<br />
             如果发生了更糟糕的情况我们会及时 <strong>删除代码库</strong> 以及 <strong>发行渠道的所有版本</strong><br />
-            在此之前你或许可以及时保存我们的工作成品</p>
+            在此之前你或许可以及时保存我们的工作成品</h2>
             <p><a href="https://github.com/Xposed-Modules-Repo/top.sacz.timtool">LSPosed-Repo-Github</a></p>
           filename: TimTool_release_2.0.apk
           id: top.sacz.timtool
