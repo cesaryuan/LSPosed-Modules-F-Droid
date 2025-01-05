@@ -5,15 +5,19 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch file",
+      "name": "convert_xposed",
       "type": "go",
       "request": "launch",
       "mode": "debug",
-      "program": "${file}",
+      "program": "${workspaceFolder}/convert_xposed/main_convert.go",
       "cwd": "${workspaceFolder}",
       "env": {
         "OPENAI_API_KEY": ""
-      }
+      },
+      "args": [
+        "-o",
+        "test.yaml",
+      ]
     },
     {
       "name": "Launch Package",
