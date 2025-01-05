@@ -1,11 +1,11 @@
 AuthorName: hank9999
 Categories:
     - Xposed
-CurrentVersion: "1.1"
-CurrentVersionCode: 24122302
+CurrentVersion: "1.2"
+CurrentVersionCode: 25010301
 Description: |
     <h1>ChargeProtectSetter</h1>
-    <p>一个将全局电池电量保护值从 80% 调整至 90% 的 Xposed 模块</p>
+    <p>一个自定义全局电池电量保护值的 Xposed 模块</p>
     <blockquote>
     <p>[!WARNING]<br />
     如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />
@@ -17,8 +17,16 @@ Description: |
     <h2>使用方法</h2>
     <p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>
     <h2>使用效果</h2>
-    <p>全部 80% 的地方都改为 90%<br />
-    充电电量最高到 90%, <code>电池保护</code> 页面 UI 显示 90%, 通知提示显示 90%</p>
+    <p>如果配置为 75%<br />
+    全部 80% 的地方都改为 75%<br />
+    充电电量最高到 75%, <code>电池保护</code> 页面 UI 显示 75%, 通知提示显示 75%</p>
+    <h2>配置方法</h2>
+    <p>无配置文件默认为 75%<br />
+    如需调整充电限制, 需要修改 <code>/Android/data/com.miui.securitycenter/files/ChargeProtectSetter/charge_level</code> 文件, 不存在需要创建一个<br />
+    直接填写电量数字, 没有百分号，没有换行<br />
+    比如 调整至 75%, 则文件内容为 <code>75</code><br />
+    为了保持电池安全/健康, 限制范围不低于 15%, 不超过 95%<br />
+    <strong>电池健康的循环范围是 20%-80%, 超出范围导致的一切问题 由使用者自行承担责任, 项目组概不负责</strong></p>
     <h2>致谢</h2>
     <ul>
     <li><a href="https://github.com/HChenX/HookTool">HookTool</a></li>
@@ -30,5 +38,5 @@ Description: |
 IssueTracker: ""
 Name: ChargeProtectSetter
 SourceCode: https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter
-Summary: 一个将 HyperOS 全局电池充电保护电量设置为 90% 的 Xposed 模块 | An Xposed module that sets the Hy...
+Summary: 一个 HyperOS 自定义全局电池充电保护电量设置的 Xposed 模块 | An Xposed module that customises the ...
 WebSite: ""

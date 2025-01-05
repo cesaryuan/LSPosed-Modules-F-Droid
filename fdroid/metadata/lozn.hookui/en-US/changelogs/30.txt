@@ -1,0 +1,141 @@
+完善js hook，另外vsocde和傻瓜式编程工具curosr都可以在市场搜索插件HOOKUI 关键词 下载，然后新建2个js把下面的内容发给它，你就可以让他继续帮你写 指定的定制hook代码了，让他遵循hook回调是这种模式 ，基本是仿造xposed api来的，降低学习成本。 
+然后写完代码直接就邮件同步 直接被hook应用就能重启了，记得在第一行写上//package:com.xx.xx 不然重启功能玩不了，还有默认情况是没有开启js加载的，非赞助用户可以在里面直接手动点那个测试运行就好了。 效果是一样的，只是不能启动就加载。
+```
+//package:com.xx.xx
+//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!
+//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用
+//findAndHookMethod 在2015年1月4日版本有效
+function handleLoadPackage(loadPackageParam) {
+
+    log.toast("COMMON_AAAJS:" + loadPackageParam.packageName);
+    log.v("COMMON_JS-AAFF->" + loadPackageParam.packageName);  
+
+    try {
+        // Hook View 的触摸事件
+        XposedHelpers.findAndHookMethod("android.view.View", 
+       
+            "onTouchEvent",
+            ["android.view.MotionEvent"],
+            function(param, phase) {
+                if (phase === "before") {
+                    try {
+                        var Arrays = Packages.java.util.Arrays;
+                        let args = param.getArguments();
+                        
+                        if(args && args[0]) {
+                            let motionEvent = args[0];
+                            let x = motionEvent.getX();
+                            let y = motionEvent.getY();
+                            let action = motionEvent.getAction();
+                            
+                            log.v("触摸事件: x=" + x + ", y=" + y + ", action=" + action);
+                        }
+                        
+                        // 检查 args 是否为数组
+                        if (args ) {
+                            log.v("触摸参数: " + Arrays.toString(args));
+                        } else {
+                            log.v("触摸参数: 获取定义失败"+args);
+                        }
+                    } catch(e) {
+                        log.e("View onTouchEvent hook error: " + e);
+                    }
+                } else if (phase === "after") {
+                    log.v("调用堆栈: " + log.getStackTraceString());
+                }
+            }
+        );
+    } catch(e) {
+        log.e("找不到 View.onTouchEvent 方法: " + e);
+    }
+
+    // Hook Activity 创建
+    XposedHelpers.findAndHookMethod("android.app.Activity",
+        loadPackageParam.classLoader,
+        "onCreate",
+        ["android.os.Bundle"],
+        function(param, phase) {
+            if (phase === "before") {
+                log.v("检测到新Activity创建");
+                try {
+                    log.v("当前时间: " + new Date().toLocaleString());
+                } catch(e) {
+                    log.v("Activity Hook 触发");
+                }
+            } else if (phase === "after") {
+                log.v("Activity onCreate 完成");
+            }
+        }
+    );
+
+    // Hook Dialog 显示
+    XposedHelpers.findAndHookMethod("android.app.Dialog",
+        loadPackageParam.classLoader,
+        "show",
+        [],
+        function(param, phase) {
+            if (phase === "before") {
+                log.v("检测到Dialog显示");
+                try {
+                    log.v("当前时间: " + new Date().toLocaleString());
+                } catch(e) {
+                    log.v("Dialog Hook 触发");
+                }
+            } else if (phase === "after") {
+                log.v("Dialog show 完成");
+            }
+        }
+    );
+
+    return true;
+}
+```
+```
+//package:com.xx.xx
+//第一行指定被hook的包名，方便VSCode Cursor插件识别包名进行真正的重启!
+//HOOKUI 动态js 仅限使用2024-12-29 19:25:40 之后版本使用
+function handleLoadPackage(loadPackageParam) {
+
+    log.toast("COMMON_AAAJS:" + loadPackageParam.packageName);
+    log.v("COMMON_JS-AAFF->" + loadPackageParam.packageName);  
+
+    // Hook View 的触摸事件
+    XposedBridge.hookMethod("android.view.View", "onTouchEvent", function(param, phase) {
+        if (phase === "before") {
+            var Arrays = Packages.java.util.Arrays;
+            let args = param.getArguments();
+            
+            // 记录触摸事件的详细信息
+            if(args && args[0]) {
+                let motionEvent = args[0];
+                let x = motionEvent.getX();
+                let y = motionEvent.getY();
+                let action = motionEvent.getAction();
+                
+                log.v("触摸事件: x=" + x + ", y=" + y + ", action=" + action);
+            }
+            
+            log.v("触摸参数: " + Arrays.toString(args));
+            param.setArguments(args);
+        } else if (phase === "after") {
+            log.v("调用堆栈: " + log.getStackTraceString());
+        }
+    });
+
+    // Hook Activity 创建
+    XposedBridge.hookMethod("android.app.Activity", "onCreate", function(param, phase) {
+        if (phase === "before") {
+            // 只打印基本信息
+            log.v("检测到新Activity创建");
+            try {
+                log.v("当前时间: " + new Date().toLocaleString());
+            } catch(e) {
+                log.v("Activity Hook 触发");
+            }
+        }
+    });
+
+
+    return true;
+}
+```
