@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1736058548000,
+    "timestamp": 1736220462000,
     "version": 20002
   },
   "requests": {
@@ -2140,14 +2140,14 @@
       "summary": "贴边小窗强制前台。\nWelt freeform force the front desk."
     },
     {
-      "added": 1720348193000,
+      "added": 1732159566000,
       "authorName": "Nep-Timeline",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eFreezer Cream Edition\u003c/h1\u003e\n\u003cp\u003eNew third-party Android Tombstone, rewrite from NoActive\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://freezer.sakion.top/\"\u003eDocument\u003c/a\u003e\n\u003ca href=\"https://github.com/Nep-Timeline/Freezer/releases/tag/release\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Nep-Timeline/Freezer.svg\" alt=\"Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/TimeWorkshop\"\u003e\u003cimg height=\"26\" src=\"https://shields.io/badge/Group-ffffff.svg?style=flat-square\u0026logo=telegram\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "nep.timeline.freezer.png",
-      "lastUpdated": 1720348193000,
+      "lastUpdated": 1732159566000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3574,26 +3574,26 @@
       "summary": "Bypass Xiaomi ADB install confirmation (which invokes com.miui.guardprovider)..."
     },
     {
-      "added": 1719032947000,
+      "added": 1736141288000,
       "authorName": "DavidBerdik",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eLet Me Downgrade\u003c/h1\u003e\n\u003cimg align=\"left\" src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/ic_launcher-playstore.png\" width=\"140\" /\u003e\n\u003cp\u003eAndroid’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 14 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e⚠️ WARNING:\u003c/strong\u003e Let Me Downgrade is intended for rooted devices running Android 12 through 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://play.google.com/store/apps/details?id=com.berdik.letmedowngrade\"\u003e\n    \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/google-play-badge.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n  \u003ca href=\"https://f-droid.org/packages/com.berdik.letmedowngrade/\"\u003e\n    \u003cimg src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n  \u003ca href=\"https://github.com/DavidBerdik/Let-Me-Downgrade/releases\"\u003e\n    \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/badge_github.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\u003cp\u003eTo use Let Me Downgrade:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eInstall LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available \u003ca href=\"https://github.com/LSPosed/LSPosed#install\"\u003ehere\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003eInstall Let Me Downgrade.\u003c/li\u003e\n\u003cli\u003eActivate the Let Me Downgrade module in the LSposed user interface.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/1.png\" width=\"300\" /\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/2.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003eReboot your device and sign in.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/3.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"5\"\u003e\n\u003cli\u003eOpen the quick settings panel. The Let Me Downgrade tile will appear.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/4.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"6\"\u003e\n\u003cli\u003eToggle the Let Me Downgrade tile on or off to enable or disable it.\u003c/li\u003e\n\u003c/ol\u003e\n",
+      "description": "\u003ch1\u003eLet Me Downgrade\u003c/h1\u003e\n\u003cimg align=\"left\" src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/ic_launcher-playstore.png\" width=\"140\" /\u003e\n\u003cp\u003eAndroid’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 15 QPR1 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e⚠️ WARNING:\u003c/strong\u003e Let Me Downgrade is intended for rooted devices running Android 12 through 15 QPR1 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://play.google.com/store/apps/details?id=com.berdik.letmedowngrade\"\u003e\n    \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/google-play-badge.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n  \u003ca href=\"https://f-droid.org/packages/com.berdik.letmedowngrade/\"\u003e\n    \u003cimg src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n  \u003ca href=\"https://github.com/DavidBerdik/Let-Me-Downgrade/releases\"\u003e\n    \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/badge_github.png\" height=\"80\" /\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\u003cp\u003eTo use Let Me Downgrade:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eInstall LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available \u003ca href=\"https://github.com/LSPosed/LSPosed#install\"\u003ehere\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003eInstall Let Me Downgrade.\u003c/li\u003e\n\u003cli\u003eActivate the Let Me Downgrade module in the LSposed user interface.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/1.png\" width=\"300\" /\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/2.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003eReboot your device and sign in.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/3.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"5\"\u003e\n\u003cli\u003eOpen the quick settings panel. The Let Me Downgrade tile will appear.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/4.png\" width=\"300\" /\u003e\n\u003c/p\u003e\n\u003col start=\"6\"\u003e\n\u003cli\u003eToggle the Let Me Downgrade tile on or off to enable or disable it.\u003c/li\u003e\n\u003c/ol\u003e\n",
       "icon": "com.berdik.letmedowngrade.png",
-      "lastUpdated": 1719032947000,
+      "lastUpdated": 1736141288000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "This release reduces the amount of storage space used by the module and improves the module's performance."
+          "whatsNew": "Let Me Downgrade v1.0.6 includes the following changes:\n\n- Added support for Android 15 QPR1.\n- The app icon's color scheme will now change according to the device's theme.\n- Instead of removing the app icon when enabled, Let Me Downgrade will show instructions in the app activity explaining how to use it. For existing installations with a hidden icon, the icon will stay hidden after updating to this version and will stay hidden even if the module is disabled. A reinstallation will be required b"
         }
       },
       "name": "Let Me Downgrade",
       "packageName": "com.berdik.letmedowngrade",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.berdik.letmedowngrade",
-      "suggestedVersionCode": "8",
-      "suggestedVersionName": "1.0.5",
-      "summary": "Let Me Downgrade - Add support for downgrading apps on Android 12 through 14."
+      "suggestedVersionCode": "9",
+      "suggestedVersionName": "1.0.6",
+      "summary": "Let Me Downgrade - Add support for downgrading apps on Android 12 through 15 ..."
     },
     {
       "added": 1719155099000,
@@ -5380,25 +5380,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1734613720000,
+      "added": 1736129176000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1734613720000,
+      "lastUpdated": 1736129176000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[适配]部分常用软件\n[修复]部分BUG"
+          "whatsNew": "[新增]抖音 支持下载评论区带有GIF标签的视频了\n[新增]抖音极速版 支持下载评论区带有GIF标签的视频了\n[修复]一些App已知的BUG\n[适配]一些App已知的问题"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7136",
-      "suggestedVersionName": "7.6.0",
+      "suggestedVersionCode": "7137",
+      "suggestedVersionName": "7.6.1",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -6810,20 +6810,20 @@
       "summary": "Customization For Launcher3"
     },
     {
-      "added": 1736005380000,
+      "added": 1736058354000,
       "authorName": "NoonieBao",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1736005380000,
+      "lastUpdated": 1736220130000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.Vavatar",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
       "suggestedVersionCode": "2",
       "suggestedVersionName": "1.0",
-      "summary": "自动更换QQ头像"
+      "summary": "自动更换微信头像"
     },
     {
       "added": 1711776766000,
@@ -6848,25 +6848,25 @@
       "summary": "Like element inspection on browser platform, this module provides similar fun..."
     },
     {
-      "added": 1732468458000,
+      "added": 1736083703000,
       "authorName": "Hepolise",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eVolume Key Track Control Module\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed module that allows to skip and play/pause track with volume keys. Inspired by \u003ca href=\"https://github.com/GravityBox/GravityBox\"\u003eGravity Box\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eWorks when the screen is off.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eNext Track: Long press volume up\u003c/li\u003e\n\u003cli\u003ePrev Track: Long press volume down\u003c/li\u003e\n\u003cli\u003ePlay/Pause: Long press both keys simultaneously\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eRequirements\u003c/h2\u003e\n\u003cp\u003eAndroid 11+ (may be working on lower versions, you can try and install it even on Android 7)\u003c/p\u003e\n\u003ch2\u003eTested on\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eOnePlus 10 Pro (Android 13 \u0026amp; 14)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new\"\u003eOpen an issue\u003c/a\u003e if you are experiencing some troubles on your device\u003c/p\u003e\n",
       "icon": "ru.hepolise.volumekeymusicmanagermodule.webp",
-      "lastUpdated": 1732468458000,
+      "lastUpdated": 1736083703000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "Fixed working with remote devices (like screen casting)\nUpdated vibration effect for newer devices "
+          "whatsNew": "Fix rewind on some player states"
         }
       },
       "name": "Volume Key Track Control Module",
       "packageName": "ru.hepolise.volumekeymusicmanagermodule",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
-      "suggestedVersionCode": "8",
-      "suggestedVersionName": "1.15.1"
+      "suggestedVersionCode": "9",
+      "suggestedVersionName": "1.15.2"
     },
     {
       "added": 1733214129000,
@@ -7085,24 +7085,24 @@
       "summary": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
     },
     {
-      "added": 1736026174000,
-      "authorName": "1248774172",
+      "added": 1736160095000,
+      "authorName": "Yy-ss7",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eXChat👋\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+iQDVYJRqfkY4YzRl\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e仰天大笑出门去，我辈岂是蓬蒿人。  ——李白\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e前言:\u003c/h2\u003e\n  \u003cp\u003e作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是耗时...\u003c/p\u003e\n  \u003cp\u003e目前只有禁止撤回功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。\u003c/p\u003e\n  \u003cp\u003e被采纳的需求将会列到下面的更新计划中。\u003c/p\u003e\n  \u003cp\u003e若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。\u003c/p\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.55\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e食用方法:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e下载apk，安装\u003c/li\u003e\n\u003cli\u003elsposed 激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e强制重启wechat\u003c/li\u003e\n\u003cli\u003e长按 ”我的“ -\u0026gt; “设置” 选项 可呼出设置面板，目前较为简陋…🤷🏻‍♀️\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e更新计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 防撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 朋友圈禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 朋友圈集赞、评论\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 隐藏好友\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 骰子指定\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003ch4\u003e1. 第一次打开app，提示配置异常\u003c/h4\u003e\n\u003cp\u003e检查网络是否能正常打开github。\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\u003c/li\u003e\n\u003cli\u003e请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\u003c/li\u003e\n\u003cli\u003e本APP不篡改，不修改，不获取任何个人信息及其微信信息。\u003c/li\u003e\n\u003cli\u003e本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e请作者喝杯茶\u003c/h2\u003e\n\u003cdiv\u003e\n  \u003cimg width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\"/\u003e\n  \u003cimg width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\"/\u003e\n\u003c/div\u003e\n",
-      "lastUpdated": 1736026174000,
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eXChat👋\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+nEjdxdGpwCVhNzNl\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e仰天大笑出门去，我辈岂是蓬蒿人。  ——李白\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e前言:\u003c/h2\u003e\n  \u003cp\u003e作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...\u003c/p\u003e\n  \u003cp\u003e目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。\u003c/p\u003e\n  \u003cp\u003e被采纳的需求将会列到下面的更新计划中。\u003c/p\u003e\n  \u003cp\u003e若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。\u003c/p\u003e\n  \u003cp\u003e有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。\u003c/p\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.55\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e食用方法:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e点击此处\u003c/a\u003e下载最新版本插件\u003c/li\u003e\n\u003cli\u003elsposed 激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e杀进程强制重启微信即可食用\u003c/li\u003e\n\u003cli\u003e进入”我的“页面 -\u0026gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e更新计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 平板模式\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 朋友圈禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 朋友圈集赞、评论\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 隐藏好友\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 骰子指定\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 复读+1\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 自动下载原图\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. 打开app后，功能无法使用且无任何提示？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\u003c/li\u003e\n\u003cli\u003e请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\u003c/li\u003e\n\u003cli\u003e本APP不篡改，不修改，不获取任何个人信息及其微信信息。\u003c/li\u003e\n\u003cli\u003e本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e🙏请作者喝杯茶\u003c/h2\u003e\n\u003cp\u003e不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n\u003cimg src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" /\u003e\n\u003cimg src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /\u003e\u003c/p\u003e\n\u003ch2\u003e🙏感谢老板赐茶\u003c/h2\u003e\n\u003cp\u003e因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e老板昵称\u003c/th\u003e\n\u003cth\u003e捐赠金额\u003c/th\u003e\n\u003cth\u003e日期\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eali@嗷嗷待哺\u003c/td\u003e\n\u003ctd\u003e￥9.9\u003c/td\u003e\n\u003ctd\u003e2025-01-05\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e感谢所有支持的老板！您的支持使这个项目得以持续发展。\u003c/p\u003e\n",
+      "lastUpdated": 1736160095000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1、消息防撤回 适配 8.0.55"
+          "whatsNew": "1、设置弹窗默认允许弹出，不论配置是否加载成功。\n2、配置加载逻辑优化。\n读取配置成功之后就不会再读取配置了，打开设置弹层时才会主动请求配置。"
         }
       },
       "name": "XChat",
       "packageName": "com.xchat",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
-      "suggestedVersionCode": "242",
-      "suggestedVersionName": "1.0.0",
+      "suggestedVersionCode": "386",
+      "suggestedVersionName": "1.0.6",
       "summary": "Enhance Wechat!"
     },
     {
@@ -8743,7 +8743,7 @@
     },
     {
       "added": 1685521860000,
-      "authorName": "1248774172",
+      "authorName": "Yy-ss7",
       "categories": [
         "Xposed"
       ],
@@ -9126,24 +9126,24 @@
       "suggestedVersionName": "2.1.2"
     },
     {
-      "added": 1733494596000,
+      "added": 1736168157000,
       "authorName": "ghhccghk",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch2\u003e告示\u003c/h2\u003e\n\u003ch5\u003e本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看\u003c/h5\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1733494596000,
+      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch2\u003e告示\u003c/h2\u003e\n\u003ch5\u003e本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看\u003c/h5\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/fankes/MIUINativeNotifyIcon\"\u003eMIUINativeNotifyIcon\u003c/a\u003e 参考了小米系统信息获取\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1736168157000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## 更新日志\n### 第一个正式版本\n## 有问题希望能及时反馈"
+          "whatsNew": "## 更新日志\nopt: 添加系统信息显示，以及小米系统完整版本号显示\nfix: 优化设备名称显示\nfix: 防止未设置密码的时候调用密码输入函数\nopt：针对小米澎湃解锁本应用焦点通知白名单\nupdate: 更新ReadMe\nopt: 添加图标"
         }
       },
       "name": "米画师支付模块",
       "packageName": "com.mihuashi.paybyfinger",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0.1",
+      "suggestedVersionCode": "3",
+      "suggestedVersionName": "1.0.2",
       "summary": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
     },
     {
@@ -11305,7 +11305,22 @@
     ],
     "com.berdik.letmedowngrade": [
       {
-        "added": 1719032947000,
+        "added": 1736141288000,
+        "apkName": "com.berdik.letmedowngrade_9-1.0.6.apk",
+        "hash": "65a078dd6a17f1a9b2d4b92c1d55e9f21512d6cf6ae714bc07f4848042da3c6a",
+        "hashType": "sha256",
+        "minSdkVersion": 31,
+        "nativecode": null,
+        "packageName": "com.berdik.letmedowngrade",
+        "sig": "4d6b8d6c604199a48b614aa68b6dcc83",
+        "signer": "ad9f71bc93d20d9219723cd166d9b6286f79a0b73a43d6651eb35c6e7d480d6a",
+        "size": 2307988,
+        "targetSdkVersion": 35,
+        "versionCode": 9,
+        "versionName": "1.0.6"
+      },
+      {
+        "added": 1732159432000,
         "apkName": "com.berdik.letmedowngrade_8-1.0.5.apk",
         "hash": "647990083375c22796386082675b225934c1f951ae29c18d0c7b01f23e163e79",
         "hashType": "sha256",
@@ -13719,7 +13734,22 @@
     ],
     "com.mihuashi.paybyfinger": [
       {
-        "added": 1733494596000,
+        "added": 1736168157000,
+        "apkName": "com.mihuashi.paybyfinger_3-1.0.2.apk",
+        "hash": "5fda45982d124f93fe333723acf61edfa6e6cb78dd79e4e8bdd5173e47d26338",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "com.mihuashi.paybyfinger",
+        "sig": "f29dee814be9c84dcc8a1392ef4d24e6",
+        "signer": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159",
+        "size": 2291903,
+        "targetSdkVersion": 34,
+        "versionCode": 3,
+        "versionName": "1.0.2"
+      },
+      {
+        "added": 1733214078000,
         "apkName": "com.mihuashi.paybyfinger_1-1.0.1.apk",
         "hash": "8acf0202c935ac3a059f3826838f71fe3f9bcb53eb668cd33f058c5f6b42d40c",
         "hashType": "sha256",
@@ -15016,7 +15046,22 @@
     ],
     "com.xchat": [
       {
-        "added": 1736026174000,
+        "added": 1736160095000,
+        "apkName": "com.xchat_386-1.0.6.apk",
+        "hash": "66bc12ecf96f63b139d122aeeb5f3835aaa6f583553b945462e3b4d50c4b3427",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.xchat",
+        "sig": "df7d4365eb5d4b795c4e810fa014b2e5",
+        "signer": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06",
+        "size": 57496,
+        "targetSdkVersion": 34,
+        "versionCode": 386,
+        "versionName": "1.0.6"
+      },
+      {
+        "added": 1736058353000,
         "apkName": "com.xchat_242-1.0.0.apk",
         "hash": "fbabc1e61c8921cd0fc12e09597f129d0b9a547ab179415e3afc9e2cb520921a",
         "hashType": "sha256",
@@ -15033,8 +15078,23 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1736005380000,
+        "added": 1736058354000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
+        "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": null,
+        "packageName": "com.xconst.vavatar",
+        "sig": "569709cd87aba5d5579aec984d9498e2",
+        "signer": "1ea365e0a5fa6c0404c649fa9f0b023ec8d1d3ef8ca798585f317e6de40f471e",
+        "size": 56506,
+        "targetSdkVersion": 34,
+        "versionCode": 2,
+        "versionName": "1.0"
+      },
+      {
+        "added": 1736005380000,
+        "apkName": "com.xconst.vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
         "minSdkVersion": 26,
@@ -17657,7 +17717,27 @@
     ],
     "me.plusne": [
       {
-        "added": 1734613720000,
+        "added": 1736129176000,
+        "apkName": "me.plusne_7137-7.6.1.apk",
+        "hash": "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10525314,
+        "targetSdkVersion": 33,
+        "versionCode": 7137,
+        "versionName": "7.6.1"
+      },
+      {
+        "added": 1734664430000,
         "apkName": "me.plusne_7136-7.6.0.apk",
         "hash": "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5",
         "hashType": "sha256",
@@ -17695,26 +17775,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7134,
         "versionName": "7.5.8"
-      },
-      {
-        "added": 1733214138000,
-        "apkName": "me.plusne_7133-7.5.7.apk",
-        "hash": "8d8c50827e84d2e01cfb0d6b2562bcccd35966030653ab8feb142b5c5cc7f554",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "me.plusne",
-        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
-        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
-        "size": 10525309,
-        "targetSdkVersion": 33,
-        "versionCode": 7133,
-        "versionName": "7.5.7"
       }
     ],
     "me.rhunk.snapenhance": [
@@ -18059,7 +18119,7 @@
     ],
     "nep.timeline.freezer": [
       {
-        "added": 1720348193000,
+        "added": 1732159566000,
         "apkName": "nep.timeline.freezer_26-LTS.apk",
         "hash": "8a7045ea3a77bde56c7c807a38e17f55c48a4f37a096d6dda3ffc65f6bc021b9",
         "hashType": "sha256",
@@ -18659,7 +18719,22 @@
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
       {
-        "added": 1732468458000,
+        "added": 1736083703000,
+        "apkName": "ru.hepolise.volumekeymusicmanagermodule_9-1.15.2.apk",
+        "hash": "ebc944c380226eda96afeaecf6f4f89ad93e47b7104f0f97d51c150cf8b6ad18",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": null,
+        "packageName": "ru.hepolise.volumekeymusicmanagermodule",
+        "sig": "b85aeb812187a58a7426201ab0ead809",
+        "signer": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836",
+        "size": 169403,
+        "targetSdkVersion": 35,
+        "versionCode": 9,
+        "versionName": "1.15.2"
+      },
+      {
+        "added": 1733214152000,
         "apkName": "ru.hepolise.volumekeymusicmanagermodule_8-1.15.1.apk",
         "hash": "d77e0bb4cbe1d2a87645541c329a51aa8907cb6631905c280779d73fe0cdb274",
         "hashType": "sha256",
@@ -18687,21 +18762,6 @@
         "targetSdkVersion": 35,
         "versionCode": 7,
         "versionName": "1.15.0"
-      },
-      {
-        "added": 1732159575000,
-        "apkName": "ru.hepolise.volumekeymusicmanagermodule_6-1.14.3.apk",
-        "hash": "e6ef102380cb94ec2bd4c4474f8f19bef290589d45db906f166efb647835946b",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": null,
-        "packageName": "ru.hepolise.volumekeymusicmanagermodule",
-        "sig": "b85aeb812187a58a7426201ab0ead809",
-        "signer": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836",
-        "size": 191900,
-        "targetSdkVersion": 34,
-        "versionCode": 6,
-        "versionName": "1.14.3"
       }
     ],
     "ru.mike.customiuizer125plugin": [

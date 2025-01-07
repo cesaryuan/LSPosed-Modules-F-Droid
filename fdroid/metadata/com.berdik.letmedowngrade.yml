@@ -1,13 +1,13 @@
 AuthorName: DavidBerdik
 Categories:
     - Xposed
-CurrentVersion: 1.0.5
-CurrentVersionCode: 8
+CurrentVersion: 1.0.6
+CurrentVersionCode: 9
 Description: |
     <h1>Let Me Downgrade</h1>
     <img align="left" src="https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/ic_launcher-playstore.png" width="140" />
-    <p>Android’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 14 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.</p>
-    <p><strong>⚠️ WARNING:</strong> Let Me Downgrade is intended for rooted devices running Android 12 through 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
+    <p>Android’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 15 QPR1 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.</p>
+    <p><strong>⚠️ WARNING:</strong> Let Me Downgrade is intended for rooted devices running Android 12 through 15 QPR1 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
     <p align="center">
       <a href="https://play.google.com/store/apps/details?id=com.berdik.letmedowngrade">
         <img src="https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/google-play-badge.png" height="80" />
@@ -47,5 +47,5 @@ Description: |
 IssueTracker: ""
 Name: Let Me Downgrade
 SourceCode: https://github.com/Xposed-Modules-Repo/com.berdik.letmedowngrade
-Summary: Let Me Downgrade - Add support for downgrading apps on Android 12 through 14.
+Summary: Let Me Downgrade - Add support for downgrading apps on Android 12 through 15 ...
 WebSite: ""

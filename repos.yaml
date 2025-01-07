@@ -3487,7 +3487,7 @@ com.asyjaiz.a12blur:
     author_name: AsyJAIZ
 com.berdik.letmedowngrade:
     git: https://github.com/Xposed-Modules-Repo/com.berdik.letmedowngrade
-    summary: Let Me Downgrade - Add support for downgrading apps on Android 12 through 14.
+    summary: Let Me Downgrade - Add support for downgrading apps on Android 12 through 15 QPR1.
     applications:
         - anti_features: []
           categories:
@@ -3495,8 +3495,8 @@ com.berdik.letmedowngrade:
           description: |
             <h1>Let Me Downgrade</h1>
             <img align="left" src="https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/ic_launcher-playstore.png" width="140" />
-            <p>Android’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 14 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.</p>
-            <p><strong>⚠️ WARNING:</strong> Let Me Downgrade is intended for rooted devices running Android 12 through 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
+            <p>Android’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 15 QPR1 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.</p>
+            <p><strong>⚠️ WARNING:</strong> Let Me Downgrade is intended for rooted devices running Android 12 through 15 QPR1 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
             <p align="center">
               <a href="https://play.google.com/store/apps/details?id=com.berdik.letmedowngrade">
                 <img src="https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/google-play-badge.png" height="80" />
@@ -3533,11 +3533,17 @@ com.berdik.letmedowngrade:
             <ol start="6">
             <li>Toggle the Let Me Downgrade tile on or off to enable or disable it.</li>
             </ol>
-          filename: Let-Me-Downgrade-1.0.5.apk
+          filename: Let-Me-Downgrade-1.0.6.apk
           id: com.berdik.letmedowngrade
           name: Let Me Downgrade
-          last_updated: "2024-06-22T05:09:07Z"
-          releasedescription: <p>This release reduces the amount of storage space used by the module and improves the module's performance.</p>
+          last_updated: "2025-01-06T05:28:08Z"
+          releasedescription: |-
+            <p>Let Me Downgrade v1.0.6 includes the following changes:</p>
+            <ul>
+            <li>Added support for Android 15 QPR1.</li>
+            <li>The app icon's color scheme will now change according to the device's theme.</li>
+            <li>Instead of removing the app icon when enabled, Let Me Downgrade will show instructions in the app activity explaining how to use it. For existing installations with a hidden icon, the icon will stay hidden after updating to this version and will stay hidden even if the module is disabled. A reinstallation will be required by the user to bring the icon back.</li>
+            </ul>
     author_name: DavidBerdik
 com.berdik.macsposed:
     git: https://github.com/Xposed-Modules-Repo/com.berdik.macsposed
@@ -8662,15 +8668,20 @@ com.mihuashi.paybyfinger:
             <h4><a href="https://github.com/xiaowine/XKT">XKT</a> 使用了其项目</h4>
             <h4><a href="https://github.com/xiaowine/Lyric-Getter">Lyric-Getter</a> 参考了界面写法</h4>
             <h4><a href="https://github.com/ReChronoRain/HyperCeiler">HyperCeiler</a> 参考了焦点通知实现</h4>
+            <h4><a href="https://github.com/fankes/MIUINativeNotifyIcon">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>
             <p><a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="200"/></a></p>
-          filename: Rice.Painter.Fingerprint.Pay-1.0.1-1-release-1732448409636.apk
+          filename: Rice.Painter.Fingerprint.Pay-1.0.2-3-release-1736166238458.apk
           id: com.mihuashi.paybyfinger
           name: 米画师支付模块
-          last_updated: "2024-12-06T14:16:36Z"
+          last_updated: "2025-01-06T12:55:57Z"
           releasedescription: |-
             <h2>更新日志</h2>
-            <h3>第一个正式版本</h3>
-            <h2>有问题希望能及时反馈</h2>
+            <p>opt: 添加系统信息显示，以及小米系统完整版本号显示<br>
+            fix: 优化设备名称显示<br>
+            fix: 防止未设置密码的时候调用密码输入函数<br>
+            opt：针对小米澎湃解锁本应用焦点通知白名单<br>
+            update: 更新ReadMe<br>
+            opt: 添加图标</p>
     author_name: ghhccghk
 com.miui.break.sim:
     git: https://github.com/Xposed-Modules-Repo/com.miui.break.sim
@@ -12132,16 +12143,19 @@ com.xchat:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+iQDVYJRqfkY4YzRl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是耗时...</p>\n  <p>目前只有禁止撤回功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li>下载apk，安装</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>强制重启wechat</li>\n<li>长按 ”我的“ -&gt; “设置” 选项 可呼出设置面板，目前较为简陋…\U0001F937\U0001F3FB‍♀️</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 防撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n</ul>\n<h2>常见问题</h2>\n<h4>1. 第一次打开app，提示配置异常</h4>\n<p>检查网络是否能正常打开github。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>请作者喝杯茶</h2>\n<div>\n  <img width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\"/>\n  <img width=\"250\" height=\"200\" src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\"/>\n</div>\n"
+          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" />\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /></p>\n<h2>\U0001F64F感谢老板赐茶</h2>\n<p>因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。</p>\n<table>\n<thead>\n<tr>\n<th>老板昵称</th>\n<th>捐赠金额</th>\n<th>日期</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ali@嗷嗷待哺</td>\n<td>￥9.9</td>\n<td>2025-01-05</td>\n</tr>\n</tbody>\n</table>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
           filename: app-release.apk
           id: com.xchat
           name: XChat
-          last_updated: "2025-01-04T21:29:34Z"
-          releasedescription: <p>1、消息防撤回 适配 8.0.55</p>
-    author_name: "1248774172"
-com.xconst.Vavatar:
-    git: https://github.com/Xposed-Modules-Repo/com.xconst.Vavatar
-    summary: 自动更换QQ头像
+          last_updated: "2025-01-06T10:41:35Z"
+          releasedescription: |-
+            <p>1、设置弹窗默认允许弹出，不论配置是否加载成功。<br>
+            2、配置加载逻辑优化。<br>
+            读取配置成功之后就不会再读取配置了，打开设置弹层时才会主动请求配置。</p>
+    author_name: Yy-ss7
+com.xconst.vavatar:
+    git: https://github.com/Xposed-Modules-Repo/com.xconst.vavatar
+    summary: 自动更换微信头像
     applications:
         - anti_features: []
           categories:
@@ -12225,7 +12239,7 @@ com.xconst.Vavatar:
             <p><a href="https://github.com/NoonieBao/vavatar">源代码仓库 https://github.com/NoonieBao/vavatar</a></p>
             <p>接受建议和反馈。</p>
           filename: app-release.apk.APK
-          id: com.xconst.Vavatar
+          id: com.xconst.vavatar
           name: VAvatar
           last_updated: "2025-01-04T15:43:00Z"
           releasedescription: ""
@@ -12258,7 +12272,7 @@ com.xiaoer.watermark:
           releasedescription: |-
             <p>1.读取配置更快<br>
             2.水印设置大小时最低只能为1</p>
-    author_name: "1248774172"
+    author_name: Yy-ss7
 com.xiaoniu.zuiyouhook:
     git: https://github.com/Xposed-Modules-Repo/com.xiaoniu.zuiyouhook
     summary: 最右去广告/视频下载水印/青少年弹窗模块
@@ -17333,13 +17347,15 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.6.0.apk
+          filename: PlusNE7_New.7.6.1.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2024-12-19T13:08:40Z"
+          last_updated: "2025-01-06T02:06:16Z"
           releasedescription: |-
-            <p>[适配]部分常用软件<br>
-            [修复]部分BUG</p>
+            <p>[新增]抖音 支持下载评论区带有GIF标签的视频了<br>
+            [新增]抖音极速版 支持下载评论区带有GIF标签的视频了<br>
+            [修复]一些App已知的BUG<br>
+            [适配]一些App已知的问题</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
@@ -18272,33 +18288,6 @@ name.monwf.customiuizer:
             修复切换至上一应用的动作失效问题<br>
             修复部分新系统在设置时钟格式后，系统界面crash的问题</p>
     author_name: MonwF
-nep.timeline.freezer:
-    git: https://github.com/Xposed-Modules-Repo/nep.timeline.freezer
-    summary: Third party Android Tombstone, rewrite from NoActive
-    applications:
-        - anti_features: []
-          categories:
-            - Xposed
-          description: |
-            <h1>Freezer Cream Edition</h1>
-            <p>New third-party Android Tombstone, rewrite from NoActive</p>
-            <p><a href="https://freezer.sakion.top/">Document</a>
-            <a href="https://github.com/Nep-Timeline/Freezer/releases/tag/release"><img src="https://img.shields.io/github/release/Nep-Timeline/Freezer.svg" alt="Release" /></a>
-            <a href="https://t.me/TimeWorkshop"><img height="26" src="https://shields.io/badge/Group-ffffff.svg?style=flat-square&logo=telegram" alt="Release" /></a></p>
-          filename: Freezer-LTS-26.apk
-          id: nep.timeline.freezer
-          name: Freezer Cream Edition
-          last_updated: "2024-07-07T10:29:53Z"
-          releasedescription: |-
-            <p>移除: 移除一些无用Hook<br>
-            优化: 优化使用<br>
-            移除: 对Millet底层冻结的Hook 因为没有任何作用<br>
-            修复: 杀死应用可能出现bug<br>
-            优化: 提高线程安全<br>
-            优化: 性能<br>
-            修复: PID不正确<br>
-            新增: 加回输入法检测</p>
-    author_name: Nep-Timeline
 nep.timeline.re_telegram:
     git: https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram
     summary: |-
@@ -19831,13 +19820,11 @@ ru.hepolise.volumekeymusicmanagermodule:
             <li>OnePlus 10 Pro (Android 13 &amp; 14)</li>
             </ul>
             <p><a href="https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new">Open an issue</a> if you are experiencing some troubles on your device</p>
-          filename: VolumeKeyTrackControlModule-release-1.15.1.apk
+          filename: VolumeKeyTrackControlModule-release-1.15.2.apk
           id: ru.hepolise.volumekeymusicmanagermodule
           name: Volume Key Track Control Module
-          last_updated: "2024-11-24T17:14:18Z"
-          releasedescription: |-
-            <p>Fixed working with remote devices (like screen casting)<br>
-            Updated vibration effect for newer devices</p>
+          last_updated: "2025-01-05T13:28:23Z"
+          releasedescription: <p>Fix rewind on some player states</p>
     author_name: Hepolise
 ru.mike.customiuizer125plugin:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.customiuizer125plugin

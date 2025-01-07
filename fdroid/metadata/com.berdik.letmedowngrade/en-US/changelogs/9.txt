@@ -1,0 +1,5 @@
+Let Me Downgrade v1.0.6 includes the following changes:
+
+- Added support for Android 15 QPR1.
+- The app icon's color scheme will now change according to the device's theme.
+- Instead of removing the app icon when enabled, Let Me Downgrade will show instructions in the app activity explaining how to use it. For existing installations with a hidden icon, the icon will stay hidden after updating to this version and will stay hidden even if the module is disabled. A reinstallation will be required by the user to bring the icon back.
