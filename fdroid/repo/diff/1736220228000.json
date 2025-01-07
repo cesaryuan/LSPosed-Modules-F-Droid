@@ -1,0 +1,74 @@
+{
+  "repo": {
+    "timestamp": 1736220462000
+  },
+  "packages": {
+    "com.berdik.letmedowngrade": {
+      "metadata": {
+        "summary": {
+          "en-US": "Let Me Downgrade - Add support for downgrading apps on Android 12 through 15 ..."
+        },
+        "description": {
+          "en-US": "<h1>Let Me Downgrade</h1>\n<img align=\"left\" src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/ic_launcher-playstore.png\" width=\"140\" />\n<p>Android’s app installation system does not allow users to downgrade to an older version of an app when they already have a newer version installed. Let Me Downgrade is an Xposed module for Android 12 through 15 QPR1 that enables users to bypass this restriction. As an added bonus, Let Me Downgrade provides a Quick Settings tile to easily enable and disable the downgrade block.</p>\n<p><strong>⚠️ WARNING:</strong> Let Me Downgrade is intended for rooted devices running Android 12 through 15 QPR1 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>\n<p align=\"center\">\n  <a href=\"https://play.google.com/store/apps/details?id=com.berdik.letmedowngrade\">\n    <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/google-play-badge.png\" height=\"80\" />\n  </a>\n  <a href=\"https://f-droid.org/packages/com.berdik.letmedowngrade/\">\n    <img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" height=\"80\" />\n  </a>\n  <a href=\"https://github.com/DavidBerdik/Let-Me-Downgrade/releases\">\n    <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/badge_github.png\" height=\"80\" />\n  </a>\n</p>\n<p>To use Let Me Downgrade:</p>\n<ol>\n<li>Install LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available <a href=\"https://github.com/LSPosed/LSPosed#install\">here</a>.</li>\n<li>Install Let Me Downgrade.</li>\n<li>Activate the Let Me Downgrade module in the LSposed user interface.</li>\n</ol>\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/1.png\" width=\"300\" />\n  <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/2.png\" width=\"300\" />\n</p>\n<ol start=\"4\">\n<li>Reboot your device and sign in.</li>\n</ol>\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/3.png\" width=\"300\" />\n</p>\n<ol start=\"5\">\n<li>Open the quick settings panel. The Let Me Downgrade tile will appear.</li>\n</ol>\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/DavidBerdik/Let-Me-Downgrade/master/play-store-images/screenshots/4.png\" width=\"300\" />\n</p>\n<ol start=\"6\">\n<li>Toggle the Let Me Downgrade tile on or off to enable or disable it.</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "65a078dd6a17f1a9b2d4b92c1d55e9f21512d6cf6ae714bc07f4848042da3c6a": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.mihuashi.paybyfinger": {
+      "metadata": {
+        "description": {
+          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h2>告示</h2>\n<h5>本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看</h5>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n<h2>致谢</h2>\n<h4><a href=\"https://github.com/ShellWen\">Shellwen</a> 感谢其帮忙脱壳</h4>\n<h4><a href=\"https://github.com/KyuubiRan/EzXHelper\">EzXHelper</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/XKT\">XKT</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/Lyric-Getter\">Lyric-Getter</a> 参考了界面写法</h4>\n<h4><a href=\"https://github.com/ReChronoRain/HyperCeiler\">HyperCeiler</a> 参考了焦点通知实现</h4>\n<h4><a href=\"https://github.com/fankes/MIUINativeNotifyIcon\">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>\n<p><a href=\"https://www.jetbrains.com\"><img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/></a></p>\n"
+        }
+      },
+      "versions": {
+        "5fda45982d124f93fe333723acf61edfa6e6cb78dd79e4e8bdd5173e47d26338": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.xchat": {
+      "metadata": {
+        "authorName": "Yy-ss7",
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" />\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /></p>\n<h2>🙏感谢老板赐茶</h2>\n<p>因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。</p>\n<table>\n<thead>\n<tr>\n<th>老板昵称</th>\n<th>捐赠金额</th>\n<th>日期</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ali@嗷嗷待哺</td>\n<td>￥9.9</td>\n<td>2025-01-05</td>\n</tr>\n</tbody>\n</table>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+        }
+      },
+      "versions": {
+        "66bc12ecf96f63b139d122aeeb5f3835aaa6f583553b945462e3b4d50c4b3427": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.xconst.vavatar": {
+      "metadata": {
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
+        "summary": {
+          "en-US": "自动更换微信头像"
+        }
+      }
+    },
+    "com.xiaoer.watermark": {
+      "metadata": {
+        "authorName": "Yy-ss7"
+      }
+    },
+    "me.plusne": {
+      "versions": {
+        "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "ru.hepolise.volumekeymusicmanagermodule": {
+      "versions": {
+        "ebc944c380226eda96afeaecf6f4f89ad93e47b7104f0f97d51c150cf8b6ad18": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

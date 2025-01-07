@@ -1,8 +1,8 @@
 AuthorName: ghhccghk
 Categories:
     - Xposed
-CurrentVersion: 1.0.1
-CurrentVersionCode: 1
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3
 Description: |
     <h2><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1" alt="GitHub releases" /> <img src="https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square" alt="Release Download" /> <a href="https://github.com/ghhccghk/mhspay/releases/latest"><img src="https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square" alt="Release Version" /></a><br />
     <a href="https://github.com/ghhccghk/mhspay/LICENSE.md"><img src="https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square" alt="GitHub license" /></a><br />
@@ -29,6 +29,7 @@ Description: |
     <h4><a href="https://github.com/xiaowine/XKT">XKT</a> 使用了其项目</h4>
     <h4><a href="https://github.com/xiaowine/Lyric-Getter">Lyric-Getter</a> 参考了界面写法</h4>
     <h4><a href="https://github.com/ReChronoRain/HyperCeiler">HyperCeiler</a> 参考了焦点通知实现</h4>
+    <h4><a href="https://github.com/fankes/MIUINativeNotifyIcon">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>
     <p><a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="200"/></a></p>
 IssueTracker: ""
 Name: 米画师支付模块
