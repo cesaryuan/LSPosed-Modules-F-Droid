@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1736220448000,
+    "timestamp": 1736306008000,
     "categories": {
       "Xposed": {
         "name": {
@@ -408,6 +408,58 @@
                 "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
               ]
             }
+          }
+        }
+      }
+    },
+    "com.kgg.hhvideo": {
+      "metadata": {
+        "added": 1732159474000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1736305789000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
+        "authorName": "KongGuoguang",
+        "name": {
+          "en-US": "555电影(电影猎手)App去广告"
+        },
+        "summary": {
+          "en-US": "电影猎手App去广告模块"
+        },
+        "description": {
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://dyls.app/\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<p>无法安装Xposed框架的手机，可直接下载使用<a href=\"https://www.123684.com/s/XY3fjv-CSQKd\">内置模块版</a></p>\n<h1>更新日志</h1>\n<p>2025.01.07    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>安利一个微信小程序</h1>\n<p>打车、加油、寄快递、点外卖、住酒店、看电影、都有折扣，充话费、电费96折，还可领取拼多多、淘宝、京东、唯品会等电商购物优惠券</p>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/stsh.png\" alt=\"\" /></p>\n"
+        },
+        "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
+      },
+      "versions": {
+        "6e3a56e10919566c5f10abf380fc57fe7a42417286290634755e531d75f3f900": {
+          "added": 1732159474000,
+          "file": {
+            "name": "/com.kgg.hhvideo_16-1.0.16.apk",
+            "sha256": "6e3a56e10919566c5f10abf380fc57fe7a42417286290634755e531d75f3f900",
+            "size": 1302941
+          },
+          "manifest": {
+            "versionName": "1.0.16",
+            "versionCode": 16,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }

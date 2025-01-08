@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1736220448000,
+    "timestamp": 1736306008000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -12,6 +12,22 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "KongGuoguang",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.0.19",
+      "suggestedVersionCode": "19",
+      "description": "<h1>\u7535\u5f71\u730e\u624b(\u539f555\u7535\u5f71)\u53bb\u5e7f\u544a</h1>\n<p><a href=\"https://dyls.app/\">\u7535\u5f71\u730e\u624bApp</a>\u53bb\u5e7f\u544a\u6a21\u5757\uff0c\u4ec5\u7528\u4e8e\u5b66\u4e60\u4ea4\u6d41\uff0c\u8bf7\u52ff\u7528\u4e8e\u4efb\u4f55\u975e\u6cd5\u7528\u9014</p>\n<p>\u795e\u79d8\u89c2\u5f71App\uff0c\u514d\u8d39\u597d\u7528\uff0c\u4f4e\u8c03\u5206\u4eab\uff0c\u5185\u5bb9\u4e30\u5bcc\uff0c\u4eba\u624b\u5fc5\u5907\uff0c\u4e0d\u4f1a\u5931\u671b\uff01</p>\n<p>\u65e0\u6cd5\u5b89\u88c5Xposed\u6846\u67b6\u7684\u624b\u673a\uff0c\u53ef\u76f4\u63a5\u4e0b\u8f7d\u4f7f\u7528<a href=\"https://www.123684.com/s/XY3fjv-CSQKd\">\u5185\u7f6e\u6a21\u5757\u7248</a></p>\n<h1>\u66f4\u65b0\u65e5\u5fd7</h1>\n<p>2025.01.07\u00a0\u00a0\u00a0\u00a0v1.0.19\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.0.9\u7248\u672c</p>\n<h1>\u5b89\u5229\u4e00\u4e2a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f</h1>\n<p>\u6253\u8f66\u3001\u52a0\u6cb9\u3001\u5bc4\u5feb\u9012\u3001\u70b9\u5916\u5356\u3001\u4f4f\u9152\u5e97\u3001\u770b\u7535\u5f71\u3001\u90fd\u6709\u6298\u6263\uff0c\u5145\u8bdd\u8d39\u3001\u7535\u8d3996\u6298\uff0c\u8fd8\u53ef\u9886\u53d6\u62fc\u591a\u591a\u3001\u6dd8\u5b9d\u3001\u4eac\u4e1c\u3001\u552f\u54c1\u4f1a\u7b49\u7535\u5546\u8d2d\u7269\u4f18\u60e0\u5238</p>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/stsh.png\" alt=\"\" /></p>\n",
+      "license": "Unknown",
+      "name": "555\u7535\u5f71(\u7535\u5f71\u730e\u624b)App\u53bb\u5e7f\u544a",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
+      "summary": "\u7535\u5f71\u730e\u624bApp\u53bb\u5e7f\u544a\u6a21\u5757",
+      "added": 1732159474000,
+      "packageName": "com.kgg.hhvideo",
+      "lastUpdated": 1736305789000
+    },
     {
       "authorName": "zjyzip",
       "categories": [
@@ -543,6 +559,32 @@
         "targetSdkVersion": 34,
         "versionCode": 2024052201,
         "versionName": "1.6"
+      }
+    ],
+    "com.kgg.hhvideo": [
+      {
+        "added": 1732159474000,
+        "apkName": "com.kgg.hhvideo_16-1.0.16.apk",
+        "hash": "6e3a56e10919566c5f10abf380fc57fe7a42417286290634755e531d75f3f900",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.kgg.hhvideo",
+        "sig": "6883073c7355e7e21707a573344978d7",
+        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
+        "size": 1302941,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 16,
+        "versionName": "1.0.16"
       }
     ],
     "com.parallelc.micts": [
