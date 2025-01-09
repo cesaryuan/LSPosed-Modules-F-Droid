@@ -1,0 +1,12 @@
+本 Release 同步自源仓库 [Sesame-TK](https://github.com/Fansirsqi/Sesame-TK)
+**更新内容**:
+## What's Changed
+
+* 🐛fix: 修复初始化模块因文件序列化异常抛出的错误
+
+* 🐛fix: 修复首次使用模块时闪退问题
+
+* ✨art: 优化无响应问题，持续无响应请杀死支付宝后台，手动强行停止，清除模块所有数据，包括删除或者重命名`/storage/emulated/0/Android/media/com.eg.android.AlipayGphone/sesame-TK`文件夹的名字后，重新配置模块，打开zfb
+哒哒哒
+
+**Full Changelog**: https://github.com/Fansirsqi/Sesame-TK/compare/v0.2.4-beta.1.fix...v0.2.4-beta.2

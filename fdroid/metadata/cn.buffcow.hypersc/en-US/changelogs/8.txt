@@ -1,0 +1,20 @@
+- 适配 HyperOS 2
+- 重构代码，不再依赖系统的导航充电保护
+- 更换作用域到 安全服务(`com.miui.securitycenter`)
+- 添加设置选项，支持自定义断充阈值设置
+
+---
+
+- Supported HyperOS 2
+- Refactored the code to remove reliance on the system’s navigation charging protection
+- Changed the scope to Security (`com.miui.securitycenter`)
+- Added settings options, and support custom smart charge protection value
+
+---
+
+>[!WARNING]
+>由于代码变动较大，可能会出现无效或 Bug
+>若遇到问题，请提供相关日志以便开发者排查
+>
+>Due to significant code changes, there may be issues or bugs, 
+>If you encounter any problems, please provide the device logs for troubleshooting.
