@@ -1,32 +1,41 @@
 AuthorName: buffcow
 Categories:
     - Xposed
-CurrentVersion: 1.0.1
-CurrentVersionCode: 2
+CurrentVersion: 1.1.3
+CurrentVersionCode: 8
 Description: |
     <h1>智能断充（HyperSmartCharge）</h1>
-    <p>让<strong>支持导航断充</strong>的设备在非导航情景下也能使用智能断充，妈妈再也不用担心我的手机过充啦！</p>
-    <p>Allow devices that <strong>support navigation smart charge</strong> to use smart charging in non-navigation situations.</p>
+    <p>为支持<strong>电池充电保护</strong>的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！</p>
+    <p>Add custom charge protect value setting for devices that support <strong>battery charge protection</strong>.</p>
+    <blockquote>
+    <p>[!WARNING]<br />
+    本模块的使用所产生的所有后果，由使用者自行承担，项目组不承担任何责任，使用者应自行评估并承担相关风险。<br />
+    本项目不对任何任何衍生项目负责。</p>
+    </blockquote>
     <h2>使用</h2>
     <ol>
     <li>在 LSPosed 管理器中激活模块</li>
-    <li>作用域勾选 系统框架(<strong><code>system</code></strong>)</li>
+    <li>作用域勾选 安全服务(<strong><code>com.miui.securitycenter</code></strong>)</li>
     <li><strong>重启手机</strong></li>
+    <li>转到 <strong><code>省电与电池</code></strong> —— <strong><code>电池保护</code></strong> —— <strong><code>智能断充</code></strong> 设置阈值</li>
     </ol>
     <h2>注意</h2>
     <ol>
-    <li>需要设备本身支持导航断充并搭载了 HyperOS 系统</li>
-    <li>请到 <code>设置</code>——<code>省电与电池</code>——<code>电池保护</code> 界面并打开 <strong><code>导航断充保护</code></strong></li>
+    <li>需要设备本身支持电池保护功能并搭载 HyperOS 的系统</li>
+    <li>支持调节范围为 20-100，推荐设置在 70-90 之间</li>
     <li>目前仅在 小米14(pro) 下测试通过</li>
     </ol>
     <h2>下载</h2>
     <p><a href="https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc/releases">LSPosed 仓库</a></p>
     <h2>无效</h2>
-    <p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
+    <p>请先检查设备是否支持电池保护功能，模块是否正常激活，并且作用域是否勾选。
+    <br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
+    <h2>致谢</h2>
+    <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
 IssueTracker: ""
 Name: 智能断充（HyperSmartCharge）
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc
 Summary: |-
-    让支持导航断充的设备在非导航情景下也能使用智能断充，妈妈再也不用担心我的手机过充啦！
-    Allow devices that support navigat...
+    为支持电池充电保护的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！
+    Add custom charge protect value sett...
 WebSite: ""

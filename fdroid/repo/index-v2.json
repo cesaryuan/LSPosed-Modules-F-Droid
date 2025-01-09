@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736306021000,
+    "timestamp": 1736394191000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1429,21 +1429,47 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159413000,
+        "lastUpdated": 1736393772000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc",
         "authorName": "buffcow",
         "name": {
           "en-US": "智能断充（HyperSmartCharge）"
         },
         "summary": {
-          "en-US": "让支持导航断充的设备在非导航情景下也能使用智能断充，妈妈再也不用担心我的手机过充啦！\nAllow devices that support navigat..."
+          "en-US": "为支持电池充电保护的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！\nAdd custom charge protect value sett..."
         },
         "description": {
-          "en-US": "<h1>智能断充（HyperSmartCharge）</h1>\n<p>让<strong>支持导航断充</strong>的设备在非导航情景下也能使用智能断充，妈妈再也不用担心我的手机过充啦！</p>\n<p>Allow devices that <strong>support navigation smart charge</strong> to use smart charging in non-navigation situations.</p>\n<h2>使用</h2>\n<ol>\n<li>在 LSPosed 管理器中激活模块</li>\n<li>作用域勾选 系统框架(<strong><code>system</code></strong>)</li>\n<li><strong>重启手机</strong></li>\n</ol>\n<h2>注意</h2>\n<ol>\n<li>需要设备本身支持导航断充并搭载了 HyperOS 系统</li>\n<li>请到 <code>设置</code>——<code>省电与电池</code>——<code>电池保护</code> 界面并打开 <strong><code>导航断充保护</code></strong></li>\n<li>目前仅在 小米14(pro) 下测试通过</li>\n</ol>\n<h2>下载</h2>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc/releases\">LSPosed 仓库</a></p>\n<h2>无效</h2>\n<p>请先检查模块是否正常激活，并且作用域是否勾选。<br>如果排查后仍有错误，请提交issue。或联系酷安<a href=\"http://www.coolapk.com/u/1188320\">@buffcow</a>(qingyu)</p>\n"
+          "en-US": "<h1>智能断充（HyperSmartCharge）</h1>\n<p>为支持<strong>电池充电保护</strong>的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！</p>\n<p>Add custom charge protect value setting for devices that support <strong>battery charge protection</strong>.</p>\n<blockquote>\n<p>[!WARNING]<br />\n本模块的使用所产生的所有后果，由使用者自行承担，项目组不承担任何责任，使用者应自行评估并承担相关风险。<br />\n本项目不对任何任何衍生项目负责。</p>\n</blockquote>\n<h2>使用</h2>\n<ol>\n<li>在 LSPosed 管理器中激活模块</li>\n<li>作用域勾选 安全服务(<strong><code>com.miui.securitycenter</code></strong>)</li>\n<li><strong>重启手机</strong></li>\n<li>转到 <strong><code>省电与电池</code></strong> —— <strong><code>电池保护</code></strong> —— <strong><code>智能断充</code></strong> 设置阈值</li>\n</ol>\n<h2>注意</h2>\n<ol>\n<li>需要设备本身支持电池保护功能并搭载 HyperOS 的系统</li>\n<li>支持调节范围为 20-100，推荐设置在 70-90 之间</li>\n<li>目前仅在 小米14(pro) 下测试通过</li>\n</ol>\n<h2>下载</h2>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc/releases\">LSPosed 仓库</a></p>\n<h2>无效</h2>\n<p>请先检查设备是否支持电池保护功能，模块是否正常激活，并且作用域是否勾选。\n<br>如果排查后仍有错误，请提交issue。或联系酷安<a href=\"http://www.coolapk.com/u/1188320\">@buffcow</a>(qingyu)</p>\n<h2>致谢</h2>\n<p>模块使用 <a href=\"https://github.com/fankes/YukiHookAPI\">Yuki Hook API</a> 构建</p>\n"
         },
         "preferredSigner": "99a27da75aa85e6e5cf3841010fa754b84719740e1e9b550a662aa5052a02d97"
       },
       "versions": {
+        "173177358dbe126c2375f227aacd6ea4d2bbe354769dcf67911c2df0e44c562b": {
+          "added": 1736393772000,
+          "file": {
+            "name": "/cn.buffcow.hypersc_8-1.1.3.apk",
+            "sha256": "173177358dbe126c2375f227aacd6ea4d2bbe354769dcf67911c2df0e44c562b",
+            "size": 775656
+          },
+          "manifest": {
+            "versionName": "1.1.3",
+            "versionCode": 8,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "99a27da75aa85e6e5cf3841010fa754b84719740e1e9b550a662aa5052a02d97"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.buffcow.hypersc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "bdf7e36971a680f4bd12a825c5ae85693b5e4f603e4f954875f107bb7328ed35": {
           "added": 1732159413000,
           "file": {
@@ -2431,7 +2457,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736305741000,
+        "lastUpdated": 1736393778000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -10029,7 +10055,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://dyls.app/\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<p>无法安装Xposed框架的手机，可直接下载使用<a href=\"https://www.123684.com/s/XY3fjv-CSQKd\">内置模块版</a></p>\n<h1>更新日志</h1>\n<p>2025.01.07    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>安利一个微信小程序</h1>\n<p>打车、加油、寄快递、点外卖、住酒店、看电影、都有折扣，充话费、电费96折，还可领取拼多多、淘宝、京东、唯品会等电商购物优惠券</p>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/stsh.png\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-CSQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<hr />\n<h2>省团生活APP\n下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></h2>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -15373,7 +15399,7 @@
           "en-US": "Enhance Wechat!"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" />\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /></p>\n<h2>🙏感谢老板赐茶</h2>\n<p>因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。</p>\n<table>\n<thead>\n<tr>\n<th>老板昵称</th>\n<th>捐赠金额</th>\n<th>日期</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ali@嗷嗷待哺</td>\n<td>￥9.9</td>\n<td>2025-01-05</td>\n</tr>\n</tbody>\n</table>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" />\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /></p>\n</p>\n图片加载不出来的老板试试这里：  \n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\">微信</a>  \n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\">ali</a>\n</p>\n<h2>🙏感谢老板赐茶</h2>\n<p>因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。</p>\n<table>\n<thead>\n<tr>\n<th>老板昵称</th>\n<th>捐赠金额</th>\n<th>日期</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ali@嗷嗷待哺</td>\n<td>￥9.9</td>\n<td>2025-01-05</td>\n</tr>\n</tbody>\n</table>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
         },
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
@@ -15449,7 +15475,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736305822000,
+        "lastUpdated": 1736393858000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -17885,7 +17911,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734233720000,
+        "lastUpdated": 1736393873000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/fansirsqi.xposed.sesame",
         "authorName": "Fansirsqi",
         "name": {
@@ -17895,11 +17921,52 @@
           "en-US": "蚂蚁森林快速收取能量"
         },
         "description": {
-          "en-US": "<h1>Sesame-TK</h1>\n<center>\n<p><img src=\"https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto\" alt=\"Sesame-TK\" /></p>\n<p><a href=\"https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE\"><img src=\"https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=License&amp;logo=gnuprivacyguard\" alt=\"License\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=Releases&amp;logo=gitlfs\" alt=\"Latest Release\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff&amp;label=Downloads&amp;logo=codefresh\" alt=\"All Releases Download\" /></a>\n<a href=\"https://t.me/fansirsqi_xposed_sesame\"><img src=\"https://img.shields.io/badge/Sesame--TK-nul?&amp;logo=Telegram&amp;label=Telegram-Channel&amp;labelColor=fff&amp;link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame\" alt=\"Telegram\" /></a></p>\n</center>\n<h2>forked from <a href=\"https://github.com/TKaxv-7S/Sesame-TK\">TKaxv-7S</a></h2>\n<h2><a href=\"https://github.com/Fansirsqi/Sesame-TK\">本项目地址</a></h2>\n<p>感谢蚂蚁森林对绿化事业的贡献。快速收取蚂蚁森林能量，也为祖国的绿化事业出一份微薄之力~</p>\n<p>你 可 以 fork <a href=\"https://github.com/Fansirsqi/Sesame-TK\">源代码</a> 自 行 编 译 ⚙️。</p>\n<p>我 是 一 个 新 手 ，所 以 代 码 的 质 量 可 能 不 那 么 好 。 欢 迎 提 出 建 议。</p>\n<p>（尽管我不确定我能做些什么）因为我可能真的不能做些什么。</p>\n<p>如 果 你 喜 欢 这 个 项 目 ， 欢 迎 提 交 PR。</p>\n<p>感谢🙏。</p>\n<details>\n<summary>图 片 预 览</summary>\n<div style=\"display: flex; align-items: flex-start; justify-content: center;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg\" alt=\"Screenshot 1\" style=\"max-width: 35%; height: auto; margin-right: 10px;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg\" alt=\"Screenshot 2\" style=\"max-width: 35%; height: auto;\">\n</div>\n</details>\n<strong style=\"color:red;\">\n<h2>免责声明</h2>\n<ol>\n<li>本软件仅供学习和研究使用，禁止任何形式的转发、发布或传播。本应用程序（以下简称“本APP”）仅供学习和研究用途，严禁以任何形式进行转发、发布或传播。</li>\n<li>使用者应在下载本APP后24小时内自行卸载。若在使用期间造成任何损失，作者概不负责。</li>\n<li>本APP不篡改、不修改、不收集、不存储任何个人信息或支付宝相关信息。</li>\n<li>因违反本声明内容触犯中华人民共和国法律的行为，其一切后果由使用者自行承担，作者不承担任何法律责任。</li>\n<li>凡以任何方式直接或间接使用本APP的行为，均视为自愿接受本声明的约束。</li>\n<li>若本APP无意中侵犯了任何媒体或个人的知识产权，请通过邮件或电话告知，作者将立即删除相关内容或应用。</li>\n</ol>\n<h2>Disclaimer</h2>\n<ol>\n<li>This application (hereinafter referred to as “the APP”) is solely for educational and research purposes. Redistribution, publication, or dissemination in any form is strictly prohibited.</li>\n<li>Users must uninstall this APP within 24 hours of downloading. The author is not responsible for any damage or loss caused during its use.</li>\n<li>This APP does not alter, modify, collect, or store any personal information or Alipay-related data.</li>\n<li>Any user violating this disclaimer and breaching the laws of the People’s Republic of China shall bear full responsibility for the consequences. The author assumes no legal liability.</li>\n<li>Any person who directly or indirectly uses this APP is deemed to have voluntarily accepted the constraints of this disclaimer.</li>\n<li>If this APP unintentionally infringes upon the intellectual property rights of any individual or entity, please contact the author via email or phone. The author will immediately remove the relevant content or application.</li>\n</ol>\n</strong>\n"
+          "en-US": "<h1>Sesame-TK</h1>\n<center>\n<p><img src=\"https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;pulls=1&amp;stargazers=1&amp;theme=Auto\" alt=\"Sesame-TK\" /></p>\n<p><a href=\"https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE\"><img src=\"https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=License&amp;logo=gnuprivacyguard\" alt=\"License\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff&amp;label=Releases&amp;logo=gitlfs\" alt=\"Latest Release\" /></a>\n<a href=\"../../releases\"><img src=\"https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff&amp;label=Downloads&amp;logo=codefresh\" alt=\"All Releases Download\" /></a>\n<a href=\"https://t.me/fansirsqi_xposed_sesame\"><img src=\"https://img.shields.io/badge/Sesame--TK-nul?&amp;logo=Telegram&amp;label=Telegram-Channel&amp;labelColor=fff&amp;link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame\" alt=\"Telegram\" /></a></p>\n<blockquote>\n<p>墙内更新<a href=\"https://fansirs.lanzoue.com/b011kv6pwd\">戳这里</a> 密码:<code>9527</code></p>\n</blockquote>\n</center>\n<h2>forked from <a href=\"https://github.com/TKaxv-7S/Sesame-TK\">TKaxv-7S</a></h2>\n<h2><a href=\"https://github.com/Fansirsqi/Sesame-TK\">本项目地址</a></h2>\n<p>感谢蚂蚁森林对绿化事业的贡献。快速收取蚂蚁森林能量，也为祖国的绿化事业出一份微薄之力~</p>\n<p>你 可 以 fork <a href=\"https://github.com/Fansirsqi/Sesame-TK\">源代码</a> 自 行 编 译 ⚙️。</p>\n<p>我 是 一 个 新 手 ，所 以 代 码 的 质 量 可 能 不 那 么 好 。 欢 迎 提 出 建 议。</p>\n<p>（尽管我不确定我能做些什么）因为我可能真的不能做些什么。</p>\n<p>如 果 你 喜 欢 这 个 项 目 ， 欢 迎 提 交 PR。</p>\n<p>感谢🙏。</p>\n<details>\n<summary>图 片 预 览</summary>\n<div style=\"display: flex; align-items: flex-start; justify-content: center;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg\" alt=\"Screenshot 1\" style=\"max-width: 35%; height: auto; margin-right: 10px;\">\n  <img src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg\" alt=\"Screenshot 2\" style=\"max-width: 35%; height: auto;\">\n</div>\n</details>\n<strong style=\"color:red;\">\n<h2>免责声明</h2>\n<ol>\n<li>本软件仅供学习和研究使用，禁止任何形式的转发、发布或传播。本应用程序（以下简称“本APP”）仅供学习和研究用途，严禁以任何形式进行转发、发布或传播。</li>\n<li>使用者应在下载本APP后24小时内自行卸载。若在使用期间造成任何损失，作者概不负责。</li>\n<li>本APP不篡改、不修改、不收集、不存储任何个人信息或支付宝相关信息。</li>\n<li>因违反本声明内容触犯中华人民共和国法律的行为，其一切后果由使用者自行承担，作者不承担任何法律责任。</li>\n<li>凡以任何方式直接或间接使用本APP的行为，均视为自愿接受本声明的约束。</li>\n<li>若本APP无意中侵犯了任何媒体或个人的知识产权，请通过邮件或电话告知，作者将立即删除相关内容或应用。</li>\n</ol>\n<h2>Disclaimer</h2>\n<ol>\n<li>This application (hereinafter referred to as “the APP”) is solely for educational and research purposes. Redistribution, publication, or dissemination in any form is strictly prohibited.</li>\n<li>Users must uninstall this APP within 24 hours of downloading. The author is not responsible for any damage or loss caused during its use.</li>\n<li>This APP does not alter, modify, collect, or store any personal information or Alipay-related data.</li>\n<li>Any user violating this disclaimer and breaching the laws of the People’s Republic of China shall bear full responsibility for the consequences. The author assumes no legal liability.</li>\n<li>Any person who directly or indirectly uses this APP is deemed to have voluntarily accepted the constraints of this disclaimer.</li>\n<li>If this APP unintentionally infringes upon the intellectual property rights of any individual or entity, please contact the author via email or phone. The author will immediately remove the relevant content or application.</li>\n</ol>\n</strong>\n"
         },
         "preferredSigner": "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981"
       },
       "versions": {
+        "41df845de37010f26aa404e191efbefdac6598feb702395706cf0d9bc80f6cbd": {
+          "added": 1736393873000,
+          "file": {
+            "name": "/fansirsqi.xposed.sesame_1434-0.2.4-beta.2.apk",
+            "sha256": "41df845de37010f26aa404e191efbefdac6598feb702395706cf0d9bc80f6cbd",
+            "size": 7242047
+          },
+          "manifest": {
+            "versionName": "0.2.4-beta.2",
+            "versionCode": 1434,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 27
+            },
+            "signer": {
+              "sha256": [
+                "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "fansirsqi.xposed.sesame.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "47acf438175eb34b4bb8d07cd935d30f60798902d78080b250861522a9ce9797": {
           "added": 1734233720000,
           "file": {
@@ -17960,44 +18027,6 @@
             "usesPermission": [
               {
                 "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              }
-            ]
-          }
-        },
-        "128dabcc2f0c6b2faaf6b43842bdd90de4cc3bffe66aca4e9f70a21bfa86c2c0": {
-          "added": 1732159525000,
-          "file": {
-            "name": "/fansirsqi.xposed.sesame_80-ffa7f8de-alpha.apk",
-            "sha256": "128dabcc2f0c6b2faaf6b43842bdd90de4cc3bffe66aca4e9f70a21bfa86c2c0",
-            "size": 4249602
-          },
-          "manifest": {
-            "versionName": "ffa7f8de-alpha",
-            "versionCode": 80,
-            "usesSdk": {
-              "minSdkVersion": 21,
-              "targetSdkVersion": 31
-            },
-            "signer": {
-              "sha256": [
-                "41078f77b7bb63d9b15ca76051e4a975e0f019447c29a4e166de9deed5625981"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
               },
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE"
