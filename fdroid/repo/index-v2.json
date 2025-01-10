@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736394191000,
+    "timestamp": 1736479472000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1429,7 +1429,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736393772000,
+        "lastUpdated": 1736479188000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc",
         "authorName": "buffcow",
         "name": {
@@ -1444,6 +1444,32 @@
         "preferredSigner": "99a27da75aa85e6e5cf3841010fa754b84719740e1e9b550a662aa5052a02d97"
       },
       "versions": {
+        "ba1b90f2c4dddf04054378d2f6946c50917f699e25ddf1225fc8193f0b99f964": {
+          "added": 1736479188000,
+          "file": {
+            "name": "/cn.buffcow.hypersc_12-1.1.7.apk",
+            "sha256": "ba1b90f2c4dddf04054378d2f6946c50917f699e25ddf1225fc8193f0b99f964",
+            "size": 779505
+          },
+          "manifest": {
+            "versionName": "1.1.7",
+            "versionCode": 12,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "99a27da75aa85e6e5cf3841010fa754b84719740e1e9b550a662aa5052a02d97"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "cn.buffcow.hypersc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "173177358dbe126c2375f227aacd6ea4d2bbe354769dcf67911c2df0e44c562b": {
           "added": 1736393772000,
           "file": {
@@ -2457,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736393778000,
+        "lastUpdated": 1736479195000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -10055,7 +10081,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-CSQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<hr />\n<h2>省团生活APP\n下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></h2>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -15475,7 +15501,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736393858000,
+        "lastUpdated": 1736479276000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {

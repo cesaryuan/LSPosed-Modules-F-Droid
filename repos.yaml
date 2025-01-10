@@ -1328,30 +1328,20 @@ cn.buffcow.hypersc:
             <br>如果排查后仍有错误，请提交issue。或联系酷安<a href="http://www.coolapk.com/u/1188320">@buffcow</a>(qingyu)</p>
             <h2>致谢</h2>
             <p>模块使用 <a href="https://github.com/fankes/YukiHookAPI">Yuki Hook API</a> 构建</p>
-          filename: HyperSmartCharge-1.1.3_8.apk
+          filename: HyperSmartCharge-1.1.7_12.apk
           id: cn.buffcow.hypersc
           name: 智能断充（HyperSmartCharge）
-          last_updated: "2025-01-08T10:19:13Z"
+          last_updated: "2025-01-09T06:59:56Z"
           releasedescription: |-
             <ul>
-            <li>适配 HyperOS 2</li>
-            <li>重构代码，不再依赖系统的导航充电保护</li>
-            <li>更换作用域到 安全服务(<code>com.miui.securitycenter</code>)</li>
-            <li>添加设置选项，支持自定义断充阈值设置</li>
+            <li>优化代码</li>
+            <li>修复充电时关闭再开启智能断充不显示通知</li>
             </ul>
             <hr>
             <ul>
-            <li>Supported HyperOS 2</li>
-            <li>Refactored the code to remove reliance on the system’s navigation charging protection</li>
-            <li>Changed the scope to Security (<code>com.miui.securitycenter</code>)</li>
-            <li>Added settings options, and support custom smart charge protection value</li>
+            <li>Optimize the code</li>
+            <li>Fix notification that after closed and open the smart charge again when charging</li>
             </ul>
-            <hr>
-            <div class="markdown-alert markdown-alert-warning"><p class="markdown-alert-title"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p>由于代码变动较大，可能会出现无效或 Bug<br>
-            若遇到问题，请提供相关日志以便开发者排查</p>
-            <p>Due to significant code changes, there may be issues or bugs,<br>
-            If you encounter any problems, please provide the device logs for troubleshooting.</p>
-            </div>
     author_name: buffcow
 cn.coderstory.miui.water:
     git: https://github.com/Xposed-Modules-Repo/cn.coderstory.miui.water
@@ -7713,22 +7703,20 @@ com.kgg.hhvideo:
             - Xposed
           description: |
             <h1>电影猎手(原555电影)去广告</h1>
-            <p><a href="https://www.123684.com/s/XY3fjv-CSQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
+            <p><a href="https://www.123684.com/s/XY3fjv-plQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
             <p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>
             <h1>省团生活App，吃喝玩乐都有优惠</h1>
-            <hr />
-            <h2>省团生活APP
-            下载链接：<a href="https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></h2>
+            <p>下载链接：<a href="https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>
             <p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>
           filename: dylsNoAd_1.0.19_release.apk
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
-          last_updated: "2025-01-09T02:06:05Z"
+          last_updated: "2025-01-09T06:36:48Z"
           releasedescription: |-
             <p>适配电影猎手3.1.0.9版本</p>
-            <p>内置模块电影猎手下载地址：<a href="https://www.123684.com/s/XY3fjv-CSQKd" rel="nofollow">https://www.123684.com/s/XY3fjv-CSQKd</a></p>
+            <p>内置模块电影猎手下载地址：<a href="https://www.123684.com/s/XY3fjv-plQKd" rel="nofollow">https://www.123684.com/s/XY3fjv-plQKd</a></p>
     author_name: KongGuoguang
 com.kgg.hlddz:
     git: https://github.com/Xposed-Modules-Repo/com.kgg.hlddz
@@ -10034,55 +10022,6 @@ com.rifsxd.processhook:
             <li>revert changes to previous refactored code and fix debug app ids</li>
             </ul>
     author_name: rifsxd
-com.rong862.splashad:
-    git: https://github.com/Xposed-Modules-Repo/com.rong862.splashad
-    summary: ""
-    applications:
-        - anti_features: []
-          categories:
-            - Xposed
-          description: |
-            <h2>去除一些app的启动广告</h2>
-            <p>&lt;–网易新闻–&gt;
-            com.netease.newsreader.activity</p>
-            <p>&lt;–百度地图–&gt;
-            com.baidu.BaiduMap</p>
-            <p>&lt;–小米应用市场–&gt;
-            com.xiaomi.market</p>
-            <p>&lt;–小米音乐–&gt;
-            com.miui.player</p>
-            <p>&lt;–爱奇艺视频–&gt;
-            com.qiyi.video</p>
-            <p>&lt;–新浪微博–&gt;
-            com.sina.weibo</p>
-            <p>&lt;–脉脉–&gt;
-            com.taou.maimai</p>
-            <p>&lt;–小米钱包–&gt;
-            com.mipay.wallet</p>
-            <p>&lt;–知乎–&gt;
-            com.zhihu.android</p>
-            <p>&lt;–酷狗–&gt;
-            com.kugou.android</p>
-            <p>&lt;–智行旅行–&gt;
-            cn.suanya.zhixing</p>
-            <p>&lt;–美团–&gt;
-            com.sankuai.meituan</p>
-            <p>&lt;–12306–&gt;
-            com.MobileTicket</p>
-            <p>&lt;–乐刻运动–&gt;
-            com.leoao.fitness</p>
-            <p>&lt;–哔哩哔哩–&gt;
-            tv.danmaku.bili</p>
-            <p>&lt;–腾讯视频–&gt;
-            com.tencent.qqlive</p>
-          filename: SpalshAd_v1.1.apk
-          id: com.rong862.splashad
-          name: 开屏小能手
-          last_updated: "2023-03-24T06:48:51Z"
-          releasedescription: |-
-            <p>增加<br>
-            --腾讯视频</p>
-    author_name: rong862
 com.setoskins.hook:
     git: https://github.com/Xposed-Modules-Repo/com.setoskins.hook
     summary: 一个用于Hook小米系统的工具
