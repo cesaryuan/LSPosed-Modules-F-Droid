@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1736394191000,
+    "timestamp": 1736479472000,
     "version": 20002
   },
   "requests": {
@@ -35,18 +35,18 @@
       "summary": "微信群消息助手 - 整理群消息、服务号。"
     },
     {
-      "added": 1736388365000,
+      "added": 1736404608000,
       "authorName": "KongGuoguang",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-CSQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003chr /\u003e\n\u003ch2\u003e省团生活APP\n下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-plQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
       "icon": "com.kgg.hhvideo.png",
-      "lastUpdated": 1736388365000,
+      "lastUpdated": 1736404608000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配电影猎手3.1.0.9版本\n\n内置模块电影猎手下载地址：https://www.123684.com/s/XY3fjv-CSQKd"
+          "whatsNew": "适配电影猎手3.1.0.9版本\n\n内置模块电影猎手下载地址：https://www.123684.com/s/XY3fjv-plQKd"
         }
       },
       "name": "555电影(电影猎手)App去广告",
@@ -6816,7 +6816,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1736393858000,
+      "lastUpdated": 1736479276000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8277,14 +8277,14 @@
       "summary": "永不休眠却不想屏幕亮着。\nNever sleep but don't want the screen to be on."
     },
     {
-      "added": 1679640531000,
+      "added": 1732159492000,
       "authorName": "rong862",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003e去除一些app的启动广告\u003c/h2\u003e\n\u003cp\u003e\u0026lt;–网易新闻–\u0026gt;\ncom.netease.newsreader.activity\u003c/p\u003e\n\u003cp\u003e\u0026lt;–百度地图–\u0026gt;\ncom.baidu.BaiduMap\u003c/p\u003e\n\u003cp\u003e\u0026lt;–小米应用市场–\u0026gt;\ncom.xiaomi.market\u003c/p\u003e\n\u003cp\u003e\u0026lt;–小米音乐–\u0026gt;\ncom.miui.player\u003c/p\u003e\n\u003cp\u003e\u0026lt;–爱奇艺视频–\u0026gt;\ncom.qiyi.video\u003c/p\u003e\n\u003cp\u003e\u0026lt;–新浪微博–\u0026gt;\ncom.sina.weibo\u003c/p\u003e\n\u003cp\u003e\u0026lt;–脉脉–\u0026gt;\ncom.taou.maimai\u003c/p\u003e\n\u003cp\u003e\u0026lt;–小米钱包–\u0026gt;\ncom.mipay.wallet\u003c/p\u003e\n\u003cp\u003e\u0026lt;–知乎–\u0026gt;\ncom.zhihu.android\u003c/p\u003e\n\u003cp\u003e\u0026lt;–酷狗–\u0026gt;\ncom.kugou.android\u003c/p\u003e\n\u003cp\u003e\u0026lt;–智行旅行–\u0026gt;\ncn.suanya.zhixing\u003c/p\u003e\n\u003cp\u003e\u0026lt;–美团–\u0026gt;\ncom.sankuai.meituan\u003c/p\u003e\n\u003cp\u003e\u0026lt;–12306–\u0026gt;\ncom.MobileTicket\u003c/p\u003e\n\u003cp\u003e\u0026lt;–乐刻运动–\u0026gt;\ncom.leoao.fitness\u003c/p\u003e\n\u003cp\u003e\u0026lt;–哔哩哔哩–\u0026gt;\ntv.danmaku.bili\u003c/p\u003e\n\u003cp\u003e\u0026lt;–腾讯视频–\u0026gt;\ncom.tencent.qqlive\u003c/p\u003e\n",
       "icon": "com.rong862.SplashAd.png",
-      "lastUpdated": 1679640531000,
+      "lastUpdated": 1732159492000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -8634,24 +8634,24 @@
       "summary": "基于小米时钟和 Xposed 实现的定时执行脚本功能"
     },
     {
-      "added": 1736331553000,
+      "added": 1736405996000,
       "authorName": "buffcow",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e智能断充（HyperSmartCharge）\u003c/h1\u003e\n\u003cp\u003e为支持\u003cstrong\u003e电池充电保护\u003c/strong\u003e的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！\u003c/p\u003e\n\u003cp\u003eAdd custom charge protect value setting for devices that support \u003cstrong\u003ebattery charge protection\u003c/strong\u003e.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!WARNING]\u003cbr /\u003e\n本模块的使用所产生的所有后果，由使用者自行承担，项目组不承担任何责任，使用者应自行评估并承担相关风险。\u003cbr /\u003e\n本项目不对任何任何衍生项目负责。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e使用\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e在 LSPosed 管理器中激活模块\u003c/li\u003e\n\u003cli\u003e作用域勾选 安全服务(\u003cstrong\u003e\u003ccode\u003ecom.miui.securitycenter\u003c/code\u003e\u003c/strong\u003e)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e重启手机\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e转到 \u003cstrong\u003e\u003ccode\u003e省电与电池\u003c/code\u003e\u003c/strong\u003e —— \u003cstrong\u003e\u003ccode\u003e电池保护\u003c/code\u003e\u003c/strong\u003e —— \u003cstrong\u003e\u003ccode\u003e智能断充\u003c/code\u003e\u003c/strong\u003e 设置阈值\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e注意\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e需要设备本身支持电池保护功能并搭载 HyperOS 的系统\u003c/li\u003e\n\u003cli\u003e支持调节范围为 20-100，推荐设置在 70-90 之间\u003c/li\u003e\n\u003cli\u003e目前仅在 小米14(pro) 下测试通过\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e下载\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc/releases\"\u003eLSPosed 仓库\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e无效\u003c/h2\u003e\n\u003cp\u003e请先检查设备是否支持电池保护功能，模块是否正常激活，并且作用域是否勾选。\n\u003cbr\u003e如果排查后仍有错误，请提交issue。或联系酷安\u003ca href=\"http://www.coolapk.com/u/1188320\"\u003e@buffcow\u003c/a\u003e(qingyu)\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003cp\u003e模块使用 \u003ca href=\"https://github.com/fankes/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e 构建\u003c/p\u003e\n",
-      "lastUpdated": 1736331553000,
+      "lastUpdated": 1736405996000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 适配 HyperOS 2\n- 重构代码，不再依赖系统的导航充电保护\n- 更换作用域到 安全服务(`com.miui.securitycenter`)\n- 添加设置选项，支持自定义断充阈值设置\n\n---\n\n- Supported HyperOS 2\n- Refactored the code to remove reliance on the system’s navigation charging protection\n- Changed the scope to Security (`com.miui.securitycenter`)\n- Added settings options, and support custom smart charge protection value\n\n---\n\n\u003e[!WARNING]\n\u003e由于代码变动较大，可能会出现无效或 Bug\n\u003e若遇到问题，请提供相关日志以便开发者排查\n\u003e\n\u003eDue to significant code changes, there may be issues or bugs, \n\u003eIf you encounter any "
+          "whatsNew": "- 优化代码\n- 修复充电时关闭再开启智能断充不显示通知\n\n---\n\n- Optimize the code\n- Fix notification that after closed and open the smart charge again when charging"
         }
       },
       "name": "智能断充（HyperSmartCharge）",
       "packageName": "cn.buffcow.hypersc",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.buffcow.hypersc",
-      "suggestedVersionCode": "8",
-      "suggestedVersionName": "1.1.3",
+      "suggestedVersionCode": "12",
+      "suggestedVersionName": "1.1.7",
       "summary": "为支持电池充电保护的设备添加自定义断充阈值设置，妈妈再也不用担心我的手机过充啦！\nAdd custom charge protect value sett..."
     },
     {
@@ -10357,7 +10357,22 @@
     ],
     "cn.buffcow.hypersc": [
       {
-        "added": 1736331553000,
+        "added": 1736405996000,
+        "apkName": "cn.buffcow.hypersc_12-1.1.7.apk",
+        "hash": "ba1b90f2c4dddf04054378d2f6946c50917f699e25ddf1225fc8193f0b99f964",
+        "hashType": "sha256",
+        "minSdkVersion": 33,
+        "nativecode": null,
+        "packageName": "cn.buffcow.hypersc",
+        "sig": "277cbf2008dde2890a0b3255f9a1d02b",
+        "signer": "99a27da75aa85e6e5cf3841010fa754b84719740e1e9b550a662aa5052a02d97",
+        "size": 779505,
+        "targetSdkVersion": 35,
+        "versionCode": 12,
+        "versionName": "1.1.7"
+      },
+      {
+        "added": 1736393772000,
         "apkName": "cn.buffcow.hypersc_8-1.1.3.apk",
         "hash": "173177358dbe126c2375f227aacd6ea4d2bbe354769dcf67911c2df0e44c562b",
         "hashType": "sha256",
@@ -13269,7 +13284,7 @@
     ],
     "com.kgg.hhvideo": [
       {
-        "added": 1736388365000,
+        "added": 1736404608000,
         "apkName": "com.kgg.hhvideo_19-1.0.19.apk",
         "hash": "9a594f5e1264a0bd4eb7702df625f6fc475e2fc743e630d9d15175d766122d4c",
         "hashType": "sha256",
@@ -14290,7 +14305,7 @@
     ],
     "com.rong862.SplashAd": [
       {
-        "added": 1679640531000,
+        "added": 1732159492000,
         "apkName": "com.rong862.splashad_2-1.1.apk",
         "hash": "1127239c3071eee409eb650b99e650290d69f5bd207074f19e570325ef1b26f0",
         "hashType": "sha256",
@@ -15108,7 +15123,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1736393858000,
+        "added": 1736479276000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
