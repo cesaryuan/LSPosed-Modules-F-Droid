@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736479472000,
+    "timestamp": 1736565591000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736479195000,
+        "lastUpdated": 1736565178000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -5527,7 +5527,7 @@
           "en-US": "NGA论坛APP广告净化模块"
         },
         "description": {
-          "en-US": "<h1>PureNGA</h1>\n<p><a href=\"https://www.codacy.com/gh/chr233/PureNGA/dashboard\"><img src=\"https://app.codacy.com/project/badge/Grade/de4c75db7487426285bf38f90ad94e6c\" alt=\"Codacy Badge\" /></a>\n<a href=\"https://github.com/chr233/PureNGA/blob/master/license\"><img src=\"https://img.shields.io/github/license/chr233/PureNGA?logo=apache\" alt=\"License\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/chr233/PureNGA?logo=github\" alt=\"GitHub last commit\" /></p>\n<p><img src=\"https://img.shields.io/github/stars/chr233/PureNGA?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/chr233/PureNGA\"><img src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github\" alt=\"GitHub Download\" /></a>\n插件仓库</p>\n<p><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.purenga?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github\" alt=\"GitHub Download\" /></a>\nXposed 仓库</p>\n<p><a href=\"https://space.bilibili.com/5805394\"><img src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /></a>\n<a href=\"https://steamcommunity.com/id/Chr_\"><img src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /></a></p>\n<p><a href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i\"><img src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /></a>\n<a href=\"https://afdian.net/@chr233\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /></a></p>\n<h2>版本说明</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\">类型</th>\n<th align=\"center\">特性</th>\n<th align=\"center\">发行版链接</th>\n<th align=\"center\">下载量</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">整合版 NGA</td>\n<td align=\"center\">无需 Xposed 框架, 覆盖安装原版 App, 体积大</td>\n<td align=\"center\"><a href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"><img src=\"https://img.shields.io/github/v/release/chr233/PureNGA?logo=github&amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /></a></td>\n<td align=\"center\"><a href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"><img src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /></a></td>\n</tr>\n<tr>\n<td align=\"center\">独立插件版</td>\n<td align=\"center\">依赖 Xposed 框架, 独立更新, 体积小</td>\n<td align=\"center\"><a href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga?logo=github&amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /></a></td>\n<td align=\"center\"><a href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /></a></td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>历时一年的开发, 所有功能趋于稳定, 后续不再开发新功能</p>\n</blockquote>\n<h2>主要功能</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 开屏广告跳过</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 信息流广告过滤</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去广告任务破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽更新检测</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽内置浏览器</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 假装分享</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义首页</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自动签到</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字体更换</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 快捷方式支持</li>\n</ul>\n<p>同时兼容 Lspatch, 支持 9.9.x 版本的 NGA 客户端, 理论向后兼容</p>\n<h2>捐赠</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /> <br> <a href=\"https://afdian.net/@chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /> <br> <a href=\"https://www.buymeacoffee.com/chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>\n</tr>\n</tbody>\n</table>\n<h2><a href=\"https://github.com/chr233/PureNGA\">使用文档</a></h2>\n"
+          "en-US": "<h1>PureNGA</h1>\n<p><a href=\"https://www.codacy.com/gh/chr233/PureNGA/dashboard\"><img src=\"https://app.codacy.com/project/badge/Grade/de4c75db7487426285bf38f90ad94e6c\" alt=\"Codacy Badge\" /></a>\n<a href=\"https://github.com/chr233/PureNGA/blob/master/license\"><img src=\"https://img.shields.io/github/license/chr233/PureNGA?logo=apache\" alt=\"License\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/chr233/PureNGA?logo=github\" alt=\"GitHub last commit\" /></p>\n<p><img src=\"https://img.shields.io/github/stars/chr233/PureNGA?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/chr233/PureNGA\"><img src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github\" alt=\"GitHub Download\" /></a>\n插件仓库</p>\n<p><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.chrxw.purenga?logo=github\" alt=\"GitHub Repo stars\" />\n<a href=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github\" alt=\"GitHub Download\" /></a>\nXposed 仓库</p>\n<p><a href=\"https://space.bilibili.com/5805394\"><img src=\"https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili\" alt=\"Bilibili\" /></a>\n<a href=\"https://steamcommunity.com/id/Chr_\"><img src=\"https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam\" alt=\"Steam\" /></a></p>\n<p><a href=\"https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i\"><img src=\"https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam\" alt=\"Steam\" /></a>\n<a href=\"https://afdian.com/@chr233\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /></a></p>\n<h2>版本说明</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\">类型</th>\n<th align=\"center\">特性</th>\n<th align=\"center\">发行版链接</th>\n<th align=\"center\">下载量</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">整合版 NGA</td>\n<td align=\"center\">无需 Xposed 框架, 覆盖安装原版 App, 体积大</td>\n<td align=\"center\"><a href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"><img src=\"https://img.shields.io/github/v/release/chr233/PureNGA?logo=github&amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /></a></td>\n<td align=\"center\"><a href=\"https://github.com/chr233/PureNGA/releases/tag/NGA\"><img src=\"https://img.shields.io/github/downloads/chr233/PureNGA/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /></a></td>\n</tr>\n<tr>\n<td align=\"center\">独立插件版</td>\n<td align=\"center\">依赖 Xposed 框架, 独立更新, 体积小</td>\n<td align=\"center\"><a href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.chrxw.purenga?logo=github&amp;label=%E7%89%88%E6%9C%AC\" alt=\"img\" /></a></td>\n<td align=\"center\"><a href=\"https://github.com/Xposed-Modules-Repo/com.chrxw.purenga/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/total?logo=github&amp;label=%E4%B8%8B%E8%BD%BD\" alt=\"img\" /></a></td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>历时一年的开发, 所有功能趋于稳定, 后续不再开发新功能</p>\n</blockquote>\n<h2>主要功能</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 开屏广告跳过</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 信息流广告过滤</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去广告任务破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽更新检测</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽内置浏览器</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 假装分享</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义首页</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自动签到</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字体更换</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 快捷方式支持</li>\n</ul>\n<p>同时兼容 Lspatch, 支持 9.9.x 版本的 NGA 客户端, 理论向后兼容</p>\n<h2>捐赠</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/afadian_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/bmc_qr.png\" alt=\"img\" /></th>\n<th align=\"center\"><img src=\"https://raw.chrxw.com/chr233/master/usdt_qr.png\" alt=\"img\" /></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors\" alt=\"爱发电\" /> <br> <a href=\"https://afdian.com/@chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee\" alt=\"buy me a coffee\" /> <br> <a href=\"https://www.buymeacoffee.com/chr233\">链接</a></td>\n<td align=\"center\"><img src=\"https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin\" alt=\"USDT\" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>\n</tr>\n</tbody>\n</table>\n<h2><a href=\"https://github.com/chr233/PureNGA\">使用文档</a></h2>\n"
         },
         "preferredSigner": "243fa2260d9a2135adc36c100ecffe14ac69aeece898a54bfd7855e78e16132b"
       },
@@ -11773,7 +11773,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736058333000,
+        "lastUpdated": 1736565238000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
         "authorName": "mustafa1dev",
         "name": {
@@ -11875,6 +11875,27 @@
           },
           "manifest": {
             "versionName": "1.3",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        },
+        "fbba204aac12cc7206182824347b957eafae873b0ad45d640459dc5614f10db5": {
+          "added": 1736565238000,
+          "file": {
+            "name": "/com.my.televip_1-1.4.6.apk",
+            "sha256": "fbba204aac12cc7206182824347b957eafae873b0ad45d640459dc5614f10db5",
+            "size": 197370
+          },
+          "manifest": {
+            "versionName": "1.4.6",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 21,
@@ -15501,7 +15522,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736479276000,
+        "lastUpdated": 1736565260000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -26323,18 +26344,53 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736220192000,
+        "lastUpdated": 1736565322000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
         "authorName": "Hepolise",
         "name": {
           "en-US": "Volume Key Track Control Module"
         },
         "description": {
-          "en-US": "<h1>Volume Key Track Control Module</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /></a></p>\n<p>An Xposed module that allows to skip and play/pause track with volume keys. Inspired by <a href=\"https://github.com/GravityBox/GravityBox\">Gravity Box</a>.</p>\n<h2>Usage</h2>\n<p>Works when the screen is off.</p>\n<ul>\n<li>Next Track: Long press volume up</li>\n<li>Prev Track: Long press volume down</li>\n<li>Play/Pause: Long press both keys simultaneously</li>\n</ul>\n<h2>Requirements</h2>\n<p>Android 11+ (may be working on lower versions, you can try and install it even on Android 7)</p>\n<h2>Tested on</h2>\n<ul>\n<li>OnePlus 10 Pro (Android 13 &amp; 14)</li>\n</ul>\n<p><a href=\"https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new\">Open an issue</a> if you are experiencing some troubles on your device</p>\n"
+          "en-US": "<h1>Volume Key Track Control Module</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /></a></p>\n<p>An Xposed module that allows to skip and play/pause track with volume keys. Inspired by <a href=\"https://github.com/GravityBox/GravityBox\">Gravity Box</a>.</p>\n<h2>Usage</h2>\n<p>Works when the screen is off.</p>\n<ul>\n<li>Next Track: Long press volume up</li>\n<li>Prev Track: Long press volume down</li>\n<li>Play/Pause: Long press both keys simultaneously</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a> 93+</li>\n<li>Android 11+ (may be working on lower versions, you can try and install it even on Android 8.1)</li>\n</ul>\n<h2>Tested on</h2>\n<ul>\n<li>OnePlus 10 Pro (Android 13 &amp; 14)</li>\n</ul>\n<p><a href=\"https://github.com/Hepolise/VolumeKeyTrackControlModule/issues/new\">Open an issue</a> if you are\nexperiencing some troubles on your device</p>\n"
         },
         "preferredSigner": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
       },
       "versions": {
+        "5bfa3b96da5e9bef8d04431973f8efc6bc0ce2822d7100b037f0ac78c1629dbb": {
+          "added": 1736565322000,
+          "file": {
+            "name": "/ru.hepolise.volumekeymusicmanagermodule_10-1.15.3.apk",
+            "sha256": "5bfa3b96da5e9bef8d04431973f8efc6bc0ce2822d7100b037f0ac78c1629dbb",
+            "size": 1819954
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.15.3",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ebc944c380226eda96afeaecf6f4f89ad93e47b7104f0f97d51c150cf8b6ad18": {
           "added": 1736220192000,
           "file": {
@@ -26371,32 +26427,6 @@
           "manifest": {
             "versionName": "1.15.1",
             "versionCode": 8,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1": {
-          "added": 1732159575000,
-          "file": {
-            "name": "/ru.hepolise.volumekeymusicmanagermodule_7-1.15.0.apk",
-            "sha256": "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1",
-            "size": 169403
-          },
-          "manifest": {
-            "versionName": "1.15.0",
-            "versionCode": 7,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 35

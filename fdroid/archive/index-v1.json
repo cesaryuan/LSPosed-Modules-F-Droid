@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1736479458000,
+    "timestamp": 1736565577000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -176,15 +176,15 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "1.15.2",
-      "suggestedVersionCode": "9",
-      "description": "<h1>Volume Key Track Control Module</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /></a></p>\n<p>An Xposed module that allows to skip and play/pause track with volume keys. Inspired by <a href=\"https://github.com/GravityBox/GravityBox\">Gravity Box</a>.</p>\n<h2>Usage</h2>\n<p>Works when the screen is off.</p>\n<ul>\n<li>Next Track: Long press volume up</li>\n<li>Prev Track: Long press volume down</li>\n<li>Play/Pause: Long press both keys simultaneously</li>\n</ul>\n<h2>Requirements</h2>\n<p>Android 11+ (may be working on lower versions, you can try and install it even on Android 7)</p>\n<h2>Tested on</h2>\n<ul>\n<li>OnePlus 10 Pro (Android 13 &amp; 14)</li>\n</ul>\n<p><a href=\"https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new\">Open an issue</a> if you are experiencing some troubles on your device</p>\n",
+      "suggestedVersionName": "1.15.3",
+      "suggestedVersionCode": "10",
+      "description": "<h1>Volume Key Track Control Module</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule\" alt=\"Release\" /></a></p>\n<p>An Xposed module that allows to skip and play/pause track with volume keys. Inspired by <a href=\"https://github.com/GravityBox/GravityBox\">Gravity Box</a>.</p>\n<h2>Usage</h2>\n<p>Works when the screen is off.</p>\n<ul>\n<li>Next Track: Long press volume up</li>\n<li>Prev Track: Long press volume down</li>\n<li>Play/Pause: Long press both keys simultaneously</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a> 93+</li>\n<li>Android 11+ (may be working on lower versions, you can try and install it even on Android 8.1)</li>\n</ul>\n<h2>Tested on</h2>\n<ul>\n<li>OnePlus 10 Pro (Android 13 &amp; 14)</li>\n</ul>\n<p><a href=\"https://github.com/Hepolise/VolumeKeyTrackControlModule/issues/new\">Open an issue</a> if you are\nexperiencing some troubles on your device</p>\n",
       "license": "Unknown",
       "name": "Volume Key Track Control Module",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
       "added": 1732159575000,
       "packageName": "ru.hepolise.volumekeymusicmanagermodule",
-      "lastUpdated": 1736220192000
+      "lastUpdated": 1736565322000
     },
     {
       "authorName": "BlueCat300",
@@ -1346,6 +1346,26 @@
       }
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
+      {
+        "added": 1732159575000,
+        "apkName": "ru.hepolise.volumekeymusicmanagermodule_7-1.15.0.apk",
+        "hash": "6495cbe3a09962b4a4bd43edca677370dc34a34cc019f48ce3647ab95027d0b1",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "packageName": "ru.hepolise.volumekeymusicmanagermodule",
+        "sig": "b85aeb812187a58a7426201ab0ead809",
+        "signer": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836",
+        "size": 169403,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 7,
+        "versionName": "1.15.0"
+      },
       {
         "added": 1732159575000,
         "apkName": "ru.hepolise.volumekeymusicmanagermodule_6-1.14.3.apk",
