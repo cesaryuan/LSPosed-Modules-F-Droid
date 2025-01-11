@@ -4396,7 +4396,7 @@ com.chrxw.purenga:
             <p><a href="https://space.bilibili.com/5805394"><img src="https://img.shields.io/badge/bilibili-Chr__-00A2D8.svg?logo=bilibili" alt="Bilibili" /></a>
             <a href="https://steamcommunity.com/id/Chr_"><img src="https://img.shields.io/badge/steam-Chr__-1B2838.svg?logo=steam" alt="Steam" /></a></p>
             <p><a href="https://steamcommunity.com/tradeoffer/new/?partner=221260487&amp;token=xgqMgL-i"><img src="https://img.shields.io/badge/steam-donate-1B2838.svg?logo=steam" alt="Steam" /></a>
-            <a href="https://afdian.net/@chr233"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /></a></p>
+            <a href="https://afdian.com/@chr233"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /></a></p>
             <h2>版本说明</h2>
             <table>
             <thead>
@@ -4450,7 +4450,7 @@ com.chrxw.purenga:
             </thead>
             <tbody>
             <tr>
-            <td align="center"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /> <br> <a href="https://afdian.net/@chr233">链接</a></td>
+            <td align="center"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@chr__-ea4aaa.svg?logo=github-sponsors" alt="爱发电" /> <br> <a href="https://afdian.com/@chr233">链接</a></td>
             <td align="center"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-@chr233-yellow?logo=buymeacoffee" alt="buy me a coffee" /> <br> <a href="https://www.buymeacoffee.com/chr233">链接</a></td>
             <td align="center"><img src="https://img.shields.io/badge/USDT-TRC20-2354e6.svg?logo=bitcoin" alt="USDT" /> <br> <code>TW41eecZ199QK6zujgKP4j1cz2bXzRus3c</code></td>
             </tr>
@@ -8817,28 +8817,31 @@ com.my.televip:
             <li>Skygram 10.20.6 (40639)</li>
             <li>iMe 11.5.3 (11050302)</li>
             <li>X Plus 11.5.4 (55159)</li>
-            <li>Cherrygram 11.5.3 (55110)</li>
+            <li>Cherrygram 11.5.3 (55130)</li>
             <li>Nicegram 1.39.3 (1529)</li>
             <li>Telegram web 11.6.1 (55859)</li>
-            <li>Telegram Beta 11.6.1 (55859)</li>
+            <li>Telegram Beta 11.6.2 (56159)</li>
             <li>exteraGram 11.5.3 (55119)</li>
             <li>Nekogram 11.5.3S (55150)</li>
             <li>ForkGram 11.5.3.0 (551108)</li>
             <li>ForkClient Beta 11.5.3.0 (551109)</li>
             </ol>
             <p>Developed by an @mustafa1dev</p>
-          filename: TeleVip_1.4.apk
+          filename: TeleVip_1.4.6.apk
           id: com.my.televip
           name: TeleVip
-          last_updated: "2025-01-04T10:01:31Z"
+          last_updated: "2025-01-10T12:11:50Z"
           releasedescription: |-
-            <p>Telegram Client has been updated to the latest version.</p>
-            <p>Telegram Beta Client has been updated to the latest version.</p>
-            <p>Telegram Web Client has been updated to the latest version.</p>
-            <p>Nekogram Client has been updated to the latest version.</p>
-            <p>Fixed issues with deleted messages not appearing.</p>
-            <p>Added the feature to disable Stories.</p>
-            <p>Other issues have been resolved.</p>
+            <p>TeleVip Update 1.4.6</p>
+            <ol>
+            <li>Fixed the issue causing Cherrygram client to crash.</li>
+            <li>Resolved the slow performance of the client.</li>
+            <li>Added a new optional feature for Telegram:
+            <ul>
+            <li>You can now enable advanced options like replying to specific messages displaying message IDs  and more.</li>
+            </ul>
+            </li>
+            </ol>
     author_name: mustafa1dev
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
@@ -12198,7 +12201,7 @@ com.xconst.vavatar:
           filename: app-release.apk.APK
           id: com.xconst.vavatar
           name: VAvatar
-          last_updated: "2025-01-04T15:43:00Z"
+          last_updated: "2025-01-10T05:47:34Z"
           releasedescription: ""
     author_name: NoonieBao
 com.xiaoer.watermark:
@@ -19776,17 +19779,24 @@ ru.hepolise.volumekeymusicmanagermodule:
             <li>Play/Pause: Long press both keys simultaneously</li>
             </ul>
             <h2>Requirements</h2>
-            <p>Android 11+ (may be working on lower versions, you can try and install it even on Android 7)</p>
+            <ul>
+            <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a> 93+</li>
+            <li>Android 11+ (may be working on lower versions, you can try and install it even on Android 8.1)</li>
+            </ul>
             <h2>Tested on</h2>
             <ul>
             <li>OnePlus 10 Pro (Android 13 &amp; 14)</li>
             </ul>
-            <p><a href="https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new">Open an issue</a> if you are experiencing some troubles on your device</p>
-          filename: VolumeKeyTrackControlModule-release-1.15.2.apk
+            <p><a href="https://github.com/Hepolise/VolumeKeyTrackControlModule/issues/new">Open an issue</a> if you are
+            experiencing some troubles on your device</p>
+          filename: VolumeKeyTrackControlModule-release-1.15.3.apk
           id: ru.hepolise.volumekeymusicmanagermodule
           name: Volume Key Track Control Module
-          last_updated: "2025-01-05T13:28:23Z"
-          releasedescription: <p>Fix rewind on some player states</p>
+          last_updated: "2025-01-10T19:23:55Z"
+          releasedescription: |-
+            <ul>
+            <li>Added settings interface</li>
+            </ul>
     author_name: Hepolise
 ru.mike.customiuizer125plugin:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.customiuizer125plugin

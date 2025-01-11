@@ -1,8 +1,8 @@
 AuthorName: Hepolise
 Categories:
     - Xposed
-CurrentVersion: 1.15.2
-CurrentVersionCode: 9
+CurrentVersion: 1.15.3
+CurrentVersionCode: 10
 Description: |
     <h1>Volume Key Track Control Module</h1>
     <p><a href="https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule" alt="Release" /></a></p>
@@ -15,12 +15,16 @@ Description: |
     <li>Play/Pause: Long press both keys simultaneously</li>
     </ul>
     <h2>Requirements</h2>
-    <p>Android 11+ (may be working on lower versions, you can try and install it even on Android 7)</p>
+    <ul>
+    <li><a href="https://github.com/LSPosed/LSPosed">LSPosed</a> 93+</li>
+    <li>Android 11+ (may be working on lower versions, you can try and install it even on Android 8.1)</li>
+    </ul>
     <h2>Tested on</h2>
     <ul>
     <li>OnePlus 10 Pro (Android 13 &amp; 14)</li>
     </ul>
-    <p><a href="https://github.com/Hepolise/VolumeKeyMusicManagerModule/issues/new">Open an issue</a> if you are experiencing some troubles on your device</p>
+    <p><a href="https://github.com/Hepolise/VolumeKeyTrackControlModule/issues/new">Open an issue</a> if you are
+    experiencing some troubles on your device</p>
 IssueTracker: ""
 Name: Volume Key Track Control Module
 SourceCode: https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule
