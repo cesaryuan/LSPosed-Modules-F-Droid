@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736652472000,
+    "timestamp": 1736738790000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736652191000,
+        "lastUpdated": 1736738511000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -15436,7 +15436,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736305822000,
+        "lastUpdated": 1736738591000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
         "authorName": "Yy-ss7",
         "name": {
@@ -15446,11 +15446,32 @@
           "en-US": "Enhance Wechat!"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>不想在主页展示捐赠记录的老板有劳备注一下（无备注默认接受主页展示）感谢！\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\" alt=\"wechat\" />\n<img src=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\" alt=\"ali\" /></p>\n</p>\n图片加载不出来的老板试试这里：  \n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeWechat.png\">微信</a>  \n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/blob/main/res/drawable/paymentCodeAli.png\">ali</a>\n</p>\n<h2>🙏感谢老板赐茶</h2>\n<p>因无法向已经捐赠的老板确认是否允许展示，故删除记录，深感抱歉。后续的捐赠默认允许展示。</p>\n<table>\n<thead>\n<tr>\n<th>老板昵称</th>\n<th>捐赠金额</th>\n<th>日期</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ali@嗷嗷待哺</td>\n<td>￥9.9</td>\n<td>2025-01-05</td>\n</tr>\n</tbody>\n</table>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<img src=http://39.106.52.143/image/paymentCodeAli.png width=220 height=200 />\n<img src=http://39.106.52.143/image/paymentCodeWechat.png width=220 height=180 />\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
         },
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
       "versions": {
+        "46aa43453945c0809e05346e1fa469fd1030745c20bbe33f83c6e1c7c968be73": {
+          "added": 1736738591000,
+          "file": {
+            "name": "/com.xchat_517-1.0.8.apk",
+            "sha256": "46aa43453945c0809e05346e1fa469fd1030745c20bbe33f83c6e1c7c968be73",
+            "size": 60568
+          },
+          "manifest": {
+            "versionName": "1.0.8",
+            "versionCode": 517,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
+              ]
+            }
+          }
+        },
         "087af5258716d822dccc889b6486a18dc517e1a4c8ab14433200053b265179ff": {
           "added": 1736305822000,
           "file": {
@@ -15492,27 +15513,6 @@
               ]
             }
           }
-        },
-        "fbabc1e61c8921cd0fc12e09597f129d0b9a547ab179415e3afc9e2cb520921a": {
-          "added": 1736058353000,
-          "file": {
-            "name": "/com.xchat_242-1.0.0.apk",
-            "sha256": "fbabc1e61c8921cd0fc12e09597f129d0b9a547ab179415e3afc9e2cb520921a",
-            "size": 55448
-          },
-          "manifest": {
-            "versionName": "1.0.0",
-            "versionCode": 242,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
-              ]
-            }
-          }
         }
       }
     },
@@ -15522,7 +15522,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736652274000,
+        "lastUpdated": 1736738591000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -18514,6 +18514,53 @@
         }
       }
     },
+    "have.fun": {
+      "metadata": {
+        "added": 1736738609000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1736738609000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
+        "authorName": "Hicores",
+        "name": {
+          "en-US": "FunBox"
+        },
+        "summary": {
+          "en-US": "QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音"
+        },
+        "description": {
+          "en-US": "<p>QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音</p>\n<p>支持微信8.0.40以上\n支持QQ9.0.30以上\n支持TIM4.0.97以上</p>\n"
+        },
+        "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+      },
+      "versions": {
+        "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889": {
+          "added": 1736738609000,
+          "file": {
+            "name": "/have.fun_885-v885.apk",
+            "sha256": "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889",
+            "size": 4032610
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v885",
+            "versionCode": 885,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        }
+      }
+    },
     "icu.freedomIntrovert.biliSendCommAntifraud": {
       "metadata": {
         "added": 1732159529000,
@@ -20122,7 +20169,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159538000,
+        "lastUpdated": 1736738618000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaupdatecenter",
         "authorName": "lzghzr",
         "name": {
@@ -20137,6 +20184,27 @@
         "preferredSigner": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
       },
       "versions": {
+        "f1f0010ad42efda753834a124c630e519eab63b85eff63d430d9a3e78b5b137a": {
+          "added": 1736738618000,
+          "file": {
+            "name": "/io.github.lzghzr.xperiaupdatecenter_6-2.2.1.apk",
+            "sha256": "f1f0010ad42efda753834a124c630e519eab63b85eff63d430d9a3e78b5b137a",
+            "size": 60531
+          },
+          "manifest": {
+            "versionName": "2.2.1",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 31,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+              ]
+            }
+          }
+        },
         "5aea2c3be04b481bc09f320ede2753c4ca9063f8cb7ca73a56733ba28e60dc49": {
           "added": 1732159538000,
           "file": {
@@ -21484,7 +21552,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159546000,
+        "lastUpdated": 1736738625000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/it.kapfer.digitalesamt.liberator",
         "authorName": "Crazyphil",
         "name": {
@@ -21499,6 +21567,32 @@
         "preferredSigner": "2cd918179eb23e982b45c1c8a09c03c2992bb279dd79ef8ff3726844af939c71"
       },
       "versions": {
+        "3b2658faae62d8c1beb946cff1b9fbe12c0aaa136b97191ff1e93876328f1a88": {
+          "added": 1736738625000,
+          "file": {
+            "name": "/it.kapfer.digitalesamt.liberator_6-2.3.apk",
+            "sha256": "3b2658faae62d8c1beb946cff1b9fbe12c0aaa136b97191ff1e93876328f1a88",
+            "size": 1801425
+          },
+          "manifest": {
+            "versionName": "2.3",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "2cd918179eb23e982b45c1c8a09c03c2992bb279dd79ef8ff3726844af939c71"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "it.kapfer.digitalesamt.liberator.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "bc88ef02cd26df0a9e45bc57703052334a63c2434f72965ed1d8a2d6149c88cf": {
           "added": 1732159546000,
           "file": {
@@ -22165,6 +22259,58 @@
             "usesPermission": [
               {
                 "name": "android.permission.QUERY_USERS"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "lzlnb.cnm.hook": {
+      "metadata": {
+        "added": 1736738630000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1736738630000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/lzlnb.cnm.hook",
+        "authorName": "274274",
+        "name": {
+          "en-US": "模了个块"
+        },
+        "summary": {
+          "en-US": "一个全新的QQ模块\n适配范围9.0.65-9.1.5+具体自测仅供参考\nlsp用户请把API调用保护关闭否则无法生效"
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>Xposed QQ模块</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n<ul>\n<li>具体自测没实际测过</li>\n<li>新版本会优先适配</li>\n</ul>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n</li>\n</ul>\n"
+        },
+        "preferredSigner": "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67"
+      },
+      "versions": {
+        "5ddb9c5dffbc7a6943335aad3bb321bc937732fc2a83aa56abc60aebd4e4c6cc": {
+          "added": 1736738630000,
+          "file": {
+            "name": "/lzlnb.cnm.hook_3-2.1.apk",
+            "sha256": "5ddb9c5dffbc7a6943335aad3bb321bc937732fc2a83aa56abc60aebd4e4c6cc",
+            "size": 4735394
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "lzlnb.cnm.hook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
