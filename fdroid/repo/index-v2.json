@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736824184000,
+    "timestamp": 1736910589000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736823873000,
+        "lastUpdated": 1736910316000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -8324,7 +8324,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1734750526000,
+        "lastUpdated": 1736910353000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.autoseffswitch",
         "authorName": "HChenX",
         "name": {
@@ -8339,6 +8339,31 @@
         "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
       },
       "versions": {
+        "074d5436e30a7ef516ff80b6f83199b317cb9b75f157c25e4794eb7c52c9e166": {
+          "added": 1736910353000,
+          "file": {
+            "name": "/com.hchen.autoseffswitch_2025011300-5.0.apk",
+            "sha256": "074d5436e30a7ef516ff80b6f83199b317cb9b75f157c25e4794eb7c52c9e166",
+            "size": 621766
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "5.0",
+            "versionCode": 2025011300,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        },
         "3a16d9da454b8d444d6c2f5830354d90393f77a3ada7d2791b9ff13228e7caf0": {
           "added": 1734750526000,
           "file": {
@@ -8380,31 +8405,6 @@
             "versionCode": 2024121900,
             "usesSdk": {
               "minSdkVersion": 33,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
-              ]
-            }
-          }
-        },
-        "61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09": {
-          "added": 1734492409000,
-          "file": {
-            "name": "/com.hchen.autoseffswitch_2024121700-2.0.apk",
-            "sha256": "61998ba2e4797c47fb933377a22fdb670fb8993912b4681f6b919191898cbd09",
-            "size": 572498
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "2.0",
-            "versionCode": 2024121700,
-            "usesSdk": {
-              "minSdkVersion": 29,
               "targetSdkVersion": 34
             },
             "signer": {
@@ -13245,7 +13245,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736058342000,
+        "lastUpdated": 1736910387000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
         "authorName": "lingqiqi5211",
         "name": {
@@ -13260,6 +13260,107 @@
         "preferredSigner": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
       },
       "versions": {
+        "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b": {
+          "added": 1736910387000,
+          "file": {
+            "name": "/com.sevtinge.hyperceiler_3863-2.5.155_20250114.apk",
+            "sha256": "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b",
+            "size": 7076700
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5.155_20250114",
+            "versionCode": 3863,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_PRIVILEGED"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.SET_ANIMATION_SCALE"
+              },
+              {
+                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
+              },
+              {
+                "name": "miui.permission.READ_LOGS"
+              },
+              {
+                "name": "miui.permission.DUMP_CACHED_LOG"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
+              },
+              {
+                "name": "hyperceiler.permission.APP_CRASH"
+              }
+            ]
+          }
+        },
         "27ea7fe4c82153f0b84eb4de71872ff587df314fd9c8ff668effbbe035cfa67c": {
           "added": 1736058342000,
           "file": {
@@ -13374,101 +13475,6 @@
             ],
             "versionName": "2.5.151_20241109",
             "versionCode": 151,
-            "usesSdk": {
-              "minSdkVersion": 33,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.BLUETOOTH_CONNECT"
-              },
-              {
-                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.INTERACT_ACROSS_USERS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_PRIVILEGED"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.WRITE_SECURE_SETTINGS"
-              },
-              {
-                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
-              },
-              {
-                "name": "android.permission.MANAGE_USB"
-              },
-              {
-                "name": "android.permission.SET_ANIMATION_SCALE"
-              },
-              {
-                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
-              },
-              {
-                "name": "miui.permission.READ_LOGS"
-              },
-              {
-                "name": "miui.permission.DUMP_CACHED_LOG"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
-              }
-            ]
-          }
-        },
-        "6a03e446581bf1d996fedebdaff6161c4e029e4cac892135804ca6fd6249fbd6": {
-          "added": 1732159494000,
-          "file": {
-            "name": "/com.sevtinge.hyperceiler_148-2.4.148_20240629.apk",
-            "sha256": "6a03e446581bf1d996fedebdaff6161c4e029e4cac892135804ca6fd6249fbd6",
-            "size": 5565665
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "2.4.148_20240629",
-            "versionCode": 148,
             "usesSdk": {
               "minSdkVersion": 33,
               "targetSdkVersion": 35
@@ -15436,7 +15442,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736738591000,
+        "lastUpdated": 1736910399000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
         "authorName": "Yy-ss7",
         "name": {
@@ -15446,11 +15452,32 @@
           "en-US": "Enhance Wechat!"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈集赞、评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<img src=http://39.106.52.143/image/paymentCodeAli.png width=220 height=200 />\n<img src=http://39.106.52.143/image/paymentCodeWechat.png width=220 height=180 />\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告,可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞 长按要集赞的消息 选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 朋友圈评论</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" />\n<img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
         },
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
       "versions": {
+        "3e900047369509a46bb204395bc3dc78d53a5f9126fb7c7998da47f2489b8226": {
+          "added": 1736910399000,
+          "file": {
+            "name": "/com.xchat_735-1.0.9.apk",
+            "sha256": "3e900047369509a46bb204395bc3dc78d53a5f9126fb7c7998da47f2489b8226",
+            "size": 67928
+          },
+          "manifest": {
+            "versionName": "1.0.9",
+            "versionCode": 735,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
+              ]
+            }
+          }
+        },
         "46aa43453945c0809e05346e1fa469fd1030745c20bbe33f83c6e1c7c968be73": {
           "added": 1736738591000,
           "file": {
@@ -15492,27 +15519,6 @@
               ]
             }
           }
-        },
-        "66bc12ecf96f63b139d122aeeb5f3835aaa6f583553b945462e3b4d50c4b3427": {
-          "added": 1736220130000,
-          "file": {
-            "name": "/com.xchat_386-1.0.6.apk",
-            "sha256": "66bc12ecf96f63b139d122aeeb5f3835aaa6f583553b945462e3b4d50c4b3427",
-            "size": 57496
-          },
-          "manifest": {
-            "versionName": "1.0.6",
-            "versionCode": 386,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
-              ]
-            }
-          }
         }
       }
     },
@@ -15522,7 +15528,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736823954000,
+        "lastUpdated": 1736910399000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20244,7 +20250,7 @@
           "en-US": "让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案."
         },
         "description": {
-          "en-US": "<h1>AADisplay</h1>\n<p><a href=\"https://github.com/Nitsuya/AADisplay\"><img src=\"https://img.shields.io/badge/AADisplay-Project-blue?logo=github\" alt=\"AADisplay\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/io.github.nitsuya.aa.display/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.aa.display\" alt=\"GitHub Release\" /></a>\n<img src=\"https://img.shields.io/badge/Xposed-Module-blue\" alt=\"Xposed Module\" />\n<a href=\"https://github.com/nitsuya/AADisplay/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/nitsuya/AADisplay\" alt=\"License\" /></a>\n<img src=\"https://img.shields.io/badge/Android%20SDK-%3E%3D%2031-brightgreen?logo=android\" alt=\"Android SDK min 31\" />\n<img src=\"https://img.shields.io/badge/Android%20SDK-target%2033-brightgreen?logo=android\" alt=\"Android SDK target 33\" /></p>\n<p>让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案.</p>\n<p>仅支持A12+, 需LSPosed, 部分ROM可能存在崩的可能性, 请自备救机的常识.</p>\n<p>理论可以支持到A10+, 由于没有设备和过多精力维护, 所以没有支持, 如有能力自行PR.</p>\n<p>与本项目无关的问题请勿提交Issue, 必关! 例如: Magisk/LSPosed环境安装, AA无法连接/使用 等等相关的问题.</p>\n<hr />\n<h2>使用方法</h2>\n<ul>\n<li>LSPosed开启本模块,勾选System Framework和Android Auto,安装你喜爱的启动器,并在模块设置中填写包名.</li>\n<li>建议设置Dpi,会对使用应用上下文绘制UI的叼毛应用得到改善.</li>\n<li>添加Properties AA相关参数,可对AA的配置进行Hook修改,仅支持基础类型参数.</li>\n<li>自动绕过Android Auto对AA应用本身安装来源的检测.</li>\n<li>Root权限仅对用户配置的Shell命令执行使用,若无需求可不给.</li>\n</ul>\n<h2>免责声明</h2>\n<ul>\n<li>使用本模块即代表自愿承担一切后果, 包括但不限于 设备损坏, 驾车事故.</li>\n<li>任何由本项目衍生出的项目, 本项目不承担任何责任.</li>\n<li>本项目保证永久开源, 欢迎提交 Issue 或者 PR, 但请不要提交用于非法用途的功能.</li>\n<li>开发者可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<h2>Thanks</h2>\n<h3>库</h3>\n<p><a href=\"https://source.android.com/\">AOSP</a></p>\n<p><a href=\"https://github.com/duzhaokun123/YAFM\">YAFM</a></p>\n<p><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></p>\n<p><a href=\"https://github.com/Dr-TSNG/Hide-My-Applist\">Hide-My-Applist</a></p>\n<p><a href=\"https://github.com/RikkaW/HiddenApi\">HiddenApi</a></p>\n<p><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></p>\n<p><a href=\"https://forum.xda-developers.com/xposed\">xposed</a></p>\n<p><a href=\"https://material.io/\">Material</a></p>\n<p><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></p>\n<p><a href=\"https://github.com/matsudamper/ViewBindingUtil\">ViewBindingUtil</a></p>\n"
+          "en-US": "<p>该仓库为LSP发布仓库！</p>\n<p>源码仓库： <a href=\"https://github.com/Nitsuya/AADisplay\"><img src=\"https://img.shields.io/badge/AADisplay-Project-blue?logo=github\" alt=\"AADisplay\" /></a></p>\n"
         },
         "preferredSigner": "455cadc62f8bd8f76b05863cb38470368f79af549bb60ada6745908c2d6d27b3"
       },
@@ -22664,7 +22670,7 @@
           "en-US": "HookGG By HdShare"
         },
         "description": {
-          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明:</h2>\n<p>调试输出 GameGuardian 脚本执行函数</p>\n<hr />\n<h2>功能:</h2>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"1\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.9~1.2.5</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">GG</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">String</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Math</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Other</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n    </tr>\n</table>\n<hr />\n<h2>计划:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>Name</b></td>\n        <td align=\"center\"><b>Desc</b></td>\n        <td align=\"center\"><b>Status</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">Plugin</td>\n        <td align=\"center\">use lua script hook</td>\n        <td align=\"center\">0%</td>\n    </tr>\n</table>\n<hr />\n<h2>致谢:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>IconFont</td>\n<td><a href=\"https://www.iconfont.cn/\">IconFont</a></td>\n</tr>\n</tbody>\n</table>\n"
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>调试输出 GameGuardian 脚本执行函数</p>\n<p>Debug output for GameGuardian script execution functions</p>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"1\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.9~1.2.5</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">GG</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">String</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Math</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Other</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n        <td align=\"center\">🚫</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>Name</b></td>\n        <td align=\"center\"><b>Desc</b></td>\n        <td align=\"center\"><b>Status</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">Plugin</td>\n        <td align=\"center\">use lua script hook</td>\n        <td align=\"center\">0%</td>\n    </tr>\n</table>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>IconFont</td>\n<td><a href=\"https://www.iconfont.cn/\">IconFont</a></td>\n</tr>\n</tbody>\n</table>\n"
         },
         "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
       },
@@ -28203,7 +28209,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733974482000,
+        "lastUpdated": 1736910477000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.trangle.mbga",
         "authorName": "cledwynl",
         "name": {
@@ -28213,11 +28219,37 @@
           "en-US": "Make Bilibili Great Again!\n干掉B站那些碍眼的东西"
         },
         "description": {
-          "en-US": "<h1>Make Bilibili Great Again!</h1>\n<p>欢迎来主仓库提问题和催更～ <a href=\"https://github.com/cledwynl/mbga/issues\">https://github.com/cledwynl/mbga/issues</a></p>\n<h2>功能</h2>\n<p>目前只支持国际版(com.bilibili.app.in)，兼容性见文末</p>\n<h3>设置</h3>\n<ul>\n<li>打开B站-&gt;我的-&gt;设置-&gt;标题上有MBGA字样，点击打开设置界面</li>\n</ul>\n<h3>底部Tab</h3>\n<ul>\n<li>允许干掉除了“我的”以外的所有Tab</li>\n</ul>\n<h3>首页</h3>\n<ul>\n<li>干掉竖屏</li>\n<li>禁止切后台一段时间回来后自动刷新视频列表</li>\n<li>防止刷新推荐视频时之前的列表被自动清除</li>\n<li>支持过滤非UGC，只展示用户上传的视频</li>\n<li>支持过滤过短的视频</li>\n</ul>\n<h3>搜索页</h3>\n<ul>\n<li>干掉热搜</li>\n<li>干掉搜索历史</li>\n<li>干掉搜索发现</li>\n<li>禁止在搜索框内推荐搜索词</li>\n</ul>\n<h3>视频播放器</h3>\n<ul>\n<li>干掉播放器内展示的“云视听小电视”等activityMeta（不确定未来这个字段里还会塞些什么乱七八糟的东西，目前要么没有要么就是这个云视听，直接全部干掉了）</li>\n<li>干掉播放器内展示的关注弹窗、投票弹窗等（包括UP主弹幕）</li>\n<li>禁止播放器自动开启章节进度条</li>\n<li>允许在小窗、分屏模式下全屏播放（体验并不是非常好）</li>\n<li>禁止展示竖屏全屏按钮</li>\n<li>禁止点击弹幕</li>\n<li>禁止展示反馈弹窗</li>\n<li>全屏时禁止展示在线人数</li>\n</ul>\n<h3>视频详情页</h3>\n<ul>\n<li>视频标题左边的“热门”等标签</li>\n<li>更纯粹的链接分享\n原来分享链接是<code>https://b23.tv/xxxxxxx</code>这样的短链，展开后有乱七八糟的参数，让它变成<code>https://b23.tv/av10492</code>这样干净的av号链接</li>\n<li>干掉下方相关视频</li>\n</ul>\n<h3>视频评论区</h3>\n<ul>\n<li>完全隐藏评论区</li>\n<li>点击评论区文字不会自动弹出回复区</li>\n<li>干掉评论区投票</li>\n<li>干掉评论区的关注按钮（笔记类型的评论右上角）</li>\n<li>干掉评论内的关键词高亮搜索</li>\n<li>没有评论时禁止一键发送评论</li>\n<li>禁止展示反馈问卷</li>\n<li>禁止展示评论区顶部推广内容</li>\n<li>支持根据关键词过滤评论，<a href=\"https://github.com/cledwynl/mbga/issues/79\">这里</a>提供了一些常见的灌水内容</li>\n</ul>\n<h3>我的</h3>\n<ul>\n<li>在“更多服务”部分添加搜索入口，配合隐藏“首页”tab食用</li>\n</ul>\n<h2>感谢</h2>\n<blockquote>\n<p>本项目参考、使用了下列开源项目的部分或全部内容</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/HighCapable/YukiHookAPI\">Yuki Hook API</a></li>\n<li><a href=\"https://github.com/zerorooot/FuckBilibiliVote\">FuckBilibiliVote</a></li>\n<li><a href=\"https://github.com/WankkoRee/Portrait2Landscape\">不要竖屏</a></li>\n</ul>\n<h2>兼容性</h2>\n<p>下面仅列出测试过的版本，相近版本大概率能兼容</p>\n<ul>\n<li>MBGA v1.0.0 ~ v1.0.6\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2</li>\n</ul>\n</li>\n<li>MBGA v1.1.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>\n</ul>\n</li>\n<li>MBGA v1.3.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.19.0 ~ 3.19.2</li>\n</ul>\n</li>\n</ul>\n"
+          "en-US": "<h1>Make Bilibili Great Again!</h1>\n<p>欢迎来主仓库提问题和催更～ <a href=\"https://github.com/cledwynl/mbga/issues\">https://github.com/cledwynl/mbga/issues</a></p>\n<h2>功能</h2>\n<p>目前只支持国际版(com.bilibili.app.in)，兼容性见文末</p>\n<h3>设置</h3>\n<ul>\n<li>打开B站-&gt;我的-&gt;设置-&gt;标题上有MBGA字样，点击打开设置界面</li>\n</ul>\n<h3>底部Tab</h3>\n<ul>\n<li>允许干掉除了“我的”以外的所有Tab</li>\n</ul>\n<h3>首页</h3>\n<ul>\n<li>干掉竖屏</li>\n<li>禁止切后台一段时间回来后自动刷新视频列表</li>\n<li>防止刷新推荐视频时之前的列表被自动清除</li>\n<li>支持过滤非UGC，只展示用户上传的视频</li>\n<li>支持过滤过短的视频</li>\n<li>干净的视频卡片：干掉那些“竖屏”“1万点赞”“已关注”推荐理由，只给老子展示UP主名字</li>\n<li>支持强制视频卡片比例为16:9</li>\n<li>支持根据关键词过滤推荐视频</li>\n</ul>\n<h3>搜索页</h3>\n<ul>\n<li>干掉热搜</li>\n<li>干掉搜索历史</li>\n<li>干掉搜索发现</li>\n<li>禁止在搜索框内推荐搜索词</li>\n</ul>\n<h3>视频播放器</h3>\n<ul>\n<li>干掉播放器内展示的“云视听小电视”等activityMeta（不确定未来这个字段里还会塞些什么乱七八糟的东西，目前要么没有要么就是这个云视听，直接全部干掉了）</li>\n<li>干掉播放器内展示的关注弹窗、投票弹窗等（包括UP主弹幕）</li>\n<li>禁止播放器自动开启章节进度条</li>\n<li>允许在小窗、分屏模式下全屏播放（体验并不是非常好）</li>\n<li>禁止展示竖屏全屏按钮</li>\n<li>禁止点击弹幕</li>\n<li>禁止展示反馈弹窗</li>\n<li>~全屏时禁止展示在线人数~ 该功能已移除，因为B站本来就支持，可在通过这个途径设置：B站设置-&gt;播放设置-&gt;其他（播放）设置-&gt;全屏播放画面展示同时在看人数</li>\n</ul>\n<h3>视频详情页</h3>\n<ul>\n<li>视频标题左边的“热门”等标签</li>\n<li>更纯粹的链接分享\n原来分享链接是<code>https://b23.tv/xxxxxxx</code>这样的短链，展开后有乱七八糟的参数，让它变成<code>https://b23.tv/av10492</code>这样干净的av号链接</li>\n<li>干掉下方相关视频</li>\n<li>隐藏系统状态栏，可从顶部下划临时展示状态栏</li>\n</ul>\n<h3>视频评论区</h3>\n<ul>\n<li>完全隐藏评论区</li>\n<li>点击评论区文字不会自动弹出回复区</li>\n<li>干掉评论区投票</li>\n<li>干掉评论区的关注按钮（笔记类型的评论右上角）</li>\n<li>干掉评论内的关键词高亮搜索</li>\n<li>没有评论时禁止一键发送评论</li>\n<li>禁止展示反馈问卷</li>\n<li>禁止展示评论区顶部推广内容</li>\n<li>支持根据关键词过滤评论，<a href=\"https://github.com/cledwynl/mbga/issues/79\">这里</a>提供了一些常见的灌水内容</li>\n</ul>\n<h3>我的</h3>\n<ul>\n<li>在“更多服务”部分添加搜索入口，配合隐藏“首页”tab食用</li>\n<li>在“更多服务”部分添加消息入口，配合隐藏“首页”tab食用</li>\n<li>隐藏大会员入口</li>\n</ul>\n<h2>感谢</h2>\n<blockquote>\n<p>本项目参考、使用了下列开源项目的部分或全部内容</p>\n</blockquote>\n<ul>\n<li><a href=\"https://github.com/HighCapable/YukiHookAPI\">Yuki Hook API</a></li>\n<li><a href=\"https://github.com/zerorooot/FuckBilibiliVote\">FuckBilibiliVote</a></li>\n<li><a href=\"https://github.com/WankkoRee/Portrait2Landscape\">不要竖屏</a></li>\n</ul>\n<h2>兼容性</h2>\n<p>下面仅列出测试过的版本，相近版本大概率能兼容</p>\n<ul>\n<li>MBGA v1.0.0 ~ v1.0.6\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2</li>\n</ul>\n</li>\n<li>MBGA v1.1.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.18.2 ~ 3.19.2</li>\n</ul>\n</li>\n<li>MBGA v1.3.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.19.0 ~ 3.19.2</li>\n</ul>\n</li>\n<li>MBGA v1.5.0 ~\n<ul>\n<li>兼容国际版 未知 ~ 3.19.0 ~ 3.20.1</li>\n</ul>\n</li>\n</ul>\n"
         },
         "preferredSigner": "005f0dbea5ec322285daf2de9d714f0d54f2464fc976189ff5138a49abc50c5f"
       },
       "versions": {
+        "eb83102d4dd96b227d36fac00cc9ec59e71bf9604f952b6cec08a97e3adf7088": {
+          "added": 1736910477000,
+          "file": {
+            "name": "/top.trangle.mbga_165-1.5.0.apk",
+            "sha256": "eb83102d4dd96b227d36fac00cc9ec59e71bf9604f952b6cec08a97e3adf7088",
+            "size": 2055732
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 165,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "005f0dbea5ec322285daf2de9d714f0d54f2464fc976189ff5138a49abc50c5f"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "top.trangle.mbga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "c16ae70a26ee026c22c0bd5a91b54d056a4af8ea7c87e7b1c60d854c244478c8": {
           "added": 1733974482000,
           "file": {
@@ -28254,32 +28286,6 @@
           "manifest": {
             "versionName": "1.3.0",
             "versionCode": 103,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "005f0dbea5ec322285daf2de9d714f0d54f2464fc976189ff5138a49abc50c5f"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "top.trangle.mbga.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "c8d130b324b53bedd60d455d0e39ad0a183748d3183ffa3267365a5922bce033": {
-          "added": 1732159590000,
-          "file": {
-            "name": "/top.trangle.mbga_89-1.2.1.apk",
-            "sha256": "c8d130b324b53bedd60d455d0e39ad0a183748d3183ffa3267365a5922bce033",
-            "size": 2039756
-          },
-          "manifest": {
-            "versionName": "1.2.1",
-            "versionCode": 89,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 34

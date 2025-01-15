@@ -4,45 +4,8 @@ Categories:
 CurrentVersion: 0.16.1#12.8+
 CurrentVersionCode: 1601
 Description: |
-    <h1>AADisplay</h1>
-    <p><a href="https://github.com/Nitsuya/AADisplay"><img src="https://img.shields.io/badge/AADisplay-Project-blue?logo=github" alt="AADisplay" /></a>
-    <a href="https://github.com/Xposed-Modules-Repo/io.github.nitsuya.aa.display/releases"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.github.nitsuya.aa.display" alt="GitHub Release" /></a>
-    <img src="https://img.shields.io/badge/Xposed-Module-blue" alt="Xposed Module" />
-    <a href="https://github.com/nitsuya/AADisplay/blob/main/LICENSE"><img src="https://img.shields.io/github/license/nitsuya/AADisplay" alt="License" /></a>
-    <img src="https://img.shields.io/badge/Android%20SDK-%3E%3D%2031-brightgreen?logo=android" alt="Android SDK min 31" />
-    <img src="https://img.shields.io/badge/Android%20SDK-target%2033-brightgreen?logo=android" alt="Android SDK target 33" /></p>
-    <p>让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案.</p>
-    <p>仅支持A12+, 需LSPosed, 部分ROM可能存在崩的可能性, 请自备救机的常识.</p>
-    <p>理论可以支持到A10+, 由于没有设备和过多精力维护, 所以没有支持, 如有能力自行PR.</p>
-    <p>与本项目无关的问题请勿提交Issue, 必关! 例如: Magisk/LSPosed环境安装, AA无法连接/使用 等等相关的问题.</p>
-    <hr />
-    <h2>使用方法</h2>
-    <ul>
-    <li>LSPosed开启本模块,勾选System Framework和Android Auto,安装你喜爱的启动器,并在模块设置中填写包名.</li>
-    <li>建议设置Dpi,会对使用应用上下文绘制UI的叼毛应用得到改善.</li>
-    <li>添加Properties AA相关参数,可对AA的配置进行Hook修改,仅支持基础类型参数.</li>
-    <li>自动绕过Android Auto对AA应用本身安装来源的检测.</li>
-    <li>Root权限仅对用户配置的Shell命令执行使用,若无需求可不给.</li>
-    </ul>
-    <h2>免责声明</h2>
-    <ul>
-    <li>使用本模块即代表自愿承担一切后果, 包括但不限于 设备损坏, 驾车事故.</li>
-    <li>任何由本项目衍生出的项目, 本项目不承担任何责任.</li>
-    <li>本项目保证永久开源, 欢迎提交 Issue 或者 PR, 但请不要提交用于非法用途的功能.</li>
-    <li>开发者可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
-    </ul>
-    <h2>Thanks</h2>
-    <h3>库</h3>
-    <p><a href="https://source.android.com/">AOSP</a></p>
-    <p><a href="https://github.com/duzhaokun123/YAFM">YAFM</a></p>
-    <p><a href="https://github.com/LuckyPray/DexKit">DexKit</a></p>
-    <p><a href="https://github.com/Dr-TSNG/Hide-My-Applist">Hide-My-Applist</a></p>
-    <p><a href="https://github.com/RikkaW/HiddenApi">HiddenApi</a></p>
-    <p><a href="https://github.com/LSPosed/LSPosed">LSPosed</a></p>
-    <p><a href="https://forum.xda-developers.com/xposed">xposed</a></p>
-    <p><a href="https://material.io/">Material</a></p>
-    <p><a href="https://github.com/cinit/QAuxiliary">QAuxiliary</a></p>
-    <p><a href="https://github.com/matsudamper/ViewBindingUtil">ViewBindingUtil</a></p>
+    <p>该仓库为LSP发布仓库！</p>
+    <p>源码仓库： <a href="https://github.com/Nitsuya/AADisplay"><img src="https://img.shields.io/badge/AADisplay-Project-blue?logo=github" alt="AADisplay" /></a></p>
 IssueTracker: ""
 Name: AADisplay
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.nitsuya.aa.display

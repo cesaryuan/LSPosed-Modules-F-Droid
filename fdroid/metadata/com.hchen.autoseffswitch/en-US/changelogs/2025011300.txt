@@ -1,0 +1,28 @@
+### AutoSEffSwitch v.5.0
+#### 本次更新重构了模块代码！强烈建议更新！
+
+#### 更新日志：
+- opt： 重构模块：(@HChenX )
+- * 放弃在`音质音效`层的音效切换逻辑。(@HChenX )
+- * 切换音效逻辑移动至`系统框架`内部，更加稳定。(@HChenX )
+- opt：完善对 FW 模式和非 FW 模式的适配。(@HChenX ，@Voemp )
+- opt：优化`音质音效`界面调试信息的内容等。(@HChenX )
+- opt：分离新旧实现和整理项目代码。(@HChenX ，@Voemp )
+- opt：更新依赖至最新版本。(@HChenX )
+- fix：可能的空指针问题和可能的切换失败问题。(@HChenX )
+- fix：沉浸声切换失败的问题。(@HChenX ，@Voemp )
+- fix：可能受其他蓝牙设备干扰的问题。(@Voemp )
+- feat：支持 LC3 音频设备。(@Voemp )
+- feat：支持对`系统界面`磁铁的 Hook，防止被磁铁更改音效。(@HChenX )
+
+##### Tip：你依然可以通过设置 prop `persist.auto.effect.switch.use.old.version true` 来使用旧实现，但是非常不推荐！
+
+#### 鸣谢：
+- @Voemp 调试 & 代码编写。
+
+#### APK 基本信息：
+- MD5：622317e00d6460637d3beeee6c08ea49
+- SHA256：074d5436e30a7ef516ff80b6f83199b317cb9b75f157c25e4794eb7c52c9e166
+
+#### 更新时间：
+- 北京时间：2025/01/14

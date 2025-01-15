@@ -1,0 +1,25 @@
+**被删除的功能**
+
+注意！该版本移除了“全屏播放时禁止展示在线人数”功能，因为B站本来就有这个设置项，可在通过这个途径设置：B站设置->播放设置->其他（播放）设置->全屏播放画面展示同时在看人数。
+
+* feat: 移除“全屏播放时禁止展示在线人数”功能 by @cledwynl in https://github.com/cledwynl/mbga/pull/97
+
+**新功能**
+
+* feat: 干净的视频卡片 by @cledwynl in https://github.com/cledwynl/mbga/pull/82
+* feat: 强制视频封面16:9比例 by @cledwynl in https://github.com/cledwynl/mbga/pull/88
+* feat: 首页推荐视频支持关键词过滤 by @cledwynl in https://github.com/cledwynl/mbga/pull/89
+* feat: 支持隐藏大会员入口 by @cledwynl in https://github.com/cledwynl/mbga/pull/90
+* feat: 在“更多服务”中添加消息入口 by @cledwynl in https://github.com/cledwynl/mbga/pull/94
+* feat: 视频详情页隐藏系统状态栏 by @cledwynl in https://github.com/cledwynl/mbga/pull/95
+
+**新版B站支持**
+
+该版本支持B站3.20.0和3.20.1
+
+* feat: 纯净分享链接支持3.20.0和3.20.1 by @cledwynl in https://github.com/cledwynl/mbga/pull/98
+* feat: 禁止快速回复支持3.20.0和3.20.1 by @cledwynl in https://github.com/cledwynl/mbga/pull/99
+* feat: 禁止推荐搜索词支持3.20.x by @cledwynl in https://github.com/cledwynl/mbga/pull/100
+
+
+**Full Changelog**: https://github.com/cledwynl/mbga/compare/v1.4.0...v1.5.0
