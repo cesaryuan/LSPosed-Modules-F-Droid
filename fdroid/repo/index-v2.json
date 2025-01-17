@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1736996982000,
+    "timestamp": 1737083806000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736996713000,
+        "lastUpdated": 1737083391000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -4585,7 +4585,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735701817000,
+        "lastUpdated": 1737083405000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -4600,6 +4600,54 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37": {
+          "added": 1737083405000,
+          "file": {
+            "name": "/com.bug.hookvip_25011614-4.8.0-release.apk",
+            "sha256": "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37",
+            "size": 3765649
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.8.0-release",
+            "versionCode": 25011614,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3": {
           "added": 1735701817000,
           "file": {
@@ -4681,51 +4729,6 @@
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE",
                 "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de": {
-          "added": 1732159435000,
-          "file": {
-            "name": "/com.bug.hookvip_24111819-4.6.2-release.apk",
-            "sha256": "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de",
-            "size": 5317923
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.6.2-release",
-            "versionCode": 24111819,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
               },
               {
                 "name": "android.permission.READ_PHONE_STATE"
@@ -10081,7 +10084,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -15528,7 +15531,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736996794000,
+        "lastUpdated": 1737083474000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -22287,7 +22290,7 @@
           "en-US": "一个全新的QQ模块\n适配范围9.0.65-9.1.5+具体自测仅供参考\nlsp用户请把API调用保护关闭否则无法生效"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>Xposed QQ模块</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n<ul>\n<li>具体自测没实际测过</li>\n<li>新版本会优先适配</li>\n</ul>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n</li>\n</ul>\n"
+          "en-US": "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>QQ模块介绍</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n</li>\n<li>\n<p>具体自测没实际测过</p>\n</li>\n<li>\n<p>新版本会优先适配</p>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n</li>\n</ul>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n<h3>使用教程</h3>\n<ul>\n<li><a href=\"https://b23.tv/u3FFj0h\">点击查看</a></li>\n</ul>\n<h2>功能列表</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义名片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 长按消息功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 头像功能（群管）</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 发送卡片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字符串防卡顿</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽戳一戳动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 随机伪装手机号码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 篡改图片比例为最大</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽进群特效</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版侧边栏</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 弹窗功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 上传文件重命名</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 群文件下载次数</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽关键词动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 接触危险网页拦截</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 闪照破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 跳过登录倒计时</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版设置</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除扫码限制</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除封号状态</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义主页等级</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> QQ瘦身（清理QQ内存）</li>\n</ul>\n<h2>具体功能还有很多自测</h2>\n"
         },
         "preferredSigner": "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67"
       },

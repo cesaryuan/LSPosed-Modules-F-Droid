@@ -3729,80 +3729,77 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.7.4-release.apk
+          filename: app_4.8.0-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2024-12-31T10:57:48Z"
+          last_updated: "2025-01-16T07:06:45Z"
           releasedescription: |-
             <p>新增：</p>
             <ul>
-            <li>特狗影视APP 3.2.0</li>
-            <li>良人剧场 1.1.0</li>
-            <li>佩奇影视 3.4.0</li>
-            <li>迅雷 8.26.0.9580</li>
-            <li>FlowMark 1.1.2</li>
+            <li>爱其意 1.2.1</li>
+            <li>NFC Tool</li>
+            <li>钱迹 4.1.2</li>
+            <li>365日历 7.8.1</li>
+            <li>拓展「MT论坛自动签到」</li>
+            <li>二维码生成器（Play） 1.02.45.0113</li>
+            <li>条形码大师（Play） 1.02.39.0106</li>
+            <li>MyRadio（Play）</li>
+            <li>发票制作器（Play） 1.02.18.0807</li>
             </ul>
             <p>优化：</p>
             <ul>
-            <li>重构设置页面</li>
-            <li>优化语言自动选择逻辑</li>
-            <li>支持LSPatch本地模式 不支持集成（内置）模式</li>
+            <li>拓展「自定义游戏加速器白名单」</li>
+            <li>游戏加速器白名单增加一些预设包名</li>
+            <li>调整部分UI</li>
+            <li>优化稳定性</li>
+            <li>优化数据读取，现在设置不需要重启模块，只需要重启被Hook的App</li>
+            <li>更多细节优化</li>
+            <li>模块未激活时支持查看适配列表，但是不再支持打开设置页面</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>123云盘 2.4.10</li>
-            <li>AB神社 2.4.7</li>
-            <li>Adobe Scan 24.12.17-google-dynamic</li>
-            <li>inBox笔记 1.7.91</li>
-            <li>B612咔叽 13.6.5</li>
-            <li>Battery Guru 2.3.13</li>
-            <li>CamScanner 6.79.0.2412230000</li>
-            <li>Clone App 3.2.0</li>
-            <li>Flyy 2.4.3.0</li>
-            <li>Lightroom 10.1.0</li>
-            <li>MOJi辞書 8.11.2</li>
-            <li>Niagara Launcher 1.13.1</li>
-            <li>NyaFun 3.5.2</li>
-            <li>Rain Viewer 6.2</li>
-            <li>Slidebox 3.13</li>
-            <li>ShortX 1.0.0-rc2-310-f4bf296-main-prc</li>
-            <li>TB Checker 2.7.7.r363.1fc6788</li>
-            <li>Thanox 5.2.6-1-b7a3741-prc</li>
-            <li>Telegraph T11.5.3 - P11.16.0</li>
-            <li>Nullgram v11.5.3-preview-daa40e4</li>
-            <li>WPS Office 18.14.2</li>
-            <li>XPlayer - Video Player 2.4.4</li>
-            <li>XRecorder 2.3.9.2</li>
-            <li>浩克下载 1.8.6</li>
-            <li>种子磁力下载器 1.5.5</li>
-            <li>今日水印相机 v3.0.200.6</li>
-            <li>可可影视 3.3.1</li>
-            <li>网飞猫 3.3.1</li>
-            <li>美图秀秀 10.27.0</li>
-            <li>幕布 2.51.0</li>
-            <li>微分身多开 13.2.0.0</li>
-            <li>星空免费小说 2.20</li>
-            <li>知拾笔记 4.7.5</li>
-            <li>追剧达人 3.2.1</li>
-            <li>黃品匯 4.8.1</li>
-            <li>QQ音乐 14.0.0.8</li>
-            <li>懒人驾考 2.13.0</li>
-            <li>录风者 v1.5.55.241130</li>
-            <li>猫头鹰文件 13.2.7</li>
-            <li>欧路词典 10.0.0</li>
-            <li>轻羽写作 1.85.7</li>
-            <li>七猫免费小说 7.63</li>
-            <li>时间日志 1.7.4</li>
-            <li>资源大师 1.6.3</li>
-            <li>多邻国 6.11.4</li>
-            <li>微信 8.0.55</li>
-            <li>迅龙视频 更新为 小草视频</li>
-            <li>蓝狐视频 3.6.1</li>
-            <li>油条视频 3.6.0</li>
-            <li>日历记加班 4.5.4</li>
-            <li>特种作业宝典 3.9.8</li>
-            <li>我要做计划 5.1.0</li>
-            <li>醒图 11.4.0</li>
+            <li>Adobe Scan 25.01.07-google-dynamic</li>
+            <li>FlowMark 1.1.5</li>
+            <li>MOJi辞書 8.11.3</li>
+            <li>Rain Viewer 6.3</li>
+            <li>Slidebox 3.14</li>
+            <li>XRecorder 2.4.0.2</li>
+            <li>inBox笔记 1.8.100</li>
+            <li>ShortX 1.0.0-rc2-320-d1b6d44-main-prc</li>
+            <li>Thanox 5.2.7-prc</li>
+            <li>Fake Location 1.3.5 BETA 1599</li>
+            <li>HookUI 2.0-m</li>
+            <li>Nekogram 11.5.3S</li>
+            <li>Niagara Launcher 1.13.2</li>
+            <li>酷安 14.6.0</li>
+            <li>多邻国 6.12.4</li>
+            <li>今日水印相机 v3.0.205.4</li>
+            <li>可可影视 3.3.2</li>
+            <li>网飞猫 3.3.2</li>
+            <li>开发助手 8.4.0-gp</li>
+            <li>懒人驾考 2.13.2</li>
+            <li>美图秀秀 11.1.0</li>
+            <li>七猫免费小说 7.65</li>
+            <li>轻羽写作 1.86.0</li>
+            <li>鲨鱼记账 5.17.2</li>
+            <li>特种作业宝典 4.0.0</li>
+            <li>我要做计划 5.3.0</li>
+            <li>知拾笔记 4.7.7</li>
+            <li>薄荷记账 11.0.9</li>
+            <li>幕布 2.51.1</li>
+            <li>欧路词典 10.0.1</li>
+            <li>醒图 11.5.0</li>
+            <li>迅雷 8.26.0.9582</li>
+            <li>一刻日记 2.0.5</li>
+            <li>佐糖 2.0.1</li>
+            </ul>
+            <p>其他：</p>
+            <ul>
+            <li>去除 存储空间隔离</li>
+            <li>去除 分身有力</li>
+            <li>去除 喵次元</li>
+            <li>去除 MioMio</li>
+            <li>去除 小星记账</li>
             </ul>
             <hr>
             <p>天天开心！</p>
@@ -7734,7 +7731,7 @@ com.kgg.hhvideo:
           description: |
             <h1>电影猎手(原555电影)去广告</h1>
             <p><a href="https://www.123684.com/s/XY3fjv-plQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
-            <p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>
+            <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
             <p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>
             <h1>省团生活App，吃喝玩乐都有优惠</h1>
@@ -15770,37 +15767,44 @@ io.github.qauxv:
             <li>由于项目的特殊性，我们不接受任何形式的捐赠，但是我们希望有更多的人能够参与本项目的开发</li>
             </ul>
             <h2><a href="https://github.com/qwq233/License/blob/master/v2/LICENSE.md">通用许可协议</a></h2>
-          filename: QAuxv-v1.5.5.r2540.224cfe1-symbol.zip
+          filename: QAuxv-v1.5.6.r2578.651aa68-symbol.zip
           id: io.github.qauxv
           name: QAuxiliary
-          last_updated: "2024-11-28T14:17:17Z"
+          last_updated: "2025-01-16T07:06:28Z"
           releasedescription: |-
-            <p><strong>QAuxiliary v1.5.5</strong></p>
+            <p><strong>QAuxiliary v1.5.6</strong></p>
             <p><strong>新增功能</strong></p>
             <ul>
-            <li>屏蔽聊天面板按钮</li>
-            <li>隐藏聊天快捷栏</li>
-            <li>隐藏进群介绍及相关效果</li>
-            <li>禁用轻互动</li>
-            <li>隐藏群广场</li>
+            <li>显示业务右上角移除选项</li>
+            <li>隐藏底栏标题</li>
+            <li>隐藏登录设备(已登录 Windows、Pad)提示</li>
+            <li>TIM 群标题栏添加精华消息入口</li>
             </ul>
             <p><strong>修复部分功能</strong></p>
             <ul>
-            <li>隐藏好友聊天语音</li>
-            <li>允许群名带表情</li>
-            <li>消息显示 ID 和时间</li>
-            <li>修复 Android 15 若干兼容性问题</li>
+            <li>精简聊天气泡长按菜单</li>
+            <li>消息+1 Plus</li>
+            <li>小程序/分享卡片跳转APP</li>
+            <li>精简设置菜单</li>
+            <li>被禁言剩余时间精确到秒</li>
+            <li>强制平板模式</li>
+            <li>移除侧滑栏左上角打卡</li>
+            <li>文本消息自由复制</li>
+            <li>可选使用系统相册</li>
+            <li>聊天界面查看图片使用透明背景</li>
+            <li>聊天自动发送原图</li>
+            <li>批量撤回消息</li>
             </ul>
-            <p>Commit: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/cinit/QAuxiliary/commit/224cfe191231569a3e3e3308ee84bcad6a8e99ea/hovercard" href="https://github.com/cinit/QAuxiliary/commit/224cfe191231569a3e3e3308ee84bcad6a8e99ea">cinit/QAuxiliary@<tt>224cfe1</tt></a></p>
+            <p>Commit: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/cinit/QAuxiliary/commit/651aa68ccd5d4e7c59f57c5237e8a9d96e2d84e7/hovercard" href="https://github.com/cinit/QAuxiliary/commit/651aa68ccd5d4e7c59f57c5237e8a9d96e2d84e7">cinit/QAuxiliary@<tt>651aa68</tt></a></p>
             <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sha256sum *
-            cce4a6b5a91b5488f3ecc692efd7e4d1b3dd2ee5f865674da094e828b6fc581c  QAuxv-v1.5.5.r2540.224cfe1-arm32.apk
-            c0eecb2713127d9e5085249d8e6c296c55bfd6ce87ae7340ea4172e91f9219ee  QAuxv-v1.5.5.r2540.224cfe1-arm64.apk
-            bd3db597dde71b97abb0f29296ca34fa76fbe8c14cc2f1387ce36728b9de8ecc  QAuxv-v1.5.5.r2540.224cfe1-armAll.apk
-            d1595ece937f90d8d9a958d4e135bb3f3cc8b5603645f10c380d812c4d25010a  QAuxv-v1.5.5.r2540.224cfe1-universal.apk"><pre lang="text" class="notranslate"><code>sha256sum *
-            cce4a6b5a91b5488f3ecc692efd7e4d1b3dd2ee5f865674da094e828b6fc581c  QAuxv-v1.5.5.r2540.224cfe1-arm32.apk
-            c0eecb2713127d9e5085249d8e6c296c55bfd6ce87ae7340ea4172e91f9219ee  QAuxv-v1.5.5.r2540.224cfe1-arm64.apk
-            bd3db597dde71b97abb0f29296ca34fa76fbe8c14cc2f1387ce36728b9de8ecc  QAuxv-v1.5.5.r2540.224cfe1-armAll.apk
-            d1595ece937f90d8d9a958d4e135bb3f3cc8b5603645f10c380d812c4d25010a  QAuxv-v1.5.5.r2540.224cfe1-universal.apk
+            d67197dfbd33e33fd45b27839574f58c674845c88fb04ce93f22b7c9f55899bf  QAuxv-v1.5.6.r2578.651aa68-arm32.apk
+            31cd09784c3651bf8e5fc5f44510f1cdd5d0748a7b17874c395dce57942e15ab  QAuxv-v1.5.6.r2578.651aa68-arm64.apk
+            245c2a0fa1789cd0ee95d6f2c6cf8ac4c123d7d91b03f389902d97c0554ac794  QAuxv-v1.5.6.r2578.651aa68-armAll.apk
+            aa7675a0043ceee3efc6fee92d8cc98b6b9033f3fbbefa117d05d11cb9b0590a  QAuxv-v1.5.6.r2578.651aa68-universal.apk"><pre lang="text" class="notranslate"><code>sha256sum *
+            d67197dfbd33e33fd45b27839574f58c674845c88fb04ce93f22b7c9f55899bf  QAuxv-v1.5.6.r2578.651aa68-arm32.apk
+            31cd09784c3651bf8e5fc5f44510f1cdd5d0748a7b17874c395dce57942e15ab  QAuxv-v1.5.6.r2578.651aa68-arm64.apk
+            245c2a0fa1789cd0ee95d6f2c6cf8ac4c123d7d91b03f389902d97c0554ac794  QAuxv-v1.5.6.r2578.651aa68-armAll.apk
+            aa7675a0043ceee3efc6fee92d8cc98b6b9033f3fbbefa117d05d11cb9b0590a  QAuxv-v1.5.6.r2578.651aa68-universal.apk
             </code></pre></div>
     author_name: NextAlone
 io.github.rushiranpise.gameunlocker:
@@ -16541,7 +16545,7 @@ lzlnb.cnm.hook:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>Xposed QQ模块</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n<ul>\n<li>具体自测没实际测过</li>\n<li>新版本会优先适配</li>\n</ul>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n</li>\n</ul>\n"
+          description: "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>QQ模块介绍</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n</li>\n<li>\n<p>具体自测没实际测过</p>\n</li>\n<li>\n<p>新版本会优先适配</p>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n</li>\n</ul>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n<h3>使用教程</h3>\n<ul>\n<li><a href=\"https://b23.tv/u3FFj0h\">点击查看</a></li>\n</ul>\n<h2>功能列表</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义名片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 长按消息功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 头像功能（群管）</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 发送卡片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字符串防卡顿</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽戳一戳动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 随机伪装手机号码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 篡改图片比例为最大</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽进群特效</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版侧边栏</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 弹窗功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 上传文件重命名</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 群文件下载次数</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽关键词动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 接触危险网页拦截</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 闪照破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 跳过登录倒计时</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版设置</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除扫码限制</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除封号状态</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义主页等级</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> QQ瘦身（清理QQ内存）</li>\n</ul>\n<h2>具体功能还有很多自测</h2>\n"
           filename: MoldedaBlock_v2.3.apk
           id: lzlnb.cnm.hook
           name: 模了个块
