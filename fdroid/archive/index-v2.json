@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1736996969000,
+    "timestamp": 1737083792000,
     "categories": {
       "Xposed": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735701817000,
+        "lastUpdated": 1737083405000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -45,6 +45,51 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de": {
+          "added": 1732159435000,
+          "file": {
+            "name": "/com.bug.hookvip_24111819-4.6.2-release.apk",
+            "sha256": "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de",
+            "size": 5317923
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.6.2-release",
+            "versionCode": 24111819,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "eb20d0460e6c00cb4eb8982928599b31b99cc201c8db10dd45c22c78dfc05e6d": {
           "added": 1732159434000,
           "file": {
@@ -453,7 +498,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1736996982000,
+    "timestamp": 1737083806000,
     "version": 20002
   },
   "requests": {
@@ -40,7 +40,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-plQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，免费好用，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-plQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
       "icon": "com.kgg.hhvideo.png",
       "lastUpdated": 1736689275000,
       "license": "Unknown",
@@ -994,14 +994,14 @@
       "suggestedVersionCode": "2147483647"
     },
     {
-      "added": 1723861533000,
+      "added": 1732159431000,
       "authorName": "catsmoker",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eCatsmoker App\u003c/h1\u003e\n\u003cp\u003eCatsmoker is a simple Android app that displays a web page using a \u003ccode\u003eWebView\u003c/code\u003e component. The web page shown is hosted at \u003ca href=\"https://catsmoker.github.io\"\u003ecatsmoker.github.io\u003c/a\u003e. It also serves as a utility aimed at unlocking higher FPS in games by spoofing your device as a different model for specific games.\u003c/p\u003e\n\u003cp\u003eFor more information, visit the \u003ca href=\"https://github.com/catsmoker/com.app.catsmoker\"\u003eGitHub repository\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSpoof device information for improved gaming performance in supported games.\u003c/li\u003e\n\u003cli\u003eCompatible with a wide variety of popular gaming apps.\u003c/li\u003e\n\u003cli\u003eSimple installation with no configuration needed.\u003c/li\u003e\n\u003cli\u003eDisplays a web page within the app.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTable of Contents\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"#getting-started\"\u003eGetting Started\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#usage\"\u003eUsage\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#supported-games\"\u003eSupported Games\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#license\"\u003eLicense\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#contributing\"\u003eContributing\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eGetting Started\u003c/h2\u003e\n\u003ch3\u003ePrerequisites\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eEnsure that your Android device is rooted.\u003c/li\u003e\n\u003cli\u003eInstall the \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e framework on your device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eInstallation\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eDownload the Module\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDownload the \u003ccode\u003ecatsmoker\u003c/code\u003e module from the releases section of the repository.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eInstall the APK\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eOpen \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e Manager.\u003c/li\u003e\n\u003cli\u003eGo to the \u003ccode\u003eModules\u003c/code\u003e section.\u003c/li\u003e\n\u003cli\u003eSearch for \u003ccode\u003ecatsmoker\u003c/code\u003e and enable the module.\u003c/li\u003e\n\u003cli\u003eThe supported games are automatically added to the scope.\u003c/li\u003e\n\u003cli\u003eForce stop the added game manually to take effect.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eOnce you’ve installed and activated the Catsmoker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.\u003c/p\u003e\n\u003cp\u003eYou can untick the games you don’t want to spoof in the module scope. Force stop and relaunch are required.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e Device spoofing may violate the terms of service for some games or apps.\u003c/p\u003e\n\u003ch2\u003eSupported Games\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eActivision Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.shooter\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.warzone\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.garena.game.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.kr.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.codmvn\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.cod\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eTencent Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.ig\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.imobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.krmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.rekoo.pubgm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.pubgmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.pubgmhd\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eGarena Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefiremax\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefireth\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEpic Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.epicgames.fortnite\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cp\u003eThis project is licensed under the MIT License - see the \u003ca href=\"LICENSE\"\u003eLICENSE\u003c/a\u003e file for details.\u003c/p\u003e\n\u003ch2\u003eContributing\u003c/h2\u003e\n\u003cp\u003eContributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.\u003c/p\u003e\n",
       "icon": "com.app.catsmoker.3.png",
-      "lastUpdated": 1723861533000,
+      "lastUpdated": 1732159431000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -2205,25 +2205,25 @@
       "summary": "一个基于 Xposed 的免费的游戏内购模块。"
     },
     {
-      "added": 1735642668000,
+      "added": 1737011205000,
       "authorName": "bug-bit",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eFuck for VIP\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/bugccx\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e一个解锁部分软件会员与去广告的模块（详情见模块内）\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch3\u003e注意\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e不要提交任何issues，因为你不会得到任何有用的回复\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e免责声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e禁止发送、分享至国内平台！否则一切后果自行承担！\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！\u003c/li\u003e\n\u003cli\u003e本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e须知\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报🔆\u003c/li\u003e\n\u003cli\u003e唯一Telegram频道：@bugccx\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.bug.hookvip.png",
-      "lastUpdated": 1735642668000,
+      "lastUpdated": 1737011205000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增：\n- 特狗影视APP 3.2.0\n- 良人剧场 1.1.0\n- 佩奇影视 3.4.0\n- 迅雷 8.26.0.9580\n- FlowMark 1.1.2\n\n优化：\n- 重构设置页面\n- 优化语言自动选择逻辑\n- 支持LSPatch本地模式 不支持集成（内置）模式\n\n适配：\n- 123云盘 2.4.10\n- AB神社 2.4.7\n- Adobe Scan 24.12.17-google-dynamic\n- inBox笔记 1.7.91\n- B612咔叽 13.6.5\n- Battery Guru 2.3.13\n- CamScanner 6.79.0.2412230000\n- Clone App 3.2.0\n- Flyy 2.4.3.0\n- Lightroom 10.1.0\n- MOJi辞書 8.11.2\n- Niagara Launcher 1.13.1\n- NyaFun 3.5.2\n- Rain Viewer 6.2\n- Slidebox 3.13\n- ShortX 1.0.0-rc2-310-f4bf296-main-prc\n- TB Checker 2.7.7.r363.1f"
+          "whatsNew": "新增：\n- 爱其意 1.2.1\n- NFC Tool\n- 钱迹 4.1.2\n- 365日历 7.8.1\n- 拓展「MT论坛自动签到」\n- 二维码生成器（Play） 1.02.45.0113\n- 条形码大师（Play） 1.02.39.0106\n- MyRadio（Play）\n- 发票制作器（Play） 1.02.18.0807\n\n优化：\n- 拓展「自定义游戏加速器白名单」\n- 游戏加速器白名单增加一些预设包名\n- 调整部分UI\n- 优化稳定性\n- 优化数据读取，现在设置不需要重启模块，只需要重启被Hook的App\n- 更多细节优化\n- 模块未激活时支持查看适配列表，但是不再支持打开设置页面\n\n适配：\n- Adobe Scan 25.01.07-google-dynamic\n- FlowMark 1.1.5\n- MOJi辞書 8.11.3\n- Rain Viewer 6.3\n- Slidebox 3.14\n- XRecorder 2.4.0.2\n- inBox笔记 1.8.100\n- ShortX 1.0.0-rc2-320-d1b6d44-main-prc\n- Thanox 5.2.7"
         }
       },
       "name": "Fuck for VIP",
       "packageName": "com.bug.hookvip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
-      "suggestedVersionCode": "24123118",
-      "suggestedVersionName": "4.7.4-release",
+      "suggestedVersionCode": "25011614",
+      "suggestedVersionName": "4.8.0-release",
       "summary": "解锁部分软件的会员"
     },
     {
@@ -6837,7 +6837,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1736996794000,
+      "lastUpdated": 1737083474000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8724,7 +8724,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1 \u003e 模了个块 \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/lzlmo\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e  \n\u003chr /\u003e\n\u003ch2\u003eXposed QQ模块\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e支持的QQ版本 9.0.65 +\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e具体自测没实际测过\u003c/li\u003e\n\u003cli\u003e新版本会优先适配\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e推荐使用的框架\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e1.\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e2.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 本地模式(没root的可以用这个)\u003c/li\u003e\n\u003cli\u003e3.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 内置模式(便携模式 或者这个)\u003c/li\u003e\n\u003cli\u003e4.\u003ca href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\"\u003eFPA\u003c/a\u003e 免root(支持安卓15)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1 \u003e 模了个块 \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/lzlmo\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e  \n\u003chr /\u003e\n\u003ch2\u003eQQ模块介绍\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e支持的QQ版本 9.0.65 +\u003c/strong\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e具体自测没实际测过\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e新版本会优先适配\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e推荐使用的框架\u003c/strong\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e1.\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e2.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 本地模式(没root的可以用这个)\u003c/li\u003e\n\u003cli\u003e3.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 内置模式(便携模式 或者这个)\u003c/li\u003e\n\u003cli\u003e4.\u003ca href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\"\u003eFPA\u003c/a\u003e 免root(支持安卓15)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e使用教程\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://b23.tv/u3FFj0h\"\u003e点击查看\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e功能列表\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自定义名片\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 长按消息功能\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 头像功能（群管）\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 发送卡片\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 字符串防卡顿\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽戳一戳动画\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 随机伪装手机号码\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 篡改图片比例为最大\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽进群特效\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 恢复旧版侧边栏\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 弹窗功能\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 上传文件重命名\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 群文件下载次数\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽关键词动画\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 接触危险网页拦截\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 闪照破解\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 跳过登录倒计时\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 恢复旧版设置\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 去除扫码限制\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 去除封号状态\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自定义主页等级\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e QQ瘦身（清理QQ内存）\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e具体功能还有很多自测\u003c/h2\u003e\n",
       "lastUpdated": 1736996833000,
       "license": "Unknown",
       "localized": {
@@ -11326,7 +11326,7 @@
     ],
     "com.app.catsmoker": [
       {
-        "added": 1723861533000,
+        "added": 1732159431000,
         "apkName": "com.app.catsmoker_3-1.3.apk",
         "hash": "7480250cff207dddba494727e5b005d1166db80fced8f83629459e9ce49ecc47",
         "hashType": "sha256",
@@ -11512,7 +11512,25 @@
     ],
     "com.bug.hookvip": [
       {
-        "added": 1735642668000,
+        "added": 1737011205000,
+        "apkName": "com.bug.hookvip_25011614-4.8.0-release.apk",
+        "hash": "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.bug.hookvip",
+        "sig": "90172522574ef52dc6d68c644d2fb88b",
+        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
+        "size": 3765649,
+        "targetSdkVersion": 35,
+        "versionCode": 25011614,
+        "versionName": "4.8.0-release"
+      },
+      {
+        "added": 1735701817000,
         "apkName": "com.bug.hookvip_24123118-4.7.4-release.apk",
         "hash": "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3",
         "hashType": "sha256",
@@ -11546,24 +11564,6 @@
         "targetSdkVersion": 35,
         "versionCode": 24121018,
         "versionName": "4.6.8-release"
-      },
-      {
-        "added": 1732159435000,
-        "apkName": "com.bug.hookvip_24111819-4.6.2-release.apk",
-        "hash": "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.bug.hookvip",
-        "sig": "90172522574ef52dc6d68c644d2fb88b",
-        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
-        "size": 5317923,
-        "targetSdkVersion": 35,
-        "versionCode": 24111819,
-        "versionName": "4.6.2-release"
       }
     ],
     "com.ceco.oreo.gravitybox": [
@@ -15180,7 +15180,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1736996794000,
+        "added": 1737083474000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
