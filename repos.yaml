@@ -7730,20 +7730,23 @@ com.kgg.hhvideo:
             - Xposed
           description: |
             <h1>电影猎手(原555电影)去广告</h1>
-            <p><a href="https://www.123684.com/s/XY3fjv-plQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
+            <p><a href="https://www.123684.com/s/XY3fjv-1eQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
+            <p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>
             <p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>
             <h1>省团生活App，吃喝玩乐都有优惠</h1>
             <p>下载链接：<a href="https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>
             <p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>
-          filename: dylsNoAd_1.0.19_release.apk
+          filename: dylsNoAd_1.0.20_release.apk
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
-          last_updated: "2025-01-12T13:41:15Z"
+          last_updated: "2025-01-17T17:55:32Z"
           releasedescription: |-
-            <p>适配电影猎手3.1.0.9版本</p>
-            <p>内置模块电影猎手下载地址：<a href="https://www.123684.com/s/XY3fjv-plQKd" rel="nofollow">https://www.123684.com/s/XY3fjv-plQKd</a></p>
+            <p>适配电影猎手v3.1.1.0版本</p>
+            <p>官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选</p>
+            <p>LSPosed设置中需关闭Xposed API调用保护</p>
+            <p>推荐使用内置模块的电影猎手App，下载地址：<a href="https://www.123684.com/s/XY3fjv-1eQKd" rel="nofollow">https://www.123684.com/s/XY3fjv-1eQKd</a></p>
     author_name: KongGuoguang
 com.kgg.hlddz:
     git: https://github.com/Xposed-Modules-Repo/com.kgg.hlddz
@@ -8682,7 +8685,7 @@ com.mihuashi.paybyfinger:
             <a href="https://github.com/ghhccghk/mhspay/stargazers"><img src="https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square" alt="GitHub Star" /></a> <a href="https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers"><img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1" alt="GitHub Star" /></a>
             <a href="https://github.com/ghhccghk/mhspay/network/members"><img src="https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square" alt="GitHub Fork" /></a></h2>
             <p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>
-            <h1>不要更新新版本，新版本有反hook</h1>
+            <h1>不要更新新版本，新版本有反hook，目前支持到 7.21.0</h1>
             <h2>告示</h2>
             <h5>本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看</h5>
             <h1>完整使用说明/GitHub项目</h1>
@@ -8705,18 +8708,15 @@ com.mihuashi.paybyfinger:
             <h4><a href="https://github.com/ReChronoRain/HyperCeiler">HyperCeiler</a> 参考了焦点通知实现</h4>
             <h4><a href="https://github.com/fankes/MIUINativeNotifyIcon">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>
             <p><a href="https://www.jetbrains.com"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" width="200"/></a></p>
-          filename: Rice.Painter.Fingerprint.Pay-1.0.2-3-release-1736166238458.apk
+          filename: Rice.Painter.Fingerprint.Pay-1.0.3-4-release-1737120003916.apk
           id: com.mihuashi.paybyfinger
           name: 米画师支付模块
-          last_updated: "2025-01-06T12:55:57Z"
+          last_updated: "2025-01-17T13:31:46Z"
           releasedescription: |-
             <h2>更新日志</h2>
-            <p>opt: 添加系统信息显示，以及小米系统完整版本号显示<br>
-            fix: 优化设备名称显示<br>
-            fix: 防止未设置密码的时候调用密码输入函数<br>
-            opt：针对小米澎湃解锁本应用焦点通知白名单<br>
-            update: 更新ReadMe<br>
-            opt: 添加图标</p>
+            <p>opt: 添加Vivo系统完整版本号显示<br>
+            fix：优化hook逻辑<br>
+            update：更新版本号</p>
     author_name: ghhccghk
 com.miui.break.sim:
     git: https://github.com/Xposed-Modules-Repo/com.miui.break.sim
@@ -19369,13 +19369,14 @@ ru.bluecat.alfabankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android">Alfa-Bank</a>, you don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Alfa_Bank_Patcher_v2.7.1.apk
+          filename: Alfa_Bank_Patcher_v2.8.apk
           id: ru.bluecat.alfabankpatcher
           name: Alfa Bank Patcher
-          last_updated: "2025-01-04T15:25:12Z"
+          last_updated: "2025-01-17T14:19:55Z"
           releasedescription: |-
             <ul>
-            <li>Шлифовка миграции настроек и тех данных</li>
+            <li>Поддержка версии 12.24.16</li>
+            <li>Мелкие правки в интерфейс.</li>
             </ul>
     author_name: BlueCat300
 ru.bluecat.android.xposed.mods.appsettings:

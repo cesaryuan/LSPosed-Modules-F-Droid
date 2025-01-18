@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737083806000,
+    "timestamp": 1737169965000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737083391000,
+        "lastUpdated": 1737169542000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -10074,7 +10074,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736305789000,
+        "lastUpdated": 1737169590000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
         "authorName": "KongGuoguang",
         "name": {
@@ -10084,11 +10084,40 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-plQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-1eQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
       "versions": {
+        "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97": {
+          "added": 1737169590000,
+          "file": {
+            "name": "/com.kgg.hhvideo_20-1.0.20.apk",
+            "sha256": "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97",
+            "size": 1158651
+          },
+          "manifest": {
+            "versionName": "1.0.20",
+            "versionCode": 20,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "9a594f5e1264a0bd4eb7702df625f6fc475e2fc743e630d9d15175d766122d4c": {
           "added": 1736305789000,
           "file": {
@@ -10128,35 +10157,6 @@
           "manifest": {
             "versionName": "1.0.18",
             "versionCode": 18,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab": {
-          "added": 1732159475000,
-          "file": {
-            "name": "/com.kgg.hhvideo_17-1.0.17.apk",
-            "sha256": "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab",
-            "size": 1302103
-          },
-          "manifest": {
-            "versionName": "1.0.17",
-            "versionCode": 17,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33
@@ -11543,7 +11543,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736220107000,
+        "lastUpdated": 1737169600000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger",
         "authorName": "ghhccghk",
         "name": {
@@ -11553,11 +11553,55 @@
           "en-US": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
         },
         "description": {
-          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h1>不要更新新版本，新版本有反hook</h1>\n<h2>告示</h2>\n<h5>本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看</h5>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n<h2>致谢</h2>\n<h4><a href=\"https://github.com/ShellWen\">Shellwen</a> 感谢其帮忙脱壳</h4>\n<h4><a href=\"https://github.com/KyuubiRan/EzXHelper\">EzXHelper</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/XKT\">XKT</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/Lyric-Getter\">Lyric-Getter</a> 参考了界面写法</h4>\n<h4><a href=\"https://github.com/ReChronoRain/HyperCeiler\">HyperCeiler</a> 参考了焦点通知实现</h4>\n<h4><a href=\"https://github.com/fankes/MIUINativeNotifyIcon\">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>\n<p><a href=\"https://www.jetbrains.com\"><img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/></a></p>\n"
+          "en-US": "<h2><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads&amp;labelColor=F48FB1\" alt=\"GitHub releases\" /> <img src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /> <a href=\"https://github.com/ghhccghk/mhspay/releases/latest\"><img src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"><img src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/ghhccghk/mhspay/stargazers\"><img src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /></a> <a href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square&amp;label=LSPosed%20Star&amp;labelColor=F48FB1\" alt=\"GitHub Star\" /></a>\n<a href=\"https://github.com/ghhccghk/mhspay/network/members\"><img src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /></a></h2>\n<p>通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别</p>\n<h1>不要更新新版本，新版本有反hook，目前支持到 7.21.0</h1>\n<h2>告示</h2>\n<h5>本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看</h5>\n<h1>完整使用说明/GitHub项目</h1>\n<h4>模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。</h4>\n<p><a href=\"https://github.com/ghhccghk/mhspay\">https://github.com/ghhccghk/mhspay</a></p>\n<h2>输入的密码会不会被窃取？</h2>\n<h4>密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。</h4>\n<h2>关于</h2>\n<h3>讨论交流</h3>\n<p>去<a href=\"https://github.com/ghhccghk/mhspay\">这里</a>的Issue 交流</p>\n<h3>关于转载</h3>\n<p>该模块仅在Xposed module repo官方仓库发布</p>\n<h3>使用守则</h3>\n<p>严禁在公开区域宣传与展示本软件！</p>\n<h2>致谢</h2>\n<h4><a href=\"https://github.com/ShellWen\">Shellwen</a> 感谢其帮忙脱壳</h4>\n<h4><a href=\"https://github.com/KyuubiRan/EzXHelper\">EzXHelper</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/XKT\">XKT</a> 使用了其项目</h4>\n<h4><a href=\"https://github.com/xiaowine/Lyric-Getter\">Lyric-Getter</a> 参考了界面写法</h4>\n<h4><a href=\"https://github.com/ReChronoRain/HyperCeiler\">HyperCeiler</a> 参考了焦点通知实现</h4>\n<h4><a href=\"https://github.com/fankes/MIUINativeNotifyIcon\">MIUINativeNotifyIcon</a> 参考了小米系统信息获取</h4>\n<p><a href=\"https://www.jetbrains.com\"><img src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/></a></p>\n"
         },
         "preferredSigner": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159"
       },
       "versions": {
+        "b3033443159a5bbac64af7d62d2e977f22e6188176d8f0808574de1d5e766d4c": {
+          "added": 1737169600000,
+          "file": {
+            "name": "/com.mihuashi.paybyfinger_4-1.0.3.apk",
+            "sha256": "b3033443159a5bbac64af7d62d2e977f22e6188176d8f0808574de1d5e766d4c",
+            "size": 2290511
+          },
+          "manifest": {
+            "versionName": "1.0.3",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.fingerprints.service.ACCESS_FINGERPRINT_MANAGER"
+              },
+              {
+                "name": "com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.mihuashi.paybyfinger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "5fda45982d124f93fe333723acf61edfa6e6cb78dd79e4e8bdd5173e47d26338": {
           "added": 1736220107000,
           "file": {
@@ -15531,7 +15575,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737083474000,
+        "lastUpdated": 1737169624000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -25759,7 +25803,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736058411000,
+        "lastUpdated": 1737169685000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -25774,6 +25818,71 @@
         "preferredSigner": "9bfab8d1eba0e991296af4f31730f4a36aa2cbb1a2b16d53634284b5702fc533"
       },
       "versions": {
+        "0c686e36f2556eed29ef609724e0efe414c5f4e3bf4cef10ceee71bc62c3598c": {
+          "added": 1737169685000,
+          "file": {
+            "name": "/ru.bluecat.alfabankpatcher_263-2.8.apk",
+            "sha256": "0c686e36f2556eed29ef609724e0efe414c5f4e3bf4cef10ceee71bc62c3598c",
+            "size": 8810412
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.8",
+            "versionCode": 263,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "9bfab8d1eba0e991296af4f31730f4a36aa2cbb1a2b16d53634284b5702fc533"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.alfabankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "82f5e40501f5afb6a692f70277b712316504fb4333fd24b7581d70edcf2e5d3f": {
           "added": 1736058411000,
           "file": {
