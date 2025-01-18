@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1737083806000,
+    "timestamp": 1737169965000,
     "version": 20002
   },
   "requests": {
@@ -35,25 +35,25 @@
       "summary": "微信群消息助手 - 整理群消息、服务号。"
     },
     {
-      "added": 1736689275000,
+      "added": 1737136532000,
       "authorName": "KongGuoguang",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-plQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.123684.com/s/XY3fjv-1eQKd\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本\u003c/p\u003e\n\u003cp\u003e2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
       "icon": "com.kgg.hhvideo.png",
-      "lastUpdated": 1736689275000,
+      "lastUpdated": 1737136532000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配电影猎手3.1.0.9版本\n\n内置模块电影猎手下载地址：https://www.123684.com/s/XY3fjv-plQKd"
+          "whatsNew": "适配电影猎手v3.1.1.0版本\n\n官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选\n\nLSPosed设置中需关闭Xposed API调用保护\n\n推荐使用内置模块的电影猎手App，下载地址：https://www.123684.com/s/XY3fjv-1eQKd\n"
         }
       },
       "name": "555电影(电影猎手)App去广告",
       "packageName": "com.kgg.hhvideo",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
-      "suggestedVersionCode": "19",
-      "suggestedVersionName": "1.0.19",
+      "suggestedVersionCode": "20",
+      "suggestedVersionName": "1.0.20",
       "summary": "电影猎手App去广告模块"
     },
     {
@@ -209,25 +209,25 @@
       "summary": "基于系统闹钟的定时执行Shell脚本的LSP模块，具有更高可靠性，妈妈再也不用担心定时任务不执行啦！"
     },
     {
-      "added": 1736004312000,
+      "added": 1737123595000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAlfa Bank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=117766501\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eСкрытие рекламы различного формата и управление push уведомлениями в приложении \u003ca href=\"https://apps.rustore.ru/app/ru.alfabank.mobile.android\"\u003eАльфа Банк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eКонтроль проверок на валидность устройства / VPN для AlfaPay и сканера отпечатка включены всегда.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eРазличные баннеры с предложениями\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eВнутреннее самообновление\u003c/li\u003e\n\u003cli\u003eПрофиль. Госуслуги\u003c/li\u003e\n\u003cli\u003eСкрытие раздела “Выгода”\u003c/li\u003e\n\u003cli\u003eЧат. Скрытие предложений в истории push уведомлений\u003c/li\u003e\n\u003cli\u003eЧат. Фильтрация видимости доступных чатов\u003c/li\u003e\n\u003cli\u003ePush. Загрузка конфигурации фильтрации\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам (белый / чёрный список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование отфильтрованных Push сообщений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eРасположения баннеров:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eГлавная: “призрачные” предложения в списке счетов, баннер-карусель как один из неубираемых виджетов, реферальный баннер сверху\u003c/li\u003e\n\u003cli\u003eВыгода: баннер-карусель в разделе “Всё”, реферальные баннеры и раздел, кредитные предложения в бизнес услугах, раздел предложений\u003c/li\u003e\n\u003cli\u003eИстория: предложения кредита сверху над самой историей\u003c/li\u003e\n\u003cli\u003eПереводы: предложение кредита после успешного перевода\u003c/li\u003e\n\u003cli\u003eПосле авторизации: истории, предложение биометрии\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAppsFlyer\u003c/li\u003e\n\u003cli\u003eFirebase analytics\u003c/li\u003e\n\u003cli\u003eFlurry\u003c/li\u003e\n\u003cli\u003eMyTracker\u003c/li\u003e\n\u003cli\u003eSnowPlow\u003c/li\u003e\n\u003cli\u003eGROUP-IB\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android\"\u003eАльфа-Банк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса Альфа Банка и манипуляции с логами push сообщений.\u003c/li\u003e\n\u003cli\u003eДля более эффективной работы push фильтра рекомендуется использовать сторонний фильтр sms сообщений т.к. реализация текущего фильтра работает по принципу “не в сети” для искомый push сообщений, сервер может вам присылать тоже сообщение на зарегистрированный номер через смс.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android\"\u003eAlfa-Bank\u003c/a\u003e, you don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.alfabankpatcher.png",
-      "lastUpdated": 1736004312000,
+      "lastUpdated": 1737123595000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Шлифовка миграции настроек и тех данных"
+          "whatsNew": "- Поддержка версии 12.24.16\n- Мелкие правки в интерфейс."
         }
       },
       "name": "Alfa Bank Patcher",
       "packageName": "ru.bluecat.alfabankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher",
-      "suggestedVersionCode": "254",
-      "suggestedVersionName": "2.7.1",
+      "suggestedVersionCode": "263",
+      "suggestedVersionName": "2.8",
       "summary": "Скрывает рекламу в приложении Альфа Банк, а так же ряд других параметров."
     },
     {
@@ -6837,7 +6837,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1737083474000,
+      "lastUpdated": 1737169624000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -9168,24 +9168,24 @@
       "suggestedVersionName": "2.1.2"
     },
     {
-      "added": 1736168157000,
+      "added": 1737120706000,
       "authorName": "ghhccghk",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e不要更新新版本，新版本有反hook\u003c/h1\u003e\n\u003ch2\u003e告示\u003c/h2\u003e\n\u003ch5\u003e本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看\u003c/h5\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/fankes/MIUINativeNotifyIcon\"\u003eMIUINativeNotifyIcon\u003c/a\u003e 参考了小米系统信息获取\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1736168157000,
+      "description": "\u003ch2\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mihuashi.paybyfinger/total?label=LSPosed%20downloads\u0026amp;labelColor=F48FB1\" alt=\"GitHub releases\" /\u003e \u003cimg src=\"https://img.shields.io/github/downloads/ghhccghk/mhspay/total?style=flat-square\" alt=\"Release Download\" /\u003e \u003ca href=\"https://github.com/ghhccghk/mhspay/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/ghhccghk/mhspay?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/LICENSE.md\"\u003e\u003cimg src=\"https://img.shields.io/github/license/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.mihuashi.paybyfinger?style=flat-square\u0026amp;label=LSPosed%20Star\u0026amp;labelColor=F48FB1\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/ghhccghk/mhspay/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/ghhccghk/mhspay?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e通过Hook米画师的密码输入接口并在指纹识别正确后填入密码来实现指纹识别\u003c/p\u003e\n\u003ch1\u003e不要更新新版本，新版本有反hook，目前支持到 7.21.0\u003c/h1\u003e\n\u003ch2\u003e告示\u003c/h2\u003e\n\u003ch5\u003e本应用准备上架Google play 现在征集测试人员，详情可以去下面issue里可以看看\u003c/h5\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003ch4\u003e模块成功Hook后会在设置里显示指纹设置选项，在里面打开总开关并设置好密码即可使用。\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003ehttps://github.com/ghhccghk/mhspay\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e输入的密码会不会被窃取？\u003c/h2\u003e\n\u003ch4\u003e密码使用AES加密，在有tee的设备会在tee加解密来保证安全，所有和密码有关的界面做了防录屏截图处理，防止第三方APP截取密码。本模块不会保留密码，密码只能在开启Debug编译的情况下在系统日志里会出现。\u003c/h4\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003e去\u003ca href=\"https://github.com/ghhccghk/mhspay\"\u003e这里\u003c/a\u003e的Issue 交流\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在公开区域宣传与展示本软件！\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ShellWen\"\u003eShellwen\u003c/a\u003e 感谢其帮忙脱壳\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eEzXHelper\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/XKT\"\u003eXKT\u003c/a\u003e 使用了其项目\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/xiaowine/Lyric-Getter\"\u003eLyric-Getter\u003c/a\u003e 参考了界面写法\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCeiler\u003c/a\u003e 参考了焦点通知实现\u003c/h4\u003e\n\u003ch4\u003e\u003ca href=\"https://github.com/fankes/MIUINativeNotifyIcon\"\u003eMIUINativeNotifyIcon\u003c/a\u003e 参考了小米系统信息获取\u003c/h4\u003e\n\u003cp\u003e\u003ca href=\"https://www.jetbrains.com\"\u003e\u003cimg src=\"https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png\" width=\"200\"/\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1737120706000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## 更新日志\nopt: 添加系统信息显示，以及小米系统完整版本号显示\nfix: 优化设备名称显示\nfix: 防止未设置密码的时候调用密码输入函数\nopt：针对小米澎湃解锁本应用焦点通知白名单\nupdate: 更新ReadMe\nopt: 添加图标"
+          "whatsNew": "## 更新日志\nopt: 添加Vivo系统完整版本号显示\nfix：优化hook逻辑\nupdate：更新版本号"
         }
       },
       "name": "米画师支付模块",
       "packageName": "com.mihuashi.paybyfinger",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.mihuashi.paybyfinger",
-      "suggestedVersionCode": "3",
-      "suggestedVersionName": "1.0.2",
+      "suggestedVersionCode": "4",
+      "suggestedVersionName": "1.0.3",
       "summary": "米画师支付模块，替换密码输入为指纹识别加速支付速度，解决支付慢抢不到稿件问题()"
     },
     {
@@ -13326,7 +13326,22 @@
     ],
     "com.kgg.hhvideo": [
       {
-        "added": 1736689275000,
+        "added": 1737136532000,
+        "apkName": "com.kgg.hhvideo_20-1.0.20.apk",
+        "hash": "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.kgg.hhvideo",
+        "sig": "6883073c7355e7e21707a573344978d7",
+        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
+        "size": 1158651,
+        "targetSdkVersion": 33,
+        "versionCode": 20,
+        "versionName": "1.0.20"
+      },
+      {
+        "added": 1736305789000,
         "apkName": "com.kgg.hhvideo_19-1.0.19.apk",
         "hash": "9a594f5e1264a0bd4eb7702df625f6fc475e2fc743e630d9d15175d766122d4c",
         "hashType": "sha256",
@@ -13354,21 +13369,6 @@
         "targetSdkVersion": 33,
         "versionCode": 18,
         "versionName": "1.0.18"
-      },
-      {
-        "added": 1732159475000,
-        "apkName": "com.kgg.hhvideo_17-1.0.17.apk",
-        "hash": "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": null,
-        "packageName": "com.kgg.hhvideo",
-        "sig": "6883073c7355e7e21707a573344978d7",
-        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
-        "size": 1302103,
-        "targetSdkVersion": 33,
-        "versionCode": 17,
-        "versionName": "1.0.17"
       }
     ],
     "com.kgg.hlddz": [
@@ -13806,7 +13806,22 @@
     ],
     "com.mihuashi.paybyfinger": [
       {
-        "added": 1736168157000,
+        "added": 1737120706000,
+        "apkName": "com.mihuashi.paybyfinger_4-1.0.3.apk",
+        "hash": "b3033443159a5bbac64af7d62d2e977f22e6188176d8f0808574de1d5e766d4c",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "com.mihuashi.paybyfinger",
+        "sig": "f29dee814be9c84dcc8a1392ef4d24e6",
+        "signer": "c5dda2b538db1f91a00ecfef2ae3c16d48594c6f51979729737330f770d4f159",
+        "size": 2290511,
+        "targetSdkVersion": 34,
+        "versionCode": 4,
+        "versionName": "1.0.3"
+      },
+      {
+        "added": 1736220107000,
         "apkName": "com.mihuashi.paybyfinger_3-1.0.2.apk",
         "hash": "5fda45982d124f93fe333723acf61edfa6e6cb78dd79e4e8bdd5173e47d26338",
         "hashType": "sha256",
@@ -15180,7 +15195,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1737083474000,
+        "added": 1737169624000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18704,7 +18719,27 @@
     ],
     "ru.bluecat.alfabankpatcher": [
       {
-        "added": 1736004312000,
+        "added": 1737123595000,
+        "apkName": "ru.bluecat.alfabankpatcher_263-2.8.apk",
+        "hash": "0c686e36f2556eed29ef609724e0efe414c5f4e3bf4cef10ceee71bc62c3598c",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.alfabankpatcher",
+        "sig": "b2ad319f7fcc34a986c8fa93ea0be86d",
+        "signer": "9bfab8d1eba0e991296af4f31730f4a36aa2cbb1a2b16d53634284b5702fc533",
+        "size": 8810412,
+        "targetSdkVersion": 34,
+        "versionCode": 263,
+        "versionName": "2.8"
+      },
+      {
+        "added": 1736058411000,
         "apkName": "ru.bluecat.alfabankpatcher_254-2.7.1.apk",
         "hash": "82f5e40501f5afb6a692f70277b712316504fb4333fd24b7581d70edcf2e5d3f",
         "hashType": "sha256",
