@@ -10446,58 +10446,44 @@ com.sevtinge.hyperceiler:
             <a href="https://t.me/cemiuiler"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler" alt="badge_telegram" /></a></p>
             </div>
             <blockquote>
-            <p>让 MIUI/HyperOS 再次伟大 ！</p>
+            <p>让 HyperOS 再次伟大 ！</p>
             <p><a href="https://github.com/ReChronoRain/HyperCeiler">本项目源码</a></p>
             </blockquote>
             <h2>当前支持的版本</h2>
-            <p>Android 13-15 的 MIUI 和 HyperOS</p>
+            <p>Android 14-15 的 HyperOS</p>
             <h2>使用前说明</h2>
             <p>请在 <a href="https://github.com/LSPosed/LSPosed/releases">LSPosed</a> 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；</p>
-            <p>本模块<b>不支持</b> <code>修改较多的第三方 MIUI/Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 MIUI/Xiaomi HyperOS ROM</code>；</p>
-            <p>目前 HyperCeiler 是基于 Android 14-15 的 Xiaomi HyperOS 1.0-2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>
+            <p>本模块<b>不支持</b> <code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 Xiaomi HyperOS ROM</code>；</p>
+            <p>目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>
             <p>在<a href="https://github.com/ReChronoRain/HyperCeiler/issues">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>
-            <p>HyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留<a href="https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130">此版本</a></p>
+            <p>HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM，如需使用请停留<a href="https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130">此版本</a></p>
             <h2>为 HyperCeiler 项目提交翻译</h2>
             <p><a href="https://crowdin.com/project/cemiuiler"><img src="https://badges.crowdin.net/cemiuiler/localized.svg" alt="Crowdin" /></a></p>
             <p>您可以在<a href="https://crwd.in/cemiuiler">这里</a>为 HyperCeiler 项目贡献翻译。</p>
-          filename: HyperCeiler_2.5.155_20250114_3863_release.apk
+          filename: HyperCeiler_2.5.156_20250118_3869_release_hyperos.apk
           id: com.sevtinge.hyperceiler
           name: HyperCeiler
-          last_updated: "2025-01-14T08:41:09Z"
+          last_updated: "2025-01-18T14:56:21Z"
           releasedescription: |-
-            <h3>发布前说明：</h3>
-            <p>本次仅以个人名义(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>) 在 LSPosed 仓库发布更新</p>
-            <p>此版本为最后一个支持 MIUI14 和 Android13 的版本，后续将专注于适配 HyperOS</p>
-            <p>主仓库即日起解除归档状态，但暂无恢复更新的计划</p>
-            <p>相关源码已提交至主仓库</p>
-            <h3>支持版本：</h3>
-            <p>MIUI 14.0(140)<br>
+            <p>发布前说明：<br>
+            本次仅以个人名义(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>) 在 LSPosed 仓库发布更新<br>
+            紧急修复了一个导致 APP 打开崩溃的问题，MIUI14 用户请下载带 miui 后缀的包<br>
+            相关源码已提交至主仓库</p>
+            <p>支持版本：<br>
             HyperOS 1.0 / 2.0<br>
-            Android 13(T, 33) / 14(U, 34) / Android 15(V, 35)</p>
-            <p><strong>部分功能暂不支持 HyperOS 1.1</strong></p>
-            <h3>更新日志：</h3>
-            <p>模块：</p>
-            <p>新增 系统界面-其他-按压展开二级音量条 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>新增 系统界面-其他-隐藏静音和勿扰按钮 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>新增 小米 SIM 卡激活服务-禁止卡 2 在漫游时激活服务 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</p>
-            <p>优化 底层 hook 框架 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>)</p>
-            <p>优化 系统框架-其他-禁止杀后台应用  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>优化 系统界面-通知与控制中心-显示天气 在横屏状态下不隐藏天气组件 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>优化 系统界面-通知与控制中心-磁贴-圆角矩形磁贴圆角 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>优化 系统界面-状态栏-图标-移动网络类型图标 在单独显示时显示逻辑为默认的逻辑 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>移除 系统界面-其他-解锁超大音量功能 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>移除 小米相册-编辑-解锁大师滤镜 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>移除 互联互通服务-解锁 Xiaomi HyperMind (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>重构 小米相册-编辑 部分 hook 逻辑 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 系统框架-其他-允许截屏 会引起截屏长截图无法使用的问题 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 系统界面-状态栏-图标-交换 WiFi  与移动网络在 OS1 不生效的问题 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 系统界面-状态栏-图标-闹钟-仅在闹钟响铃前显示闹钟图标 设置失效的问题（Miui14-HyperOS2）(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 系统界面-通知与控制中心-媒体通知卡片-动作按钮大小不生效的问题（HyperOS1-HyperOS2）(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 系统界面-通知与控制中心-磁贴-磁贴自动收起在 HyperOS2 上失效的问题 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>修复 手机管家-全局侧边栏-隐藏侧边栏 在 10.0.0 及以上版本功能失效的问题 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>应用：</p>
-            <p>调整 模块版本号为 git commit code (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
-            <p>调整 部分功能布局 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</p>
+            Android 14(U, 34) / Android 15(V, 35)</p>
+            <p>部分功能暂不支持 HyperOS 1.1</p>
+            <p>更新日志：<br>
+            模块</p>
+            <ul>
+            <li>调整 媒体通知卡片 - 拆分媒体通知卡片的部分优化项目 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</li>
+            <li>优化 焦点歌词 - 如果应用主动使用 Lyrics Getting Api，则会设置图标为应用开发者所设置的图标 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ghhccghk/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ghhccghk">@ghhccghk</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>)</li>
+            <li>优化 应用商店 - 禁用开启推送弹窗的实现逻辑 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>)</li>
+            </ul>
+            <p>应用</p>
+            <ul>
+            <li>修复 初次进入应用时，系统语言环境为 en_US 导致应用闪退的问题 (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>)</li>
+            </ul>
     author_name: lingqiqi5211
 com.shatyuka.killergram:
     git: https://github.com/Xposed-Modules-Repo/com.shatyuka.killergram
@@ -12022,11 +12008,11 @@ com.xchat:
           filename: app-release.apk
           id: com.xchat
           name: XChat
-          last_updated: "2025-01-15T12:39:56Z"
+          last_updated: "2025-01-18T11:44:41Z"
           releasedescription: |-
-            <p><strong>重要升级</strong><br>
-            请尽快更新此版本，旧版本即将失效无法使用。<br>
-            本版本校验了app环境，环境异常无法使用本插件，望理解！</p>
+            <p>1、适配56<br>
+            2、ui小调整</p>
+            <p>更新插件，进入设置弹窗，更新配置后即可使用</p>
     author_name: Yy-ss7
 com.xconst.vavatar:
     git: https://github.com/Xposed-Modules-Repo/com.xconst.vavatar
