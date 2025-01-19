@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737169965000,
+    "timestamp": 1737256485000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2483,7 +2483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737169542000,
+        "lastUpdated": 1737256171000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -13292,7 +13292,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736910387000,
+        "lastUpdated": 1737256240000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
         "authorName": "lingqiqi5211",
         "name": {
@@ -13302,11 +13302,112 @@
           "en-US": "让 MIUI/HyperOS 再次伟大！\nMake MIUI/HyperOS Great Again!"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>HyperCeiler</h1>\n<p><img src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" />\n<img src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /></p>\n<p><a href=\"https://jq.qq.com/?_wv=1027&amp;k=TedCJq8V\"><img src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qgroup\" /></a>\n<a href=\"https://pd.qq.com/s/35ooe0ssj\"><img src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qguild\" /></a>\n<a href=\"https://t.me/cemiuiler\"><img src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /></a></p>\n</div>\n<blockquote>\n<p>让 MIUI/HyperOS 再次伟大 ！</p>\n<p><a href=\"https://github.com/ReChronoRain/HyperCeiler\">本项目源码</a></p>\n</blockquote>\n<h2>当前支持的版本</h2>\n<p>Android 13-15 的 MIUI 和 HyperOS</p>\n<h2>使用前说明</h2>\n<p>请在 <a href=\"https://github.com/LSPosed/LSPosed/releases\">LSPosed</a> 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；</p>\n<p>本模块<b>不支持</b> <code>修改较多的第三方 MIUI/Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 MIUI/Xiaomi HyperOS ROM</code>；</p>\n<p>目前 HyperCeiler 是基于 Android 14-15 的 Xiaomi HyperOS 1.0-2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>\n<p>在<a href=\"https://github.com/ReChronoRain/HyperCeiler/issues\">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>\n<p>HyperCeiler 已停止维护 Android 11-12 的 MIUI ROM，如需使用请停留<a href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\">此版本</a></p>\n<h2>为 HyperCeiler 项目提交翻译</h2>\n<p><a href=\"https://crowdin.com/project/cemiuiler\"><img src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /></a></p>\n<p>您可以在<a href=\"https://crwd.in/cemiuiler\">这里</a>为 HyperCeiler 项目贡献翻译。</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>HyperCeiler</h1>\n<p><img src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" />\n<img src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /></p>\n<p><a href=\"https://jq.qq.com/?_wv=1027&amp;k=TedCJq8V\"><img src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qgroup\" /></a>\n<a href=\"https://pd.qq.com/s/35ooe0ssj\"><img src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qguild\" /></a>\n<a href=\"https://t.me/cemiuiler\"><img src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /></a></p>\n</div>\n<blockquote>\n<p>让 HyperOS 再次伟大 ！</p>\n<p><a href=\"https://github.com/ReChronoRain/HyperCeiler\">本项目源码</a></p>\n</blockquote>\n<h2>当前支持的版本</h2>\n<p>Android 14-15 的 HyperOS</p>\n<h2>使用前说明</h2>\n<p>请在 <a href=\"https://github.com/LSPosed/LSPosed/releases\">LSPosed</a> 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；</p>\n<p>本模块<b>不支持</b> <code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 Xiaomi HyperOS ROM</code>；</p>\n<p>目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>\n<p>在<a href=\"https://github.com/ReChronoRain/HyperCeiler/issues\">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>\n<p>HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM，如需使用请停留<a href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\">此版本</a></p>\n<h2>为 HyperCeiler 项目提交翻译</h2>\n<p><a href=\"https://crowdin.com/project/cemiuiler\"><img src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /></a></p>\n<p>您可以在<a href=\"https://crwd.in/cemiuiler\">这里</a>为 HyperCeiler 项目贡献翻译。</p>\n"
         },
         "preferredSigner": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
       },
       "versions": {
+        "9c0233c154ebb868a40d1d2ec2943026b23763195811d2f55d39ebe08810ce45": {
+          "added": 1737256240000,
+          "file": {
+            "name": "/com.sevtinge.hyperceiler_3866-2.5.156_20250118.apk",
+            "sha256": "9c0233c154ebb868a40d1d2ec2943026b23763195811d2f55d39ebe08810ce45",
+            "size": 6844880
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5.156_20250118",
+            "versionCode": 3869,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_PRIVILEGED"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.SET_ANIMATION_SCALE"
+              },
+              {
+                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
+              },
+              {
+                "name": "miui.permission.READ_LOGS"
+              },
+              {
+                "name": "miui.permission.DUMP_CACHED_LOG"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
+              },
+              {
+                "name": "hyperceiler.permission.APP_CRASH"
+              }
+            ]
+          }
+        },
         "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b": {
           "added": 1736910387000,
           "file": {
@@ -13505,101 +13606,6 @@
               },
               {
                 "name": "hyperceiler.permission.APP_CRASH"
-              }
-            ]
-          }
-        },
-        "7503121c740b86b2351feb0d51b5b0428979a20a543b3008b0c0ef04435305a7": {
-          "added": 1732159495000,
-          "file": {
-            "name": "/com.sevtinge.hyperceiler_151-2.5.151_20241109.apk",
-            "sha256": "7503121c740b86b2351feb0d51b5b0428979a20a543b3008b0c0ef04435305a7",
-            "size": 5582238
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "2.5.151_20241109",
-            "versionCode": 151,
-            "usesSdk": {
-              "minSdkVersion": 33,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.BLUETOOTH_CONNECT"
-              },
-              {
-                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.INTERACT_ACROSS_USERS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_PRIVILEGED"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.WRITE_SECURE_SETTINGS"
-              },
-              {
-                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
-              },
-              {
-                "name": "android.permission.MANAGE_USB"
-              },
-              {
-                "name": "android.permission.SET_ANIMATION_SCALE"
-              },
-              {
-                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
-              },
-              {
-                "name": "miui.permission.READ_LOGS"
-              },
-              {
-                "name": "miui.permission.DUMP_CACHED_LOG"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
               }
             ]
           }
@@ -15489,7 +15495,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736996794000,
+        "lastUpdated": 1737256252000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
         "authorName": "Yy-ss7",
         "name": {
@@ -15504,6 +15510,27 @@
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
       "versions": {
+        "08cd90dd3aa9222a5777dd176c26697e88737374195a9b66612778c5a8218f37": {
+          "added": 1737256252000,
+          "file": {
+            "name": "/com.xchat_800-1.0.12.apk",
+            "sha256": "08cd90dd3aa9222a5777dd176c26697e88737374195a9b66612778c5a8218f37",
+            "size": 70852
+          },
+          "manifest": {
+            "versionName": "1.0.12",
+            "versionCode": 800,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
+              ]
+            }
+          }
+        },
         "7379e971e922b9091478ddf61d0e175c0e412b08c6a8e5a389a9423096451282": {
           "added": 1736996794000,
           "file": {
@@ -15545,27 +15572,6 @@
               ]
             }
           }
-        },
-        "46aa43453945c0809e05346e1fa469fd1030745c20bbe33f83c6e1c7c968be73": {
-          "added": 1736738591000,
-          "file": {
-            "name": "/com.xchat_517-1.0.8.apk",
-            "sha256": "46aa43453945c0809e05346e1fa469fd1030745c20bbe33f83c6e1c7c968be73",
-            "size": 60568
-          },
-          "manifest": {
-            "versionName": "1.0.8",
-            "versionCode": 517,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
-              ]
-            }
-          }
         }
       }
     },
@@ -15575,7 +15581,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737169624000,
+        "lastUpdated": 1737256252000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
