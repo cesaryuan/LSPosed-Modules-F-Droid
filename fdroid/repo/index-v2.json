@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737256485000,
+    "timestamp": 1737342786000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1246,7 +1246,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159412000,
+        "lastUpdated": 1737342456000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.aodlyric.xiaowine",
         "authorName": "xiaowine",
         "name": {
@@ -1261,6 +1261,42 @@
         "preferredSigner": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
       },
       "versions": {
+        "7e3d1a1843c3ce2fa82edd05c2e8b79edc5fc281830edf60f0f2944b64bee39a": {
+          "added": 1737342456000,
+          "file": {
+            "name": "/cn.aodlyric.xiaowine_60-4.2.12.apk",
+            "sha256": "7e3d1a1843c3ce2fa82edd05c2e8b79edc5fc281830edf60f0f2944b64bee39a",
+            "size": 3524698
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.2.12",
+            "versionCode": 60,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "cn.aodlyric.xiaowine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "155d08aaa8542ecaee5f029e32adbb07709042122dfd4db37b2a341b80d41122": {
           "added": 1732159412000,
           "file": {
@@ -2483,7 +2519,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737256171000,
+        "lastUpdated": 1737342464000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -10084,7 +10120,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-1eQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<p>2025.01.09    v1.0.19    适配电影猎手v3.1.0.9版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://www.123684.com/s/XY3fjv-1eQKd\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -13299,7 +13335,7 @@
           "en-US": "HyperCeiler"
         },
         "summary": {
-          "en-US": "让 MIUI/HyperOS 再次伟大！\nMake MIUI/HyperOS Great Again!"
+          "en-US": "让 HyperOS 再次伟大！\nMake HyperOS Great Again!"
         },
         "description": {
           "en-US": "<div align=\"center\">\n<h1>HyperCeiler</h1>\n<p><img src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" />\n<img src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /></p>\n<p><a href=\"https://jq.qq.com/?_wv=1027&amp;k=TedCJq8V\"><img src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qgroup\" /></a>\n<a href=\"https://pd.qq.com/s/35ooe0ssj\"><img src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge&amp;logo=tencentqq\" alt=\"badge_qguild\" /></a>\n<a href=\"https://t.me/cemiuiler\"><img src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge&amp;color=2CA5E0&amp;label=Telegram&amp;logo=telegram&amp;query=%24.data.totalSubs&amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /></a></p>\n</div>\n<blockquote>\n<p>让 HyperOS 再次伟大 ！</p>\n<p><a href=\"https://github.com/ReChronoRain/HyperCeiler\">本项目源码</a></p>\n</blockquote>\n<h2>当前支持的版本</h2>\n<p>Android 14-15 的 HyperOS</p>\n<h2>使用前说明</h2>\n<p>请在 <a href=\"https://github.com/LSPosed/LSPosed/releases\">LSPosed</a> 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；</p>\n<p>本模块<b>不支持</b> <code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 Xiaomi HyperOS ROM</code>；</p>\n<p>目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>\n<p>在<a href=\"https://github.com/ReChronoRain/HyperCeiler/issues\">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>\n<p>HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM，如需使用请停留<a href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\">此版本</a></p>\n<h2>为 HyperCeiler 项目提交翻译</h2>\n<p><a href=\"https://crowdin.com/project/cemiuiler\"><img src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /></a></p>\n<p>您可以在<a href=\"https://crwd.in/cemiuiler\">这里</a>为 HyperCeiler 项目贡献翻译。</p>\n"
@@ -15505,7 +15541,7 @@
           "en-US": "Enhance Wechat!"
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/image/paymentCodeAli.png\"><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/image/paymentCodeWechat.png\"><img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/image/paymentCodeAli.png\"><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/image/paymentCodeWechat.png\"><img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
         },
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
@@ -15581,7 +15617,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737256252000,
+        "lastUpdated": 1737342545000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
