@@ -3559,7 +3559,7 @@ com.berdik.letmedowngrade:
     author_name: DavidBerdik
 com.berdik.macsposed:
     git: https://github.com/Xposed-Modules-Repo/com.berdik.macsposed
-    summary: MACsposed - Add support for MAC Address spoofing to Android 12 through 14!
+    summary: MACsposed - Add support for MAC Address spoofing to Android 12 through 15!
     applications:
         - anti_features: []
           categories:
@@ -3567,34 +3567,27 @@ com.berdik.macsposed:
           description: |
             <h1>MACsposed</h1>
             <img align="left" src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/master/images/ic_launcher-playstore.png" width="140" />
-            <p>Historically, setting a custom MAC address on Android was very easy for rooted users. Starting with Android 12, however, Google’s implementation of MAC address randomization has made it impossible, as the MAC address is always changed when the network state is altered. If you have encountered this problem, then you need MACsposed! MACsposed is an Xposed module that blocks the MAC address randomizer on Android 12 through 14 and provides a user-friendly interface for spoofing your MAC address. Do you have other spoofing tools that you would prefer to use instead? No problem! Simply enable MACsposed and go back to using your preferred address spoofing tool.</p>
+            <p>Historically, setting a custom MAC address on Android was very easy for rooted users. Starting with Android 12, however, Google’s implementation of MAC address randomization has made it impossible, as the MAC address is always changed when the network state is altered. If you have encountered this problem, then you need MACsposed! MACsposed is an Xposed module that blocks the MAC address randomizer on Android 12 through 15 and provides a user-friendly interface for spoofing your MAC address. Do you have other spoofing tools that you would prefer to use instead? No problem! Simply enable MACsposed and go back to using your preferred address spoofing tool.</p>
             <p>MACsposed is not free software and requires an in-app purchase of a subscription or a lifetime license to unlock its functionality.</p>
-            <p><strong>⚠️ WARNING:</strong> MACsposed is intended for rooted devices running Android 12 through 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
+            <p><strong>⚠️ WARNING:</strong> MACsposed is intended for rooted devices running Android 12 through 15 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. Additionally, this module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk.</p>
             <p align="center">
               <a href="https://play.google.com/store/apps/details?id=com.berdik.macsposed">
                 <img src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/master/images/google-play-badge.png" height="80" />
               </a>
             </p>
-          filename: MACsposed-1.2.2.apk
+          filename: MACsposed-1.2.3.apk
           id: com.berdik.macsposed
           name: MACsposed
-          last_updated: "2024-08-14T03:20:30Z"
+          last_updated: "2025-01-21T00:27:26Z"
           releasedescription: |-
             <p align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/DavidBerdik/MACsposed/ee0500dc13896a8a4c58c2bf7ee73a6188f7c70f/images/feature-graphic.png"><img src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/ee0500dc13896a8a4c58c2bf7ee73a6188f7c70f/images/feature-graphic.png" width="400" style="max-width: 100%;"></a></p>
-            <p>MACsposed 1.2.2 adds an Arabic translation provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mast3rz3ro/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mast3rz3ro">@mast3rz3ro</a>.</p>
-            <hr>
-            <p><strong>Changelog for MACsposed 1.2.0:</strong></p>
-            <p>MACsposed 1.2.0 is here! This major update introduces integrated support for MAC address spoofing which eliminates the need to rely on third party spoofing applications. Although third party spoofing tools are no longer required, they are still supported if you wish to continue using them.</p>
-            <p>Other changes introduced with this release include:</p>
+            <p>MACsposed 1.2.3 adds support for Android 15 and includes the following additional changes:</p>
             <ul>
-            <li>A built-in user interface with support for Material You theming and dark mode.</li>
-            <li>A redesigned app icon for consistency with the new UI's design language.</li>
-            <li>Support for changing how the app behaves when enabling the MAC address override.</li>
-            <li>Support for restoring a spoofed MAC address on boot.</li>
-            <li>Support for disabling logging of attempts by Android to change the MAC address in the LSPosed Manager.</li>
-            <li>A Hindi translation of the user interface provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/99keshav99/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/99keshav99">@99keshav99</a>.</li>
+            <li>Access to the Settings panel is now always available to allow users to change the "Language" and "Dark Mode" settings. Previously, the Settings panel was only available when root access was granted and the module was enabled in LSPosed.</li>
+            <li>Corrections to the Arabic translation provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mast3rz3ro/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mast3rz3ro">@mast3rz3ro</a>.</li>
+            <li>An issue that caused attempts to change the MAC address to fail on certain devices has been corrected.</li>
+            <li>MACsposed will now automatically detect the interface name used by the device for WiFi access. Previously, MACsposed only supported devices that use <code>wlan0</code> as the name for the network interface.</li>
             </ul>
-            <p>With this release, MACsposed is shifting to a paid licensing model and requires an in-app purchase of a subscription or a lifetime license to unlock its functionality.</p>
     author_name: DavidBerdik
 com.bit747.clipboardfilter:
     git: https://github.com/Xposed-Modules-Repo/com.bit747.clipboardfilter
@@ -7731,7 +7724,7 @@ com.kgg.hhvideo:
             - Xposed
           description: |
             <h1>电影猎手(原555电影)去广告</h1>
-            <p><a href="https://www.123684.com/s/XY3fjv-1eQKd">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
+            <p><a href="https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
             <p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>
@@ -7741,12 +7734,13 @@ com.kgg.hhvideo:
           filename: dylsNoAd_1.0.20_release.apk
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
-          last_updated: "2025-01-17T17:55:32Z"
+          last_updated: "2025-01-20T15:20:07Z"
           releasedescription: |-
             <p>适配电影猎手v3.1.1.0版本</p>
             <p>官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选</p>
             <p>LSPosed设置中需关闭Xposed API调用保护</p>
-            <p>推荐使用内置模块的电影猎手App，下载地址：<a href="https://www.123684.com/s/XY3fjv-1eQKd" rel="nofollow">https://www.123684.com/s/XY3fjv-1eQKd</a></p>
+            <p>推荐使用内置模块的电影猎手App，下载地址：</p>
+            <p><a href="https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk" rel="nofollow">https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk</a></p>
     author_name: KongGuoguang
 com.kgg.hlddz:
     git: https://github.com/Xposed-Modules-Repo/com.kgg.hlddz
@@ -12102,7 +12096,7 @@ com.xconst.vavatar:
           filename: app-release.apk.APK
           id: com.xconst.vavatar
           name: VAvatar
-          last_updated: "2025-01-10T05:47:34Z"
+          last_updated: "2025-01-20T08:22:03Z"
           releasedescription: ""
     author_name: NoonieBao
 com.xiaoer.watermark:
