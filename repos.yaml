@@ -6988,11 +6988,21 @@ com.houvven.impad:
           description: |
             <p>在手机上实现平板登录
             <img src="https://github.com/user-attachments/assets/0e392388-5245-4a85-9da9-92e669a1f77c" alt="161728624183_ pic_hd" /></p>
-          filename: i.am.pad-release-v1.0.3.apk
+          filename: i.am.pad-release-v1.0.4.apk
           id: com.houvven.impad
           name: I'm Pad
-          last_updated: "2024-10-11T05:16:18Z"
-          releasedescription: <p>see <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/Houvven/I-Am-Pad/commit/b34f751c2baeb74a9e0766dd73be833845cf7b1f/hovercard" href="https://github.com/Houvven/I-Am-Pad/commit/b34f751c2baeb74a9e0766dd73be833845cf7b1f">Houvven/I-Am-Pad@<tt>b34f751</tt></a></p>
+          last_updated: "2025-01-21T15:42:18Z"
+          releasedescription: |-
+            <h2>What's Changed</h2>
+            <ul>
+            <li>support ding talk by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Houvven/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Houvven">@Houvven</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2690763081" data-permission-text="Title is private" data-url="https://github.com/Houvven/I-Am-Pad/issues/7" data-hovercard-type="pull_request" data-hovercard-url="/Houvven/I-Am-Pad/pull/7/hovercard" href="https://github.com/Houvven/I-Am-Pad/pull/7">Houvven/I-Am-Pad#7</a></li>
+            <li>remove app Activity. by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Houvven/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Houvven">@Houvven</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2800858253" data-permission-text="Title is private" data-url="https://github.com/Houvven/I-Am-Pad/issues/13" data-hovercard-type="pull_request" data-hovercard-url="/Houvven/I-Am-Pad/pull/13/hovercard" href="https://github.com/Houvven/I-Am-Pad/pull/13">Houvven/I-Am-Pad#13</a></li>
+            </ul>
+            <h2>New Contributors</h2>
+            <ul>
+            <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Houvven/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Houvven">@Houvven</a> made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2690763081" data-permission-text="Title is private" data-url="https://github.com/Houvven/I-Am-Pad/issues/7" data-hovercard-type="pull_request" data-hovercard-url="/Houvven/I-Am-Pad/pull/7/hovercard" href="https://github.com/Houvven/I-Am-Pad/pull/7">Houvven/I-Am-Pad#7</a></li>
+            </ul>
+            <p><strong>Full Changelog</strong>: <a href="https://github.com/Houvven/I-Am-Pad/commits/v1.0.4">https://github.com/Houvven/I-Am-Pad/commits/v1.0.4</a></p>
     author_name: Houvven
 com.htetz.monopatch:
     git: https://github.com/Xposed-Modules-Repo/com.htetz.monopatch
@@ -16526,20 +16536,18 @@ lzlnb.cnm.hook:
           categories:
             - Xposed
           description: "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>QQ模块介绍</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n</li>\n<li>\n<p>具体自测没实际测过</p>\n</li>\n<li>\n<p>新版本会优先适配</p>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n</li>\n</ul>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n<h3>使用教程</h3>\n<ul>\n<li><a href=\"https://b23.tv/u3FFj0h\">点击查看</a></li>\n</ul>\n<h2>功能列表</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义名片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 长按消息功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 头像功能（群管）</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 发送卡片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字符串防卡顿</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽戳一戳动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 随机伪装手机号码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 篡改图片比例为最大</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽进群特效</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版侧边栏</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 弹窗功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 上传文件重命名</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 群文件下载次数</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽关键词动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 接触危险网页拦截</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 闪照破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 跳过登录倒计时</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版设置</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除扫码限制</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除封号状态</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义主页等级</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> QQ瘦身（清理QQ内存）</li>\n</ul>\n<h2>具体功能还有很多自测</h2>\n"
-          filename: MoldedaBlock_v2.3.apk
+          filename: MoldedaBlock_v2.4.apk
           id: lzlnb.cnm.hook
           name: 模了个块
-          last_updated: "2025-01-15T16:21:06Z"
+          last_updated: "2025-01-21T18:51:37Z"
           releasedescription: |-
-            <p>头像功能点击昵称新增修改群昵称功能<br>
-            头像功能新增私聊<br>
-            头像功能适配深色模式<br>
-            修复没有登录QQ闪退BUG<br>
-            赞助功能弹窗提示<br>
-            DIY名片修复全屏名片对普通名片生效BUG<br>
-            修复切换深色模式模块主页进不去BUG<br>
-            修复深色模式模块主页列表看不清BUG<br>
-            修复设置进不去模块主页BUG</p>
+            <p>新增消息防撤回(会显示具体谁撤回 管理员 群主 自己)<br>
+            头像功能私聊对其它人隐藏撤回<br>
+            优化模块加载速度<br>
+            对赞助用户开放pb<br>
+            优化部分代码<br>
+            修复防撤回导致表情异常BUG<br>
+            修复防撤回开关无效BUG</p>
     author_name: "274274"
 ma.wanam.youtubeadaway:
     git: https://github.com/Xposed-Modules-Repo/ma.wanam.youtubeadaway

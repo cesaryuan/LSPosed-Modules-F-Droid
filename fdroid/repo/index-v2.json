@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737429233000,
+    "timestamp": 1737515711000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2519,7 +2519,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737428819000,
+        "lastUpdated": 1737515382000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -9187,7 +9187,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159467000,
+        "lastUpdated": 1737515424000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.houvven.impad",
         "authorName": "Houvven",
         "name": {
@@ -9225,6 +9225,32 @@
             "signer": {
               "sha256": [
                 "a2dd39460fa2cae86348dcc5c0cd33188e6b1f3265d5ba0d2344a986fd8d84f6"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.houvven.impad.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "813e8b2ade51d696e1b44fe29cbe732e3e8a652dbfe09991af9bf1744966adf0": {
+          "added": 1737515424000,
+          "file": {
+            "name": "/com.houvven.impad_5-1.0.4.apk",
+            "sha256": "813e8b2ade51d696e1b44fe29cbe732e3e8a652dbfe09991af9bf1744966adf0",
+            "size": 802414
+          },
+          "manifest": {
+            "versionName": "1.0.4",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "c7f6361cca58ec3a6fb6ac7c2054aad041f12286654c13b7c3b79adf60861d22"
               ]
             },
             "usesPermission": [
@@ -15652,7 +15678,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737428901000,
+        "lastUpdated": 1737515463000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -22401,7 +22427,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736996833000,
+        "lastUpdated": 1737515502000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/lzlnb.cnm.hook",
         "authorName": "274274",
         "name": {
@@ -22457,6 +22483,35 @@
               "arm64-v8a"
             ],
             "versionName": "2.3",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "lzlnb.cnm.hook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "d2fb765b9493aa670b0c26ea64a9a66dbac6cff0f1f28faf4fedaeb22212411d": {
+          "added": 1737515502000,
+          "file": {
+            "name": "/lzlnb.cnm.hook_3-2.4.apk",
+            "sha256": "d2fb765b9493aa670b0c26ea64a9a66dbac6cff0f1f28faf4fedaeb22212411d",
+            "size": 5079514
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.4",
             "versionCode": 3,
             "usesSdk": {
               "minSdkVersion": 28,

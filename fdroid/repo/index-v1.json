@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1737429233000,
+    "timestamp": 1737515711000,
     "version": 20002
   },
   "requests": {
@@ -3171,25 +3171,25 @@
       "summary": "信hyper，得永生！\nTrust Hyper, you will live forever!"
     },
     {
-      "added": 1728623778000,
+      "added": 1732159467000,
       "authorName": "Houvven",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e在手机上实现平板登录\n\u003cimg src=\"https://github.com/user-attachments/assets/0e392388-5245-4a85-9da9-92e669a1f77c\" alt=\"161728624183_ pic_hd\" /\u003e\u003c/p\u003e\n",
       "icon": "com.houvven.impad.webp",
-      "lastUpdated": 1728623778000,
+      "lastUpdated": 1737515424000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "see https://github.com/Houvven/I-Am-Pad/commit/b34f751c2baeb74a9e0766dd73be833845cf7b1f"
+          "whatsNew": "## What's Changed\n* support ding talk by @Houvven in https://github.com/Houvven/I-Am-Pad/pull/7\n* remove app Activity. by @Houvven in https://github.com/Houvven/I-Am-Pad/pull/13\n\n## New Contributors\n* @Houvven made their first contribution in https://github.com/Houvven/I-Am-Pad/pull/7\n\n**Full Changelog**: https://github.com/Houvven/I-Am-Pad/commits/v1.0.4"
         }
       },
       "name": "I'm Pad",
       "packageName": "com.houvven.impad",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.houvven.impad",
-      "suggestedVersionCode": "4",
-      "suggestedVersionName": "1.0.3",
+      "suggestedVersionCode": "5",
+      "suggestedVersionName": "1.0.4",
       "summary": "在手机上实现平板登录。支持QQ、微信、企业微信"
     },
     {
@@ -6837,7 +6837,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1737428901000,
+      "lastUpdated": 1737515463000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8725,18 +8725,18 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1 \u003e 模了个块 \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/lzlmo\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e  \n\u003chr /\u003e\n\u003ch2\u003eQQ模块介绍\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e支持的QQ版本 9.0.65 +\u003c/strong\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e具体自测没实际测过\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e新版本会优先适配\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e推荐使用的框架\u003c/strong\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e1.\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e2.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 本地模式(没root的可以用这个)\u003c/li\u003e\n\u003cli\u003e3.\u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e 内置模式(便携模式 或者这个)\u003c/li\u003e\n\u003cli\u003e4.\u003ca href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\"\u003eFPA\u003c/a\u003e 免root(支持安卓15)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e使用教程\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://b23.tv/u3FFj0h\"\u003e点击查看\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e功能列表\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自定义名片\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 长按消息功能\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 头像功能（群管）\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 发送卡片\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 字符串防卡顿\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽戳一戳动画\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 随机伪装手机号码\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 篡改图片比例为最大\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽进群特效\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 恢复旧版侧边栏\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 弹窗功能\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 上传文件重命名\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 群文件下载次数\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 屏蔽关键词动画\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 接触危险网页拦截\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 闪照破解\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 跳过登录倒计时\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 恢复旧版设置\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 去除扫码限制\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 去除封号状态\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 自定义主页等级\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e QQ瘦身（清理QQ内存）\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e具体功能还有很多自测\u003c/h2\u003e\n",
-      "lastUpdated": 1736996833000,
+      "lastUpdated": 1737515502000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "头像功能点击昵称新增修改群昵称功能\n头像功能新增私聊\n头像功能适配深色模式\n修复没有登录QQ闪退BUG\n赞助功能弹窗提示\nDIY名片修复全屏名片对普通名片生效BUG\n修复切换深色模式模块主页进不去BUG\n修复深色模式模块主页列表看不清BUG\n修复设置进不去模块主页BUG"
+          "whatsNew": "新增消息防撤回(会显示具体谁撤回 管理员 群主 自己)\n头像功能私聊对其它人隐藏撤回\n优化模块加载速度\n对赞助用户开放pb\n优化部分代码\n修复防撤回导致表情异常BUG\n修复防撤回开关无效BUG"
         }
       },
       "name": "模了个块",
       "packageName": "lzlnb.cnm.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/lzlnb.cnm.hook",
       "suggestedVersionCode": "3",
-      "suggestedVersionName": "2.3",
+      "suggestedVersionName": "2.4",
       "summary": "一个全新的QQ模块\n适配范围9.0.65-9.1.5+具体自测仅供参考\nlsp用户请把API调用保护关闭否则无法生效"
     },
     {
@@ -13069,7 +13069,7 @@
     ],
     "com.houvven.impad": [
       {
-        "added": 1728623778000,
+        "added": 1732159467000,
         "apkName": "com.houvven.impad_4-1.0.3.apk",
         "hash": "2a8cd84517f33d14ddcf7e72977d15c800678a0c7abb521c7bb79bdeb26a8076",
         "hashType": "sha256",
@@ -13087,6 +13087,21 @@
         "targetSdkVersion": 34,
         "versionCode": 4,
         "versionName": "1.0.3"
+      },
+      {
+        "added": 1737474138000,
+        "apkName": "com.houvven.impad_5-1.0.4.apk",
+        "hash": "813e8b2ade51d696e1b44fe29cbe732e3e8a652dbfe09991af9bf1744966adf0",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.houvven.impad",
+        "sig": "bea9079c4fc8fd0f91f003d373304be5",
+        "signer": "c7f6361cca58ec3a6fb6ac7c2054aad041f12286654c13b7c3b79adf60861d22",
+        "size": 802414,
+        "targetSdkVersion": 34,
+        "versionCode": 5,
+        "versionName": "1.0.4"
       }
     ],
     "com.htetz.monopatch": [
@@ -15228,7 +15243,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1737428901000,
+        "added": 1737515463000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17669,7 +17684,7 @@
         "versionName": "2.1"
       },
       {
-        "added": 1736958066000,
+        "added": 1736996833000,
         "apkName": "lzlnb.cnm.hook_3-2.3.apk",
         "hash": "245e3658570ffcba2bd22aa8a48c1edc3b91d25cd89754652d62dc0f6921a707",
         "hashType": "sha256",
@@ -17684,6 +17699,23 @@
         "targetSdkVersion": 35,
         "versionCode": 3,
         "versionName": "2.3"
+      },
+      {
+        "added": 1737485497000,
+        "apkName": "lzlnb.cnm.hook_3-2.4.apk",
+        "hash": "d2fb765b9493aa670b0c26ea64a9a66dbac6cff0f1f28faf4fedaeb22212411d",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "lzlnb.cnm.hook",
+        "sig": "60c24dd0e213a59a8ce337fa18d45c58",
+        "signer": "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67",
+        "size": 5079514,
+        "targetSdkVersion": 35,
+        "versionCode": 3,
+        "versionName": "2.4"
       }
     ],
     "ma.wanam.youtubeadaway": [
