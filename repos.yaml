@@ -40,6 +40,20 @@ Cai_Ming_Yu.CacheCleaner:
             <li>Updated dependencies</li>
             </ul>
     author_name: Cai-Ming-Yu
+Cleaner.Royall:
+    git: https://github.com/Xposed-Modules-Repo/Cleaner.Royall
+    summary: Auto Clears All Type of Cache when Scoped App launch or started
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<p align=\"center\">\n  <img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/NewIcon.png\" style=\"width: 30%;\" />\n</p>\n<h1>Cleaner Royall</h1>\n<p><a href=\"https://git.io/typing-svg\"><img src=\"https://readme-typing-svg.demolab.com?font=Fira+Code&amp;duration=2000&amp;pause=100&amp;color=229C43&amp;width=435&amp;lines=Hi+From+AraafRoyall.;Welcome+to+Most+Advanced+Cleaner.;Supports+Auto+Cleaning+Module.;Never+Collect+Any+Data\" alt=\"Typing SVG\" /></a></p>\n<p>\U0001D5E7\U0001D5F5\U0001D5F2 \U0001D5D5\U0001D5F2\U0001D600\U0001D601 \U0001D5D6\U0001D5F9\U0001D5F2\U0001D5EE\U0001D5FB\U0001D5F6\U0001D5FB\U0001D5F4 \U0001D5D4\U0001D5FD\U0001D5FD \U0001D5D8\U0001D603\U0001D5F2\U0001D5FF \U0001D5E0\U0001D5EE\U0001D5F1\U0001D5F2</p>\n<p><a href=\"https://github.com/araafroyall/Cleaner-Royall/releases/download/Latest/CleanerRoyall.apk\"><img src=\"https://img.shields.io/github/downloads/araafroyall/Cleaner-Royall/total\" alt=\"Total Downloads\" /></a>\n<a href=\"https://t.me/CleanerRoyall\"><img src=\"https://img.shields.io/badge/Telegram%20Channel-lightgreen?logo=telegram\" alt=\"Telegram Channel\" /></a></p>\n<ul>\n<li>Light weight but Ultra Fast &amp; Powerful</li>\n<li>No Permission Required (Except Root)</li>\n<li>Never Collect Any Data.</li>\n<li>Supports Automatic Cleaner Module</li>\n</ul>\n<h2>Requirements</h2>\n<p>• Root or Magisk &amp; Busybox only</p>\n<p>•••••••••••••••••••••••••••••••••</p>\n<p align=\"left\">\n  <img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/Info.png\" style=\"width: 100%;\" />\n</p>\n<h2>Screenshots</h2>\n<p><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/1.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/2.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/3.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/4.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/5.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/6.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/7.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/8.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/9.jpg\" width=\"100\"></p>\n<h3>Developer Contact details</h3>\n<p>Telegram id : @AraafRoyall</p>\n<p>Gmail : <a href=\"mailto:CleanerRoyall@gmail.com\">CleanerRoyall@gmail.com</a></p>\n<p>Gmail : <a href=\"mailto:AraafRoyall@gmail.com\">AraafRoyall@gmail.com</a></p>\n<p>•••••••••••••••••••••••••••••••••••</p>\n"
+          filename: Cleaner.Royall.v4-4.0.apk
+          id: Cleaner.Royall
+          name: "\U0001D5D6\U0001D5F9\U0001D5F2\U0001D5EE\U0001D5FB\U0001D5F2\U0001D5FF \U0001D5E5\U0001D5FC\U0001D606\U0001D5EE\U0001D5F9\U0001D5F9 \U0001F680"
+          last_updated: "2025-01-22T14:56:10Z"
+          releasedescription: <p>• Fix Lsposed Module detection bug</p>
+    author_name: CleanerRoyall
 Fuck.RollingSky.Pay:
     git: https://github.com/Xposed-Modules-Repo/Fuck.RollingSky.Pay
     summary: ""
@@ -12008,15 +12022,12 @@ com.xchat:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/image/paymentCodeAli.png\"><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/image/paymentCodeWechat.png\"><img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p> \n<h2>广告:</h2>\n<p>1r可修改消息详细时间的背景颜色，直到下一个人支付前可一直生效，所有人同时生效哦～ 快来体验操控别人的快感吧！  欢迎老板骚扰～\U0001F61C\U0001F61C</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/image/paymentCodeAli.png\"><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/image/paymentCodeWechat.png\"><img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
           filename: app-release.apk
           id: com.xchat
           name: XChat
-          last_updated: "2025-01-18T11:44:41Z"
-          releasedescription: |-
-            <p>1、适配56<br>
-            2、ui小调整</p>
-            <p>更新插件，进入设置弹窗，更新配置后即可使用</p>
+          last_updated: "2025-01-22T17:13:54Z"
+          releasedescription: <p>暗黑模式 消息详细时间bugfix</p>
     author_name: Yy-ss7
 com.xconst.vavatar:
     git: https://github.com/Xposed-Modules-Repo/com.xconst.vavatar
@@ -14286,11 +14297,26 @@ icu.freedomIntrovert.biliSendCommAntifraud:
           filename: app-release.apk
           id: icu.freedomIntrovert.biliSendCommAntifraud
           name: 哔哩发评反诈
-          last_updated: "2024-11-23T10:53:08Z"
+          last_updated: "2025-01-22T15:41:05Z"
           releasedescription: |-
+            <h3>更新日志</h3>
             <ul>
-            <li>添加XPosed小功能开关，可选开关【去他妈的评论图片折叠】【替换拍照为从相册选择】。注：由于XSP的问题，Private模式获取到的shared_prefs路径也被强改了，故升级后会对配置进行迁移，迁移到XSP的位置。配置信息除了XPosed功能开关还包含等待时间、转发动态等，<strong>若你启用模块与禁用模块，将是两个配置文件</strong>（账号历史记录等依赖数据库的不受影响）。</li>
-            <li>优化了下BV号的获取逻辑，先从视频播放Activity里获取，若获取不到再网络调用API进行查询，若网络这时也出现了问题了，将使用AV号，避免网络问题导致评论丢失。修复了某些情况下发送评论后因网络问题导致无法调起反诈的问题（待检查评论也没有评论）。之前没做的原因就是视频播放Activity启动传参没有BV号而是AV号，要获取只能网络请求。</li>
+            <li>修复最新国际版失效的问题</li>
+            <li>新增评论是否申诉过的状态位，以评论区ID的背景颜色表示。
+            <ul>
+            <li>无可申诉评论：淡绿色</li>
+            <li>提交成功：淡红色</li>
+            </ul>
+            </li>
+            <li>评论无可申诉时将不再将状态改为“疑似正常”</li>
+            <li>新增历史评论统计功能</li>
+            <li>更改用户守则，<strong>不再限制在评论区中提及本软件</strong>。遇到别人被吞评论的场景可以把本软件分享给他们。但还是要注意以下事项，不要和官方对冲！
+            <ul>
+            <li>禁止以做视频、发动态、写文章这种方式去分享本软件</li>
+            <li>在b站官方的视频任何地方提及本软件</li>
+            <li>你分享本软件的那条评论要是被ban了，请立即删除！<strong>不要去申诉去当自爆卡车！</strong></li>
+            </ul>
+            </li>
             </ul>
     author_name: freedom-introvert
 icu.freedomintrovert.YTSendCommAntiFraud:
@@ -17229,15 +17255,11 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.6.1.apk
+          filename: PlusNE7_New.7.6.2.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2025-01-06T02:06:16Z"
-          releasedescription: |-
-            <p>[新增]抖音 支持下载评论区带有GIF标签的视频了<br>
-            [新增]抖音极速版 支持下载评论区带有GIF标签的视频了<br>
-            [修复]一些App已知的BUG<br>
-            [适配]一些App已知的问题</p>
+          last_updated: "2025-01-22T10:58:39Z"
+          releasedescription: <p>修复已知问题</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
