@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1737515711000,
+    "timestamp": 1737601844000,
     "version": 20002
   },
   "requests": {
@@ -5401,25 +5401,25 @@
       "summary": "PlusNE(6.4.3)已支持微信密友功能,开启后,微信里将找不到此密友\n1.soul\n2.TikTok(免费使用功能 解除网络限制)\n3.七猫免费小说..."
     },
     {
-      "added": 1736129176000,
+      "added": 1737543519000,
       "authorName": "ALittle-Cool",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePlusNE(7.0+)\u003c/h1\u003e\n\u003cp\u003e现阶段支持 \u003cbr\u003e\u003cbr\u003e\n1.soul\u003cbr\u003e\n2.七猫免费小说\u003cbr\u003e\n3.快手\u003cbr\u003e\n4.快手极速版\u003cbr\u003e\n5.抖音\u003cbr\u003e\n6.抖音极速版\u003cbr\u003e\n7.最右\u003cbr\u003e\n8.番茄免费小说\u003cbr\u003e\n9.皮皮虾\u003cbr\u003e\n10.西瓜视频\u003cbr\u003e\n11.皮皮搞笑\u003cbr\u003e\n12.MX Player Pro(免费使用)\u003cbr\u003e\n13.小红书\u003cbr\u003e\n14.TikTok\u003cbr\u003e\n15.百度贴吧\u003cbr\u003e\n16.最右\u003cbr\u003e\n17.番茄畅听\u003cbr\u003e\n18.ES 文件浏览器\u003cbr\u003e\n19.QQ\u003cbr\u003e\u003c/p\u003e\n\u003cp\u003e使用方法\u003cbr\u003e\n在框架中勾选PlusNE,并且设置作用域\n\u003cbr\u003e\n1.进入抖音\\抖音极速版等\n\u003cbr\u003e\n2.打开设置页面\n\u003cbr\u003e\n3.拉到最下面点击PlusNE版本信息即可\u003c/p\u003e\n\u003ch3\u003e交流\u003c/h3\u003e\n\u003cp\u003eQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz\u0026amp;jump_from=webapi\u0026amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ\"\u003e596565319\u003c/a\u003e\nQQ群: \u003ca href=\"https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp\u0026amp;jump_from=webapi\"\u003e643354312\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.plusne.png",
-      "lastUpdated": 1736129176000,
+      "lastUpdated": 1737543519000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "[新增]抖音 支持下载评论区带有GIF标签的视频了\n[新增]抖音极速版 支持下载评论区带有GIF标签的视频了\n[修复]一些App已知的BUG\n[适配]一些App已知的问题"
+          "whatsNew": "修复已知问题"
         }
       },
       "name": "PlusNE 7+",
       "packageName": "me.plusne",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
-      "suggestedVersionCode": "7137",
-      "suggestedVersionName": "7.6.1",
+      "suggestedVersionCode": "7138",
+      "suggestedVersionName": "7.6.2",
       "summary": "PlusNE(7.0+) 重构版\n1.soul\n2.七猫免费小说\n3.快手\n4.快手极速版\n5.抖音\n6.抖音极速版\n7.最右\n8.番茄免费小说\n9.皮皮..."
     },
     {
@@ -6837,7 +6837,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55\u003c/p\u003e\n\u003cp\u003e不支持\u003ccode\u003e8.0.50\u003c/code\u003e ！\u003c/p\u003e\n\u003cp\u003e8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1737515463000,
+      "lastUpdated": 1737601639000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7106,24 +7106,24 @@
       "summary": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
     },
     {
-      "added": 1737200681000,
+      "added": 1737566034000,
       "authorName": "Yy-ss7",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eXChat👋\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+nEjdxdGpwCVhNzNl\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e仰天大笑出门去，我辈岂是蓬蒿人。  ——李白\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e前言:\u003c/h2\u003e\n  \u003cp\u003e作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...\u003c/p\u003e\n  \u003cp\u003e目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。\u003c/p\u003e\n  \u003cp\u003e被采纳的需求将会列到下面的更新计划中。\u003c/p\u003e\n  \u003cp\u003e若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。\u003c/p\u003e\n  \u003cp\u003e有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。\u003c/p\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cp\u003e会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.55\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.56\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e食用方法:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e点击此处\u003c/a\u003e下载最新版本插件\u003c/li\u003e\n\u003cli\u003elsposed 激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e杀进程强制重启微信即可食用\u003c/li\u003e\n\u003cli\u003e进入”我的“页面 -\u0026gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e更新计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 平板模式\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈去广告\u003cbr /\u003e\n可能覆盖的广告类型不全，有问题提issue。\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈集赞\u003cbr /\u003e\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 消息增加详细时间提示\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 原相机扫码\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 骰子指定\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 复读+1\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 自动下载原图\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 隐藏好友\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。\u003cbr /\u003e\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. 打开app后，功能无法使用且无任何提示？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. 打开app后，设置弹层无法正常弹出？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4. 语音消息发送时一直转圈？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e更新模块到1.0.10版本或关闭消息禁止撤回。\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\u003c/li\u003e\n\u003cli\u003e请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\u003c/li\u003e\n\u003cli\u003e本APP不篡改，不修改，不获取任何个人信息及其微信信息。\u003c/li\u003e\n\u003cli\u003e本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e🙏请作者喝杯茶\u003c/h2\u003e\n\u003cp\u003e二维码加载失败的有劳点击一下：\u003cbr /\u003e\n\u003ca href=\"http://39.106.52.143/image/paymentCodeAli.png\"\u003e\u003cimg src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /\u003e\u003c/a\u003e\n\u003ca href=\"http://39.106.52.143/image/paymentCodeWechat.png\"\u003e\u003cimg src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e感谢所有支持的老板！您的支持使这个项目得以持续发展。\u003c/p\u003e\n",
-      "lastUpdated": 1737200681000,
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eXChat👋\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+nEjdxdGpwCVhNzNl\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e仰天大笑出门去，我辈岂是蓬蒿人。  ——李白\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e前言:\u003c/h2\u003e\n  \u003cp\u003e作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...\u003c/p\u003e\n  \u003cp\u003e目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。\u003c/p\u003e\n  \u003cp\u003e被采纳的需求将会列到下面的更新计划中。\u003c/p\u003e\n  \u003cp\u003e若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。\u003c/p\u003e\n  \u003cp\u003e有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。\u003c/p\u003e \n\u003ch2\u003e广告:\u003c/h2\u003e\n\u003cp\u003e1r可修改消息详细时间的背景颜色，直到下一个人支付前可一直生效，所有人同时生效哦～ 快来体验操控别人的快感吧！  欢迎老板骚扰～😜😜\u003c/p\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cp\u003e会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.55\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.56\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e食用方法:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e点击此处\u003c/a\u003e下载最新版本插件\u003c/li\u003e\n\u003cli\u003elsposed 激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e杀进程强制重启微信即可食用\u003c/li\u003e\n\u003cli\u003e进入”我的“页面 -\u0026gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e更新计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 平板模式\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈去广告\u003cbr /\u003e\n可能覆盖的广告类型不全，有问题提issue。\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈集赞\u003cbr /\u003e\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息增加详细时间提示\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 原相机扫码\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 骰子指定\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 复读+1\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 自动下载原图\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 隐藏好友\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。\u003cbr /\u003e\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. 打开app后，功能无法使用且无任何提示？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. 打开app后，设置弹层无法正常弹出？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4. 语音消息发送时一直转圈？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e更新模块到1.0.10版本或关闭消息禁止撤回。\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\u003c/li\u003e\n\u003cli\u003e请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\u003c/li\u003e\n\u003cli\u003e本APP不篡改，不修改，不获取任何个人信息及其微信信息。\u003c/li\u003e\n\u003cli\u003e本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e🙏请作者喝杯茶\u003c/h2\u003e\n\u003cp\u003e二维码加载失败的有劳点击一下：\u003cbr /\u003e\n\u003ca href=\"http://39.106.52.143/image/paymentCodeAli.png\"\u003e\u003cimg src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /\u003e\u003c/a\u003e\n\u003ca href=\"http://39.106.52.143/image/paymentCodeWechat.png\"\u003e\u003cimg src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e感谢所有支持的老板！您的支持使这个项目得以持续发展。\u003c/p\u003e\n",
+      "lastUpdated": 1737566034000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1、适配56\n2、ui小调整\n\n更新插件，进入设置弹窗，更新配置后即可使用"
+          "whatsNew": "暗黑模式 消息详细时间bugfix"
         }
       },
       "name": "XChat",
       "packageName": "com.xchat",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
-      "suggestedVersionCode": "800",
-      "suggestedVersionName": "1.0.12",
+      "suggestedVersionCode": "867",
+      "suggestedVersionName": "1.0.16",
       "summary": "Enhance Wechat!"
     },
     {
@@ -7911,25 +7911,25 @@
       "summary": "自定义MIUI的Splash Screen"
     },
     {
-      "added": 1732359188000,
+      "added": 1737560465000,
       "authorName": "freedom-introvert",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e哔哩发评反诈\u003c/h1\u003e\n\u003cp\u003e发送评论后自动检查评论是否正常的Xposed模块。避免你的评论被仅自己可见或者被秒删了还给系统“发送成功”的谎言所欺骗，恢复在阿瓦隆系统下你对评论状态的知情权！\u003cbr /\u003e\n同时帮你记录所发布的评论，拒绝遗忘！\u003c/p\u003e\n\u003ch1\u003e简要使用说明\u003c/h1\u003e\n\u003ch2\u003e账号\u003c/h2\u003e\n\u003cp\u003e对于评论的检查，需要获取对应UID对应账号cookie进行检查。需要在账号管理器中添加对应账号。\u003c/p\u003e\n\u003ch3\u003e自动获取b站客户端cookie\u003c/h3\u003e\n\u003cp\u003e自动获取哔哩哔哩客户端的cookie，检查时自动添加对应的账号到用户列表，无需手动添加账号。\u003c/p\u003e\n\u003cp\u003ecookie来源于webview中的cookies数据库，若该cookie无法使用可关闭该功能。\u003c/p\u003e\n\u003ch3\u003e手动添加账号\u003c/h3\u003e\n\u003cp\u003e右上角小饼干（旧版本的cookie设置），账号列表，添加账号。你可以在内置浏览器进行登录获取cookie，或者你通过别的方式获取到cookie（列如从Chrome抓取到的），填写完毕后完成以添加账号。\u003c/p\u003e\n\u003ch3\u003e更新账号\u003c/h3\u003e\n\u003cp\u003e若账号cookie失效，可在账号列表点击账号，获取新的cookie填写上去并更新\u003c/p\u003e\n\u003ch3\u003e账号的评论区\u003c/h3\u003e\n\u003cp\u003e填写自己发布内容的评论区地址，可以是你所发布的视频、动态、专栏，请勿填别人的。由检查评论是否只在当前评论区被Ban、扫描敏感词，这两个功能所使用\u003c/p\u003e\n\u003ch3\u003e之前版本的小号\u003c/h3\u003e\n\u003cblockquote\u003e\n\u003cp\u003e由于阿瓦隆的“查重黑名单”、“反刷屏”、账号风控……等机制，前面发送的评论可能会“污染了评论区”，导致检查评论区是否戒严时会把正常的评论区判定为戒严。此时可以用小号来检查，以避免主号发送评论所带来的影响，使评论区戒严检测的结果更精确（前提是你小号没被风控）。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e检查评论区、扫描敏感词等功能所使用。6.0.0版本之后引入了多账号，旧概念已废除，现小号指的是非当前被检查评论所属发送者的账号。\u003c/p\u003e\n\u003ch2\u003e检查与统计\u003c/h2\u003e\n\u003cp\u003e在哔哩哔哩APP里评论发送成功后，会调起本发评反诈进行检查，并在上面显示的对话框展示进度与检查结果。\u003c/p\u003e\n\u003ch3\u003e评论8种状态\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e评论正常\u003c/li\u003e\n\u003cli\u003e仅自己可见\u003c/li\u003e\n\u003cli\u003e被系统秒删\u003c/li\u003e\n\u003cli\u003e包含敏感词\u003c/li\u003e\n\u003cli\u003e评论被隐身（invisible）\u003c/li\u003e\n\u003cli\u003e评论疑似审核\u003c/li\u003e\n\u003cli\u003e评论疑似正常（申诉时提示无可申诉评论时状态会切换为此）\u003c/li\u003e\n\u003cli\u003e未知状态（直接去申诉无法得知状态）\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e遇到评论疑似审核的，建议使用『监控评论』功能，后台1分钟检查一次，状态发生变化时通知提醒你。当然出现疑似审核的原因也可能是评论区有戒严，评论应该是扔给更复杂的AI审核（少些评论区是人工），耗时较高（几乎持平视频的AI审核）\u003c/p\u003e\n\u003cp\u003e当然，b站对于被ban的评论你还可以去\u003ca href=\"https://www.bilibili.com/h5/comment/appeal\"\u003e申诉\u003c/a\u003e，如果评论没毛病，多数时候是可以恢复正常显示的（当然你得自己发现评论是否异常🙃）。本软件集成了申诉功能，评论不能正常显示时可在对话框内选择[更多评论选项]==\u0026gt;[申诉]。\u003c/p\u003e\n\u003cp\u003e开启历史记录功能可记录所有评论以及检查时发现戒严的评论区。借助历史评论记录可帮助你分析它爱ban什么评论，以及你的评论被ban率有多高。同时也是你的“小日记”，记录你的评论使其不被遗忘。同时对于“你的评论[hell**]已被移除”的智障隐私保护，能帮你找到目标评论\u003c/p\u003e\n\u003cp\u003e刚开始的时候（v1.0.0）并没有作为Xposed模块，要复制评论bv号，并在发评反诈里输入评论再发送进行检查。发送评论多了个复制bv号或链接的步骤，较为麻烦，但是开发了Xposed功能就舒服多了。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e详细使用教程与说明请查看本github项目主页\u003c/strong\u003e，一定得先了解哔哩哔哩的「阿瓦隆」系统！\u003c/p\u003e\n\u003ch2\u003e保证支持的版本\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e国内版已适配版本\n\u003cul\u003e\n\u003cli\u003e? - 7.25.0 - 7.27.0\u003c/li\u003e\n\u003cli\u003e7.28.0 - 7.33.0\u003c/li\u003e\n\u003cli\u003e7.34.0\u003c/li\u003e\n\u003cli\u003e7.35.0 - ?\u003c/li\u003e\n\u003cli\u003e~7.68.0~\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e国际版已适配版本：\n\u003cul\u003e\n\u003cli\u003e? - 3.16.0 - ？\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e下载\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/freedom-introvert/biliSendCommAntifraud/releases\"\u003ehttps://github.com/freedom-introvert/biliSendCommAntifraud/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e关于之前LSPosed仓库删档\u003c/h1\u003e\n\u003cp\u003e有很多群友反馈，发布更新了，但是LSPosed仓库未提示有更新，同时安装了也没显示“\u003cem\u003e已安装\u003c/em\u003e”。\u003c/p\u003e\n\u003cp\u003e才发现，lsp仓库里显示的是全小写的包名\u003ccode\u003eicu.freedomintrovert.bilisendcommantifraud\u003c/code\u003e，而软件真正的包名是\u003ccode\u003eicu.freedomIntrovert.biliSendCommAntifraud\u003c/code\u003e，导致LSP没匹配到已安装的模块。我想单独建一个与包名正确对应的新仓库，并保留原来的。但由于submission不区分大小写包名，提交时提示重复，只能删库重建，需要了解历史版本更新信息的可移步项目源地址。\u003c/p\u003e\n\u003cp\u003e首次上传时没注意，很抱歉给大家带来了那么多麻烦。\u003c/p\u003e\n\u003ch1\u003e完整使用说明/GitHub项目\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/freedom-introvert/biliSendCommAntifraud\"\u003ehttps://github.com/freedom-introvert/biliSendCommAntifraud\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003ch3\u003e讨论交流\u003c/h3\u003e\n\u003cp\u003eTelegram: \u003ca href=\"https://t.me/+6Ugpd4TtB8liZDg1\"\u003e@biliSendCommAntifraud\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eLOGO含义\u003c/h3\u003e\n\u003cp\u003e来自：Never Gonna Give You Up - Rick Astley\u003cbr /\u003e\n意为“发送成功”但是你被骗了🤪\u003c/p\u003e\n\u003ch3\u003e关于转载\u003c/h3\u003e\n\u003cp\u003e该模块仅在Xposed module repo官方仓库发布，请不要在哔哩哔哩以视频动态专栏宣传本模块！更不要在推特宣传本模块！其他平台随意，但也要考虑情况（比如小绿书慎重考虑）。\u003cstrong\u003e转发包括readme一起请注意潜在的敏感信息，比如测试“包含敏感内容”的64，不然你的网站或者是号要没了哦:(\u003c/strong\u003e\u003c/p\u003e\n\u003ch3\u003e使用守则\u003c/h3\u003e\n\u003cp\u003e严禁在b站公开区域宣传与展示本软件，尤其是视频、动态、文章！\u003c/p\u003e\n\u003ch3\u003e用户耻辱柱\u003c/h3\u003e\n\u003cp\u003eUID：398650682\u003c/p\u003e\n\u003cp\u003e公开在个人动态中宣传哔哩发评反诈，并且被官方关进小黑屋。\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"%E9%83%9D%E6%B0%94-1.png\" alt=\"image-20240918003345883\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"%E9%83%9D%E6%B0%94-2.png\" alt=\"image-20240918003552700\" /\u003e\u003c/p\u003e\n\u003ch2\u003e插曲\u003c/h2\u003e\n\u003ch3\u003e百度搜索\u003c/h3\u003e\n\u003cp\u003e请不要过度在百度搜索此模块名称：“哔哩发评反诈”，已造成不良影响了😅。\n\u003cimg src=\"https://github.com/Xposed-Modules-Repo/icu.freedomintrovert.bilisendcommantifraud/raw/main/IMG_20230803_223529.jpg\" alt=\"IMG_20230803_223529\" /\u003e\u003c/p\u003e\n\u003ch3\u003e命名与国家反诈中心\u003c/h3\u003e\n\u003cp\u003e由于本应用的名称包含“反诈”一词，在受国家反诈中心监控的手机里，\u003cstrong\u003e被误以为是假冒国家反诈中心\u003c/strong\u003e，所以会有安装导致被反诈中心打电话😰。群里有真实被打电话的案例，但他却没有安装反诈中心。手机是MIUI14的系统，看来MIUI内置国家反诈中心的传闻并非危言耸听。究其原因是“应用包管理组件”上传了你所安装应用的信息，接着会传给MIUI服务器然后再发给真的反诈中心，手机号码绑定了小米账号，反诈中心就会根据这个手机号给你打电话。\u003cstrong\u003e安装时记得断网，避免被上传信息\u003c/strong\u003e！如果你怕会后台偷偷上传，那么聪明的你可以去找些屏蔽系统应用联网的模块，把一切所谓“保护安全”的应用禁止联网😉。\u003c/p\u003e\n\u003ch2\u003e我的另一个作品与嘲讽\u003c/h2\u003e\n\u003ch3\u003e\u003ca href=\"https://github.com/freedom-introvert/YouTubeSendCommentAntiFraud\"\u003eYouTube发评反诈\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e没错，油管发评反诈，YouTube版阿瓦隆！他不仅把阿瓦隆完整的抄了一遍，甚至能做得比b站更绝！b站可恶之处只在于隐评删评，YouTube可恶之处不止隐评删评，部分评论还会不让出现在“热门”列表里，接着热门的列表还故意让那些它认为偏向夸赞的评论排在前面（如“暖心”），有些评论即使点赞多的，但是不够暖心但它也会被排到后面去。所以为什么YouTube的评论区都是夸赞一边倒的，似乎看不到骂与批评。\u003c/p\u003e\n\u003cp\u003e你阿美莉卡说的言论自由何存呢？我们小粉红最喜欢看你们闹笑话了🤣👉🤡\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eps：当然对于热门列表的相关检测暂未支持，因为没啥人用，我不想多费力气，想要的话去YouTube发评反诈的仓库发issues，我立即编写代码更新\u003c/em\u003e\u003c/p\u003e\n",
-      "icon": "icu.freedomIntrovert.biliSendCommAntifraud.621.png",
-      "lastUpdated": 1732359188000,
+      "icon": "icu.freedomIntrovert.biliSendCommAntifraud.625.png",
+      "lastUpdated": 1737560465000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 添加XPosed小功能开关，可选开关【去他妈的评论图片折叠】【替换拍照为从相册选择】。注：由于XSP的问题，Private模式获取到的shared_prefs路径也被强改了，故升级后会对配置进行迁移，迁移到XSP的位置。配置信息除了XPosed功能开关还包含等待时间、转发动态等，**若你启用模块与禁用模块，将是两个配置文件**（账号历史记录等依赖数据库的不受影响）。\n- 优化了下BV号的获取逻辑，先从视频播放Activity里获取，若获取不到再网络调用API进行查询，若网络这时也出现了问题了，将使用AV号，避免网络问题导致评论丢失。修复了某些情况下发送评论后因网络问题导致无法调起反诈的问题（待检查评论也没有评论）。之前没做的原因就是视频播放Activity启动传参没有BV号而是AV号，要获取只能网络请求。"
+          "whatsNew": "### 更新日志\n- 修复最新国际版失效的问题\n- 新增评论是否申诉过的状态位，以评论区ID的背景颜色表示。\n  - 无可申诉评论：淡绿色\n  - 提交成功：淡红色\n- 评论无可申诉时将不再将状态改为“疑似正常”\n- 新增历史评论统计功能\n- 更改用户守则，**不再限制在评论区中提及本软件**。遇到别人被吞评论的场景可以把本软件分享给他们。但还是要注意以下事项，不要和官方对冲！\n  - 禁止以做视频、发动态、写文章这种方式去分享本软件\n  - 在b站官方的视频任何地方提及本软件\n  - 你分享本软件的那条评论要是被ban了，请立即删除！**不要去申诉去当自爆卡车！**"
         }
       },
       "name": "哔哩发评反诈",
       "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud",
-      "suggestedVersionCode": "621",
-      "suggestedVersionName": "6.2.1",
+      "suggestedVersionCode": "625",
+      "suggestedVersionName": "6.2.5",
       "summary": "哔哩哔哩发送评论自动检查，恢复在阿瓦隆系统下你对评论状态的知情权！同时帮你记录历史评论"
     },
     {
@@ -15196,7 +15196,22 @@
     ],
     "com.xchat": [
       {
-        "added": 1737200681000,
+        "added": 1737566034000,
+        "apkName": "com.xchat_867-1.0.16.apk",
+        "hash": "5b7a0fccf52354a4a05e1f96fb17f7a01a96bdb92511a7d3a33b65cacdc7e878",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.xchat",
+        "sig": "df7d4365eb5d4b795c4e810fa014b2e5",
+        "signer": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06",
+        "size": 72836,
+        "targetSdkVersion": 34,
+        "versionCode": 867,
+        "versionName": "1.0.16"
+      },
+      {
+        "added": 1737256252000,
         "apkName": "com.xchat_800-1.0.12.apk",
         "hash": "08cd90dd3aa9222a5777dd176c26697e88737374195a9b66612778c5a8218f37",
         "hashType": "sha256",
@@ -15224,26 +15239,11 @@
         "targetSdkVersion": 34,
         "versionCode": 792,
         "versionName": "1.0.11"
-      },
-      {
-        "added": 1736910399000,
-        "apkName": "com.xchat_735-1.0.9.apk",
-        "hash": "3e900047369509a46bb204395bc3dc78d53a5f9126fb7c7998da47f2489b8226",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": null,
-        "packageName": "com.xchat",
-        "sig": "df7d4365eb5d4b795c4e810fa014b2e5",
-        "signer": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06",
-        "size": 67928,
-        "targetSdkVersion": 34,
-        "versionCode": 735,
-        "versionName": "1.0.9"
       }
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1737515463000,
+        "added": 1737601639000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16303,7 +16303,22 @@
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
       {
-        "added": 1732359188000,
+        "added": 1737560465000,
+        "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_625-6.2.5.apk",
+        "hash": "b0bd9926d4c2cf77f169516dcc74e8a216afdeae28fc5e25797fcbe9e003895e",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
+        "sig": "bc2ef2716deebff7810b544ed6e15b06",
+        "signer": "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf",
+        "size": 2056694,
+        "targetSdkVersion": 33,
+        "versionCode": 625,
+        "versionName": "6.2.5"
+      },
+      {
+        "added": 1733214116000,
         "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_621-6.2.1.apk",
         "hash": "601a36a4f8e525f2f5b6372b280b9387a80a18f76c5cd60578192f8cf06c8697",
         "hashType": "sha256",
@@ -16331,21 +16346,6 @@
         "targetSdkVersion": 33,
         "versionCode": 612,
         "versionName": "6.1.2"
-      },
-      {
-        "added": 1732159529000,
-        "apkName": "icu.freedomIntrovert.biliSendCommAntifraud_610-6.1.0.apk",
-        "hash": "156cf8eb00a1e95bc072b0f9f1ed1b909c646ebcd247db8377c342b70075bdec",
-        "hashType": "sha256",
-        "minSdkVersion": 21,
-        "nativecode": null,
-        "packageName": "icu.freedomIntrovert.biliSendCommAntifraud",
-        "sig": "bc2ef2716deebff7810b544ed6e15b06",
-        "signer": "0225a7553765722353b0a27980f779a4ecf8302afb27911e3d42aacbecaa31bf",
-        "size": 2049962,
-        "targetSdkVersion": 33,
-        "versionCode": 610,
-        "versionName": "6.1.0"
       }
     ],
     "icu.freedomintrovert.YTSendCommAntiFraud": [
@@ -18004,7 +18004,27 @@
     ],
     "me.plusne": [
       {
-        "added": 1736129176000,
+        "added": 1737543519000,
+        "apkName": "me.plusne_7138-7.6.2.apk",
+        "hash": "8d786d8c710f18bf35b297ad07a52d24b5cd4962aca594bda122f33f84301070",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.plusne",
+        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
+        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
+        "size": 10525306,
+        "targetSdkVersion": 33,
+        "versionCode": 7138,
+        "versionName": "7.6.2"
+      },
+      {
+        "added": 1736220174000,
         "apkName": "me.plusne_7137-7.6.1.apk",
         "hash": "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430",
         "hashType": "sha256",
@@ -18042,26 +18062,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7136,
         "versionName": "7.6.0"
-      },
-      {
-        "added": 1734146858000,
-        "apkName": "me.plusne_7134-7.5.8.apk",
-        "hash": "76c8cfe235e85bf01dec5f8f9060ff11fc19c4275e5951da4842b1c4798bdd08",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "me.plusne",
-        "sig": "a6ce8796eac5fcb567989eeeb07cd990",
-        "signer": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1",
-        "size": 10525298,
-        "targetSdkVersion": 33,
-        "versionCode": 7134,
-        "versionName": "7.5.8"
       }
     ],
     "me.rhunk.snapenhance": [
