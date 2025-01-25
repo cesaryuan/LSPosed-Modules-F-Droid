@@ -48,11 +48,15 @@ Cleaner.Royall:
           categories:
             - Xposed
           description: "<p align=\"center\">\n  <img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/NewIcon.png\" style=\"width: 30%;\" />\n</p>\n<h1>Cleaner Royall</h1>\n<p><a href=\"https://git.io/typing-svg\"><img src=\"https://readme-typing-svg.demolab.com?font=Fira+Code&amp;duration=2000&amp;pause=100&amp;color=229C43&amp;width=435&amp;lines=Hi+From+AraafRoyall.;Welcome+to+Most+Advanced+Cleaner.;Supports+Auto+Cleaning+Module.;Never+Collect+Any+Data\" alt=\"Typing SVG\" /></a></p>\n<p>\U0001D5E7\U0001D5F5\U0001D5F2 \U0001D5D5\U0001D5F2\U0001D600\U0001D601 \U0001D5D6\U0001D5F9\U0001D5F2\U0001D5EE\U0001D5FB\U0001D5F6\U0001D5FB\U0001D5F4 \U0001D5D4\U0001D5FD\U0001D5FD \U0001D5D8\U0001D603\U0001D5F2\U0001D5FF \U0001D5E0\U0001D5EE\U0001D5F1\U0001D5F2</p>\n<p><a href=\"https://github.com/araafroyall/Cleaner-Royall/releases/download/Latest/CleanerRoyall.apk\"><img src=\"https://img.shields.io/github/downloads/araafroyall/Cleaner-Royall/total\" alt=\"Total Downloads\" /></a>\n<a href=\"https://t.me/CleanerRoyall\"><img src=\"https://img.shields.io/badge/Telegram%20Channel-lightgreen?logo=telegram\" alt=\"Telegram Channel\" /></a></p>\n<ul>\n<li>Light weight but Ultra Fast &amp; Powerful</li>\n<li>No Permission Required (Except Root)</li>\n<li>Never Collect Any Data.</li>\n<li>Supports Automatic Cleaner Module</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>Root</li>\n<li>Xposed Framework (Optional)</li>\n<li>Busybox (Optional)</li>\n</ul>\n<p>•••••••••••••••••••••••••••••••••</p>\n<p align=\"left\">\n  <img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/Info.png\" style=\"width: 100%;\" />\n</p>\n<h2>Screenshots</h2>\n<p><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/1.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/2.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/3.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/4.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/5.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/6.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/7.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/8.jpg\" width=\"100\"><img src=\"https://github.com/araafroyall/cleaner-royall/raw/main/assets/Screenshots/9.jpg\" width=\"100\"></p>\n<h3>Developer Contact details</h3>\n<p>Telegram id : @AraafRoyall</p>\n<p>Gmail : <a href=\"mailto:CleanerRoyall@gmail.com\">CleanerRoyall@gmail.com</a></p>\n<p>Gmail : <a href=\"mailto:AraafRoyall@gmail.com\">AraafRoyall@gmail.com</a></p>\n<p>•••••••••••••••••••••••••••••••••••</p>\n"
-          filename: Cleaner.Royall.v4-4.0.apk
+          filename: Cleaner.Royall.v4.2.apk
           id: Cleaner.Royall
           name: "\U0001D5D6\U0001D5F9\U0001D5F2\U0001D5EE\U0001D5FB\U0001D5F2\U0001D5FF \U0001D5E5\U0001D5FC\U0001D606\U0001D5EE\U0001D5F9\U0001D5F9 \U0001F680"
-          last_updated: "2025-01-23T16:11:03Z"
-          releasedescription: <p>• Fix Lsposed Module detection bug</p>
+          last_updated: "2025-01-24T10:36:59Z"
+          releasedescription: |-
+            <p>Changelog v4.2</p>
+            <p>• Fix installation on some devices<br>
+            •  Sign problem is now fixed<br>
+            • SpeedUp Enhanced Cache Trimmer</p>
     author_name: CleanerRoyall
 Fuck.RollingSky.Pay:
     git: https://github.com/Xposed-Modules-Repo/Fuck.RollingSky.Pay
@@ -10474,18 +10478,24 @@ com.sevtinge.hyperceiler:
             <p>本模块<b>不支持</b> <code>修改较多的第三方 Xiaomi HyperOS ROM</code>、<code>修改较多的系统软件</code>，以及<code>部分国际 Xiaomi HyperOS ROM</code>；</p>
             <p>目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进</p>
             <p>在<a href="https://github.com/ReChronoRain/HyperCeiler/issues">提交反馈</a>前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情</p>
-            <p>HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM，如需使用请停留<a href="https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130">此版本</a></p>
+            <p>HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM 和 Android 13 的 HyperOS1.0 ROM</p>
+            <blockquote>
+            <ul>
+            <li>Android 11-12 的 MIUI ROM 请使用 <a href="https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130">此版本</a></li>
+            <li>Android 13 的 MIUI ROM 和 HyperOS1.0 ROM 请使用 <a href="https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler/releases/download/3866-2.5.156_20250118/HyperCeiler_2.5.156_20250118_3866_release_miui.apk">此版本</a></li>
+            </ul>
+            </blockquote>
             <h2>为 HyperCeiler 项目提交翻译</h2>
             <p><a href="https://crowdin.com/project/cemiuiler"><img src="https://badges.crowdin.net/cemiuiler/localized.svg" alt="Crowdin" /></a></p>
             <p>您可以在<a href="https://crwd.in/cemiuiler">这里</a>为 HyperCeiler 项目贡献翻译。</p>
           filename: HyperCeiler_2.5.156_20250118_3869_release_hyperos.apk
           id: com.sevtinge.hyperceiler
           name: HyperCeiler
-          last_updated: "2025-01-18T14:56:21Z"
+          last_updated: "2025-01-24T09:22:02Z"
           releasedescription: |-
             <p>发布前说明：<br>
             本次仅以个人名义(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>) 在 LSPosed 仓库发布更新<br>
-            紧急修复了一个导致 APP 打开崩溃的问题，MIUI14 用户请下载带 miui 后缀的包<br>
+            紧急修复了一个导致 APP 打开崩溃的问题，MIUI14 用户和 Android 13 的 HyperOS1.0 用户请下载带 miui 后缀的包<br>
             相关源码已提交至主仓库</p>
             <p>支持版本：<br>
             HyperOS 1.0 / 2.0<br>
@@ -11301,17 +11311,18 @@ com.twifucker.hachidori:
             <ul>
             <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
             </ul>
-          filename: Hachidori_26_v0.26.apk
+          filename: Hachidori_27_v0.27.apk
           id: com.twifucker.hachidori
           name: Hachidori
-          last_updated: "2024-12-21T17:17:46Z"
+          last_updated: "2025-01-24T08:07:16Z"
           releasedescription: |-
             <h1>Changes</h1>
             <ul>
-            <li>update Japanese language</li>
-            <li>Replace X translator feature, also force enable translate button (experimental)</li>
+            <li>Integrate replace X translator feature into the view, without the dialog</li>
+            <li>fix remove promoted trend in <code>10.77.0</code></li>
             <li>minor bug fixes</li>
             </ul>
+            <p>Last tested version: <code>10.78.0-alpha.5</code></p>
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (<code>LSPosed_mod</code> is not working in Android 15, please join <a href="https://t.me/LSPosed/287" rel="nofollow">LSPosed Internal Testing</a> or change to another LSPosed fork)</p>
             <p>Long press X icon on top of the home screen or tap version in about section to access settings.</p>
             <p>Please DO NOT tweet/post anything about this module at Twitter/X.</p>
@@ -12022,12 +12033,14 @@ com.xchat:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p> \n<h2>广告:</h2>\n<p>1r可修改消息详细时间的背景颜色，直到下一个人支付前可一直生效，所有人同时生效哦～ 快来体验操控别人的快感吧！  欢迎老板骚扰～\U0001F61C\U0001F61C</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 原相机扫码</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/image/paymentCodeAli.png\"><img src=\"http://39.106.52.143/image/paymentCodeAli.png\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/image/paymentCodeWechat.png\"><img src=\"http://39.106.52.143/image/paymentCodeWechat.png\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
-          filename: XChat-1.0.19-926-release.apk
+          description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p> \n<h2>广告:</h2>\n<p>1、1r可修改消息详细时间的背景颜色，直到下一个人修改前可一直生效，所有人同时生效哦～<br />\n2、1r可修改设置弹层的背景图片，直到下一个人修改前可一直生效，所有人同时生效哦～</p>\n<p>快来体验操控别人的快感吧！  欢迎老板骚扰～\U0001F61C\U0001F61C</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 相册扫码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 输入框暗纹词</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 聊天界面圆形头像</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=1\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=1\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=2\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=2\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+          filename: XChat-1.1.4-1147-release.apk
           id: com.xchat
           name: XChat
-          last_updated: "2025-01-23T17:20:55Z"
-          releasedescription: <p>ui小调整</p>
+          last_updated: "2025-01-24T20:26:11Z"
+          releasedescription: |-
+            <p>1、输入框暗纹词<br>
+            2、聊天界面圆形头像</p>
     author_name: Yy-ss7
 com.xconst.vavatar:
     git: https://github.com/Xposed-Modules-Repo/com.xconst.vavatar
@@ -12046,10 +12059,10 @@ com.xconst.vavatar:
             </div>
             <p><a href="https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar" alt="Release" /></a></p>
             </div>
+            <h1>如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。</h1>
+            <p><a href="https://github.com/NoonieBao/VAvatar/releases">https://github.com/NoonieBao/VAvatar/releases</a></p>
             <h2>适用版本</h2>
-            <p>8.0.47、8.0.48、8.0.49、<del>8.0.50</del>、8.0.51、8.0.53、8.0.54、8.0.55</p>
-            <p>不支持<code>8.0.50</code> ！</p>
-            <p>8.0.46或许有效，但由于我无法登陆旧版本，未能进行验证。</p>
+            <p>8.0.47、8.0.48、8.0.49、<del>8.0.50</del>、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56</p>
             <blockquote>
             <p>强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看<a href="https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E">额外说明</a></p>
             </blockquote>
@@ -16415,6 +16428,39 @@ its.madruga.warevamp:
             <p>| NOTICE |</p>
             <p>Until the moment of this update, the module was able to support version 2.25.1.14 of WhatsApp without presenting errors, any problem report in our group</p>
     author_name: ItsMadruga
+junzi.xposed.hook:
+    git: https://github.com/Xposed-Modules-Repo/junzi.xposed.hook
+    summary: 对一些软件的功能性增强
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>JunZi Xposed Hook</h1>
+            <p>一些软件的hook</p>
+            <h1>支持的软件</h1>
+            <p>滚动的天空</p>
+            <p>囧次元</p>
+            <p>CiliCli动漫</p>
+            <p>跳舞的线</p>
+            <p>P站助手Lite</p>
+            <p>饥饿鲨进化</p>
+            <p>饥饿鲨世界</p>
+            <p>看漫</p>
+            <p>绿豆免费小说</p>
+            <p>重生细胞</p>
+            <p>锦书</p>
+            <p>星芽免费短剧</p>
+            <h1>开源说明</h1>
+            <p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>
+            <h1>开源地址</h1>
+            <p><a href="https://github.com/ZZCYUN/JunZi-Xposed-Hook">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>
+          filename: JunZi.Xposed.Hook_1.4.apk
+          id: junzi.xposed.hook
+          name: JunZi Xposed Hook
+          last_updated: "2025-01-24T05:52:48Z"
+          releasedescription: <p>欢迎使用JXH</p>
+    author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
     summary: Bypass Xiaomi ADB install confirmation (which invokes com.miui.guardprovider) to make adb installation available with guardprovider disabled/hided.
@@ -18187,19 +18233,14 @@ name.monwf.customiuizer:
             <li>show more detail on app installer or info activity</li>
             <li>powerful gesture with multi actions</li>
             </ul>
-          filename: Pengeek-24.10.12.apk
+          filename: Pengeek-25.01.24.apk
           id: name.monwf.customiuizer
           name: Pengeek(米客)
-          last_updated: "2024-10-12T04:08:25Z"
+          last_updated: "2025-01-24T04:59:23Z"
           releasedescription: |-
-            <p>Maybe this is the final release for Android 14</p>
-            <p>disable resetting of the privacy blur list in recents<br>
-            fix: invalid 'switch to prev app' action<br>
-            fix: systemui crash when the clock format is set</p>
-            <h2>这可能是支持A14的最后版本</h2>
-            <p>禁止最近任务的模糊列表被重置<br>
-            修复切换至上一应用的动作失效问题<br>
-            修复部分新系统在设置时钟格式后，系统界面crash的问题</p>
+            <p>Add support for HyperOS 2.<br>
+            remove obsolete features.</p>
+            <p>提前祝大家新春快乐</p>
     author_name: MonwF
 nep.timeline.re_telegram:
     git: https://github.com/Xposed-Modules-Repo/nep.timeline.re_telegram
