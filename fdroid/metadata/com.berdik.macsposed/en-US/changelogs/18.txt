@@ -1,0 +1,14 @@
+<p align="center"><img src="https://raw.githubusercontent.com/DavidBerdik/MACsposed/ee0500dc13896a8a4c58c2bf7ee73a6188f7c70f/images/feature-graphic.png" width="400" /></p>
+
+This release fixes an issue that was introduced in MACsposed 1.2.3 that caused MAC address change attempts to fail despite previously working with MACsposed 1.2.2.
+
+------------
+
+**Changelog for MACsposed 1.2.3:**
+
+MACsposed 1.2.3 adds support for Android 15 and includes the following additional changes:
+
+- Access to the Settings panel is now always available to allow users to change the "Language" and "Dark Mode" settings. Previously, the Settings panel was only available when root access was granted and the module was enabled in LSPosed.
+- Corrections to the Arabic translation provided by @mast3rz3ro.
+- An issue that caused attempts to change the MAC address to fail on certain devices has been corrected.
+- MACsposed will now automatically detect the interface name used by the device for WiFi access. Previously, MACsposed only supported devices that use `wlan0` as the name for the network interface.
