@@ -338,6 +338,32 @@ It.dhd.oxygencustomizer:
             </li>
             </ul>
     author_name: DHD2280
+Telegram.Speed.Hook:
+    git: https://github.com/Xposed-Modules-Repo/Telegram.Speed.Hook
+    summary: Xposed Module which Increase Telegram Download Speed to Extreme
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>Telegram Speed Hook</h1>
+            <p>An Xposed Module to Increase Telegram Speed to Extreme</p>
+            <p align="centre">
+              <img src="https://github.com/araafroyall/Telegram-Speed-Hook/raw/main/assets/TgSpeedHook.png" style="width: 100%;" />
+            </p>
+            <p>Created by : @AraafRoyall</p>
+            <p>Telegram Username : @AraafRoyall</p>
+            <p>Thanks for using the Module ..</p>
+            <p>Feel free to contact, ask, help, discuss about the module</p>
+          filename: Telegram.Speed.Hook.v1.0.apk
+          id: Telegram.Speed.Hook
+          name: "\U0001D5E7\U0001D5F2\U0001D5F9\U0001D5F2\U0001D5F4\U0001D5FF\U0001D5EE\U0001D5FA \U0001D5E6\U0001D5FD\U0001D5F2\U0001D5F2\U0001D5F1 \U0001D5DB\U0001D5FC\U0001D5FC\U0001D5F8"
+          last_updated: "2025-01-26T12:11:59Z"
+          releasedescription: |-
+            <p>• Initial Release<br>
+            • Boost Telegram download speed to Extreme when downloading file large then 5MB<br>
+            • Developer <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/araafroyall/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/araafroyall">@araafroyall</a></p>
+    author_name: AraafRoyalll
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
     summary: Like Chrome's translation of webpages, but for Android apps. It replaces ALL TEXT IN AN APP from one language to another at runtime.
@@ -2684,6 +2710,30 @@ cn.yhfcn.samsung_clockfix:
             <li>新版本时钟app代码有混淆，现在改为hook底层一点的api: AudioManager.class，伪装没有占用麦克风</li>
             </ul>
     author_name: yin-ol
+coloros.pagelimits.mod:
+    git: https://github.com/Xposed-Modules-Repo/coloros.pagelimits.mod
+    summary: ColorOS桌面最大可用页面数（27）限制解除
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>ColorOS桌面页面限制解除</h1>
+            <p>ColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制
+            具体演示在：（酷安）
+            <a href="https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2">https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2</a></p>
+            <h3>启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可</h3>
+            <h5><a href="https://www.123865.com/s/nQyRVv-uf60h">123云盘下载地址（国内）</a></h5>
+            <h1>项目地址：</h1>
+              <a href="https://github.com/Sharl210/coloros.pagelimits.mod/">
+            https://github.com/Sharl210/coloros.pagelimits.mod/
+            </a>
+          filename: coloros.pagelimits.mod_2.0-release.apk
+          id: coloros.pagelimits.mod
+          name: ColorOS桌面页面限制解除
+          last_updated: "2025-01-26T08:31:41Z"
+          releasedescription: "<p>\U0001F913\U0001F446:使模块桌面图标隐藏</p>\n<p>更新说明：部分情况下，有可能直接更新，系统桌面里之前的图标，不会刷新（消失）建议卸载原模块，然后再安装新版本</p>"
+    author_name: Sharl210
 com.agoines.relaxhelp:
     git: https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp
     summary: 解除 Relax 的限制
@@ -11313,18 +11363,18 @@ com.twifucker.hachidori:
             <ul>
             <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
             </ul>
-          filename: Hachidori_27_v0.27.apk
+          filename: Hachidori_28_v0.28.apk
           id: com.twifucker.hachidori
           name: Hachidori
-          last_updated: "2025-01-24T08:07:16Z"
+          last_updated: "2025-01-26T16:24:31Z"
           releasedescription: |-
             <h1>Changes</h1>
             <ul>
-            <li>Integrate replace X translator feature into the view, without the dialog</li>
-            <li>fix remove promoted trend in <code>10.77.0</code></li>
+            <li>remove Today's News</li>
+            <li>show poll results</li>
+            <li>added Spanish translation and updated Japanese and Vietnamese translation</li>
             <li>minor bug fixes</li>
             </ul>
-            <p>Last tested version: <code>10.78.0-alpha.5</code></p>
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (<code>LSPosed_mod</code> is not working in Android 15, please join <a href="https://t.me/LSPosed/287" rel="nofollow">LSPosed Internal Testing</a> or change to another LSPosed fork)</p>
             <p>Long press X icon on top of the home screen or tap version in about section to access settings.</p>
             <p>Please DO NOT tweet/post anything about this module at Twitter/X.</p>
@@ -14289,18 +14339,22 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v912.Apk
+          filename: FunBox_v929_S.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-01-23T12:27:01Z"
+          last_updated: "2025-01-26T15:12:44Z"
           releasedescription: |-
-            <p>1.修复保存QQ原创表情时部分表情为损坏表情的问题<br>
-            2.添加实验性功能<br>
-            3.阻止某主题模块检测到同时内置FunBox后禁止加载<br>
-            4.修复表情包分享上传后顺序错乱的问题<br>
-            5.表情包的最近更新时间也作为在线表情的排序依据<br>
-            6.支持zygisk刷入(仅适配QQ,部分功能可能无法使用)</p>
-            <p>(如果你使用FunBox后导致其他模块无法使用或出现闪退等问题,请长按FunBox主界面标题关闭实验性功能)</p>
+            <p>1.修复方法搜索缓存丢失导致的功能和启动卡顿问题<br>
+            2.移动部分核心共享类到本体以保证能从旧版本热更新上来<br>
+            3.移除没必要的输出</p>
+            <p>V923<br>
+            1.修改FunBox在QQ的入口注入位置<br>
+            2.修复FunBox zygisk在部分设备导致QQ启动闪退问题<br>
+            3.最低安卓版本恢复为安卓10<br>
+            4.修复tg表情包下载后和原始表情包不一致的问题<br>
+            5.对部分hook方法的caller进行去优化<br>
+            6.修复有道网页翻译API<br>
+            7.修复QQ主题被锁死无法恢复的问题</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -15453,6 +15507,39 @@ io.github.enhancege:
           last_updated: "2023-10-22T15:25:01Z"
           releasedescription: <p>remove more detections</p>
     author_name: null4n
+io.github.icepony.alwayscreateuser:
+    git: https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser
+    summary: Let pm create-user bypass some checks.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>Always create user</h1>
+            <p>Let <code>pm create-user</code> bypass some checks.</p>
+            <h2>Description</h2>
+            <p><code>isCreationOverrideEnabled</code> Android 14+</p>
+            <p><code>canAddMoreProfilesToUser</code> Android 11 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
+            <p><code>isUserLimitReached</code> Android 7 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
+            <p><code>canAddMoreManagedProfiles</code> Android 6 - 10 (Move to <code>canAddMoreProfilesToUser</code>)</p>
+            <p><code>isUserLimitReachedLocked</code> Android 4.2 - 6 (Rename to <code>isUserLimitReached</code>)</p>
+            <h2>Screenshot</h2>
+            <table>
+            <thead>
+            <tr>
+            <th><img src="https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png" alt="Island" /></th>
+            <th><img src="https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png" alt="Thanox" /></th>
+            </tr>
+            </thead>
+            </table>
+            <h2>Issuse</h2>
+            <p><a href="https://github.com/icepony/AlwaysCreateUser/issues">https://github.com/icepony/AlwaysCreateUser/issues</a></p>
+          filename: AlwaysCreateUser_v1.2.apk
+          id: io.github.icepony.alwayscreateuser
+          name: Always create user
+          last_updated: "2025-01-26T12:53:03Z"
+          releasedescription: '<p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/icepony/AlwaysCreateUser/compare/v1.0...v1.2">icepony/AlwaysCreateUser@<tt>v1.0...v1.2</tt></a></p>'
+    author_name: icepony
 io.github.jeffshee.nekumorimod:
     git: https://github.com/Xposed-Modules-Repo/io.github.jeffshee.nekumorimod
     summary: A collection of fixes for some apps to work properly, especially on OnePlus7. Remove Lock Screen Album Art.
@@ -16449,17 +16536,16 @@ junzi.xposed.hook:
             <p>星芽免费短剧</p>
             <p>番茄免费小说</p>
             <p>红果免费短剧</p>
+            <p>Picsart</p>
             <h1>开源说明</h1>
             <p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>
             <h1>开源地址</h1>
             <p><a href="https://github.com/ZZCYUN/JunZi-Xposed-Hook">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>
-          filename: JunZi.Xposed.Hook_1.5.apk
+          filename: JunZi.Xposed.Hook_1.6.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-01-25T15:07:48Z"
-          releasedescription: |-
-            <p>新增 支持 番茄免费小说 6.5.9.32<br>
-            新增 支持 红果免费短剧 6.5.9.32</p>
+          last_updated: "2025-01-26T06:30:57Z"
+          releasedescription: <p>新增 支持 Picsart 26.6.4</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -19263,12 +19349,12 @@ ps.reso.instaeclipse:
         - anti_features: []
           categories:
             - Xposed
-          description: "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! \U0001F680</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. \U0001F9E0✨</p>\n<hr />\n<h2>✨ Features</h2>\n<h3>\U0001F39B️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n<li>Ensure you are signed in before enabling Developer Options through the module and follow the provided guide for proper setup.</li>\n</ul>\n<h3>\U0001F47B Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>\U0001F9D8 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>\U0001F6AB Remove Ads</h3>\n<ul>\n<li>Declutter your feed by removing intrusive ads.</li>\n</ul>\n<h3>\U0001F4C9 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<hr />\n<h2>\U0001F6E0️ Installation Instructions</h2>\n<hr />\n<h2>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google play store versions yet!</h2>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<hr />\n<h2>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a></h2>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n<hr />\n<h2>\U0001F4D6 FAQ</h2>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n<hr />\n<h2>\U0001F4C2 Resources</h2>\n<ul>\n<li>\U0001F419 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>\U0001F4AC <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n<hr />\n<h2>\U0001F389 Contributors</h2>\n<hr />\n<h3>\U0001F451 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<hr />\n<h3>\U0001F64C Special Thanks to:</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<hr />\n<h3>\U0001F4A1 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n<hr />\n"
-          filename: InstaEclipse.0.2.1.apk
+          description: "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! \U0001F680</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. \U0001F9E0✨</p>\n<details>\n<summary><h2>✨ Features </h2></summary>\n<h3>\U0001F39B️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n</ul>\n<h3>\U0001F47B Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>\U0001F9D8 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>\U0001F6AB Remove Ads</h3>\n<ul>\n<li>Removes most of Instagram’s app ads (excluding feed ads).</li>\n</ul>\n<h3>\U0001F4C9 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<h3>\U0001F527 Misc Options</h3>\n<ul>\n<li>Disable Auto Story Flipping.</li>\n<li>Disable Auto Play Videos.</li>\n</ul>\n</details>\n<details>\n<summary><h2>\U0001F6E0️ Installation Instructions </h2></summary>\n<p>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google Play Store versions yet!</p>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<p>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</p>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n</details>\n<details>\n<summary><h2> \U0001F4D6 FAQ </h2></summary>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n</details>\n<details>\n<summary><h2>\U0001F4C2 Resources </h2></summary>\n<ul>\n<li>\U0001F419 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>\U0001F4AC <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n</details>\n<h2>\U0001F389 Contributors</h2>\n<h3>\U0001F451 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<h3>\U0001F4A1 Contributors</h3>\n<ul>\n<li><a href=\"https://github.com/frknkrc44\">frknkrc44</a></li>\n</ul>\n<h2>\U0001F64C Special Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/xHookman\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<h3>\U0001F30D Translation Contributors</h3>\n<p>A heartfelt thank you to everyone who contributed to translating InstaEclipse into multiple languages. Your efforts help make the module accessible to users worldwide! \U0001F31F</p>\n<h2>\U0001F6E0️ Powered By</h2>\n<ul>\n<li><a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix/LSPosed</a>, the foundation for module functionality.</li>\n<li><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray/DexKit</a>, enabling dynamic analysis for compatibility with new Instagram updates.</li>\n</ul>\n<h3>\U0001F4A1 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n"
+          filename: InstaEclipse.0.3.apk
           id: ps.reso.instaeclipse
           name: InstaEclipse
-          last_updated: "2024-12-30T20:34:30Z"
-          releasedescription: "<h1>\U0001F4E6 Release: Version 0.2.1</h1>\n<p>\U0001F389 InstaEclipse Update \U0001F389</p>\n<p>We’re excited to bring you Version 0.2.1 of InstaEclipse! \U0001F680</p>\n<hr>\n<h2>\U0001F195 What's New?</h2>\n<h3>\U0001F47B <strong>Ghost Mode Enhancements</strong></h3>\n<ul>\n<li>Added <strong>Hide Typing Status</strong>: Stay completely invisible while replying to DMs.</li>\n</ul>\n<h3>\U0001F9D8 <strong>Distraction-Free Mode Enhancements</strong></h3>\n<ul>\n<li>Added <strong>Hide Comments</strong>: Remove comments from posts for an even cleaner experience.</li>\n</ul>\n<h3>\U0001F30D <strong>Improved App Translation Compatibility</strong></h3>\n<ul>\n<li>Full support for app translations by moving to <code>@string</code> resources for better adaptability and flexibility.</li>\n</ul>\n<h3>\U0001F310 <strong>New Language Support</strong></h3>\n<ul>\n<li><strong>Turkish</strong> and <strong>Portuguese</strong> languages have been added.\n<ul>\n<li>\n<p>Thanks to the contributors behind:</p>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/10\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/10/hovercard\">Merge Pull Request #10</a> from <a href=\"https://github.com/akifakif32\">akifakif32</a> - <strong>Turkish</strong></li>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/11\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/11/hovercard\">Merge Pull Request #11</a> from <a href=\"https://github.com/oka1da\">oka1da</a> - <strong>Portuguese</strong></li>\n<li><a href=\"https://github.com/ffnuser\">ffnuser</a> - <strong>Russian</strong></li>\n<li><a href=\"https://github.com/ReSo7200/InstaEclipse/pull/14\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/ReSo7200/InstaEclipse/pull/14/hovercard\">Merge Pull Request #14</a> from <a href=\"https://github.com/Lxchoooo\">Lxchoooo</a> - Spanish</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h2>\U0001F4CC Important Notes</h2>\n<ul>\n<li><strong>Compatible Instagram Version</strong>: The module currently supports only Instagram versions from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\" rel=\"nofollow\">APKMirror</a>. Avoid using the Google Play version as it may not function correctly.</li>\n<li><strong>LSPosed Compatibility</strong>: For optimal performance, ensure you are using the latest LSPosed fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</li>\n<li><strong>Feature Activation</strong>:\n<ul>\n<li><strong>Ghost Mode</strong>: Works seamlessly after enabling via the module.</li>\n<li><strong>Distraction-Free Mode</strong>: Force stop Instagram and clear its cache to apply changes properly.</li>\n</ul>\n</li>\n<li><strong>Developer Options</strong>: Ensure you’re signed in before enabling and follow the guide for proper setup.</li>\n</ul>\n<hr>\n<p>Thank you for your continued support as we enhance InstaEclipse! \U0001F49C</p>"
+          last_updated: "2025-01-27T01:00:56Z"
+          releasedescription: "<h1>\U0001F4E6 Release: Version 0.3</h1>\n<p>\U0001F389 InstaEclipse Update \U0001F389</p>\n<p>We’re thrilled to announce Version 0.3 of InstaEclipse! \U0001F680</p>\n<hr>\n<h2>\U0001F195 What's New?</h2>\n<h3>\U0001F527 <strong>New Features</strong></h3>\n<ul>\n<li><strong>Disable Auto Story Flipping</strong>: Gives you control over story navigation.</li>\n<li><strong>Disable Auto Play Videos</strong>: Prevent videos from auto-playing for a smoother browsing experience.</li>\n</ul>\n<h3>\U0001F6E0️ <strong>Improvements</strong></h3>\n<ul>\n<li><strong>DexKit Integration</strong>: Integrated DexKit to enhance dynamic analysis and improve compatibility with Instagram updates.</li>\n<li><strong>UI Enhancements</strong>: Improved user interface for a more seamless experience.</li>\n<li><strong>Bug Fix</strong>: Resolved an issue with Developer Options that caused unexpected behavior.</li>\n</ul>\n<hr>\n<h2>\U0001F4CC Important Notes</h2>\n<ul>\n<li><strong>Compatible Instagram Version</strong>: Ensure you install Instagram via <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\" rel=\"nofollow\">APKMirror</a>. The Google Play version may not be fully supported.</li>\n<li><strong>LSPosed Compatibility</strong>: Use the latest LSPosed fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a> for the best experience.</li>\n</ul>\n<hr>\n<h2>\U0001F4DE Stay Connected</h2>\n<ul>\n<li>\U0001F4AC <strong>Support &amp; Discussions</strong>: <a href=\"https://t.me/instaEclipse_discussion\" rel=\"nofollow\">Join the Telegram Group</a>.</li>\n<li>\U0001F419 <strong>GitHub Repository</strong>: <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a>.</li>\n</ul>\n<hr>\n<p>Thank you for continuing to support InstaEclipse! \U0001F49C Upgrade to Version 0.3 now to enjoy these exciting new features and improvements.</p>"
     author_name: ReSo7200
 pub.chara.disablealttab:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab

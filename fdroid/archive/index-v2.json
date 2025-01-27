@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1737861395000,
+    "timestamp": 1737947482000,
     "categories": {
       "Xposed": {
         "name": {
@@ -910,7 +910,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737774463000,
+        "lastUpdated": 1737947288000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -925,6 +925,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4": {
+          "added": 1734578832000,
+          "file": {
+            "name": "/com.twifucker.hachidori_25-0.25.apk",
+            "sha256": "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4",
+            "size": 4817474
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.25",
+            "versionCode": 25,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "6c9ce241ebd42e98f4bdd5f2de8fcf89bf62f8868271e6472e3565e93e2bc024": {
           "added": 1734492445000,
           "file": {
@@ -1838,6 +1863,71 @@
               },
               {
                 "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "ps.reso.instaeclipse": {
+      "metadata": {
+        "added": 1735182857000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1737947355000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
+        "authorName": "ReSo7200",
+        "name": {
+          "en-US": "InstaEclipse"
+        },
+        "summary": {
+          "en-US": "An Instagram enhancer module with features like Developer Options, Ghost Mode..."
+        },
+        "description": {
+          "en-US": "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨</p>\n<details>\n<summary><h2>✨ Features </h2></summary>\n<h3>🎛️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n</ul>\n<h3>👻 Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>🧘 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>🚫 Remove Ads</h3>\n<ul>\n<li>Removes most of Instagram’s app ads (excluding feed ads).</li>\n</ul>\n<h3>📉 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<h3>🔧 Misc Options</h3>\n<ul>\n<li>Disable Auto Story Flipping.</li>\n<li>Disable Auto Play Videos.</li>\n</ul>\n</details>\n<details>\n<summary><h2>🛠️ Installation Instructions </h2></summary>\n<p>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google Play Store versions yet!</p>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<p>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</p>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n</details>\n<details>\n<summary><h2> 📖 FAQ </h2></summary>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n</details>\n<details>\n<summary><h2>📂 Resources </h2></summary>\n<ul>\n<li>🐙 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>💬 <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n</details>\n<h2>🎉 Contributors</h2>\n<h3>👑 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<h3>💡 Contributors</h3>\n<ul>\n<li><a href=\"https://github.com/frknkrc44\">frknkrc44</a></li>\n</ul>\n<h2>🙌 Special Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/xHookman\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<h3>🌍 Translation Contributors</h3>\n<p>A heartfelt thank you to everyone who contributed to translating InstaEclipse into multiple languages. Your efforts help make the module accessible to users worldwide! 🌟</p>\n<h2>🛠️ Powered By</h2>\n<ul>\n<li><a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix/LSPosed</a>, the foundation for module functionality.</li>\n<li><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray/DexKit</a>, enabling dynamic analysis for compatibility with new Instagram updates.</li>\n</ul>\n<h3>💡 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n"
+        },
+        "preferredSigner": "29f775e05cd05a97346d2b023e95b214cf4aa4cc599ba3ea5625332058dc3840"
+      },
+      "versions": {
+        "5970f8d350f4787dc611c1c91dfb92d14f006402aebfa227940ad2ad325a29a0": {
+          "added": 1735182857000,
+          "file": {
+            "name": "/ps.reso.instaeclipse_1-0.1.apk",
+            "sha256": "5970f8d350f4787dc611c1c91dfb92d14f006402aebfa227940ad2ad325a29a0",
+            "size": 12690883
+          },
+          "manifest": {
+            "versionName": "0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "29f775e05cd05a97346d2b023e95b214cf4aa4cc599ba3ea5625332058dc3840"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "ps.reso.instaeclipse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }

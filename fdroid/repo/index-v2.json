@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737861408000,
+    "timestamp": 1737947496000,
     "categories": {
       "Xposed": {
         "name": {
@@ -298,6 +298,57 @@
                 "name": "Hook.JiuWu.Xp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
+          }
+        }
+      }
+    },
+    "Telegram.Speed.Hook": {
+      "metadata": {
+        "added": 1737947193000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1737947193000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/Telegram.Speed.Hook",
+        "authorName": "AraafRoyalll",
+        "name": {
+          "en-US": "𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗦𝗽𝗲𝗲𝗱 𝗛𝗼𝗼𝗸"
+        },
+        "summary": {
+          "en-US": "Xposed Module which Increase Telegram Download Speed to Extreme"
+        },
+        "description": {
+          "en-US": "<h1>Telegram Speed Hook</h1>\n<p>An Xposed Module to Increase Telegram Speed to Extreme</p>\n<p align=\"centre\">\n  <img src=\"https://github.com/araafroyall/Telegram-Speed-Hook/raw/main/assets/TgSpeedHook.png\" style=\"width: 100%;\" />\n</p>\n<p>Created by : @AraafRoyall</p>\n<p>Telegram Username : @AraafRoyall</p>\n<p>Thanks for using the Module ..</p>\n<p>Feel free to contact, ask, help, discuss about the module</p>\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/Telegram.Speed.Hook.1.png",
+            "sha256": "2dbe829d751dcf5cefa1c51fe8d0679f9df954b488a64f2b9969ea71be8883b9",
+            "size": 4334
+          }
+        },
+        "preferredSigner": "e34098a68cb00ebcbc1d7e3644eb5e1be03a840c161b67c3bba717afb3576e97"
+      },
+      "versions": {
+        "c2c2219bdc44837af5545b799ccb09daa63f45065f220ce126d671e3cf7d21f8": {
+          "added": 1737947193000,
+          "file": {
+            "name": "/Telegram.Speed.Hook_1-1.0.apk",
+            "sha256": "c2c2219bdc44837af5545b799ccb09daa63f45065f220ce126d671e3cf7d21f8",
+            "size": 33609
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "e34098a68cb00ebcbc1d7e3644eb5e1be03a840c161b67c3bba717afb3576e97"
+              ]
+            }
           }
         }
       }
@@ -2578,7 +2629,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737860987000,
+        "lastUpdated": 1737947208000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -3028,6 +3079,63 @@
             "signer": {
               "sha256": [
                 "abe5891f38d8da3093c2a37d8c48f6d2d69755e228234eccb68675cae4c137eb"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "coloros.pagelimits.mod": {
+      "metadata": {
+        "added": 1737947211000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1737947211000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/coloros.pagelimits.mod",
+        "authorName": "Sharl210",
+        "name": {
+          "en-US": "ColorOS桌面页面限制解除"
+        },
+        "summary": {
+          "en-US": "ColorOS桌面最大可用页面数（27）限制解除"
+        },
+        "description": {
+          "en-US": "<h1>ColorOS桌面页面限制解除</h1>\n<p>ColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制\n具体演示在：（酷安）\n<a href=\"https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2\">https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2</a></p>\n<h3>启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可</h3>\n<h5><a href=\"https://www.123865.com/s/nQyRVv-uf60h\">123云盘下载地址（国内）</a></h5>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/coloros.pagelimits.mod/\">\nhttps://github.com/Sharl210/coloros.pagelimits.mod/\n</a>\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/coloros.pagelimits.mod.2.png",
+            "sha256": "05f2d02d2943b31def060f2643aca801e8057ea1b73d98c386102759c8b7af8f",
+            "size": 3221
+          }
+        },
+        "preferredSigner": "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226"
+      },
+      "versions": {
+        "a331a7c8874d73824313f367cb39c8a9fd81762bbb92ce2ee339803af9c8d8dc": {
+          "added": 1737947211000,
+          "file": {
+            "name": "/coloros.pagelimits.mod_2-2.0.apk",
+            "sha256": "a331a7c8874d73824313f367cb39c8a9fd81762bbb92ce2ee339803af9c8d8dc",
+            "size": 1164499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 26
+            },
+            "signer": {
+              "sha256": [
+                "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226"
               ]
             }
           }
@@ -14882,7 +14990,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737774463000,
+        "lastUpdated": 1737947288000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -14897,6 +15005,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "12641843a63c64722c64e8993e2c4cdddb507a08e0153250a52bdfb0fc9ae6dd": {
+          "added": 1737947288000,
+          "file": {
+            "name": "/com.twifucker.hachidori_28-0.28.apk",
+            "sha256": "12641843a63c64722c64e8993e2c4cdddb507a08e0153250a52bdfb0fc9ae6dd",
+            "size": 4965698
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.28",
+            "versionCode": 28,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "baae6d305a92196a21616dce45682241c3600972d40bfa87ae7e3706ea02c18c": {
           "added": 1737774463000,
           "file": {
@@ -14936,31 +15069,6 @@
             ],
             "versionName": "0.26",
             "versionCode": 26,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
-              ]
-            }
-          }
-        },
-        "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4": {
-          "added": 1734578832000,
-          "file": {
-            "name": "/com.twifucker.hachidori_25-0.25.apk",
-            "sha256": "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4",
-            "size": 4817474
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "0.25",
-            "versionCode": 25,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
@@ -15819,7 +15927,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737861070000,
+        "lastUpdated": 1737947293000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -18817,7 +18925,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737688308000,
+        "lastUpdated": 1737947312000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -18832,6 +18940,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b": {
+          "added": 1737947312000,
+          "file": {
+            "name": "/have.fun_929-v929.apk",
+            "sha256": "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b",
+            "size": 4413997
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v929",
+            "versionCode": 929,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd": {
           "added": 1737688308000,
           "file": {
@@ -20226,6 +20358,50 @@
             "signer": {
               "sha256": [
                 "33d88eb33f159f43cfebd8c753093934cf3c0688608b1d0370f7c15de3a1e699"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "io.github.icepony.alwayscreateuser": {
+      "metadata": {
+        "added": 1737947320000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1737947320000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser",
+        "authorName": "icepony",
+        "name": {
+          "en-US": "Always create user"
+        },
+        "summary": {
+          "en-US": "Let pm create-user bypass some checks."
+        },
+        "description": {
+          "en-US": "<h1>Always create user</h1>\n<p>Let <code>pm create-user</code> bypass some checks.</p>\n<h2>Description</h2>\n<p><code>isCreationOverrideEnabled</code> Android 14+</p>\n<p><code>canAddMoreProfilesToUser</code> Android 11 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>\n<p><code>isUserLimitReached</code> Android 7 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>\n<p><code>canAddMoreManagedProfiles</code> Android 6 - 10 (Move to <code>canAddMoreProfilesToUser</code>)</p>\n<p><code>isUserLimitReachedLocked</code> Android 4.2 - 6 (Rename to <code>isUserLimitReached</code>)</p>\n<h2>Screenshot</h2>\n<table>\n<thead>\n<tr>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /></th>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /></th>\n</tr>\n</thead>\n</table>\n<h2>Issuse</h2>\n<p><a href=\"https://github.com/icepony/AlwaysCreateUser/issues\">https://github.com/icepony/AlwaysCreateUser/issues</a></p>\n"
+        },
+        "preferredSigner": "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
+      },
+      "versions": {
+        "556e6d724666cad61d5dfb2e309cf64457a17c4c8cf9facf46b4671005521030": {
+          "added": 1737947320000,
+          "file": {
+            "name": "/io.github.icepony.alwayscreateuser_3-1.2.apk",
+            "sha256": "556e6d724666cad61d5dfb2e309cf64457a17c4c8cf9facf46b4671005521030",
+            "size": 9152
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
               ]
             }
           }
@@ -22105,7 +22281,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737861106000,
+        "lastUpdated": 1737947331000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22115,11 +22291,40 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<h1>开源说明</h1>\n<p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>\n<h1>开源地址</h1>\n<p><a href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<h1>开源说明</h1>\n<p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>\n<h1>开源地址</h1>\n<p><a href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "858391f5e72d01c14080889c25a6ae8b12a72b8d05352740d64f50099ab42068": {
+          "added": 1737947331000,
+          "file": {
+            "name": "/junzi.xposed.hook_7-1.6.apk",
+            "sha256": "858391f5e72d01c14080889c25a6ae8b12a72b8d05352740d64f50099ab42068",
+            "size": 611267
+          },
+          "manifest": {
+            "versionName": "1.6",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f": {
           "added": 1737861106000,
           "file": {
@@ -26062,7 +26267,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735614624000,
+        "lastUpdated": 1737947355000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
         "authorName": "ReSo7200",
         "name": {
@@ -26072,28 +26277,28 @@
           "en-US": "An Instagram enhancer module with features like Developer Options, Ghost Mode..."
         },
         "description": {
-          "en-US": "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨</p>\n<hr />\n<h2>✨ Features</h2>\n<h3>🎛️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n<li>Ensure you are signed in before enabling Developer Options through the module and follow the provided guide for proper setup.</li>\n</ul>\n<h3>👻 Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>🧘 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>🚫 Remove Ads</h3>\n<ul>\n<li>Declutter your feed by removing intrusive ads.</li>\n</ul>\n<h3>📉 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<hr />\n<h2>🛠️ Installation Instructions</h2>\n<hr />\n<h2>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google play store versions yet!</h2>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<hr />\n<h2>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a></h2>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n<hr />\n<h2>📖 FAQ</h2>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n<hr />\n<h2>📂 Resources</h2>\n<ul>\n<li>🐙 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>💬 <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n<hr />\n<h2>🎉 Contributors</h2>\n<hr />\n<h3>👑 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<hr />\n<h3>🙌 Special Thanks to:</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<hr />\n<h3>💡 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n<hr />\n"
+          "en-US": "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨</p>\n<details>\n<summary><h2>✨ Features </h2></summary>\n<h3>🎛️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n</ul>\n<h3>👻 Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>🧘 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>🚫 Remove Ads</h3>\n<ul>\n<li>Removes most of Instagram’s app ads (excluding feed ads).</li>\n</ul>\n<h3>📉 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<h3>🔧 Misc Options</h3>\n<ul>\n<li>Disable Auto Story Flipping.</li>\n<li>Disable Auto Play Videos.</li>\n</ul>\n</details>\n<details>\n<summary><h2>🛠️ Installation Instructions </h2></summary>\n<p>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google Play Store versions yet!</p>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<p>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</p>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n</details>\n<details>\n<summary><h2> 📖 FAQ </h2></summary>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n</details>\n<details>\n<summary><h2>📂 Resources </h2></summary>\n<ul>\n<li>🐙 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>💬 <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n</details>\n<h2>🎉 Contributors</h2>\n<h3>👑 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<h3>💡 Contributors</h3>\n<ul>\n<li><a href=\"https://github.com/frknkrc44\">frknkrc44</a></li>\n</ul>\n<h2>🙌 Special Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/xHookman\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<h3>🌍 Translation Contributors</h3>\n<p>A heartfelt thank you to everyone who contributed to translating InstaEclipse into multiple languages. Your efforts help make the module accessible to users worldwide! 🌟</p>\n<h2>🛠️ Powered By</h2>\n<ul>\n<li><a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix/LSPosed</a>, the foundation for module functionality.</li>\n<li><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray/DexKit</a>, enabling dynamic analysis for compatibility with new Instagram updates.</li>\n</ul>\n<h3>💡 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n"
         },
-        "preferredSigner": "29f775e05cd05a97346d2b023e95b214cf4aa4cc599ba3ea5625332058dc3840"
+        "preferredSigner": "69a053a56f1f4b4e26494882ec9118876ee68b16a47808071a878651a27ea986"
       },
       "versions": {
-        "5970f8d350f4787dc611c1c91dfb92d14f006402aebfa227940ad2ad325a29a0": {
-          "added": 1735182857000,
+        "34e8176593bdc58cb6c34ad5fb1b74a40ba89af6ff8b60427f58645eb62b23cd": {
+          "added": 1735442849000,
           "file": {
-            "name": "/ps.reso.instaeclipse_1-0.1.apk",
-            "sha256": "5970f8d350f4787dc611c1c91dfb92d14f006402aebfa227940ad2ad325a29a0",
-            "size": 12690883
+            "name": "/ps.reso.instaeclipse_2-0.2.apk",
+            "sha256": "34e8176593bdc58cb6c34ad5fb1b74a40ba89af6ff8b60427f58645eb62b23cd",
+            "size": 12695738
           },
           "manifest": {
-            "versionName": "0.1",
-            "versionCode": 1,
+            "versionName": "0.2",
+            "versionCode": 2,
             "usesSdk": {
               "minSdkVersion": 28,
               "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
-                "29f775e05cd05a97346d2b023e95b214cf4aa4cc599ba3ea5625332058dc3840"
+                "69a053a56f1f4b4e26494882ec9118876ee68b16a47808071a878651a27ea986"
               ]
             },
             "usesPermission": [
@@ -26119,23 +26324,29 @@
             ]
           }
         },
-        "34e8176593bdc58cb6c34ad5fb1b74a40ba89af6ff8b60427f58645eb62b23cd": {
-          "added": 1735442849000,
+        "a2dda39c7265ccdcb879f644653efd5c8a2e13625f15eda9bb7cab51b7e93d01": {
+          "added": 1737947355000,
           "file": {
-            "name": "/ps.reso.instaeclipse_2-0.2.apk",
-            "sha256": "34e8176593bdc58cb6c34ad5fb1b74a40ba89af6ff8b60427f58645eb62b23cd",
-            "size": 12695738
+            "name": "/ps.reso.instaeclipse_4-0.3.apk",
+            "sha256": "a2dda39c7265ccdcb879f644653efd5c8a2e13625f15eda9bb7cab51b7e93d01",
+            "size": 14023464
           },
           "manifest": {
-            "versionName": "0.2",
-            "versionCode": 2,
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.3",
+            "versionCode": 4,
             "usesSdk": {
               "minSdkVersion": 28,
               "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
-                "69a053a56f1f4b4e26494882ec9118876ee68b16a47808071a878651a27ea986"
+                "ec5528a80fd08649b9c8cb8b870deda1e33eebeed51bd665cabe327745cb37ee"
               ]
             },
             "usesPermission": [
