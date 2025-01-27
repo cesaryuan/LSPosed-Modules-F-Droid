@@ -1,0 +1,30 @@
+AuthorName: icepony
+Categories:
+    - Xposed
+CurrentVersion: "1.2"
+CurrentVersionCode: 3
+Description: |
+    <h1>Always create user</h1>
+    <p>Let <code>pm create-user</code> bypass some checks.</p>
+    <h2>Description</h2>
+    <p><code>isCreationOverrideEnabled</code> Android 14+</p>
+    <p><code>canAddMoreProfilesToUser</code> Android 11 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
+    <p><code>isUserLimitReached</code> Android 7 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
+    <p><code>canAddMoreManagedProfiles</code> Android 6 - 10 (Move to <code>canAddMoreProfilesToUser</code>)</p>
+    <p><code>isUserLimitReachedLocked</code> Android 4.2 - 6 (Rename to <code>isUserLimitReached</code>)</p>
+    <h2>Screenshot</h2>
+    <table>
+    <thead>
+    <tr>
+    <th><img src="https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png" alt="Island" /></th>
+    <th><img src="https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png" alt="Thanox" /></th>
+    </tr>
+    </thead>
+    </table>
+    <h2>Issuse</h2>
+    <p><a href="https://github.com/icepony/AlwaysCreateUser/issues">https://github.com/icepony/AlwaysCreateUser/issues</a></p>
+IssueTracker: ""
+Name: Always create user
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser
+Summary: Let pm create-user bypass some checks.
+WebSite: ""
