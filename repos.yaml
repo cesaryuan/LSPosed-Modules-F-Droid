@@ -11036,6 +11036,70 @@ com.suisho.pixelposed:
           last_updated: "2024-11-19T12:26:32Z"
           releasedescription: <p>首次发布</p>
     author_name: NativeStar
+com.suqi8.oshin:
+    git: https://github.com/Xposed-Modules-Repo/com.suqi8.oshin
+    summary: |-
+        系统辅助模块，支持 ColorOS、RealmeUI、OxygenOS。免费软件，请勿二次转发，分享，售卖！github@suqi8
+        System support module for ColorOS, RealmeUI, and OxygenOS. Free software – redistribution, sharing, or selling is prohibited! Contact: github@suqi8
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <div align="center">
+            <h1>O神 - ColorOS辅助模块</h1>
+            <img src="https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true" width="160" height="160" style="display: block; margin: 0 auto;" alt="icon">
+            <h3>简体中文 | <a href="./README_EN.md">English</a> | <a href="https://oshin.mikusignal.top/">文档</a></h3>
+            <p><img src="https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="OShin" /></p>
+            </div>
+            <h2>简介</h2>
+            <p>原名：OPatch<br />
+            O神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。</p>
+            <h2>官方渠道</h2>
+            <p>我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：</p>
+            <h3>Telegram</h3>
+            <ul>
+            <li><strong><a href="https://t.me/OPatchA">O神 官方频道</a></strong></li>
+            <li><strong><a href="https://t.me/OPatchB">O神 聊天频道</a></strong></li>
+            <li><strong><a href="https://t.me/OPatchC">O神 自动构建</a></strong></li>
+            </ul>
+            <h3>QQ</h3>
+            <ul>
+            <li><strong><a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N&amp;authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO&amp;noverify=0&amp;group_code=740266099">O神 QQ群</a></strong></li>
+            </ul>
+            <h2>支持的版本</h2>
+            <p>目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15</p>
+            <h2>名称的由来</h2>
+            <p><del>仓库的名称”OPatch”来源于”OPPO OnePlus Patch”，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。</del><br />
+            经过各位的讨论与投票后，我们决定将名称改为 O神。</p>
+            <h2>贡献</h2>
+            <p>如果您想为我的模块加入您使用的语言，请前往 <a href="https://zh.crowdin.com/project/opatch">Crowdin</a> 页面进行贡献。</p>
+            <blockquote>
+            <p>[!CAUTION]</p>
+            <p>该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。</p>
+            </blockquote>
+            <h2>许可</h2>
+            <p>本项目采用<a href="LICENSE">AGPL许可证</a>，详情请参阅LICENSE文件。</p>
+            <h2>联系我们</h2>
+            <p>如果您有任何问题或需要帮助，请通过以下方式联系我们：</p>
+            <ul>
+            <li>GitHub Issues</li>
+            <li>电子邮件：[<a href="mailto:3383787570@qq.com">3383787570@qq.com</a>]</li>
+            </ul>
+            <hr />
+            <h2>贡献者</h2>
+            <p>感谢以下贡献者</p>
+            <a href="https://github.com/suqi8/OPatch/graphs/contributors">
+              <img src="https://contrib.rocks/image?repo=suqi8/OPatch"  alt=""/>
+            </a>
+            <p><img src="https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg" alt="Alt" title="Repobeats analytics image" /></p>
+            <p><a href="https://star-history.com/#suqi8/OPatch&amp;Date"><img src="https://api.star-history.com/svg?repos=suqi8/OPatch&amp;type=Date" alt="Star History Chart" /></a></p>
+          filename: OShin_armeabi-v7a_v15.0.0.b363.9432e7a.363.apk
+          id: com.suqi8.oshin
+          name: O神/OShin
+          last_updated: "2025-01-27T14:20:58Z"
+          releasedescription: "<p>\U0001F387该版本为首个正式版，祝大家新年快乐\U0001F38A</p>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/suqi8/OShin/compare/v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)\">suqi8/OShin@<tt>v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)</tt></a></p>"
+    author_name: suqi8
 com.tcgg.imjhook:
     git: https://github.com/Xposed-Modules-Repo/com.tcgg.imjhook
     summary: 爱美剧永久会员
@@ -15509,20 +15573,61 @@ io.github.enhancege:
     author_name: null4n
 io.github.icepony.alwayscreateuser:
     git: https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser
-    summary: Let pm create-user bypass some checks.
+    summary: An Xposed Framework module that bypasses Android's user/profile creation limits
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: |
-            <h1>Always create user</h1>
-            <p>Let <code>pm create-user</code> bypass some checks.</p>
-            <h2>Description</h2>
-            <p><code>isCreationOverrideEnabled</code> Android 14+</p>
-            <p><code>canAddMoreProfilesToUser</code> Android 11 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
-            <p><code>isUserLimitReached</code> Android 7 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>
-            <p><code>canAddMoreManagedProfiles</code> Android 6 - 10 (Move to <code>canAddMoreProfilesToUser</code>)</p>
-            <p><code>isUserLimitReachedLocked</code> Android 4.2 - 6 (Rename to <code>isUserLimitReached</code>)</p>
+            <h1>Always Create User</h1>
+            <p><a href="https://repo.xposed.info/"><img src="https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg" alt="Xposed Module" /></a>
+            <a href=""><img src="https://img.shields.io/badge/Android-4.2%2B-blue.svg" alt="Android Version" /></a></p>
+            <p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>
+            <h2>Features</h2>
+            <ul>
+            <li>Bypass common profile creation errors</li>
+            <li>Support Android 4.2 through Android 14+</li>
+            <li>Compatible with popular profile apps (Island, Shelter, etc.)</li>
+            </ul>
+            <h2>Common Errors Resolved</h2>
+            <ul>
+            <li>“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user
+            0”</li>
+            <li>“Maximum user limit is reached”</li>
+            <li>“Cannot add more managed profiles for user”</li>
+            <li>“Error: couldn’t create User”</li>
+            </ul>
+            <h2>Compatibility Overview</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Android Version</th>
+            <th>Supported Methods</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>14+</td>
+            <td><code>isCreationOverrideEnabled</code></td>
+            </tr>
+            <tr>
+            <td>11-13</td>
+            <td><code>canAddMoreProfilesToUser</code></td>
+            </tr>
+            <tr>
+            <td>7-13</td>
+            <td><code>isUserLimitReached</code></td>
+            </tr>
+            <tr>
+            <td>6-10</td>
+            <td><code>canAddMoreManagedProfiles</code></td>
+            </tr>
+            <tr>
+            <td>4.2-6</td>
+            <td><code>isUserLimitReachedLocked</code></td>
+            </tr>
+            </tbody>
+            </table>
             <h2>Screenshot</h2>
             <table>
             <thead>
@@ -15532,13 +15637,14 @@ io.github.icepony.alwayscreateuser:
             </tr>
             </thead>
             </table>
-            <h2>Issuse</h2>
-            <p><a href="https://github.com/icepony/AlwaysCreateUser/issues">https://github.com/icepony/AlwaysCreateUser/issues</a></p>
-          filename: AlwaysCreateUser_v1.2.apk
+          filename: AlwaysCreateUser_v1.4.apk
           id: io.github.icepony.alwayscreateuser
           name: Always create user
-          last_updated: "2025-01-26T12:53:03Z"
-          releasedescription: '<p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/icepony/AlwaysCreateUser/compare/v1.0...v1.2">icepony/AlwaysCreateUser@<tt>v1.0...v1.2</tt></a></p>'
+          last_updated: "2025-01-27T22:38:50Z"
+          releasedescription: |-
+            <p>Tested successfully on Android 4.2.2.</p>
+            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png"><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png" alt="v1.4_Android_4.2.2" style="max-width: 100%;"></a></p>
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/icepony/AlwaysCreateUser/compare/v1.3...v1.4">icepony/AlwaysCreateUser@<tt>v1.3...v1.4</tt></a></p>
     author_name: icepony
 io.github.jeffshee.nekumorimod:
     git: https://github.com/Xposed-Modules-Repo/io.github.jeffshee.nekumorimod
@@ -16541,11 +16647,16 @@ junzi.xposed.hook:
             <p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>
             <h1>开源地址</h1>
             <p><a href="https://github.com/ZZCYUN/JunZi-Xposed-Hook">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>
-          filename: JunZi.Xposed.Hook_1.6.apk
+          filename: JunZi.Xposed.Hook_1.7.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-01-26T06:30:57Z"
-          releasedescription: <p>新增 支持 Picsart 26.6.4</p>
+          last_updated: "2025-01-27T17:07:58Z"
+          releasedescription: |-
+            <p>孩子们，这回我使用了dexkit<br>
+            理论支持全版本Picsart和番茄小说以及红果了<br>
+            不过性能可能会差点?<br>
+            可能概率性闪退?<br>
+            不管了，能用就行</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -16936,24 +17047,20 @@ me.hd.hookgg:
           categories:
             - Xposed
           description: "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG\">\n        <img src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/HookGG/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/HookGG/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square&label=Release&labelColor=8b00c5&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_HookGG_Chat\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>调试输出 GameGuardian 脚本执行函数</p>\n<p>Debug output for GameGuardian script execution functions</p>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td rowspan=\"3\" colspan=\"1\" align=\"center\"><b>FuncName</b></td>\n        <td rowspan=\"2\" colspan=\"1\" align=\"center\"><b>Official GG</b></td>\n        <td rowspan=\"1\" colspan=\"3\" align=\"center\"><b>Third-party GG</b></td>\n        <td rowspan=\"1\" colspan=\"1\" align=\"center\"><b>Other</b></td>\n    </tr>\n    <tr>\n        <td colspan=\"1\" align=\"center\"><b>AGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>ELGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>RLGG</b></td>\n        <td colspan=\"1\" align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\"><b>96.0~101.1</b></td>\n        <td align=\"center\"><b>3.3.3~3.3.91</b></td>\n        <td align=\"center\"><b>1.1.9~1.2.5</b></td>\n        <td align=\"center\"><b>2.0.9.2</b></td>\n        <td align=\"center\"><b>Unknown</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">GG</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">String</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Math</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❌</td>\n        <td align=\"center\">❓</td>\n    </tr>\n    <tr>\n        <td align=\"center\">Other</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n        <td align=\"center\">\U0001F6AB</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>Name</b></td>\n        <td align=\"center\"><b>Desc</b></td>\n        <td align=\"center\"><b>Status</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">Plugin</td>\n        <td align=\"center\">use lua script hook</td>\n        <td align=\"center\">0%</td>\n    </tr>\n</table>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>IconFont</td>\n<td><a href=\"https://www.iconfont.cn/\">IconFont</a></td>\n</tr>\n</tbody>\n</table>\n"
-          filename: 20241119-2.0.5-release.apk
+          filename: 20250127-2.0.7-release.apk
           id: me.hd.hookgg
           name: '[开源]HookGG'
-          last_updated: "2024-11-18T22:27:58Z"
+          last_updated: "2025-01-27T16:12:41Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
-            <li>适配ELGG新版本</li>
-            <li>修复过滤参数问题</li>
-            <li>新增GG内部函数</li>
-            <li>重构逻辑与优化界面</li>
+            <li>新年快乐</li>
+            <li>优化体验及修复漏洞</li>
             </ul>
             <h4>Updated</h4>
             <ul>
-            <li>Adapt to the new version of ELGG</li>
-            <li>Fix the issue of filter param</li>
-            <li>Add GG intrinsic func</li>
-            <li>Refactor logic and optimized Ui</li>
+            <li>Happy New Year</li>
+            <li>Optimized experience and fixed bug</li>
             </ul>
     author_name: HdShare
 me.hd.hookwzry:

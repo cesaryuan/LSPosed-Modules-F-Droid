@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1737947482000,
+    "timestamp": 1738033847000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1404,6 +1404,58 @@
               },
               {
                 "name": "icu.freedomIntrovert.biliSendCommAntifraud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "metadata": {
+        "added": 1737774504000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738033658000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
+        "authorName": "ZZCYUN",
+        "name": {
+          "en-US": "JunZi Xposed Hook"
+        },
+        "summary": {
+          "en-US": "对一些软件的功能性增强"
+        },
+        "description": {
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<h1>开源说明</h1>\n<p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>\n<h1>开源地址</h1>\n<p><a href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>\n"
+        },
+        "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+      },
+      "versions": {
+        "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770": {
+          "added": 1737774504000,
+          "file": {
+            "name": "/junzi.xposed.hook_5-1.4.apk",
+            "sha256": "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770",
+            "size": 545731
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               }
             ]
           }

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1737947496000,
+    "timestamp": 1738033860000,
     "version": 20002
   },
   "requests": {
@@ -275,25 +275,25 @@
       "summary": "Like Chrome's translation of webpages, but for Android apps. It replaces ALL ..."
     },
     {
-      "added": 1737895983000,
+      "added": 1738017530000,
       "authorName": "icepony",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eAlways create user\u003c/h1\u003e\n\u003cp\u003eLet \u003ccode\u003epm create-user\u003c/code\u003e bypass some checks.\u003c/p\u003e\n\u003ch2\u003eDescription\u003c/h2\u003e\n\u003cp\u003e\u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e Android 14+\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003ecanAddMoreProfilesToUser\u003c/code\u003e Android 11 - 13 (Override by \u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e)\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eisUserLimitReached\u003c/code\u003e Android 7 - 13 (Override by \u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e)\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003ecanAddMoreManagedProfiles\u003c/code\u003e Android 6 - 10 (Move to \u003ccode\u003ecanAddMoreProfilesToUser\u003c/code\u003e)\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eisUserLimitReachedLocked\u003c/code\u003e Android 4.2 - 6 (Rename to \u003ccode\u003eisUserLimitReached\u003c/code\u003e)\u003c/p\u003e\n\u003ch2\u003eScreenshot\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /\u003e\u003c/th\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n\u003ch2\u003eIssuse\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/icepony/AlwaysCreateUser/issues\"\u003ehttps://github.com/icepony/AlwaysCreateUser/issues\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1737895983000,
+      "description": "\u003ch1\u003eAlways Create User\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://repo.xposed.info/\"\u003e\u003cimg src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /\u003e\u003c/a\u003e\n\u003ca href=\"\"\u003e\u003cimg src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed Framework module that bypasses Android’s user/profile creation limits\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBypass common profile creation errors\u003c/li\u003e\n\u003cli\u003eSupport Android 4.2 through Android 14+\u003c/li\u003e\n\u003cli\u003eCompatible with popular profile apps (Island, Shelter, etc.)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCommon Errors Resolved\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”\u003c/li\u003e\n\u003cli\u003e“Maximum user limit is reached”\u003c/li\u003e\n\u003cli\u003e“Cannot add more managed profiles for user”\u003c/li\u003e\n\u003cli\u003e“Error: couldn’t create User”\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility Overview\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAndroid Version\u003c/th\u003e\n\u003cth\u003eSupported Methods\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e14+\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e11-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreProfilesToUser\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e7-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReached\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e6-10\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreManagedProfiles\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e4.2-6\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReachedLocked\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eScreenshot\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /\u003e\u003c/th\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n",
+      "lastUpdated": 1738017530000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**Full Changelog**: https://github.com/icepony/AlwaysCreateUser/compare/v1.0...v1.2"
+          "whatsNew": "Tested successfully on Android 4.2.2.\n\n![v1.4_Android_4.2.2](https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png)\n\n**Full Changelog**: https://github.com/icepony/AlwaysCreateUser/compare/v1.3...v1.4"
         }
       },
       "name": "Always create user",
       "packageName": "io.github.icepony.alwayscreateuser",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser",
-      "suggestedVersionCode": "3",
-      "suggestedVersionName": "1.2",
-      "summary": "Let pm create-user bypass some checks."
+      "suggestedVersionCode": "5",
+      "suggestedVersionName": "1.4",
+      "summary": "An Xposed Framework module that bypasses Android's user/profile creation limits"
     },
     {
       "added": 1657671028000,
@@ -3442,24 +3442,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1737873057000,
+      "added": 1737997678000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003ch1\u003e开源说明\u003c/h1\u003e\n\u003cp\u003e目前仅开源非hook部分，也就是UI，虽然UI不咋好看。\u003c/p\u003e\n\u003ch1\u003e开源地址\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\"\u003ehttps://github.com/ZZCYUN/JunZi-Xposed-Hook\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1737873057000,
+      "lastUpdated": 1737997678000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 Picsart 26.6.4"
+          "whatsNew": "孩子们，这回我使用了dexkit\n理论支持全版本Picsart和番茄小说以及红果了\n不过性能可能会差点?\n可能概率性闪退?\n不管了，能用就行"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "7",
-      "suggestedVersionName": "1.6",
+      "suggestedVersionCode": "8",
+      "suggestedVersionName": "1.7",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -5248,6 +5248,27 @@
       "summary": "Xposed module for specifying orientation per app"
     },
     {
+      "added": 1737987658000,
+      "authorName": "suqi8",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eO神 - ColorOS辅助模块\u003c/h1\u003e\n\u003cimg src=\"https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true\" width=\"160\" height=\"160\" style=\"display: block; margin: 0 auto;\" alt=\"icon\"\u003e\n\u003ch3\u003e简体中文 | \u003ca href=\"./README_EN.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"https://oshin.mikusignal.top/\"\u003e文档\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt\u0026amp;forks=1\u0026amp;issues=1\u0026amp;language=1\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Brick%20Wall\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"OShin\" /\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e原名：OPatch\u003cbr /\u003e\nO神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。\u003c/p\u003e\n\u003ch2\u003e官方渠道\u003c/h2\u003e\n\u003cp\u003e我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：\u003c/p\u003e\n\u003ch3\u003eTelegram\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchA\"\u003eO神 官方频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchB\"\u003eO神 聊天频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchC\"\u003eO神 自动构建\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eQQ\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027\u0026amp;k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N\u0026amp;authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO\u0026amp;noverify=0\u0026amp;group_code=740266099\"\u003eO神 QQ群\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的版本\u003c/h2\u003e\n\u003cp\u003e目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15\u003c/p\u003e\n\u003ch2\u003e名称的由来\u003c/h2\u003e\n\u003cp\u003e\u003cdel\u003e仓库的名称”OPatch”来源于”OPPO OnePlus Patch”，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。\u003c/del\u003e\u003cbr /\u003e\n经过各位的讨论与投票后，我们决定将名称改为 O神。\u003c/p\u003e\n\u003ch2\u003e贡献\u003c/h2\u003e\n\u003cp\u003e如果您想为我的模块加入您使用的语言，请前往 \u003ca href=\"https://zh.crowdin.com/project/opatch\"\u003eCrowdin\u003c/a\u003e 页面进行贡献。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!CAUTION]\u003c/p\u003e\n\u003cp\u003e该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e许可\u003c/h2\u003e\n\u003cp\u003e本项目采用\u003ca href=\"LICENSE\"\u003eAGPL许可证\u003c/a\u003e，详情请参阅LICENSE文件。\u003c/p\u003e\n\u003ch2\u003e联系我们\u003c/h2\u003e\n\u003cp\u003e如果您有任何问题或需要帮助，请通过以下方式联系我们：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGitHub Issues\u003c/li\u003e\n\u003cli\u003e电子邮件：[\u003ca href=\"mailto:3383787570@qq.com\"\u003e3383787570@qq.com\u003c/a\u003e]\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e贡献者\u003c/h2\u003e\n\u003cp\u003e感谢以下贡献者\u003c/p\u003e\n\u003ca href=\"https://github.com/suqi8/OPatch/graphs/contributors\"\u003e\n  \u003cimg src=\"https://contrib.rocks/image?repo=suqi8/OPatch\"  alt=\"\"/\u003e\n\u003c/a\u003e\n\u003cp\u003e\u003cimg src=\"https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg\" alt=\"Alt\" title=\"Repobeats analytics image\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#suqi8/OPatch\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=suqi8/OPatch\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1737987658000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "🎇该版本为首个正式版，祝大家新年快乐🎊\n\n**Full Changelog**: https://github.com/suqi8/OShin/compare/v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)"
+        }
+      },
+      "name": "O神/OShin",
+      "packageName": "com.suqi8.oshin",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suqi8.oshin",
+      "suggestedVersionCode": "363",
+      "suggestedVersionName": "15.0.0.b363.9432e7a",
+      "summary": "系统辅助模块，支持 ColorOS、RealmeUI、OxygenOS。免费软件，请勿二次转发，分享，售卖！github@suqi8\nSystem sup..."
+    },
+    {
       "added": 1707690525000,
       "authorName": "Loukious",
       "categories": [
@@ -6901,7 +6922,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1737947293000,
+      "lastUpdated": 1738033622000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7538,25 +7559,25 @@
       "summary": "Hook Tool By HdShare"
     },
     {
-      "added": 1731968878000,
+      "added": 1737994361000,
       "authorName": "HdShare",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square\u0026label=Release\u0026labelColor=8b00c5\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_HookGG_Chat\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e调试输出 GameGuardian 脚本执行函数\u003c/p\u003e\n\u003cp\u003eDebug output for GameGuardian script execution functions\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd rowspan=\"3\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eFuncName\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"2\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eOfficial GG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"1\" colspan=\"3\" align=\"center\"\u003e\u003cb\u003eThird-party GG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"1\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eOther\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eAGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eELGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eRLGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eUnknown\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e96.0~101.1\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e3.3.3~3.3.91\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e1.1.9~1.2.5\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e2.0.9.2\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eUnknown\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eGG\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eString\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eMath\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eOther\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eName\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eDesc\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eStatus\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003ePlugin\u003c/td\u003e\n        \u003ctd align=\"center\"\u003euse lua script hook\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e0%\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eIconFont\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.iconfont.cn/\"\u003eIconFont\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
       "icon": "me.hd.hookgg.png",
-      "lastUpdated": 1731968878000,
+      "lastUpdated": 1737994361000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "#### 更新\n- 适配ELGG新版本\n- 修复过滤参数问题\n- 新增GG内部函数\n- 重构逻辑与优化界面\n\n#### Updated\n- Adapt to the new version of ELGG\n- Fix the issue of filter param\n- Add GG intrinsic func\n- Refactor logic and optimized Ui"
+          "whatsNew": "#### 更新\n- 新年快乐\n- 优化体验及修复漏洞\n\n#### Updated\n- Happy New Year\n- Optimized experience and fixed bug\n"
         }
       },
       "name": "[开源]HookGG",
       "packageName": "me.hd.hookgg",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
-      "suggestedVersionCode": "20241119",
-      "suggestedVersionName": "2.0.5",
+      "suggestedVersionCode": "20250127",
+      "suggestedVersionName": "2.0.7",
       "summary": "HookGG By HdShare"
     },
     {
@@ -14924,6 +14945,25 @@
         "versionName": "1.0"
       }
     ],
+    "com.suqi8.oshin": [
+      {
+        "added": 1737987658000,
+        "apkName": "com.suqi8.oshin_363-15.0.0.b363.9432e7a.apk",
+        "hash": "586f6fa3fbd0b89e022fda9be182df667d2ecadfa11cb7c80f0962c0088b27b7",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.suqi8.oshin",
+        "sig": "088e99cea37611acd0dd12428783e87d",
+        "signer": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5",
+        "size": 5107462,
+        "targetSdkVersion": 35,
+        "versionCode": 363,
+        "versionName": "15.0.0.b363.9432e7a"
+      }
+    ],
     "com.tcgg.imjhook": [
       {
         "added": 1688278334000,
@@ -15452,7 +15492,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1737947293000,
+        "added": 1738033622000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17062,7 +17102,22 @@
     ],
     "io.github.icepony.alwayscreateuser": [
       {
-        "added": 1737895983000,
+        "added": 1738017530000,
+        "apkName": "io.github.icepony.alwayscreateuser_5-1.4.apk",
+        "hash": "7eff4f9799531eaea58fbf9c77fb0da72fa64cbe70d38aeaeffea9e7e5e64537",
+        "hashType": "sha256",
+        "minSdkVersion": 17,
+        "nativecode": null,
+        "packageName": "io.github.icepony.alwayscreateuser",
+        "sig": "9ad00037c3148a659c2ec2cbfaca9f03",
+        "signer": "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef",
+        "size": 11572,
+        "targetSdkVersion": 35,
+        "versionCode": 5,
+        "versionName": "1.4"
+      },
+      {
+        "added": 1737947320000,
         "apkName": "io.github.icepony.alwayscreateuser_3-1.2.apk",
         "hash": "556e6d724666cad61d5dfb2e309cf64457a17c4c8cf9facf46b4671005521030",
         "hashType": "sha256",
@@ -17812,7 +17867,27 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1737873057000,
+        "added": 1737997678000,
+        "apkName": "junzi.xposed.hook_8-1.7.apk",
+        "hash": "26aca1c6c072e0ed980f4c6a6850af9ddbf46a486a38b2e1f5d9285052950377",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 1856855,
+        "targetSdkVersion": 33,
+        "versionCode": 8,
+        "versionName": "1.7"
+      },
+      {
+        "added": 1737947331000,
         "apkName": "junzi.xposed.hook_7-1.6.apk",
         "hash": "858391f5e72d01c14080889c25a6ae8b12a72b8d05352740d64f50099ab42068",
         "hashType": "sha256",
@@ -17840,21 +17915,6 @@
         "targetSdkVersion": 33,
         "versionCode": 6,
         "versionName": "1.5"
-      },
-      {
-        "added": 1737774504000,
-        "apkName": "junzi.xposed.hook_5-1.4.apk",
-        "hash": "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": null,
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 545731,
-        "targetSdkVersion": 33,
-        "versionCode": 5,
-        "versionName": "1.4"
       }
     ],
     "lialh4.ldf": [
@@ -18155,7 +18215,27 @@
     ],
     "me.hd.hookgg": [
       {
-        "added": 1731968878000,
+        "added": 1737994361000,
+        "apkName": "me.hd.hookgg_20250127-2.0.7.apk",
+        "hash": "6af3ab6b666f8f6a66b3c831ba00e89dc1ca34f1e3d5a292b319671737f40cb0",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.hd.hookgg",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 3365773,
+        "targetSdkVersion": 34,
+        "versionCode": 20250127,
+        "versionName": "2.0.7"
+      },
+      {
+        "added": 1732159552000,
         "apkName": "me.hd.hookgg_20241119-2.0.5.apk",
         "hash": "3d95771af8d7f81ef5f7f80a2f17c51f1e409a959d6703296a3554d688d9644b",
         "hashType": "sha256",
