@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1737947482000,
+    "timestamp": 1738033847000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -122,6 +122,22 @@
       "added": 1735182857000,
       "packageName": "ps.reso.instaeclipse",
       "lastUpdated": 1737947355000
+    },
+    {
+      "authorName": "ZZCYUN",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.7",
+      "suggestedVersionCode": "8",
+      "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<h1>\u5f00\u6e90\u8bf4\u660e</h1>\n<p>\u76ee\u524d\u4ec5\u5f00\u6e90\u975ehook\u90e8\u5206\uff0c\u4e5f\u5c31\u662fUI\uff0c\u867d\u7136UI\u4e0d\u548b\u597d\u770b\u3002</p>\n<h1>\u5f00\u6e90\u5730\u5740</h1>\n<p><a href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>\n",
+      "license": "Unknown",
+      "name": "JunZi Xposed Hook",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
+      "summary": "\u5bf9\u4e00\u4e9b\u8f6f\u4ef6\u7684\u529f\u80fd\u6027\u589e\u5f3a",
+      "added": 1737774504000,
+      "packageName": "junzi.xposed.hook",
+      "lastUpdated": 1738033658000
     },
     {
       "authorName": "cledwynl",
@@ -1365,6 +1381,32 @@
         ],
         "versionCode": 600,
         "versionName": "6.0.0"
+      }
+    ],
+    "junzi.xposed.hook": [
+      {
+        "added": 1737774504000,
+        "apkName": "junzi.xposed.hook_5-1.4.apk",
+        "hash": "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 545731,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "1.4"
       }
     ],
     "me.bingyue.IceCore": [

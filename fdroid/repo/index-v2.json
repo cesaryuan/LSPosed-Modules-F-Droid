@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1737947496000,
+    "timestamp": 1738033860000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2629,7 +2629,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947208000,
+        "lastUpdated": 1738033541000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -14530,6 +14530,105 @@
         }
       }
     },
+    "com.suqi8.oshin": {
+      "metadata": {
+        "added": 1738033613000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738033613000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suqi8.oshin",
+        "authorName": "suqi8",
+        "name": {
+          "en-US": "O神/OShin"
+        },
+        "summary": {
+          "en-US": "系统辅助模块，支持 ColorOS、RealmeUI、OxygenOS。免费软件，请勿二次转发，分享，售卖！github@suqi8\nSystem sup..."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>O神 - ColorOS辅助模块</h1>\n<img src=\"https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true\" width=\"160\" height=\"160\" style=\"display: block; margin: 0 auto;\" alt=\"icon\">\n<h3>简体中文 | <a href=\"./README_EN.md\">English</a> | <a href=\"https://oshin.mikusignal.top/\">文档</a></h3>\n<p><img src=\"https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;pulls=1&amp;stargazers=1&amp;theme=Auto\" alt=\"OShin\" /></p>\n</div>\n<h2>简介</h2>\n<p>原名：OPatch<br />\nO神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。</p>\n<h2>官方渠道</h2>\n<p>我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：</p>\n<h3>Telegram</h3>\n<ul>\n<li><strong><a href=\"https://t.me/OPatchA\">O神 官方频道</a></strong></li>\n<li><strong><a href=\"https://t.me/OPatchB\">O神 聊天频道</a></strong></li>\n<li><strong><a href=\"https://t.me/OPatchC\">O神 自动构建</a></strong></li>\n</ul>\n<h3>QQ</h3>\n<ul>\n<li><strong><a href=\"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N&amp;authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO&amp;noverify=0&amp;group_code=740266099\">O神 QQ群</a></strong></li>\n</ul>\n<h2>支持的版本</h2>\n<p>目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15</p>\n<h2>名称的由来</h2>\n<p><del>仓库的名称”OPatch”来源于”OPPO OnePlus Patch”，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。</del><br />\n经过各位的讨论与投票后，我们决定将名称改为 O神。</p>\n<h2>贡献</h2>\n<p>如果您想为我的模块加入您使用的语言，请前往 <a href=\"https://zh.crowdin.com/project/opatch\">Crowdin</a> 页面进行贡献。</p>\n<blockquote>\n<p>[!CAUTION]</p>\n<p>该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。</p>\n</blockquote>\n<h2>许可</h2>\n<p>本项目采用<a href=\"LICENSE\">AGPL许可证</a>，详情请参阅LICENSE文件。</p>\n<h2>联系我们</h2>\n<p>如果您有任何问题或需要帮助，请通过以下方式联系我们：</p>\n<ul>\n<li>GitHub Issues</li>\n<li>电子邮件：[<a href=\"mailto:3383787570@qq.com\">3383787570@qq.com</a>]</li>\n</ul>\n<hr />\n<h2>贡献者</h2>\n<p>感谢以下贡献者</p>\n<a href=\"https://github.com/suqi8/OPatch/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=suqi8/OPatch\"  alt=\"\"/>\n</a>\n<p><img src=\"https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg\" alt=\"Alt\" title=\"Repobeats analytics image\" /></p>\n<p><a href=\"https://star-history.com/#suqi8/OPatch&amp;Date\"><img src=\"https://api.star-history.com/svg?repos=suqi8/OPatch&amp;type=Date\" alt=\"Star History Chart\" /></a></p>\n"
+        },
+        "preferredSigner": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5"
+      },
+      "versions": {
+        "586f6fa3fbd0b89e022fda9be182df667d2ecadfa11cb7c80f0962c0088b27b7": {
+          "added": 1738033613000,
+          "file": {
+            "name": "/com.suqi8.oshin_363-15.0.0.b363.9432e7a.apk",
+            "sha256": "586f6fa3fbd0b89e022fda9be182df667d2ecadfa11cb7c80f0962c0088b27b7",
+            "size": 5107462
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "15.0.0.b363.9432e7a",
+            "versionCode": 363,
+            "usesSdk": {
+              "minSdkVersion": 35,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DETECT_SCREEN_CAPTURE"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "com.suqi8.oshin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.tcgg.imjhook": {
       "metadata": {
         "added": 1732159499000,
@@ -15927,7 +16026,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947293000,
+        "lastUpdated": 1738033622000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20370,21 +20469,42 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947320000,
+        "lastUpdated": 1738033648000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser",
         "authorName": "icepony",
         "name": {
           "en-US": "Always create user"
         },
         "summary": {
-          "en-US": "Let pm create-user bypass some checks."
+          "en-US": "An Xposed Framework module that bypasses Android's user/profile creation limits"
         },
         "description": {
-          "en-US": "<h1>Always create user</h1>\n<p>Let <code>pm create-user</code> bypass some checks.</p>\n<h2>Description</h2>\n<p><code>isCreationOverrideEnabled</code> Android 14+</p>\n<p><code>canAddMoreProfilesToUser</code> Android 11 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>\n<p><code>isUserLimitReached</code> Android 7 - 13 (Override by <code>isCreationOverrideEnabled</code>)</p>\n<p><code>canAddMoreManagedProfiles</code> Android 6 - 10 (Move to <code>canAddMoreProfilesToUser</code>)</p>\n<p><code>isUserLimitReachedLocked</code> Android 4.2 - 6 (Rename to <code>isUserLimitReached</code>)</p>\n<h2>Screenshot</h2>\n<table>\n<thead>\n<tr>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /></th>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /></th>\n</tr>\n</thead>\n</table>\n<h2>Issuse</h2>\n<p><a href=\"https://github.com/icepony/AlwaysCreateUser/issues\">https://github.com/icepony/AlwaysCreateUser/issues</a></p>\n"
+          "en-US": "<h1>Always Create User</h1>\n<p><a href=\"https://repo.xposed.info/\"><img src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /></a>\n<a href=\"\"><img src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /></a></p>\n<p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>\n<h2>Features</h2>\n<ul>\n<li>Bypass common profile creation errors</li>\n<li>Support Android 4.2 through Android 14+</li>\n<li>Compatible with popular profile apps (Island, Shelter, etc.)</li>\n</ul>\n<h2>Common Errors Resolved</h2>\n<ul>\n<li>“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”</li>\n<li>“Maximum user limit is reached”</li>\n<li>“Cannot add more managed profiles for user”</li>\n<li>“Error: couldn’t create User”</li>\n</ul>\n<h2>Compatibility Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Android Version</th>\n<th>Supported Methods</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14+</td>\n<td><code>isCreationOverrideEnabled</code></td>\n</tr>\n<tr>\n<td>11-13</td>\n<td><code>canAddMoreProfilesToUser</code></td>\n</tr>\n<tr>\n<td>7-13</td>\n<td><code>isUserLimitReached</code></td>\n</tr>\n<tr>\n<td>6-10</td>\n<td><code>canAddMoreManagedProfiles</code></td>\n</tr>\n<tr>\n<td>4.2-6</td>\n<td><code>isUserLimitReachedLocked</code></td>\n</tr>\n</tbody>\n</table>\n<h2>Screenshot</h2>\n<table>\n<thead>\n<tr>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /></th>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /></th>\n</tr>\n</thead>\n</table>\n"
         },
         "preferredSigner": "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
       },
       "versions": {
+        "7eff4f9799531eaea58fbf9c77fb0da72fa64cbe70d38aeaeffea9e7e5e64537": {
+          "added": 1738033648000,
+          "file": {
+            "name": "/io.github.icepony.alwayscreateuser_5-1.4.apk",
+            "sha256": "7eff4f9799531eaea58fbf9c77fb0da72fa64cbe70d38aeaeffea9e7e5e64537",
+            "size": 11572
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 17,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
+              ]
+            }
+          }
+        },
         "556e6d724666cad61d5dfb2e309cf64457a17c4c8cf9facf46b4671005521030": {
           "added": 1737947320000,
           "file": {
@@ -22281,7 +22401,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947331000,
+        "lastUpdated": 1738033658000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22296,6 +22416,41 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "26aca1c6c072e0ed980f4c6a6850af9ddbf46a486a38b2e1f5d9285052950377": {
+          "added": 1738033658000,
+          "file": {
+            "name": "/junzi.xposed.hook_8-1.7.apk",
+            "sha256": "26aca1c6c072e0ed980f4c6a6850af9ddbf46a486a38b2e1f5d9285052950377",
+            "size": 1856855
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.7",
+            "versionCode": 8,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "858391f5e72d01c14080889c25a6ae8b12a72b8d05352740d64f50099ab42068": {
           "added": 1737947331000,
           "file": {
@@ -22335,35 +22490,6 @@
           "manifest": {
             "versionName": "1.5",
             "versionCode": 6,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770": {
-          "added": 1737774504000,
-          "file": {
-            "name": "/junzi.xposed.hook_5-1.4.apk",
-            "sha256": "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770",
-            "size": 545731
-          },
-          "manifest": {
-            "versionName": "1.4",
-            "versionCode": 5,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -23389,7 +23515,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159552000,
+        "lastUpdated": 1738033666000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -23404,6 +23530,38 @@
         "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
       },
       "versions": {
+        "6af3ab6b666f8f6a66b3c831ba00e89dc1ca34f1e3d5a292b319671737f40cb0": {
+          "added": 1738033666000,
+          "file": {
+            "name": "/me.hd.hookgg_20250127-2.0.7.apk",
+            "sha256": "6af3ab6b666f8f6a66b3c831ba00e89dc1ca34f1e3d5a292b319671737f40cb0",
+            "size": 3365773
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.7",
+            "versionCode": 20250127,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.hookgg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "3d95771af8d7f81ef5f7f80a2f17c51f1e409a959d6703296a3554d688d9644b": {
           "added": 1732159552000,
           "file": {
