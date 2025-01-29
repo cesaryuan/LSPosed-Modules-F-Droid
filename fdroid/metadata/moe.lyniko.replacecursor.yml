@@ -25,6 +25,7 @@ Description: |
     <p>For MiPad users, install <a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest">MaxMiPad</a> and enable <code>No Magic Pointer</code>.</p>
     <p>If you have Windows-style <code>.ani</code> cursors, you can use <a href="https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c">ani2png</a> to convert them.
     For example, use <code>ls -a *.ani | xargs -L1 ani2png</code> to convert all <code>.ani</code> files in current directory to <code>.png</code> files.</p>
+    <p>Looking for equivalent on <strong>Linux</strong>? Check <a href="https://github.com/Young-Lord/Image2Cursors">Image2Cursors</a>!</p>
     <h2>Common resources / 常用资源</h2>
     <p>From MIUI 13, Android 12.</p>
     <table>
