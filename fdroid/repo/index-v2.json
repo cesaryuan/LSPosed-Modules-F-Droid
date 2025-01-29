@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738033860000,
+    "timestamp": 1738120247000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2629,7 +2629,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033541000,
+        "lastUpdated": 1738119947000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -11063,7 +11063,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1733214074000,
+        "lastUpdated": 1738120001000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
         "authorName": "luckyzyx",
         "name": {
@@ -11078,6 +11078,86 @@
         "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
       },
       "versions": {
+        "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd": {
+          "added": 1738120001000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_17981-1.2.7.apk",
+            "sha256": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
+            "size": 8784792
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.7",
+            "versionCode": 17981,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a": {
           "added": 1733214074000,
           "file": {
@@ -11228,83 +11308,6 @@
               },
               {
                 "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              }
-            ]
-          }
-        },
-        "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9": {
-          "added": 1732159479000,
-          "file": {
-            "name": "/com.luckyzyx.luckytool_16957-1.2.4.apk",
-            "sha256": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
-            "size": 8323091
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "1.2.4",
-            "versionCode": 16957,
-            "usesSdk": {
-              "minSdkVersion": 30,
-              "targetSdkVersion": 28
-            },
-            "signer": {
-              "sha256": [
-                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "com.android.permission.GET_INSTALLED_APPS"
-              },
-              {
-                "name": "com.oplus.ocs.permission.third"
-              },
-              {
-                "name": "android.permission.NOTIFICATION_SERVICE"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
                 "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -16026,7 +16029,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033622000,
+        "lastUpdated": 1738120032000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -18831,6 +18834,61 @@
         }
       }
     },
+    "fuckinginput.coloros.baidu": {
+      "metadata": {
+        "added": 1738120050000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738120050000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu",
+        "authorName": "Sharl210",
+        "name": {
+          "en-US": "百度输入法OPPO定制版增强"
+        },
+        "summary": {
+          "en-US": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣谢Dexkit项目https:/..."
+        },
+        "description": {
+          "en-US": "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了🤓👆，加上是初学Dexkit，所以现在的代码一团乱🤡，</p>\n<p>So,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸😣😣😣</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
+        },
+        "preferredSigner": "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226"
+      },
+      "versions": {
+        "ce95fc29f59e561a5da11d0c6596475e7c581dfc24a36810dd858fdf386bcbfc": {
+          "added": 1738120050000,
+          "file": {
+            "name": "/fuckinginput.coloros.baidu_1-1.0.apk",
+            "sha256": "ce95fc29f59e561a5da11d0c6596475e7c581dfc24a36810dd858fdf386bcbfc",
+            "size": 3166503
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "fuckinginput.coloros.baidu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "github.zerorooot.copyfenbi": {
       "metadata": {
         "added": 1732159528000,
@@ -20463,13 +20521,57 @@
         }
       }
     },
+    "io.github.howard20181.notificationiconfix": {
+      "metadata": {
+        "added": 1738120059000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738120059000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
+        "authorName": "Howard20181",
+        "name": {
+          "en-US": "Notification Icon Fix / 通知图标修复"
+        },
+        "summary": {
+          "en-US": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
+        },
+        "description": {
+          "en-US": "<h1>Notification Icon Fix</h1>\n<p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>\n<h2>Supported System</h2>\n<ul>\n<li>Android 8.1 ~ AOSP main branch</li>\n<li>HyperOS</li>\n<li>MIUI 12.5</li>\n</ul>\n<h2>Algorithm Details</h2>\n<ol>\n<li>Determine and reduce oversized icons to the maximum allowed icon size</li>\n<li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>\n<li>(For MIUI) Detect transparent borders and trim icons</li>\n<li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a perfect icon</li>\n<li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>\n<li>Calculate the average lumens excluding transparent pixels</li>\n<li>Quantify the most common color of edge pixels</li>\n<li>Calculate the Euclidean distance between the edge pixel and the color of the most common Lab color space obtained above to determine whether the icon has a border</li>\n<li>Determine whether the icon background is light or dark</li>\n<li>Use K-means quantizer to extract the primary color of the icon</li>\n<li>Invert the icon foreground according to the background and remove the border</li>\n<li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>\n<li>Final result output, cache icon, and accent color to WeakHashMap</li>\n</ol>\n"
+        },
+        "preferredSigner": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
+      },
+      "versions": {
+        "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6": {
+          "added": 1738120059000,
+          "file": {
+            "name": "/io.github.howard20181.notificationiconfix_68-1.1.apk",
+            "sha256": "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6",
+            "size": 19452
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 68,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
+              ]
+            }
+          }
+        }
+      }
+    },
     "io.github.icepony.alwayscreateuser": {
       "metadata": {
         "added": 1737947320000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033648000,
+        "lastUpdated": 1738120059000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser",
         "authorName": "icepony",
         "name": {
@@ -20479,11 +20581,32 @@
           "en-US": "An Xposed Framework module that bypasses Android's user/profile creation limits"
         },
         "description": {
-          "en-US": "<h1>Always Create User</h1>\n<p><a href=\"https://repo.xposed.info/\"><img src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /></a>\n<a href=\"\"><img src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /></a></p>\n<p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>\n<h2>Features</h2>\n<ul>\n<li>Bypass common profile creation errors</li>\n<li>Support Android 4.2 through Android 14+</li>\n<li>Compatible with popular profile apps (Island, Shelter, etc.)</li>\n</ul>\n<h2>Common Errors Resolved</h2>\n<ul>\n<li>“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”</li>\n<li>“Maximum user limit is reached”</li>\n<li>“Cannot add more managed profiles for user”</li>\n<li>“Error: couldn’t create User”</li>\n</ul>\n<h2>Compatibility Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Android Version</th>\n<th>Supported Methods</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14+</td>\n<td><code>isCreationOverrideEnabled</code></td>\n</tr>\n<tr>\n<td>11-13</td>\n<td><code>canAddMoreProfilesToUser</code></td>\n</tr>\n<tr>\n<td>7-13</td>\n<td><code>isUserLimitReached</code></td>\n</tr>\n<tr>\n<td>6-10</td>\n<td><code>canAddMoreManagedProfiles</code></td>\n</tr>\n<tr>\n<td>4.2-6</td>\n<td><code>isUserLimitReachedLocked</code></td>\n</tr>\n</tbody>\n</table>\n<h2>Screenshot</h2>\n<table>\n<thead>\n<tr>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /></th>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /></th>\n</tr>\n</thead>\n</table>\n"
+          "en-US": "<h1>Always Create User</h1>\n<p><a href=\"https://repo.xposed.info/\"><img src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /></a>\n<a href=\"\"><img src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /></a>\n<a href=\"https://github.com/icepony/AlwaysCreateUser/issues\"><img src=\"https://img.shields.io/github/issues/icepony/AlwaysCreateUser\" alt=\"GitHub issues\" /></a></p>\n<p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>\n<h2>Features</h2>\n<ul>\n<li>Bypass common profile creation errors</li>\n<li>Support Android 4.2 through Android 14+</li>\n<li>Compatible with popular profile apps (Island, Shelter, etc.)</li>\n</ul>\n<h2>Common Errors Resolved</h2>\n<ul>\n<li>“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”</li>\n<li>“Maximum user limit is reached”</li>\n<li>“Cannot add more managed profiles for user”</li>\n<li>“Error: couldn’t create User”</li>\n</ul>\n<h2>Compatibility Overview</h2>\n<table>\n<thead>\n<tr>\n<th>Android Version</th>\n<th>Supported Methods</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>14+</td>\n<td><code>isCreationOverrideEnabled</code></td>\n</tr>\n<tr>\n<td>11-13</td>\n<td><code>canAddMoreProfilesToUser</code></td>\n</tr>\n<tr>\n<td>7-13</td>\n<td><code>isUserLimitReached</code></td>\n</tr>\n<tr>\n<td>6-10</td>\n<td><code>canAddMoreManagedProfiles</code></td>\n</tr>\n<tr>\n<td>4.2-6</td>\n<td><code>isUserLimitReachedLocked</code></td>\n</tr>\n</tbody>\n</table>\n<h2>Screenshot</h2>\n<table>\n<thead>\n<tr>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /></th>\n<th><img src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /></th>\n</tr>\n</thead>\n</table>\n<h3>How to Setup for Island</h3>\n<p>Open Terminal and Follow the Procedure</p>\n<ol>\n<li><code>pm create-user --profileOf 0 --managed Island</code></li>\n</ol>\n<p>If succeed, you will be prompted with the ID of newly created user (usually 10 or above). Remember\nit and replace the <user id> in following commands with this ID.</p>\n<ol start=\"2\">\n<li>\n<p><code>pm install-existing --user &lt;user id&gt; com.oasisfeng.island</code></p>\n</li>\n<li>\n<p><code>dpm set-profile-owner --user &lt;user id&gt; com.oasisfeng.island/.IslandDeviceAdminReceiver</code></p>\n</li>\n</ol>\n<p>If you get error message java.lang.SecurityException: Neither user 2000 nor current process has\nandroid.permission.MANAGE_DEVICE_ADMIN, please review\nthe <a href=\"https://island.oasisfeng.com/setup.html#manual-setup-for-island\">MIUI-specific Preparation</a>”.</p>\n<ol start=\"4\">\n<li><code>am start-user &lt;user id&gt;</code></li>\n</ol>\n<p>If all goes well, Island will show the app list.\nFor more Users/Profiles , Follow the same procedure again…</p>\n<h2>Thanks</h2>\n<ul>\n<li><a href=\"https://gemini.google.com/app\">Gemini</a></li>\n<li><a href=\"https://www.deepseek.com/\">DeepSeek</a></li>\n<li><a href=\"https://github.com/LSPosed/CorePatch\">CorePath</a></li>\n</ul>\n"
         },
         "preferredSigner": "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
       },
       "versions": {
+        "6797402f5b31536271c42aad5df82fad602cfdeb853d45c9e07812670565b442": {
+          "added": 1738120059000,
+          "file": {
+            "name": "/io.github.icepony.alwayscreateuser_6-1.5.apk",
+            "sha256": "6797402f5b31536271c42aad5df82fad602cfdeb853d45c9e07812670565b442",
+            "size": 11884
+          },
+          "manifest": {
+            "versionName": "1.5",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 17,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef"
+              ]
+            }
+          }
+        },
         "7eff4f9799531eaea58fbf9c77fb0da72fa64cbe70d38aeaeffea9e7e5e64537": {
           "added": 1738033648000,
           "file": {
@@ -22401,7 +22524,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033658000,
+        "lastUpdated": 1738120070000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22416,6 +22539,41 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1": {
+          "added": 1738120070000,
+          "file": {
+            "name": "/junzi.xposed.hook_9-1.8.apk",
+            "sha256": "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1",
+            "size": 2499927
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.8",
+            "versionCode": 9,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "26aca1c6c072e0ed980f4c6a6850af9ddbf46a486a38b2e1f5d9285052950377": {
           "added": 1738033658000,
           "file": {
@@ -22461,35 +22619,6 @@
           "manifest": {
             "versionName": "1.6",
             "versionCode": 7,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f": {
-          "added": 1737861106000,
-          "file": {
-            "name": "/junzi.xposed.hook_6-1.5.apk",
-            "sha256": "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f",
-            "size": 611267
-          },
-          "manifest": {
-            "versionName": "1.5",
-            "versionCode": 6,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24930,7 +25059,7 @@
           "en-US": "Replace mouse cursor with a custom one / 自定义包括鼠标指针、触控点在内的各种图片资源"
         },
         "description": {
-          "en-US": "<h1>Replace Cursor</h1>\n<p>Replace mouse cursor with a custom one.</p>\n<p>自定义包括鼠标指针、触控点在内的各种图片资源。</p>\n<p>Note: You can use Magisk + <a href=\"https://source.android.com/docs/core/runtime/rros\">RRO</a> for better experience.\nSee <a href=\"https://github.com/Young-Lord/replaceCursor/tree/master/magisk\"><code>magisk</code> folder</a> for more information.\n(be aware of SELinux context, btw.)</p>\n<p><img src=\"https://github.com/Young-Lord/replaceCursor/assets/51789698/416d64cc-f065-4b55-953a-6766c27e9f6a\" alt=\"Demo picture, showing UI and example cursor\" /></p>\n<h2>How to use / 用法</h2>\n<blockquote>\n<p>Tested on:  Android 10 (AOSP), Android 12 (MIUI 13)</p>\n</blockquote>\n<ol>\n<li>Select <code>System framework</code> (package name may be <code>android</code> or <code>system</code> or empty, <a href=\"https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1\">see this</a>) in module scope and activate the module</li>\n<li>Force stop module</li>\n<li>Add resources to change. Please make sure that image sizes are bigger than hotspot (cursor left-top corner / touch point), otherwise nothing will show.</li>\n<li>Reboot (you MUST reboot when you modify anything, or changes will not be applied until next reboot)</li>\n<li>Reverse engineer <code>/system/framework/framework-res.apk</code> to find out the resource ID of the cursor you want to replace.</li>\n</ol>\n<p>For MiPad users, install <a href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest\">MaxMiPad</a> and enable <code>No Magic Pointer</code>.</p>\n<p>If you have Windows-style <code>.ani</code> cursors, you can use <a href=\"https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c\">ani2png</a> to convert them.\nFor example, use <code>ls -a *.ani | xargs -L1 ani2png</code> to convert all <code>.ani</code> files in current directory to <code>.png</code> files.</p>\n<h2>Common resources / 常用资源</h2>\n<p>From MIUI 13, Android 12.</p>\n<table>\n<thead>\n<tr>\n<th>Resource ID</th>\n<th>Description</th>\n<th>HotSpot</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>pointer_spot_touch</td>\n<td>Touch point</td>\n<td>(22, 22)</td>\n</tr>\n<tr>\n<td>pointer_arrow</td>\n<td>Mouse Pointer (Arrow)</td>\n<td>(5, 5)</td>\n</tr>\n<tr>\n<td>pointer_hand</td>\n<td>Mouse Pointer (Hand, for example when hover on sth. clickable)</td>\n<td>(9, 4)</td>\n</tr>\n<tr>\n<td>pointer_text</td>\n<td>Mouse Pointer (Looks like <code>|</code>， for editing vertical text input)</td>\n<td>(12, 12)</td>\n</tr>\n</tbody>\n</table>\n<p>Please note that the images may be scaled. See <a href=\"https://juejin.cn/post/6844903914022633480\">Android 加载 drawable 中图片后自动缩放的原理</a> and <a href=\"https://blog.csdn.net/guolin_blog/article/details/50727753#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%EF%BC%8C%E6%AF%8F%E4%B8%80%E7%A7%8D%E5%AF%86%E5%BA%A6%E7%9A%84dpi%E8%8C%83%E5%9B%B4%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E4%BE%8B%E5%B0%B1%E6%98%AF%E5%9B%BE%E7%89%87%E4%BC%9A%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%94%BE%E5%A4%A7%E7%9A%84%E6%AF%94%E4%BE%8B%E3%80%82\">Android drawable微技巧，你所不知道的drawable的那些细节</a> and <a href=\"https://blog.csdn.net/lgzaaron/article/details/52517941\">getResources().getDisplayMetrics().density 的理解</a> for more informaton. In my case, <code>360x360</code> on a <code>xhdpi</code> device becomes <code>135x135</code> (<code>360 * (240 / 320) / 2 = 135</code>, not sure). You may need to manually adjust size &amp; padding (border) to fit size &amp; hotspot.</p>\n<p>Mouse-related resource-id may have a <code>_large</code> suffix, used when <code>Accessibility</code> -&gt; <code>Large mouse pointer</code>(<code>大号鼠标指针</code>) is enabled.</p>\n<h2>Module Scope</h2>\n<ul>\n<li>android</li>\n</ul>\n<h2>Project URL</h2>\n<p>Home URL: <a href=\"https://github.com/Young-Lord/replaceCursor\">https://github.com/Young-Lord/replaceCursor</a></p>\n<p>Xposed Modules Repo URL: <a href=\"https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\">https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor</a></p>\n<h2>License</h2>\n<p>Apache-2.0 License or MIT License are all OK.</p>\n<h2>Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/thesandipv/pointer_replacer\">https://github.com/thesandipv/pointer_replacer</a> (doesn’t work for me)</li>\n<li><a href=\"https://github.com/hujiayucc/R-Pointer\">https://github.com/hujiayucc/R-Pointer</a> (per-app configuration)</li>\n<li><a href=\"https://github.com/quantum5/win2xcur\">https://github.com/quantum5/win2xcur</a> (convert <code>.cur</code> and <code>.ani</code> to Xcursor format, for Linux)</li>\n<li><a href=\"https://github.com/eworm-de/xcur2png\">https://github.com/eworm-de/xcur2png</a> (convert Xcursor format to <code>.png</code>, see pull requests for a better version)</li>\n<li><a href=\"https://blog.csdn.net/qq_41172785/article/details/89063164\">将Windows上的鼠标指针主题移植到Linux上</a> (convert, edit, install Windows cursors to Linux)</li>\n</ul>\n<h2>TODO</h2>\n<p>Currently, this module use SharedPreferences to store images, which is really shitty. Anyone is free to improve this module.</p>\n<p>Also, I am too low to modify hotspot using Xposed. If you know how to do this, please tell me.</p>\n<p>Also: Origin image resolution, disable scaling.</p>\n"
+          "en-US": "<h1>Replace Cursor</h1>\n<p>Replace mouse cursor with a custom one.</p>\n<p>自定义包括鼠标指针、触控点在内的各种图片资源。</p>\n<p>Note: You can use Magisk + <a href=\"https://source.android.com/docs/core/runtime/rros\">RRO</a> for better experience.\nSee <a href=\"https://github.com/Young-Lord/replaceCursor/tree/master/magisk\"><code>magisk</code> folder</a> for more information.\n(be aware of SELinux context, btw.)</p>\n<p><img src=\"https://github.com/Young-Lord/replaceCursor/assets/51789698/416d64cc-f065-4b55-953a-6766c27e9f6a\" alt=\"Demo picture, showing UI and example cursor\" /></p>\n<h2>How to use / 用法</h2>\n<blockquote>\n<p>Tested on:  Android 10 (AOSP), Android 12 (MIUI 13)</p>\n</blockquote>\n<ol>\n<li>Select <code>System framework</code> (package name may be <code>android</code> or <code>system</code> or empty, <a href=\"https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1\">see this</a>) in module scope and activate the module</li>\n<li>Force stop module</li>\n<li>Add resources to change. Please make sure that image sizes are bigger than hotspot (cursor left-top corner / touch point), otherwise nothing will show.</li>\n<li>Reboot (you MUST reboot when you modify anything, or changes will not be applied until next reboot)</li>\n<li>Reverse engineer <code>/system/framework/framework-res.apk</code> to find out the resource ID of the cursor you want to replace.</li>\n</ol>\n<p>For MiPad users, install <a href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest\">MaxMiPad</a> and enable <code>No Magic Pointer</code>.</p>\n<p>If you have Windows-style <code>.ani</code> cursors, you can use <a href=\"https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c\">ani2png</a> to convert them.\nFor example, use <code>ls -a *.ani | xargs -L1 ani2png</code> to convert all <code>.ani</code> files in current directory to <code>.png</code> files.</p>\n<p>Looking for equivalent on <strong>Linux</strong>? Check <a href=\"https://github.com/Young-Lord/Image2Cursors\">Image2Cursors</a>!</p>\n<h2>Common resources / 常用资源</h2>\n<p>From MIUI 13, Android 12.</p>\n<table>\n<thead>\n<tr>\n<th>Resource ID</th>\n<th>Description</th>\n<th>HotSpot</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>pointer_spot_touch</td>\n<td>Touch point</td>\n<td>(22, 22)</td>\n</tr>\n<tr>\n<td>pointer_arrow</td>\n<td>Mouse Pointer (Arrow)</td>\n<td>(5, 5)</td>\n</tr>\n<tr>\n<td>pointer_hand</td>\n<td>Mouse Pointer (Hand, for example when hover on sth. clickable)</td>\n<td>(9, 4)</td>\n</tr>\n<tr>\n<td>pointer_text</td>\n<td>Mouse Pointer (Looks like <code>|</code>， for editing vertical text input)</td>\n<td>(12, 12)</td>\n</tr>\n</tbody>\n</table>\n<p>Please note that the images may be scaled. See <a href=\"https://juejin.cn/post/6844903914022633480\">Android 加载 drawable 中图片后自动缩放的原理</a> and <a href=\"https://blog.csdn.net/guolin_blog/article/details/50727753#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%EF%BC%8C%E6%AF%8F%E4%B8%80%E7%A7%8D%E5%AF%86%E5%BA%A6%E7%9A%84dpi%E8%8C%83%E5%9B%B4%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E4%BE%8B%E5%B0%B1%E6%98%AF%E5%9B%BE%E7%89%87%E4%BC%9A%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%94%BE%E5%A4%A7%E7%9A%84%E6%AF%94%E4%BE%8B%E3%80%82\">Android drawable微技巧，你所不知道的drawable的那些细节</a> and <a href=\"https://blog.csdn.net/lgzaaron/article/details/52517941\">getResources().getDisplayMetrics().density 的理解</a> for more informaton. In my case, <code>360x360</code> on a <code>xhdpi</code> device becomes <code>135x135</code> (<code>360 * (240 / 320) / 2 = 135</code>, not sure). You may need to manually adjust size &amp; padding (border) to fit size &amp; hotspot.</p>\n<p>Mouse-related resource-id may have a <code>_large</code> suffix, used when <code>Accessibility</code> -&gt; <code>Large mouse pointer</code>(<code>大号鼠标指针</code>) is enabled.</p>\n<h2>Module Scope</h2>\n<ul>\n<li>android</li>\n</ul>\n<h2>Project URL</h2>\n<p>Home URL: <a href=\"https://github.com/Young-Lord/replaceCursor\">https://github.com/Young-Lord/replaceCursor</a></p>\n<p>Xposed Modules Repo URL: <a href=\"https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\">https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor</a></p>\n<h2>License</h2>\n<p>Apache-2.0 License or MIT License are all OK.</p>\n<h2>Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/thesandipv/pointer_replacer\">https://github.com/thesandipv/pointer_replacer</a> (doesn’t work for me)</li>\n<li><a href=\"https://github.com/hujiayucc/R-Pointer\">https://github.com/hujiayucc/R-Pointer</a> (per-app configuration)</li>\n<li><a href=\"https://github.com/quantum5/win2xcur\">https://github.com/quantum5/win2xcur</a> (convert <code>.cur</code> and <code>.ani</code> to Xcursor format, for Linux)</li>\n<li><a href=\"https://github.com/eworm-de/xcur2png\">https://github.com/eworm-de/xcur2png</a> (convert Xcursor format to <code>.png</code>, see pull requests for a better version)</li>\n<li><a href=\"https://blog.csdn.net/qq_41172785/article/details/89063164\">将Windows上的鼠标指针主题移植到Linux上</a> (convert, edit, install Windows cursors to Linux)</li>\n</ul>\n<h2>TODO</h2>\n<p>Currently, this module use SharedPreferences to store images, which is really shitty. Anyone is free to improve this module.</p>\n<p>Also, I am too low to modify hotspot using Xposed. If you know how to do this, please tell me.</p>\n<p>Also: Origin image resolution, disable scaling.</p>\n"
         },
         "preferredSigner": "29fca8521af73b920b76c830e22e3fb441795237166d20e53ee8d9a70295bea1"
       },
@@ -28904,7 +29033,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736058428000,
+        "lastUpdated": 1738120113000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
         "authorName": "lovejiuwu",
         "name": {
@@ -28919,6 +29048,72 @@
         "preferredSigner": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
       },
       "versions": {
+        "affaccf71b06087d4699d72c47b6a75c49c92a2b62c5dae88fc871adb0c964bb": {
+          "added": 1738120113000,
+          "file": {
+            "name": "/top.hookvip.pro_20250128-4.0.6.apk",
+            "sha256": "affaccf71b06087d4699d72c47b6a75c49c92a2b62c5dae88fc871adb0c964bb",
+            "size": 5278681
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.6",
+            "versionCode": 20250128,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ad6748a1a5dc76d31cee29df68351d09fd91612ca14160a91a1fd5637489e9b7": {
           "added": 1736058428000,
           "file": {
@@ -28999,72 +29194,6 @@
             ],
             "versionName": "4.0.4",
             "versionCode": 20241215,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.CHANGE_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015": {
-          "added": 1733214163000,
-          "file": {
-            "name": "/top.hookvip.pro_20241201-4.0.3.apk",
-            "sha256": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
-            "size": 5159130
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.0.3",
-            "versionCode": 20241201,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34

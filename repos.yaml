@@ -8319,11 +8319,14 @@ com.luckyzyx.luckytool:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>LuckyTool</h1>\n<p>\n   <b><a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\">English</a>  丨 简体中文</b>\n</p>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://t.me/LuckyTool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a>   \n<a href=\"https://crowdin.com/project/luckytool\"><img alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"></a>\n<p>对ColorOS系统进行的扩展优化的Xposed模块</p>\n<p>永久免费模块，请勿上当受骗</p>\n<p>禁止引流、搬运、转载、售卖、分享、分流</p>\n<p>提倡授之以渔，切莫授之以鱼</p>\n</div>\n<hr />\n<h2>功能请求与BUG反馈</h2>\n<p>请前往TG群组进行反馈交流</p>\n<div align=\"left\">\n<p>\n   <b><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\">更新日志</a> | <a href=\"https://crwd.in/luckytool\">参与翻译</a></b>\n</p>\n</div>\n<h2>作用域优化</h2>\n<p>升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化</p>\n<p>例如：开发者选项通知，则重新优化系统界面（</p>\n<h2>模块违规条例解析</h2>\n<p>引流：包括但不限于快手、抖音、公众号等引流行为</p>\n<p>售卖：免费模块，不再解释</p>\n<p>搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能</p>\n<p>开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)</p>\n<p>注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规</p>\n<p>违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜</p>\n<h2>Xposed API</h2>\n<p><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></p>\n"
-          filename: LuckyTool_v1.2.6.17737.apk
+          filename: LuckyTool_v1.2.7.17981.apk
           id: com.luckyzyx.luckytool
           name: LuckyTool Xposed 免费模块
-          last_updated: "2024-12-01T08:58:51Z"
+          last_updated: "2025-01-28T13:38:57Z"
           releasedescription: |-
+            <h2>2025新年快乐吖</h2>
+            <p>LT发布至今已达两年半，为感谢众多粉丝的青睐，特地在支付宝发布了一个口令红包，金额不多，先到先得</p>
+            <p>口令: 模块的正式名称</p>
             <h2>其他链接 (Other Links)</h2>
             <p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>
             <ul>
@@ -8335,104 +8338,71 @@ com.luckyzyx.luckytool:
             </ul>
             <h2>更新日志 (ChangeLog)</h2>
             <ul>
-            <li>[修复] 分身 App 浮窗贴边显示异常 C14+</li>
-            <li>[适配] 浮窗贴边后台运行 C15</li>
-            <li>[移除] 浮窗回复白名单 C15</li>
-            <li>[适配] 控制中心分离模式时钟样式 C15</li>
-            <li>[适配] 锁屏时钟红一显示模式 RUI6</li>
-            <li>[适配] 桌面与文件夹分页指示器 RUI6</li>
-            <li>[适配] 移除桌面文件夹预览背景 C15</li>
-            <li>[添加] 禁用最近任务列表自动切换上个任务 C15</li>
-            <li>[添加] 强制启用最近任务内存显示</li>
-            <li>[添加] 替换系统 Root 状态检测</li>
-            <li>[适配] 隐藏非上网卡移动数据图标 C15</li>
-            <li>[移除] 相册水印字数限制</li>
-            <li>[添加] 自定义 WLAN 双通道加速白名单</li>
-            <li>[添加] 移除 WLAN 双通道加速黑名单</li>
-            <li>[适配] 移除 DPI 重启恢复 C15</li>
-            <li>[修复] 功能页标题显示异常</li>
-            <li>[添加] 移除分身创建数量限制</li>
-            <li>[添加] 移除控制中心磁贴数量限制</li>
-            <li>[适配] 浏览器下载对话框广告 v40.8.40.1</li>
-            <li>[修复] 充电瓦数显示异常 C15</li>
-            <li>[适配] 本地 OTA 更新校验 v15.0.12</li>
-            <li>[修复] 部分应用详情页面参数显示异常</li>
-            <li>[优化] 锁屏状态栏运营商 hook 逻辑</li>
-            <li>[适配] 充电动画真实充电技术字段显示</li>
-            <li>[适配] 自动点击开始录制或投射对话框 RUI6</li>
-            <li>[适配] 状态栏网速刷新速度 RUI6</li>
-            <li>[适配] 移除免打扰模式通知 RUI6</li>
-            <li>[适配] 移除通知勿扰通知 RUI6</li>
-            <li>[适配] 控制中心磁贴列数 RUI6</li>
-            <li>[适配] 状态栏电池图标 RUI6</li>
-            <li>[添加] 移除相机滤镜机型限制</li>
-            <li>[添加] 相机添加更多滤镜</li>
-            <li>[适配] 移除最近任务列表底部图标 C14+</li>
-            <li>[适配] 自定义相机默认启动相册 v5.020.123(24-10-30 16:58)</li>
-            <li>[适配] 相机自定义机型水印 v5.104.53(24-11-21 21:50)</li>
-            <li>[添加] 启用多浮窗支持 C14.1+</li>
-            <li>[更改] 合并相机与相册部分配置项</li>
-            <li>[添加] 自定义多浮窗显示上限 C14.1+</li>
-            <li>[适配] 相册替换 OnePlus 机型水印 v15.16.4(9f018b6)</li>
-            <li>[添加] 替换充电技术绘制样式 C15+</li>
-            <li>[添加] 移除通知清理按钮 C12+</li>
-            <li>[适配] 移除全局搜索应用推荐卡片 v11.34.3(dc2371d)</li>
-            <li>[添加] 强制启用 32 位 App 支持</li>
-            <li>[添加] 移除相机闪光灯使用限制 C13+</li>
-            <li>[Fix] Abnormal display of the floating window of the clone app C14+</li>
-            <li>[Fix] Background operation of the floating window C15</li>
-            <li>[Remove] Whitelist of floating window replies C15</li>
-            <li>[Fix] Clock style of the control center split mode C15</li>
-            <li>[Fix] Red-one display mode of the lock screen clock RUI6</li>
-            <li>[Fix] Desktop and folder paging indicator RUI6</li>
-            <li>[Fix] Remove desktop folder preview background C15</li>
-            <li>[Add] Disable automatic switching of the recent task list to the previous task C15</li>
-            <li>[Add] Force to enable the recent task memory display</li>
-            <li>[Add] Replace the system root status detection</li>
-            <li>[Fix] Hide the non-network card mobile data icon C15</li>
-            <li>[Remove] Word limit of the album watermark</li>
-            <li>[Add] Customize the WLAN dual-channel acceleration whitelist</li>
-            <li>[Add] Remove the WLAN dual-channel acceleration blacklist</li>
-            <li>[Fix] Remove DPI restart recovery C15</li>
-            <li>[Fix] Abnormal display of the function page title</li>
-            <li>[Add] Remove the limit on the number of clones created</li>
-            <li>[Add] Remove the limit on the number of control center tiles</li>
-            <li>[Fix] Browser download dialog box ads v40.8.40.1</li>
-            <li>[Fix] Abnormal display of charging wattage C15</li>
-            <li>[Fix] Local OTA update verification v15.0.12</li>
-            <li>[Fix] Abnormal display of parameters on some application details pages</li>
-            <li>[Optimize] Operator hook logic in the lock screen status bar</li>
-            <li>[Fix] Display of real charging technology fields in charging animation</li>
-            <li>[Fix] Automatically click to start recording or casting dialog RUI6</li>
-            <li>[Fix] Status bar network speed refresh speed RUI6</li>
-            <li>[Fix] Remove Do Not Disturb mode notification RUI6</li>
-            <li>[Fix] Remove Do Not Disturb notification RUI6</li>
-            <li>[Fix] Control center tile column number RUI6</li>
-            <li>[Fix] Status bar battery icon RUI6</li>
-            <li>[Add] Remove camera filter model restrictions</li>
-            <li>[Add] Add more filters to the camera</li>
-            <li>[Fix] Remove the bottom icon of the recent task list C14+</li>
-            <li>[Fix] Customize the default camera launch album v5.020.123 (24-10-30 16:58)</li>
-            <li>[Fix] Camera custom model watermark v5.104.53 (24-11-21 21:50)</li>
-            <li>[Add] Enable multi-floating window support C14.1+</li>
-            <li>[Change] Merge some configuration items of camera and album</li>
-            <li>[Add] Customize the upper limit of multi-floating window display C14.1+</li>
-            <li>[Fix] Album replaces OnePlus model watermark v15.16.4 (9f018b6)</li>
-            <li>[Add] Replace charging technology drawing style C15+</li>
-            <li>[Add] Remove notification cleanup button C12+</li>
-            <li>[Fix] Remove global search application recommendation card v11.34.3 (dc2371d)</li>
-            <li>[Add] Force 32-bit App support</li>
-            <li>[Add] Remove camera flash usage restrictions C13+</li>
+            <li>[适配] 强制启用最近任务内存显示 C14+</li>
+            <li>[适配] 自定义WLAN双通道加速白名单 C13.1</li>
+            <li>[适配] 移除控制中心磁贴数量限制 C13.1</li>
+            <li>[优化] 锁屏时钟组件红一Hook逻辑 C15+</li>
+            <li>[更改] 相机滤镜机型限制功能 C15+</li>
+            <li>[修复] 部分机型USB连接对话框Hook异常 C13+</li>
+            <li>[添加] 相机贾樟柯滤镜</li>
+            <li>[移除] 状态栏未使用的信号标签gen2x2 C15+</li>
+            <li>[添加] 启用游戏助手旁路供电支持 C14.1+</li>
+            <li>[添加] 启用AI大师水印 C15+</li>
+            <li>[添加] 自定义MEMC对话框参数提示</li>
+            <li>[更改] 允许自定义设备分享页面空参数</li>
+            <li>[修复] 模块内置捐赠码显示异常</li>
+            <li>[添加] 移除设备名称更改限制 C14+</li>
+            <li>[添加] 移除电源菜单SOS按钮 C13+</li>
+            <li>[更改] 状态栏时钟格式小时示例</li>
+            <li>[添加] 启用风驰内核游戏架构显示 C15+</li>
+            <li>[添加] 修复App安装按钮异常显示</li>
+            <li>[添加] 启用屏幕色温RGB调色板 C14+</li>
+            <li>[更改] 屏幕RGB色温球键值与翻译</li>
+            <li>[适配] 系统框架WIFI服务相关 C12</li>
+            <li>[添加] 移除通知置顶数量限制 C14+</li>
+            <li>[更改] 限制全应用分屏功能 C15+</li>
+            <li>[添加] 允许桌面App名称多行显示 C12+</li>
+            <li>[添加] 重新优化所有作用域Dex</li>
+            <li>[添加] 禁用高音量警告通知 C12+</li>
+            <li>[添加] 移除无网畅聊时间限制 C14.1+</li>
+            <li>[添加] 隐藏OTA卡片顶层文字 C13+</li>
+            <li>[适配] 移除最近任务列表清除按钮 v15.6.3(241a057)</li>
+            <li>[修复] 音量对话框背景模糊失效 C13</li>
+            <li>[添加] 仅优化此页作用域Dex</li>
+            <li>[修复] 飞行模式信号图标显示异常 C15+</li>
+            <li>[Fix] Mandatory enable the recent task memory display C14+</li>
+            <li>[Fix] Custom WLAN dual -channel acceleration whitelist C13.1</li>
+            <li>[Fix] Removal of the number of magnetic stickers in the control center limit C13.1</li>
+            <li>[Optimize] Lock screen clock component red one hook logic C15+</li>
+            <li>[Change] Camera filter model limitation function C15+</li>
+            <li>[Fix] Some models USB connection dialog box hook abnormality C13+</li>
+            <li>[Add] Camera Jia Zhangke filter</li>
+            <li>[Remove] The signal tags unused in the status bar Gen2x2 C15+</li>
+            <li>[Add] Enable the game assistant bypass power to support C14.1+</li>
+            <li>[Add] Enable AI Master Watermark C15+</li>
+            <li>[Add] Custom MEMC dialog box parameter prompt</li>
+            <li>[Change] Allow custom device sharing page empty parameters</li>
+            <li>[Fix] Module built -in donation code to display abnormalities</li>
+            <li>[Add] Remove the device name change limit C14+</li>
+            <li>[Add] Remove the power menu SOS button C13+</li>
+            <li>[Change] State Bar clock format hours example</li>
+            <li>[Add] Enable Fengchi kernel game architecture display C15+</li>
+            <li>[Add] Fix the app installation button abnormally display</li>
+            <li>[Add] Enable screen color temperature RGB color panel C14+</li>
+            <li>[Change] Screen RGB color Wenqi key value and translation</li>
+            <li>[Fix] System framework wifi service related C12</li>
+            <li>[Add] Remove the top quantity limit C14+</li>
+            <li>[Change] Limit the full application division function C15+</li>
+            <li>[Add] Allow desktop app name Multi -line display C12+</li>
+            <li>[Add] Re -optimize all scope DEX</li>
+            <li>[Add] Disable a huge quantity warning notification C12+</li>
+            <li>[Add] Remove the internet non -network chat time limit C14.1+</li>
+            <li>[Add] Hide the top layer of the OTA card C13+</li>
+            <li>[Fix] Remove the recent task list Clear button v15.6.3 (241A057)</li>
+            <li>[Fix] Volume dialog box background Vaguely invalidation C13</li>
+            <li>[Add] Only optimize this page. DEX</li>
+            <li>[Fix] Flight mode signal icon display abnormality C15+</li>
             </ul>
-            <h2>Notes</h2>
-            <p>ZH<br>
-            ColorOS15必须优化所有的作用域</p>
-            <p>首先使用潮汐引擎里的应用优化，然后使用LSPosed管理器对模块的全部作用域进行长按优化，最后重启系统</p>
-            <p>并且系统更新后必须重新进行此操作</p>
-            <p>EN<br>
-            ColorOS15 must optimize all scopes</p>
-            <p>First use the application optimization in the Tide Engine, then use the LSPosed manager to long-press and optimize all scopes of the module, and finally restart the system</p>
-            <p>And this operation must be repeated after the system is updated</p>
     author_name: luckyzyx
 com.luckyzyx.notifyintercept:
     git: https://github.com/Xposed-Modules-Repo/com.luckyzyx.notifyintercept
@@ -14288,6 +14258,24 @@ fucking.internet.tile:
           last_updated: "2022-08-29T05:02:52Z"
           releasedescription: <p>Pixel 6 (Android 13 TP1A.220624.021)</p>
     author_name: YULIANGMAX
+fuckinginput.coloros.baidu:
+    git: https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu
+    summary: |-
+        解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件
+        采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行
+        在此鸣谢Dexkit项目https://github.com/LuckyPray/DexKit
+        本模块开发：Pantokrátor
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了\U0001F913\U0001F446，加上是初学Dexkit，所以现在的代码一团乱\U0001F921，</p>\n<p>So,\U0001F4A9山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸\U0001F623\U0001F623\U0001F623</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽\U0001F62D\U0001F62D\U0001F62D</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
+          filename: fuckinginput_coloros_baidu_1.0-release.apk
+          id: fuckinginput.coloros.baidu
+          name: 百度输入法OPPO定制版增强
+          last_updated: "2025-01-28T08:43:26Z"
+          releasedescription: <p>v1.0发布</p>
+    author_name: Sharl210
 github.zerorooot.copyfenbi:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi
     summary: 复制粉笔app用户的评论到剪贴板中（长按评论）
@@ -15571,6 +15559,48 @@ io.github.enhancege:
           last_updated: "2023-10-22T15:25:01Z"
           releasedescription: <p>remove more detections</p>
     author_name: null4n
+io.github.howard20181.notificationiconfix:
+    git: https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix
+    summary: "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons. \n为原生系统、MIUI 和 HyperOS 使用算法将通知中的白块图标转换为可辨认的图标。"
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>Notification Icon Fix</h1>
+            <p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>
+            <h2>Supported System</h2>
+            <ul>
+            <li>Android 8.1 ~ AOSP main branch</li>
+            <li>HyperOS</li>
+            <li>MIUI 12.5</li>
+            </ul>
+            <h2>Algorithm Details</h2>
+            <ol>
+            <li>Determine and reduce oversized icons to the maximum allowed icon size</li>
+            <li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>
+            <li>(For MIUI) Detect transparent borders and trim icons</li>
+            <li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a perfect icon</li>
+            <li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>
+            <li>Calculate the average lumens excluding transparent pixels</li>
+            <li>Quantify the most common color of edge pixels</li>
+            <li>Calculate the Euclidean distance between the edge pixel and the color of the most common Lab color space obtained above to determine whether the icon has a border</li>
+            <li>Determine whether the icon background is light or dark</li>
+            <li>Use K-means quantizer to extract the primary color of the icon</li>
+            <li>Invert the icon foreground according to the background and remove the border</li>
+            <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
+            <li>Final result output, cache icon, and accent color to WeakHashMap</li>
+            </ol>
+          filename: NotifyIconFix-1.1.68.apk
+          id: io.github.howard20181.notificationiconfix
+          name: Notification Icon Fix / 通知图标修复
+          last_updated: "2025-01-28T17:57:20Z"
+          releasedescription: |-
+            <h2>Change log</h2>
+            <ul>
+            <li>remove missing debug code</li>
+            </ul>
+    author_name: Howard20181
 io.github.icepony.alwayscreateuser:
     git: https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser
     summary: An Xposed Framework module that bypasses Android's user/profile creation limits
@@ -15581,7 +15611,8 @@ io.github.icepony.alwayscreateuser:
           description: |
             <h1>Always Create User</h1>
             <p><a href="https://repo.xposed.info/"><img src="https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg" alt="Xposed Module" /></a>
-            <a href=""><img src="https://img.shields.io/badge/Android-4.2%2B-blue.svg" alt="Android Version" /></a></p>
+            <a href=""><img src="https://img.shields.io/badge/Android-4.2%2B-blue.svg" alt="Android Version" /></a>
+            <a href="https://github.com/icepony/AlwaysCreateUser/issues"><img src="https://img.shields.io/github/issues/icepony/AlwaysCreateUser" alt="GitHub issues" /></a></p>
             <p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>
             <h2>Features</h2>
             <ul>
@@ -15637,14 +15668,42 @@ io.github.icepony.alwayscreateuser:
             </tr>
             </thead>
             </table>
-          filename: AlwaysCreateUser_v1.4.apk
+            <h3>How to Setup for Island</h3>
+            <p>Open Terminal and Follow the Procedure</p>
+            <ol>
+            <li><code>pm create-user --profileOf 0 --managed Island</code></li>
+            </ol>
+            <p>If succeed, you will be prompted with the ID of newly created user (usually 10 or above). Remember
+            it and replace the <user id> in following commands with this ID.</p>
+            <ol start="2">
+            <li>
+            <p><code>pm install-existing --user &lt;user id&gt; com.oasisfeng.island</code></p>
+            </li>
+            <li>
+            <p><code>dpm set-profile-owner --user &lt;user id&gt; com.oasisfeng.island/.IslandDeviceAdminReceiver</code></p>
+            </li>
+            </ol>
+            <p>If you get error message java.lang.SecurityException: Neither user 2000 nor current process has
+            android.permission.MANAGE_DEVICE_ADMIN, please review
+            the <a href="https://island.oasisfeng.com/setup.html#manual-setup-for-island">MIUI-specific Preparation</a>”.</p>
+            <ol start="4">
+            <li><code>am start-user &lt;user id&gt;</code></li>
+            </ol>
+            <p>If all goes well, Island will show the app list.
+            For more Users/Profiles , Follow the same procedure again…</p>
+            <h2>Thanks</h2>
+            <ul>
+            <li><a href="https://gemini.google.com/app">Gemini</a></li>
+            <li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+            <li><a href="https://github.com/LSPosed/CorePatch">CorePath</a></li>
+            </ul>
+          filename: AlwaysCreateUser_v1.5.apk
           id: io.github.icepony.alwayscreateuser
           name: Always create user
-          last_updated: "2025-01-27T22:38:50Z"
+          last_updated: "2025-01-28T14:44:20Z"
           releasedescription: |-
-            <p>Tested successfully on Android 4.2.2.</p>
-            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png"><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png" alt="v1.4_Android_4.2.2" style="max-width: 100%;"></a></p>
-            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/icepony/AlwaysCreateUser/compare/v1.3...v1.4">icepony/AlwaysCreateUser@<tt>v1.3...v1.4</tt></a></p>
+            <p>Tested successfully on Android 13</p>
+            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.5_Android_13.png"><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.5_Android_13.png" alt="v1.5_Android_13" style="max-width: 100%;"></a></p>
     author_name: icepony
 io.github.jeffshee.nekumorimod:
     git: https://github.com/Xposed-Modules-Repo/io.github.jeffshee.nekumorimod
@@ -16647,16 +16706,13 @@ junzi.xposed.hook:
             <p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>
             <h1>开源地址</h1>
             <p><a href="https://github.com/ZZCYUN/JunZi-Xposed-Hook">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>
-          filename: JunZi.Xposed.Hook_1.7.apk
+          filename: JunZi.Xposed.Hook_1.8.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-01-27T17:07:58Z"
+          last_updated: "2025-01-28T15:54:02Z"
           releasedescription: |-
-            <p>孩子们，这回我使用了dexkit<br>
-            理论支持全版本Picsart和番茄小说以及红果了<br>
-            不过性能可能会差点?<br>
-            可能概率性闪退?<br>
-            不管了，能用就行</p>
+            <p>dexkit换回原版加载方法(可能更可靠?)<br>
+            懒得写了</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -18087,6 +18143,7 @@ moe.lyniko.replacecursor:
             <p>For MiPad users, install <a href="https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest">MaxMiPad</a> and enable <code>No Magic Pointer</code>.</p>
             <p>If you have Windows-style <code>.ani</code> cursors, you can use <a href="https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c">ani2png</a> to convert them.
             For example, use <code>ls -a *.ani | xargs -L1 ani2png</code> to convert all <code>.ani</code> files in current directory to <code>.png</code> files.</p>
+            <p>Looking for equivalent on <strong>Linux</strong>? Check <a href="https://github.com/Young-Lord/Image2Cursors">Image2Cursors</a>!</p>
             <h2>Common resources / 常用资源</h2>
             <p>From MIUI 13, Android 12.</p>
             <table>
@@ -21611,36 +21668,45 @@ top.hookvip.pro:
             <li>不允许使用内置 只可使用本地模式</li>
             <li>不接受任何此框架用户的反馈</li>
             </ul>
-          filename: HookVip-4.0.5-release.apk
+          filename: HookVip-4.0.6-release.apk
           id: top.hookvip.pro
           name: NewHookVip
-          last_updated: "2025-01-02T12:51:09Z"
+          last_updated: "2025-01-28T13:27:28Z"
           releasedescription: |-
             <h3>新增</h3>
             <ul>
-            <li><strong>See微博</strong> 解锁高级版 全版本通杀</li>
-            <li><strong>通知滤盒</strong> 解锁高级版 全版本通杀</li>
-            <li><strong>App Ops</strong> 解锁永久订阅 全版本通杀</li>
-            <li><strong>无界趣连</strong> 解锁会员 全版本通杀</li>
-            <li><strong>设备信息</strong> 解锁Pro 全版本通杀</li>
+            <li><strong>小白学习打印</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>一叶日历</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>芒果字幕翻译</strong> 解锁会员/无限翻译时长 全版本通杀</li>
+            <li><strong>MACsposed</strong> 解锁永久订阅 全版本通杀</li>
+            <li><strong>扫描计数王</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>Instant Mail</strong> 解锁订阅 全版本通杀</li>
+            <li><strong>书法字典大全</strong> 解锁会员 全版本通杀</li>
+            <li><strong>以观书法</strong> 解锁本地会员(部分服务器功能不可用) 全版本通杀</li>
+            <li><strong>Folder Widget</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>美图秀秀</strong> 解锁会员/去除广告 全版本通杀</li>
+            <li><strong>123云盘</strong> 去除广告 全版本通杀</li>
+            <li><strong>色采</strong> 解锁PRO 全版本通杀</li>
+            <li><strong>宇宙工具箱</strong> 解锁终身会员 全版本通杀</li>
+            <li><strong>下载工具箱</strong> 解锁终身会员 全版本通杀</li>
+            <li><strong>AppSales</strong> 解锁高级版 全版本通杀</li>
+            <li><strong>剪映</strong> 解锁本地会员 理论支持v12.1以下(需要自测)</li>
+            <li><strong>KSWEB</strong> 解锁许可 全版本通杀</li>
+            <li><strong>取证拍拍</strong> 解锁永久会员 全版本通杀</li>
+            <li><strong>KaDa阅读</strong> 解锁会员功能 全版本通杀</li>
+            <li><strong>VMOS Pro</strong> 解锁永久会员 全版本通杀</li>
             </ul>
             <h3>拓展</h3>
             <ul>
-            <li><strong>自定义禁用传感器</strong> 可以禁用各种各样的传感器</li>
-            <li><strong>解除截图录屏限制</strong> 禁用<code>FLAG_SECURE</code>/阻止<code>SurfaceView.setSecure</code></li>
+            <li><strong>加速器代理白名单</strong> 使加速器可以代理任何APP(部分应用无效 需自测)</li>
             </ul>
             <h3>修复</h3>
             <ul>
-            <li><strong>Dialogx</strong> 未适配暗夜模式</li>
-            <li><strong>图叨叨</strong> 使用部分功能提示盗版弹窗</li>
-            <li><strong>Android15设备</strong> 无法自适配加固应用(<a href="https://github.com/LuckyPray/DexKit/releases/tag/2.0.3">升级Dexkit到2.0.3</a>)</li>
-            <li><strong>主页UI</strong> 拓展功能 排序和过滤 菜单上 部分TextView在深色模式的显示异常</li>
-            <li><strong>主页UI</strong> 拓展功能 部分情况下无法正常写入开关配置</li>
+            <li><strong>Niagara Launcher</strong> v1.13.0+ 无法自适配</li>
             </ul>
             <h3>优化</h3>
             <ul>
-            <li><strong>快手/快手极速版</strong> 解析视频/图集 支持复制原始链接</li>
-            <li><strong>主页UI</strong> 拓展功能 弃用旧的BottomSheetDialog 重构并使用新的BottomDialog</li>
+            <li><strong>尝试延长 Wait LSPosed Service(500-&gt;1000) 解决部分用户闪退的问题</strong></li>
             </ul>
     author_name: lovejiuwu
 top.sacz.timtool:

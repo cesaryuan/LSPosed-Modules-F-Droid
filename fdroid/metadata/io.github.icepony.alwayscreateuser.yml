@@ -1,12 +1,13 @@
 AuthorName: icepony
 Categories:
     - Xposed
-CurrentVersion: "1.4"
-CurrentVersionCode: 5
+CurrentVersion: "1.5"
+CurrentVersionCode: 6
 Description: |
     <h1>Always Create User</h1>
     <p><a href="https://repo.xposed.info/"><img src="https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg" alt="Xposed Module" /></a>
-    <a href=""><img src="https://img.shields.io/badge/Android-4.2%2B-blue.svg" alt="Android Version" /></a></p>
+    <a href=""><img src="https://img.shields.io/badge/Android-4.2%2B-blue.svg" alt="Android Version" /></a>
+    <a href="https://github.com/icepony/AlwaysCreateUser/issues"><img src="https://img.shields.io/github/issues/icepony/AlwaysCreateUser" alt="GitHub issues" /></a></p>
     <p>An Xposed Framework module that bypasses Android’s user/profile creation limits</p>
     <h2>Features</h2>
     <ul>
@@ -62,6 +63,35 @@ Description: |
     </tr>
     </thead>
     </table>
+    <h3>How to Setup for Island</h3>
+    <p>Open Terminal and Follow the Procedure</p>
+    <ol>
+    <li><code>pm create-user --profileOf 0 --managed Island</code></li>
+    </ol>
+    <p>If succeed, you will be prompted with the ID of newly created user (usually 10 or above). Remember
+    it and replace the <user id> in following commands with this ID.</p>
+    <ol start="2">
+    <li>
+    <p><code>pm install-existing --user &lt;user id&gt; com.oasisfeng.island</code></p>
+    </li>
+    <li>
+    <p><code>dpm set-profile-owner --user &lt;user id&gt; com.oasisfeng.island/.IslandDeviceAdminReceiver</code></p>
+    </li>
+    </ol>
+    <p>If you get error message java.lang.SecurityException: Neither user 2000 nor current process has
+    android.permission.MANAGE_DEVICE_ADMIN, please review
+    the <a href="https://island.oasisfeng.com/setup.html#manual-setup-for-island">MIUI-specific Preparation</a>”.</p>
+    <ol start="4">
+    <li><code>am start-user &lt;user id&gt;</code></li>
+    </ol>
+    <p>If all goes well, Island will show the app list.
+    For more Users/Profiles , Follow the same procedure again…</p>
+    <h2>Thanks</h2>
+    <ul>
+    <li><a href="https://gemini.google.com/app">Gemini</a></li>
+    <li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+    <li><a href="https://github.com/LSPosed/CorePatch">CorePath</a></li>
+    </ul>
 IssueTracker: ""
 Name: Always create user
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser

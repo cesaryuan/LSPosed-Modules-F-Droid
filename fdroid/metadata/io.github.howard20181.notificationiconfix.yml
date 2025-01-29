@@ -1,0 +1,35 @@
+AuthorName: Howard20181
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 68
+Description: |
+    <h1>Notification Icon Fix</h1>
+    <p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>
+    <h2>Supported System</h2>
+    <ul>
+    <li>Android 8.1 ~ AOSP main branch</li>
+    <li>HyperOS</li>
+    <li>MIUI 12.5</li>
+    </ul>
+    <h2>Algorithm Details</h2>
+    <ol>
+    <li>Determine and reduce oversized icons to the maximum allowed icon size</li>
+    <li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>
+    <li>(For MIUI) Detect transparent borders and trim icons</li>
+    <li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a perfect icon</li>
+    <li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>
+    <li>Calculate the average lumens excluding transparent pixels</li>
+    <li>Quantify the most common color of edge pixels</li>
+    <li>Calculate the Euclidean distance between the edge pixel and the color of the most common Lab color space obtained above to determine whether the icon has a border</li>
+    <li>Determine whether the icon background is light or dark</li>
+    <li>Use K-means quantizer to extract the primary color of the icon</li>
+    <li>Invert the icon foreground according to the background and remove the border</li>
+    <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
+    <li>Final result output, cache icon, and accent color to WeakHashMap</li>
+    </ol>
+IssueTracker: ""
+Name: Notification Icon Fix / 通知图标修复
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix
+Summary: A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti...
+WebSite: ""

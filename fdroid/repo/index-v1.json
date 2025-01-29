@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738033860000,
+    "timestamp": 1738120247000,
     "version": 20002
   },
   "requests": {
@@ -275,24 +275,24 @@
       "summary": "Like Chrome's translation of webpages, but for Android apps. It replaces ALL ..."
     },
     {
-      "added": 1738017530000,
+      "added": 1738075460000,
       "authorName": "icepony",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eAlways Create User\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://repo.xposed.info/\"\u003e\u003cimg src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /\u003e\u003c/a\u003e\n\u003ca href=\"\"\u003e\u003cimg src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed Framework module that bypasses Android’s user/profile creation limits\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBypass common profile creation errors\u003c/li\u003e\n\u003cli\u003eSupport Android 4.2 through Android 14+\u003c/li\u003e\n\u003cli\u003eCompatible with popular profile apps (Island, Shelter, etc.)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCommon Errors Resolved\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”\u003c/li\u003e\n\u003cli\u003e“Maximum user limit is reached”\u003c/li\u003e\n\u003cli\u003e“Cannot add more managed profiles for user”\u003c/li\u003e\n\u003cli\u003e“Error: couldn’t create User”\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility Overview\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAndroid Version\u003c/th\u003e\n\u003cth\u003eSupported Methods\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e14+\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e11-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreProfilesToUser\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e7-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReached\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e6-10\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreManagedProfiles\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e4.2-6\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReachedLocked\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eScreenshot\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /\u003e\u003c/th\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1738017530000,
+      "description": "\u003ch1\u003eAlways Create User\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://repo.xposed.info/\"\u003e\u003cimg src=\"https://img.shields.io/badge/Xposed%20Module-%E2%9C%93-green.svg\" alt=\"Xposed Module\" /\u003e\u003c/a\u003e\n\u003ca href=\"\"\u003e\u003cimg src=\"https://img.shields.io/badge/Android-4.2%2B-blue.svg\" alt=\"Android Version\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/icepony/AlwaysCreateUser/issues\"\u003e\u003cimg src=\"https://img.shields.io/github/issues/icepony/AlwaysCreateUser\" alt=\"GitHub issues\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eAn Xposed Framework module that bypasses Android’s user/profile creation limits\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eBypass common profile creation errors\u003c/li\u003e\n\u003cli\u003eSupport Android 4.2 through Android 14+\u003c/li\u003e\n\u003cli\u003eCompatible with popular profile apps (Island, Shelter, etc.)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCommon Errors Resolved\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e“Cannot add more profiles of type android.os.usertype.profile.(MANAGED | CLONE | PRIVATE) for user\n0”\u003c/li\u003e\n\u003cli\u003e“Maximum user limit is reached”\u003c/li\u003e\n\u003cli\u003e“Cannot add more managed profiles for user”\u003c/li\u003e\n\u003cli\u003e“Error: couldn’t create User”\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility Overview\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAndroid Version\u003c/th\u003e\n\u003cth\u003eSupported Methods\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e14+\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisCreationOverrideEnabled\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e11-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreProfilesToUser\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e7-13\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReached\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e6-10\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003ecanAddMoreManagedProfiles\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e4.2-6\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003eisUserLimitReachedLocked\u003c/code\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eScreenshot\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Island.png\" alt=\"Island\" /\u003e\u003c/th\u003e\n\u003cth\u003e\u003cimg src=\"https://testingcf.jsdelivr.net/gh/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser@main/docs/img/Thanox.png\" alt=\"Thanox\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n\u003ch3\u003eHow to Setup for Island\u003c/h3\u003e\n\u003cp\u003eOpen Terminal and Follow the Procedure\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003ccode\u003epm create-user --profileOf 0 --managed Island\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eIf succeed, you will be prompted with the ID of newly created user (usually 10 or above). Remember\nit and replace the \u003cuser id\u003e in following commands with this ID.\u003c/p\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003epm install-existing --user \u0026lt;user id\u0026gt; com.oasisfeng.island\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003edpm set-profile-owner --user \u0026lt;user id\u0026gt; com.oasisfeng.island/.IslandDeviceAdminReceiver\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eIf you get error message java.lang.SecurityException: Neither user 2000 nor current process has\nandroid.permission.MANAGE_DEVICE_ADMIN, please review\nthe \u003ca href=\"https://island.oasisfeng.com/setup.html#manual-setup-for-island\"\u003eMIUI-specific Preparation\u003c/a\u003e”.\u003c/p\u003e\n\u003col start=\"4\"\u003e\n\u003cli\u003e\u003ccode\u003eam start-user \u0026lt;user id\u0026gt;\u003c/code\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eIf all goes well, Island will show the app list.\nFor more Users/Profiles , Follow the same procedure again…\u003c/p\u003e\n\u003ch2\u003eThanks\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://gemini.google.com/app\"\u003eGemini\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.deepseek.com/\"\u003eDeepSeek\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LSPosed/CorePatch\"\u003eCorePath\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1738075460000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "Tested successfully on Android 4.2.2.\n\n![v1.4_Android_4.2.2](https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.4_Android_4.2.2.png)\n\n**Full Changelog**: https://github.com/icepony/AlwaysCreateUser/compare/v1.3...v1.4"
+          "whatsNew": "Tested successfully on Android 13\n\n![v1.5_Android_13](https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser/refs/heads/main/docs/img/v1.5_Android_13.png)"
         }
       },
       "name": "Always create user",
       "packageName": "io.github.icepony.alwayscreateuser",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.icepony.alwayscreateuser",
-      "suggestedVersionCode": "5",
-      "suggestedVersionName": "1.4",
+      "suggestedVersionCode": "6",
+      "suggestedVersionName": "1.5",
       "summary": "An Xposed Framework module that bypasses Android's user/profile creation limits"
     },
     {
@@ -3442,24 +3442,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1737997678000,
+      "added": 1738079642000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003ch1\u003e开源说明\u003c/h1\u003e\n\u003cp\u003e目前仅开源非hook部分，也就是UI，虽然UI不咋好看。\u003c/p\u003e\n\u003ch1\u003e开源地址\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\"\u003ehttps://github.com/ZZCYUN/JunZi-Xposed-Hook\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1737997678000,
+      "lastUpdated": 1738079642000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "孩子们，这回我使用了dexkit\n理论支持全版本Picsart和番茄小说以及红果了\n不过性能可能会差点?\n可能概率性闪退?\n不管了，能用就行"
+          "whatsNew": "dexkit换回原版加载方法(可能更可靠?)\n懒得写了"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "8",
-      "suggestedVersionName": "1.7",
+      "suggestedVersionCode": "9",
+      "suggestedVersionName": "1.8",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -3789,25 +3789,25 @@
       "summary": "Hide chats in the Telegram messenger"
     },
     {
-      "added": 1733043531000,
+      "added": 1738071537000,
       "authorName": "luckyzyx",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eLuckyTool\u003c/h1\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\"\u003eEnglish\u003c/a\u003e  丨 简体中文\u003c/b\u003e\n\u003c/p\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/LuckyTool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e   \n\u003ca href=\"https://crowdin.com/project/luckytool\"\u003e\u003cimg alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"\u003e\u003c/a\u003e\n\u003cp\u003e对ColorOS系统进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003cp\u003e禁止引流、搬运、转载、售卖、分享、分流\u003c/p\u003e\n\u003cp\u003e提倡授之以渔，切莫授之以鱼\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能请求与BUG反馈\u003c/h2\u003e\n\u003cp\u003e请前往TG群组进行反馈交流\u003c/p\u003e\n\u003cdiv align=\"left\"\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\"\u003e更新日志\u003c/a\u003e | \u003ca href=\"https://crwd.in/luckytool\"\u003e参与翻译\u003c/a\u003e\u003c/b\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e作用域优化\u003c/h2\u003e\n\u003cp\u003e升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化\u003c/p\u003e\n\u003cp\u003e例如：开发者选项通知，则重新优化系统界面（\u003c/p\u003e\n\u003ch2\u003e模块违规条例解析\u003c/h2\u003e\n\u003cp\u003e引流：包括但不限于快手、抖音、公众号等引流行为\u003c/p\u003e\n\u003cp\u003e售卖：免费模块，不再解释\u003c/p\u003e\n\u003cp\u003e搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能\u003c/p\u003e\n\u003cp\u003e开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)\u003c/p\u003e\n\u003cp\u003e注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规\u003c/p\u003e\n\u003cp\u003e违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜\u003c/p\u003e\n\u003ch2\u003eXposed API\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.luckyzyx.luckytool.png",
-      "lastUpdated": 1733043531000,
+      "lastUpdated": 1738071537000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n\n- [修复] 分身 App 浮窗贴边显示异常 C14+\n- [适配] 浮窗贴边后台运行 C15\n- [移除] 浮窗回复白名单 C15\n- [适配] 控制中心分离模式"
+          "whatsNew": "##  2025新年快乐吖\nLT发布至今已达两年半，为感谢众多粉丝的青睐，特地在支付宝发布了一个口令红包，金额不多，先到先得\n\n口令: 模块的正式名称\n\n## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n- [适配]"
         }
       },
       "name": "LuckyTool Xposed 免费模块",
       "packageName": "com.luckyzyx.luckytool",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
-      "suggestedVersionCode": "17737",
-      "suggestedVersionName": "1.2.6",
+      "suggestedVersionCode": "17981",
+      "suggestedVersionName": "1.2.7",
       "summary": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
     },
     {
@@ -4760,24 +4760,24 @@
       "summary": "Bring back KeyChain.createInstallIntent's old behavior to Android 11+"
     },
     {
-      "added": 1735822269000,
+      "added": 1738070848000,
       "authorName": "lovejiuwu",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eNewHookVip\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/top.hookvip.pro?label=stars\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/top.hookvip.pro/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/top.hookvip.pro/releases/latest\"\u003e\u003cimg alt=\"GitHub lastest release\" src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/top.hookvip.pro\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/HookVipCl\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/HookVipChat\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-群组-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e用于解锁部分App会员以及添加一些拓展功能的Xposed模块\u003c/p\u003e\n\u003cp\u003e\n   \u003cb\u003e支持框架 | \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e | \u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e关于\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e此项目在前HookVip的基础上重构于2024.10.30\u003c/li\u003e\n\u003cli\u003e这是一款基于XposedApi开发的Xposed模块\u003c/li\u003e\n\u003cli\u003e用于对APP解锁高级功能/限制及添加一些拓展功能\u003c/li\u003e\n\u003cli\u003e旨在优化用户使用体验 为用户提供更便利的功能\u003c/li\u003e\n\u003cli\u003e应用内所有功能仅供学习交流 请勿用于商业/违法用途\u003c/li\u003e\n\u003cli\u003e本模块完全免费使用 不存在收费盈利\u003c/li\u003e\n\u003cli\u003e如果你是付费购买的 请联系售卖者退款\u003c/li\u003e\n\u003cli\u003e若有任何售卖/倒卖本插件者 则替模块开发者挡灾挡难\u003c/li\u003e\n\u003cli\u003e如有侵权问题 请联系邮箱\u003ca href=\"mailto:hookvip@163.com\"\u003ehookvip@163.com\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003ch3\u003e破解功能\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.勾选对应应用重启后生效\u003c/li\u003e\n\u003cli\u003e2.如果没有生效请尝试登录一下账号\u003c/li\u003e\n\u003cli\u003e3.如果仍然不生效可能是坏掉了\u003c/li\u003e\n\u003cli\u003e4.欢迎提交issues反馈问题\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e拓展功能\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.请先前往模块主页\u003c/li\u003e\n\u003cli\u003e2.点击左上角/主页右滑 打开侧滑栏\u003c/li\u003e\n\u003cli\u003e3.打开拓展功能页\u003c/li\u003e\n\u003cli\u003e4.找到并点击你需要作用于的应用\u003c/li\u003e\n\u003cli\u003e5.再选择性打开你需要使用的功能\u003c/li\u003e\n\u003cli\u003e6.确保已经打开了总开关\u003c/li\u003e\n\u003cli\u003e7.重启对应应用后生效\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e拓展应用\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e1.勾选对应应用\u003c/li\u003e\n\u003cli\u003e2.重启此应用\u003c/li\u003e\n\u003cli\u003e3.前往应用设置页/用户信息页\u003c/li\u003e\n\u003cli\u003e4.模块会注入相关的功能开关\u003c/li\u003e\n\u003cli\u003e5.找到并打开对应功能开关即可\u003c/li\u003e\n\u003cli\u003e6.需要重启应用后生效\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e框架限制\u003c/h2\u003e\n\u003ch3\u003eLSPosed\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e可以正常使用此模块的所有功能\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLSPatch\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e只允许使用破解功能\u003c/li\u003e\n\u003cli\u003e无法使用拓展应用功能\u003c/li\u003e\n\u003cli\u003e部分危险破解功能也会限制使用\u003c/li\u003e\n\u003cli\u003e不允许使用内置 只可使用本地模式\u003c/li\u003e\n\u003cli\u003e不接受任何此框架用户的反馈\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1735822269000,
+      "lastUpdated": 1738070848000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 新增\n\n+ **See微博** 解锁高级版 全版本通杀\n+ **通知滤盒** 解锁高级版 全版本通杀\n+ **App Ops** 解锁永久订阅 全版本通杀\n+ **无界趣连** 解锁会员 全版本通杀\n+ **设备信息** 解锁Pro 全版本通杀\n\n### 拓展\n\n+ **自定义禁用传感器** 可以禁用各种各样的传感器\n+ **解除截图录屏限制** 禁用`FLAG_SECURE`/阻止`SurfaceView.setSecure`\n\n### 修复\n\n+ **Dialogx** 未适配暗夜模式\n+ **图叨叨** 使用部分功能提示盗版弹窗\n+ **Android15设备** 无法自适配加固应用([升级Dexkit到2.0.3](https://github.com/LuckyPray/DexKit/releases/tag/2.0.3))\n+ **主页UI** 拓展功能 排序和过滤 菜单上 部分TextView在深色模式的显示异常\n+ **主页UI** 拓展功能 部分情况下无法正常写入开关配置\n\n### 优化\n\n+ **快手/快手极速版** 解析视频/图集 支持复制原始链接\n+ *"
+          "whatsNew": "### 新增\n\n+ **小白学习打印** 解锁永久会员 全版本通杀\n+ **一叶日历** 解锁高级版 全版本通杀\n+ **芒果字幕翻译** 解锁会员/无限翻译时长 全版本通杀\n+ **MACsposed** 解锁永久订阅 全版本通杀\n+ **扫描计数王** 解锁永久会员 全版本通杀\n+ **Instant Mail** 解锁订阅 全版本通杀\n+ **书法字典大全** 解锁会员 全版本通杀\n+ **以观书法** 解锁本地会员(部分服务器功能不可用) 全版本通杀\n+ **Folder Widget** 解锁高级版 全版本通杀\n+ **美图秀秀** 解锁会员/去除广告 全版本通杀\n+ **123云盘** 去除广告 全版本通杀\n+ **色采** 解锁PRO 全版本通杀\n+ **宇宙工具箱** 解锁终身会员 全版本通杀\n+ **下载工具箱** 解锁终身会员 全版本通杀\n+ **AppSales** 解锁高级版 全版本通杀\n+ **剪映** 解锁本地会员 理论支持v12.1以下(需要自测)\n+ **KSWEB** 解锁许可 全版本通杀\n+ **取证拍拍** 解锁永久会员 全版本通杀\n+ **KaD"
         }
       },
       "name": "NewHookVip",
       "packageName": "top.hookvip.pro",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
-      "suggestedVersionCode": "20250102",
-      "suggestedVersionName": "4.0.5",
+      "suggestedVersionCode": "20250128",
+      "suggestedVersionName": "4.0.6",
       "summary": "解锁部分APP高级版及添加拓展功能"
     },
     {
@@ -4962,6 +4962,27 @@
       "suggestedVersionCode": "11",
       "suggestedVersionName": "1.1",
       "summary": "隐藏最近任务列表视图"
+    },
+    {
+      "added": 1738087040000,
+      "authorName": "Howard20181",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eNotification Icon Fix\u003c/h1\u003e\n\u003cp\u003eA module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.\u003c/p\u003e\n\u003ch2\u003eSupported System\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1 ~ AOSP main branch\u003c/li\u003e\n\u003cli\u003eHyperOS\u003c/li\u003e\n\u003cli\u003eMIUI 12.5\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eAlgorithm Details\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eDetermine and reduce oversized icons to the maximum allowed icon size\u003c/li\u003e\n\u003cli\u003eMap the icon pixel position to a two-dimensional coordinate system and calculate the geometric center\u003c/li\u003e\n\u003cli\u003e(For MIUI) Detect transparent borders and trim icons\u003c/li\u003e\n\u003cli\u003e(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a perfect icon\u003c/li\u003e\n\u003cli\u003e(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)\u003c/li\u003e\n\u003cli\u003eCalculate the average lumens excluding transparent pixels\u003c/li\u003e\n\u003cli\u003eQuantify the most common color of edge pixels\u003c/li\u003e\n\u003cli\u003eCalculate the Euclidean distance between the edge pixel and the color of the most common Lab color space obtained above to determine whether the icon has a border\u003c/li\u003e\n\u003cli\u003eDetermine whether the icon background is light or dark\u003c/li\u003e\n\u003cli\u003eUse K-means quantizer to extract the primary color of the icon\u003c/li\u003e\n\u003cli\u003eInvert the icon foreground according to the background and remove the border\u003c/li\u003e\n\u003cli\u003eDetermine the actual visible area of ​​the icon and remove the blank area based on the visual center\u003c/li\u003e\n\u003cli\u003eFinal result output, cache icon, and accent color to WeakHashMap\u003c/li\u003e\n\u003c/ol\u003e\n",
+      "lastUpdated": 1738087040000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "## Change log\n\n- remove missing debug code"
+        }
+      },
+      "name": "Notification Icon Fix / 通知图标修复",
+      "packageName": "io.github.howard20181.notificationiconfix",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
+      "suggestedVersionCode": "68",
+      "suggestedVersionName": "1.1",
+      "summary": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
     },
     {
       "added": 1705227485000,
@@ -5952,7 +5973,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eReplace Cursor\u003c/h1\u003e\n\u003cp\u003eReplace mouse cursor with a custom one.\u003c/p\u003e\n\u003cp\u003e自定义包括鼠标指针、触控点在内的各种图片资源。\u003c/p\u003e\n\u003cp\u003eNote: You can use Magisk + \u003ca href=\"https://source.android.com/docs/core/runtime/rros\"\u003eRRO\u003c/a\u003e for better experience.\nSee \u003ca href=\"https://github.com/Young-Lord/replaceCursor/tree/master/magisk\"\u003e\u003ccode\u003emagisk\u003c/code\u003e folder\u003c/a\u003e for more information.\n(be aware of SELinux context, btw.)\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://github.com/Young-Lord/replaceCursor/assets/51789698/416d64cc-f065-4b55-953a-6766c27e9f6a\" alt=\"Demo picture, showing UI and example cursor\" /\u003e\u003c/p\u003e\n\u003ch2\u003eHow to use / 用法\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003eTested on:  Android 10 (AOSP), Android 12 (MIUI 13)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003col\u003e\n\u003cli\u003eSelect \u003ccode\u003eSystem framework\u003c/code\u003e (package name may be \u003ccode\u003eandroid\u003c/code\u003e or \u003ccode\u003esystem\u003c/code\u003e or empty, \u003ca href=\"https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1\"\u003esee this\u003c/a\u003e) in module scope and activate the module\u003c/li\u003e\n\u003cli\u003eForce stop module\u003c/li\u003e\n\u003cli\u003eAdd resources to change. Please make sure that image sizes are bigger than hotspot (cursor left-top corner / touch point), otherwise nothing will show.\u003c/li\u003e\n\u003cli\u003eReboot (you MUST reboot when you modify anything, or changes will not be applied until next reboot)\u003c/li\u003e\n\u003cli\u003eReverse engineer \u003ccode\u003e/system/framework/framework-res.apk\u003c/code\u003e to find out the resource ID of the cursor you want to replace.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eFor MiPad users, install \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest\"\u003eMaxMiPad\u003c/a\u003e and enable \u003ccode\u003eNo Magic Pointer\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eIf you have Windows-style \u003ccode\u003e.ani\u003c/code\u003e cursors, you can use \u003ca href=\"https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c\"\u003eani2png\u003c/a\u003e to convert them.\nFor example, use \u003ccode\u003els -a *.ani | xargs -L1 ani2png\u003c/code\u003e to convert all \u003ccode\u003e.ani\u003c/code\u003e files in current directory to \u003ccode\u003e.png\u003c/code\u003e files.\u003c/p\u003e\n\u003ch2\u003eCommon resources / 常用资源\u003c/h2\u003e\n\u003cp\u003eFrom MIUI 13, Android 12.\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eResource ID\u003c/th\u003e\n\u003cth\u003eDescription\u003c/th\u003e\n\u003cth\u003eHotSpot\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_spot_touch\u003c/td\u003e\n\u003ctd\u003eTouch point\u003c/td\u003e\n\u003ctd\u003e(22, 22)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_arrow\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Arrow)\u003c/td\u003e\n\u003ctd\u003e(5, 5)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_hand\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Hand, for example when hover on sth. clickable)\u003c/td\u003e\n\u003ctd\u003e(9, 4)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_text\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Looks like \u003ccode\u003e|\u003c/code\u003e， for editing vertical text input)\u003c/td\u003e\n\u003ctd\u003e(12, 12)\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003ePlease note that the images may be scaled. See \u003ca href=\"https://juejin.cn/post/6844903914022633480\"\u003eAndroid 加载 drawable 中图片后自动缩放的原理\u003c/a\u003e and \u003ca href=\"https://blog.csdn.net/guolin_blog/article/details/50727753#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%EF%BC%8C%E6%AF%8F%E4%B8%80%E7%A7%8D%E5%AF%86%E5%BA%A6%E7%9A%84dpi%E8%8C%83%E5%9B%B4%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E4%BE%8B%E5%B0%B1%E6%98%AF%E5%9B%BE%E7%89%87%E4%BC%9A%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%94%BE%E5%A4%A7%E7%9A%84%E6%AF%94%E4%BE%8B%E3%80%82\"\u003eAndroid drawable微技巧，你所不知道的drawable的那些细节\u003c/a\u003e and \u003ca href=\"https://blog.csdn.net/lgzaaron/article/details/52517941\"\u003egetResources().getDisplayMetrics().density 的理解\u003c/a\u003e for more informaton. In my case, \u003ccode\u003e360x360\u003c/code\u003e on a \u003ccode\u003exhdpi\u003c/code\u003e device becomes \u003ccode\u003e135x135\u003c/code\u003e (\u003ccode\u003e360 * (240 / 320) / 2 = 135\u003c/code\u003e, not sure). You may need to manually adjust size \u0026amp; padding (border) to fit size \u0026amp; hotspot.\u003c/p\u003e\n\u003cp\u003eMouse-related resource-id may have a \u003ccode\u003e_large\u003c/code\u003e suffix, used when \u003ccode\u003eAccessibility\u003c/code\u003e -\u0026gt; \u003ccode\u003eLarge mouse pointer\u003c/code\u003e(\u003ccode\u003e大号鼠标指针\u003c/code\u003e) is enabled.\u003c/p\u003e\n\u003ch2\u003eModule Scope\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eandroid\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eProject URL\u003c/h2\u003e\n\u003cp\u003eHome URL: \u003ca href=\"https://github.com/Young-Lord/replaceCursor\"\u003ehttps://github.com/Young-Lord/replaceCursor\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed Modules Repo URL: \u003ca href=\"https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\"\u003ehttps://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cp\u003eApache-2.0 License or MIT License are all OK.\u003c/p\u003e\n\u003ch2\u003eThanks\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/thesandipv/pointer_replacer\"\u003ehttps://github.com/thesandipv/pointer_replacer\u003c/a\u003e (doesn’t work for me)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/hujiayucc/R-Pointer\"\u003ehttps://github.com/hujiayucc/R-Pointer\u003c/a\u003e (per-app configuration)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/quantum5/win2xcur\"\u003ehttps://github.com/quantum5/win2xcur\u003c/a\u003e (convert \u003ccode\u003e.cur\u003c/code\u003e and \u003ccode\u003e.ani\u003c/code\u003e to Xcursor format, for Linux)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/eworm-de/xcur2png\"\u003ehttps://github.com/eworm-de/xcur2png\u003c/a\u003e (convert Xcursor format to \u003ccode\u003e.png\u003c/code\u003e, see pull requests for a better version)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://blog.csdn.net/qq_41172785/article/details/89063164\"\u003e将Windows上的鼠标指针主题移植到Linux上\u003c/a\u003e (convert, edit, install Windows cursors to Linux)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTODO\u003c/h2\u003e\n\u003cp\u003eCurrently, this module use SharedPreferences to store images, which is really shitty. Anyone is free to improve this module.\u003c/p\u003e\n\u003cp\u003eAlso, I am too low to modify hotspot using Xposed. If you know how to do this, please tell me.\u003c/p\u003e\n\u003cp\u003eAlso: Origin image resolution, disable scaling.\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eReplace Cursor\u003c/h1\u003e\n\u003cp\u003eReplace mouse cursor with a custom one.\u003c/p\u003e\n\u003cp\u003e自定义包括鼠标指针、触控点在内的各种图片资源。\u003c/p\u003e\n\u003cp\u003eNote: You can use Magisk + \u003ca href=\"https://source.android.com/docs/core/runtime/rros\"\u003eRRO\u003c/a\u003e for better experience.\nSee \u003ca href=\"https://github.com/Young-Lord/replaceCursor/tree/master/magisk\"\u003e\u003ccode\u003emagisk\u003c/code\u003e folder\u003c/a\u003e for more information.\n(be aware of SELinux context, btw.)\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://github.com/Young-Lord/replaceCursor/assets/51789698/416d64cc-f065-4b55-953a-6766c27e9f6a\" alt=\"Demo picture, showing UI and example cursor\" /\u003e\u003c/p\u003e\n\u003ch2\u003eHow to use / 用法\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003eTested on:  Android 10 (AOSP), Android 12 (MIUI 13)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003col\u003e\n\u003cli\u003eSelect \u003ccode\u003eSystem framework\u003c/code\u003e (package name may be \u003ccode\u003eandroid\u003c/code\u003e or \u003ccode\u003esystem\u003c/code\u003e or empty, \u003ca href=\"https://github.com/LSPosed/LSPosed/releases/tag/v1.9.1\"\u003esee this\u003c/a\u003e) in module scope and activate the module\u003c/li\u003e\n\u003cli\u003eForce stop module\u003c/li\u003e\n\u003cli\u003eAdd resources to change. Please make sure that image sizes are bigger than hotspot (cursor left-top corner / touch point), otherwise nothing will show.\u003c/li\u003e\n\u003cli\u003eReboot (you MUST reboot when you modify anything, or changes will not be applied until next reboot)\u003c/li\u003e\n\u003cli\u003eReverse engineer \u003ccode\u003e/system/framework/framework-res.apk\u003c/code\u003e to find out the resource ID of the cursor you want to replace.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eFor MiPad users, install \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.maxmipadinput/releases/latest\"\u003eMaxMiPad\u003c/a\u003e and enable \u003ccode\u003eNo Magic Pointer\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eIf you have Windows-style \u003ccode\u003e.ani\u003c/code\u003e cursors, you can use \u003ca href=\"https://github.com/Mastermindzh/Scripts/blob/master/c%2B%2B/ani2png.c\"\u003eani2png\u003c/a\u003e to convert them.\nFor example, use \u003ccode\u003els -a *.ani | xargs -L1 ani2png\u003c/code\u003e to convert all \u003ccode\u003e.ani\u003c/code\u003e files in current directory to \u003ccode\u003e.png\u003c/code\u003e files.\u003c/p\u003e\n\u003cp\u003eLooking for equivalent on \u003cstrong\u003eLinux\u003c/strong\u003e? Check \u003ca href=\"https://github.com/Young-Lord/Image2Cursors\"\u003eImage2Cursors\u003c/a\u003e!\u003c/p\u003e\n\u003ch2\u003eCommon resources / 常用资源\u003c/h2\u003e\n\u003cp\u003eFrom MIUI 13, Android 12.\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eResource ID\u003c/th\u003e\n\u003cth\u003eDescription\u003c/th\u003e\n\u003cth\u003eHotSpot\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_spot_touch\u003c/td\u003e\n\u003ctd\u003eTouch point\u003c/td\u003e\n\u003ctd\u003e(22, 22)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_arrow\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Arrow)\u003c/td\u003e\n\u003ctd\u003e(5, 5)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_hand\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Hand, for example when hover on sth. clickable)\u003c/td\u003e\n\u003ctd\u003e(9, 4)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003epointer_text\u003c/td\u003e\n\u003ctd\u003eMouse Pointer (Looks like \u003ccode\u003e|\u003c/code\u003e， for editing vertical text input)\u003c/td\u003e\n\u003ctd\u003e(12, 12)\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003ePlease note that the images may be scaled. See \u003ca href=\"https://juejin.cn/post/6844903914022633480\"\u003eAndroid 加载 drawable 中图片后自动缩放的原理\u003c/a\u003e and \u003ca href=\"https://blog.csdn.net/guolin_blog/article/details/50727753#:~:text=%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%EF%BC%8C%E6%AF%8F%E4%B8%80%E7%A7%8D%E5%AF%86%E5%BA%A6%E7%9A%84dpi%E8%8C%83%E5%9B%B4%E9%83%BD%E6%9C%89%E4%B8%80%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%EF%BC%8C%E8%BF%99%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%80%BC%E4%B9%8B%E9%97%B4%E7%9A%84%E6%AF%94%E4%BE%8B%E5%B0%B1%E6%98%AF%E5%9B%BE%E7%89%87%E4%BC%9A%E8%A2%AB%E7%B3%BB%E7%BB%9F%E8%87%AA%E5%8A%A8%E6%94%BE%E5%A4%A7%E7%9A%84%E6%AF%94%E4%BE%8B%E3%80%82\"\u003eAndroid drawable微技巧，你所不知道的drawable的那些细节\u003c/a\u003e and \u003ca href=\"https://blog.csdn.net/lgzaaron/article/details/52517941\"\u003egetResources().getDisplayMetrics().density 的理解\u003c/a\u003e for more informaton. In my case, \u003ccode\u003e360x360\u003c/code\u003e on a \u003ccode\u003exhdpi\u003c/code\u003e device becomes \u003ccode\u003e135x135\u003c/code\u003e (\u003ccode\u003e360 * (240 / 320) / 2 = 135\u003c/code\u003e, not sure). You may need to manually adjust size \u0026amp; padding (border) to fit size \u0026amp; hotspot.\u003c/p\u003e\n\u003cp\u003eMouse-related resource-id may have a \u003ccode\u003e_large\u003c/code\u003e suffix, used when \u003ccode\u003eAccessibility\u003c/code\u003e -\u0026gt; \u003ccode\u003eLarge mouse pointer\u003c/code\u003e(\u003ccode\u003e大号鼠标指针\u003c/code\u003e) is enabled.\u003c/p\u003e\n\u003ch2\u003eModule Scope\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eandroid\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eProject URL\u003c/h2\u003e\n\u003cp\u003eHome URL: \u003ca href=\"https://github.com/Young-Lord/replaceCursor\"\u003ehttps://github.com/Young-Lord/replaceCursor\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed Modules Repo URL: \u003ca href=\"https://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\"\u003ehttps://github.com/Xposed-Modules-Repo/moe.lyniko.replacecursor\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cp\u003eApache-2.0 License or MIT License are all OK.\u003c/p\u003e\n\u003ch2\u003eThanks\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/thesandipv/pointer_replacer\"\u003ehttps://github.com/thesandipv/pointer_replacer\u003c/a\u003e (doesn’t work for me)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/hujiayucc/R-Pointer\"\u003ehttps://github.com/hujiayucc/R-Pointer\u003c/a\u003e (per-app configuration)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/quantum5/win2xcur\"\u003ehttps://github.com/quantum5/win2xcur\u003c/a\u003e (convert \u003ccode\u003e.cur\u003c/code\u003e and \u003ccode\u003e.ani\u003c/code\u003e to Xcursor format, for Linux)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/eworm-de/xcur2png\"\u003ehttps://github.com/eworm-de/xcur2png\u003c/a\u003e (convert Xcursor format to \u003ccode\u003e.png\u003c/code\u003e, see pull requests for a better version)\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://blog.csdn.net/qq_41172785/article/details/89063164\"\u003e将Windows上的鼠标指针主题移植到Linux上\u003c/a\u003e (convert, edit, install Windows cursors to Linux)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTODO\u003c/h2\u003e\n\u003cp\u003eCurrently, this module use SharedPreferences to store images, which is really shitty. Anyone is free to improve this module.\u003c/p\u003e\n\u003cp\u003eAlso, I am too low to modify hotspot using Xposed. If you know how to do this, please tell me.\u003c/p\u003e\n\u003cp\u003eAlso: Origin image resolution, disable scaling.\u003c/p\u003e\n",
       "icon": "moe.lyniko.replacecursor.png",
       "lastUpdated": 1706365035000,
       "license": "Unknown",
@@ -6922,7 +6943,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738033622000,
+      "lastUpdated": 1738120032000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -9042,6 +9063,27 @@
       "suggestedVersionCode": "71",
       "suggestedVersionName": "2.0.1",
       "summary": "在不影响聊天记录的情况下尽可能地减少QQ/TIM/微信的内存占用\r\n支持定时清理、手动清理以及自定义清理"
+    },
+    {
+      "added": 1738053806000,
+      "authorName": "Sharl210",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003e百度输入法OPPO定制版增强\u003c/h1\u003e\n\u003ch5\u003e测试机型：一加12\u003c/h5\u003e\n\u003ch5\u003e开发时使用版本：8.5.301.282\u003c/h5\u003e\n\u003ch5\u003e(理论通杀，至少应该一加ColorOS这边定制版应该可以)\u003c/h5\u003e\n\u003ch5\u003e解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\u003c/h5\u003e\n\u003ch5\u003e采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\u003c/h5\u003e\n\u003ch3\u003e在此鸣谢Dexkit项目\u003c/h3\u003e\n\u003ch3\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eLuckyPray : Dexkit\u003c/a\u003e\u003c/h3\u003e\n\u003ch5\u003e本模块开发：Pantokrátor\u003c/h5\u003e\n\u003ch1\u003e一些杂谈\u003c/h1\u003e\n\u003cp\u003e本来是想要把里面的键盘音效也替换一下，\u003c/p\u003e\n\u003cp\u003e但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，\u003c/p\u003e\n\u003cp\u003e而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了🤓👆，加上是初学Dexkit，所以现在的代码一团乱🤡，\u003c/p\u003e\n\u003cp\u003eSo,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸😣😣😣\u003c/p\u003e\n\u003ch5\u003e如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭\u003c/h5\u003e\n\u003ch3\u003e\u003ca href=\"https://www.123865.com/s/nQyRVv-5a60h\"\u003e123云盘(国内)\u003c/a\u003e\u003c/h3\u003e\n\u003ch1\u003e项目地址：\u003c/h1\u003e\n  \u003ca href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\"\u003e\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n\u003c/a\u003e\n",
+      "lastUpdated": 1738053806000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "v1.0发布"
+        }
+      },
+      "name": "百度输入法OPPO定制版增强",
+      "packageName": "fuckinginput.coloros.baidu",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣谢Dexkit项目https:/..."
     },
     {
       "added": 1672839865000,
@@ -13823,7 +13865,24 @@
     ],
     "com.luckyzyx.luckytool": [
       {
-        "added": 1733043531000,
+        "added": 1738071537000,
+        "apkName": "com.luckyzyx.luckytool_17981-1.2.7.apk",
+        "hash": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8784792,
+        "targetSdkVersion": 28,
+        "versionCode": 17981,
+        "versionName": "1.2.7"
+      },
+      {
+        "added": 1733214074000,
         "apkName": "com.luckyzyx.luckytool_17737-1.2.6.apk",
         "hash": "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a",
         "hashType": "sha256",
@@ -13855,23 +13914,6 @@
         "targetSdkVersion": 28,
         "versionCode": 17333,
         "versionName": "1.2.5"
-      },
-      {
-        "added": 1732159479000,
-        "apkName": "com.luckyzyx.luckytool_16957-1.2.4.apk",
-        "hash": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
-        "hashType": "sha256",
-        "minSdkVersion": 30,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.luckyzyx.luckytool",
-        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
-        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
-        "size": 8323091,
-        "targetSdkVersion": 28,
-        "versionCode": 16957,
-        "versionName": "1.2.4"
       }
     ],
     "com.luckyzyx.notifyintercept": [
@@ -15492,7 +15534,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738033622000,
+        "added": 1738120032000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16463,6 +16505,28 @@
         "versionName": "1.2"
       }
     ],
+    "fuckinginput.coloros.baidu": [
+      {
+        "added": 1738053806000,
+        "apkName": "fuckinginput.coloros.baidu_1-1.0.apk",
+        "hash": "ce95fc29f59e561a5da11d0c6596475e7c581dfc24a36810dd858fdf386bcbfc",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "fuckinginput.coloros.baidu",
+        "sig": "fa2cba3455df9ca1c3d77d513faabef0",
+        "signer": "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226",
+        "size": 3166503,
+        "targetSdkVersion": 33,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "github.zerorooot.copyfenbi": [
       {
         "added": 1700233207000,
@@ -17100,9 +17164,41 @@
         "versionName": "1.0.1"
       }
     ],
+    "io.github.howard20181.notificationiconfix": [
+      {
+        "added": 1738087040000,
+        "apkName": "io.github.howard20181.notificationiconfix_68-1.1.apk",
+        "hash": "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "io.github.howard20181.notificationiconfix",
+        "sig": "b3845b8b201076ee6bb8b727e02d44c4",
+        "signer": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9",
+        "size": 19452,
+        "targetSdkVersion": 35,
+        "versionCode": 68,
+        "versionName": "1.1"
+      }
+    ],
     "io.github.icepony.alwayscreateuser": [
       {
-        "added": 1738017530000,
+        "added": 1738075460000,
+        "apkName": "io.github.icepony.alwayscreateuser_6-1.5.apk",
+        "hash": "6797402f5b31536271c42aad5df82fad602cfdeb853d45c9e07812670565b442",
+        "hashType": "sha256",
+        "minSdkVersion": 17,
+        "nativecode": null,
+        "packageName": "io.github.icepony.alwayscreateuser",
+        "sig": "9ad00037c3148a659c2ec2cbfaca9f03",
+        "signer": "fbeaa3bc5f22f4f808274e9d22a5525b619c707e2b5cda0f7ea68d92a7bdf7ef",
+        "size": 11884,
+        "targetSdkVersion": 35,
+        "versionCode": 6,
+        "versionName": "1.5"
+      },
+      {
+        "added": 1738033648000,
         "apkName": "io.github.icepony.alwayscreateuser_5-1.4.apk",
         "hash": "7eff4f9799531eaea58fbf9c77fb0da72fa64cbe70d38aeaeffea9e7e5e64537",
         "hashType": "sha256",
@@ -17867,7 +17963,27 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1737997678000,
+        "added": 1738079642000,
+        "apkName": "junzi.xposed.hook_9-1.8.apk",
+        "hash": "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2499927,
+        "targetSdkVersion": 33,
+        "versionCode": 9,
+        "versionName": "1.8"
+      },
+      {
+        "added": 1738033658000,
         "apkName": "junzi.xposed.hook_8-1.7.apk",
         "hash": "26aca1c6c072e0ed980f4c6a6850af9ddbf46a486a38b2e1f5d9285052950377",
         "hashType": "sha256",
@@ -17900,21 +18016,6 @@
         "targetSdkVersion": 33,
         "versionCode": 7,
         "versionName": "1.6"
-      },
-      {
-        "added": 1737861106000,
-        "apkName": "junzi.xposed.hook_6-1.5.apk",
-        "hash": "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": null,
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 611267,
-        "targetSdkVersion": 33,
-        "versionCode": 6,
-        "versionName": "1.5"
       }
     ],
     "lialh4.ldf": [
@@ -19977,7 +20078,25 @@
     ],
     "top.hookvip.pro": [
       {
-        "added": 1735822269000,
+        "added": 1738070848000,
+        "apkName": "top.hookvip.pro_20250128-4.0.6.apk",
+        "hash": "affaccf71b06087d4699d72c47b6a75c49c92a2b62c5dae88fc871adb0c964bb",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "top.hookvip.pro",
+        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
+        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
+        "size": 5278681,
+        "targetSdkVersion": 34,
+        "versionCode": 20250128,
+        "versionName": "4.0.6"
+      },
+      {
+        "added": 1736058428000,
         "apkName": "top.hookvip.pro_20250102-4.0.5.apk",
         "hash": "ad6748a1a5dc76d31cee29df68351d09fd91612ca14160a91a1fd5637489e9b7",
         "hashType": "sha256",
@@ -20011,24 +20130,6 @@
         "targetSdkVersion": 34,
         "versionCode": 20241215,
         "versionName": "4.0.4"
-      },
-      {
-        "added": 1733214163000,
-        "apkName": "top.hookvip.pro_20241201-4.0.3.apk",
-        "hash": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "top.hookvip.pro",
-        "sig": "860f9b0426e859fcd4e783cfbc7a8716",
-        "signer": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7",
-        "size": 5159130,
-        "targetSdkVersion": 34,
-        "versionCode": 20241201,
-        "versionName": "4.0.3"
       }
     ],
     "top.sacz.timtool": [

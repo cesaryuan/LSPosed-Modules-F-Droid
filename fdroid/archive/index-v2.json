@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1738033847000,
+    "timestamp": 1738120234000,
     "categories": {
       "Xposed": {
         "name": {
@@ -557,6 +557,106 @@
               },
               {
                 "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.luckyzyx.luckytool": {
+      "metadata": {
+        "added": 1732159479000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738120001000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
+        "authorName": "luckyzyx",
+        "name": {
+          "en-US": "LuckyTool Xposed 免费模块"
+        },
+        "summary": {
+          "en-US": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>LuckyTool</h1>\n<p>\n   <b><a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\">English</a>  丨 简体中文</b>\n</p>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://t.me/LuckyTool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a>   \n<a href=\"https://crowdin.com/project/luckytool\"><img alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"></a>\n<p>对ColorOS系统进行的扩展优化的Xposed模块</p>\n<p>永久免费模块，请勿上当受骗</p>\n<p>禁止引流、搬运、转载、售卖、分享、分流</p>\n<p>提倡授之以渔，切莫授之以鱼</p>\n</div>\n<hr />\n<h2>功能请求与BUG反馈</h2>\n<p>请前往TG群组进行反馈交流</p>\n<div align=\"left\">\n<p>\n   <b><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\">更新日志</a> | <a href=\"https://crwd.in/luckytool\">参与翻译</a></b>\n</p>\n</div>\n<h2>作用域优化</h2>\n<p>升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化</p>\n<p>例如：开发者选项通知，则重新优化系统界面（</p>\n<h2>模块违规条例解析</h2>\n<p>引流：包括但不限于快手、抖音、公众号等引流行为</p>\n<p>售卖：免费模块，不再解释</p>\n<p>搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能</p>\n<p>开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)</p>\n<p>注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规</p>\n<p>违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜</p>\n<h2>Xposed API</h2>\n<p><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></p>\n"
+        },
+        "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+      },
+      "versions": {
+        "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9": {
+          "added": 1732159479000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_16957-1.2.4.apk",
+            "sha256": "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9",
+            "size": 8323091
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.4",
+            "versionCode": 16957,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
               }
             ]
           }
@@ -1416,7 +1516,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033658000,
+        "lastUpdated": 1738120070000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -1431,6 +1531,35 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f": {
+          "added": 1737861106000,
+          "file": {
+            "name": "/junzi.xposed.hook_6-1.5.apk",
+            "sha256": "73ae5efbb9a1d37a07cda8011b2a300424d684286f11c141c45b21732975da4f",
+            "size": 611267
+          },
+          "manifest": {
+            "versionName": "1.5",
+            "versionCode": 6,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "513a5875b53d89994953d136b632119dae5c0602254f4a654c027f890383c770": {
           "added": 1737774504000,
           "file": {
@@ -2423,7 +2552,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736058428000,
+        "lastUpdated": 1738120113000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/top.hookvip.pro",
         "authorName": "lovejiuwu",
         "name": {
@@ -2438,6 +2567,72 @@
         "preferredSigner": "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
       },
       "versions": {
+        "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015": {
+          "added": 1733214163000,
+          "file": {
+            "name": "/top.hookvip.pro_20241201-4.0.3.apk",
+            "sha256": "6ba5ab7f9267dc3b503ad7c46e00b2c8a3c2102710adb50bfe7e195122153015",
+            "size": 5159130
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.3",
+            "versionCode": 20241201,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "0feaa1782069bcb07abc06643bfd2007c0f6988f943b26764b5676bdd69013a7"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.CHANGE_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "top.hookvip.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "8f5d2657a34285af40bcddc502a50f1c2850ee284498f75730d1babb27db11b4": {
           "added": 1732159589000,
           "file": {

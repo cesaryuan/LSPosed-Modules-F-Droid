@@ -1,0 +1,14 @@
+AuthorName: Sharl210
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了\U0001F913\U0001F446，加上是初学Dexkit，所以现在的代码一团乱\U0001F921，</p>\n<p>So,\U0001F4A9山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸\U0001F623\U0001F623\U0001F623</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽\U0001F62D\U0001F62D\U0001F62D</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
+IssueTracker: ""
+Name: 百度输入法OPPO定制版增强
+SourceCode: https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu
+Summary: |-
+    解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件
+    采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行
+    在此鸣谢Dexkit项目https:/...
+WebSite: ""
