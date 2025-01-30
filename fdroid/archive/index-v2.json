@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1738120234000,
+    "timestamp": 1738206860000,
     "categories": {
       "Xposed": {
         "name": {
@@ -569,7 +569,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738120001000,
+        "lastUpdated": 1738206496000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
         "authorName": "luckyzyx",
         "name": {
@@ -584,6 +584,86 @@
         "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
       },
       "versions": {
+        "688922e2dc9ecfca7e7c21b6b46367726c011b5004cad93ca7634cd051286009": {
+          "added": 1732159480000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_17333-1.2.5.apk",
+            "sha256": "688922e2dc9ecfca7e7c21b6b46367726c011b5004cad93ca7634cd051286009",
+            "size": 8387929
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.5",
+            "versionCode": 17333,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "e06f69256ed8a42a9b1aeebd39077c89049942e5daa12830b4b47eca442621b9": {
           "added": 1732159479000,
           "file": {
@@ -797,7 +877,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737256240000,
+        "lastUpdated": 1738206514000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
         "authorName": "lingqiqi5211",
         "name": {
@@ -812,6 +892,107 @@
         "preferredSigner": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
       },
       "versions": {
+        "27ea7fe4c82153f0b84eb4de71872ff587df314fd9c8ff668effbbe035cfa67c": {
+          "added": 1736058342000,
+          "file": {
+            "name": "/com.sevtinge.hyperceiler_154-2.5.154_20250101.apk",
+            "sha256": "27ea7fe4c82153f0b84eb4de71872ff587df314fd9c8ff668effbbe035cfa67c",
+            "size": 7070141
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5.154_20250101",
+            "versionCode": 154,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_PRIVILEGED"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.SET_ANIMATION_SCALE"
+              },
+              {
+                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
+              },
+              {
+                "name": "miui.permission.READ_LOGS"
+              },
+              {
+                "name": "miui.permission.DUMP_CACHED_LOG"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
+              },
+              {
+                "name": "hyperceiler.permission.APP_CRASH"
+              }
+            ]
+          }
+        },
         "7503121c740b86b2351feb0d51b5b0428979a20a543b3008b0c0ef04435305a7": {
           "added": 1732159495000,
           "file": {
