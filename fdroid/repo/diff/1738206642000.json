@@ -1,0 +1,61 @@
+{
+  "repo": {
+    "timestamp": 1738206874000
+  },
+  "packages": {
+    "cn.ac.lz233.tarnhelm": {
+      "versions": {
+        "1cd3d27d683129e65ea9c60d72c65e99d79eb5e2de13327e311a5b77eb7fbb09": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "cn.lyric.getter": {
+      "versions": {
+        "00eeeeeb53b08c358bd1586d22aa3ab42fb6507c4c39badb347f1777ade246a6": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.luckyzyx.luckytool": {
+      "versions": {
+        "7151d479e689eddd72e7b2cc5bc48e8ebb479865e095588f1cd5c05d21e58eee": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.setoskins.hook": {
+      "versions": {
+        "c122f78f5de1b572128617cf1298d8c775c8a59893f5adc97ad0ddaee3acf430": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.sevtinge.hyperceiler": {
+      "versions": {
+        "f5e0534d05ec567fcaf9e711ca9433c3dd8be7a60eaca2502cf1af49f7856cab": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "io.github.howard20181.notificationiconfix": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Notification Icon Fix</h1>\n<p><a href=\"/README.zh.md\">中文</a></p>\n<p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>\n<h2>Supported System</h2>\n<ul>\n<li>Android 8.1 ~ AOSP main branch</li>\n<li>HyperOS</li>\n<li>MIUI 12.5</li>\n</ul>\n<h2>Screenshots</h2>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img src=\"/docs/img/3.jpg\" alt=\"Single Notification\" /></td>\n<td><img src=\"/docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /></td>\n</tr>\n<tr>\n<td><img src=\"/docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n<td><img src=\"/docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n</tr>\n</tbody>\n</table>\n<h2>Algorithm Details</h2>\n<ol>\n<li>Determine and reduce oversized icons to the maximum allowed icon size</li>\n<li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>\n<li>(For MIUI) Detect transparent borders and trim icons</li>\n<li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a <a href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\">perfect icon</a> (Need to install it yourself)</li>\n<li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>\n<li>Calculate the average lumens excluding transparent pixels</li>\n<li>Quantify the most common color of edge pixels</li>\n<li>Calculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border</li>\n<li>Determine whether the icon background is light or dark</li>\n<li>Use K-means quantizer to extract the primary color of the icon</li>\n<li>Invert the icon foreground according to the background and remove the border</li>\n<li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>\n<li>Final result output, cache icon, and accent color to WeakHashMap</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "c1de02b4f202ac4b51aa3493bd9a80c8ee6e2db9ff43af5c70188a06d09540e3": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "statusbar.lyric": {
+      "versions": {
+        "175b1f8b7ebecfc6b5d47691259f4817593e21af21c88b0b6074f429e697c991": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

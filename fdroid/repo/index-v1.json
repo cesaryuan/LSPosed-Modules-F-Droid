@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738120247000,
+    "timestamp": 1738206874000,
     "version": 20002
   },
   "requests": {
@@ -3134,25 +3134,25 @@
       "summary": "我 心 澎 湃 ！！！\nA module for HyperOS"
     },
     {
-      "added": 1737710522000,
+      "added": 1738156910000,
       "authorName": "lingqiqi5211",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eHyperCeiler\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jq.qq.com/?_wv=1027\u0026amp;k=TedCJq8V\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qgroup\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pd.qq.com/s/35ooe0ssj\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qguild\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/cemiuiler\"\u003e\u003cimg src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge\u0026amp;color=2CA5E0\u0026amp;label=Telegram\u0026amp;logo=telegram\u0026amp;query=%24.data.totalSubs\u0026amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003e让 HyperOS 再次伟大 ！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003e本项目源码\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e当前支持的版本\u003c/h2\u003e\n\u003cp\u003eAndroid 14-15 的 HyperOS\u003c/p\u003e\n\u003ch2\u003e使用前说明\u003c/h2\u003e\n\u003cp\u003e请在 \u003ca href=\"https://github.com/LSPosed/LSPosed/releases\"\u003eLSPosed\u003c/a\u003e 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；\u003c/p\u003e\n\u003cp\u003e本模块\u003cb\u003e不支持\u003c/b\u003e \u003ccode\u003e修改较多的第三方 Xiaomi HyperOS ROM\u003c/code\u003e、\u003ccode\u003e修改较多的系统软件\u003c/code\u003e，以及\u003ccode\u003e部分国际 Xiaomi HyperOS ROM\u003c/code\u003e；\u003c/p\u003e\n\u003cp\u003e目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进\u003c/p\u003e\n\u003cp\u003e在\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler/issues\"\u003e提交反馈\u003c/a\u003e前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情\u003c/p\u003e\n\u003cp\u003eHyperCeiler 已停止维护 Android 11-13 的 MIUI ROM 和 Android 13 的 HyperOS1.0 ROM\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 11-12 的 MIUI ROM 请使用 \u003ca href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\"\u003e此版本\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eAndroid 13 的 MIUI ROM 和 HyperOS1.0 ROM 请使用 \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler/releases/download/3866-2.5.156_20250118/HyperCeiler_2.5.156_20250118_3866_release_miui.apk\"\u003e此版本\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e为 HyperCeiler 项目提交翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/cemiuiler\"\u003e\u003cimg src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e您可以在\u003ca href=\"https://crwd.in/cemiuiler\"\u003e这里\u003c/a\u003e为 HyperCeiler 项目贡献翻译。\u003c/p\u003e\n",
       "icon": "com.sevtinge.hyperceiler.png",
-      "lastUpdated": 1737710522000,
+      "lastUpdated": 1738156910000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "发布前说明：\n本次仅以个人名义(@lingqiqi5211) 在 LSPosed 仓库发布更新\n紧急修复了一个导致 APP 打开崩溃的问题，MIUI14 用户和 Android 13 的 HyperOS1.0 用户请下载带 miui 后缀的包\n相关源码已提交至主仓库\n\n支持版本：\nHyperOS 1.0 / 2.0\nAndroid 14(U, 34) / Android 15(V, 35)\n\n部分功能暂不支持 HyperOS 1.1\n\n更新日志：\n模块\n- 调整 媒体通知卡片 - 拆分媒体通知卡片的部分优化项目 (@lingqiqi5211)\n- 优化 焦点歌词 - 如果应用主动使用 Lyrics Getting Api，则会设置图标为应用开发者所设置的图标 (@ghhccghk, @lingqiqi5211)\n- 优化 应用商店 - 禁用开启推送弹窗的实现逻辑 (@Voemp)\n\n应用\n- 修复 初次进入应用时，系统语言环境为 en_US 导致应用闪退的问题 (@YunZiA)"
+          "whatsNew": "### 发布前说明：\n本次仅以个人名义(@lingqiqi5211) 在 LSPosed 仓库发布更新\n此次更新已打磨多天，虽无法保证全部可用，但目前大部分功能已修复完毕\n祝大家新年快乐！\n\n### 支持版本：\nHyperOS 1.0 / 2.0\nAndroid 14(U, 34) / Android 15(V, 35)\n\n部分功能暂不支持 HyperOS 1.1\n\n### 更新日志：\n**模块**\n- 修复 系统框架 - 小窗 - 强制允许小窗 抛出的异常问题 @lingqiqi5211 \n- 修复 系统界面 - 通知与控制中心 - 解除通知背景模糊限制 在 HyperOS2 hook 失败的问题 @lingqiqi5211 \n- 修复 系统桌面 - 其他 - 强制识别为高端机型 hook 失败的问题 @lingqiqi5211 \n- 修复 音质音效-耳机状态自动切换原生在部分版本 hook 失败的问题 @HChenX, @Voemp, @hank9999, @lingqiqi5211 \n- 修复 相机 hook 问题 @lingqiqi5211\n- 修复 小米相册-编辑-红米联名定"
         }
       },
       "name": "HyperCeiler",
       "packageName": "com.sevtinge.hyperceiler",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
-      "suggestedVersionCode": "3869",
-      "suggestedVersionName": "2.5.156_20250118",
+      "suggestedVersionCode": "3901",
+      "suggestedVersionName": "2.5.157_20250129",
       "summary": "让 HyperOS 再次伟大！\nMake HyperOS Great Again!"
     },
     {
@@ -3789,14 +3789,14 @@
       "summary": "Hide chats in the Telegram messenger"
     },
     {
-      "added": 1738071537000,
+      "added": 1738189635000,
       "authorName": "luckyzyx",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eLuckyTool\u003c/h1\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\"\u003eEnglish\u003c/a\u003e  丨 简体中文\u003c/b\u003e\n\u003c/p\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/LuckyTool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e   \n\u003ca href=\"https://crowdin.com/project/luckytool\"\u003e\u003cimg alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"\u003e\u003c/a\u003e\n\u003cp\u003e对ColorOS系统进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003cp\u003e禁止引流、搬运、转载、售卖、分享、分流\u003c/p\u003e\n\u003cp\u003e提倡授之以渔，切莫授之以鱼\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能请求与BUG反馈\u003c/h2\u003e\n\u003cp\u003e请前往TG群组进行反馈交流\u003c/p\u003e\n\u003cdiv align=\"left\"\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\"\u003e更新日志\u003c/a\u003e | \u003ca href=\"https://crwd.in/luckytool\"\u003e参与翻译\u003c/a\u003e\u003c/b\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e作用域优化\u003c/h2\u003e\n\u003cp\u003e升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化\u003c/p\u003e\n\u003cp\u003e例如：开发者选项通知，则重新优化系统界面（\u003c/p\u003e\n\u003ch2\u003e模块违规条例解析\u003c/h2\u003e\n\u003cp\u003e引流：包括但不限于快手、抖音、公众号等引流行为\u003c/p\u003e\n\u003cp\u003e售卖：免费模块，不再解释\u003c/p\u003e\n\u003cp\u003e搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能\u003c/p\u003e\n\u003cp\u003e开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)\u003c/p\u003e\n\u003cp\u003e注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规\u003c/p\u003e\n\u003cp\u003e违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜\u003c/p\u003e\n\u003ch2\u003eXposed API\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.luckyzyx.luckytool.png",
-      "lastUpdated": 1738071537000,
+      "lastUpdated": 1738189635000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3806,30 +3806,30 @@
       "name": "LuckyTool Xposed 免费模块",
       "packageName": "com.luckyzyx.luckytool",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
-      "suggestedVersionCode": "17981",
+      "suggestedVersionCode": "17993",
       "suggestedVersionName": "1.2.7",
       "summary": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
     },
     {
-      "added": 1735537998000,
+      "added": 1738158373000,
       "authorName": "xiaowine",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lyric.getter/total?style=flat-square\" alt=\"Release Download\" /\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/xiaowine/Lyric-Getter/total?style=flat-square\" alt=\"Release Download\" /\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/xiaowine/Lyric-Getter?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/xiaowine/Lyric-Getter?style=flat-square\u0026amp;color=3cb371\" alt=\"GitHub Repo size\" /\u003e\u003cbr /\u003e\n\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/search?l=koltin\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Repo Languages\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003ca href=\"https://actions-badge.atrox.dev/xiaowine/Lyric-Getter/goto?ref=main\"\u003e\u003cimg src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain\u0026amp;style=flat\" alt=\"Build Status\" /\u003e\u003c/a\u003e\u003cbr /\u003e\n\u003cimg src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter.svg?style=social\" alt=\"GitHub Star\" /\u003e\u003c/p\u003e\n\u003ch2\u003e这是什么东西？\u003c/h2\u003e\n\u003ch4\u003e这是一个Xposed模块（现支持LSPosed\\LSPatch），通过Hook获取音乐软件的歌词，提供给其他模块\\软件使用\u003c/h4\u003e\n\u003ch2\u003e为什么我的歌词不隐藏？\u003c/h2\u003e\n\u003ch4\u003e因为模块通过监听媒体通知事件，来判断是否应该隐藏歌词。而部分音乐软件默认通知样式为自定义的，所以需要将通知样式改为系统样式\u003c/h4\u003e\n\u003chr /\u003e\n\u003ch3\u003e支持软件请在模块内查看，或查看\u003ca href=\"https://github.com/xiaowine/Lyric-Getter/blob/gh-pages/app_rules_version\"\u003e规则文件\u003c/a\u003e\u003c/h3\u003e\n\u003chr /\u003e\n\u003ch3\u003e你也可以主动使用本模块API，用于收发歌词\u003ca href=\"https://github.com/xiaowine/Lyric-Getter-Api\"\u003eLyric-Getter-Api\u003c/a\u003e\u003c/h3\u003e\n\u003chr /\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#xiaowine/Lyric-Getter\u0026amp;Timeline\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter\u0026amp;type=Timeline\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.lyric.getter.png",
-      "lastUpdated": 1735537998000,
+      "lastUpdated": 1738158373000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 优化：设备名称获取。\n- 优化：为图标添加 monochrome 属性。\n- 修复：澎湃上修改机型导致网易云喜欢按键与歌词按键异常的问题。\n- 优化：添加日语翻译，更新日语翻译。\n- 新增：葡萄牙语（巴西），更新英语翻译。\n- 新增：对“音乐播放器”的支持。\n- 新增：对“Gramophone”的支持。\n- 修复：酷狗概念被概率崩溃的问题。\n- 优化：完善 lyricData 中的包名数据。\n- 修复：因过滤进程导致酷狗开关消失的问题。\n- 优化：允许 log 输出至 lsposed。\n- 优化：部分 Hook 点。\n- 优化：更新依赖。"
+          "whatsNew": "- 新增：网易云状态栏歌词强开\n- 优化：删除无用的函数\n- 优化：移动getProcessName函数到HookTools里来增加代码复用性\n- 修复：酷狗概念版3.4.9状态栏无法使用\n- 优化：vivo设备名称获取\n- 更新：Portuguese and English 翻译更新\n**Full Changelog**: https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.16...25-2.0.25"
         }
       },
       "name": "Lyric Getter | 酒域-歌词获取",
       "packageName": "cn.lyric.getter",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.lyric.getter",
-      "suggestedVersionCode": "24",
-      "suggestedVersionName": "2.0.16",
+      "suggestedVersionCode": "25",
+      "suggestedVersionName": "2.0.25",
       "summary": "Lyric Getter"
     },
     {
@@ -4964,24 +4964,24 @@
       "summary": "隐藏最近任务列表视图"
     },
     {
-      "added": 1738087040000,
+      "added": 1738179131000,
       "authorName": "Howard20181",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eNotification Icon Fix\u003c/h1\u003e\n\u003cp\u003eA module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.\u003c/p\u003e\n\u003ch2\u003eSupported System\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1 ~ AOSP main branch\u003c/li\u003e\n\u003cli\u003eHyperOS\u003c/li\u003e\n\u003cli\u003eMIUI 12.5\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eAlgorithm Details\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eDetermine and reduce oversized icons to the maximum allowed icon size\u003c/li\u003e\n\u003cli\u003eMap the icon pixel position to a two-dimensional coordinate system and calculate the geometric center\u003c/li\u003e\n\u003cli\u003e(For MIUI) Detect transparent borders and trim icons\u003c/li\u003e\n\u003cli\u003e(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a perfect icon\u003c/li\u003e\n\u003cli\u003e(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)\u003c/li\u003e\n\u003cli\u003eCalculate the average lumens excluding transparent pixels\u003c/li\u003e\n\u003cli\u003eQuantify the most common color of edge pixels\u003c/li\u003e\n\u003cli\u003eCalculate the Euclidean distance between the edge pixel and the color of the most common Lab color space obtained above to determine whether the icon has a border\u003c/li\u003e\n\u003cli\u003eDetermine whether the icon background is light or dark\u003c/li\u003e\n\u003cli\u003eUse K-means quantizer to extract the primary color of the icon\u003c/li\u003e\n\u003cli\u003eInvert the icon foreground according to the background and remove the border\u003c/li\u003e\n\u003cli\u003eDetermine the actual visible area of ​​the icon and remove the blank area based on the visual center\u003c/li\u003e\n\u003cli\u003eFinal result output, cache icon, and accent color to WeakHashMap\u003c/li\u003e\n\u003c/ol\u003e\n",
-      "lastUpdated": 1738087040000,
+      "description": "\u003ch1\u003eNotification Icon Fix\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"/README.zh.md\"\u003e中文\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.\u003c/p\u003e\n\u003ch2\u003eSupported System\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1 ~ AOSP main branch\u003c/li\u003e\n\u003cli\u003eHyperOS\u003c/li\u003e\n\u003cli\u003eMIUI 12.5\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eScreenshots\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"/docs/img/3.jpg\" alt=\"Single Notification\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"/docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"/docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"/docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eAlgorithm Details\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eDetermine and reduce oversized icons to the maximum allowed icon size\u003c/li\u003e\n\u003cli\u003eMap the icon pixel position to a two-dimensional coordinate system and calculate the geometric center\u003c/li\u003e\n\u003cli\u003e(For MIUI) Detect transparent borders and trim icons\u003c/li\u003e\n\u003cli\u003e(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a \u003ca href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\"\u003eperfect icon\u003c/a\u003e (Need to install it yourself)\u003c/li\u003e\n\u003cli\u003e(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)\u003c/li\u003e\n\u003cli\u003eCalculate the average lumens excluding transparent pixels\u003c/li\u003e\n\u003cli\u003eQuantify the most common color of edge pixels\u003c/li\u003e\n\u003cli\u003eCalculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border\u003c/li\u003e\n\u003cli\u003eDetermine whether the icon background is light or dark\u003c/li\u003e\n\u003cli\u003eUse K-means quantizer to extract the primary color of the icon\u003c/li\u003e\n\u003cli\u003eInvert the icon foreground according to the background and remove the border\u003c/li\u003e\n\u003cli\u003eDetermine the actual visible area of ​​the icon and remove the blank area based on the visual center\u003c/li\u003e\n\u003cli\u003eFinal result output, cache icon, and accent color to WeakHashMap\u003c/li\u003e\n\u003c/ol\u003e\n",
+      "lastUpdated": 1738179131000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## Change log\n\n- remove missing debug code"
+          "whatsNew": "## Changelog\n\n- Don't assume VectorDrawable is ok, there are many colorful VectorDrawable icons set by the system on HyperOS\n\t\u003cimg width=\"454\" alt=\"image\" src=\"https://github.com/user-attachments/assets/676c1b8c-c232-42b8-a778-a029613241de\" /\u003e"
         }
       },
       "name": "Notification Icon Fix / 通知图标修复",
       "packageName": "io.github.howard20181.notificationiconfix",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
-      "suggestedVersionCode": "68",
-      "suggestedVersionName": "1.1",
+      "suggestedVersionCode": "72",
+      "suggestedVersionName": "1.3",
       "summary": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
     },
     {
@@ -6179,25 +6179,25 @@
       "summary": "set app to full screen run.\n将应用突破次元壁，覆盖异形屏幕限制全面显示_(:з」∠)_"
     },
     {
-      "added": 1722561338000,
+      "added": 1732159493000,
       "authorName": "SetoSkins",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eSetoHook\u003c/h1\u003e\n\u003cp\u003e一个用于Hook小米系统的工具\u003c/p\u003e\n",
       "icon": "com.setoskins.hook.png",
-      "lastUpdated": 1722561338000,
+      "lastUpdated": 1738206511000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "修复弹窗"
+          "whatsNew": "增加Millet激进逻辑\n新增锁定电池优化（\n更新XX界面\n\n新年快乐！"
         }
       },
       "name": "SetoHook",
       "packageName": "com.setoskins.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.setoskins.hook",
-      "suggestedVersionCode": "210",
-      "suggestedVersionName": "2.1.0",
+      "suggestedVersionCode": "220",
+      "suggestedVersionName": "2.2.1",
       "summary": "一个用于Hook小米系统的工具"
     },
     {
@@ -6397,25 +6397,25 @@
       "summary": "Move chosen notification icons from the left to the right side of the system ..."
     },
     {
-      "added": 1735538078000,
+      "added": 1738165330000,
       "authorName": "qqlittleice233",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1 align=\"center\"\u003e墨•状态栏歌词\u003c/h1\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/577fkj/StatusBarLyric/total?style=flat-square\" alt=\"Release Download\" /\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/577fkj/StatusBarLyric?style=flat-square\" alt=\"Release Version\" /\u003e\u003c/a\u003e\n\u003ca href=\"LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/network/members\"\u003e\u003cimg src=\"https://img.shields.io/github/forks/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Fork\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/577fkj/StatusBarLyric?style=flat-square\u0026amp;color=3cb371\" alt=\"GitHub Repo size\" /\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric/search?l=java\"\u003e\u003cimg src=\"https://img.shields.io/github/languages/top/577fkj/StatusBarLyric?style=flat-square\" alt=\"GitHub Repo Languages\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://actions-badge.atrox.dev/577fkj/StatusBarLyric/goto?ref=main\"\u003e\u003cimg src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain\u0026amp;style=flat\" alt=\"Build Status\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/577fkj/StatusBarLyric\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/577fkj/StatusBarLyric.svg?style=social\" alt=\"GitHub Star\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/StatusBatLyric\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%94%B5%E6%8A%A5%E7%BE%A4-StatusBatLyric-blue.svg?style=flat-square\u0026amp;color=12b7f5\" alt=\"电报群\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://afdian.net/@xiao_wine\"\u003e\u003cimg src=\"https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-@xiao_wine-blue.svg?style=flat-square\u0026amp;color=12b7f5\" alt=\"爱发电\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003e理论支持 \u003cstrong\u003e所有\u003c/strong\u003e 官方以及部分修改系统\u003c/h3\u003e\n\u003ch3\u003e奉献者\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/graphs/contributors\"\u003e奉献者\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e帮助翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/statusbarlyric\"\u003e\u003cimg src=\"https://badges.crowdin.net/statusbarlyric/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/statusbarlyric\"\u003e点击进入Crowdin\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003e下载\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/actions/workflows/Android.yml\"\u003eBeta\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/actions/workflows/Android_Dev.yml\"\u003eCanary\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e联系我们\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/StatusBatLyric\"\u003e电报\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/577fkj/StatusBarLyric/issues/new\"\u003eBUG反馈(Github)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e贡献\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/doc/CONTRIBUTING.md\"\u003e想做贡献？\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eEULA \u0026amp; License\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/doc/EULA.md\"\u003eEULA\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Block-Network/StatusBarLyric/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eStar History\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#Block-Network/StatusBarLyric\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=Block-Network/StatusBarLyric\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "statusbar.lyric.png",
-      "lastUpdated": 1735538078000,
+      "lastUpdated": 1738165330000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 7.0.2\n#### 重要提醒：\n- 为了确保使用体验请务必更新 Lyric-Getter 至  2.0.16 版以上。\n---\n- 修复：隐藏通知图标功能在非播放状态生效的问题。#462\n- 修复：横屏状态栏隐藏时概率高级材质背景未能隐藏的问题。#479，#480，#485，#486，#504\n- 修复：悬浮标题无法弹出的问题。#478\n- 修复：概率获取到其他应用视频标题触发弹出悬浮标题的问题。#478\n- 修复：播放状态受其他应用干扰的问题。#478\n- 修复：状态栏歌词与焦点通知冲突的问题。#481，#483，#484，#496，#508\n- 修复：在 HyperOS 2 上通知图标隐藏失败的问题。#493\n- 修复：切换壁纸后概率状态栏歌词不再显示的问题。#509\n- 修复：选择不隐藏某些项目后项目仍然被隐藏的问题。#507\n- 新增：模块将自动处理与焦点通知的兼容功能 *1。\n- 优化：Hyper OS 2 上隐藏时钟后，调整大时钟过渡动画。#497，#499，#506\n- *1：焦点通知弹出时将自动隐藏歌词，点击状态栏可重新显示但焦点通知会被隐藏，反之亦然。\n- "
+          "whatsNew": "### 7.1.1\n#### 重要提醒：\n- 为了确保使用体验请务必更新 Lyric-Getter 至  2.0.16 版以上。\n---\n- 修复：横竖屏切换可能导致的系统界面崩溃问题。#532\n- 修复：切换深色亮色模式时状态栏歌词显示异常的问题。#527\n- 新增：歌词刷新超时时自动结束状态栏歌词状态。#528\n- 优化：移除多余的旧实现，调整代码。#527 #526\n- by @HChenX \n---\n- 优化：整理优化代码。\n- by @YuKongA \n---\n- 新增：歌词动画添加垂直翻转和水平反转。#523\n- 优化：vivo 设备名称获取，为锚点添加 id name 描述。#522\n- 优化：为菜单文本添加中文翻译。#530\n- by @ghhccghk "
         }
       },
       "name": "StatusBar Lyric",
       "packageName": "statusbar.lyric",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/statusbar.lyric",
-      "suggestedVersionCode": "702",
-      "suggestedVersionName": "7.0.2",
+      "suggestedVersionCode": "711",
+      "suggestedVersionName": "7.1.1",
       "summary": "StatusBar Lyric / 墨•状态栏歌词"
     },
     {
@@ -6479,25 +6479,25 @@
       "summary": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li..."
     },
     {
-      "added": 1731924599000,
+      "added": 1738151161000,
       "authorName": "lz233",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/lz233/Tarnhelm/master/art/animation.webp\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e更多信息，参见：\u003ca href=\"https://tarnhelm.project.ac.cn/\"\u003etarnhelm.project.ac.cn\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e从 Play Store 获取：\u003ca href=\"https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\"\u003ehttps://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e从 F-Droid 获取：\u003ca href=\"https://f-droid.org/packages/cn.ac.lz233.tarnhelm\"\u003ehttps://f-droid.org/packages/cn.ac.lz233.tarnhelm\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.ac.lz233.tarnhelm.png",
-      "lastUpdated": 1731924599000,
+      "lastUpdated": 1738151161000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Adapt to Android 15\n\n- 适配 Android 15"
+          "whatsNew": "- 新增：后台监听切换到 Shizuku ( \u003e= Android Q)\n\n- New: Background monitoring switched to Shizuku ( \u003e= Android Q)"
         }
       },
       "name": "Tarnhelm",
       "packageName": "cn.ac.lz233.tarnhelm",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
-      "suggestedVersionCode": "20241118",
-      "suggestedVersionName": "1.6.6",
+      "suggestedVersionCode": "20250129",
+      "suggestedVersionName": "1.7.0",
       "summary": "The magic to clean sharing links up.\n清理分享链接的魔法。"
     },
     {
@@ -6943,7 +6943,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738120032000,
+      "lastUpdated": 1738206527000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -10028,14 +10028,14 @@
       "summary": "Auto Clears All Type of Cache when Scoped App launch or started"
     },
     {
-      "added": 1737893519000,
+      "added": 1737947193000,
       "authorName": "AraafRoyalll",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eTelegram Speed Hook\u003c/h1\u003e\n\u003cp\u003eAn Xposed Module to Increase Telegram Speed to Extreme\u003c/p\u003e\n\u003cp align=\"centre\"\u003e\n  \u003cimg src=\"https://github.com/araafroyall/Telegram-Speed-Hook/raw/main/assets/TgSpeedHook.png\" style=\"width: 100%;\" /\u003e\n\u003c/p\u003e\n\u003cp\u003eCreated by : @AraafRoyall\u003c/p\u003e\n\u003cp\u003eTelegram Username : @AraafRoyall\u003c/p\u003e\n\u003cp\u003eThanks for using the Module ..\u003c/p\u003e\n\u003cp\u003eFeel free to contact, ask, help, discuss about the module\u003c/p\u003e\n",
       "icon": "Telegram.Speed.Hook.1.png",
-      "lastUpdated": 1737893519000,
+      "lastUpdated": 1738206426000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -10162,7 +10162,7 @@
     ],
     "Telegram.Speed.Hook": [
       {
-        "added": 1737893519000,
+        "added": 1737947193000,
         "apkName": "Telegram.Speed.Hook_1-1.0.apk",
         "hash": "c2c2219bdc44837af5545b799ccb09daa63f45065f220ce126d671e3cf7d21f8",
         "hashType": "sha256",
@@ -10175,6 +10175,21 @@
         "targetSdkVersion": 28,
         "versionCode": 1,
         "versionName": "1.0"
+      },
+      {
+        "added": 1738158833000,
+        "apkName": "Telegram.Speed.Hook_1-1.1_AraafRoyall.apk",
+        "hash": "463d26b6341cfef80621dfaae53b43e625fc5c50618191612d539379bc972347",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "Telegram.Speed.Hook",
+        "sig": "1e6074f4d7c9aab9404bbcff51e212ae",
+        "signer": "e34098a68cb00ebcbc1d7e3644eb5e1be03a840c161b67c3bba717afb3576e97",
+        "size": 33611,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.1 AraafRoyall"
       }
     ],
     "akhil.alltrans": [
@@ -10452,7 +10467,22 @@
     ],
     "cn.ac.lz233.tarnhelm": [
       {
-        "added": 1731924599000,
+        "added": 1738151161000,
+        "apkName": "cn.ac.lz233.tarnhelm_20250129-1.7.0.apk",
+        "hash": "1cd3d27d683129e65ea9c60d72c65e99d79eb5e2de13327e311a5b77eb7fbb09",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "cn.ac.lz233.tarnhelm",
+        "sig": "01f48ff1dd1c12fe8dcfb10844a01ae7",
+        "signer": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0",
+        "size": 2292629,
+        "targetSdkVersion": 35,
+        "versionCode": 20250129,
+        "versionName": "1.7.0"
+      },
+      {
+        "added": 1732159410000,
         "apkName": "cn.ac.lz233.tarnhelm_20241118-1.6.6.apk",
         "hash": "b5efe3955997d8af69ad0f0d8108a7d3e6d5ae276e98b2a02113514c1a3fc68d",
         "hashType": "sha256",
@@ -10925,7 +10955,27 @@
     ],
     "cn.lyric.getter": [
       {
-        "added": 1735537998000,
+        "added": 1738158373000,
+        "apkName": "cn.lyric.getter_25-2.0.25.apk",
+        "hash": "00eeeeeb53b08c358bd1586d22aa3ab42fb6507c4c39badb347f1777ade246a6",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "cn.lyric.getter",
+        "sig": "7c1a0b1d09dfda7eef52f3fc2d6af586",
+        "signer": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39",
+        "size": 3108161,
+        "targetSdkVersion": 35,
+        "versionCode": 25,
+        "versionName": "2.0.25"
+      },
+      {
+        "added": 1735614490000,
         "apkName": "cn.lyric.getter_24-2.0.16.apk",
         "hash": "d389ba07d8b79b707ad6daecb6c9c4b7d197a8aaf7f7228027f97373a6e0f85d",
         "hashType": "sha256",
@@ -13865,7 +13915,24 @@
     ],
     "com.luckyzyx.luckytool": [
       {
-        "added": 1738071537000,
+        "added": 1738189635000,
+        "apkName": "com.luckyzyx.luckytool_17993-1.2.7.apk",
+        "hash": "7151d479e689eddd72e7b2cc5bc48e8ebb479865e095588f1cd5c05d21e58eee",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8784651,
+        "targetSdkVersion": 28,
+        "versionCode": 17993,
+        "versionName": "1.2.7"
+      },
+      {
+        "added": 1738120001000,
         "apkName": "com.luckyzyx.luckytool_17981-1.2.7.apk",
         "hash": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
         "hashType": "sha256",
@@ -13897,23 +13964,6 @@
         "targetSdkVersion": 28,
         "versionCode": 17737,
         "versionName": "1.2.6"
-      },
-      {
-        "added": 1732159480000,
-        "apkName": "com.luckyzyx.luckytool_17333-1.2.5.apk",
-        "hash": "688922e2dc9ecfca7e7c21b6b46367726c011b5004cad93ca7634cd051286009",
-        "hashType": "sha256",
-        "minSdkVersion": 30,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.luckyzyx.luckytool",
-        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
-        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
-        "size": 8387929,
-        "targetSdkVersion": 28,
-        "versionCode": 17333,
-        "versionName": "1.2.5"
       }
     ],
     "com.luckyzyx.notifyintercept": [
@@ -14699,7 +14749,7 @@
     ],
     "com.setoskins.hook": [
       {
-        "added": 1722561338000,
+        "added": 1732159493000,
         "apkName": "com.setoskins.hook_210-2.1.0.apk",
         "hash": "47b1c7f31ca5a13fac743126d6eb34f18ab5c634ec9d422ec476fae441b3a6d1",
         "hashType": "sha256",
@@ -14717,6 +14767,26 @@
         "targetSdkVersion": 34,
         "versionCode": 210,
         "versionName": "2.1.0"
+      },
+      {
+        "added": 1738134507000,
+        "apkName": "com.setoskins.hook_220-2.2.1.apk",
+        "hash": "c122f78f5de1b572128617cf1298d8c775c8a59893f5adc97ad0ddaee3acf430",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.setoskins.hook",
+        "sig": "64a06b7f9aacc8c42c602d978d2bdb73",
+        "signer": "f096cbd16502280f3df6552a64fd9ebefdbac4f33cfa2c8ad9af2352440f6ef5",
+        "size": 4876137,
+        "targetSdkVersion": 34,
+        "versionCode": 220,
+        "versionName": "2.2.1"
       }
     ],
     "com.sevtinge.cemiuiler": [
@@ -14741,7 +14811,24 @@
     ],
     "com.sevtinge.hyperceiler": [
       {
-        "added": 1737710522000,
+        "added": 1738156910000,
+        "apkName": "com.sevtinge.hyperceiler_3901-2.5.157_20250129.apk",
+        "hash": "f5e0534d05ec567fcaf9e711ca9433c3dd8be7a60eaca2502cf1af49f7856cab",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.sevtinge.hyperceiler",
+        "sig": "6086d32fd2a34070ad1219c3dfd8fb42",
+        "signer": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c",
+        "size": 7857486,
+        "targetSdkVersion": 35,
+        "versionCode": 3901,
+        "versionName": "2.5.157_20250129"
+      },
+      {
+        "added": 1737256240000,
         "apkName": "com.sevtinge.hyperceiler_3866-2.5.156_20250118.apk",
         "hash": "9c0233c154ebb868a40d1d2ec2943026b23763195811d2f55d39ebe08810ce45",
         "hashType": "sha256",
@@ -14773,23 +14860,6 @@
         "targetSdkVersion": 35,
         "versionCode": 3863,
         "versionName": "2.5.155_20250114"
-      },
-      {
-        "added": 1736058342000,
-        "apkName": "com.sevtinge.hyperceiler_154-2.5.154_20250101.apk",
-        "hash": "27ea7fe4c82153f0b84eb4de71872ff587df314fd9c8ff668effbbe035cfa67c",
-        "hashType": "sha256",
-        "minSdkVersion": 33,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.sevtinge.hyperceiler",
-        "sig": "6086d32fd2a34070ad1219c3dfd8fb42",
-        "signer": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c",
-        "size": 7070141,
-        "targetSdkVersion": 35,
-        "versionCode": 154,
-        "versionName": "2.5.154_20250101"
       }
     ],
     "com.shatyuka.killergram": [
@@ -15534,7 +15604,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738120032000,
+        "added": 1738206527000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17166,7 +17236,22 @@
     ],
     "io.github.howard20181.notificationiconfix": [
       {
-        "added": 1738087040000,
+        "added": 1738179131000,
+        "apkName": "io.github.howard20181.notificationiconfix_72-1.3.apk",
+        "hash": "c1de02b4f202ac4b51aa3493bd9a80c8ee6e2db9ff43af5c70188a06d09540e3",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "io.github.howard20181.notificationiconfix",
+        "sig": "b3845b8b201076ee6bb8b727e02d44c4",
+        "signer": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9",
+        "size": 20024,
+        "targetSdkVersion": 35,
+        "versionCode": 72,
+        "versionName": "1.3"
+      },
+      {
+        "added": 1738120059000,
         "apkName": "io.github.howard20181.notificationiconfix_68-1.1.apk",
         "hash": "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6",
         "hashType": "sha256",
@@ -19924,7 +20009,27 @@
     ],
     "statusbar.lyric": [
       {
-        "added": 1735538078000,
+        "added": 1738165330000,
+        "apkName": "statusbar.lyric_711-7.1.1.apk",
+        "hash": "175b1f8b7ebecfc6b5d47691259f4817593e21af21c88b0b6074f429e697c991",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "statusbar.lyric",
+        "sig": "315d1b21f09588e123c2ff7f2927750e",
+        "signer": "a570b673bf489e3e893dd1fefce7a475a310c0e50f493cde5ceafbbb36041370",
+        "size": 9216090,
+        "targetSdkVersion": 35,
+        "versionCode": 711,
+        "versionName": "7.1.1"
+      },
+      {
+        "added": 1735614637000,
         "apkName": "statusbar.lyric_702-7.0.2.apk",
         "hash": "39a179806b5b7e899b2e1f3ec6da3fc6d6da4da1838241fd99d31c8cef628e0c",
         "hashType": "sha256",
