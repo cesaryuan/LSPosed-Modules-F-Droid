@@ -1,0 +1,66 @@
+{
+  "repo": {
+    "timestamp": 1738293036000
+  },
+  "packages": {
+    "com.luckyzyx.luckytool": {
+      "versions": {
+        "b454a27f662c74d0be5cb7d77aabb26ba8c58cfdf8470a99203c4a5d75e64f63": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.xchat": {
+      "metadata": {
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>XChat👋</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p> \n<h2>广告:</h2>\n<p>1、1r可修改消息详细时间的背景颜色，直到下一个人修改前可一直生效，所有人同时生效哦～<br />\n2、1r可修改设置弹层的背景图片，直到下一个人修改前可一直生效，所有人同时生效哦～</p>\n<p>快来体验操控别人的快感吧！  欢迎老板骚扰～😜😜</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的朋友圈消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 相册扫码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 输入框暗纹词</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 全局圆形头像</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈转发功能<br />\n长按要转发的朋友圈消息 弹出弹层后点击转发  如果没有 尝试长按其他位置，图片、视频需要提前加载一遍，保存到本地才能转发</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 定时发送朋友圈</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>🙏请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=1\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=1\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=2\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=2\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
+        }
+      },
+      "versions": {
+        "e1fa411debee2da08f426aebc4faddf04cda601ae74f07db13f4e3971bbcbff9": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "fansirsqi.xposed.sesame": {
+      "versions": {
+        "1d318a7229a8acf939b3826b2cd9aa60a2bcdd1336a53644542b820aa00aa5cf": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "io.github.howard20181.notificationiconfix": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Notification Icon Fix</h1>\n<p><a href=\"README.zh.md\">中文</a></p>\n<p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>\n<h2>Supported System</h2>\n<ul>\n<li>Android 8.1 ~ AOSP main branch</li>\n<li>HyperOS</li>\n<li>MIUI 12.5</li>\n</ul>\n<h2>Screenshots</h2>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img src=\"docs/img/3.jpg\" alt=\"Single Notification\" /></td>\n<td><img src=\"docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /></td>\n</tr>\n<tr>\n<td><img src=\"docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n<td><img src=\"docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n</tr>\n</tbody>\n</table>\n<h2>Algorithm Details</h2>\n<ol>\n<li>Determine and reduce oversized icons to the maximum allowed icon size</li>\n<li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>\n<li>(For MIUI) Detect transparent borders and trim icons</li>\n<li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a <a href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\">perfect icon</a> (Need to install it yourself)</li>\n<li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>\n<li>Calculate the average lumens excluding transparent pixels</li>\n<li>Quantify the most common color of edge pixels</li>\n<li>Calculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border</li>\n<li>Determine whether the icon background is light or dark</li>\n<li>Use K-means quantizer to extract the primary color of the icon</li>\n<li>Invert the icon foreground according to the background and remove the border</li>\n<li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>\n<li>Final result output, cache icon, and accent color to WeakHashMap</li>\n</ol>\n"
+        }
+      }
+    },
+    "io.github.lsposed.disableflagsecure": {
+      "versions": {
+        "8a5bd2f35ff583e82b734ccdd7db14ed5fac1db744b8e1e57c85e5ca3b53a829": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<h1>开源说明</h1>\n<p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>\n<h1>开源地址</h1>\n<p><a href=\"https://github.com/ZZCYUN/JunZi-Xposed-Hook\">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>\n"
+        }
+      },
+      "versions": {
+        "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "ru.hepolise.volumekeymusicmanagermodule": {
+      "versions": {
+        "ed22527afc4e2ae5412da3dfa188271bd4102f1b666af6915590bd537f9177d9": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}
