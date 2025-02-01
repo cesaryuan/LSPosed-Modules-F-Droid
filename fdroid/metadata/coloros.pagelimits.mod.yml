@@ -1,13 +1,17 @@
 AuthorName: Sharl210
 Categories:
     - Xposed
-CurrentVersion: "2.0"
-CurrentVersionCode: 2
+CurrentVersion: "3.0"
+CurrentVersionCode: 3
 Description: |
     <h1>ColorOS桌面页面限制解除</h1>
     <p>ColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制
     具体演示在：（酷安）
     <a href="https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2">https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2</a></p>
+    <p>2025.01.31 更新：</p>
+    <p>[增加]*底栏可存放APP数量同步页面宽度</p>
+    <p>堆叠桌面版本以后的底栏最大可存放APP数量不再随着布局宽度而变大，以前的版本是布局变宽它底栏容量也会同步变宽，这次它加了一个限制，本次更新就是针对于这个做的限制解除</p>
+    <h3>建议不要开启’Xposed API调用保护’，如模块无效果，请关闭lsp框架的这个选项</h3>
     <h3>启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可</h3>
     <h5><a href="https://www.123865.com/s/nQyRVv-uf60h">123云盘下载地址（国内）</a></h5>
     <h1>项目地址：</h1>

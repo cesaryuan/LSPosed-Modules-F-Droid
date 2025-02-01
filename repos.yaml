@@ -2721,17 +2721,25 @@ coloros.pagelimits.mod:
             <p>ColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制
             具体演示在：（酷安）
             <a href="https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2">https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~&amp;shareUid=1535833&amp;shareFrom=com.coolapk.market_15.0.2</a></p>
+            <p>2025.01.31 更新：</p>
+            <p>[增加]*底栏可存放APP数量同步页面宽度</p>
+            <p>堆叠桌面版本以后的底栏最大可存放APP数量不再随着布局宽度而变大，以前的版本是布局变宽它底栏容量也会同步变宽，这次它加了一个限制，本次更新就是针对于这个做的限制解除</p>
+            <h3>建议不要开启’Xposed API调用保护’，如模块无效果，请关闭lsp框架的这个选项</h3>
             <h3>启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可</h3>
             <h5><a href="https://www.123865.com/s/nQyRVv-uf60h">123云盘下载地址（国内）</a></h5>
             <h1>项目地址：</h1>
               <a href="https://github.com/Sharl210/coloros.pagelimits.mod/">
             https://github.com/Sharl210/coloros.pagelimits.mod/
             </a>
-          filename: coloros.pagelimits.mod_2.0-release.apk
+          filename: coloros_pagelimits_mod_3.0-release.apk
           id: coloros.pagelimits.mod
           name: ColorOS桌面页面限制解除
-          last_updated: "2025-01-26T08:31:41Z"
-          releasedescription: "<p>\U0001F913\U0001F446:使模块桌面图标隐藏</p>\n<p>更新说明：部分情况下，有可能直接更新，系统桌面里之前的图标，不会刷新（消失）建议卸载原模块，然后再安装新版本</p>"
+          last_updated: "2025-01-31T11:59:03Z"
+          releasedescription: |-
+            <p>[增加]*底栏可存放APP数量同步页面宽度</p>
+            <p>堆叠桌面版本以后的底栏最大可存放APP数量不再随着布局宽度而变大，以前的版本是布局变宽它底栏容量也会同步变宽，这次它加了一个限制，本次更新就是针对于这个做的限制解除</p>
+            <h3>建议不要开启Xposed API调用保护，如模块无效果，请关闭lsp框架的这个选项</h3>
+            <p>更新模块后建议重启，因为强行停止桌面会让部分应用出现内容隐藏的bug</p>
     author_name: Sharl210
 com.agoines.relaxhelp:
     git: https://github.com/Xposed-Modules-Repo/com.agoines.relaxhelp
@@ -7356,22 +7364,27 @@ com.hx.fanqie:
     author_name: delivd
 com.jakting.duolingo:
     git: https://github.com/Xposed-Modules-Repo/com.jakting.duolingo
-    summary: 将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能
+    summary: 将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。Change Duolingo's time zone to any arbitrary time zone, makes it easier to go back and finish forgotten streaks. For specific regions, modifying the time zone can prevent accounts from being classified as accounts from certain areas.
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: |
-            <h1>Duolingo时区修复</h1>
-            <p>将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能</p>
-            <p>简单得不能再简单的模块，这个模块仅适用于在 <code>中国标准时间</code>时区下丢失排行榜，但设备切换到其他时区能正常使用排行榜的账号，即 <strong>没有被判定为中国大陆用户使用的账号</strong></p>
-            <h2>注意</h2>
-            <p>当你的多邻国账户已经绑定了「+86」手机号时，无论如何都无法解锁排行榜了，请重新注册一个国际版的账号。</p>
-          filename: DuolingoTimezoneFixed_v1.0.apk
+            <h1>多邻国后悔药 Duolingo Regret</h1>
+            <p>将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。</p>
+            <p>Change Duolingo’s time zone to any arbitrary time zone, makes it easier to go back and finish forgotten streaks. For specific regions, modifying the time zone can prevent accounts from being classified as accounts from certain areas.</p>
+            <h1>源仓库 Source Repo</h1>
+            <p><a href="https://github.com/TigerBeanst/Duolingo-Regret">https://github.com/TigerBeanst/Duolingo-Regret</a></p>
+          filename: app-release.apk
           id: com.jakting.duolingo
-          name: Duolingo时区修复
-          last_updated: "2022-08-22T14:23:14Z"
-          releasedescription: <p>首次上传，应该不需要更新了（</p>
+          name: 多邻国后悔药 Duolingo Regret
+          last_updated: "2025-01-31T08:59:39Z"
+          releasedescription: |-
+            <p>项目重构，添加了一个界面，可以自定义多邻国识别到的时区。</p>
+            <ul>
+            <li>增加抢救模式，在错过昨日的练习时，可以通过临时修改到较早的较早的时区来<del>回到过去</del>，继续你的连胜</li>
+            <li>修改了签名，如果没有核心破解，需要重新卸载重装</li>
+            </ul>
     author_name: TigerBeanst
 com.janking.viewperf:
     git: https://github.com/Xposed-Modules-Repo/com.janking.viewperf
@@ -12143,13 +12156,15 @@ com.xchat:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>XChat\U0001F44B</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/+nEjdxdGpwCVhNzNl\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a></p>\n<p>仰天大笑出门去，我辈岂是蓬蒿人。  ——李白</p>\n</div>\n<h2>前言:</h2>\n  <p>作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...</p>\n  <p>目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。</p>\n  <p>被采纳的需求将会列到下面的更新计划中。</p>\n  <p>若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。</p>\n  <p>有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。</p> \n<h2>广告:</h2>\n<p>1、1r可修改消息详细时间的背景颜色，直到下一个人修改前可一直生效，所有人同时生效哦～<br />\n2、1r可修改设置弹层的背景图片，直到下一个人修改前可一直生效，所有人同时生效哦～</p>\n<p>快来体验操控别人的快感吧！  欢迎老板骚扰～\U0001F61C\U0001F61C</p>\n<h2>适配版本</h2>\n<p>会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。</p>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.55</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 8.0.56</li>\n</ul>\n<h3>食用方法:</h3>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\">点击此处</a>下载最新版本插件</li>\n<li>lsposed 激活模块，作用域勾选微信</li>\n<li>杀进程强制重启微信即可食用</li>\n<li>进入”我的“页面 -&gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计\U0001F61C</li>\n</ul>\n<h2>更新计划</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 平板模式</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈去广告<br />\n可能覆盖的广告类型不全，有问题提issue。</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈禁止撤回</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈集赞<br />\n长按要集赞的朋友圈消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 消息增加详细时间提示</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 骰子指定</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 相册扫码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 输入框暗纹词</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 全局圆形头像</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 朋友圈转发功能<br />\n长按要转发的朋友圈消息 弹出弹层后点击转发  如果没有 尝试长按其他位置，图片、视频需要提前加载一遍，保存到本地才能转发</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 定时发送朋友圈</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 复读+1</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 自动下载原图</li>\n<li><input type=\"checkbox\" disabled=\"\" /> 隐藏好友</li>\n</ul>\n<h2>常见问题</h2>\n<p><strong>1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？</strong></p>\n<p>检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。<br />\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。</p>\n<p><strong>2. 打开app后，功能无法使用且无任何提示？</strong></p>\n<p>前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。</p>\n<p><strong>3. 打开app后，设置弹层无法正常弹出？</strong></p>\n<p>查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。</p>\n<p><strong>4. 语音消息发送时一直转圈？</strong></p>\n<p>更新模块到1.0.10版本或关闭消息禁止撤回。</p>\n<h2>使用说明</h2>\n<ol>\n<li>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。</li>\n<li>请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。</li>\n<li>本APP不篡改，不修改，不获取任何个人信息及其微信信息。</li>\n<li>本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。</li>\n<li>凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。</li>\n<li>本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。</li>\n</ol>\n<h2>\U0001F64F请作者喝杯茶</h2>\n<p>二维码加载失败的有劳点击一下：<br />\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=1\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=1\" alt=\"ali\" /></a>\n<a href=\"http://39.106.52.143/donate/getDonateCode?code=2\"><img src=\"http://39.106.52.143/donate/getDonateCode?code=2\" alt=\"wechat\" /></a></p>\n<p>感谢所有支持的老板！您的支持使这个项目得以持续发展。</p>\n"
-          filename: XChat-1.2.0-1623-release.apk
+          filename: XChat-1.2.2-1697-release.apk
           id: com.xchat
           name: XChat
-          last_updated: "2025-01-30T14:21:11Z"
+          last_updated: "2025-01-31T11:20:00Z"
           releasedescription: |-
-            <p>1、朋友圈转发支持更多视频<br>
-            2、朋友圈防撤回 处理一些遗漏消息</p>
+            <h2>重要升级 请尽快更新到当前版本，旧版本即将失效，给您带来的不便，敬请谅解！</h2>
+            <p>1、微信环境校验<br>
+            2、修复朋友圈集赞开关影响转发功能的问题<br>
+            3、设置弹层背景支持gif</p>
     author_name: Yy-ss7
 com.xconst.vavatar:
     git: https://github.com/Xposed-Modules-Repo/com.xconst.vavatar
@@ -15644,7 +15659,7 @@ io.github.howard20181.notificationiconfix:
             <h2>Changelog</h2>
             <ul>
             <li>Don't assume VectorDrawable is ok, there are many colorful VectorDrawable icons set by the system on HyperOS<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgyNzgzMjgsIm5iZiI6MTczODI3ODAyOCwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMwVDIzMDAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmYjY2OWE2ZGY3MzU2ZGQ5ODlmNTFkZjRjYmJmZWQ4NDYzNjk3YzYxOThmYmI0Y2UyODc2ZWFhNTIzM2IzYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XvWDdvP1CicDGy0_mvL-V4zO6zNIz6Lw5Uw9vwGugXI"><img width="454" alt="image" src="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgyNzgzMjgsIm5iZiI6MTczODI3ODAyOCwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMwVDIzMDAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZmYjY2OWE2ZGY3MzU2ZGQ5ODlmNTFkZjRjYmJmZWQ4NDYzNjk3YzYxOThmYmI0Y2UyODc2ZWFhNTIzM2IzYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XvWDdvP1CicDGy0_mvL-V4zO6zNIz6Lw5Uw9vwGugXI" content-type-secured-asset="image/png" style="max-width: 100%;"></a></li>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgzNTA0NTksIm5iZiI6MTczODM1MDE1OSwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMxVDE5MDIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5NDA2MmNmNmM2OGQ5Njg4OTdjYzFlZWViZjIzOTcwMTliOTNlYjVhYmZhMjQ0ZDRlOGQ0ZTI5NmYwOWY1MjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.PKM9FbPzHmsr7f_LP1nD6M56Lq2cq_bzjrKCkBhg54w"><img width="454" alt="image" src="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgzNTA0NTksIm5iZiI6MTczODM1MDE1OSwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTMxVDE5MDIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5NDA2MmNmNmM2OGQ5Njg4OTdjYzFlZWViZjIzOTcwMTliOTNlYjVhYmZhMjQ0ZDRlOGQ0ZTI5NmYwOWY1MjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.PKM9FbPzHmsr7f_LP1nD6M56Lq2cq_bzjrKCkBhg54w" content-type-secured-asset="image/png" style="max-width: 100%;"></a></li>
             </ul>
     author_name: Howard20181
 io.github.icepony.alwayscreateuser:
@@ -19951,17 +19966,15 @@ ru.bluecat.sberbankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Sberbank_Patcher_v1.24.apk
+          filename: Sberbank_Patcher_v1.24.1.apk
           id: ru.bluecat.sberbankpatcher
           name: Sberbank Patcher
-          last_updated: "2025-01-15T17:18:37Z"
+          last_updated: "2025-01-31T18:42:14Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 16.3.0</li>
-            <li>Добавлено скрытие вкладки кредитов на нижней навигационной панели.</li>
-            <li>Мелкие правки в интерфейс.</li>
+            <li>Возвращение разблокировки разделов на главной.</li>
             </ul>
-            <p>Разработчики заявили о удалении/переносе раздела истории с нижней панели, возможно в скором времени там останутся только кредиты. Если код удалят полностью менять уже будет нечего.</p>
+            <p>Обратите внимание! Для раздела истории отсутствует кнопка добавления на главную. Для добавления раздела обратно переключите в модуле "Кредитование" в положение выключено, следуйте инструкции. Вы так же можете его вернуть с помощью сброса разделов в сбербанке.</p>
     author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher
@@ -20031,23 +20044,14 @@ ru.bluecat.yandexmapspatcher:
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian cartographic service <a href="https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps">Yandex Maps</a>.
             You don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>
-          filename: Yandex_Maps_Patcher_v1.13.apk
+          filename: Yandex_Maps_Patcher_v1.13.1.apk
           id: ru.bluecat.yandexmapspatcher
           name: Yandex Maps Patcher
-          last_updated: "2025-01-25T20:44:47Z"
+          last_updated: "2025-01-31T18:44:17Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 22.2.0 (737721520)</li>
-            <li>Исправлен редкий вылет карт при сворачивании в фон.</li>
-            <li>Добавлено скрытие слоя рекламных заведений на карте.</li>
-            <li>Убрано скрытие списка маршрутов с главной.</li>
-            <li>Список отвалившихся перехватов теперь будет отображаться как описания функционала вместо технических названий.</li>
-            <li>Добавлена поддержка Shizuku / SUI, в дополнении к классическому root доступу. Доступно только для root пользователей.</li>
-            <li>Добавлена автоматическая миграция настроек и тех данных.</li>
-            <li>Убран переход в системные настройки уведомлений Яндекс Карт из настроек модуля.</li>
+            <li>Техническое обновление</li>
             </ul>
-            <p>Обратите внимание! Отключение слоя с точками интереса(кружками) отключит так же и полезные, культурные объекты города. К сожалению они одно целое в базе данных(кэш карт).</p>
-            <p>После обновления необходимо сделать сброс тех данных И настроек модуля(режим без рута).</p>
     author_name: BlueCat300
 ru.hepolise.volumekeymusicmanagermodule:
     git: https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule

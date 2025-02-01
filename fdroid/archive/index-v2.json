@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1738293022000,
+    "timestamp": 1738379679000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1419,7 +1419,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738292814000,
+        "lastUpdated": 1738379450000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
         "authorName": "Yy-ss7",
         "name": {
@@ -1434,6 +1434,27 @@
         "preferredSigner": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
       },
       "versions": {
+        "27b30164d349d5bdb04f5d2452d8ab457d2580a72e4ceff41b29c8a39fe5c931": {
+          "added": 1737774468000,
+          "file": {
+            "name": "/com.xchat_1147-1.1.4.apk",
+            "sha256": "27b30164d349d5bdb04f5d2452d8ab457d2580a72e4ceff41b29c8a39fe5c931",
+            "size": 83056
+          },
+          "manifest": {
+            "versionName": "1.1.4",
+            "versionCode": 1147,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06"
+              ]
+            }
+          }
+        },
         "fe09495b833fec13a6268eca92ff7d4f7a137a7609a76de6bf726410ede27fd4": {
           "added": 1737688289000,
           "file": {
@@ -2470,7 +2491,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1736996856000,
+        "lastUpdated": 1738379517000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -2485,6 +2506,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99": {
+          "added": 1735528943000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_384-1.23.1.apk",
+            "sha256": "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99",
+            "size": 8934786
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.23.1",
+            "versionCode": 384,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "22d4015ab712c177c4fd203040c0203e78b4795e11c60de8eb3d6e88f08278ed": {
           "added": 1735442852000,
           "file": {
@@ -2682,7 +2768,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737861136000,
+        "lastUpdated": 1738379519000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -2697,6 +2783,68 @@
         "preferredSigner": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
       },
       "versions": {
+        "9810e2761b981254c376fa9a65e9de745c7ca9bb881113baab3f47777a747fe0": {
+          "added": 1732159574000,
+          "file": {
+            "name": "/ru.bluecat.yandexmapspatcher_209-1.11.1.apk",
+            "sha256": "9810e2761b981254c376fa9a65e9de745c7ca9bb881113baab3f47777a747fe0",
+            "size": 8460295
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.11.1",
+            "versionCode": 209,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.yandexmapspatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "0d483d26b133f58d7e2648a47409e6cdce642c9dca46500c34bfc597c04873ba": {
           "added": 1732159574000,
           "file": {
