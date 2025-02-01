@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738293036000,
+    "timestamp": 1738379693000,
     "version": 20002
   },
   "requests": {
@@ -1276,25 +1276,25 @@
       "summary": "ColorOS 12 For OnePlus 的部分“优化”"
     },
     {
-      "added": 1737880301000,
+      "added": 1738324743000,
       "authorName": "Sharl210",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eColorOS桌面页面限制解除\u003c/h1\u003e\n\u003cp\u003eColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制\n具体演示在：（酷安）\n\u003ca href=\"https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~\u0026amp;shareUid=1535833\u0026amp;shareFrom=com.coolapk.market_15.0.2\"\u003ehttps://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~\u0026amp;shareUid=1535833\u0026amp;shareFrom=com.coolapk.market_15.0.2\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003e启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可\u003c/h3\u003e\n\u003ch5\u003e\u003ca href=\"https://www.123865.com/s/nQyRVv-uf60h\"\u003e123云盘下载地址（国内）\u003c/a\u003e\u003c/h5\u003e\n\u003ch1\u003e项目地址：\u003c/h1\u003e\n  \u003ca href=\"https://github.com/Sharl210/coloros.pagelimits.mod/\"\u003e\nhttps://github.com/Sharl210/coloros.pagelimits.mod/\n\u003c/a\u003e\n",
-      "icon": "coloros.pagelimits.mod.2.png",
-      "lastUpdated": 1737880301000,
+      "description": "\u003ch1\u003eColorOS桌面页面限制解除\u003c/h1\u003e\n\u003cp\u003eColorOS桌面页面限制解除，解除桌面最多只能使用27页的限制\n具体演示在：（酷安）\n\u003ca href=\"https://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~\u0026amp;shareUid=1535833\u0026amp;shareFrom=com.coolapk.market_15.0.2\"\u003ehttps://www.coolapk.com/feed/62353681?shareKey=NTEyOWMxOWM3MWUwNjc5NTM4MDI~\u0026amp;shareUid=1535833\u0026amp;shareFrom=com.coolapk.market_15.0.2\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e2025.01.31 更新：\u003c/p\u003e\n\u003cp\u003e[增加]*底栏可存放APP数量同步页面宽度\u003c/p\u003e\n\u003cp\u003e堆叠桌面版本以后的底栏最大可存放APP数量不再随着布局宽度而变大，以前的版本是布局变宽它底栏容量也会同步变宽，这次它加了一个限制，本次更新就是针对于这个做的限制解除\u003c/p\u003e\n\u003ch3\u003e建议不要开启’Xposed API调用保护’，如模块无效果，请关闭lsp框架的这个选项\u003c/h3\u003e\n\u003ch3\u003e启用hook时,强行停止系统桌面后,由于系统特性(bug??)会导致后台页面部分应用出现隐藏应用内容，重启即可\u003c/h3\u003e\n\u003ch5\u003e\u003ca href=\"https://www.123865.com/s/nQyRVv-uf60h\"\u003e123云盘下载地址（国内）\u003c/a\u003e\u003c/h5\u003e\n\u003ch1\u003e项目地址：\u003c/h1\u003e\n  \u003ca href=\"https://github.com/Sharl210/coloros.pagelimits.mod/\"\u003e\nhttps://github.com/Sharl210/coloros.pagelimits.mod/\n\u003c/a\u003e\n",
+      "icon": "coloros.pagelimits.mod.3.png",
+      "lastUpdated": 1738324743000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "🤓👆:使模块桌面图标隐藏\n\n更新说明：部分情况下，有可能直接更新，系统桌面里之前的图标，不会刷新（消失）建议卸载原模块，然后再安装新版本"
+          "whatsNew": "[增加]*底栏可存放APP数量同步页面宽度\n\n堆叠桌面版本以后的底栏最大可存放APP数量不再随着布局宽度而变大，以前的版本是布局变宽它底栏容量也会同步变宽，这次它加了一个限制，本次更新就是针对于这个做的限制解除\n\n### 建议不要开启Xposed API调用保护，如模块无效果，请关闭lsp框架的这个选项\n\n更新模块后建议重启，因为强行停止桌面会让部分应用出现内容隐藏的bug\n"
         }
       },
       "name": "ColorOS桌面页面限制解除",
       "packageName": "coloros.pagelimits.mod",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/coloros.pagelimits.mod",
-      "suggestedVersionCode": "2",
-      "suggestedVersionName": "2.0",
+      "suggestedVersionCode": "3",
+      "suggestedVersionName": "3.0",
       "summary": "ColorOS桌面最大可用页面数（27）限制解除"
     },
     {
@@ -1760,28 +1760,6 @@
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.dualguard",
       "suggestedVersionCode": "52",
       "suggestedVersionName": "1.2"
-    },
-    {
-      "added": 1661178194000,
-      "authorName": "TigerBeanst",
-      "categories": [
-        "Xposed"
-      ],
-      "description": "\u003ch1\u003eDuolingo时区修复\u003c/h1\u003e\n\u003cp\u003e将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能\u003c/p\u003e\n\u003cp\u003e简单得不能再简单的模块，这个模块仅适用于在 \u003ccode\u003e中国标准时间\u003c/code\u003e时区下丢失排行榜，但设备切换到其他时区能正常使用排行榜的账号，即 \u003cstrong\u003e没有被判定为中国大陆用户使用的账号\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e注意\u003c/h2\u003e\n\u003cp\u003e当你的多邻国账户已经绑定了「+86」手机号时，无论如何都无法解锁排行榜了，请重新注册一个国际版的账号。\u003c/p\u003e\n",
-      "icon": "com.jakting.duolingo.webp",
-      "lastUpdated": 1661178194000,
-      "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "首次上传，应该不需要更新了（"
-        }
-      },
-      "name": "Duolingo时区修复",
-      "packageName": "com.jakting.duolingo",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.jakting.duolingo",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
-      "summary": "将多邻国的时区锁定为中国香港，使「非中国大陆账户」能够在不需要修改系统全局的情况下正常使用排行榜等功能"
     },
     {
       "added": 1736681609000,
@@ -6077,25 +6055,25 @@
       "summary": "解除三星系统时钟通话中不提醒不响铃的限制"
     },
     {
-      "added": 1736961517000,
+      "added": 1738348934000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eБаннеры с персональными предложениями\u003c/li\u003e\n\u003cli\u003eУдерживание экрана для карт лояльности\u003c/li\u003e\n\u003cli\u003eПлатежи. Номер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eПлатежи. Раздел благотворительности\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПрофиль. Реклама в разделе недвижимость\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисный уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие кредитов и микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root и целостности устройства для SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003cli\u003eИстория. Увеличено количество скрываемых транзакций до 300\u003c/li\u003e\n\u003cli\u003eАктивирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.sberbankpatcher.png",
-      "lastUpdated": 1736961517000,
+      "lastUpdated": 1738348934000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Поддержка версии 16.3.0\n- Добавлено скрытие вкладки кредитов на нижней навигационной панели.\n- Мелкие правки в интерфейс.\n\nРазработчики заявили о удалении/переносе раздела истории с нижней панели, возможно в скором времени там останутся только кредиты. Если код удалят полностью менять уже будет нечего."
+          "whatsNew": "- Возвращение разблокировки разделов на главной.\n\nОбратите внимание! Для раздела истории отсутствует кнопка добавления на главную. Для добавления раздела обратно переключите в модуле \"Кредитование\" в положение выключено, следуйте инструкции. Вы так же можете его вернуть с помощью сброса разделов в сбербанке."
         }
       },
       "name": "Sberbank Patcher",
       "packageName": "ru.bluecat.sberbankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
-      "suggestedVersionCode": "407",
-      "suggestedVersionName": "1.24",
+      "suggestedVersionCode": "412",
+      "suggestedVersionName": "1.24.1",
       "summary": "Различные модификации в приложении СберБанк."
     },
     {
@@ -6943,7 +6921,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738292814000,
+      "lastUpdated": 1738379450000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7212,24 +7190,24 @@
       "summary": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
     },
     {
-      "added": 1738246871000,
+      "added": 1738322400000,
       "authorName": "Yy-ss7",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eXChat👋\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xchat/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/com.xchat\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/+nEjdxdGpwCVhNzNl\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e仰天大笑出门去，我辈岂是蓬蒿人。  ——李白\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e前言:\u003c/h2\u003e\n  \u003cp\u003e作者上班族，对模块开发只是有兴趣，本来想着通过参与已有模块的共建来消磨时间，奈何被拒之门外。因此只能独自扛起大旗，甚是心酸...\u003c/p\u003e\n  \u003cp\u003e目前只有一些本人刚需功能，其他功能可以根据反馈逐步增加，切莫着急，还望理解。\u003c/p\u003e\n  \u003cp\u003e被采纳的需求将会列到下面的更新计划中。\u003c/p\u003e\n  \u003cp\u003e若插件存在问题，欢迎Telegram积极反馈，或在此仓库创建信息尽可能丰富的issue。在此感谢。\u003c/p\u003e\n  \u003cp\u003e有关play版本适配问题，目前本人未了解到play版本相较于普通市场版本的优势与价值，并且精力有限，暂时不会主动适配，建议使用普通市场版本，请您谅解。\u003c/p\u003e \n\u003ch2\u003e广告:\u003c/h2\u003e\n\u003cp\u003e1、1r可修改消息详细时间的背景颜色，直到下一个人修改前可一直生效，所有人同时生效哦～\u003cbr /\u003e\n2、1r可修改设置弹层的背景图片，直到下一个人修改前可一直生效，所有人同时生效哦～\u003c/p\u003e\n\u003cp\u003e快来体验操控别人的快感吧！  欢迎老板骚扰～😜😜\u003c/p\u003e\n\u003ch2\u003e适配版本\u003c/h2\u003e\n\u003cp\u003e会适配最新包，但一切以小米商店更新为准，小米商店提示更新则适配，否则不适配，请理解。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.55\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 8.0.56\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e食用方法:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xchat/releases\"\u003e点击此处\u003c/a\u003e下载最新版本插件\u003c/li\u003e\n\u003cli\u003elsposed 激活模块，作用域勾选微信\u003c/li\u003e\n\u003cli\u003e杀进程强制重启微信即可食用\u003c/li\u003e\n\u003cli\u003e进入”我的“页面 -\u0026gt; 长按”设置” 选项，即可呼出设置面板，目前较为简陋，后续会加广告，维持生计😜\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e更新计划\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 平板模式\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈去广告\u003cbr /\u003e\n可能覆盖的广告类型不全，有问题提issue。\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈禁止撤回\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈集赞\u003cbr /\u003e\n长按要集赞的朋友圈消息 弹出弹层后点击赞一下  如果没有 尝试长按其他位置 之后选择要点赞的好友 保存后 刷新或手动点一下赞\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 消息增加详细时间提示\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 骰子指定\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 相册扫码\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 输入框暗纹词\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 全局圆形头像\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" checked=\"\" disabled=\"\" /\u003e 朋友圈转发功能\u003cbr /\u003e\n长按要转发的朋友圈消息 弹出弹层后点击转发  如果没有 尝试长按其他位置，图片、视频需要提前加载一遍，保存到本地才能转发\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 定时发送朋友圈\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 复读+1\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 自动下载原图\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 隐藏好友\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e常见问题\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e1. 第一次打开app，提示”配置异常”或”responseCode:xxx”、“responseCode:connection reset” ？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e检查网络是否能正常打开github，网络通畅后杀进程重启，如依旧提示错误，重复此步骤。\u003cbr /\u003e\n1.0.9提示很友好，能迅速定位问题，建议更新到此版本。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e2. 打开app后，功能无法使用且无任何提示？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e前往模块设置弹层查看配置加载状态，弹层打开时会主动获取最新配置，读取配置成功之后会保存到本地，不会再请求网络读取配置了。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e3. 打开app后，设置弹层无法正常弹出？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e查看设置选项是否为简体中文或正常文案，否则无法识别，1.0.9版本兼容了一些繁体字。\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e4. 语音消息发送时一直转圈？\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e更新模块到1.0.10版本或关闭消息禁止撤回。\u003c/p\u003e\n\u003ch2\u003e使用说明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\u003c/li\u003e\n\u003cli\u003e请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\u003c/li\u003e\n\u003cli\u003e本APP不篡改，不修改，不获取任何个人信息及其微信信息。\u003c/li\u003e\n\u003cli\u003e本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e🙏请作者喝杯茶\u003c/h2\u003e\n\u003cp\u003e二维码加载失败的有劳点击一下：\u003cbr /\u003e\n\u003ca href=\"http://39.106.52.143/donate/getDonateCode?code=1\"\u003e\u003cimg src=\"http://39.106.52.143/donate/getDonateCode?code=1\" alt=\"ali\" /\u003e\u003c/a\u003e\n\u003ca href=\"http://39.106.52.143/donate/getDonateCode?code=2\"\u003e\u003cimg src=\"http://39.106.52.143/donate/getDonateCode?code=2\" alt=\"wechat\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e感谢所有支持的老板！您的支持使这个项目得以持续发展。\u003c/p\u003e\n",
-      "lastUpdated": 1738246871000,
+      "lastUpdated": 1738322400000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1、朋友圈转发支持更多视频\n2、朋友圈防撤回 处理一些遗漏消息"
+          "whatsNew": "## 重要升级 请尽快更新到当前版本，旧版本即将失效，给您带来的不便，敬请谅解！\n1、微信环境校验\n2、修复朋友圈集赞开关影响转发功能的问题\n3、设置弹层背景支持gif"
         }
       },
       "name": "XChat",
       "packageName": "com.xchat",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xchat",
-      "suggestedVersionCode": "1623",
-      "suggestedVersionName": "1.2.0",
+      "suggestedVersionCode": "1697",
+      "suggestedVersionName": "1.2.2",
       "summary": "Enhance Wechat!"
     },
     {
@@ -7407,25 +7385,25 @@
       "summary": "-"
     },
     {
-      "added": 1737837887000,
+      "added": 1738349057000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eYandex Maps Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=126968779\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eСкрывает рекламу и навязчивые сервисы в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Долгое нажатие на иконку профиля на главной\u003c/li\u003e\n\u003cli\u003eЯндекс.Плюс для Android Auto и музыка включены всегда\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eСписок последних маршрутов поверх карты\u003c/li\u003e\n\u003cli\u003eКонтроль видимости сервисов на цветной навигационной панели\u003c/li\u003e\n\u003cli\u003eРеклама\u003c/li\u003e\n\u003cli\u003eСкрытие ленты историй, предложений, товаров в карточках организаций\u003c/li\u003e\n\u003cli\u003eСписок категорий на карточках зданий\u003c/li\u003e\n\u003cli\u003eУправление видом поисковой строки\u003c/li\u003e\n\u003cli\u003eБлокировка появления уведомлений и стартовых историй на главной\u003c/li\u003e\n\u003cli\u003eСкрытие профиля с социальной сетью\u003c/li\u003e\n\u003cli\u003eУправление дизайном истории поиска\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eПлатные сервисы (скрытие):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЯндекс.Плюс\u003c/li\u003e\n\u003cli\u003eТакси\u003c/li\u003e\n\u003cli\u003eЗаправки\u003c/li\u003e\n\u003cli\u003eПарковки\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eРасположения баннеров:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПоисковые категории\u003c/li\u003e\n\u003cli\u003eПоисковые запросы\u003c/li\u003e\n\u003cli\u003eВсплывающие баннеры организаций при движении в режиме навигатора\u003c/li\u003e\n\u003cli\u003eКарточки организаций / зданий\u003c/li\u003e\n\u003cli\u003eКнопка о покупке рекламы в карточке организации\u003c/li\u003e\n\u003cli\u003eГоризонтальная кнопка в профиле о покупке рекламы\u003c/li\u003e\n\u003cli\u003eВызов такси\u003c/li\u003e\n\u003cli\u003eВо время построения автомобильного маршрута\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.\u003c/li\u003e\n\u003cli\u003eДоступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian cartographic service \u003ca href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\"\u003eYandex Maps\u003c/a\u003e.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.yandexmapspatcher.png",
-      "lastUpdated": 1737837887000,
+      "lastUpdated": 1738349057000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Поддержка версии 22.2.0 (737721520)\n- Исправлен редкий вылет карт при сворачивании в фон.\n- Добавлено скрытие слоя рекламных заведений на карте.\n- Убрано скрытие списка маршрутов с главной.\n- Список отвалившихся перехватов теперь будет отображаться как описания функционала вместо технических названий.\n- Добавлена поддержка Shizuku / SUI, в дополнении к классическому root доступу. Доступно только для root пользователей.\n- Добавлена автоматическая миграция настроек и тех данных.\n- Убран переход "
+          "whatsNew": "- Техническое обновление"
         }
       },
       "name": "Yandex Maps Patcher",
       "packageName": "ru.bluecat.yandexmapspatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
-      "suggestedVersionCode": "237",
-      "suggestedVersionName": "1.13",
+      "suggestedVersionCode": "241",
+      "suggestedVersionName": "1.13.1",
       "summary": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
     },
     {
@@ -8233,6 +8211,28 @@
       "suggestedVersionCode": "5",
       "suggestedVersionName": "1.2.2",
       "summary": "复制粉笔app用户的评论到剪贴板中（长按评论）"
+    },
+    {
+      "added": 1732159470000,
+      "authorName": "TigerBeanst",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003e多邻国后悔药 Duolingo Regret\u003c/h1\u003e\n\u003cp\u003e将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。\u003c/p\u003e\n\u003cp\u003eChange Duolingo’s time zone to any arbitrary time zone, makes it easier to go back and finish forgotten streaks. For specific regions, modifying the time zone can prevent accounts from being classified as accounts from certain areas.\u003c/p\u003e\n\u003ch1\u003e源仓库 Source Repo\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/TigerBeanst/Duolingo-Regret\"\u003ehttps://github.com/TigerBeanst/Duolingo-Regret\u003c/a\u003e\u003c/p\u003e\n",
+      "icon": "com.jakting.duolingo.webp",
+      "lastUpdated": 1738379411000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "项目重构，添加了一个界面，可以自定义多邻国识别到的时区。\n- 增加抢救模式，在错过昨日的练习时，可以通过临时修改到较早的较早的时区来\u003cdel\u003e回到过去\u003c/del\u003e，继续你的连胜\n- 修改了签名，如果没有核心破解，需要重新卸载重装"
+        }
+      },
+      "name": "多邻国后悔药 Duolingo Regret",
+      "packageName": "com.jakting.duolingo",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.jakting.duolingo",
+      "suggestedVersionCode": "202501310",
+      "suggestedVersionName": "2.0",
+      "summary": "将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。Change Duoling..."
     },
     {
       "added": 1624552119000,
@@ -11239,7 +11239,27 @@
     ],
     "coloros.pagelimits.mod": [
       {
-        "added": 1737880301000,
+        "added": 1738324743000,
+        "apkName": "coloros.pagelimits.mod_3-3.0.apk",
+        "hash": "bca28796aad3f36f8e57cc36d134f8c0b540b4cb9b90f44c8b4a7c36f03a23d3",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "coloros.pagelimits.mod",
+        "sig": "fa2cba3455df9ca1c3d77d513faabef0",
+        "signer": "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226",
+        "size": 1234382,
+        "targetSdkVersion": 26,
+        "versionCode": 3,
+        "versionName": "3.0"
+      },
+      {
+        "added": 1737947211000,
         "apkName": "coloros.pagelimits.mod_2-2.0.apk",
         "hash": "a331a7c8874d73824313f367cb39c8a9fd81762bbb92ce2ee339803af9c8d8dc",
         "hashType": "sha256",
@@ -13498,7 +13518,7 @@
     ],
     "com.jakting.duolingo": [
       {
-        "added": 1661178194000,
+        "added": 1732159470000,
         "apkName": "com.jakting.duolingo_1-1.0.apk",
         "hash": "e935b2a249c3202058202bc375d2307b2cd32bde11ce1c5ce96d4e6174d85bc1",
         "hashType": "sha256",
@@ -13511,6 +13531,21 @@
         "targetSdkVersion": 33,
         "versionCode": 1,
         "versionName": "1.0"
+      },
+      {
+        "added": 1738313979000,
+        "apkName": "com.jakting.duolingo_202501310-2.0.apk",
+        "hash": "e338b367fda81d40fce4f3f358cbe1af910061082772477d64d673425c3de0b9",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "com.jakting.duolingo",
+        "sig": "66e27c3e6e63887c2a6a989aea4acb4e",
+        "signer": "bb672722975152aa38579b27b37046f4426771b2aeb5b52748e75e33c6782f47",
+        "size": 2799571,
+        "targetSdkVersion": 35,
+        "versionCode": 202501310,
+        "versionName": "2.0"
       }
     ],
     "com.jj.hidenavbar": [
@@ -15572,7 +15607,22 @@
     ],
     "com.xchat": [
       {
-        "added": 1738246871000,
+        "added": 1738322400000,
+        "apkName": "com.xchat_1697-1.2.2.apk",
+        "hash": "58b3a29bf5999bfe87d1bbc2175cb111d78e6fe5a14d9f147807dbf8ac32c22c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.xchat",
+        "sig": "df7d4365eb5d4b795c4e810fa014b2e5",
+        "signer": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06",
+        "size": 271403,
+        "targetSdkVersion": 34,
+        "versionCode": 1697,
+        "versionName": "1.2.2"
+      },
+      {
+        "added": 1738292814000,
         "apkName": "com.xchat_1623-1.2.0.apk",
         "hash": "e1fa411debee2da08f426aebc4faddf04cda601ae74f07db13f4e3971bbcbff9",
         "hashType": "sha256",
@@ -15600,26 +15650,11 @@
         "targetSdkVersion": 34,
         "versionCode": 1213,
         "versionName": "1.1.6"
-      },
-      {
-        "added": 1737774468000,
-        "apkName": "com.xchat_1147-1.1.4.apk",
-        "hash": "27b30164d349d5bdb04f5d2452d8ab457d2580a72e4ceff41b29c8a39fe5c931",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": null,
-        "packageName": "com.xchat",
-        "sig": "df7d4365eb5d4b795c4e810fa014b2e5",
-        "signer": "5c589e394fd046965589678995b4af8d4014530730e123a1139dd154d825dd06",
-        "size": 83056,
-        "targetSdkVersion": 34,
-        "versionCode": 1147,
-        "versionName": "1.1.4"
       }
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738292814000,
+        "added": 1738379450000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -19582,7 +19617,27 @@
     ],
     "ru.bluecat.sberbankpatcher": [
       {
-        "added": 1736961517000,
+        "added": 1738348934000,
+        "apkName": "ru.bluecat.sberbankpatcher_412-1.24.1.apk",
+        "hash": "b45343718218d901e1eeffbb92171a6ce77334609f93834b3cc410ed89adac57",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 9024206,
+        "targetSdkVersion": 34,
+        "versionCode": 412,
+        "versionName": "1.24.1"
+      },
+      {
+        "added": 1736996856000,
         "apkName": "ru.bluecat.sberbankpatcher_407-1.24.apk",
         "hash": "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6",
         "hashType": "sha256",
@@ -19620,11 +19675,13 @@
         "targetSdkVersion": 34,
         "versionCode": 398,
         "versionName": "1.23.2"
-      },
+      }
+    ],
+    "ru.bluecat.yandexmapspatcher": [
       {
-        "added": 1735528943000,
-        "apkName": "ru.bluecat.sberbankpatcher_384-1.23.1.apk",
-        "hash": "a86c5492dc933ada56f5c0f5ee622fb183c0307b4c044a70fb8a0b7abc614b99",
+        "added": 1738349057000,
+        "apkName": "ru.bluecat.yandexmapspatcher_241-1.13.1.apk",
+        "hash": "5b3371226cd1806921a68bfdf2583cac66b9477c302e3b94522d1d4f886936a9",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -19633,18 +19690,16 @@
           "x86",
           "x86_64"
         ],
-        "packageName": "ru.bluecat.sberbankpatcher",
-        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
-        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
-        "size": 8934786,
+        "packageName": "ru.bluecat.yandexmapspatcher",
+        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
+        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
+        "size": 8610410,
         "targetSdkVersion": 34,
-        "versionCode": 384,
-        "versionName": "1.23.1"
-      }
-    ],
-    "ru.bluecat.yandexmapspatcher": [
+        "versionCode": 241,
+        "versionName": "1.13.1"
+      },
       {
-        "added": 1737837887000,
+        "added": 1737861136000,
         "apkName": "ru.bluecat.yandexmapspatcher_237-1.13.apk",
         "hash": "b172e223cfdedabc60f53d3e1b22d2e75edf632f5ad89aba6ff0281a6fac191a",
         "hashType": "sha256",
@@ -19682,26 +19737,6 @@
         "targetSdkVersion": 34,
         "versionCode": 212,
         "versionName": "1.12"
-      },
-      {
-        "added": 1732159574000,
-        "apkName": "ru.bluecat.yandexmapspatcher_209-1.11.1.apk",
-        "hash": "9810e2761b981254c376fa9a65e9de745c7ca9bb881113baab3f47777a747fe0",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "ru.bluecat.yandexmapspatcher",
-        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
-        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
-        "size": 8460295,
-        "targetSdkVersion": 34,
-        "versionCode": 209,
-        "versionName": "1.11.1"
       }
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
