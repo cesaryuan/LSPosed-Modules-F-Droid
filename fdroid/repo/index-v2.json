@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738379693000,
+    "timestamp": 1738466073000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738379365000,
+        "lastUpdated": 1738465732000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -12788,7 +12788,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737861051000,
+        "lastUpdated": 1738465799000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.pic.catcher",
         "authorName": "Mingyueyixi",
         "name": {
@@ -12803,6 +12803,32 @@
         "preferredSigner": "7896772e07823b1c67141017691048b23dc3cc226529bba08ec575b49491bf7b"
       },
       "versions": {
+        "906b95d7eac03a97b798b7db43302f8cc034cb6edb27cc8806f29511df833b36": {
+          "added": 1738465799000,
+          "file": {
+            "name": "/com.pic.catcher_3-1.2-dev.apk",
+            "sha256": "906b95d7eac03a97b798b7db43302f8cc034cb6edb27cc8806f29511df833b36",
+            "size": 87417
+          },
+          "manifest": {
+            "versionName": "1.2-dev",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "7896772e07823b1c67141017691048b23dc3cc226529bba08ec575b49491bf7b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
+          }
+        },
         "dd308badf931a6efbea353e636e4a14c97cc567320a342995cebe0d230034bc2": {
           "added": 1737861051000,
           "file": {
@@ -16261,7 +16287,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738379450000,
+        "lastUpdated": 1738465819000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23962,7 +23988,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738033666000,
+        "lastUpdated": 1738465868000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -27548,7 +27574,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738379517000,
+        "lastUpdated": 1738465890000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -27563,6 +27589,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a": {
+          "added": 1738465890000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_415-1.24.2.apk",
+            "sha256": "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a",
+            "size": 7823946
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.24.2",
+            "versionCode": 415,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "b45343718218d901e1eeffbb92171a6ce77334609f93834b3cc410ed89adac57": {
           "added": 1738379517000,
           "file": {
@@ -27692,13 +27783,36 @@
               }
             ]
           }
+        }
+      }
+    },
+    "ru.bluecat.yandexmapspatcher": {
+      "metadata": {
+        "added": 1732159574000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738465892000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
+        "authorName": "BlueCat300",
+        "name": {
+          "en-US": "Yandex Maps Patcher"
         },
-        "185ef84c23193e814f33110cf1ac4ec318959f78121af48a1aabf9346a3e3784": {
-          "added": 1736058414000,
+        "summary": {
+          "en-US": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>Yandex Maps Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Скрывает рекламу и навязчивые сервисы в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Долгое нажатие на иконку профиля на главной</li>\n<li>Яндекс.Плюс для Android Auto и музыка включены всегда</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Список последних маршрутов поверх карты</li>\n<li>Контроль видимости сервисов на цветной навигационной панели</li>\n<li>Реклама</li>\n<li>Скрытие ленты историй, предложений, товаров в карточках организаций</li>\n<li>Список категорий на карточках зданий</li>\n<li>Управление видом поисковой строки</li>\n<li>Блокировка появления уведомлений и стартовых историй на главной</li>\n<li>Скрытие профиля с социальной сетью</li>\n<li>Управление дизайном истории поиска</li>\n</ul>\n<h3>Платные сервисы (скрытие):</h3>\n<ul>\n<li>Яндекс.Плюс</li>\n<li>Такси</li>\n<li>Заправки</li>\n<li>Парковки</li>\n</ul>\n<h3>Расположения баннеров:</h3>\n<ul>\n<li>Поисковые категории</li>\n<li>Поисковые запросы</li>\n<li>Всплывающие баннеры организаций при движении в режиме навигатора</li>\n<li>Карточки организаций / зданий</li>\n<li>Кнопка о покупке рекламы в карточке организации</li>\n<li>Горизонтальная кнопка в профиле о покупке рекламы</li>\n<li>Вызов такси</li>\n<li>Во время построения автомобильного маршрута</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.</li>\n<li>Доступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian cartographic service <a href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\">Yandex Maps</a>.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>\n"
+        },
+        "preferredSigner": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
+      },
+      "versions": {
+        "e960a84f2b3a2f65cb8e519d07d3fa71d7152fe1c56f5f580624f2687b6163d6": {
+          "added": 1738465892000,
           "file": {
-            "name": "/ru.bluecat.sberbankpatcher_398-1.23.2.apk",
-            "sha256": "185ef84c23193e814f33110cf1ac4ec318959f78121af48a1aabf9346a3e3784",
-            "size": 8936211
+            "name": "/ru.bluecat.yandexmapspatcher_243-1.13.2.apk",
+            "sha256": "e960a84f2b3a2f65cb8e519d07d3fa71d7152fe1c56f5f580624f2687b6163d6",
+            "size": 7529066
           },
           "manifest": {
             "nativecode": [
@@ -27707,15 +27821,15 @@
               "x86",
               "x86_64"
             ],
-            "versionName": "1.23.2",
-            "versionCode": 398,
+            "versionName": "1.13.2",
+            "versionCode": 243,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
-                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+                "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
               ]
             },
             "usesPermission": [
@@ -27750,37 +27864,14 @@
                 "name": "android.permission.FOREGROUND_SERVICE"
               },
               {
-                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "ru.bluecat.yandexmapspatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               },
               {
                 "name": "moe.shizuku.manager.permission.API_V23"
               }
             ]
           }
-        }
-      }
-    },
-    "ru.bluecat.yandexmapspatcher": {
-      "metadata": {
-        "added": 1732159574000,
-        "categories": [
-          "Xposed"
-        ],
-        "lastUpdated": 1738379519000,
-        "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
-        "authorName": "BlueCat300",
-        "name": {
-          "en-US": "Yandex Maps Patcher"
         },
-        "summary": {
-          "en-US": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
-        },
-        "description": {
-          "en-US": "<div align=\"center\">\n<h1>Yandex Maps Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=126968779\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>Скрывает рекламу и навязчивые сервисы в приложении <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></p>\n</div>\n<h3>Общее:</h3>\n<ul>\n<li>Запуск настроек: Долгое нажатие на иконку профиля на главной</li>\n<li>Яндекс.Плюс для Android Auto и музыка включены всегда</li>\n</ul>\n<h3>Контролируемый функционал:</h3>\n<ul>\n<li>Список последних маршрутов поверх карты</li>\n<li>Контроль видимости сервисов на цветной навигационной панели</li>\n<li>Реклама</li>\n<li>Скрытие ленты историй, предложений, товаров в карточках организаций</li>\n<li>Список категорий на карточках зданий</li>\n<li>Управление видом поисковой строки</li>\n<li>Блокировка появления уведомлений и стартовых историй на главной</li>\n<li>Скрытие профиля с социальной сетью</li>\n<li>Управление дизайном истории поиска</li>\n</ul>\n<h3>Платные сервисы (скрытие):</h3>\n<ul>\n<li>Яндекс.Плюс</li>\n<li>Такси</li>\n<li>Заправки</li>\n<li>Парковки</li>\n</ul>\n<h3>Расположения баннеров:</h3>\n<ul>\n<li>Поисковые категории</li>\n<li>Поисковые запросы</li>\n<li>Всплывающие баннеры организаций при движении в режиме навигатора</li>\n<li>Карточки организаций / зданий</li>\n<li>Кнопка о покупке рекламы в карточке организации</li>\n<li>Горизонтальная кнопка в профиле о покупке рекламы</li>\n<li>Вызов такси</li>\n<li>Во время построения автомобильного маршрута</li>\n</ul>\n<h3>Требования:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>Установленное приложение <a href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\">Яндекс Карты</a></li>\n</ul>\n<h3>Обратите внимание:</h3>\n<ul>\n<li>Модульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.</li>\n<li>Доступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.</li>\n<li>Модуль имеет возможность работать в режиме <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian cartographic service <a href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\">Yandex Maps</a>.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>\n"
-        },
-        "preferredSigner": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
-      },
-      "versions": {
         "5b3371226cd1806921a68bfdf2583cac66b9477c302e3b94522d1d4f886936a9": {
           "added": 1738379519000,
           "file": {
@@ -27907,68 +27998,6 @@
               },
               {
                 "name": "moe.shizuku.manager.permission.API_V23"
-              }
-            ]
-          }
-        },
-        "673dbe59517ab9579e17f0e24cf0817a82be5c63b575acbd9b2711dd5a88da63": {
-          "added": 1732159575000,
-          "file": {
-            "name": "/ru.bluecat.yandexmapspatcher_212-1.12.apk",
-            "sha256": "673dbe59517ab9579e17f0e24cf0817a82be5c63b575acbd9b2711dd5a88da63",
-            "size": 8460287
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.12",
-            "versionCode": 212,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              },
-              {
-                "name": "com.google.android.gms.permission.AD_ID"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "ru.bluecat.yandexmapspatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }

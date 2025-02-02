@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738379693000,
+    "timestamp": 1738466073000,
     "version": 20002
   },
   "requests": {
@@ -6055,14 +6055,14 @@
       "summary": "解除三星系统时钟通话中不提醒不响铃的限制"
     },
     {
-      "added": 1738348934000,
+      "added": 1738413308000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eБаннеры с персональными предложениями\u003c/li\u003e\n\u003cli\u003eУдерживание экрана для карт лояльности\u003c/li\u003e\n\u003cli\u003eПлатежи. Номер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eПлатежи. Раздел благотворительности\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПрофиль. Реклама в разделе недвижимость\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисный уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие кредитов и микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root и целостности устройства для SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003cli\u003eИстория. Увеличено количество скрываемых транзакций до 300\u003c/li\u003e\n\u003cli\u003eАктивирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.sberbankpatcher.png",
-      "lastUpdated": 1738348934000,
+      "lastUpdated": 1738413308000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6072,8 +6072,8 @@
       "name": "Sberbank Patcher",
       "packageName": "ru.bluecat.sberbankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
-      "suggestedVersionCode": "412",
-      "suggestedVersionName": "1.24.1",
+      "suggestedVersionCode": "415",
+      "suggestedVersionName": "1.24.2",
       "summary": "Различные модификации в приложении СберБанк."
     },
     {
@@ -6921,7 +6921,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738379450000,
+      "lastUpdated": 1738465819000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7385,14 +7385,14 @@
       "summary": "-"
     },
     {
-      "added": 1738349057000,
+      "added": 1738413464000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eYandex Maps Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=126968779\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eСкрывает рекламу и навязчивые сервисы в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Долгое нажатие на иконку профиля на главной\u003c/li\u003e\n\u003cli\u003eЯндекс.Плюс для Android Auto и музыка включены всегда\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eСписок последних маршрутов поверх карты\u003c/li\u003e\n\u003cli\u003eКонтроль видимости сервисов на цветной навигационной панели\u003c/li\u003e\n\u003cli\u003eРеклама\u003c/li\u003e\n\u003cli\u003eСкрытие ленты историй, предложений, товаров в карточках организаций\u003c/li\u003e\n\u003cli\u003eСписок категорий на карточках зданий\u003c/li\u003e\n\u003cli\u003eУправление видом поисковой строки\u003c/li\u003e\n\u003cli\u003eБлокировка появления уведомлений и стартовых историй на главной\u003c/li\u003e\n\u003cli\u003eСкрытие профиля с социальной сетью\u003c/li\u003e\n\u003cli\u003eУправление дизайном истории поиска\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eПлатные сервисы (скрытие):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЯндекс.Плюс\u003c/li\u003e\n\u003cli\u003eТакси\u003c/li\u003e\n\u003cli\u003eЗаправки\u003c/li\u003e\n\u003cli\u003eПарковки\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eРасположения баннеров:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПоисковые категории\u003c/li\u003e\n\u003cli\u003eПоисковые запросы\u003c/li\u003e\n\u003cli\u003eВсплывающие баннеры организаций при движении в режиме навигатора\u003c/li\u003e\n\u003cli\u003eКарточки организаций / зданий\u003c/li\u003e\n\u003cli\u003eКнопка о покупке рекламы в карточке организации\u003c/li\u003e\n\u003cli\u003eГоризонтальная кнопка в профиле о покупке рекламы\u003c/li\u003e\n\u003cli\u003eВызов такси\u003c/li\u003e\n\u003cli\u003eВо время построения автомобильного маршрута\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.\u003c/li\u003e\n\u003cli\u003eДоступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian cartographic service \u003ca href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\"\u003eYandex Maps\u003c/a\u003e.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.yandexmapspatcher.png",
-      "lastUpdated": 1738349057000,
+      "lastUpdated": 1738413464000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -7402,8 +7402,8 @@
       "name": "Yandex Maps Patcher",
       "packageName": "ru.bluecat.yandexmapspatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
-      "suggestedVersionCode": "241",
-      "suggestedVersionName": "1.13.1",
+      "suggestedVersionCode": "243",
+      "suggestedVersionName": "1.13.2",
       "summary": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
     },
     {
@@ -7558,14 +7558,14 @@
       "summary": "Hook Tool By HdShare"
     },
     {
-      "added": 1737994361000,
+      "added": 1738444627000,
       "authorName": "HdShare",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/HookGG/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/HookGG/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/HookGG?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/HookGG?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/HookGG?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.hookgg/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.hookgg/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.hookgg?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/HookGG/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/HookGG?style=flat-square\u0026label=Release\u0026labelColor=8b00c5\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_HookGG_Chat\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e调试输出 GameGuardian 脚本执行函数\u003c/p\u003e\n\u003cp\u003eDebug output for GameGuardian script execution functions\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd rowspan=\"3\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eFuncName\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"2\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eOfficial GG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"1\" colspan=\"3\" align=\"center\"\u003e\u003cb\u003eThird-party GG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd rowspan=\"1\" colspan=\"1\" align=\"center\"\u003e\u003cb\u003eOther\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eAGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eELGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eRLGG\u003c/b\u003e\u003c/td\u003e\n        \u003ctd colspan=\"1\" align=\"center\"\u003e\u003cb\u003eUnknown\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e96.0~101.1\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e3.3.3~3.3.91\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e1.1.9~1.2.5\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e2.0.9.2\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eUnknown\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eGG\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eString\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eMath\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❌\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003eOther\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e🚫\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eName\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eDesc\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003eStatus\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003ePlugin\u003c/td\u003e\n        \u003ctd align=\"center\"\u003euse lua script hook\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e0%\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eIconFont\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://www.iconfont.cn/\"\u003eIconFont\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
       "icon": "me.hd.hookgg.png",
-      "lastUpdated": 1737994361000,
+      "lastUpdated": 1738444627000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -8082,24 +8082,24 @@
       "summary": "本模块为团团分身辅助模块，方便分身与第三方应用交互、或第三方应用与分身交互(无法在团团分身中使用需Lsp等框架)\n如：分身使用官方wx登录、第三方应用使用..."
     },
     {
-      "added": 1737804040000,
+      "added": 1738404919000,
       "authorName": "Mingyueyixi",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ePicCatcher(图片捕手)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Mingyueyixi/PicCatcher\"\u003eSource link / 项目地址\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e反馈问题可点击以上地址，发起issues\u003c/p\u003e\n\u003ch2\u003e介绍\u003c/h2\u003e\n\u003cp\u003e抓取 app 运行中的图片，并保存的sdcard/Picture目录下，方便取用和查看。\u003c/p\u003e\n\u003cp\u003e作者开发初衷只是用来抓表情包\u003cimg src=\"056A9564.png\" alt=\"alt text\" /\u003e\u003c/p\u003e\n\u003ch2\u003e声明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e本项目仅供学习交流使用，请勿用于商业用途，请勿用于非法用途；\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1737804040000,
+      "lastUpdated": 1738404919000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1、添加配置，控制捕捉图片方式的开关、导出图片大小限制等\n2、使用智障 ai 对大部分页面进行英文翻译"
+          "whatsNew": "1、修复bitmap导出时，因宿主app（微信）回收了bitmap导致崩溃\n2、支持配置图片的保存格式（webp、png、jpg）\n"
         }
       },
       "name": "图片捕手/Catch app's picture",
       "packageName": "com.pic.catcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.pic.catcher",
-      "suggestedVersionCode": "2",
-      "suggestedVersionName": "1.1-yp",
+      "suggestedVersionCode": "3",
+      "suggestedVersionName": "1.2-dev",
       "summary": "抓取任意app的图片并保存到/sdcard/Pictures/app包名/目录下；\ncatch any app's picture and save it..."
     },
     {
@@ -14506,7 +14506,22 @@
     ],
     "com.pic.catcher": [
       {
-        "added": 1737804040000,
+        "added": 1738404919000,
+        "apkName": "com.pic.catcher_3-1.2-dev.apk",
+        "hash": "906b95d7eac03a97b798b7db43302f8cc034cb6edb27cc8806f29511df833b36",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.pic.catcher",
+        "sig": "6a9b0f68113b01e16c4aa80c22562c08",
+        "signer": "7896772e07823b1c67141017691048b23dc3cc226529bba08ec575b49491bf7b",
+        "size": 87417,
+        "targetSdkVersion": 35,
+        "versionCode": 3,
+        "versionName": "1.2-dev"
+      },
+      {
+        "added": 1737861051000,
         "apkName": "com.pic.catcher_2-1.1-yp.apk",
         "hash": "dd308badf931a6efbea353e636e4a14c97cc567320a342995cebe0d230034bc2",
         "hashType": "sha256",
@@ -15654,7 +15669,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738379450000,
+        "added": 1738465819000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18491,7 +18506,27 @@
     ],
     "me.hd.hookgg": [
       {
-        "added": 1737994361000,
+        "added": 1738444627000,
+        "apkName": "me.hd.hookgg_20250127-2.0.7-release.apk",
+        "hash": "6af3ab6b666f8f6a66b3c831ba00e89dc1ca34f1e3d5a292b319671737f40cb0",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.hd.hookgg",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 3365773,
+        "targetSdkVersion": 34,
+        "versionCode": 20250127,
+        "versionName": "2.0.7"
+      },
+      {
+        "added": 1738033666000,
         "apkName": "me.hd.hookgg_20250127-2.0.7.apk",
         "hash": "6af3ab6b666f8f6a66b3c831ba00e89dc1ca34f1e3d5a292b319671737f40cb0",
         "hashType": "sha256",
@@ -19617,7 +19652,27 @@
     ],
     "ru.bluecat.sberbankpatcher": [
       {
-        "added": 1738348934000,
+        "added": 1738413308000,
+        "apkName": "ru.bluecat.sberbankpatcher_415-1.24.2.apk",
+        "hash": "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 7823946,
+        "targetSdkVersion": 34,
+        "versionCode": 415,
+        "versionName": "1.24.2"
+      },
+      {
+        "added": 1738379517000,
         "apkName": "ru.bluecat.sberbankpatcher_412-1.24.1.apk",
         "hash": "b45343718218d901e1eeffbb92171a6ce77334609f93834b3cc410ed89adac57",
         "hashType": "sha256",
@@ -19655,11 +19710,13 @@
         "targetSdkVersion": 34,
         "versionCode": 407,
         "versionName": "1.24"
-      },
+      }
+    ],
+    "ru.bluecat.yandexmapspatcher": [
       {
-        "added": 1736058414000,
-        "apkName": "ru.bluecat.sberbankpatcher_398-1.23.2.apk",
-        "hash": "185ef84c23193e814f33110cf1ac4ec318959f78121af48a1aabf9346a3e3784",
+        "added": 1738413464000,
+        "apkName": "ru.bluecat.yandexmapspatcher_243-1.13.2.apk",
+        "hash": "e960a84f2b3a2f65cb8e519d07d3fa71d7152fe1c56f5f580624f2687b6163d6",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -19668,18 +19725,16 @@
           "x86",
           "x86_64"
         ],
-        "packageName": "ru.bluecat.sberbankpatcher",
-        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
-        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
-        "size": 8936211,
+        "packageName": "ru.bluecat.yandexmapspatcher",
+        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
+        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
+        "size": 7529066,
         "targetSdkVersion": 34,
-        "versionCode": 398,
-        "versionName": "1.23.2"
-      }
-    ],
-    "ru.bluecat.yandexmapspatcher": [
+        "versionCode": 243,
+        "versionName": "1.13.2"
+      },
       {
-        "added": 1738349057000,
+        "added": 1738379519000,
         "apkName": "ru.bluecat.yandexmapspatcher_241-1.13.1.apk",
         "hash": "5b3371226cd1806921a68bfdf2583cac66b9477c302e3b94522d1d4f886936a9",
         "hashType": "sha256",
@@ -19717,26 +19772,6 @@
         "targetSdkVersion": 34,
         "versionCode": 237,
         "versionName": "1.13"
-      },
-      {
-        "added": 1732159575000,
-        "apkName": "ru.bluecat.yandexmapspatcher_212-1.12.apk",
-        "hash": "673dbe59517ab9579e17f0e24cf0817a82be5c63b575acbd9b2711dd5a88da63",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "ru.bluecat.yandexmapspatcher",
-        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
-        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
-        "size": 8460287,
-        "targetSdkVersion": 34,
-        "versionCode": 212,
-        "versionName": "1.12"
       }
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [
