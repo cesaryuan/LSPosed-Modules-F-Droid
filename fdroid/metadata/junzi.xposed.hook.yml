@@ -1,8 +1,8 @@
 AuthorName: ZZCYUN
 Categories:
     - Xposed
-CurrentVersion: "1.9"
-CurrentVersionCode: 10
+CurrentVersion: 2.0.1
+CurrentVersionCode: 12
 Description: |
     <h1>JunZi Xposed Hook</h1>
     <p>一些软件的hook</p>
@@ -24,10 +24,7 @@ Description: |
     <p>Picsart</p>
     <p>七猫免费小说</p>
     <p>宇宙工具箱</p>
-    <h1>开源说明</h1>
-    <p>目前仅开源非hook部分，也就是UI，虽然UI不咋好看。</p>
-    <h1>开源地址</h1>
-    <p><a href="https://github.com/ZZCYUN/JunZi-Xposed-Hook">https://github.com/ZZCYUN/JunZi-Xposed-Hook</a></p>
+    <p>AudioLab</p>
 IssueTracker: ""
 Name: JunZi Xposed Hook
 SourceCode: https://github.com/Xposed-Modules-Repo/junzi.xposed.hook
