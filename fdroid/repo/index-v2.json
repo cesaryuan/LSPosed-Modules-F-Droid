@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738552690000,
+    "timestamp": 1738638925000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738552236000,
+        "lastUpdated": 1738638499000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -14747,6 +14747,50 @@
         }
       }
     },
+    "com.suisho.disablescreenshotsound": {
+      "metadata": {
+        "added": 1738638573000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1738638573000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
+        "authorName": "NativeStar",
+        "name": {
+          "en-US": "屏蔽使用Android原生截屏功能时的音效"
+        },
+        "summary": {
+          "en-US": "屏蔽使用Android原生截屏功能时发出的音效"
+        },
+        "description": {
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/DisableScreenshotSound\">https://github.com/NativeStar/DisableScreenshotSound</a></p>\n<p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>\n<p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>\n<p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>\n<p>因此采用Hook系统界面的方式去除它</p>\n<p>已确认在Android14上可用 其他版本请自行测试</p>\n<p>###使用方法</p>\n<p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>\n<p>然后重启系统或作用域</p>\n"
+        },
+        "preferredSigner": "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21"
+      },
+      "versions": {
+        "e28b82133ac027807e137d2e9a6beaea27c1a82049969400a2dadd82ba90871b": {
+          "added": 1738638573000,
+          "file": {
+            "name": "/com.suisho.disablescreenshotsound_1-1.0.apk",
+            "sha256": "e28b82133ac027807e137d2e9a6beaea27c1a82049969400a2dadd82ba90871b",
+            "size": 51358
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21"
+              ]
+            }
+          }
+        }
+      }
+    },
     "com.suisho.pixelposed": {
       "metadata": {
         "added": 1732159499000,
@@ -16287,7 +16331,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738552326000,
+        "lastUpdated": 1738638583000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20788,7 +20832,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738206553000,
+        "lastUpdated": 1738638610000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
         "authorName": "Howard20181",
         "name": {
@@ -20803,6 +20847,27 @@
         "preferredSigner": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
       },
       "versions": {
+        "7977e714c6b9aac666670c22c99f7300c1b3a93216c63ac16366e069761e9991": {
+          "added": 1738638610000,
+          "file": {
+            "name": "/io.github.howard20181.notificationiconfix_73-1.4.apk",
+            "sha256": "7977e714c6b9aac666670c22c99f7300c1b3a93216c63ac16366e069761e9991",
+            "size": 20068
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 73,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
+              ]
+            }
+          }
+        },
         "c1de02b4f202ac4b51aa3493bd9a80c8ee6e2db9ff43af5c70188a06d09540e3": {
           "added": 1738206553000,
           "file": {
@@ -23995,7 +24060,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738552375000,
+        "lastUpdated": 1738638629000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
