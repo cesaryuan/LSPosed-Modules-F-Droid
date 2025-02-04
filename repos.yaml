@@ -11013,6 +11013,29 @@ com.strawing.fuckdevicepolicy:
             <p>If you are using LSPosed, please Activate this module and reboot firstly, before edit and save your custom policies!</p>
             <p>如果你用的是LSPosed，在App中编辑/保存策略你的自定义策略之前，请先激活这个模块并重启！</p>
     author_name: liyafe1997
+com.suisho.disablescreenshotsound:
+    git: https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound
+    summary: 屏蔽使用Android原生截屏功能时发出的音效
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <p>源码:<a href="https://github.com/NativeStar/DisableScreenshotSound">https://github.com/NativeStar/DisableScreenshotSound</a></p>
+            <p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>
+            <p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>
+            <p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>
+            <p>因此采用Hook系统界面的方式去除它</p>
+            <p>已确认在Android14上可用 其他版本请自行测试</p>
+            <p>###使用方法</p>
+            <p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>
+            <p>然后重启系统或作用域</p>
+          filename: app-release.apk
+          id: com.suisho.disablescreenshotsound
+          name: 屏蔽使用Android原生截屏功能时的音效
+          last_updated: "2025-02-03T15:44:23Z"
+          releasedescription: <p>首次发布</p>
+    author_name: NativeStar
 com.suisho.pixelposed:
     git: https://github.com/Xposed-Modules-Repo/com.suisho.pixelposed
     summary: 无限续命安卓Pixel客户端搜索结果热度排序7天试用
@@ -15642,15 +15665,15 @@ io.github.howard20181.notificationiconfix:
             <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
             <li>Final result output, cache icon, and accent color to WeakHashMap</li>
             </ol>
-          filename: NotifyIconFix-1.3.72.apk
+          filename: NotifyIconFix-1.4.73.apk
           id: io.github.howard20181.notificationiconfix
           name: Notification Icon Fix / 通知图标修复
-          last_updated: "2025-01-30T03:46:57Z"
+          last_updated: "2025-02-03T08:51:51Z"
           releasedescription: |-
             <h2>Changelog</h2>
             <ul>
-            <li>Don't assume VectorDrawable is ok, there are many colorful VectorDrawable icons set by the system on HyperOS<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg1NDE1NTAsIm5iZiI6MTczODU0MTI1MCwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjAzVDAwMDczMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiNmRmOTM3OTJjYjBiNTUwOWRhNWQyNzQzMzA4ZmNhZTU1ZDEzN2M2Y2NhZGQ2Njg0MGU2ZWZiMmY3Y2UzYjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.y4vYgXKvZuUDvY8YuvssRUdzP3SX60vjkRougDMq3YM"><img width="454" alt="image" src="https://private-user-images.githubusercontent.com/40033067/407838957-676c1b8c-c232-42b8-a778-a029613241de.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg1NDE1NTAsIm5iZiI6MTczODU0MTI1MCwicGF0aCI6Ii80MDAzMzA2Ny80MDc4Mzg5NTctNjc2YzFiOGMtYzIzMi00MmI4LWE3NzgtYTAyOTYxMzI0MWRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjAzVDAwMDczMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiNmRmOTM3OTJjYjBiNTUwOWRhNWQyNzQzMzA4ZmNhZTU1ZDEzN2M2Y2NhZGQ2Njg0MGU2ZWZiMmY3Y2UzYjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.y4vYgXKvZuUDvY8YuvssRUdzP3SX60vjkRougDMq3YM" content-type-secured-asset="image/png" style="max-width: 100%;"></a></li>
+            <li>Don't set color for auto-group summary</li>
+            <li>Don't ignore icon check results for auto-group summary</li>
             </ul>
     author_name: Howard20181
 io.github.icepony.alwayscreateuser:

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738552690000,
+    "timestamp": 1738638925000,
     "version": 20002
   },
   "requests": {
@@ -4943,24 +4943,24 @@
       "summary": "隐藏最近任务列表视图"
     },
     {
-      "added": 1738208817000,
+      "added": 1738572711000,
       "authorName": "Howard20181",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNotification Icon Fix\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"README.zh.md\"\u003e中文\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.\u003c/p\u003e\n\u003ch2\u003eSupported System\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1 ~ AOSP main branch\u003c/li\u003e\n\u003cli\u003eHyperOS\u003c/li\u003e\n\u003cli\u003eMIUI 12.5\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eScreenshots\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/3.jpg\" alt=\"Single Notification\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eAlgorithm Details\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eDetermine and reduce oversized icons to the maximum allowed icon size\u003c/li\u003e\n\u003cli\u003eMap the icon pixel position to a two-dimensional coordinate system and calculate the geometric center\u003c/li\u003e\n\u003cli\u003e(For MIUI) Detect transparent borders and trim icons\u003c/li\u003e\n\u003cli\u003e(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a \u003ca href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\"\u003eperfect icon\u003c/a\u003e (Need to install it yourself)\u003c/li\u003e\n\u003cli\u003e(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)\u003c/li\u003e\n\u003cli\u003eCalculate the average lumens excluding transparent pixels\u003c/li\u003e\n\u003cli\u003eQuantify the most common color of edge pixels\u003c/li\u003e\n\u003cli\u003eCalculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border\u003c/li\u003e\n\u003cli\u003eDetermine whether the icon background is light or dark\u003c/li\u003e\n\u003cli\u003eUse K-means quantizer to extract the primary color of the icon\u003c/li\u003e\n\u003cli\u003eInvert the icon foreground according to the background and remove the border\u003c/li\u003e\n\u003cli\u003eDetermine the actual visible area of ​​the icon and remove the blank area based on the visual center\u003c/li\u003e\n\u003cli\u003eFinal result output, cache icon, and accent color to WeakHashMap\u003c/li\u003e\n\u003c/ol\u003e\n",
-      "lastUpdated": 1738208817000,
+      "lastUpdated": 1738572711000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## Changelog\n\n- Don't assume VectorDrawable is ok, there are many colorful VectorDrawable icons set by the system on HyperOS\n\t\u003cimg width=\"454\" alt=\"image\" src=\"https://github.com/user-attachments/assets/676c1b8c-c232-42b8-a778-a029613241de\" /\u003e\n"
+          "whatsNew": "## Changelog\n- Don't set color for auto-group summary\n- Don't ignore icon check results for auto-group summary"
         }
       },
       "name": "Notification Icon Fix / 通知图标修复",
       "packageName": "io.github.howard20181.notificationiconfix",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
-      "suggestedVersionCode": "72",
-      "suggestedVersionName": "1.3",
+      "suggestedVersionCode": "73",
+      "suggestedVersionName": "1.4",
       "summary": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
     },
     {
@@ -6922,7 +6922,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738552326000,
+      "lastUpdated": 1738638583000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8321,6 +8321,27 @@
       "suggestedVersionCode": "1921",
       "suggestedVersionName": "0.3.0",
       "summary": "替换小米平板5系列垃圾MagicPointer鼠标指针"
+    },
+    {
+      "added": 1738597463000,
+      "authorName": "NativeStar",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/DisableScreenshotSound\"\u003ehttps://github.com/NativeStar/DisableScreenshotSound\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed模块 用于屏蔽使用Android原生截屏功能时发出音效\u003c/p\u003e\n\u003cp\u003e开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后\u003c/p\u003e\n\u003cp\u003e其自带的截屏音效根本找不到地方关(设置里头改了没效)\u003c/p\u003e\n\u003cp\u003e因此采用Hook系统界面的方式去除它\u003c/p\u003e\n\u003cp\u003e已确认在Android14上可用 其他版本请自行测试\u003c/p\u003e\n\u003cp\u003e###使用方法\u003c/p\u003e\n\u003cp\u003e在LSPosed作用域中勾选推荐应用(其实就一个系统界面)\u003c/p\u003e\n\u003cp\u003e然后重启系统或作用域\u003c/p\u003e\n",
+      "lastUpdated": 1738597463000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "首次发布"
+        }
+      },
+      "name": "屏蔽使用Android原生截屏功能时的音效",
+      "packageName": "com.suisho.disablescreenshotsound",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "屏蔽使用Android原生截屏功能时发出的音效"
     },
     {
       "added": 1699513630000,
@@ -15106,6 +15127,23 @@
         "versionName": "1.0"
       }
     ],
+    "com.suisho.disablescreenshotsound": [
+      {
+        "added": 1738597463000,
+        "apkName": "com.suisho.disablescreenshotsound_1-1.0.apk",
+        "hash": "e28b82133ac027807e137d2e9a6beaea27c1a82049969400a2dadd82ba90871b",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": null,
+        "packageName": "com.suisho.disablescreenshotsound",
+        "sig": "317f78b0e2d77c49cea83b8039b18dbb",
+        "signer": "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21",
+        "size": 51358,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "com.suisho.pixelposed": [
       {
         "added": 1732019192000,
@@ -15670,7 +15708,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738552326000,
+        "added": 1738638583000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17302,7 +17340,22 @@
     ],
     "io.github.howard20181.notificationiconfix": [
       {
-        "added": 1738208817000,
+        "added": 1738572711000,
+        "apkName": "io.github.howard20181.notificationiconfix_73-1.4.apk",
+        "hash": "7977e714c6b9aac666670c22c99f7300c1b3a93216c63ac16366e069761e9991",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "io.github.howard20181.notificationiconfix",
+        "sig": "b3845b8b201076ee6bb8b727e02d44c4",
+        "signer": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9",
+        "size": 20068,
+        "targetSdkVersion": 35,
+        "versionCode": 73,
+        "versionName": "1.4"
+      },
+      {
+        "added": 1738206553000,
         "apkName": "io.github.howard20181.notificationiconfix_72-1.3.apk",
         "hash": "c1de02b4f202ac4b51aa3493bd9a80c8ee6e2db9ff43af5c70188a06d09540e3",
         "hashType": "sha256",

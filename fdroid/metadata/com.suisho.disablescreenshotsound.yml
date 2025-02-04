@@ -1,0 +1,20 @@
+AuthorName: NativeStar
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <p>源码:<a href="https://github.com/NativeStar/DisableScreenshotSound">https://github.com/NativeStar/DisableScreenshotSound</a></p>
+    <p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>
+    <p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>
+    <p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>
+    <p>因此采用Hook系统界面的方式去除它</p>
+    <p>已确认在Android14上可用 其他版本请自行测试</p>
+    <p>###使用方法</p>
+    <p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>
+    <p>然后重启系统或作用域</p>
+IssueTracker: ""
+Name: 屏蔽使用Android原生截屏功能时的音效
+SourceCode: https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound
+Summary: 屏蔽使用Android原生截屏功能时发出的音效
+WebSite: ""
