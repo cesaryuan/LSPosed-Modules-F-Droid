@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1738638911000,
+    "timestamp": 1738725230000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -76,6 +76,22 @@
       "lastUpdated": 1737083405000
     },
     {
+      "authorName": "Hicores",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "v937",
+      "suggestedVersionCode": "937",
+      "description": "<p>QQ/\u5fae\u4fe1/TIM\u8868\u60c5\u5305\u6a21\u5757,\u652f\u6301\u5728QQ/\u5fae\u4fe1/TIM\u4e2d\u4f7f\u7528\u8868\u60c5\u9762\u677f\u548c\u8bed\u97f3\u9762\u677f\u4ee5\u4fdd\u5b58\u548c\u53d1\u9001\u8868\u60c5\u548c\u8bed\u97f3</p>\n<p>\u652f\u6301\u5fae\u4fe18.0.40\u4ee5\u4e0a\n\u652f\u6301QQ9.0.30\u4ee5\u4e0a\n\u652f\u6301TIM4.0.97\u4ee5\u4e0a</p>\n",
+      "license": "Unknown",
+      "name": "FunBox",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
+      "summary": "QQ/\u5fae\u4fe1/TIM\u8868\u60c5\u5305\u6a21\u5757,\u652f\u6301\u5728QQ/\u5fae\u4fe1/TIM\u4e2d\u4f7f\u7528\u8868\u60c5\u9762\u677f\u548c\u8bed\u97f3\u9762\u677f\u4ee5\u4fdd\u5b58\u548c\u53d1\u9001\u8868\u60c5\u548c\u8bed\u97f3",
+      "added": 1736738609000,
+      "packageName": "have.fun",
+      "lastUpdated": 1738725040000
+    },
+    {
       "authorName": "Xposed-Modules-Repo",
       "categories": [
         "Xposed"
@@ -128,16 +144,16 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "2.0.1",
-      "suggestedVersionCode": "12",
-      "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<p>\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5b87\u5b99\u5de5\u5177\u7bb1</p>\n<p>AudioLab</p>\n",
+      "suggestedVersionName": "2.1",
+      "suggestedVersionCode": "13",
+      "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u6b22\u8fce\u52a0\u5165TG\u4ea4\u6d41\u7fa4(\u6ca1\u5565\u4eba)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<p>\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5b87\u5b99\u5de5\u5177\u7bb1</p>\n<p>AudioLab</p>\n<p>\u5feb\u8fde</p>\n<p>\u62fe\u5149\u5c0f\u8bf4</p>\n",
       "license": "Unknown",
       "name": "JunZi Xposed Hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
       "summary": "\u5bf9\u4e00\u4e9b\u8f6f\u4ef6\u7684\u529f\u80fd\u6027\u589e\u5f3a",
       "added": 1737774504000,
       "packageName": "junzi.xposed.hook",
-      "lastUpdated": 1738552367000
+      "lastUpdated": 1738725060000
     },
     {
       "authorName": "luckyzyx",
@@ -240,8 +256,8 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "1.24.2",
-      "suggestedVersionCode": "415",
+      "suggestedVersionName": "1.25",
+      "suggestedVersionCode": "419",
       "description": "<div align=\"center\">\n<h1>Sberbank Patcher</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /></a>\n<a href=\"https://t.me/lsposed_workshop\"><img src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/lsposed_workshop_forum\"><img src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /></a>\n<a href=\"https://4pda.to/forum/index.php?showtopic=603033&amp;view=findpost&amp;p=123542189\"><img src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /></a>\n<a href=\"https://pay.cloudtips.ru/p/85f8cf00\"><img src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /></a></p>\n<p>\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0435 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">\u0421\u0431\u0435\u0440\u0411\u0430\u043d\u043a</a></p>\n</div>\n<h3>\u041e\u0431\u0449\u0435\u0435:</h3>\n<ul>\n<li>\u0417\u0430\u043f\u0443\u0441\u043a \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a: \u042d\u043a\u0440\u0430\u043d \u0432\u0432\u043e\u0434\u0430 \u043f\u0438\u043d \u043a\u043e\u0434\u0430, \u043a\u043d\u043e\u043f\u043a\u0430 \u0441\u043c\u0435\u043d\u044b \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u0438 \u0432\u043a\u043b\u044e\u0447\u0451\u043d\u043d\u043e\u0439 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0435 \u0438\u043a\u043e\u043d\u043a\u0430 \u043b\u0430\u0443\u043d\u0447\u0435\u0440\u0430.</li>\n</ul>\n<h3>\u041a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b:</h3>\n<ul>\n<li>\u0410\u043d\u0442\u0438\u0432\u0438\u0440\u0443\u0441 \u041a\u0430\u0441\u043f\u0435\u0440\u0441\u043a\u043e\u0433\u043e</li>\n<li>\u0421\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u0430\u043c\u043e\u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f</li>\n<li>\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430</li>\n<li>\u041e\u0440\u0438\u0435\u043d\u0442\u0430\u0446\u0438\u044f</li>\n<li>\u0421\u043a\u0440\u044b\u0442\u0438\u0435 \u043d\u0435 \u0443\u0431\u0438\u0440\u0430\u0435\u043c\u044b\u0445 \u0440\u0430\u0437\u0434\u0435\u043b\u043e\u0432</li>\n<li>\u0411\u0435\u0442\u0430</li>\n<li>\u042d\u043a\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441\u0431\u0435\u0440\u0430</li>\n<li>\u0421\u0431\u0435\u0440\u041f\u0440\u0430\u0439\u043c</li>\n<li>\u0410\u0441\u0441\u0438\u0441\u0442\u0435\u043d\u0442</li>\n<li>\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0438 \u043e\u0431\u0443\u0447\u0430\u0435\u043c\u044b\u0435 \u043a\u0430\u0440\u0442\u043e\u0447\u043a\u0438</li>\n<li>\u041f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0438 \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u0430\u0445</li>\n<li>\u0411\u0430\u043d\u043d\u0435\u0440\u044b \u0441 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u043c\u0438</li>\n<li>\u0423\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430 \u0434\u043b\u044f \u043a\u0430\u0440\u0442 \u043b\u043e\u044f\u043b\u044c\u043d\u043e\u0441\u0442\u0438</li>\n<li>\u041f\u043b\u0430\u0442\u0435\u0436\u0438. \u041d\u043e\u043c\u0435\u0440 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e \u0434\u043b\u044f \u0421\u0411\u041f \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432</li>\n<li>\u041f\u043b\u0430\u0442\u0435\u0436\u0438. \u0420\u0430\u0437\u0434\u0435\u043b \u0431\u043b\u0430\u0433\u043e\u0442\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438</li>\n<li>\u041f\u0440\u043e\u0444\u0438\u043b\u044c. \u0427\u0442\u043e \u043d\u043e\u0432\u043e\u0433\u043e</li>\n<li>\u041f\u0440\u043e\u0444\u0438\u043b\u044c. \u0420\u0435\u043a\u043b\u0430\u043c\u0430 \u0432 \u0440\u0430\u0437\u0434\u0435\u043b\u0435 \u043d\u0435\u0434\u0432\u0438\u0436\u0438\u043c\u043e\u0441\u0442\u044c</li>\n<li>\u041f\u043e\u0438\u0441\u043a. \u0421\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0438 \u043a\u0430\u043d\u0430\u043b\u043e\u0432</li>\n<li>\u041a\u0430\u0440\u0442\u044b. \u0421\u0431\u0435\u0440\u0421\u043f\u0430\u0441\u0438\u0431\u043e</li>\n<li>\u0418\u0441\u0442\u043e\u0440\u0438\u044f. \u041e\u0447\u0438\u0441\u0442\u043a\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0439 \u043e\u0442 \u0440\u0435\u043a\u043b\u0430\u043c\u044b \u0438 \u0441\u0435\u0440\u0432\u0438\u0441\u043d\u044b\u0439 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439</li>\n<li>\u0418\u0441\u0442\u043e\u0440\u0438\u044f. \u0421\u043a\u0440\u044b\u0442\u0438\u0435 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432 \u0438 \u043c\u0438\u043a\u0440\u043e \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f</li>\n<li>Push. \u0413\u043b\u0443\u0448\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e-\u0440\u0435\u043a\u043b\u0430\u043c\u043d\u043e\u0433\u043e \u043a\u0430\u043d\u0430\u043b\u0430</li>\n<li>Push. \u0424\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u044f \u043f\u043e \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u043c \u0441\u043b\u043e\u0432\u0430\u043c(\u0447\u0451\u0440\u043d\u044b\u0439/\u0431\u0435\u043b\u044b\u0439 \u0441\u043f\u0438\u0441\u043e\u043a)</li>\n<li>Push. \u041b\u043e\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e-\u0440\u0435\u043a\u043b\u0430\u043c\u043d\u043e\u0433\u043e \u043a\u0430\u043d\u0430\u043b\u0430</li>\n<li>Push. \u041e\u0447\u0438\u0441\u0442\u043a\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 push \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439</li>\n<li>Push. \u0421\u043a\u0440\u044b\u0442\u0438\u0435 \u043a\u043d\u043e\u043f\u043e\u043a \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0432 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u0439</li>\n</ul>\n<h3>\u041d\u0435 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b(\u0432\u0441\u0435\u0433\u0434\u0430 \u0432\u043a\u043b\u044e\u0447\u0451\u043d):</h3>\n<ul>\n<li>\u041f\u0440\u043e\u043c\u043e \u043d\u0430 \u0433\u043b\u0430\u0432\u043d\u043e\u043c \u044d\u043a\u0440\u0430\u043d\u0435</li>\n<li>\u0417\u0430\u043f\u0440\u043e\u0441 \u043e\u0446\u0435\u043d\u0438\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0440\u0430\u0437\u0434\u0435\u043b\u044b \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f</li>\n<li>\u0417\u0430\u043f\u0440\u043e\u0441 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0438\u0438 (Android 9 \u0438 \u043d\u0438\u0436\u0435)</li>\n<li>\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430. \u041f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043d\u0430 root \u0438 \u0446\u0435\u043b\u043e\u0441\u0442\u043d\u043e\u0441\u0442\u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0434\u043b\u044f SberPay</li>\n<li>VPN \u0441\u0442\u0430\u0442\u0443\u0441</li>\n<li>\u0418\u0441\u0442\u043e\u0440\u0438\u044f. \u0423\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u043e \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u043c\u044b\u0445 \u0442\u0440\u0430\u043d\u0437\u0430\u043a\u0446\u0438\u0439 \u0434\u043e 300</li>\n<li>\u0410\u043a\u0442\u0438\u0432\u0438\u0440\u043e\u0432\u0430\u043d \u043d\u043e\u043c\u0435\u0440 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e / \u0441\u043a\u0440\u044b\u0442\u043e \u043d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u0435 \u0432\u044b\u0434\u0430\u0442\u044c \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0430\u043c  \u0432 \u043d\u043e\u0432\u043e\u043c \u0440\u0430\u0437\u0434\u0435\u043b\u0435 \u043f\u0435\u0440\u0435\u0432\u043e\u0434\u043e\u0432 \u043d\u0430 \u0433\u043b\u0430\u0432\u043d\u043e\u0439</li>\n</ul>\n<h3>\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430:</h3>\n<ul>\n<li>\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430</li>\n<li>Firebase Analytics</li>\n</ul>\n<h3>\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:</h3>\n<ul>\n<li>Android 8.0+</li>\n<li>\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u043e\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">\u0421\u0431\u0435\u0440\u0431\u0430\u043d\u043a</a></li>\n</ul>\n<h3>\u041e\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435:</h3>\n<ul>\n<li>\u041c\u043e\u0434\u0443\u043b\u044c\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0440\u0443\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0434\u043b\u044f \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0438 \u0440\u0430\u0431\u043e\u0442\u043e\u0439 \u0441 \u0444\u0430\u0439\u043b\u0430\u043c\u0438 \u0432 \u043b\u0438\u0447\u043d\u043e\u0439 \u043f\u0430\u043f\u043a\u0435 \u0421\u0431\u0435\u0440\u0431\u0430\u043d\u043a\u0430.</li>\n<li>\u041c\u043e\u0434\u0443\u043b\u044c \u0438\u043c\u0435\u0435\u0442 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 <a href=\"https://github.com/JingMatrix/LSPatch\">LSPatch</a>, \u0442\u0440\u0435\u0431\u0443\u044e\u0442\u0441\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u044b, \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435 \u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u0432 telegram \u043a\u0430\u043d\u0430\u043b\u0435.</li>\n</ul>\n<h2>For non-Russian users:</h2>\n<p>This is a module for the russian banking application <a href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\">Sberbank</a>. You don\u2019t need to use it, app working only in Russia. This module has support only for the Russian language.</p>\n",
       "license": "Unknown",
       "name": "Sberbank Patcher",
@@ -249,7 +265,7 @@
       "summary": "\u0420\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0435 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438 \u0421\u0431\u0435\u0440\u0411\u0430\u043d\u043a.",
       "added": 1732159573000,
       "packageName": "ru.bluecat.sberbankpatcher",
-      "lastUpdated": 1738465890000
+      "lastUpdated": 1738725090000
     },
     {
       "authorName": "suzhelan",
@@ -1829,6 +1845,25 @@
         "versionName": "ffa7f8de-alpha"
       }
     ],
+    "have.fun": [
+      {
+        "added": 1736738609000,
+        "apkName": "have.fun_885-v885.apk",
+        "hash": "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4032610,
+        "targetSdkVersion": 34,
+        "versionCode": 885,
+        "versionName": "v885"
+      }
+    ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
       {
         "added": 1732159529000,
@@ -1904,6 +1939,36 @@
       }
     ],
     "junzi.xposed.hook": [
+      {
+        "added": 1738120070000,
+        "apkName": "junzi.xposed.hook_9-1.8.apk",
+        "hash": "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2499927,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "1.8"
+      },
       {
         "added": 1738033658000,
         "apkName": "junzi.xposed.hook_8-1.7.apk",
@@ -2448,6 +2513,76 @@
       }
     ],
     "ru.bluecat.sberbankpatcher": [
+      {
+        "added": 1736996856000,
+        "apkName": "ru.bluecat.sberbankpatcher_407-1.24.apk",
+        "hash": "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 8957887,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+            null
+          ],
+          [
+            "com.google.android.gms.permission.AD_ID",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_ADSERVICES_AD_ID",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ]
+        ],
+        "versionCode": 407,
+        "versionName": "1.24"
+      },
       {
         "added": 1736058414000,
         "apkName": "ru.bluecat.sberbankpatcher_398-1.23.2.apk",

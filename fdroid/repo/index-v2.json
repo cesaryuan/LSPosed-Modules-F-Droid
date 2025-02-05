@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738638925000,
+    "timestamp": 1738725244000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738638499000,
+        "lastUpdated": 1738724935000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -14757,7 +14757,7 @@
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
         "authorName": "NativeStar",
         "name": {
-          "en-US": "屏蔽使用Android原生截屏功能时的音效"
+          "en-US": "DisableScreenshotSound"
         },
         "summary": {
           "en-US": "屏蔽使用Android原生截屏功能时发出的音效"
@@ -16331,7 +16331,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738638583000,
+        "lastUpdated": 1738725021000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -19387,7 +19387,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947312000,
+        "lastUpdated": 1738725040000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -19402,6 +19402,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657": {
+          "added": 1738725040000,
+          "file": {
+            "name": "/have.fun_937-v937.apk",
+            "sha256": "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657",
+            "size": 4422200
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v937",
+            "versionCode": 937,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b": {
           "added": 1737947312000,
           "file": {
@@ -19441,30 +19465,6 @@
             "versionCode": 912,
             "usesSdk": {
               "minSdkVersion": 30,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
-              ]
-            }
-          }
-        },
-        "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889": {
-          "added": 1736738609000,
-          "file": {
-            "name": "/have.fun_885-v885.apk",
-            "sha256": "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889",
-            "size": 4032610
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "v885",
-            "versionCode": 885,
-            "usesSdk": {
-              "minSdkVersion": 29,
               "targetSdkVersion": 34
             },
             "signer": {
@@ -22927,7 +22927,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738552367000,
+        "lastUpdated": 1738725060000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22937,18 +22937,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n"
-        },
-        "icon": {
-          "en-US": {
-            "name": "/icons/junzi.xposed.hook.12.png",
-            "sha256": "05f2d02d2943b31def060f2643aca801e8057ea1b73d98c386102759c8b7af8f",
-            "size": 3221
-          }
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7": {
+          "added": 1738725060000,
+          "file": {
+            "name": "/junzi.xposed.hook_13-2.1.apk",
+            "sha256": "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7",
+            "size": 6829404
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.1",
+            "versionCode": 13,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "db3608e87b8c86d7ea76afa4a5c9c67e44c317d0497892ff21bb3c690d024a86": {
           "added": 1738552367000,
           "file": {
@@ -23000,41 +23026,6 @@
             ],
             "versionName": "1.9",
             "versionCode": 10,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1": {
-          "added": 1738120070000,
-          "file": {
-            "name": "/junzi.xposed.hook_9-1.8.apk",
-            "sha256": "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1",
-            "size": 2499927
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.8",
-            "versionCode": 9,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24060,7 +24051,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738638629000,
+        "lastUpdated": 1738725069000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -27646,7 +27637,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738465890000,
+        "lastUpdated": 1738725090000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -27661,6 +27652,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98": {
+          "added": 1738725090000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_419-1.25.apk",
+            "sha256": "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98",
+            "size": 7791173
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.25",
+            "versionCode": 419,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a": {
           "added": 1738465890000,
           "file": {
@@ -27742,71 +27798,6 @@
             ],
             "versionName": "1.24.1",
             "versionCode": 412,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              },
-              {
-                "name": "com.google.android.gms.permission.AD_ID"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "moe.shizuku.manager.permission.API_V23"
-              }
-            ]
-          }
-        },
-        "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6": {
-          "added": 1736996856000,
-          "file": {
-            "name": "/ru.bluecat.sberbankpatcher_407-1.24.apk",
-            "sha256": "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6",
-            "size": 8957887
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.24",
-            "versionCode": 407,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34

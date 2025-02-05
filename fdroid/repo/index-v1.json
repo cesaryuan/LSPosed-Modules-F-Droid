@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738638925000,
+    "timestamp": 1738725244000,
     "version": 20002
   },
   "requests": {
@@ -1675,6 +1675,27 @@
       "summary": "disable audio focus\n音声フォーカスを無効にします"
     },
     {
+      "added": 1738597463000,
+      "authorName": "NativeStar",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/DisableScreenshotSound\"\u003ehttps://github.com/NativeStar/DisableScreenshotSound\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed模块 用于屏蔽使用Android原生截屏功能时发出音效\u003c/p\u003e\n\u003cp\u003e开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后\u003c/p\u003e\n\u003cp\u003e其自带的截屏音效根本找不到地方关(设置里头改了没效)\u003c/p\u003e\n\u003cp\u003e因此采用Hook系统界面的方式去除它\u003c/p\u003e\n\u003cp\u003e已确认在Android14上可用 其他版本请自行测试\u003c/p\u003e\n\u003cp\u003e###使用方法\u003c/p\u003e\n\u003cp\u003e在LSPosed作用域中勾选推荐应用(其实就一个系统界面)\u003c/p\u003e\n\u003cp\u003e然后重启系统或作用域\u003c/p\u003e\n",
+      "lastUpdated": 1738597463000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "首次发布"
+        }
+      },
+      "name": "DisableScreenshotSound",
+      "packageName": "com.suisho.disablescreenshotsound",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "屏蔽使用Android原生截屏功能时发出的音效"
+    },
+    {
       "added": 1731224272000,
       "authorName": "zhizi42",
       "categories": [
@@ -2438,24 +2459,24 @@
       "summary": "禁止应用跳转淘宝京东"
     },
     {
-      "added": 1737904364000,
+      "added": 1738683680000,
       "authorName": "Hicores",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eQQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音\u003c/p\u003e\n\u003cp\u003e支持微信8.0.40以上\n支持QQ9.0.30以上\n支持TIM4.0.97以上\u003c/p\u003e\n",
-      "lastUpdated": 1737904364000,
+      "lastUpdated": 1738683680000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1.修复方法搜索缓存丢失导致的功能和启动卡顿问题\n2.移动部分核心共享类到本体以保证能从旧版本热更新上来\n3.移除没必要的输出\n\nV923\n1.修改FunBox在QQ的入口注入位置\n2.修复FunBox zygisk在部分设备导致QQ启动闪退问题\n3.最低安卓版本恢复为安卓10\n4.修复tg表情包下载后和原始表情包不一致的问题\n5.对部分hook方法的caller进行去优化\n6.修复有道网页翻译API\n7.修复QQ主题被锁死无法恢复的问题"
+          "whatsNew": "1.zygisk版本使用真实的方法来进行backup,提高稳定性(或许)\n2.支持显示更多种类型的伪造随机表情\n3.支持拦截更多类型的异常消息图片加载\n4.拦截闪退新增一种新型的闪退消息拦截\n5.移除所有的隐藏新特性,默认使用S版本兼容版"
         }
       },
       "name": "FunBox",
       "packageName": "have.fun",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
-      "suggestedVersionCode": "929",
-      "suggestedVersionName": "v929",
+      "suggestedVersionCode": "937",
+      "suggestedVersionName": "v937",
       "summary": "QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音"
     },
     {
@@ -3420,25 +3441,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1738502007000,
+      "added": 1738674305000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n",
-      "icon": "junzi.xposed.hook.12.png",
-      "lastUpdated": 1738502007000,
+      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n",
+      "lastUpdated": 1738674305000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "上一个版本忘记新增包名到推荐列表了"
+          "whatsNew": "新增 支持 快连\n新增 支持 拾光小说"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "12",
-      "suggestedVersionName": "2.0.1",
+      "suggestedVersionCode": "13",
+      "suggestedVersionName": "2.1",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -6056,25 +6076,25 @@
       "summary": "解除三星系统时钟通话中不提醒不响铃的限制"
     },
     {
-      "added": 1738413308000,
+      "added": 1738687439000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSberbank Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=123542189\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eРазличные модификации в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСберБанк\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Экран ввода пин кода, кнопка смены пользователя. Работает только при включённой настройке иконка лаунчера.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eАнтивирус Касперского\u003c/li\u003e\n\u003cli\u003eСистема самообновления\u003c/li\u003e\n\u003cli\u003eАналитика\u003c/li\u003e\n\u003cli\u003eОриентация\u003c/li\u003e\n\u003cli\u003eСкрытие не убираемых разделов\u003c/li\u003e\n\u003cli\u003eБета\u003c/li\u003e\n\u003cli\u003eЭкосистема сбера\u003c/li\u003e\n\u003cli\u003eСберПрайм\u003c/li\u003e\n\u003cli\u003eАссистент\u003c/li\u003e\n\u003cli\u003eИнформационные и обучаемые карточки\u003c/li\u003e\n\u003cli\u003eПодсказки при переводах\u003c/li\u003e\n\u003cli\u003eБаннеры с персональными предложениями\u003c/li\u003e\n\u003cli\u003eУдерживание экрана для карт лояльности\u003c/li\u003e\n\u003cli\u003eПлатежи. Номер по умолчанию для СБП переводов\u003c/li\u003e\n\u003cli\u003eПлатежи. Раздел благотворительности\u003c/li\u003e\n\u003cli\u003eПрофиль. Что нового\u003c/li\u003e\n\u003cli\u003eПрофиль. Реклама в разделе недвижимость\u003c/li\u003e\n\u003cli\u003eПоиск. Скрытие предложений и каналов\u003c/li\u003e\n\u003cli\u003eКарты. СберСпасибо\u003c/li\u003e\n\u003cli\u003eИстория. Очистка истории транзакций от рекламы и сервисный уведомлений\u003c/li\u003e\n\u003cli\u003eИстория. Скрытие кредитов и микро кредитования\u003c/li\u003e\n\u003cli\u003ePush. Глушение информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Фильтрация по ключевым словам(чёрный/белый список)\u003c/li\u003e\n\u003cli\u003ePush. Логирование информационно-рекламного канала\u003c/li\u003e\n\u003cli\u003ePush. Очистка истории push уведомлений\u003c/li\u003e\n\u003cli\u003ePush. Скрытие кнопок действий в истории уведомлений\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eНе контролируемый функционал(всегда включён):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПромо на главном экране\u003c/li\u003e\n\u003cli\u003eЗапрос оценить приложение и другие разделы приложения\u003c/li\u003e\n\u003cli\u003eЗапрос разрешения телефонии (Android 9 и ниже)\u003c/li\u003e\n\u003cli\u003eБезопасность устройства. Проверка на root и целостности устройства для SberPay\u003c/li\u003e\n\u003cli\u003eVPN статус\u003c/li\u003e\n\u003cli\u003eИстория. Увеличено количество скрываемых транзакций до 300\u003c/li\u003e\n\u003cli\u003eАктивирован номер по умолчанию / скрыто напоминание выдать доступ к контактам  в новом разделе переводов на главной\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eАналитика:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eВнутренняя аналитика\u003c/li\u003e\n\u003cli\u003eFirebase Analytics\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eСбербанк\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Сбербанка.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian banking application \u003ca href=\"https://www.rustore.ru/catalog/app/ru.sberbankmobile\"\u003eSberbank\u003c/a\u003e. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.sberbankpatcher.png",
-      "lastUpdated": 1738413308000,
+      "lastUpdated": 1738687439000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Возвращение разблокировки разделов на главной.\n\nОбратите внимание! Для раздела истории отсутствует кнопка добавления на главную. Для добавления раздела обратно переключите в модуле \"Кредитование\" в положение выключено, следуйте инструкции. Вы так же можете его вернуть с помощью сброса разделов в сбербанке."
+          "whatsNew": "- Поддержка версии 16.4.0\n- Мелкие правки\n\nРазработчики отключили каналы и раздел \"Что нового?\" в профиле. Настройка в модуле сохранена на случай их внезапного появления."
         }
       },
       "name": "Sberbank Patcher",
       "packageName": "ru.bluecat.sberbankpatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
-      "suggestedVersionCode": "415",
-      "suggestedVersionName": "1.24.2",
+      "suggestedVersionCode": "419",
+      "suggestedVersionName": "1.25",
       "summary": "Различные модификации в приложении СберБанк."
     },
     {
@@ -6922,7 +6942,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738638583000,
+      "lastUpdated": 1738725021000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8321,27 +8341,6 @@
       "suggestedVersionCode": "1921",
       "suggestedVersionName": "0.3.0",
       "summary": "替换小米平板5系列垃圾MagicPointer鼠标指针"
-    },
-    {
-      "added": 1738597463000,
-      "authorName": "NativeStar",
-      "categories": [
-        "Xposed"
-      ],
-      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/DisableScreenshotSound\"\u003ehttps://github.com/NativeStar/DisableScreenshotSound\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed模块 用于屏蔽使用Android原生截屏功能时发出音效\u003c/p\u003e\n\u003cp\u003e开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后\u003c/p\u003e\n\u003cp\u003e其自带的截屏音效根本找不到地方关(设置里头改了没效)\u003c/p\u003e\n\u003cp\u003e因此采用Hook系统界面的方式去除它\u003c/p\u003e\n\u003cp\u003e已确认在Android14上可用 其他版本请自行测试\u003c/p\u003e\n\u003cp\u003e###使用方法\u003c/p\u003e\n\u003cp\u003e在LSPosed作用域中勾选推荐应用(其实就一个系统界面)\u003c/p\u003e\n\u003cp\u003e然后重启系统或作用域\u003c/p\u003e\n",
-      "lastUpdated": 1738597463000,
-      "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "首次发布"
-        }
-      },
-      "name": "屏蔽使用Android原生截屏功能时的音效",
-      "packageName": "com.suisho.disablescreenshotsound",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
-      "summary": "屏蔽使用Android原生截屏功能时发出的音效"
     },
     {
       "added": 1699513630000,
@@ -15708,7 +15707,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738638583000,
+        "added": 1738725021000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16771,7 +16770,24 @@
     ],
     "have.fun": [
       {
-        "added": 1737904364000,
+        "added": 1738683680000,
+        "apkName": "have.fun_937-v937.apk",
+        "hash": "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4422200,
+        "targetSdkVersion": 34,
+        "versionCode": 937,
+        "versionName": "v937"
+      },
+      {
+        "added": 1737947312000,
         "apkName": "have.fun_929-v929.apk",
         "hash": "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b",
         "hashType": "sha256",
@@ -16803,23 +16819,6 @@
         "targetSdkVersion": 34,
         "versionCode": 912,
         "versionName": "v912"
-      },
-      {
-        "added": 1736738609000,
-        "apkName": "have.fun_885-v885.apk",
-        "hash": "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "have.fun",
-        "sig": "847a474215fbdc0d6660c50e5e385732",
-        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
-        "size": 4032610,
-        "targetSdkVersion": 34,
-        "versionCode": 885,
-        "versionName": "v885"
       }
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
@@ -18202,7 +18201,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1738502007000,
+        "added": 1738674305000,
+        "apkName": "junzi.xposed.hook_13-2.1.apk",
+        "hash": "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 6829404,
+        "targetSdkVersion": 33,
+        "versionCode": 13,
+        "versionName": "2.1"
+      },
+      {
+        "added": 1738552367000,
         "apkName": "junzi.xposed.hook_12-2.0.1.apk",
         "hash": "db3608e87b8c86d7ea76afa4a5c9c67e44c317d0497892ff21bb3c690d024a86",
         "hashType": "sha256",
@@ -18240,26 +18257,6 @@
         "targetSdkVersion": 33,
         "versionCode": 10,
         "versionName": "1.9"
-      },
-      {
-        "added": 1738120070000,
-        "apkName": "junzi.xposed.hook_9-1.8.apk",
-        "hash": "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2499927,
-        "targetSdkVersion": 33,
-        "versionCode": 9,
-        "versionName": "1.8"
       }
     ],
     "lialh4.ldf": [
@@ -19706,7 +19703,27 @@
     ],
     "ru.bluecat.sberbankpatcher": [
       {
-        "added": 1738413308000,
+        "added": 1738687439000,
+        "apkName": "ru.bluecat.sberbankpatcher_419-1.25.apk",
+        "hash": "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.sberbankpatcher",
+        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
+        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
+        "size": 7791173,
+        "targetSdkVersion": 34,
+        "versionCode": 419,
+        "versionName": "1.25"
+      },
+      {
+        "added": 1738465890000,
         "apkName": "ru.bluecat.sberbankpatcher_415-1.24.2.apk",
         "hash": "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a",
         "hashType": "sha256",
@@ -19744,26 +19761,6 @@
         "targetSdkVersion": 34,
         "versionCode": 412,
         "versionName": "1.24.1"
-      },
-      {
-        "added": 1736996856000,
-        "apkName": "ru.bluecat.sberbankpatcher_407-1.24.apk",
-        "hash": "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "ru.bluecat.sberbankpatcher",
-        "sig": "bef2e77bf1791c38cab6713b19d3baa4",
-        "signer": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487",
-        "size": 8957887,
-        "targetSdkVersion": 34,
-        "versionCode": 407,
-        "versionName": "1.24"
       }
     ],
     "ru.bluecat.yandexmapspatcher": [

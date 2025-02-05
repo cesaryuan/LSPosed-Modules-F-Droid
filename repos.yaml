@@ -11032,7 +11032,7 @@ com.suisho.disablescreenshotsound:
             <p>然后重启系统或作用域</p>
           filename: app-release.apk
           id: com.suisho.disablescreenshotsound
-          name: 屏蔽使用Android原生截屏功能时的音效
+          name: DisableScreenshotSound
           last_updated: "2025-02-03T15:44:23Z"
           releasedescription: <p>首次发布</p>
     author_name: NativeStar
@@ -14445,22 +14445,16 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v929_S.Apk
+          filename: FunBox_v937.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-01-26T15:12:44Z"
+          last_updated: "2025-02-04T15:41:20Z"
           releasedescription: |-
-            <p>1.修复方法搜索缓存丢失导致的功能和启动卡顿问题<br>
-            2.移动部分核心共享类到本体以保证能从旧版本热更新上来<br>
-            3.移除没必要的输出</p>
-            <p>V923<br>
-            1.修改FunBox在QQ的入口注入位置<br>
-            2.修复FunBox zygisk在部分设备导致QQ启动闪退问题<br>
-            3.最低安卓版本恢复为安卓10<br>
-            4.修复tg表情包下载后和原始表情包不一致的问题<br>
-            5.对部分hook方法的caller进行去优化<br>
-            6.修复有道网页翻译API<br>
-            7.修复QQ主题被锁死无法恢复的问题</p>
+            <p>1.zygisk版本使用真实的方法来进行backup,提高稳定性(或许)<br>
+            2.支持显示更多种类型的伪造随机表情<br>
+            3.支持拦截更多类型的异常消息图片加载<br>
+            4.拦截闪退新增一种新型的闪退消息拦截<br>
+            5.移除所有的隐藏新特性,默认使用S版本兼容版</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -16755,6 +16749,8 @@ junzi.xposed.hook:
           description: |
             <h1>JunZi Xposed Hook</h1>
             <p>一些软件的hook</p>
+            <h1>欢迎加入TG交流群(没啥人)</h1>
+            <p><a href="https://t.me/JunZi_Xposed_Hook">https://t.me/JunZi_Xposed_Hook</a></p>
             <h1>支持的软件</h1>
             <p>滚动的天空</p>
             <p>囧次元</p>
@@ -16774,11 +16770,15 @@ junzi.xposed.hook:
             <p>七猫免费小说</p>
             <p>宇宙工具箱</p>
             <p>AudioLab</p>
-          filename: All.apk
+            <p>快连</p>
+            <p>拾光小说</p>
+          filename: JunZi.Xposed.Hook_2.1.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-02T13:13:27Z"
-          releasedescription: <p>上一个版本忘记新增包名到推荐列表了</p>
+          last_updated: "2025-02-04T13:05:05Z"
+          releasedescription: |-
+            <p>新增 支持 快连<br>
+            新增 支持 拾光小说</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -19975,15 +19975,16 @@ ru.bluecat.sberbankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Sberbank_Patcher_v1.24.2.apk
+          filename: Sberbank_Patcher_v1.25.apk
           id: ru.bluecat.sberbankpatcher
           name: Sberbank Patcher
-          last_updated: "2025-02-01T12:35:08Z"
+          last_updated: "2025-02-04T16:43:59Z"
           releasedescription: |-
             <ul>
-            <li>Возвращение разблокировки разделов на главной.</li>
+            <li>Поддержка версии 16.4.0</li>
+            <li>Мелкие правки</li>
             </ul>
-            <p>Обратите внимание! Для раздела истории отсутствует кнопка добавления на главную. Для добавления раздела обратно переключите в модуле "Кредитование" в положение выключено, следуйте инструкции. Вы так же можете его вернуть с помощью сброса разделов в сбербанке.</p>
+            <p>Разработчики отключили каналы и раздел "Что нового?" в профиле. Настройка в модуле сохранена на случай их внезапного появления.</p>
     author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:
     git: https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher
