@@ -14,7 +14,7 @@ Description: |
     <p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>
     <p>然后重启系统或作用域</p>
 IssueTracker: ""
-Name: 屏蔽使用Android原生截屏功能时的音效
+Name: DisableScreenshotSound
 SourceCode: https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound
 Summary: 屏蔽使用Android原生截屏功能时发出的音效
 WebSite: ""
