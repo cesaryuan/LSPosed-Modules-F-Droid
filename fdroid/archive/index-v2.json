@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1738725230000,
+    "timestamp": 1738811925000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1962,7 +1962,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725060000,
+        "lastUpdated": 1738811578000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -1977,6 +1977,41 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0": {
+          "added": 1738292855000,
+          "file": {
+            "name": "/junzi.xposed.hook_10-1.9.apk",
+            "sha256": "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0",
+            "size": 2704727
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.9",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "d94b0a9908fe1f8adb03106feab6853cd34c1fb1893335ad47a819fe57703aa1": {
           "added": 1738120070000,
           "file": {
