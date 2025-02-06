@@ -1,0 +1,33 @@
+{
+  "repo": {
+    "timestamp": 1738811939000
+  },
+  "packages": {
+    "com.suisho.disablescreenshotsound": {
+      "metadata": {
+        "description": {
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/DisableScreenshotSound\">https://github.com/NativeStar/DisableScreenshotSound</a></p>\n<p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>\n<p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>\n<p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>\n<p>因此采用Hook系统界面的方式去除它</p>\n<p>已确认在Android14 15上可用 其他版本请自行测试</p>\n<h3>使用方法</h3>\n<p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>\n<p>然后重启系统或作用域</p>\n"
+        }
+      },
+      "versions": {
+        "50dd84088d2e6ae553612876165e5bd9b465400e7f94e4b457bd2a6d37c5c7e1": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.suisho.pixelposed": {
+      "metadata": {
+        "description": {
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/PixelPosed\">https://github.com/NativeStar/PixelPosed</a></p>\n<p>无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块</p>\n<p>(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)</p>\n<p>在Pixel版本 6.133.1 测试正常</p>\n<p>(感觉这模块都没什么更新的必要了 原理太无脑)</p>\n<h3>使用方法</h3>\n<p>1:刷入LSPosed</p>\n<p>2:在LSPosed管理器中勾选作用域为Pixel</p>\n<p>3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效</p>\n"
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "versions": {
+        "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

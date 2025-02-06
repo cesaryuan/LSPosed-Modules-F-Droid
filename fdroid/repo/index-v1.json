@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1738725244000,
+    "timestamp": 1738811939000,
     "version": 20002
   },
   "requests": {
@@ -1675,24 +1675,24 @@
       "summary": "disable audio focus\n音声フォーカスを無効にします"
     },
     {
-      "added": 1738597463000,
+      "added": 1738758412000,
       "authorName": "NativeStar",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/DisableScreenshotSound\"\u003ehttps://github.com/NativeStar/DisableScreenshotSound\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed模块 用于屏蔽使用Android原生截屏功能时发出音效\u003c/p\u003e\n\u003cp\u003e开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后\u003c/p\u003e\n\u003cp\u003e其自带的截屏音效根本找不到地方关(设置里头改了没效)\u003c/p\u003e\n\u003cp\u003e因此采用Hook系统界面的方式去除它\u003c/p\u003e\n\u003cp\u003e已确认在Android14上可用 其他版本请自行测试\u003c/p\u003e\n\u003cp\u003e###使用方法\u003c/p\u003e\n\u003cp\u003e在LSPosed作用域中勾选推荐应用(其实就一个系统界面)\u003c/p\u003e\n\u003cp\u003e然后重启系统或作用域\u003c/p\u003e\n",
-      "lastUpdated": 1738597463000,
+      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/DisableScreenshotSound\"\u003ehttps://github.com/NativeStar/DisableScreenshotSound\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eXposed模块 用于屏蔽使用Android原生截屏功能时发出音效\u003c/p\u003e\n\u003cp\u003e开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后\u003c/p\u003e\n\u003cp\u003e其自带的截屏音效根本找不到地方关(设置里头改了没效)\u003c/p\u003e\n\u003cp\u003e因此采用Hook系统界面的方式去除它\u003c/p\u003e\n\u003cp\u003e已确认在Android14 15上可用 其他版本请自行测试\u003c/p\u003e\n\u003ch3\u003e使用方法\u003c/h3\u003e\n\u003cp\u003e在LSPosed作用域中勾选推荐应用(其实就一个系统界面)\u003c/p\u003e\n\u003cp\u003e然后重启系统或作用域\u003c/p\u003e\n",
+      "lastUpdated": 1738758412000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "首次发布"
+          "whatsNew": "支持Android15"
         }
       },
       "name": "DisableScreenshotSound",
       "packageName": "com.suisho.disablescreenshotsound",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "1.1",
       "summary": "屏蔽使用Android原生截屏功能时发出的音效"
     },
     {
@@ -3441,24 +3441,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1738674305000,
+      "added": 1738794721000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n",
-      "lastUpdated": 1738674305000,
+      "lastUpdated": 1738794721000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 快连\n新增 支持 拾光小说"
+          "whatsNew": "新增 支持 醒图"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "13",
-      "suggestedVersionName": "2.1",
+      "suggestedVersionCode": "14",
+      "suggestedVersionName": "2.2",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -5468,7 +5468,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/PixelPosed\"\u003ehttps://github.com/NativeStar/PixelPosed\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块\u003c/p\u003e\n\u003cp\u003e(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)\u003c/p\u003e\n\u003cp\u003e在Pixel版本 6.130.0 测试正常\u003c/p\u003e\n\u003ch3\u003e使用方法\u003c/h3\u003e\n\u003cp\u003e1:刷入LSPosed\u003c/p\u003e\n\u003cp\u003e2:在LSPosed管理器中勾选作用域为Pixel\u003c/p\u003e\n\u003cp\u003e3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效\u003c/p\u003e\n",
+      "description": "\u003cp\u003e源码:\u003ca href=\"https://github.com/NativeStar/PixelPosed\"\u003ehttps://github.com/NativeStar/PixelPosed\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块\u003c/p\u003e\n\u003cp\u003e(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)\u003c/p\u003e\n\u003cp\u003e在Pixel版本 6.133.1 测试正常\u003c/p\u003e\n\u003cp\u003e(感觉这模块都没什么更新的必要了 原理太无脑)\u003c/p\u003e\n\u003ch3\u003e使用方法\u003c/h3\u003e\n\u003cp\u003e1:刷入LSPosed\u003c/p\u003e\n\u003cp\u003e2:在LSPosed管理器中勾选作用域为Pixel\u003c/p\u003e\n\u003cp\u003e3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效\u003c/p\u003e\n",
       "lastUpdated": 1732019192000,
       "license": "Unknown",
       "localized": {
@@ -6942,7 +6942,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1738725021000,
+      "lastUpdated": 1738811540000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8245,7 +8245,7 @@
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "项目重构，添加了一个界面，可以自定义多邻国识别到的时区。\n- 增加抢救模式，在错过昨日的练习时，可以通过临时修改到较早的较早的时区来\u003cdel\u003e回到过去\u003c/del\u003e，继续你的连胜\n- 修改了签名，如果没有核心破解，需要重新卸载重装"
+          "whatsNew": "项目重构，添加了一个界面，可以自定义多邻国识别到的时区。\n- 增加抢救模式，在错过昨日的练习时，可以通过临时修改到较早的时区来\u003cdel\u003e回到过去\u003c/del\u003e，继续你的连胜\n- 修改了签名，如果没有核心破解，需要重新卸载重装"
         }
       },
       "name": "多邻国后悔药 Duolingo Regret",
@@ -13554,7 +13554,7 @@
         "versionName": "1.0"
       },
       {
-        "added": 1738313979000,
+        "added": 1738746472000,
         "apkName": "com.jakting.duolingo_202501310-2.0.apk",
         "hash": "e338b367fda81d40fce4f3f358cbe1af910061082772477d64d673425c3de0b9",
         "hashType": "sha256",
@@ -15128,7 +15128,22 @@
     ],
     "com.suisho.disablescreenshotsound": [
       {
-        "added": 1738597463000,
+        "added": 1738758412000,
+        "apkName": "com.suisho.disablescreenshotsound_2-1.1.apk",
+        "hash": "50dd84088d2e6ae553612876165e5bd9b465400e7f94e4b457bd2a6d37c5c7e1",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": null,
+        "packageName": "com.suisho.disablescreenshotsound",
+        "sig": "317f78b0e2d77c49cea83b8039b18dbb",
+        "signer": "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21",
+        "size": 52902,
+        "targetSdkVersion": 35,
+        "versionCode": 2,
+        "versionName": "1.1"
+      },
+      {
+        "added": 1738638573000,
         "apkName": "com.suisho.disablescreenshotsound_1-1.0.apk",
         "hash": "e28b82133ac027807e137d2e9a6beaea27c1a82049969400a2dadd82ba90871b",
         "hashType": "sha256",
@@ -15707,7 +15722,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1738725021000,
+        "added": 1738811540000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18201,7 +18216,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1738674305000,
+        "added": 1738794721000,
+        "apkName": "junzi.xposed.hook_14-2.2.apk",
+        "hash": "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 5829980,
+        "targetSdkVersion": 33,
+        "versionCode": 14,
+        "versionName": "2.2"
+      },
+      {
+        "added": 1738725060000,
         "apkName": "junzi.xposed.hook_13-2.1.apk",
         "hash": "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7",
         "hashType": "sha256",
@@ -18237,26 +18270,6 @@
         "targetSdkVersion": 33,
         "versionCode": 12,
         "versionName": "2.0.1"
-      },
-      {
-        "added": 1738292855000,
-        "apkName": "junzi.xposed.hook_10-1.9.apk",
-        "hash": "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2704727,
-        "targetSdkVersion": 33,
-        "versionCode": 10,
-        "versionName": "1.9"
       }
     ],
     "lialh4.ldf": [

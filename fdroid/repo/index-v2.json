@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738725244000,
+    "timestamp": 1738811939000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738724935000,
+        "lastUpdated": 1738811456000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -14753,7 +14753,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738638573000,
+        "lastUpdated": 1738811530000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suisho.disablescreenshotsound",
         "authorName": "NativeStar",
         "name": {
@@ -14763,11 +14763,32 @@
           "en-US": "屏蔽使用Android原生截屏功能时发出的音效"
         },
         "description": {
-          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/DisableScreenshotSound\">https://github.com/NativeStar/DisableScreenshotSound</a></p>\n<p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>\n<p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>\n<p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>\n<p>因此采用Hook系统界面的方式去除它</p>\n<p>已确认在Android14上可用 其他版本请自行测试</p>\n<p>###使用方法</p>\n<p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>\n<p>然后重启系统或作用域</p>\n"
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/DisableScreenshotSound\">https://github.com/NativeStar/DisableScreenshotSound</a></p>\n<p>Xposed模块 用于屏蔽使用Android原生截屏功能时发出音效</p>\n<p>开发原意是:某些高度定制UI(如HyperOS)在使用其他模块强行启用Android原生截屏后</p>\n<p>其自带的截屏音效根本找不到地方关(设置里头改了没效)</p>\n<p>因此采用Hook系统界面的方式去除它</p>\n<p>已确认在Android14 15上可用 其他版本请自行测试</p>\n<h3>使用方法</h3>\n<p>在LSPosed作用域中勾选推荐应用(其实就一个系统界面)</p>\n<p>然后重启系统或作用域</p>\n"
         },
         "preferredSigner": "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21"
       },
       "versions": {
+        "50dd84088d2e6ae553612876165e5bd9b465400e7f94e4b457bd2a6d37c5c7e1": {
+          "added": 1738811530000,
+          "file": {
+            "name": "/com.suisho.disablescreenshotsound_2-1.1.apk",
+            "sha256": "50dd84088d2e6ae553612876165e5bd9b465400e7f94e4b457bd2a6d37c5c7e1",
+            "size": 52902
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "85e41fd72d78d150250ed3061f0df4fa42a21c90534cfb4c39d83873c2c39c21"
+              ]
+            }
+          }
+        },
         "e28b82133ac027807e137d2e9a6beaea27c1a82049969400a2dadd82ba90871b": {
           "added": 1738638573000,
           "file": {
@@ -14807,7 +14828,7 @@
           "en-US": "无限续命安卓Pixel客户端搜索结果热度排序7天试用"
         },
         "description": {
-          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/PixelPosed\">https://github.com/NativeStar/PixelPosed</a></p>\n<p>无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块</p>\n<p>(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)</p>\n<p>在Pixel版本 6.130.0 测试正常</p>\n<h3>使用方法</h3>\n<p>1:刷入LSPosed</p>\n<p>2:在LSPosed管理器中勾选作用域为Pixel</p>\n<p>3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效</p>\n"
+          "en-US": "<p>源码:<a href=\"https://github.com/NativeStar/PixelPosed\">https://github.com/NativeStar/PixelPosed</a></p>\n<p>无限续命安卓Pixel客户端搜索结果热度排序7天试用的Xposed模块</p>\n<p>(正常情况下 这是个会员功能 但安装客户端后会开放7天试用)</p>\n<p>在Pixel版本 6.133.1 测试正常</p>\n<p>(感觉这模块都没什么更新的必要了 原理太无脑)</p>\n<h3>使用方法</h3>\n<p>1:刷入LSPosed</p>\n<p>2:在LSPosed管理器中勾选作用域为Pixel</p>\n<p>3:关闭管理器 打开Pixel 如启动时有Toast提示则模块生效</p>\n"
         },
         "preferredSigner": "6a2cac4d6456b84e3e7c9f16959b166697313b34a868aa70b7f88c74ce676d60"
       },
@@ -16331,7 +16352,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725021000,
+        "lastUpdated": 1738811540000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -22927,7 +22948,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725060000,
+        "lastUpdated": 1738811578000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22942,6 +22963,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104": {
+          "added": 1738811578000,
+          "file": {
+            "name": "/junzi.xposed.hook_14-2.2.apk",
+            "sha256": "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104",
+            "size": 5829980
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.2",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7": {
           "added": 1738725060000,
           "file": {
@@ -22991,41 +23045,6 @@
             ],
             "versionName": "2.0.1",
             "versionCode": 12,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0": {
-          "added": 1738292855000,
-          "file": {
-            "name": "/junzi.xposed.hook_10-1.9.apk",
-            "sha256": "0a142d40cffca0152264734135979bf032d8d148608183b724fc240965bc8db0",
-            "size": 2704727
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.9",
-            "versionCode": 10,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24051,7 +24070,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725069000,
+        "lastUpdated": 1738811586000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
