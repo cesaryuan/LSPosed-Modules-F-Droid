@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1738984618000,
+    "timestamp": 1739070966000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738984173000,
+        "lastUpdated": 1739070672000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -16352,7 +16352,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738984257000,
+        "lastUpdated": 1739070756000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -21292,6 +21292,50 @@
         }
       }
     },
+    "io.github.lzghzr.xperiaservicemenu": {
+      "metadata": {
+        "added": 1739070786000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1739070786000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaservicemenu",
+        "authorName": "lzghzr",
+        "name": {
+          "en-US": "XperiaServiceMenu"
+        },
+        "summary": {
+          "en-US": "为Xperia打开ServiceMenu测试菜单"
+        },
+        "description": {
+          "en-US": "<h1>XperiaServiceMenu</h1>\n<p>为Xperia打开ServiceMenu测试菜单</p>\n"
+        },
+        "preferredSigner": "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+      },
+      "versions": {
+        "61ed78c59e2d931b8c03de87b553904f76967ddd9e38ce342e12815e6be66752": {
+          "added": 1739070786000,
+          "file": {
+            "name": "/io.github.lzghzr.xperiaservicemenu_2-1.1.0.apk",
+            "sha256": "61ed78c59e2d931b8c03de87b553904f76967ddd9e38ce342e12815e6be66752",
+            "size": 9652
+          },
+          "manifest": {
+            "versionName": "1.1.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fde05a3b823a4896d01638cf177a6969661dd407123a19787159140dbe267e58"
+              ]
+            }
+          }
+        }
+      }
+    },
     "io.github.lzghzr.xperiaupdatecenter": {
       "metadata": {
         "added": 1732159538000,
@@ -22948,7 +22992,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738811578000,
+        "lastUpdated": 1739070796000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -22963,6 +23007,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "caf79126c1cbb968e78180a87738ce16850a51d0362d177fba4d1cdfc0d26462": {
+          "added": 1739070796000,
+          "file": {
+            "name": "/junzi.xposed.hook_15-2.3.apk",
+            "sha256": "caf79126c1cbb968e78180a87738ce16850a51d0362d177fba4d1cdfc0d26462",
+            "size": 2614758
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.3",
+            "versionCode": 15,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104": {
           "added": 1738811578000,
           "file": {
@@ -23010,41 +23087,6 @@
             ],
             "versionName": "2.1",
             "versionCode": 13,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "db3608e87b8c86d7ea76afa4a5c9c67e44c317d0497892ff21bb3c690d024a86": {
-          "added": 1738552367000,
-          "file": {
-            "name": "/junzi.xposed.hook_12-2.0.1.apk",
-            "sha256": "db3608e87b8c86d7ea76afa4a5c9c67e44c317d0497892ff21bb3c690d024a86",
-            "size": 26220138
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "2.0.1",
-            "versionCode": 12,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24070,7 +24112,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738984304000,
+        "lastUpdated": 1739070803000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {

@@ -15922,6 +15922,22 @@ io.github.lzghzr.biliveinvisible:
           last_updated: "2024-12-27T12:47:19Z"
           releasedescription: <p>国际版更新</p>
     author_name: lzghzr
+io.github.lzghzr.xperiaservicemenu:
+    git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaservicemenu
+    summary: 为Xperia打开ServiceMenu测试菜单
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>XperiaServiceMenu</h1>
+            <p>为Xperia打开ServiceMenu测试菜单</p>
+          filename: XperiaServiceMenu_1.1.0.apk
+          id: io.github.lzghzr.xperiaservicemenu
+          name: XperiaServiceMenu
+          last_updated: "2025-02-08T13:33:41Z"
+          releasedescription: <p>init</p>
+    author_name: lzghzr
 io.github.lzghzr.xperiaupdatecenter:
     git: https://github.com/Xposed-Modules-Repo/io.github.lzghzr.xperiaupdatecenter
     summary: 为Xperia解除UpdateCenter限制
@@ -16773,11 +16789,11 @@ junzi.xposed.hook:
             <p>AudioLab</p>
             <p>快连</p>
             <p>拾光小说</p>
-          filename: JunZi.Xposed.Hook_2.2.apk
+          filename: JunZi.Xposed.Hook_2.3.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-05T22:32:01Z"
-          releasedescription: <p>新增 支持 醒图</p>
+          last_updated: "2025-02-08T11:39:31Z"
+          releasedescription: <p>新增 支持 X字幕</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
