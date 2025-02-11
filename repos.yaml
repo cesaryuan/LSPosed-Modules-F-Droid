@@ -6558,6 +6558,79 @@ com.hchen.pinningapp:
             </li>
             </ul>
     author_name: HChenX
+com.hchen.switchfreeform:
+    git: https://github.com/Xposed-Modules-Repo/com.hchen.switchfreeform
+    summary: 拖动小窗至全屏时自动将底层全屏应用切换为小窗模式
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<div align=\"center\">\n<h1>SwitchFreeForm</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/SwitchFreeForm?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/SwitchFreeForm/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/SwitchFreeForm\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/SwitchFreeForm\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/SwitchFreeForm\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/SwitchFreeForm?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。</li>\n<li>仅支持向下拖动展开的方式。</li>\n</ul>\n<h1>\U0001F4A1模块说明</h1>\n<ul>\n<li>仅在 <code>HyperOS2</code> 测试通过，理论不支持 <code>Miui</code> 系统。</li>\n<li>安装后勾选<code>系统界面</code>并重启后即可使用。</li>\n<li>触发自动切换方法： 持续拖动小窗直到再次感觉到震动时松开即可。</li>\n<li>同时支持设置 <code>setprop persist.hchen.switch.freeform.always true</code>，即可始终触发切换，设置 <code>false</code>\n禁用，默认禁用。</li>\n<li>当然可以设置 <code>setprop persist.hchen.switch.freeform.threshold 800</code>，自定义敏感度。 Tip：800\n为默认值，只可设置数字！不建议大于 1000。</li>\n</ul>\n<h1>\U0001F64F致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>\U0001F4E2项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n<li>抄袭可能导致本项目的闭源！</li>\n</ul>\n<h1>\U0001F30F免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>\U0001F389结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
+          filename: SwitchFreeForm-v1.2.2025021002._release.apk
+          id: com.hchen.switchfreeform
+          name: SwitchFreeForm
+          last_updated: "2025-02-10T07:58:57Z"
+          releasedescription: |-
+            <h3>SwitchFreeForm</h3>
+            <h4>更新日志：</h4>
+            <ul>
+            <li>新增：适配 HyperOS 1。</li>
+            <li>新增：Debug 设置，支持自定义部分参数。</li>
+            <li>优化：小窗距离屏幕底部过近无法再次触发震动时若手指滑动至屏幕底部则直接震动并进入切换模式。</li>
+            <li>优化：横屏时触发切换的逻辑。</li>
+            <li>修复：可能的切换失败的问题，提升切换稳定性。</li>
+            </ul>
+            <h4>模块介绍</h4>
+            <ul>
+            <li>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。</li>
+            <li>仅支持向下拖动展开的方式。</li>
+            </ul>
+            <h4>模块说明</h4>
+            <ul>
+            <li>
+            <p>仅在 <code>HyperOS2</code> 测试通过，理论不支持 <code>Miui</code> 系统。</p>
+            </li>
+            <li>
+            <p>安装后勾选<code>系统界面</code>并重启后即可使用。</p>
+            </li>
+            <li>
+            <p>触发自动切换方法：持续拖动小窗直到再次感觉到震动时松开即可，如果底部空间不足以触发再次震动则会在手指滑动至屏幕底部时直接震动进入切换模式。</p>
+            </li>
+            <li>
+            <p>同时支持设置 <code>setprop persist.hchen.switch.freeform.always true</code>，即可始终触发切换，设置 <code>false</code><br>
+            禁用，默认禁用。</p>
+            </li>
+            <li>
+            <p>当然可以设置 <code>setprop persist.hchen.switch.freeform.threshold 800</code>，自定义敏感度。 Tip：800<br>
+            为默认值，只可设置数字！范围建议 500 - 900，数值越大需要滑动的距离越长。</p>
+            </li>
+            <li>
+            <p>建议的食用方法：</p>
+            </li>
+            </ul>
+            <ul>
+            <li>向下拉动小窗控制条直至再次感觉到震动，即可进行切换。</li>
+            <li>或者设置 <code>setprop persist.hchen.switch.freeform.always true</code><br>
+            始终触发切换，同时使用向上拖动小窗至屏幕顶部来进行仅切换操作（因为拖动至顶部的切换逻辑未修改）。</li>
+            </ul>
+            <ul>
+            <li>Debug 设置：</li>
+            <li>你可以设置 debug 来进行调试：</li>
+            <li>设置 <code>setprop persist.hchen.switch.freeform.debug.start.delay 450</code><br>
+            来指定切换后启动小窗的延迟。用于在获取系统前台应用切换的回调后延迟启动小窗，数值太小可能动画冲突导致<br>
+            Bug。</li>
+            <li>设置 <code>setprop persist.hchen.switch.freeform.debug.ready.delay 600</code><br>
+            来指定准备阶段的延迟。用于等待系统前台应用切换的回调，数值太小可能切换失败。</li>
+            </ul>
+            <h4>SHA256</h4>
+            <ul>
+            <li>SHA256: C17C73CA6ECB61DF0836310B31A24524C39B3C8F8B43B678D7810AFD67B8A70C</li>
+            </ul>
+            <h4>模块分发频道：</h4>
+            <ul>
+            <li>TG：<a href="https://t.me/HChenX_Module" rel="nofollow">https://t.me/HChenX_Module</a></li>
+            </ul>
+    author_name: HChenX
 com.hd.hdtool:
     git: https://github.com/Xposed-Modules-Repo/com.hd.hdtool
     summary: Hook Tool By HdShare
@@ -7758,13 +7831,11 @@ com.keshav.capturesposed:
             <li>Reboot your device and sign in.</li>
             <li>Open the CaptureSposed app and take a screenshot of it. If the screenshot is not detected, then the module is working as intended.</li>
             </ol>
-          filename: CaptureSposed-1.0.5.apk
+          filename: CaptureSposed-1.0.6.apk
           id: com.keshav.capturesposed
           name: CaptureSposed
-          last_updated: "2024-06-12T05:18:13Z"
-          releasedescription: |-
-            <p>This is a re-release of CaptureSposed v1.0.4, which was itself a re-release of CaptureSposed v1.0.3. The reason for this is because Google's app review team incorrectly flagged the v1.0.4 Play Store release as failing to install properly. Despite the numerous evidence presented in our appeal, the release was blocked and we were therefore required to release yet another version. To maintain consistency of releases across all of the module's distribution channels, a new build has been made available here as well.</p>
-            <p>Release notes for CaptureSposed v1.0.3: This release reduces the amount of storage space used by the module and improves the module's performance.</p>
+          last_updated: "2025-02-10T05:44:10Z"
+          releasedescription: <p>This release introduces a new icon for CaptureSposed and fixes an issue with the quick settings tile not being added to the dropdown panel automatically on Android 15 QPR1 due to changes introduced to this update by Google.</p>
     author_name: DavidBerdik
 com.ketal.bcrfullscreen:
     git: https://github.com/Xposed-Modules-Repo/com.ketal.bcrfullscreen
@@ -19595,11 +19666,11 @@ ps.reso.instaeclipse:
           categories:
             - Xposed
           description: "<p align=\"center\">\n  <img src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/>\n</p>\n<h1>InstaEclipse ⚡ Enhance Your Instagram Experience!</h1>\n<p>InstaEclipse is an <strong>LSPosed module</strong> designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! \U0001F680</p>\n<p>This module is built to stay compatible with <strong>new Instagram releases</strong> by leveraging dynamic analysis to locate targeted classes and methods automatically. \U0001F9E0✨</p>\n<details>\n<summary><h2>✨ Features </h2></summary>\n<h3>\U0001F39B️ Developer Options</h3>\n<ul>\n<li>Access hidden developer tools within Instagram for advanced functionality.</li>\n<li><strong>Note:</strong> These options are intended for use with <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</li>\n</ul>\n<h3>\U0001F47B Ghost Mode</h3>\n<ul>\n<li>Stay incognito while browsing stories, lives, or DMs.</li>\n</ul>\n<h3>\U0001F9D8 Distraction-Free Mode</h3>\n<ul>\n<li>Enjoy Instagram without stories, reels, or explore feed distractions.</li>\n<li><strong>Important:</strong> After enabling Distraction-Free Mode:\n<ol>\n<li><strong>Force stop Instagram</strong>.</li>\n<li><strong>Clear Instagram’s cache</strong>.</li>\n<li>Launch Instagram for a clean experience.</li>\n</ol>\n</li>\n</ul>\n<h3>\U0001F6AB Remove Ads</h3>\n<ul>\n<li>Removes most of Instagram’s app ads (excluding feed ads).</li>\n</ul>\n<h3>\U0001F4C9 Remove Analytics</h3>\n<ul>\n<li>Block Instagram’s tracking and analytics to protect your privacy.</li>\n<li>Prevent unnecessary data sharing and usage metrics.</li>\n</ul>\n<h3>\U0001F527 Misc Options</h3>\n<ul>\n<li>Disable Auto Story Flipping.</li>\n<li>Disable Auto Play Videos.</li>\n</ul>\n</details>\n<details>\n<summary><h2>\U0001F6E0️ Installation Instructions </h2></summary>\n<p>⚠️ Install Instagram from <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\">APKMirror</a>, as the module doesn’t fully support Google Play Store versions yet!</p>\n<h3>1️⃣ Install the Module</h3>\n<ul>\n<li>Download and install the <strong>InstaEclipse APK</strong>. You can find the latest release <a href=\"https://github.com/ReSo7200/InstaEclipse/releases\">here</a>.</li>\n</ul>\n<h3>2️⃣ Enable the Module in LSPosed</h3>\n<p>⚠️ Make sure you are using the latest LSPosed Fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a>.</p>\n<ul>\n<li>Open the <strong>LSPosed Manager</strong>.</li>\n<li>Enable the <strong>InstaEclipse Module</strong> for the <strong>Instagram app</strong>.</li>\n</ul>\n<h3>3️⃣ Open the Module</h3>\n<ul>\n<li>Launch <strong>InstaEclipse</strong>.</li>\n</ul>\n<h3>4️⃣ Configure Your Features</h3>\n<ul>\n<li>Go to the <strong>Features Tab</strong>.</li>\n<li>Select the features you want to enable or customize.</li>\n<li>Save your preferences.</li>\n</ul>\n<h3>5️⃣ Restart Instagram</h3>\n<ul>\n<li>Go back to the <strong>Home Tab</strong> in the InstaEclipse module.</li>\n<li>Click <strong>Restart Instagram</strong>.</li>\n</ul>\n</details>\n<details>\n<summary><h2> \U0001F4D6 FAQ </h2></summary>\n<h3>❓ Module not enabled?</h3>\n<p>Disable and re-enable the module in LSPosed.</p>\n<h3>❓ Features not working?</h3>\n<p>Force stop and restart Instagram.</p>\n<h3>❓ Developer options causing crashes?</h3>\n<p>Follow the provided instructions for developer options and ensure you’re using <strong>Alpha</strong> or <strong>Beta</strong> versions of Instagram.</p>\n<h3>❓ Why are some labels obfuscated or numbered?</h3>\n<p>This is due to obfuscation in <strong>Stable</strong> versions of Instagram. Use <strong>Beta</strong> or <strong>Alpha</strong> versions to avoid this.</p>\n<h3>❓ Distraction-Free Mode enabled, but content still appears?</h3>\n<p>Force stop Instagram and <strong>clear its cache</strong> to apply the changes properly.</p>\n</details>\n<details>\n<summary><h2>\U0001F4C2 Resources </h2></summary>\n<ul>\n<li>\U0001F419 <strong>GitHub Repository:</strong> <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a></li>\n<li>\U0001F4AC <strong>Support &amp; Updates:</strong> <a href=\"https://t.me/InstaEclipse\">Telegram Channel</a></li>\n<li>⚙️ <strong>LSPosed - Fork By <a href=\"https://github.com/JingMatrix/\">JingMatrix</a></strong> <a href=\"https://github.com/JingMatrix/LSPosed\">LSPosed</a></li>\n</ul>\n</details>\n<h2>\U0001F389 Contributors</h2>\n<h3>\U0001F451 Project Owner</h3>\n<ul>\n<li><a href=\"https://github.com/ReSo7200/\">ReSo7200</a></li>\n</ul>\n<h3>\U0001F4A1 Contributors</h3>\n<ul>\n<li><a href=\"https://github.com/frknkrc44\">frknkrc44</a></li>\n</ul>\n<h2>\U0001F64C Special Thanks</h2>\n<ul>\n<li><a href=\"https://github.com/xHookman\">xHookman</a></li>\n<li><strong>Amàzing World</strong></li>\n<li><strong>Bluepapilte (MyInsta Mod Owner)</strong> <a href=\"https://t.me/instasmashrepo\">Telegram</a></li>\n<li><strong>BdrcnAYYDIN</strong> <a href=\"https://t.me/BdrcnAYYDIN\">Telegram</a></li>\n</ul>\n<h3>\U0001F30D Translation Contributors</h3>\n<p>A heartfelt thank you to everyone who contributed to translating InstaEclipse into multiple languages. Your efforts help make the module accessible to users worldwide! \U0001F31F</p>\n<h2>\U0001F6E0️ Powered By</h2>\n<ul>\n<li><a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix/LSPosed</a>, the foundation for module functionality.</li>\n<li><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray/DexKit</a>, enabling dynamic analysis for compatibility with new Instagram updates.</li>\n</ul>\n<h3>\U0001F4A1 Contributions</h3>\n<p>We welcome contributions from everyone!</p>\n<ul>\n<li><strong>Have an idea?</strong> Open an issue or submit a feature request.</li>\n<li><strong>Found a bug?</strong> Report it through our <a href=\"https://github.com/ReSo7200/InstaEclipse/issues\">GitHub Issues</a>.</li>\n<li><strong>Want to help?</strong> Submit a pull request to improve InstaEclipse.</li>\n</ul>\n<blockquote>\n<p>Every contribution, big or small, is highly valued. Thank you for helping us grow!</p>\n</blockquote>\n"
-          filename: InstaEclipse.0.3.apk
+          filename: InstaEclipse.0.3.1.Mini.Non-Root.apk
           id: ps.reso.instaeclipse
           name: InstaEclipse
-          last_updated: "2025-01-27T01:00:56Z"
-          releasedescription: "<h1>\U0001F4E6 Release: Version 0.3</h1>\n<p>\U0001F389 InstaEclipse Update \U0001F389</p>\n<p>We’re thrilled to announce Version 0.3 of InstaEclipse! \U0001F680</p>\n<hr>\n<h2>\U0001F195 What's New?</h2>\n<h3>\U0001F527 <strong>New Features</strong></h3>\n<ul>\n<li><strong>Disable Auto Story Flipping</strong>: Gives you control over story navigation.</li>\n<li><strong>Disable Auto Play Videos</strong>: Prevent videos from auto-playing for a smoother browsing experience.</li>\n</ul>\n<h3>\U0001F6E0️ <strong>Improvements</strong></h3>\n<ul>\n<li><strong>DexKit Integration</strong>: Integrated DexKit to enhance dynamic analysis and improve compatibility with Instagram updates.</li>\n<li><strong>UI Enhancements</strong>: Improved user interface for a more seamless experience.</li>\n<li><strong>Bug Fix</strong>: Resolved an issue with Developer Options that caused unexpected behavior.</li>\n</ul>\n<hr>\n<h2>\U0001F4CC Important Notes</h2>\n<ul>\n<li><strong>Compatible Instagram Version</strong>: Ensure you install Instagram via <a href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\" rel=\"nofollow\">APKMirror</a>. The Google Play version may not be fully supported.</li>\n<li><strong>LSPosed Compatibility</strong>: Use the latest LSPosed fork by <a href=\"https://github.com/JingMatrix/LSPosed\">JingMatrix</a> for the best experience.</li>\n</ul>\n<hr>\n<h2>\U0001F4DE Stay Connected</h2>\n<ul>\n<li>\U0001F4AC <strong>Support &amp; Discussions</strong>: <a href=\"https://t.me/instaEclipse_discussion\" rel=\"nofollow\">Join the Telegram Group</a>.</li>\n<li>\U0001F419 <strong>GitHub Repository</strong>: <a href=\"https://github.com/ReSo7200/InstaEclipse\">Explore InstaEclipse</a>.</li>\n</ul>\n<hr>\n<p>Thank you for continuing to support InstaEclipse! \U0001F49C Upgrade to Version 0.3 now to enjoy these exciting new features and improvements.</p>"
+          last_updated: "2025-02-10T09:14:05Z"
+          releasedescription: "<h1>\U0001F4E6 Release: Version 0.3.1</h1>\n<p>\U0001F389 <strong>InstaEclipse Update</strong> \U0001F389</p>\n<p>We’re rolling out <strong>Version 0.3.1</strong> with important bug fixes! \U0001F680</p>\n<hr>\n<h2>\U0001F6E0️ Bug Fixes</h2>\n<ul>\n<li><strong>Fixed Ghost Mode Preference Mix-up</strong>: Corrected an issue where <strong>Story and Live Ghost Mode settings</strong> were swapped.</li>\n<li><strong>Fixed Instagram Content Loading Issue</strong>: Resolved a bug that <strong>prevented content from loading</strong> when ads and analytics were disabled.</li>\n</ul>\n<hr>\n<p>Upgrade to <strong>Version 0.3.1</strong> now for a smoother InstaEclipse experience! \U0001F49C</p>"
     author_name: ReSo7200
 pub.chara.disablealttab:
     git: https://github.com/Xposed-Modules-Repo/pub.chara.disablealttab

@@ -1,0 +1,29 @@
+{
+  "repo": {
+    "timestamp": 1739243719000
+  },
+  "packages": {
+    "com.hchen.switchfreeform": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.switchfreeform",
+        "authorName": "HChenX",
+        "summary": {
+          "en-US": "拖动小窗至全屏时自动将底层全屏应用切换为小窗模式"
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>SwitchFreeForm</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/SwitchFreeForm?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/SwitchFreeForm/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/SwitchFreeForm\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/SwitchFreeForm\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/SwitchFreeForm\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/SwitchFreeForm?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。</li>\n<li>仅支持向下拖动展开的方式。</li>\n</ul>\n<h1>💡模块说明</h1>\n<ul>\n<li>仅在 <code>HyperOS2</code> 测试通过，理论不支持 <code>Miui</code> 系统。</li>\n<li>安装后勾选<code>系统界面</code>并重启后即可使用。</li>\n<li>触发自动切换方法： 持续拖动小窗直到再次感觉到震动时松开即可。</li>\n<li>同时支持设置 <code>setprop persist.hchen.switch.freeform.always true</code>，即可始终触发切换，设置 <code>false</code>\n禁用，默认禁用。</li>\n<li>当然可以设置 <code>setprop persist.hchen.switch.freeform.threshold 800</code>，自定义敏感度。 Tip：800\n为默认值，只可设置数字！不建议大于 1000。</li>\n</ul>\n<h1>🙏致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>📢项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n<li>抄袭可能导致本项目的闭源！</li>\n</ul>\n<h1>🌏免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>🎉结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
+        }
+      }
+    },
+    "com.keshav.capturesposed": {
+      "versions": {
+        "21863de225be4ebb82e2e23ae25aedcb51230b713b5da6eb10c92571623e56e5": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

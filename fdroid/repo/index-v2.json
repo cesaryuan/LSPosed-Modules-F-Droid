@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739157301000,
+    "timestamp": 1739243719000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739156998000,
+        "lastUpdated": 1739243415000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -9045,6 +9045,50 @@
         }
       }
     },
+    "com.hchen.switchfreeform": {
+      "metadata": {
+        "added": 1739243455000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1739243455000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.switchfreeform",
+        "authorName": "HChenX",
+        "name": {
+          "en-US": "SwitchFreeForm"
+        },
+        "summary": {
+          "en-US": "拖动小窗至全屏时自动将底层全屏应用切换为小窗模式"
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>SwitchFreeForm</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/SwitchFreeForm?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/SwitchFreeForm/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/SwitchFreeForm\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/SwitchFreeForm\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/SwitchFreeForm/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/SwitchFreeForm\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/SwitchFreeForm?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。</li>\n<li>仅支持向下拖动展开的方式。</li>\n</ul>\n<h1>💡模块说明</h1>\n<ul>\n<li>仅在 <code>HyperOS2</code> 测试通过，理论不支持 <code>Miui</code> 系统。</li>\n<li>安装后勾选<code>系统界面</code>并重启后即可使用。</li>\n<li>触发自动切换方法： 持续拖动小窗直到再次感觉到震动时松开即可。</li>\n<li>同时支持设置 <code>setprop persist.hchen.switch.freeform.always true</code>，即可始终触发切换，设置 <code>false</code>\n禁用，默认禁用。</li>\n<li>当然可以设置 <code>setprop persist.hchen.switch.freeform.threshold 800</code>，自定义敏感度。 Tip：800\n为默认值，只可设置数字！不建议大于 1000。</li>\n</ul>\n<h1>🙏致谢名单</h1>\n<ul>\n<li>本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">HookTool</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/HookTool\">HookTool</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>📢项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n<li>抄袭可能导致本项目的闭源！</li>\n</ul>\n<h1>🌏免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>🎉结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
+        },
+        "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+      },
+      "versions": {
+        "c17c73ca6ecb61df0836310b31a24524c39b3c8f8b43b678d7810afd67b8a70c": {
+          "added": 1739243455000,
+          "file": {
+            "name": "/com.hchen.switchfreeform_2025021002-1.2.apk",
+            "sha256": "c17c73ca6ecb61df0836310b31a24524c39b3c8f8b43b678d7810afd67b8a70c",
+            "size": 51152
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 2025021002,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        }
+      }
+    },
     "com.hd.hdtool": {
       "metadata": {
         "added": 1732159463000,
@@ -10461,7 +10505,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159474000,
+        "lastUpdated": 1739243466000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.keshav.capturesposed",
         "authorName": "DavidBerdik",
         "name": {
@@ -10476,6 +10520,41 @@
         "preferredSigner": "724069454af66f5b11d161eda22fc47da99c5a449ba63df06d2c4a336856930b"
       },
       "versions": {
+        "21863de225be4ebb82e2e23ae25aedcb51230b713b5da6eb10c92571623e56e5": {
+          "added": 1739243466000,
+          "file": {
+            "name": "/com.keshav.capturesposed_7-1.0.6.apk",
+            "sha256": "21863de225be4ebb82e2e23ae25aedcb51230b713b5da6eb10c92571623e56e5",
+            "size": 1890522
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.6",
+            "versionCode": 7,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "724069454af66f5b11d161eda22fc47da99c5a449ba63df06d2c4a336856930b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.DETECT_SCREEN_CAPTURE"
+              },
+              {
+                "name": "com.keshav.capturesposed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15": {
           "added": 1732159474000,
           "file": {
@@ -16352,7 +16431,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739157084000,
+        "lastUpdated": 1739243503000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -24112,7 +24191,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739157132000,
+        "lastUpdated": 1739243551000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -27022,7 +27101,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947355000,
+        "lastUpdated": 1739243569000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ps.reso.instaeclipse",
         "authorName": "ReSo7200",
         "name": {
@@ -27054,6 +27133,54 @@
             "signer": {
               "sha256": [
                 "69a053a56f1f4b4e26494882ec9118876ee68b16a47808071a878651a27ea986"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "ps.reso.instaeclipse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "934aa454548166991cdcc66b5c848a68113bf99f25e169a41742ee03692d29fc": {
+          "added": 1739243569000,
+          "file": {
+            "name": "/ps.reso.instaeclipse_5-0.3.1.apk",
+            "sha256": "934aa454548166991cdcc66b5c848a68113bf99f25e169a41742ee03692d29fc",
+            "size": 15109232
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.3",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6fb9153f284c1e2b4488d8c61fa88b92584e6ff975360cc00d2c8991ed26473b"
               ]
             },
             "usesPermission": [
