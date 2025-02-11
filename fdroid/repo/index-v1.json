@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1739157301000,
+    "timestamp": 1739243719000,
     "version": 20002
   },
   "requests": {
@@ -961,25 +961,25 @@
       "suggestedVersionName": "1.0"
     },
     {
-      "added": 1718169493000,
+      "added": 1739166250000,
       "authorName": "DavidBerdik",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eCaptureSposed\u003c/h1\u003e\n\u003cimg align=\"left\" src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/ic_launcher-playstore.png\" width=\"115\" /\u003e\n\u003cp\u003eWith the release of Android 14, Google added an API to enable app developers to detect screenshots. This API has since been adopted by popular apps such as Snapchat.\u003c/p\u003e\n\u003cp\u003eCaptureSposed is an Xposed module that effectively disables this API to prevent apps that use it from being able to detect when a screenshot was taken.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e⚠️ WARNING:\u003c/strong\u003e CaptureSposed is intended for rooted devices running Android 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. This module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk. Additionally, this module does not protect against screenshot detection from apps that use the pre-Android 14 approach of using file system listeners to detect screenshots (\u003ca href=\"https://abangfadli.medium.com/shotwatch-android-screenshot-detector-library-6a75d7242109\"\u003eref 1\u003c/a\u003e, \u003ca href=\"https://viveksb007.wordpress.com/2017/11/10/how-snapchat-detects-when-screenshot-is-taken-hypothesis/\"\u003eref 2\u003c/a\u003e).\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://play.google.com/store/apps/details?id=com.keshav.capturesposed\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/google-play-badge.png\" height=\"80\" /\u003e\u003c/a\u003e\n  \u003ca href=\"https://f-droid.org/packages/com.keshav.capturesposed/\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/get-it-on.png\" height=\"80\" /\u003e\u003c/a\u003e\n  \u003cbr /\u003e\n  \u003ca href=\"https://apt.izzysoft.de/packages/com.keshav.capturesposed\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/IzzyOnDroidButton.png\" height=\"80\" /\u003e\u003c/a\u003e\n  \u003ca href=\"https://github.com/99keshav99/CaptureSposed/releases\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/badge_github.png\" height=\"80\" /\u003e\u003c/a\u003e\n\u003c/p\u003e\n\u003ch3\u003eTo use CaptureSposed:\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003eInstall LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available \u003ca href=\"https://github.com/LSPosed/LSPosed#install\"\u003ehere\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003eInstall CaptureSposed.\u003c/li\u003e\n\u003cli\u003eActivate the CaptureSposed module in the LSposed user interface.\u003c/li\u003e\n\u003cli\u003eReboot your device and sign in.\u003c/li\u003e\n\u003cli\u003eOpen the CaptureSposed app and take a screenshot of it. If the screenshot is not detected, then the module is working as intended.\u003c/li\u003e\n\u003c/ol\u003e\n",
       "icon": "com.keshav.capturesposed.png",
-      "lastUpdated": 1718169493000,
+      "lastUpdated": 1739166250000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "This is a re-release of CaptureSposed v1.0.4, which was itself a re-release of CaptureSposed v1.0.3. The reason for this is because Google's app review team incorrectly flagged the v1.0.4 Play Store release as failing to install properly. Despite the numerous evidence presented in our appeal, the release was blocked and we were therefore required to release yet another version. To maintain consistency of releases across all of the module's distribution channels, a new build has been made availab"
+          "whatsNew": "This release introduces a new icon for CaptureSposed and fixes an issue with the quick settings tile not being added to the dropdown panel automatically on Android 15 QPR1 due to changes introduced to this update by Google."
         }
       },
       "name": "CaptureSposed",
       "packageName": "com.keshav.capturesposed",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.keshav.capturesposed",
-      "suggestedVersionCode": "6",
-      "suggestedVersionName": "1.0.5",
+      "suggestedVersionCode": "7",
+      "suggestedVersionName": "1.0.6",
       "summary": "CaptureSposed - An Xposed module that effectively disables the screenshot det..."
     },
     {
@@ -3326,7 +3326,7 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://github.com/ReSo7200/InstaEclipse/blob/main/assets/logo.png\" alt=\"InstaEclipse Logo\" width=\"200\"/\u003e\n\u003c/p\u003e\n\u003ch1\u003eInstaEclipse ⚡ Enhance Your Instagram Experience!\u003c/h1\u003e\n\u003cp\u003eInstaEclipse is an \u003cstrong\u003eLSPosed module\u003c/strong\u003e designed to enhance your Instagram experience with advanced features like developer options, ghost mode, distraction-free mode, and more! 🚀\u003c/p\u003e\n\u003cp\u003eThis module is built to stay compatible with \u003cstrong\u003enew Instagram releases\u003c/strong\u003e by leveraging dynamic analysis to locate targeted classes and methods automatically. 🧠✨\u003c/p\u003e\n\u003cdetails\u003e\n\u003csummary\u003e\u003ch2\u003e✨ Features \u003c/h2\u003e\u003c/summary\u003e\n\u003ch3\u003e🎛️ Developer Options\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAccess hidden developer tools within Instagram for advanced functionality.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eNote:\u003c/strong\u003e These options are intended for use with \u003cstrong\u003eAlpha\u003c/strong\u003e or \u003cstrong\u003eBeta\u003c/strong\u003e versions of Instagram.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e👻 Ghost Mode\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eStay incognito while browsing stories, lives, or DMs.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🧘 Distraction-Free Mode\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eEnjoy Instagram without stories, reels, or explore feed distractions.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eImportant:\u003c/strong\u003e After enabling Distraction-Free Mode:\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003eForce stop Instagram\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eClear Instagram’s cache\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eLaunch Instagram for a clean experience.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🚫 Remove Ads\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eRemoves most of Instagram’s app ads (excluding feed ads).\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e📉 Remove Analytics\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBlock Instagram’s tracking and analytics to protect your privacy.\u003c/li\u003e\n\u003cli\u003ePrevent unnecessary data sharing and usage metrics.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🔧 Misc Options\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDisable Auto Story Flipping.\u003c/li\u003e\n\u003cli\u003eDisable Auto Play Videos.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/details\u003e\n\u003cdetails\u003e\n\u003csummary\u003e\u003ch2\u003e🛠️ Installation Instructions \u003c/h2\u003e\u003c/summary\u003e\n\u003cp\u003e⚠️ Install Instagram from \u003ca href=\"https://www.apkmirror.com/apk/instagram/instagram-instagram/\"\u003eAPKMirror\u003c/a\u003e, as the module doesn’t fully support Google Play Store versions yet!\u003c/p\u003e\n\u003ch3\u003e1️⃣ Install the Module\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eDownload and install the \u003cstrong\u003eInstaEclipse APK\u003c/strong\u003e. You can find the latest release \u003ca href=\"https://github.com/ReSo7200/InstaEclipse/releases\"\u003ehere\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e2️⃣ Enable the Module in LSPosed\u003c/h3\u003e\n\u003cp\u003e⚠️ Make sure you are using the latest LSPosed Fork by \u003ca href=\"https://github.com/JingMatrix/LSPosed\"\u003eJingMatrix\u003c/a\u003e.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eOpen the \u003cstrong\u003eLSPosed Manager\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eEnable the \u003cstrong\u003eInstaEclipse Module\u003c/strong\u003e for the \u003cstrong\u003eInstagram app\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e3️⃣ Open the Module\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eLaunch \u003cstrong\u003eInstaEclipse\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e4️⃣ Configure Your Features\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eGo to the \u003cstrong\u003eFeatures Tab\u003c/strong\u003e.\u003c/li\u003e\n\u003cli\u003eSelect the features you want to enable or customize.\u003c/li\u003e\n\u003cli\u003eSave your preferences.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e5️⃣ Restart Instagram\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eGo back to the \u003cstrong\u003eHome Tab\u003c/strong\u003e in the InstaEclipse module.\u003c/li\u003e\n\u003cli\u003eClick \u003cstrong\u003eRestart Instagram\u003c/strong\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/details\u003e\n\u003cdetails\u003e\n\u003csummary\u003e\u003ch2\u003e 📖 FAQ \u003c/h2\u003e\u003c/summary\u003e\n\u003ch3\u003e❓ Module not enabled?\u003c/h3\u003e\n\u003cp\u003eDisable and re-enable the module in LSPosed.\u003c/p\u003e\n\u003ch3\u003e❓ Features not working?\u003c/h3\u003e\n\u003cp\u003eForce stop and restart Instagram.\u003c/p\u003e\n\u003ch3\u003e❓ Developer options causing crashes?\u003c/h3\u003e\n\u003cp\u003eFollow the provided instructions for developer options and ensure you’re using \u003cstrong\u003eAlpha\u003c/strong\u003e or \u003cstrong\u003eBeta\u003c/strong\u003e versions of Instagram.\u003c/p\u003e\n\u003ch3\u003e❓ Why are some labels obfuscated or numbered?\u003c/h3\u003e\n\u003cp\u003eThis is due to obfuscation in \u003cstrong\u003eStable\u003c/strong\u003e versions of Instagram. Use \u003cstrong\u003eBeta\u003c/strong\u003e or \u003cstrong\u003eAlpha\u003c/strong\u003e versions to avoid this.\u003c/p\u003e\n\u003ch3\u003e❓ Distraction-Free Mode enabled, but content still appears?\u003c/h3\u003e\n\u003cp\u003eForce stop Instagram and \u003cstrong\u003eclear its cache\u003c/strong\u003e to apply the changes properly.\u003c/p\u003e\n\u003c/details\u003e\n\u003cdetails\u003e\n\u003csummary\u003e\u003ch2\u003e📂 Resources \u003c/h2\u003e\u003c/summary\u003e\n\u003cul\u003e\n\u003cli\u003e🐙 \u003cstrong\u003eGitHub Repository:\u003c/strong\u003e \u003ca href=\"https://github.com/ReSo7200/InstaEclipse\"\u003eExplore InstaEclipse\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e💬 \u003cstrong\u003eSupport \u0026amp; Updates:\u003c/strong\u003e \u003ca href=\"https://t.me/InstaEclipse\"\u003eTelegram Channel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e⚙️ \u003cstrong\u003eLSPosed - Fork By \u003ca href=\"https://github.com/JingMatrix/\"\u003eJingMatrix\u003c/a\u003e\u003c/strong\u003e \u003ca href=\"https://github.com/JingMatrix/LSPosed\"\u003eLSPosed\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/details\u003e\n\u003ch2\u003e🎉 Contributors\u003c/h2\u003e\n\u003ch3\u003e👑 Project Owner\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/ReSo7200/\"\u003eReSo7200\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e💡 Contributors\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/frknkrc44\"\u003efrknkrc44\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e🙌 Special Thanks\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/xHookman\"\u003exHookman\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAmàzing World\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBluepapilte (MyInsta Mod Owner)\u003c/strong\u003e \u003ca href=\"https://t.me/instasmashrepo\"\u003eTelegram\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eBdrcnAYYDIN\u003c/strong\u003e \u003ca href=\"https://t.me/BdrcnAYYDIN\"\u003eTelegram\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e🌍 Translation Contributors\u003c/h3\u003e\n\u003cp\u003eA heartfelt thank you to everyone who contributed to translating InstaEclipse into multiple languages. Your efforts help make the module accessible to users worldwide! 🌟\u003c/p\u003e\n\u003ch2\u003e🛠️ Powered By\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/JingMatrix/LSPosed\"\u003eJingMatrix/LSPosed\u003c/a\u003e, the foundation for module functionality.\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eLuckyPray/DexKit\u003c/a\u003e, enabling dynamic analysis for compatibility with new Instagram updates.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e💡 Contributions\u003c/h3\u003e\n\u003cp\u003eWe welcome contributions from everyone!\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eHave an idea?\u003c/strong\u003e Open an issue or submit a feature request.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFound a bug?\u003c/strong\u003e Report it through our \u003ca href=\"https://github.com/ReSo7200/InstaEclipse/issues\"\u003eGitHub Issues\u003c/a\u003e.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWant to help?\u003c/strong\u003e Submit a pull request to improve InstaEclipse.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003eEvery contribution, big or small, is highly valued. Thank you for helping us grow!\u003c/p\u003e\n\u003c/blockquote\u003e\n",
-      "lastUpdated": 1737947355000,
+      "lastUpdated": 1739243569000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6478,6 +6478,27 @@
       "summary": "Prevent Tachiyomi and Mihon from throttling your requests by ignoring rate li..."
     },
     {
+      "added": 1739174337000,
+      "authorName": "HChenX",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eSwitchFreeForm\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/SwitchFreeForm?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/HChenX/SwitchFreeForm/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/SwitchFreeForm\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/SwitchFreeForm/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/SwitchFreeForm\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/SwitchFreeForm/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/SwitchFreeForm\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/SwitchFreeForm?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e拖动小窗至全屏时自动将底层全屏应用切换为小窗模式\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。\u003c/li\u003e\n\u003cli\u003e仅支持向下拖动展开的方式。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e仅在 \u003ccode\u003eHyperOS2\u003c/code\u003e 测试通过，理论不支持 \u003ccode\u003eMiui\u003c/code\u003e 系统。\u003c/li\u003e\n\u003cli\u003e安装后勾选\u003ccode\u003e系统界面\u003c/code\u003e并重启后即可使用。\u003c/li\u003e\n\u003cli\u003e触发自动切换方法： 持续拖动小窗直到再次感觉到震动时松开即可。\u003c/li\u003e\n\u003cli\u003e同时支持设置 \u003ccode\u003esetprop persist.hchen.switch.freeform.always true\u003c/code\u003e，即可始终触发切换，设置 \u003ccode\u003efalse\u003c/code\u003e\n禁用，默认禁用。\u003c/li\u003e\n\u003cli\u003e当然可以设置 \u003ccode\u003esetprop persist.hchen.switch.freeform.threshold 800\u003c/code\u003e，自定义敏感度。 Tip：800\n为默认值，只可设置数字！不建议大于 1000。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块使用了如下项目作为依赖或引用其代码，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eHookTool\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/HookTool\"\u003eHookTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003cli\u003e抄袭可能导致本项目的闭源！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1739174337000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "### SwitchFreeForm\n\n#### 更新日志：\n\n- 新增：适配 HyperOS 1。\n- 新增：Debug 设置，支持自定义部分参数。\n- 优化：小窗距离屏幕底部过近无法再次触发震动时若手指滑动至屏幕底部则直接震动并进入切换模式。\n- 优化：横屏时触发切换的逻辑。\n- 修复：可能的切换失败的问题，提升切换稳定性。\n\n#### 模块介绍\n\n- 拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。\n- 仅支持向下拖动展开的方式。\n\n#### 模块说明\n\n- 仅在 `HyperOS2` 测试通过，理论不支持 `Miui` 系统。\n- 安装后勾选`系统界面`并重启后即可使用。\n- 触发自动切换方法：持续拖动小窗直到再次感觉到震动时松开即可，如果底部空间不足以触发再次震动则会在手指滑动至屏幕底部时直接震动进入切换模式。\n- 同时支持设置 `setprop persist.hchen.switch.freeform.always true`，即可始终触发切换，设置 `false`\n  禁用，默认禁用。\n- 当然可以设置 `setprop persist.hchen.switch.fr"
+        }
+      },
+      "name": "SwitchFreeForm",
+      "packageName": "com.hchen.switchfreeform",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.switchfreeform",
+      "suggestedVersionCode": "2025021002",
+      "suggestedVersionName": "1.2",
+      "summary": "拖动小窗至全屏时自动将底层全屏应用切换为小窗模式"
+    },
+    {
       "added": 1738151161000,
       "authorName": "lz233",
       "categories": [
@@ -6942,7 +6963,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1739157084000,
+      "lastUpdated": 1739243503000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -13281,6 +13302,23 @@
         "versionName": "1.0"
       }
     ],
+    "com.hchen.switchfreeform": [
+      {
+        "added": 1739174337000,
+        "apkName": "com.hchen.switchfreeform_2025021002-1.2.apk",
+        "hash": "c17c73ca6ecb61df0836310b31a24524c39b3c8f8b43b678d7810afd67b8a70c",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "nativecode": null,
+        "packageName": "com.hchen.switchfreeform",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 51152,
+        "targetSdkVersion": 35,
+        "versionCode": 2025021002,
+        "versionName": "1.2"
+      }
+    ],
     "com.hd.hdtool": [
       {
         "added": 1684003529000,
@@ -13724,7 +13762,27 @@
     ],
     "com.keshav.capturesposed": [
       {
-        "added": 1718169493000,
+        "added": 1739166250000,
+        "apkName": "com.keshav.capturesposed_7-1.0.6.apk",
+        "hash": "21863de225be4ebb82e2e23ae25aedcb51230b713b5da6eb10c92571623e56e5",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.keshav.capturesposed",
+        "sig": "7f4e6127fc8f76d176472966bc9688b3",
+        "signer": "724069454af66f5b11d161eda22fc47da99c5a449ba63df06d2c4a336856930b",
+        "size": 1890522,
+        "targetSdkVersion": 35,
+        "versionCode": 7,
+        "versionName": "1.0.6"
+      },
+      {
+        "added": 1732159474000,
         "apkName": "com.keshav.capturesposed_6-1.0.5.apk",
         "hash": "1264008e96c85076b98d8060d38c581e55f4adf96fda3b506d032f4f99e39a15",
         "hashType": "sha256",
@@ -15743,7 +15801,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1739157084000,
+        "added": 1739243503000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -19563,7 +19621,27 @@
         "versionName": "0.2"
       },
       {
-        "added": 1737939656000,
+        "added": 1739178845000,
+        "apkName": "ps.reso.instaeclipse_5-0.3.1.apk",
+        "hash": "934aa454548166991cdcc66b5c848a68113bf99f25e169a41742ee03692d29fc",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ps.reso.instaeclipse",
+        "sig": "2030144d6b56af8c9516fea4b814a157",
+        "signer": "6fb9153f284c1e2b4488d8c61fa88b92584e6ff975360cc00d2c8991ed26473b",
+        "size": 15109232,
+        "targetSdkVersion": 34,
+        "versionCode": 4,
+        "versionName": "0.3"
+      },
+      {
+        "added": 1737947355000,
         "apkName": "ps.reso.instaeclipse_4-0.3.apk",
         "hash": "a2dda39c7265ccdcb879f644653efd5c8a2e13625f15eda9bb7cab51b7e93d01",
         "hashType": "sha256",

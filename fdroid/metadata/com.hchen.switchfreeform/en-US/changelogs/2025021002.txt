@@ -1,0 +1,44 @@
+### SwitchFreeForm
+
+#### 更新日志：
+
+- 新增：适配 HyperOS 1。
+- 新增：Debug 设置，支持自定义部分参数。
+- 优化：小窗距离屏幕底部过近无法再次触发震动时若手指滑动至屏幕底部则直接震动并进入切换模式。
+- 优化：横屏时触发切换的逻辑。
+- 修复：可能的切换失败的问题，提升切换稳定性。
+
+#### 模块介绍
+
+- 拖动小窗至全屏时自动将底层全屏应用切换为小窗模式。
+- 仅支持向下拖动展开的方式。
+
+#### 模块说明
+
+- 仅在 `HyperOS2` 测试通过，理论不支持 `Miui` 系统。
+- 安装后勾选`系统界面`并重启后即可使用。
+- 触发自动切换方法：持续拖动小窗直到再次感觉到震动时松开即可，如果底部空间不足以触发再次震动则会在手指滑动至屏幕底部时直接震动进入切换模式。
+- 同时支持设置 `setprop persist.hchen.switch.freeform.always true`，即可始终触发切换，设置 `false`
+  禁用，默认禁用。
+- 当然可以设置 `setprop persist.hchen.switch.freeform.threshold 800`，自定义敏感度。 Tip：800
+  为默认值，只可设置数字！范围建议 500 - 900，数值越大需要滑动的距离越长。
+
+- 建议的食用方法：
+
+* 向下拉动小窗控制条直至再次感觉到震动，即可进行切换。
+* 或者设置 `setprop persist.hchen.switch.freeform.always true`
+  始终触发切换，同时使用向上拖动小窗至屏幕顶部来进行仅切换操作（因为拖动至顶部的切换逻辑未修改）。
+
+- Debug 设置：
+- 你可以设置 debug 来进行调试：
+- 设置 `setprop persist.hchen.switch.freeform.debug.start.delay 450`
+  来指定切换后启动小窗的延迟。用于在获取系统前台应用切换的回调后延迟启动小窗，数值太小可能动画冲突导致
+  Bug。
+- 设置 `setprop persist.hchen.switch.freeform.debug.ready.delay 600`
+  来指定准备阶段的延迟。用于等待系统前台应用切换的回调，数值太小可能切换失败。
+
+#### SHA256
+- SHA256: C17C73CA6ECB61DF0836310B31A24524C39B3C8F8B43B678D7810AFD67B8A70C
+
+#### 模块分发频道：
+- TG：https://t.me/HChenX_Module
