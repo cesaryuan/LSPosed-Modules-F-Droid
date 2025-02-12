@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1739243705000,
+    "timestamp": 1739330029000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1962,7 +1962,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739157125000,
+        "lastUpdated": 1739329856000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -1972,11 +1972,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104": {
+          "added": 1738811578000,
+          "file": {
+            "name": "/junzi.xposed.hook_14-2.2.apk",
+            "sha256": "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104",
+            "size": 5829980
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.2",
+            "versionCode": 14,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "1c5cfc054ba628eebb9bf50c9d298e842ab484eb7766a1bb7246e793195d42c7": {
           "added": 1738725060000,
           "file": {

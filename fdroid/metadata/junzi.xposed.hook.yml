@@ -1,13 +1,16 @@
 AuthorName: ZZCYUN
 Categories:
     - Xposed
-CurrentVersion: "2.4"
-CurrentVersionCode: 16
+CurrentVersion: "2.6"
+CurrentVersionCode: 18
 Description: |
     <h1>JunZi Xposed Hook</h1>
     <p>一些软件的hook</p>
     <h1>欢迎加入TG交流群(没啥人)</h1>
     <p><a href="https://t.me/JunZi_Xposed_Hook">https://t.me/JunZi_Xposed_Hook</a></p>
+    <h1>温馨提示</h1>
+    <p>免root模块请无视模块未激活</p>
+    <p>Lsposed用户请关闭XposedApi调用保护</p>
     <h1>支持的软件</h1>
     <p>滚动的天空</p>
     <p>囧次元</p>
@@ -29,6 +32,9 @@ Description: |
     <p>AudioLab</p>
     <p>快连</p>
     <p>拾光小说</p>
+    <p>ES文件浏览器</p>
+    <p>常读免费小说</p>
+    <p>巧影</p>
 IssueTracker: ""
 Name: JunZi Xposed Hook
 SourceCode: https://github.com/Xposed-Modules-Repo/junzi.xposed.hook

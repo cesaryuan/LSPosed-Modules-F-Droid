@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739243719000,
+    "timestamp": 1739330043000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739243415000,
+        "lastUpdated": 1739329728000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -3968,7 +3968,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159427000,
+        "lastUpdated": 1739329735000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager",
         "authorName": "alphime",
         "name": {
@@ -3983,6 +3983,35 @@
         "preferredSigner": "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493"
       },
       "versions": {
+        "3aa2ddb22e074564375267506d326092364ad8043f25c838942f98f01546d980": {
+          "added": 1739329735000,
+          "file": {
+            "name": "/com.alphi.actvityopenmanager_11-1.10.apk",
+            "sha256": "3aa2ddb22e074564375267506d326092364ad8043f25c838942f98f01546d980",
+            "size": 2108859
+          },
+          "manifest": {
+            "versionName": "1.10",
+            "versionCode": 11,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              }
+            ]
+          }
+        },
         "90b5b249e10051a146784342aa478bb4c1c15d90653993528fb8c1f8491866ab": {
           "added": 1732159427000,
           "file": {
@@ -16431,7 +16460,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739243503000,
+        "lastUpdated": 1739329816000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23071,7 +23100,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739157125000,
+        "lastUpdated": 1739329856000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23081,11 +23110,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9": {
+          "added": 1739329856000,
+          "file": {
+            "name": "/junzi.xposed.hook_18-2.6.apk",
+            "sha256": "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9",
+            "size": 2397737
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.6",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c": {
           "added": 1739157125000,
           "file": {
@@ -23133,39 +23195,6 @@
             ],
             "versionName": "2.3",
             "versionCode": 15,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104": {
-          "added": 1738811578000,
-          "file": {
-            "name": "/junzi.xposed.hook_14-2.2.apk",
-            "sha256": "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104",
-            "size": 5829980
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "2.2",
-            "versionCode": 14,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24191,7 +24220,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739243551000,
+        "lastUpdated": 1739329864000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {

@@ -3168,14 +3168,10 @@ com.alphi.actvityopenmanager:
           filename: app-release.apk
           id: com.alphi.actvityopenmanager
           name: Activity链式启动管理器
-          last_updated: "2024-10-25T09:36:14Z"
+          last_updated: "2025-02-11T04:21:15Z"
           releasedescription: |-
-            <p>适配ColorOS等系统支持<br>
-            逻辑优化，更加稳健<br>
-            修复部分APP拦截住出现闪退的问题<br>
-            可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）<br>
-            更新完成务必重启，有问题欢迎提issue<br>
-            MD5:  A9AA30BACE96445A4F26D631284D66F0</p>
+            <p>适配安卓15BAL，修复targetsdk为35无法打开的问题<br>
+            支持设置调用者为系统App的规则（目标方依然进行限制）</p>
     author_name: alphime
 com.amanoteam.kanni:
     git: https://github.com/Xposed-Modules-Repo/com.amanoteam.kanni
@@ -16839,6 +16835,9 @@ junzi.xposed.hook:
             <p>一些软件的hook</p>
             <h1>欢迎加入TG交流群(没啥人)</h1>
             <p><a href="https://t.me/JunZi_Xposed_Hook">https://t.me/JunZi_Xposed_Hook</a></p>
+            <h1>温馨提示</h1>
+            <p>免root模块请无视模块未激活</p>
+            <p>Lsposed用户请关闭XposedApi调用保护</p>
             <h1>支持的软件</h1>
             <p>滚动的天空</p>
             <p>囧次元</p>
@@ -16860,11 +16859,14 @@ junzi.xposed.hook:
             <p>AudioLab</p>
             <p>快连</p>
             <p>拾光小说</p>
-          filename: JunZi.Xposed.Hook_2.4.apk
+            <p>ES文件浏览器</p>
+            <p>常读免费小说</p>
+            <p>巧影</p>
+          filename: JunZi.Xposed.Hook_2.6.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-09T07:54:18Z"
-          releasedescription: <p>新增 支持 ES文件浏览器</p>
+          last_updated: "2025-02-12T02:39:38Z"
+          releasedescription: <p>新增 支持 巧影</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
