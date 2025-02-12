@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1739243719000,
+    "timestamp": 1739330043000,
     "version": 20002
   },
   "requests": {
@@ -100,25 +100,25 @@
       "summary": "让Android Auto显示任意应用, 基于VirtualDisplay的套娃方案."
     },
     {
-      "added": 1729848974000,
+      "added": 1739247675000,
       "authorName": "alphime",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eActivity链式启动管理器\u003c/h1\u003e\n\u003cp\u003e这是一个拦截三方App自动启动另一个三方App的模块，激活模块后当存在三方app启动另一个三方App时，系统会弹出一个App启动对话框，同时也可以设置自定义允许拒绝规则。欢迎尝试吧！\u003cbr /\u003e\n如果你觉得这个模块好用，不妨将模块分享给你的好友，您也可以在模块应用打赏支持作者，要是能打赏一杯咖啡6.66，一顿晚餐12.00🍯，一顿烧烤66.66… 那真是太棒了！\u003cbr /\u003e\n您的支持就是作者更新维护的动力！（每次更新需重启手机）\u003c/p\u003e\n\u003ch3\u003e自定义规则说明\u003c/h3\u003e\n\u003cp\u003e自定义规则可以灵活的配置各种应用（暂不支持配置系统应用），有三种指令，指令中\u003ccode\u003eallow\u003c/code\u003e \u003ccode\u003eask\u003c/code\u003e \u003ccode\u003edeny\u003c/code\u003e分别是允许、询问、拒绝。默认情况下是询问规则（除非特殊链式启动才需要配置ask规则）\u003cbr /\u003e\n规则模板1：\u003ccode\u003eallow  包名A  包名B\u003c/code\u003e  允许应用A启动应用B，不会弹出启动对话框\u003cbr /\u003e\n规则模板2：\u003ccode\u003edeny  包名C  A:活动D\u003c/code\u003e 拒绝应用C启动应用活动D，不会弹出启动对话框（注意Activity活动名前面要加\u003ccode\u003eA:\u003c/code\u003e）\u003cbr /\u003e\n更多高级规则模板请打开应用查看注释\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e图标计划 如果你有好的图标设计建议，您可提一个\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager/issues\"\u003eIssue建议\u003c/a\u003e，图标前提要求是前景（矢量图标）与背景分离。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e新的后台自启拦截设置\u003c/h4\u003e\n\u003cp\u003e自1.06(7)版本开始，为了解决部分应用采用特殊方式启动app，我们不得不废除废弃旧的复杂多链式\u003ccode\u003eA:{**}\u003c/code\u003e拦截功能，并替换为后台拦截启动功能，新引入的后台拦截启动功能能够更有效的拦截应用后台自启Activity，语法也更简单。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e新的后台自启拦截模板语法: \u003ccode\u003eask -b * A:活动名\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/6c49a861-8faf-4fa7-be59-cddabc0d941c\" alt=\"pic_20240730011109\" /\u003e\u003c/th\u003e\n\u003cth align=\"center\"\u003e\u003cimg src=\"https://github.com/user-attachments/assets/b040fc11-623b-45c0-b100-cfa8b7e07c7d\" alt=\"Screenshot_20240910_Activity链式启动管理\" /\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003c/table\u003e\n",
       "icon": "com.alphi.actvityopenmanager.png",
-      "lastUpdated": 1729848974000,
+      "lastUpdated": 1739247675000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配ColorOS等系统支持\n逻辑优化，更加稳健\n修复部分APP拦截住出现闪退的问题\n可能性修复部分App弹出对话框出现严重卡顿的情况（不确定）\n更新完成务必重启，有问题欢迎提issue\nMD5:  A9AA30BACE96445A4F26D631284D66F0"
+          "whatsNew": "适配安卓15BAL，修复targetsdk为35无法打开的问题\n支持设置调用者为系统App的规则（目标方依然进行限制）"
         }
       },
       "name": "Activity链式启动管理器",
       "packageName": "com.alphi.actvityopenmanager",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.alphi.actvityopenmanager",
-      "suggestedVersionCode": "10",
-      "suggestedVersionName": "1.09",
+      "suggestedVersionCode": "11",
+      "suggestedVersionName": "1.10",
       "summary": "叼毛广告，休想通过摇摇启动APP\nTools that block activity startup"
     },
     {
@@ -3441,24 +3441,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1739087658000,
+      "added": 1739327978000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n",
-      "lastUpdated": 1739087658000,
+      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n",
+      "lastUpdated": 1739327978000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 ES文件浏览器"
+          "whatsNew": "新增 支持 巧影"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "16",
-      "suggestedVersionName": "2.4",
+      "suggestedVersionCode": "18",
+      "suggestedVersionName": "2.6",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -6963,7 +6963,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1739243503000,
+      "lastUpdated": 1739329816000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -11565,7 +11565,22 @@
     ],
     "com.alphi.actvityopenmanager": [
       {
-        "added": 1729848974000,
+        "added": 1739247675000,
+        "apkName": "com.alphi.actvityopenmanager_11-1.10.apk",
+        "hash": "3aa2ddb22e074564375267506d326092364ad8043f25c838942f98f01546d980",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "com.alphi.actvityopenmanager",
+        "sig": "e0b9ddc814a52dbf29f19de82283507e",
+        "signer": "dccab5e0223a04c9e0fac65fdc9f20652bf8d12f819163c447fcb0a746872493",
+        "size": 2108859,
+        "targetSdkVersion": 34,
+        "versionCode": 11,
+        "versionName": "1.10"
+      },
+      {
+        "added": 1732159427000,
         "apkName": "com.alphi.actvityopenmanager_10-1.09.apk",
         "hash": "90b5b249e10051a146784342aa478bb4c1c15d90653993528fb8c1f8491866ab",
         "hashType": "sha256",
@@ -15801,7 +15816,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1739243503000,
+        "added": 1739329816000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18312,7 +18327,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1739087658000,
+        "added": 1739327978000,
+        "apkName": "junzi.xposed.hook_18-2.6.apk",
+        "hash": "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2397737,
+        "targetSdkVersion": 33,
+        "versionCode": 18,
+        "versionName": "2.6"
+      },
+      {
+        "added": 1739157125000,
         "apkName": "junzi.xposed.hook_16-2.4.apk",
         "hash": "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c",
         "hashType": "sha256",
@@ -18346,24 +18379,6 @@
         "targetSdkVersion": 33,
         "versionCode": 15,
         "versionName": "2.3"
-      },
-      {
-        "added": 1738811578000,
-        "apkName": "junzi.xposed.hook_14-2.2.apk",
-        "hash": "1fb00f523b4cca575a2d67f34acc144feac01eca100821aeab984e8d06d3b104",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 5829980,
-        "targetSdkVersion": 33,
-        "versionCode": 14,
-        "versionName": "2.2"
       }
     ],
     "lialh4.ldf": [
