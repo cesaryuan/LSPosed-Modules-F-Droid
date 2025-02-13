@@ -1,0 +1,40 @@
+# 🎉 AppRetention v.5.1 更新！！  
+### 🐍 这里先祝新年快乐，蛇年接福纳瑞！  
+
+### 🚀 v.5.1 版本是全新重构而来，进行了深度适配优化！欢迎大家体验！  
+
+---
+
+#### 更新日志：  
+🚀 - 深度优化适配 HyperOS V1、V2，优化适配 A15、A14 等。  
+💾 - 新增内存压缩功能，帮助减少应用内存占用大小。  
+🎯 - 深度优化米系手机在启动相机时容易大规模杀后台的问题。  
+📝 - 新增全新的日志系统，模块日志存储至：`/data/system/AppRetention/` 内。  
+🎉 - 全新适配三星 OneUi 系统！本模块可能是第一个支持三星的保后台模块了！  
+📱 - 支持最低安卓版本调动至安卓 11。  
+⚙️ - 支持调整 `mOomMinFree` 数值。  
+👂 - 支持监听系统 kill 事件。（Tip：需要手动开启）  
+🛠️ - 使用 HookTool 工具，统一 Hook 流程。  
+🐾 - 更换模块图标，更加可爱~  
+
+---
+
+#### 重要提醒：  
+⚠️ - v.5.1 版本暂未针对 Color 系统进行适配，当然也可以使用，但效果不敢保证。  
+🔄 - 可以选择继续在旧版本或者等待更新适配！敬请谅解。  
+
+---
+
+#### KillEvent 开启方法：
+🛠️ - `settings put system kill_event_log_record_enable true` 开启后将在后台持续监听系统的 kill 事件，等价于 logcat -b events | grep kill ,开启可能增加耗电量，关闭把 true 改成 false 并执行即可。
+
+---
+
+#### 群组：  
+💬 - 交流群：电报（Telegram）：[点击加入](https://t.me/HChenX_Chat)  
+📢 - 模块分发群：电报（Telegram）：[点击加入](https://t.me/HChenX_Module)  
+
+---
+
+#### 模块信息：
+⚙️ - SHA256：36DEDBAF9BA1B50A46F73095A202D4E70C11D891BB359A83F5CA5E1BE774B8B0
