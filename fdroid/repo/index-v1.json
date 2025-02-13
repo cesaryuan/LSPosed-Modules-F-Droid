@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1739330043000,
+    "timestamp": 1739416495000,
     "version": 20002
   },
   "requests": {
@@ -35,18 +35,18 @@
       "summary": "微信群消息助手 - 整理群消息、服务号。"
     },
     {
-      "added": 1737386407000,
+      "added": 1739382329000,
       "authorName": "KongGuoguang",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本\u003c/p\u003e\n\u003ch1\u003e省团生活App，吃喝玩乐都有优惠\u003c/h1\u003e\n\u003cp\u003e下载链接：\u003ca href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\"\u003ehttps://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://mp.rongmanit.com/dyls/app\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本\u003c/p\u003e\n\u003ch1\u003eQQ交流群\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
       "icon": "com.kgg.hhvideo.png",
-      "lastUpdated": 1737386407000,
+      "lastUpdated": 1739382329000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配电影猎手v3.1.1.0版本\n\n官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选\n\nLSPosed设置中需关闭Xposed API调用保护\n\n推荐使用内置模块的电影猎手App，下载地址：\n\nhttps://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk\n"
+          "whatsNew": "适配电影猎手v3.1.1.0版本\n\n官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选\n\nLSPosed设置中需关闭Xposed API调用保护\n\n推荐使用内置模块的电影猎手App，下载地址：\n\nhttps://mp.rongmanit.com/dyls/app\n"
         }
       },
       "name": "555电影(电影猎手)App去广告",
@@ -575,26 +575,26 @@
       "summary": "为原生 FC 对话框增加更多功能并修复国内定制 ROM 删除 FC 对话框的问题，给 Android 开发者带来更好的体验。"
     },
     {
-      "added": 1707992412000,
+      "added": 1739339085000,
       "authorName": "HChenX",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAppRetentionHook\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cb\u003e\u003ca href=\"README-en.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"README.md\"\u003e简体中文\u003c/a\u003e\u003c/b\u003e\u003c/p\u003e\n\u003cp\u003e本模块通过Hook系统kill逻辑来实现后台保活，这是一个Lsp模块。\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e✨模块介绍\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e因为这是一个Lsp模块，所以请在Lsp中激活并使用他，而不是使用Magisk安装此模块。\u003c/li\u003e\n\u003cli\u003e\n\u003ch4\u003e用法：\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e首先：安装此Lsp模块至你的手机中。\u003c/li\u003e\n\u003cli\u003e其次：点击Lsp图标进入Lsp界面，选中本模块并激活它。\u003c/li\u003e\n\u003cli\u003e最后：勾选作用域:\u003c/li\u003e\n\u003cli\u003e[MIUI] \u003ccode\u003e系统框架(system)\u003c/code\u003e和\u003ccode\u003e电量和性能(powerkeeper)[如果有]\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e[OPPO] \u003ccode\u003e雅典娜(Athena)\u003c/code\u003e和\u003ccode\u003e电池\u003c/code\u003e和\u003ccode\u003e系统框架(system)\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e然后重启手机即可正常使用。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e本模块通过Hook系统kill逻辑来实现后台应用保活。\u003c/li\u003e\n\u003cli\u003e本模块适用于: \u003ccode\u003eHyperOS(A14)\u003c/code\u003e \u003ccode\u003eMIUI14(A13,A12,A11)\u003c/code\u003e \u003ccode\u003eOPPO系统(A14,A13,A12)\u003c/code\u003e \u003ccode\u003eAOSP(A14,A13,A12,A11)\u003c/code\u003e\n等。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌟模块效果\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e经过个人测试，后台App留存时间大大增长在较长时间内未出现任何杀后台现象。\u003c/li\u003e\n\u003cli\u003e令我十分惊讶的是甚至经过一个晚上App依然在后台存活没有被杀死。\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e其中包括但不限于：QQ(腾讯) B站 抖音 GitHub(安卓) Twitter(X) Telegram(电报) YouTobe 等软件\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e💡模块说明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e由于修改了系统运行逻辑本模块可能存在如下问题：\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e比如：\n\u003cul\u003e\n\u003cli\u003e1.系统内存管理失效，在内存较低的情况下不会主动清理内存导致的系统卡死。\u003c/li\u003e\n\u003cli\u003e2.系统的待机功耗增加，但造成的待机功耗增加是可以忽略不计的。\u003c/li\u003e\n\u003cli\u003e3.使用本模块有可能导致系统无法开机卡第二屏，所以请务必做好万全准备。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e提醒：使用例如：\u003ccode\u003eOPPO\u003c/code\u003e \u003ccode\u003eVIVO\u003c/code\u003e \u003ccode\u003e华为(Huawei)\u003c/code\u003e等第三方厂商的系统，他们可能包含厂商自定义的kill逻辑，对模块效果有一定影响。\u003c/li\u003e\n\u003cli\u003e如果你能接受上面所述的可能存在的问题，那么本模块将会为你带来不一样的惊喜。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🔍常见问题\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eQ：如何使用？\u003c/li\u003e\n\u003cli\u003eA：请仔细阅读README-zh.md。\u003c/li\u003e\n\u003cli\u003eQ：模块与其他具有相同功能的Lsp模块冲突吗？\u003c/li\u003e\n\u003cli\u003eA：那是肯定的，我们不建议你多个重复功能模块一起使用，否则可能带来未知后果。\u003c/li\u003e\n\u003cli\u003e具有相同功能的其他模块：Don-t-Kill，Cemiuiler中的相同功能，A1内存管理附加Lsp模块等。\u003c/li\u003e\n\u003cli\u003eQ；为什么我的系统卡死了？\u003c/li\u003e\n\u003cli\u003eA：因为更改了系统kill逻辑，所以请注意你手机的内存状态，不要让它爆满。\u003c/li\u003e\n\u003cli\u003eQ：为什么我手机功耗增加了？\u003c/li\u003e\n\u003cli\u003eA；这是不可避免的，鱼与熊掌不能兼得，我认为在合理范围内是无伤大雅的。\u003c/li\u003e\n\u003cli\u003eQ；为什么卡开机了？\u003c/li\u003e\n\u003cli\u003eA；可能是模块中的某个功能的原因，请卸载模块并向我反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🙏致谢名单\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e本模块代码参考了如下项目，对此表示由衷的感谢：\u003c/li\u003e\n\u003c/ul\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth align=\"center\"\u003e项目名称\u003c/th\u003e\n\u003cth align=\"center\"\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eCemiuiler\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\"\u003eCemiuiler\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eDon’t Kill\u003c/td\u003e\n\u003ctd align=\"center\"\u003e\u003ca href=\"https://github.com/HChenX/Don-t-Kill\"\u003eDon-t-Kill\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e翻译提供\u003c/td\u003e\n\u003ctd align=\"center\"\u003e提供者\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003eEnglish\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen ,ℓοѕτ οиє ⌕ — 🚫🥄(Telegram Name)\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd align=\"center\"\u003e简体中文\u003c/td\u003e\n\u003ctd align=\"center\"\u003e焕晨HChen\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch1\u003e📢项目声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e任何对本项目的使用必须注明作者，抄袭是不可接受的！\u003c/li\u003e\n\u003cli\u003e抄袭可能导致本项目的闭源！\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🌏免责声明\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e使用本模块即代表愿意承担一切后果。\u003c/li\u003e\n\u003cli\u003e任何由本项目衍生出的项目本项目不承担任何责任。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003e🎉结尾\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e感谢您愿意使用本模块！Enjoy your day! ♥️\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eAppRetentionHook\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cb\u003e\u003ca href=\"README-en.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"README.md\"\u003e简体中文\u003c/a\u003e\u003c/b\u003e\u003c/p\u003e\n\u003cp\u003eHook 系统 kill 逻辑来实现后台保活\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨ 模块介绍\u003c/h2\u003e\n\u003cp\u003eAppRetentionHook 是一款 \u003cstrong\u003eLsp 模块\u003c/strong\u003e，通过 \u003cstrong\u003eHook 系统 kill 逻辑\u003c/strong\u003e 来实现 \u003cstrong\u003e后台保活\u003c/strong\u003e。\n📌 \u003cstrong\u003e5.1 版本是重构后的全新版本！！\u003c/strong\u003e 快来体验吧！\u003c/p\u003e\n\u003cp\u003e🔹 \u003cstrong\u003e适配系统\u003c/strong\u003e（5.1 版本支持范围）：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e✅ \u003cstrong\u003eHyperOS V1 / V2\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003cstrong\u003eAOSP 11-15\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003cstrong\u003e三星 OneUI\u003c/strong\u003e（可用范围未知）\u003c/li\u003e\n\u003cli\u003e🚧 \u003cstrong\u003eColor OS（暂不完全适配，但可用）\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e🛠 使用须知\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e📌 \u003cstrong\u003e为什么还会有应用被杀？\u003c/strong\u003e\n\u003cstrong\u003e本模块只拦截因系统计划导致的 kill，不能解决应用自身崩溃、自杀等行为！\u003c/strong\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e📌 \u003cstrong\u003e拦截的 kill 来源\u003c/strong\u003e（系统行为）：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e设备空闲清理\u003c/li\u003e\n\u003cli\u003e进程数量限制\u003c/li\u003e\n\u003cli\u003e后台进程最大数量限制\u003c/li\u003e\n\u003cli\u003e受限应用限制\u003c/li\u003e\n\u003cli\u003e计划任务清理\u003c/li\u003e\n\u003cli\u003e待机/空进程限制\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e⚠ \u003cstrong\u003e模块不会拦截以下 kill 行为\u003c/strong\u003e：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003elmkd 主动 kill（内存爆满触发）\u003c/li\u003e\n\u003cli\u003e应用 ANR（无响应）、更新、自杀、卸载、崩溃等\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e💡 \u003cstrong\u003e模块目标\u003c/strong\u003e：\n\u003cstrong\u003e已打开的应用不会因系统计划而被 kill，尽可能延长后台存活时间！\u003c/strong\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e🔧 安装与使用\u003c/h2\u003e\n\u003cp\u003e📌 \u003cstrong\u003e请在 Lsp 中启用本模块！\u003c/strong\u003e\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e安装\u003c/strong\u003e：下载并安装本模块\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e激活\u003c/strong\u003e：进入 Lsp 选择本模块并启用\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e勾选作用域\u003c/strong\u003e（不同系统）：\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eMIUI / HyperOS\u003c/strong\u003e：\u003ccode\u003e系统框架(system)\u003c/code\u003e 和 \u003ccode\u003e电量与性能(powerkeeper) [如果有]\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eColor OS\u003c/strong\u003e：\u003ccode\u003e雅典娜(Athena)\u003c/code\u003e、\u003ccode\u003e电池\u003c/code\u003e、\u003ccode\u003e系统框架(system)\u003c/code\u003e（5.1 版本未适配，仅可用）\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eOneUi\u003c/strong\u003e：\u003ccode\u003e系统框架(system)\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e重启设备即可！\u003c/strong\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr /\u003e\n\u003ch2\u003e🌟 模块效果\u003c/h2\u003e\n\u003cp\u003e✅ 经过测试，后台 App 留存时间 \u003cstrong\u003e大幅增长\u003c/strong\u003e，长时间未出现系统杀后台的现象\n✅ \u003cstrong\u003e即使经过整晚，应用仍保持后台运行\u003c/strong\u003e\n✅ \u003cstrong\u003e示例 App\u003c/strong\u003e（包括但不限于）：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eQQ、B 站、抖音\u003c/li\u003e\n\u003cli\u003eGitHub（安卓）、Twitter（X）、Telegram、YouTube 等\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e⚠ 可能存在的问题\u003c/h2\u003e\n\u003cp\u003e⚠ \u003cstrong\u003e由于本模块修改了系统运行逻辑，可能会带来以下影响\u003c/strong\u003e：\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e系统内存管理失效\u003c/strong\u003e：内存不足时不会主动清理，可能导致系统卡死\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e待机功耗增加\u003c/strong\u003e：影响较小，但可能稍微增加耗电量\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e部分设备可能出现卡开机\u003c/strong\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e🚨 \u003cstrong\u003e强烈建议\u003c/strong\u003e 在使用前做好备份，以防止无法开机等极端情况！\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e🔍 常见问题\u003c/h2\u003e\n\u003cp\u003e❓ \u003cstrong\u003eQ：如何使用？\u003c/strong\u003e\n💡 A：请仔细阅读 README 说明，并确保正确设置 Lsp 作用域。\u003c/p\u003e\n\u003cp\u003e❓ \u003cstrong\u003eQ：与其他保活模块是否冲突？\u003c/strong\u003e\n💡 A：是的，\u003cstrong\u003e请勿同时使用多个具有相同功能的模块！\u003c/strong\u003e\n冲突模块示例：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eDon-t-Kill\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eCemiuiler\u003c/strong\u003e（部分功能重叠）\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA1 内存管理附加 Lsp 模块\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e❓ \u003cstrong\u003eQ：为什么系统卡死了？\u003c/strong\u003e\n💡 A：请检查设备的 \u003cstrong\u003e内存占用情况\u003c/strong\u003e，本模块不会主动清理内存。\u003c/p\u003e\n\u003cp\u003e❓ \u003cstrong\u003eQ：为什么待机功耗增加了？\u003c/strong\u003e\n💡 A：后台应用存活时间更长，\u003cstrong\u003e功耗增加是正常现象\u003c/strong\u003e，但影响较小。\u003c/p\u003e\n\u003cp\u003e❓ \u003cstrong\u003eQ：为什么卡开机了？\u003c/strong\u003e\n💡 A：部分设备可能不兼容，若出现此问题，请卸载模块并反馈！\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e🙏 致谢名单\u003c/h2\u003e\n\u003cp\u003e💡 本模块部分代码参考以下项目，特此致谢：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e项目名称\u003c/th\u003e\n\u003cth\u003e项目链接\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eCemiuiler\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\"\u003eCemiuiler GitHub\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDon’t Kill\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HChenX/Don-t-Kill\"\u003eDon-t-Kill\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003cp\u003e📌 \u003cstrong\u003e翻译提供\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eEnglish\u003c/strong\u003e：焕晨HChen, ℓοѕτ οиє ⌕ — 🚫🥄(Telegram Name)\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e简体中文\u003c/strong\u003e：焕晨HChen\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e📢 项目声明\u003c/h2\u003e\n\u003cp\u003e⚠ \u003cstrong\u003e使用本模块即代表愿意承担一切后果\u003c/strong\u003e！\n⚠ \u003cstrong\u003e任何衍生项目，本项目不承担任何责任\u003c/strong\u003e！\n⚠ \u003cstrong\u003e抄袭将导致项目闭源！请注明作者！\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e🎉结尾\u003c/h2\u003e\n\u003cp\u003e💖 \u003cstrong\u003e感谢你的支持，Enjoy your day!\u003c/strong\u003e 🚀\u003c/p\u003e\n",
       "icon": "com.hchen.appretention.webp",
-      "lastUpdated": 1707992412000,
+      "lastUpdated": 1739339085000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 新年快乐，龙年福瑞双收！\n\n- 1.更改模块包名，更改模块签名！\n- Tip：这是为了解决报毒，和历史遗留问题。\n- 所以一定要卸载之前版本的模块重新安装！！！\n- 否则会出现两个相同的模块（因为包名改了不会覆盖）！\n- 卸载安装后需要重新激活模块！\n- 2.解决Hook到某些点时崩溃导致整个进程退出。\n- 3.其他优化和其他Bug修复。\n- 交流群：\n- QQ：517788148\n- 电报(Telegram)： https://t.me/HChen_AppRetention\n\n### Happy Chinese New Year!!\n\n- 1.Change the module package name and module signature!\n- Tip: This is to address false positives and historical legacy issues.\n- Therefore, make sure to uninstall the previous version of the module and reinstall it!!!\n- Ot"
+          "whatsNew": "# 🎉 AppRetention v.5.1 更新！！  \n### 🐍 这里先祝新年快乐，蛇年接福纳瑞！  \n\n### 🚀 v.5.1 版本是全新重构而来，进行了深度适配优化！欢迎大家体验！  \n\n---\n\n#### 更新日志：  \n🚀 - 深度优化适配 HyperOS V1、V2，优化适配 A15、A14 等。  \n💾 - 新增内存压缩功能，帮助减少应用内存占用大小。  \n🎯 - 深度优化米系手机在启动相机时容易大规模杀后台的问题。  \n📝 - 新增全新的日志系统，模块日志存储至：`/data/system/AppRetention/` 内。  \n🎉 - 全新适配三星 OneUi 系统！本模块可能是第一个支持三星的保后台模块了！  \n📱 - 支持最低安卓版本调动至安卓 11。  \n⚙️ - 支持调整 `mOomMinFree` 数值。  \n👂 - 支持监听系统 kill 事件。（Tip：需要手动开启）  \n🛠️ - 使用 HookTool 工具，统一 Hook 流程。  \n🐾 - 更换模块图标，更加可爱~  \n\n---\n\n#### 重要提醒：  \n⚠️ - v.5.1 版本暂未针对 "
         }
       },
       "name": "AppRetention",
       "packageName": "com.hchen.appretention",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.appretention",
-      "suggestedVersionCode": "2024021503",
-      "suggestedVersionName": "4.2.5",
-      "summary": "Achieving app retention by modifying the system kill logic through Hook. Supp..."
+      "suggestedVersionCode": "2025021100",
+      "suggestedVersionName": "5.1",
+      "summary": "Hook 系统 kill 逻辑来实现后台保活 | Hook system kill logic to implement background keep ..."
     },
     {
       "added": 1723612764000,
@@ -6499,25 +6499,20 @@
       "summary": "拖动小窗至全屏时自动将底层全屏应用切换为小窗模式"
     },
     {
-      "added": 1738151161000,
+      "added": 1739368964000,
       "authorName": "lz233",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/lz233/Tarnhelm/master/art/animation.webp\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e更多信息，参见：\u003ca href=\"https://tarnhelm.project.ac.cn/\"\u003etarnhelm.project.ac.cn\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e从 Play Store 获取：\u003ca href=\"https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\"\u003ehttps://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e从 F-Droid 获取：\u003ca href=\"https://f-droid.org/packages/cn.ac.lz233.tarnhelm\"\u003ehttps://f-droid.org/packages/cn.ac.lz233.tarnhelm\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.ac.lz233.tarnhelm.png",
-      "lastUpdated": 1738151161000,
+      "lastUpdated": 1739368964000,
       "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "- 新增：后台监听切换到 Shizuku ( \u003e= Android Q)\n\n- New: Background monitoring switched to Shizuku ( \u003e= Android Q)"
-        }
-      },
       "name": "Tarnhelm",
       "packageName": "cn.ac.lz233.tarnhelm",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
-      "suggestedVersionCode": "20250129",
-      "suggestedVersionName": "1.7.0",
+      "suggestedVersionCode": "20250212",
+      "suggestedVersionName": "1.7.1",
       "summary": "The magic to clean sharing links up.\n清理分享链接的魔法。"
     },
     {
@@ -6963,7 +6958,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1739329816000,
+      "lastUpdated": 1739416243000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -9511,13 +9506,13 @@
       "summary": "解除 APP 对屏幕旋转的控制，针对所有 Android Pad 设计，拒绝强制竖屏从我做起"
     },
     {
-      "added": 1738216027000,
+      "added": 1732159525000,
       "authorName": "Fansirsqi",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eSesame-TK\u003c/h1\u003e\n\u003ccenter\u003e\n\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/Fansirsqi/Sesame-TK/image?description=1\u0026amp;font=Source%20Code%20Pro\u0026amp;forks=1\u0026amp;issues=1\u0026amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2FFansirsqi%2FSesame-TK%2Frefs%2Fheads%2Fmain%2Fapp%2Fsrc%2Fmain%2Fassets%2Fweb%2FSesame-TK-logo.svg\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Circuit%20Board\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"Sesame-TK\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://raw.githubusercontent.com/Fansirsqi/Sesame-TK/refs/heads/main/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/Fansirsqi/Sesame-TK?labelColor=fff\u0026amp;label=License\u0026amp;logo=gnuprivacyguard\" alt=\"License\" /\u003e\u003c/a\u003e\n\u003ca href=\"../../releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Fansirsqi/Sesame-TK?labelColor=fff\u0026amp;label=Releases\u0026amp;logo=gitlfs\" alt=\"Latest Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"../../releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Fansirsqi/Sesame-TK/total?labelColor=fff\u0026amp;label=Downloads\u0026amp;logo=codefresh\" alt=\"All Releases Download\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/fansirsqi_xposed_sesame\"\u003e\u003cimg src=\"https://img.shields.io/badge/Sesame--TK-nul?\u0026amp;logo=Telegram\u0026amp;label=Telegram-Channel\u0026amp;labelColor=fff\u0026amp;link=https%3A%2F%2Ft.me%2Ffansirsqi_xposed_sesame\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e墙内更新\u003ca href=\"https://fansirs.lanzoue.com/b011kv6pwd\"\u003e戳这里\u003c/a\u003e 密码:\u003ccode\u003e9527\u003c/code\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/center\u003e\n\u003ch2\u003eforked from \u003ca href=\"https://github.com/TKaxv-7S/Sesame-TK\"\u003eTKaxv-7S\u003c/a\u003e\u003c/h2\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/Fansirsqi/Sesame-TK\"\u003e本项目地址\u003c/a\u003e\u003c/h2\u003e\n\u003cp\u003e感谢蚂蚁森林对绿化事业的贡献。快速收取蚂蚁森林能量，也为祖国的绿化事业出一份微薄之力~\u003c/p\u003e\n\u003cp\u003e你 可 以 fork \u003ca href=\"https://github.com/Fansirsqi/Sesame-TK\"\u003e源代码\u003c/a\u003e 自 行 编 译 ⚙️。\u003c/p\u003e\n\u003cp\u003e我 是 一 个 新 手 ，所 以 代 码 的 质 量 可 能 不 那 么 好 。 欢 迎 提 出 建 议。\u003c/p\u003e\n\u003cp\u003e（尽管我不确定我能做些什么）因为我可能真的不能做些什么。\u003c/p\u003e\n\u003cp\u003e如 果 你 喜 欢 这 个 项 目 ， 欢 迎 提 交 PR。\u003c/p\u003e\n\u003cp\u003e感谢🙏。\u003c/p\u003e\n\u003cdetails\u003e\n\u003csummary\u003e图 片 预 览\u003c/summary\u003e\n\u003cdiv style=\"display: flex; align-items: flex-start; justify-content: center;\"\u003e\n  \u003cimg src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-19-594_fansirsqi.xposed.sesame-edit_66964347f6135.jpg\" alt=\"Screenshot 1\" style=\"max-width: 35%; height: auto; margin-right: 10px;\"\u003e\n  \u003cimg src=\"https://pic2.ziyuan.wang/user/fansir/2024/11/Screenshot_2024-11-20-19-40-36-528_fansirsqi.xposed.sesame_a545f9fee2510.jpg\" alt=\"Screenshot 2\" style=\"max-width: 35%; height: auto;\"\u003e\n\u003c/div\u003e\n\u003c/details\u003e\n\u003cstrong style=\"color:red;\"\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e本软件仅供学习和研究使用，禁止任何形式的转发、发布或传播。本应用程序（以下简称“本APP”）仅供学习和研究用途，严禁以任何形式进行转发、发布或传播。\u003c/li\u003e\n\u003cli\u003e使用者应在下载本APP后24小时内自行卸载。若在使用期间造成任何损失，作者概不负责。\u003c/li\u003e\n\u003cli\u003e本APP不篡改、不修改、不收集、不存储任何个人信息或支付宝相关信息。\u003c/li\u003e\n\u003cli\u003e因违反本声明内容触犯中华人民共和国法律的行为，其一切后果由使用者自行承担，作者不承担任何法律责任。\u003c/li\u003e\n\u003cli\u003e凡以任何方式直接或间接使用本APP的行为，均视为自愿接受本声明的约束。\u003c/li\u003e\n\u003cli\u003e若本APP无意中侵犯了任何媒体或个人的知识产权，请通过邮件或电话告知，作者将立即删除相关内容或应用。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eDisclaimer\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eThis application (hereinafter referred to as “the APP”) is solely for educational and research purposes. Redistribution, publication, or dissemination in any form is strictly prohibited.\u003c/li\u003e\n\u003cli\u003eUsers must uninstall this APP within 24 hours of downloading. The author is not responsible for any damage or loss caused during its use.\u003c/li\u003e\n\u003cli\u003eThis APP does not alter, modify, collect, or store any personal information or Alipay-related data.\u003c/li\u003e\n\u003cli\u003eAny user violating this disclaimer and breaching the laws of the People’s Republic of China shall bear full responsibility for the consequences. The author assumes no legal liability.\u003c/li\u003e\n\u003cli\u003eAny person who directly or indirectly uses this APP is deemed to have voluntarily accepted the constraints of this disclaimer.\u003c/li\u003e\n\u003cli\u003eIf this APP unintentionally infringes upon the intellectual property rights of any individual or entity, please contact the author via email or phone. The author will immediately remove the relevant content or application.\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/strong\u003e\n",
-      "lastUpdated": 1738216027000,
+      "lastUpdated": 1738292831000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -10545,7 +10540,22 @@
     ],
     "cn.ac.lz233.tarnhelm": [
       {
-        "added": 1738151161000,
+        "added": 1739368964000,
+        "apkName": "cn.ac.lz233.tarnhelm_20250212-1.7.1.apk",
+        "hash": "413df165e7cd4f0a760d8e7a7881b6a380e3153d1b9520d3503b63409a9ab222",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "cn.ac.lz233.tarnhelm",
+        "sig": "01f48ff1dd1c12fe8dcfb10844a01ae7",
+        "signer": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0",
+        "size": 2292693,
+        "targetSdkVersion": 35,
+        "versionCode": 20250212,
+        "versionName": "1.7.1"
+      },
+      {
+        "added": 1738206432000,
         "apkName": "cn.ac.lz233.tarnhelm_20250129-1.7.0.apk",
         "hash": "1cd3d27d683129e65ea9c60d72c65e99d79eb5e2de13327e311a5b77eb7fbb09",
         "hashType": "sha256",
@@ -10573,21 +10583,6 @@
         "targetSdkVersion": 35,
         "versionCode": 20241118,
         "versionName": "1.6.6"
-      },
-      {
-        "added": 1732159409000,
-        "apkName": "cn.ac.lz233.tarnhelm_20240628-1.6.5.apk",
-        "hash": "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": null,
-        "packageName": "cn.ac.lz233.tarnhelm",
-        "sig": "01f48ff1dd1c12fe8dcfb10844a01ae7",
-        "signer": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0",
-        "size": 2697622,
-        "targetSdkVersion": 34,
-        "versionCode": 20240628,
-        "versionName": "1.6.5"
       }
     ],
     "cn.amamiya.douyurepeat": [
@@ -13164,7 +13159,25 @@
     ],
     "com.hchen.appretention": [
       {
-        "added": 1707992412000,
+        "added": 1739339085000,
+        "apkName": "com.hchen.appretention_2025021100-5.1.apk",
+        "hash": "36dedbaf9ba1b50a46f73095a202d4e70c11d891bb359a83f5ca5e1be774b8b0",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.hchen.appretention",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 698166,
+        "targetSdkVersion": 34,
+        "versionCode": 2025021100,
+        "versionName": "5.1"
+      },
+      {
+        "added": 1732159461000,
         "apkName": "com.hchen.appretention_2024021503-4.2.5.apk",
         "hash": "358a6f0a032bb28b815e9f7c477f6f52cb5c14e1de0118e92fc6802d81b14a31",
         "hashType": "sha256",
@@ -13831,7 +13844,7 @@
     ],
     "com.kgg.hhvideo": [
       {
-        "added": 1737386407000,
+        "added": 1739382329000,
         "apkName": "com.kgg.hhvideo_20-1.0.20.apk",
         "hash": "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97",
         "hashType": "sha256",
@@ -15816,7 +15829,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1739329816000,
+        "added": 1739416243000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16657,7 +16670,7 @@
     ],
     "fansirsqi.xposed.sesame": [
       {
-        "added": 1738216027000,
+        "added": 1738292831000,
         "apkName": "fansirsqi.xposed.sesame_1660-0.2.5-beta.3.2cb2.apk",
         "hash": "1d318a7229a8acf939b3826b2cd9aa60a2bcdd1336a53644542b820aa00aa5cf",
         "hashType": "sha256",

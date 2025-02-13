@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1739330029000,
+    "timestamp": 1739416482000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -19,7 +19,7 @@
       ],
       "suggestedVersionName": "1.0.20",
       "suggestedVersionCode": "20",
-      "description": "<h1>\u7535\u5f71\u730e\u624b(\u539f555\u7535\u5f71)\u53bb\u5e7f\u544a</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk\">\u7535\u5f71\u730e\u624bApp</a>\u53bb\u5e7f\u544a\u7248\uff0c\u4ec5\u7528\u4e8e\u5b66\u4e60\u4ea4\u6d41\uff0c\u8bf7\u52ff\u7528\u4e8e\u4efb\u4f55\u975e\u6cd5\u7528\u9014</p>\n<p>\u795e\u79d8\u89c2\u5f71App\uff0c\u4f4e\u8c03\u5206\u4eab\uff0c\u5185\u5bb9\u4e30\u5bcc\uff0c\u4eba\u624b\u5fc5\u5907\uff0c\u4e0d\u4f1a\u5931\u671b\uff01</p>\n<h1>\u66f4\u65b0\u65e5\u5fd7</h1>\n<p>2025.01.18\u00a0\u00a0\u00a0\u00a0v1.0.20\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.1.0\u7248\u672c</p>\n<h1>\u7701\u56e2\u751f\u6d3bApp\uff0c\u5403\u559d\u73a9\u4e50\u90fd\u6709\u4f18\u60e0</h1>\n<p>\u4e0b\u8f7d\u94fe\u63a5\uff1a<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>\u6216\u5e94\u7528\u5e02\u573a\u641c\u7d22\u3010\u7701\u56e2\u751f\u6d3b\u3011\u4e0b\u8f7d\u6ce8\u518c\uff0c\u586b\u5199\u9080\u8bf7\u7801\uff1aBDWTDTYU</p>\n",
+      "description": "<h1>\u7535\u5f71\u730e\u624b(\u539f555\u7535\u5f71)\u53bb\u5e7f\u544a</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">\u7535\u5f71\u730e\u624bApp</a>\u53bb\u5e7f\u544a\u7248\uff0c\u4ec5\u7528\u4e8e\u5b66\u4e60\u4ea4\u6d41\uff0c\u8bf7\u52ff\u7528\u4e8e\u4efb\u4f55\u975e\u6cd5\u7528\u9014</p>\n<p>\u795e\u79d8\u89c2\u5f71App\uff0c\u4f4e\u8c03\u5206\u4eab\uff0c\u5185\u5bb9\u4e30\u5bcc\uff0c\u4eba\u624b\u5fc5\u5907\uff0c\u4e0d\u4f1a\u5931\u671b\uff01</p>\n<h1>\u66f4\u65b0\u65e5\u5fd7</h1>\n<p>2025.01.18\u00a0\u00a0\u00a0\u00a0v1.0.20\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.1.0\u7248\u672c</p>\n<h1>QQ\u4ea4\u6d41\u7fa4</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n",
       "license": "Unknown",
       "name": "555\u7535\u5f71(\u7535\u5f71\u730e\u624b)App\u53bb\u5e7f\u544a",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
@@ -268,6 +268,22 @@
       "lastUpdated": 1738725090000
     },
     {
+      "authorName": "lz233",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "1.7.1",
+      "suggestedVersionCode": "20250212",
+      "description": "<p><img src=\"https://raw.githubusercontent.com/lz233/Tarnhelm/master/art/animation.webp\" alt=\"\" /></p>\n<p>\u66f4\u591a\u4fe1\u606f\uff0c\u53c2\u89c1\uff1a<a href=\"https://tarnhelm.project.ac.cn/\">tarnhelm.project.ac.cn</a></p>\n<p>\u4ece Play Store \u83b7\u53d6\uff1a<a href=\"https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\">https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm</a></p>\n<p>\u4ece F-Droid \u83b7\u53d6\uff1a<a href=\"https://f-droid.org/packages/cn.ac.lz233.tarnhelm\">https://f-droid.org/packages/cn.ac.lz233.tarnhelm</a></p>\n",
+      "license": "Unknown",
+      "name": "Tarnhelm",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
+      "summary": "The magic to clean sharing links up.\n\u6e05\u7406\u5206\u4eab\u94fe\u63a5\u7684\u9b54\u6cd5\u3002",
+      "added": 1732159409000,
+      "packageName": "cn.ac.lz233.tarnhelm",
+      "lastUpdated": 1739416145000
+    },
+    {
       "authorName": "suzhelan",
       "categories": [
         "Xposed"
@@ -381,6 +397,60 @@
     }
   ],
   "packages": {
+    "cn.ac.lz233.tarnhelm": [
+      {
+        "added": 1732159409000,
+        "apkName": "cn.ac.lz233.tarnhelm_20240628-1.6.5.apk",
+        "hash": "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "packageName": "cn.ac.lz233.tarnhelm",
+        "sig": "01f48ff1dd1c12fe8dcfb10844a01ae7",
+        "signer": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0",
+        "size": 2697622,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_LOGS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "cn.ac.lz233.tarnhelm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 20240628,
+        "versionName": "1.6.5"
+      }
+    ],
     "com.berdik.macsposed": [
       {
         "added": 1732159432000,

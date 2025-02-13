@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1739330029000,
+    "timestamp": 1739416482000,
     "categories": {
       "Xposed": {
         "name": {
@@ -24,6 +24,79 @@
     }
   },
   "packages": {
+    "cn.ac.lz233.tarnhelm": {
+      "metadata": {
+        "added": 1732159409000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1739416145000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
+        "authorName": "lz233",
+        "name": {
+          "en-US": "Tarnhelm"
+        },
+        "summary": {
+          "en-US": "The magic to clean sharing links up.\n清理分享链接的魔法。"
+        },
+        "description": {
+          "en-US": "<p><img src=\"https://raw.githubusercontent.com/lz233/Tarnhelm/master/art/animation.webp\" alt=\"\" /></p>\n<p>更多信息，参见：<a href=\"https://tarnhelm.project.ac.cn/\">tarnhelm.project.ac.cn</a></p>\n<p>从 Play Store 获取：<a href=\"https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm\">https://play.google.com/store/apps/details?id=cn.ac.lz233.tarnhelm</a></p>\n<p>从 F-Droid 获取：<a href=\"https://f-droid.org/packages/cn.ac.lz233.tarnhelm\">https://f-droid.org/packages/cn.ac.lz233.tarnhelm</a></p>\n"
+        },
+        "preferredSigner": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
+      },
+      "versions": {
+        "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf": {
+          "added": 1732159409000,
+          "file": {
+            "name": "/cn.ac.lz233.tarnhelm_20240628-1.6.5.apk",
+            "sha256": "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf",
+            "size": 2697622
+          },
+          "manifest": {
+            "versionName": "1.6.5",
+            "versionCode": 20240628,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_LOGS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "cn.ac.lz233.tarnhelm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.berdik.macsposed": {
       "metadata": {
         "added": 1732159432000,
@@ -556,7 +629,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },

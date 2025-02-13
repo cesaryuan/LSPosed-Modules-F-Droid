@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739330043000,
+    "timestamp": 1739416495000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1139,7 +1139,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738206432000,
+        "lastUpdated": 1739416145000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
         "authorName": "lz233",
         "name": {
@@ -1154,6 +1154,56 @@
         "preferredSigner": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
       },
       "versions": {
+        "413df165e7cd4f0a760d8e7a7881b6a380e3153d1b9520d3503b63409a9ab222": {
+          "added": 1739416145000,
+          "file": {
+            "name": "/cn.ac.lz233.tarnhelm_20250212-1.7.1.apk",
+            "sha256": "413df165e7cd4f0a760d8e7a7881b6a380e3153d1b9520d3503b63409a9ab222",
+            "size": 2292693
+          },
+          "manifest": {
+            "versionName": "1.7.1",
+            "versionCode": 20250212,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "cn.ac.lz233.tarnhelm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "1cd3d27d683129e65ea9c60d72c65e99d79eb5e2de13327e311a5b77eb7fbb09": {
           "added": 1738206432000,
           "file": {
@@ -1227,56 +1277,6 @@
               {
                 "name": "android.permission.KILL_BACKGROUND_PROCESSES"
               },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.READ_LOGS"
-              },
-              {
-                "name": "android.permission.SYSTEM_ALERT_WINDOW"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "cn.ac.lz233.tarnhelm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              }
-            ]
-          }
-        },
-        "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf": {
-          "added": 1732159409000,
-          "file": {
-            "name": "/cn.ac.lz233.tarnhelm_20240628-1.6.5.apk",
-            "sha256": "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf",
-            "size": 2697622
-          },
-          "manifest": {
-            "versionName": "1.6.5",
-            "versionCode": 20240628,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
-              ]
-            },
-            "usesPermission": [
               {
                 "name": "android.permission.RECEIVE_BOOT_COMPLETED"
               },
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739329728000,
+        "lastUpdated": 1739416155000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -8741,21 +8741,46 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159461000,
+        "lastUpdated": 1739416194000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.appretention",
         "authorName": "HChenX",
         "name": {
           "en-US": "AppRetention"
         },
         "summary": {
-          "en-US": "Achieving app retention by modifying the system kill logic through Hook. Supp..."
+          "en-US": "Hook 系统 kill 逻辑来实现后台保活 | Hook system kill logic to implement background keep ..."
         },
         "description": {
-          "en-US": "<div align=\"center\">\n<h1>AppRetentionHook</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>本模块通过Hook系统kill逻辑来实现后台保活，这是一个Lsp模块。</p>\n</div>\n<h1>✨模块介绍</h1>\n<ul>\n<li>因为这是一个Lsp模块，所以请在Lsp中激活并使用他，而不是使用Magisk安装此模块。</li>\n<li>\n<h4>用法：</h4>\n<ul>\n<li>首先：安装此Lsp模块至你的手机中。</li>\n<li>其次：点击Lsp图标进入Lsp界面，选中本模块并激活它。</li>\n<li>最后：勾选作用域:</li>\n<li>[MIUI] <code>系统框架(system)</code>和<code>电量和性能(powerkeeper)[如果有]</code></li>\n<li>[OPPO] <code>雅典娜(Athena)</code>和<code>电池</code>和<code>系统框架(system)</code></li>\n<li>然后重启手机即可正常使用。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>本模块通过Hook系统kill逻辑来实现后台应用保活。</li>\n<li>本模块适用于: <code>HyperOS(A14)</code> <code>MIUI14(A13,A12,A11)</code> <code>OPPO系统(A14,A13,A12)</code> <code>AOSP(A14,A13,A12,A11)</code>\n等。</li>\n</ul>\n<h1>🌟模块效果</h1>\n<ul>\n<li>经过个人测试，后台App留存时间大大增长在较长时间内未出现任何杀后台现象。</li>\n<li>令我十分惊讶的是甚至经过一个晚上App依然在后台存活没有被杀死。</li>\n<li><code>其中包括但不限于：QQ(腾讯) B站 抖音 GitHub(安卓) Twitter(X) Telegram(电报) YouTobe 等软件</code></li>\n</ul>\n<h1>💡模块说明</h1>\n<ul>\n<li>由于修改了系统运行逻辑本模块可能存在如下问题：</li>\n</ul>\n<ul>\n<li>比如：\n<ul>\n<li>1.系统内存管理失效，在内存较低的情况下不会主动清理内存导致的系统卡死。</li>\n<li>2.系统的待机功耗增加，但造成的待机功耗增加是可以忽略不计的。</li>\n<li>3.使用本模块有可能导致系统无法开机卡第二屏，所以请务必做好万全准备。</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>提醒：使用例如：<code>OPPO</code> <code>VIVO</code> <code>华为(Huawei)</code>等第三方厂商的系统，他们可能包含厂商自定义的kill逻辑，对模块效果有一定影响。</li>\n<li>如果你能接受上面所述的可能存在的问题，那么本模块将会为你带来不一样的惊喜。</li>\n</ul>\n<h1>🔍常见问题</h1>\n<ul>\n<li>Q：如何使用？</li>\n<li>A：请仔细阅读README-zh.md。</li>\n<li>Q：模块与其他具有相同功能的Lsp模块冲突吗？</li>\n<li>A：那是肯定的，我们不建议你多个重复功能模块一起使用，否则可能带来未知后果。</li>\n<li>具有相同功能的其他模块：Don-t-Kill，Cemiuiler中的相同功能，A1内存管理附加Lsp模块等。</li>\n<li>Q；为什么我的系统卡死了？</li>\n<li>A：因为更改了系统kill逻辑，所以请注意你手机的内存状态，不要让它爆满。</li>\n<li>Q：为什么我手机功耗增加了？</li>\n<li>A；这是不可避免的，鱼与熊掌不能兼得，我认为在合理范围内是无伤大雅的。</li>\n<li>Q；为什么卡开机了？</li>\n<li>A；可能是模块中的某个功能的原因，请卸载模块并向我反馈。</li>\n</ul>\n<h1>🙏致谢名单</h1>\n<ul>\n<li>本模块代码参考了如下项目，对此表示由衷的感谢：</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th align=\"center\">项目名称</th>\n<th align=\"center\">项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Cemiuiler</td>\n<td align=\"center\"><a href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\">Cemiuiler</a></td>\n</tr>\n<tr>\n<td align=\"center\">Don’t Kill</td>\n<td align=\"center\"><a href=\"https://github.com/HChenX/Don-t-Kill\">Don-t-Kill</a></td>\n</tr>\n<tr>\n<td align=\"center\">翻译提供</td>\n<td align=\"center\">提供者</td>\n</tr>\n<tr>\n<td align=\"center\">English</td>\n<td align=\"center\">焕晨HChen ,ℓοѕτ οиє ⌕ — 🚫🥄(Telegram Name)</td>\n</tr>\n<tr>\n<td align=\"center\">简体中文</td>\n<td align=\"center\">焕晨HChen</td>\n</tr>\n</tbody>\n</table>\n<h1>📢项目声明</h1>\n<ul>\n<li>任何对本项目的使用必须注明作者，抄袭是不可接受的！</li>\n<li>抄袭可能导致本项目的闭源！</li>\n</ul>\n<h1>🌏免责声明</h1>\n<ul>\n<li>使用本模块即代表愿意承担一切后果。</li>\n<li>任何由本项目衍生出的项目本项目不承担任何责任。</li>\n</ul>\n<h1>🎉结尾</h1>\n<ul>\n<li>感谢您愿意使用本模块！Enjoy your day! ♥️</li>\n</ul>\n"
+          "en-US": "<div align=\"center\">\n<h1>AppRetentionHook</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>Hook 系统 kill 逻辑来实现后台保活</p>\n</div>\n<hr />\n<h2>✨ 模块介绍</h2>\n<p>AppRetentionHook 是一款 <strong>Lsp 模块</strong>，通过 <strong>Hook 系统 kill 逻辑</strong> 来实现 <strong>后台保活</strong>。\n📌 <strong>5.1 版本是重构后的全新版本！！</strong> 快来体验吧！</p>\n<p>🔹 <strong>适配系统</strong>（5.1 版本支持范围）：</p>\n<ul>\n<li>✅ <strong>HyperOS V1 / V2</strong></li>\n<li>✅ <strong>AOSP 11-15</strong></li>\n<li>✅ <strong>三星 OneUI</strong>（可用范围未知）</li>\n<li>🚧 <strong>Color OS（暂不完全适配，但可用）</strong></li>\n</ul>\n<hr />\n<h2>🛠 使用须知</h2>\n<blockquote>\n<p>📌 <strong>为什么还会有应用被杀？</strong>\n<strong>本模块只拦截因系统计划导致的 kill，不能解决应用自身崩溃、自杀等行为！</strong></p>\n</blockquote>\n<p>📌 <strong>拦截的 kill 来源</strong>（系统行为）：</p>\n<ul>\n<li>设备空闲清理</li>\n<li>进程数量限制</li>\n<li>后台进程最大数量限制</li>\n<li>受限应用限制</li>\n<li>计划任务清理</li>\n<li>待机/空进程限制</li>\n</ul>\n<p>⚠ <strong>模块不会拦截以下 kill 行为</strong>：</p>\n<ul>\n<li>lmkd 主动 kill（内存爆满触发）</li>\n<li>应用 ANR（无响应）、更新、自杀、卸载、崩溃等</li>\n</ul>\n<p>💡 <strong>模块目标</strong>：\n<strong>已打开的应用不会因系统计划而被 kill，尽可能延长后台存活时间！</strong></p>\n<hr />\n<h2>🔧 安装与使用</h2>\n<p>📌 <strong>请在 Lsp 中启用本模块！</strong></p>\n<ol>\n<li><strong>安装</strong>：下载并安装本模块</li>\n<li><strong>激活</strong>：进入 Lsp 选择本模块并启用</li>\n<li><strong>勾选作用域</strong>（不同系统）：\n<ul>\n<li><strong>MIUI / HyperOS</strong>：<code>系统框架(system)</code> 和 <code>电量与性能(powerkeeper) [如果有]</code></li>\n<li><strong>Color OS</strong>：<code>雅典娜(Athena)</code>、<code>电池</code>、<code>系统框架(system)</code>（5.1 版本未适配，仅可用）</li>\n<li><strong>OneUi</strong>：<code>系统框架(system)</code></li>\n</ul>\n</li>\n<li><strong>重启设备即可！</strong></li>\n</ol>\n<hr />\n<h2>🌟 模块效果</h2>\n<p>✅ 经过测试，后台 App 留存时间 <strong>大幅增长</strong>，长时间未出现系统杀后台的现象\n✅ <strong>即使经过整晚，应用仍保持后台运行</strong>\n✅ <strong>示例 App</strong>（包括但不限于）：</p>\n<ul>\n<li>QQ、B 站、抖音</li>\n<li>GitHub（安卓）、Twitter（X）、Telegram、YouTube 等</li>\n</ul>\n<hr />\n<h2>⚠ 可能存在的问题</h2>\n<p>⚠ <strong>由于本模块修改了系统运行逻辑，可能会带来以下影响</strong>：</p>\n<ol>\n<li><strong>系统内存管理失效</strong>：内存不足时不会主动清理，可能导致系统卡死</li>\n<li><strong>待机功耗增加</strong>：影响较小，但可能稍微增加耗电量</li>\n<li><strong>部分设备可能出现卡开机</strong></li>\n</ol>\n<p>🚨 <strong>强烈建议</strong> 在使用前做好备份，以防止无法开机等极端情况！</p>\n<hr />\n<h2>🔍 常见问题</h2>\n<p>❓ <strong>Q：如何使用？</strong>\n💡 A：请仔细阅读 README 说明，并确保正确设置 Lsp 作用域。</p>\n<p>❓ <strong>Q：与其他保活模块是否冲突？</strong>\n💡 A：是的，<strong>请勿同时使用多个具有相同功能的模块！</strong>\n冲突模块示例：</p>\n<ul>\n<li><strong>Don-t-Kill</strong></li>\n<li><strong>Cemiuiler</strong>（部分功能重叠）</li>\n<li><strong>A1 内存管理附加 Lsp 模块</strong></li>\n</ul>\n<p>❓ <strong>Q：为什么系统卡死了？</strong>\n💡 A：请检查设备的 <strong>内存占用情况</strong>，本模块不会主动清理内存。</p>\n<p>❓ <strong>Q：为什么待机功耗增加了？</strong>\n💡 A：后台应用存活时间更长，<strong>功耗增加是正常现象</strong>，但影响较小。</p>\n<p>❓ <strong>Q：为什么卡开机了？</strong>\n💡 A：部分设备可能不兼容，若出现此问题，请卸载模块并反馈！</p>\n<hr />\n<h2>🙏 致谢名单</h2>\n<p>💡 本模块部分代码参考以下项目，特此致谢：</p>\n<table>\n<thead>\n<tr>\n<th>项目名称</th>\n<th>项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Cemiuiler</td>\n<td><a href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\">Cemiuiler GitHub</a></td>\n</tr>\n<tr>\n<td>Don’t Kill</td>\n<td><a href=\"https://github.com/HChenX/Don-t-Kill\">Don-t-Kill</a></td>\n</tr>\n</tbody>\n</table>\n<p>📌 <strong>翻译提供</strong></p>\n<ul>\n<li><strong>English</strong>：焕晨HChen, ℓοѕτ οиє ⌕ — 🚫🥄(Telegram Name)</li>\n<li><strong>简体中文</strong>：焕晨HChen</li>\n</ul>\n<hr />\n<h2>📢 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠ <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>🎉结尾</h2>\n<p>💖 <strong>感谢你的支持，Enjoy your day!</strong> 🚀</p>\n"
         },
         "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
       },
       "versions": {
+        "36dedbaf9ba1b50a46f73095a202d4e70c11d891bb359a83f5ca5e1be774b8b0": {
+          "added": 1739416194000,
+          "file": {
+            "name": "/com.hchen.appretention_2025021100-5.1.apk",
+            "sha256": "36dedbaf9ba1b50a46f73095a202d4e70c11d891bb359a83f5ca5e1be774b8b0",
+            "size": 698166
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "5.1",
+            "versionCode": 2025021100,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        },
         "358a6f0a032bb28b815e9f7c477f6f52cb5c14e1de0118e92fc6802d81b14a31": {
           "added": 1732159461000,
           "file": {
@@ -10682,7 +10707,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.0_NoAD.apk\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>省团生活App，吃喝玩乐都有优惠</h1>\n<p>下载链接：<a href=\"https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android\">https://a.app.qq.com/o/simple.jsp?pkgname=com.hs.stsh.android</a></p>\n<p>或应用市场搜索【省团生活】下载注册，填写邀请码：BDWTDTYU</p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -16460,7 +16485,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739329816000,
+        "lastUpdated": 1739416243000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -24220,7 +24245,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739329864000,
+        "lastUpdated": 1739416290000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {

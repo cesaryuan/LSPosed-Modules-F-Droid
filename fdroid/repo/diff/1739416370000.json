@@ -1,0 +1,36 @@
+{
+  "repo": {
+    "timestamp": 1739416495000
+  },
+  "packages": {
+    "cn.ac.lz233.tarnhelm": {
+      "versions": {
+        "413df165e7cd4f0a760d8e7a7881b6a380e3153d1b9520d3503b63409a9ab222": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.hchen.appretention": {
+      "metadata": {
+        "summary": {
+          "en-US": "Hook 系统 kill 逻辑来实现后台保活 | Hook system kill logic to implement background keep ..."
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n<h1>AppRetentionHook</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/AppRetentionHook?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/Com.HChen.Hook/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/AppRetentionHook\" alt=\"Github repo size\" />\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/Com.HChen.Hook/releases\"><img src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/Com.HChen.Hook\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/AppRetentionHook?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>Hook 系统 kill 逻辑来实现后台保活</p>\n</div>\n<hr />\n<h2>✨ 模块介绍</h2>\n<p>AppRetentionHook 是一款 <strong>Lsp 模块</strong>，通过 <strong>Hook 系统 kill 逻辑</strong> 来实现 <strong>后台保活</strong>。\n📌 <strong>5.1 版本是重构后的全新版本！！</strong> 快来体验吧！</p>\n<p>🔹 <strong>适配系统</strong>（5.1 版本支持范围）：</p>\n<ul>\n<li>✅ <strong>HyperOS V1 / V2</strong></li>\n<li>✅ <strong>AOSP 11-15</strong></li>\n<li>✅ <strong>三星 OneUI</strong>（可用范围未知）</li>\n<li>🚧 <strong>Color OS（暂不完全适配，但可用）</strong></li>\n</ul>\n<hr />\n<h2>🛠 使用须知</h2>\n<blockquote>\n<p>📌 <strong>为什么还会有应用被杀？</strong>\n<strong>本模块只拦截因系统计划导致的 kill，不能解决应用自身崩溃、自杀等行为！</strong></p>\n</blockquote>\n<p>📌 <strong>拦截的 kill 来源</strong>（系统行为）：</p>\n<ul>\n<li>设备空闲清理</li>\n<li>进程数量限制</li>\n<li>后台进程最大数量限制</li>\n<li>受限应用限制</li>\n<li>计划任务清理</li>\n<li>待机/空进程限制</li>\n</ul>\n<p>⚠ <strong>模块不会拦截以下 kill 行为</strong>：</p>\n<ul>\n<li>lmkd 主动 kill（内存爆满触发）</li>\n<li>应用 ANR（无响应）、更新、自杀、卸载、崩溃等</li>\n</ul>\n<p>💡 <strong>模块目标</strong>：\n<strong>已打开的应用不会因系统计划而被 kill，尽可能延长后台存活时间！</strong></p>\n<hr />\n<h2>🔧 安装与使用</h2>\n<p>📌 <strong>请在 Lsp 中启用本模块！</strong></p>\n<ol>\n<li><strong>安装</strong>：下载并安装本模块</li>\n<li><strong>激活</strong>：进入 Lsp 选择本模块并启用</li>\n<li><strong>勾选作用域</strong>（不同系统）：\n<ul>\n<li><strong>MIUI / HyperOS</strong>：<code>系统框架(system)</code> 和 <code>电量与性能(powerkeeper) [如果有]</code></li>\n<li><strong>Color OS</strong>：<code>雅典娜(Athena)</code>、<code>电池</code>、<code>系统框架(system)</code>（5.1 版本未适配，仅可用）</li>\n<li><strong>OneUi</strong>：<code>系统框架(system)</code></li>\n</ul>\n</li>\n<li><strong>重启设备即可！</strong></li>\n</ol>\n<hr />\n<h2>🌟 模块效果</h2>\n<p>✅ 经过测试，后台 App 留存时间 <strong>大幅增长</strong>，长时间未出现系统杀后台的现象\n✅ <strong>即使经过整晚，应用仍保持后台运行</strong>\n✅ <strong>示例 App</strong>（包括但不限于）：</p>\n<ul>\n<li>QQ、B 站、抖音</li>\n<li>GitHub（安卓）、Twitter（X）、Telegram、YouTube 等</li>\n</ul>\n<hr />\n<h2>⚠ 可能存在的问题</h2>\n<p>⚠ <strong>由于本模块修改了系统运行逻辑，可能会带来以下影响</strong>：</p>\n<ol>\n<li><strong>系统内存管理失效</strong>：内存不足时不会主动清理，可能导致系统卡死</li>\n<li><strong>待机功耗增加</strong>：影响较小，但可能稍微增加耗电量</li>\n<li><strong>部分设备可能出现卡开机</strong></li>\n</ol>\n<p>🚨 <strong>强烈建议</strong> 在使用前做好备份，以防止无法开机等极端情况！</p>\n<hr />\n<h2>🔍 常见问题</h2>\n<p>❓ <strong>Q：如何使用？</strong>\n💡 A：请仔细阅读 README 说明，并确保正确设置 Lsp 作用域。</p>\n<p>❓ <strong>Q：与其他保活模块是否冲突？</strong>\n💡 A：是的，<strong>请勿同时使用多个具有相同功能的模块！</strong>\n冲突模块示例：</p>\n<ul>\n<li><strong>Don-t-Kill</strong></li>\n<li><strong>Cemiuiler</strong>（部分功能重叠）</li>\n<li><strong>A1 内存管理附加 Lsp 模块</strong></li>\n</ul>\n<p>❓ <strong>Q：为什么系统卡死了？</strong>\n💡 A：请检查设备的 <strong>内存占用情况</strong>，本模块不会主动清理内存。</p>\n<p>❓ <strong>Q：为什么待机功耗增加了？</strong>\n💡 A：后台应用存活时间更长，<strong>功耗增加是正常现象</strong>，但影响较小。</p>\n<p>❓ <strong>Q：为什么卡开机了？</strong>\n💡 A：部分设备可能不兼容，若出现此问题，请卸载模块并反馈！</p>\n<hr />\n<h2>🙏 致谢名单</h2>\n<p>💡 本模块部分代码参考以下项目，特此致谢：</p>\n<table>\n<thead>\n<tr>\n<th>项目名称</th>\n<th>项目链接</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Cemiuiler</td>\n<td><a href=\"https://github.com/Team-Cemiuiler/Cemiuiler/tree/main\">Cemiuiler GitHub</a></td>\n</tr>\n<tr>\n<td>Don’t Kill</td>\n<td><a href=\"https://github.com/HChenX/Don-t-Kill\">Don-t-Kill</a></td>\n</tr>\n</tbody>\n</table>\n<p>📌 <strong>翻译提供</strong></p>\n<ul>\n<li><strong>English</strong>：焕晨HChen, ℓοѕτ οиє ⌕ — 🚫🥄(Telegram Name)</li>\n<li><strong>简体中文</strong>：焕晨HChen</li>\n</ul>\n<hr />\n<h2>📢 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠ <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>🎉结尾</h2>\n<p>💖 <strong>感谢你的支持，Enjoy your day!</strong> 🚀</p>\n"
+        }
+      },
+      "versions": {
+        "36dedbaf9ba1b50a46f73095a202d4e70c11d891bb359a83f5ca5e1be774b8b0": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.kgg.hhvideo": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+        }
+      }
+    }
+  }
+}
