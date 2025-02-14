@@ -7842,15 +7842,16 @@ com.kgg.hhvideo:
             <p><a href="https://mp.rongmanit.com/dyls/app">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
+            <p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>
             <p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>
-            <h1>QQ交流群</h1>
+            <h1>QQ交流群：1030045081</h1>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg" alt="" /></p>
-          filename: dylsNoAd_1.0.20_release.apk
+          filename: dylsNoAd_1.0.21_release.apk
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
-          last_updated: "2025-02-12T17:45:29Z"
+          last_updated: "2025-02-13T16:43:56Z"
           releasedescription: |-
-            <p>适配电影猎手v3.1.1.0版本</p>
+            <p>适配电影猎手v3.1.1.1版本</p>
             <p>官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选</p>
             <p>LSPosed设置中需关闭Xposed API调用保护</p>
             <p>推荐使用内置模块的电影猎手App，下载地址：</p>
@@ -13920,7 +13921,7 @@ es.rafagale.biometricbypass:
           name: Biometric Bypass
           last_updated: "2024-08-23T17:28:15Z"
           releasedescription: <p>Initial release</p>
-    author_name: rafagale
+    author_name: rafareborn
 eu.faircode.xlua:
     git: https://github.com/Xposed-Modules-Repo/eu.faircode.xlua
     summary: Really simple to use privacy manager for Android 6.0 Marshmallow and later
@@ -16770,21 +16771,23 @@ its.madruga.warevamp:
             <li><a href="https://t.me/warevampmodule">Channel</a></li>
             <li><a href="https://t.me/+7xV9KAEkO10yYjZh">Chat</a></li>
             </ul>
-          filename: WaRevamp_0.0.7.apk
+          filename: WaRevamp_0.0.8.apk
           id: its.madruga.warevamp
           name: Wa Revamp
-          last_updated: "2025-01-30T22:32:48Z"
+          last_updated: "2025-02-13T03:19:12Z"
           releasedescription: |-
             <p>| ADDED |</p>
             <ul>
-            <li>Custom privacy for chats and groups.</li>
-            <li>Pt-Br tradution</li>
+            <li>Support to 2.25.3.x</li>
             </ul>
             <p>| FIXED |</p>
             <ul>
-            <li>Anti-Revoking messages did not erase your messages.</li>
-            <li>Others minor errors</li>
+            <li>Anti-Revoke</li>
+            <li>Download Status</li>
+            <li>Module Ui</li>
             </ul>
+            <p>| NOTICE |</p>
+            <p>The module now has support for whatsapp 2.25.3.x and above, any error present in the versions below this will be ignored.</p>
     author_name: ItsMadruga
 junzi.xposed.hook:
     git: https://github.com/Xposed-Modules-Repo/junzi.xposed.hook

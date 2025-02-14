@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1739416482000,
+    "timestamp": 1739502886000,
     "categories": {
       "Xposed": {
         "name": {
@@ -619,7 +619,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737169590000,
+        "lastUpdated": 1739502611000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
         "authorName": "KongGuoguang",
         "name": {
@@ -629,11 +629,40 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
       "versions": {
+        "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59": {
+          "added": 1732159475000,
+          "file": {
+            "name": "/com.kgg.hhvideo_18-1.0.18.apk",
+            "sha256": "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59",
+            "size": 1302258
+          },
+          "manifest": {
+            "versionName": "1.0.18",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "4e8edf18cde92ae74dbd51ef6e39b35363e0d1f13fac458c1f0d41dfcb44e4ab": {
           "added": 1732159475000,
           "file": {

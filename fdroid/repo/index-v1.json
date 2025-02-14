@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1739416495000,
+    "timestamp": 1739502899000,
     "version": 20002
   },
   "requests": {
@@ -35,25 +35,25 @@
       "summary": "微信群消息助手 - 整理群消息、服务号。"
     },
     {
-      "added": 1739382329000,
+      "added": 1739465036000,
       "authorName": "KongGuoguang",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://mp.rongmanit.com/dyls/app\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本\u003c/p\u003e\n\u003ch1\u003eQQ交流群\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
+      "description": "\u003ch1\u003e电影猎手(原555电影)去广告\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://mp.rongmanit.com/dyls/app\"\u003e电影猎手App\u003c/a\u003e去广告版，仅用于学习交流，请勿用于任何非法用途\u003c/p\u003e\n\u003cp\u003e神秘观影App，低调分享，内容丰富，人手必备，不会失望！\u003c/p\u003e\n\u003ch1\u003e更新日志\u003c/h1\u003e\n\u003cp\u003e2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本\u003c/p\u003e\n\u003cp\u003e2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本\u003c/p\u003e\n\u003ch1\u003eQQ交流群：1030045081\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /\u003e\u003c/p\u003e\n",
       "icon": "com.kgg.hhvideo.png",
-      "lastUpdated": 1739382329000,
+      "lastUpdated": 1739465036000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配电影猎手v3.1.1.0版本\n\n官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选\n\nLSPosed设置中需关闭Xposed API调用保护\n\n推荐使用内置模块的电影猎手App，下载地址：\n\nhttps://mp.rongmanit.com/dyls/app\n"
+          "whatsNew": "适配电影猎手v3.1.1.1版本\n\n官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选\n\nLSPosed设置中需关闭Xposed API调用保护\n\n推荐使用内置模块的电影猎手App，下载地址：\n\nhttps://mp.rongmanit.com/dyls/app"
         }
       },
       "name": "555电影(电影猎手)App去广告",
       "packageName": "com.kgg.hhvideo",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
-      "suggestedVersionCode": "20",
-      "suggestedVersionName": "1.0.20",
+      "suggestedVersionCode": "21",
+      "suggestedVersionName": "1.0.21",
       "summary": "电影猎手App去广告模块"
     },
     {
@@ -750,7 +750,7 @@
     },
     {
       "added": 1724434095000,
-      "authorName": "rafagale",
+      "authorName": "rafareborn",
       "categories": [
         "Xposed"
       ],
@@ -1015,14 +1015,14 @@
       "suggestedVersionCode": "2147483647"
     },
     {
-      "added": 1723861533000,
+      "added": 1732159431000,
       "authorName": "catsmoker",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eCatsmoker App\u003c/h1\u003e\n\u003cp\u003eCatsmoker is a simple Android app that displays a web page using a \u003ccode\u003eWebView\u003c/code\u003e component. The web page shown is hosted at \u003ca href=\"https://catsmoker.github.io\"\u003ecatsmoker.github.io\u003c/a\u003e. It also serves as a utility aimed at unlocking higher FPS in games by spoofing your device as a different model for specific games.\u003c/p\u003e\n\u003cp\u003eFor more information, visit the \u003ca href=\"https://github.com/catsmoker/com.app.catsmoker\"\u003eGitHub repository\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSpoof device information for improved gaming performance in supported games.\u003c/li\u003e\n\u003cli\u003eCompatible with a wide variety of popular gaming apps.\u003c/li\u003e\n\u003cli\u003eSimple installation with no configuration needed.\u003c/li\u003e\n\u003cli\u003eDisplays a web page within the app.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTable of Contents\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"#getting-started\"\u003eGetting Started\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#usage\"\u003eUsage\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#supported-games\"\u003eSupported Games\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#license\"\u003eLicense\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#contributing\"\u003eContributing\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eGetting Started\u003c/h2\u003e\n\u003ch3\u003ePrerequisites\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eEnsure that your Android device is rooted.\u003c/li\u003e\n\u003cli\u003eInstall the \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e framework on your device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eInstallation\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eDownload the Module\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDownload the \u003ccode\u003ecatsmoker\u003c/code\u003e module from the releases section of the repository.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eInstall the APK\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eOpen \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e Manager.\u003c/li\u003e\n\u003cli\u003eGo to the \u003ccode\u003eModules\u003c/code\u003e section.\u003c/li\u003e\n\u003cli\u003eSearch for \u003ccode\u003ecatsmoker\u003c/code\u003e and enable the module.\u003c/li\u003e\n\u003cli\u003eThe supported games are automatically added to the scope.\u003c/li\u003e\n\u003cli\u003eForce stop the added game manually to take effect.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eOnce you’ve installed and activated the Catsmoker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.\u003c/p\u003e\n\u003cp\u003eYou can untick the games you don’t want to spoof in the module scope. Force stop and relaunch are required.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e Device spoofing may violate the terms of service for some games or apps.\u003c/p\u003e\n\u003ch2\u003eSupported Games\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eActivision Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.shooter\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.warzone\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.garena.game.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.kr.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.codmvn\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.cod\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eTencent Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.ig\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.imobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.krmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.rekoo.pubgm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.pubgmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.pubgmhd\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eGarena Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefiremax\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefireth\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEpic Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.epicgames.fortnite\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cp\u003eThis project is licensed under the MIT License - see the \u003ca href=\"LICENSE\"\u003eLICENSE\u003c/a\u003e file for details.\u003c/p\u003e\n\u003ch2\u003eContributing\u003c/h2\u003e\n\u003cp\u003eContributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.\u003c/p\u003e\n",
       "icon": "com.app.catsmoker.3.png",
-      "lastUpdated": 1723861533000,
+      "lastUpdated": 1732159431000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6958,7 +6958,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1739416243000,
+      "lastUpdated": 1739502647000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7017,18 +7017,18 @@
         "Xposed"
       ],
       "description": "\u003ch1\u003eWa Revamp\u003c/h1\u003e\n\u003cp\u003eContinuation of the Old MdgWa.\u003cbr /\u003e\nMore information coming soon…\u003c/p\u003e\n\u003ch2\u003eDownload\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003ePre-Releases\u003c/a\u003e (More Updates)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003eTelegram\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003eChannel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/+7xV9KAEkO10yYjZh\"\u003eChat\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1738292855000,
+      "lastUpdated": 1739502686000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "| ADDED |\n\n- Custom privacy for chats and groups.\n- Pt-Br tradution\n\n| FIXED |\n\n- Anti-Revoking messages did not erase your messages.\n- Others minor errors"
+          "whatsNew": "| ADDED |\n\n- Support to 2.25.3.x\n\n| FIXED |\n\n- Anti-Revoke\n- Download Status\n- Module Ui\n\n| NOTICE |\n\nThe module now has support for whatsapp 2.25.3.x and above, any error present in the versions below this will be ignored."
         }
       },
       "name": "Wa Revamp",
       "packageName": "its.madruga.warevamp",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.0.7",
+      "suggestedVersionName": "0.0.8",
       "summary": "An Xposed module to customize your WhatsApp."
     },
     {
@@ -11729,7 +11729,7 @@
     ],
     "com.app.catsmoker": [
       {
-        "added": 1723861533000,
+        "added": 1732159431000,
         "apkName": "com.app.catsmoker_3-1.3.apk",
         "hash": "7480250cff207dddba494727e5b005d1166db80fced8f83629459e9ce49ecc47",
         "hashType": "sha256",
@@ -13844,7 +13844,22 @@
     ],
     "com.kgg.hhvideo": [
       {
-        "added": 1739382329000,
+        "added": 1739465036000,
+        "apkName": "com.kgg.hhvideo_21-1.0.21.apk",
+        "hash": "f6b827cc29897c3fa9808077f216784484c9c4533f34cf1e32ea1415abc3f5c3",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.kgg.hhvideo",
+        "sig": "6883073c7355e7e21707a573344978d7",
+        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
+        "size": 968313,
+        "targetSdkVersion": 33,
+        "versionCode": 21,
+        "versionName": "1.0.21"
+      },
+      {
+        "added": 1737169590000,
         "apkName": "com.kgg.hhvideo_20-1.0.20.apk",
         "hash": "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97",
         "hashType": "sha256",
@@ -13872,21 +13887,6 @@
         "targetSdkVersion": 33,
         "versionCode": 19,
         "versionName": "1.0.19"
-      },
-      {
-        "added": 1732159475000,
-        "apkName": "com.kgg.hhvideo_18-1.0.18.apk",
-        "hash": "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": null,
-        "packageName": "com.kgg.hhvideo",
-        "sig": "6883073c7355e7e21707a573344978d7",
-        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
-        "size": 1302258,
-        "targetSdkVersion": 33,
-        "versionCode": 18,
-        "versionName": "1.0.18"
       }
     ],
     "com.kgg.hlddz": [
@@ -15829,7 +15829,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1739416243000,
+        "added": 1739502647000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18318,7 +18318,7 @@
         "versionName": "0.0.6"
       },
       {
-        "added": 1738276368000,
+        "added": 1738292855000,
         "apkName": "its.madruga.warevamp_1-0.0.7.apk",
         "hash": "04c98fc7405761190ca77950d416f59a3d2893c05b934426627f59918aadba5a",
         "hashType": "sha256",
@@ -18336,6 +18336,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "0.0.7"
+      },
+      {
+        "added": 1739416752000,
+        "apkName": "its.madruga.warevamp_1-0.0.8.apk",
+        "hash": "cd718f92f9d9c642d4cf774e6713a8446ca6cbf16738a27d7535a845fd1bd741",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "its.madruga.warevamp",
+        "sig": "643f6250425529e287ad7f1d14fef6b2",
+        "signer": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc",
+        "size": 3099017,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.0.8"
       }
     ],
     "junzi.xposed.hook": [
