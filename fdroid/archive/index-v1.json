@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1739416482000,
+    "timestamp": 1739502886000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -17,16 +17,16 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "1.0.20",
-      "suggestedVersionCode": "20",
-      "description": "<h1>\u7535\u5f71\u730e\u624b(\u539f555\u7535\u5f71)\u53bb\u5e7f\u544a</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">\u7535\u5f71\u730e\u624bApp</a>\u53bb\u5e7f\u544a\u7248\uff0c\u4ec5\u7528\u4e8e\u5b66\u4e60\u4ea4\u6d41\uff0c\u8bf7\u52ff\u7528\u4e8e\u4efb\u4f55\u975e\u6cd5\u7528\u9014</p>\n<p>\u795e\u79d8\u89c2\u5f71App\uff0c\u4f4e\u8c03\u5206\u4eab\uff0c\u5185\u5bb9\u4e30\u5bcc\uff0c\u4eba\u624b\u5fc5\u5907\uff0c\u4e0d\u4f1a\u5931\u671b\uff01</p>\n<h1>\u66f4\u65b0\u65e5\u5fd7</h1>\n<p>2025.01.18\u00a0\u00a0\u00a0\u00a0v1.0.20\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.1.0\u7248\u672c</p>\n<h1>QQ\u4ea4\u6d41\u7fa4</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n",
+      "suggestedVersionName": "1.0.21",
+      "suggestedVersionCode": "21",
+      "description": "<h1>\u7535\u5f71\u730e\u624b(\u539f555\u7535\u5f71)\u53bb\u5e7f\u544a</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">\u7535\u5f71\u730e\u624bApp</a>\u53bb\u5e7f\u544a\u7248\uff0c\u4ec5\u7528\u4e8e\u5b66\u4e60\u4ea4\u6d41\uff0c\u8bf7\u52ff\u7528\u4e8e\u4efb\u4f55\u975e\u6cd5\u7528\u9014</p>\n<p>\u795e\u79d8\u89c2\u5f71App\uff0c\u4f4e\u8c03\u5206\u4eab\uff0c\u5185\u5bb9\u4e30\u5bcc\uff0c\u4eba\u624b\u5fc5\u5907\uff0c\u4e0d\u4f1a\u5931\u671b\uff01</p>\n<h1>\u66f4\u65b0\u65e5\u5fd7</h1>\n<p>2025.02.13\u00a0\u00a0\u00a0\u00a0v1.0.21\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.1.1\u7248\u672c</p>\n<p>2025.01.18\u00a0\u00a0\u00a0\u00a0v1.0.20\u00a0\u00a0\u00a0\u00a0\u9002\u914d\u7535\u5f71\u730e\u624bv3.1.1.0\u7248\u672c</p>\n<h1>QQ\u4ea4\u6d41\u7fa4\uff1a1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n",
       "license": "Unknown",
       "name": "555\u7535\u5f71(\u7535\u5f71\u730e\u624b)App\u53bb\u5e7f\u544a",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
       "summary": "\u7535\u5f71\u730e\u624bApp\u53bb\u5e7f\u544a\u6a21\u5757",
       "added": 1732159474000,
       "packageName": "com.kgg.hhvideo",
-      "lastUpdated": 1737169590000
+      "lastUpdated": 1739502611000
     },
     {
       "authorName": "zjyzip",
@@ -872,6 +872,30 @@
       }
     ],
     "com.kgg.hhvideo": [
+      {
+        "added": 1732159475000,
+        "apkName": "com.kgg.hhvideo_18-1.0.18.apk",
+        "hash": "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "packageName": "com.kgg.hhvideo",
+        "sig": "6883073c7355e7e21707a573344978d7",
+        "signer": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac",
+        "size": 1302258,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 18,
+        "versionName": "1.0.18"
+      },
       {
         "added": 1732159475000,
         "apkName": "com.kgg.hhvideo_17-1.0.17.apk",

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739416495000,
+    "timestamp": 1739502899000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739416155000,
+        "lastUpdated": 1739502560000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -10697,7 +10697,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737169590000,
+        "lastUpdated": 1739502611000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kgg.hhvideo",
         "authorName": "KongGuoguang",
         "name": {
@@ -10707,11 +10707,40 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
       "versions": {
+        "f6b827cc29897c3fa9808077f216784484c9c4533f34cf1e32ea1415abc3f5c3": {
+          "added": 1739502611000,
+          "file": {
+            "name": "/com.kgg.hhvideo_21-1.0.21.apk",
+            "sha256": "f6b827cc29897c3fa9808077f216784484c9c4533f34cf1e32ea1415abc3f5c3",
+            "size": 968313
+          },
+          "manifest": {
+            "versionName": "1.0.21",
+            "versionCode": 21,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "7f741dd37e7b00c2761e3cbfc86e1ed0de12a6f46f1a942319b1e097f2f3cc97": {
           "added": 1737169590000,
           "file": {
@@ -10751,35 +10780,6 @@
           "manifest": {
             "versionName": "1.0.19",
             "versionCode": 19,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "com.kgg.hhvideo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59": {
-          "added": 1732159475000,
-          "file": {
-            "name": "/com.kgg.hhvideo_18-1.0.18.apk",
-            "sha256": "3d60487f4093a2dfaf86a66408d4ad172aba35a9f31a7cfbf547ff64fcf25f59",
-            "size": 1302258
-          },
-          "manifest": {
-            "versionName": "1.0.18",
-            "versionCode": 18,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33
@@ -16485,7 +16485,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739416243000,
+        "lastUpdated": 1739502647000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -18823,7 +18823,7 @@
         ],
         "lastUpdated": 1732159524000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/es.rafagale.biometricbypass",
-        "authorName": "rafagale",
+        "authorName": "rafareborn",
         "name": {
           "en-US": "Biometric Bypass"
         },
@@ -22962,7 +22962,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738292855000,
+        "lastUpdated": 1739502686000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
         "authorName": "ItsMadruga",
         "name": {
@@ -23097,6 +23097,41 @@
               "x86_64"
             ],
             "versionName": "0.0.7",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "its.madruga.warevamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "cd718f92f9d9c642d4cf774e6713a8446ca6cbf16738a27d7535a845fd1bd741": {
+          "added": 1739502686000,
+          "file": {
+            "name": "/its.madruga.warevamp_1-0.0.8.apk",
+            "sha256": "cd718f92f9d9c642d4cf774e6713a8446ca6cbf16738a27d7535a845fd1bd741",
+            "size": 3099017
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.0.8",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 26,
@@ -24245,7 +24280,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739416290000,
+        "lastUpdated": 1739502695000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
