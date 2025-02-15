@@ -16771,23 +16771,24 @@ its.madruga.warevamp:
             <li><a href="https://t.me/warevampmodule">Channel</a></li>
             <li><a href="https://t.me/+7xV9KAEkO10yYjZh">Chat</a></li>
             </ul>
-          filename: WaRevamp_0.0.8.apk
+          filename: WaRevamp_0.0.9.apk
           id: its.madruga.warevamp
           name: Wa Revamp
-          last_updated: "2025-02-13T03:19:12Z"
+          last_updated: "2025-02-14T03:09:16Z"
           releasedescription: |-
             <p>| ADDED |</p>
             <ul>
-            <li>Support to 2.25.3.x</li>
+            <li>Support to 2.25.3.x and 2.25.4.x</li>
+            <li>Remove expiration time</li>
             </ul>
             <p>| FIXED |</p>
             <ul>
             <li>Anti-Revoke</li>
-            <li>Download Status</li>
-            <li>Module Ui</li>
             </ul>
             <p>| NOTICE |</p>
-            <p>The module now has support for whatsapp 2.25.3.x and above, any error present in the versions below this will be ignored.</p>
+            <ul>
+            <li>New functions soon</li>
+            </ul>
     author_name: ItsMadruga
 junzi.xposed.hook:
     git: https://github.com/Xposed-Modules-Repo/junzi.xposed.hook
@@ -16828,11 +16829,13 @@ junzi.xposed.hook:
             <p>ES文件浏览器</p>
             <p>常读免费小说</p>
             <p>巧影</p>
-          filename: JunZi.Xposed.Hook_2.6.apk
+            <p>乱七八糟</p>
+            <p>B612咔叽</p>
+          filename: JunZi.Xposed.Hook_2.8.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-12T02:39:38Z"
-          releasedescription: <p>新增 支持 巧影</p>
+          last_updated: "2025-02-14T14:15:31Z"
+          releasedescription: <p>新增 支持 化学方程式</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
