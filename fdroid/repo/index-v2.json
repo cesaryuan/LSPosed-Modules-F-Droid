@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739589481000,
+    "timestamp": 1739676294000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739589029000,
+        "lastUpdated": 1739675978000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -8741,7 +8741,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739416194000,
+        "lastUpdated": 1739676020000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.appretention",
         "authorName": "HChenX",
         "name": {
@@ -8756,6 +8756,31 @@
         "preferredSigner": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
       },
       "versions": {
+        "12c41437165781e39dd7315a47176e1b8b067075de57194ae3a73ec9e5d74567": {
+          "added": 1739676020000,
+          "file": {
+            "name": "/com.hchen.appretention_2025021500-5.2.2.apk",
+            "sha256": "12c41437165781e39dd7315a47176e1b8b067075de57194ae3a73ec9e5d74567",
+            "size": 698166
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "5.2.2",
+            "versionCode": 2025021500,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d"
+              ]
+            }
+          }
+        },
         "36dedbaf9ba1b50a46f73095a202d4e70c11d891bb359a83f5ca5e1be774b8b0": {
           "added": 1739416194000,
           "file": {
@@ -16485,7 +16510,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739589118000,
+        "lastUpdated": 1739676071000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -22972,7 +22997,7 @@
           "en-US": "An Xposed module to customize your WhatsApp."
         },
         "description": {
-          "en-US": "<h1>Wa Revamp</h1>\n<p>Continuation of the Old MdgWa.<br />\nMore information coming soon…</p>\n<h2>Download</h2>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\">Releases</a></li>\n<li><a href=\"https://t.me/warevampmodule\">Pre-Releases</a> (More Updates)</li>\n</ul>\n<h1>Telegram</h1>\n<ul>\n<li><a href=\"https://t.me/warevampmodule\">Channel</a></li>\n<li><a href=\"https://t.me/+7xV9KAEkO10yYjZh\">Chat</a></li>\n</ul>\n"
+          "en-US": "<h1>Wa Revamp</h1>\n<p>Continuation of the Old MdgWa.<br />\nMore information coming soon…</p>\n<h2>Download</h2>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\">Releases</a></li>\n<li><a href=\"https://t.me/warevampmodule\">Pre-Releases</a> (More Updates)</li>\n</ul>\n<h1>Telegram</h1>\n<ul>\n<li><a href=\"https://t.me/warevampmodule\">Channel</a></li>\n<li><a href=\"https://t.me/+7xV9KAEkO10yYjZh\">Chat</a></li>\n</ul>\n<h2>Buy me a Coffee</h2>\n<div align=\"center\">\n <a href=\"https://buymeacoffee.com/kaioreis\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n</div>\n"
         },
         "preferredSigner": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
       },
@@ -24315,7 +24340,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739589168000,
+        "lastUpdated": 1739676123000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
