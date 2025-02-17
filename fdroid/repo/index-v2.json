@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739676294000,
+    "timestamp": 1739762711000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739675978000,
+        "lastUpdated": 1739762370000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -16510,7 +16510,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739676071000,
+        "lastUpdated": 1739762456000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23220,7 +23220,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739589160000,
+        "lastUpdated": 1739762498000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23230,11 +23230,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6": {
+          "added": 1739762498000,
+          "file": {
+            "name": "/junzi.xposed.hook_22-3.0.apk",
+            "sha256": "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6",
+            "size": 2438697
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0",
+            "versionCode": 22,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "14fbcb348751ec81a975844291f5f0793c7602030f24290a9923547788919ea1": {
           "added": 1739589160000,
           "file": {
@@ -23282,39 +23315,6 @@
             ],
             "versionName": "2.6",
             "versionCode": 18,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c": {
-          "added": 1739157125000,
-          "file": {
-            "name": "/junzi.xposed.hook_16-2.4.apk",
-            "sha256": "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c",
-            "size": 2340326
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "2.4",
-            "versionCode": 16,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24340,7 +24340,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739676123000,
+        "lastUpdated": 1739762505000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -24496,6 +24496,58 @@
             "usesPermission": [
               {
                 "name": "me.hd.hookwzry.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "me.hd.wauxv": {
+      "metadata": {
+        "added": 1739762507000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1739762507000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
+        "authorName": "HdShare",
+        "name": {
+          "en-US": "WAuxiliary"
+        },
+        "summary": {
+          "en-US": "Wechat 辅助性功能增强"
+        },
+        "description": {
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>一切开发旨在学习，请勿用于非法用途</h2>\n<ul>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>状态</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
+        },
+        "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+      },
+      "versions": {
+        "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db": {
+          "added": 1739762507000,
+          "file": {
+            "name": "/me.hd.wauxv_20250217-1.0.0.apk",
+            "sha256": "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db",
+            "size": 2029588
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 20250217,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
