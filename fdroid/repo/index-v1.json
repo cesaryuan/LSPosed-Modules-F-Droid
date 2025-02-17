@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1739676294000,
+    "timestamp": 1739762711000,
     "version": 20002
   },
   "requests": {
@@ -1015,14 +1015,14 @@
       "suggestedVersionCode": "2147483647"
     },
     {
-      "added": 1732159431000,
+      "added": 1723861533000,
       "authorName": "catsmoker",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eCatsmoker App\u003c/h1\u003e\n\u003cp\u003eCatsmoker is a simple Android app that displays a web page using a \u003ccode\u003eWebView\u003c/code\u003e component. The web page shown is hosted at \u003ca href=\"https://catsmoker.github.io\"\u003ecatsmoker.github.io\u003c/a\u003e. It also serves as a utility aimed at unlocking higher FPS in games by spoofing your device as a different model for specific games.\u003c/p\u003e\n\u003cp\u003eFor more information, visit the \u003ca href=\"https://github.com/catsmoker/com.app.catsmoker\"\u003eGitHub repository\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSpoof device information for improved gaming performance in supported games.\u003c/li\u003e\n\u003cli\u003eCompatible with a wide variety of popular gaming apps.\u003c/li\u003e\n\u003cli\u003eSimple installation with no configuration needed.\u003c/li\u003e\n\u003cli\u003eDisplays a web page within the app.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTable of Contents\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"#getting-started\"\u003eGetting Started\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#usage\"\u003eUsage\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#supported-games\"\u003eSupported Games\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#license\"\u003eLicense\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"#contributing\"\u003eContributing\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eGetting Started\u003c/h2\u003e\n\u003ch3\u003ePrerequisites\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eEnsure that your Android device is rooted.\u003c/li\u003e\n\u003cli\u003eInstall the \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e framework on your device.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eInstallation\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eDownload the Module\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDownload the \u003ccode\u003ecatsmoker\u003c/code\u003e module from the releases section of the repository.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eInstall the APK\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eOpen \u003ca href=\"https://github.com/ElderDrivers/EdXposed\"\u003eXposed\u003c/a\u003e or \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLsposed\u003c/a\u003e Manager.\u003c/li\u003e\n\u003cli\u003eGo to the \u003ccode\u003eModules\u003c/code\u003e section.\u003c/li\u003e\n\u003cli\u003eSearch for \u003ccode\u003ecatsmoker\u003c/code\u003e and enable the module.\u003c/li\u003e\n\u003cli\u003eThe supported games are automatically added to the scope.\u003c/li\u003e\n\u003cli\u003eForce stop the added game manually to take effect.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003cp\u003eOnce you’ve installed and activated the Catsmoker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.\u003c/p\u003e\n\u003cp\u003eYou can untick the games you don’t want to spoof in the module scope. Force stop and relaunch are required.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e Device spoofing may violate the terms of service for some games or apps.\u003c/p\u003e\n\u003ch2\u003eSupported Games\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eActivision Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.shooter\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.activision.callofduty.warzone\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.garena.game.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.kr.codm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.codmvn\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.cod\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eTencent Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.ig\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.imobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.pubg.krmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.rekoo.pubgm\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.vng.pubgmobile\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.tencent.tmgp.pubgmhd\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eGarena Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefiremax\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ecom.dts.freefireth\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEpic Games\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ecom.epicgames.fortnite\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cp\u003eThis project is licensed under the MIT License - see the \u003ca href=\"LICENSE\"\u003eLICENSE\u003c/a\u003e file for details.\u003c/p\u003e\n\u003ch2\u003eContributing\u003c/h2\u003e\n\u003cp\u003eContributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.\u003c/p\u003e\n",
       "icon": "com.app.catsmoker.3.png",
-      "lastUpdated": 1732159431000,
+      "lastUpdated": 1723861533000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3441,24 +3441,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1739542531000,
+      "added": 1739750230000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n",
-      "lastUpdated": 1739542531000,
+      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n",
+      "lastUpdated": 1739750230000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 化学方程式"
+          "whatsNew": "新增 支持 番茄畅听\n修改 支持 看漫 VIP (我下载的渠道是360加固的，如果你下载的不是，那么则不支持)"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "20",
-      "suggestedVersionName": "2.8",
+      "suggestedVersionCode": "22",
+      "suggestedVersionName": "3.0",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -6958,7 +6958,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1739676071000,
+      "lastUpdated": 1739762456000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7052,6 +7052,27 @@
       "suggestedVersionCode": "1",
       "suggestedVersionName": "1.0",
       "summary": "This xposed module forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+"
+    },
+    {
+      "added": 1739758404000,
+      "authorName": "HdShare",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e一切开发旨在学习，请勿用于非法用途\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e状态\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "lastUpdated": 1739758404000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "#### 更新\n- 新增 模拟扫码\n- 新增 平板模式\n"
+        }
+      },
+      "name": "WAuxiliary",
+      "packageName": "me.hd.wauxv",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
+      "suggestedVersionCode": "20250217",
+      "suggestedVersionName": "1.0.0",
+      "summary": "Wechat 辅助性功能增强"
     },
     {
       "added": 1646355609000,
@@ -11729,7 +11750,7 @@
     ],
     "com.app.catsmoker": [
       {
-        "added": 1732159431000,
+        "added": 1723861533000,
         "apkName": "com.app.catsmoker_3-1.3.apk",
         "hash": "7480250cff207dddba494727e5b005d1166db80fced8f83629459e9ce49ecc47",
         "hashType": "sha256",
@@ -15847,7 +15868,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1739676071000,
+        "added": 1739762456000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18398,7 +18419,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1739542531000,
+        "added": 1739750230000,
+        "apkName": "junzi.xposed.hook_22-3.0.apk",
+        "hash": "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2438697,
+        "targetSdkVersion": 33,
+        "versionCode": 22,
+        "versionName": "3.0"
+      },
+      {
+        "added": 1739589160000,
         "apkName": "junzi.xposed.hook_20-2.8.apk",
         "hash": "14fbcb348751ec81a975844291f5f0793c7602030f24290a9923547788919ea1",
         "hashType": "sha256",
@@ -18432,24 +18471,6 @@
         "targetSdkVersion": 33,
         "versionCode": 18,
         "versionName": "2.6"
-      },
-      {
-        "added": 1739157125000,
-        "apkName": "junzi.xposed.hook_16-2.4.apk",
-        "hash": "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2340326,
-        "targetSdkVersion": 33,
-        "versionCode": 16,
-        "versionName": "2.4"
       }
     ],
     "lialh4.ldf": [
@@ -18845,6 +18866,25 @@
         "targetSdkVersion": 34,
         "versionCode": 20240408,
         "versionName": "1.0.100-release"
+      }
+    ],
+    "me.hd.wauxv": [
+      {
+        "added": 1739758404000,
+        "apkName": "me.hd.wauxv_20250217-1.0.0.apk",
+        "hash": "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "me.hd.wauxv",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 2029588,
+        "targetSdkVersion": 35,
+        "versionCode": 20250217,
+        "versionName": "1.0.0"
       }
     ],
     "me.hoshino.novpndetect": [

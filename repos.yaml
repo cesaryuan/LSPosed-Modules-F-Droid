@@ -16823,6 +16823,7 @@ junzi.xposed.hook:
             <p>锦书</p>
             <p>星芽免费短剧</p>
             <p>番茄免费小说</p>
+            <p>番茄畅听</p>
             <p>红果免费短剧</p>
             <p>Picsart</p>
             <p>七猫免费小说</p>
@@ -16835,11 +16836,13 @@ junzi.xposed.hook:
             <p>巧影</p>
             <p>乱七八糟</p>
             <p>B612咔叽</p>
-          filename: JunZi.Xposed.Hook_2.8.apk
+          filename: JunZi.Xposed.Hook_3.0.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-14T14:15:31Z"
-          releasedescription: <p>新增 支持 化学方程式</p>
+          last_updated: "2025-02-16T23:57:10Z"
+          releasedescription: |-
+            <p>新增 支持 番茄畅听<br>
+            修改 支持 看漫 VIP (我下载的渠道是360加固的，如果你下载的不是，那么则不支持)</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17311,6 +17314,129 @@ me.hd.hookwzry:
             <li>Initialize the repository</li>
             <li>Map Location</li>
             <li>Real Name</li>
+            </ul>
+    author_name: HdShare
+me.hd.wauxv:
+    git: https://github.com/Xposed-Modules-Repo/me.hd.wauxv
+    summary: Wechat 辅助性功能增强
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <p align="center">
+                <a href="https://github.com/HdShare/WAuxiliary_Public">
+                    <img src="https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto" alt="socialify"/>
+                </a>
+            </p>
+            <p align="center">
+                <a href="https://github.com/HdShare/WAuxiliary_Public/releases">
+                    <img src="https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee" alt="downloads">
+                </a>
+                <a href="https://github.com/HdShare/WAuxiliary_Public/stargazers">
+                    <img src="https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317" alt="stars">
+                </a>
+                <a href="https://github.com/HdShare/WAuxiliary_Public/network/members">
+                    <img src="https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00" alt="forks">
+                </a>
+                <a href="https://github.com/HdShare/WAuxiliary_Public/issues">
+                    <img src="https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6" alt="issues">
+                </a>
+            </p>
+            <p align="center">
+                <a href="https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases">
+                    <img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee" alt="downloads">
+                </a>
+                <a href="https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers">
+                    <img src="https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317" alt="stars">
+                </a>
+                <a href="https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members">
+                    <img src="https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00" alt="forks">
+                </a>
+                <a href="https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues">
+                    <img src="https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6" alt="issues">
+                </a>
+            </p>
+            <p align="center">
+                <a href="https://github.com/HdShare/WAuxiliary_Public/releases/latest">
+                    <img src="https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8" alt="release">
+                </a>
+                <a href="https://t.me/Hd_WAuxiliary">
+                    <img src="https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf" alt="Telegram">
+                </a>
+            </p>
+            <hr />
+            <h2>一切开发旨在学习，请勿用于非法用途</h2>
+            <ul>
+            <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+            </ul>
+            <hr />
+            <h2>说明 / Desc:</h2>
+            <p>Wechat 辅助性功能增强</p>
+            <hr />
+            <h2>功能 / Func:</h2>
+            <table>
+                <tr>
+                    <td align="center"><b>功能名</b></td>
+                    <td align="center"><b>状态</b></td>
+                </tr>
+                <tr>
+                    <td align="center">模拟扫码</td>
+                    <td align="center">✅</td>
+                </tr>
+                <tr>
+                    <td align="center">平板模式</td>
+                    <td align="center">✅</td>
+                </tr>
+                <tr>
+                    <td align="center">其他功能</td>
+                    <td align="center">❓</td>
+                </tr>
+            </table>
+            <hr />
+            <h2>计划 / Plans:</h2>
+            <p>无</p>
+            <hr />
+            <h2>致谢 / Thanks:</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Name</th>
+            <th>Source</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>YukiHookAPI</td>
+            <td><a href="https://github.com/HighCapable/YukiHookAPI">YukiHookAPI</a></td>
+            </tr>
+            <tr>
+            <td>DexKit</td>
+            <td><a href="https://github.com/LuckyPray/DexKit">DexKit</a></td>
+            </tr>
+            <tr>
+            <td>QAuxiliary</td>
+            <td><a href="https://github.com/cinit/QAuxiliary">QAuxiliary</a></td>
+            </tr>
+            <tr>
+            <td>TimTool</td>
+            <td><a href="https://github.com/suzhelan/TimTool">TimTool</a></td>
+            </tr>
+            <tr>
+            <td>TSBattery</td>
+            <td><a href="https://github.com/fankes/TSBattery">TSBattery</a></td>
+            </tr>
+            </tbody>
+            </table>
+          filename: WAuxiliary_v1.0.0.apk
+          id: me.hd.wauxv
+          name: WAuxiliary
+          last_updated: "2025-02-17T02:13:24Z"
+          releasedescription: |-
+            <h4>更新</h4>
+            <ul>
+            <li>新增 模拟扫码</li>
+            <li>新增 平板模式</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:
