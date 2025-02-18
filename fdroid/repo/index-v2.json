@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739762711000,
+    "timestamp": 1739848685000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762370000,
+        "lastUpdated": 1739848238000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -16510,7 +16510,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762456000,
+        "lastUpdated": 1739848326000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -18846,7 +18846,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1732159524000,
+        "lastUpdated": 1739848340000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/es.rafagale.biometricbypass",
         "authorName": "rafareborn",
         "name": {
@@ -18858,9 +18858,30 @@
         "description": {
           "en-US": "<h1>Biometric Bypass Module</h1>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/es.rafagale.biometricbypass/total\" alt=\"GitHub downloads\" />\n<img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/es.rafagale.biometricbypass\" alt=\"GitHub Release (latest by date)\" /></p>\n<h2>Overview</h2>\n<p>The Biometric Bypass Module is an Xposed module utilizing LSPosed’s Modern Xposed API. It automatically bypasses the confirmation step following a successful face unlock, streamlining the authentication process for a hands-free user experience.</p>\n<h2>How It Works</h2>\n<p>This module hooks into a System UI method responsible for managing the confirmation step after face authentication. By intercepting this process, the module automates the confirmation required by the new BiometricPrompt API, allowing users to proceed without additional input. This approach works universally across apps that rely on the default Android behavior and remains secure even in environments protected by Magisk deny lists, Magisk Hide, or Shamiko.</p>\n<h2>Visual Example</h2>\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/rafagale/biometric-bypass/master/media/module_disabled.gif\" width=\"200\" alt=\"Default Behavior\">\n    <br/>\n    <strong>Default Behavior: Face unlock with manual confirmation required.</strong>\n    <br/><br/>\n    <img src=\"https://raw.githubusercontent.com/rafagale/biometric-bypass/master/media/module_enabled.gif\" width=\"200\" alt=\"Module Enabled\">\n    <br/>\n    <strong>Module Enabled: Face unlock with automatic confirmation bypass.</strong>\n</p>\n<h2>Compatibility</h2>\n<ul>\n<li>\n<p><strong>Supported Android Versions:</strong> 11 and above- <strong>Tested on:</strong></p>\n<ul>\n<li>Pixel 8 Pro (husky) with Android 14 (Build: ap2a.240805.005)</li>\n<li>Pixel 9 Pro (caiman) with <strong>Android 15</strong> (Build: AP3A.241005.015, Oct 2024)</li>\n</ul>\n</li>\n<li>\n<p><strong>Xposed Framework:</strong> LSPosed</p>\n</li>\n</ul>\n<h2>Installation Instructions</h2>\n<ol>\n<li>Ensure <a href=\"https://github.com/mywalkb/LSPosed_mod/releases\">LSPosed</a> is installed.</li>\n<li>Download and install the Biometric Bypass Module APK.</li>\n<li>Activate the module in LSPosed.</li>\n<li>Restart System UI to apply changes.</li>\n</ol>\n<h2>Additional Flavors</h2>\n<p>Legacy versions are available for older Xposed APIs:</p>\n<ul>\n<li><strong><a href=\"https://github.com/rafagale/biometric-bypass/tree/legacy-xposed-java\">Java Legacy Xposed API</a></strong></li>\n<li><strong><a href=\"https://github.com/rafagale/biometric-bypass/tree/legacy-xposed-kotlin\">Kotlin Legacy Xposed API</a></strong></li>\n</ul>\n<h2>Risks and Warnings</h2>\n<p>Automating the confirmation step can reduce security and lead to unintended actions. Use this module with caution.</p>\n<h2>Contributions</h2>\n<p>Contributions are welcome. Submit a pull request or open an issue to help improve the module.</p>\n<h2>Disclaimer</h2>\n<p>This module modifies system behavior and may impact device security. Use at your own risk.</p>\n"
         },
-        "preferredSigner": "de77cddeda9cfb5d8739bcb716683eecce833b9071c7bcd3a301174025af41e4"
+        "preferredSigner": "d89301429ba6aebe92bac8ee56247118e62b22258e0a49ecc801476d5562bba5"
       },
       "versions": {
+        "6c2cc05f27d4be98c86ddf5cd3a45bd646c7de27b6d6336e91f45577696b774f": {
+          "added": 1739848340000,
+          "file": {
+            "name": "/es.rafagale.biometricbypass_250217-17.02.25.apk",
+            "sha256": "6c2cc05f27d4be98c86ddf5cd3a45bd646c7de27b6d6336e91f45577696b774f",
+            "size": 139113
+          },
+          "manifest": {
+            "versionName": "17.02.25",
+            "versionCode": 250217,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "d89301429ba6aebe92bac8ee56247118e62b22258e0a49ecc801476d5562bba5"
+              ]
+            }
+          }
+        },
         "7fd7b73690dc09e5b5a5cadb5ff6626bf61d9694f0c7f063893bd64bec419a48": {
           "added": 1732159524000,
           "file": {
@@ -19566,7 +19587,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725040000,
+        "lastUpdated": 1739848346000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -19581,6 +19602,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e": {
+          "added": 1739848346000,
+          "file": {
+            "name": "/have.fun_966-v966.apk",
+            "sha256": "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e",
+            "size": 4663845
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v966",
+            "versionCode": 966,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657": {
           "added": 1738725040000,
           "file": {
@@ -19620,30 +19665,6 @@
             "versionCode": 929,
             "usesSdk": {
               "minSdkVersion": 29,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
-              ]
-            }
-          }
-        },
-        "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd": {
-          "added": 1737688308000,
-          "file": {
-            "name": "/have.fun_912-v912.apk",
-            "sha256": "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd",
-            "size": 4393517
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "v912",
-            "versionCode": 912,
-            "usesSdk": {
-              "minSdkVersion": 30,
               "targetSdkVersion": 34
             },
             "signer": {
@@ -24340,7 +24361,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762505000,
+        "lastUpdated": 1739848376000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -24508,7 +24529,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762507000,
+        "lastUpdated": 1739848377000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
@@ -24518,11 +24539,40 @@
           "en-US": "Wechat 辅助性功能增强"
         },
         "description": {
-          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>一切开发旨在学习，请勿用于非法用途</h2>\n<ul>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>状态</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">通话限制</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">精确数量</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">消息详情</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
         },
         "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
       },
       "versions": {
+        "dd90e8e95cd04c9690747bb89efe98ca08cc0f79fb86be97b6a91d2063dcb6dd": {
+          "added": 1739848377000,
+          "file": {
+            "name": "/me.hd.wauxv_20250218-1.0.0.apk",
+            "sha256": "dd90e8e95cd04c9690747bb89efe98ca08cc0f79fb86be97b6a91d2063dcb6dd",
+            "size": 2029588
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 20250218,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db": {
           "added": 1739762507000,
           "file": {
