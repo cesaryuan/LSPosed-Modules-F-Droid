@@ -13919,8 +13919,8 @@ es.rafagale.biometricbypass:
           filename: app-release.apk
           id: es.rafagale.biometricbypass
           name: Biometric Bypass
-          last_updated: "2024-08-23T17:28:15Z"
-          releasedescription: <p>Initial release</p>
+          last_updated: "2025-02-17T20:20:04Z"
+          releasedescription: <p>Replace ViewTreeObserver with coroutine-based retry mechanism</p>
     author_name: rafareborn
 eu.faircode.xlua:
     git: https://github.com/Xposed-Modules-Repo/eu.faircode.xlua
@@ -14477,16 +14477,11 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v937.Apk
+          filename: FunBox_v966.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-02-04T15:41:20Z"
-          releasedescription: |-
-            <p>1.zygisk版本使用真实的方法来进行backup,提高稳定性(或许)<br>
-            2.支持显示更多种类型的伪造随机表情<br>
-            3.支持拦截更多类型的异常消息图片加载<br>
-            4.拦截闪退新增一种新型的闪退消息拦截<br>
-            5.移除所有的隐藏新特性,默认使用S版本兼容版</p>
+          last_updated: "2025-02-17T06:10:25Z"
+          releasedescription: <p>修复一些存在的问题</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -17366,30 +17361,48 @@ me.hd.wauxv:
                 </a>
             </p>
             <hr />
-            <h2>一切开发旨在学习，请勿用于非法用途</h2>
-            <ul>
-            <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
-            </ul>
-            <hr />
             <h2>说明 / Desc:</h2>
             <p>Wechat 辅助性功能增强</p>
+            <ul>
+            <li>一切开发旨在学习，请勿用于非法用途</li>
+            <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+            </ul>
             <hr />
             <h2>功能 / Func:</h2>
             <table>
                 <tr>
                     <td align="center"><b>功能名</b></td>
-                    <td align="center"><b>状态</b></td>
+                    <td align="center"><b>开发状态</b></td>
+                    <td align="center"><b>适配版本</b></td>
                 </tr>
                 <tr>
                     <td align="center">模拟扫码</td>
                     <td align="center">✅</td>
+                    <td align="center">理论所有</td>
                 </tr>
                 <tr>
                     <td align="center">平板模式</td>
                     <td align="center">✅</td>
+                    <td align="center">理论所有</td>
+                </tr>
+                <tr>
+                    <td align="center">通话限制</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论所有</td>
+                </tr>
+                <tr>
+                    <td align="center">精确数量</td>
+                    <td align="center">✅</td>
+                    <td align="center">8.0.45</td>
+                </tr>
+                <tr>
+                    <td align="center">消息详情</td>
+                    <td align="center">✅</td>
+                    <td align="center">8.0.45</td>
                 </tr>
                 <tr>
                     <td align="center">其他功能</td>
+                    <td align="center">❓</td>
                     <td align="center">❓</td>
                 </tr>
             </table>
@@ -17431,12 +17444,15 @@ me.hd.wauxv:
           filename: WAuxiliary_v1.0.0.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-17T02:13:24Z"
+          last_updated: "2025-02-17T21:55:00Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
             <li>新增 模拟扫码</li>
             <li>新增 平板模式</li>
+            <li>新增 通话限制</li>
+            <li>新增 精确数量</li>
+            <li>新增 消息详情</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:

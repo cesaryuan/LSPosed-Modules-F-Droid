@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1739762698000,
+    "timestamp": 1739848672000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -80,8 +80,8 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "v937",
-      "suggestedVersionCode": "937",
+      "suggestedVersionName": "v966",
+      "suggestedVersionCode": "966",
       "description": "<p>QQ/\u5fae\u4fe1/TIM\u8868\u60c5\u5305\u6a21\u5757,\u652f\u6301\u5728QQ/\u5fae\u4fe1/TIM\u4e2d\u4f7f\u7528\u8868\u60c5\u9762\u677f\u548c\u8bed\u97f3\u9762\u677f\u4ee5\u4fdd\u5b58\u548c\u53d1\u9001\u8868\u60c5\u548c\u8bed\u97f3</p>\n<p>\u652f\u6301\u5fae\u4fe18.0.40\u4ee5\u4e0a\n\u652f\u6301QQ9.0.30\u4ee5\u4e0a\n\u652f\u6301TIM4.0.97\u4ee5\u4e0a</p>\n",
       "license": "Unknown",
       "name": "FunBox",
@@ -89,7 +89,7 @@
       "summary": "QQ/\u5fae\u4fe1/TIM\u8868\u60c5\u5305\u6a21\u5757,\u652f\u6301\u5728QQ/\u5fae\u4fe1/TIM\u4e2d\u4f7f\u7528\u8868\u60c5\u9762\u677f\u548c\u8bed\u97f3\u9762\u677f\u4ee5\u4fdd\u5b58\u548c\u53d1\u9001\u8868\u60c5\u548c\u8bed\u97f3",
       "added": 1736738609000,
       "packageName": "have.fun",
-      "lastUpdated": 1738725040000
+      "lastUpdated": 1739848346000
     },
     {
       "authorName": "Xposed-Modules-Repo",
@@ -1940,6 +1940,23 @@
       }
     ],
     "have.fun": [
+      {
+        "added": 1737688308000,
+        "apkName": "have.fun_912-v912.apk",
+        "hash": "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4393517,
+        "targetSdkVersion": 34,
+        "versionCode": 912,
+        "versionName": "v912"
+      },
       {
         "added": 1736738609000,
         "apkName": "have.fun_885-v885.apk",

@@ -2,7 +2,7 @@ AuthorName: HdShare
 Categories:
     - Xposed
 CurrentVersion: 1.0.0
-CurrentVersionCode: 20250217
+CurrentVersionCode: 20250218
 Description: |
     <p align="center">
         <a href="https://github.com/HdShare/WAuxiliary_Public">
@@ -46,30 +46,48 @@ Description: |
         </a>
     </p>
     <hr />
-    <h2>一切开发旨在学习，请勿用于非法用途</h2>
-    <ul>
-    <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
-    </ul>
-    <hr />
     <h2>说明 / Desc:</h2>
     <p>Wechat 辅助性功能增强</p>
+    <ul>
+    <li>一切开发旨在学习，请勿用于非法用途</li>
+    <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+    </ul>
     <hr />
     <h2>功能 / Func:</h2>
     <table>
         <tr>
             <td align="center"><b>功能名</b></td>
-            <td align="center"><b>状态</b></td>
+            <td align="center"><b>开发状态</b></td>
+            <td align="center"><b>适配版本</b></td>
         </tr>
         <tr>
             <td align="center">模拟扫码</td>
             <td align="center">✅</td>
+            <td align="center">理论所有</td>
         </tr>
         <tr>
             <td align="center">平板模式</td>
             <td align="center">✅</td>
+            <td align="center">理论所有</td>
+        </tr>
+        <tr>
+            <td align="center">通话限制</td>
+            <td align="center">✅</td>
+            <td align="center">理论所有</td>
+        </tr>
+        <tr>
+            <td align="center">精确数量</td>
+            <td align="center">✅</td>
+            <td align="center">8.0.45</td>
+        </tr>
+        <tr>
+            <td align="center">消息详情</td>
+            <td align="center">✅</td>
+            <td align="center">8.0.45</td>
         </tr>
         <tr>
             <td align="center">其他功能</td>
+            <td align="center">❓</td>
             <td align="center">❓</td>
         </tr>
     </table>

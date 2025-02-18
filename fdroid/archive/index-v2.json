@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1739762698000,
+    "timestamp": 1739848672000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1911,7 +1911,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725040000,
+        "lastUpdated": 1739848346000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -1926,6 +1926,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd": {
+          "added": 1737688308000,
+          "file": {
+            "name": "/have.fun_912-v912.apk",
+            "sha256": "23349901c765b78b5ca772bf86fe3fc7c70d5fcd0a48ccf703502ae61a438bbd",
+            "size": 4393517
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v912",
+            "versionCode": 912,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "e08506a2dc3add3b05f512403e96cf86c7c3865cbf387f235f4426641c189889": {
           "added": 1736738609000,
           "file": {
