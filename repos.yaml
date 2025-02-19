@@ -16831,6 +16831,8 @@ junzi.xposed.hook:
             <p>巧影</p>
             <p>乱七八糟</p>
             <p>B612咔叽</p>
+            <p>设备信息by流舟</p>
+            <p>流舟文件</p>
           filename: JunZi.Xposed.Hook_3.0.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
@@ -17826,11 +17828,13 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.6.2.apk
+          filename: PlusNE7_New.7.6.3.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2025-01-22T10:58:39Z"
-          releasedescription: <p>修复已知问题</p>
+          last_updated: "2025-02-18T04:50:18Z"
+          releasedescription: |-
+            <p>修复已知问题<br>
+            适配Soul最新版</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
@@ -20295,13 +20299,14 @@ ru.hepolise.volumekeymusicmanagermodule:
             </ul>
             <p><a href="https://github.com/Hepolise/VolumeKeyTrackControlModule/issues/new">Open an issue</a> if you are
             experiencing some troubles on your device</p>
-          filename: VolumeKeyTrackControlModule-release-1.15.4.apk
+          filename: VolumeKeyTrackControlModule-release-1.15.5.apk
           id: ru.hepolise.volumekeymusicmanagermodule
           name: Volume Key Track Control Module
-          last_updated: "2025-01-30T20:13:07Z"
+          last_updated: "2025-02-18T19:34:19Z"
           releasedescription: |-
             <ul>
-            <li>Fixed Settings UI in some cases</li>
+            <li>Add possibility to swap Up/Down buttons on track skip</li>
+            <li>UI fixes</li>
             </ul>
     author_name: Hepolise
 ru.mike.customiuizer125plugin:
