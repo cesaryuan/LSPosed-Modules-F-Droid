@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739848685000,
+    "timestamp": 1739934904000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739848238000,
+        "lastUpdated": 1739934584000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -16510,7 +16510,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739848326000,
+        "lastUpdated": 1739934676000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23251,7 +23251,7 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
@@ -24361,7 +24361,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739848376000,
+        "lastUpdated": 1739934728000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -24990,7 +24990,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737601685000,
+        "lastUpdated": 1739934734000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -25005,6 +25005,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "a949596b2cea9c5671b8cc5dd93c20cb480b6f4df1960ec470ffa338a17723ea": {
+          "added": 1739934734000,
+          "file": {
+            "name": "/me.plusne_7139-7.6.3.apk",
+            "sha256": "a949596b2cea9c5671b8cc5dd93c20cb480b6f4df1960ec470ffa338a17723ea",
+            "size": 10526862
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.6.3",
+            "versionCode": 7139,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "8d786d8c710f18bf35b297ad07a52d24b5cd4962aca594bda122f33f84301070": {
           "added": 1737601685000,
           "file": {
@@ -25080,65 +25139,6 @@
             ],
             "versionName": "7.6.1",
             "versionCode": 7137,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              }
-            ]
-          }
-        },
-        "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5": {
-          "added": 1734664430000,
-          "file": {
-            "name": "/me.plusne_7136-7.6.0.apk",
-            "sha256": "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5",
-            "size": 10525305
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "7.6.0",
-            "versionCode": 7136,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33
@@ -28512,7 +28512,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738292887000,
+        "lastUpdated": 1739934754000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule",
         "authorName": "Hepolise",
         "name": {
@@ -28524,6 +28524,41 @@
         "preferredSigner": "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
       },
       "versions": {
+        "8397d24165fd38a35409a36a4ed7fccb917e7b1d60a08b8b56e952e68accb5f2": {
+          "added": 1739934754000,
+          "file": {
+            "name": "/ru.hepolise.volumekeymusicmanagermodule_12-1.15.5.apk",
+            "sha256": "8397d24165fd38a35409a36a4ed7fccb917e7b1d60a08b8b56e952e68accb5f2",
+            "size": 1828464
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.15.5",
+            "versionCode": 12,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ed22527afc4e2ae5412da3dfa188271bd4102f1b666af6915590bd537f9177d9": {
           "added": 1738292887000,
           "file": {
@@ -28588,32 +28623,6 @@
               {
                 "name": "android.permission.VIBRATE"
               },
-              {
-                "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "ebc944c380226eda96afeaecf6f4f89ad93e47b7104f0f97d51c150cf8b6ad18": {
-          "added": 1736220192000,
-          "file": {
-            "name": "/ru.hepolise.volumekeymusicmanagermodule_9-1.15.2.apk",
-            "sha256": "ebc944c380226eda96afeaecf6f4f89ad93e47b7104f0f97d51c150cf8b6ad18",
-            "size": 169403
-          },
-          "manifest": {
-            "versionName": "1.15.2",
-            "versionCode": 9,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "429d40600fb2d7d5c8db07b5401af7cc5ee4519806773634d2041ce961911836"
-              ]
-            },
-            "usesPermission": [
               {
                 "name": "ru.hepolise.volumekeymusicmanagermodule.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
