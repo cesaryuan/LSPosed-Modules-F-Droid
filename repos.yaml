@@ -11481,16 +11481,16 @@ com.twifucker.hachidori:
             <ul>
             <li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>
             </ul>
-          filename: Hachidori_28_v0.28.apk
+          filename: Hachidori_29_v0.29.apk
           id: com.twifucker.hachidori
           name: Hachidori
-          last_updated: "2025-01-26T16:24:31Z"
+          last_updated: "2025-02-19T14:28:09Z"
           releasedescription: |-
             <h1>Changes</h1>
             <ul>
-            <li>remove Today's News</li>
-            <li>show poll results</li>
-            <li>added Spanish translation and updated Japanese and Vietnamese translation</li>
+            <li>fix custom media download which broken since <code>10.77.0-release.0</code></li>
+            <li>fix SSL unpin does not work in live</li>
+            <li>update Spanish language</li>
             <li>minor bug fixes</li>
             </ul>
             <p>ONLY support ROOTED Android device with LSPosed v1.9.2 (7024) and above. (<code>LSPosed_mod</code> is not working in Android 15, please join <a href="https://t.me/LSPosed/287" rel="nofollow">LSPosed Internal Testing</a> or change to another LSPosed fork)</p>
@@ -16833,13 +16833,13 @@ junzi.xposed.hook:
             <p>B612咔叽</p>
             <p>设备信息by流舟</p>
             <p>流舟文件</p>
-          filename: JunZi.Xposed.Hook_3.0.apk
+          filename: JunZi.Xposed.Hook_3.1.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-16T23:57:10Z"
+          last_updated: "2025-02-19T05:55:41Z"
           releasedescription: |-
-            <p>新增 支持 番茄畅听<br>
-            修改 支持 看漫 VIP (我下载的渠道是360加固的，如果你下载的不是，那么则不支持)</p>
+            <p>新增 支持 设备信息by流舟<br>
+            新增 支持 流舟文件</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17380,17 +17380,17 @@ me.hd.wauxv:
                 <tr>
                     <td align="center">模拟扫码</td>
                     <td align="center">✅</td>
-                    <td align="center">理论所有</td>
+                    <td align="center">理论全版本</td>
                 </tr>
                 <tr>
                     <td align="center">平板模式</td>
                     <td align="center">✅</td>
-                    <td align="center">理论所有</td>
+                    <td align="center">理论全版本</td>
                 </tr>
                 <tr>
                     <td align="center">通话限制</td>
                     <td align="center">✅</td>
-                    <td align="center">理论所有</td>
+                    <td align="center">理论全版本</td>
                 </tr>
                 <tr>
                     <td align="center">精确数量</td>
@@ -17401,6 +17401,16 @@ me.hd.wauxv:
                     <td align="center">消息详情</td>
                     <td align="center">✅</td>
                     <td align="center">8.0.45</td>
+                </tr>
+                <tr>
+                    <td align="center">虚拟定位</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">圆形头像</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
                 </tr>
                 <tr>
                     <td align="center">其他功能</td>
@@ -17443,18 +17453,17 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.0.0.apk
+          filename: WAuxiliary_v1.0.4.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-17T21:55:00Z"
+          last_updated: "2025-02-19T12:25:53Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
-            <li>新增 模拟扫码</li>
-            <li>新增 平板模式</li>
-            <li>新增 通话限制</li>
-            <li>新增 精确数量</li>
-            <li>新增 消息详情</li>
+            <li>优化 稳定性, 流畅度</li>
+            <li>新增 圆形头像</li>
+            <li>新增 虚拟定位</li>
+            <li>修复 已知问题</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:

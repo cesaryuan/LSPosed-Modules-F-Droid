@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1739934889000,
+    "timestamp": 1740021295000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1431,7 +1431,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947288000,
+        "lastUpdated": 1740021088000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -1446,6 +1446,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "7f3c369fc12590a2eb9d0913b97b724c3f6920ea9638b6c0bba117647d3a869e": {
+          "added": 1734837723000,
+          "file": {
+            "name": "/com.twifucker.hachidori_26-0.26.apk",
+            "sha256": "7f3c369fc12590a2eb9d0913b97b724c3f6920ea9638b6c0bba117647d3a869e",
+            "size": 4954170
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.26",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "eb275ad0b7c6507464bddc71ff6368a6bcc9734e6596d80e4f4eb7f252d11ca4": {
           "added": 1734578832000,
           "file": {
@@ -2088,7 +2113,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762498000,
+        "lastUpdated": 1740021134000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2103,6 +2128,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9": {
+          "added": 1739329856000,
+          "file": {
+            "name": "/junzi.xposed.hook_18-2.6.apk",
+            "sha256": "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9",
+            "size": 2397737
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.6",
+            "versionCode": 18,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "4b99f6e722533bd8b77e2b77a156de9ce20317fcd06bf17e56c72793c292819c": {
           "added": 1739157125000,
           "file": {
