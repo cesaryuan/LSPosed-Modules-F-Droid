@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1739934904000,
+    "timestamp": 1740021309000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2767,7 +2767,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739934584000,
+        "lastUpdated": 1740021007000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -15573,7 +15573,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737947288000,
+        "lastUpdated": 1740021088000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori",
         "authorName": "Xposed-Modules-Repo",
         "name": {
@@ -15588,6 +15588,31 @@
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
       "versions": {
+        "de33decb29504345874f7494a2612fe34b2af86fd1b7ae369b083c8ab65a78d4": {
+          "added": 1740021088000,
+          "file": {
+            "name": "/com.twifucker.hachidori_29-0.29.apk",
+            "sha256": "de33decb29504345874f7494a2612fe34b2af86fd1b7ae369b083c8ab65a78d4",
+            "size": 5022238
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.29",
+            "versionCode": 29,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
+              ]
+            }
+          }
+        },
         "12641843a63c64722c64e8993e2c4cdddb507a08e0153250a52bdfb0fc9ae6dd": {
           "added": 1737947288000,
           "file": {
@@ -15627,31 +15652,6 @@
             ],
             "versionName": "0.27",
             "versionCode": 27,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
-              ]
-            }
-          }
-        },
-        "7f3c369fc12590a2eb9d0913b97b724c3f6920ea9638b6c0bba117647d3a869e": {
-          "added": 1734837723000,
-          "file": {
-            "name": "/com.twifucker.hachidori_26-0.26.apk",
-            "sha256": "7f3c369fc12590a2eb9d0913b97b724c3f6920ea9638b6c0bba117647d3a869e",
-            "size": 4954170
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "0.26",
-            "versionCode": 26,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
@@ -16510,7 +16510,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739934676000,
+        "lastUpdated": 1740021093000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23241,7 +23241,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739762498000,
+        "lastUpdated": 1740021134000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23256,6 +23256,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c": {
+          "added": 1740021134000,
+          "file": {
+            "name": "/junzi.xposed.hook_23-3.1.apk",
+            "sha256": "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c",
+            "size": 2811433
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.1",
+            "versionCode": 23,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6": {
           "added": 1739762498000,
           "file": {
@@ -23303,39 +23336,6 @@
             ],
             "versionName": "2.8",
             "versionCode": 20,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9": {
-          "added": 1739329856000,
-          "file": {
-            "name": "/junzi.xposed.hook_18-2.6.apk",
-            "sha256": "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9",
-            "size": 2397737
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "2.6",
-            "versionCode": 18,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24361,7 +24361,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739934728000,
+        "lastUpdated": 1740021142000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -24529,7 +24529,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739848377000,
+        "lastUpdated": 1740021143000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
@@ -24539,11 +24539,40 @@
           "en-US": "Wechat 辅助性功能增强"
         },
         "description": {
-          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">通话限制</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论所有</td>\n    </tr>\n    <tr>\n        <td align=\"center\">精确数量</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">消息详情</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">通话限制</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">精确数量</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">消息详情</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">虚拟定位</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">圆形头像</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
         },
         "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
       },
       "versions": {
+        "5fbc3fc324de81a38ff7e9283606ad3cf63e66c841aa108049772d4901cc79ca": {
+          "added": 1740021143000,
+          "file": {
+            "name": "/me.hd.wauxv_20250219-1.0.4.apk",
+            "sha256": "5fbc3fc324de81a38ff7e9283606ad3cf63e66c841aa108049772d4901cc79ca",
+            "size": 2060781
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.4",
+            "versionCode": 20250219,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "dd90e8e95cd04c9690747bb89efe98ca08cc0f79fb86be97b6a91d2063dcb6dd": {
           "added": 1739848377000,
           "file": {
