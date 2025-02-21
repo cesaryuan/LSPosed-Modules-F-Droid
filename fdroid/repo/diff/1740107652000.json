@@ -1,0 +1,74 @@
+{
+  "repo": {
+    "timestamp": 1740107750000
+  },
+  "packages": {
+    "com.chrxw.purenga": {
+      "versions": {
+        "9874d4981f2e0eb3801c466ef43384ef016f248137eadefe09c3e8bf91ae862f": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.keshav.capturesposed": {
+      "metadata": {
+        "summary": {
+          "en-US": "CaptureSposed - Block Android's Screenshot and Screen Recording Detection APIs"
+        },
+        "description": {
+          "en-US": "<h1>CaptureSposed</h1>\n<img align=\"left\" src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/ic_launcher-playstore.png\" width=\"115\" />\n<p>With the release of Android 14, Google added an API to enable app developers to detect screenshots. This API has since been adopted by popular apps such as Snapchat.</p>\n<p>CaptureSposed is an Xposed module that effectively disables this API as well as the screen recording detection API added in Android 15.</p>\n<p><strong>⚠️ WARNING:</strong> CaptureSposed is intended for rooted devices running Android 14 or newer and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. This module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk. Additionally, this module does not protect against screenshot detection from apps that use the pre-Android 14 approach of using file system listeners to detect screenshots (<a href=\"https://abangfadli.medium.com/shotwatch-android-screenshot-detector-library-6a75d7242109\">ref 1</a>, <a href=\"https://viveksb007.wordpress.com/2017/11/10/how-snapchat-detects-when-screenshot-is-taken-hypothesis/\">ref 2</a>).</p>\n<p align=\"center\">\n  <a href=\"https://play.google.com/store/apps/details?id=com.keshav.capturesposed\"><img src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/google-play-badge.png\" height=\"80\" /></a>\n  <a href=\"https://f-droid.org/packages/com.keshav.capturesposed/\"><img src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/get-it-on.png\" height=\"80\" /></a>\n  <br />\n  <a href=\"https://apt.izzysoft.de/packages/com.keshav.capturesposed\"><img src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/IzzyOnDroidButton.png\" height=\"80\" /></a>\n  <a href=\"https://github.com/99keshav99/CaptureSposed/releases\"><img src=\"https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/badge_github.png\" height=\"80\" /></a>\n</p>\n<h3>To use CaptureSposed:</h3>\n<ol>\n<li>Install LSposed. This requires your device to be rooted.</li>\n<li>Install CaptureSposed.</li>\n<li>Grant root access to CaptureSposed.</li>\n<li>Activate the CaptureSposed module in the LSposed user interface.</li>\n<li>Reboot your device and sign in.</li>\n<li>Open the CaptureSposed app and attempt to take a screenshot and make a screen recording of it. If the screenshot and screen recording is not detected, then the module is working as intended.</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "7c40e3fe7042d5319657b761e7bd127a814abe7d0f7932d31e019f1736d3b0c3": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "com.kgg.hhvideo": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+        }
+      }
+    },
+    "io.github.howard20181.notificationiconfix": {
+      "versions": {
+        "11f90ee2fa740aeadf7f81ab010cd3ff84523d56c43b79c9205cc508fbdb97e0": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "versions": {
+        "5fff3d1dbe58063246e892a0b39356a71eab188e1c1966376513c305bfd6a310": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "me.hd.wauxv": {
+      "metadata": {
+        "description": {
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">阻止撤回</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">自动登录</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">自动原图</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">表情游戏</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">虚拟定位</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">圆形头像</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">通话限制</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">消息详情</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">精确数量</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
+        }
+      },
+      "versions": {
+        "e58d5feb6d5c1d8a52cdd757ba1e3624c62dac7c1054814ab63addb6b45f1531": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "ru.mike.loyalty": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Loyalty</h1>\n<p>Hide chats in the Telegram messenger</p>\n<p>In the official Telegram messenger client Loyalty allows you to hide (and show again) chosen chats.</p>\n<p>To show hidden chats tap the title several times.\nTo hide the chats back tap twice, turn off the screen or minimize the app.\nYour secret touches’ sequence to show and events to hide chats are configured via the module’s settings page.</p>\n<h2>Install notes:</h2>\n<ul>\n<li>install apk</li>\n<li>enable the module in your xposed manager app</li>\n<li>(for lsposed) select the Telegram app in the scope or - important! - uncheck and check it again if it’s already selected</li>\n<li>reboot (in case of (Ed)xposed) or terminate the Telegram app (lsposed)</li>\n<li>select chats to hide, define the secret touches’ sequence to show and the events to hide the chats back in the module’s settings page</li>\n<li>test!</li>\n</ul>\n<h2>Known behavior:</h2>\n<ul>\n<li>if the secret touches’ sequence is set, the chosen chats will always be hidden at the Telegram app startup (when it has not been launched before)</li>\n<li>to show the hidden chats the Telegram app will be restarted (this is a feature of the official client)</li>\n<li>the chats are hidden in the main screen, in the search screen (chats, media, links, files, etc.) and notification of them. Perhaps they can be visible somewhere else. If so, let me know</li>\n</ul>\n<h2>Support/Discussion URL / Страница программы:</h2>\n<p><a href=\"https://forum.xda-developers.com/t/mod-xposed-4-1-loyalty-hide-chats-in-the-telegram-messenger.4505977/\">xda</a> or <a href=\"https://4pda.to/forum/index.php?s=&amp;showtopic=603033&amp;view=findpost&amp;p=118023452\">4pda</a></p>\n<h2>Author</h2>\n<p><a href=\"https://4pda.to/forum/index.php?showuser=683427\">MikeZh</a>, 2022-2025</p>\n"
+        }
+      },
+      "versions": {
+        "d1b2f855a2e163109fa08c2ffdc9ce3d29a360dc6e9eb389d20c9fb8f44787b5": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

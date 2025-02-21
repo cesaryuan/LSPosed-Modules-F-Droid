@@ -4508,11 +4508,12 @@ com.chrxw.purenga:
           filename: app-release.apk
           id: com.chrxw.purenga
           name: NGA玩家论坛去广告模块
-          last_updated: "2024-12-18T09:21:47Z"
+          last_updated: "2025-02-21T02:03:08Z"
           releasedescription: |-
-            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/935e9bca499a42d3ea6a440f0814c5e8568a886e68bd1ded11c31834582ad747/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34342d322e392e332f746f74616c"><img src="https://camo.githubusercontent.com/935e9bca499a42d3ea6a440f0814c5e8568a886e68bd1ded11c31834582ad747/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34342d322e392e332f746f74616c" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/44-2.9.3/total" style="max-width: 100%;"></a> <a href="https://afdian.com/@chr233" rel="nofollow"><img src="https://camo.githubusercontent.com/5f1d2924a048053ce6d6ef9917d3cdc3b97599b11b6d1662e3b10d3743aff925/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545372538382542312545352538462539312545372539342542352d6368725f5f2d6561346161612e7376673f6c6f676f3d6769746875622d73706f6e736f7273" alt="爱发电" data-canonical-src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" style="max-width: 100%;"></a></p>
-            <p>适配 9.9.40<br>
-            新增首页悬浮广告净化</p>
+            <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b34d5e944c78a8359e53107bb46757f8d6276117cff287265c2cbd4e3d390513/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34362d322e392e352f746f74616c"><img src="https://camo.githubusercontent.com/b34d5e944c78a8359e53107bb46757f8d6276117cff287265c2cbd4e3d390513/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f58706f7365642d4d6f64756c65732d5265706f2f636f6d2e63687278772e707572656e67612f34362d322e392e352f746f74616c" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.chrxw.purenga/46-2.9.5/total" style="max-width: 100%;"></a> <a href="https://afdian.com/@chr233" rel="nofollow"><img src="https://camo.githubusercontent.com/5f1d2924a048053ce6d6ef9917d3cdc3b97599b11b6d1662e3b10d3743aff925/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545372538382542312545352538462539312545372539342542352d6368725f5f2d6561346161612e7376673f6c6f676f3d6769746875622d73706f6e736f7273" alt="爱发电" data-canonical-src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-chr__-ea4aaa.svg?logo=github-sponsors" style="max-width: 100%;"></a></p>
+            <p>适配 9.9.41<br>
+            修复使用【新发布】功能<br>
+            删除多余 toast</p>
             <hr>
             <h1>捐赠 <a href="https://afdian.com/a/chr233" rel="nofollow">爱发电</a></h1>
             <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67"><img src="https://camo.githubusercontent.com/4c889621ec4ca8be91f0855669a74076807322ba37a1ca44239328dd4ede2af7/68747470733a2f2f7261772e63687278772e636f6d2f6368723233332f6d61737465722f6166616469616e5f71722e706e67" alt="image" data-canonical-src="https://raw.chrxw.com/chr233/master/afadian_qr.png" style="max-width: 100%;"></a></p>
@@ -7765,7 +7766,7 @@ com.jy.xposed.skip:
     author_name: gyy1207
 com.keshav.capturesposed:
     git: https://github.com/Xposed-Modules-Repo/com.keshav.capturesposed
-    summary: CaptureSposed - An Xposed module that effectively disables the screenshot detection API introduced in Android 14
+    summary: CaptureSposed - Block Android's Screenshot and Screen Recording Detection APIs
     applications:
         - anti_features: []
           categories:
@@ -7774,8 +7775,8 @@ com.keshav.capturesposed:
             <h1>CaptureSposed</h1>
             <img align="left" src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/ic_launcher-playstore.png" width="115" />
             <p>With the release of Android 14, Google added an API to enable app developers to detect screenshots. This API has since been adopted by popular apps such as Snapchat.</p>
-            <p>CaptureSposed is an Xposed module that effectively disables this API to prevent apps that use it from being able to detect when a screenshot was taken.</p>
-            <p><strong>⚠️ WARNING:</strong> CaptureSposed is intended for rooted devices running Android 14 and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. This module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk. Additionally, this module does not protect against screenshot detection from apps that use the pre-Android 14 approach of using file system listeners to detect screenshots (<a href="https://abangfadli.medium.com/shotwatch-android-screenshot-detector-library-6a75d7242109">ref 1</a>, <a href="https://viveksb007.wordpress.com/2017/11/10/how-snapchat-detects-when-screenshot-is-taken-hypothesis/">ref 2</a>).</p>
+            <p>CaptureSposed is an Xposed module that effectively disables this API as well as the screen recording detection API added in Android 15.</p>
+            <p><strong>⚠️ WARNING:</strong> CaptureSposed is intended for rooted devices running Android 14 or newer and requires Xposed. The required Xposed variant to use is LSPosed. Other Xposed variants will not work. This module cannot be guaranteed to work on all devices. In the worst case, it can cause a bootloop. Use at your own risk. Additionally, this module does not protect against screenshot detection from apps that use the pre-Android 14 approach of using file system listeners to detect screenshots (<a href="https://abangfadli.medium.com/shotwatch-android-screenshot-detector-library-6a75d7242109">ref 1</a>, <a href="https://viveksb007.wordpress.com/2017/11/10/how-snapchat-detects-when-screenshot-is-taken-hypothesis/">ref 2</a>).</p>
             <p align="center">
               <a href="https://play.google.com/store/apps/details?id=com.keshav.capturesposed"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/google-play-badge.png" height="80" /></a>
               <a href="https://f-droid.org/packages/com.keshav.capturesposed/"><img src="https://raw.githubusercontent.com/99keshav99/CaptureSposed/master/images/download-buttons/get-it-on.png" height="80" /></a>
@@ -7785,17 +7786,29 @@ com.keshav.capturesposed:
             </p>
             <h3>To use CaptureSposed:</h3>
             <ol>
-            <li>Install LSposed. This requires your device to be rooted with Magisk or KernelSU. Installation instructions for LSPosed are available <a href="https://github.com/LSPosed/LSPosed#install">here</a>.</li>
+            <li>Install LSposed. This requires your device to be rooted.</li>
             <li>Install CaptureSposed.</li>
+            <li>Grant root access to CaptureSposed.</li>
             <li>Activate the CaptureSposed module in the LSposed user interface.</li>
             <li>Reboot your device and sign in.</li>
-            <li>Open the CaptureSposed app and take a screenshot of it. If the screenshot is not detected, then the module is working as intended.</li>
+            <li>Open the CaptureSposed app and attempt to take a screenshot and make a screen recording of it. If the screenshot and screen recording is not detected, then the module is working as intended.</li>
             </ol>
-          filename: CaptureSposed-1.0.6.apk
+          filename: CaptureSposed-1.0.7.apk
           id: com.keshav.capturesposed
           name: CaptureSposed
-          last_updated: "2025-02-10T05:44:10Z"
-          releasedescription: <p>This release introduces a new icon for CaptureSposed and fixes an issue with the quick settings tile not being added to the dropdown panel automatically on Android 15 QPR1 due to changes introduced to this update by Google.</p>
+          last_updated: "2025-02-20T20:00:52Z"
+          releasedescription: |-
+            <p>CaptureSposed v1.0.7 adds support for blocking the screen recording detection API added in Android 15 and includes the following additional changes:</p>
+            <ul>
+            <li>A toggle for turning the recording detection block on and off was added to the user interface.</li>
+            <li>Support for testing if a recording is in progress has been added to the user interface.</li>
+            <li>The icons used for the "Status" and "Testing" boxes on the user interface were updated.</li>
+            <li>The user interface title bar was updated to include the CaptureSposed icon.</li>
+            <li>The icon on the quick settings tile for toggling the screenshot detection block was replaced.</li>
+            <li>A second quick settings tile was added for toggling the screen recording detection block on and off.</li>
+            <li>Long pressing on either of the quick settings tiles will now launch the CaptureSposed user interface instead of opening the app info panel.</li>
+            <li>CaptureSposed now requires root access to be granted in order to function. If root access is not granted, the quick settings tiles will be inactive, the user interface will display an error, and the screenshot and screen recording detection blocks will be disabled.</li>
+            </ul>
     author_name: DavidBerdik
 com.ketal.bcrfullscreen:
     git: https://github.com/Xposed-Modules-Repo/com.ketal.bcrfullscreen
@@ -7839,7 +7852,7 @@ com.kgg.hhvideo:
             - Xposed
           description: |
             <h1>电影猎手(原555电影)去广告</h1>
-            <p><a href="https://mp.rongmanit.com/dyls/app">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>
+            <p><a href="https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
             <p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>
@@ -15686,15 +15699,21 @@ io.github.howard20181.notificationiconfix:
             <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
             <li>Final result output, cache icon, and accent color to WeakHashMap</li>
             </ol>
-          filename: NotifyIconFix-1.4.73.apk
+          filename: NotifyIconFix-1.4.1.74.apk
           id: io.github.howard20181.notificationiconfix
           name: Notification Icon Fix / 通知图标修复
-          last_updated: "2025-02-03T08:51:51Z"
+          last_updated: "2025-02-20T15:31:30Z"
           releasedescription: |-
-            <h2>Changelog</h2>
+            <h2>Change log</h2>
             <ul>
-            <li>Don't set color for auto-group summary</li>
-            <li>Don't ignore icon check results for auto-group summary</li>
+            <li>
+            <p>Modify the grayscale icon judgment threshold<br>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4MzI1YThmMGNhYjEwNjhkN2I1ZmI2NWY2MmRiMzc3ZjdiYWQzYTQzNGMzOTI0OWY0ZTU2Y2FkY2RmOTRmZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.D88vW_EVntq6BUhbfA20mnsexZGlBPnE_lBNStLbhjw"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4MzI1YThmMGNhYjEwNjhkN2I1ZmI2NWY2MmRiMzc3ZjdiYWQzYTQzNGMzOTI0OWY0ZTU2Y2FkY2RmOTRmZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.D88vW_EVntq6BUhbfA20mnsexZGlBPnE_lBNStLbhjw" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            </li>
+            <li>
+            <p>Modify the icon inversion threshold<br>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjY2YTQ1ZGExY2VmYmI5MzczOWI0ODRiNmJhOTE4NzQ2M2RlMjlhODc0NDQ5OGMxZjk3ZmI3OWM5OTgzZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AvFcrXO1f0hkhwEKHXOBAirmy-B590M1gnC3HvEsSJM"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjY2YTQ1ZGExY2VmYmI5MzczOWI0ODRiNmJhOTE4NzQ2M2RlMjlhODc0NDQ5OGMxZjk3ZmI3OWM5OTgzZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AvFcrXO1f0hkhwEKHXOBAirmy-B590M1gnC3HvEsSJM" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            </li>
             </ul>
     author_name: Howard20181
 io.github.icepony.alwayscreateuser:
@@ -16833,13 +16852,14 @@ junzi.xposed.hook:
             <p>B612咔叽</p>
             <p>设备信息by流舟</p>
             <p>流舟文件</p>
-          filename: JunZi.Xposed.Hook_3.1.apk
+          filename: JunZi.Xposed.Hook_3.3.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-19T05:55:41Z"
+          last_updated: "2025-02-20T14:52:56Z"
           releasedescription: |-
-            <p>新增 支持 设备信息by流舟<br>
-            新增 支持 流舟文件</p>
+            <p>新增 支持 乐秀<br>
+            新增 支持 乐秀精简版<br>
+            新增 支持 扫描全能王</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17378,6 +17398,31 @@ me.hd.wauxv:
                     <td align="center"><b>适配版本</b></td>
                 </tr>
                 <tr>
+                    <td align="center">阻止撤回</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">自动登录</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">自动原图</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">表情游戏</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">虚拟定位</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
                     <td align="center">模拟扫码</td>
                     <td align="center">✅</td>
                     <td align="center">理论全版本</td>
@@ -17388,14 +17433,14 @@ me.hd.wauxv:
                     <td align="center">理论全版本</td>
                 </tr>
                 <tr>
-                    <td align="center">通话限制</td>
+                    <td align="center">圆形头像</td>
                     <td align="center">✅</td>
                     <td align="center">理论全版本</td>
                 </tr>
                 <tr>
-                    <td align="center">精确数量</td>
+                    <td align="center">通话限制</td>
                     <td align="center">✅</td>
-                    <td align="center">8.0.45</td>
+                    <td align="center">理论全版本</td>
                 </tr>
                 <tr>
                     <td align="center">消息详情</td>
@@ -17403,14 +17448,9 @@ me.hd.wauxv:
                     <td align="center">8.0.45</td>
                 </tr>
                 <tr>
-                    <td align="center">虚拟定位</td>
+                    <td align="center">精确数量</td>
                     <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">圆形头像</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
+                    <td align="center">8.0.45</td>
                 </tr>
                 <tr>
                     <td align="center">其他功能</td>
@@ -17453,16 +17493,17 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.0.4.apk
+          filename: WAuxiliary_v1.0.5.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-19T12:25:53Z"
+          last_updated: "2025-02-21T02:54:02Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
-            <li>优化 稳定性, 流畅度</li>
-            <li>新增 圆形头像</li>
-            <li>新增 虚拟定位</li>
+            <li>新增 阻止撤回</li>
+            <li>新增 自动原图</li>
+            <li>新增 自动登录</li>
+            <li>新增 表情游戏</li>
             <li>修复 已知问题</li>
             </ul>
     author_name: HdShare
@@ -20425,15 +20466,17 @@ ru.mike.loyalty:
             <h2>Support/Discussion URL / Страница программы:</h2>
             <p><a href="https://forum.xda-developers.com/t/mod-xposed-4-1-loyalty-hide-chats-in-the-telegram-messenger.4505977/">xda</a> or <a href="https://4pda.to/forum/index.php?s=&amp;showtopic=603033&amp;view=findpost&amp;p=118023452">4pda</a></p>
             <h2>Author</h2>
-            <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2022-2023</p>
-          filename: Loyalty_v1.4.apk
+            <p><a href="https://4pda.to/forum/index.php?showuser=683427">MikeZh</a>, 2022-2025</p>
+          filename: Loyalty_v1.4.2.apk
           id: ru.mike.loyalty
           name: Loyalty - Hide chats in the Telegram messenger
-          last_updated: "2024-02-27T06:42:48Z"
+          last_updated: "2025-02-20T15:37:42Z"
           releasedescription: |-
-            <p>Multi-user support<br>
-            Close opened chat improvement (if several chats have been opened in the chain, not all of which need to be closed)<br>
-            Close media preview added</p>
+            <p>Import/export all the module settings<br>
+            Location permission warning (before Android 12 / API 31)<br>
+            Scroll to the dialogs top when chats excluded<br>
+            Close web-preview bottom dialog<br>
+            Close audio/video player</p>
     author_name: MichaelZhuravsky
 ru.mike.mapstweaks:
     git: https://github.com/Xposed-Modules-Repo/ru.mike.mapstweaks

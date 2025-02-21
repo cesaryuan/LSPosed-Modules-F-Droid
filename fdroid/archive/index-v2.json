@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1740021295000,
+    "timestamp": 1740107736000,
     "categories": {
       "Xposed": {
         "name": {
@@ -629,7 +629,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://mp.rongmanit.com/dyls/app\">电影猎手App</a>去广告版，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -2107,13 +2107,57 @@
         }
       }
     },
+    "io.github.howard20181.notificationiconfix": {
+      "metadata": {
+        "added": 1738120059000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740107548000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
+        "authorName": "Howard20181",
+        "name": {
+          "en-US": "Notification Icon Fix / 通知图标修复"
+        },
+        "summary": {
+          "en-US": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
+        },
+        "description": {
+          "en-US": "<h1>Notification Icon Fix</h1>\n<p><a href=\"README.zh.md\">中文</a></p>\n<p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>\n<h2>Supported System</h2>\n<ul>\n<li>Android 8.1 ~ AOSP main branch</li>\n<li>HyperOS</li>\n<li>MIUI 12.5</li>\n</ul>\n<h2>Screenshots</h2>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img src=\"docs/img/3.jpg\" alt=\"Single Notification\" /></td>\n<td><img src=\"docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /></td>\n</tr>\n<tr>\n<td><img src=\"docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n<td><img src=\"docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /></td>\n</tr>\n</tbody>\n</table>\n<h2>Algorithm Details</h2>\n<ol>\n<li>Determine and reduce oversized icons to the maximum allowed icon size</li>\n<li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>\n<li>(For MIUI) Detect transparent borders and trim icons</li>\n<li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a <a href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\">perfect icon</a> (Need to install it yourself)</li>\n<li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>\n<li>Calculate the average lumens excluding transparent pixels</li>\n<li>Quantify the most common color of edge pixels</li>\n<li>Calculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border</li>\n<li>Determine whether the icon background is light or dark</li>\n<li>Use K-means quantizer to extract the primary color of the icon</li>\n<li>Invert the icon foreground according to the background and remove the border</li>\n<li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>\n<li>Final result output, cache icon, and accent color to WeakHashMap</li>\n</ol>\n"
+        },
+        "preferredSigner": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
+      },
+      "versions": {
+        "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6": {
+          "added": 1738120059000,
+          "file": {
+            "name": "/io.github.howard20181.notificationiconfix_68-1.1.apk",
+            "sha256": "09dcd9fc1472b1dcf410a8a07758d975c4f6439c53eb68b34fbc0b1fb39252b6",
+            "size": 19452
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 68,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9"
+              ]
+            }
+          }
+        }
+      }
+    },
     "junzi.xposed.hook": {
       "metadata": {
         "added": 1737774504000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740021134000,
+        "lastUpdated": 1740107561000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2128,6 +2172,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "14fbcb348751ec81a975844291f5f0793c7602030f24290a9923547788919ea1": {
+          "added": 1739589160000,
+          "file": {
+            "name": "/junzi.xposed.hook_20-2.8.apk",
+            "sha256": "14fbcb348751ec81a975844291f5f0793c7602030f24290a9923547788919ea1",
+            "size": 2418217
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "2.8",
+            "versionCode": 20,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "d1ebed7c1e81385f83f3ec8a19f0c9dda5d115b2aa23c7a8bec5e5dd808421a9": {
           "added": 1739329856000,
           "file": {
@@ -2659,6 +2736,58 @@
                 "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53"
               ]
             }
+          }
+        }
+      }
+    },
+    "me.hd.wauxv": {
+      "metadata": {
+        "added": 1739762507000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740107571000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
+        "authorName": "HdShare",
+        "name": {
+          "en-US": "WAuxiliary"
+        },
+        "summary": {
+          "en-US": "Wechat 辅助性功能增强"
+        },
+        "description": {
+          "en-US": "<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public\">\n        <img src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1&font=Rokkitt&language=1&name=1&owner=1&theme=Auto\" alt=\"socialify\"/>\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases\">\n        <img src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square&label=GithubRepo&labelColor=1b1f23&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square&label=Stars&labelColor=1b1f23&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\">\n        <img src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square&label=Forks&labelColor=1b1f23&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/issues\">\n        <img src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square&label=Issues&labelColor=1b1f23&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\">\n        <img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square&label=LSPosedRepo&labelColor=f48fb1&color=eeeeee\" alt=\"downloads\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\">\n        <img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Stars&labelColor=f48fb1&color=dfb317\" alt=\"stars\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\">\n        <img src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Forks&labelColor=f48fb1&color=97ca00\" alt=\"forks\">\n    </a>\n    <a href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\">\n        <img src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square&label=Issues&labelColor=f48fb1&color=007ec6\" alt=\"issues\">\n    </a>\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\">\n        <img src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8\" alt=\"release\">\n    </a>\n    <a href=\"https://t.me/Hd_WAuxiliary\">\n        <img src=\"https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf\" alt=\"Telegram\">\n    </a>\n</p>\n<hr />\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">阻止撤回</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">自动登录</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">自动原图</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">表情游戏</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">虚拟定位</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">模拟扫码</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">平板模式</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">圆形头像</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">通话限制</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n    <tr>\n        <td align=\"center\">消息详情</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">精确数量</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">8.0.45</td>\n    </tr>\n    <tr>\n        <td align=\"center\">其他功能</td>\n        <td align=\"center\">❓</td>\n        <td align=\"center\">❓</td>\n    </tr>\n</table>\n<hr />\n<h2>计划 / Plans:</h2>\n<p>无</p>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>QAuxiliary</td>\n<td><a href=\"https://github.com/cinit/QAuxiliary\">QAuxiliary</a></td>\n</tr>\n<tr>\n<td>TimTool</td>\n<td><a href=\"https://github.com/suzhelan/TimTool\">TimTool</a></td>\n</tr>\n<tr>\n<td>TSBattery</td>\n<td><a href=\"https://github.com/fankes/TSBattery\">TSBattery</a></td>\n</tr>\n</tbody>\n</table>\n"
+        },
+        "preferredSigner": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+      },
+      "versions": {
+        "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db": {
+          "added": 1739762507000,
+          "file": {
+            "name": "/me.hd.wauxv_20250217-1.0.0.apk",
+            "sha256": "5547b3d3ccbe2eb9cf1d1a818b16dd9f61b844d6f5d5814f9a13bc48be4ec4db",
+            "size": 2029588
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 20250217,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }
