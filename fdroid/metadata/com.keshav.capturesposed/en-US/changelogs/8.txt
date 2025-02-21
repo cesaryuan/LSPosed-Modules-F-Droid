@@ -1,0 +1,10 @@
+CaptureSposed v1.0.7 adds support for blocking the screen recording detection API added in Android 15 and includes the following additional changes:
+
+- A toggle for turning the recording detection block on and off was added to the user interface.
+- Support for testing if a recording is in progress has been added to the user interface.
+- The icons used for the "Status" and "Testing" boxes on the user interface were updated.
+- The user interface title bar was updated to include the CaptureSposed icon.
+- The icon on the quick settings tile for toggling the screenshot detection block was replaced.
+- A second quick settings tile was added for toggling the screen recording detection block on and off.
+- Long pressing on either of the quick settings tiles will now launch the CaptureSposed user interface instead of opening the app info panel.
+- CaptureSposed now requires root access to be granted in order to function. If root access is not granted, the quick settings tiles will be inactive, the user interface will display an error, and the screenshot and screen recording detection blocks will be disabled.
