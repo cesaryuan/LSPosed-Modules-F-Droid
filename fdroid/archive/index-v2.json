@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1740107736000,
+    "timestamp": 1740193972000,
     "categories": {
       "Xposed": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739416145000,
+        "lastUpdated": 1740193659000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.ac.lz233.tarnhelm",
         "authorName": "lz233",
         "name": {
@@ -45,6 +45,59 @@
         "preferredSigner": "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
       },
       "versions": {
+        "b5efe3955997d8af69ad0f0d8108a7d3e6d5ae276e98b2a02113514c1a3fc68d": {
+          "added": 1732159410000,
+          "file": {
+            "name": "/cn.ac.lz233.tarnhelm_20241118-1.6.6.apk",
+            "sha256": "b5efe3955997d8af69ad0f0d8108a7d3e6d5ae276e98b2a02113514c1a3fc68d",
+            "size": 2337465
+          },
+          "manifest": {
+            "versionName": "1.6.6",
+            "versionCode": 20241118,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "e507f8c1dfe06ccc582f536f33a750be442509089d6026737cf387d63cfbe6b0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_LOGS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "cn.ac.lz233.tarnhelm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "09a7bbaf33e493dbf346e993cfeb174c0738e3e740d1b160b69dab121fc267cf": {
           "added": 1732159409000,
           "file": {
@@ -161,7 +214,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737083405000,
+        "lastUpdated": 1740193684000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -176,6 +229,53 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c": {
+          "added": 1733887903000,
+          "file": {
+            "name": "/com.bug.hookvip_24121018-4.6.8-release.apk",
+            "sha256": "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c",
+            "size": 5354787
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.6.8-release",
+            "versionCode": 24121018,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ca3d2401c9e1e02ecb577065ed595b3a22fcc1fd91c93265adcede6676ad27de": {
           "added": 1732159435000,
           "file": {
@@ -629,7 +729,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -2157,7 +2257,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740107561000,
+        "lastUpdated": 1740193796000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2167,11 +2267,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG交流群(没啥人)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n<p>色采</p>\n<p>乐秀</p>\n<p>乐秀精简版</p>\n<p>全能扫描王</p>\n<p>Motion Ninja</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6": {
+          "added": 1739762498000,
+          "file": {
+            "name": "/junzi.xposed.hook_22-3.0.apk",
+            "sha256": "c7e4a7a382416e42c30206d2b65013bcf0006b6456b0e9103da9a976c159c7f6",
+            "size": 2438697
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0",
+            "versionCode": 22,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "14fbcb348751ec81a975844291f5f0793c7602030f24290a9923547788919ea1": {
           "added": 1739589160000,
           "file": {
