@@ -1134,8 +1134,23 @@ cn.ac.lz233.tarnhelm:
           filename: app-github-release.apk
           id: cn.ac.lz233.tarnhelm
           name: Tarnhelm
-          last_updated: "2025-02-12T14:02:44Z"
-          releasedescription: ""
+          last_updated: "2025-02-21T12:53:46Z"
+          releasedescription: |-
+            <ul>
+            <li>新增：备份与恢复</li>
+            <li>新增：低 Android 版本上的通知颜色</li>
+            <li>改进：MD3 UI</li>
+            <li>修复：低 Android 版本状态栏图标颜色</li>
+            <li>移除：剪切板监听服务发送通知选项（可直接在系统设置中关闭）</li>
+            </ul>
+            <hr>
+            <ul>
+            <li>Added: Backup and restore</li>
+            <li>Added: Notification color on lower Android versions</li>
+            <li>Improved: MD3 UI</li>
+            <li>Fixed: Status bar icon color on lower Android versions</li>
+            <li>Removed: Clipboard listener service sending notification option (can be turned off directly in system settings)</li>
+            </ul>
     author_name: lz233
 cn.amamiya.douyurepeat:
     git: https://github.com/Xposed-Modules-Repo/cn.amamiya.douyurepeat
@@ -3780,81 +3795,125 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.8.0-release.apk
+          filename: app_4.9.7-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2025-01-16T07:06:45Z"
+          last_updated: "2025-02-21T09:16:26Z"
           releasedescription: |-
             <p>新增：</p>
             <ul>
-            <li>爱其意 1.2.1</li>
-            <li>NFC Tool</li>
-            <li>钱迹 4.1.2</li>
-            <li>365日历 7.8.1</li>
-            <li>拓展「MT论坛自动签到」</li>
-            <li>二维码生成器（Play） 1.02.45.0113</li>
-            <li>条形码大师（Play） 1.02.39.0106</li>
-            <li>MyRadio（Play）</li>
-            <li>发票制作器（Play） 1.02.18.0807</li>
+            <li>钉钉 平板模式</li>
+            <li>KineMaster 7.5.17.34152.GP</li>
+            <li>Lovekey</li>
+            <li>截屏大师 1.8.0.27</li>
+            <li>扫描计数王</li>
+            <li>企业微信 平板模式</li>
+            <li>锤子便签</li>
+            <li>Multi App 2.2.8</li>
+            <li>考霸刷题宝</li>
+            <li>糖豆</li>
+            <li>USB摄像头 3.1.0</li>
+            <li>星芽免费短剧</li>
+            <li>「拓展」禁用加速度传感器</li>
+            <li>「拓展」禁止剪切板读取写入</li>
+            <li>「拓展」启动被Hook的应用时，显示Toast提示</li>
+            <li>「拓展」- 增加一些一般性的Root、Xposed、虚拟机过检测</li>
             </ul>
             <p>优化：</p>
             <ul>
-            <li>拓展「自定义游戏加速器白名单」</li>
-            <li>游戏加速器白名单增加一些预设包名</li>
-            <li>调整部分UI</li>
-            <li>优化稳定性</li>
-            <li>优化数据读取，现在设置不需要重启模块，只需要重启被Hook的App</li>
-            <li>更多细节优化</li>
-            <li>模块未激活时支持查看适配列表，但是不再支持打开设置页面</li>
+            <li>「拓展」自定义设置应用，仅针对单独应用生效，不再全局生效</li>
+            <li>「拓展」调整 隐藏Root、Xposed 为默认关闭</li>
+            <li>「拓展」支持仅查看已配置的应用</li>
+            <li>「拓展」支持保存用户上次退出时的过滤配置</li>
+            <li>「拓展」UI显示优化、加载逻辑优化</li>
+            <li>「拓展」添加 解除截屏录屏限制 开关</li>
+            <li>「拓展」增强VPN过检测逻辑并增加开关</li>
+            <li>酷安 Hook逻辑</li>
+            <li>微信 平板模式Hook逻辑</li>
+            <li>将 外部存储设备 添加为适配应用</li>
+            <li>「适配软件」重构适配软件界面</li>
+            <li>「适配软件」优化加载逻辑</li>
+            <li>「适配软件」切换不同语言后字体颜色保持一致</li>
+            <li>优化设备型号显示逻辑</li>
+            <li>优化部分旧设备卡顿，提升流畅度</li>
+            </ul>
+            <p>修复：</p>
+            <ul>
+            <li>「拓展」语言为English时过滤弹窗显示异常的问题</li>
+            <li>「拓展」搜索功能失效问题</li>
+            <li>微信 Hook逻辑 修复与其它模块冲突的问题</li>
+            <li>无界趣连 一些问题修复（感谢Tauoftv）</li>
+            <li>修复部分过检测功能默认开启时导致的设备异常的问题</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>Adobe Scan 25.01.07-google-dynamic</li>
-            <li>FlowMark 1.1.5</li>
-            <li>MOJi辞書 8.11.3</li>
-            <li>Rain Viewer 6.3</li>
-            <li>Slidebox 3.14</li>
-            <li>XRecorder 2.4.0.2</li>
-            <li>inBox笔记 1.8.100</li>
-            <li>ShortX 1.0.0-rc2-320-d1b6d44-main-prc</li>
-            <li>Thanox 5.2.7-prc</li>
-            <li>Fake Location 1.3.5 BETA 1599</li>
-            <li>HookUI 2.0-m</li>
-            <li>Nekogram 11.5.3S</li>
-            <li>Niagara Launcher 1.13.2</li>
-            <li>酷安 14.6.0</li>
-            <li>多邻国 6.12.4</li>
-            <li>今日水印相机 v3.0.205.4</li>
-            <li>可可影视 3.3.2</li>
-            <li>网飞猫 3.3.2</li>
-            <li>开发助手 8.4.0-gp</li>
-            <li>懒人驾考 2.13.2</li>
-            <li>美图秀秀 11.1.0</li>
-            <li>七猫免费小说 7.65</li>
-            <li>轻羽写作 1.86.0</li>
-            <li>鲨鱼记账 5.17.2</li>
-            <li>特种作业宝典 4.0.0</li>
-            <li>我要做计划 5.3.0</li>
-            <li>知拾笔记 4.7.7</li>
-            <li>薄荷记账 11.0.9</li>
-            <li>幕布 2.51.1</li>
-            <li>欧路词典 10.0.1</li>
-            <li>醒图 11.5.0</li>
-            <li>迅雷 8.26.0.9582</li>
-            <li>一刻日记 2.0.5</li>
-            <li>佐糖 2.0.1</li>
+            <li>123云盘 2.5.1</li>
+            <li>99手游加速器 2.0.0</li>
+            <li>ShortX 1.0.0-rc2-326-a0f409c-main-prc</li>
+            <li>Battery Guru 2.3.15</li>
+            <li>Lightroom 10.2.0</li>
+            <li>QQ音乐 14.1.1.8</li>
+            <li>XPlayer - Video Player 2.4.4.2</li>
+            <li>Adobe Scan 25.02.12-google-dynamic</li>
+            <li>B612咔叽 14.0.15</li>
+            <li>CamScanner 6.82.0.2502180000</li>
+            <li>FlowMark 1.2.1</li>
+            <li>inBox笔记 1.8.402</li>
+            <li>Instant Translate v6.9.30908</li>
+            <li>Niagara Launcher 1.13.5</li>
+            <li>XRecorder 2.4.0.3</li>
+            <li>Nekogram 11.7.0</li>
+            <li>Telegraph T11.5.3 - P11.16.3</li>
+            <li>Oto Music 4.0.7</li>
+            <li>Nullgram v11.7.0-df9414f</li>
+            <li>Clone App 3.2.1</li>
+            <li>Fing 12.9.0</li>
+            <li>Slidebox 3.15</li>
+            <li>萌圈 1.0.1.1（com.movie.hhdfly.p4）</li>
+            <li>薄荷记账 11.3.2</li>
+            <li>多邻国 6.18.3</li>
+            <li>浩克下载 1.8.7</li>
+            <li>今日水印相机 v3.0.214.4</li>
+            <li>乐秀 10.3.0.0</li>
+            <li>美图秀秀 11.3.0</li>
+            <li>排班助手 3.9.6</li>
+            <li>日历记加班 4.5.6</li>
+            <li>鲨鱼记账 5.19.2</li>
+            <li>搜图神器 5.2.3</li>
+            <li>迅雷 8.28.0.9663</li>
+            <li>种子磁力下载器 1.5.6</li>
+            <li>冰箱 3.25.6 G</li>
+            <li>特狗APP 3.2.1</li>
+            <li>幕布 2.52.0</li>
+            <li>欧路词典 10.0.5</li>
+            <li>七猫免费小说 7.66.5</li>
+            <li>轻羽写作 1.89.1</li>
+            <li>时间日志 1.7.7</li>
+            <li>我要做计划 5.3.1</li>
+            <li>醒图 11.7.0</li>
+            <li>知拾笔记 4.7.9</li>
+            <li>整点视频 更新为 星星视频</li>
+            <li>小草视频 更新为 蓝天视频</li>
+            <li>网飞猫 3.3.3</li>
+            <li>可可影视 3.3.3</li>
+            <li>奇妙应用 1.2.8</li>
+            <li>黃品匯 5.0.0</li>
+            <li>懒人驾考 2.13.3</li>
+            <li>录风者 v1.5.57.250118</li>
+            <li>二维码生成器 1.02.47.0121</li>
+            <li>开发助手 8.4.1-ng</li>
+            <li>特种作业宝典 4.0.1</li>
+            <li>通知滤盒 3.3.10</li>
+            <li>微信 8.0.56</li>
             </ul>
             <p>其他：</p>
             <ul>
-            <li>去除 存储空间隔离</li>
-            <li>去除 分身有力</li>
-            <li>去除 喵次元</li>
-            <li>去除 MioMio</li>
-            <li>去除 小星记账</li>
+            <li>去除 蜗牛视频</li>
+            <li>去除 蓝猫视频</li>
+            <li>去除 良人剧场</li>
+            <li>去除 小米音乐</li>
+            <li>去除 NyaFun</li>
             </ul>
-            <hr>
-            <p>天天开心！</p>
-            <p>by：只有风知道~</p>
     author_name: bug-bit
 com.ceco.oreo.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox
@@ -7855,14 +7914,13 @@ com.kgg.hhvideo:
             <p><a href="https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
-            <p>2025.02.13    v1.0.21    适配电影猎手v3.1.1.1版本</p>
-            <p>2025.01.18    v1.0.20    适配电影猎手v3.1.1.0版本</p>
+            <p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>
             <h1>QQ交流群：1030045081</h1>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg" alt="" /></p>
           filename: dylsNoAd_1.0.21_release.apk
           id: com.kgg.hhvideo
           name: 555电影(电影猎手)App去广告
-          last_updated: "2025-02-13T16:43:56Z"
+          last_updated: "2025-02-21T18:21:06Z"
           releasedescription: |-
             <p>适配电影猎手v3.1.1.1版本</p>
             <p>官网下载的电影猎手App包名不固定，需手动到LSPosed中勾选</p>
@@ -15708,11 +15766,11 @@ io.github.howard20181.notificationiconfix:
             <ul>
             <li>
             <p>Modify the grayscale icon judgment threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4MzI1YThmMGNhYjEwNjhkN2I1ZmI2NWY2MmRiMzc3ZjdiYWQzYTQzNGMzOTI0OWY0ZTU2Y2FkY2RmOTRmZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.D88vW_EVntq6BUhbfA20mnsexZGlBPnE_lBNStLbhjw"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU4MzI1YThmMGNhYjEwNjhkN2I1ZmI2NWY2MmRiMzc3ZjdiYWQzYTQzNGMzOTI0OWY0ZTU2Y2FkY2RmOTRmZGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.D88vW_EVntq6BUhbfA20mnsexZGlBPnE_lBNStLbhjw" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2Yjg0OTY1OTZlODUyNTc1NTkxZmU2ODNmZWEyZWQxOWIyMDcwZDYzODVjMWQ4ZGYyOTRjNWQwOWJkNjM4OWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4YJlK3jDgHSOUCNn7OqYHDxIjqVUCTKoH4NdaGrQvWk"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2Yjg0OTY1OTZlODUyNTc1NTkxZmU2ODNmZWEyZWQxOWIyMDcwZDYzODVjMWQ4ZGYyOTRjNWQwOWJkNjM4OWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4YJlK3jDgHSOUCNn7OqYHDxIjqVUCTKoH4NdaGrQvWk" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             <li>
             <p>Modify the icon inversion threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjY2YTQ1ZGExY2VmYmI5MzczOWI0ODRiNmJhOTE4NzQ2M2RlMjlhODc0NDQ5OGMxZjk3ZmI3OWM5OTgzZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AvFcrXO1f0hkhwEKHXOBAirmy-B590M1gnC3HvEsSJM"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxMDY4MDUsIm5iZiI6MTc0MDEwNjUwNSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDAyNTUwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NjY2YTQ1ZGExY2VmYmI5MzczOWI0ODRiNmJhOTE4NzQ2M2RlMjlhODc0NDQ5OGMxZjk3ZmI3OWM5OTgzZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.AvFcrXO1f0hkhwEKHXOBAirmy-B590M1gnC3HvEsSJM" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzZjIzNTcwYjMyODE0MDc5MTE2YjNiMDY2M2VmOWUxNmRmY2U0ZmViZDJmMzRiOTIzZGYxNjc4YTcyZDRkYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cjvqgi99Jum5WWdUbtq0PPzp3GK8nOYVrLLDZjF0qtE"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzZjIzNTcwYjMyODE0MDc5MTE2YjNiMDY2M2VmOWUxNmRmY2U0ZmViZDJmMzRiOTIzZGYxNjc4YTcyZDRkYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cjvqgi99Jum5WWdUbtq0PPzp3GK8nOYVrLLDZjF0qtE" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             </ul>
     author_name: Howard20181
@@ -16852,14 +16910,19 @@ junzi.xposed.hook:
             <p>B612咔叽</p>
             <p>设备信息by流舟</p>
             <p>流舟文件</p>
-          filename: JunZi.Xposed.Hook_3.3.apk
+            <p>色采</p>
+            <p>乐秀</p>
+            <p>乐秀精简版</p>
+            <p>全能扫描王</p>
+            <p>Motion Ninja</p>
+          filename: JunZi.Xposed.Hook_3.4.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-20T14:52:56Z"
+          last_updated: "2025-02-21T16:12:19Z"
           releasedescription: |-
-            <p>新增 支持 乐秀<br>
-            新增 支持 乐秀精简版<br>
-            新增 支持 扫描全能王</p>
+            <p>新增 支持 小X分身<br>
+            新增 支持 Motion Ninja<br>
+            新增 支持 MotionNinja视频编辑器</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17496,7 +17559,7 @@ me.hd.wauxv:
           filename: WAuxiliary_v1.0.5.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-21T02:54:02Z"
+          last_updated: "2025-02-21T05:33:44Z"
           releasedescription: |-
             <h4>更新</h4>
             <ul>
