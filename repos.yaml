@@ -985,6 +985,25 @@ cc.aoeiuv020.iamnotdisabled.hook:
           last_updated: "2024-09-22T17:15:46Z"
           releasedescription: <h3>兼容性优化，适配新版LSPosed的堆栈变化</h3>
     author_name: AoEiuV020
+cc.godhook:
+    git: https://github.com/Xposed-Modules-Repo/cc.godhook
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: ""
+          filename: GodHook_1.4.5.apk
+          id: cc.godhook
+          name: GodHook
+          last_updated: "2025-02-22T22:28:40Z"
+          releasedescription: |-
+            <ol>
+            <li>支持AI语言大模型回复，支持DeepSeek、Qwen、Silicon等</li>
+            <li>支持订阅各种功能，任君选择，如每日新闻、今日天气、考公历史知识点等</li>
+            <li>支持WebApi执行发送消息：请求相应的api，执行消息推送，一般用在服务器告警等场景</li>
+            </ol>
+    author_name: Szymou
 chili.xposed.chimi:
     git: https://github.com/Xposed-Modules-Repo/chili.xposed.chimi
     summary: "MIUI13 增强扩展模块 (LSPosed/Xposed) \n\nMIUI13 MIUI enhancement extension module"
@@ -5459,6 +5478,28 @@ com.fuckcoolapk:
           last_updated: "2021-06-24T13:36:32Z"
           releasedescription: ""
     author_name: lz233
+com.fun.mtp:
+    git: https://github.com/Xposed-Modules-Repo/com.fun.mtp
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>ForceMTP</h1>
+            <p><a href="https://github.com/Xposed-Modules-Repo/com.fun.mtp/releases"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.fun.mtp/total?label=Downloads"></a></p>
+            <h3>每次连接电脑调试时，USB默认是不传输数据的，每次还需要点开通知，选择文件传输模式（MTP）</h3>
+            <h3>使用此插件，在手机连接电脑时，默认设置文件传输模式。</h3>
+            <h3>支持版本Android 6-15</h3>
+            <h3>其中9,14测试过，其他版本未测试，有问题可提交修复。</h3>
+          filename: com.fun.mtp.apk
+          id: com.fun.mtp
+          name: ForceMTP
+          last_updated: "2025-02-22T10:15:56Z"
+          releasedescription: |-
+            <p>连接电脑时强制默认使用MTP文件传输模式<br>
+            支持android 6-15</p>
+    author_name: busyboy7798
 com.function.mtp:
     git: https://github.com/Xposed-Modules-Repo/com.function.mtp
     summary: Android14连接电脑后，默认连接USB文件传输模式
@@ -15766,11 +15807,11 @@ io.github.howard20181.notificationiconfix:
             <ul>
             <li>
             <p>Modify the grayscale icon judgment threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2Yjg0OTY1OTZlODUyNTc1NTkxZmU2ODNmZWEyZWQxOWIyMDcwZDYzODVjMWQ4ZGYyOTRjNWQwOWJkNjM4OWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4YJlK3jDgHSOUCNn7OqYHDxIjqVUCTKoH4NdaGrQvWk"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2Yjg0OTY1OTZlODUyNTc1NTkxZmU2ODNmZWEyZWQxOWIyMDcwZDYzODVjMWQ4ZGYyOTRjNWQwOWJkNjM4OWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4YJlK3jDgHSOUCNn7OqYHDxIjqVUCTKoH4NdaGrQvWk" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAyNjQ4ODQsIm5iZiI6MTc0MDI2NDU4NCwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDIyNDk0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxOGM5ZGMxNWE1YmM1ZDgwYjc1OGQ3OWY1NDJhMzRjODlkOWM3ZjBlMjUxNjQ3ZWFiZWMwODk3ZWU3YjhkZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KGYErnzIrlJO8mvfKLn5kT_MmlVqHuIt5jarjkW26yU"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAyNjQ4ODQsIm5iZiI6MTc0MDI2NDU4NCwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDIyNDk0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxOGM5ZGMxNWE1YmM1ZDgwYjc1OGQ3OWY1NDJhMzRjODlkOWM3ZjBlMjUxNjQ3ZWFiZWMwODk3ZWU3YjhkZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.KGYErnzIrlJO8mvfKLn5kT_MmlVqHuIt5jarjkW26yU" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             <li>
             <p>Modify the icon inversion threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzZjIzNTcwYjMyODE0MDc5MTE2YjNiMDY2M2VmOWUxNmRmY2U0ZmViZDJmMzRiOTIzZGYxNjc4YTcyZDRkYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cjvqgi99Jum5WWdUbtq0PPzp3GK8nOYVrLLDZjF0qtE"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxNjMwMDcsIm5iZiI6MTc0MDE2MjcwNywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIxVDE4MzE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzZjIzNTcwYjMyODE0MDc5MTE2YjNiMDY2M2VmOWUxNmRmY2U0ZmViZDJmMzRiOTIzZGYxNjc4YTcyZDRkYjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cjvqgi99Jum5WWdUbtq0PPzp3GK8nOYVrLLDZjF0qtE" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAyNjQ4ODQsIm5iZiI6MTc0MDI2NDU4NCwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDIyNDk0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4OTJkMGYzYjI0YjRlZGEwMGJiOTU0NDc0OGRmZWMxMDU2NjIyZDY2NWJlMDIyZGUzNWUzNzY3ZTc4ODM3MWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TxSsJF_Xj1iR_1iET19OKGHzaiVSV68EJ6CU2mznDtQ"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAyNjQ4ODQsIm5iZiI6MTc0MDI2NDU4NCwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDIyNDk0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4OTJkMGYzYjI0YjRlZGEwMGJiOTU0NDc0OGRmZWMxMDU2NjIyZDY2NWJlMDIyZGUzNWUzNzY3ZTc4ODM3MWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TxSsJF_Xj1iR_1iET19OKGHzaiVSV68EJ6CU2mznDtQ" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             </ul>
     author_name: Howard20181
@@ -16915,14 +16956,14 @@ junzi.xposed.hook:
             <p>乐秀精简版</p>
             <p>全能扫描王</p>
             <p>Motion Ninja</p>
-          filename: JunZi.Xposed.Hook_3.4.apk
+          filename: JunZi.Xposed.Hook_3.5.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-21T16:12:19Z"
+          last_updated: "2025-02-22T09:01:42Z"
           releasedescription: |-
-            <p>新增 支持 小X分身<br>
-            新增 支持 Motion Ninja<br>
-            新增 支持 MotionNinja视频编辑器</p>
+            <p>新增 支持 小星记账<br>
+            新增 支持 万能免费去水印神器<br>
+            优化 星芽免费短剧可能会弹出广告的问题</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
