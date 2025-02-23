@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1740193985000,
+    "timestamp": 1740281178000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1007,6 +1007,58 @@
                 "201077726257a88100500a3db525bcec1069105bf902c3f1f6f69ec62610fb61"
               ]
             }
+          }
+        }
+      }
+    },
+    "cc.godhook.webapi": {
+      "metadata": {
+        "added": 1740280823000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740280823000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cc.godhook",
+        "authorName": "Szymou",
+        "name": {
+          "en-US": "GodHook"
+        },
+        "preferredSigner": "075709576a77fc4af286d5c8bf264e817b412f19939cdd331f1c6603b78c1134"
+      },
+      "versions": {
+        "58133a3e21b5710fcd6c88b81f9019fb4a2f6fddbab538f97a402a300b75c503": {
+          "added": 1740280823000,
+          "file": {
+            "name": "/cc.godhook_240-1.4.5.apk",
+            "sha256": "58133a3e21b5710fcd6c88b81f9019fb4a2f6fddbab538f97a402a300b75c503",
+            "size": 6637943
+          },
+          "manifest": {
+            "versionName": "1.4.5",
+            "versionCode": 240,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "075709576a77fc4af286d5c8bf264e817b412f19939cdd331f1c6603b78c1134"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "cc.godhook.webapi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
           }
         }
       }
@@ -2768,7 +2820,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193669000,
+        "lastUpdated": 1740280835000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -7867,6 +7919,79 @@
               },
               {
                 "name": "android.permission.READ_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.fun.mtp": {
+      "metadata": {
+        "added": 1740280867000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740280867000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.fun.mtp",
+        "authorName": "busyboy7798",
+        "name": {
+          "en-US": "ForceMTP"
+        },
+        "description": {
+          "en-US": "<h1>ForceMTP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.fun.mtp/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.fun.mtp/total?label=Downloads\"></a></p>\n<h3>每次连接电脑调试时，USB默认是不传输数据的，每次还需要点开通知，选择文件传输模式（MTP）</h3>\n<h3>使用此插件，在手机连接电脑时，默认设置文件传输模式。</h3>\n<h3>支持版本Android 6-15</h3>\n<h3>其中9,14测试过，其他版本未测试，有问题可提交修复。</h3>\n"
+        },
+        "preferredSigner": "b8b7af77f2028646e80450e0b6758dce21d5309312540dc50efc7e8b7190db6d"
+      },
+      "versions": {
+        "336e7c4b9bb80462ea6acde2d7e66bdc6a199213102df035a663069e583d4cc7": {
+          "added": 1740280867000,
+          "file": {
+            "name": "/com.fun.mtp_363-1.0.apk",
+            "sha256": "336e7c4b9bb80462ea6acde2d7e66bdc6a199213102df035a663069e583d4cc7",
+            "size": 1179219
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0",
+            "versionCode": 363,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "b8b7af77f2028646e80450e0b6758dce21d5309312540dc50efc7e8b7190db6d"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.REQUEST_DELETE_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
               }
             ]
           }
@@ -16585,7 +16710,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193755000,
+        "lastUpdated": 1740280921000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -23316,7 +23441,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193796000,
+        "lastUpdated": 1740280961000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23331,6 +23456,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "4cd7dec0563c9d40b6203b579b6f59b49cecb925088b1e2d967bbe0ae3d2058e": {
+          "added": 1740280961000,
+          "file": {
+            "name": "/junzi.xposed.hook_27-3.5.apk",
+            "sha256": "4cd7dec0563c9d40b6203b579b6f59b49cecb925088b1e2d967bbe0ae3d2058e",
+            "size": 2971067
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.5",
+            "versionCode": 27,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "10dcc5e683a8385ed47031f6b860984d483ab30a0f8d7afe97f663ec55dc8116": {
           "added": 1740193796000,
           "file": {
@@ -23378,39 +23536,6 @@
             ],
             "versionName": "3.3",
             "versionCode": 25,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c": {
-          "added": 1740021134000,
-          "file": {
-            "name": "/junzi.xposed.hook_23-3.1.apk",
-            "sha256": "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c",
-            "size": 2811433
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.1",
-            "versionCode": 23,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24436,7 +24561,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193804000,
+        "lastUpdated": 1740280969000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {

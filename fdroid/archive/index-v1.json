@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1740193972000,
+    "timestamp": 1740281165000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -144,8 +144,8 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "3.4",
-      "suggestedVersionCode": "26",
+      "suggestedVersionName": "3.5",
+      "suggestedVersionCode": "27",
       "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u6b22\u8fce\u52a0\u5165TG\u4ea4\u6d41\u7fa4(\u6ca1\u5565\u4eba)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>\u6e29\u99a8\u63d0\u793a</h1>\n<p>\u514droot\u6a21\u5757\u8bf7\u65e0\u89c6\u6a21\u5757\u672a\u6fc0\u6d3b</p>\n<p>Lsposed\u7528\u6237\u8bf7\u5173\u95edXposedApi\u8c03\u7528\u4fdd\u62a4</p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u756a\u8304\u7545\u542c</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<p>\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5b87\u5b99\u5de5\u5177\u7bb1</p>\n<p>AudioLab</p>\n<p>\u5feb\u8fde</p>\n<p>\u62fe\u5149\u5c0f\u8bf4</p>\n<p>ES\u6587\u4ef6\u6d4f\u89c8\u5668</p>\n<p>\u5e38\u8bfb\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5de7\u5f71</p>\n<p>\u4e71\u4e03\u516b\u7cdf</p>\n<p>B612\u5494\u53fd</p>\n<p>\u8bbe\u5907\u4fe1\u606fby\u6d41\u821f</p>\n<p>\u6d41\u821f\u6587\u4ef6</p>\n<p>\u8272\u91c7</p>\n<p>\u4e50\u79c0</p>\n<p>\u4e50\u79c0\u7cbe\u7b80\u7248</p>\n<p>\u5168\u80fd\u626b\u63cf\u738b</p>\n<p>Motion Ninja</p>\n",
       "license": "Unknown",
       "name": "JunZi Xposed Hook",
@@ -153,7 +153,7 @@
       "summary": "\u5bf9\u4e00\u4e9b\u8f6f\u4ef6\u7684\u529f\u80fd\u6027\u589e\u5f3a",
       "added": 1737774504000,
       "packageName": "junzi.xposed.hook",
-      "lastUpdated": 1740193796000
+      "lastUpdated": 1740280961000
     },
     {
       "authorName": "luckyzyx",
@@ -2216,6 +2216,34 @@
       }
     ],
     "junzi.xposed.hook": [
+      {
+        "added": 1740021134000,
+        "apkName": "junzi.xposed.hook_23-3.1.apk",
+        "hash": "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2811433,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "3.1"
+      },
       {
         "added": 1739762498000,
         "apkName": "junzi.xposed.hook_22-3.0.apk",
