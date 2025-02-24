@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1740281165000,
+    "timestamp": 1740367663000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -33,15 +33,15 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "2.2.4",
-      "suggestedVersionCode": "20250101",
+      "suggestedVersionName": "2.2.8",
+      "suggestedVersionCode": "20250223",
       "description": "<h1>AdClose</h1>\n<p><strong>AdClose</strong> \u662f\u4e00\u4e2a\u57fa\u4e8eXposed\u6846\u67b6\u7684Android\u5e7f\u544a\u5c4f\u853d\u5de5\u5177\uff0c\u81f4\u529b\u4e8e\u63d0\u4f9b\u4e00\u4e2a\u65e0\u5e7f\u544a\u7684\u5e94\u7528\u6d4f\u89c8\u4f53\u9a8c\uff0c\u65e8\u5728\u4f18\u5316\u7528\u6237\u4f53\u9a8c\u5e76\u51cf\u5c11\u5e72\u6270\u3002\u8bf7\u5728LSPosed\u6846\u67b6\u73af\u5883\u4e2d\u4f7f\u7528\u3002</p>\n<p>AdClose\u7684\u6838\u5fc3\u529f\u80fd\u662f\u963b\u6b62\u5e94\u7528\u5185\u7684\u5e7f\u544aSDK\u521d\u59cb\u5316\u52a0\u8f7d\uff0c\u5e76\u62e6\u622a\u5e94\u7528\u5e7f\u544a\u8bf7\u6c42\u4ee5\u5c4f\u853d\u5e7f\u544a\u3002</p>\n<h2>\u4e3b\u8981\u7279\u6027</h2>\n<p>\u529f\u80fd\u652f\u6301(\u987a\u5e8f)\uff1a</p>\n<ul>\n<li><strong>\u7cbe\u51c6\u5904\u7406</strong>\uff1a\u963b\u6b62\u5e94\u7528\u5185\u5e7f\u544aSDK\u521d\u59cb\u5316\u3002</li>\n<li><strong>\u5e7f\u544a\u8bf7\u6c42\u62e6\u622a</strong>\uff1a\u62e6\u622a\u5c4f\u853d\u5e94\u7528\u7684\u7f51\u7edc\u5e7f\u544a\u8bf7\u6c42\u3002</li>\n<li><strong>\u622a\u56fe\u5f55\u5c4f\u9650\u5236\u79fb\u9664</strong>\uff1a\u5141\u8bb8\u5728\u5e94\u7528\u4e2d\u81ea\u7531\u622a\u56fe\u548c\u5f55\u5c4f\u3002</li>\n<li><strong>VPN\u4e0e\u4ee3\u7406\u68c0\u6d4b\u79fb\u9664</strong>\uff1a\u53bb\u9664\u5e94\u7528\u5185\u7684VPN\u548c\u7cfb\u7edf\u4ee3\u7406\u68c0\u6d4b\u3002</li>\n<li><strong>\u4f20\u611f\u5668\u76d1\u542c\u79fb\u9664</strong>\uff1a\u7528\u4e8e\u7981\u7528\u6447\u4e00\u6447\u7b49\u57fa\u4e8e\u4f20\u611f\u5668\u7684\u5e7f\u544a\u8df3\u8f6c\u3002</li>\n<li><strong>Root\u68c0\u6d4b\u89c4\u907f</strong>\uff1a\u53bb\u9664\u5e94\u7528\u5185\u7684\u4e00\u822c\u6027Root\uff0cMagisk\u548cXposed\u6846\u67b6\u68c0\u6d4b\u3002</li>\n</ul>\n<h2>\u652f\u6301\u7684\u5e94\u7528\u8303\u56f4</h2>\n<p>AdClose\u652f\u6301\u4f17\u591a\u6d41\u884c\u7684Android\u5e94\u7528\uff0c\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e\uff1a</p>\n<ul>\n<li>\u89c6\u9891\u64ad\u653e\u5e94\u7528</li>\n<li>\u9605\u8bfb\u548c\u65b0\u95fb\u5e94\u7528</li>\n<li>\u5de5\u5177\u548c\u4fbf\u6377\u5e94\u7528</li>\n<li>\u5546\u52a1\u529e\u516c\u5e94\u7528</li>\n<li>\u793e\u4ea4\u548c\u901a\u8baf\u5e94\u7528</li>\n</ul>\n<h2>\u5e7f\u544aSDK\u5904\u7406</h2>\n<p>AdClose\u80fd\u591f\u5904\u7406\u5e94\u7528\u5185\u5305\u542b\u4ee5\u4e0b\u5728\u5185\u7684\u591a\u79cdSDK\u7c7b\u578b\uff1a</p>\n<ul>\n<li>ADSuyiSdk Ads</li>\n<li>AdScope</li>\n<li>Ali BaiChuan Ads</li>\n<li>Applovin Sdk</li>\n<li>Appic Ads</li>\n<li>Baidu Ads</li>\n<li>BJXingu Ads</li>\n<li>ByteDance (Pangolin) Ads</li>\n<li>ByteDance (Pangolin) GroMore</li>\n<li>FaceBook Ads</li>\n<li>Google Ads</li>\n<li>Google FireBase Crashlytics Sdk</li>\n<li>Huawei Ads</li>\n<li>Inmobi Ads</li>\n<li>Kwai Ads</li>\n<li>MeiShu Ads</li>\n<li>Mintegral Ads</li>\n<li>Mbridge Ads</li>\n<li>Pinduoduo Ads</li>\n<li>Qumeng Ads</li>\n<li>Sigmob Ads</li>\n<li>Tanx Ads</li>\n<li>Tencent Ads</li>\n<li>Tencent SDK</li>\n<li>TopOn SDK (anythink)</li>\n<li>TradPlus Ads</li>\n<li>Umeng SDK</li>\n<li>Unity3d Ads</li>\n<li>Vungle Sdk</li>\n<li>XiaoChuang Ads (ZuiYou)</li>\n<li>XinwuPaijin Ads</li>\n<li>Xiaomi Ads</li>\n</ul>\n<h2>\u4f7f\u7528\u6307\u5357</h2>\n<p>\u5728\u5b89\u88c5AdClose\u4e4b\u524d\uff0c\u8bf7\u786e\u4fdd\u60a8\u7684\u8bbe\u5907\u5df2\u7ecf\u5b89\u88c5LSPosed\u6846\u67b6\u3002</p>\n<ol>\n<li>\u4e0b\u8f7d\u5e76\u5b89\u88c5AdClose\u6a21\u5757\u3002</li>\n<li>\u5728LSPosed\u6a21\u5757\u7ba1\u7406\u5668\u4e2d\u6fc0\u6d3bAdClose\u6a21\u5757\u3002</li>\n<li>\u5728\u6a21\u5757\u4f5c\u7528\u57df\u4e2d\u9009\u62e9\u60a8\u5e0c\u671b\u53bb\u9664\u5e7f\u544a\u7684\u5e94\u7528\u3002</li>\n<li>\u542f\u52a8AdClose\u6a21\u5757\uff0c\u9009\u62e9\u5e76\u70b9\u51fb\u5e94\u7528\u5217\u8868\uff0c\u542f\u7528\u76f8\u5e94\u7684Hook\u529f\u80fd\u3002</li>\n</ol>\n<h2>\u5982\u4f55\u8d21\u732e</h2>\n<p>\u5982\u679c\u60a8\u5bf9AdClose\u6709\u6539\u8fdb\u5efa\u8bae\uff0c\u6216\u53d1\u73b0Bug\uff0c\u6b22\u8fce\u901a\u8fc7Issues\u53cd\u9988\u3002</p>\n<h2>\u652f\u6301\u6211\u4eec</h2>\n<p>\u5982\u679cAdClose\u5bf9\u60a8\u6709\u5e2e\u52a9\uff0c\u8bf7\u7ed9\u4e88\u6211\u4eecStar\u652f\u6301\uff01\u8fd9\u662f\u6211\u4eec\u6301\u7eed\u6539\u8fdb\u7684\u6700\u5927\u52a8\u529b\u3002</p>\n<h2>\u5173\u6ce8\u6211\u4eec</h2>\n<p>\u83b7\u53d6\u66f4\u591a\u66f4\u65b0\u548c\u5e2e\u52a9\uff0c\u8bf7\u5173\u6ce8\u6211\u4eec\u7684Telegram\u9891\u9053\uff1a</p>\n<p>\ud83c\udf1f <strong>\u9891\u9053\u5165\u53e3</strong>: @AdClose</p>\n",
       "license": "Unknown",
       "name": "AdClose",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
       "added": 1732159442000,
       "packageName": "com.close.hook.ads",
-      "lastUpdated": 1736058293000
+      "lastUpdated": 1740367337000
     },
     {
       "authorName": "HChenX",
@@ -144,16 +144,16 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "3.5",
-      "suggestedVersionCode": "27",
-      "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u6b22\u8fce\u52a0\u5165TG\u4ea4\u6d41\u7fa4(\u6ca1\u5565\u4eba)</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>\u6e29\u99a8\u63d0\u793a</h1>\n<p>\u514droot\u6a21\u5757\u8bf7\u65e0\u89c6\u6a21\u5757\u672a\u6fc0\u6d3b</p>\n<p>Lsposed\u7528\u6237\u8bf7\u5173\u95edXposedApi\u8c03\u7528\u4fdd\u62a4</p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u756a\u8304\u7545\u542c</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<p>\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5b87\u5b99\u5de5\u5177\u7bb1</p>\n<p>AudioLab</p>\n<p>\u5feb\u8fde</p>\n<p>\u62fe\u5149\u5c0f\u8bf4</p>\n<p>ES\u6587\u4ef6\u6d4f\u89c8\u5668</p>\n<p>\u5e38\u8bfb\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5de7\u5f71</p>\n<p>\u4e71\u4e03\u516b\u7cdf</p>\n<p>B612\u5494\u53fd</p>\n<p>\u8bbe\u5907\u4fe1\u606fby\u6d41\u821f</p>\n<p>\u6d41\u821f\u6587\u4ef6</p>\n<p>\u8272\u91c7</p>\n<p>\u4e50\u79c0</p>\n<p>\u4e50\u79c0\u7cbe\u7b80\u7248</p>\n<p>\u5168\u80fd\u626b\u63cf\u738b</p>\n<p>Motion Ninja</p>\n",
+      "suggestedVersionName": "3.6",
+      "suggestedVersionCode": "28",
+      "description": "<h1>JunZi Xposed Hook</h1>\n<p>\u4e00\u4e9b\u8f6f\u4ef6\u7684hook</p>\n<h1>\u6b22\u8fce\u52a0\u5165TG\u9891\u9053</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>\u6b22\u8fce\u52a0\u5165TG\u4ea4\u6d41\u7fa4</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook_Chat\">https://t.me/JunZi_Xposed_Hook_Chat</a></p>\n<h1>\u6e29\u99a8\u63d0\u793a</h1>\n<p>\u514droot\u6a21\u5757\u8bf7\u65e0\u89c6\u6a21\u5757\u672a\u6fc0\u6d3b</p>\n<p>Lsposed\u7528\u6237\u8bf7\u5173\u95edXposedApi\u8c03\u7528\u4fdd\u62a4</p>\n<h1>\u652f\u6301\u7684\u8f6f\u4ef6</h1>\n<p>\u6eda\u52a8\u7684\u5929\u7a7a</p>\n<p>\u56e7\u6b21\u5143</p>\n<p>CiliCli\u52a8\u6f2b</p>\n<p>\u8df3\u821e\u7684\u7ebf</p>\n<p>P\u7ad9\u52a9\u624bLite</p>\n<p>\u9965\u997f\u9ca8\u8fdb\u5316</p>\n<p>\u9965\u997f\u9ca8\u4e16\u754c</p>\n<p>\u770b\u6f2b</p>\n<p>\u7eff\u8c46\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u91cd\u751f\u7ec6\u80de</p>\n<p>\u9526\u4e66</p>\n<p>\u661f\u82bd\u514d\u8d39\u77ed\u5267</p>\n<p>\u756a\u8304\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u756a\u8304\u7545\u542c</p>\n<p>\u7ea2\u679c\u514d\u8d39\u77ed\u5267</p>\n<p>Picsart</p>\n<p>\u4e03\u732b\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5b87\u5b99\u5de5\u5177\u7bb1</p>\n<p>AudioLab</p>\n<p>\u5feb\u8fde</p>\n<p>\u62fe\u5149\u5c0f\u8bf4</p>\n<p>ES\u6587\u4ef6\u6d4f\u89c8\u5668</p>\n<p>\u5e38\u8bfb\u514d\u8d39\u5c0f\u8bf4</p>\n<p>\u5de7\u5f71</p>\n<p>\u4e71\u4e03\u516b\u7cdf</p>\n<p>B612\u5494\u53fd</p>\n<p>\u8bbe\u5907\u4fe1\u606fby\u6d41\u821f</p>\n<p>\u6d41\u821f\u6587\u4ef6</p>\n<p>\u8272\u91c7</p>\n<p>\u4e50\u79c0</p>\n<p>\u4e50\u79c0\u7cbe\u7b80\u7248</p>\n<p>\u5168\u80fd\u626b\u63cf\u738b</p>\n<p>Motion Ninja</p>\n<p>\u9a7e\u8003\u7cbe\u7075</p>\n<p>\u5c0f\u661f\u8bb0\u8d26</p>\n",
       "license": "Unknown",
       "name": "JunZi Xposed Hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
       "summary": "\u5bf9\u4e00\u4e9b\u8f6f\u4ef6\u7684\u529f\u80fd\u6027\u589e\u5f3a",
       "added": 1737774504000,
       "packageName": "junzi.xposed.hook",
-      "lastUpdated": 1740280961000
+      "lastUpdated": 1740367446000
     },
     {
       "authorName": "luckyzyx",
@@ -344,7 +344,7 @@
       "summary": "Wechat \u8f85\u52a9\u6027\u529f\u80fd\u589e\u5f3a",
       "added": 1739762507000,
       "packageName": "me.hd.wauxv",
-      "lastUpdated": 1740107571000
+      "lastUpdated": 1740367457000
     },
     {
       "authorName": "Yy-ss7",
@@ -752,6 +752,54 @@
       }
     ],
     "com.close.hook.ads": [
+      {
+        "added": 1732159443000,
+        "apkName": "com.close.hook.ads_20241113-2.1.8.apk",
+        "hash": "e066a6e51cacd0a42cb8c622c0c868af4ef6801c7153e4aa642703baae46487d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.close.hook.ads",
+        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
+        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
+        "size": 3370538,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.close.hook.ads.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 20241113,
+        "versionName": "2.1.8"
+      },
       {
         "added": 1732159443000,
         "apkName": "com.close.hook.ads_20241109-2.1.6.apk",
@@ -2217,6 +2265,34 @@
     ],
     "junzi.xposed.hook": [
       {
+        "added": 1740107561000,
+        "apkName": "junzi.xposed.hook_25-3.3.apk",
+        "hash": "5fff3d1dbe58063246e892a0b39356a71eab188e1c1966376513c305bfd6a310",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2844201,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 25,
+        "versionName": "3.3"
+      },
+      {
         "added": 1740021134000,
         "apkName": "junzi.xposed.hook_23-3.1.apk",
         "hash": "8ed75006debf50c6b0f24e5f9c69d3b7d11553e381b37c3f2cb71d3b8d4c828c",
@@ -2742,6 +2818,29 @@
         ],
         "versionCode": 20250217,
         "versionName": "1.0.0"
+      },
+      {
+        "added": 1740367457000,
+        "apkName": "me.hd.wauxv_223-1.0.6.apk",
+        "hash": "f8a7f501025f53c7d21a61077ad6876e7a6958addab82df41d1c5b70a695fe77",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "me.hd.wauxv",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 2059175,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 223,
+        "versionName": "1.0.6"
       }
     ],
     "me.plusne": [

@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1740281178000,
+    "timestamp": 1740367677000,
     "version": 20002
   },
   "requests": {
@@ -33,6 +33,27 @@
       "suggestedVersionCode": "60",
       "suggestedVersionName": "1.4.25",
       "summary": "微信群消息助手 - 整理群消息、服务号。"
+    },
+    {
+      "added": 1740263320000,
+      "authorName": "Szymou",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"logo/logo2.png\" width=\"10%\" /\u003e\n\u003ch1\u003eGodHook / 神引\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Szymou/GodHook\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003cbr/\u003e\n\u003cstrong\u003e源仓库：\u003c/strong\u003e\u003ca href=\"https://github.com/Szymou/GodHook\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-GodHook-yellow.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e✨\u003cstrong\u003e一个集成了各种好玩功能的Xposed模块\u003c/strong\u003e ✨\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e自动回复：支持多种AI语言大模型，如DeepSeek、Qwen、Silicon等；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e订阅功能：定时08:30am，推送每日新闻、毒鸡汤、每日天气等你想到的功能；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e接口功能： 通过访问api，执行宿主APP的消息函数，用于运维告警、数据推送等场景；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e各种新功能，待挖掘…\u003c/strong\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003e#微信机器人 #自动回复 #AI聊天 #运维告警 #Deepseek #Qwen #智普 #Silicon\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003ch1\u003eGodHook / 神引\u003c/h1\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e本模块仅适配\u003ccode\u003eLsposed\u003c/code\u003e，不适配\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e，如果使用\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e出现问题请不要在群里提问\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e适配的版本\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e当前已适配\u003cstrong\u003e谷歌版：wx8.0.49(2681)、wx8.0.49(2685)、wx8.0.48(2589)\u003c/strong\u003e，后续适配wx更多版本。\n网友收集的各APP版本，移步自行找到对应版本：\u003ca href=\"https://www.123pan.com/s/A6cA-ztAJh\"\u003e网盘链接\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n\u003ch2\u003e1.自动回复：接入AI语言大模型\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e使用步骤：\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003col\u003e\n\u003cli\u003e\u003cstrong\u003e在GodHook App首页中，配置大模型信息；并测试成功；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e重启wx，绑定需要生效的聊天框：到你想要的聊天框中发送【#绑定聊天室】；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e如果聊天室是私聊窗口，那就可以直接聊天；如果是群聊，需要在第一步骤的时候设置生效关键词；\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e上述的关键词，可以是机器人的wx名称，如机器人的wx名称是【快乐小狗】，那就第一步骤设置的时候就设置【@快乐小狗】\u003c/li\u003e\n\u003cli\u003e在群聊中，成员@快乐小狗，机器人才被触发。\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e涉及到的\u003cstrong\u003e指令\u003c/strong\u003e：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能描述\u003c/th\u003e\n\u003cth\u003e指令\u003c/th\u003e\n\u003cth\u003e备注\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e绑定对应的聊天室\u003c/td\u003e\n\u003ctd\u003e#绑定聊天室\u003c/td\u003e\n\u003ctd\u003e可以是私聊，可以是群聊\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e测试可用性\u003c/td\u003e\n\u003ctd\u003e@测试\u003c/td\u003e\n\u003ctd\u003e默认关键词，用于测试机器人是否可用\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e单独聊天室调教机器人\u003c/td\u003e\n\u003ctd\u003e#调教：我是一个快乐的助手，喜欢说笑，爱关心人…\u003c/td\u003e\n\u003ctd\u003e不同的聊天室，可以设置不同性格的机器人\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e恢复默认调教\u003c/td\u003e\n\u003ctd\u003e#默认调教\u003c/td\u003e\n\u003ctd\u003e希望该聊天室的调教恢复成在Godhook中设定的\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不需要关键词触发\u003c/td\u003e\n\u003ctd\u003e#无需艾特\u003c/td\u003e\n\u003ctd\u003e在群聊中觉得每次@机器人觉得麻烦，可以用此指令\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e恢复成需要关键词触发\u003c/td\u003e\n\u003ctd\u003e#需艾特\u003c/td\u003e\n\u003ctd\u003e群成员太多，担心机器人回答不过来，所以需要@才触发\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查看机器人信息\u003c/td\u003e\n\u003ctd\u003e#机器人信息\u003c/td\u003e\n\u003ctd\u003e一般信息会回复在当前聊天室，重要信息会在【文件传输助手】\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e2.订阅功能（前提：AI大模型已配置并可用）\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e使用步骤：\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e前三步骤同上述功能1一模一样\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003cem\u003e在GodHook App首页中，配置大模型信息；并测试成功；(前提)\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e重启wx，绑定需要生效的聊天框：到你想要的聊天框中发送【#绑定聊天室】；\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e如果聊天室是私聊窗口，那就可以直接聊天；如果是群聊，需要在第一步骤的时候设置生效关键词；\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e发送【#订阅：xxx】即可订阅xxx业务；xxx任你喜欢，可以是每日新闻、最新科技、北京天气、每日毒鸡汤等等等…\u003c/strong\u003e\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e涉及到的\u003cstrong\u003e指令\u003c/strong\u003e：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能描述\u003c/th\u003e\n\u003cth\u003e指令\u003c/th\u003e\n\u003cth\u003e备注\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e订阅功能（需要配置大模型）\u003c/td\u003e\n\u003ctd\u003e#订阅:每日60s\u003cbr /\u003e#订阅:XX天气\u003cbr /\u003e#订阅:今日鸡汤\u003cbr /\u003e#订阅:XXX(你想要的)\u003c/td\u003e\n\u003ctd\u003e更多指令：\u003cbr /\u003e#取消订阅:每日60s\u003cbr /\u003e#取消订阅:XX天气\u003cbr /\u003e#取消全部订阅\u003cbr /\u003e#当前订阅\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e3.接口功能\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003e使用步骤：\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003col\u003e\n\u003cli\u003e绑定聊天室：在你需要的聊天框中发送【#绑定聊天室】\u003c/li\u003e\n\u003cli\u003e获取wxIds：在聊天室中发送【#聊天室ID】\u003c/li\u003e\n\u003cli\u003e把聊天室ID替换到下述API中，在浏览器中请求，即可推送消息到该聊天室\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eAPI：\u003ca href=\"http://IP:5888/?wxIds=%5B\u0026#x27;%E8%81%8A%E5%A4%A9%E5%AE%A4ID_1\u0026#x27;,\u0026#x27;%E8%81%8A%E5%A4%A9%E5%AE%A4ID_2\u0026#x27;%5D\u0026amp;msg=%E6%B6%88%E6%81%AF\"\u003ehttp://IP:5888/?wxIds=[‘聊天室ID_1’,‘聊天室ID_2’]\u0026amp;msg=消息\u003c/a\u003e\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e参数\u003c/th\u003e\n\u003cth\u003e说明\u003c/th\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eIP:5888\u003c/td\u003e\n\u003ctd\u003e手机局域网IP+端口\u003c/td\u003e\n\u003ctd\u003e如果不懂手机的本地IP，不建议往下折腾。\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ewxIds\u003c/td\u003e\n\u003ctd\u003e这是一个集合，聊天室ID的集合列表\u003c/td\u003e\n\u003ctd\u003e聊天室是什么，下面有说明\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003emsg\u003c/td\u003e\n\u003ctd\u003e文字消息\u003c/td\u003e\n\u003ctd\u003e推送到指定聊天室的消息，当前仅支持文字\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cimg src=\"logo/Test.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003cp\u003e待办：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 发布一篇帖子：如何使用magisk-frp模块，通过公网请求内网API？（即任何地方都可以通过公网请求API，从而执行发送消息操作）\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 留一个帖子让大家留言bug；或者点击本APP右上角进入\u003ca href=\"https://t.me/god_hook_nnbs\"\u003e群聊\u003c/a\u003e留言；亦或在\u003ca href=\"https://github.com/Szymou/GodHook\"\u003eGithub\u003c/a\u003e上提issue；\u003c/li\u003e\n\u003cli\u003e\u003cinput type=\"checkbox\" disabled=\"\" /\u003e 有时间再整作用域更多APP\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e一些概念性知识\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003cstrong\u003e聊天室是什么？\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e即：私聊窗口、群聊窗口、文件传输助手\n比如本APP登录的WX作为机器人，该WX的好友或者群聊在聊天时候的窗口，就是聊天室。\u003c/p\u003e\n\u003cp\u003e聊天室ID：私聊窗口(wxid_xxxxxxx)、群聊窗口(xxxxx@chatroom)、文件传输助手(filexxxxx)\n聊天室ID本质就是用户的wxid或者群聊的id…\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cstrong\u003e需要使用本机器人，就一定要进行绑定聊天室\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e在聊天室发送指令\u003ccode\u003e#绑定聊天室\u003c/code\u003e既可绑定该聊天室ID=\u0026gt;wxIds\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e\u003cstrong\u003e取消机器人服务\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e在聊天室发送\u003ccode\u003e#解绑聊天室\u003c/code\u003e既可删除该聊天室ID=\u0026gt;wxIds\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e指令大全\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能描述\u003c/th\u003e\n\u003cth\u003e发送指令\u003c/th\u003e\n\u003cth\u003e备注\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e机器人绑定聊天室\u003c/td\u003e\n\u003ctd\u003e#绑定聊天室\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e机器人解绑聊天室\u003c/td\u003e\n\u003ctd\u003e#解绑聊天室\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查询本聊天室ID\u003c/td\u003e\n\u003ctd\u003e#聊天室ID\u003c/td\u003e\n\u003ctd\u003e对于开发者使用api：用于发送消息到指定聊天室\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查询已绑定的聊天室（管理员）\u003c/td\u003e\n\u003ctd\u003e#当前聊天室\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e解绑全部机器人（管理员）\u003c/td\u003e\n\u003ctd\u003e#解绑全部聊天室\u003c/td\u003e\n\u003ctd\u003e相当于清空业务，重新开始\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查询API使用方法（管理员）\u003c/td\u003e\n\u003ctd\u003e#API说明\u003c/td\u003e\n\u003ctd\u003e返回简单的使用说明\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e进群欢迎（管理员）\u003c/td\u003e\n\u003ctd\u003e#进群欢迎语:\u003cbr /\u003e欢迎进群，群内规则：\u003cbr /\u003e1.xx; \u003cbr /\u003e2xxx;\u003c/td\u003e\n\u003ctd\u003e\\n是换行符，不要打出来\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查询本群欢迎语（管理员）\u003c/td\u003e\n\u003ctd\u003e#查询本群欢迎语\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e取消群组欢迎语（管理员）\u003c/td\u003e\n\u003ctd\u003e#取消本群欢迎语\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e订阅功能（需要配置大模型）\u003c/td\u003e\n\u003ctd\u003e#订阅:每日60s\u003cbr /\u003e#订阅:XX天气\u003cbr /\u003e#订阅:今日鸡汤\u003cbr /\u003e#订阅:XXX(你想要的)\u003c/td\u003e\n\u003ctd\u003e更多指令：\u003cbr /\u003e#取消订阅:每日60s\u003cbr /\u003e#取消订阅:XX天气\u003cbr /\u003e#取消全部订阅\u003cbr /\u003e#当前订阅\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e群成员需要被@\u003c/td\u003e\n\u003ctd\u003e#需求:xxx | #艾特我:xxx\u003c/td\u003e\n\u003ctd\u003e如果推送的消息内容中存在xxx，则@发出该指令的群成员\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e群成员查询自己的@\u003c/td\u003e\n\u003ctd\u003e#我的需求 | #我的艾特\u003c/td\u003e\n\u003ctd\u003e群成员查询自己设置过的关键字\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003ctd\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e绑定对应的聊天室\u003c/td\u003e\n\u003ctd\u003e#绑定聊天室\u003c/td\u003e\n\u003ctd\u003e可以是私聊，可以是群聊\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e测试可用性\u003c/td\u003e\n\u003ctd\u003e@测试\u003c/td\u003e\n\u003ctd\u003e默认关键词，用于测试机器人是否可用\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e单独聊天室调教机器人\u003c/td\u003e\n\u003ctd\u003e#调教：我是一个快乐的助手，喜欢说笑，爱关心人…\u003c/td\u003e\n\u003ctd\u003e不同的聊天室，可以设置不同性格的机器人\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e恢复默认调教\u003c/td\u003e\n\u003ctd\u003e#默认调教\u003c/td\u003e\n\u003ctd\u003e希望该聊天室的调教恢复成在Godhook中设定的\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不需要关键词触发\u003c/td\u003e\n\u003ctd\u003e#无需艾特\u003c/td\u003e\n\u003ctd\u003e在群聊中觉得每次@机器人觉得麻烦，可以用此指令\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e恢复成需要关键词触发\u003c/td\u003e\n\u003ctd\u003e#需艾特\u003c/td\u003e\n\u003ctd\u003e群成员太多，担心机器人回答不过来，所以需要@才触发\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e查看机器人信息\u003c/td\u003e\n\u003ctd\u003e#机器人信息\u003c/td\u003e\n\u003ctd\u003e一般信息会回复在当前聊天室，重要信息会在【文件传输助手】\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e交流\u003c/h2\u003e\n\u003cp\u003e待定\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Szymou/GodHook\"\u003e源仓库：https://github.com/Szymou/GodHook\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Szymou\"\u003e作者/Aonther: Szymou\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003eStar\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://starchart.cc/Szymou/GodHook\"\u003e\u003cimg src=\"https://starchart.cc/Szymou/GodHook.svg?variant=light\" alt=\"Stargazers over time\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1740263320000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "1. 支持AI语言大模型回复，支持DeepSeek、Qwen、Silicon等\n2. 支持订阅各种功能，任君选择，如每日新闻、今日天气、考公历史知识点等\n3. 支持WebApi执行发送消息：请求相应的api，执行消息推送，一般用在服务器告警等场景"
+        }
+      },
+      "name": "1个神引 / GodHook",
+      "packageName": "cc.godhook.webapi",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cc.godhook",
+      "suggestedVersionCode": "240",
+      "suggestedVersionName": "1.4.5",
+      "summary": "1.微chat等各APP接入AI语言大模型(deepseek,qwen,silicon...)；\n2.通过请求API推送消息，适合服务器告警、数据推送等场..."
     },
     {
       "added": 1740162066000,
@@ -122,25 +143,25 @@
       "summary": "叼毛广告，休想通过摇摇启动APP\nTools that block activity startup"
     },
     {
-      "added": 1735737272000,
+      "added": 1740330139000,
       "authorName": "zjyzip",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eAdClose\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eAdClose\u003c/strong\u003e 是一个基于Xposed框架的Android广告屏蔽工具，致力于提供一个无广告的应用浏览体验，旨在优化用户体验并减少干扰。请在LSPosed框架环境中使用。\u003c/p\u003e\n\u003cp\u003eAdClose的核心功能是阻止应用内的广告SDK初始化加载，并拦截应用广告请求以屏蔽广告。\u003c/p\u003e\n\u003ch2\u003e主要特性\u003c/h2\u003e\n\u003cp\u003e功能支持(顺序)：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e精准处理\u003c/strong\u003e：阻止应用内广告SDK初始化。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e广告请求拦截\u003c/strong\u003e：拦截屏蔽应用的网络广告请求。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e截图录屏限制移除\u003c/strong\u003e：允许在应用中自由截图和录屏。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eVPN与代理检测移除\u003c/strong\u003e：去除应用内的VPN和系统代理检测。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e传感器监听移除\u003c/strong\u003e：用于禁用摇一摇等基于传感器的广告跳转。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eRoot检测规避\u003c/strong\u003e：去除应用内的一般性Root，Magisk和Xposed框架检测。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的应用范围\u003c/h2\u003e\n\u003cp\u003eAdClose支持众多流行的Android应用，包括但不限于：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e视频播放应用\u003c/li\u003e\n\u003cli\u003e阅读和新闻应用\u003c/li\u003e\n\u003cli\u003e工具和便捷应用\u003c/li\u003e\n\u003cli\u003e商务办公应用\u003c/li\u003e\n\u003cli\u003e社交和通讯应用\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e广告SDK处理\u003c/h2\u003e\n\u003cp\u003eAdClose能够处理应用内包含以下在内的多种SDK类型：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eADSuyiSdk Ads\u003c/li\u003e\n\u003cli\u003eAdScope\u003c/li\u003e\n\u003cli\u003eAli BaiChuan Ads\u003c/li\u003e\n\u003cli\u003eApplovin Sdk\u003c/li\u003e\n\u003cli\u003eAppic Ads\u003c/li\u003e\n\u003cli\u003eBaidu Ads\u003c/li\u003e\n\u003cli\u003eBJXingu Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) Ads\u003c/li\u003e\n\u003cli\u003eByteDance (Pangolin) GroMore\u003c/li\u003e\n\u003cli\u003eFaceBook Ads\u003c/li\u003e\n\u003cli\u003eGoogle Ads\u003c/li\u003e\n\u003cli\u003eGoogle FireBase Crashlytics Sdk\u003c/li\u003e\n\u003cli\u003eHuawei Ads\u003c/li\u003e\n\u003cli\u003eInmobi Ads\u003c/li\u003e\n\u003cli\u003eKwai Ads\u003c/li\u003e\n\u003cli\u003eMeiShu Ads\u003c/li\u003e\n\u003cli\u003eMintegral Ads\u003c/li\u003e\n\u003cli\u003eMbridge Ads\u003c/li\u003e\n\u003cli\u003ePinduoduo Ads\u003c/li\u003e\n\u003cli\u003eQumeng Ads\u003c/li\u003e\n\u003cli\u003eSigmob Ads\u003c/li\u003e\n\u003cli\u003eTanx Ads\u003c/li\u003e\n\u003cli\u003eTencent Ads\u003c/li\u003e\n\u003cli\u003eTencent SDK\u003c/li\u003e\n\u003cli\u003eTopOn SDK (anythink)\u003c/li\u003e\n\u003cli\u003eTradPlus Ads\u003c/li\u003e\n\u003cli\u003eUmeng SDK\u003c/li\u003e\n\u003cli\u003eUnity3d Ads\u003c/li\u003e\n\u003cli\u003eVungle Sdk\u003c/li\u003e\n\u003cli\u003eXiaoChuang Ads (ZuiYou)\u003c/li\u003e\n\u003cli\u003eXinwuPaijin Ads\u003c/li\u003e\n\u003cli\u003eXiaomi Ads\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e使用指南\u003c/h2\u003e\n\u003cp\u003e在安装AdClose之前，请确保您的设备已经安装LSPosed框架。\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e下载并安装AdClose模块。\u003c/li\u003e\n\u003cli\u003e在LSPosed模块管理器中激活AdClose模块。\u003c/li\u003e\n\u003cli\u003e在模块作用域中选择您希望去除广告的应用。\u003c/li\u003e\n\u003cli\u003e启动AdClose模块，选择并点击应用列表，启用相应的Hook功能。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003e如何贡献\u003c/h2\u003e\n\u003cp\u003e如果您对AdClose有改进建议，或发现Bug，欢迎通过Issues反馈。\u003c/p\u003e\n\u003ch2\u003e支持我们\u003c/h2\u003e\n\u003cp\u003e如果AdClose对您有帮助，请给予我们Star支持！这是我们持续改进的最大动力。\u003c/p\u003e\n\u003ch2\u003e关注我们\u003c/h2\u003e\n\u003cp\u003e获取更多更新和帮助，请关注我们的Telegram频道：\u003c/p\u003e\n\u003cp\u003e🌟 \u003cstrong\u003e频道入口\u003c/strong\u003e: @AdClose\u003c/p\u003e\n",
       "icon": "com.close.hook.ads.png",
-      "lastUpdated": 1735737272000,
+      "lastUpdated": 1740330139000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- 代码优化\n- 修复闪退问题\n- 重构 RequestHook\n- 增加更多的调试日志\n- 增加简易的Hook提示\n- 优化 ContextUtil 回调注册"
+          "whatsNew": "- 优化页面代码\n- 更新项目依赖库\n- 优化HookUtil工具类\n- 优化ContextUtil回调注册\n- 增加主线程 Toast提示开关\n- 增加Hook WebViewClient.shouldoverrideUrlLoading\n- 升级处理SDK广告初始化的方法，应用启动速度得到提升"
         }
       },
       "name": "AdClose",
       "packageName": "com.close.hook.ads",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.close.hook.ads",
-      "suggestedVersionCode": "20250101",
-      "suggestedVersionName": "2.2.4"
+      "suggestedVersionCode": "20250223",
+      "suggestedVersionName": "2.2.8"
     },
     {
       "added": 1703150040000,
@@ -2289,6 +2310,27 @@
       "summary": "解锁部分软件的会员"
     },
     {
+      "added": 1740332102000,
+      "authorName": "callng",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e小米应用商店 广告移除\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eStarVoyager\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/hosizoraru/StarVoyager\"\u003eStarVoyager\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eezXHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eezXHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "lastUpdated": 1740332102000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "**Full Changelog**: https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads/commits/1-1.0.0\n\n初始版本"
+        }
+      },
+      "name": "Fuck Market Ads",
+      "packageName": "com.owo233.fuckmarketads",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "小米应用商店 广告移除"
+    },
+    {
       "added": 1711104953000,
       "authorName": "ZZCYUN",
       "categories": [
@@ -2647,25 +2689,6 @@
       "suggestedVersionCode": "39",
       "suggestedVersionName": "3.9",
       "summary": "[Partially abandoned - READ THE DESCRIPTION]\nAllow to use the official dark t..."
-    },
-    {
-      "added": 1740263320000,
-      "authorName": "Szymou",
-      "categories": [
-        "Xposed"
-      ],
-      "lastUpdated": 1740263320000,
-      "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "1. 支持AI语言大模型回复，支持DeepSeek、Qwen、Silicon等\n2. 支持订阅各种功能，任君选择，如每日新闻、今日天气、考公历史知识点等\n3. 支持WebApi执行发送消息：请求相应的api，执行消息推送，一般用在服务器告警等场景"
-        }
-      },
-      "name": "GodHook",
-      "packageName": "cc.godhook.webapi",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/cc.godhook",
-      "suggestedVersionCode": "240",
-      "suggestedVersionName": "1.4.5"
     },
     {
       "added": 1693320621000,
@@ -3480,24 +3503,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1740214902000,
+      "added": 1740306849000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群(没啥人)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n",
-      "lastUpdated": 1740214902000,
+      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
+      "lastUpdated": 1740306849000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 小星记账\n新增 支持 万能免费去水印神器\n优化 星芽免费短剧可能会弹出广告的问题"
+          "whatsNew": "新增 支持 驾考精灵\n修复 小星记账使用会员功能弹出密钥校验失败的问题"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "27",
-      "suggestedVersionName": "3.5",
+      "suggestedVersionCode": "28",
+      "suggestedVersionName": "3.6",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -7002,7 +7025,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1740280921000,
+      "lastUpdated": 1740367405000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7098,13 +7121,13 @@
       "summary": "This xposed module forces Cloudflare 1.1.1.1 App to allow Play Store using WARP+"
     },
     {
-      "added": 1740116024000,
+      "added": 1739762507000,
       "authorName": "HdShare",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e阻止撤回\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动登录\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动原图\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e表情游戏\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e虚拟定位\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e圆形头像\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e通话限制\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e消息详情\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e精确数量\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1740116024000,
+      "lastUpdated": 1740367457000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -12320,7 +12343,25 @@
     ],
     "com.close.hook.ads": [
       {
-        "added": 1735737272000,
+        "added": 1740330139000,
+        "apkName": "com.close.hook.ads_20250223-2.2.8.apk",
+        "hash": "d8ba3b6990a3906de3dda56615971e6238b2dbe1e90a9c4a6009a714ceec8d59",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.close.hook.ads",
+        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
+        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
+        "size": 3550837,
+        "targetSdkVersion": 34,
+        "versionCode": 20250223,
+        "versionName": "2.2.8"
+      },
+      {
+        "added": 1736058293000,
         "apkName": "com.close.hook.ads_20250101-2.2.4.apk",
         "hash": "2896b689d6a521b31ac6d69425cfe109390be3b2efd5aa8c5d5328be8694ef8d",
         "hashType": "sha256",
@@ -12354,24 +12395,6 @@
         "targetSdkVersion": 34,
         "versionCode": 20241210,
         "versionName": "2.2.2"
-      },
-      {
-        "added": 1732159443000,
-        "apkName": "com.close.hook.ads_20241113-2.1.8.apk",
-        "hash": "e066a6e51cacd0a42cb8c622c0c868af4ef6801c7153e4aa642703baae46487d",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.close.hook.ads",
-        "sig": "cae9a0ab8471a49ca8cd39d2c9c5b536",
-        "signer": "0db3e5c3c4d842566296473b4fd1bb3a3264a09d175128583d7d52c78048d30b",
-        "size": 3370538,
-        "targetSdkVersion": 34,
-        "versionCode": 20241113,
-        "versionName": "2.1.8"
       }
     ],
     "com.coderstory.flyme": [
@@ -14729,6 +14752,25 @@
         "versionName": "1.9.9.9"
       }
     ],
+    "com.owo233.fuckmarketads": [
+      {
+        "added": 1740332102000,
+        "apkName": "com.owo233.fuckmarketads_1-1.0.apk",
+        "hash": "a595e8d5f90f4a63abda4fc7e1d53a1e0e44f1e65d7c0e4d1e45b3e81a92ab3c",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.owo233.fuckmarketads",
+        "sig": "6c850a10682de9f67129752702c60ad4",
+        "signer": "d54f0c2bb8fff2306aba94b4aa622287776d580d647f39d06e23f9befd027f46",
+        "size": 353074,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "com.parallelc.micts": [
       {
         "added": 1735464565000,
@@ -15988,7 +16030,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1740280921000,
+        "added": 1740367405000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18554,7 +18596,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1740214902000,
+        "added": 1740306849000,
+        "apkName": "junzi.xposed.hook_28-3.6.apk",
+        "hash": "a78b51fc5146c62339b0595378becae3ab2125cb2a73b34f0177686d7bc6053f",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2966971,
+        "targetSdkVersion": 33,
+        "versionCode": 28,
+        "versionName": "3.6"
+      },
+      {
+        "added": 1740280961000,
         "apkName": "junzi.xposed.hook_27-3.5.apk",
         "hash": "4cd7dec0563c9d40b6203b579b6f59b49cecb925088b1e2d967bbe0ae3d2058e",
         "hashType": "sha256",
@@ -18588,24 +18648,6 @@
         "targetSdkVersion": 33,
         "versionCode": 26,
         "versionName": "3.4"
-      },
-      {
-        "added": 1740107561000,
-        "apkName": "junzi.xposed.hook_25-3.3.apk",
-        "hash": "5fff3d1dbe58063246e892a0b39356a71eab188e1c1966376513c305bfd6a310",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2844201,
-        "targetSdkVersion": 33,
-        "versionCode": 25,
-        "versionName": "3.3"
       }
     ],
     "lialh4.ldf": [
@@ -19005,7 +19047,7 @@
     ],
     "me.hd.wauxv": [
       {
-        "added": 1740116024000,
+        "added": 1740107571000,
         "apkName": "me.hd.wauxv_20250221-1.0.5.apk",
         "hash": "e58d5feb6d5c1d8a52cdd757ba1e3624c62dac7c1054814ab63addb6b45f1531",
         "hashType": "sha256",
