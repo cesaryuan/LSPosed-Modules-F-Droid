@@ -1,0 +1,53 @@
+## 更新日志
+
+- 关注 [Telegram 频道](https://t.me/lackluster_stuff) 以获取预览与测试更新 
+- **严禁在酷安等任何国内平台宣传净化页的功能，严禁二次传播**
+
+### 更新内容
+
+- 支持 HyperOS 2 (不再支持 HyperOS 1)
+- 新增 DexKit 缓存
+- 新 UI
+- 新增 **状态栏->字体**
+- 新增 **状态栏->禁用智能深色**
+- 新增 **桌面->增强返回手势触觉反馈**
+- **桌面->增强返回手势** 支持触发更多功能
+- **桌面->强制应用程序标签/状态栏/负一屏颜色**（深色模式下需开启禁用智能深色）
+- 新增 搜索使用自定义的搜索引擎
+- 净化功能换新
+
+### 已知问题
+
+- **桌面->大文件夹内图标大小自适应**会导致文件夹动画异常
+- 部分 UI 细节问题
+
+### 注意
+- 由于 OS2 已官方支持桌面模糊，当前（和后续）版本不再提供**桌面->高级模糊效果**功能
+- 暂不支持**系统界面->自定义媒体控件**
+- 当前（和后续）版本不再支持 HyperOS 1
+- 当前（和后续）版本不再维护对平板的针对性适配
+
+------
+
+## Changelog  
+
+### Updates  
+- Added support for **HyperOS 2**  
+- Added **DexKit cache**  
+- **New UI** design  
+- Added **System UI -> Font** 
+- Added **System UI -> Disable Smart dark**  
+- Added **System launcher -> Enhanced back gesture haptic feedback**  
+- **System launcher -> Enhanced back gesture** now supports more functions  
+- **System launcher -> Force App label/Status bar/Minus screen color** (requires enabling **Disable Smart dark**)  
+- Added **Custom Search Engine** support for Search app  
+- **Clean master** redesigned  
+
+### Known Issues  
+- **System launcher -> Adaptive icon size in large folders** may cause abnormal folder animations  
+
+### Notes  
+- **System launcher -> Advanced Blur Effect** has been removed in current (and future) versions, as **OS2** now natively supports launcher blur  
+- **System UI -> Custom Media Controls** is temporarily unavailable  
+- **HyperOS 1** is no longer supported in current (and future) versions  
+- **Tablet-specific optimizations** will no longer be maintained in current (and future) versions

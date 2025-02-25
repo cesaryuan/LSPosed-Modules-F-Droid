@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1740367663000,
+    "timestamp": 1740453928000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2305,7 +2305,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740367446000,
+        "lastUpdated": 1740453763000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2320,6 +2320,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "10dcc5e683a8385ed47031f6b860984d483ab30a0f8d7afe97f663ec55dc8116": {
+          "added": 1740193796000,
+          "file": {
+            "name": "/junzi.xposed.hook_26-3.4.apk",
+            "sha256": "10dcc5e683a8385ed47031f6b860984d483ab30a0f8d7afe97f663ec55dc8116",
+            "size": 2930284
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.4",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "5fff3d1dbe58063246e892a0b39356a71eab188e1c1966376513c305bfd6a310": {
           "added": 1740107561000,
           "file": {
@@ -3516,7 +3549,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738725090000,
+        "lastUpdated": 1740453794000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -3531,6 +3564,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "b45343718218d901e1eeffbb92171a6ce77334609f93834b3cc410ed89adac57": {
+          "added": 1738379517000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_412-1.24.1.apk",
+            "sha256": "b45343718218d901e1eeffbb92171a6ce77334609f93834b3cc410ed89adac57",
+            "size": 9024206
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.24.1",
+            "versionCode": 412,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "775b66d8328586f0ed3e2dd45cdccde0f97bf0c6c125a12e5c63fb9a8eaf83c6": {
           "added": 1736996856000,
           "file": {
