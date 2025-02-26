@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1740453928000,
+    "timestamp": 1740540649000,
     "categories": {
       "Xposed": {
         "name": {
@@ -877,7 +877,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738292783000,
+        "lastUpdated": 1740540258000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
         "authorName": "luckyzyx",
         "name": {
@@ -892,6 +892,86 @@
         "preferredSigner": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
       },
       "versions": {
+        "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd": {
+          "added": 1738120001000,
+          "file": {
+            "name": "/com.luckyzyx.luckytool_17981-1.2.7.apk",
+            "sha256": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
+            "size": 8784792
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.7",
+            "versionCode": 17981,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VISUAL_USER_SELECTED"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.android.permission.GET_INSTALLED_APPS"
+              },
+              {
+                "name": "com.oplus.ocs.permission.third"
+              },
+              {
+                "name": "android.permission.NOTIFICATION_SERVICE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        },
         "b9ee0bb7728ad1e79495a985b5976c669438525a627999637682747db715360a": {
           "added": 1733214074000,
           "file": {
@@ -2251,6 +2331,47 @@
                 "name": "icu.freedomIntrovert.biliSendCommAntifraud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
+          }
+        }
+      }
+    },
+    "inc.whew.android.fakegapps": {
+      "metadata": {
+        "added": 1732159532000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740540313000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps",
+        "authorName": "whew-inc",
+        "name": {
+          "en-US": "FakeGApps"
+        },
+        "description": {
+          "en-US": "<h1>FakeGApps</h1>\n<p>Used in combination with <a href=\"https://microg.org/\">MicroG</a> to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.</p>\n<p>Supports Android 4.0 - 14</p>\n<p><a href=\"https://github.com/whew-inc/FakeGApps\">Original repository</a></p>\n"
+        },
+        "preferredSigner": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b"
+      },
+      "versions": {
+        "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce": {
+          "added": 1732159532000,
+          "file": {
+            "name": "/inc.whew.android.fakegapps_10-5.apk",
+            "sha256": "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce",
+            "size": 28794
+          },
+          "manifest": {
+            "versionName": "5",
+            "versionCode": 10,
+            "usesSdk": {
+              "minSdkVersion": 15,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b"
+              ]
+            }
           }
         }
       }

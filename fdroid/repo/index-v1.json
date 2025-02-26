@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1740453942000,
+    "timestamp": 1740540662000,
     "version": 20002
   },
   "requests": {
@@ -1872,25 +1872,25 @@
       "summary": "Enhance Xperia Game Enhancer"
     },
     {
-      "added": 1737638326000,
+      "added": 1740523248000,
       "authorName": "whew-inc",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eFakeGApps\u003c/h1\u003e\n\u003cp\u003eUsed in combination with \u003ca href=\"https://microg.org/\"\u003eMicroG\u003c/a\u003e to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.\u003c/p\u003e\n\u003cp\u003eSupports Android 4.0 - 14\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/whew-inc/FakeGApps\"\u003eOriginal repository\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "inc.whew.android.fakegapps.png",
-      "lastUpdated": 1737638326000,
+      "lastUpdated": 1740523248000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## What's Changed\n* Cleanup and modernize build system by @nift4 in https://github.com/whew-inc/FakeGApps/pull/21\n* Add spoofing of SigningInfo to fix Android \u003e= 9 by @gilbsgilbs in https://github.com/whew-inc/FakeGApps/pull/23"
+          "whatsNew": "## What's Changed\n* fix: explicit support for Android 15 by @gilbsgilbs in https://github.com/whew-inc/FakeGApps/pull/28\n* fix: bump version code by @gilbsgilbs in https://github.com/whew-inc/FakeGApps/pull/29\n* fix: `SigningDetails` signature mismatch in Android 9 by @gilbsgilbs in https://github.com/whew-inc/FakeGApps/pull/31\n"
         }
       },
       "name": "FakeGApps",
       "packageName": "inc.whew.android.fakegapps",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps",
-      "suggestedVersionCode": "11",
-      "suggestedVersionName": "6"
+      "suggestedVersionCode": "13",
+      "suggestedVersionName": "6.6"
     },
     {
       "added": 1703836825000,
@@ -2310,24 +2310,24 @@
       "summary": "解锁部分软件的会员"
     },
     {
-      "added": 1740332102000,
+      "added": 1740488728000,
       "authorName": "callng",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e小米应用商店 广告移除\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eStarVoyager\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/hosizoraru/StarVoyager\"\u003eStarVoyager\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eezXHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eezXHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1740332102000,
+      "description": "\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e小米应用商店 广告移除\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e移除开屏广告\u003c/li\u003e\n\u003cli\u003e隐藏广告低栏\u003c/li\u003e\n\u003cli\u003e隐藏应用安全检测\u003c/li\u003e\n\u003cli\u003e禁止切换前台展示广告\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eStarVoyager\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/hosizoraru/StarVoyager\"\u003eStarVoyager\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eezXHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eezXHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "lastUpdated": 1740488728000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**Full Changelog**: https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads/commits/1-1.0.0\n\n初始版本"
+          "whatsNew": "**移除DexKit库,缩小安装包体积**\n"
         }
       },
       "name": "Fuck Market Ads",
       "packageName": "com.owo233.fuckmarketads",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "3",
+      "suggestedVersionName": "1.1.1",
       "summary": "小米应用商店 广告移除"
     },
     {
@@ -3850,25 +3850,25 @@
       "summary": "Hide chats in the Telegram messenger"
     },
     {
-      "added": 1738248571000,
+      "added": 1740454745000,
       "authorName": "luckyzyx",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eLuckyTool\u003c/h1\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\"\u003eEnglish\u003c/a\u003e  丨 简体中文\u003c/b\u003e\n\u003c/p\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/LuckyTool\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e   \n\u003ca href=\"https://crowdin.com/project/luckytool\"\u003e\u003cimg alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"\u003e\u003c/a\u003e\n\u003cp\u003e对ColorOS系统进行的扩展优化的Xposed模块\u003c/p\u003e\n\u003cp\u003e永久免费模块，请勿上当受骗\u003c/p\u003e\n\u003cp\u003e禁止引流、搬运、转载、售卖、分享、分流\u003c/p\u003e\n\u003cp\u003e提倡授之以渔，切莫授之以鱼\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能请求与BUG反馈\u003c/h2\u003e\n\u003cp\u003e请前往TG群组进行反馈交流\u003c/p\u003e\n\u003cdiv align=\"left\"\u003e\n\u003cp\u003e\n   \u003cb\u003e\u003ca href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\"\u003e更新日志\u003c/a\u003e | \u003ca href=\"https://crwd.in/luckytool\"\u003e参与翻译\u003c/a\u003e\u003c/b\u003e\n\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e作用域优化\u003c/h2\u003e\n\u003cp\u003e升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化\u003c/p\u003e\n\u003cp\u003e例如：开发者选项通知，则重新优化系统界面（\u003c/p\u003e\n\u003ch2\u003e模块违规条例解析\u003c/h2\u003e\n\u003cp\u003e引流：包括但不限于快手、抖音、公众号等引流行为\u003c/p\u003e\n\u003cp\u003e售卖：免费模块，不再解释\u003c/p\u003e\n\u003cp\u003e搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能\u003c/p\u003e\n\u003cp\u003e开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)\u003c/p\u003e\n\u003cp\u003e注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规\u003c/p\u003e\n\u003cp\u003e违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜\u003c/p\u003e\n\u003ch2\u003eXposed API\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.luckyzyx.luckytool.png",
-      "lastUpdated": 1738248571000,
+      "lastUpdated": 1740454745000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "##  2025新年快乐吖\nLT发布至今已达两年半，为感谢众多粉丝的青睐，特地在支付宝发布了一个口令红包，金额不多，先到先得\n\n口令: 模块的正式名称\n\n## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n- [适配]"
+          "whatsNew": "## 其他链接 (Other Links)\n\n_**禁止引流、搬运、转载、售卖、分享、分流**_\n- [模块文档 ModuleDoc](https://luckyzyx.gitlab.io/LuckyTool_Doc)\n- [反馈流程 FeedbackProcess](https://luckyzyx.gitlab.io/LuckyTool_Doc/check_problem)\n- [下载方式 DownloadLink](https://luckyzyx.gitlab.io/LuckyTool_Doc/use/download_link)\n- [捐赠方式 Donate](https://luckyzyx.gitlab.io/LuckyTool_Doc/donate)\n- [捐赠方式 腾讯文档](https://docs.qq.com/doc/DS2ZDZlNIeUlpdlV1)\n\n## 更新日志 (ChangeLog)\n\n- [修复] 底部导航栏动态取色异常\n- [移除] 移除响铃状态切换磁贴 C15+\n- [更改] 迁移强制刷新率至其他页面\n- [添加] Root来源与框架信息显示\n"
         }
       },
       "name": "LuckyTool Xposed 免费模块",
       "packageName": "com.luckyzyx.luckytool",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool",
-      "suggestedVersionCode": "18005",
-      "suggestedVersionName": "1.2.7",
+      "suggestedVersionCode": "18287",
+      "suggestedVersionName": "1.2.8",
       "summary": "对ColorOS系统进行的扩展优化的Xposed模块\nXposed module for extended optimization of ColorOS..."
     },
     {
@@ -7025,7 +7025,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1740453721000,
+      "lastUpdated": 1740540289000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -14290,7 +14290,24 @@
     ],
     "com.luckyzyx.luckytool": [
       {
-        "added": 1738248571000,
+        "added": 1740454745000,
+        "apkName": "com.luckyzyx.luckytool_18287-1.2.8.apk",
+        "hash": "f1c97c21f8b197da175a4f65bd6049ec154ed5d12d20013962438332ed7e80ac",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8733493,
+        "targetSdkVersion": 28,
+        "versionCode": 18287,
+        "versionName": "1.2.8"
+      },
+      {
+        "added": 1738292783000,
         "apkName": "com.luckyzyx.luckytool_18005-1.2.7.apk",
         "hash": "b454a27f662c74d0be5cb7d77aabb26ba8c58cfdf8470a99203c4a5d75e64f63",
         "hashType": "sha256",
@@ -14321,23 +14338,6 @@
         "size": 8784651,
         "targetSdkVersion": 28,
         "versionCode": 17993,
-        "versionName": "1.2.7"
-      },
-      {
-        "added": 1738120001000,
-        "apkName": "com.luckyzyx.luckytool_17981-1.2.7.apk",
-        "hash": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
-        "hashType": "sha256",
-        "minSdkVersion": 30,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.luckyzyx.luckytool",
-        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
-        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
-        "size": 8784792,
-        "targetSdkVersion": 28,
-        "versionCode": 17981,
         "versionName": "1.2.7"
       }
     ],
@@ -14769,7 +14769,22 @@
     ],
     "com.owo233.fuckmarketads": [
       {
-        "added": 1740332102000,
+        "added": 1740488728000,
+        "apkName": "com.owo233.fuckmarketads_3-1.1.1.apk",
+        "hash": "1d8f76b5971f8ff4b83ce74fb512550d9de52d3900849afb8ec939e43c1d2f33",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.owo233.fuckmarketads",
+        "sig": "6c850a10682de9f67129752702c60ad4",
+        "signer": "d54f0c2bb8fff2306aba94b4aa622287776d580d647f39d06e23f9befd027f46",
+        "size": 56038,
+        "targetSdkVersion": 35,
+        "versionCode": 3,
+        "versionName": "1.1.1"
+      },
+      {
+        "added": 1740367383000,
         "apkName": "com.owo233.fuckmarketads_1-1.0.apk",
         "hash": "a595e8d5f90f4a63abda4fc7e1d53a1e0e44f1e65d7c0e4d1e45b3e81a92ab3c",
         "hashType": "sha256",
@@ -16045,7 +16060,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1740453721000,
+        "added": 1740540289000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17378,7 +17393,22 @@
     ],
     "inc.whew.android.fakegapps": [
       {
-        "added": 1737638326000,
+        "added": 1740523248000,
+        "apkName": "inc.whew.android.fakegapps_13-6.6.apk",
+        "hash": "a74256c6a6fc15ed041dad76054b81bb74c4b6751e587dc88f9c959332f02446",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "nativecode": null,
+        "packageName": "inc.whew.android.fakegapps",
+        "sig": "3cfe0ae92b9d36fc60e0f11c23f9420d",
+        "signer": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b",
+        "size": 34207,
+        "targetSdkVersion": 35,
+        "versionCode": 13,
+        "versionName": "6.6"
+      },
+      {
+        "added": 1735009865000,
         "apkName": "inc.whew.android.fakegapps_11-6.5.apk",
         "hash": "fd01915d4a8dbeced73ca907eff022edc0779899a26d4b61d5d35bc06dcbbd00",
         "hashType": "sha256",
@@ -17406,21 +17436,6 @@
         "targetSdkVersion": 35,
         "versionCode": 11,
         "versionName": "6"
-      },
-      {
-        "added": 1732159532000,
-        "apkName": "inc.whew.android.fakegapps_10-5.apk",
-        "hash": "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce",
-        "hashType": "sha256",
-        "minSdkVersion": 15,
-        "nativecode": null,
-        "packageName": "inc.whew.android.fakegapps",
-        "sig": "3cfe0ae92b9d36fc60e0f11c23f9420d",
-        "signer": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b",
-        "size": 28794,
-        "targetSdkVersion": 34,
-        "versionCode": 10,
-        "versionName": "5"
       }
     ],
     "io.github.a13e300.tools.stethox": [
