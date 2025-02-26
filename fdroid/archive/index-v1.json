@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1740453928000,
+    "timestamp": 1740540649000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -58,6 +58,21 @@
       "added": 1732159462000,
       "packageName": "com.hchen.autoseffswitch",
       "lastUpdated": 1736910353000
+    },
+    {
+      "authorName": "whew-inc",
+      "categories": [
+        "Xposed"
+      ],
+      "suggestedVersionName": "6.6",
+      "suggestedVersionCode": "13",
+      "description": "<h1>FakeGApps</h1>\n<p>Used in combination with <a href=\"https://microg.org/\">MicroG</a> to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.</p>\n<p>Supports Android 4.0 - 14</p>\n<p><a href=\"https://github.com/whew-inc/FakeGApps\">Original repository</a></p>\n",
+      "license": "Unknown",
+      "name": "FakeGApps",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps",
+      "added": 1732159532000,
+      "packageName": "inc.whew.android.fakegapps",
+      "lastUpdated": 1740540313000
     },
     {
       "authorName": "bug-bit",
@@ -160,8 +175,8 @@
       "categories": [
         "Xposed"
       ],
-      "suggestedVersionName": "1.2.7",
-      "suggestedVersionCode": "18005",
+      "suggestedVersionName": "1.2.8",
+      "suggestedVersionCode": "18287",
       "description": "<div align=\"center\">\n<h1>LuckyTool</h1>\n<p>\n   <b><a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\">English</a>  \u4e28 \u7b80\u4f53\u4e2d\u6587</b>\n</p>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://t.me/LuckyTool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-\u9891\u9053-blue.svg?logo=telegram\"></a>   \n<a href=\"https://crowdin.com/project/luckytool\"><img alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"></a>\n<p>\u5bf9ColorOS\u7cfb\u7edf\u8fdb\u884c\u7684\u6269\u5c55\u4f18\u5316\u7684Xposed\u6a21\u5757</p>\n<p>\u6c38\u4e45\u514d\u8d39\u6a21\u5757\uff0c\u8bf7\u52ff\u4e0a\u5f53\u53d7\u9a97</p>\n<p>\u7981\u6b62\u5f15\u6d41\u3001\u642c\u8fd0\u3001\u8f6c\u8f7d\u3001\u552e\u5356\u3001\u5206\u4eab\u3001\u5206\u6d41</p>\n<p>\u63d0\u5021\u6388\u4e4b\u4ee5\u6e14\uff0c\u5207\u83ab\u6388\u4e4b\u4ee5\u9c7c</p>\n</div>\n<hr />\n<h2>\u529f\u80fd\u8bf7\u6c42\u4e0eBUG\u53cd\u9988</h2>\n<p>\u8bf7\u524d\u5f80TG\u7fa4\u7ec4\u8fdb\u884c\u53cd\u9988\u4ea4\u6d41</p>\n<div align=\"left\">\n<p>\n   <b><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\">\u66f4\u65b0\u65e5\u5fd7</a> | <a href=\"https://crwd.in/luckytool\">\u53c2\u4e0e\u7ffb\u8bd1</a></b>\n</p>\n</div>\n<h2>\u4f5c\u7528\u57df\u4f18\u5316</h2>\n<p>\u5347\u7ea7\u7cfb\u7edf\u540e\u5982\u679c\u6709\u9047\u5230\u65e0\u62a5\u9519\u4f46\u662f\u4e0d\u751f\u6548\u7684\u60c5\u51b5\uff0c\u53ef\u5c1d\u8bd5\u5728LSPosed\u91cc\u957f\u6309\u5bf9\u5e94\u7684\u4f5c\u7528\u57df\u70b9\u51fb\u91cd\u65b0\u4f18\u5316</p>\n<p>\u4f8b\u5982\uff1a\u5f00\u53d1\u8005\u9009\u9879\u901a\u77e5\uff0c\u5219\u91cd\u65b0\u4f18\u5316\u7cfb\u7edf\u754c\u9762\uff08</p>\n<h2>\u6a21\u5757\u8fdd\u89c4\u6761\u4f8b\u89e3\u6790</h2>\n<p>\u5f15\u6d41\uff1a\u5305\u62ec\u4f46\u4e0d\u9650\u4e8e\u5feb\u624b\u3001\u6296\u97f3\u3001\u516c\u4f17\u53f7\u7b49\u5f15\u6d41\u884c\u4e3a</p>\n<p>\u552e\u5356\uff1a\u514d\u8d39\u6a21\u5757\uff0c\u4e0d\u518d\u89e3\u91ca</p>\n<p>\u642c\u8fd0\u3001\u5206\u4eab\u3001\u5206\u6d41\u3001\u8f6c\u8f7d\uff1a\u9488\u5bf9\u6a21\u5757apk\u6587\u4ef6\u7684\u76f4\u63a5\u5206\u4eab\u5c06\u89c6\u4e3a\u8fdd\u89c4\uff0c\u4e0b\u8f7d\u6e20\u9053\u4ec5\u63a8\u8350Github Repo(LSPosed Repo)\u4ee5\u53ca\u6a21\u5757\u5185\u7f6e\u7684\u68c0\u6d4b\u66f4\u65b0\u529f\u80fd</p>\n<p>\u5f00\u53d1\u8005\u7684\u8bdd\uff1a\u57fa\u672c\u4e0d\u5206\u4eab\u6a21\u5757apk\u6587\u4ef6\u5c31\u6ca1\u4e8b\uff0c\u5141\u8bb8\u53d1\u5e03\u6a21\u5757\u4f7f\u7528\u6559\u7a0b\u4ee5\u53ca\u6a21\u5757\u5b98\u65b9\u4e0b\u8f7d\u6e20\u9053(\u4f8b\u5982LSPosed Repo)</p>\n<p>\u6ce8\u610f\uff1a\u6b27\u52a0\u771f\u5b98\u65b9\u6e20\u9053\u5185\u63d0\u53ca\u6a21\u5757\u3001\u8df3\u8138\u7b49\u884c\u4e3a\u9ed8\u8ba4\u89c6\u4e3a\u8fdd\u89c4</p>\n<p>\u8fdd\u89c4\u540e\u82e5\u88ab\u4ed6\u4eba\u4e3e\u62a5\u53d1\u73b0\u5219\u4f1a\u88abban\u8bbe\u5907\uff0c\u6a21\u5757\u7684\u540e\u7eed\u80fd\u5426\u5b58\u6d3b\u638c\u63e1\u5728\u5927\u5bb6\u624b\u91cc\uff0c\u4e14\u7528\u4e14\u73cd\u60dc</p>\n<h2>Xposed API</h2>\n<p><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></p>\n",
       "license": "Unknown",
       "name": "LuckyTool Xposed \u514d\u8d39\u6a21\u5757",
@@ -169,7 +184,7 @@
       "summary": "\u5bf9ColorOS\u7cfb\u7edf\u8fdb\u884c\u7684\u6269\u5c55\u4f18\u5316\u7684Xposed\u6a21\u5757\nXposed module for extended optimization of ColorOS...",
       "added": 1732159479000,
       "packageName": "com.luckyzyx.luckytool",
-      "lastUpdated": 1738292783000
+      "lastUpdated": 1740540258000
     },
     {
       "authorName": "DavidBerdik",
@@ -1126,6 +1141,97 @@
       }
     ],
     "com.luckyzyx.luckytool": [
+      {
+        "added": 1738120001000,
+        "apkName": "com.luckyzyx.luckytool_17981-1.2.7.apk",
+        "hash": "8d715df5d8fa0e48206ba0fc8cf5db02caa545e92c4601d080447f636c6dcefd",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.luckyzyx.luckytool",
+        "sig": "c6d2e0890d73bd48638cfa871cb001a9",
+        "signer": "b1b5fa3a0c3d734ce2004db6d91d4e59ae5124943a2a77c1077cd0d6b4c022c5",
+        "size": 8784792,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_IMAGES",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "com.android.permission.GET_INSTALLED_APPS",
+            null
+          ],
+          [
+            "com.oplus.ocs.permission.third",
+            null
+          ],
+          [
+            "android.permission.NOTIFICATION_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "com.luckyzyx.luckytool.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ]
+        ],
+        "versionCode": 17981,
+        "versionName": "1.2.7"
+      },
       {
         "added": 1733214074000,
         "apkName": "com.luckyzyx.luckytool_17737-1.2.6.apk",
@@ -2245,6 +2351,22 @@
         ],
         "versionCode": 600,
         "versionName": "6.0.0"
+      }
+    ],
+    "inc.whew.android.fakegapps": [
+      {
+        "added": 1732159532000,
+        "apkName": "inc.whew.android.fakegapps_10-5.apk",
+        "hash": "6f7b323bb846589e1b6b3661c51721ac59a010860943da0bfc6c5dff274dbfce",
+        "hashType": "sha256",
+        "minSdkVersion": 15,
+        "packageName": "inc.whew.android.fakegapps",
+        "sig": "3cfe0ae92b9d36fc60e0f11c23f9420d",
+        "signer": "164b8031908c41ab6dae31d9e61c7db24908eb021e8d22a95edb9b616da2791b",
+        "size": 28794,
+        "targetSdkVersion": 34,
+        "versionCode": 10,
+        "versionName": "5"
       }
     ],
     "io.github.howard20181.notificationiconfix": [

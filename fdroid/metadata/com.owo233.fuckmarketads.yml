@@ -1,8 +1,8 @@
 AuthorName: callng
 Categories:
     - Xposed
-CurrentVersion: "1.0"
-CurrentVersionCode: 1
+CurrentVersion: 1.1.1
+CurrentVersionCode: 3
 Description: |
     <hr />
     <h2>说明 / Desc:</h2>
@@ -11,6 +11,13 @@ Description: |
     <li>一切开发旨在学习，请勿用于非法用途</li>
     </ul>
     <hr />
+    <h2>功能 / Func</h2>
+    <ul>
+    <li>移除开屏广告</li>
+    <li>隐藏广告低栏</li>
+    <li>隐藏应用安全检测</li>
+    <li>禁止切换前台展示广告</li>
+    </ul>
     <h2>致谢 / Thanks:</h2>
     <table>
     <thead>
@@ -27,10 +34,6 @@ Description: |
     <tr>
     <td>ezXHelper</td>
     <td><a href="https://github.com/KyuubiRan/EzXHelper">ezXHelper</a></td>
-    </tr>
-    <tr>
-    <td>DexKit</td>
-    <td><a href="https://github.com/LuckyPray/DexKit">DexKit</a></td>
     </tr>
     </tbody>
     </table>

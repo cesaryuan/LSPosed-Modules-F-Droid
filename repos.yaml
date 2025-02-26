@@ -8815,14 +8815,11 @@ com.luckyzyx.luckytool:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>LuckyTool</h1>\n<p>\n   <b><a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/blob/main/README_EN.md\">English</a>  丨 简体中文</b>\n</p>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.luckyzyx.luckytool/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/stargazers\"><img alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool/issues\"><img alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/com.luckyzyx.luckytool\"></a>\n<a href=\"https://t.me/LuckyTool\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a>   \n<a href=\"https://crowdin.com/project/luckytool\"><img alt=\"Crowdin\" src=\"https://badges.crowdin.net/luckytool/localized.svg\"></a>\n<p>对ColorOS系统进行的扩展优化的Xposed模块</p>\n<p>永久免费模块，请勿上当受骗</p>\n<p>禁止引流、搬运、转载、售卖、分享、分流</p>\n<p>提倡授之以渔，切莫授之以鱼</p>\n</div>\n<hr />\n<h2>功能请求与BUG反馈</h2>\n<p>请前往TG群组进行反馈交流</p>\n<div align=\"left\">\n<p>\n   <b><a href=\"https://luckyzyx.gitlab.io/LuckyTool_Doc/changelog\">更新日志</a> | <a href=\"https://crwd.in/luckytool\">参与翻译</a></b>\n</p>\n</div>\n<h2>作用域优化</h2>\n<p>升级系统后如果有遇到无报错但是不生效的情况，可尝试在LSPosed里长按对应的作用域点击重新优化</p>\n<p>例如：开发者选项通知，则重新优化系统界面（</p>\n<h2>模块违规条例解析</h2>\n<p>引流：包括但不限于快手、抖音、公众号等引流行为</p>\n<p>售卖：免费模块，不再解释</p>\n<p>搬运、分享、分流、转载：针对模块apk文件的直接分享将视为违规，下载渠道仅推荐Github Repo(LSPosed Repo)以及模块内置的检测更新功能</p>\n<p>开发者的话：基本不分享模块apk文件就没事，允许发布模块使用教程以及模块官方下载渠道(例如LSPosed Repo)</p>\n<p>注意：欧加真官方渠道内提及模块、跳脸等行为默认视为违规</p>\n<p>违规后若被他人举报发现则会被ban设备，模块的后续能否存活掌握在大家手里，且用且珍惜</p>\n<h2>Xposed API</h2>\n<p><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></p>\n"
-          filename: LuckyTool_v1.2.7.18005.apk
+          filename: LuckyTool_v1.2.8.18287.apk
           id: com.luckyzyx.luckytool
           name: LuckyTool Xposed 免费模块
-          last_updated: "2025-01-30T14:49:31Z"
+          last_updated: "2025-02-25T03:39:05Z"
           releasedescription: |-
-            <h2>2025新年快乐吖</h2>
-            <p>LT发布至今已达两年半，为感谢众多粉丝的青睐，特地在支付宝发布了一个口令红包，金额不多，先到先得</p>
-            <p>口令: 模块的正式名称</p>
             <h2>其他链接 (Other Links)</h2>
             <p><em><strong>禁止引流、搬运、转载、售卖、分享、分流</strong></em></p>
             <ul>
@@ -8834,77 +8831,68 @@ com.luckyzyx.luckytool:
             </ul>
             <h2>更新日志 (ChangeLog)</h2>
             <ul>
-            <li>[适配] 强制启用最近任务内存显示 C14+</li>
-            <li>[适配] 自定义WLAN双通道加速白名单 C13.1</li>
-            <li>[适配] 移除控制中心磁贴数量限制 C13.1</li>
-            <li>[优化] 锁屏时钟组件红一Hook逻辑 C15+</li>
-            <li>[更改] 相机滤镜机型限制功能 C15+</li>
-            <li>[修复] 部分机型USB连接对话框Hook异常 C13+</li>
-            <li>[添加] 相机贾樟柯滤镜</li>
-            <li>[移除] 状态栏未使用的信号标签gen2x2 C15+</li>
-            <li>[添加] 启用游戏助手旁路供电支持 C14.1+</li>
-            <li>[添加] 启用AI大师水印 C15+</li>
-            <li>[添加] 自定义MEMC对话框参数提示</li>
-            <li>[更改] 允许自定义设备分享页面空参数</li>
-            <li>[修复] 模块内置捐赠码显示异常</li>
-            <li>[添加] 移除设备名称更改限制 C14+</li>
-            <li>[添加] 移除电源菜单SOS按钮 C13+</li>
-            <li>[更改] 状态栏时钟格式小时示例</li>
-            <li>[添加] 启用风驰内核游戏架构显示 C15+</li>
-            <li>[添加] 修复App安装按钮异常显示</li>
-            <li>[添加] 启用屏幕色温RGB调色板 C14+</li>
-            <li>[更改] 屏幕RGB色温球键值与翻译</li>
-            <li>[适配] 系统框架WIFI服务相关 C12</li>
-            <li>[添加] 移除通知置顶数量限制 C14+</li>
-            <li>[更改] 限制全应用分屏功能 C15+</li>
-            <li>[添加] 允许桌面App名称多行显示 C12+</li>
-            <li>[添加] 重新优化所有作用域Dex</li>
-            <li>[添加] 禁用高音量警告通知 C12+</li>
-            <li>[添加] 移除无网畅聊时间限制 C14.1+</li>
-            <li>[添加] 隐藏OTA卡片顶层文字 C13+</li>
-            <li>[适配] 移除最近任务列表清除按钮 v15.6.3(241a057)</li>
-            <li>[修复] 音量对话框背景模糊失效 C13</li>
-            <li>[添加] 仅优化此页作用域Dex</li>
-            <li>[修复] 飞行模式信号图标显示异常 C15+</li>
-            <li>[Fix] Mandatory enable the recent task memory display C14+</li>
-            <li>[Fix] Custom WLAN dual -channel acceleration whitelist C13.1</li>
-            <li>[Fix] Removal of the number of magnetic stickers in the control center limit C13.1</li>
-            <li>[Optimize] Lock screen clock component red one hook logic C15+</li>
-            <li>[Change] Camera filter model limitation function C15+</li>
-            <li>[Fix] Some models USB connection dialog box hook abnormality C13+</li>
-            <li>[Add] Camera Jia Zhangke filter</li>
-            <li>[Remove] The signal tags unused in the status bar Gen2x2 C15+</li>
-            <li>[Add] Enable the game assistant bypass power to support C14.1+</li>
-            <li>[Add] Enable AI Master Watermark C15+</li>
-            <li>[Add] Custom MEMC dialog box parameter prompt</li>
-            <li>[Change] Allow custom device sharing page empty parameters</li>
-            <li>[Fix] Module built -in donation code to display abnormalities</li>
-            <li>[Add] Remove the device name change limit C14+</li>
-            <li>[Add] Remove the power menu SOS button C13+</li>
-            <li>[Change] State Bar clock format hours example</li>
-            <li>[Add] Enable Fengchi kernel game architecture display C15+</li>
-            <li>[Add] Fix the app installation button abnormally display</li>
-            <li>[Add] Enable screen color temperature RGB color panel C14+</li>
-            <li>[Change] Screen RGB color Wenqi key value and translation</li>
-            <li>[Fix] System framework wifi service related C12</li>
-            <li>[Add] Remove the top quantity limit C14+</li>
-            <li>[Change] Limit the full application division function C15+</li>
-            <li>[Add] Allow desktop app name Multi -line display C12+</li>
-            <li>[Add] Re -optimize all scope DEX</li>
-            <li>[Add] Disable a huge quantity warning notification C12+</li>
-            <li>[Add] Remove the internet non -network chat time limit C14.1+</li>
-            <li>[Add] Hide the top layer of the OTA card C13+</li>
-            <li>[Fix] Remove the recent task list Clear button v15.6.3 (241A057)</li>
-            <li>[Fix] Volume dialog box background Vaguely invalidation C13</li>
-            <li>[Add] Only optimize this page. DEX</li>
-            <li>[Fix] Flight mode signal icon display abnormality C15+</li>
-            </ul>
-            <h4>附加更新 (Additional Update)</h4>
-            <ul>
-            <li>[修复] 修复部分页面获取服务崩溃</li>
-            <li>[更改] 回滚触控模式判定方式</li>
-            <li>[Fix] Repair part of the page to get the service collapse</li>
-            <li>[Change] revert the touch mode judgment method</li>
+            <li>[修复] 底部导航栏动态取色异常</li>
+            <li>[移除] 移除响铃状态切换磁贴 C15+</li>
+            <li>[更改] 迁移强制刷新率至其他页面</li>
+            <li>[添加] Root来源与框架信息显示</li>
+            <li>[更改] RGB调色板上调至C15+</li>
+            <li>[更改] 置顶通知限制调整至C14.1+</li>
+            <li>[添加] 启用自动关闭文件夹 C15+</li>
+            <li>[添加] 启用抽屉布局双行名称 C13.1+</li>
+            <li>[添加] 移除分离式控制中心编辑按钮 C15+</li>
+            <li>[添加] 移除分离式控制中心更多按钮 C15+</li>
+            <li>[添加] 启用旁路供电模式磁贴</li>
+            <li>[添加] 应用详情页面应用分身快捷跳转 C13.1+</li>
+            <li>[移除] 游戏助手旁路供电选项</li>
+            <li>[移除] 应用详情页点击图标跳转应用商店</li>
+            <li>[添加] 应用详情页打开商店快捷跳转 C12+</li>
+            <li>[优化] 功能搜索支持显示页面标题</li>
+            <li>[修复] 自定义设备分享页面参数修改异常</li>
+            <li>[添加] 移除桌面组件添加请求白名单 C14+</li>
+            <li>[修复] 应用安装页面安装包大小显示异常</li>
+            <li>[添加] 应用详情显示App安装来源</li>
+            <li>[更改] 移除AppCenter崩溃统计SDK</li>
+            <li>[适配] 桌面时钟组件红一 v15.6.8(40e2505)</li>
+            <li>[适配] 分离模式控制中心磁贴长按跳转页面</li>
+            <li>[适配] 状态栏网速布局与刷新速度 RUI6</li>
+            <li>[适配] 状态栏隐藏SIM无服务图标 RUI6</li>
+            <li>[适配] 状态栏隐藏蓝牙未连接图标 RUI6</li>
+            <li>[适配] 状态栏磁贴数量限制 RUI6</li>
+            <li>[适配] 充电动画显示充电技术与瓦数 RUI6</li>
+            <li>[适配] 音量警告对话框与通知 RUI6</li>
+            <li>[修复] 移除设备名称更改限制Hook异常</li>
+            <li>[添加] 强制启用小布通话 C14+</li>
+            <li>[Fix] Dynamic color picking exception at the bottom navigation bar</li>
+            <li>[Remove] Remove the ringing status switch tile C15+</li>
+            <li>[Change] Migrate mandatory refresh rate to other pages</li>
+            <li>[Add] Root source and frame information display</li>
+            <li>[Change] RGB palette up to C15+</li>
+            <li>[Change] Adjusted top notification limit to C14.1+</li>
+            <li>[Add] Enable automatic closing of folders C15+</li>
+            <li>[Add] Enable drawer layout dual line name C13.1+</li>
+            <li>[Add] Remove the detached control center edit button C15+</li>
+            <li>[Add] Remove the detached control center more buttons C15+</li>
+            <li>[Add] Enable bypass power supply mode tile</li>
+            <li>[Add] Application details page Quick jump to the application clone C13.1+</li>
+            <li>[Remove] Game Assistant Bypass Power Option</li>
+            <li>[Remove] Click the icon on the application details page to jump to the app store</li>
+            <li>[Add] Open the store and jump quickly C12+</li>
+            <li>[Optimize] Functional search supports displaying page title</li>
+            <li>[Fix] Exception of custom device sharing page parameter modification</li>
+            <li>[Add] Remove desktop component and add request whitelist C14+</li>
+            <li>[Fix] The installation package size of the application installation page is abnormal</li>
+            <li>[Add] Application details show the source of the app installation</li>
+            <li>[Change] Remove AppCenter crash statistics SDK</li>
+            <li>[Fix] Desktop Clock Component Red One v15.6.8 (40e2505)</li>
+            <li>[Fix] Separate mode control center tile long press to jump to page</li>
+            <li>[Fix] Status bar network speed layout and refresh speed RUI6</li>
+            <li>[Fix] Status bar hides SIM serviceless icon RUI6</li>
+            <li>[Fix] Status bar hides Bluetooth unconnected icon RUI6</li>
+            <li>[Fix] Status bar tile limit RUI6</li>
+            <li>[Fix] Charging animation display charging technology and wattage RUI6</li>
+            <li>[Fix] Volume Warning Dialog and Notification RUI6</li>
+            <li>[Fix] Remove device name change restrictions Hook exception</li>
+            <li>[Add] Forced to enable ai call C14+</li>
             </ul>
     author_name: luckyzyx
 com.luckyzyx.notifyintercept:
@@ -9594,6 +9582,13 @@ com.owo233.fuckmarketads:
             <li>一切开发旨在学习，请勿用于非法用途</li>
             </ul>
             <hr />
+            <h2>功能 / Func</h2>
+            <ul>
+            <li>移除开屏广告</li>
+            <li>隐藏广告低栏</li>
+            <li>隐藏应用安全检测</li>
+            <li>禁止切换前台展示广告</li>
+            </ul>
             <h2>致谢 / Thanks:</h2>
             <table>
             <thead>
@@ -9611,19 +9606,13 @@ com.owo233.fuckmarketads:
             <td>ezXHelper</td>
             <td><a href="https://github.com/KyuubiRan/EzXHelper">ezXHelper</a></td>
             </tr>
-            <tr>
-            <td>DexKit</td>
-            <td><a href="https://github.com/LuckyPray/DexKit">DexKit</a></td>
-            </tr>
             </tbody>
             </table>
-          filename: FuckMarketAds_1.0.apk
+          filename: FuckMarketAds_1.1.1.apk
           id: com.owo233.fuckmarketads
           name: Fuck Market Ads
-          last_updated: "2025-02-23T17:35:02Z"
-          releasedescription: |-
-            <p><strong>Full Changelog</strong>: <a href="https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads/commits/1-1.0.0">https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads/commits/1-1.0.0</a></p>
-            <p>初始版本</p>
+          last_updated: "2025-02-25T13:05:28Z"
+          releasedescription: <p><strong>移除DexKit库,缩小安装包体积</strong></p>
     author_name: callng
 com.parallelc.micts:
     git: https://github.com/Xposed-Modules-Repo/com.parallelc.micts
@@ -15466,14 +15455,16 @@ inc.whew.android.fakegapps:
             <p>Used in combination with <a href="https://microg.org/">MicroG</a> to enable Google Cloud Messaging (GCM) and much more without proprietary Google Play Services.</p>
             <p>Supports Android 4.0 - 14</p>
             <p><a href="https://github.com/whew-inc/FakeGApps">Original repository</a></p>
-          filename: app-release-version-fix.apk
+          filename: app-release.apk
           id: inc.whew.android.fakegapps
           name: FakeGApps
-          last_updated: "2025-01-23T13:18:46Z"
+          last_updated: "2025-02-25T22:40:48Z"
           releasedescription: |-
             <h2>What's Changed</h2>
             <ul>
-            <li>fixed signingInfo spoofing on Android 9 to 12 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gilbsgilbs/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gilbsgilbs">@gilbsgilbs</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2740920056" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/25" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/25/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/25">whew-inc/FakeGApps#25</a></li>
+            <li>fix: explicit support for Android 15 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gilbsgilbs/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gilbsgilbs">@gilbsgilbs</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2805352611" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/28" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/28/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/28">whew-inc/FakeGApps#28</a></li>
+            <li>fix: bump version code by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gilbsgilbs/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gilbsgilbs">@gilbsgilbs</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2805358558" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/29" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/29/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/29">whew-inc/FakeGApps#29</a></li>
+            <li>fix: <code>SigningDetails</code> signature mismatch in Android 9 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gilbsgilbs/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gilbsgilbs">@gilbsgilbs</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2858021949" data-permission-text="Title is private" data-url="https://github.com/whew-inc/FakeGApps/issues/31" data-hovercard-type="pull_request" data-hovercard-url="/whew-inc/FakeGApps/pull/31/hovercard" href="https://github.com/whew-inc/FakeGApps/pull/31">whew-inc/FakeGApps#31</a></li>
             </ul>
     author_name: whew-inc
 io.github.a13e300.tools.stethox:
@@ -16207,11 +16198,11 @@ io.github.howard20181.notificationiconfix:
             <ul>
             <li>
             <p>Modify the grayscale icon judgment threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0Mzg3ODEsIm5iZiI6MTc0MDQzODQ4MSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDIzMDgwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM5Mzk0MzcwZDZhYWYwOThhN2Q4ZGQzZjY5N2QxYjU2YTNmYjg2YTAzNmVjMDQ3YzljNGIxZmZkMjE5OGQ3NDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HQWuYTAdlHJfWCIrh96ahFSHtJUFp9NvZH8oQB-tbes"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0Mzg3ODEsIm5iZiI6MTc0MDQzODQ4MSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDIzMDgwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM5Mzk0MzcwZDZhYWYwOThhN2Q4ZGQzZjY5N2QxYjU2YTNmYjg2YTAzNmVjMDQ3YzljNGIxZmZkMjE5OGQ3NDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HQWuYTAdlHJfWCIrh96ahFSHtJUFp9NvZH8oQB-tbes" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzMmEyMjMzZDIwZWY3MmI0YjZiOWEzMTliMWRjYTY0MTgwZTkxMmE2ZWVhYjJlMmFjZWZjMWY2ZDRiZTc2M2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hMTkur0wHvP4f7LJRvU2ovbzaQkejlASp_cssvKyfKY"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzMmEyMjMzZDIwZWY3MmI0YjZiOWEzMTliMWRjYTY0MTgwZTkxMmE2ZWVhYjJlMmFjZWZjMWY2ZDRiZTc2M2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hMTkur0wHvP4f7LJRvU2ovbzaQkejlASp_cssvKyfKY" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             <li>
             <p>Modify the icon inversion threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0Mzg3ODEsIm5iZiI6MTc0MDQzODQ4MSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDIzMDgwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThjNDQ2YzAxNGJjZTFjZWEyMjc1Mzk5YjcyZjg0ZjJjZDc1MjVhMjE5ODY2NjI5ZmRhMjFhNTdkNGM2ZTJiNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mRn3NGClWdwFRzgKpwEW7lYhKXNE5K-PSgWK30FC1M8"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0Mzg3ODEsIm5iZiI6MTc0MDQzODQ4MSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDIzMDgwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThjNDQ2YzAxNGJjZTFjZWEyMjc1Mzk5YjcyZjg0ZjJjZDc1MjVhMjE5ODY2NjI5ZmRhMjFhNTdkNGM2ZTJiNjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mRn3NGClWdwFRzgKpwEW7lYhKXNE5K-PSgWK30FC1M8" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlMzAyNjI4NzM1Y2JiZDRkODE3NzY0YzdkOTc2NzlmZjViYTBjOGRiYmQwYWJlNjFkYmRjODhkZGFkZDcxMWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LrzSd_3I_In3OdGKX99HTZawKFgk9xlVVBPQ2FQo0BI"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlMzAyNjI4NzM1Y2JiZDRkODE3NzY0YzdkOTc2NzlmZjViYTBjOGRiYmQwYWJlNjFkYmRjODhkZGFkZDcxMWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LrzSd_3I_In3OdGKX99HTZawKFgk9xlVVBPQ2FQo0BI" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             </ul>
     author_name: Howard20181
