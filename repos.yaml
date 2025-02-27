@@ -3903,6 +3903,22 @@ com.asameer.killappnow:
           last_updated: "2024-01-04T21:52:23Z"
           releasedescription: <p>Improved logic to detect foreground app</p>
     author_name: samahmed
+com.asdf51.friend:
+    git: https://github.com/Xposed-Modules-Repo/com.asdf51.friend
+    summary: 51Friend,隐藏wx通讯录好友,https://t.me/xfriend51,仅供个人测试使用
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<p>[插件交流，请加tg (<a href=\"https://t.me/xfriend51\">https://t.me/xfriend51</a>) 或 QQ Group: 954493315，供测试交流]</p>\n<h3>Telegram: <a href=\"https://t.me/xfriend51\">https://t.me/xfriend51</a></h3>\n<h2>应用简介</h2>\n<p>51Friend，隐藏wx通讯录好友和群聊.</p>\n<h2>使用教程</h2>\n<pre><code>在搜索框中输入 #set# 即可激活设置选项\n通讯录和聊天界面，长按要隐藏的好友或群聊名称，选择隐藏\n之后的显示和隐藏，参考快捷操作\n</code></pre>\n<h3>快捷操作</h3>\n<pre><code>主界面左上角文字 微信(xx) 字样 \n长按，隐藏好友\n连点三下，显示好友\n</code></pre>\n<h2>使用说明</h2>\n<pre><code>本APP是为了学习研究用，不得进行任何形式的转发，发布，传播。\n请于24小时内卸载本APP。若使用期间造成任何损失，作者不负任何责任。\n本APP不篡改，不修改，不获取任何个人信息及其微信信息。\n本APP使用者因为违反本声明的规定而触犯中华人民共和国法律的，一切后果自负，作者不承担任何责任。\n凡以任何方式直接、间接使用APP者，视为自愿接受本声明的约束。\n本APP如无意中侵犯了某个媒体或个人的知识产权，请来信或来电告之，作者将立即删除。\n</code></pre>\n<h2>特别感谢</h2>\n<ol>\n<li><a href=\"https://github.com/Gh0u1L5/WechatMagician\">WechatMagician</a></li>\n<li><a href=\"https://github.com/Gh0u1L5/WechatSpellbook\">WechatSpellbook</a></li>\n</ol>\n"
+          filename: 51friend_126.apk
+          id: com.asdf51.friend
+          name: 51Friend
+          last_updated: "2025-02-26T05:02:20Z"
+          releasedescription: |-
+            <p>1.适配至微信8056；<br>
+            2.使用全新界面；</p>
+    author_name: sve-iva18
 com.asyjaiz.a12blur:
     git: https://github.com/Xposed-Modules-Repo/com.asyjaiz.a12blur
     summary: Lets you set up the translucency of your shade the way you want it to be
@@ -9588,6 +9604,8 @@ com.owo233.fuckmarketads:
             <li>隐藏广告低栏</li>
             <li>隐藏应用安全检测</li>
             <li>禁止切换前台展示广告</li>
+            <li>将非正版APP重新显示到更新列表</li>
+            <li>显示被商店隐藏的更新</li>
             </ul>
             <h2>致谢 / Thanks:</h2>
             <table>
@@ -16198,11 +16216,11 @@ io.github.howard20181.notificationiconfix:
             <ul>
             <li>
             <p>Modify the grayscale icon judgment threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzMmEyMjMzZDIwZWY3MmI0YjZiOWEzMTliMWRjYTY0MTgwZTkxMmE2ZWVhYjJlMmFjZWZjMWY2ZDRiZTc2M2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hMTkur0wHvP4f7LJRvU2ovbzaQkejlASp_cssvKyfKY"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAzMmEyMjMzZDIwZWY3MmI0YjZiOWEzMTliMWRjYTY0MTgwZTkxMmE2ZWVhYjJlMmFjZWZjMWY2ZDRiZTc2M2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.hMTkur0wHvP4f7LJRvU2ovbzaQkejlASp_cssvKyfKY" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhMDJmZTBlZTBmNDE0ZGM1ZDQ4MGUyOTU2NTdhZGRjNjJmNGY3ODE2MjY5ZjRmMTE5NmQxNjEzZWE2MzEyMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.azTxCe7-CFl6a41BugaswEOdjE6-19tEoIYU6IzhS2g"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhMDJmZTBlZTBmNDE0ZGM1ZDQ4MGUyOTU2NTdhZGRjNjJmNGY3ODE2MjY5ZjRmMTE5NmQxNjEzZWE2MzEyMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.azTxCe7-CFl6a41BugaswEOdjE6-19tEoIYU6IzhS2g" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             <li>
             <p>Modify the icon inversion threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlMzAyNjI4NzM1Y2JiZDRkODE3NzY0YzdkOTc2NzlmZjViYTBjOGRiYmQwYWJlNjFkYmRjODhkZGFkZDcxMWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LrzSd_3I_In3OdGKX99HTZawKFgk9xlVVBPQ2FQo0BI"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA1MjQ2MTMsIm5iZiI6MTc0MDUyNDMxMywicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI1VDIyNTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNlMzAyNjI4NzM1Y2JiZDRkODE3NzY0YzdkOTc2NzlmZjViYTBjOGRiYmQwYWJlNjFkYmRjODhkZGFkZDcxMWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LrzSd_3I_In3OdGKX99HTZawKFgk9xlVVBPQ2FQo0BI" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMyNWYyYzFhMjg0NzEzNWU3NjNhMmQxODkyMDc0YzQ2YzA2ZWFhNTY2ZmM5OTQ0ZGQ3YTIwMmZjOGE3NjJhN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j8zE1nmR-D_75LIS_hmHtBEI38frld9JS2KygykCx58"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMyNWYyYzFhMjg0NzEzNWU3NjNhMmQxODkyMDc0YzQ2YzA2ZWFhNTY2ZmM5OTQ0ZGQ3YTIwMmZjOGE3NjJhN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j8zE1nmR-D_75LIS_hmHtBEI38frld9JS2KygykCx58" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
             </li>
             </ul>
     author_name: Howard20181
@@ -17994,15 +18012,15 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.0.6_1624.apk
+          filename: WAuxiliary_v1.0.7.226.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-23T08:27:29Z"
+          last_updated: "2025-02-26T07:10:42Z"
           releasedescription: |-
-            <p>优化 虚拟定位<br>
-            优化 自动原图<br>
-            新增 订阅列表<br>
-            优化 模块界面</p>
+            <p>修复 旧版入口<br>
+            新增 语音时长<br>
+            优化 通话限制<br>
+            新增 文章多窗</p>
     author_name: HdShare
 me.hoshino.novpndetect:
     git: https://github.com/Xposed-Modules-Repo/me.hoshino.novpndetect

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1740540649000,
+    "timestamp": 1740626852000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -359,7 +359,7 @@
       "summary": "Wechat \u8f85\u52a9\u6027\u529f\u80fd\u589e\u5f3a",
       "added": 1739762507000,
       "packageName": "me.hd.wauxv",
-      "lastUpdated": 1740367457000
+      "lastUpdated": 1740626648000
     },
     {
       "authorName": "Yy-ss7",
@@ -2968,6 +2968,29 @@
         ],
         "versionCode": 20250217,
         "versionName": "1.0.0"
+      },
+      {
+        "added": 1740626648000,
+        "apkName": "me.hd.wauxv_226-1.0.7.apk",
+        "hash": "34117b09b447bfc5fdf6d06c7350e173876325cd1e467c0cbba20a9b36fe38b4",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "me.hd.wauxv",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 2349278,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 226,
+        "versionName": "1.0.7"
       },
       {
         "added": 1740367457000,
