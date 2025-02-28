@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1740626865000,
+    "timestamp": 1740713227000,
     "version": 20002
   },
   "requests": {
@@ -2331,24 +2331,24 @@
       "summary": "解锁部分软件的会员"
     },
     {
-      "added": 1740488728000,
+      "added": 1740625499000,
       "authorName": "callng",
       "categories": [
         "Xposed"
       ],
       "description": "\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003e小米应用商店 广告移除\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e移除开屏广告\u003c/li\u003e\n\u003cli\u003e隐藏广告低栏\u003c/li\u003e\n\u003cli\u003e隐藏应用安全检测\u003c/li\u003e\n\u003cli\u003e禁止切换前台展示广告\u003c/li\u003e\n\u003cli\u003e将非正版APP重新显示到更新列表\u003c/li\u003e\n\u003cli\u003e显示被商店隐藏的更新\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eStarVoyager\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/hosizoraru/StarVoyager\"\u003eStarVoyager\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eezXHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/KyuubiRan/EzXHelper\"\u003eezXHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1740488728000,
+      "lastUpdated": 1740625499000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**移除DexKit库,缩小安装包体积**\n"
+          "whatsNew": "## 新增功能\n\n- 将非正版APP重新显示到更新列表\n- 显示被商店隐藏的更新\n\n~~可能会看到几个系统APP出现在更新列表~~"
         }
       },
       "name": "Fuck Market Ads",
       "packageName": "com.owo233.fuckmarketads",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.owo233.fuckmarketads",
-      "suggestedVersionCode": "3",
-      "suggestedVersionName": "1.1.1",
+      "suggestedVersionCode": "4",
+      "suggestedVersionName": "1.2.0",
       "summary": "小米应用商店 广告移除"
     },
     {
@@ -3524,24 +3524,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1740376812000,
+      "added": 1740630266000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
-      "lastUpdated": 1740376812000,
+      "lastUpdated": 1740630266000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 海鸥加速器 3.3.7"
+          "whatsNew": "新增 支持 我要头像(并没有去除开屏广告)\n新增 支持 资源大师plus\n新增 支持 iTime"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "29",
-      "suggestedVersionName": "3.7",
+      "suggestedVersionCode": "30",
+      "suggestedVersionName": "3.8",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -5046,24 +5046,24 @@
       "summary": "隐藏最近任务列表视图"
     },
     {
-      "added": 1740065490000,
+      "added": 1740667329000,
       "authorName": "Howard20181",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNotification Icon Fix\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"README.zh.md\"\u003e中文\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.\u003c/p\u003e\n\u003ch2\u003eSupported System\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1 ~ AOSP main branch\u003c/li\u003e\n\u003cli\u003eHyperOS\u003c/li\u003e\n\u003cli\u003eMIUI 12.5\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eScreenshots\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003cth\u003e\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/3.jpg\" alt=\"Single Notification\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/2.jpg\" alt=\"Multiple notifications with the same icon are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/1.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003ctd\u003e\u003cimg src=\"docs/img/4.jpg\" alt=\"Multiple notification icons are automatically grouped\" /\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003eAlgorithm Details\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eDetermine and reduce oversized icons to the maximum allowed icon size\u003c/li\u003e\n\u003cli\u003eMap the icon pixel position to a two-dimensional coordinate system and calculate the geometric center\u003c/li\u003e\n\u003cli\u003e(For MIUI) Detect transparent borders and trim icons\u003c/li\u003e\n\u003cli\u003e(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a \u003ca href=\"https://github.com/pzcn/Perfect-Icons-Completion-Project\"\u003eperfect icon\u003c/a\u003e (Need to install it yourself)\u003c/li\u003e\n\u003cli\u003e(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)\u003c/li\u003e\n\u003cli\u003eCalculate the average lumens excluding transparent pixels\u003c/li\u003e\n\u003cli\u003eQuantify the most common color of edge pixels\u003c/li\u003e\n\u003cli\u003eCalculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border\u003c/li\u003e\n\u003cli\u003eDetermine whether the icon background is light or dark\u003c/li\u003e\n\u003cli\u003eUse K-means quantizer to extract the primary color of the icon\u003c/li\u003e\n\u003cli\u003eInvert the icon foreground according to the background and remove the border\u003c/li\u003e\n\u003cli\u003eDetermine the actual visible area of ​​the icon and remove the blank area based on the visual center\u003c/li\u003e\n\u003cli\u003eFinal result output, cache icon, and accent color to WeakHashMap\u003c/li\u003e\n\u003c/ol\u003e\n",
-      "lastUpdated": 1740065490000,
+      "lastUpdated": 1740667329000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "## Change log\n\n- Modify the grayscale icon judgment threshold\n\t![image](https://github.com/user-attachments/assets/f8f9b72f-5ae3-4c20-8973-496af9ddf367)\n\n- Modify the icon inversion threshold\n\t![image](https://github.com/user-attachments/assets/9e5ad743-379e-4189-905c-bf4cd8837e65)\n"
+          "whatsNew": "## Changelog\n\n- (Revert) ~~Modify the grayscale icon judgment threshold~~\n- (HyperOS and MIUI) Grayscale icon judgment does not exempt color icons with transparent areas pushed from MiPush\n- Fix the icon ratio issue when compressing the surrounding transparent area\n- Fix the icon being cut off when compressing the surrounding transparent area"
         }
       },
       "name": "Notification Icon Fix / 通知图标修复",
       "packageName": "io.github.howard20181.notificationiconfix",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix",
-      "suggestedVersionCode": "74",
-      "suggestedVersionName": "1.4.1",
+      "suggestedVersionCode": "76",
+      "suggestedVersionName": "1.5",
       "summary": "A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti..."
     },
     {
@@ -5351,24 +5351,24 @@
       "summary": "Xposed module for specifying orientation per app"
     },
     {
-      "added": 1737987658000,
+      "added": 1740651434000,
       "authorName": "suqi8",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eO神 - ColorOS辅助模块\u003c/h1\u003e\n\u003cimg src=\"https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true\" width=\"160\" height=\"160\" style=\"display: block; margin: 0 auto;\" alt=\"icon\"\u003e\n\u003ch3\u003e简体中文 | \u003ca href=\"./README_EN.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"https://oshin.mikusignal.top/\"\u003e文档\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt\u0026amp;forks=1\u0026amp;issues=1\u0026amp;language=1\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Brick%20Wall\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"OShin\" /\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e原名：OPatch\u003cbr /\u003e\nO神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。\u003c/p\u003e\n\u003ch2\u003e官方渠道\u003c/h2\u003e\n\u003cp\u003e我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：\u003c/p\u003e\n\u003ch3\u003eTelegram\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchA\"\u003eO神 官方频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchB\"\u003eO神 聊天频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchC\"\u003eO神 自动构建\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eQQ\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027\u0026amp;k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N\u0026amp;authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO\u0026amp;noverify=0\u0026amp;group_code=740266099\"\u003eO神 QQ群\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的版本\u003c/h2\u003e\n\u003cp\u003e目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15\u003c/p\u003e\n\u003ch2\u003e名称的由来\u003c/h2\u003e\n\u003cp\u003e\u003cdel\u003e仓库的名称”OPatch”来源于”OPPO OnePlus Patch”，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。\u003c/del\u003e\u003cbr /\u003e\n经过各位的讨论与投票后，我们决定将名称改为 O神。\u003c/p\u003e\n\u003ch2\u003e贡献\u003c/h2\u003e\n\u003cp\u003e如果您想为我的模块加入您使用的语言，请前往 \u003ca href=\"https://zh.crowdin.com/project/opatch\"\u003eCrowdin\u003c/a\u003e 页面进行贡献。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!CAUTION]\u003c/p\u003e\n\u003cp\u003e该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e许可\u003c/h2\u003e\n\u003cp\u003e本项目采用\u003ca href=\"LICENSE\"\u003eAGPL许可证\u003c/a\u003e，详情请参阅LICENSE文件。\u003c/p\u003e\n\u003ch2\u003e联系我们\u003c/h2\u003e\n\u003cp\u003e如果您有任何问题或需要帮助，请通过以下方式联系我们：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGitHub Issues\u003c/li\u003e\n\u003cli\u003e电子邮件：[\u003ca href=\"mailto:3383787570@qq.com\"\u003e3383787570@qq.com\u003c/a\u003e]\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e贡献者\u003c/h2\u003e\n\u003cp\u003e感谢以下贡献者\u003c/p\u003e\n\u003ca href=\"https://github.com/suqi8/OPatch/graphs/contributors\"\u003e\n  \u003cimg src=\"https://contrib.rocks/image?repo=suqi8/OPatch\"  alt=\"\"/\u003e\n\u003c/a\u003e\n\u003cp\u003e\u003cimg src=\"https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg\" alt=\"Alt\" title=\"Repobeats analytics image\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#suqi8/OPatch\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=suqi8/OPatch\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1737987658000,
+      "lastUpdated": 1740651434000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "🎇该版本为首个正式版，祝大家新年快乐🎊\n\n**Full Changelog**: https://github.com/suqi8/OShin/compare/v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)"
+          "whatsNew": "# **OShin/O神 v15.1.389.2ab5828(389)**\n\n添加 推荐功能，最近更新卡片至主页\n添加 强制启用小布助手\n添加 关闭低电量流体云\n添加 移除通知勿扰通知\n添加 隐藏启动器图标功能\n修复 功耗指示器的自定义字体大小\n修复 滑块进度更改的小数点\n添加 移除开发者选项通知\n升级 Kotlin 至 2.1.10 并更新依赖项\n修改 Android Studio项目昵称\n优化 页面性能与逻辑\n修改 版本号逻辑\n重写 主页卡片，优化性能\n更改 xposed_init入口\n优化 Gradle 缓存策略\n更新 版本号\n移除 Herobrine\n\n**全部更新日志**: https://github.com/suqi8/OShin/compare/v15.0.0.b363.9432e7a(363)...v15.1.389.2ab5828(389)"
         }
       },
       "name": "O神/OShin",
       "packageName": "com.suqi8.oshin",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suqi8.oshin",
-      "suggestedVersionCode": "363",
-      "suggestedVersionName": "15.0.0.b363.9432e7a",
+      "suggestedVersionCode": "389",
+      "suggestedVersionName": "15.1.389.2ab5828",
       "summary": "系统辅助模块，支持 ColorOS、RealmeUI、OxygenOS。免费软件，请勿二次转发，分享，售卖！github@suqi8\nSystem sup..."
     },
     {
@@ -7046,7 +7046,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1740626595000,
+      "lastUpdated": 1740712995000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -14807,7 +14807,22 @@
     ],
     "com.owo233.fuckmarketads": [
       {
-        "added": 1740488728000,
+        "added": 1740625499000,
+        "apkName": "com.owo233.fuckmarketads_4-1.2.0.apk",
+        "hash": "08fafe5847d16317fb3e9381f8bfeead4249239aad334f2321608309de2028c7",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": null,
+        "packageName": "com.owo233.fuckmarketads",
+        "sig": "6c850a10682de9f67129752702c60ad4",
+        "signer": "d54f0c2bb8fff2306aba94b4aa622287776d580d647f39d06e23f9befd027f46",
+        "size": 56854,
+        "targetSdkVersion": 35,
+        "versionCode": 4,
+        "versionName": "1.2.0"
+      },
+      {
+        "added": 1740540267000,
         "apkName": "com.owo233.fuckmarketads_3-1.1.1.apk",
         "hash": "1d8f76b5971f8ff4b83ce74fb512550d9de52d3900849afb8ec939e43c1d2f33",
         "hashType": "sha256",
@@ -15553,7 +15568,27 @@
     ],
     "com.suqi8.oshin": [
       {
-        "added": 1737987658000,
+        "added": 1740651434000,
+        "apkName": "com.suqi8.oshin_389-15.1.389.2ab5828.apk",
+        "hash": "082127522948d5ae6a13d92e16b49e8075c038514403768b562db5b5f5c22188",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.suqi8.oshin",
+        "sig": "088e99cea37611acd0dd12428783e87d",
+        "signer": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5",
+        "size": 5459870,
+        "targetSdkVersion": 35,
+        "versionCode": 389,
+        "versionName": "15.1.389.2ab5828"
+      },
+      {
+        "added": 1738033613000,
         "apkName": "com.suqi8.oshin_363-15.0.0.b363.9432e7a.apk",
         "hash": "586f6fa3fbd0b89e022fda9be182df667d2ecadfa11cb7c80f0962c0088b27b7",
         "hashType": "sha256",
@@ -16098,7 +16133,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1740626595000,
+        "added": 1740712995000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17765,7 +17800,22 @@
     ],
     "io.github.howard20181.notificationiconfix": [
       {
-        "added": 1740065490000,
+        "added": 1740667329000,
+        "apkName": "io.github.howard20181.notificationiconfix_76-1.5.apk",
+        "hash": "f3a0004060ec01c7a3ddd91a8a4fb2dbc775dd4d02e666ab0a19e7e39fad35ad",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "io.github.howard20181.notificationiconfix",
+        "sig": "b3845b8b201076ee6bb8b727e02d44c4",
+        "signer": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9",
+        "size": 20460,
+        "targetSdkVersion": 35,
+        "versionCode": 76,
+        "versionName": "1.5"
+      },
+      {
+        "added": 1740107548000,
         "apkName": "io.github.howard20181.notificationiconfix_74-1.4.1.apk",
         "hash": "11f90ee2fa740aeadf7f81ab010cd3ff84523d56c43b79c9205cc508fbdb97e0",
         "hashType": "sha256",
@@ -17793,21 +17843,6 @@
         "targetSdkVersion": 35,
         "versionCode": 73,
         "versionName": "1.4"
-      },
-      {
-        "added": 1738206553000,
-        "apkName": "io.github.howard20181.notificationiconfix_72-1.3.apk",
-        "hash": "c1de02b4f202ac4b51aa3493bd9a80c8ee6e2db9ff43af5c70188a06d09540e3",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": null,
-        "packageName": "io.github.howard20181.notificationiconfix",
-        "sig": "b3845b8b201076ee6bb8b727e02d44c4",
-        "signer": "92446bdd863f137d44cbbe94af8b4b558f11c641ba7f88ae9a5c21a6e57c5ad9",
-        "size": 20024,
-        "targetSdkVersion": 35,
-        "versionCode": 72,
-        "versionName": "1.3"
       }
     ],
     "io.github.icepony.alwayscreateuser": [
@@ -18684,7 +18719,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1740376812000,
+        "added": 1740630266000,
+        "apkName": "junzi.xposed.hook_30-3.8.apk",
+        "hash": "2ef6db073fa7ee6c926457fc91667a6d1e07f54bb385183a150060fa117ca4f5",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2528864,
+        "targetSdkVersion": 33,
+        "versionCode": 30,
+        "versionName": "3.8"
+      },
+      {
+        "added": 1740453763000,
         "apkName": "junzi.xposed.hook_29-3.7.apk",
         "hash": "a1753efe8166033f53ca93de87871fef59090424661720ebb84c7c2db03026c1",
         "hashType": "sha256",
@@ -18718,24 +18771,6 @@
         "targetSdkVersion": 33,
         "versionCode": 28,
         "versionName": "3.6"
-      },
-      {
-        "added": 1740280961000,
-        "apkName": "junzi.xposed.hook_27-3.5.apk",
-        "hash": "4cd7dec0563c9d40b6203b579b6f59b49cecb925088b1e2d967bbe0ae3d2058e",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2971067,
-        "targetSdkVersion": 33,
-        "versionCode": 27,
-        "versionName": "3.5"
       }
     ],
     "lialh4.ldf": [

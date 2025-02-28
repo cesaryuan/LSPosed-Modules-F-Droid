@@ -1,0 +1,6 @@
+## Changelog
+
+- (Revert) ~~Modify the grayscale icon judgment threshold~~
+- (HyperOS and MIUI) Grayscale icon judgment does not exempt color icons with transparent areas pushed from MiPush
+- Fix the icon ratio issue when compressing the surrounding transparent area
+- Fix the icon being cut off when compressing the surrounding transparent area

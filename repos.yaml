@@ -9626,11 +9626,17 @@ com.owo233.fuckmarketads:
             </tr>
             </tbody>
             </table>
-          filename: FuckMarketAds_1.1.1.apk
+          filename: FuckMarketAds_1.2.0.apk
           id: com.owo233.fuckmarketads
           name: Fuck Market Ads
-          last_updated: "2025-02-25T13:05:28Z"
-          releasedescription: <p><strong>移除DexKit库,缩小安装包体积</strong></p>
+          last_updated: "2025-02-27T03:04:59Z"
+          releasedescription: |-
+            <h2>新增功能</h2>
+            <ul>
+            <li>将非正版APP重新显示到更新列表</li>
+            <li>显示被商店隐藏的更新</li>
+            </ul>
+            <p><del>可能会看到几个系统APP出现在更新列表</del></p>
     author_name: callng
 com.parallelc.micts:
     git: https://github.com/Xposed-Modules-Repo/com.parallelc.micts
@@ -11663,11 +11669,30 @@ com.suqi8.oshin:
             </a>
             <p><img src="https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg" alt="Alt" title="Repobeats analytics image" /></p>
             <p><a href="https://star-history.com/#suqi8/OPatch&amp;Date"><img src="https://api.star-history.com/svg?repos=suqi8/OPatch&amp;type=Date" alt="Star History Chart" /></a></p>
-          filename: OShin_armeabi-v7a_v15.0.0.b363.9432e7a.363.apk
+          filename: OShin_all_v15.1.389.2ab5828.389.apk
           id: com.suqi8.oshin
           name: O神/OShin
-          last_updated: "2025-01-27T14:20:58Z"
-          releasedescription: "<p>\U0001F387该版本为首个正式版，祝大家新年快乐\U0001F38A</p>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/suqi8/OShin/compare/v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)\">suqi8/OShin@<tt>v1.0.0.b1195.04df38f(1195)...v15.0.0.b363.9432e7a(363)</tt></a></p>"
+          last_updated: "2025-02-27T10:17:14Z"
+          releasedescription: |-
+            <h1><strong>OShin/O神 v15.1.389.2ab5828(389)</strong></h1>
+            <p>添加 推荐功能，最近更新卡片至主页<br>
+            添加 强制启用小布助手<br>
+            添加 关闭低电量流体云<br>
+            添加 移除通知勿扰通知<br>
+            添加 隐藏启动器图标功能<br>
+            修复 功耗指示器的自定义字体大小<br>
+            修复 滑块进度更改的小数点<br>
+            添加 移除开发者选项通知<br>
+            升级 Kotlin 至 2.1.10 并更新依赖项<br>
+            修改 Android Studio项目昵称<br>
+            优化 页面性能与逻辑<br>
+            修改 版本号逻辑<br>
+            重写 主页卡片，优化性能<br>
+            更改 xposed_init入口<br>
+            优化 Gradle 缓存策略<br>
+            更新 版本号<br>
+            移除 Herobrine</p>
+            <p><strong>全部更新日志</strong>: <a class="commit-link" href="https://github.com/suqi8/OShin/compare/v15.0.0.b363.9432e7a(363)...v15.1.389.2ab5828(389)">suqi8/OShin@<tt>v15.0.0.b363.9432e7a(363)...v15.1.389.2ab5828(389)</tt></a></p>
     author_name: suqi8
 com.tcgg.imjhook:
     git: https://github.com/Xposed-Modules-Repo/com.tcgg.imjhook
@@ -16207,21 +16232,17 @@ io.github.howard20181.notificationiconfix:
             <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
             <li>Final result output, cache icon, and accent color to WeakHashMap</li>
             </ol>
-          filename: NotifyIconFix-1.4.1.74.apk
+          filename: NotifyIconFix-1.5.76-release.apk
           id: io.github.howard20181.notificationiconfix
           name: Notification Icon Fix / 通知图标修复
-          last_updated: "2025-02-20T15:31:30Z"
+          last_updated: "2025-02-27T14:42:09Z"
           releasedescription: |-
-            <h2>Change log</h2>
+            <h2>Changelog</h2>
             <ul>
-            <li>
-            <p>Modify the grayscale icon judgment threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhMDJmZTBlZTBmNDE0ZGM1ZDQ4MGUyOTU2NTdhZGRjNjJmNGY3ODE2MjY5ZjRmMTE5NmQxNjEzZWE2MzEyMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.azTxCe7-CFl6a41BugaswEOdjE6-19tEoIYU6IzhS2g"><img src="https://private-user-images.githubusercontent.com/40033067/415246866-f8f9b72f-5ae3-4c20-8973-496af9ddf367.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDY4NjYtZjhmOWI3MmYtNWFlMy00YzIwLTg5NzMtNDk2YWY5ZGRmMzY3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhMDJmZTBlZTBmNDE0ZGM1ZDQ4MGUyOTU2NTdhZGRjNjJmNGY3ODE2MjY5ZjRmMTE5NmQxNjEzZWE2MzEyMDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.azTxCe7-CFl6a41BugaswEOdjE6-19tEoIYU6IzhS2g" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
-            </li>
-            <li>
-            <p>Modify the icon inversion threshold<br>
-            <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMyNWYyYzFhMjg0NzEzNWU3NjNhMmQxODkyMDc0YzQ2YzA2ZWFhNTY2ZmM5OTQ0ZGQ3YTIwMmZjOGE3NjJhN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j8zE1nmR-D_75LIS_hmHtBEI38frld9JS2KygykCx58"><img src="https://private-user-images.githubusercontent.com/40033067/415247208-9e5ad743-379e-4189-905c-bf4cd8837e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA2MjU4MTEsIm5iZiI6MTc0MDYyNTUxMSwicGF0aCI6Ii80MDAzMzA2Ny80MTUyNDcyMDgtOWU1YWQ3NDMtMzc5ZS00MTg5LTkwNWMtYmY0Y2Q4ODM3ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI3VDAzMDUxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMyNWYyYzFhMjg0NzEzNWU3NjNhMmQxODkyMDc0YzQ2YzA2ZWFhNTY2ZmM5OTQ0ZGQ3YTIwMmZjOGE3NjJhN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j8zE1nmR-D_75LIS_hmHtBEI38frld9JS2KygykCx58" alt="image" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
-            </li>
+            <li>(Revert) <del>Modify the grayscale icon judgment threshold</del></li>
+            <li>(HyperOS and MIUI) Grayscale icon judgment does not exempt color icons with transparent areas pushed from MiPush</li>
+            <li>Fix the icon ratio issue when compressing the surrounding transparent area</li>
+            <li>Fix the icon being cut off when compressing the surrounding transparent area</li>
             </ul>
     author_name: Howard20181
 io.github.icepony.alwayscreateuser:
@@ -17369,11 +17390,14 @@ junzi.xposed.hook:
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
             <p>小星记账</p>
-          filename: JunZi.Xposed.Hook_3.7.apk
+          filename: JunZi.Xposed.Hook_3.8.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-24T06:00:12Z"
-          releasedescription: <p>新增 支持 海鸥加速器 3.3.7</p>
+          last_updated: "2025-02-27T04:24:26Z"
+          releasedescription: |-
+            <p>新增 支持 我要头像(并没有去除开屏广告)<br>
+            新增 支持 资源大师plus<br>
+            新增 支持 iTime</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
