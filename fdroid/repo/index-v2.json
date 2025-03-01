@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1740713227000,
+    "timestamp": 1740799916000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2826,7 +2826,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740712908000,
+        "lastUpdated": 1740799595000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -16957,7 +16957,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740712995000,
+        "lastUpdated": 1740799684000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20605,7 +20605,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1735528906000,
+        "lastUpdated": 1740799708000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/im.hoho.alipayinstallb",
         "authorName": "nov30th",
         "name": {
@@ -20620,6 +20620,41 @@
         "preferredSigner": "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
       },
       "versions": {
+        "fcb7a60358b671bd9b33d5bf628f87eddc205ffc068f0f86893104943cf2941a": {
+          "added": 1740799708000,
+          "file": {
+            "name": "/im.hoho.alipayinstallb_112-2.6.1.apk",
+            "sha256": "fcb7a60358b671bd9b33d5bf628f87eddc205ffc068f0f86893104943cf2941a",
+            "size": 333332
+          },
+          "manifest": {
+            "versionName": "2.6.1",
+            "versionCode": 112,
+            "usesSdk": {
+              "minSdkVersion": 23,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              }
+            ]
+          }
+        },
         "93961fdf9b20f1f737121deac0d6f3b21bd9be1b595ba545eaa0f86177402254": {
           "added": 1735528906000,
           "file": {
@@ -23723,7 +23758,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740713035000,
+        "lastUpdated": 1740799726000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23738,6 +23773,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8": {
+          "added": 1740799726000,
+          "file": {
+            "name": "/junzi.xposed.hook_31-3.9.apk",
+            "sha256": "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8",
+            "size": 2577573
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.9",
+            "versionCode": 31,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "2ef6db073fa7ee6c926457fc91667a6d1e07f54bb385183a150060fa117ca4f5": {
           "added": 1740713035000,
           "file": {
@@ -23785,39 +23853,6 @@
             ],
             "versionName": "3.7",
             "versionCode": 29,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "a78b51fc5146c62339b0595378becae3ab2125cb2a73b34f0177686d7bc6053f": {
-          "added": 1740367446000,
-          "file": {
-            "name": "/junzi.xposed.hook_28-3.6.apk",
-            "sha256": "a78b51fc5146c62339b0595378becae3ab2125cb2a73b34f0177686d7bc6053f",
-            "size": 2966971
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.6",
-            "versionCode": 28,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24843,7 +24878,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740713043000,
+        "lastUpdated": 1740799733000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
