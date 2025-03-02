@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1740799916000,
+    "timestamp": 1740886122000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2826,7 +2826,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740799595000,
+        "lastUpdated": 1740885796000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -5161,7 +5161,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193684000,
+        "lastUpdated": 1740885811000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -5176,6 +5176,54 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "971d629d22408234ed15982570f95573898432391ad23f06fa024482768c75d4": {
+          "added": 1740885811000,
+          "file": {
+            "name": "/com.bug.hookvip_25030118-5.0.1-release-fix.apk",
+            "sha256": "971d629d22408234ed15982570f95573898432391ad23f06fa024482768c75d4",
+            "size": 4344417
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "5.0.1-release-fix",
+            "versionCode": 25030118,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "d7e3d7e51985a0afb5eddb25f1f1dfde7219862b93d8a765595ce39e43a2a4ff": {
           "added": 1740193684000,
           "file": {
@@ -5262,53 +5310,6 @@
               },
               {
                 "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3": {
-          "added": 1735701817000,
-          "file": {
-            "name": "/com.bug.hookvip_24123118-4.7.4-release.apk",
-            "sha256": "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3",
-            "size": 5420704
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.7.4-release",
-            "versionCode": 24123118,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.READ_PHONE_STATE"
               },
               {
                 "name": "android.permission.QUERY_ALL_PACKAGES"
@@ -10988,7 +10989,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<h1>蓝天视频</h1>\n<p>推荐一个电影猎手的平替App，不含黄色内容，加载速度飞快，下载地址：<a href=\"https://www.123912.com/s/XY3fjv-rmEKd\">https://www.123912.com/s/XY3fjv-rmEKd</a></p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -13186,6 +13187,61 @@
         }
       }
     },
+    "com.padi.hook.hookqq": {
+      "metadata": {
+        "added": 1740885864000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740885864000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.padi.hook.hookqq",
+        "authorName": "paditianxiu",
+        "name": {
+          "en-US": "HookQQ(微信模块)"
+        },
+        "summary": {
+          "en-US": "微信主题功能，自动抢红包"
+        },
+        "description": {
+          "en-US": "<h2>牛逼模块</h2>\n  <img src=\"./icon.png\" alt=\"socialify\"/>\n<h2>说明 / Desc:</h2>\n<p>Wechat 辅助性功能增强</p>\n<ul>\n<li>一切开发旨在学习，请勿用于非法用途</li>\n<li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<hr />\n<h2>功能 / Func:</h2>\n<table>\n    <tr>\n        <td align=\"center\"><b>功能名</b></td>\n        <td align=\"center\"><b>开发状态</b></td>\n        <td align=\"center\"><b>适配版本</b></td>\n    </tr>\n    <tr>\n        <td align=\"center\">自动抢红包</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n      <tr>\n        <td align=\"center\">主题功能</td>\n        <td align=\"center\">✅</td>\n        <td align=\"center\">理论全版本</td>\n    </tr>\n</table>\n<hr />\n<h2>致谢 / Thanks:</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Source</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>WAuxiliary</td>\n<td><a href=\"https://github.com/HdShare/WAuxiliary_Public\">WAuxiliary</a></td>\n</tr>\n<tr>\n<td>YukiHookAPI</td>\n<td><a href=\"https://github.com/HighCapable/YukiHookAPI\">YukiHookAPI</a></td>\n</tr>\n<tr>\n<td>DexKit</td>\n<td><a href=\"https://github.com/LuckyPray/DexKit\">DexKit</a></td>\n</tr>\n<tr>\n<td>XpHelper</td>\n<td><a href=\"https://github.com/suzhelan/XPHelper\">XpHelper</a></td>\n</tr>\n</tbody>\n</table>\n"
+        },
+        "preferredSigner": "b004372dc4da0b28fc181c31e506abdbbdb416149c5984af34749dd55148a7ea"
+      },
+      "versions": {
+        "484d281ae82729c2413a7e55bd6bdca33bc658ed10d23624718b708152568f6e": {
+          "added": 1740885864000,
+          "file": {
+            "name": "/com.padi.hook.hookqq_20250228-1.0.1.apk",
+            "sha256": "484d281ae82729c2413a7e55bd6bdca33bc658ed10d23624718b708152568f6e",
+            "size": 11680627
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.1",
+            "versionCode": 20250228,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "b004372dc4da0b28fc181c31e506abdbbdb416149c5984af34749dd55148a7ea"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.padi.hook.hookqq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.parallelc.micts": {
       "metadata": {
         "added": 1732159487000,
@@ -14039,6 +14095,61 @@
               ]
             },
             "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.rel.languager": {
+      "metadata": {
+        "added": 1740885869000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1740885869000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.rel.languager",
+        "authorName": "mon231",
+        "name": {
+          "en-US": "Languager"
+        },
+        "summary": {
+          "en-US": "Spoof system-language for selected apps"
+        },
+        "description": {
+          "en-US": "<h1>Languager - Language Spoofing Xposed Module</h1>\n<h2>Overview</h2>\n<p>Languager is an Xposed module that allows you to change the language of specific Android applications, without changing your system language. This is particularly useful against apps that enforce system language settings or buggy apps that fail to show the selected language from app’s settings.</p>\n<h2>Features</h2>\n<ul>\n<li><strong>Per-App Language Selection</strong>: Choose a different language for each app independently</li>\n<li><strong>Comprehensive Language Support</strong>: 26+ languages available including English, French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hebrew, Hindi, and many more</li>\n<li><strong>User-Friendly Interface</strong>: Easy-to-use UI with app search functionality and intuitive language selection</li>\n<li><strong>Wide Compatibility</strong>: Works on Android 5.0+ (API 21+) with support for both older and newer Android versions</li>\n<li><strong>Efficient Hooking Mechanism</strong>: Hooks all locale-related methods to ensure complete language spoofing</li>\n</ul>\n<h2>Technical Details</h2>\n<ul>\n<li>\n<p><strong>Language Spoofing Mechanism</strong>:</p>\n<ul>\n<li>Uses Xposed framework for comprehensive method hooking</li>\n<li>Targets all locale-related methods across different API levels:\n<ul>\n<li><code>Configuration.getLocales()</code> (API 24+)</li>\n<li><code>Configuration.getLocale()</code> (API &lt; 24)</li>\n<li><code>Configuration.locale</code> property</li>\n<li><code>Resources.getConfiguration().locale</code></li>\n<li><code>Locale.getDefault()</code></li>\n<li><code>Locale.getDefault(Category)</code> (API 24+)</li>\n<li><code>LocaleList.getDefault()</code> (API 24+)</li>\n<li><code>LocaleList.getAdjustedDefault()</code> (API 24+)</li>\n</ul>\n</li>\n<li>Dynamically replaces system locale with user-selected language</li>\n<li>Handles API differences between Android versions</li>\n</ul>\n</li>\n<li>\n<p><strong>Shared Preferences</strong>:</p>\n<ul>\n<li>Uses XSharedPreferences for cross-process configuration storage</li>\n<li>Implements world-readable preferences for Xposed module access</li>\n<li>Direct key-value storage for app-language mappings</li>\n</ul>\n</li>\n</ul>\n<h2>Requirements</h2>\n<ul>\n<li>Android device with Xposed framework installed (LSPosed, EdXposed, etc.)</li>\n<li>Android 5.0+ (API 21+)</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Install the Languager APK</li>\n<li>Enable the module in your Xposed framework manager</li>\n<li>Select the apps you want to apply language spoofing to</li>\n<li>Reboot your device</li>\n<li>Open the Languager app to configure language settings for each app</li>\n</ol>\n<h3>LSPosed Repository Installation</h3>\n<p>You can also install Languager directly from the LSPosed repository:</p>\n<ol>\n<li>Open LSPosed Manager</li>\n<li>Go to Repository tab</li>\n<li>Add the repository URL: <code>https://mon231.github.io/com.rel.languager</code></li>\n<li>Find Languager in the list and install it</li>\n<li>Enable the module and reboot</li>\n</ol>\n<h2>Usage</h2>\n<ol>\n<li>Open the Languager app</li>\n<li>Use the search bar to find specific apps</li>\n<li>Select your preferred language for each app from the dropdown menu</li>\n<li>Click “Save Settings” to apply changes</li>\n<li>Reboot or restart the target apps for changes to take effect</li>\n</ol>\n<h2>Supported Languages</h2>\n<ul>\n<li>English</li>\n<li>French (Français)</li>\n<li>German (Deutsch)</li>\n<li>Spanish (Español)</li>\n<li>Italian (Italiano)</li>\n<li>Portuguese (Português)</li>\n<li>Russian (Русский)</li>\n<li>Chinese (中文)</li>\n<li>Japanese (日本語)</li>\n<li>Korean (한국어)</li>\n<li>Arabic (العربية)</li>\n<li>Hebrew (עברית)</li>\n<li>Hindi (हिन्दी)</li>\n<li>Bengali (বাংলা)</li>\n<li>Punjabi (ਪੰਜਾਬੀ)</li>\n<li>Tamil (தமிழ்)</li>\n<li>Telugu (తెలుగు)</li>\n<li>Malayalam (മലയാളം)</li>\n<li>Thai (ไทย)</li>\n<li>Vietnamese (Tiếng Việt)</li>\n<li>Indonesian (Bahasa Indonesia)</li>\n<li>Malay (Bahasa Melayu)</li>\n<li>Turkish (Türkçe)</li>\n<li>Dutch (Nederlands)</li>\n<li>Polish (Polski)</li>\n<li>Swedish (Svenska)</li>\n</ul>\n<h2>Implementation Details</h2>\n<ul>\n<li><strong>Preference Handling</strong>: Uses <code>MODE_WORLD_READABLE</code> with LSPosed’s <code>xposedsharedprefs</code> flag for secure preference sharing</li>\n<li><strong>Dynamic Locale Creation</strong>: Creates locale objects for all supported languages</li>\n<li><strong>API Level Detection</strong>: Automatically detects device API level and uses appropriate hooking methods</li>\n<li><strong>UI Optimization</strong>: Efficient app list loading with search functionality</li>\n<li><strong>Compatibility Layers</strong>: Special handling for different Android versions and manufacturer customizations</li>\n</ul>\n<h2>Building from Source</h2>\n<h3>Prerequisites</h3>\n<ul>\n<li>Android Studio 4.0+</li>\n<li>JDK 11+</li>\n<li>Gradle 7.0+</li>\n</ul>\n<h3>Local Build (debug-mode)</h3>\n<ol>\n<li>\n<p>Clone the repository:</p>\n<pre><code>git clone https://github.com/mon231/com.rel.languager languager\ncd languager\n</code></pre>\n</li>\n<li>\n<p>Build:</p>\n<pre><code>./gradlew clean assembleDebug\n</code></pre>\n</li>\n<li>\n<p>Find the APK at <code>app/build/outputs/apk/debug/app-debug.apk</code></p>\n</li>\n</ol>\n<h2>Troubleshooting</h2>\n<ul>\n<li><strong>Module not working</strong>: Make sure it’s enabled in LSPosed/EdXposed Manager</li>\n<li><strong>Language not changing</strong>: Try restarting the app or rebooting your device</li>\n</ul>\n<h2>Acknowledgements</h2>\n<ul>\n<li><a href=\"https://github.com/rovo89/XposedBridge\">Xposed Framework</a></li>\n<li><a href=\"https://github.com/LSPosed/LSPosed\">LSPosed Framework</a></li>\n</ul>\n"
+        },
+        "preferredSigner": "abfa5a653c040c0595f312440a28b1828095385f0e15c87c961c953164cfaee2"
+      },
+      "versions": {
+        "ec8b03c32c6ecff8b9df7a88cb701036c045de52503567964fd9658b982994fc": {
+          "added": 1740885869000,
+          "file": {
+            "name": "/com.rel.languager_6-1.0.1.apk",
+            "sha256": "ec8b03c32c6ecff8b9df7a88cb701036c045de52503567964fd9658b982994fc",
+            "size": 4347322
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "abfa5a653c040c0595f312440a28b1828095385f0e15c87c961c953164cfaee2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
               {
                 "name": "android.permission.QUERY_ALL_PACKAGES"
               }
@@ -16957,7 +17068,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740799684000,
+        "lastUpdated": 1740885887000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20615,7 +20726,7 @@
           "en-US": "Alipay High Headsome Rich (支付宝装X模块)"
         },
         "description": {
-          "en-US": "<h1>支付宝装X模块</h1>\n<p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or\ncustomized skins.</p>\n<p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>\n<p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>\n<h3>界面</h3>\n<p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>\n<p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>\n<h3>版本</h3>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>功能</th>\n<th>最后更新时间</th>\n<th>是否可用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>自由选择支付宝付款码背景</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>仅钻石付款背景</td>\n<td>2021.09</td>\n<td>&lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石背景或自定义皮肤</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23, &lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.6.0</td>\n<td>钻石背景或自定义皮肤(含导出)</td>\n<td>2024.12</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>快速手机修改背景步骤</h2>\n<ol>\n<li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"600\" />\n</blockquote>\n<ol start=\"2\">\n<li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>\n<li>打开支付宝付款码即可看到效果如图。</li>\n</ol>\n<blockquote>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"600\" />\n</blockquote>\n<ol start=\"4\">\n<li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>\n</ol>\n<h3>自定义皮肤说明（手动模式）</h3>\n<ul>\n<li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>\n\\Android\\media\\com.eg.android.AlipayGphone)</li>\n<li>如果你没有看到**[SD CARD]**\n\\Android\\media\\com.eg.android.AlipayGphone\\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>\n<li>**\n更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>\n<li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>\n</ul>\n<h3>目录结构说明（手动模式及自定义修改需了解）</h3>\n<p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>\n<table>\n<thead>\n<tr>\n<th>命名</th>\n<th>含义</th>\n<th>是否目录</th>\n<th>手动创建</th>\n<th>作用后文件消失</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>开启自定义皮肤功能</td>\n<td>随意</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发支付宝增量自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发支付宝删除自定义皮肤缓存</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出支付宝拥有皮肤</td>\n<td>随意</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>任意名称目录</td>\n<td>自定义皮肤文件夹</td>\n<td>是</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>任意名称文件</td>\n<td>无作用</td>\n<td>否</td>\n<td>是</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>\n</blockquote>\n<blockquote>\n<p>触发仅在展示二维码时有效</p>\n</blockquote>\n<blockquote>\n<p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>\n</blockquote>\n<blockquote>\n<p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>\n</blockquote>\n<blockquote>\n<p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>\n</blockquote>\n<p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>\n<h2>更新历史</h2>\n<p><a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid\">源代码</a></p>\n<p>【作者自用】</p>\n"
+          "en-US": "<h1>💎 支付宝装X模块</h1>\n<p><img src=\"https://img.shields.io/github/stars/nov30th/AlipayHighHeadsomeRichAndroid?style=social\" alt=\"GitHub stars\" />\n<img src=\"https://img.shields.io/badge/License-Apache%202.0-blue.svg\" alt=\"License\" /></p>\n<blockquote>\n<p>专业级 Xposed 框架模块，为您的支付宝支付界面提供黑色钻石会员级视觉效果或完全自定义的个性化皮肤。</p>\n</blockquote>\n<p><em>本模块仅通过 LSPosed 官方渠道发布，通过其他途径获取可能存在安全风险，请谨慎评估。</em></p>\n<h2>📱 用户界面</h2>\n<p>得益于人工智能技术的迅速发展，本人优化了用户交互界面，大幅提升了操作便捷性。初次使用时，只需点击”Download Resources”按钮获取必要资源包即可完成配置。</p>\n<p>SD资源包手动下载：<a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/blob/master/SD%E5%8D%A1%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%8C%85/SD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6.zip\">SD卡资源文件</a></p>\n<blockquote>\n<p>如果您认为本项目有价值，请考虑在 GitHub 页面右上角点击 ⭐ Star 支持我在空余时间的持续开发。</p>\n</blockquote>\n<h2>📋 版本功能对照表</h2>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>核心功能</th>\n<th>发布日期</th>\n<th>兼容性支持范围</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝界面优化及收益智能计算、支付码背景自定义</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>支付码背景自定义功能</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>专享钻石会员支付背景</td>\n<td>2021.09</td>\n<td>&lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石级背景与自定义皮肤双模式</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤功能&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石级背景、自定义皮肤与导出功能</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤功能&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>多功能整合（钻石背景、自定义皮肤、导出）</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23, &lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.6.0</td>\n<td>全平台兼容版（钻石背景、自定义皮肤、导出）</td>\n<td>2024.12</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>🚀 背景定制快速指南</h2>\n<ol>\n<li>\n<p>定位并打开目标目录中的 <code>background_2x1.png</code> 文件，将其替换为符合您设备分辨率的自定义图片。您也可以直接替换整个文件。</p>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"400\" alt=\"背景设计示例\" />\n</li>\n<li>\n<p>在应用主界面中，依次点击”Delete”与”Update”按钮，确保其状态指示灯变为绿色。（高级用户手动操作：在 <code>000_HOHO_ALIPAY_SKIN</code> 目录下创建 <code>delete</code> 与 <code>update</code> 两个文件夹）。</p>\n</li>\n<li>\n<p>打开支付宝应用并进入付款码界面，您将立即看到如下效果图所示的自定义界面。</p>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"400\" alt=\"定制效果展示\" />\n</li>\n<li>\n<p>其他界面元素可采用同样的方法进行定制。如需禁用随机皮肤切换功能，请删除 <code>000_HOHO_ALIPAY_SKIN</code> 目录下的其他皮肤文件夹，然后在应用界面中点击”Delete”与”Update”按钮更新配置。（旧版手动操作：创建同名文件夹触发系统更新）。</p>\n</li>\n</ol>\n<h2>📂 皮肤定制详细说明</h2>\n<h3>标准操作模式</h3>\n<p>通过应用界面完成所有操作，初次使用时点击”Download Resources”按钮下载必要资源包。</p>\n<h3>旧版手动操作模式</h3>\n<ul>\n<li>手动下载<a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/blob/master/SD%E5%8D%A1%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%8C%85/SD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6.zip\">SD资源包</a>，并将其解压至以下指定目录：\n<pre><code>[SD卡根目录]\\Android\\media\\com.eg.android.AlipayGphone\\\n</code></pre>\n</li>\n<li>若该目录不存在，请确保模块已正确安装，然后打开支付宝并进入付款码界面，系统将自动创建所需目录结构。</li>\n<li>在支付宝应用更新或清除缓存后，需要在 <code>000_HOHO_ALIPAY_SKIN</code> 目录中重新创建 <code>update</code> 文件夹以刷新系统缓存。</li>\n<li>首次使用时，请确保已授予支付宝应用必要的存储访问权限，以便正确读取自定义界面配置（主要针对旧版安卓系统）。</li>\n</ul>\n<h2>📁 系统目录结构详解</h2>\n<p>以下所有路径均相对于 <code>000_HOHO_ALIPAY_SKIN</code> 主目录：</p>\n<table>\n<thead>\n<tr>\n<th>目录/文件名</th>\n<th>功能描述</th>\n<th>类型</th>\n<th>需手动创建</th>\n<th>操作后是否自动删除</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>启用自定义皮肤系统</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发系统更新皮肤缓存</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发系统清除皮肤缓存</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出系统内置皮肤资源</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>[自定义目录名]</td>\n<td>个性化皮肤资源存储位置</td>\n<td>目录</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>[自定义文件名]</td>\n<td>无实际功能</td>\n<td>文件</td>\n<td>可选</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>⚠️ <strong>注意事项</strong>：系统仅在展示支付二维码界面时响应配置变更。</p>\n<p>⚠️ <strong>数据安全</strong>：启用自定义皮肤不会修改账号数据或云端设置，所有更改仅在本地设备生效。</p>\n<p>⚠️ <strong>多皮肤机制</strong>：当存在多个皮肤目录时，系统将随机选择其中之一显示，无排除重复机制。</p>\n</blockquote>\n<p><em><strong>资源包中已包含三个专业设计的皮肤模板及相应的PSD源文件，供您参考和学习。</strong></em></p>\n<h2>📝 版本更新日志</h2>\n<p>完整版本历史及更新内容请参阅<a href=\"Updates.md\">更新日志文档</a></p>\n<h2>📌 项目说明</h2>\n<p>本项目最初个人使用而设计，现对社区开放分享。如在使用过程中遇到任何技术问题，欢迎通过 GitHub Issues 系统提交反馈。</p>\n"
         },
         "preferredSigner": "2fb9c140af3054d4963df980a3b7544de6be0a252a6d66d8b9867de2a30c2f26"
       },
@@ -23525,7 +23636,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739589159000,
+        "lastUpdated": 1740885928000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
         "authorName": "ItsMadruga",
         "name": {
@@ -23749,6 +23860,41 @@
               }
             ]
           }
+        },
+        "95a304357b15dacd6915e20213f81a0a2405773866cc63ecae2697953a507a2b": {
+          "added": 1740885928000,
+          "file": {
+            "name": "/its.madruga.warevamp_1-0.1.0.apk",
+            "sha256": "95a304357b15dacd6915e20213f81a0a2405773866cc63ecae2697953a507a2b",
+            "size": 3104101
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "its.madruga.warevamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
         }
       }
     },
@@ -23758,7 +23904,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740799726000,
+        "lastUpdated": 1740885928000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -23773,6 +23919,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "a618205cf1ce106f68fb7027889886352fc280524d289279eef95cdd8b5f98af": {
+          "added": 1740885928000,
+          "file": {
+            "name": "/junzi.xposed.hook_32-3.9.1.apk",
+            "sha256": "a618205cf1ce106f68fb7027889886352fc280524d289279eef95cdd8b5f98af",
+            "size": 2503793
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.9.1",
+            "versionCode": 32,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8": {
           "added": 1740799726000,
           "file": {
@@ -23820,39 +23999,6 @@
             ],
             "versionName": "3.8",
             "versionCode": 30,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "a1753efe8166033f53ca93de87871fef59090424661720ebb84c7c2db03026c1": {
-          "added": 1740453763000,
-          "file": {
-            "name": "/junzi.xposed.hook_29-3.7.apk",
-            "sha256": "a1753efe8166033f53ca93de87871fef59090424661720ebb84c7c2db03026c1",
-            "size": 4039903
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.7",
-            "versionCode": 29,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -24878,7 +25024,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740799733000,
+        "lastUpdated": 1740885936000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -25536,7 +25682,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739934734000,
+        "lastUpdated": 1740885942000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -25551,6 +25697,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "c167e9243b9abd702cc7280ea5cbda1f3b32b42fac63507a057338545d1c84d1": {
+          "added": 1740885942000,
+          "file": {
+            "name": "/me.plusne_7141-7.6.5.apk",
+            "sha256": "c167e9243b9abd702cc7280ea5cbda1f3b32b42fac63507a057338545d1c84d1",
+            "size": 10526860
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.6.5",
+            "versionCode": 7141,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "a949596b2cea9c5671b8cc5dd93c20cb480b6f4df1960ec470ffa338a17723ea": {
           "added": 1739934734000,
           "file": {
@@ -25626,65 +25831,6 @@
             ],
             "versionName": "7.6.2",
             "versionCode": 7138,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              }
-            ]
-          }
-        },
-        "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430": {
-          "added": 1736220174000,
-          "file": {
-            "name": "/me.plusne_7137-7.6.1.apk",
-            "sha256": "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430",
-            "size": 10525314
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "7.6.1",
-            "versionCode": 7137,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 33

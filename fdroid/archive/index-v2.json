@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1740799902000,
+    "timestamp": 1740886109000,
     "categories": {
       "Xposed": {
         "name": {
@@ -214,7 +214,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740193684000,
+        "lastUpdated": 1740885811000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -229,6 +229,53 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3": {
+          "added": 1735701817000,
+          "file": {
+            "name": "/com.bug.hookvip_24123118-4.7.4-release.apk",
+            "sha256": "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3",
+            "size": 5420704
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.7.4-release",
+            "versionCode": 24123118,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "e0e20b45ef1059ba14cc0d9811c8bb8b541d2d9adaffb1cb55b0486cc33f3b9c": {
           "added": 1733887903000,
           "file": {
@@ -777,7 +824,7 @@
           "en-US": "电影猎手App去广告模块"
         },
         "description": {
-          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
+          "en-US": "<h1>电影猎手(原555电影)去广告</h1>\n<p><a href=\"https://kgg.rongmanit.com/dyls/DYLS-3.1.1.1.apk\">电影猎手App</a>去广告模块，仅用于学习交流，请勿用于任何非法用途</p>\n<p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>\n<h1>更新日志</h1>\n<p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>\n<h1>蓝天视频</h1>\n<p>推荐一个电影猎手的平替App，不含黄色内容，加载速度飞快，下载地址：<a href=\"https://www.123912.com/s/XY3fjv-rmEKd\">https://www.123912.com/s/XY3fjv-rmEKd</a></p>\n<h1>QQ交流群：1030045081</h1>\n<p><img src=\"https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg\" alt=\"\" /></p>\n"
         },
         "preferredSigner": "cfe790a3c0465a7f18a2f68f5ee4a15d1b89699b187a7f1c6693c381c906e6ac"
       },
@@ -2447,7 +2494,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740799726000,
+        "lastUpdated": 1740885928000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2462,6 +2509,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "a1753efe8166033f53ca93de87871fef59090424661720ebb84c7c2db03026c1": {
+          "added": 1740453763000,
+          "file": {
+            "name": "/junzi.xposed.hook_29-3.7.apk",
+            "sha256": "a1753efe8166033f53ca93de87871fef59090424661720ebb84c7c2db03026c1",
+            "size": 4039903
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.7",
+            "versionCode": 29,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "a78b51fc5146c62339b0595378becae3ab2125cb2a73b34f0177686d7bc6053f": {
           "added": 1740367446000,
           "file": {
@@ -3344,7 +3424,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1739934734000,
+        "lastUpdated": 1740885942000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.plusne",
         "authorName": "ALittle-Cool",
         "name": {
@@ -3359,6 +3439,65 @@
         "preferredSigner": "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
       },
       "versions": {
+        "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430": {
+          "added": 1736220174000,
+          "file": {
+            "name": "/me.plusne_7137-7.6.1.apk",
+            "sha256": "39646f8ad8b5f68e78c6b4672e7ac6793621287d7cfebcda15f196fb7616c430",
+            "size": 10525314
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "7.6.1",
+            "versionCode": 7137,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "011c32ec63a86c7cecc3e9839f923a31f3f5ba5267ef014170ed1fb5c376cab1"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        },
         "c4d6dbf7819f9570428a2da13a0cee919ff5472b0a2edd35fe802b7132f985c5": {
           "added": 1734664430000,
           "file": {
