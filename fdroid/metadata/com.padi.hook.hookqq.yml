@@ -1,0 +1,66 @@
+AuthorName: paditianxiu
+Categories:
+    - Xposed
+CurrentVersion: 1.0.1
+CurrentVersionCode: 20250228
+Description: |
+    <h2>牛逼模块</h2>
+      <img src="./icon.png" alt="socialify"/>
+    <h2>说明 / Desc:</h2>
+    <p>Wechat 辅助性功能增强</p>
+    <ul>
+    <li>一切开发旨在学习，请勿用于非法用途</li>
+    <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+    </ul>
+    <hr />
+    <h2>功能 / Func:</h2>
+    <table>
+        <tr>
+            <td align="center"><b>功能名</b></td>
+            <td align="center"><b>开发状态</b></td>
+            <td align="center"><b>适配版本</b></td>
+        </tr>
+        <tr>
+            <td align="center">自动抢红包</td>
+            <td align="center">✅</td>
+            <td align="center">理论全版本</td>
+        </tr>
+          <tr>
+            <td align="center">主题功能</td>
+            <td align="center">✅</td>
+            <td align="center">理论全版本</td>
+        </tr>
+    </table>
+    <hr />
+    <h2>致谢 / Thanks:</h2>
+    <table>
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>Source</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>WAuxiliary</td>
+    <td><a href="https://github.com/HdShare/WAuxiliary_Public">WAuxiliary</a></td>
+    </tr>
+    <tr>
+    <td>YukiHookAPI</td>
+    <td><a href="https://github.com/HighCapable/YukiHookAPI">YukiHookAPI</a></td>
+    </tr>
+    <tr>
+    <td>DexKit</td>
+    <td><a href="https://github.com/LuckyPray/DexKit">DexKit</a></td>
+    </tr>
+    <tr>
+    <td>XpHelper</td>
+    <td><a href="https://github.com/suzhelan/XPHelper">XpHelper</a></td>
+    </tr>
+    </tbody>
+    </table>
+IssueTracker: ""
+Name: HookQQ(微信模块)
+SourceCode: https://github.com/Xposed-Modules-Repo/com.padi.hook.hookqq
+Summary: 微信主题功能，自动抢红包
+WebSite: ""

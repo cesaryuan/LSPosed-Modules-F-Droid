@@ -4180,125 +4180,69 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_4.9.7-release.apk
+          filename: app_5.0.1-release-fix.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2025-02-21T09:16:26Z"
+          last_updated: "2025-03-01T10:07:26Z"
           releasedescription: |-
-            <p>新增：</p>
+            <p>v5.0.1-release-fix：<br>
+            修复 Android 13 以下拓展功能闪退的问题</p>
+            <p>5.0.1-release<br>
+            新增：</p>
             <ul>
-            <li>钉钉 平板模式</li>
-            <li>KineMaster 7.5.17.34152.GP</li>
-            <li>Lovekey</li>
-            <li>截屏大师 1.8.0.27</li>
-            <li>扫描计数王</li>
-            <li>企业微信 平板模式</li>
-            <li>锤子便签</li>
-            <li>Multi App 2.2.8</li>
-            <li>考霸刷题宝</li>
-            <li>糖豆</li>
-            <li>USB摄像头 3.1.0</li>
-            <li>星芽免费短剧</li>
-            <li>「拓展」禁用加速度传感器</li>
-            <li>「拓展」禁止剪切板读取写入</li>
-            <li>「拓展」启动被Hook的应用时，显示Toast提示</li>
-            <li>「拓展」- 增加一些一般性的Root、Xposed、虚拟机过检测</li>
+            <li>文件闪传</li>
+            <li>快压缩</li>
+            <li>外语翻译官</li>
+            <li>日记云笔记<br>
+            -「拓展」禁用无障碍服务检测<br>
+            -「拓展」禁用USB调试检测</li>
             </ul>
-            <p>优化：</p>
-            <ul>
-            <li>「拓展」自定义设置应用，仅针对单独应用生效，不再全局生效</li>
-            <li>「拓展」调整 隐藏Root、Xposed 为默认关闭</li>
-            <li>「拓展」支持仅查看已配置的应用</li>
-            <li>「拓展」支持保存用户上次退出时的过滤配置</li>
-            <li>「拓展」UI显示优化、加载逻辑优化</li>
-            <li>「拓展」添加 解除截屏录屏限制 开关</li>
-            <li>「拓展」增强VPN过检测逻辑并增加开关</li>
-            <li>酷安 Hook逻辑</li>
-            <li>微信 平板模式Hook逻辑</li>
-            <li>将 外部存储设备 添加为适配应用</li>
-            <li>「适配软件」重构适配软件界面</li>
-            <li>「适配软件」优化加载逻辑</li>
-            <li>「适配软件」切换不同语言后字体颜色保持一致</li>
-            <li>优化设备型号显示逻辑</li>
-            <li>优化部分旧设备卡顿，提升流畅度</li>
-            </ul>
+            <p>优化：<br>
+            -「拓展」Toast 显示<br>
+            -「拓展」大幅优化应用列表加载速度<br>
+            -「拓展」优化部分描述<br>
+            -「拓展」添加 MT论坛签到 开关<br>
+            -「拓展」MT论坛签到 支持启动被Hook的应用自动执行签到<br>
+            -「拓展」添加 游戏加速器白名单 开关<br>
+            -「拓展」所有开关默认为关闭<br>
+            -「拓展」将隐藏Root与隐藏Xposed合并为一个开关</p>
             <p>修复：</p>
             <ul>
-            <li>「拓展」语言为English时过滤弹窗显示异常的问题</li>
-            <li>「拓展」搜索功能失效问题</li>
-            <li>微信 Hook逻辑 修复与其它模块冲突的问题</li>
-            <li>无界趣连 一些问题修复（感谢Tauoftv）</li>
-            <li>修复部分过检测功能默认开启时导致的设备异常的问题</li>
+            <li>加速器白名单自定义包名不生效的问题</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>123云盘 2.5.1</li>
-            <li>99手游加速器 2.0.0</li>
-            <li>ShortX 1.0.0-rc2-326-a0f409c-main-prc</li>
-            <li>Battery Guru 2.3.15</li>
-            <li>Lightroom 10.2.0</li>
-            <li>QQ音乐 14.1.1.8</li>
-            <li>XPlayer - Video Player 2.4.4.2</li>
-            <li>Adobe Scan 25.02.12-google-dynamic</li>
-            <li>B612咔叽 14.0.15</li>
-            <li>CamScanner 6.82.0.2502180000</li>
-            <li>FlowMark 1.2.1</li>
-            <li>inBox笔记 1.8.402</li>
-            <li>Instant Translate v6.9.30908</li>
-            <li>Niagara Launcher 1.13.5</li>
-            <li>XRecorder 2.4.0.3</li>
-            <li>Nekogram 11.7.0</li>
-            <li>Telegraph T11.5.3 - P11.16.3</li>
-            <li>Oto Music 4.0.7</li>
-            <li>Nullgram v11.7.0-df9414f</li>
-            <li>Clone App 3.2.1</li>
-            <li>Fing 12.9.0</li>
-            <li>Slidebox 3.15</li>
-            <li>萌圈 1.0.1.1（com.movie.hhdfly.p4）</li>
-            <li>薄荷记账 11.3.2</li>
-            <li>多邻国 6.18.3</li>
-            <li>浩克下载 1.8.7</li>
-            <li>今日水印相机 v3.0.214.4</li>
-            <li>乐秀 10.3.0.0</li>
-            <li>美图秀秀 11.3.0</li>
-            <li>排班助手 3.9.6</li>
-            <li>日历记加班 4.5.6</li>
-            <li>鲨鱼记账 5.19.2</li>
-            <li>搜图神器 5.2.3</li>
-            <li>迅雷 8.28.0.9663</li>
-            <li>种子磁力下载器 1.5.6</li>
-            <li>冰箱 3.25.6 G</li>
-            <li>特狗APP 3.2.1</li>
-            <li>幕布 2.52.0</li>
-            <li>欧路词典 10.0.5</li>
-            <li>七猫免费小说 7.66.5</li>
-            <li>轻羽写作 1.89.1</li>
-            <li>时间日志 1.7.7</li>
-            <li>我要做计划 5.3.1</li>
-            <li>醒图 11.7.0</li>
-            <li>知拾笔记 4.7.9</li>
-            <li>整点视频 更新为 星星视频</li>
-            <li>小草视频 更新为 蓝天视频</li>
-            <li>网飞猫 3.3.3</li>
-            <li>可可影视 3.3.3</li>
-            <li>奇妙应用 1.2.8</li>
-            <li>黃品匯 5.0.0</li>
-            <li>懒人驾考 2.13.3</li>
-            <li>录风者 v1.5.57.250118</li>
-            <li>二维码生成器 1.02.47.0121</li>
-            <li>开发助手 8.4.1-ng</li>
-            <li>特种作业宝典 4.0.1</li>
-            <li>通知滤盒 3.3.10</li>
-            <li>微信 8.0.56</li>
+            <li>99手游加速器 2.0.4</li>
+            <li>宇宙工具箱 2.8.1</li>
+            <li>神奇工具 2.4.9</li>
+            <li>Fing 12.9.1</li>
+            <li>FlowMark 1.2.3</li>
+            <li>inBox笔记 1.8.406</li>
+            <li>MOJi辞書 8.13.0</li>
+            <li>Niagara Launcher 1.13.7</li>
+            <li>Telegraph T11.7.0 - P11.17.2</li>
+            <li>乐播视频 3.7.2（com.vspace.puzzle）</li>
+            <li>油条视频 更新为 抢先视频</li>
+            <li>汤头条 9.2.0</li>
+            <li>Thanox 5.2.8-prc</li>
+            <li>多邻国 6.19.2</li>
+            <li>今日水印相机 v3.0.218.4</li>
+            <li>乐秀 10.3.0.3</li>
+            <li>录风者 v2.0.1.250220</li>
+            <li>七猫免费小说 7.67</li>
+            <li>鲨鱼记账 5.19.5</li>
+            <li>通知滤盒 3.4.0</li>
+            <li>元气壁纸 1.8.7</li>
+            <li>飞鸟新版</li>
             </ul>
             <p>其他：</p>
             <ul>
-            <li>去除 蜗牛视频</li>
-            <li>去除 蓝猫视频</li>
-            <li>去除 良人剧场</li>
-            <li>去除 小米音乐</li>
-            <li>去除 NyaFun</li>
+            <li>去除 虾皮视频</li>
+            <li>去除 蓝狐视频</li>
             </ul>
+            <hr>
+            <p>天天开心！</p>
+            <p>by：只有风知道~</p>
     author_name: bug-bit
 com.ceco.oreo.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox
@@ -8323,6 +8267,8 @@ com.kgg.hhvideo:
             <p>神秘观影App，低调分享，内容丰富，人手必备，不会失望！</p>
             <h1>更新日志</h1>
             <p>2025.02.22    v1.0.21    适配电影猎手v3.1.1.1版本</p>
+            <h1>蓝天视频</h1>
+            <p>推荐一个电影猎手的平替App，不含黄色内容，加载速度飞快，下载地址：<a href="https://www.123912.com/s/XY3fjv-rmEKd">https://www.123912.com/s/XY3fjv-rmEKd</a></p>
             <h1>QQ交流群：1030045081</h1>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/qq.jpg" alt="" /></p>
           filename: dylsNoAd_1.0.21_release.apk
@@ -9638,6 +9584,75 @@ com.owo233.fuckmarketads:
             </ul>
             <p><del>可能会看到几个系统APP出现在更新列表</del></p>
     author_name: callng
+com.padi.hook.hookqq:
+    git: https://github.com/Xposed-Modules-Repo/com.padi.hook.hookqq
+    summary: 微信主题功能，自动抢红包
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h2>牛逼模块</h2>
+              <img src="./icon.png" alt="socialify"/>
+            <h2>说明 / Desc:</h2>
+            <p>Wechat 辅助性功能增强</p>
+            <ul>
+            <li>一切开发旨在学习，请勿用于非法用途</li>
+            <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+            </ul>
+            <hr />
+            <h2>功能 / Func:</h2>
+            <table>
+                <tr>
+                    <td align="center"><b>功能名</b></td>
+                    <td align="center"><b>开发状态</b></td>
+                    <td align="center"><b>适配版本</b></td>
+                </tr>
+                <tr>
+                    <td align="center">自动抢红包</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                  <tr>
+                    <td align="center">主题功能</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+            </table>
+            <hr />
+            <h2>致谢 / Thanks:</h2>
+            <table>
+            <thead>
+            <tr>
+            <th>Name</th>
+            <th>Source</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>WAuxiliary</td>
+            <td><a href="https://github.com/HdShare/WAuxiliary_Public">WAuxiliary</a></td>
+            </tr>
+            <tr>
+            <td>YukiHookAPI</td>
+            <td><a href="https://github.com/HighCapable/YukiHookAPI">YukiHookAPI</a></td>
+            </tr>
+            <tr>
+            <td>DexKit</td>
+            <td><a href="https://github.com/LuckyPray/DexKit">DexKit</a></td>
+            </tr>
+            <tr>
+            <td>XpHelper</td>
+            <td><a href="https://github.com/suzhelan/XPHelper">XpHelper</a></td>
+            </tr>
+            </tbody>
+            </table>
+          filename: HookQQ_1.0.1.apk
+          id: com.padi.hook.hookqq
+          name: HookQQ(微信模块)
+          last_updated: "2025-02-28T11:25:42Z"
+          releasedescription: <p>微信美化模块，自动抢红包功能</p>
+    author_name: paditianxiu
 com.parallelc.micts:
     git: https://github.com/Xposed-Modules-Repo/com.parallelc.micts
     summary: |-
@@ -10521,6 +10536,163 @@ com.rdstory.miuiperfsaver:
             <li>Fix: Joyose profile content background color in dark mode</li>
             </ul>
     author_name: test01wrk
+com.rel.languager:
+    git: https://github.com/Xposed-Modules-Repo/com.rel.languager
+    summary: Spoof system-language for selected apps
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>Languager - Language Spoofing Xposed Module</h1>
+            <h2>Overview</h2>
+            <p>Languager is an Xposed module that allows you to change the language of specific Android applications, without changing your system language. This is particularly useful against apps that enforce system language settings or buggy apps that fail to show the selected language from app’s settings.</p>
+            <h2>Features</h2>
+            <ul>
+            <li><strong>Per-App Language Selection</strong>: Choose a different language for each app independently</li>
+            <li><strong>Comprehensive Language Support</strong>: 26+ languages available including English, French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hebrew, Hindi, and many more</li>
+            <li><strong>User-Friendly Interface</strong>: Easy-to-use UI with app search functionality and intuitive language selection</li>
+            <li><strong>Wide Compatibility</strong>: Works on Android 5.0+ (API 21+) with support for both older and newer Android versions</li>
+            <li><strong>Efficient Hooking Mechanism</strong>: Hooks all locale-related methods to ensure complete language spoofing</li>
+            </ul>
+            <h2>Technical Details</h2>
+            <ul>
+            <li>
+            <p><strong>Language Spoofing Mechanism</strong>:</p>
+            <ul>
+            <li>Uses Xposed framework for comprehensive method hooking</li>
+            <li>Targets all locale-related methods across different API levels:
+            <ul>
+            <li><code>Configuration.getLocales()</code> (API 24+)</li>
+            <li><code>Configuration.getLocale()</code> (API &lt; 24)</li>
+            <li><code>Configuration.locale</code> property</li>
+            <li><code>Resources.getConfiguration().locale</code></li>
+            <li><code>Locale.getDefault()</code></li>
+            <li><code>Locale.getDefault(Category)</code> (API 24+)</li>
+            <li><code>LocaleList.getDefault()</code> (API 24+)</li>
+            <li><code>LocaleList.getAdjustedDefault()</code> (API 24+)</li>
+            </ul>
+            </li>
+            <li>Dynamically replaces system locale with user-selected language</li>
+            <li>Handles API differences between Android versions</li>
+            </ul>
+            </li>
+            <li>
+            <p><strong>Shared Preferences</strong>:</p>
+            <ul>
+            <li>Uses XSharedPreferences for cross-process configuration storage</li>
+            <li>Implements world-readable preferences for Xposed module access</li>
+            <li>Direct key-value storage for app-language mappings</li>
+            </ul>
+            </li>
+            </ul>
+            <h2>Requirements</h2>
+            <ul>
+            <li>Android device with Xposed framework installed (LSPosed, EdXposed, etc.)</li>
+            <li>Android 5.0+ (API 21+)</li>
+            </ul>
+            <h2>Installation</h2>
+            <ol>
+            <li>Install the Languager APK</li>
+            <li>Enable the module in your Xposed framework manager</li>
+            <li>Select the apps you want to apply language spoofing to</li>
+            <li>Reboot your device</li>
+            <li>Open the Languager app to configure language settings for each app</li>
+            </ol>
+            <h3>LSPosed Repository Installation</h3>
+            <p>You can also install Languager directly from the LSPosed repository:</p>
+            <ol>
+            <li>Open LSPosed Manager</li>
+            <li>Go to Repository tab</li>
+            <li>Add the repository URL: <code>https://mon231.github.io/com.rel.languager</code></li>
+            <li>Find Languager in the list and install it</li>
+            <li>Enable the module and reboot</li>
+            </ol>
+            <h2>Usage</h2>
+            <ol>
+            <li>Open the Languager app</li>
+            <li>Use the search bar to find specific apps</li>
+            <li>Select your preferred language for each app from the dropdown menu</li>
+            <li>Click “Save Settings” to apply changes</li>
+            <li>Reboot or restart the target apps for changes to take effect</li>
+            </ol>
+            <h2>Supported Languages</h2>
+            <ul>
+            <li>English</li>
+            <li>French (Français)</li>
+            <li>German (Deutsch)</li>
+            <li>Spanish (Español)</li>
+            <li>Italian (Italiano)</li>
+            <li>Portuguese (Português)</li>
+            <li>Russian (Русский)</li>
+            <li>Chinese (中文)</li>
+            <li>Japanese (日本語)</li>
+            <li>Korean (한국어)</li>
+            <li>Arabic (العربية)</li>
+            <li>Hebrew (עברית)</li>
+            <li>Hindi (हिन्दी)</li>
+            <li>Bengali (বাংলা)</li>
+            <li>Punjabi (ਪੰਜਾਬੀ)</li>
+            <li>Tamil (தமிழ்)</li>
+            <li>Telugu (తెలుగు)</li>
+            <li>Malayalam (മലയാളം)</li>
+            <li>Thai (ไทย)</li>
+            <li>Vietnamese (Tiếng Việt)</li>
+            <li>Indonesian (Bahasa Indonesia)</li>
+            <li>Malay (Bahasa Melayu)</li>
+            <li>Turkish (Türkçe)</li>
+            <li>Dutch (Nederlands)</li>
+            <li>Polish (Polski)</li>
+            <li>Swedish (Svenska)</li>
+            </ul>
+            <h2>Implementation Details</h2>
+            <ul>
+            <li><strong>Preference Handling</strong>: Uses <code>MODE_WORLD_READABLE</code> with LSPosed’s <code>xposedsharedprefs</code> flag for secure preference sharing</li>
+            <li><strong>Dynamic Locale Creation</strong>: Creates locale objects for all supported languages</li>
+            <li><strong>API Level Detection</strong>: Automatically detects device API level and uses appropriate hooking methods</li>
+            <li><strong>UI Optimization</strong>: Efficient app list loading with search functionality</li>
+            <li><strong>Compatibility Layers</strong>: Special handling for different Android versions and manufacturer customizations</li>
+            </ul>
+            <h2>Building from Source</h2>
+            <h3>Prerequisites</h3>
+            <ul>
+            <li>Android Studio 4.0+</li>
+            <li>JDK 11+</li>
+            <li>Gradle 7.0+</li>
+            </ul>
+            <h3>Local Build (debug-mode)</h3>
+            <ol>
+            <li>
+            <p>Clone the repository:</p>
+            <pre><code>git clone https://github.com/mon231/com.rel.languager languager
+            cd languager
+            </code></pre>
+            </li>
+            <li>
+            <p>Build:</p>
+            <pre><code>./gradlew clean assembleDebug
+            </code></pre>
+            </li>
+            <li>
+            <p>Find the APK at <code>app/build/outputs/apk/debug/app-debug.apk</code></p>
+            </li>
+            </ol>
+            <h2>Troubleshooting</h2>
+            <ul>
+            <li><strong>Module not working</strong>: Make sure it’s enabled in LSPosed/EdXposed Manager</li>
+            <li><strong>Language not changing</strong>: Try restarting the app or rebooting your device</li>
+            </ul>
+            <h2>Acknowledgements</h2>
+            <ul>
+            <li><a href="https://github.com/rovo89/XposedBridge">Xposed Framework</a></li>
+            <li><a href="https://github.com/LSPosed/LSPosed">LSPosed Framework</a></li>
+            </ul>
+          filename: Languager-v1.0.1.apk
+          id: com.rel.languager
+          name: Languager
+          last_updated: "2025-03-01T22:03:45Z"
+          releasedescription: ""
+    author_name: mon231
 com.rifsxd.processhook:
     git: https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook
     summary: Hook specific process/apps/games to spoof your device as different model/device to unlock hidden features and options.
@@ -15292,185 +15464,12 @@ im.hoho.alipayinstallb:
         - anti_features: []
           categories:
             - Xposed
-          description: |
-            <h1>支付宝装X模块</h1>
-            <p>Xposed module for Alipay App which makes you barcode payment interface same as Diamond members or
-            customized skins.</p>
-            <p>这是一个Xposed模块，它可以让你的支付宝付款背景为黑色钻石会员样式或自定义皮肤。</p>
-            <p><em>该模块作者仅在LSPosed官方同步，其他途径下载请自行分析风险。</em></p>
-            <h3>界面</h3>
-            <p>得力于AI的快速发展，作者花了一个晚上时间做了界面，这样操作就方便多了。首次使用点击”Download Resources”包即可。</p>
-            <p>另外觉得好用请右上角Star ❥这个Repo，^_^</p>
-            <h3>版本</h3>
-            <table>
-            <thead>
-            <tr>
-            <th>版本</th>
-            <th>功能</th>
-            <th>最后更新时间</th>
-            <th>是否可用</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-            <td>2.2.8</td>
-            <td>余额宝修改及收益自动计算、 自由选择支付宝付款码背景</td>
-            <td>2018.06</td>
-            <td>&lt;=10.0.12</td>
-            </tr>
-            <tr>
-            <td>2.2.8</td>
-            <td>自由选择支付宝付款码背景</td>
-            <td>2018.06</td>
-            <td>&lt;10.2.33</td>
-            </tr>
-            <tr>
-            <td>2.3.0</td>
-            <td>仅钻石付款背景</td>
-            <td>2021.09</td>
-            <td>&lt;10.6.76</td>
-            </tr>
-            <tr>
-            <td>2.4.0</td>
-            <td>钻石背景或自定义皮肤</td>
-            <td>2022.01</td>
-            <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
-            </tr>
-            <tr>
-            <td>2.4.2</td>
-            <td>钻石背景或自定义皮肤(含导出)</td>
-            <td>2023.09</td>
-            <td>&gt;=10.2.23, &lt;10.6.76 （皮肤&lt;10.5.53）</td>
-            </tr>
-            <tr>
-            <td>2.5.0</td>
-            <td>钻石背景或自定义皮肤(含导出)</td>
-            <td>2023.11</td>
-            <td>&gt;=10.2.23, &lt;10.6.76</td>
-            </tr>
-            <tr>
-            <td>2.6.0</td>
-            <td>钻石背景或自定义皮肤(含导出)</td>
-            <td>2024.12</td>
-            <td>&gt;=10.2.23</td>
-            </tr>
-            </tbody>
-            </table>
-            <h2>快速手机修改背景步骤</h2>
-            <ol>
-            <li>打开任意目录下background_2x1.png文件，修改图片为手机分辨率大小并替换图片。也可直接替换文件。</li>
-            </ol>
-            <blockquote>
-            <img src="https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png" height="600" />
-            </blockquote>
-            <ol start="2">
-            <li>程序界面中点击delete与update，使右边绿灯。（手动：在000_HOHO_ALIPAY_SKIN目录下创建delete与update两个文件夹）。</li>
-            <li>打开支付宝付款码即可看到效果如图。</li>
-            </ol>
-            <blockquote>
-            <img src="https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png" height="600" />
-            </blockquote>
-            <ol start="4">
-            <li>其他界面内元素同样。如不希望随机界面，删除000_HOHO_ALIPAY_SKIN下其他皮肤目录后，程序界面中点击delete与update。（手动：同样创建创建delete与update两个文件夹触发更新。）</li>
-            </ol>
-            <h3>自定义皮肤说明（手动模式）</h3>
-            <ul>
-            <li>手动下载DEMO资源包，放入SD卡对应程序文件目录。(<strong>[SD CARD]</strong>
-            \Android\media\com.eg.android.AlipayGphone)</li>
-            <li>如果你没有看到**[SD CARD]**
-            \Android\media\com.eg.android.AlipayGphone\目录，在插件已经安装的情况下，打开支付宝付款二维码，程序会自动创建一个）</li>
-            <li>**
-            更新支付宝或者清除支付宝缓存后，需要在000_HOHO_ALIPAY_SKIN里重新创建update文件夹（或文件）以更新缓存。  **</li>
-            <li><strong>第一次使用需手动修改支付宝权限给与存储卡读写功能以读取自定义界面配置（旧版安卓系统）</strong></li>
-            </ul>
-            <h3>目录结构说明（手动模式及自定义修改需了解）</h3>
-            <p>以下提到的所有”目录”均为000_HOHO_ALIPAY_SKIN下的目录。</p>
-            <table>
-            <thead>
-            <tr>
-            <th>命名</th>
-            <th>含义</th>
-            <th>是否目录</th>
-            <th>手动创建</th>
-            <th>作用后文件消失</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-            <td>actived</td>
-            <td>开启自定义皮肤功能</td>
-            <td>随意</td>
-            <td>是</td>
-            <td>否</td>
-            </tr>
-            <tr>
-            <td>update</td>
-            <td>触发支付宝增量自定义皮肤缓存</td>
-            <td>随意</td>
-            <td>是</td>
-            <td>是</td>
-            </tr>
-            <tr>
-            <td>delete</td>
-            <td>触发支付宝删除自定义皮肤缓存</td>
-            <td>随意</td>
-            <td>是</td>
-            <td>是</td>
-            </tr>
-            <tr>
-            <td>export</td>
-            <td>导出支付宝拥有皮肤</td>
-            <td>随意</td>
-            <td>是</td>
-            <td>是</td>
-            </tr>
-            <tr>
-            <td>任意名称目录</td>
-            <td>自定义皮肤文件夹</td>
-            <td>是</td>
-            <td>是</td>
-            <td>否</td>
-            </tr>
-            <tr>
-            <td>任意名称文件</td>
-            <td>无作用</td>
-            <td>否</td>
-            <td>是</td>
-            <td>否</td>
-            </tr>
-            </tbody>
-            </table>
-            <blockquote>
-            <p>通常情况下，创建 update文件夹 时，请同时创建 delete文件夹 干净清除。</p>
-            </blockquote>
-            <blockquote>
-            <p>触发仅在展示二维码时有效</p>
-            </blockquote>
-            <blockquote>
-            <p>自定义皮肤开启后，账号皮肤数据不会被修改或影响，仅本地切换。</p>
-            </blockquote>
-            <blockquote>
-            <p>export文件夹建立后，展示二维码，成功便export文件夹消失，如需更新展示则仍然需要创建update或delete文件夹。</p>
-            </blockquote>
-            <blockquote>
-            <p>多目录存在时多个皮肤之间随机数切换，没有去重，看你手机心情展示。</p>
-            </blockquote>
-            <p><em><strong>资源包已经包含3个作者画的DEMO与简单的PSD文件，请自行研究。</strong></em></p>
-            <h2>更新历史</h2>
-            <p><a href="https://github.com/nov30th/AlipayHighHeadsomeRichAndroid">源代码</a></p>
-            <p>【作者自用】</p>
+          description: "<h1>\U0001F48E 支付宝装X模块</h1>\n<p><img src=\"https://img.shields.io/github/stars/nov30th/AlipayHighHeadsomeRichAndroid?style=social\" alt=\"GitHub stars\" />\n<img src=\"https://img.shields.io/badge/License-Apache%202.0-blue.svg\" alt=\"License\" /></p>\n<blockquote>\n<p>专业级 Xposed 框架模块，为您的支付宝支付界面提供黑色钻石会员级视觉效果或完全自定义的个性化皮肤。</p>\n</blockquote>\n<p><em>本模块仅通过 LSPosed 官方渠道发布，通过其他途径获取可能存在安全风险，请谨慎评估。</em></p>\n<h2>\U0001F4F1 用户界面</h2>\n<p>得益于人工智能技术的迅速发展，本人优化了用户交互界面，大幅提升了操作便捷性。初次使用时，只需点击”Download Resources”按钮获取必要资源包即可完成配置。</p>\n<p>SD资源包手动下载：<a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/blob/master/SD%E5%8D%A1%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%8C%85/SD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6.zip\">SD卡资源文件</a></p>\n<blockquote>\n<p>如果您认为本项目有价值，请考虑在 GitHub 页面右上角点击 ⭐ Star 支持我在空余时间的持续开发。</p>\n</blockquote>\n<h2>\U0001F4CB 版本功能对照表</h2>\n<table>\n<thead>\n<tr>\n<th>版本</th>\n<th>核心功能</th>\n<th>发布日期</th>\n<th>兼容性支持范围</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2.2.8</td>\n<td>余额宝界面优化及收益智能计算、支付码背景自定义</td>\n<td>2018.06</td>\n<td>&lt;=10.0.12</td>\n</tr>\n<tr>\n<td>2.2.8</td>\n<td>支付码背景自定义功能</td>\n<td>2018.06</td>\n<td>&lt;10.2.33</td>\n</tr>\n<tr>\n<td>2.3.0</td>\n<td>专享钻石会员支付背景</td>\n<td>2021.09</td>\n<td>&lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.4.0</td>\n<td>钻石级背景与自定义皮肤双模式</td>\n<td>2022.01</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤功能&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.4.2</td>\n<td>钻石级背景、自定义皮肤与导出功能</td>\n<td>2023.09</td>\n<td>&gt;=10.2.23, &lt;10.6.76 （皮肤功能&lt;10.5.53）</td>\n</tr>\n<tr>\n<td>2.5.0</td>\n<td>多功能整合（钻石背景、自定义皮肤、导出）</td>\n<td>2023.11</td>\n<td>&gt;=10.2.23, &lt;10.6.76</td>\n</tr>\n<tr>\n<td>2.6.0</td>\n<td>全平台兼容版（钻石背景、自定义皮肤、导出）</td>\n<td>2024.12</td>\n<td>&gt;=10.2.23</td>\n</tr>\n</tbody>\n</table>\n<h2>\U0001F680 背景定制快速指南</h2>\n<ol>\n<li>\n<p>定位并打开目标目录中的 <code>background_2x1.png</code> 文件，将其替换为符合您设备分辨率的自定义图片。您也可以直接替换整个文件。</p>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/ps_bg.png\" height=\"400\" alt=\"背景设计示例\" />\n</li>\n<li>\n<p>在应用主界面中，依次点击”Delete”与”Update”按钮，确保其状态指示灯变为绿色。（高级用户手动操作：在 <code>000_HOHO_ALIPAY_SKIN</code> 目录下创建 <code>delete</code> 与 <code>update</code> 两个文件夹）。</p>\n</li>\n<li>\n<p>打开支付宝应用并进入付款码界面，您将立即看到如下效果图所示的自定义界面。</p>\n<img src=\"https://raw.githubusercontent.com/nov30th/AlipayHighHeadsomeRichAndroid/master/images/final_code.png\" height=\"400\" alt=\"定制效果展示\" />\n</li>\n<li>\n<p>其他界面元素可采用同样的方法进行定制。如需禁用随机皮肤切换功能，请删除 <code>000_HOHO_ALIPAY_SKIN</code> 目录下的其他皮肤文件夹，然后在应用界面中点击”Delete”与”Update”按钮更新配置。（旧版手动操作：创建同名文件夹触发系统更新）。</p>\n</li>\n</ol>\n<h2>\U0001F4C2 皮肤定制详细说明</h2>\n<h3>标准操作模式</h3>\n<p>通过应用界面完成所有操作，初次使用时点击”Download Resources”按钮下载必要资源包。</p>\n<h3>旧版手动操作模式</h3>\n<ul>\n<li>手动下载<a href=\"https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/blob/master/SD%E5%8D%A1%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%8C%85/SD%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6.zip\">SD资源包</a>，并将其解压至以下指定目录：\n<pre><code>[SD卡根目录]\\Android\\media\\com.eg.android.AlipayGphone\\\n</code></pre>\n</li>\n<li>若该目录不存在，请确保模块已正确安装，然后打开支付宝并进入付款码界面，系统将自动创建所需目录结构。</li>\n<li>在支付宝应用更新或清除缓存后，需要在 <code>000_HOHO_ALIPAY_SKIN</code> 目录中重新创建 <code>update</code> 文件夹以刷新系统缓存。</li>\n<li>首次使用时，请确保已授予支付宝应用必要的存储访问权限，以便正确读取自定义界面配置（主要针对旧版安卓系统）。</li>\n</ul>\n<h2>\U0001F4C1 系统目录结构详解</h2>\n<p>以下所有路径均相对于 <code>000_HOHO_ALIPAY_SKIN</code> 主目录：</p>\n<table>\n<thead>\n<tr>\n<th>目录/文件名</th>\n<th>功能描述</th>\n<th>类型</th>\n<th>需手动创建</th>\n<th>操作后是否自动删除</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>actived</td>\n<td>启用自定义皮肤系统</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>update</td>\n<td>触发系统更新皮肤缓存</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>delete</td>\n<td>触发系统清除皮肤缓存</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>export</td>\n<td>导出系统内置皮肤资源</td>\n<td>目录或文件</td>\n<td>是</td>\n<td>是</td>\n</tr>\n<tr>\n<td>[自定义目录名]</td>\n<td>个性化皮肤资源存储位置</td>\n<td>目录</td>\n<td>是</td>\n<td>否</td>\n</tr>\n<tr>\n<td>[自定义文件名]</td>\n<td>无实际功能</td>\n<td>文件</td>\n<td>可选</td>\n<td>否</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>⚠️ <strong>注意事项</strong>：系统仅在展示支付二维码界面时响应配置变更。</p>\n<p>⚠️ <strong>数据安全</strong>：启用自定义皮肤不会修改账号数据或云端设置，所有更改仅在本地设备生效。</p>\n<p>⚠️ <strong>多皮肤机制</strong>：当存在多个皮肤目录时，系统将随机选择其中之一显示，无排除重复机制。</p>\n</blockquote>\n<p><em><strong>资源包中已包含三个专业设计的皮肤模板及相应的PSD源文件，供您参考和学习。</strong></em></p>\n<h2>\U0001F4DD 版本更新日志</h2>\n<p>完整版本历史及更新内容请参阅<a href=\"Updates.md\">更新日志文档</a></p>\n<h2>\U0001F4CC 项目说明</h2>\n<p>本项目最初个人使用而设计，现对社区开放分享。如在使用过程中遇到任何技术问题，欢迎通过 GitHub Issues 系统提交反馈。</p>\n"
           filename: app-release.apk
           id: im.hoho.alipayinstallb
           name: Alipay High Headsome Rich (支付宝装X模块)
-          last_updated: "2024-10-14T00:29:09Z"
-          releasedescription: |-
-            <ol>
-            <li>界面更新为中文</li>
-            <li>添加了等级选择，钻石会员可以选择大众反向install</li>
-            <li>SD存储卡Full access只在下载资源包才会请求</li>
-            </ol>
-            <p>较[2.5.1]新增了界面操作和等级选择，正常使用的无需更新。</p>
-            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/nov30th/AlipayHighHeadsomeRichAndroid/compare/V2.5.3...v2.5.4">nov30th/AlipayHighHeadsomeRichAndroid@<tt>V2.5.3...v2.5.4</tt></a></p>
+          last_updated: "2025-02-28T14:03:37Z"
+          releasedescription: <p>修复等级配置文件夹会被当做皮肤文件夹的问题。</p>
     author_name: nov30th
 inc.whew.android.fakegapps:
     git: https://github.com/Xposed-Modules-Repo/inc.whew.android.fakegapps
@@ -17304,23 +17303,18 @@ its.madruga.warevamp:
             <div align="center">
              <a href="https://buymeacoffee.com/kaioreis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
             </div>
-          filename: WaRevamp_0.0.9.apk
+          filename: WaRevamp_0.1.0.apk
           id: its.madruga.warevamp
           name: Wa Revamp
-          last_updated: "2025-02-14T03:09:16Z"
+          last_updated: "2025-03-02T02:37:22Z"
           releasedescription: |-
             <p>| ADDED |</p>
             <ul>
-            <li>Support to 2.25.3.x and 2.25.4.x</li>
-            <li>Remove expiration time</li>
+            <li>Call Privacy</li>
             </ul>
             <p>| FIXED |</p>
             <ul>
-            <li>Anti-Revoke</li>
-            </ul>
-            <p>| NOTICE |</p>
-            <ul>
-            <li>New functions soon</li>
+            <li>minor bugs</li>
             </ul>
     author_name: ItsMadruga
 junzi.xposed.hook:
@@ -17376,13 +17370,11 @@ junzi.xposed.hook:
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
             <p>小星记账</p>
-          filename: JunZi.Xposed.Hook_3.9.apk
+          filename: JunZi.Xposed.Hook_3.9.1.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-02-28T04:09:20Z"
-          releasedescription: |-
-            <p>新增 支持 记账鸭<br>
-            新增 支持 小熊录屏</p>
+          last_updated: "2025-03-01T14:35:10Z"
+          releasedescription: <p>新增 支持 小习惯</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -18402,13 +18394,15 @@ me.plusne:
             <h3>交流</h3>
             <p>QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=Tb9rytiP6fL_r2zspEXSQ0G-h99Wk3cz&amp;jump_from=webapi&amp;authKey=wgj8D5u9PYTo1+z/vRJwygD8NF02+Yt0ThVtj6CJBWwfM7BRGl5xjsYJyqiXZasJ">596565319</a>
             QQ群: <a href="https://qm.qq.com/cgi-bin/qm/qr?k=gFJjbdjUQxC9rBGFdjZi7UKn9Jpyg0Rp&amp;jump_from=webapi">643354312</a></p>
-          filename: PlusNE7_New.7.6.3.apk
+          filename: PlusNE7_New.7.6.5.apk
           id: me.plusne
           name: PlusNE 7+
-          last_updated: "2025-02-18T04:50:18Z"
+          last_updated: "2025-03-01T09:52:47Z"
           releasedescription: |-
-            <p>修复已知问题<br>
-            适配Soul最新版</p>
+            <p>[修复]抖音 无法筛选直播等<br>
+            [修复]抖音极速版 无法筛选直播等<br>
+            [修复]百度贴吧 闪退<br>
+            优化一些已知问题</p>
     author_name: ALittle-Cool
 me.rhunk.snapenhance:
     git: https://github.com/Xposed-Modules-Repo/me.rhunk.snapenhance
