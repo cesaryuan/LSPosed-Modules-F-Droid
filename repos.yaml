@@ -4113,11 +4113,11 @@ com.blanke.diaomao163:
             <p>网抑叼毛云，网易云换源插件</p>
             <p>模块入口：网易云设置-叼毛</p>
             <p>注意：需要给网易云存储空间权限</p>
-          filename: diaomao163_v3.5.5_signed.apk
+          filename: com.blanke.diaomao163_3.5.7_out.apk
           id: com.blanke.diaomao163
           name: 叼毛网抑云
-          last_updated: "2024-08-22T04:10:57Z"
-          releasedescription: <p>优化稳定性</p>
+          last_updated: "2025-03-02T03:22:30Z"
+          releasedescription: ""
     author_name: Blankeer
 com.bug.gamehook:
     git: https://github.com/Xposed-Modules-Repo/com.bug.gamehook
@@ -6616,124 +6616,42 @@ com.hchen.clipboardlist:
         - anti_features: []
           categories:
             - Xposed
-          description: |
-            <h2>ClipboardList</h2>
-            <h3>解除剪贴板和常用语限制。</h3>
-            <h4>模块功能:</h4>
-            <ul>
-            <li>解除“剪贴板和常用语”功能的20条限制和时间限制。</li>
-            <li>解除输入法全面屏优化。</li>
-            <li>模块仅限小米设备使用！适配<code>MIUI</code>,<code>HyperOS</code>.</li>
-            </ul>
-            <h4>模块使用方法：</h4>
-            <ul>
-            <li>勾选需要解除限制的输入法后重启输入法即可。</li>
-            <li>如果无效请尝试重启手机后再试。</li>
-            </ul>
-            <h4>项目声明:</h4>
-            <ul>
-            <li>
-            <p>[解除“剪贴板和常用语”功能的20条限制和时间限制]</p>
-            </li>
-            <li>
-            <p>代码来源：@焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
-            </li>
-            <li>
-            <p>[解除输入法全面屏优化]</p>
-            </li>
-            <li>
-            <p>代码来源：HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
-            </li>
-            <li>
-            <p>项目将保持开源！欢迎互相学习！欢迎PR！</p>
-            </li>
-            <li>
-            <p>对本项目的使用需要注明，请遵守开源协议！</p>
-            </li>
-            </ul>
-            <h3>Remove Clipboard and Phrase Restrictions Module.</h3>
-            <h4>Module Features:</h4>
-            <ul>
-            <li>Removes the 20 restrictions and time limitations on the “Clipboard and Phrases” functionality.</li>
-            <li>Disables full-screen optimization for the input method.</li>
-            <li>This module is exclusively for Xiaomi devices! Compatible with <code>MIUI</code> and <code>HyperOS</code>.</li>
-            </ul>
-            <h4>Instructions for Using the Module:</h4>
-            <ul>
-            <li>Check the input methods for which you want to lift the restrictions, then restart the input method.</li>
-            <li>If it doesn’t work, try restarting your phone and then attempt again.</li>
-            </ul>
-            <h4>Project Disclaimer:</h4>
-            <ul>
-            <li>
-            <p>[Remove 20 restrictions and time limitations on “Clipboard and Phrases” functionality]</p>
-            </li>
-            <li>
-            <p>Code source: @焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
-            </li>
-            <li>
-            <p>[Remove full-screen optimization for the input method]</p>
-            </li>
-            <li>
-            <p>Code source: HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
-            </li>
-            <li>
-            <p>The project will remain open source! Collaboration and pull requests are welcome!</p>
-            </li>
-            <li>
-            <p>Proper attribution is required for using this project. Please adhere to the open-source license!</p>
-            </li>
-            </ul>
-          filename: ClipboardList.v.3.3.apk
+          description: "<div align=\"center\">\n<h1>ClipboardList</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/ClipboardList?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/ClipboardList/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/ClipboardList\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/ClipboardList\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/ClipboardList\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/ClipboardList?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>解除小米常用语/剪贴板限制</p>\n</div>\n<hr />\n<h2>✨ 模块功能</h2>\n<ol>\n<li>解除常用语剪贴板超时自动删除的限制。</li>\n<li>解除常用语剪贴板条目限制。</li>\n<li>解除常用语剪贴板字数限制。（原限制5000字）</li>\n<li>解除常用语可添加条数限制。</li>\n<li>解除常用语可添加条目字数限制。</li>\n<li>解除全面屏键盘限制。（附加）</li>\n<li>解除搜狗输入法/小米版剪贴板条数限制。（附加）</li>\n</ol>\n<hr />\n<h2>\U0001F6E0 使用须知</h2>\n<ul>\n<li>作用域自行勾选支持全面屏优化的输入法并重启即可。</li>\n<li>解除的不是输入法自己的剪贴板的限制！！！</li>\n</ul>\n<hr />\n<h2>\U0001F4E2 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠ <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>\U0001F389 结尾</h2>\n<p>\U0001F496 <strong>感谢你的支持，Enjoy your day!</strong> \U0001F680</p>\n"
+          filename: ClipboardList-v4.0.2025030201._release.apk
           id: com.hchen.clipboardlist
           name: ClipboardList
-          last_updated: "2024-10-30T07:26:18Z"
+          last_updated: "2025-03-02T12:51:08Z"
           releasedescription: |-
-            <h4>ClipboardList v.3.3</h4>
-            <h5>常用语限制解除模块强势更新（bushi</h5>
-            <h4>更新日志：</h4>
+            <h2>ClipboardList v.4.0</h2>
+            <h3>常用语剪贴板限制解除模块更新~</h3>
+            <h3>更新日志：</h3>
             <ul>
-            <li>模块代码：
-            <ul>
-            <li>重构：使用 Gson 重写数据保存读取逻辑，更加稳定严谨！</li>
-            <li>更新：HookTool 至 v.1.0.5。</li>
-            <li>更新：依赖版本。</li>
-            <li>修正：模块代码错误。</li>
+            <li>重构代码，优化逻辑。</li>
+            <li>适配新版本的跨设备功能。</li>
+            <li>更新 HookTool 至 v.1.2.4。</li>
             </ul>
-            </li>
-            <li>常用语剪贴板：
-            <ul>
-            <li>解除：常用语剪贴板的条数限制，现在你可以存无数条（数量过多会卡顿）！</li>
-            <li>解除：常用语剪贴板的储存时间限制，现在存多久都不会被系统删掉了！</li>
-            <li>优化：帮助小米修正一处可能导致错误识别为淘口令的 BUG。</li>
-            <li>优化：点击已经保存的剪贴板条目自动将其移动至第一位。</li>
-            </ul>
-            </li>
-            <li>常用语（非剪贴板界面）：
-            <ul>
-            <li>解除：常用语 20 条限制。</li>
-            <li>解除：常用语字数限制（字数过多会非常卡顿）。</li>
-            </ul>
-            </li>
-            <li>？？？：新增 Furry ~</li>
-            </ul>
-            <h4>使用提醒：</h4>
+            <h3>使用提醒：</h3>
             <ul>
             <li>剪贴板数据为明文保存至输入法的私有数据目录，所以切换输入法，已保存数据不会同步转移。</li>
             <li>剪贴板数据可能有丢失风险，请勿存储重要数据，以免丢失，丢失本人概不负责！！</li>
             </ul>
-            <h4>关于项目：</h4>
+            <h3>关于项目：</h3>
             <ul>
             <li>项目为开源，欢迎学习交流，欢迎 PR！</li>
-            <li>特别提醒：搬运、使用本项目代码请务必事先告知！不接受抄袭！不允许搬运至某露！</li>
+            <li>特别提醒：搬运、使用本项目代码请务必事先告知！不接受抄袭！</li>
             </ul>
-            <h4>群组：</h4>
+            <h3>基本信息：</h3>
             <ul>
-            <li>小飞机： <a href="https://t.me/HChen_AppRetention" rel="nofollow">https://t.me/HChen_AppRetention</a></li>
+            <li>SHA256：8B9F4968407C3D5F23477AD21EB9C338BBFD89D7E6AFB207925241ED70FE8788</li>
             </ul>
-            <h4>开发者：</h4>
+            <h3>群组：</h3>
+            <ul>
+            <li>交流群： <a href="https://t.me/HChenX_Chat" rel="nofollow">https://t.me/HChenX_Chat</a></li>
+            <li>模块分发群：<a href="https://t.me/HChenX_Module" rel="nofollow">https://t.me/HChenX_Module</a></li>
+            </ul>
+            <h3>开发者：</h3>
             <p><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a></p>
-            <p>2024.10.30</p>
+            <p>2025.03.02</p>
     author_name: HChenX
 com.hchen.foregroundpin:
     git: https://github.com/Xposed-Modules-Repo/com.hchen.foregroundpin
@@ -9593,7 +9511,7 @@ com.padi.hook.hookqq:
             - Xposed
           description: |
             <h2>牛逼模块</h2>
-              <img src="./icon.png" alt="socialify"/>
+            <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.padi.hook.hookqq/main/icon.png" alt="socialify"/>
             <h2>说明 / Desc:</h2>
             <p>Wechat 辅助性功能增强</p>
             <ul>
@@ -15057,12 +14975,12 @@ fuckinginput.coloros.baidu:
         - anti_features: []
           categories:
             - Xposed
-          description: "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了\U0001F913\U0001F446，加上是初学Dexkit，所以现在的代码一团乱\U0001F921，</p>\n<p>So,\U0001F4A9山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸\U0001F623\U0001F623\U0001F623</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽\U0001F62D\U0001F62D\U0001F62D</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
-          filename: fuckinginput_coloros_baidu_1.0-release.apk
+          description: "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>2025.03.03新增:</h5>\n<p>\U0001F680解除快捷短语300字的输入限制</p>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了\U0001F913\U0001F446，加上是初学Dexkit，所以现在的代码一团乱\U0001F921，</p>\n<p>So,\U0001F4A9山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸\U0001F623\U0001F623\U0001F623</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽\U0001F62D\U0001F62D\U0001F62D</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
+          filename: fuckinginput_coloros_baidu_2.0-release.apk
           id: fuckinginput.coloros.baidu
           name: 百度输入法OPPO定制版增强
-          last_updated: "2025-01-28T08:43:26Z"
-          releasedescription: <p>v1.0发布</p>
+          last_updated: "2025-03-03T01:48:50Z"
+          releasedescription: "<h5>2025.03.03新增:</h5>\n<p>\U0001F680解除快捷短语300字的输入限制</p>"
     author_name: Sharl210
 github.zerorooot.copyfenbi:
     git: https://github.com/Xposed-Modules-Repo/github.zerorooot.copyfenbi
@@ -16350,6 +16268,20 @@ io.github.jeffshee.nekumorimod:
             <p>Optimize logging<br>
             Hide "Clear All" button in Overview (Recent Screen)</p>
     author_name: jeffshee
+io.github.jqssun.gpssetter:
+    git: https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter
+    summary: A GPS setter based on the Xposed framework.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total\" alt=\"downloads\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"></a></p>\n<!-- \n[![LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.jqssun.android-gps-setter/total?label=LSPosed&logo=Android&style=flat&labelColor=F48FB1&logoColor=ffffff)](https://github.com/Xposed-Modules-Repo/com.jqssun.android-gps-setter/releases)\n[![Github downloads](https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=Release)]()\n![](https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/blob/main/banner.png) \n\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Changes</h2>\n<p>This module inherits from the original GpsSetter project with the following changes:</p>\n<ul>\n<li>Added support for new location APIs in system server from Android 14+</li>\n<li>Added support for dynamically adjusting the location via a joystick overlay</li>\n<li>Added ability to only depend on FOSS libraries</li>\n<li>Updated UI to work with latest Material Design</li>\n<li>Updated custom designed resource bundles</li>\n<li>Newer dependencies</li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 15)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a></li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a></li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a></li>\n</ul>\n"
+          filename: app-foss-debug.apk
+          id: io.github.jqssun.gpssetter
+          name: GPS Setter
+          last_updated: "2025-03-02T22:16:03Z"
+          releasedescription: ""
+    author_name: jqssun
 io.github.lamprose.mi_ultra:
     git: https://github.com/Xposed-Modules-Repo/io.github.lamprose.mi_ultra
     summary: MIUI12.5扩展
@@ -17370,11 +17302,13 @@ junzi.xposed.hook:
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
             <p>小星记账</p>
-          filename: JunZi.Xposed.Hook_3.9.1.apk
+          filename: JunZi.Xposed.Hook_3.9.2.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-01T14:35:10Z"
-          releasedescription: <p>新增 支持 小习惯</p>
+          last_updated: "2025-03-02T12:57:15Z"
+          releasedescription: |-
+            <p>新增 支持 搜图神器<br>
+            新增 支持 七猫免费听书</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
