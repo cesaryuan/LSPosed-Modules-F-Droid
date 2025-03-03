@@ -1,76 +1,9 @@
 AuthorName: HChenX
 Categories:
     - Xposed
-CurrentVersion: "3.3"
-CurrentVersionCode: 2024103000
-Description: |
-    <h2>ClipboardList</h2>
-    <h3>解除剪贴板和常用语限制。</h3>
-    <h4>模块功能:</h4>
-    <ul>
-    <li>解除“剪贴板和常用语”功能的20条限制和时间限制。</li>
-    <li>解除输入法全面屏优化。</li>
-    <li>模块仅限小米设备使用！适配<code>MIUI</code>,<code>HyperOS</code>.</li>
-    </ul>
-    <h4>模块使用方法：</h4>
-    <ul>
-    <li>勾选需要解除限制的输入法后重启输入法即可。</li>
-    <li>如果无效请尝试重启手机后再试。</li>
-    </ul>
-    <h4>项目声明:</h4>
-    <ul>
-    <li>
-    <p>[解除“剪贴板和常用语”功能的20条限制和时间限制]</p>
-    </li>
-    <li>
-    <p>代码来源：@焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
-    </li>
-    <li>
-    <p>[解除输入法全面屏优化]</p>
-    </li>
-    <li>
-    <p>代码来源：HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
-    </li>
-    <li>
-    <p>项目将保持开源！欢迎互相学习！欢迎PR！</p>
-    </li>
-    <li>
-    <p>对本项目的使用需要注明，请遵守开源协议！</p>
-    </li>
-    </ul>
-    <h3>Remove Clipboard and Phrase Restrictions Module.</h3>
-    <h4>Module Features:</h4>
-    <ul>
-    <li>Removes the 20 restrictions and time limitations on the “Clipboard and Phrases” functionality.</li>
-    <li>Disables full-screen optimization for the input method.</li>
-    <li>This module is exclusively for Xiaomi devices! Compatible with <code>MIUI</code> and <code>HyperOS</code>.</li>
-    </ul>
-    <h4>Instructions for Using the Module:</h4>
-    <ul>
-    <li>Check the input methods for which you want to lift the restrictions, then restart the input method.</li>
-    <li>If it doesn’t work, try restarting your phone and then attempt again.</li>
-    </ul>
-    <h4>Project Disclaimer:</h4>
-    <ul>
-    <li>
-    <p>[Remove 20 restrictions and time limitations on “Clipboard and Phrases” functionality]</p>
-    </li>
-    <li>
-    <p>Code source: @焕晨HChen(<a href="https://github.com/HChenX">@HChenX</a>)</p>
-    </li>
-    <li>
-    <p>[Remove full-screen optimization for the input method]</p>
-    </li>
-    <li>
-    <p>Code source: HyperCelier(<a href="https://github.com/ReChronoRain/HyperCeiler">HyperCelier</a>)</p>
-    </li>
-    <li>
-    <p>The project will remain open source! Collaboration and pull requests are welcome!</p>
-    </li>
-    <li>
-    <p>Proper attribution is required for using this project. Please adhere to the open-source license!</p>
-    </li>
-    </ul>
+CurrentVersion: "4.0"
+CurrentVersionCode: 2025030201
+Description: "<div align=\"center\">\n<h1>ClipboardList</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/ClipboardList?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/ClipboardList/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/ClipboardList\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/ClipboardList\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/ClipboardList\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/ClipboardList?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>解除小米常用语/剪贴板限制</p>\n</div>\n<hr />\n<h2>✨ 模块功能</h2>\n<ol>\n<li>解除常用语剪贴板超时自动删除的限制。</li>\n<li>解除常用语剪贴板条目限制。</li>\n<li>解除常用语剪贴板字数限制。（原限制5000字）</li>\n<li>解除常用语可添加条数限制。</li>\n<li>解除常用语可添加条目字数限制。</li>\n<li>解除全面屏键盘限制。（附加）</li>\n<li>解除搜狗输入法/小米版剪贴板条数限制。（附加）</li>\n</ol>\n<hr />\n<h2>\U0001F6E0 使用须知</h2>\n<ul>\n<li>作用域自行勾选支持全面屏优化的输入法并重启即可。</li>\n<li>解除的不是输入法自己的剪贴板的限制！！！</li>\n</ul>\n<hr />\n<h2>\U0001F4E2 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠ <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>\U0001F389 结尾</h2>\n<p>\U0001F496 <strong>感谢你的支持，Enjoy your day!</strong> \U0001F680</p>\n"
 IssueTracker: ""
 Name: ClipboardList
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.clipboardlist

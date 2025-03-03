@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1740886122000,
+    "timestamp": 1740972529000,
     "version": 20002
   },
   "requests": {
@@ -1257,20 +1257,20 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003eClipboardList\u003c/h2\u003e\n\u003ch3\u003e解除剪贴板和常用语限制。\u003c/h3\u003e\n\u003ch4\u003e模块功能:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e解除“剪贴板和常用语”功能的20条限制和时间限制。\u003c/li\u003e\n\u003cli\u003e解除输入法全面屏优化。\u003c/li\u003e\n\u003cli\u003e模块仅限小米设备使用！适配\u003ccode\u003eMIUI\u003c/code\u003e,\u003ccode\u003eHyperOS\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e模块使用方法：\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e勾选需要解除限制的输入法后重启输入法即可。\u003c/li\u003e\n\u003cli\u003e如果无效请尝试重启手机后再试。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003e项目声明:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e[解除“剪贴板和常用语”功能的20条限制和时间限制]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e代码来源：@焕晨HChen(\u003ca href=\"https://github.com/HChenX\"\u003e@HChenX\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e[解除输入法全面屏优化]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e代码来源：HyperCelier(\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCelier\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e项目将保持开源！欢迎互相学习！欢迎PR！\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e对本项目的使用需要注明，请遵守开源协议！\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eRemove Clipboard and Phrase Restrictions Module.\u003c/h3\u003e\n\u003ch4\u003eModule Features:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eRemoves the 20 restrictions and time limitations on the “Clipboard and Phrases” functionality.\u003c/li\u003e\n\u003cli\u003eDisables full-screen optimization for the input method.\u003c/li\u003e\n\u003cli\u003eThis module is exclusively for Xiaomi devices! Compatible with \u003ccode\u003eMIUI\u003c/code\u003e and \u003ccode\u003eHyperOS\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eInstructions for Using the Module:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003eCheck the input methods for which you want to lift the restrictions, then restart the input method.\u003c/li\u003e\n\u003cli\u003eIf it doesn’t work, try restarting your phone and then attempt again.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eProject Disclaimer:\u003c/h4\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e[Remove 20 restrictions and time limitations on “Clipboard and Phrases” functionality]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCode source: @焕晨HChen(\u003ca href=\"https://github.com/HChenX\"\u003e@HChenX\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e[Remove full-screen optimization for the input method]\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eCode source: HyperCelier(\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003eHyperCelier\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThe project will remain open source! Collaboration and pull requests are welcome!\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eProper attribution is required for using this project. Please adhere to the open-source license!\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eClipboardList\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/stars/HChenX/ClipboardList?style=flat\" alt=\"stars\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/downloads/HChenX/ClipboardList/total\" alt=\"downloads\" /\u003e\n\u003cimg src=\"https://img.shields.io/github/repo-size/HChenX/ClipboardList\" alt=\"Github repo size\" /\u003e\n\u003ca href=\"https://github.com/HChenX/ClipboardList/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/HChenX/ClipboardList\" alt=\"GitHub release (latest by date)\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/HChenX/ClipboardList/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/HChenX/ClipboardList\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003cimg src=\"https://img.shields.io/github/last-commit/HChenX/ClipboardList?style=flat\" alt=\"last commit\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cb\u003e\u003ca href=\"README-en.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"README.md\"\u003e简体中文\u003c/a\u003e\u003c/b\u003e\u003c/p\u003e\n\u003cp\u003e解除小米常用语/剪贴板限制\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨ 模块功能\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e解除常用语剪贴板超时自动删除的限制。\u003c/li\u003e\n\u003cli\u003e解除常用语剪贴板条目限制。\u003c/li\u003e\n\u003cli\u003e解除常用语剪贴板字数限制。（原限制5000字）\u003c/li\u003e\n\u003cli\u003e解除常用语可添加条数限制。\u003c/li\u003e\n\u003cli\u003e解除常用语可添加条目字数限制。\u003c/li\u003e\n\u003cli\u003e解除全面屏键盘限制。（附加）\u003c/li\u003e\n\u003cli\u003e解除搜狗输入法/小米版剪贴板条数限制。（附加）\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr /\u003e\n\u003ch2\u003e🛠 使用须知\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e作用域自行勾选支持全面屏优化的输入法并重启即可。\u003c/li\u003e\n\u003cli\u003e解除的不是输入法自己的剪贴板的限制！！！\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e📢 项目声明\u003c/h2\u003e\n\u003cp\u003e⚠ \u003cstrong\u003e使用本模块即代表愿意承担一切后果\u003c/strong\u003e！\n⚠ \u003cstrong\u003e任何衍生项目，本项目不承担任何责任\u003c/strong\u003e！\n⚠ \u003cstrong\u003e抄袭将导致项目闭源！请注明作者！\u003c/strong\u003e\u003c/p\u003e\n\u003ch2\u003e🎉 结尾\u003c/h2\u003e\n\u003cp\u003e💖 \u003cstrong\u003e感谢你的支持，Enjoy your day!\u003c/strong\u003e 🚀\u003c/p\u003e\n",
       "icon": "com.hchen.clipboardlist.png",
-      "lastUpdated": 1732159462000,
+      "lastUpdated": 1740972254000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "#### ClipboardList v.3.3\n##### 常用语限制解除模块强势更新（bushi\n\n#### 更新日志：\n\n- 模块代码：\n    - 重构：使用 Gson 重写数据保存读取逻辑，更加稳定严谨！\n    - 更新：HookTool 至 v.1.0.5。\n    - 更新：依赖版本。 \n    - 修正：模块代码错误。\n- 常用语剪贴板： \n    - 解除：常用语剪贴板的条数限制，现在你可以存无数条（数量过多会卡顿）！\n    - 解除：常用语剪贴板的储存时间限制，现在存多久都不会被系统删掉了！\n    - 优化：帮助小米修正一处可能导致错误识别为淘口令的 BUG。\n    - 优化：点击已经保存的剪贴板条目自动将其移动至第一位。\n- 常用语（非剪贴板界面）：\n    - 解除：常用语 20 条限制。\n    - 解除：常用语字数限制（字数过多会非常卡顿）。\n- ？？？：新增 Furry ~\n\n#### 使用提醒：\n\n- 剪贴板数据为明文保存至输入法的私有数据目录，所以切换输入法，已保存数据不会同步转移。\n- 剪贴板数据可能有丢失风险，请勿存储重要数据，以免丢失，丢"
+          "whatsNew": "## ClipboardList v.4.0\n### 常用语剪贴板限制解除模块更新~\n\n### 更新日志：\n\n- 重构代码，优化逻辑。\n- 适配新版本的跨设备功能。\n- 更新 HookTool 至 v.1.2.4。\n\n### 使用提醒：\n\n- 剪贴板数据为明文保存至输入法的私有数据目录，所以切换输入法，已保存数据不会同步转移。\n- 剪贴板数据可能有丢失风险，请勿存储重要数据，以免丢失，丢失本人概不负责！！\n\n### 关于项目：\n\n- 项目为开源，欢迎学习交流，欢迎 PR！\n- 特别提醒：搬运、使用本项目代码请务必事先告知！不接受抄袭！\n\n### 基本信息：\n\n- SHA256：8B9F4968407C3D5F23477AD21EB9C338BBFD89D7E6AFB207925241ED70FE8788\n\n### 群组：\n- 交流群： https://t.me/HChenX_Chat\n- 模块分发群：https://t.me/HChenX_Module\n\n### 开发者：\n@HChenX \n\n2025.03.02\n"
         }
       },
       "name": "ClipboardList",
       "packageName": "com.hchen.clipboardlist",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.hchen.clipboardlist",
-      "suggestedVersionCode": "2024103000",
-      "suggestedVersionName": "3.3",
+      "suggestedVersionCode": "2025030201",
+      "suggestedVersionName": "4.0",
       "summary": "解除小米\"剪贴板和常用语\"限制。\nRemove restrictions on Xiaomi's clipboard and common phrases."
     },
     {
@@ -2778,6 +2778,22 @@
       "summary": "A simple module to spoof device location. Supporting Android 8.1+"
     },
     {
+      "added": 1740953763000,
+      "authorName": "jqssun",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eGPS Setter\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total\" alt=\"downloads\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/issues\"\u003e\u003cimg src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c!-- \n[![LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.jqssun.android-gps-setter/total?label=LSPosed\u0026logo=Android\u0026style=flat\u0026labelColor=F48FB1\u0026logoColor=ffffff)](https://github.com/Xposed-Modules-Repo/com.jqssun.android-gps-setter/releases)\n[![Github downloads](https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=Release)]()\n![](https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/blob/main/banner.png) \n\n[\u003cimg src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\"\u003e]()\n[\u003cimg src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\"\u003e]()\n--\u003e\n\u003ch2\u003eMotivation\u003c/h2\u003e\n\u003cp\u003eAn increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003ehook the app itself to modify the location it receives, or\u003c/li\u003e\n\u003cli\u003ehook the system server if the app explicitly checks for whether itself is being hooked\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eSpecifically, in the case of hooking just the app, it intercepts \u003ca href=\"https://developer.android.com/reference/android/location/Location\"\u003e\u003ccode\u003eandroid.location.Location\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"https://developer.android.com/reference/android/location/LocationManager\"\u003e\u003ccode\u003eandroid.location.LocationManager\u003c/code\u003e\u003c/a\u003e methods including\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"\u003e\u003ccode\u003egetLatitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"\u003e\u003ccode\u003egetLongitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"\u003e\u003ccode\u003egetAccuracy()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"\u003e\u003ccode\u003egetLastKnownLocation(java.lang.String)\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eChanges\u003c/h2\u003e\n\u003cp\u003eThis module inherits from the original GpsSetter project with the following changes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAdded support for new location APIs in system server from Android 14+\u003c/li\u003e\n\u003cli\u003eAdded support for dynamically adjusting the location via a joystick overlay\u003c/li\u003e\n\u003cli\u003eAdded ability to only depend on FOSS libraries\u003c/li\u003e\n\u003cli\u003eUpdated UI to work with latest Material Design\u003c/li\u003e\n\u003cli\u003eUpdated custom designed resource bundles\u003c/li\u003e\n\u003cli\u003eNewer dependencies\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1+ (tested up to Android 15)\u003c/li\u003e\n\u003cli\u003eRooted devices with Xposed framework installed (e.g. LSPosed)\u003c/li\u003e\n\u003cli\u003eUnrooted devices with LSPatch (with manually embedded specified location)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCredits\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Android1500/GpsSetter\"\u003eAndroid1500\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/maplibre/maplibre-native\"\u003eMapLibre\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/microg/GmsCore\"\u003emicroG\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1740953763000,
+      "license": "Unknown",
+      "name": "GPS Setter",
+      "packageName": "io.github.jqssun.gpssetter",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.0.1-foss",
+      "summary": "A GPS setter based on the Xposed framework."
+    },
+    {
       "added": 1624542278000,
       "authorName": "C3C0",
       "categories": [
@@ -3133,7 +3149,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch2\u003e牛逼模块\u003c/h2\u003e\n  \u003cimg src=\"./icon.png\" alt=\"socialify\"/\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动抢红包\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e主题功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eWAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003eWAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXpHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/XPHelper\"\u003eXpHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
+      "description": "\u003ch2\u003e牛逼模块\u003c/h2\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.padi.hook.hookqq/main/icon.png\" alt=\"socialify\"/\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动抢红包\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e主题功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eWAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003eWAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXpHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/XPHelper\"\u003eXpHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
       "lastUpdated": 1740741942000,
       "license": "Unknown",
       "localized": {
@@ -3545,24 +3561,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1740839710000,
+      "added": 1740920235000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
-      "lastUpdated": 1740839710000,
+      "lastUpdated": 1740920235000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 小习惯"
+          "whatsNew": "新增 支持 搜图神器\n新增 支持 七猫免费听书"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "32",
-      "suggestedVersionName": "3.9.1",
+      "suggestedVersionCode": "33",
+      "suggestedVersionName": "3.9.2",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -7083,7 +7099,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1740885887000,
+      "lastUpdated": 1740972304000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8155,25 +8171,19 @@
       "summary": "叮嗒出行强力去广告"
     },
     {
-      "added": 1724299857000,
+      "added": 1740885750000,
       "authorName": "Blankeer",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e网抑叼毛云\u003c/h1\u003e\n\u003cp\u003e网抑叼毛云，网易云换源插件\u003c/p\u003e\n\u003cp\u003e模块入口：网易云设置-叼毛\u003c/p\u003e\n\u003cp\u003e注意：需要给网易云存储空间权限\u003c/p\u003e\n",
-      "icon": "com.blanke.diaomao163.54.png",
-      "lastUpdated": 1724299857000,
+      "lastUpdated": 1740885750000,
       "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "优化稳定性"
-        }
-      },
       "name": "叼毛网抑云",
       "packageName": "com.blanke.diaomao163",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.blanke.diaomao163",
-      "suggestedVersionCode": "54",
-      "suggestedVersionName": "3.5.5",
+      "suggestedVersionCode": "56",
+      "suggestedVersionName": "3.5.7",
       "summary": "网抑叼毛云，网易云换源插件"
     },
     {
@@ -9269,24 +9279,24 @@
       "summary": "在不影响聊天记录的情况下尽可能地减少QQ/TIM/微信的内存占用\r\n支持定时清理、手动清理以及自定义清理"
     },
     {
-      "added": 1738053806000,
+      "added": 1740966530000,
       "authorName": "Sharl210",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003e百度输入法OPPO定制版增强\u003c/h1\u003e\n\u003ch5\u003e测试机型：一加12\u003c/h5\u003e\n\u003ch5\u003e开发时使用版本：8.5.301.282\u003c/h5\u003e\n\u003ch5\u003e(理论通杀，至少应该一加ColorOS这边定制版应该可以)\u003c/h5\u003e\n\u003ch5\u003e解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\u003c/h5\u003e\n\u003ch5\u003e采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\u003c/h5\u003e\n\u003ch3\u003e在此鸣谢Dexkit项目\u003c/h3\u003e\n\u003ch3\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eLuckyPray : Dexkit\u003c/a\u003e\u003c/h3\u003e\n\u003ch5\u003e本模块开发：Pantokrátor\u003c/h5\u003e\n\u003ch1\u003e一些杂谈\u003c/h1\u003e\n\u003cp\u003e本来是想要把里面的键盘音效也替换一下，\u003c/p\u003e\n\u003cp\u003e但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，\u003c/p\u003e\n\u003cp\u003e而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了🤓👆，加上是初学Dexkit，所以现在的代码一团乱🤡，\u003c/p\u003e\n\u003cp\u003eSo,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸😣😣😣\u003c/p\u003e\n\u003ch5\u003e如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭\u003c/h5\u003e\n\u003ch3\u003e\u003ca href=\"https://www.123865.com/s/nQyRVv-5a60h\"\u003e123云盘(国内)\u003c/a\u003e\u003c/h3\u003e\n\u003ch1\u003e项目地址：\u003c/h1\u003e\n  \u003ca href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\"\u003e\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n\u003c/a\u003e\n",
-      "lastUpdated": 1738053806000,
+      "description": "\u003ch1\u003e百度输入法OPPO定制版增强\u003c/h1\u003e\n\u003ch5\u003e测试机型：一加12\u003c/h5\u003e\n\u003ch5\u003e开发时使用版本：8.5.301.282\u003c/h5\u003e\n\u003ch5\u003e(理论通杀，至少应该一加ColorOS这边定制版应该可以)\u003c/h5\u003e\n\u003ch5\u003e解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\u003c/h5\u003e\n\u003ch5\u003e2025.03.03新增:\u003c/h5\u003e\n\u003cp\u003e🚀解除快捷短语300字的输入限制\u003c/p\u003e\n\u003ch5\u003e采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\u003c/h5\u003e\n\u003ch3\u003e在此鸣谢Dexkit项目\u003c/h3\u003e\n\u003ch3\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eLuckyPray : Dexkit\u003c/a\u003e\u003c/h3\u003e\n\u003ch5\u003e本模块开发：Pantokrátor\u003c/h5\u003e\n\u003ch1\u003e一些杂谈\u003c/h1\u003e\n\u003cp\u003e本来是想要把里面的键盘音效也替换一下，\u003c/p\u003e\n\u003cp\u003e但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，\u003c/p\u003e\n\u003cp\u003e而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了🤓👆，加上是初学Dexkit，所以现在的代码一团乱🤡，\u003c/p\u003e\n\u003cp\u003eSo,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸😣😣😣\u003c/p\u003e\n\u003ch5\u003e如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭\u003c/h5\u003e\n\u003ch3\u003e\u003ca href=\"https://www.123865.com/s/nQyRVv-5a60h\"\u003e123云盘(国内)\u003c/a\u003e\u003c/h3\u003e\n\u003ch1\u003e项目地址：\u003c/h1\u003e\n  \u003ca href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\"\u003e\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n\u003c/a\u003e\n",
+      "lastUpdated": 1740966530000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "v1.0发布"
+          "whatsNew": "##### 2025.03.03新增:\n🚀解除快捷短语300字的输入限制"
         }
       },
       "name": "百度输入法OPPO定制版增强",
       "packageName": "fuckinginput.coloros.baidu",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "2.0",
       "summary": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣谢Dexkit项目https:/..."
     },
     {
@@ -12073,7 +12083,25 @@
     ],
     "com.blanke.diaomao163": [
       {
-        "added": 1724299857000,
+        "added": 1740885750000,
+        "apkName": "com.blanke.diaomao163_56-3.5.7.apk",
+        "hash": "01dca9b32bff23d8ec619901c6659881ec3e5c10c0b625be4ea41cee0876af6f",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.blanke.diaomao163",
+        "sig": "4f5a1ec4abdfcc8b14bb420857391bca",
+        "signer": "d3c89780afa730fa5a5aaa53b9efca037e97d11901b68a405d178c86c3fcec5b",
+        "size": 16649390,
+        "targetSdkVersion": 30,
+        "versionCode": 56,
+        "versionName": "3.5.7"
+      },
+      {
+        "added": 1732159433000,
         "apkName": "com.blanke.diaomao163_54-3.5.5.apk",
         "hash": "da697d9fcdc9fdf1a92a70bee1d6aa829fff11c7f5226360023c52fd5a6a0268",
         "hashType": "sha256",
@@ -13505,7 +13533,27 @@
         "versionName": "1.1"
       },
       {
-        "added": 1730273178000,
+        "added": 1740919868000,
+        "apkName": "com.hchen.clipboardlist_2025030201-4.0.apk",
+        "hash": "8b9f4968407c3d5f23477ad21eb9c338bbfd89d7e6afb207925241ed70fe8788",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.hchen.clipboardlist",
+        "sig": "cb2a163d5ac5f7db8232de03e4a644a6",
+        "signer": "42150272ff01cd71fad0b49ca77a65b2d863179413250aa3b053f5a9aeeb245d",
+        "size": 1310945,
+        "targetSdkVersion": 34,
+        "versionCode": 2025030201,
+        "versionName": "4.0"
+      },
+      {
+        "added": 1732159462000,
         "apkName": "com.hchen.clipboardlist_2024103000-3.3.apk",
         "hash": "e89b682cc7d8b0f8c1ef1bbfc33ebea9b0a7a83d0c7b3d08f6cd6aa8e58b0745",
         "hashType": "sha256",
@@ -16209,7 +16257,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1740885887000,
+        "added": 1740972304000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17217,7 +17265,27 @@
     ],
     "fuckinginput.coloros.baidu": [
       {
-        "added": 1738053806000,
+        "added": 1740966530000,
+        "apkName": "fuckinginput.coloros.baidu_2-2.0.apk",
+        "hash": "bfe2071ee3cd438b5f9fa061ebb999a0c068dbceb26423a565acbdcbc1917b0d",
+        "hashType": "sha256",
+        "minSdkVersion": 23,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "fuckinginput.coloros.baidu",
+        "sig": "fa2cba3455df9ca1c3d77d513faabef0",
+        "signer": "af4f6f507f416c5e7d7d8a4d1d4e4bc1302c8562bf7e88d80d4cb63124ad6226",
+        "size": 3166503,
+        "targetSdkVersion": 33,
+        "versionCode": 2,
+        "versionName": "2.0"
+      },
+      {
+        "added": 1738120050000,
         "apkName": "fuckinginput.coloros.baidu_1-1.0.apk",
         "hash": "ce95fc29f59e561a5da11d0c6596475e7c581dfc24a36810dd858fdf386bcbfc",
         "hashType": "sha256",
@@ -17998,6 +18066,28 @@
         "targetSdkVersion": 30,
         "versionCode": 9,
         "versionName": "1.5"
+      }
+    ],
+    "io.github.jqssun.gpssetter": [
+      {
+        "added": 1740953763000,
+        "apkName": "io.github.jqssun.gpssetter_1-0.0.1-foss.apk",
+        "hash": "1ab07c0e9b8856d2bdf1e46fc712c63ca5273663fc362eed6ff38ce398867355",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "io.github.jqssun.gpssetter",
+        "sig": "4389364e3b06e9c9904baf3a502a9f0b",
+        "signer": "05034da0fa8b718e86c307a171e0ea2bf93956519e7f1ad0b04d904ef85fd96d",
+        "size": 51176983,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.0.1-foss"
       }
     ],
     "io.github.lamprose.mi_ultra": [
@@ -18830,7 +18920,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1740839710000,
+        "added": 1740920235000,
+        "apkName": "junzi.xposed.hook_33-3.9.2.apk",
+        "hash": "c0db406cb2aa654a0ccbda6599d52269bb64e901140f3a570ed27c184b0df431",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2577521,
+        "targetSdkVersion": 33,
+        "versionCode": 33,
+        "versionName": "3.9.2"
+      },
+      {
+        "added": 1740885928000,
         "apkName": "junzi.xposed.hook_32-3.9.1.apk",
         "hash": "a618205cf1ce106f68fb7027889886352fc280524d289279eef95cdd8b5f98af",
         "hashType": "sha256",
@@ -18864,24 +18972,6 @@
         "targetSdkVersion": 33,
         "versionCode": 31,
         "versionName": "3.9"
-      },
-      {
-        "added": 1740713035000,
-        "apkName": "junzi.xposed.hook_30-3.8.apk",
-        "hash": "2ef6db073fa7ee6c926457fc91667a6d1e07f54bb385183a150060fa117ca4f5",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2528864,
-        "targetSdkVersion": 33,
-        "versionCode": 30,
-        "versionName": "3.8"
       }
     ],
     "lialh4.ldf": [
