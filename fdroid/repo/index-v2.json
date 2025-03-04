@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1740972529000,
+    "timestamp": 1741059201000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2826,7 +2826,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740972214000,
+        "lastUpdated": 1741058738000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -12954,6 +12954,50 @@
         }
       }
     },
+    "com.neko.helsirootbypass": {
+      "metadata": {
+        "added": 1741058805000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1741058805000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.neko.helsirootbypass",
+        "authorName": "Baiker000",
+        "name": {
+          "en-US": "Helsi Root Bypass"
+        },
+        "summary": {
+          "en-US": "Відключає перевірку root прав у додатку Helsi\nBypass root detection in the He..."
+        },
+        "description": {
+          "en-US": "<h1>Helis Root Bypass</h1>\n<p>Відключає перевірку root прав у додатку Helsi</p>\n<p>This Xposed module bypasses root detection in the Helsi mobile application.</p>\n<p>Helsi 1.0.372+</p>\n"
+        },
+        "preferredSigner": "eea815c5a3b36f4c1d45d1f8e5700401870e117d844a1bbbaef683f812069631"
+      },
+      "versions": {
+        "b0d5a64cfd57471815a437df726b968d95d41c19e5fcd335c761ec1a476a9f62": {
+          "added": 1741058805000,
+          "file": {
+            "name": "/com.neko.helsirootbypass_1-1.0.apk",
+            "sha256": "b0d5a64cfd57471815a437df726b968d95d41c19e5fcd335c761ec1a476a9f62",
+            "size": 104363
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "eea815c5a3b36f4c1d45d1f8e5700401870e117d844a1bbbaef683f812069631"
+              ]
+            }
+          }
+        }
+      }
+    },
     "com.nnnen.plusne": {
       "metadata": {
         "added": 1732159486000,
@@ -14154,7 +14198,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740885869000,
+        "lastUpdated": 1741058813000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.rel.languager",
         "authorName": "mon231",
         "name": {
@@ -14174,6 +14218,38 @@
           "file": {
             "name": "/com.rel.languager_6-1.0.1.apk",
             "sha256": "ec8b03c32c6ecff8b9df7a88cb701036c045de52503567964fd9658b982994fc",
+            "size": 4347322
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 5,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "abfa5a653c040c0595f312440a28b1828095385f0e15c87c961c953164cfaee2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
+        "6f9ade7d366eb9278f03474774a6625e1bfe5b9d853fc1337e206d31cc720953": {
+          "added": 1741058813000,
+          "file": {
+            "name": "/com.rel.languager_7-1.1.0.apk",
+            "sha256": "6f9ade7d366eb9278f03474774a6625e1bfe5b9d853fc1337e206d31cc720953",
             "size": 4347322
           },
           "manifest": {
@@ -17113,7 +17189,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740972304000,
+        "lastUpdated": 1741058830000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -19990,7 +20066,7 @@
           "en-US": "百度输入法OPPO定制版增强"
         },
         "summary": {
-          "en-US": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣谢Dexkit项目https:/..."
+          "en-US": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件，解除快捷短语300字的输入限制\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣..."
         },
         "description": {
           "en-US": "<h1>百度输入法OPPO定制版增强</h1>\n<h5>测试机型：一加12</h5>\n<h5>开发时使用版本：8.5.301.282</h5>\n<h5>(理论通杀，至少应该一加ColorOS这边定制版应该可以)</h5>\n<h5>解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件</h5>\n<h5>2025.03.03新增:</h5>\n<p>🚀解除快捷短语300字的输入限制</p>\n<h5>采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行</h5>\n<h3>在此鸣谢Dexkit项目</h3>\n<h3><a href=\"https://github.com/LuckyPray/DexKit\">LuckyPray : Dexkit</a></h3>\n<h5>本模块开发：Pantokrátor</h5>\n<h1>一些杂谈</h1>\n<p>本来是想要把里面的键盘音效也替换一下，</p>\n<p>但是现在的xposed的API，还有主流的框架LSPosed等等，似乎都已经不再维护资源注入了，所以导致我这边用以前89的API写了两三种方式，但是貌似都不生效，</p>\n<p>而且之前又忘留备份了，因此我又给他删了，多余的部分全注释了🤓👆，加上是初学Dexkit，所以现在的代码一团乱🤡，</p>\n<p>So,💩山代码，纯天然无污染，就没开源的必要了吧，婉拒了哈，我不想被拖出来鞭尸😣😣😣</p>\n<h5>如果有大佬知道有啥办法能实现我上面说的键盘音效的替换的（就是把宿主APP的资源替换为模块的资源）可以指点一下小弟，感激不尽😭😭😭</h5>\n<h3><a href=\"https://www.123865.com/s/nQyRVv-5a60h\">123云盘(国内)</a></h3>\n<h1>项目地址：</h1>\n  <a href=\"https://github.com/Sharl210/fuckinginput.coloros.baidu/\">\nhttps://github.com/Sharl210/fuckinginput.coloros.baidu/\n</a>\n"
@@ -21960,7 +22036,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740972333000,
+        "lastUpdated": 1741058862000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter",
         "authorName": "jqssun",
         "name": {
@@ -21970,7 +22046,7 @@
           "en-US": "A GPS setter based on the Xposed framework."
         },
         "description": {
-          "en-US": "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total\" alt=\"downloads\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"></a></p>\n<!-- \n[![LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.jqssun.android-gps-setter/total?label=LSPosed&logo=Android&style=flat&labelColor=F48FB1&logoColor=ffffff)](https://github.com/Xposed-Modules-Repo/com.jqssun.android-gps-setter/releases)\n[![Github downloads](https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=Release)]()\n![](https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/blob/main/banner.png) \n\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Changes</h2>\n<p>This module inherits from the original GpsSetter project with the following changes:</p>\n<ul>\n<li>Added support for new location APIs in system server from Android 14+</li>\n<li>Added support for dynamically adjusting the location via a joystick overlay</li>\n<li>Added ability to only depend on FOSS libraries</li>\n<li>Updated UI to work with latest Material Design</li>\n<li>Updated custom designed resource bundles</li>\n<li>Newer dependencies</li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 15)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a></li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a></li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a></li>\n</ul>\n"
+          "en-US": "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jqssun.gpssetter/total?label=LSPosed&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=GitHub&amp;logo=GitHub\" alt=\"downloads\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/actions/workflows/apk.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/jqssun/android-gps-setter/apk.yml\" alt=\"build\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a></p>\n<p>A GPS setter based on the Xposed framework. This fork is the first module to achieve support for Android 15+ with its sources available.</p>\n<h2>Releases</h2>\n<table>\n    <tr>\n        <th>Version</th>\n        <th>app-full-*.apk</th>\n        <th>app-foss-*.apk</th>\n    </tr>\n    <tr>\n        <th>Maps Library</th>\n        <td>GMS (com.google.android.gms:play-services-maps)</td>\n        <td>MapLibre (org.maplibre.gl:android-sdk)</td>\n    </tr>\n    <tr>\n        <th>Fused Location</th>\n        <td>GMS (com.google.android.gms:play-services-location)</td>\n        <td>microG (org.microg.gms:play-services-location)</td>\n    </tr>\n    <tr>\n        <th>Distribution</th>\n        <td>\n            <a href=\"https://github.com/jqssun/android-gps-setter/releases\">\n                <img\n                    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n                    alt=\"Get it on GitHub\" width=\"200\" />\n            </a>\n        </td>\n        <td>\n            <a href=\"https://f-droid.org/packages/io.github.jqssun.gpssetter\">\n                <img\n                    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n                    alt=\"Get it on F-Droid\" width=\"200\" />\n            </a>\n        </td>\n    </tr>\n</table>\n<!-- \n[<img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\">](https://github.com/jqssun/android-gps-setter/releases)\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 16 Beta 2)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>✨ Supports new system server location APIs introduced in Android 14+</li>\n<li>🍀 Supports a fully FLOSS build flavor - including all underlying dependencies</li>\n<li>🖲️ Allows adjusting location on the fly via an on-screen joystick overlay</li>\n<li>🎲 Allows using a live updating random location in the vicinity of the set point</li>\n<li>🎉 Feataures custom designed resource bundles with updated dependent libraries</li>\n<li>🔥 Compatible with latest Material Design</li>\n</ul>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a> for the original GpsSetter targeting Android 8.1 to 13</li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a> for the mapping library</li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a> for the FOSS implementation of Google Mobile Services</li>\n</ul>\n"
         },
         "preferredSigner": "05034da0fa8b718e86c307a171e0ea2bf93956519e7f1ad0b04d904ef85fd96d"
       },
@@ -21998,6 +22074,62 @@
             "signer": {
               "sha256": [
                 "05034da0fa8b718e86c307a171e0ea2bf93956519e7f1ad0b04d904ef85fd96d"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "io.github.jqssun.gpssetter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "3ff05b6a1c6fed16b63664025bab18d35576b374195d36aebccd3b0dd03923d7": {
+          "added": 1741058862000,
+          "file": {
+            "name": "/io.github.jqssun.gpssetter_v0.0.4.apk",
+            "sha256": "3ff05b6a1c6fed16b63664025bab18d35576b374195d36aebccd3b0dd03923d7",
+            "size": 13880366
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "0.0.4-foss",
+            "versionCode": 4,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "64ca1fa39ddf9e0e89c57d73fb681d2a5b35ae20f071771e2eb401b5032ef1a9"
               ]
             },
             "usesPermission": [
@@ -24063,7 +24195,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740972346000,
+        "lastUpdated": 1741058874000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -24078,6 +24210,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "42160ed4cecdc97c4ea9067f01b22426ea0dc6d04c150a7acec073e049cb12ee": {
+          "added": 1741058874000,
+          "file": {
+            "name": "/junzi.xposed.hook_34-3.9.3.apk",
+            "sha256": "42160ed4cecdc97c4ea9067f01b22426ea0dc6d04c150a7acec073e049cb12ee",
+            "size": 2602097
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.9.3",
+            "versionCode": 34,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "c0db406cb2aa654a0ccbda6599d52269bb64e901140f3a570ed27c184b0df431": {
           "added": 1740972346000,
           "file": {
@@ -24125,39 +24290,6 @@
             ],
             "versionName": "3.9.1",
             "versionCode": 32,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 33
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8": {
-          "added": 1740799726000,
-          "file": {
-            "name": "/junzi.xposed.hook_31-3.9.apk",
-            "sha256": "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8",
-            "size": 2577573
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.9",
-            "versionCode": 31,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 33
@@ -25183,7 +25315,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740972353000,
+        "lastUpdated": 1741058882000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -25351,7 +25483,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740626648000,
+        "lastUpdated": 1741058884000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
