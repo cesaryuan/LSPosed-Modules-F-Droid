@@ -9287,6 +9287,26 @@ com.my.televip:
             </li>
             </ol>
     author_name: mustafa1dev
+com.neko.helsirootbypass:
+    git: https://github.com/Xposed-Modules-Repo/com.neko.helsirootbypass
+    summary: |-
+        Відключає перевірку root прав у додатку Helsi
+        Bypass root detection in the Helsi mobile application.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>Helis Root Bypass</h1>
+            <p>Відключає перевірку root прав у додатку Helsi</p>
+            <p>This Xposed module bypasses root detection in the Helsi mobile application.</p>
+            <p>Helsi 1.0.372+</p>
+          filename: helsirootbypass.apk
+          id: com.neko.helsirootbypass
+          name: Helsi Root Bypass
+          last_updated: "2025-03-03T17:41:33Z"
+          releasedescription: <p>Initial release</p>
+    author_name: Baiker000
 com.nnnen.plusne:
     git: https://github.com/Xposed-Modules-Repo/com.nnnen.plusne
     summary: |-
@@ -10605,11 +10625,11 @@ com.rel.languager:
             <li><a href="https://github.com/rovo89/XposedBridge">Xposed Framework</a></li>
             <li><a href="https://github.com/LSPosed/LSPosed">LSPosed Framework</a></li>
             </ul>
-          filename: Languager-v1.0.1.apk
+          filename: Languager-v1.1.0.apk
           id: com.rel.languager
           name: Languager
-          last_updated: "2025-03-01T22:03:45Z"
-          releasedescription: ""
+          last_updated: "2025-03-03T21:14:04Z"
+          releasedescription: <p><a href="https://github.com/mon231/com.rel.languager">Source code</a></p>
     author_name: mon231
 com.rifsxd.processhook:
     git: https://github.com/Xposed-Modules-Repo/com.rifsxd.processhook
@@ -14967,7 +14987,7 @@ fucking.internet.tile:
 fuckinginput.coloros.baidu:
     git: https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu
     summary: |-
-        解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件
+        解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件，解除快捷短语300字的输入限制
         采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行
         在此鸣谢Dexkit项目https://github.com/LuckyPray/DexKit
         本模块开发：Pantokrátor
@@ -16275,11 +16295,11 @@ io.github.jqssun.gpssetter:
         - anti_features: []
           categories:
             - Xposed
-          description: "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total\" alt=\"downloads\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /></a></p>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"></a></p>\n<!-- \n[![LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.jqssun.android-gps-setter/total?label=LSPosed&logo=Android&style=flat&labelColor=F48FB1&logoColor=ffffff)](https://github.com/Xposed-Modules-Repo/com.jqssun.android-gps-setter/releases)\n[![Github downloads](https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=Release)]()\n![](https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/blob/main/banner.png) \n\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Changes</h2>\n<p>This module inherits from the original GpsSetter project with the following changes:</p>\n<ul>\n<li>Added support for new location APIs in system server from Android 14+</li>\n<li>Added support for dynamically adjusting the location via a joystick overlay</li>\n<li>Added ability to only depend on FOSS libraries</li>\n<li>Updated UI to work with latest Material Design</li>\n<li>Updated custom designed resource bundles</li>\n<li>Newer dependencies</li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 15)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a></li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a></li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a></li>\n</ul>\n"
-          filename: app-foss-debug.apk
+          description: "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jqssun.gpssetter/total?label=LSPosed&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=GitHub&amp;logo=GitHub\" alt=\"downloads\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/actions/workflows/apk.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/jqssun/android-gps-setter/apk.yml\" alt=\"build\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a></p>\n<p>A GPS setter based on the Xposed framework. This fork is the first module to achieve support for Android 15+ with its sources available.</p>\n<h2>Releases</h2>\n<table>\n    <tr>\n        <th>Version</th>\n        <th>app-full-*.apk</th>\n        <th>app-foss-*.apk</th>\n    </tr>\n    <tr>\n        <th>Maps Library</th>\n        <td>GMS (com.google.android.gms:play-services-maps)</td>\n        <td>MapLibre (org.maplibre.gl:android-sdk)</td>\n    </tr>\n    <tr>\n        <th>Fused Location</th>\n        <td>GMS (com.google.android.gms:play-services-location)</td>\n        <td>microG (org.microg.gms:play-services-location)</td>\n    </tr>\n    <tr>\n        <th>Distribution</th>\n        <td>\n            <a href=\"https://github.com/jqssun/android-gps-setter/releases\">\n                <img\n                    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n                    alt=\"Get it on GitHub\" width=\"200\" />\n            </a>\n        </td>\n        <td>\n            <a href=\"https://f-droid.org/packages/io.github.jqssun.gpssetter\">\n                <img\n                    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n                    alt=\"Get it on F-Droid\" width=\"200\" />\n            </a>\n        </td>\n    </tr>\n</table>\n<!-- \n[<img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\">](https://github.com/jqssun/android-gps-setter/releases)\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 16 Beta 2)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>✨ Supports new system server location APIs introduced in Android 14+</li>\n<li>\U0001F340 Supports a fully FLOSS build flavor - including all underlying dependencies</li>\n<li>\U0001F5B2️ Allows adjusting location on the fly via an on-screen joystick overlay</li>\n<li>\U0001F3B2 Allows using a live updating random location in the vicinity of the set point</li>\n<li>\U0001F389 Feataures custom designed resource bundles with updated dependent libraries</li>\n<li>\U0001F525 Compatible with latest Material Design</li>\n</ul>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a> for the original GpsSetter targeting Android 8.1 to 13</li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a> for the mapping library</li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a> for the FOSS implementation of Google Mobile Services</li>\n</ul>\n"
+          filename: app-foss-arm64-v8a-release.apk
           id: io.github.jqssun.gpssetter
           name: GPS Setter
-          last_updated: "2025-03-02T22:16:03Z"
+          last_updated: "2025-03-03T21:44:20Z"
           releasedescription: ""
     author_name: jqssun
 io.github.lamprose.mi_ultra:
@@ -17302,13 +17322,14 @@ junzi.xposed.hook:
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
             <p>小星记账</p>
-          filename: JunZi.Xposed.Hook_3.9.2.apk
+          filename: JunZi.Xposed.Hook_3.9.3.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-02T12:57:15Z"
+          last_updated: "2025-03-03T05:38:15Z"
           releasedescription: |-
-            <p>新增 支持 搜图神器<br>
-            新增 支持 七猫免费听书</p>
+            <p>新增 支持 一木清单<br>
+            新增 支持 一木记账<br>
+            更改 海鸥加速器 解锁VIP</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17834,6 +17855,9 @@ me.hd.wauxv:
             <hr />
             <h2>说明 / Desc:</h2>
             <p>Wechat 辅助性功能增强</p>
+            <blockquote>
+            <p>在 GitHub 页面点击右上角 ⭐ Star 以支持我在空余时间继续开发</p>
+            </blockquote>
             <ul>
             <li>一切开发旨在学习，请勿用于非法用途</li>
             <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
@@ -17862,6 +17886,26 @@ me.hd.wauxv:
                     <td align="center">理论全版本</td>
                 </tr>
                 <tr>
+                    <td align="center">模拟扫码</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">文章多窗</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">订阅列表</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
+                    <td align="center">通话限制</td>
+                    <td align="center">✅</td>
+                    <td align="center">理论全版本</td>
+                </tr>
+                <tr>
                     <td align="center">表情游戏</td>
                     <td align="center">✅</td>
                     <td align="center">理论全版本</td>
@@ -17872,14 +17916,9 @@ me.hd.wauxv:
                     <td align="center">理论全版本</td>
                 </tr>
                 <tr>
-                    <td align="center">模拟扫码</td>
+                    <td align="center">语音时长</td>
                     <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">订阅列表</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
+                    <td align="center">8.0.31+</td>
                 </tr>
                 <tr>
                     <td align="center">平板模式</td>
@@ -17892,17 +17931,7 @@ me.hd.wauxv:
                     <td align="center">理论全版本</td>
                 </tr>
                 <tr>
-                    <td align="center">通话限制</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
                     <td align="center">消息详情</td>
-                    <td align="center">✅</td>
-                    <td align="center">8.0.45</td>
-                </tr>
-                <tr>
-                    <td align="center">精确数量</td>
                     <td align="center">✅</td>
                     <td align="center">8.0.45</td>
                 </tr>
@@ -17912,9 +17941,6 @@ me.hd.wauxv:
                     <td align="center">❓</td>
                 </tr>
             </table>
-            <hr />
-            <h2>计划 / Plans:</h2>
-            <p>无</p>
             <hr />
             <h2>致谢 / Thanks:</h2>
             <table>
@@ -17947,15 +17973,11 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.0.7.226.apk
+          filename: WAuxiliary_v1.1.0.303.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-02-26T07:10:42Z"
-          releasedescription: |-
-            <p>修复 旧版入口<br>
-            新增 语音时长<br>
-            优化 通话限制<br>
-            新增 文章多窗</p>
+          last_updated: "2025-03-03T08:23:53Z"
+          releasedescription: <p>提高模块稳定性，优化模块流畅度</p>
     author_name: HdShare
 me.hoshino.novpndetect:
     git: https://github.com/Xposed-Modules-Repo/me.hoshino.novpndetect

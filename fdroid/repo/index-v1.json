@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1740972529000,
+    "timestamp": 1741059201000,
     "version": 20002
   },
   "requests": {
@@ -2778,19 +2778,19 @@
       "summary": "A simple module to spoof device location. Supporting Android 8.1+"
     },
     {
-      "added": 1740953763000,
+      "added": 1740972333000,
       "authorName": "jqssun",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eGPS Setter\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total\" alt=\"downloads\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/issues\"\u003e\u003cimg src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c!-- \n[![LSPosed](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.jqssun.android-gps-setter/total?label=LSPosed\u0026logo=Android\u0026style=flat\u0026labelColor=F48FB1\u0026logoColor=ffffff)](https://github.com/Xposed-Modules-Repo/com.jqssun.android-gps-setter/releases)\n[![Github downloads](https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=Release)]()\n![](https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/blob/main/banner.png) \n\n[\u003cimg src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\"\u003e]()\n[\u003cimg src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\"\u003e]()\n--\u003e\n\u003ch2\u003eMotivation\u003c/h2\u003e\n\u003cp\u003eAn increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003ehook the app itself to modify the location it receives, or\u003c/li\u003e\n\u003cli\u003ehook the system server if the app explicitly checks for whether itself is being hooked\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eSpecifically, in the case of hooking just the app, it intercepts \u003ca href=\"https://developer.android.com/reference/android/location/Location\"\u003e\u003ccode\u003eandroid.location.Location\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"https://developer.android.com/reference/android/location/LocationManager\"\u003e\u003ccode\u003eandroid.location.LocationManager\u003c/code\u003e\u003c/a\u003e methods including\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"\u003e\u003ccode\u003egetLatitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"\u003e\u003ccode\u003egetLongitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"\u003e\u003ccode\u003egetAccuracy()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"\u003e\u003ccode\u003egetLastKnownLocation(java.lang.String)\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eChanges\u003c/h2\u003e\n\u003cp\u003eThis module inherits from the original GpsSetter project with the following changes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAdded support for new location APIs in system server from Android 14+\u003c/li\u003e\n\u003cli\u003eAdded support for dynamically adjusting the location via a joystick overlay\u003c/li\u003e\n\u003cli\u003eAdded ability to only depend on FOSS libraries\u003c/li\u003e\n\u003cli\u003eUpdated UI to work with latest Material Design\u003c/li\u003e\n\u003cli\u003eUpdated custom designed resource bundles\u003c/li\u003e\n\u003cli\u003eNewer dependencies\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1+ (tested up to Android 15)\u003c/li\u003e\n\u003cli\u003eRooted devices with Xposed framework installed (e.g. LSPosed)\u003c/li\u003e\n\u003cli\u003eUnrooted devices with LSPatch (with manually embedded specified location)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCredits\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Android1500/GpsSetter\"\u003eAndroid1500\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/maplibre/maplibre-native\"\u003eMapLibre\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/microg/GmsCore\"\u003emicroG\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1740953763000,
+      "description": "\u003ch1\u003eGPS Setter\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jqssun.gpssetter/total?label=LSPosed\u0026amp;logo=Android\u0026amp;style=flat\u0026amp;labelColor=F48FB1\u0026amp;logoColor=ffffff\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/stargazers\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=GitHub\u0026amp;logo=GitHub\" alt=\"downloads\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/actions/workflows/apk.yml\"\u003e\u003cimg src=\"https://img.shields.io/github/actions/workflow/status/jqssun/android-gps-setter/apk.yml\" alt=\"build\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"\u003e\u003cimg src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/jqssun/android-gps-setter/issues\"\u003e\u003cimg src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA GPS setter based on the Xposed framework. This fork is the first module to achieve support for Android 15+ with its sources available.\u003c/p\u003e\n\u003ch2\u003eReleases\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003cth\u003eVersion\u003c/th\u003e\n        \u003cth\u003eapp-full-*.apk\u003c/th\u003e\n        \u003cth\u003eapp-foss-*.apk\u003c/th\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003cth\u003eMaps Library\u003c/th\u003e\n        \u003ctd\u003eGMS (com.google.android.gms:play-services-maps)\u003c/td\u003e\n        \u003ctd\u003eMapLibre (org.maplibre.gl:android-sdk)\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003cth\u003eFused Location\u003c/th\u003e\n        \u003ctd\u003eGMS (com.google.android.gms:play-services-location)\u003c/td\u003e\n        \u003ctd\u003emicroG (org.microg.gms:play-services-location)\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003cth\u003eDistribution\u003c/th\u003e\n        \u003ctd\u003e\n            \u003ca href=\"https://github.com/jqssun/android-gps-setter/releases\"\u003e\n                \u003cimg\n                    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n                    alt=\"Get it on GitHub\" width=\"200\" /\u003e\n            \u003c/a\u003e\n        \u003c/td\u003e\n        \u003ctd\u003e\n            \u003ca href=\"https://f-droid.org/packages/io.github.jqssun.gpssetter\"\u003e\n                \u003cimg\n                    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n                    alt=\"Get it on F-Droid\" width=\"200\" /\u003e\n            \u003c/a\u003e\n        \u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003c!-- \n[\u003cimg src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\"\u003e](https://github.com/jqssun/android-gps-setter/releases)\n[\u003cimg src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\"\u003e]()\n[\u003cimg src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\"\u003e]()\n--\u003e\n\u003ch2\u003eMotivation\u003c/h2\u003e\n\u003cp\u003eAn increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003ehook the app itself to modify the location it receives, or\u003c/li\u003e\n\u003cli\u003ehook the system server if the app explicitly checks for whether itself is being hooked\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003eSpecifically, in the case of hooking just the app, it intercepts \u003ca href=\"https://developer.android.com/reference/android/location/Location\"\u003e\u003ccode\u003eandroid.location.Location\u003c/code\u003e\u003c/a\u003e and \u003ca href=\"https://developer.android.com/reference/android/location/LocationManager\"\u003e\u003ccode\u003eandroid.location.LocationManager\u003c/code\u003e\u003c/a\u003e methods including\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"\u003e\u003ccode\u003egetLatitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"\u003e\u003ccode\u003egetLongitude()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"\u003e\u003ccode\u003egetAccuracy()\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"\u003e\u003ccode\u003egetLastKnownLocation(java.lang.String)\u003c/code\u003e\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCompatibility\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.1+ (tested up to Android 16 Beta 2)\u003c/li\u003e\n\u003cli\u003eRooted devices with Xposed framework installed (e.g. LSPosed)\u003c/li\u003e\n\u003cli\u003eUnrooted devices with LSPatch (with manually embedded specified location)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e✨ Supports new system server location APIs introduced in Android 14+\u003c/li\u003e\n\u003cli\u003e🍀 Supports a fully FLOSS build flavor - including all underlying dependencies\u003c/li\u003e\n\u003cli\u003e🖲️ Allows adjusting location on the fly via an on-screen joystick overlay\u003c/li\u003e\n\u003cli\u003e🎲 Allows using a live updating random location in the vicinity of the set point\u003c/li\u003e\n\u003cli\u003e🎉 Feataures custom designed resource bundles with updated dependent libraries\u003c/li\u003e\n\u003cli\u003e🔥 Compatible with latest Material Design\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCredits\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Android1500/GpsSetter\"\u003eAndroid1500\u003c/a\u003e for the original GpsSetter targeting Android 8.1 to 13\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/maplibre/maplibre-native\"\u003eMapLibre\u003c/a\u003e for the mapping library\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/microg/GmsCore\"\u003emicroG\u003c/a\u003e for the FOSS implementation of Google Mobile Services\u003c/li\u003e\n\u003c/ul\u003e\n",
+      "lastUpdated": 1741058862000,
       "license": "Unknown",
       "name": "GPS Setter",
       "packageName": "io.github.jqssun.gpssetter",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.0.1-foss",
+      "suggestedVersionCode": "4",
+      "suggestedVersionName": "0.0.4-foss",
       "summary": "A GPS setter based on the Xposed framework."
     },
     {
@@ -2967,6 +2967,27 @@
       "suggestedVersionCode": "3",
       "suggestedVersionName": "1.1.1",
       "summary": "习习向上优化模块"
+    },
+    {
+      "added": 1741023693000,
+      "authorName": "Baiker000",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eHelis Root Bypass\u003c/h1\u003e\n\u003cp\u003eВідключає перевірку root прав у додатку Helsi\u003c/p\u003e\n\u003cp\u003eThis Xposed module bypasses root detection in the Helsi mobile application.\u003c/p\u003e\n\u003cp\u003eHelsi 1.0.372+\u003c/p\u003e\n",
+      "lastUpdated": 1741023693000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "Initial release"
+        }
+      },
+      "name": "Helsi Root Bypass",
+      "packageName": "com.neko.helsirootbypass",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.neko.helsirootbypass",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "Відключає перевірку root прав у додатку Helsi\nBypass root detection in the He..."
     },
     {
       "added": 1666178496000,
@@ -3561,24 +3582,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1740920235000,
+      "added": 1740980295000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
-      "lastUpdated": 1740920235000,
+      "lastUpdated": 1740980295000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 搜图神器\n新增 支持 七猫免费听书"
+          "whatsNew": "新增 支持 一木清单\n新增 支持 一木记账\n更改 海鸥加速器 解锁VIP"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "33",
-      "suggestedVersionName": "3.9.2",
+      "suggestedVersionCode": "34",
+      "suggestedVersionName": "3.9.3",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -3734,14 +3755,19 @@
       "summary": "Get Knox features working again in your rooted Samsung Galaxy device."
     },
     {
-      "added": 1740866625000,
+      "added": 1740885869000,
       "authorName": "mon231",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eLanguager - Language Spoofing Xposed Module\u003c/h1\u003e\n\u003ch2\u003eOverview\u003c/h2\u003e\n\u003cp\u003eLanguager is an Xposed module that allows you to change the language of specific Android applications, without changing your system language. This is particularly useful against apps that enforce system language settings or buggy apps that fail to show the selected language from app’s settings.\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003ePer-App Language Selection\u003c/strong\u003e: Choose a different language for each app independently\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eComprehensive Language Support\u003c/strong\u003e: 26+ languages available including English, French, German, Spanish, Italian, Portuguese, Russian, Chinese, Japanese, Korean, Arabic, Hebrew, Hindi, and many more\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eUser-Friendly Interface\u003c/strong\u003e: Easy-to-use UI with app search functionality and intuitive language selection\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eWide Compatibility\u003c/strong\u003e: Works on Android 5.0+ (API 21+) with support for both older and newer Android versions\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eEfficient Hooking Mechanism\u003c/strong\u003e: Hooks all locale-related methods to ensure complete language spoofing\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eTechnical Details\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eLanguage Spoofing Mechanism\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eUses Xposed framework for comprehensive method hooking\u003c/li\u003e\n\u003cli\u003eTargets all locale-related methods across different API levels:\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003eConfiguration.getLocales()\u003c/code\u003e (API 24+)\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eConfiguration.getLocale()\u003c/code\u003e (API \u0026lt; 24)\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eConfiguration.locale\u003c/code\u003e property\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eResources.getConfiguration().locale\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eLocale.getDefault()\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eLocale.getDefault(Category)\u003c/code\u003e (API 24+)\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eLocaleList.getDefault()\u003c/code\u003e (API 24+)\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003eLocaleList.getAdjustedDefault()\u003c/code\u003e (API 24+)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eDynamically replaces system locale with user-selected language\u003c/li\u003e\n\u003cli\u003eHandles API differences between Android versions\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003eShared Preferences\u003c/strong\u003e:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eUses XSharedPreferences for cross-process configuration storage\u003c/li\u003e\n\u003cli\u003eImplements world-readable preferences for Xposed module access\u003c/li\u003e\n\u003cli\u003eDirect key-value storage for app-language mappings\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eRequirements\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid device with Xposed framework installed (LSPosed, EdXposed, etc.)\u003c/li\u003e\n\u003cli\u003eAndroid 5.0+ (API 21+)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eInstallation\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eInstall the Languager APK\u003c/li\u003e\n\u003cli\u003eEnable the module in your Xposed framework manager\u003c/li\u003e\n\u003cli\u003eSelect the apps you want to apply language spoofing to\u003c/li\u003e\n\u003cli\u003eReboot your device\u003c/li\u003e\n\u003cli\u003eOpen the Languager app to configure language settings for each app\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003eLSPosed Repository Installation\u003c/h3\u003e\n\u003cp\u003eYou can also install Languager directly from the LSPosed repository:\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003eOpen LSPosed Manager\u003c/li\u003e\n\u003cli\u003eGo to Repository tab\u003c/li\u003e\n\u003cli\u003eAdd the repository URL: \u003ccode\u003ehttps://mon231.github.io/com.rel.languager\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eFind Languager in the list and install it\u003c/li\u003e\n\u003cli\u003eEnable the module and reboot\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eUsage\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eOpen the Languager app\u003c/li\u003e\n\u003cli\u003eUse the search bar to find specific apps\u003c/li\u003e\n\u003cli\u003eSelect your preferred language for each app from the dropdown menu\u003c/li\u003e\n\u003cli\u003eClick “Save Settings” to apply changes\u003c/li\u003e\n\u003cli\u003eReboot or restart the target apps for changes to take effect\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eSupported Languages\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEnglish\u003c/li\u003e\n\u003cli\u003eFrench (Français)\u003c/li\u003e\n\u003cli\u003eGerman (Deutsch)\u003c/li\u003e\n\u003cli\u003eSpanish (Español)\u003c/li\u003e\n\u003cli\u003eItalian (Italiano)\u003c/li\u003e\n\u003cli\u003ePortuguese (Português)\u003c/li\u003e\n\u003cli\u003eRussian (Русский)\u003c/li\u003e\n\u003cli\u003eChinese (中文)\u003c/li\u003e\n\u003cli\u003eJapanese (日本語)\u003c/li\u003e\n\u003cli\u003eKorean (한국어)\u003c/li\u003e\n\u003cli\u003eArabic (العربية)\u003c/li\u003e\n\u003cli\u003eHebrew (עברית)\u003c/li\u003e\n\u003cli\u003eHindi (हिन्दी)\u003c/li\u003e\n\u003cli\u003eBengali (বাংলা)\u003c/li\u003e\n\u003cli\u003ePunjabi (ਪੰਜਾਬੀ)\u003c/li\u003e\n\u003cli\u003eTamil (தமிழ்)\u003c/li\u003e\n\u003cli\u003eTelugu (తెలుగు)\u003c/li\u003e\n\u003cli\u003eMalayalam (മലയാളം)\u003c/li\u003e\n\u003cli\u003eThai (ไทย)\u003c/li\u003e\n\u003cli\u003eVietnamese (Tiếng Việt)\u003c/li\u003e\n\u003cli\u003eIndonesian (Bahasa Indonesia)\u003c/li\u003e\n\u003cli\u003eMalay (Bahasa Melayu)\u003c/li\u003e\n\u003cli\u003eTurkish (Türkçe)\u003c/li\u003e\n\u003cli\u003eDutch (Nederlands)\u003c/li\u003e\n\u003cli\u003ePolish (Polski)\u003c/li\u003e\n\u003cli\u003eSwedish (Svenska)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eImplementation Details\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003ePreference Handling\u003c/strong\u003e: Uses \u003ccode\u003eMODE_WORLD_READABLE\u003c/code\u003e with LSPosed’s \u003ccode\u003exposedsharedprefs\u003c/code\u003e flag for secure preference sharing\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eDynamic Locale Creation\u003c/strong\u003e: Creates locale objects for all supported languages\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eAPI Level Detection\u003c/strong\u003e: Automatically detects device API level and uses appropriate hooking methods\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eUI Optimization\u003c/strong\u003e: Efficient app list loading with search functionality\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eCompatibility Layers\u003c/strong\u003e: Special handling for different Android versions and manufacturer customizations\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eBuilding from Source\u003c/h2\u003e\n\u003ch3\u003ePrerequisites\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid Studio 4.0+\u003c/li\u003e\n\u003cli\u003eJDK 11+\u003c/li\u003e\n\u003cli\u003eGradle 7.0+\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eLocal Build (debug-mode)\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003eClone the repository:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003egit clone https://github.com/mon231/com.rel.languager languager\ncd languager\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eBuild:\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e./gradlew clean assembleDebug\n\u003c/code\u003e\u003c/pre\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eFind the APK at \u003ccode\u003eapp/build/outputs/apk/debug/app-debug.apk\u003c/code\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eTroubleshooting\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eModule not working\u003c/strong\u003e: Make sure it’s enabled in LSPosed/EdXposed Manager\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eLanguage not changing\u003c/strong\u003e: Try restarting the app or rebooting your device\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eAcknowledgements\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/rovo89/XposedBridge\"\u003eXposed Framework\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed Framework\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1740866625000,
+      "lastUpdated": 1741058813000,
       "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "[Source code](https://github.com/mon231/com.rel.languager)"
+        }
+      },
       "name": "Languager",
       "packageName": "com.rel.languager",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.rel.languager",
@@ -7099,7 +7125,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1740972304000,
+      "lastUpdated": 1741058830000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7201,7 +7227,7 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e阻止撤回\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动登录\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动原图\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e表情游戏\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e虚拟定位\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e圆形头像\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e通话限制\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e消息详情\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e精确数量\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1740626648000,
+      "lastUpdated": 1741058884000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -9297,7 +9323,7 @@
       "sourceCode": "https://github.com/Xposed-Modules-Repo/fuckinginput.coloros.baidu",
       "suggestedVersionCode": "2",
       "suggestedVersionName": "2.0",
-      "summary": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣谢Dexkit项目https:/..."
+      "summary": "解除剪切板数量限制，拦截键盘工具栏搜索按钮跳转事件，解除快捷短语300字的输入限制\n采用Dexkit匹配，理论上通杀近版本，太过古早的版本可能不行\n在此鸣..."
     },
     {
       "added": 1672839865000,
@@ -14835,6 +14861,23 @@
         "versionName": "1.4"
       }
     ],
+    "com.neko.helsirootbypass": [
+      {
+        "added": 1741023693000,
+        "apkName": "com.neko.helsirootbypass_1-1.0.apk",
+        "hash": "b0d5a64cfd57471815a437df726b968d95d41c19e5fcd335c761ec1a476a9f62",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.neko.helsirootbypass",
+        "sig": "7aae315bd48487353df4ed21f59cf071",
+        "signer": "eea815c5a3b36f4c1d45d1f8e5700401870e117d844a1bbbaef683f812069631",
+        "size": 104363,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "com.nnnen.plusne": [
       {
         "added": 1704424218000,
@@ -15284,9 +15327,24 @@
     ],
     "com.rel.languager": [
       {
-        "added": 1740866625000,
+        "added": 1740885869000,
         "apkName": "com.rel.languager_6-1.0.1.apk",
         "hash": "ec8b03c32c6ecff8b9df7a88cb701036c045de52503567964fd9658b982994fc",
+        "hashType": "sha256",
+        "minSdkVersion": 21,
+        "nativecode": null,
+        "packageName": "com.rel.languager",
+        "sig": "617ea4e439e69c92db5bce0adbb294e9",
+        "signer": "abfa5a653c040c0595f312440a28b1828095385f0e15c87c961c953164cfaee2",
+        "size": 4347322,
+        "targetSdkVersion": 33,
+        "versionCode": 5,
+        "versionName": "1.0"
+      },
+      {
+        "added": 1741036444000,
+        "apkName": "com.rel.languager_7-1.1.0.apk",
+        "hash": "6f9ade7d366eb9278f03474774a6625e1bfe5b9d853fc1337e206d31cc720953",
         "hashType": "sha256",
         "minSdkVersion": 21,
         "nativecode": null,
@@ -16257,7 +16315,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1740972304000,
+        "added": 1741058830000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18070,7 +18128,7 @@
     ],
     "io.github.jqssun.gpssetter": [
       {
-        "added": 1740953763000,
+        "added": 1740972333000,
         "apkName": "io.github.jqssun.gpssetter_1-0.0.1-foss.apk",
         "hash": "1ab07c0e9b8856d2bdf1e46fc712c63ca5273663fc362eed6ff38ce398867355",
         "hashType": "sha256",
@@ -18088,6 +18146,23 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "0.0.1-foss"
+      },
+      {
+        "added": 1741038260000,
+        "apkName": "io.github.jqssun.gpssetter_v0.0.4.apk",
+        "hash": "3ff05b6a1c6fed16b63664025bab18d35576b374195d36aebccd3b0dd03923d7",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "io.github.jqssun.gpssetter",
+        "sig": "bc8d0f3be28b33f593447b0e8edf21a6",
+        "signer": "64ca1fa39ddf9e0e89c57d73fb681d2a5b35ae20f071771e2eb401b5032ef1a9",
+        "size": 13880366,
+        "targetSdkVersion": 34,
+        "versionCode": 4,
+        "versionName": "0.0.4-foss"
       }
     ],
     "io.github.lamprose.mi_ultra": [
@@ -18920,7 +18995,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1740920235000,
+        "added": 1740980295000,
+        "apkName": "junzi.xposed.hook_34-3.9.3.apk",
+        "hash": "42160ed4cecdc97c4ea9067f01b22426ea0dc6d04c150a7acec073e049cb12ee",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2602097,
+        "targetSdkVersion": 33,
+        "versionCode": 34,
+        "versionName": "3.9.3"
+      },
+      {
+        "added": 1740972346000,
         "apkName": "junzi.xposed.hook_33-3.9.2.apk",
         "hash": "c0db406cb2aa654a0ccbda6599d52269bb64e901140f3a570ed27c184b0df431",
         "hashType": "sha256",
@@ -18954,24 +19047,6 @@
         "targetSdkVersion": 33,
         "versionCode": 32,
         "versionName": "3.9.1"
-      },
-      {
-        "added": 1740799726000,
-        "apkName": "junzi.xposed.hook_31-3.9.apk",
-        "hash": "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2577573,
-        "targetSdkVersion": 33,
-        "versionCode": 31,
-        "versionName": "3.9"
       }
     ],
     "lialh4.ldf": [
