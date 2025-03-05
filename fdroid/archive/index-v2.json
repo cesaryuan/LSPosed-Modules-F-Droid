@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1741059187000,
+    "timestamp": 1741145597000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2494,7 +2494,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741058874000,
+        "lastUpdated": 1741145276000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2509,6 +2509,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "a618205cf1ce106f68fb7027889886352fc280524d289279eef95cdd8b5f98af": {
+          "added": 1740885928000,
+          "file": {
+            "name": "/junzi.xposed.hook_32-3.9.1.apk",
+            "sha256": "a618205cf1ce106f68fb7027889886352fc280524d289279eef95cdd8b5f98af",
+            "size": 2503793
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.9.1",
+            "versionCode": 32,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "d9e60bfd0753b8b88a80aae77d38d42e84d2dd4bf23093840fee186ccef976c8": {
           "added": 1740799726000,
           "file": {
@@ -3380,7 +3413,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741058884000,
+        "lastUpdated": 1741145287000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
@@ -3408,6 +3441,35 @@
             ],
             "versionName": "1.0.0",
             "versionCode": 20250217,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "86e01c318c1015562d138482ec59cb17438138a1b8c8aaf9fd32737bbf1bb881": {
+          "added": 1741145287000,
+          "file": {
+            "name": "/me.hd.wauxv_305-1.1.1.apk",
+            "sha256": "86e01c318c1015562d138482ec59cb17438138a1b8c8aaf9fd32737bbf1bb881",
+            "size": 2487905
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.1",
+            "versionCode": 305,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
