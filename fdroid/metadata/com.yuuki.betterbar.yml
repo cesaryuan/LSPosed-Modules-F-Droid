@@ -1,0 +1,11 @@
+AuthorName: SoyBeanMilkx
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: "<h2>Flyme状态栏美化模块</h2>\n<p>自用模块。完美适用于FLYme 11.2.1.0A，附近的版本应该也适用。\n功能有 :</p>\n<ul>\n<li>\n<p>隐藏状态栏的任意图标</p>\n</li>\n<li>\n<p>时间加粗</p>\n</li>\n<li>\n<p>时间显示秒数</p>\n</li>\n<li>\n<p>时间显示am/pm(会强制转换为12时计时法)</p>\n</li>\n<li>\n<p>显示今天是周几</p>\n</li>\n<li>\n<p>时间显示为时辰</p>\n</li>\n<li>\n<p>显示CPU温度</p>\n</li>\n<li>\n<p>显示充放电功率</p>\n</li>\n<li>\n<p>显示前台app的CPU使用率</p>\n</li>\n<li>\n<p>双击状态栏锁屏</p>\n</li>\n<li>\n<p>有其他有趣的想法欢迎提出\U0001F970\U0001F970</p>\n</li>\n</ul>\n<h3>使用方法</h3>\n<p>打开你想要的功能的开关，<strong>长按</strong>右下角的按钮(需要给root)</p>\n<p><img src=\"./show.png\" alt=\"show\" /></p>\n"
+IssueTracker: ""
+Name: 这是一个适用于FLYme 11.2.1.0A的可以修改状态栏的模块
+SourceCode: https://github.com/Xposed-Modules-Repo/com.yuuki.betterbar
+Summary: "A module to edit your statusbar.\ndownload and enjoy it!\U0001F618"
+WebSite: ""

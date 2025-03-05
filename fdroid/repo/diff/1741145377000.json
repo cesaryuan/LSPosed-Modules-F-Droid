@@ -1,0 +1,71 @@
+{
+  "repo": {
+    "timestamp": 1741145610000
+  },
+  "packages": {
+    "com.modisk.dawn": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.modisk.dawn",
+        "authorName": "nymanyim",
+        "summary": {
+          "en-US": "Modisk 解锁更多功能！"
+        },
+        "description": {
+          "en-US": "<h1>Modisk</h1>\n<p>Modsik 解锁更多功能！</p>\n"
+        }
+      }
+    },
+    "com.yuuki.betterbar": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.yuuki.betterbar",
+        "authorName": "SoyBeanMilkx",
+        "name": {
+          "en-US": "这是一个适用于FLYme 11.2.1.0A的可以修改状态栏的模块"
+        },
+        "summary": {
+          "en-US": "A module to edit your statusbar.\ndownload and enjoy it!😘"
+        },
+        "description": {
+          "en-US": "<h2>Flyme状态栏美化模块</h2>\n<p>自用模块。完美适用于FLYme 11.2.1.0A，附近的版本应该也适用。\n功能有 :</p>\n<ul>\n<li>\n<p>隐藏状态栏的任意图标</p>\n</li>\n<li>\n<p>时间加粗</p>\n</li>\n<li>\n<p>时间显示秒数</p>\n</li>\n<li>\n<p>时间显示am/pm(会强制转换为12时计时法)</p>\n</li>\n<li>\n<p>显示今天是周几</p>\n</li>\n<li>\n<p>时间显示为时辰</p>\n</li>\n<li>\n<p>显示CPU温度</p>\n</li>\n<li>\n<p>显示充放电功率</p>\n</li>\n<li>\n<p>显示前台app的CPU使用率</p>\n</li>\n<li>\n<p>双击状态栏锁屏</p>\n</li>\n<li>\n<p>有其他有趣的想法欢迎提出🥰🥰</p>\n</li>\n</ul>\n<h3>使用方法</h3>\n<p>打开你想要的功能的开关，<strong>长按</strong>右下角的按钮(需要给root)</p>\n<p><img src=\"./show.png\" alt=\"show\" /></p>\n"
+        }
+      }
+    },
+    "io.github.jqssun.gpssetter": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>GPS Setter</h1>\n<p><a href=\"https://github.com/jqssun/android-gps-setter/stargazers\"><img src=\"https://img.shields.io/github/stars/jqssun/android-gps-setter\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/io.github.jqssun.gpssetter/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.github.jqssun.gpssetter/total?label=LSPosed&amp;logo=Android&amp;style=flat&amp;labelColor=F48FB1&amp;logoColor=ffffff\" alt=\"LSPosed\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/downloads/jqssun/android-gps-setter/total?label=GitHub&amp;logo=GitHub\" alt=\"GitHub\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/releases\"><img src=\"https://img.shields.io/github/v/release/jqssun/android-gps-setter\" alt=\"release\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/actions/workflows/apk.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/jqssun/android-gps-setter/apk.yml\" alt=\"build\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/jqssun/android-gps-setter\" alt=\"license\" /></a>\n<a href=\"https://github.com/jqssun/android-gps-setter/issues\"><img src=\"https://img.shields.io/github/issues/jqssun/android-gps-setter\" alt=\"issues\" /></a></p>\n<p>A GPS setter based on the Xposed framework. This fork is the first module to achieve support for Android 15+ with its sources available.</p>\n<h2>Releases</h2>\n<table>\n    <tr>\n        <th>Version</th>\n        <th>app-full-*.apk</th>\n        <th>app-foss-*.apk</th>\n    </tr>\n    <tr>\n        <th>Maps Library</th>\n        <td>GMS (com.google.android.gms:play-services-maps)</td>\n        <td>MapLibre (org.maplibre.gl:android-sdk)</td>\n    </tr>\n    <tr>\n        <th>Fused Location</th>\n        <td>GMS (com.google.android.gms:play-services-location)</td>\n        <td>microG (org.microg.gms:play-services-location)</td>\n    </tr>\n    <tr>\n        <th>Distribution</th>\n        <td>\n            <a href=\"https://github.com/jqssun/android-gps-setter/releases\">\n                <img\n                    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n                    alt=\"Get it on GitHub\" width=\"200\" />\n            </a>\n        </td>\n        <td>\n            <a href=\"https://f-droid.org/packages/io.github.jqssun.gpssetter\">\n                <img\n                    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n                    alt=\"Get it on F-Droid\" width=\"200\" />\n            </a>\n        </td>\n    </tr>\n</table>\n<!-- \n[<img src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\" alt=\"Get it on GitHub\" height=\"80\">](https://github.com/jqssun/android-gps-setter/releases)\n[<img src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\" alt=\"Get it on F-Droid\" height=\"80\">]()\n[<img src=\"https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png\" height=\"80\">]()\n-->\n<h2>Motivation</h2>\n<p>An increasing number of apps are abusing the location permission for tracking purposes, preventing the user from using the app without granting the permission. Traditionally on Android, modifying the response from android server is done using the mock location provider - however, the availability of this feature is device dependent. Additionally, some apps have started explicitly checking for signals regarding whether the location provided is reliable. This module aims to mitigate this by providing an ability to either,</p>\n<ol>\n<li>hook the app itself to modify the location it receives, or</li>\n<li>hook the system server if the app explicitly checks for whether itself is being hooked</li>\n</ol>\n<p>Specifically, in the case of hooking just the app, it intercepts <a href=\"https://developer.android.com/reference/android/location/Location\"><code>android.location.Location</code></a> and <a href=\"https://developer.android.com/reference/android/location/LocationManager\"><code>android.location.LocationManager</code></a> methods including</p>\n<ul>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLatitude()\"><code>getLatitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getLongitude()\"><code>getLongitude()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/Location#getAccuracy()\"><code>getAccuracy()</code></a></li>\n<li><a href=\"https://developer.android.com/reference/android/location/LocationManager#getLastKnownLocation(java.lang.String)\"><code>getLastKnownLocation(java.lang.String)</code></a></li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>Android 8.1+ (tested up to Android 16 Beta 2)</li>\n<li>Rooted devices with Xposed framework installed (e.g. LSPosed)</li>\n<li>Unrooted devices with LSPatch (with manually embedded specified location)</li>\n</ul>\n<h2>Features</h2>\n<ul>\n<li>✨ (New) Supports system server location APIs introduced in Android 14+</li>\n<li>🍀 (New) Supports a fully FLOSS build flavor - including all underlying dependencies</li>\n<li>🖲️ (New) Allows adjusting location on the fly via an on-screen joystick overlay</li>\n<li>🎉 (New) Features custom designed resource bundles with updated dependent libraries</li>\n<li>🎲 Allows using a live updating random location in the vicinity of the set point</li>\n<li>🔥 Compatible with latest Material Design</li>\n</ul>\n<h2>Demo</h2>\n<p><video loop src='https://github.com/user-attachments/assets/fbc0901c-b126-4ca7-9239-34390a76e7f9' alt=\"demo\" width=\"200\" style=\"display: block; margin: auto;\"></video> <!-- https://github.com/jqssun/android-gps-setter/releases/download/v0.0.1/0.mp4 --></p>\n<h2>Credits</h2>\n<ul>\n<li><a href=\"https://github.com/Android1500/GpsSetter\">Android1500</a> for the original GpsSetter targeting Android 8.1 to 13</li>\n<li><a href=\"https://github.com/maplibre/maplibre-native\">MapLibre</a> for the mapping library</li>\n<li><a href=\"https://github.com/microg/GmsCore\">microG</a> for the FOSS implementation of Google Mobile Services</li>\n</ul>\n"
+        }
+      },
+      "versions": {
+        "a16e4066d358757edbd7401b26ade785c6117e8836c68ec43cf53f8144aca9f6": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "io.github.lsposed.disableflagsecure": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Enable Screenshot (formerly known as Disable FLAG_SECURE)</h1>\n<p>Enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot(Android 14+) &amp; screen record(Android 15+) detection.</p>\n<p><strong>Unofficial LSPosed versions are not supported.</strong></p>\n<h2>Supported OSes</h2>\n<ul>\n<li>Android 12-16 Beta 2 (Custom ROMs are <strong>not</strong> supported)</li>\n<li>Xiaomi Hyper OS</li>\n<li>OPlus OS (Color OS/Realme UI/Oxygen OS)</li>\n<li>Samsung One UI</li>\n</ul>\n<h2>Usage</h2>\n<ol>\n<li>Enable the module</li>\n<li>Select <strong>ONLY</strong> recommended apps</li>\n<li>Reboot</li>\n</ol>\n"
+        }
+      },
+      "versions": {
+        "dd592053dada31d155ab0bf8309ed8c3df51700e81b0be757411a39f21fa2939": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "versions": {
+        "2c186327c7b14eb646c6cde632301e4b70d993ce61a08a8c1675d9e977be8904": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

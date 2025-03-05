@@ -1,11 +1,19 @@
 AuthorName: tehcneko
 Categories:
     - Xposed
-CurrentVersion: 4.1.1
-CurrentVersionCode: 103
+CurrentVersion: 4.2.0
+CurrentVersionCode: 110
 Description: |
     <h1>Enable Screenshot (formerly known as Disable FLAG_SECURE)</h1>
     <p>Enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot(Android 14+) &amp; screen record(Android 15+) detection.</p>
+    <p><strong>Unofficial LSPosed versions are not supported.</strong></p>
+    <h2>Supported OSes</h2>
+    <ul>
+    <li>Android 12-16 Beta 2 (Custom ROMs are <strong>not</strong> supported)</li>
+    <li>Xiaomi Hyper OS</li>
+    <li>OPlus OS (Color OS/Realme UI/Oxygen OS)</li>
+    <li>Samsung One UI</li>
+    </ul>
     <h2>Usage</h2>
     <ol>
     <li>Enable the module</li>
