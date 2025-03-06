@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1741145610000,
+    "timestamp": 1741231800000,
     "version": 20002
   },
   "requests": {
@@ -3445,24 +3445,24 @@
       "summary": "hide developer mode and debug mode\n開発者モードやデバッグモードを隠します\nSupported Android 5.0~14"
     },
     {
-      "added": 1730274392000,
+      "added": 1732159543000,
       "authorName": "kazutoiris",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eInfinite Illusion\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/badge/license-Anti--996%20License-blue\" alt=\"Anti-996 License\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003cem\u003e\u003cstrong\u003eLet all apps dive into the realm of \u003ccode\u003eInfinite Illusion\u003c/code\u003e !\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e\n\u003cp\u003e\u003ccode\u003eIssue\u003c/code\u003e, \u003ccode\u003ePull Requests\u003c/code\u003e, \u003ccode\u003eStar\u003c/code\u003e, \u003ccode\u003eFork\u003c/code\u003e are all welcomed.\u003c/p\u003e\n\u003cp\u003eDesigned for:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eBypass restrictions of \u003ccode\u003eFake Location\u003c/code\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eOnly support \u003ccode\u003eLSPosed\u003c/code\u003e.\u003c/p\u003e\n\u003cp\u003eEnjoy :)\u003c/p\u003e\n\u003ch3\u003eAcknowledgements\u003c/h3\u003e\n\u003cp\u003eThis module is built using \u003ca href=\"https://github.com/fankes/YukiHookAPI\"\u003eYuki Hook API\u003c/a\u003e.\u003c/p\u003e\n",
-      "lastUpdated": 1730274392000,
+      "lastUpdated": 1741231565000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**Full Changelog**: https://github.com/Xposed-Modules-Repo/io.kazutoiris.infinite.illusion/commits/10-1.0"
+          "whatsNew": "support Play version\n\n**Full Changelog**: https://github.com/Xposed-Modules-Repo/io.kazutoiris.infinite.illusion/commits/11-1.1"
         }
       },
       "name": "Infinite Illusion （无限幻境）",
       "packageName": "io.kazutoiris.infinite.illusion",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.kazutoiris.infinite.illusion",
-      "suggestedVersionCode": "10",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "11",
+      "suggestedVersionName": "1.1",
       "summary": "Let all apps dive into the realm of Infinite Illusion!\n让每个应用沉浸在无限幻境中！"
     },
     {
@@ -3587,24 +3587,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1741136521000,
+      "added": 1741186040000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
-      "lastUpdated": 1741136521000,
+      "lastUpdated": 1741186040000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 123云盘\n新增 支持 音乐剪辑"
+          "whatsNew": "新增 支持 元气壁纸\n新增 支持 多邻国"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "36",
-      "suggestedVersionName": "3.9.5",
+      "suggestedVersionCode": "37",
+      "suggestedVersionName": "3.9.6",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -7151,7 +7151,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1741145231000,
+      "lastUpdated": 1741231526000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -9994,13 +9994,13 @@
       "summary": "一个开源的去广告模块，会逐步支持越来越多的应用"
     },
     {
-      "added": 1740986656000,
+      "added": 1741154149000,
       "authorName": "SoyBeanMilkx",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003eFlyme状态栏美化模块\u003c/h2\u003e\n\u003cp\u003e自用模块。完美适用于FLYme 11.2.1.0A，附近的版本应该也适用。\n功能有 :\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e隐藏状态栏的任意图标\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e时间加粗\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e时间显示秒数\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e时间显示am/pm(会强制转换为12时计时法)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e显示今天是周几\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e时间显示为时辰\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e显示CPU温度\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e显示充放电功率\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e显示前台app的CPU使用率\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e双击状态栏锁屏\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e有其他有趣的想法欢迎提出🥰🥰\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e使用方法\u003c/h3\u003e\n\u003cp\u003e打开你想要的功能的开关，\u003cstrong\u003e长按\u003c/strong\u003e右下角的按钮(需要给root)\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"./show.png\" alt=\"show\" /\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1740986656000,
+      "lastUpdated": 1741154149000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -16384,7 +16384,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1741145231000,
+        "added": 1741231526000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16694,7 +16694,22 @@
     ],
     "com.yuuki.betterbar": [
       {
-        "added": 1740986656000,
+        "added": 1741154149000,
+        "apkName": "com.yuuki.betterbar_1-1.0.apk",
+        "hash": "945f3ae767119ed59e44eb7aac156208f3d008636bed7a9548abcf514d764c21",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "com.yuuki.betterbar",
+        "sig": "d2df101dc0854d952e4d908ee980d2c4",
+        "signer": "3754a17c2985379bebc8fa4166d51e5f1436a84c9b8ce3eeb84ef80541ac9cb0",
+        "size": 5393622,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
+      },
+      {
+        "added": 1741145236000,
         "apkName": "com.yuuki.betterbar_V3.0.0.apk",
         "hash": "91302a082e7f32927d69f294ea6ba1bfc3a363bf02be4315ea1240ab73518af3",
         "hashType": "sha256",
@@ -18769,7 +18784,7 @@
     ],
     "io.kazutoiris.infinite.illusion": [
       {
-        "added": 1730274392000,
+        "added": 1732159543000,
         "apkName": "io.kazutoiris.infinite.illusion_10-1.0.apk",
         "hash": "964d5e7cd7150a99e69462a1d3de7851c859483a4ced4481b3f25fad93b52901",
         "hashType": "sha256",
@@ -18782,6 +18797,21 @@
         "targetSdkVersion": 35,
         "versionCode": 10,
         "versionName": "1.0"
+      },
+      {
+        "added": 1741228888000,
+        "apkName": "io.kazutoiris.infinite.illusion_11-1.1.apk",
+        "hash": "f29cdff47609a635ac834da51008b791a66169659fda8daa8d17b429472e636d",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": null,
+        "packageName": "io.kazutoiris.infinite.illusion",
+        "sig": "6e5a46a2bb5d923bceb360cbc5ae7fec",
+        "signer": "8f6013e3488bec4673ef81ba3ee511a1e907d59ccb4cb753b54101b68cbfc233",
+        "size": 4060877,
+        "targetSdkVersion": 35,
+        "versionCode": 11,
+        "versionName": "1.1"
       }
     ],
     "io.kazutoiris.mrga": [
@@ -19113,7 +19143,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1741136521000,
+        "added": 1741186040000,
+        "apkName": "junzi.xposed.hook_37-3.9.6.apk",
+        "hash": "03f9f1a205a2ab1ee80c490e507c119c361e91437e982b30a6fe79119d34cb46",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 1299673,
+        "targetSdkVersion": 36,
+        "versionCode": 37,
+        "versionName": "3.9.6"
+      },
+      {
+        "added": 1741145276000,
         "apkName": "junzi.xposed.hook_36-3.9.5.apk",
         "hash": "2c186327c7b14eb646c6cde632301e4b70d993ce61a08a8c1675d9e977be8904",
         "hashType": "sha256",
@@ -19149,24 +19197,6 @@
         "targetSdkVersion": 33,
         "versionCode": 34,
         "versionName": "3.9.3"
-      },
-      {
-        "added": 1740972346000,
-        "apkName": "junzi.xposed.hook_33-3.9.2.apk",
-        "hash": "c0db406cb2aa654a0ccbda6599d52269bb64e901140f3a570ed27c184b0df431",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2577521,
-        "targetSdkVersion": 33,
-        "versionCode": 33,
-        "versionName": "3.9.2"
       }
     ],
     "lialh4.ldf": [
