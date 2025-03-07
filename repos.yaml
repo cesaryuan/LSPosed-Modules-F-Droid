@@ -8290,11 +8290,11 @@ com.kooritea.fcmfix:
             <ul>
             <li>非miui/hyperos系统可能需要给予目标应用类似允许自启动的权限。</li>
             </ul>
-          filename: fcmfix-ci-20240905_d619254.apk
+          filename: fcmfix-ci-20250306_a073987.apk
           id: com.kooritea.fcmfix
           name: fcmfix
-          last_updated: "2024-09-05T05:49:54Z"
-          releasedescription: ""
+          last_updated: "2025-03-06T06:31:41Z"
+          releasedescription: <p>ci挂了，手动更新下。。</p>
     author_name: kooritea
 com.leo.xposed.xradiant:
     git: https://github.com/Xposed-Modules-Repo/com.leo.xposed.xradiant
@@ -15149,11 +15149,27 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v966.Apk
+          filename: FunBox_v996.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-02-17T06:10:25Z"
-          releasedescription: <p>修复一些存在的问题</p>
+          last_updated: "2025-03-06T15:31:21Z"
+          releasedescription: |-
+            <p>1.修复部分md耗流量消息无法被拦截的问题<br>
+            2.移除所有内置限制，修复内置模块后无法使用的问题<br>
+            3.修改首次进入模块后的提示<br>
+            4.优化拦截异常图片加载，减少偷跑流量的情况<br>
+            5.表情面板在微信支持保存图片到面板<br>
+            6.修改表情面板的 container 生命周期，使其在打开时能保存上次的状态<br>
+            7.对在线表情预览，表情下载也使用doh解析，以缓解dns污染的问题<br>
+            8.表情包的左上角设置项目，添加以下设置项目<br>
+            最近列表：新增设置最近发送最大保存数量<br>
+            表情包：新增设置表情包内表情发送不进入最近发送列表<br>
+            表情包：新增将一个或多个表情直接复制到另一个表情包<br>
+            总设置：支持隐藏最近列表<br>
+            9.修改语音面板的 container 生命周期，使其在打开时能保存上次的状态<br>
+            10.音频播放器如果播完了点击播放会从头开始播放<br>
+            11.修复在未登录账号时获取服务器信息出现错误<br>
+            12.仅在需要时请求获取rkey，并设置过期时间</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -17369,13 +17385,13 @@ junzi.xposed.hook:
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
             <p>小星记账</p>
-          filename: JunZi.Xposed.Hook_3.9.6.apk
+          filename: JunZi.Xposed.Hook_3.9.7.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-05T14:47:20Z"
+          last_updated: "2025-03-06T11:34:07Z"
           releasedescription: |-
-            <p>新增 支持 元气壁纸<br>
-            新增 支持 多邻国</p>
+            <p>新增 支持 App Ops<br>
+            新增 支持 剪映</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17902,7 +17918,7 @@ me.hd.wauxv:
             <h2>说明 / Desc:</h2>
             <p>Wechat 辅助性功能增强</p>
             <blockquote>
-            <p>在 GitHub 页面点击右上角 ⭐ Star 以支持我在空余时间继续开发</p>
+            <p>在 GitHub 点击右上角 ⭐ Star 以支持我在空余时间继续开发</p>
             </blockquote>
             <ul>
             <li>一切开发旨在学习，请勿用于非法用途</li>
@@ -17917,72 +17933,7 @@ me.hd.wauxv:
                     <td align="center"><b>适配版本</b></td>
                 </tr>
                 <tr>
-                    <td align="center">阻止撤回</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">自动登录</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">自动原图</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">模拟扫码</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">文章多窗</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">订阅列表</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">通话限制</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">表情游戏</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">虚拟定位</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">语音时长</td>
-                    <td align="center">✅</td>
-                    <td align="center">8.0.31+</td>
-                </tr>
-                <tr>
-                    <td align="center">平板模式</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">圆形头像</td>
-                    <td align="center">✅</td>
-                    <td align="center">理论全版本</td>
-                </tr>
-                <tr>
-                    <td align="center">消息详情</td>
-                    <td align="center">✅</td>
-                    <td align="center">8.0.45</td>
-                </tr>
-                <tr>
-                    <td align="center">其他功能</td>
+                    <td align="center">❓功能</td>
                     <td align="center">❓</td>
                     <td align="center">❓</td>
                 </tr>
@@ -18019,16 +17970,18 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.1.1.305.apk
+          filename: WAuxiliary_v1.1.2.306.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-03-04T16:13:34Z"
+          last_updated: "2025-03-06T10:19:12Z"
           releasedescription: |-
             <ul>
-            <li>新增 阻止撤回 Plus</li>
-            <li>新增 分享检验 (思路 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Keeperorowner/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Keeperorowner">@Keeperorowner</a>)</li>
-            <li>新增 禁止高亮</li>
-            <li>适配 部分框架 (如 FPA)</li>
+            <li>修复 无入口及安全模式问题</li>
+            <li>新增 系统浏览 (去你大爷的内置浏览器)</li>
+            <li>新增 阻止朋友圈删除</li>
+            <li>新增 免责说明</li>
+            <li>优化 稳定性</li>
+            <li>修复 已知问题</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:
