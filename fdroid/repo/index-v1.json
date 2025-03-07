@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1741231800000,
+    "timestamp": 1741318258000,
     "version": 20002
   },
   "requests": {
@@ -1935,20 +1935,25 @@
       "suggestedVersionName": "1.0.3"
     },
     {
-      "added": 1725515394000,
+      "added": 1741242701000,
       "authorName": "kooritea",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003efcmfix(Android 10以上14以下 )(Android 14?)\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/kooritea/fcmfix/actions\"\u003e\u003cimg src=\"https://github.com/kooritea/fcmfix/workflows/Android%20CI/badge.svg\" alt=\"Android CI\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e让fcm/gcm唤醒未启动的应用进行发送通知\u003c/p\u003e\n\u003ch2\u003e附加功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e阻止Android系统在应用停止时自动移除通知栏的通知\u003c/li\u003e\n\u003cli\u003e在miui/hyperos(?)上动态解除来自fcm的自启动限制\u003c/li\u003e\n\u003cli\u003e移除miui/hyperos对后台应用的通知限制\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e关于fcm\u003c/h2\u003e\n\u003cp\u003efcm是在Android中由google维护的一条介于google服务器与gms应用之间用于推送通知的长链接。\u003cbr /\u003e\n一般的工作流程为应用服务器将消息发送到google服务器，google服务器将消息推送给gms应用，gms应用通过广播传递给应用，应用通过接收到的fcm消息决定是否发送通知和通知内容。\u003cbr /\u003e\n其中gms通过fcm广播通知应用时，如果应用处于非运行状态，就会出现\u003ccode\u003eFailed to broadcast to stopped app\u003c/code\u003e，fcmfix主要就是解决这个问题。\u003c/p\u003e\n\u003ch2\u003e已知问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e非miui/hyperos系统可能需要给予目标应用类似允许自启动的权限。\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "icon": "com.kooritea.fcmfix.45.png",
-      "lastUpdated": 1725515394000,
+      "icon": "com.kooritea.fcmfix.46.png",
+      "lastUpdated": 1741242701000,
       "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "ci挂了，手动更新下。。"
+        }
+      },
       "name": "fcmfix",
       "packageName": "com.kooritea.fcmfix",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.kooritea.fcmfix",
-      "suggestedVersionCode": "45",
-      "suggestedVersionName": "20240905_d619254",
+      "suggestedVersionCode": "46",
+      "suggestedVersionName": "20250306_a073987",
       "summary": "让fcm/gcm唤醒未启动的应用进行发送通知"
     },
     {
@@ -2542,24 +2547,24 @@
       "summary": "禁止应用跳转淘宝京东"
     },
     {
-      "added": 1739772625000,
+      "added": 1741275081000,
       "authorName": "Hicores",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eQQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音\u003c/p\u003e\n\u003cp\u003e支持微信8.0.40以上\n支持QQ9.0.30以上\n支持TIM4.0.97以上\u003c/p\u003e\n",
-      "lastUpdated": 1739772625000,
+      "lastUpdated": 1741275081000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "修复一些存在的问题"
+          "whatsNew": "1.修复部分md耗流量消息无法被拦截的问题\n2.移除所有内置限制，修复内置模块后无法使用的问题\n3.修改首次进入模块后的提示\n4.优化拦截异常图片加载，减少偷跑流量的情况\n5.表情面板在微信支持保存图片到面板\n6.修改表情面板的 container 生命周期，使其在打开时能保存上次的状态\n7.对在线表情预览，表情下载也使用doh解析，以缓解dns污染的问题\n8.表情包的左上角设置项目，添加以下设置项目\n最近列表：新增设置最近发送最大保存数量\n表情包：新增设置表情包内表情发送不进入最近发送列表\n表情包：新增将一个或多个表情直接复制到另一个表情包\n总设置：支持隐藏最近列表\n9.修改语音面板的 container 生命周期，使其在打开时能保存上次的状态\n10.音频播放器如果播完了点击播放会从头开始播放\n11.修复在未登录账号时获取服务器信息出现错误\n12.仅在需要时请求获取rkey，并设置过期时间"
         }
       },
       "name": "FunBox",
       "packageName": "have.fun",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
-      "suggestedVersionCode": "966",
-      "suggestedVersionName": "v966",
+      "suggestedVersionCode": "996",
+      "suggestedVersionName": "v996",
       "summary": "QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音"
     },
     {
@@ -3587,24 +3592,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1741186040000,
+      "added": 1741260847000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n",
-      "lastUpdated": 1741186040000,
+      "lastUpdated": 1741260847000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 元气壁纸\n新增 支持 多邻国"
+          "whatsNew": "新增 支持 App Ops\n新增 支持 剪映"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "37",
-      "suggestedVersionName": "3.9.6",
+      "suggestedVersionCode": "38",
+      "suggestedVersionName": "3.9.7",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -7151,7 +7156,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1741231526000,
+      "lastUpdated": 1741317988000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7253,7 +7258,7 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e阻止撤回\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动登录\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动原图\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e表情游戏\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e虚拟定位\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e圆形头像\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e通话限制\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e消息详情\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e精确数量\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1741145287000,
+      "lastUpdated": 1741318042000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -14333,7 +14338,22 @@
     ],
     "com.kooritea.fcmfix": [
       {
-        "added": 1725515394000,
+        "added": 1741242701000,
+        "apkName": "com.kooritea.fcmfix_46-20250306_a073987.apk",
+        "hash": "a025b2adea17d74e58e48729c8a113c9c1450bacd66f50137d6657527a3c0156",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "com.kooritea.fcmfix",
+        "sig": "5bbb3f2f0eaf7f0647e4c43cf8022ec2",
+        "signer": "d43a7d7dad6abb6e6e58df70f6adc483ac28995541ff2f70c4742dcb35b8d844",
+        "size": 2676899,
+        "targetSdkVersion": 34,
+        "versionCode": 46,
+        "versionName": "20250306_a073987"
+      },
+      {
+        "added": 1732159476000,
         "apkName": "com.kooritea.fcmfix_45-20240905_d619254.apk",
         "hash": "50629949791c201f44405d6af493edc16d35adae69300bf1230809351c8f34c1",
         "hashType": "sha256",
@@ -16384,7 +16404,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1741231526000,
+        "added": 1741317988000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17534,7 +17554,24 @@
     ],
     "have.fun": [
       {
-        "added": 1739772625000,
+        "added": 1741275081000,
+        "apkName": "have.fun_996-v996.apk",
+        "hash": "34aeacf979b8c49f64e0f2efda4c932499373d4109dd273771276cd266d9d7ee",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4651684,
+        "targetSdkVersion": 34,
+        "versionCode": 996,
+        "versionName": "v996"
+      },
+      {
+        "added": 1739848346000,
         "apkName": "have.fun_966-v966.apk",
         "hash": "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e",
         "hashType": "sha256",
@@ -17566,23 +17603,6 @@
         "targetSdkVersion": 34,
         "versionCode": 937,
         "versionName": "v937"
-      },
-      {
-        "added": 1737947312000,
-        "apkName": "have.fun_929-v929.apk",
-        "hash": "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "have.fun",
-        "sig": "847a474215fbdc0d6660c50e5e385732",
-        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
-        "size": 4413997,
-        "targetSdkVersion": 34,
-        "versionCode": 929,
-        "versionName": "v929"
       }
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
@@ -19143,7 +19163,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1741186040000,
+        "added": 1741260847000,
+        "apkName": "junzi.xposed.hook_38-3.9.7.apk",
+        "hash": "959a62dcde000ae7fe9bd451762d56e99255f7d526efd475844ef6838a91471e",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 1295577,
+        "targetSdkVersion": 36,
+        "versionCode": 38,
+        "versionName": "3.9.7"
+      },
+      {
+        "added": 1741231571000,
         "apkName": "junzi.xposed.hook_37-3.9.6.apk",
         "hash": "03f9f1a205a2ab1ee80c490e507c119c361e91437e982b30a6fe79119d34cb46",
         "hashType": "sha256",
@@ -19179,24 +19217,6 @@
         "targetSdkVersion": 36,
         "versionCode": 36,
         "versionName": "3.9.5"
-      },
-      {
-        "added": 1741058874000,
-        "apkName": "junzi.xposed.hook_34-3.9.3.apk",
-        "hash": "42160ed4cecdc97c4ea9067f01b22426ea0dc6d04c150a7acec073e049cb12ee",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2602097,
-        "targetSdkVersion": 33,
-        "versionCode": 34,
-        "versionName": "3.9.3"
       }
     ],
     "lialh4.ldf": [
