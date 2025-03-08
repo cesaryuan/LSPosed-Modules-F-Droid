@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1741318258000,
+    "timestamp": 1741403265000,
     "version": 20002
   },
   "requests": {
@@ -338,14 +338,14 @@
       "summary": "An Xposed Framework module that bypasses Android's user/profile creation limits"
     },
     {
-      "added": 1657671028000,
+      "added": 1732159498000,
       "authorName": "liyafe1997",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eEnglish\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"#%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-simplified-chinese\"\u003e简体中文\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.strawing.alwaysthemedicon/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.strawing.alwaysthemedicon/total\" alt=\"Download\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eIntroduction\u003c/h2\u003e\n\u003cp\u003eThis module can let third party launcher always use icons with MIUI/Flyme Themes. It may also work with other custom Android based OS, if they have the same logic of the theme and icon stuff. (As I tested it also works with Flyme)\u003c/p\u003e\n\u003cp\u003eThe left one is Apex Launcher without this module, the right one is with this module enabled.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://user-images.githubusercontent.com/18359157/178597526-098630d7-13bb-4f01-ae04-30f91e286922.jpg\" width=\"35%\"\u003e   \u003cimg src=\"https://user-images.githubusercontent.com/18359157/178597503-bf5f0027-4ad6-45be-b561-e8bfc65f2790.jpg\" width=\"35%\"\u003e\u003c/p\u003e\n\u003ch2\u003eHow does it works\u003c/h2\u003e\n\u003cp\u003eThis module only do one thing: Hook “android.content.pm.LauncherActivityInfo.getIcon” method, set the argument(int denisty, aka DPI) to 0. So the method will load icon with MIUI theme.\u003c/p\u003e\n\u003cp\u003eI think this is a feature instead of a bug of MIUI, since the icons in these Themes are fixed DPI, so if you request a specific DPI the system will try to get the most similar DPI icon from the “Resources” of the app package, because App developer usually put icons with different DPI in the Resouces.\u003c/p\u003e\n\u003ch2\u003eHow to apply this module\u003c/h2\u003e\n\u003cp\u003eInstall it, enable it in Xposed (I only tested with LSPosed). and \u003cstrong\u003emake sure your launcher is enabled in the scope of this module in LSPosed\u003c/strong\u003e. Then reboot.\u003c/p\u003e\n\u003cp\u003eAnother important thing is, most launchers have icon cache, so even you have this module enabled, it still shows the original icon. You have to try to refresh the icon cache of your launch. The most common way is install a icon pack that supported by your launcher, switch to it and then switch back to “None” or “System Icon” or something. Or try to modify some settings, E.g. icon size, icon shape or soemthing. Also can try the Android’s “Clean Cache” feature.\u003c/p\u003e\n\u003cp\u003eBut as I test with Apex Launcher, these methods doesn’t take effort. Seems with Apex Launcher the only way is do a backup and restore…Or just clean data, but your desktop layout and settings will be lost…\u003c/p\u003e\n\u003ch1\u003e简体中文 (Simplified Chinese)\u003c/h1\u003e\n\u003ch2\u003e介绍\u003c/h2\u003e\n\u003cp\u003e这个模块是让第三方Launcher的图标也能使用MIUI/Flyme的主题图标。也许在其它第三方Android OS上也起作用，如果他们也用同样的方法来处理主题和图标的话。（据测试，在Flyme上也起作用）\u003c/p\u003e\n\u003cp\u003e以下左图是Apex Launcher，没安装模块只能显示App原始图标，右图为安装了该模块，可以显示MIUI的主题图标\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://user-images.githubusercontent.com/18359157/178597526-098630d7-13bb-4f01-ae04-30f91e286922.jpg\" width=\"35%\"\u003e   \u003cimg src=\"https://user-images.githubusercontent.com/18359157/178597503-bf5f0027-4ad6-45be-b561-e8bfc65f2790.jpg\" width=\"35%\"\u003e\u003c/p\u003e\n\u003ch2\u003e工作原理\u003c/h2\u003e\n\u003cp\u003e这个模块只干一件事情：Hook “android.content.pm.LauncherActivityInfo.getIcon” 方法，把第一个参数（这个参数是int denisty, 意为图标DPI）设为0。然后这个方法就会加载带主题的图标。\u003c/p\u003e\n\u003cp\u003e这应该是一个feature，不是bug，因为MIUI主题里的图标DPI都是固定的，所以如果想通过这个API请求一个指定DPI的图标，那么系统就会尝试直接从App的Resources里读取最相近的图标，因为开发者一般会放入不同DPI的图标。\u003c/p\u003e\n\u003ch2\u003e如何使用\u003c/h2\u003e\n\u003cp\u003e安装该模块，在Xposed中启用（我只在LSPosed上测试了），并且\u003cstrong\u003e在作用域中勾上你的Launcher\u003c/strong\u003e，然后重启\u003c/p\u003e\n\u003cp\u003e还有一个重要的事情是，大部分Launcher都有图标缓存，所以即使你启用了这个模块，但Launcher没有刷新图标缓存，所以还是显示原来的图标。你得想办法去刷新图标缓存，一种最简单的可以尝试的方法是装一个与你的Launcher兼容的第三方图标包，然后切换到这个图标包，再切回“无”或者“系统图标”之类的，让它刷新图标缓存。也可以尝试一些设置比如改变图标大小，图标形状之类的，也可以尝试Android的“清除缓存”功能。\u003c/p\u003e\n\u003cp\u003e但我在Apex Launcher上试了，上述方法都不管用。。。看起来在Apex上只能用备份还原功能来刷新缓存，或者直接清除应用数据，但这样你的桌面布局和设置就没了。。。如果用上面的方法无法刷新缓存，又不想清数据，只能自己想想办法了。\u003c/p\u003e\n",
       "icon": "com.strawing.alwaysthemedicon.webp",
-      "lastUpdated": 1657671028000,
+      "lastUpdated": 1732159498000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -835,14 +835,14 @@
       "summary": "Many Modifications to the Bluetooth App"
     },
     {
-      "added": 1656139552000,
+      "added": 1732159416000,
       "authorName": "JackuXL",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eBoardDeepHook\u003c/h1\u003e\n\u003cp\u003e适用于「阳光自律」免费开启无限期会员的模块。\u003c/p\u003e\n\u003cp\u003e安装模块后，（若使用 LSPosed 则需要启用「阳光自律」作用域），重新启动「阳光自律」即可使用。\u003c/p\u003e\n",
       "icon": "cn.jackuxl.boarddeephook.png",
-      "lastUpdated": 1656139552000,
+      "lastUpdated": 1732159416000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -1296,14 +1296,14 @@
       "summary": "为 ColorOS 优化通知图标以及适配原生通知图标规范，理论支持 OxygenOS 和 RealmeUI"
     },
     {
-      "added": 1651917035000,
+      "added": 1732159487000,
       "authorName": "Oosl",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eColorOSTool\u003c/h1\u003e\n\u003cp\u003e增强 ColorOS 12(For OnePlus) 使用体验\u003c/p\u003e\n\u003ch2\u003e当前功能：\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e解除只允许5个非白名单应用自启动的限制\u003c/li\u003e\n\u003cli\u003e解除启动器只能锁定5个后台应用的限制\u003c/li\u003e\n\u003cli\u003e三方暗色支持所有的用户APP\u003c/li\u003e\n\u003cli\u003e移除apk安装前的安全验证\u003c/li\u003e\n\u003cli\u003e移除安装包扫描\u003c/li\u003e\n\u003cli\u003e移除安装前，因版本相同、低版本等弹出的警告提示\u003c/li\u003e\n\u003cli\u003e隐藏安装完成后的广告以及“前往应用商店安装更多应用”的提示\u003c/li\u003e\n\u003cli\u003e自带的原生安装界面可选\u003c/li\u003e\n\u003cli\u003e移除锁屏时钟里的红色1\u003c/li\u003e\n\u003cli\u003e禁用USB安装手动确认，自动静默安装\u003c/li\u003e\n\u003cli\u003e全局120hz\u003c/li\u003e\n\u003cli\u003eRoot也可启用游戏滤镜\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e注意事项\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e安装或更新模块后，请强行停止推荐HOOK的应用以生效。\u003c/li\u003e\n\u003cli\u003e切换模块功能开关后，请强行停止推荐HOOK的应用以生效。\u003c/li\u003e\n\u003cli\u003e当前仅在 ColorOS 12 For OnePlus 上测试过。\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.oosl.colorostool.png",
-      "lastUpdated": 1651917035000,
+      "lastUpdated": 1732159487000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -1557,13 +1557,13 @@
       "summary": "Diia Tweaks: remove root checks"
     },
     {
-      "added": 1643104949000,
+      "added": 1732159541000,
       "authorName": "tehcneko",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eDisable app link verify\u003c/h1\u003e\n\u003cp\u003eDisable app link verify on Android 12, restore to old behaviour when opening links.\u003c/p\u003e\n",
-      "lastUpdated": 1643104949000,
+      "lastUpdated": 1732159541000,
       "license": "Unknown",
       "name": "Disable app link verify / 禁用应用链接验证",
       "packageName": "io.github.tehcneko.applinkverify",
@@ -1804,14 +1804,14 @@
       "summary": "Hook System Framework 让应用认为没有开启无障碍服务"
     },
     {
-      "added": 1639227741000,
+      "added": 1732159448000,
       "authorName": "Mikotwa",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eDualGuard\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Mikotwa\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Mikotwa/DualGuard?label=Stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Mikotwa/DualGuard/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Mikotwa/DualGuard?label=Release\" alt=\"Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.dualguard/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.dualguard/total\" alt=\"Download\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/DualGuard\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Channel\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://choosealicense.com/licenses/gpl-3.0/\"\u003e\u003cimg src=\"https://img.shields.io/github/license/Dr-TSNG/Hide-My-Applist?label=License\" alt=\"License\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eA simple xposed module that helps you use your AdGuard subscription in multiple (\u0026gt;3) devices.\u003c/p\u003e\n\u003ch2\u003eMonstor ahead! / 警告\u003c/h2\u003e\n\u003cp\u003e\u003cstrong\u003eThis is NOT a module that helps you bypass validation of AdGuard for free. VALID SUBSCRIPTION REQUIRED.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003eInstead, this module is intended for those who own more than three personal devices fully use their premium subscription.\u003c/p\u003e\n\u003cp\u003ePrecaution: It didn’t interfere any process AdGuard verify its certification from officials. AdGuard may always reserve any technical possibilities to figure out what the actual usage of a subscription, even with this module. DO NOT activate it in other situations except for private usage. Fail to do so may result in UNEXPECTED BAD THINGS.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003e该模块不能帮你免费破解 AdGuard 的高级订阅！如需使用，请事先购买一个合法的 AdGuard 许可证。\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e相反，这是一个帮助那些拥有超过三台个人设备的人充分利用 AdGuard 个人版订阅的模块。简而言之，让个人版订阅激活多于三台的个人设备。\u003c/p\u003e\n\u003cp\u003e警告：该模块并未对 AdGuard 向官方服务器验证许可证的的过程做任何处理。理论上 AdGuard 官方完全可以知道某人个人版授权的实际激活情况，即使使用了该模块。请不要将其用于非个人自用以外的目的，否则后果自负。\u003c/p\u003e\n",
       "icon": "com.dualguard.png",
-      "lastUpdated": 1639227741000,
+      "lastUpdated": 1732159448000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3531,14 +3531,14 @@
       "summary": "Restrict any installation / uninstallation process across the system"
     },
     {
-      "added": 1624555034000,
+      "added": 1732159425000,
       "authorName": "alex193a",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eIntegrity Verification Disabler\u003c/h1\u003e\n\u003cp\u003eBypass the integrity verification introduced on Android 11 by allowing you to update the Google Camera to version 8.0+ on phones other than the Pixel 5.\u003c/p\u003e\n\u003cp\u003eTested by installing the update via \u003cstrong\u003eADB\u003c/strong\u003e.\u003c/p\u003e\n\u003cp\u003eNo configuration needed, install and restart the phone.\u003c/p\u003e\n\u003cp\u003eThe module is also available as a \u003cem\u003eMagisk Module\u003c/em\u003e! You can download it from: \u003ca href=\"https://modules.alex193a.com\"\u003ehttps://modules.alex193a.com\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e⚠️ The Magisk Module has been tested \u003cstrong\u003eONLY\u003c/strong\u003e on a Pixel 3XL. Use it at your own risk. ⚠️\u003c/p\u003e\n",
       "icon": "com.alex193a.ivdisabler.1.png",
-      "lastUpdated": 1624555034000,
+      "lastUpdated": 1732159425000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -3656,13 +3656,13 @@
       "summary": "Integrate Generative AI like ChatGPT in keyboard."
     },
     {
-      "added": 1663386314000,
+      "added": 1732159562000,
       "authorName": "Henry-ZHR",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eKillDomainVerification\u003c/h1\u003e\n\u003cp\u003eRelated: \u003ca href=\"https://developer.android.com/training/app-links/verify-site-associations\"\u003ehttps://developer.android.com/training/app-links/verify-site-associations\u003c/a\u003e \u003ca href=\"https://developer.android.com/about/versions/12/web-intent-resolution\"\u003ehttps://developer.android.com/about/versions/12/web-intent-resolution\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThis xposed module prevents the system (and also yourself) from allowing apps to always open supported links.\u003c/p\u003e\n\u003cp\u003eIt also enables you to open supported links in apps which are not “verified” on Android 12 and above.\u003c/p\u003e\n\u003cp\u003e模块功能：打开 http / https 链接时总是询问，而不是直接在 app 中打开\u003c/p\u003e\n\u003cp\u003e副作用：手动设也没法直接用应用打开链接；Android 12+ 选择时会同时显示未“验证”的 app\u003c/p\u003e\n\u003cp\u003e理论支持 Android 6 及以后\u003c/p\u003e\n\u003ch2\u003eScreenshots\u003c/h2\u003e\n\u003ch3\u003eAndroid 11 and below\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot1.png?raw=true\" alt=\"screenshot1\" /\u003e\u003c/p\u003e\n\u003ch3\u003eAndroid 12 and above\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot2.png?raw=true\" alt=\"screenshot2\" /\u003e \u003cimg src=\"https://github.com/Henry-ZHR/KillDomainVerification/raw/master/screenshot3.png?raw=true\" alt=\"screenshot3\" /\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1663386314000,
+      "lastUpdated": 1732159562000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4089,14 +4089,14 @@
       "summary": "Hide unwanted views of Google and Yandex maps \u0026 navi"
     },
     {
-      "added": 1661386735000,
+      "added": 1732159440000,
       "authorName": "xHookman",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003e\u003cstrong\u003eThis module allow you to add a customisable matrix rain in notifications panel !\u003c/strong\u003e\u003c/h2\u003e\n\u003cp\u003e/!\\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN LSPOSED SETTINGS/!\u003cbr /\u003e\nThanks to @Hyper.Alvi for his help !\n/!\\ SystemUI must be restart to apply modifications (it changes dynamically after)/!\u003cbr /\u003e\nOfficially working with :\nOneUI 3.x\nAOSP R\u003c/p\u003e\n\u003cp\u003e/\u003cem\u003ePS : Don’t hesitate to try it on your rom and tell me if it work or no, I can support a lot of roms with your help\u003c/em\u003e/\u003c/p\u003e\n\u003ch2\u003eUsed libraries (Big thanks to all there developpers) :\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/chengxuncc/fileprefs\"\u003eFileprefs\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/rovo89/XposedBridge\"\u003eXposedBridge\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Chainfire/libsuperuser\"\u003eLibsuperuser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/AzeeSoft/AndroidPhotoshopColorPicker\"\u003ePhotoshopColorPicker\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eContact :\nIf you want to help me or suggest me some ideas you can send mail\u003c/p\u003e\n\u003cp\u003eMail : \u003ca href=\"mailto:xhookmandev@gmail.com\"\u003exhookmandev@gmail.com\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eMy other modules :\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://forum.xda-developers.com/t/xposed-lsposed-samsung-music-customiser-change-app-colors.4076893/\"\u003eSamsung Music Customiser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://forum.xda-developers.com/t/xposed-lsposed-samsung-messages-customiser-change-app-colors.4104635/\"\u003eSamsung Messages Customiser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://forum.xda-developers.com/t/xposed-lsposed-notigif-add-a-gif-to-notifications-panel.4165259/\"\u003eNotigif\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eYou can give me a \u003ca href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick\u0026amp;hosted_button_id=A3YW496LXQZ5A\u0026amp;source=url\"\u003edonation\u003c/a\u003e if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)\u003c/h2\u003e\n\u003cp\u003eThank you for reading this, don’t forget to press thanks on my XDA page ^_^\nPS : I’m french, so I try to speak english I hope your eyes still lives and that there are not too mistakes.\u003c/p\u003e\n",
       "icon": "com.chacha.matrixrain.1.png",
-      "lastUpdated": 1661386735000,
+      "lastUpdated": 1732159440000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4306,14 +4306,14 @@
       "summary": "在任意Android 9–15设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
     },
     {
-      "added": 1634916883000,
+      "added": 1732159576000,
       "authorName": "MichaelZhuravsky",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eCustoMIUIzer 12.5 Plugin\u003c/h1\u003e\n\u003cp\u003eThis plugin is for people how use CustoMIUIzer by Mikanoshi and have MIUI 12.5 and Android 11. It makes several mods workable again\u003c/p\u003e\n\u003cp\u003eFixed mods:\nStatus bar battery icon hide\nStatus bar VPN hide\nStatus bar Bluetooth icon handle\nStatus bar show clock’s seconds\nShow lockscreen notification after reboot\nHide lockscreen status bar\nHide lockscreen top block (clock, date etc)\nHide lockscreen unlock hint\nShow LTE icon for 4G\u003c/p\u003e\n\u003cp\u003eAdded mods:\nRemove unused free space in the quick settings bottom (xiaomi.eu)\nIncrease battery font size\u003c/p\u003e\n\u003ch2\u003eSupport/Discussion URL / Страница программы:\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://4pda.to/forum/index.php?s=\u0026amp;showtopic=603033\u0026amp;view=findpost\u0026amp;p=110326560\"\u003e4pda\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eAuthor\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://4pda.to/forum/index.php?showuser=683427\"\u003eMikeZh\u003c/a\u003e, 2021\u003c/p\u003e\n",
       "icon": "ru.mike.customiuizer125plugin.png",
-      "lastUpdated": 1634916883000,
+      "lastUpdated": 1732159576000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4392,13 +4392,13 @@
       "summary": "仅适用于MIUI，在移动网络面板或快捷开关中添加 5G 开关\nFor MIUI only, add 5G switch in the network pa..."
     },
     {
-      "added": 1624554912000,
+      "added": 1732159418000,
       "authorName": "yujincheng08",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003ecn.lovesykun.miui_force_fps\u003c/h1\u003e\n",
-      "lastUpdated": 1624554912000,
+      "lastUpdated": 1732159418000,
       "license": "Unknown",
       "name": "MIUI Force FPS / MIUI 全局高帧",
       "packageName": "cn.lovesykun.miui_force_fps",
@@ -4545,13 +4545,13 @@
       "summary": "(MIUI14)解除小米平板只能打开4小窗的限制"
     },
     {
-      "added": 1654535671000,
+      "added": 1732159511000,
       "authorName": "YifePlayte",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMiuiPadESC\u003c/h1\u003e\n\u003ch3\u003e此模块已停止维护，请迁移至 \u003ca href=\"https://github.com/YifePlayte/MaxMiPad\"\u003eYifePlayte/MaxMiPad\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.yifeplayte.miuipadesc/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.yifeplayte.miuipadesc/total?label=Downloads\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MiuiPadESC/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/YifePlayte/MiuiPadESC?style=flat\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MiuiPadESC/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/YifePlayte/MiuiPadESC\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/YifePlayte/MiuiPadESC/blob/main/LICENSE\"\u003e\u003cimg alt=\"GitHub license\" src=\"https://img.shields.io/github/license/YifePlayte/MiuiPadESC\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e为小米平板5系列恢复键盘ESC键功能\u003cbr /\u003e\nRestore ESC function on Mi Pad 5 series\u003c/p\u003e\n",
-      "lastUpdated": 1654535671000,
+      "lastUpdated": 1732159511000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4593,14 +4593,14 @@
       "summary": "为小米平板5系列和其他MIUI/HyperOS设备恢复键盘Meta/Win键功能，同时禁用Alt-Tab快捷键。这样就可以在远程桌面里用Meta键和Alt..."
     },
     {
-      "added": 1692171826000,
+      "added": 1732159416000,
       "authorName": "gykkuo",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eMIUI_NOGUARDPLS\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/cn.fyyr.noguardpls/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.fyyr.noguardpls/total?label=Downloads\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/gykkuo/MIUI_NoGuard/stargazers\"\u003e\u003cimg alt=\"GitHub stars\" src=\"https://img.shields.io/github/stars/gykkuo/MIUI_NoGuard\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/gykkuo/MIUI_NoGuard/issues\"\u003e\u003cimg alt=\"GitHub issues\" src=\"https://img.shields.io/github/issues/gykkuo/MIUI_NoGuard\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/gykkuo/MIUI_NoGuard/blob/master/LICENSE\"\u003e\u003cimg alt=\"GitHub license\" src=\"https://img.shields.io/github/license/gykkuo/MIUI_NoGuard\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e阻止MIUI追踪用户隐私\u003cbr /\u003e\nPrevent miui from tracking your privacy.\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e已有功能 / Available feature\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e阻止com.miui.guardprovider的跟踪行为\u003c/li\u003e\n\u003cli\u003e欺骗com.miui.analytics为无网络状态\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e使用方法 / Way to use\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e安装后开启作用域，重启手机。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e安装一个apk，lsposed日志里提示执行拦截为成功！\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003e第三方开源引用 / Third-party open source references\u003c/h3\u003e\n\u003ch5\u003eGNU General Public License v3.0\u003c/h5\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/YifePlayte/MaxMiPad\"\u003eReadMe参考\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch3\u003eLicense\u003c/h3\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/YifePlayte/MaxMiPad/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "cn.fyyr.noguardpls.webp",
-      "lastUpdated": 1692171826000,
+      "lastUpdated": 1732159416000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -5059,13 +5059,13 @@
       "summary": "正如其名，让Android后台CPU不再活跃"
     },
     {
-      "added": 1636874210000,
+      "added": 1732159596000,
       "authorName": "ccat3z",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNoDisplayCutout\u003c/h1\u003e\n\u003cp\u003e\u003cstrong\u003eDEPRECATED\u003c/strong\u003e: 使用\u003ca href=\"https://github.com/MlgmXyysd/NoneDisplayCutout\"\u003eMlgmXyysd/NoneDisplayCutout\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003e强制应用在刘海/挖孔区域中呈现.\n主要用于小米Mix4这种挖了孔但又没挖孔的屏下摄像头手机.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/ccat3z/no-display-cutout/master/screenshot.png\" alt=\"\" /\u003e\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e在Xposed (\u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e…) Manager启用本模块.\u003c/li\u003e\n\u003cli\u003e选择需要修改的应用.\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e对于没有root或xposed的手机可以试试WindySha的\u003ca href=\"https://github.com/WindySha/Xpatch\"\u003eXpatch\u003c/a\u003e.\u003c/p\u003e\n\u003ch2\u003e致谢\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Magisk-Modules-Repo/noneDisplayCutout\"\u003eMagisk-Modules-Repo/noneDisplayCutout\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://www.coolapk.com/feed/29531787\"\u003e小米MIX4全屏显示模块\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n",
-      "lastUpdated": 1636874210000,
+      "lastUpdated": 1732159596000,
       "license": "Unknown",
       "name": "NoDisplayCutout",
       "packageName": "xyz.ccat3z.nodisplaycutout",
@@ -5199,14 +5199,14 @@
       "summary": "利用关键词匹配对通知进行拦截\nUse keyword matching to intercept notifications"
     },
     {
-      "added": 1636489099000,
+      "added": 1732159440000,
       "authorName": "xHookman",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003e\u003cstrong\u003eThis module allow you to add a gif or a picutre of your choice in notifications panel !\u003c/strong\u003e\u003c/h2\u003e\n\u003cp\u003e/!\\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN EDXPOSED SETTINGS/!\\\u003c/p\u003e\n\u003cp\u003e/!\\ SystemUI must be restart to apply modifications /!\u003cbr /\u003e\nOfficially working with :\nOneUI (1.0 \u0026amp; 2.x)\nAOSP (N to R)\nOxygenOS\nMIUI\u003c/p\u003e\n\u003cp\u003e/\u003cem\u003ePS : Don’t hesitate to try it on your rom and tell me if it work or no, I can support a lot of roms with your help\u003c/em\u003e/\u003c/p\u003e\n\u003ch2\u003eUsed libraries (Big thanks to all there developpers) :\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/chengxuncc/fileprefs\"\u003eFileprefs\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/rovo89/XposedBridge\"\u003eXposedBridge\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Chainfire/libsuperuser\"\u003eLibsuperuser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bumptech/glide\"\u003eGlide\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eContact :\nIf you want to help me or suggest me some ideas you can send mail\u003c/p\u003e\n\u003cp\u003eMail : \u003ca href=\"mailto:xhookmandev@gmail.com\"\u003exhookmandev@gmail.com\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eMy other module :\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://forum.xda-developers.com/t/xposed-lsposed-samsung-music-customiser-change-app-colors.4076893/\"\u003eSamsung Music Customiser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://forum.xda-developers.com/t/xposed-lsposed-samsung-messages-customiser-change-app-colors.4104635/\"\u003eSamsung Messages Customiser\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eYou can give me \u003ca href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick\u0026amp;hosted_button_id=A3YW496LXQZ5A\u0026amp;source=url\"\u003edonation\u003c/a\u003e if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)\u003c/h2\u003e\n\u003cp\u003eThank you for reading this, don’t forget to press thanks on my XDA page ^_^\nPS : I’m french, so I try to speak english I hope your eyes still lives and that there are not too mistakes.\u003c/p\u003e\n",
       "icon": "com.chacha.notigif.1.png",
-      "lastUpdated": 1636489099000,
+      "lastUpdated": 1732159440000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -5221,14 +5221,14 @@
       "summary": "Allow you to add a gif or a picture in your notifications panel !"
     },
     {
-      "added": 1654586746000,
+      "added": 1732159554000,
       "authorName": "TakanashiHoshino",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eNoVPNDetect\u003c/h1\u003e\n\u003cp\u003eA Xposed module prevent some apps detect your phone connected to VPN.\u003c/p\u003e\n\u003ch1\u003eUsage\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003eDownload \u0026amp; activate this module\u003c/li\u003e\n\u003cli\u003eSelect app that you want to prevent detect VPN\u003c/li\u003e\n\u003cli\u003eReboot phone or relaunch app\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "me.hoshino.novpndetect.webp",
-      "lastUpdated": 1654586746000,
+      "lastUpdated": 1732159554000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6204,14 +6204,14 @@
       "summary": "Disable Rocket Player’s “Expired version” popup"
     },
     {
-      "added": 1624562559000,
+      "added": 1732159441000,
       "authorName": "xHookman",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eHey !\u003c/p\u003e\n\u003ch1\u003eThis module allow you to customize colors of Samsung Messages app !\u003c/h1\u003e\n\u003cp\u003e/!\\ Samsung Messages must be killed after applying new colors /!\u003cbr /\u003e\n/!\\ THIS IS NOT COMPATIBLE WITH THE ONEUI 2.x MESSAGES VERSION /!\\\u003c/p\u003e\n\u003cp\u003eDONT FORGET TO SAY THANKS ON MY XDA PAGE PLS ’^^\u003c/p\u003e\n\u003ch2\u003eUsed libraries :\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/chengxuncc/fileprefs\"\u003eFileprefs\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/AzeeSoft/AndroidPhotoshopColorPicker\"\u003ePhotoshopColorPicker\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/rovo89/XposedBridge\"\u003eXposedBridge\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Chainfire/libsuperuser\"\u003eLibsuperuser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/airbnb/paris\"\u003eAirbnb Paris\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eIf you want to help me or suggest me some ideas you can send mail\nMail : \u003ca href=\"mailto:xhookmandev@gmail.com\"\u003exhookmandev@gmail.com\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eYou can now give me \u003ca href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick\u0026amp;hosted_button_id=A3YW496LXQZ5A\u0026amp;source=url\"\u003edonation\u003c/a\u003e if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)\u003c/h3\u003e\n",
       "icon": "com.chacha.smessagescustom.1.png",
-      "lastUpdated": 1624562559000,
+      "lastUpdated": 1732159441000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6226,14 +6226,14 @@
       "summary": "This module allow you to customise colors of Samsung Messages app !\n /!\\ THIS..."
     },
     {
-      "added": 1624562316000,
+      "added": 1732159441000,
       "authorName": "xHookman",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eHey !\u003c/p\u003e\n\u003ch2\u003e\u003cstrong\u003eThis module allow you to customize colors of Samsung Music app !\u003c/strong\u003e\u003c/h2\u003e\n\u003ch3\u003e# This app works for versions higher than 16.2.25.11\u003c/h3\u003e\n\u003cp\u003e/!\\SINCE RIRU V22 YOU MUST ENABLE RESOURCE HOOK IN LSPOSED SETTINGS/!\u003cbr /\u003e\n/!\\ Samsung Music must be killed after applying new colors /!\\\u003c/p\u003e\n\u003cp\u003eDONT FORGET TO SAY THANKS ON MY XDA PAGE PLS ’^^\u003c/p\u003e\n\u003cp\u003eNote that three colors not working for now (Big player play button, shuffle, and repeat) : if you want help me you can and for sure you will be credited :)\u003c/p\u003e\n\u003ch2\u003eUsed libraries :\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/chengxuncc/fileprefs\"\u003eFileprefs\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/AzeeSoft/AndroidPhotoshopColorPicker\"\u003ePhotoshopColorPicker\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/rovo89/XposedBridge\"\u003eXposedBridge\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Chainfire/libsuperuser\"\u003eLibsuperuser\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/airbnb/paris\"\u003eAirbnb Paris\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eIf you want to help me or suggest me some ideas you can send mail\nMail : \u003ca href=\"mailto:xhookmandev@gmail.com\"\u003exhookmandev@gmail.com\u003c/a\u003e\u003c/p\u003e\n\u003ch3\u003eYou can now give me \u003ca href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick\u0026amp;hosted_button_id=A3YW496LXQZ5A\u0026amp;source=url\"\u003edonation\u003c/a\u003e if you want to support all my free works. A big thanks if you give me this reward it’s very sympathic :)\u003c/h3\u003e\n",
       "icon": "com.chacha.samsungmusiccustomiser.1.png",
-      "lastUpdated": 1624562316000,
+      "lastUpdated": 1732159441000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6248,13 +6248,13 @@
       "summary": "This module allow you to customise colors of Samsung Music app !\nThis app wor..."
     },
     {
-      "added": 1653635373000,
+      "added": 1732159423000,
       "authorName": "yin-ol",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e三星OneUI时钟app在响铃前会对通话状态进行检测，如果检测到在通话中则不会响铃，此模块可以解除网络通话中闹钟不提醒不响铃的限制(QQ、微信)，原理是简单的hook了app里对通话状态的检测函数的返回值。\u003c/p\u003e\n\u003cp\u003e作用域：默认即可\u003c/p\u003e\n",
-      "lastUpdated": 1653635373000,
+      "lastUpdated": 1732159423000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -6459,14 +6459,14 @@
       "summary": "SimpleRadio AdAway Xposed module which has been developed using the `Modern X..."
     },
     {
-      "added": 1624560738000,
+      "added": 1732159433000,
       "authorName": "Thiasap",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003esmobajump\u003c/h1\u003e\n\u003ch2\u003e关于模块\u003c/h2\u003e\n\u003cp\u003e没啥，就跳过王者营地的那个启动动画和推广的界面，能从原本的十几秒缩短到3s左右（我自己手机测试的）\u003c/p\u003e\n\u003cp\u003e版本号带“DisableUpdate”的是关闭启动时的检查更新。想要自动更新的请安装普通版\u003c/p\u003e\n\u003ch2\u003e下载\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bit747.smobajump/releases\"\u003eRelease\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e开放代码\u003ca href=\"https://github.com/Thiasap/smobajump\"\u003e源码\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.bit747.smobajump.3.png",
-      "lastUpdated": 1624560738000,
+      "lastUpdated": 1732159433000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -7156,7 +7156,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1741317988000,
+      "lastUpdated": 1741402887000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7467,14 +7467,14 @@
       "summary": "Enhance Wechat!"
     },
     {
-      "added": 1661516667000,
+      "added": 1732159427000,
       "authorName": "alex193a",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eXDowngrader\u003c/h1\u003e\n\u003cp\u003eXDowngrader downgrades any app by allowing you to install the APK of an old version on top of the new version on Android 5 and newer.\u003c/p\u003e\n\u003cp\u003eNo configuration needed*, install and restart the phone.\u003c/p\u003e\n\u003cp\u003e*Make sure you allow the module to hook the \u003cstrong\u003eSystem Framework\u003c/strong\u003e if you are using LSPosed or EdXposed in WhiteList mode!\u003c/p\u003e\n",
       "icon": "com.alex193a.xdowngrader.2.png",
-      "lastUpdated": 1661516667000,
+      "lastUpdated": 1732159427000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -8506,14 +8506,14 @@
       "summary": "将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。Change Duoling..."
     },
     {
-      "added": 1624552119000,
+      "added": 1732159449000,
       "authorName": "captain-miao",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e大圣净化\u003c/h1\u003e\n\u003cp\u003e全方位去除广告应用\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e跳过/替换广告页面\u003c/li\u003e\n\u003cli\u003e屏蔽广告 View\u003c/li\u003e\n\u003cli\u003eUrl 拦截\u003c/li\u003e\n\u003cli\u003e自定义 Hook\u003c/li\u003e\n\u003cli\u003e广告文件替换\u003c/li\u003e\n\u003cli\u003e系统 hosts 替换\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e公众号: Android应用链\u003c/p\u003e\n\u003ch2\u003e官网\u003c/h2\u003e\n\u003cp\u003e使用教程 - \u003ca href=\"http://wiki.ad-gone.com/\"\u003ehttp://wiki.ad-gone.com/\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e下载\u003c/h2\u003e\n\u003cp\u003e应用下载 - \u003ca href=\"https://wiki.ad-gone.com/adWars.html\"\u003ehttps://wiki.ad-gone.com/adWars.html\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003eTelegram\u003c/h2\u003e\n\u003cp\u003e交流 - \u003ca href=\"https://t.me/adwars\"\u003ehttps://t.me/adwars\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.ext.star.wars.png",
-      "lastUpdated": 1624552119000,
+      "lastUpdated": 1732159449000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -8527,14 +8527,14 @@
       "suggestedVersionName": "3.8.80"
     },
     {
-      "added": 1636002297000,
+      "added": 1732159506000,
       "authorName": "vivian8421",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e小米push增强模块\u003c/h1\u003e\n\u003ch2\u003e[酷安@vivian8421]\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e启用模块 –\u0026gt; 冻结app –\u0026gt; mipush通知 （–\u0026gt; 打开app –\u0026gt; 点击进入通知）\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003e众所周知，为了防止app后台通过恶意行为驻留内存，部分用户选择使用冻结类软件停用(pm disable) App，当App处于停用状态时其package或component不可用。然而，在这种情况下，一些必要的通知将会受到影响(Alipay,DingTalk,Bank,Stock,etc…)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch4\u003e本模块为此设计，在App冻结的情况下，实现接收各类app的push，让您在不消耗内存、保障隐私的同时，轻量接收推送消息，让您不再错过动账、交易类消息，福利活动不再后知后觉！\u003c/h4\u003e\n\u003cp\u003e完全兼容冰箱、黑白门等冻结类App！\u003c/p\u003e\n\u003cp\u003e注意：\u003c/p\u003e\n\u003ch4\u003e不建议精简或者修改版定制系统使用(可能会卡米)。如果您冻结了部分关键系统app或者破解卡米,请谨慎使用(可能会卡米或者第二屏)。\u003c/h4\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e目前仅仅支持adb shell pm disable停用方式的冻结类App，对于挂起方式(变灰)的冻结(scene应用偏见…)，其应用状态可能留有后台，此方式冻结不彻底，不推荐使用，且此状态下push消息已经推送到通知栏，由于某些限制导致通知栏不能正常展示，后期视情况适配。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e时间及技术有限，目前只能实现接收消息，暂时不能通过点击通知无法拉起已经冻结的App，需要手动进入App再点击通知查看。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e本模块完全免费且开源，一切开发仅供学习参考，请勿用于非法用途。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003cp\u003e适配机型/环境:小米MIUI系列机型ROM+Magisk。\u003c/p\u003e\n\u003cp\u003e测试机型和进度:\u003c/p\u003e\n\u003cpre lang=\"sh\"\u003e\u003ccode\u003eMi10 Ultra/Pro 开发板每天跟随官方更新 小米服务框架版本如下:\n5.3.1 已测试，冻结不自动注册，最新版已修复\n5.3.3 已测试，(部分用户未能正常接收push，官方已确认bug，不建议使用)\n5.3.6 已测试，(部分用户未能正常接收push，官方已确认bug，不建议使用)\n5.3.8 已测试，未发现问题(20211026-now)，（安卓12已于20211116测试，推荐使用）\n5.3.9 已测试，未发现问题(20211111-20211112)\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e\u003cdel\u003e1. 确认应用列表中”小米服务框架” 版本为：5.3.1及以上。 （低版本请自行尝试，不保证可以正常使用）\u003c/del\u003e\u003c/p\u003e\n\u003col\u003e\n\u003cli\u003e目前已经适配低版本(5.0+)小米服务框架，仅非修改/精简/冻结/卸载状态即可。\u003c/li\u003e\n\u003cli\u003e作用域已经默认勾选：系统框架 、小米服务框架。（com.xiaomi.xmsf）。\u003c/li\u003e\n\u003cli\u003e修改系统框架需要重启手机，单独修改小米服务框架停止其运行即可。\u003c/li\u003e\n\u003cli\u003e手机管家App处于正常状态(非冻结/卸载/版本过低)\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eThanks\u003c/h2\u003e\n\u003cp\u003eThanks \u003ca href=\"https://github.com/soulpursuit\"\u003e@Soulpursuit\u003c/a\u003e  for providing the project requirements and completing the testing of each version\u003c/p\u003e\n\u003ch2\u003eMaintainers\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/vivian8421\"\u003e@Vivian8421\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/vivian8421/MiPush-Enhance/issues\"\u003eReport Bug\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003eXiaomi push enhancement module\u003c/h1\u003e\n\u003cblockquote\u003e\n\u003cp\u003eEnable module – \u0026gt; freeze app – \u0026gt; mipush notification (- - \u0026gt; Open app – \u0026gt; Click to enter notification)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eAs we all know, in order to prevent the app background from residing in memory through malicious behavior, some users choose to use frozen software to disable the app. When the app is disabled, its package or component is unavailable. However, in this case, some necessary notifications will be affected (Alipay, dingtalk, bank, stock, etc…)\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003c/blockquote\u003e\n\u003ch4\u003eThis module is designed for this purpose. When the app is frozen, it can receive the push of all kinds of apps, so that you can receive push messages lightly without consuming memory and ensuring privacy, so that you will no longer miss the dynamic account and transaction messages, and welfare activities will no longer be delayed!\u003c/h4\u003e\n\u003cblockquote\u003e\n\u003cp\u003eFully compatible pm disable and other frozen apps!\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNote: time and technology are limited. At present, we can only receive messages. For the time being, we can’t click the notification to pull up the frozen app. We need to manually enter the app and click the notification to view it. We welcome all great gods PR and good people to give advice~\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNote: This module is completely free and open source. All development is for learning reference only. Do not use it for illegal purposes.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eApplicable model / environment: Xiaomi MIUI series model ROM + magisk.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch4\u003eNote: it is not recommended to use the simplified or modified customized system . If you freeze some key system apps , please use it with caution.\u003c/h4\u003e\n\u003ch2\u003eMethod of use\u003c/h2\u003e\n\u003cp\u003e\u003cdel\u003e1. Confirm that the version of “Xiaomi service framework” in the application list is 5.3.1 and above. (please try the lower version by yourself, and it is not guaranteed that it can be used normally)\u003c/del\u003e\u003c/p\u003e\n\u003col start=\"2\"\u003e\n\u003cli\u003e\n\u003cp\u003eScope check: system framework and Xiaomi service framework. （com.xiaomi.xmsf）\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eTo modify the system framework, you need to restart the mobile phone, modify the Xiaomi service framework separately and stop its operation.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n",
       "icon": "com.vivian8421.mipushEnhance.png",
-      "lastUpdated": 1636002297000,
+      "lastUpdated": 1732159506000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -9314,14 +9314,14 @@
       "summary": "画涯漫画去广告"
     },
     {
-      "added": 1665976711000,
+      "added": 1732159555000,
       "authorName": "KyuubiRan",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e瘦身模块(QQCleaner)\u003c/h1\u003e\n\u003cp\u003e本模块不会删除消息记录以及接收的文件 只会清理堆积在那里的图片、视频、广告等缓存\u003c/p\u003e\n\u003cp\u003e现已支持QQ/TIM/微信(1.4.0+)\u003c/p\u003e\n\u003cp\u003e注:本模块完全免费且开源，一切开发旨在学习，请勿用于非法用途。\u003c/p\u003e\n\u003cp\u003eQQ群:827356240  Telegram:\u003ca href=\"https://t.me/QQCleaner\"\u003e点我前往\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e项目地址:\u003ca href=\"https://github.com/KyuubiRan/QQCleaner\"\u003e点我前往\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e1.勾上模块\u003c/p\u003e\n\u003cp\u003e2.重启QQ/TIM/微信\u003c/p\u003e\n\u003cp\u003e3.设置-\u0026gt;关于-\u0026gt;QQ/TIM/微信瘦身\u003c/p\u003e\n\u003ch2\u003e支持操作\u003c/h2\u003e\n\u003cp\u003e1.普通瘦身(日常聊天产生的垃圾清理)\u003c/p\u003e\n\u003cp\u003e2.完全瘦身(尽可能的清理缓存 最大限度腾出空间)\u003c/p\u003e\n\u003cp\u003e3.自定义瘦身(手动选择清理部分缓存)\u003c/p\u003e\n\u003cp\u003e4.定时瘦身(自动执行瘦身操作)\u003c/p\u003e\n",
       "icon": "me.kyuubiran.qqcleaner.png",
-      "lastUpdated": 1665976711000,
+      "lastUpdated": 1732159555000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -9379,13 +9379,13 @@
       "summary": "皮皮搞笑辅助模块\n目前有以下功能:\n1. 去水印\n2. 去广告\n3. 去语音房\n4. 等待你的建议..."
     },
     {
-      "added": 1652878257000,
+      "added": 1732159405000,
       "authorName": "killall-love",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003e皮皮虾Share\u003c/h1\u003e\n\u003cblockquote\u003e\n\u003cp\u003e移除微信，QQ对短视频的限制\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e本插件仅自用分享\u003c/h2\u003e\n\u003cp\u003e可以在【微信，QQ】打开 [皮皮虾 , 抖音] 分享的地址并跳转到应用\u003c/p\u003e\n\u003cp\u003eMIUI13 双排状态栏 （根据小米10s 小米11U 左挖孔设备开发）\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e开发初衷\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cpre\u003e\u003ccode\u003e有的时候经常忘记打卡（就很烦）\n\n所以就想在状态栏加了一行文字 提醒下自己\n\n由于一直在用以下三位大佬的插件（也不好意思找作者定制）\n\n当前插件可能完美结合以下三位大佬的App( 因为我也在用他们的模块 所以在开发中也在尽力适配他们模块的 位置 特点 )\n\u003c/code\u003e\u003c/pre\u003e\n\u003cblockquote\u003e\n\u003cp\u003e使用教程\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cpre\u003e\u003ccode\u003e长按状态栏的星星 有惊喜\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e乌龟大佬 WooBox for MIUI插件（状态栏布局默认）\u003c/p\u003e\n\u003cp\u003e和风大佬 Chimi 插件\u003c/p\u003e\n\u003cp\u003e墨.状态栏歌词\u003c/p\u003e\n",
-      "lastUpdated": 1652878257000,
+      "lastUpdated": 1732159405000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -9529,14 +9529,14 @@
       "summary": "An Xposed module that would halt APPs in your Zen time 😪"
     },
     {
-      "added": 1624553941000,
+      "added": 1732159569000,
       "authorName": "yyds0722",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003e蚂蚁森林快速收取能量\u003c/p\u003e\n",
       "icon": "pansong291.xposed.quickenergy.qiufeng.png",
-      "lastUpdated": 1624553941000,
+      "lastUpdated": 1732159569000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -10523,7 +10523,7 @@
     ],
     "android.xiaolan.ppxshare.tools": [
       {
-        "added": 1652878257000,
+        "added": 1732159405000,
         "apkName": "android.xiaolan.ppxshare.tools_5-1.4.apk",
         "hash": "15109ed660b61576529d2768c1af77d539a0ea8724b97ed6c0c33da225f175db",
         "hashType": "sha256",
@@ -11127,7 +11127,7 @@
     ],
     "cn.fyyr.noguardpls": [
       {
-        "added": 1692171826000,
+        "added": 1732159416000,
         "apkName": "cn.fyyr.noguardpls_2-1.0.1.apk",
         "hash": "c82e0c0944d95d31596185fe22ba28621829c04c4ec8b7181d77bf81af7014fd",
         "hashType": "sha256",
@@ -11161,7 +11161,7 @@
     ],
     "cn.jackuxl.boarddeephook": [
       {
-        "added": 1656139552000,
+        "added": 1732159416000,
         "apkName": "cn.jackuxl.boarddeephook_1-1.0.apk",
         "hash": "b2ab95f3663f198ce10cf9848820842e152579c470aa94b529ff53e7fd69b815",
         "hashType": "sha256",
@@ -11262,7 +11262,7 @@
     ],
     "cn.lovesykun.miui_force_fps": [
       {
-        "added": 1624554912000,
+        "added": 1732159418000,
         "apkName": "cn.lovesykun.miui_force_fps_1-1.0.apk",
         "hash": "be5f88b9b8993d618bb2c3b0191b2c30185e3fa02f74fe47e8c01ed59a38de35",
         "hashType": "sha256",
@@ -11531,7 +11531,7 @@
     ],
     "cn.yhfcn.samsung_clockfix": [
       {
-        "added": 1653635373000,
+        "added": 1732159423000,
         "apkName": "cn.yhfcn.samsung_clockfix_2-1.0.1_c12.1.17.0.apk",
         "hash": "107293f4b47632855c8a897e308e76ed1837e49f3bb2439894c44f073c03b9f2",
         "hashType": "sha256",
@@ -11675,7 +11675,7 @@
     ],
     "com.alex193a.ivdisabler": [
       {
-        "added": 1624555034000,
+        "added": 1732159425000,
         "apkName": "com.alex193a.ivdisabler_1-1.0.apk",
         "hash": "be63bb33e7e70ad8874dcfcf75ca94e0ae2fa31437ec04be84ba787976c5d637",
         "hashType": "sha256",
@@ -11794,7 +11794,7 @@
     ],
     "com.alex193a.xdowngrader": [
       {
-        "added": 1661516667000,
+        "added": 1732159427000,
         "apkName": "com.alex193a.xdowngrader_2-1.1.apk",
         "hash": "68ec70b8c59f8325d292a1c16096484b24f9d5aa2c5bad53b172a703940c1da1",
         "hashType": "sha256",
@@ -12144,7 +12144,7 @@
     ],
     "com.bit747.smobajump": [
       {
-        "added": 1624560738000,
+        "added": 1732159433000,
         "apkName": "com.bit747.smobajump_3-1.2_DisableUpdate.apk",
         "hash": "9ffddc02113a735c56b54107bf93226b0f4abce231a41fdcb00a64c64976969b",
         "hashType": "sha256",
@@ -12372,7 +12372,7 @@
     ],
     "com.chacha.matrixrain": [
       {
-        "added": 1661386735000,
+        "added": 1732159440000,
         "apkName": "com.chacha.matrixrain_v1.3.4.apk",
         "hash": "765d27b876a54b759da98e170b1315c496afaa365bee300d8be2535dd426c034",
         "hashType": "sha256",
@@ -12389,7 +12389,7 @@
     ],
     "com.chacha.notigif": [
       {
-        "added": 1636489099000,
+        "added": 1732159440000,
         "apkName": "com.chacha.notigif_1-1.7.apk",
         "hash": "03194f72d87c83c9079e2867cc823e6a414033d754d129e0c04876eda2094935",
         "hashType": "sha256",
@@ -12411,7 +12411,7 @@
     ],
     "com.chacha.samsungmusiccustomiser": [
       {
-        "added": 1624562316000,
+        "added": 1732159441000,
         "apkName": "com.chacha.samsungmusiccustomiser_1-1.18.apk",
         "hash": "f1b6849042ec1b4dba3634f6407bba6f32209c2aa685d36efb33b074fba9d572",
         "hashType": "sha256",
@@ -12428,7 +12428,7 @@
     ],
     "com.chacha.smessagescustom": [
       {
-        "added": 1624562559000,
+        "added": 1732159441000,
         "apkName": "com.chacha.smessagescustom_1-1.5.1.apk",
         "hash": "0be9bf6fe562fd12069181ff815ad7ab84f2108b98ace04ae6d1a5024df9a995",
         "hashType": "sha256",
@@ -12794,7 +12794,7 @@
     ],
     "com.dualguard": [
       {
-        "added": 1639227741000,
+        "added": 1732159448000,
         "apkName": "com.dualguard_52-1.2.apk",
         "hash": "2feaaf06aa88d58a75f64ad4663b418eb60c77c0b51da2c9cf0b298a8d31c573",
         "hashType": "sha256",
@@ -12828,7 +12828,7 @@
     ],
     "com.ext.star.wars": [
       {
-        "added": 1624552119000,
+        "added": 1732159449000,
         "apkName": "com.ext.star.wars_308080-3.8.80.apk",
         "hash": "b8d43d467624a1350db4bcf621ef229216baaad0a3b1f6bea48966f5cc3e45d3",
         "hashType": "sha256",
@@ -15007,7 +15007,7 @@
     ],
     "com.oosl.colorostool": [
       {
-        "added": 1651917035000,
+        "added": 1732159487000,
         "apkName": "com.oosl.colorostool_31-1.9.9.9.apk",
         "hash": "4259372d38c249aee3028a70346f65569e7570240c323c71078aa5ce8a509135",
         "hashType": "sha256",
@@ -15756,7 +15756,7 @@
     ],
     "com.strawing.alwaysthemedicon": [
       {
-        "added": 1657671028000,
+        "added": 1732159498000,
         "apkName": "com.strawing.alwaysthemedicon_2-1.1.apk",
         "hash": "7e43f7ee553958109cf4a5657e635f7761d2989b2f27697949cbc795e7ff335d",
         "hashType": "sha256",
@@ -16221,7 +16221,7 @@
     ],
     "com.vivian8421.mipushEnhance": [
       {
-        "added": 1636002297000,
+        "added": 1732159506000,
         "apkName": "com.vivian8421.mipushenhance_2-2.0.1.apk",
         "hash": "7035aec161304d1d7135c244e13f09a32da03d55f116d8a43d5bb7612454d8c4",
         "hashType": "sha256",
@@ -16404,7 +16404,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1741317988000,
+        "added": 1741402887000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -16607,7 +16607,7 @@
     ],
     "com.yifeplayte.miuipadesc": [
       {
-        "added": 1654535671000,
+        "added": 1732159511000,
         "apkName": "com.yifeplayte.miuipadesc_2-1.1.apk",
         "hash": "9adac057fab72c39305e6855182c14942caa9b28f6d50fc59cf67a906f5bc4e9",
         "hashType": "sha256",
@@ -18580,7 +18580,7 @@
     ],
     "io.github.tehcneko.applinkverify": [
       {
-        "added": 1643104949000,
+        "added": 1732159541000,
         "apkName": "io.github.tehcneko.applinkverify_1-1.0.0.apk",
         "hash": "0c7027cbd4a5bca96af25dd29a3256b62b230bfe96f423a763c4d780001056c2",
         "hashType": "sha256",
@@ -19669,7 +19669,7 @@
     ],
     "me.hoshino.novpndetect": [
       {
-        "added": 1654586746000,
+        "added": 1732159554000,
         "apkName": "me.hoshino.novpndetect_2-1.1.apk",
         "hash": "fd7754b07df55d4dec802459b31137e30232090a23f5b577f884f73e32c1b058",
         "hashType": "sha256",
@@ -19762,7 +19762,7 @@
     ],
     "me.kyuubiran.qqcleaner": [
       {
-        "added": 1665976711000,
+        "added": 1732159555000,
         "apkName": "me.kyuubiran.qqcleaner_71-2.0.1.apk",
         "hash": "2eb473dcba3d1d684266f7a11d0aee64a084be91f7df7751da987d4c0cf15f21",
         "hashType": "sha256",
@@ -20035,7 +20035,7 @@
     ],
     "moe.henry_zhr.kill_domain_verification": [
       {
-        "added": 1663386314000,
+        "added": 1732159562000,
         "apkName": "moe.henry_zhr.kill_domain_verification_4-4.apk",
         "hash": "52b5a1ccbb5c10f5e477a0a96da1c98ff6b4ad78e65fef655c3bbdbfcbdbaf1e",
         "hashType": "sha256",
@@ -20446,7 +20446,7 @@
     ],
     "pansong291.xposed.quickenergy.qiufeng": [
       {
-        "added": 1624553941000,
+        "added": 1732159569000,
         "apkName": "pansong291.xposed.quickenergy.qiufeng_202103060-2.5.6.apk",
         "hash": "e286455b9373fd06c9909c11221cf0857c733957f9ead9fb36380de4b3c293f1",
         "hashType": "sha256",
@@ -20922,7 +20922,7 @@
     ],
     "ru.mike.customiuizer125plugin": [
       {
-        "added": 1634916883000,
+        "added": 1732159576000,
         "apkName": "ru.mike.customiuizer125plugin_3-1.0.2.apk",
         "hash": "ab9cc5f7bbb5a30fccaf483a7d1976475296f05d4bb20d13d0cbd100372298dd",
         "hashType": "sha256",
@@ -21810,7 +21810,7 @@
     ],
     "xyz.ccat3z.nodisplaycutout": [
       {
-        "added": 1636874210000,
+        "added": 1732159596000,
         "apkName": "xyz.ccat3z.nodisplaycutout_1-1.0.apk",
         "hash": "acedf940e8c094c1421fb7b7ed772fd31ba9b7f9fac3c8fd9a22dd5ce76bab64",
         "hashType": "sha256",
