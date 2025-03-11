@@ -1,8 +1,8 @@
 AuthorName: Szymou
 Categories:
     - Xposed
-CurrentVersion: 1.4.5
-CurrentVersionCode: 240
+CurrentVersion: 1.4.6
+CurrentVersionCode: 270
 Description: |
     <div align="center">
     <img src="logo/logo2.png" width="10%" />
@@ -14,7 +14,7 @@ Description: |
     <p>✨<strong>一个集成了各种好玩功能的Xposed模块</strong> ✨</p>
     <ol>
     <li><strong>自动回复：支持多种AI语言大模型，如DeepSeek、Qwen、Silicon等；</strong></li>
-    <li><strong>订阅功能：定时08:30am，推送每日新闻、毒鸡汤、每日天气等你想到的功能；</strong></li>
+    <li><strong>订阅功能：定时09:30am，推送每日新闻、毒鸡汤、每日天气等你想到的功能；</strong></li>
     <li><strong>接口功能： 通过访问api，执行宿主APP的消息函数，用于运维告警、数据推送等场景；</strong></li>
     <li><strong>各种新功能，待挖掘…</strong></li>
     </ol>
@@ -22,9 +22,9 @@ Description: |
     <h1>GodHook / 神引</h1>
     <h2>适配的版本</h2>
     <blockquote>
-    <p>当前已适配<strong>谷歌版：wx8.0.49(2681)、wx8.0.49(2685)、wx8.0.48(2589)</strong>，后续适配wx更多版本。
-    网友收集的各APP版本，移步自行找到对应版本：<a href="https://www.123pan.com/s/A6cA-ztAJh">网盘链接</a> <code>2025-02-23 17:45:34 更新</code>
-    <a href="https://www.123pan.cn/s/WGIDVv-UWI13.html">8.0.48用这个</a></p>
+    <p>当前已适配<strong>谷歌版：wx8.0.49(2681)、wx8.0.49(2685)、wx8.0.48(2589)、wx8.0.48(2588)</strong>，后续适配wx更多play版本。
+    网友收集的各APP版本，移步自行找到对应版本：<a href="https://www.123pan.com/s/A6cA-ztAJh">网盘链接</a><code>2025-02-23 17:45:34 更新</code>
+    <a href="https://www.123pan.cn/s/WGIDVv-UWI13.html">8.0.48用这个</a>、8.0.48_2588在issue有网友已发，自己找。</p>
     </blockquote>
     <hr />
     <h2>问题收集</h2>
@@ -39,6 +39,17 @@ Description: |
     <li>#指令可以正确返回消息，但是私聊无法返回消息</li>
     </ol>
     <p>答：在当前聊天框发送【#聊天室ID】，查看返回的ID是否为wxid_xxx，如果不是，那就是不支持，后续会优化；因为当前仅支持wxid_xxx的ID，对老号不太友好。</p>
+    <ol start="3">
+    <li>返回提示“api为空”的暂时解决方案：</li>
+    </ol>
+    <pre lang="java"><code>回复指令进行设置（逐个复制，不要一起复制）:
+    #API:https://xxxxxxxxxxxxxx
+    #KEY:sk-xxxxxxxxxxxxxxxxxx
+    #模型:xxxxxxxxxxxxxxxxxxxx
+    #触发:@xxxxx
+    #缓存:10
+    设置成功，重启宿主APP，发送指令【#机器人信息】进行检查。
+    </code></pre>
     </blockquote>
     <h2>免责声明</h2>
     <blockquote>

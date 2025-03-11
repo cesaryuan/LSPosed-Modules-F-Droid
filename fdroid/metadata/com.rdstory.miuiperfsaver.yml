@@ -1,4 +1,4 @@
-AuthorName: test01wrk
+AuthorName: rdtoy
 Categories:
     - Xposed
 CurrentVersion: 1.0.9
@@ -17,14 +17,14 @@ Description: |
     <blockquote>
     <p>“电量与性能” 应用会根据前台应用情况，限制应用的运行帧数。比如王者荣耀等游戏会被限制 60 刷新率，导致游戏最高只能达到 60 帧</p>
     </blockquote>
-    <img src='https://github.com/test01wrk/MIUIPerfSaver/blob/master/public/images/refresh_rate.jpg' style='width: 240px;' alt='refresh_rate' />
+    <img src='https://github.com/rdtoy/MIUIPerfSaver/blob/master/public/images/refresh_rate.jpg' style='width: 240px;' alt='refresh_rate' />
     </li>
     <li>
     <p>屏蔽或修改 MIUI 系统 “Joyose” 应用的云控性能限制，屏蔽其广告和跟踪请求</p>
     <blockquote>
     <p>“Joyose” 应用会拉取云控规则，调整应用的性能。比如在手机温度较高时降低游戏帧数</p>
     </blockquote>
-    <img src='https://github.com/test01wrk/MIUIPerfSaver/blob/master/public/images/joyose.jpg' style='width: 240px;' alt='joyose' />
+    <img src='https://github.com/rdtoy/MIUIPerfSaver/blob/master/public/images/joyose.jpg' style='width: 240px;' alt='joyose' />
     </li>
     </ul>
     <h2>使用方式</h2>
@@ -44,7 +44,7 @@ Description: |
     </li>
     </ol>
     <h2>反馈 bug</h2>
-    <p>请在 <a href="https://github.com/test01wrk/MIUIPerfSaver/issues">https://github.com/test01wrk/MIUIPerfSaver/issues</a> 创建 issue，并提供 LSPosed 管理器中的详细日志</p>
+    <p>请在 <a href="https://github.com/rdtoy/MIUIPerfSaver/issues">https://github.com/rdtoy/MIUIPerfSaver/issues</a> 创建 issue，并提供 LSPosed 管理器中的详细日志</p>
     <h2>感谢</h2>
     <p>应用列表界面的 UI 和基础逻辑，改自 <a href="https://github.com/Palatis/XAppDebug">XAppDebug</a> 项目</p>
     <h2>已知问题</h2>
