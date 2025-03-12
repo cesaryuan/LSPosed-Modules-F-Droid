@@ -1,0 +1,85 @@
+# v15.2.418.d8db506(418)
+
+- ​**应用**
+  - 添加 应用-启用模糊
+  - 添加 应用-启用渐变模糊
+  - 增加 应用-用户相关信息收集
+  - 添加 应用-关于-编译类型标签显示
+- ​**游戏助手**
+  - 添加 游戏助手-启用超神一键连招
+  - 添加 游戏助手-王者荣耀-开启AI大神辅助V1/V2/V3
+  - 添加 游戏助手-王者荣耀-移除AI大神辅助包名限制
+  - 添加 游戏助手-移除功能云控
+  - 添加 游戏助手-移除包名限制
+  - 添加 游戏助手-启用全部特性
+  - 添加 游戏助手-和平精英-开启AI大神辅助
+- ​**电池**
+  - 增加 电池-自启动最大数量
+- ​**系统界面**
+  - 修复 系统界面-状态栏时钟 (Commit #5)
+  - 优化 系统界面-全天候息屏
+  - 修复/优化 系统界面-状态指示器-温度指示器
+  - 优化 系统界面-状态指示器-功耗指示器
+- ​**Android 系统**
+  - 增加 Android系统-分屏与小窗
+  - 增加 Android系统-分屏与小窗-浮动窗口-移除开启全部小窗限制
+  - 增加 Android系统-分屏与小窗-浮动窗口-强制启动多窗口模式
+  - 增加 Android系统-分屏与小窗-浮动窗口-最大同时开启小窗数量
+  - 增加 Android系统-分屏与小窗-浮动窗口-小窗圆角半径
+  - 增加 Android系统-分屏与小窗-浮动窗口-小窗获取焦点时阴影
+  - 增加 Android系统-分屏与小窗-浮动窗口-小窗未获取焦点时阴影
+- ​**其他**
+  - 修复 应用-最近添加-分割线
+  - 添加 设置-自定义显示型号
+  - 添加 设置-其他设置提示
+  - 添加 钱包-移除刷卡页面广告
+  - 优化 系统界面-全天候息屏
+  - 添加 设置-开启自定义OTA卡片背景
+  - 添加 设置-选择背景图片
+  - 添加 设置-图片圆角大小
+
+- ​**Apps**
+  - Added Apps-Enable Blur
+  - Added Apps-Enable Gradient Blur
+  - Added Apps-User-Related Data Collection
+  - Added Apps-About-Compilation Type Label Display
+- ​**Game Assistant**
+  - Added Game Assistant-Enable Godlike Combo
+  - Added Game Assistant-Honor of Kings-Enable AI Master Assistant V1/V2/V3
+  - Added Game Assistant-Honor of Kings-Remove AI Master Assistant Package Restrictions
+  - Added Game Assistant-Remove Feature Cloud Control
+  - Added Game Assistant-Remove Package Name Restrictions
+  - Added Game Assistant-Enable All Features
+  - Added Game Assistant-Peacekeeper Elite-Enable AI Master Assistant
+- ​**Battery**
+  - Added Battery-Max Self-Startup Limit
+- ​**System UI**
+  - Fixed System UI-Status Bar Clock (Commit #5)
+  - Optimized System UI-Always-On Display
+  - Fixed/Optimized System UI-Status Indicator-Temperature Indicator
+  - Optimized System UI-Status Indicator-Power Consumption Indicator
+- ​**Android System**
+  - Added Android System-Split Screen & Floating Windows
+  - Added Android System-Split Screen & Floating Windows-Remove All Floating Window Restrictions
+  - Added Android System-Split Screen & Floating Windows-Force Multi-Window Mode
+  - Added Android System-Split Screen & Floating Windows-Max Concurrent Floating Windows
+  - Added Android System-Split Screen & Floating Windows-Floating Window Corner Radius
+  - Added Android System-Split Screen & Floating Windows-Floating Window Focus Shadow
+  - Added Android System-Split Screen & Floating Windows-Floating Window Unfocused Shadow
+- ​**Others**
+  - Fixed Apps-Recently Added-Divider Line
+  - Added Settings-Custom Device Model Display
+  - Added Settings-Additional Setup Tips
+  - Added Wallet-Remove Payment Page Ads
+  - Optimized System UI-Always-On Display
+  - Added Settings-Enable Custom OTA Card Background
+  - Added Settings-Select Background Image
+  - Added Settings-Image Corner Radius
+
+### 另外，最近在尝试切换到frida驱动，如果你有兴趣，欢迎与我一起开发！[OShin firda](https://github.com/suqi8/OShin/tree/frida)
+### Additionally, I'm currently transitioning to a **Frida** development approach. If you're interested, feel free to collaborate on the **[OShin frida](https://github.com/suqi8/OShin/tree/frida)** project!
+
+## What's Changed
+* chore(master): release 15.1.0 by @suqi8 in https://github.com/suqi8/OShin/pull/3
+
+**Full Changelog**: https://github.com/suqi8/OShin/compare/v15.1.389.2ab5828(389)...v15.2.418.d8db506(418)

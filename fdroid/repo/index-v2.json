@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1741663809000,
+    "timestamp": 1741750220000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2861,7 +2861,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663476000,
+        "lastUpdated": 1741749841000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -4515,7 +4515,7 @@
           "en-US": "Catsmoker unlocks higher FPS in games by spoofing your device model and displ..."
         },
         "description": {
-          "en-US": "<h1>Catsmoker App</h1>\n<p>Catsmoker is a simple Android app that displays a web page using a <code>WebView</code> component. The web page shown is hosted at <a href=\"https://catsmoker.github.io\">catsmoker.github.io</a>. It also serves as a utility aimed at unlocking higher FPS in games by spoofing your device as a different model for specific games.</p>\n<p>For more information, visit the <a href=\"https://github.com/catsmoker/com.app.catsmoker\">GitHub repository</a>.</p>\n<h2>Features</h2>\n<ul>\n<li>Spoof device information for improved gaming performance in supported games.</li>\n<li>Compatible with a wide variety of popular gaming apps.</li>\n<li>Simple installation with no configuration needed.</li>\n<li>Displays a web page within the app.</li>\n</ul>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#getting-started\">Getting Started</a></li>\n<li><a href=\"#usage\">Usage</a></li>\n<li><a href=\"#supported-games\">Supported Games</a></li>\n<li><a href=\"#license\">License</a></li>\n<li><a href=\"#contributing\">Contributing</a></li>\n</ul>\n<h2>Getting Started</h2>\n<h3>Prerequisites</h3>\n<ul>\n<li>Ensure that your Android device is rooted.</li>\n<li>Install the <a href=\"https://github.com/ElderDrivers/EdXposed\">Xposed</a> or <a href=\"https://github.com/LSPosed/LSPosed\">Lsposed</a> framework on your device.</li>\n</ul>\n<h3>Installation</h3>\n<ol>\n<li>\n<p><strong>Download the Module</strong></p>\n<ul>\n<li>Download the <code>catsmoker</code> module from the releases section of the repository.</li>\n</ul>\n</li>\n<li>\n<p><strong>Install the APK</strong></p>\n<ul>\n<li>Open <a href=\"https://github.com/ElderDrivers/EdXposed\">Xposed</a> or <a href=\"https://github.com/LSPosed/LSPosed\">Lsposed</a> Manager.</li>\n<li>Go to the <code>Modules</code> section.</li>\n<li>Search for <code>catsmoker</code> and enable the module.</li>\n<li>The supported games are automatically added to the scope.</li>\n<li>Force stop the added game manually to take effect.</li>\n</ul>\n</li>\n</ol>\n<h2>Usage</h2>\n<p>Once you’ve installed and activated the Catsmoker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.</p>\n<p>You can untick the games you don’t want to spoof in the module scope. Force stop and relaunch are required.</p>\n<p><strong>Note:</strong> Device spoofing may violate the terms of service for some games or apps.</p>\n<h2>Supported Games</h2>\n<ul>\n<li><strong>Activision Games</strong>\n<ul>\n<li><code>com.activision.callofduty.shooter</code></li>\n<li><code>com.activision.callofduty.warzone</code></li>\n<li><code>com.garena.game.codm</code></li>\n<li><code>com.tencent.tmgp.kr.codm</code></li>\n<li><code>com.vng.codmvn</code></li>\n<li><code>com.tencent.tmgp.cod</code></li>\n</ul>\n</li>\n<li><strong>Tencent Games</strong>\n<ul>\n<li><code>com.tencent.ig</code></li>\n<li><code>com.pubg.imobile</code></li>\n<li><code>com.pubg.krmobile</code></li>\n<li><code>com.rekoo.pubgm</code></li>\n<li><code>com.vng.pubgmobile</code></li>\n<li><code>com.tencent.tmgp.pubgmhd</code></li>\n</ul>\n</li>\n<li><strong>Garena Games</strong>\n<ul>\n<li><code>com.dts.freefiremax</code></li>\n<li><code>com.dts.freefireth</code></li>\n</ul>\n</li>\n<li><strong>Epic Games</strong>\n<ul>\n<li><code>com.epicgames.fortnite</code></li>\n</ul>\n</li>\n</ul>\n<h2>License</h2>\n<p>This project is licensed under the MIT License - see the <a href=\"LICENSE\">LICENSE</a> file for details.</p>\n<h2>Contributing</h2>\n<p>Contributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.</p>\n"
+          "en-US": "<h1>Catsmoker App</h1>\n<p>For information, visit the <a href=\"https://github.com/catsmoker/com.app.catsmoker\">GitHub repository</a>.</p>\n<h2>License</h2>\n<p>This project is licensed under the MIT License - see the <a href=\"LICENSE\">LICENSE</a> file for details.</p>\n<h2>Contributing</h2>\n<p>Contributions are welcome! Please open an issue or submit a pull request for any bugs, improvements, or new features.</p>\n"
         },
         "icon": {
           "en-US": {
@@ -15751,7 +15751,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740712986000,
+        "lastUpdated": 1741749924000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suqi8.oshin",
         "authorName": "suqi8",
         "name": {
@@ -15766,6 +15766,80 @@
         "preferredSigner": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5"
       },
       "versions": {
+        "41c542f83fdd5fd55a3961e12052653064dd32431823f5cef687f2ba267a5332": {
+          "added": 1741749924000,
+          "file": {
+            "name": "/com.suqi8.oshin_418-15.2.418.d8db506.apk",
+            "sha256": "41c542f83fdd5fd55a3961e12052653064dd32431823f5cef687f2ba267a5332",
+            "size": 7300353
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "15.2.418.d8db506",
+            "versionCode": 418,
+            "usesSdk": {
+              "minSdkVersion": 35,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.REQUEST_INSTALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.DETECT_SCREEN_CAPTURE"
+              },
+              {
+                "name": "android.permission.WRITE_SETTINGS"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "com.suqi8.oshin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "082127522948d5ae6a13d92e16b49e8075c038514403768b562db5b5f5c22188": {
           "added": 1740712986000,
           "file": {
@@ -17320,7 +17394,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663567000,
+        "lastUpdated": 1741749933000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -25674,7 +25748,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663619000,
+        "lastUpdated": 1741749985000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -25842,7 +25916,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663621000,
+        "lastUpdated": 1741749987000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
