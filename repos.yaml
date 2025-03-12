@@ -3808,86 +3808,7 @@ com.app.catsmoker:
             - Xposed
           description: |
             <h1>Catsmoker App</h1>
-            <p>Catsmoker is a simple Android app that displays a web page using a <code>WebView</code> component. The web page shown is hosted at <a href="https://catsmoker.github.io">catsmoker.github.io</a>. It also serves as a utility aimed at unlocking higher FPS in games by spoofing your device as a different model for specific games.</p>
-            <p>For more information, visit the <a href="https://github.com/catsmoker/com.app.catsmoker">GitHub repository</a>.</p>
-            <h2>Features</h2>
-            <ul>
-            <li>Spoof device information for improved gaming performance in supported games.</li>
-            <li>Compatible with a wide variety of popular gaming apps.</li>
-            <li>Simple installation with no configuration needed.</li>
-            <li>Displays a web page within the app.</li>
-            </ul>
-            <h2>Table of Contents</h2>
-            <ul>
-            <li><a href="#getting-started">Getting Started</a></li>
-            <li><a href="#usage">Usage</a></li>
-            <li><a href="#supported-games">Supported Games</a></li>
-            <li><a href="#license">License</a></li>
-            <li><a href="#contributing">Contributing</a></li>
-            </ul>
-            <h2>Getting Started</h2>
-            <h3>Prerequisites</h3>
-            <ul>
-            <li>Ensure that your Android device is rooted.</li>
-            <li>Install the <a href="https://github.com/ElderDrivers/EdXposed">Xposed</a> or <a href="https://github.com/LSPosed/LSPosed">Lsposed</a> framework on your device.</li>
-            </ul>
-            <h3>Installation</h3>
-            <ol>
-            <li>
-            <p><strong>Download the Module</strong></p>
-            <ul>
-            <li>Download the <code>catsmoker</code> module from the releases section of the repository.</li>
-            </ul>
-            </li>
-            <li>
-            <p><strong>Install the APK</strong></p>
-            <ul>
-            <li>Open <a href="https://github.com/ElderDrivers/EdXposed">Xposed</a> or <a href="https://github.com/LSPosed/LSPosed">Lsposed</a> Manager.</li>
-            <li>Go to the <code>Modules</code> section.</li>
-            <li>Search for <code>catsmoker</code> and enable the module.</li>
-            <li>The supported games are automatically added to the scope.</li>
-            <li>Force stop the added game manually to take effect.</li>
-            </ul>
-            </li>
-            </ol>
-            <h2>Usage</h2>
-            <p>Once you’ve installed and activated the Catsmoker module, it will automatically spoof your device information for supported gaming applications. There’s no additional configuration required. Simply force stop and open the games you want to play, and enjoy the benefits of device spoofing.</p>
-            <p>You can untick the games you don’t want to spoof in the module scope. Force stop and relaunch are required.</p>
-            <p><strong>Note:</strong> Device spoofing may violate the terms of service for some games or apps.</p>
-            <h2>Supported Games</h2>
-            <ul>
-            <li><strong>Activision Games</strong>
-            <ul>
-            <li><code>com.activision.callofduty.shooter</code></li>
-            <li><code>com.activision.callofduty.warzone</code></li>
-            <li><code>com.garena.game.codm</code></li>
-            <li><code>com.tencent.tmgp.kr.codm</code></li>
-            <li><code>com.vng.codmvn</code></li>
-            <li><code>com.tencent.tmgp.cod</code></li>
-            </ul>
-            </li>
-            <li><strong>Tencent Games</strong>
-            <ul>
-            <li><code>com.tencent.ig</code></li>
-            <li><code>com.pubg.imobile</code></li>
-            <li><code>com.pubg.krmobile</code></li>
-            <li><code>com.rekoo.pubgm</code></li>
-            <li><code>com.vng.pubgmobile</code></li>
-            <li><code>com.tencent.tmgp.pubgmhd</code></li>
-            </ul>
-            </li>
-            <li><strong>Garena Games</strong>
-            <ul>
-            <li><code>com.dts.freefiremax</code></li>
-            <li><code>com.dts.freefireth</code></li>
-            </ul>
-            </li>
-            <li><strong>Epic Games</strong>
-            <ul>
-            <li><code>com.epicgames.fortnite</code></li>
-            </ul>
-            </li>
-            </ul>
+            <p>For information, visit the <a href="https://github.com/catsmoker/com.app.catsmoker">GitHub repository</a>.</p>
             <h2>License</h2>
             <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
             <h2>Contributing</h2>
@@ -11827,30 +11748,143 @@ com.suqi8.oshin:
             </a>
             <p><img src="https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg" alt="Alt" title="Repobeats analytics image" /></p>
             <p><a href="https://star-history.com/#suqi8/OPatch&amp;Date"><img src="https://api.star-history.com/svg?repos=suqi8/OPatch&amp;type=Date" alt="Star History Chart" /></a></p>
-          filename: OShin_all_v15.1.389.2ab5828.389.apk
+          filename: OShin_all_v15.2.418.d8db506.418.apk
           id: com.suqi8.oshin
           name: O神/OShin
-          last_updated: "2025-02-27T10:17:14Z"
+          last_updated: "2025-03-11T08:25:26Z"
           releasedescription: |-
-            <h1><strong>OShin/O神 v15.1.389.2ab5828(389)</strong></h1>
-            <p>添加 推荐功能，最近更新卡片至主页<br>
-            添加 强制启用小布助手<br>
-            添加 关闭低电量流体云<br>
-            添加 移除通知勿扰通知<br>
-            添加 隐藏启动器图标功能<br>
-            修复 功耗指示器的自定义字体大小<br>
-            修复 滑块进度更改的小数点<br>
-            添加 移除开发者选项通知<br>
-            升级 Kotlin 至 2.1.10 并更新依赖项<br>
-            修改 Android Studio项目昵称<br>
-            优化 页面性能与逻辑<br>
-            修改 版本号逻辑<br>
-            重写 主页卡片，优化性能<br>
-            更改 xposed_init入口<br>
-            优化 Gradle 缓存策略<br>
-            更新 版本号<br>
-            移除 Herobrine</p>
-            <p><strong>全部更新日志</strong>: <a class="commit-link" href="https://github.com/suqi8/OShin/compare/v15.0.0.b363.9432e7a(363)...v15.1.389.2ab5828(389)">suqi8/OShin@<tt>v15.0.0.b363.9432e7a(363)...v15.1.389.2ab5828(389)</tt></a></p>
+            <h1>v15.2.418.d8db506(418)</h1>
+            <ul>
+            <li>
+            <p>​<strong>应用</strong></p>
+            <ul>
+            <li>添加 应用-启用模糊</li>
+            <li>添加 应用-启用渐变模糊</li>
+            <li>增加 应用-用户相关信息收集</li>
+            <li>添加 应用-关于-编译类型标签显示</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>游戏助手</strong></p>
+            <ul>
+            <li>添加 游戏助手-启用超神一键连招</li>
+            <li>添加 游戏助手-王者荣耀-开启AI大神辅助V1/V2/V3</li>
+            <li>添加 游戏助手-王者荣耀-移除AI大神辅助包名限制</li>
+            <li>添加 游戏助手-移除功能云控</li>
+            <li>添加 游戏助手-移除包名限制</li>
+            <li>添加 游戏助手-启用全部特性</li>
+            <li>添加 游戏助手-和平精英-开启AI大神辅助</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>电池</strong></p>
+            <ul>
+            <li>增加 电池-自启动最大数量</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>系统界面</strong></p>
+            <ul>
+            <li>修复 系统界面-状态栏时钟 (Commit #5)</li>
+            <li>优化 系统界面-全天候息屏</li>
+            <li>修复/优化 系统界面-状态指示器-温度指示器</li>
+            <li>优化 系统界面-状态指示器-功耗指示器</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Android 系统</strong></p>
+            <ul>
+            <li>增加 Android系统-分屏与小窗</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-移除开启全部小窗限制</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-强制启动多窗口模式</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-最大同时开启小窗数量</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-小窗圆角半径</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-小窗获取焦点时阴影</li>
+            <li>增加 Android系统-分屏与小窗-浮动窗口-小窗未获取焦点时阴影</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>其他</strong></p>
+            <ul>
+            <li>修复 应用-最近添加-分割线</li>
+            <li>添加 设置-自定义显示型号</li>
+            <li>添加 设置-其他设置提示</li>
+            <li>添加 钱包-移除刷卡页面广告</li>
+            <li>优化 系统界面-全天候息屏</li>
+            <li>添加 设置-开启自定义OTA卡片背景</li>
+            <li>添加 设置-选择背景图片</li>
+            <li>添加 设置-图片圆角大小</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Apps</strong></p>
+            <ul>
+            <li>Added Apps-Enable Blur</li>
+            <li>Added Apps-Enable Gradient Blur</li>
+            <li>Added Apps-User-Related Data Collection</li>
+            <li>Added Apps-About-Compilation Type Label Display</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Game Assistant</strong></p>
+            <ul>
+            <li>Added Game Assistant-Enable Godlike Combo</li>
+            <li>Added Game Assistant-Honor of Kings-Enable AI Master Assistant V1/V2/V3</li>
+            <li>Added Game Assistant-Honor of Kings-Remove AI Master Assistant Package Restrictions</li>
+            <li>Added Game Assistant-Remove Feature Cloud Control</li>
+            <li>Added Game Assistant-Remove Package Name Restrictions</li>
+            <li>Added Game Assistant-Enable All Features</li>
+            <li>Added Game Assistant-Peacekeeper Elite-Enable AI Master Assistant</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Battery</strong></p>
+            <ul>
+            <li>Added Battery-Max Self-Startup Limit</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>System UI</strong></p>
+            <ul>
+            <li>Fixed System UI-Status Bar Clock (Commit #5)</li>
+            <li>Optimized System UI-Always-On Display</li>
+            <li>Fixed/Optimized System UI-Status Indicator-Temperature Indicator</li>
+            <li>Optimized System UI-Status Indicator-Power Consumption Indicator</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Android System</strong></p>
+            <ul>
+            <li>Added Android System-Split Screen &amp; Floating Windows</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Remove All Floating Window Restrictions</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Force Multi-Window Mode</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Max Concurrent Floating Windows</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Floating Window Corner Radius</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Floating Window Focus Shadow</li>
+            <li>Added Android System-Split Screen &amp; Floating Windows-Floating Window Unfocused Shadow</li>
+            </ul>
+            </li>
+            <li>
+            <p>​<strong>Others</strong></p>
+            <ul>
+            <li>Fixed Apps-Recently Added-Divider Line</li>
+            <li>Added Settings-Custom Device Model Display</li>
+            <li>Added Settings-Additional Setup Tips</li>
+            <li>Added Wallet-Remove Payment Page Ads</li>
+            <li>Optimized System UI-Always-On Display</li>
+            <li>Added Settings-Enable Custom OTA Card Background</li>
+            <li>Added Settings-Select Background Image</li>
+            <li>Added Settings-Image Corner Radius</li>
+            </ul>
+            </li>
+            </ul>
+            <h3>另外，最近在尝试切换到frida驱动，如果你有兴趣，欢迎与我一起开发！<a href="https://github.com/suqi8/OShin/tree/frida">OShin firda</a></h3>
+            <h3>Additionally, I'm currently transitioning to a <strong>Frida</strong> development approach. If you're interested, feel free to collaborate on the <strong><a href="https://github.com/suqi8/OShin/tree/frida">OShin frida</a></strong> project!</h3>
+            <h2>What's Changed</h2>
+            <ul>
+            <li>chore(master): release 15.1.0 by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/suqi8/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/suqi8">@suqi8</a> in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2767616310" data-permission-text="Title is private" data-url="https://github.com/suqi8/OShin/issues/3" data-hovercard-type="pull_request" data-hovercard-url="/suqi8/OShin/pull/3/hovercard" href="https://github.com/suqi8/OShin/pull/3">suqi8/OShin#3</a></li>
+            </ul>
+            <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/suqi8/OShin/compare/v15.1.389.2ab5828(389)...v15.2.418.d8db506(418)">suqi8/OShin@<tt>v15.1.389.2ab5828(389)...v15.2.418.d8db506(418)</tt></a></p>
     author_name: suqi8
 com.tcgg.imjhook:
     git: https://github.com/Xposed-Modules-Repo/com.tcgg.imjhook
@@ -18015,18 +18049,17 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.1.3.308.apk
+          filename: WAuxiliary_v1.1.4.311.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-03-08T08:22:18Z"
+          last_updated: "2025-03-11T11:25:32Z"
           releasedescription: |-
             <ul>
-            <li>新增 禁用补丁</li>
-            <li>适配 LSPatch (覆写版本)</li>
-            <li>修复 禁止高亮</li>
-            <li>新增 输入提示</li>
-            <li>优化 模块图标 (卖动提供)</li>
-            <li>修复 系统浏览 (微信链接)</li>
+            <li>新增 拦截朋友圈播放</li>
+            <li>修复 阻止防撤回2(部分类型异常)</li>
+            <li>新增 自定义余额</li>
+            <li>新增 消息时间</li>
+            <li>新增 友盟SDK(统计版本及崩溃)</li>
             <li>优化 部分细节</li>
             <li>修复 已知问题</li>
             </ul>

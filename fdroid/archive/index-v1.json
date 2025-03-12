@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1741663796000,
+    "timestamp": 1741750206000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -359,7 +359,7 @@
       "summary": "Wechat \u8f85\u52a9\u6027\u529f\u80fd\u589e\u5f3a",
       "added": 1739762507000,
       "packageName": "me.hd.wauxv",
-      "lastUpdated": 1741663621000
+      "lastUpdated": 1741749987000
     },
     {
       "authorName": "Yy-ss7",
@@ -3323,6 +3323,46 @@
         ],
         "versionCode": 20250217,
         "versionName": "1.0.0"
+      },
+      {
+        "added": 1741749987000,
+        "apkName": "me.hd.wauxv_311-1.1.4.apk",
+        "hash": "fcb283671108645a0516b8ab80205b079227822e6b6573f4949e3d4317ae9be1",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "me.hd.wauxv",
+        "sig": "2152d9e8edc0d6b901e289c1283f6ee1",
+        "signer": "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45",
+        "size": 3651955,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 311,
+        "versionName": "1.1.4"
       },
       {
         "added": 1741663621000,
