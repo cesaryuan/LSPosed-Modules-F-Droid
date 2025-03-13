@@ -1,0 +1,53 @@
+AuthorName: Retmon403
+Categories:
+    - Xposed
+CurrentVersion: "1.1"
+CurrentVersionCode: 2
+Description: |
+    <h1>Oppo一加主题解锁</h1>
+    <p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip（理论一加OPPO新机型通用）</p>
+    <h2>测试版本</h2>
+    <p>机型：一加ACE5，理论Oppo通用，coloros15.<br />
+    应用商店版本：13.0.0_16a1836_250307</p>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png" alt="图片1" width="35%" />
+      <img src="https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png" alt="图片2" width="35%" />
+    </div>
+    <h3>简介</h3>
+    <p>这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。</p>
+    <h3>功能特性</h3>
+    <ul>
+    <li>解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告</li>
+    <li>支持最新版本的 Oppo 和一加主题商店</li>
+    </ul>
+    <h3>兼容性</h3>
+    <ul>
+    <li>设备：Oppo、一加（ColorOS 系统）</li>
+    <li>系统：Android 15 及以上</li>
+    <li>框架：Xposed 或 LSPosed</li>
+    </ul>
+    <h3>安装方法</h3>
+    <ol>
+    <li>确保已安装 Xposed 或 LSPosed 框架。</li>
+    <li>下载并安装本模块的 APK 文件。</li>
+    <li>在 Xposed 或 LSPosed 中启用模块。</li>
+    <li>重启设备。</li>
+    <li>打开主题商店，享受解锁功能。</li>
+    </ol>
+    <h3>下载</h3>
+    <ul>
+    <li>最新链接：(<a href="https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk">https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk</a>)</li>
+    </ul>
+    <h3>注意事项</h3>
+    <ul>
+    <li>本模块仅用于学习和测试目的，请勿用于商业用途。</li>
+    <li>使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。</li>
+    <li>测试版本可能存在 Bug，欢迎反馈问题。</li>
+    </ul>
+    <h3>开源协议</h3>
+    <p>本项目基于 <a href="https://opensource.org/licenses/MIT">MIT 协议</a> 开源。</p>
+IssueTracker: ""
+Name: Oppo一加主题解锁
+SourceCode: https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme
+Summary: ""
+WebSite: ""

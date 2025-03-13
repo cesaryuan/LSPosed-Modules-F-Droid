@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1741750220000,
+    "timestamp": 1741836979000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2861,7 +2861,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741749841000,
+        "lastUpdated": 1741836503000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -7115,6 +7115,55 @@
                 "6c687633a6081ab8b64f8009baaa29cdec654c0142e1ecda9a219ff55ac16f6d"
               ]
             }
+          }
+        }
+      }
+    },
+    "com.example.oppo_theme": {
+      "metadata": {
+        "added": 1741836621000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1741836621000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme",
+        "authorName": "Retmon403",
+        "name": {
+          "en-US": "Oppo一加主题解锁"
+        },
+        "description": {
+          "en-US": "<h1>Oppo一加主题解锁</h1>\n<p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip（理论一加OPPO新机型通用）</p>\n<h2>测试版本</h2>\n<p>机型：一加ACE5，理论Oppo通用，coloros15.<br />\n应用商店版本：13.0.0_16a1836_250307</p>\n<div style=\"display: flex; justify-content: space-between;\">\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png\" alt=\"图片1\" width=\"35%\" />\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png\" alt=\"图片2\" width=\"35%\" />\n</div>\n<h3>简介</h3>\n<p>这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。</p>\n<h3>功能特性</h3>\n<ul>\n<li>解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告</li>\n<li>支持最新版本的 Oppo 和一加主题商店</li>\n</ul>\n<h3>兼容性</h3>\n<ul>\n<li>设备：Oppo、一加（ColorOS 系统）</li>\n<li>系统：Android 15 及以上</li>\n<li>框架：Xposed 或 LSPosed</li>\n</ul>\n<h3>安装方法</h3>\n<ol>\n<li>确保已安装 Xposed 或 LSPosed 框架。</li>\n<li>下载并安装本模块的 APK 文件。</li>\n<li>在 Xposed 或 LSPosed 中启用模块。</li>\n<li>重启设备。</li>\n<li>打开主题商店，享受解锁功能。</li>\n</ol>\n<h3>下载</h3>\n<ul>\n<li>最新链接：(<a href=\"https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\">https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk</a>)</li>\n</ul>\n<h3>注意事项</h3>\n<ul>\n<li>本模块仅用于学习和测试目的，请勿用于商业用途。</li>\n<li>使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。</li>\n<li>测试版本可能存在 Bug，欢迎反馈问题。</li>\n</ul>\n<h3>开源协议</h3>\n<p>本项目基于 <a href=\"https://opensource.org/licenses/MIT\">MIT 协议</a> 开源。</p>\n"
+        },
+        "preferredSigner": "8eb67a2891ce4a085ec268dee4de113781fc6f68ad77652037348a511a19d644"
+      },
+      "versions": {
+        "567e347bbdf40ef4929df08104a9b029762ff1ccabbb2402b54ea46ff93e7e04": {
+          "added": 1741836621000,
+          "file": {
+            "name": "/io.github.Retmon403.oppotheme_2-1.1.apk",
+            "sha256": "567e347bbdf40ef4929df08104a9b029762ff1ccabbb2402b54ea46ff93e7e04",
+            "size": 12456
+          },
+          "manifest": {
+            "versionName": "1.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "8eb67a2891ce4a085ec268dee4de113781fc6f68ad77652037348a511a19d644"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.KILL_BACKGROUND_PROCESSES"
+              },
+              {
+                "name": "android.permission.GET_TASKS"
+              }
+            ]
           }
         }
       }
@@ -17394,7 +17443,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741749933000,
+        "lastUpdated": 1741836596000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -24628,7 +24677,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663611000,
+        "lastUpdated": 1741836641000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -24643,6 +24692,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "2c66ccf781ee73a73e4dc7fde8d4ad0940f975b55ef8c59c7ac59676f6c8946d": {
+          "added": 1741836641000,
+          "file": {
+            "name": "/junzi.xposed.hook_41-4.0.1.apk",
+            "sha256": "2c66ccf781ee73a73e4dc7fde8d4ad0940f975b55ef8c59c7ac59676f6c8946d",
+            "size": 1787097
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.1",
+            "versionCode": 41,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795": {
           "added": 1741663611000,
           "file": {
@@ -24690,39 +24772,6 @@
             ],
             "versionName": "3.9.7",
             "versionCode": 38,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "03f9f1a205a2ab1ee80c490e507c119c361e91437e982b30a6fe79119d34cb46": {
-          "added": 1741231571000,
-          "file": {
-            "name": "/junzi.xposed.hook_37-3.9.6.apk",
-            "sha256": "03f9f1a205a2ab1ee80c490e507c119c361e91437e982b30a6fe79119d34cb46",
-            "size": 1299673
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "3.9.6",
-            "versionCode": 37,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 36
@@ -25748,7 +25797,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741749985000,
+        "lastUpdated": 1741836649000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
