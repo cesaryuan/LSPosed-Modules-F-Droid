@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1741836966000,
+    "timestamp": 1741923257000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1424,7 +1424,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738206514000,
+        "lastUpdated": 1741922875000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
         "authorName": "lingqiqi5211",
         "name": {
@@ -1439,6 +1439,107 @@
         "preferredSigner": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
       },
       "versions": {
+        "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b": {
+          "added": 1736910387000,
+          "file": {
+            "name": "/com.sevtinge.hyperceiler_3863-2.5.155_20250114.apk",
+            "sha256": "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b",
+            "size": 7076700
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5.155_20250114",
+            "versionCode": 3863,
+            "usesSdk": {
+              "minSdkVersion": 33,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_PRIVILEGED"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.SET_ANIMATION_SCALE"
+              },
+              {
+                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
+              },
+              {
+                "name": "miui.permission.READ_LOGS"
+              },
+              {
+                "name": "miui.permission.DUMP_CACHED_LOG"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
+              },
+              {
+                "name": "hyperceiler.permission.APP_CRASH"
+              }
+            ]
+          }
+        },
         "27ea7fe4c82153f0b84eb4de71872ff587df314fd9c8ff668effbbe035cfa67c": {
           "added": 1736058342000,
           "file": {
@@ -2243,7 +2344,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741318009000,
+        "lastUpdated": 1741922908000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -2258,6 +2359,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657": {
+          "added": 1738725040000,
+          "file": {
+            "name": "/have.fun_937-v937.apk",
+            "sha256": "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657",
+            "size": 4422200
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v937",
+            "versionCode": 937,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "e3f5dded5df0751d506cf2a332be7f7e78023f0373210478139e423ebf8b208b": {
           "added": 1737947312000,
           "file": {

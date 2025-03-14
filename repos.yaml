@@ -11155,45 +11155,49 @@ com.sevtinge.hyperceiler:
             <h2>为 HyperCeiler 项目提交翻译</h2>
             <p><a href="https://crowdin.com/project/cemiuiler"><img src="https://badges.crowdin.net/cemiuiler/localized.svg" alt="Crowdin" /></a></p>
             <p>您可以在<a href="https://crwd.in/cemiuiler">这里</a>为 HyperCeiler 项目贡献翻译。</p>
-          filename: HyperCeiler_2.5.157_20250129_3901_release.apk
+          filename: HyperCeiler_2.5.158_20250312_3954_beta.apk
           id: com.sevtinge.hyperceiler
           name: HyperCeiler
-          last_updated: "2025-01-29T13:21:50Z"
+          last_updated: "2025-03-13T05:21:04Z"
           releasedescription: |-
-            <h3>发布前说明：</h3>
-            <p>本次仅以个人名义(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>) 在 LSPosed 仓库发布更新<br>
-            此次更新已打磨多天，虽无法保证全部可用，但目前大部分功能已修复完毕<br>
-            祝大家新年快乐！</p>
-            <h3>支持版本：</h3>
-            <p>HyperOS 1.0 / 2.0<br>
-            Android 14(U, 34) / Android 15(V, 35)</p>
-            <p>部分功能暂不支持 HyperOS 1.1</p>
-            <h3>更新日志：</h3>
-            <p><strong>模块</strong></p>
-            <ul>
-            <li>修复 系统框架 - 小窗 - 强制允许小窗 抛出的异常问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 系统界面 - 通知与控制中心 - 解除通知背景模糊限制 在 HyperOS2 hook 失败的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 系统桌面 - 其他 - 强制识别为高端机型 hook 失败的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 音质音效-耳机状态自动切换原生在部分版本 hook 失败的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Voemp/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Voemp">@Voemp</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hank9999/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hank9999">@hank9999</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 相机 hook 问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 小米相册-编辑-红米联名定制画框 hook 失败的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 相册部分功能在新版本失效的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>移除 智能助理 -Pad/Fold 小部件 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>移除 相册部分功能 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>优化 系统界面-状态栏-图标-双排移动网络图标 双排显示时屏蔽小 R 图标 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>优化 系统界面-状态栏-时钟指示器 功能的显示逻辑 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>优化 控制中心亮度条进度值显示覆盖展开页面，音量条进度值覆盖（控制中心 &amp; 侧边展开页面，侧边音量条），并移除对原始值样式的支持（功能已经挪到了系统界面-其他-数据显示里面）<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/YunZiA/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/YunZiA">@YunZiA</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>优化 允许对 系统应用、平台签名的应用（如GMS等） 进行语言调整 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/qdsp6sw/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/qdsp6sw">@qdsp6sw</a></li>
-            </ul>
-            <p><strong>应用：</strong></p>
-            <ul>
-            <li>优化 项目结构及代码 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lightsummer233/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lightsummer233">@lightsummer233</a></li>
-            <li>优化 UI 及功能分布 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fan095/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fan095">@Fan095</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>移除 QQ 群加群入口（已弃用）<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>更新 依赖及翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a></li>
-            <li>修复 繁体中文及印度尼西亚语言无法切换的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            <li>修复 开关模块隐藏图标导致应用崩溃的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></li>
-            </ul>
+            <p>时隔一个多月，本模块迎来了一次常规更新<br>
+            本次更新仅针对 OS2.0.100(OS2.1) 及以下版本进行优化，部分已知问题在后续更新中逐步修复<br>
+            预计到 2.6.160 之前，会逐渐移除过时的功能</p>
+            <p>[模块]<br>
+            新增 系统框架-其他-禁用温控/增强最近任务可见性 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nakixii/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nakixii">@nakixii</a><br>
+            新增 系统界面-锁屏-锁屏手电筒按钮(Only HyperOS2)，并优化逻辑 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            新增 系统界面-状态栏-时钟指示器 可自定义平板状态栏日期时钟格式，并拆分部分逻辑 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            新增 系统界面-通知与控制中心-勿扰模式修复 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a><br>
+            新增 系统桌面-小部件-优化小部件背景模糊 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a><br>
+            新增 录音机-解锁选择录音场景 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            调整 系统桌面-布局-限制底栏最低高度(如需调整请更改底栏边距) <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            调整 系统桌面-布局-解锁布局大小上限调整到 9x13 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            优化 系统框架-其他-禁止杀后台应用 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nakixii/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nakixii">@nakixii</a><br>
+            优化 系统框架-其他-允许截屏 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a><br>
+            优化 系统界面-状态栏-时钟指示器不再需要手动启用允许时钟以秒刷新 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            优化 系统界面-状态栏-焦点歌词 hook 挂载点 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            优化 系统界面-通知与控制中心-优化焦点通知背景混色支持手电筒焦点通知(需要额外勾选系统界面组件作用域) <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            优化 系统界面-其他-解除高级材质模糊限制 hook 挂载点 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            优化 手机管家-其他-禁用环境检查 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a><br>
+            优化 系统桌面-底栏-添加 Dock 栏模糊的高级材质背景颜色跟随系统 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a><br>
+            修复 系统框架-音量-默认调整音量(修改未生效并)导致应用闪退的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 系统界面-状态栏-图标-隐藏 WiFi 指示器在 HyperOS2 不生效的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 系统界面-状态栏-图标-WiFi 标准在 HyperOS2 不生效的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 系统界面-通知与控制中心-展开通知在 HyperOS2 不生效的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 系统界面-其他-原生音量条/原生关机菜单无法开启的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/xzakota/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xzakota">@xzakota</a><br>
+            修复 系统界面-其他-内联显示音量百分比，支持超大音量的设备无法正常显示的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复* 系统桌面-图标与标题-自定义应用动画曲线会导致系统桌面崩溃的问题 (仅屏蔽生效，功能未适配新版桌面) <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 屏幕录制-解锁更多声音来源在新版本无法生效的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sevtinge/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sevtinge">@Sevtinge</a></p>
+            <p>[应用]<br>
+            新增 应用内崩溃弹窗 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a><br>
+            更新 项目依赖 <a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]<br>
+            更新 应用 Tips <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a><br>
+            更新 应用源翻译 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dinopig1219/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dinopig1219">@dinopig1219</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/igormiguell/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/igormiguell">@igormiguell</a><br>
+            优化 项目结构 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a>, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/HChenX/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HChenX">@HChenX</a><br>
+            调整 启用自定义 r8 混淆 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a><br>
+            修复 应用语言切换阿拉伯语选项文本描述错误的问题 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lingqiqi5211/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lingqiqi5211">@lingqiqi5211</a></p>
+            <p>[项目]<br>
+            添加 项目繁体中文介绍 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/G0246/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/G0246">@G0246</a></p>
     author_name: lingqiqi5211
 com.shatyuka.killergram:
     git: https://github.com/Xposed-Modules-Repo/com.shatyuka.killergram
@@ -15213,27 +15217,13 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v996.Apk
+          filename: FunBox_v1020.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-03-06T15:31:21Z"
+          last_updated: "2025-03-13T11:16:09Z"
           releasedescription: |-
-            <p>1.修复部分md耗流量消息无法被拦截的问题<br>
-            2.移除所有内置限制，修复内置模块后无法使用的问题<br>
-            3.修改首次进入模块后的提示<br>
-            4.优化拦截异常图片加载，减少偷跑流量的情况<br>
-            5.表情面板在微信支持保存图片到面板<br>
-            6.修改表情面板的 container 生命周期，使其在打开时能保存上次的状态<br>
-            7.对在线表情预览，表情下载也使用doh解析，以缓解dns污染的问题<br>
-            8.表情包的左上角设置项目，添加以下设置项目<br>
-            最近列表：新增设置最近发送最大保存数量<br>
-            表情包：新增设置表情包内表情发送不进入最近发送列表<br>
-            表情包：新增将一个或多个表情直接复制到另一个表情包<br>
-            总设置：支持隐藏最近列表<br>
-            9.修改语音面板的 container 生命周期，使其在打开时能保存上次的状态<br>
-            10.音频播放器如果播完了点击播放会从头开始播放<br>
-            11.修复在未登录账号时获取服务器信息出现错误<br>
-            12.仅在需要时请求获取rkey，并设置过期时间</p>
+            <p>适配微信8.0.57<br>
+            修复一些BUG，新增更多BUG</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -17441,29 +17431,30 @@ its.madruga.warevamp:
             <h2>Download</h2>
             <ul>
             <li><a href="https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases">Releases</a></li>
-            <li><a href="https://t.me/warevampmodule">Pre-Releases</a> (More Updates)</li>
             </ul>
             <h1>Telegram</h1>
             <ul>
             <li><a href="https://t.me/warevampmodule">Channel</a></li>
-            <li><a href="https://t.me/+7xV9KAEkO10yYjZh">Chat</a></li>
+            <li><a href="https://t.me/warevampgroup">Group</a></li>
             </ul>
             <h2>Buy me a Coffee</h2>
             <div align="center">
              <a href="https://buymeacoffee.com/kaioreis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174"></a>
             </div>
-          filename: WaRevamp_0.1.0.apk
+          filename: WaRevamp_0.1.1.apk
           id: its.madruga.warevamp
           name: Wa Revamp
-          last_updated: "2025-03-02T02:37:22Z"
+          last_updated: "2025-03-14T01:23:26Z"
           releasedescription: |-
-            <p>| ADDED |</p>
-            <ul>
-            <li>Call Privacy</li>
-            </ul>
             <p>| FIXED |</p>
             <ul>
-            <li>minor bugs</li>
+            <li>Media Settings Error</li>
+            <li>Pinned Chats Limit</li>
+            <li>Deleted status icon</li>
+            </ul>
+            <p>| ADDED |</p>
+            <ul>
+            <li>Support to 2.25.7.x (may contain errors)</li>
             </ul>
     author_name: ItsMadruga
 junzi.xposed.hook:
