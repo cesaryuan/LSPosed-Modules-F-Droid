@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1741836979000,
+    "timestamp": 1741923271000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2861,7 +2861,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741836503000,
+        "lastUpdated": 1741922795000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -14816,7 +14816,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738206514000,
+        "lastUpdated": 1741922875000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
         "authorName": "lingqiqi5211",
         "name": {
@@ -14831,6 +14831,107 @@
         "preferredSigner": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
       },
       "versions": {
+        "fd560c0a040169b7bfb27b7d84a082d7858552609c43d1da02866a013d6f2026": {
+          "added": 1741922875000,
+          "file": {
+            "name": "/com.sevtinge.hyperceiler_3954-2.5.158_20250312.apk",
+            "sha256": "fd560c0a040169b7bfb27b7d84a082d7858552609c43d1da02866a013d6f2026",
+            "size": 8113882
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5.158_20250312",
+            "versionCode": 3954,
+            "usesSdk": {
+              "minSdkVersion": 34,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.BLUETOOTH_CONNECT"
+              },
+              {
+                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.BLUETOOTH"
+              },
+              {
+                "name": "android.permission.INTERACT_ACROSS_USERS"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_ADMIN"
+              },
+              {
+                "name": "android.permission.BLUETOOTH_PRIVILEGED"
+              },
+              {
+                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
+              },
+              {
+                "name": "android.permission.MANAGE_USB"
+              },
+              {
+                "name": "android.permission.SET_ANIMATION_SCALE"
+              },
+              {
+                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
+              },
+              {
+                "name": "miui.permission.READ_LOGS"
+              },
+              {
+                "name": "miui.permission.DUMP_CACHED_LOG"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
+              },
+              {
+                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
+              },
+              {
+                "name": "hyperceiler.permission.APP_CRASH"
+              }
+            ]
+          }
+        },
         "f5e0534d05ec567fcaf9e711ca9433c3dd8be7a60eaca2502cf1af49f7856cab": {
           "added": 1738206514000,
           "file": {
@@ -14947,107 +15048,6 @@
             "versionCode": 3869,
             "usesSdk": {
               "minSdkVersion": 34,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.BLUETOOTH_CONNECT"
-              },
-              {
-                "name": "android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.BLUETOOTH"
-              },
-              {
-                "name": "android.permission.INTERACT_ACROSS_USERS"
-              },
-              {
-                "name": "android.permission.VIBRATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_ADMIN"
-              },
-              {
-                "name": "android.permission.BLUETOOTH_PRIVILEGED"
-              },
-              {
-                "name": "android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "android.permission.WRITE_SECURE_SETTINGS"
-              },
-              {
-                "name": "android.permission.CHANGE_COMPONENT_ENABLED_STATE"
-              },
-              {
-                "name": "android.permission.MANAGE_USB"
-              },
-              {
-                "name": "android.permission.SET_ANIMATION_SCALE"
-              },
-              {
-                "name": "android.permission.MODIFY_DAY_NIGHT_MODE"
-              },
-              {
-                "name": "miui.permission.READ_LOGS"
-              },
-              {
-                "name": "miui.permission.DUMP_CACHED_LOG"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE"
-              },
-              {
-                "name": "com.miui.securitycenter.permission.ACCESS_SECURITY_CENTER_PROVIDER"
-              },
-              {
-                "name": "hyperceiler.permission.APP_CRASH"
-              }
-            ]
-          }
-        },
-        "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b": {
-          "added": 1736910387000,
-          "file": {
-            "name": "/com.sevtinge.hyperceiler_3863-2.5.155_20250114.apk",
-            "sha256": "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b",
-            "size": 7076700
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "2.5.155_20250114",
-            "versionCode": 3863,
-            "usesSdk": {
-              "minSdkVersion": 33,
               "targetSdkVersion": 35
             },
             "signer": {
@@ -17443,7 +17443,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741836596000,
+        "lastUpdated": 1741922888000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -20668,7 +20668,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741318009000,
+        "lastUpdated": 1741922908000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -20683,6 +20683,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "f04f18e4a02c327d8cc8432cd9c9dcb16eabaed66f9e0f61caf42e33a917bc41": {
+          "added": 1741922908000,
+          "file": {
+            "name": "/have.fun_1020-v1020.apk",
+            "sha256": "f04f18e4a02c327d8cc8432cd9c9dcb16eabaed66f9e0f61caf42e33a917bc41",
+            "size": 4819747
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v1020",
+            "versionCode": 1020,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "34aeacf979b8c49f64e0f2efda4c932499373d4109dd273771276cd266d9d7ee": {
           "added": 1741318009000,
           "file": {
@@ -20720,30 +20744,6 @@
             ],
             "versionName": "v966",
             "versionCode": 966,
-            "usesSdk": {
-              "minSdkVersion": 29,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
-              ]
-            }
-          }
-        },
-        "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657": {
-          "added": 1738725040000,
-          "file": {
-            "name": "/have.fun_937-v937.apk",
-            "sha256": "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657",
-            "size": 4422200
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "v937",
-            "versionCode": 937,
             "usesSdk": {
               "minSdkVersion": 29,
               "targetSdkVersion": 34
@@ -24409,7 +24409,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740885928000,
+        "lastUpdated": 1741922933000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
         "authorName": "ItsMadruga",
         "name": {
@@ -24419,7 +24419,7 @@
           "en-US": "An Xposed module to customize your WhatsApp."
         },
         "description": {
-          "en-US": "<h1>Wa Revamp</h1>\n<p>Continuation of the Old MdgWa.<br />\nMore information coming soon…</p>\n<h2>Download</h2>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\">Releases</a></li>\n<li><a href=\"https://t.me/warevampmodule\">Pre-Releases</a> (More Updates)</li>\n</ul>\n<h1>Telegram</h1>\n<ul>\n<li><a href=\"https://t.me/warevampmodule\">Channel</a></li>\n<li><a href=\"https://t.me/+7xV9KAEkO10yYjZh\">Chat</a></li>\n</ul>\n<h2>Buy me a Coffee</h2>\n<div align=\"center\">\n <a href=\"https://buymeacoffee.com/kaioreis\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n</div>\n"
+          "en-US": "<h1>Wa Revamp</h1>\n<p>Continuation of the Old MdgWa.<br />\nMore information coming soon…</p>\n<h2>Download</h2>\n<ul>\n<li><a href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\">Releases</a></li>\n</ul>\n<h1>Telegram</h1>\n<ul>\n<li><a href=\"https://t.me/warevampmodule\">Channel</a></li>\n<li><a href=\"https://t.me/warevampgroup\">Group</a></li>\n</ul>\n<h2>Buy me a Coffee</h2>\n<div align=\"center\">\n <a href=\"https://buymeacoffee.com/kaioreis\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n</div>\n"
         },
         "preferredSigner": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
       },
@@ -24649,6 +24649,41 @@
               "x86_64"
             ],
             "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "its.madruga.warevamp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "17537dc68dbce1cd321bd55aaab054499f3690b6b34582e898c0c106e24fc326": {
+          "added": 1741922933000,
+          "file": {
+            "name": "/its.madruga.warevamp_1-0.1.1.apk",
+            "sha256": "17537dc68dbce1cd321bd55aaab054499f3690b6b34582e898c0c106e24fc326",
+            "size": 3104097
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.1.1",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 26,
@@ -25797,7 +25832,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741836649000,
+        "lastUpdated": 1741922941000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {

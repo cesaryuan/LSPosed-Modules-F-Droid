@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1741836979000,
+    "timestamp": 1741923271000,
     "version": 20002
   },
   "requests": {
@@ -2547,24 +2547,24 @@
       "summary": "禁止应用跳转淘宝京东"
     },
     {
-      "added": 1741275081000,
+      "added": 1741864569000,
       "authorName": "Hicores",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eQQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音\u003c/p\u003e\n\u003cp\u003e支持微信8.0.40以上\n支持QQ9.0.30以上\n支持TIM4.0.97以上\u003c/p\u003e\n",
-      "lastUpdated": 1741275081000,
+      "lastUpdated": 1741864569000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "1.修复部分md耗流量消息无法被拦截的问题\n2.移除所有内置限制，修复内置模块后无法使用的问题\n3.修改首次进入模块后的提示\n4.优化拦截异常图片加载，减少偷跑流量的情况\n5.表情面板在微信支持保存图片到面板\n6.修改表情面板的 container 生命周期，使其在打开时能保存上次的状态\n7.对在线表情预览，表情下载也使用doh解析，以缓解dns污染的问题\n8.表情包的左上角设置项目，添加以下设置项目\n最近列表：新增设置最近发送最大保存数量\n表情包：新增设置表情包内表情发送不进入最近发送列表\n表情包：新增将一个或多个表情直接复制到另一个表情包\n总设置：支持隐藏最近列表\n9.修改语音面板的 container 生命周期，使其在打开时能保存上次的状态\n10.音频播放器如果播完了点击播放会从头开始播放\n11.修复在未登录账号时获取服务器信息出现错误\n12.仅在需要时请求获取rkey，并设置过期时间"
+          "whatsNew": "适配微信8.0.57\n修复一些BUG，新增更多BUG"
         }
       },
       "name": "FunBox",
       "packageName": "have.fun",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
-      "suggestedVersionCode": "996",
-      "suggestedVersionName": "v996",
+      "suggestedVersionCode": "1020",
+      "suggestedVersionName": "v1020",
       "summary": "QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音"
     },
     {
@@ -3284,25 +3284,25 @@
       "summary": "我 心 澎 湃 ！！！\nA module for HyperOS"
     },
     {
-      "added": 1738156910000,
+      "added": 1741843264000,
       "authorName": "lingqiqi5211",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eHyperCeiler\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/license/Sevtinge/Cemiuiler?style=flat-square\" alt=\"LICENSE\" /\u003e\n\u003cimg src=\"https://img.shields.io/badge/language-Java-7F52FF?style=flat-square\" alt=\"LANG\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://jq.qq.com/?_wv=1027\u0026amp;k=TedCJq8V\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E7%BE%A4%E7%BB%84-4DB8FF?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qgroup\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pd.qq.com/s/35ooe0ssj\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ-%E9%A2%91%E9%81%93-4991D3?style=for-the-badge\u0026amp;logo=tencentqq\" alt=\"badge_qguild\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/cemiuiler\"\u003e\u003cimg src=\"https://img.shields.io/badge/dynamic/json?style=for-the-badge\u0026amp;color=2CA5E0\u0026amp;label=Telegram\u0026amp;logo=telegram\u0026amp;query=%24.data.totalSubs\u0026amp;url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dcemiuiler\" alt=\"badge_telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cblockquote\u003e\n\u003cp\u003e让 HyperOS 再次伟大 ！\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler\"\u003e本项目源码\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e当前支持的版本\u003c/h2\u003e\n\u003cp\u003eAndroid 14-15 的 HyperOS\u003c/p\u003e\n\u003ch2\u003e使用前说明\u003c/h2\u003e\n\u003cp\u003e请在 \u003ca href=\"https://github.com/LSPosed/LSPosed/releases\"\u003eLSPosed\u003c/a\u003e 中启用 HyperCeiler， 然后在 HyperCeiler 应用内启用对应的功能，重启作用域 (需要 Root 权限)；\u003c/p\u003e\n\u003cp\u003e本模块\u003cb\u003e不支持\u003c/b\u003e \u003ccode\u003e修改较多的第三方 Xiaomi HyperOS ROM\u003c/code\u003e、\u003ccode\u003e修改较多的系统软件\u003c/code\u003e，以及\u003ccode\u003e部分国际 Xiaomi HyperOS ROM\u003c/code\u003e；\u003c/p\u003e\n\u003cp\u003e目前 HyperCeiler 是基于 Android 15 的 Xiaomi HyperOS 2.0 的手机端设备进行适配，覆盖不是很完整，需要不断测试和改进\u003c/p\u003e\n\u003cp\u003e在\u003ca href=\"https://github.com/ReChronoRain/HyperCeiler/issues\"\u003e提交反馈\u003c/a\u003e前请注意是否已有相同反馈，避免给开发者造成困扰。花相同精力看相同反馈是一件很浪费时间的事情\u003c/p\u003e\n\u003cp\u003eHyperCeiler 已停止维护 Android 11-13 的 MIUI ROM 和 Android 13 的 HyperOS1.0 ROM\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 11-12 的 MIUI ROM 请使用 \u003ca href=\"https://github.com/ReChronoRain/Cemiuiler/releases/tag/1.3.130\"\u003e此版本\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eAndroid 13 的 MIUI ROM 和 HyperOS1.0 ROM 请使用 \u003ca href=\"https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler/releases/download/3866-2.5.156_20250118/HyperCeiler_2.5.156_20250118_3866_release_miui.apk\"\u003e此版本\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e为 HyperCeiler 项目提交翻译\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://crowdin.com/project/cemiuiler\"\u003e\u003cimg src=\"https://badges.crowdin.net/cemiuiler/localized.svg\" alt=\"Crowdin\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e您可以在\u003ca href=\"https://crwd.in/cemiuiler\"\u003e这里\u003c/a\u003e为 HyperCeiler 项目贡献翻译。\u003c/p\u003e\n",
       "icon": "com.sevtinge.hyperceiler.png",
-      "lastUpdated": 1738156910000,
+      "lastUpdated": 1741843264000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "### 发布前说明：\n本次仅以个人名义(@lingqiqi5211) 在 LSPosed 仓库发布更新\n此次更新已打磨多天，虽无法保证全部可用，但目前大部分功能已修复完毕\n祝大家新年快乐！\n\n### 支持版本：\nHyperOS 1.0 / 2.0\nAndroid 14(U, 34) / Android 15(V, 35)\n\n部分功能暂不支持 HyperOS 1.1\n\n### 更新日志：\n**模块**\n- 修复 系统框架 - 小窗 - 强制允许小窗 抛出的异常问题 @lingqiqi5211 \n- 修复 系统界面 - 通知与控制中心 - 解除通知背景模糊限制 在 HyperOS2 hook 失败的问题 @lingqiqi5211 \n- 修复 系统桌面 - 其他 - 强制识别为高端机型 hook 失败的问题 @lingqiqi5211 \n- 修复 音质音效-耳机状态自动切换原生在部分版本 hook 失败的问题 @HChenX, @Voemp, @hank9999, @lingqiqi5211 \n- 修复 相机 hook 问题 @lingqiqi5211\n- 修复 小米相册-编辑-红米联名定"
+          "whatsNew": "时隔一个多月，本模块迎来了一次常规更新\n本次更新仅针对 OS2.0.100(OS2.1) 及以下版本进行优化，部分已知问题在后续更新中逐步修复\n预计到 2.6.160 之前，会逐渐移除过时的功能\n\n[模块]\n新增 系统框架-其他-禁用温控/增强最近任务可见性 @nakixii\n新增 系统界面-锁屏-锁屏手电筒按钮(Only HyperOS2)，并优化逻辑 @xzakota, @lingqiqi5211\n新增 系统界面-状态栏-时钟指示器 可自定义平板状态栏日期时钟格式，并拆分部分逻辑 @lingqiqi5211\n新增 系统界面-通知与控制中心-勿扰模式修复 @Sevtinge\n新增 系统桌面-小部件-优化小部件背景模糊 @Sevtinge\n新增 录音机-解锁选择录音场景 @lingqiqi5211\n调整 系统桌面-布局-限制底栏最低高度(如需调整请更改底栏边距) @lingqiqi5211\n调整 系统桌面-布局-解锁布局大小上限调整到 9x13 @lingqiqi5211\n优化 系统框架-其他-禁止杀后台应用 @nakixii\n优化 系统框架-其他-允许截屏 @HChenX\n优化 系统"
         }
       },
       "name": "HyperCeiler",
       "packageName": "com.sevtinge.hyperceiler",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.sevtinge.hyperceiler",
-      "suggestedVersionCode": "3901",
-      "suggestedVersionName": "2.5.157_20250129",
+      "suggestedVersionCode": "3954",
+      "suggestedVersionName": "2.5.158_20250312",
       "summary": "让 HyperOS 再次伟大！\nMake HyperOS Great Again!"
     },
     {
@@ -7192,7 +7192,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1741836596000,
+      "lastUpdated": 1741922888000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7250,19 +7250,19 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eWa Revamp\u003c/h1\u003e\n\u003cp\u003eContinuation of the Old MdgWa.\u003cbr /\u003e\nMore information coming soon…\u003c/p\u003e\n\u003ch2\u003eDownload\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003ePre-Releases\u003c/a\u003e (More Updates)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003eTelegram\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003eChannel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/+7xV9KAEkO10yYjZh\"\u003eChat\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eBuy me a Coffee\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n \u003ca href=\"https://buymeacoffee.com/kaioreis\" target=\"_blank\"\u003e\u003cimg src=\"https://cdn.buymeacoffee.com/buttons/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"\u003e\u003c/a\u003e\n\u003c/div\u003e\n",
-      "lastUpdated": 1740885928000,
+      "description": "\u003ch1\u003eWa Revamp\u003c/h1\u003e\n\u003cp\u003eContinuation of the Old MdgWa.\u003cbr /\u003e\nMore information coming soon…\u003c/p\u003e\n\u003ch2\u003eDownload\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/its.madruga.warevamp/releases\"\u003eReleases\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch1\u003eTelegram\u003c/h1\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampmodule\"\u003eChannel\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://t.me/warevampgroup\"\u003eGroup\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eBuy me a Coffee\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n \u003ca href=\"https://buymeacoffee.com/kaioreis\" target=\"_blank\"\u003e\u003cimg src=\"https://cdn.buymeacoffee.com/buttons/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"\u003e\u003c/a\u003e\n\u003c/div\u003e\n",
+      "lastUpdated": 1741922933000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "| ADDED |\n\n- Call Privacy\n\n| FIXED |\n\n- minor bugs"
+          "whatsNew": "| FIXED |\n\n- Media Settings Error\n- Pinned Chats Limit\n- Deleted status icon\n\n| ADDED |\n\n- Support to 2.25.7.x (may contain errors)"
         }
       },
       "name": "Wa Revamp",
       "packageName": "its.madruga.warevamp",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/its.madruga.warevamp",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.1.0",
+      "suggestedVersionName": "0.1.1",
       "summary": "An Xposed module to customize your WhatsApp."
     },
     {
@@ -15627,7 +15627,24 @@
     ],
     "com.sevtinge.hyperceiler": [
       {
-        "added": 1738156910000,
+        "added": 1741843264000,
+        "apkName": "com.sevtinge.hyperceiler_3954-2.5.158_20250312.apk",
+        "hash": "fd560c0a040169b7bfb27b7d84a082d7858552609c43d1da02866a013d6f2026",
+        "hashType": "sha256",
+        "minSdkVersion": 34,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.sevtinge.hyperceiler",
+        "sig": "6086d32fd2a34070ad1219c3dfd8fb42",
+        "signer": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c",
+        "size": 8113882,
+        "targetSdkVersion": 35,
+        "versionCode": 3954,
+        "versionName": "2.5.158_20250312"
+      },
+      {
+        "added": 1738206514000,
         "apkName": "com.sevtinge.hyperceiler_3901-2.5.157_20250129.apk",
         "hash": "f5e0534d05ec567fcaf9e711ca9433c3dd8be7a60eaca2502cf1af49f7856cab",
         "hashType": "sha256",
@@ -15659,23 +15676,6 @@
         "targetSdkVersion": 35,
         "versionCode": 3869,
         "versionName": "2.5.156_20250118"
-      },
-      {
-        "added": 1736910387000,
-        "apkName": "com.sevtinge.hyperceiler_3863-2.5.155_20250114.apk",
-        "hash": "2cd8e11700786f780d1c0034c1c971711acba4a7379285210039ebde20231d9b",
-        "hashType": "sha256",
-        "minSdkVersion": 33,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.sevtinge.hyperceiler",
-        "sig": "6086d32fd2a34070ad1219c3dfd8fb42",
-        "signer": "464c5c9da28caee6b3288dae132ca36d52a16489e095cf7b52aca711f093823c",
-        "size": 7076700,
-        "targetSdkVersion": 35,
-        "versionCode": 3863,
-        "versionName": "2.5.155_20250114"
       }
     ],
     "com.shatyuka.killergram": [
@@ -16492,7 +16492,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1741836596000,
+        "added": 1741922888000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17642,7 +17642,24 @@
     ],
     "have.fun": [
       {
-        "added": 1741275081000,
+        "added": 1741864569000,
+        "apkName": "have.fun_1020-v1020.apk",
+        "hash": "f04f18e4a02c327d8cc8432cd9c9dcb16eabaed66f9e0f61caf42e33a917bc41",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4819747,
+        "targetSdkVersion": 34,
+        "versionCode": 1020,
+        "versionName": "v1020"
+      },
+      {
+        "added": 1741318009000,
         "apkName": "have.fun_996-v996.apk",
         "hash": "34aeacf979b8c49f64e0f2efda4c932499373d4109dd273771276cd266d9d7ee",
         "hashType": "sha256",
@@ -17674,23 +17691,6 @@
         "targetSdkVersion": 34,
         "versionCode": 966,
         "versionName": "v966"
-      },
-      {
-        "added": 1738725040000,
-        "apkName": "have.fun_937-v937.apk",
-        "hash": "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "have.fun",
-        "sig": "847a474215fbdc0d6660c50e5e385732",
-        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
-        "size": 4422200,
-        "targetSdkVersion": 34,
-        "versionCode": 937,
-        "versionName": "v937"
       }
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
@@ -19246,7 +19246,7 @@
         "versionName": "0.0.9"
       },
       {
-        "added": 1740883042000,
+        "added": 1740885928000,
         "apkName": "its.madruga.warevamp_1-0.1.0.apk",
         "hash": "95a304357b15dacd6915e20213f81a0a2405773866cc63ecae2697953a507a2b",
         "hashType": "sha256",
@@ -19264,6 +19264,26 @@
         "targetSdkVersion": 35,
         "versionCode": 1,
         "versionName": "0.1.0"
+      },
+      {
+        "added": 1741915406000,
+        "apkName": "its.madruga.warevamp_1-0.1.1.apk",
+        "hash": "17537dc68dbce1cd321bd55aaab054499f3690b6b34582e898c0c106e24fc326",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "its.madruga.warevamp",
+        "sig": "643f6250425529e287ad7f1d14fef6b2",
+        "signer": "f6cd8fcaf3f06d22af31ba8c33b87f457fe9427cf27618bc16d05400627517fc",
+        "size": 3104097,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "0.1.1"
       }
     ],
     "junzi.xposed.hook": [
