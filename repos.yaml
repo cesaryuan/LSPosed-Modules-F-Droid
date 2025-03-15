@@ -369,6 +369,33 @@ Telegram.Speed.Hook:
           last_updated: "2025-01-29T13:53:53Z"
           releasedescription: "<p>• Fix some bugs<br>\n• Target Android version 15<br>\n• Dropped Android 6 support</p>\n<p>No SetUp Required<br>\nJust Install &amp; Enable Module<br>\nEnjoy \U0001F525</p>"
     author_name: AraafRoyalll
+ai.noads.ozon:
+    git: https://github.com/Xposed-Modules-Repo/ai.noads.ozon
+    summary: |-
+        reduce ads amount on Ozon app,
+        remove ads banners from search page.
+
+        убирает рекламные баннеры со страницы поиска Ozon
+        убирает часть рекламных баннеров с основной страницы Ozon
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <p>NoAdsOzon</p>
+            <p>An Xposed module to reduce ads on Ozon app</p>
+            <blockquote>
+            <p>убирает рекламные баннеры со страницы поиска Ozon
+            убирает часть рекламных баннеров с основной страницы Ozon</p>
+            </blockquote>
+          filename: NoAdsOzon.apk
+          id: ai.noads.ozon
+          name: reduce ads on Ozon app
+          last_updated: "2025-03-14T02:05:19Z"
+          releasedescription: |-
+            <p>remove ads banners from search page<br>
+            compatible with version 18.7.0</p>
+    author_name: igormsc
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
     summary: Like Chrome's translation of webpages, but for Android apps. It replaces ALL TEXT IN AN APP from one language to another at runtime.
@@ -4131,69 +4158,77 @@ com.bug.hookvip:
           categories:
             - Xposed
           description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
-          filename: app_5.0.1-release-fix.apk
+          filename: app_5.0.2-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
-          last_updated: "2025-03-01T10:07:26Z"
+          last_updated: "2025-03-14T07:26:32Z"
           releasedescription: |-
-            <p>v5.0.1-release-fix：<br>
-            修复 Android 13 以下拓展功能闪退的问题</p>
-            <p>5.0.1-release<br>
-            新增：</p>
+            <p>新增：</p>
             <ul>
-            <li>文件闪传</li>
-            <li>快压缩</li>
-            <li>外语翻译官</li>
-            <li>日记云笔记<br>
-            -「拓展」禁用无障碍服务检测<br>
-            -「拓展」禁用USB调试检测</li>
+            <li>取证拍拍</li>
+            <li>MacroDroid</li>
+            <li>奇妙扫描</li>
+            <li>奇妙工具箱</li>
+            <li>爱扫描</li>
+            <li>「拓展」随机设备ID</li>
+            <li>「拓展」支持配置导入导出</li>
+            <li>「拓展」弹窗拦截</li>
+            <li>「拓展」禁止读取联系人</li>
+            <li>「拓展」在首页显示拓展功能数量</li>
             </ul>
-            <p>优化：<br>
-            -「拓展」Toast 显示<br>
-            -「拓展」大幅优化应用列表加载速度<br>
-            -「拓展」优化部分描述<br>
-            -「拓展」添加 MT论坛签到 开关<br>
-            -「拓展」MT论坛签到 支持启动被Hook的应用自动执行签到<br>
-            -「拓展」添加 游戏加速器白名单 开关<br>
-            -「拓展」所有开关默认为关闭<br>
-            -「拓展」将隐藏Root与隐藏Xposed合并为一个开关</p>
+            <p>优化：</p>
+            <ul>
+            <li>网易云音乐 去除新版Hook检测</li>
+            <li>优化日志输出</li>
+            <li>清理无用的字符串、图标资源</li>
+            <li>部分UI优化同步</li>
+            <li>菜鸟 Hook逻辑（解决部分可能导致的问题）</li>
+            <li>OPPO主题商店 Hook逻辑</li>
+            <li>「拓展」优化拓展功能弹窗滚动体验</li>
+            <li>「拓展」应用列表支持下拉刷新</li>
+            <li>「拓展」优化逻辑，提高Hook性能</li>
+            <li>「拓展」隐藏Root添加更多路径</li>
+            </ul>
             <p>修复：</p>
             <ul>
-            <li>加速器白名单自定义包名不生效的问题</li>
+            <li>模块假激活问题</li>
             </ul>
             <p>适配：</p>
             <ul>
-            <li>99手游加速器 2.0.4</li>
-            <li>宇宙工具箱 2.8.1</li>
-            <li>神奇工具 2.4.9</li>
-            <li>Fing 12.9.1</li>
-            <li>FlowMark 1.2.3</li>
-            <li>inBox笔记 1.8.406</li>
-            <li>MOJi辞書 8.13.0</li>
-            <li>Niagara Launcher 1.13.7</li>
-            <li>Telegraph T11.7.0 - P11.17.2</li>
-            <li>乐播视频 3.7.2（com.vspace.puzzle）</li>
-            <li>油条视频 更新为 抢先视频</li>
-            <li>汤头条 9.2.0</li>
-            <li>Thanox 5.2.8-prc</li>
-            <li>多邻国 6.19.2</li>
-            <li>今日水印相机 v3.0.218.4</li>
-            <li>乐秀 10.3.0.3</li>
-            <li>录风者 v2.0.1.250220</li>
-            <li>七猫免费小说 7.67</li>
-            <li>鲨鱼记账 5.19.5</li>
-            <li>通知滤盒 3.4.0</li>
-            <li>元气壁纸 1.8.7</li>
-            <li>飞鸟新版</li>
+            <li>Clone App 3.2.3</li>
+            <li>FlowMark 1.2.8</li>
+            <li>Lightroom 10.2.1</li>
+            <li>MOJi辞書 8.14.2</li>
+            <li>XPlayer - Video Player 2.4.5</li>
+            <li>KineMaster 7.5.18.34154.GP</li>
+            <li>Nekogram 11.8.2</li>
+            <li>123云盘 2.5.3</li>
+            <li>多邻国 6.21.3</li>
+            <li>今日水印相机 v3.0.220.6</li>
+            <li>懒人驾考 2.13.5</li>
+            <li>幕布 2.54.0</li>
+            <li>七猫免费小说 7.68</li>
+            <li>番茄免费小说 6.6.3.32</li>
+            <li>红果免费短剧 6.6.3.32</li>
+            <li>开练 6.0.1</li>
+            <li>QQ音乐 14.2.0.8</li>
+            <li>二维码生成器 1.02.48.0224</li>
+            <li>美图秀秀 11.5.0</li>
+            <li>欧路词典 10.1.1</li>
+            <li>轻羽写作 1.91.0</li>
+            <li>扫描全能王 6.83.0.2503030000</li>
+            <li>鲨鱼记账 5.21.0</li>
+            <li>瞬译 v6.9.30923</li>
+            <li>条形码大师 1.02.43.0303</li>
+            <li>微分身多开 13.2.1.0</li>
+            <li>醒图 11.8.0</li>
+            <li>迅雷 8.29.0.9683</li>
+            <li>冰箱 3.25.7 G</li>
+            <li>长风视频 更新为 呱呱视频</li>
+            <li>黃品匯 5.1.0</li>
+            <li>可可影视 3.3.4</li>
+            <li>网飞猫 3.3.4</li>
             </ul>
-            <p>其他：</p>
-            <ul>
-            <li>去除 虾皮视频</li>
-            <li>去除 蓝狐视频</li>
-            </ul>
-            <hr>
-            <p>天天开心！</p>
-            <p>by：只有风知道~</p>
     author_name: bug-bit
 com.ceco.oreo.gravitybox:
     git: https://github.com/Xposed-Modules-Repo/com.ceco.oreo.gravitybox
@@ -9161,10 +9196,10 @@ com.modisk.dawn:
           description: |
             <h1>Modisk</h1>
             <p>Modsik 解锁更多功能！</p>
-          filename: Modisk_1.0.1.apk
+          filename: Modisk_1.0.2.apk
           id: com.modisk.dawn
           name: Modisk
-          last_updated: "2025-03-04T03:44:44Z"
+          last_updated: "2025-03-15T02:55:39Z"
           releasedescription: |-
             <p><strong>Modisk 解锁更多功能！</strong><br>
             常规更新</p>
@@ -15544,9 +15579,10 @@ io.github.Retmon403.oppotheme:
             - Xposed
           description: |
             <h1>Oppo一加主题解锁</h1>
-            <p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip（理论一加OPPO新机型通用）</p>
+            <p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip</p>
             <h2>测试版本</h2>
-            <p>机型：一加ACE5，理论Oppo通用，coloros15.<br />
+            <p>机型：一加ACE5，（理论一加OPPO新机型通用）<br />
+            系统：coloros15.<br />
             应用商店版本：13.0.0_16a1836_250307</p>
             <div style="display: flex; justify-content: space-between;">
               <img src="https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png" alt="图片1" width="35%" />
@@ -15569,9 +15605,9 @@ io.github.Retmon403.oppotheme:
             <ol>
             <li>确保已安装 Xposed 或 LSPosed 框架。</li>
             <li>下载并安装本模块的 APK 文件。</li>
-            <li>在 Xposed 或 LSPosed 中启用模块。</li>
-            <li>重启设备。</li>
-            <li>打开主题商店，享受解锁功能。</li>
+            <li>在 Xposed 或 LSPosed 中启用模块 ，并选择应用 主题商店。</li>
+            <li>结束主题商店进程，重新启动。</li>
+            <li>享受解锁功能。</li>
             </ol>
             <h3>下载</h3>
             <ul>
@@ -15581,7 +15617,6 @@ io.github.Retmon403.oppotheme:
             <ul>
             <li>本模块仅用于学习和测试目的，请勿用于商业用途。</li>
             <li>使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。</li>
-            <li>测试版本可能存在 Bug，欢迎反馈问题。</li>
             </ul>
             <h3>开源协议</h3>
             <p>本项目基于 <a href="https://opensource.org/licenses/MIT">MIT 协议</a> 开源。</p>
@@ -17320,6 +17355,7 @@ io.mesalabs.knoxpatch:
             <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-flow/">Samsung Flow</a></li>
             <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-health/">Samsung Health</a></li>
             <li>✅ <a href="https://www.samsung.com/uk/apps/samsung-health-monitor/">Samsung Health Monitor</a></li>
+            <li>➖ <a href="https://www.samsungtvplus.com/">Samsung TV Plus</a> (<a href="https://github.com/5ec1cff/TrickyStore/releases/latest">TrickyStore</a> required)</li>
             <li>✅ <a href="https://www.samsungknox.com/en/solutions/personal-apps/secure-folder">Secure Folder</a> (<a href="#knoxpatch-enhancer">Enhancer</a> might be required)</li>
             <li>✅ <a href="https://www.samsung.com/uk/support/mobile-devices/what-is-the-secure-wifi-feature-and-how-do-i-enable-or-use-it/">Secure Wi-Fi</a></li>
             <li>✅ <a href="https://www.samsung.com/uk/smartthings/app/">SmartThings</a></li>
@@ -17355,7 +17391,7 @@ io.mesalabs.knoxpatch:
             </ul>
             <h2>Copyright</h2>
             <pre><code>/*
-             * Copyright (C) 2022 BlackMesa123
+             * Copyright (C) 2022 Salvo Giangreco
              *
              * This program is free software: you can redistribute it and/or modify
              * it under the terms of the GNU General Public License as published by
@@ -17371,13 +17407,14 @@ io.mesalabs.knoxpatch:
              * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
              */
             </code></pre>
-          filename: KnoxPatch-v0.7.5.apk
+          filename: KnoxPatch-Enhancer-v0.4-DynamicInstaller.zip
           id: io.mesalabs.knoxpatch
           name: KnoxPatch
-          last_updated: "2024-12-13T10:55:50Z"
+          last_updated: "2025-03-14T20:50:14Z"
           releasedescription: |-
             <ul>
-            <li>One UI 7.0 support</li>
+            <li>Samsung TV Plus support</li>
+            <li>Additional hooks for One UI 7.0</li>
             </ul>
             <p>* If you have troubles installing the app, try the "sep-lite" apk.<br>
             ** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
@@ -18094,19 +18131,19 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.1.4.311.apk
+          filename: WAuxiliary_v1.1.5.314.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-03-11T11:25:32Z"
+          last_updated: "2025-03-14T10:59:12Z"
           releasedescription: |-
             <ul>
-            <li>新增 拦截朋友圈播放</li>
-            <li>修复 阻止防撤回2(部分类型异常)</li>
-            <li>新增 自定义余额</li>
-            <li>新增 消息时间</li>
-            <li>新增 友盟SDK(统计版本及崩溃)</li>
-            <li>优化 部分细节</li>
-            <li>修复 已知问题</li>
+            <li>修复 已知BUG</li>
+            <li>优化 部分UI及功能</li>
+            <li>新增 大饼功能页</li>
+            <li>新增 虚拟定位 的 地图选点</li>
+            <li>重构 消息时间 为 消息详情</li>
+            <li>新增 系统浏览 的 白名单</li>
+            <li>新增 打开详情</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:

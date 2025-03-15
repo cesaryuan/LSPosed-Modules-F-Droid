@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1741923257000,
+    "timestamp": 1742009268000,
     "categories": {
       "Xposed": {
         "name": {
@@ -214,7 +214,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740885811000,
+        "lastUpdated": 1742008912000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -229,6 +229,54 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37": {
+          "added": 1737083405000,
+          "file": {
+            "name": "/com.bug.hookvip_25011614-4.8.0-release.apk",
+            "sha256": "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37",
+            "size": 3765649
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.8.0-release",
+            "versionCode": 25011614,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "6992f9e35f1a6fe91579718a6993826afb9134ffbe3178dae916d7c7fde8e1f3": {
           "added": 1735701817000,
           "file": {
@@ -3728,7 +3776,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741749987000,
+        "lastUpdated": 1742009052000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
@@ -3766,6 +3814,48 @@
               ]
             },
             "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "fae5d8b21bd56bf6fb2850c4aed549abbb541f181a61d5a0fd09ddb9d2134091": {
+          "added": 1742009052000,
+          "file": {
+            "name": "/me.hd.wauxv_314-1.1.5.apk",
+            "sha256": "fae5d8b21bd56bf6fb2850c4aed549abbb541f181a61d5a0fd09ddb9d2134091",
+            "size": 3672371
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1.5",
+            "versionCode": 314,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
               {
                 "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
