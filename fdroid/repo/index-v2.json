@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1741923271000,
+    "timestamp": 1742009281000,
     "categories": {
       "Xposed": {
         "name": {
@@ -397,6 +397,50 @@
             "signer": {
               "sha256": [
                 "e34098a68cb00ebcbc1d7e3644eb5e1be03a840c161b67c3bba717afb3576e97"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ai.noads.ozon": {
+      "metadata": {
+        "added": 1742008878000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1742008878000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ai.noads.ozon",
+        "authorName": "igormsc",
+        "name": {
+          "en-US": "reduce ads on Ozon app"
+        },
+        "summary": {
+          "en-US": "reduce ads amount on Ozon app,\nremove ads banners from search page.\n\nубирает ..."
+        },
+        "description": {
+          "en-US": "<p>NoAdsOzon</p>\n<p>An Xposed module to reduce ads on Ozon app</p>\n<blockquote>\n<p>убирает рекламные баннеры со страницы поиска Ozon\nубирает часть рекламных баннеров с основной страницы Ozon</p>\n</blockquote>\n"
+        },
+        "preferredSigner": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa"
+      },
+      "versions": {
+        "77e5d337b34d94b4f7e2893b3fe2ec2fc944453837311da1d4f5470ddb05f3b5": {
+          "added": 1742008878000,
+          "file": {
+            "name": "/ai.noads.ozon_1-0.1.apk",
+            "sha256": "77e5d337b34d94b4f7e2893b3fe2ec2fc944453837311da1d4f5470ddb05f3b5",
+            "size": 53237
+          },
+          "manifest": {
+            "versionName": "0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa"
               ]
             }
           }
@@ -2861,7 +2905,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741922795000,
+        "lastUpdated": 1742008895000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -5214,7 +5258,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1740885811000,
+        "lastUpdated": 1742008912000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
         "authorName": "bug-bit",
         "name": {
@@ -5229,6 +5273,54 @@
         "preferredSigner": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
       },
       "versions": {
+        "91a18145443923ccaa000e497c4ae8173104dafa81789d57ce3eb00f328c8e09": {
+          "added": 1742008912000,
+          "file": {
+            "name": "/com.bug.hookvip_25031415-5.0.2-release.apk",
+            "sha256": "91a18145443923ccaa000e497c4ae8173104dafa81789d57ce3eb00f328c8e09",
+            "size": 4136801
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "5.0.2-release",
+            "versionCode": 25031415,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "971d629d22408234ed15982570f95573898432391ad23f06fa024482768c75d4": {
           "added": 1740885811000,
           "file": {
@@ -5291,54 +5383,6 @@
             ],
             "versionName": "4.9.7-release",
             "versionCode": 25022117,
-            "usesSdk": {
-              "minSdkVersion": 27,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "com.bug.hookvip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37": {
-          "added": 1737083405000,
-          "file": {
-            "name": "/com.bug.hookvip_25011614-4.8.0-release.apk",
-            "sha256": "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37",
-            "size": 3765649
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.8.0-release",
-            "versionCode": 25011614,
             "usesSdk": {
               "minSdkVersion": 27,
               "targetSdkVersion": 35
@@ -7132,7 +7176,7 @@
           "en-US": "Oppo一加主题解锁"
         },
         "description": {
-          "en-US": "<h1>Oppo一加主题解锁</h1>\n<p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip（理论一加OPPO新机型通用）</p>\n<h2>测试版本</h2>\n<p>机型：一加ACE5，理论Oppo通用，coloros15.<br />\n应用商店版本：13.0.0_16a1836_250307</p>\n<div style=\"display: flex; justify-content: space-between;\">\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png\" alt=\"图片1\" width=\"35%\" />\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png\" alt=\"图片2\" width=\"35%\" />\n</div>\n<h3>简介</h3>\n<p>这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。</p>\n<h3>功能特性</h3>\n<ul>\n<li>解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告</li>\n<li>支持最新版本的 Oppo 和一加主题商店</li>\n</ul>\n<h3>兼容性</h3>\n<ul>\n<li>设备：Oppo、一加（ColorOS 系统）</li>\n<li>系统：Android 15 及以上</li>\n<li>框架：Xposed 或 LSPosed</li>\n</ul>\n<h3>安装方法</h3>\n<ol>\n<li>确保已安装 Xposed 或 LSPosed 框架。</li>\n<li>下载并安装本模块的 APK 文件。</li>\n<li>在 Xposed 或 LSPosed 中启用模块。</li>\n<li>重启设备。</li>\n<li>打开主题商店，享受解锁功能。</li>\n</ol>\n<h3>下载</h3>\n<ul>\n<li>最新链接：(<a href=\"https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\">https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk</a>)</li>\n</ul>\n<h3>注意事项</h3>\n<ul>\n<li>本模块仅用于学习和测试目的，请勿用于商业用途。</li>\n<li>使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。</li>\n<li>测试版本可能存在 Bug，欢迎反馈问题。</li>\n</ul>\n<h3>开源协议</h3>\n<p>本项目基于 <a href=\"https://opensource.org/licenses/MIT\">MIT 协议</a> 开源。</p>\n"
+          "en-US": "<h1>Oppo一加主题解锁</h1>\n<p>Oppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip</p>\n<h2>测试版本</h2>\n<p>机型：一加ACE5，（理论一加OPPO新机型通用）<br />\n系统：coloros15.<br />\n应用商店版本：13.0.0_16a1836_250307</p>\n<div style=\"display: flex; justify-content: space-between;\">\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png\" alt=\"图片1\" width=\"35%\" />\n  <img src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png\" alt=\"图片2\" width=\"35%\" />\n</div>\n<h3>简介</h3>\n<p>这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。</p>\n<h3>功能特性</h3>\n<ul>\n<li>解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告</li>\n<li>支持最新版本的 Oppo 和一加主题商店</li>\n</ul>\n<h3>兼容性</h3>\n<ul>\n<li>设备：Oppo、一加（ColorOS 系统）</li>\n<li>系统：Android 15 及以上</li>\n<li>框架：Xposed 或 LSPosed</li>\n</ul>\n<h3>安装方法</h3>\n<ol>\n<li>确保已安装 Xposed 或 LSPosed 框架。</li>\n<li>下载并安装本模块的 APK 文件。</li>\n<li>在 Xposed 或 LSPosed 中启用模块 ，并选择应用 主题商店。</li>\n<li>结束主题商店进程，重新启动。</li>\n<li>享受解锁功能。</li>\n</ol>\n<h3>下载</h3>\n<ul>\n<li>最新链接：(<a href=\"https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\">https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk</a>)</li>\n</ul>\n<h3>注意事项</h3>\n<ul>\n<li>本模块仅用于学习和测试目的，请勿用于商业用途。</li>\n<li>使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。</li>\n</ul>\n<h3>开源协议</h3>\n<p>本项目基于 <a href=\"https://opensource.org/licenses/MIT\">MIT 协议</a> 开源。</p>\n"
         },
         "preferredSigner": "8eb67a2891ce4a085ec268dee4de113781fc6f68ad77652037348a511a19d644"
       },
@@ -12918,7 +12962,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741145204000,
+        "lastUpdated": 1742008965000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.modisk.dawn",
         "authorName": "nymanyim",
         "name": {
@@ -12948,6 +12992,38 @@
               "x86_64"
             ],
             "versionName": "1.0.1",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "a7ff1353682bb0ceca83ef0b56746d14582e47df234e11d92554bb471bcb42a4"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "com.modisk.dawn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "88b96a35c64347e7853c0be9e7d2c962e4af7b357ad2920b3a4b662d2541a01b": {
+          "added": 1742008965000,
+          "file": {
+            "name": "/com.modisk.dawn_1-1.0.2.apk",
+            "sha256": "88b96a35c64347e7853c0be9e7d2c962e4af7b357ad2920b3a4b662d2541a01b",
+            "size": 16361403
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
             "versionCode": 1,
             "usesSdk": {
               "minSdkVersion": 26,
@@ -17443,7 +17519,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741922888000,
+        "lastUpdated": 1742008994000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -25832,7 +25908,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741922941000,
+        "lastUpdated": 1742009050000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -26000,7 +26076,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741749987000,
+        "lastUpdated": 1742009052000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {

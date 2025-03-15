@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1741923271000,
+    "timestamp": 1742009281000,
     "version": 20002
   },
   "requests": {
@@ -2314,25 +2314,25 @@
       "summary": "一个基于 Xposed 的免费的游戏内购模块。"
     },
     {
-      "added": 1740823646000,
+      "added": 1741937192000,
       "authorName": "bug-bit",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eFuck for VIP\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/bugccx\"\u003e\u003cimg alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e一个解锁部分软件会员与去广告的模块（详情见模块内）\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003ch3\u003e注意\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e不要提交任何issues，因为你不会得到任何有用的回复\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e免责声明\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e禁止发送、分享至国内平台！否则一切后果自行承担！\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！\u003c/li\u003e\n\u003cli\u003e本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch3\u003e须知\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报🔆\u003c/li\u003e\n\u003cli\u003e唯一Telegram频道：@bugccx\u003c/li\u003e\n\u003c/ul\u003e\n",
       "icon": "com.bug.hookvip.png",
-      "lastUpdated": 1740823646000,
+      "lastUpdated": 1741937192000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "v5.0.1-release-fix：\n修复 Android 13 以下拓展功能闪退的问题\n\n5.0.1-release\n新增：\n- 文件闪传\n- 快压缩\n- 外语翻译官\n- 日记云笔记\n-「拓展」禁用无障碍服务检测\n-「拓展」禁用USB调试检测\n\n优化：\n-「拓展」Toast 显示\n-「拓展」大幅优化应用列表加载速度\n-「拓展」优化部分描述\n-「拓展」添加 MT论坛签到 开关\n-「拓展」MT论坛签到 支持启动被Hook的应用自动执行签到\n-「拓展」添加 游戏加速器白名单 开关\n-「拓展」所有开关默认为关闭\n-「拓展」将隐藏Root与隐藏Xposed合并为一个开关\n\n修复：\n- 加速器白名单自定义包名不生效的问题\n\n适配：\n- 99手游加速器 2.0.4\n- 宇宙工具箱 2.8.1\n- 神奇工具 2.4.9\n- Fing 12.9.1\n- FlowMark 1.2.3\n- inBox笔记 1.8.406\n- MOJi辞書 8.13.0\n- Niagara Launcher 1.13.7\n- Telegraph T11.7.0 - P11.17.2\n- 乐播视频 3.7.2（com.vs"
+          "whatsNew": "新增：\n- 取证拍拍\n- MacroDroid\n- 奇妙扫描\n- 奇妙工具箱\n- 爱扫描\n- 「拓展」随机设备ID\n- 「拓展」支持配置导入导出\n- 「拓展」弹窗拦截\n- 「拓展」禁止读取联系人\n- 「拓展」在首页显示拓展功能数量\n\n优化：\n- 网易云音乐 去除新版Hook检测\n- 优化日志输出\n- 清理无用的字符串、图标资源\n- 部分UI优化同步\n- 菜鸟 Hook逻辑（解决部分可能导致的问题）\n- OPPO主题商店 Hook逻辑\n- 「拓展」优化拓展功能弹窗滚动体验\n- 「拓展」应用列表支持下拉刷新\n- 「拓展」优化逻辑，提高Hook性能\n- 「拓展」隐藏Root添加更多路径\n\n修复：\n- 模块假激活问题\n\n适配：\n- Clone App 3.2.3\n- FlowMark 1.2.8\n- Lightroom 10.2.1\n- MOJi辞書 8.14.2\n- XPlayer - Video Player 2.4.5\n- KineMaster 7.5.18.34154.GP\n- Nekogram 11.8.2\n- 123云盘 2.5.3\n- 多邻国 6.21.3\n- 今日水印相机 v3"
         }
       },
       "name": "Fuck for VIP",
       "packageName": "com.bug.hookvip",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
-      "suggestedVersionCode": "25030118",
-      "suggestedVersionName": "5.0.1-release-fix",
+      "suggestedVersionCode": "25031415",
+      "suggestedVersionName": "5.0.2-release",
       "summary": "解锁部分软件的会员"
     },
     {
@@ -3743,14 +3743,14 @@
       "summary": "OnePlus For ColorOS Fuck RedOne\n旨在干掉一加ColorOS的红一"
     },
     {
-      "added": 1734087350000,
+      "added": 1732159545000,
       "authorName": "salvogiangri",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-readme-header.png\" width=\"75%\"/\u003e\n  \u003cbr\u003e\u003cbr\u003e\n  \u003ca href=\"https://github.com/salvogiangri/KnoxPatch/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/io.mesalabs.knoxpatch?display_name=release\u0026style=for-the-badge\"/\u003e\u003c/a\u003e\n  \u003ca href=\"https://tooomm.github.io/github-release-stats/?username=Xposed-Modules-Repo\u0026repository=io.mesalabs.knoxpatch\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/io.mesalabs.knoxpatch/total?style=for-the-badge\"/\u003e\u003c/a\u003e\n  \u003ca href=\"https://github.com/salvogiangri/KnoxPatch\"\u003e\u003cimg src=\"https://img.shields.io/badge/GitHub-Repo-lightgrey.svg?style=for-the-badge\u0026logo=GitHub\"/\u003e\u003c/a\u003e\n  \u003cbr\u003e\u003cbr\u003e\n  An \u003ca href=\"https://github.com/LSPosed/LSPosed\"\u003eLSPosed\u003c/a\u003e module to get Samsung apps/features working again in your rooted Galaxy device.\n  \u003cbr\u003e\n\u003c/p\u003e\n\u003ch2\u003eSupported Android versions\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 9 (One UI 1.x)\u003c/li\u003e\n\u003cli\u003eAndroid 10 (One UI 2.x)\u003c/li\u003e\n\u003cli\u003eAndroid 11 (One UI 3.x)\u003c/li\u003e\n\u003cli\u003eAndroid 12 (One UI 4.x)\u003c/li\u003e\n\u003cli\u003eAndroid 12L (One UI 4.1.1)\u003c/li\u003e\n\u003cli\u003eAndroid 13 (One UI 5.x)\u003c/li\u003e\n\u003cli\u003eAndroid 14 (One UI 6.x)\u003c/li\u003e\n\u003cli\u003eAndroid 15 (One UI 7.x)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eSupported apps\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/support/mobile-devices/protect-your-galaxy-device-with-the-new-auto-blocker-feature/\"\u003eAuto Blocker\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e➖ \u003ca href=\"https://www.samsung.com/us/support/owners/app/galaxy-wearable-watch\"\u003eGalaxy Wearable (Gear Manager)\u003c/a\u003e (\u003ca href=\"#knoxpatch-enhancer\"\u003eEnhancer\u003c/a\u003e required)\u003c/li\u003e\n\u003cli\u003e✅ Samsung Cloud (\u003ca href=\"https://www.samsung.com/uk/support/mobile-devices/what-is-find-my-mobile-and-how-can-i-use-it-to-locate-lock-or-wipe-my-device/\"\u003eFMM\u003c/a\u003e, \u003ca href=\"https://www.samsung.com/ae/support/mobile-devices/what-is-the-enhanced-data-protection-function-and-when-can-i-use-it/\"\u003eEnhanced data protection\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/apps/samsung-flow/\"\u003eSamsung Flow\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/apps/samsung-health/\"\u003eSamsung Health\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/apps/samsung-health-monitor/\"\u003eSamsung Health Monitor\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsungknox.com/en/solutions/personal-apps/secure-folder\"\u003eSecure Folder\u003c/a\u003e (\u003ca href=\"#knoxpatch-enhancer\"\u003eEnhancer\u003c/a\u003e might be required)\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/support/mobile-devices/what-is-the-secure-wifi-feature-and-how-do-i-enable-or-use-it/\"\u003eSecure Wi-Fi\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/smartthings/app/\"\u003eSmartThings\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e➖ \u003ca href=\"https://www.samsung.com/uk/tvs/tv-buying-guide/what-is-samsung-smart-view/\"\u003eSmart View\u003c/a\u003e (\u003ca href=\"#knoxpatch-enhancer\"\u003eEnhancer\u003c/a\u003e required)\u003c/li\u003e\n\u003cli\u003e✅ \u003ca href=\"https://www.samsung.com/uk/support/mobile-devices/how-to-keep-your-personal-data-safe-using-private-share/\"\u003ePrivate Share\u003c/a\u003e*\u003c/li\u003e\n\u003cli\u003e❌ \u003ca href=\"https://www.samsung.com/uk/apps/samsung-pass/\"\u003eSamsung Pass\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e❌ \u003ca href=\"https://www.samsung.com/uk/apps/samsung-wallet/\"\u003eSamsung Wallet (Pay)\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e* Devices running One UI 5.1 or lower might need \u003ca href=\"https://github.com/chiteroman/PlayIntegrityFix/releases/latest\"\u003ePIF\u003c/a\u003e or similar for this feature to work correctly since the integration in Quick Share.\u003c/p\u003e\n\u003ch2\u003eKnoxPatch Enhancer\u003c/h2\u003e\n\u003cp\u003eKnoxPatch Enhancer is a flashable zip that will take care of the (currently) non-fixable apps/features via the Xposed API’s. There are two different install modes:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVia the \u003ca href=\"https://github.com/topjohnwu/Magisk\"\u003eMagisk\u003c/a\u003e/\u003ca href=\"https://github.com/tiann/KernelSU\"\u003eKernelSU\u003c/a\u003e app (fix Galaxy Wearable apps/Smart View):\u003c/p\u003e\n\u003cp\u003eDownload the module zip from the \u003ca href=\"https://github.com/salvogiangri/KnoxPatch/releases/latest\"\u003elatest release\u003c/a\u003e and install it from the “Modules” tab inside the Magisk/KernelSU app. The app will then show an “Enhanced” badge if the module is installed and active:\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp align=\"center\"\u003e\n  \u003cimg src=\"https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-enhancer.jpg\" width=\"35%\" /\u003e\n\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVia a custom recovery (fix Secure Folder on legacy devices):\u003c/p\u003e\n\u003cp\u003eLegacy devices running One UI 2.x or 3.x with \u003ca href=\"https://source.android.com/docs/security/features/encryption/file-based\"\u003eFBE\u003c/a\u003e require additional patches in the system partition to fix Secure Folder. Download the module zip from the \u003ca href=\"https://github.com/salvogiangri/KnoxPatch/releases/latest\"\u003elatest release\u003c/a\u003e and install it via a custom recovery, this will apply the necessary patches to fix Secure Folder. The zip will also create a backup of your original system files, flashing it again will restore them.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCredits\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSamsung\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LSPosed\"\u003eLSPosed Team\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/fankes/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/RikkaApps\"\u003eRikka\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCopyright\u003c/h2\u003e\n\u003cpre\u003e\u003ccode\u003e/*\n * Copyright (C) 2022 BlackMesa123\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see \u0026lt;http://www.gnu.org/licenses/\u0026gt;.\n */\n\u003c/code\u003e\u003c/pre\u003e\n",
       "icon": "io.mesalabs.knoxpatch.png",
-      "lastUpdated": 1734087350000,
+      "lastUpdated": 1734233737000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4773,13 +4773,13 @@
       "summary": "ModemPro MIUI/HyperOS基带进化\n为基带增加一些功能"
     },
     {
-      "added": 1741059884000,
+      "added": 1741145204000,
       "authorName": "nymanyim",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eModisk\u003c/h1\u003e\n\u003cp\u003eModsik 解锁更多功能！\u003c/p\u003e\n",
-      "lastUpdated": 1741059884000,
+      "lastUpdated": 1742008965000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4790,7 +4790,7 @@
       "packageName": "com.modisk.dawn",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.modisk.dawn",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0.1",
+      "suggestedVersionName": "1.0.2",
       "summary": "Modisk 解锁更多功能！"
     },
     {
@@ -5422,7 +5422,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eOppo一加主题解锁\u003c/h1\u003e\n\u003cp\u003eOppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip（理论一加OPPO新机型通用）\u003c/p\u003e\n\u003ch2\u003e测试版本\u003c/h2\u003e\n\u003cp\u003e机型：一加ACE5，理论Oppo通用，coloros15.\u003cbr /\u003e\n应用商店版本：13.0.0_16a1836_250307\u003c/p\u003e\n\u003cdiv style=\"display: flex; justify-content: space-between;\"\u003e\n  \u003cimg src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png\" alt=\"图片1\" width=\"35%\" /\u003e\n  \u003cimg src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png\" alt=\"图片2\" width=\"35%\" /\u003e\n\u003c/div\u003e\n\u003ch3\u003e简介\u003c/h3\u003e\n\u003cp\u003e这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。\u003c/p\u003e\n\u003ch3\u003e功能特性\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告\u003c/li\u003e\n\u003cli\u003e支持最新版本的 Oppo 和一加主题商店\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e兼容性\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e设备：Oppo、一加（ColorOS 系统）\u003c/li\u003e\n\u003cli\u003e系统：Android 15 及以上\u003c/li\u003e\n\u003cli\u003e框架：Xposed 或 LSPosed\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e安装方法\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e确保已安装 Xposed 或 LSPosed 框架。\u003c/li\u003e\n\u003cli\u003e下载并安装本模块的 APK 文件。\u003c/li\u003e\n\u003cli\u003e在 Xposed 或 LSPosed 中启用模块。\u003c/li\u003e\n\u003cli\u003e重启设备。\u003c/li\u003e\n\u003cli\u003e打开主题商店，享受解锁功能。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e下载\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e最新链接：(\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\"\u003ehttps://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\u003c/a\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e注意事项\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e本模块仅用于学习和测试目的，请勿用于商业用途。\u003c/li\u003e\n\u003cli\u003e使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。\u003c/li\u003e\n\u003cli\u003e测试版本可能存在 Bug，欢迎反馈问题。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e开源协议\u003c/h3\u003e\n\u003cp\u003e本项目基于 \u003ca href=\"https://opensource.org/licenses/MIT\"\u003eMIT 协议\u003c/a\u003e 开源。\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eOppo一加主题解锁\u003c/h1\u003e\n\u003cp\u003eOppo一加主题商店VIP内容解锁，去除开屏广告，冲nm的vip\u003c/p\u003e\n\u003ch2\u003e测试版本\u003c/h2\u003e\n\u003cp\u003e机型：一加ACE5，（理论一加OPPO新机型通用）\u003cbr /\u003e\n系统：coloros15.\u003cbr /\u003e\n应用商店版本：13.0.0_16a1836_250307\u003c/p\u003e\n\u003cdiv style=\"display: flex; justify-content: space-between;\"\u003e\n  \u003cimg src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p1.png\" alt=\"图片1\" width=\"35%\" /\u003e\n  \u003cimg src=\"https://github.com/Retmon403/OppoOplusThemeUnlock/blob/main/p2.png\" alt=\"图片2\" width=\"35%\" /\u003e\n\u003c/div\u003e\n\u003ch3\u003e简介\u003c/h3\u003e\n\u003cp\u003e这是一个基于 Xposed 框架的模块，用于解锁 Oppo 和一加设备的主题商店限制。通过 Hook 系统方法，实现免费使用付费主题的功能。\u003c/p\u003e\n\u003ch3\u003e功能特性\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e解锁VIP付费主题、壁纸、字体、小组件、去除开屏广告\u003c/li\u003e\n\u003cli\u003e支持最新版本的 Oppo 和一加主题商店\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e兼容性\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e设备：Oppo、一加（ColorOS 系统）\u003c/li\u003e\n\u003cli\u003e系统：Android 15 及以上\u003c/li\u003e\n\u003cli\u003e框架：Xposed 或 LSPosed\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e安装方法\u003c/h3\u003e\n\u003col\u003e\n\u003cli\u003e确保已安装 Xposed 或 LSPosed 框架。\u003c/li\u003e\n\u003cli\u003e下载并安装本模块的 APK 文件。\u003c/li\u003e\n\u003cli\u003e在 Xposed 或 LSPosed 中启用模块 ，并选择应用 主题商店。\u003c/li\u003e\n\u003cli\u003e结束主题商店进程，重新启动。\u003c/li\u003e\n\u003cli\u003e享受解锁功能。\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3\u003e下载\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e最新链接：(\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\"\u003ehttps://github.com/Xposed-Modules-Repo/io.github.Retmon403.oppotheme/releases/download/2-1.1/OppoOplusThemeUnlock.apk\u003c/a\u003e)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e注意事项\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e本模块仅用于学习和测试目的，请勿用于商业用途。\u003c/li\u003e\n\u003cli\u003e使用本模块可能导致设备不稳定或无法使用主题商店，请谨慎操作。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e开源协议\u003c/h3\u003e\n\u003cp\u003e本项目基于 \u003ca href=\"https://opensource.org/licenses/MIT\"\u003eMIT 协议\u003c/a\u003e 开源。\u003c/p\u003e\n",
       "lastUpdated": 1741794743000,
       "license": "Unknown",
       "localized": {
@@ -6135,6 +6135,27 @@
       "suggestedVersionCode": "170",
       "suggestedVersionName": "Akiyama",
       "summary": "An Xposed module to enhance the Telegram\nSupported Telegram, Nekogram and oth..."
+    },
+    {
+      "added": 1741917919000,
+      "authorName": "igormsc",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp\u003eNoAdsOzon\u003c/p\u003e\n\u003cp\u003eAn Xposed module to reduce ads on Ozon app\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eубирает рекламные баннеры со страницы поиска Ozon\nубирает часть рекламных баннеров с основной страницы Ozon\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+      "lastUpdated": 1741917919000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "remove ads banners from search page\ncompatible with version 18.7.0"
+        }
+      },
+      "name": "reduce ads on Ozon app",
+      "packageName": "ai.noads.ozon",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/ai.noads.ozon",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "0.1",
+      "summary": "reduce ads amount on Ozon app,\nremove ads banners from search page.\n\nубирает ..."
     },
     {
       "added": 1666343110000,
@@ -7192,7 +7213,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1741922888000,
+      "lastUpdated": 1742008994000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7294,7 +7315,7 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e阻止撤回\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动登录\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动原图\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e表情游戏\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e虚拟定位\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e圆形头像\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e通话限制\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e消息详情\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e精确数量\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1741749987000,
+      "lastUpdated": 1742009052000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -10535,6 +10556,23 @@
         "versionName": "1.1 AraafRoyall"
       }
     ],
+    "ai.noads.ozon": [
+      {
+        "added": 1741917919000,
+        "apkName": "ai.noads.ozon_1-0.1.apk",
+        "hash": "77e5d337b34d94b4f7e2893b3fe2ec2fc944453837311da1d4f5470ddb05f3b5",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "ai.noads.ozon",
+        "sig": "ac5a12174ca2dcb662232e1db07b7a43",
+        "signer": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa",
+        "size": 53237,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.1"
+      }
+    ],
     "akhil.alltrans": [
       {
         "added": 1690571807000,
@@ -12282,7 +12320,25 @@
     ],
     "com.bug.hookvip": [
       {
-        "added": 1740823646000,
+        "added": 1741937192000,
+        "apkName": "com.bug.hookvip_25031415-5.0.2-release.apk",
+        "hash": "91a18145443923ccaa000e497c4ae8173104dafa81789d57ce3eb00f328c8e09",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.bug.hookvip",
+        "sig": "90172522574ef52dc6d68c644d2fb88b",
+        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
+        "size": 4136801,
+        "targetSdkVersion": 35,
+        "versionCode": 25031415,
+        "versionName": "5.0.2-release"
+      },
+      {
+        "added": 1740885811000,
         "apkName": "com.bug.hookvip_25030118-5.0.1-release-fix.apk",
         "hash": "971d629d22408234ed15982570f95573898432391ad23f06fa024482768c75d4",
         "hashType": "sha256",
@@ -12316,24 +12372,6 @@
         "targetSdkVersion": 35,
         "versionCode": 25022117,
         "versionName": "4.9.7-release"
-      },
-      {
-        "added": 1737083405000,
-        "apkName": "com.bug.hookvip_25011614-4.8.0-release.apk",
-        "hash": "5f6f12478840f794c8cdee83b33a6a9693e851f05b0b8429624b866029582f37",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.bug.hookvip",
-        "sig": "90172522574ef52dc6d68c644d2fb88b",
-        "signer": "876aa52fbcb218c49f99bde64df3b9d28892c732d5abdbb1d226804598491c8b",
-        "size": 3765649,
-        "targetSdkVersion": 35,
-        "versionCode": 25011614,
-        "versionName": "4.8.0-release"
       }
     ],
     "com.ceco.oreo.gravitybox": [
@@ -14906,7 +14944,7 @@
     ],
     "com.modisk.dawn": [
       {
-        "added": 1741059884000,
+        "added": 1741145204000,
         "apkName": "com.modisk.dawn_1-1.0.1.apk",
         "hash": "481577cf49d76ef4b0e4d39f8576d5e6e8fe0cce5a925b4b24fcf2c7d9d2ed1f",
         "hashType": "sha256",
@@ -14924,6 +14962,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "1.0.1"
+      },
+      {
+        "added": 1742007339000,
+        "apkName": "com.modisk.dawn_1-1.0.2.apk",
+        "hash": "88b96a35c64347e7853c0be9e7d2c962e4af7b357ad2920b3a4b662d2541a01b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.modisk.dawn",
+        "sig": "ac201a917cf82fa51e104ca65c51ca03",
+        "signer": "a7ff1353682bb0ceca83ef0b56746d14582e47df234e11d92554bb471bcb42a4",
+        "size": 16361403,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.2"
       }
     ],
     "com.my.televip": [
@@ -16492,7 +16550,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1741922888000,
+        "added": 1742008994000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18988,7 +19046,7 @@
     ],
     "io.mesalabs.knoxpatch": [
       {
-        "added": 1734087350000,
+        "added": 1734233737000,
         "apkName": "io.mesalabs.knoxpatch_7005-0.7.5.apk",
         "hash": "8d89e407bbaf16ed0a0748dbcd51bdd44565195ea5cc40cc1ff24d49e3bf84f4",
         "hashType": "sha256",
