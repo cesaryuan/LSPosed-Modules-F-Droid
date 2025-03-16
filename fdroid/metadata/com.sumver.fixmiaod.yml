@@ -1,0 +1,26 @@
+AuthorName: sumver
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <h1>固定MIUI万象息屏亮度</h1>
+    <p>MIUI万象息屏时钟会根据环境光调节亮度（只有两档：暗和亮），但是很多时候那个暗光实在没法一眼瞅清时间。</p>
+    <p>该模块会固定息屏为亮光档。</p>
+    <h1>使用方法</h1>
+    <p>1、安装APK<br>
+    2、在Xposed框架如LSPosed内作用域勾选万象息屏<br>
+    3、强制停止万象息屏app（或者重启一次手机）<br></p>
+    <p><img src="https://github.com/Xposed-Modules-Repo/com.sumver.fixmiaod/blob/main/screenshots/%E8%AE%BE%E7%BD%AE%E5%9B%BE.jpg?raw=true" alt="setting" /></p>
+    <p>下载地址：<br>
+    <a href="https://github.com/sumver/FixAODForMIUI14/releases/tag/RELEASE">Github</a> | <a href="https://www.123865.com/s/92jA-2xSAv?%E6%8F%90%E5%8F%96%E7%A0%81:v7aW">123云盘（提取码：v7aW）</a></p>
+    <h1>项目相关</h1>
+    <p><a href="https://github.com/sumver/FixAODForMIUI14">项目地址</a> | <a href="https://github.com/sumver/FixAODForMIUI14/issues">反馈地址</a></p>
+IssueTracker: ""
+Name: 固定MIUI万象息屏亮度
+SourceCode: https://github.com/Xposed-Modules-Repo/com.sumver.fixmiaod
+Summary: |-
+    MIUI万象息屏时钟会根据环境光调节亮度（只有两档：暗和亮），但是很多时候那个暗光实在没法一眼瞅清时间。
+
+    该模块会固定息屏为亮光档。
+WebSite: ""

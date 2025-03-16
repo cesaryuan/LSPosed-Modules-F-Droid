@@ -1,0 +1,22 @@
+AuthorName: sumver
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <h1>MIUI万象息屏永不熄灭</h1>
+    <p>让MIUI的万象息屏永不熄灭（不会因为静置、环境黑暗而关闭）</p>
+    <h1>使用方法</h1>
+    <p>1、安装apk文件<br>
+    2、在xposed框架比如LSPosed内勾选万象息屏<br>
+    3、强制停止万象息屏APP后立即生效<br></p>
+    <h1>下载地址</h1>
+    <p><a href="https://github.com/sumver/KeepAODForMIUI/releases/tag/Release">Github</a> | <a href="https://www.123912.com/s/92jA-VfSAv?%E6%8F%90%E5%8F%96%E7%A0%81:BfT5">123盘（提取码：BfT5）</a></p>
+    <p><img src="https://github.com/sumver/KeepAODForMIUI/raw/master/app/screenshot/%E4%BD%BF%E7%94%A8%E6%88%AA%E5%9B%BE.jpg?raw=true" alt="setting" /></p>
+    <h1>项目相关</h1>
+    <p><a href="https://github.com/sumver/KeepAODForMIUI">项目地址</a> | <a href="https://github.com/sumver/KeepAODForMIUI/issues">反馈地址</a></p>
+IssueTracker: ""
+Name: MIUI万象息屏永不熄灭
+SourceCode: https://github.com/Xposed-Modules-Repo/com.sumver.keepaod
+Summary: 让MIUI的万象息屏永不熄灭（不会因为静置、环境黑暗而关闭）
+WebSite: ""

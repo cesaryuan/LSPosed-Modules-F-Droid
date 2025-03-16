@@ -4157,7 +4157,7 @@ com.bug.hookvip:
         - anti_features: []
           categories:
             - Xposed
-          description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n<li><strong>不要提交任何issues，因为你不会得到任何有用的回复</strong></li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
+          description: "<div align=\"center\">\n<h1>Fuck for VIP</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip\"><img src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/com.bug.hookvip?label=stars\" alt=\"Stars\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img alt=\"GitHub all releases\" src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.bug.hookvip/total?label=Downloads\"></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.bug.hookvip/releases\"><img src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.bug.hookvip\" alt=\"GitHub Release\" /></a>\n<a href=\"https://t.me/bugccx\"><img alt=\"Telegram Channel\" src=\"https://img.shields.io/badge/Telegram-频道-blue.svg?logo=telegram\"></a></p>\n<p>一个解锁部分软件会员与去广告的模块（详情见模块内）</p>\n</div>\n<hr />\n<h3>注意</h3>\n<ul>\n<li>模块并不是通杀的 你需要下载模块内标注的对应适配版本才可能正常使用模块的功能。</li>\n</ul>\n<hr />\n<h3>免责声明</h3>\n<ul>\n<li><strong>禁止发送、分享至国内平台！否则一切后果自行承担！</strong></li>\n<li>本模块仅供个人学习研究使用，请在下载后24小时内删除。请勿用于任何非法用途，否则后果自负！</li>\n<li>本模块不是为了破坏相应软件正常运营和作者的合法权益。请在使用本模块时，尊重相应作者的劳动成果，支持正版！不要利用本模块进行非法活动或其他损害相应软件合法权益的行为。</li>\n</ul>\n<hr />\n<h3>须知</h3>\n<ul>\n<li>该模块是完全免费的，如果你是从任何收费渠道获得，那么恭喜你，你被骗啦！请不遗余力的进行举报\U0001F506</li>\n<li>唯一Telegram频道：@bugccx</li>\n</ul>\n"
           filename: app_5.0.2-release.apk
           id: com.bug.hookvip
           name: Fuck for VIP
@@ -11729,6 +11729,64 @@ com.suisho.pixelposed:
           last_updated: "2024-11-19T12:26:32Z"
           releasedescription: <p>首次发布</p>
     author_name: NativeStar
+com.sumver.fixmiaod:
+    git: https://github.com/Xposed-Modules-Repo/com.sumver.fixmiaod
+    summary: |-
+        MIUI万象息屏时钟会根据环境光调节亮度（只有两档：暗和亮），但是很多时候那个暗光实在没法一眼瞅清时间。
+
+        该模块会固定息屏为亮光档。
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>固定MIUI万象息屏亮度</h1>
+            <p>MIUI万象息屏时钟会根据环境光调节亮度（只有两档：暗和亮），但是很多时候那个暗光实在没法一眼瞅清时间。</p>
+            <p>该模块会固定息屏为亮光档。</p>
+            <h1>使用方法</h1>
+            <p>1、安装APK<br>
+            2、在Xposed框架如LSPosed内作用域勾选万象息屏<br>
+            3、强制停止万象息屏app（或者重启一次手机）<br></p>
+            <p><img src="https://github.com/Xposed-Modules-Repo/com.sumver.fixmiaod/blob/main/screenshots/%E8%AE%BE%E7%BD%AE%E5%9B%BE.jpg?raw=true" alt="setting" /></p>
+            <p>下载地址：<br>
+            <a href="https://github.com/sumver/FixAODForMIUI14/releases/tag/RELEASE">Github</a> | <a href="https://www.123865.com/s/92jA-2xSAv?%E6%8F%90%E5%8F%96%E7%A0%81:v7aW">123云盘（提取码：v7aW）</a></p>
+            <h1>项目相关</h1>
+            <p><a href="https://github.com/sumver/FixAODForMIUI14">项目地址</a> | <a href="https://github.com/sumver/FixAODForMIUI14/issues">反馈地址</a></p>
+          filename: fixmiaod-1.0.apk
+          id: com.sumver.fixmiaod
+          name: 固定MIUI万象息屏亮度
+          last_updated: "2025-03-15T13:48:18Z"
+          releasedescription: |-
+            <p>1、在小米11Pro（MIUI14 安卓13）上的万象息屏（RELEASE-2.11.1118-08311029）测试通过</p>
+            <p>理论上只要万象息屏的亮度调节逻辑没改，就会一直有效。</p>
+    author_name: sumver
+com.sumver.keepaod:
+    git: https://github.com/Xposed-Modules-Repo/com.sumver.keepaod
+    summary: 让MIUI的万象息屏永不熄灭（不会因为静置、环境黑暗而关闭）
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>MIUI万象息屏永不熄灭</h1>
+            <p>让MIUI的万象息屏永不熄灭（不会因为静置、环境黑暗而关闭）</p>
+            <h1>使用方法</h1>
+            <p>1、安装apk文件<br>
+            2、在xposed框架比如LSPosed内勾选万象息屏<br>
+            3、强制停止万象息屏APP后立即生效<br></p>
+            <h1>下载地址</h1>
+            <p><a href="https://github.com/sumver/KeepAODForMIUI/releases/tag/Release">Github</a> | <a href="https://www.123912.com/s/92jA-VfSAv?%E6%8F%90%E5%8F%96%E7%A0%81:BfT5">123盘（提取码：BfT5）</a></p>
+            <p><img src="https://github.com/sumver/KeepAODForMIUI/raw/master/app/screenshot/%E4%BD%BF%E7%94%A8%E6%88%AA%E5%9B%BE.jpg?raw=true" alt="setting" /></p>
+            <h1>项目相关</h1>
+            <p><a href="https://github.com/sumver/KeepAODForMIUI">项目地址</a> | <a href="https://github.com/sumver/KeepAODForMIUI/issues">反馈地址</a></p>
+          filename: KeepAOD-1.0.apk
+          id: com.sumver.keepaod
+          name: MIUI万象息屏永不熄灭
+          last_updated: "2025-03-15T14:01:45Z"
+          releasedescription: |-
+            <p>在小米11Pro（MIUI14 安卓13）上的万象息屏（RELEASE-2.11.1118-08311029）上测试通过</p>
+            <p>理论支持所有的万象息屏版本</p>
+    author_name: sumver
 com.suqi8.oshin:
     git: https://github.com/Xposed-Modules-Repo/com.suqi8.oshin
     summary: |-
@@ -17410,11 +17468,12 @@ io.mesalabs.knoxpatch:
           filename: KnoxPatch-Enhancer-v0.4-DynamicInstaller.zip
           id: io.mesalabs.knoxpatch
           name: KnoxPatch
-          last_updated: "2025-03-14T20:50:14Z"
+          last_updated: "2025-03-16T00:41:17Z"
           releasedescription: |-
             <ul>
             <li>Samsung TV Plus support</li>
             <li>Additional hooks for One UI 7.0</li>
+            <li>Fix Secure Wi-Fi issues</li>
             </ul>
             <p>* If you have troubles installing the app, try the "sep-lite" apk.<br>
             ** If you have troubles flashing the Enhancer zip in recovery, try the "DynamicInstaller" zip.</p>
@@ -20917,10 +20976,11 @@ ru.bluecat.yandexmapspatcher:
             <li>Реклама</li>
             <li>Скрытие ленты историй, предложений, товаров в карточках организаций</li>
             <li>Список категорий на карточках зданий</li>
-            <li>Управление видом поисковой строки</li>
+            <li>Блокировка автоподъёма поисковой строки</li>
             <li>Блокировка появления уведомлений и стартовых историй на главной</li>
             <li>Скрытие профиля с социальной сетью</li>
             <li>Управление дизайном истории поиска</li>
+            <li>Точки интереса (кружки) на карте</li>
             </ul>
             <h3>Платные сервисы (скрытие):</h3>
             <ul>
@@ -20932,13 +20992,14 @@ ru.bluecat.yandexmapspatcher:
             <h3>Расположения баннеров:</h3>
             <ul>
             <li>Поисковые категории</li>
-            <li>Поисковые запросы</li>
+            <li>Текстовая у меток организаций на карте</li>
             <li>Всплывающие баннеры организаций при движении в режиме навигатора</li>
             <li>Карточки организаций / зданий</li>
             <li>Кнопка о покупке рекламы в карточке организации</li>
             <li>Горизонтальная кнопка в профиле о покупке рекламы</li>
             <li>Вызов такси</li>
-            <li>Во время построения автомобильного маршрута</li>
+            <li>Во время построения маршрута</li>
+            <li>Различные промо акции поверх карты</li>
             </ul>
             <h3>Требования:</h3>
             <ul>
@@ -20954,14 +21015,22 @@ ru.bluecat.yandexmapspatcher:
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian cartographic service <a href="https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps">Yandex Maps</a>.
             You don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>
-          filename: Yandex_Maps_Patcher_v1.13.2.apk
+          filename: Yandex_Maps_Patcher_v1.14.apk
           id: ru.bluecat.yandexmapspatcher
           name: Yandex Maps Patcher
-          last_updated: "2025-02-01T12:37:44Z"
+          last_updated: "2025-03-15T16:55:09Z"
           releasedescription: |-
             <ul>
-            <li>Техническое обновление</li>
+            <li>Поддержка версии 22.9.0 (737868350)</li>
+            <li>Скрыта текстовая реклама на карте у меток организаций.</li>
+            <li>Добавлена возможность скрыть новый формат идей ввиде раскрываемой наверх ленты из под нижней панели. Идеи переехали в раздел сервисов модуля.</li>
+            <li>Убрано управление нижней поисковой строкой.</li>
+            <li>Добавлена блокировка авто подъёма нижней поисковой строки, эта настройка работает только при сворачивании от движения по карте.</li>
+            <li>Оптимизация для работы на Android 15.</li>
             </ul>
+            <p>Разработчики полностью удалили код управления анимацией нижней поисковой строкой.<br>
+            Некоторым функциям модуля теперь требуется разрешение "Всегда сверху" на Android 15.</p>
+            <p>Модуль будет придерживаться версии с RuStore на момент своего релиза.</p>
     author_name: BlueCat300
 ru.hepolise.volumekeymusicmanagermodule:
     git: https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule
