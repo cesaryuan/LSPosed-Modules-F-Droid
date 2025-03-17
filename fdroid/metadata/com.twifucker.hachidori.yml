@@ -4,6 +4,10 @@ Categories:
 CurrentVersion: "0.29"
 CurrentVersionCode: 29
 Description: |
+    <blockquote>
+    <p>[!WARNING]
+    DO NOT UPDATE to X (formerly Twitter) <code>10.85.0-beta.1</code> or greater, this version includes Google latest apk anti-tampering and anti-hooking, we have no solution for this, anyone try to modify the apk or hook, the app will crash.</p>
+    </blockquote>
     <h1>Hachidori</h1>
     <p>A X (formerly Twitter) Xposed modules.</p>
     <h1>Requirements</h1>
