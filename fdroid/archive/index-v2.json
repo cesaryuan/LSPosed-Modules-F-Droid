@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1742096022000,
+    "timestamp": 1742182809000,
     "categories": {
       "Xposed": {
         "name": {
@@ -1897,7 +1897,7 @@
           "en-US": "A X (formerly Twitter) Xposed modules."
         },
         "description": {
-          "en-US": "<h1>Hachidori</h1>\n<p>A X (formerly Twitter) Xposed modules.</p>\n<h1>Requirements</h1>\n<ul>\n<li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>\n</ul>\n"
+          "en-US": "<blockquote>\n<p>[!WARNING]\nDO NOT UPDATE to X (formerly Twitter) <code>10.85.0-beta.1</code> or greater, this version includes Google latest apk anti-tampering and anti-hooking, we have no solution for this, anyone try to modify the apk or hook, the app will crash.</p>\n</blockquote>\n<h1>Hachidori</h1>\n<p>A X (formerly Twitter) Xposed modules.</p>\n<h1>Requirements</h1>\n<ul>\n<li>LSPosed v1.9.2 (7024) (Rooted Android only) and above</li>\n</ul>\n"
         },
         "preferredSigner": "712d426d9ccd8222526534b65549c251d506af80f79a17e6229884d64fbcfc92"
       },
@@ -2723,7 +2723,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741836641000,
+        "lastUpdated": 1742182488000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2738,6 +2738,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "959a62dcde000ae7fe9bd451762d56e99255f7d526efd475844ef6838a91471e": {
+          "added": 1741318032000,
+          "file": {
+            "name": "/junzi.xposed.hook_38-3.9.7.apk",
+            "sha256": "959a62dcde000ae7fe9bd451762d56e99255f7d526efd475844ef6838a91471e",
+            "size": 1295577
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.9.7",
+            "versionCode": 38,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "03f9f1a205a2ab1ee80c490e507c119c361e91437e982b30a6fe79119d34cb46": {
           "added": 1741231571000,
           "file": {

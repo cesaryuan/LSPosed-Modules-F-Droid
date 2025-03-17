@@ -12304,6 +12304,10 @@ com.twifucker.hachidori:
           categories:
             - Xposed
           description: |
+            <blockquote>
+            <p>[!WARNING]
+            DO NOT UPDATE to X (formerly Twitter) <code>10.85.0-beta.1</code> or greater, this version includes Google latest apk anti-tampering and anti-hooking, we have no solution for this, anyone try to modify the apk or hook, the app will crash.</p>
+            </blockquote>
             <h1>Hachidori</h1>
             <p>A X (formerly Twitter) Xposed modules.</p>
             <h1>Requirements</h1>
@@ -17607,11 +17611,13 @@ junzi.xposed.hook:
             <p>驾考精灵</p>
             <p>小星记账</p>
             <p>等等等等(其实是懒得写了)</p>
-          filename: JunZi.Xposed.Hook_4.0.1.apk
+          filename: JunZi.Xposed.Hook_4.0.2.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-12T10:38:43Z"
-          releasedescription: <p>新增 支持 全力万花筒 每日记</p>
+          last_updated: "2025-03-16T04:58:19Z"
+          releasedescription: |-
+            <p>新增 支持 小组件盒子<br>
+            新增 支持 生辰</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
