@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1742182823000,
+    "timestamp": 1742269058000,
     "version": 20002
   },
   "requests": {
@@ -3983,7 +3983,7 @@
     },
     {
       "added": 1738158373000,
-      "authorName": "xiaowine",
+      "authorName": "ghhccghk",
       "categories": [
         "Xposed"
       ],
@@ -4800,7 +4800,7 @@
         "Xposed"
       ],
       "description": "\u003ch1\u003eModisk\u003c/h1\u003e\n\u003cp\u003eModsik 解锁更多功能！\u003c/p\u003e\n",
-      "lastUpdated": 1742008965000,
+      "lastUpdated": 1742268647000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4811,7 +4811,7 @@
       "packageName": "com.modisk.dawn",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.modisk.dawn",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0.2",
+      "suggestedVersionName": "1.0.3",
       "summary": "Modisk 解锁更多功能！"
     },
     {
@@ -5871,25 +5871,25 @@
       "summary": "A module to edit your statusbar.\ndownload and enjoy it!😘"
     },
     {
-      "added": 1732159540000,
+      "added": 1742214524000,
       "authorName": "NextAlone",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1\u003e QAuxiliary \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/cinit/QAuxiliary.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/cinit/QAuxiliary/actions/workflows/push_ci.yml\"\u003e\u003cimg src=\"https://github.com/cinit/QAuxiliary/actions/workflows/push_ci.yml/badge.svg\" alt=\"main\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliary\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliary_CI\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=CI\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/QAuxiliaryChat\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Chat\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003chr /\u003e\n\u003cp\u003eQAuxiliary 是一个基于 QNotified 的开源 Xposed 模块\u003c/p\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e激活本模块后，在 QQ 或者 TIM 自带设置中点击 QAuxiliary 即可进入设置页面\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid \u0026gt;= 7.0\u003c/li\u003e\n\u003cli\u003eQQ \u0026gt;= 8.0.0, TIM \u0026gt;= 2.2.0, QQLite \u0026gt;= 4.0, QQ HD \u0026gt;= 5.9.3\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e一切开发旨在学习，请勿用于非法用途\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e本项目保证永久开源，欢迎提交 PR，但是请不要提交用于非法用途的功能。\u003c/li\u003e\n\u003cli\u003e如果某功能被大量运用于非法用途或严重侵害插件使用者权益，那么该功能将会被移除。\u003c/li\u003e\n\u003cli\u003e本模块完全免费开源，没有任何收费，请勿二次贩卖。\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003e许可证\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gnu.org/licenses/agpl-3.0.html\"\u003eAGPL-3.0\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003eCopyright (C) 2019-2022 qwq233@qwq2333.top\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as\npublished by the Free Software Foundation, either version 3 of the\nLicense, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see \u0026lt;http://www.gnu.org/licenses/\u0026gt;.\n\u003c/code\u003e\u003c/pre\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/app/src/main/assets/eula.md\"\u003eEULA\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003e版权所有©2022 gao_cai_sheng \u0026lt;qwq233@qwq2333.top, qwq2333.top\u0026gt;\n\n允许在其遵守CC BY-NC-SA 4.0协议的同时，每个人复制和分发此许可证文档的逐字记录副本，且允许对其进行更改，但必须保留其版权信息与原作者。\n请务必仔细阅读和理解 QAuxiliary 最终用户许可协议中规定的所有权利和限制。在使用前，您需要仔细阅读并决定接受或不接受本协议的条款。除非或直至您接受本协议的条款，否则本软件及其相关副本、相关程序代码或相关资源不得在您的任何终端上下载、安装或使用。\n您一旦下载、使用本软件及其相关副本、相关程序代码或相关资源，即表示您同意接受本协议各项条款的约束。如您不同意本协议中的条款，您则应当立即删除本软件、附属资源及其相关源代码。\n本软件权利只许可使用，而不出售。\n本协议与GNU Affero通用公共许可证(即AGPL协议)共同作为本软件与您的协议，且本协议与AGPL协议的冲突部分均按照本协议约束。您必须同时同意并遵守本协议与AGPL协议，否则，您应立即卸载、删除本软件、附属资源及其相关源代码。\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch2\u003e发行渠道说明\u003c/h2\u003e\n\u003cdetails\u003e\n\u003cp\u003eQAuxiliary 采用滚动更新方式发布新版本，我们总是推荐用户使用最新版 QAuxiliary，无论您的 QQ 或者 TIM 客户端是哪个版本。\u003c/p\u003e\n\u003cp\u003eQAuxiliary 将为分 \u003ccode\u003eCI\u003c/code\u003e 和 \u003ccode\u003e推荐的CI\u003c/code\u003e 两个版本\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003eCI\u003c/code\u003e 版本为 commit 后自动触发更新，可能包含外围文档或 CI 流程更新，不会编写任何更新文档或说明，\n具体更新内容可在\u003ca href=\"https://github.com/cinit/QAuxiliary/commits/master\"\u003eGithub\u003c/a\u003e\n自行查看，本更新由开源的流程自动编译发布，可能包含严重的功能及行为异常。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ccode\u003e推荐的CI\u003c/code\u003e 版本为重大功能变更或长期积累更新，发布频率由开发组决定，包含上次\u003ccode\u003eCI\u003c/code\u003e\n版至今的所有功能更新及 Bug 修复，但可能不包括尚未稳定或正在开发中的功能；\n\u003ccode\u003e推荐的CI\u003c/code\u003e 版本是被挑选出的推荐用户更新的 \u003ccode\u003eCI\u003c/code\u003e 版本 (如：添加功能或者修复重要 Bug)\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e开发组不限制用户选择自己需要的版本，同时也不为任何版本产生的任何后果承担任何责任\n（详情请见\u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/app/src/main/assets/eula.md\"\u003eQAuxiliary EULA\u003c/a\u003e），\n但希望各位用户各取所需，根据自己的能力范围选择适合自己的版本。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eQAuxiliary 的版本号组成为\u003ccode\u003emajor.minor.bugfix.rev.commit\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003e其中 major 为 主版本号，minor 为 次版本号，bugfix 为修正版本号；\u003c/li\u003e\n\u003cli\u003e所有版本更新的\u003ccode\u003erev\u003c/code\u003e为 commit 计数，\u003ccode\u003ecommit\u003c/code\u003e 位都会是触发此次更新的 commit 的 hash 的前 7 位。\u003c/li\u003e\n\u003c/ul\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/QAuxiliary\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=QAuxiliary%E9%A2%91%E9%81%93\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e 将只发布 \u003ccode\u003e推荐的CI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/QAuxiliary_CI\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=QAuxiliary_CI%E9%A2%91%E9%81%93\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e 发布 \u003ccode\u003eCI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/cinit/QAuxiliary.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e 将只发布 \u003ccode\u003e推荐的CI\u003c/code\u003e 版更新。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/io.github.qauxv/releases/\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-ClickMe-blue?link=https://github.com/Xposed-Modules-Repo/io.github.qauxv/releases/\" alt=\"\" /\u003e\u003c/a\u003e 将发布所有版本更新，其中\u003ccode\u003eCI\u003c/code\u003e版本更新将被标注为 Pre-release。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003c/details\u003e\n\u003ch2\u003e不会支持的功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e抢红包及其他金钱相关功能\u003c/li\u003e\n\u003cli\u003e修改聊天记录等可能被恶意利用的功能\u003c/li\u003e\n\u003cli\u003e群发消息\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e编译\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003e安装 git, ccache(可选), cmake, SDK 和 NDK, 版本参考 \u003ca href=\"https://github.com/cinit/QAuxiliary/blob/master/build-logic/convention/src/main/kotlin/Version.kt\"\u003eVersion.kt\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003e将本仓库 clone 至本地，本仓库含有 git submodule 所以请使用 git clone 而不是下载源代码压缩包；\u003c/li\u003e\n\u003cli\u003e拉取 MMKV, DexKit 等子模块, \u003ccode\u003egit submodule init \u0026amp;\u0026amp; git submodule update --recursive\u003c/code\u003e;\u003c/li\u003e\n\u003cli\u003e使用 Gradle 编译安装包。\u003c/li\u003e\n\u003c/ol\u003e\n\u003chr /\u003e\n\u003ch2\u003e赞助\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e由于项目的特殊性，我们不接受任何形式的捐赠，但是我们希望有更多的人能够参与本项目的开发\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e\u003ca href=\"https://github.com/qwq233/License/blob/master/v2/LICENSE.md\"\u003e通用许可协议\u003c/a\u003e\u003c/h2\u003e\n",
       "icon": "io.github.qauxv.png",
-      "lastUpdated": 1732159540000,
+      "lastUpdated": 1742214524000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**QAuxiliary v1.5.4**\n\n**更新日志**\n\n- 线上问题修复 用户体验优化\n\n**新增功能**\n\n- 拦截点击私聊机器人推荐消息直接发送\n\n**修复部分功能**\n\n- 聊天文件分享其他应用\n- 隐藏小红点\n- 群文件重命名\n- 隐藏好友聊天语音\n- 显示加好友来源参数\n- 禁用新版转发搜索页\n- 批量撤回消息\n- 屏蔽群昵称图标\n- 屏蔽更新 闪退\n\nCommit: https://github.com/cinit/QAuxiliary/commit/eecf29bf038bf6e7fbd49a6be0b6ee6b79c13f3a\n\n```text\nsha256sum *\nd53b85f625de6b4af8ddc1c756ac96ee1768a6c423ae8f2a0e75b737c0ec4e35  QAuxv-v1.5.4.r2483.eecf29b-arm32.apk\n6f6fee0baf9a7fe6d5f3baa0fd4c6a25f2adc864f7388464d69013364995f4e3  QAuxv-v1.5.4.r2483.eecf29b-arm"
+          "whatsNew": "**QAuxiliary v1.5.7**\n\n**新增功能**\n\n- 去你妈的打开通讯录\n- 移除语音自动转文本灰字提示\n- 隐藏群助手顶部 Banner 提示\n- 屏蔽聊天记录异常对话框\n- 加载外部插件\n\n**修复功能**\n\n- 显示具体消息数量 (TIM_NT)\n- 输入框增加提示 (TIM_NT)\n- TIM 群标题栏添加精华消息入口\n- 精简主页加号菜单 (TIM_NT)\n- 精简联系人页面 (TIM_NT)\n- 精简表情菜单 (TIM_NT)\n- 语音转发及保存 (TIM_NT)\n- 设置页QA入口 (QQ9.1.50+)\n- 移除表情回应限制 (QQ9.1.50+)\n- 显示具体消息数量 (QQ9.1.50+)\n- 消息显示At对象 (QQ9.1.50+)\n- 允许上传透明头像和表情 (QQ9.1.50+)\n- 转发消息点头像查看详细信息 (QQ9.1.50+)\n- 强制平板/手机模式 (QQ9.1.50+)\n- 允许保存图片表情 (TIM_NT / QQ9.1.55+)\n- 屏蔽更新 (QQ8.2.11)\n\n```text\nsha256sum *\nc54431514c2"
         }
       },
       "name": "QAuxiliary",
       "packageName": "io.github.qauxv",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/io.github.qauxv",
-      "suggestedVersionCode": "2483",
-      "suggestedVersionName": "1.5.4.r2483.eecf29b",
+      "suggestedVersionCode": "2638",
+      "suggestedVersionName": "1.5.7.r2638.6feba5e",
       "summary": "为 QQ 和 TIM 添加更多功能"
     },
     {
@@ -7234,7 +7234,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1742182443000,
+      "lastUpdated": 1742268674000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7336,7 +7336,7 @@
         "Xposed"
       ],
       "description": "\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003e\n        \u003cimg src=\"https://socialify.git.ci/HdShare/WAuxiliary_Public/image?description=1\u0026font=Rokkitt\u0026language=1\u0026name=1\u0026owner=1\u0026theme=Auto\" alt=\"socialify\"/\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/HdShare/WAuxiliary_Public/total?style=flat-square\u0026label=GithubRepo\u0026labelColor=1b1f23\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Stars\u0026labelColor=1b1f23\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Forks\u0026labelColor=1b1f23\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Issues\u0026labelColor=1b1f23\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/releases\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/me.hd.wauxv/total?style=flat-square\u0026label=LSPosedRepo\u0026labelColor=f48fb1\u0026color=eeeeee\" alt=\"downloads\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/stargazers\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/stars/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Stars\u0026labelColor=f48fb1\u0026color=dfb317\" alt=\"stars\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/network/members\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/forks/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Forks\u0026labelColor=f48fb1\u0026color=97ca00\" alt=\"forks\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://github.com/Xposed-Modules-Repo/me.hd.wauxv/issues\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/issues/Xposed-Modules-Repo/me.hd.wauxv?style=flat-square\u0026label=Issues\u0026labelColor=f48fb1\u0026color=007ec6\" alt=\"issues\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003cp align=\"center\"\u003e\n    \u003ca href=\"https://github.com/HdShare/WAuxiliary_Public/releases/latest\"\u003e\n        \u003cimg src=\"https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square\u0026label=Release\u0026labelColor=07c160\u0026color=c8c8c8\" alt=\"release\"\u003e\n    \u003c/a\u003e\n    \u003ca href=\"https://t.me/Hd_WAuxiliary\"\u003e\n        \u003cimg src=\"https://img.shields.io/static/v1?style=flat-square\u0026label=Telegram\u0026labelColor=01bfaf\u0026message=Chat\u0026color=099fdf\" alt=\"Telegram\"\u003e\n    \u003c/a\u003e\n\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e阻止撤回\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动登录\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动原图\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e表情游戏\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e虚拟定位\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e模拟扫码\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e平板模式\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e圆形头像\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e通话限制\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e消息详情\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e精确数量\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e8.0.45\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e其他功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e❓\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e计划 / Plans:\u003c/h2\u003e\n\u003cp\u003e无\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eQAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/cinit/QAuxiliary\"\u003eQAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTimTool\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/TimTool\"\u003eTimTool\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eTSBattery\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/fankes/TSBattery\"\u003eTSBattery\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1742009052000,
+      "lastUpdated": 1742268728000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -7740,25 +7740,25 @@
       "summary": "-"
     },
     {
-      "added": 1742057709000,
+      "added": 1742249246000,
       "authorName": "BlueCat300",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eYandex Maps Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=126968779\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eСкрывает рекламу и навязчивые сервисы в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Долгое нажатие на иконку профиля на главной\u003c/li\u003e\n\u003cli\u003eЯндекс.Плюс для Android Auto и музыка включены всегда\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eСписок последних маршрутов поверх карты\u003c/li\u003e\n\u003cli\u003eКонтроль видимости сервисов на цветной навигационной панели\u003c/li\u003e\n\u003cli\u003eРеклама\u003c/li\u003e\n\u003cli\u003eСкрытие ленты историй, предложений, товаров в карточках организаций\u003c/li\u003e\n\u003cli\u003eСписок категорий на карточках зданий\u003c/li\u003e\n\u003cli\u003eБлокировка автоподъёма поисковой строки\u003c/li\u003e\n\u003cli\u003eБлокировка появления уведомлений и стартовых историй на главной\u003c/li\u003e\n\u003cli\u003eСкрытие профиля с социальной сетью\u003c/li\u003e\n\u003cli\u003eУправление дизайном истории поиска\u003c/li\u003e\n\u003cli\u003eТочки интереса (кружки) на карте\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eПлатные сервисы (скрытие):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЯндекс.Плюс\u003c/li\u003e\n\u003cli\u003eТакси\u003c/li\u003e\n\u003cli\u003eЗаправки\u003c/li\u003e\n\u003cli\u003eПарковки\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eРасположения баннеров:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПоисковые категории\u003c/li\u003e\n\u003cli\u003eТекстовая у меток организаций на карте\u003c/li\u003e\n\u003cli\u003eВсплывающие баннеры организаций при движении в режиме навигатора\u003c/li\u003e\n\u003cli\u003eКарточки организаций / зданий\u003c/li\u003e\n\u003cli\u003eКнопка о покупке рекламы в карточке организации\u003c/li\u003e\n\u003cli\u003eГоризонтальная кнопка в профиле о покупке рекламы\u003c/li\u003e\n\u003cli\u003eВызов такси\u003c/li\u003e\n\u003cli\u003eВо время построения маршрута\u003c/li\u003e\n\u003cli\u003eРазличные промо акции поверх карты\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.\u003c/li\u003e\n\u003cli\u003eДоступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian cartographic service \u003ca href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\"\u003eYandex Maps\u003c/a\u003e.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eYandex Maps Patcher\u003c/h1\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/total\" alt=\"downloads\" /\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release-date/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher\" alt=\"GitHub Release Date\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/lsposed_workshop_forum\"\u003e\u003cimg src=\"https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram\" alt=\"Telegram Group\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://4pda.to/forum/index.php?showtopic=603033\u0026amp;view=findpost\u0026amp;p=126968779\"\u003e\u003cimg src=\"https://img.shields.io/badge/4PDA-Topic-blue\" alt=\"4PDA\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://pay.cloudtips.ru/p/85f8cf00\"\u003e\u003cimg src=\"https://img.shields.io/badge/Donate_Form-blue\" alt=\"Donate\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eСкрывает рекламу и навязчивые сервисы в приложении \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch3\u003eОбщее:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЗапуск настроек: Долгое нажатие на иконку профиля на главной\u003c/li\u003e\n\u003cli\u003eЯндекс.Плюс для Android Auto и музыка включены всегда\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eКонтролируемый функционал:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eСписок последних маршрутов поверх карты\u003c/li\u003e\n\u003cli\u003eКонтроль видимости сервисов на цветной навигационной панели\u003c/li\u003e\n\u003cli\u003eРеклама\u003c/li\u003e\n\u003cli\u003eСкрытие ленты историй, предложений, товаров в карточках организаций\u003c/li\u003e\n\u003cli\u003eСписок категорий на карточках зданий\u003c/li\u003e\n\u003cli\u003eБлокировка автоподъёма поисковой строки\u003c/li\u003e\n\u003cli\u003eБлокировка появления уведомлений и стартовых историй на главной\u003c/li\u003e\n\u003cli\u003eСкрытие профиля и лент с социальной сетью\u003c/li\u003e\n\u003cli\u003eУправление дизайном истории поиска\u003c/li\u003e\n\u003cli\u003eТочки интереса (кружки) на карте\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eПлатные сервисы (скрытие):\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eЯндекс.Плюс\u003c/li\u003e\n\u003cli\u003eТакси\u003c/li\u003e\n\u003cli\u003eЗаправки\u003c/li\u003e\n\u003cli\u003eПарковки\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eРасположения баннеров:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eПоисковые категории\u003c/li\u003e\n\u003cli\u003eТекстовая у меток организаций на карте\u003c/li\u003e\n\u003cli\u003eВсплывающие баннеры организаций при движении в режиме навигатора\u003c/li\u003e\n\u003cli\u003eКарточки организаций / зданий\u003c/li\u003e\n\u003cli\u003eКнопка о покупке рекламы в карточке организации\u003c/li\u003e\n\u003cli\u003eГоризонтальная кнопка в профиле о покупке рекламы\u003c/li\u003e\n\u003cli\u003eВызов такси\u003c/li\u003e\n\u003cli\u003eВо время построения маршрута\u003c/li\u003e\n\u003cli\u003eРазличные промо акции поверх карты\u003c/li\u003e\n\u003cli\u003eБизнес запросы\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eТребования:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid 8.0+\u003c/li\u003e\n\u003cli\u003eУстановленное приложение \u003ca href=\"https://www.rustore.ru/catalog/app/ru.yandex.yandexmaps\"\u003eЯндекс Карты\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eОбратите внимание:\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003eМодульная часть использует рут возможности для завершения процесса и работой с файлами в личной папке Яндекс Карт.\u003c/li\u003e\n\u003cli\u003eДоступ к Android Auto сделан теоретически, к сожалению нет возможности постоянного тестирования данного функционала.\u003c/li\u003e\n\u003cli\u003eМодуль имеет возможность работать в режиме \u003ca href=\"https://github.com/JingMatrix/LSPatch\"\u003eLSPatch\u003c/a\u003e, требуются некоторые подготовительные процессы, подробнее смотрите в telegram канале.\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eFor non-Russian users:\u003c/h2\u003e\n\u003cp\u003eThis is a module for the russian cartographic service \u003ca href=\"https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps\"\u003eYandex Maps\u003c/a\u003e.\nYou don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.\u003c/p\u003e\n",
       "icon": "ru.bluecat.yandexmapspatcher.png",
-      "lastUpdated": 1742057709000,
+      "lastUpdated": 1742249246000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "- Поддержка версии 22.9.0 (737868350)\n- Скрыта текстовая реклама на карте у меток организаций.\n- Добавлена возможность скрыть новый формат идей ввиде раскрываемой наверх ленты из под нижней панели. Идеи переехали в раздел сервисов модуля.\n- Убрано управление нижней поисковой строкой.\n- Добавлена блокировка авто подъёма нижней поисковой строки, эта настройка работает только при сворачивании от движения по карте.\n- Оптимизация для работы на Android 15.\n\nРазработчики полностью удалили код управлени"
+          "whatsNew": "- Скрыт бизнес запрос в профиле. Подключено к переключателю \"Реклама\".\n- Скрыта соц лента в отзывах к организациям. Подключено к переключателю \"Профиль\"."
         }
       },
       "name": "Yandex Maps Patcher",
       "packageName": "ru.bluecat.yandexmapspatcher",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher",
-      "suggestedVersionCode": "259",
-      "suggestedVersionName": "1.14",
+      "suggestedVersionCode": "262",
+      "suggestedVersionName": "1.14.1",
       "summary": "Скрывает рекламу и навязчивые сервисы в приложении Яндекс Карты."
     },
     {
@@ -15009,7 +15009,7 @@
         "versionName": "1.0.1"
       },
       {
-        "added": 1742007339000,
+        "added": 1742008965000,
         "apkName": "com.modisk.dawn_1-1.0.2.apk",
         "hash": "88b96a35c64347e7853c0be9e7d2c962e4af7b357ad2920b3a4b662d2541a01b",
         "hashType": "sha256",
@@ -15027,6 +15027,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "1.0.2"
+      },
+      {
+        "added": 1742220390000,
+        "apkName": "com.modisk.dawn_1-1.0.3.apk",
+        "hash": "49ce0d6cadafacd22c5b1c1ad892cbe4ab5807d1141b5ef00188b1520fd572fb",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.modisk.dawn",
+        "sig": "ac201a917cf82fa51e104ca65c51ca03",
+        "signer": "a7ff1353682bb0ceca83ef0b56746d14582e47df234e11d92554bb471bcb42a4",
+        "size": 6670551,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.3"
       }
     ],
     "com.my.televip": [
@@ -16629,7 +16649,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1742182443000,
+        "added": 1742268674000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18782,6 +18802,23 @@
       }
     ],
     "io.github.qauxv": [
+      {
+        "added": 1742214524000,
+        "apkName": "io.github.qauxv_2638-1.5.7.r2638.6feba5e.apk",
+        "hash": "c54431514c2d5f9a73a5f8a5c6f7539dccf0673e19f75a2cc501d3f59ed0b8d2",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "io.github.qauxv",
+        "sig": "44b936a88b8cd82e68a655c3a2657069",
+        "signer": "c35fe6aa95ce531c216fc65c24cac7215019e590b314fbec07d17c9300d71500",
+        "size": 7466342,
+        "targetSdkVersion": 35,
+        "versionCode": 2638,
+        "versionName": "1.5.7.r2638.6feba5e"
+      },
       {
         "added": 1732159540000,
         "apkName": "io.github.qauxv_2483-1.5.4.r2483.eecf29b.apk",
@@ -21058,7 +21095,27 @@
     ],
     "ru.bluecat.yandexmapspatcher": [
       {
-        "added": 1742057709000,
+        "added": 1742249246000,
+        "apkName": "ru.bluecat.yandexmapspatcher_262-1.14.1.apk",
+        "hash": "a50db74bdaaec4df77f572e36cc0cd95fcda4f4c072fa53fdb6bb6cd720acdf9",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "ru.bluecat.yandexmapspatcher",
+        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
+        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
+        "size": 6992637,
+        "targetSdkVersion": 35,
+        "versionCode": 262,
+        "versionName": "1.14.1"
+      },
+      {
+        "added": 1742095866000,
         "apkName": "ru.bluecat.yandexmapspatcher_259-1.14.apk",
         "hash": "e2d6410cc4109c9305c99cdb5b8bddec55953ea7ee93ad0997636aedbd79b11e",
         "hashType": "sha256",
@@ -21096,26 +21153,6 @@
         "targetSdkVersion": 34,
         "versionCode": 243,
         "versionName": "1.13.2"
-      },
-      {
-        "added": 1738379519000,
-        "apkName": "ru.bluecat.yandexmapspatcher_241-1.13.1.apk",
-        "hash": "5b3371226cd1806921a68bfdf2583cac66b9477c302e3b94522d1d4f886936a9",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86",
-          "x86_64"
-        ],
-        "packageName": "ru.bluecat.yandexmapspatcher",
-        "sig": "219da1253a70fa9cf39c2ff06ebd3f47",
-        "signer": "2afeb48d8d8e8d2a7dec9f6e16f0dd97268fcaabcd1a067e09cbe48b1c679d66",
-        "size": 8610410,
-        "targetSdkVersion": 34,
-        "versionCode": 241,
-        "versionName": "1.13.1"
       }
     ],
     "ru.hepolise.volumekeymusicmanagermodule": [

@@ -2565,7 +2565,7 @@ cn.lyric.getter:
             <li>更新：Portuguese and English 翻译更新<br>
             <strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.16...25-2.0.25">xiaowine/Lyric-Getter@<tt>24-2.0.16...25-2.0.25</tt></a></li>
             </ul>
-    author_name: xiaowine
+    author_name: ghhccghk
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
     summary: 正如其名，让Android后台CPU不再活跃
@@ -9196,10 +9196,10 @@ com.modisk.dawn:
           description: |
             <h1>Modisk</h1>
             <p>Modsik 解锁更多功能！</p>
-          filename: Modisk_1.0.2.apk
+          filename: Modisk_1.0.3.apk
           id: com.modisk.dawn
           name: Modisk
-          last_updated: "2025-03-15T02:55:39Z"
+          last_updated: "2025-03-17T14:06:30Z"
           releasedescription: |-
             <p><strong>Modisk 解锁更多功能！</strong><br>
             常规更新</p>
@@ -16928,44 +16928,48 @@ io.github.qauxv:
             <li>由于项目的特殊性，我们不接受任何形式的捐赠，但是我们希望有更多的人能够参与本项目的开发</li>
             </ul>
             <h2><a href="https://github.com/qwq233/License/blob/master/v2/LICENSE.md">通用许可协议</a></h2>
-          filename: QAuxv-v1.5.6.r2578.651aa68-symbol.zip
+          filename: QAuxv-v1.5.7.r2638.6feba5e-arm32.apk
           id: io.github.qauxv
           name: QAuxiliary
-          last_updated: "2025-01-16T07:06:28Z"
+          last_updated: "2025-03-17T12:28:44Z"
           releasedescription: |-
-            <p><strong>QAuxiliary v1.5.6</strong></p>
+            <p><strong>QAuxiliary v1.5.7</strong></p>
             <p><strong>新增功能</strong></p>
             <ul>
-            <li>显示业务右上角移除选项</li>
-            <li>隐藏底栏标题</li>
-            <li>隐藏登录设备(已登录 Windows、Pad)提示</li>
-            <li>TIM 群标题栏添加精华消息入口</li>
+            <li>去你妈的打开通讯录</li>
+            <li>移除语音自动转文本灰字提示</li>
+            <li>隐藏群助手顶部 Banner 提示</li>
+            <li>屏蔽聊天记录异常对话框</li>
+            <li>加载外部插件</li>
             </ul>
-            <p><strong>修复部分功能</strong></p>
+            <p><strong>修复功能</strong></p>
             <ul>
-            <li>精简聊天气泡长按菜单</li>
-            <li>消息+1 Plus</li>
-            <li>小程序/分享卡片跳转APP</li>
-            <li>精简设置菜单</li>
-            <li>被禁言剩余时间精确到秒</li>
-            <li>强制平板模式</li>
-            <li>移除侧滑栏左上角打卡</li>
-            <li>文本消息自由复制</li>
-            <li>可选使用系统相册</li>
-            <li>聊天界面查看图片使用透明背景</li>
-            <li>聊天自动发送原图</li>
-            <li>批量撤回消息</li>
+            <li>显示具体消息数量 (TIM_NT)</li>
+            <li>输入框增加提示 (TIM_NT)</li>
+            <li>TIM 群标题栏添加精华消息入口</li>
+            <li>精简主页加号菜单 (TIM_NT)</li>
+            <li>精简联系人页面 (TIM_NT)</li>
+            <li>精简表情菜单 (TIM_NT)</li>
+            <li>语音转发及保存 (TIM_NT)</li>
+            <li>设置页QA入口 (QQ9.1.50+)</li>
+            <li>移除表情回应限制 (QQ9.1.50+)</li>
+            <li>显示具体消息数量 (QQ9.1.50+)</li>
+            <li>消息显示At对象 (QQ9.1.50+)</li>
+            <li>允许上传透明头像和表情 (QQ9.1.50+)</li>
+            <li>转发消息点头像查看详细信息 (QQ9.1.50+)</li>
+            <li>强制平板/手机模式 (QQ9.1.50+)</li>
+            <li>允许保存图片表情 (TIM_NT / QQ9.1.55+)</li>
+            <li>屏蔽更新 (QQ8.2.11)</li>
             </ul>
-            <p>Commit: <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/cinit/QAuxiliary/commit/651aa68ccd5d4e7c59f57c5237e8a9d96e2d84e7/hovercard" href="https://github.com/cinit/QAuxiliary/commit/651aa68ccd5d4e7c59f57c5237e8a9d96e2d84e7">cinit/QAuxiliary@<tt>651aa68</tt></a></p>
             <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sha256sum *
-            d67197dfbd33e33fd45b27839574f58c674845c88fb04ce93f22b7c9f55899bf  QAuxv-v1.5.6.r2578.651aa68-arm32.apk
-            31cd09784c3651bf8e5fc5f44510f1cdd5d0748a7b17874c395dce57942e15ab  QAuxv-v1.5.6.r2578.651aa68-arm64.apk
-            245c2a0fa1789cd0ee95d6f2c6cf8ac4c123d7d91b03f389902d97c0554ac794  QAuxv-v1.5.6.r2578.651aa68-armAll.apk
-            aa7675a0043ceee3efc6fee92d8cc98b6b9033f3fbbefa117d05d11cb9b0590a  QAuxv-v1.5.6.r2578.651aa68-universal.apk"><pre lang="text" class="notranslate"><code>sha256sum *
-            d67197dfbd33e33fd45b27839574f58c674845c88fb04ce93f22b7c9f55899bf  QAuxv-v1.5.6.r2578.651aa68-arm32.apk
-            31cd09784c3651bf8e5fc5f44510f1cdd5d0748a7b17874c395dce57942e15ab  QAuxv-v1.5.6.r2578.651aa68-arm64.apk
-            245c2a0fa1789cd0ee95d6f2c6cf8ac4c123d7d91b03f389902d97c0554ac794  QAuxv-v1.5.6.r2578.651aa68-armAll.apk
-            aa7675a0043ceee3efc6fee92d8cc98b6b9033f3fbbefa117d05d11cb9b0590a  QAuxv-v1.5.6.r2578.651aa68-universal.apk
+            c54431514c2d5f9a73a5f8a5c6f7539dccf0673e19f75a2cc501d3f59ed0b8d2 QAuxv-v1.5.7.r2638.6feba5e-arm32.apk
+            3a6cfd790b983ccc263885e861e56c45ed3cb3bc0cc45c6cd4e309b790e195f4 QAuxv-v1.5.7.r2638.6feba5e-arm64.apk
+            d907781a30c894270e76988ae324773e661fb308c563fd3b99ff3048d089abb6 QAuxv-v1.5.7.r2638.6feba5e-armAll.apk
+            0375ebd0e0c1f00cf274a6cd3d2f594fe82bf88533b069e62b967751d7503719 QAuxv-v1.5.7.r2638.6feba5e-universal.apk"><pre lang="text" class="notranslate"><code>sha256sum *
+            c54431514c2d5f9a73a5f8a5c6f7539dccf0673e19f75a2cc501d3f59ed0b8d2 QAuxv-v1.5.7.r2638.6feba5e-arm32.apk
+            3a6cfd790b983ccc263885e861e56c45ed3cb3bc0cc45c6cd4e309b790e195f4 QAuxv-v1.5.7.r2638.6feba5e-arm64.apk
+            d907781a30c894270e76988ae324773e661fb308c563fd3b99ff3048d089abb6 QAuxv-v1.5.7.r2638.6feba5e-armAll.apk
+            0375ebd0e0c1f00cf274a6cd3d2f594fe82bf88533b069e62b967751d7503719 QAuxv-v1.5.7.r2638.6feba5e-universal.apk
             </code></pre></div>
     author_name: NextAlone
 io.github.rushiranpise.gameunlocker:
@@ -18093,7 +18097,7 @@ me.hd.hookwzry:
     author_name: HdShare
 me.hd.wauxv:
     git: https://github.com/Xposed-Modules-Repo/me.hd.wauxv
-    summary: Wechat 辅助性功能增强
+    summary: WeChat Auxiliary Function Enhancement
     applications:
         - anti_features: []
           categories:
@@ -18134,43 +18138,48 @@ me.hd.wauxv:
             </p>
             <p align="center">
                 <a href="https://github.com/HdShare/WAuxiliary_Public/releases/latest">
-                    <img src="https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=07c160&color=c8c8c8" alt="release">
+                    <img src="https://img.shields.io/github/v/release/HdShare/WAuxiliary_Public?style=flat-square&label=Release&labelColor=28c445&color=c8c8c8" alt="release">
+                </a>
+                <a href="https://t.me/Hd_WAuxiliary_CI">
+                    <img src="https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Channel&color=099fdf" alt="Telegram">
                 </a>
                 <a href="https://t.me/Hd_WAuxiliary">
-                    <img src="https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Chat&color=099fdf" alt="Telegram">
+                    <img src="https://img.shields.io/static/v1?style=flat-square&label=Telegram&labelColor=01bfaf&message=Group&color=099fdf" alt="Telegram">
                 </a>
             </p>
             <hr />
-            <h2>说明 / Desc:</h2>
-            <p>Wechat 辅助性功能增强</p>
+            <h2>说明:</h2>
+            <p>WeChat Auxiliary Function Enhancement</p>
             <blockquote>
             <p>在 GitHub 点击右上角 ⭐ Star 以支持我在空余时间继续开发</p>
             </blockquote>
             <ul>
             <li>一切开发旨在学习，请勿用于非法用途</li>
-            <li>鉴于项目的特殊性，开发团队可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>
+            <li>鉴于项目的特殊性，开发团队可能随时<strong>停止更新</strong>或<strong>删除项目</strong></li>
             </ul>
             <hr />
-            <h2>功能 / Func:</h2>
+            <h2>问题:</h2>
             <table>
-                <tr>
-                    <td align="center"><b>功能名</b></td>
-                    <td align="center"><b>开发状态</b></td>
-                    <td align="center"><b>适配版本</b></td>
-                </tr>
-                <tr>
-                    <td align="center">❓功能</td>
-                    <td align="center">❓</td>
-                    <td align="center">❓</td>
-                </tr>
+            <thead>
+            <tr>
+            <th>Question</th>
+            <th>Answer</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>适配版本</td>
+            <td>理论适配 8.0.0~8.0.57 国内与PLAY版本</td>
+            </tr>
+            </tbody>
             </table>
             <hr />
-            <h2>致谢 / Thanks:</h2>
+            <h2>致谢:</h2>
             <table>
             <thead>
             <tr>
             <th>Name</th>
-            <th>Source</th>
+            <th>Link</th>
             </tr>
             </thead>
             <tbody>
@@ -18194,21 +18203,22 @@ me.hd.wauxv:
             <td>TSBattery</td>
             <td><a href="https://github.com/fankes/TSBattery">TSBattery</a></td>
             </tr>
+            <tr>
+            <td>Icon</td>
+            <td><a href="https://github.com/Lagrio">MaiTungTM</a></td>
+            </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.1.5.314.apk
+          filename: WAuxiliary_v1.1.6.318.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-03-14T10:59:12Z"
+          last_updated: "2025-03-18T01:49:42Z"
           releasedescription: |-
             <ul>
-            <li>修复 已知BUG</li>
-            <li>优化 部分UI及功能</li>
-            <li>新增 大饼功能页</li>
-            <li>新增 虚拟定位 的 地图选点</li>
-            <li>重构 消息时间 为 消息详情</li>
-            <li>新增 系统浏览 的 白名单</li>
-            <li>新增 打开详情</li>
+            <li>新增 友圈时间详情</li>
+            <li>新增 拦截友圈广告</li>
+            <li>修复 模块已知问题</li>
+            <li>优化 模块用户体验</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:
@@ -20984,7 +20994,7 @@ ru.bluecat.yandexmapspatcher:
             <li>Список категорий на карточках зданий</li>
             <li>Блокировка автоподъёма поисковой строки</li>
             <li>Блокировка появления уведомлений и стартовых историй на главной</li>
-            <li>Скрытие профиля с социальной сетью</li>
+            <li>Скрытие профиля и лент с социальной сетью</li>
             <li>Управление дизайном истории поиска</li>
             <li>Точки интереса (кружки) на карте</li>
             </ul>
@@ -21006,6 +21016,7 @@ ru.bluecat.yandexmapspatcher:
             <li>Вызов такси</li>
             <li>Во время построения маршрута</li>
             <li>Различные промо акции поверх карты</li>
+            <li>Бизнес запросы</li>
             </ul>
             <h3>Требования:</h3>
             <ul>
@@ -21021,22 +21032,15 @@ ru.bluecat.yandexmapspatcher:
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian cartographic service <a href="https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps">Yandex Maps</a>.
             You don’t need to use it, almost all modifications are related to advertising and paid services that do not work outside of Russia. This module has support only for the Russian language.</p>
-          filename: Yandex_Maps_Patcher_v1.14.apk
+          filename: Yandex_Maps_Patcher_v1.14.1.apk
           id: ru.bluecat.yandexmapspatcher
           name: Yandex Maps Patcher
-          last_updated: "2025-03-15T16:55:09Z"
+          last_updated: "2025-03-17T22:07:26Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 22.9.0 (737868350)</li>
-            <li>Скрыта текстовая реклама на карте у меток организаций.</li>
-            <li>Добавлена возможность скрыть новый формат идей ввиде раскрываемой наверх ленты из под нижней панели. Идеи переехали в раздел сервисов модуля.</li>
-            <li>Убрано управление нижней поисковой строкой.</li>
-            <li>Добавлена блокировка авто подъёма нижней поисковой строки, эта настройка работает только при сворачивании от движения по карте.</li>
-            <li>Оптимизация для работы на Android 15.</li>
+            <li>Скрыт бизнес запрос в профиле. Подключено к переключателю "Реклама".</li>
+            <li>Скрыта соц лента в отзывах к организациям. Подключено к переключателю "Профиль".</li>
             </ul>
-            <p>Разработчики полностью удалили код управления анимацией нижней поисковой строкой.<br>
-            Некоторым функциям модуля теперь требуется разрешение "Всегда сверху" на Android 15.</p>
-            <p>Модуль будет придерживаться версии с RuStore на момент своего релиза.</p>
     author_name: BlueCat300
 ru.hepolise.volumekeymusicmanagermodule:
     git: https://github.com/Xposed-Modules-Repo/ru.hepolise.volumekeymusicmanagermodule

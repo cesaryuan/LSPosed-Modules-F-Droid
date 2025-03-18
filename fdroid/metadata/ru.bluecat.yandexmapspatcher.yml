@@ -1,8 +1,8 @@
 AuthorName: BlueCat300
 Categories:
     - Xposed
-CurrentVersion: "1.14"
-CurrentVersionCode: 259
+CurrentVersion: 1.14.1
+CurrentVersionCode: 262
 Description: |
     <div align="center">
     <h1>Yandex Maps Patcher</h1>
@@ -29,7 +29,7 @@ Description: |
     <li>Список категорий на карточках зданий</li>
     <li>Блокировка автоподъёма поисковой строки</li>
     <li>Блокировка появления уведомлений и стартовых историй на главной</li>
-    <li>Скрытие профиля с социальной сетью</li>
+    <li>Скрытие профиля и лент с социальной сетью</li>
     <li>Управление дизайном истории поиска</li>
     <li>Точки интереса (кружки) на карте</li>
     </ul>
@@ -51,6 +51,7 @@ Description: |
     <li>Вызов такси</li>
     <li>Во время построения маршрута</li>
     <li>Различные промо акции поверх карты</li>
+    <li>Бизнес запросы</li>
     </ul>
     <h3>Требования:</h3>
     <ul>
