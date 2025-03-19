@@ -2551,20 +2551,19 @@ cn.lyric.getter:
             <hr />
             <h2>Star History</h2>
             <p><a href="https://star-history.com/#xiaowine/Lyric-Getter&amp;Timeline"><img src="https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter&amp;type=Timeline" alt="Star History Chart" /></a></p>
-          filename: Lyrics.Getter-2.0.25-25-release-1738053993478.apk
+          filename: Lyrics.Getter-2.0.26-26-debug-1742193157943.apk
           id: cn.lyric.getter
           name: Lyric Getter | 酒域-歌词获取
-          last_updated: "2025-01-29T13:46:13Z"
+          last_updated: "2025-03-18T12:18:04Z"
           releasedescription: |-
             <ul>
-            <li>新增：网易云状态栏歌词强开</li>
-            <li>优化：删除无用的函数</li>
-            <li>优化：移动getProcessName函数到HookTools里来增加代码复用性</li>
-            <li>修复：酷狗概念版3.4.9状态栏无法使用</li>
-            <li>优化：vivo设备名称获取</li>
-            <li>更新：Portuguese and English 翻译更新<br>
-            <strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.16...25-2.0.25">xiaowine/Lyric-Getter@<tt>24-2.0.16...25-2.0.25</tt></a></li>
+            <li>新增：oppo 音乐，Poweramp支持</li>
+            <li>优化：酷狗概念版歌词获取</li>
+            <li>优化：网易云更换状态栏歌词获取接口</li>
+            <li><a href="https://github.com/xiaowine/Lyric-Getter/pull/290" data-hovercard-type="pull_request" data-hovercard-url="/xiaowine/Lyric-Getter/pull/290/hovercard">opt: playback state add stopped.</a></li>
+            <li><a href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.25...25-2.0.26"><strong>Full Changelog</strong> </a></li>
             </ul>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIzNTQxMjksIm5iZiI6MTc0MjM1MzgyOSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzE5VDAzMTAyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxYjkwMGI1YmI0MjRkMjllMTQ0Mzk0YTEwMzhlOWYxMGZhZWE0M2ZhNDMzNDlkNjQ2MmQ2NmUzZGUzMTI4ZGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IzhOUiV1U-E3OKdZQ9G93821TFUaq6B9qEyvx2xmSFA"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIzNTQxMjksIm5iZiI6MTc0MjM1MzgyOSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzE5VDAzMTAyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxYjkwMGI1YmI0MjRkMjllMTQ0Mzk0YTEwMzhlOWYxMGZhZWE0M2ZhNDMzNDlkNjQ2MmQ2NmUzZGUzMTI4ZGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IzhOUiV1U-E3OKdZQ9G93821TFUaq6B9qEyvx2xmSFA" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
     author_name: ghhccghk
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
@@ -2664,6 +2663,27 @@ cn.tinyhai.ban_uninstall:
             <li>更新版本号</li>
             </ul>
     author_name: TinyHai
+cn.unicorn369.HookEuicc:
+    git: https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc
+    summary: 伪装支持eSIM，获取eSIM激活码
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>HookEuicc</h1>
+            <p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>
+            <p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>
+            <h3>食用方法</h3>
+            <p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>
+            <p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>
+            <p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>
+          filename: app-release.apk
+          id: cn.unicorn369.HookEuicc
+          name: 伪装支持eSIM，获取eSIM激活码
+          last_updated: "2025-03-18T06:36:15Z"
+          releasedescription: <p>初始版本</p>
+    author_name: Unicorn369
 cn.wankkoree.xp.portrait2landscape:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.portrait2landscape
     summary: |-
@@ -17615,13 +17635,11 @@ junzi.xposed.hook:
             <p>驾考精灵</p>
             <p>小星记账</p>
             <p>等等等等(其实是懒得写了)</p>
-          filename: JunZi.Xposed.Hook_4.0.2.apk
+          filename: JunZi.Xposed.Hook_4.0.3.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-16T04:58:19Z"
-          releasedescription: |-
-            <p>新增 支持 小组件盒子<br>
-            新增 支持 生辰</p>
+          last_updated: "2025-03-19T01:06:19Z"
+          releasedescription: <p>新增 支持 万象小组件 轻弹窗 记得日子</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -17777,18 +17795,25 @@ lzlnb.cnm.hook:
           categories:
             - Xposed
           description: "<div align=\"center\">\n    <h1 > 模了个块 </h1>\n<p><a href=\"https://t.me/lzlmo\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>  \n<hr />\n<h2>QQ模块介绍</h2>\n<ul>\n<li>\n<p><strong>支持的QQ版本 9.0.65 +</strong></p>\n</li>\n<li>\n<p>具体自测没实际测过</p>\n</li>\n<li>\n<p>新版本会优先适配</p>\n</li>\n<li>\n<p><strong>推荐使用的框架</strong></p>\n</li>\n</ul>\n<ul>\n<li>1.<a href=\"https://github.com/LSPosed/LSPosed\">LSPosed</a></li>\n<li>2.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 本地模式(没root的可以用这个)</li>\n<li>3.<a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a> 内置模式(便携模式 或者这个)</li>\n<li>4.<a href=\"https://lzlgzs.lanzouq.com/b03dx2vf4d\">FPA</a> 免root(支持安卓15)</li>\n</ul>\n<h3>使用教程</h3>\n<ul>\n<li><a href=\"https://b23.tv/u3FFj0h\">点击查看</a></li>\n</ul>\n<h2>功能列表</h2>\n<ul>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义名片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 长按消息功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 头像功能（群管）</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 发送卡片</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 字符串防卡顿</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽戳一戳动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 随机伪装手机号码</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 篡改图片比例为最大</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽进群特效</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版侧边栏</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 弹窗功能</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 上传文件重命名</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 群文件下载次数</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 屏蔽关键词动画</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 接触危险网页拦截</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 闪照破解</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 跳过登录倒计时</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 恢复旧版设置</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除扫码限制</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 去除封号状态</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> 自定义主页等级</li>\n<li><input type=\"checkbox\" checked=\"\" disabled=\"\" /> QQ瘦身（清理QQ内存）</li>\n</ul>\n<h2>具体功能还有很多自测</h2>\n"
-          filename: MoldedaBlock_v2.4.apk
+          filename: MoldedaBlock_2.5.apk
           id: lzlnb.cnm.hook
           name: 模了个块
-          last_updated: "2025-01-21T18:51:37Z"
+          last_updated: "2025-03-18T15:23:29Z"
           releasedescription: |-
-            <p>新增消息防撤回(会显示具体谁撤回 管理员 群主 自己)<br>
-            头像功能私聊对其它人隐藏撤回<br>
-            优化模块加载速度<br>
-            对赞助用户开放pb<br>
-            优化部分代码<br>
-            修复防撤回导致表情异常BUG<br>
-            修复防撤回开关无效BUG</p>
+            <ul class="contains-task-list">
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复防撤回对灰字提示生效BUG</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 优化头像功能只显示有对应权限的功能</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 新增平板模式</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 头像功能新增艾特对象（跳转被艾特人的主页）</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本屏蔽戳一戳失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本修改文本失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本头像功能点击失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本恢复旧版本失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本屏蔽进群特效失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本解除危险网页拦截失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复9.1.50以上版本上传文件重命名失效问题</li>
+            <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 修复连不上服务器闪退问题</li>
+            </ul>
     author_name: "274274"
 ma.wanam.youtubeadaway:
     git: https://github.com/Xposed-Modules-Repo/ma.wanam.youtubeadaway
@@ -20948,17 +20973,13 @@ ru.bluecat.sberbankpatcher:
             </ul>
             <h2>For non-Russian users:</h2>
             <p>This is a module for the russian banking application <a href="https://www.rustore.ru/catalog/app/ru.sberbankmobile">Sberbank</a>. You don’t need to use it, app working only in Russia. This module has support only for the Russian language.</p>
-          filename: Sberbank_Patcher_v1.26.apk
+          filename: Sberbank_Patcher_v1.27.apk
           id: ru.bluecat.sberbankpatcher
           name: Sberbank Patcher
-          last_updated: "2025-03-10T22:21:57Z"
+          last_updated: "2025-03-18T18:33:05Z"
           releasedescription: |-
             <ul>
-            <li>Поддержка версии 16.5.0</li>
-            <li>Добавлен ассистент в кошельке и всех сервисах.</li>
-            <li>Убраны каналы. Настройки будет возвращена если разработчики вернут соответствующий функционал в приложение.</li>
-            <li>Убраны персональные предложения. Теперь существует в официальном разделе рекламы.</li>
-            <li>Убрана фоновая очистка кэша push уведомлений. Не показало достаточную практическую пользу.</li>
+            <li>Поддержка версии 16.6.0</li>
             </ul>
     author_name: BlueCat300
 ru.bluecat.yandexmapspatcher:

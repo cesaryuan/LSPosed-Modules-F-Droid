@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1742269044000,
+    "timestamp": 1742355206000,
     "categories": {
       "Xposed": {
         "name": {
@@ -144,6 +144,67 @@
               },
               {
                 "name": "android.permission.ACCESS_NETWORK_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cn.lyric.getter": {
+      "metadata": {
+        "added": 1732159419000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1742354838000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.lyric.getter",
+        "authorName": "ghhccghk",
+        "name": {
+          "en-US": "Lyric Getter | 酒域-歌词获取"
+        },
+        "summary": {
+          "en-US": "Lyric Getter"
+        },
+        "description": {
+          "en-US": "<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/cn.lyric.getter/total?style=flat-square\" alt=\"Release Download\" /><br />\n<img src=\"https://img.shields.io/github/downloads/xiaowine/Lyric-Getter/total?style=flat-square\" alt=\"Release Download\" /><br />\n<a href=\"https://github.com/xiaowine/Lyric-Getter/releases/latest\"><img src=\"https://img.shields.io/github/v/release/xiaowine/Lyric-Getter?style=flat-square\" alt=\"Release Version\" /></a><br />\n<a href=\"https://github.com/xiaowine/Lyric-Getter/LICENSE\"><img src=\"https://img.shields.io/github/license/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub license\" /></a><br />\n<a href=\"https://github.com/xiaowine/Lyric-Getter/stargazers\"><img src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Star\" /></a><br />\n<a href=\"https://github.com/xiaowine/Lyric-Getter/network/members\"><img src=\"https://img.shields.io/github/forks/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Fork\" /></a><br />\n<img src=\"https://img.shields.io/github/repo-size/xiaowine/Lyric-Getter?style=flat-square&amp;color=3cb371\" alt=\"GitHub Repo size\" /><br />\n<a href=\"https://github.com/xiaowine/Lyric-Getter/search?l=koltin\"><img src=\"https://img.shields.io/github/languages/top/xiaowine/Lyric-Getter?style=flat-square\" alt=\"GitHub Repo Languages\" /></a><br />\n<a href=\"https://actions-badge.atrox.dev/xiaowine/Lyric-Getter/goto?ref=main\"><img src=\"https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F577fkj%2FStatusBarLyric%2Fbadge%3Fref%3Dmain&amp;style=flat\" alt=\"Build Status\" /></a><br />\n<img src=\"https://img.shields.io/github/stars/xiaowine/Lyric-Getter.svg?style=social\" alt=\"GitHub Star\" /></p>\n<h2>这是什么东西？</h2>\n<h4>这是一个Xposed模块（现支持LSPosed\\LSPatch），通过Hook获取音乐软件的歌词，提供给其他模块\\软件使用</h4>\n<h2>为什么我的歌词不隐藏？</h2>\n<h4>因为模块通过监听媒体通知事件，来判断是否应该隐藏歌词。而部分音乐软件默认通知样式为自定义的，所以需要将通知样式改为系统样式</h4>\n<hr />\n<h3>支持软件请在模块内查看，或查看<a href=\"https://github.com/xiaowine/Lyric-Getter/blob/gh-pages/app_rules_version\">规则文件</a></h3>\n<hr />\n<h3>你也可以主动使用本模块API，用于收发歌词<a href=\"https://github.com/xiaowine/Lyric-Getter-Api\">Lyric-Getter-Api</a></h3>\n<hr />\n<h2>Star History</h2>\n<p><a href=\"https://star-history.com/#xiaowine/Lyric-Getter&amp;Timeline\"><img src=\"https://api.star-history.com/svg?repos=xiaowine/Lyric-Getter&amp;type=Timeline\" alt=\"Star History Chart\" /></a></p>\n"
+        },
+        "preferredSigner": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
+      },
+      "versions": {
+        "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48": {
+          "added": 1732159419000,
+          "file": {
+            "name": "/cn.lyric.getter_23-2.0.15.apk",
+            "sha256": "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48",
+            "size": 3097741
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.15",
+            "versionCode": 23,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "cn.lyric.getter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
@@ -2723,7 +2784,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742182488000,
+        "lastUpdated": 1742354979000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2738,6 +2799,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795": {
+          "added": 1741663611000,
+          "file": {
+            "name": "/junzi.xposed.hook_40-4.0.apk",
+            "sha256": "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795",
+            "size": 1766617
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0",
+            "versionCode": 40,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "959a62dcde000ae7fe9bd451762d56e99255f7d526efd475844ef6838a91471e": {
           "added": 1741318032000,
           "file": {
@@ -4663,7 +4757,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663642000,
+        "lastUpdated": 1742355011000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -4678,6 +4772,71 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98": {
+          "added": 1738725090000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_419-1.25.apk",
+            "sha256": "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98",
+            "size": 7791173
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.25",
+            "versionCode": 419,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "ad45043544ff3cdace1ec5496fccd91bf2918d500782a80fc9ba391552d1491a": {
           "added": 1738465890000,
           "file": {
