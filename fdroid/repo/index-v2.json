@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/repo",
-    "timestamp": 1742269058000,
+    "timestamp": 1742355221000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2661,7 +2661,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1738206441000,
+        "lastUpdated": 1742354838000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.lyric.getter",
         "authorName": "ghhccghk",
         "name": {
@@ -2676,6 +2676,44 @@
         "preferredSigner": "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
       },
       "versions": {
+        "46fd8ff3e212e56b5c5ede7cb719607d2270b28b02e601a54cae04ff1cda3124": {
+          "added": 1742354838000,
+          "file": {
+            "name": "/cn.lyric.getter_26-2.0.26.apk",
+            "sha256": "46fd8ff3e212e56b5c5ede7cb719607d2270b28b02e601a54cae04ff1cda3124",
+            "size": 8578961
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.26",
+            "versionCode": 26,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "cn.lyric.getter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "00eeeeeb53b08c358bd1586d22aa3ab42fb6507c4c39badb347f1777ade246a6": {
           "added": 1738206441000,
           "file": {
@@ -2730,44 +2768,6 @@
             ],
             "versionName": "2.0.16",
             "versionCode": 24,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "bb2086c2bab9a236e97da2d24513a1b64ea56f7917746470b402a819d1a39f39"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              },
-              {
-                "name": "cn.lyric.getter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48": {
-          "added": 1732159419000,
-          "file": {
-            "name": "/cn.lyric.getter_23-2.0.15.apk",
-            "sha256": "eaf3e82aca3d6362d201d4a3dbba33e999f66bc5fb174efa9ee28f6b69e53e48",
-            "size": 3097741
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "2.0.15",
-            "versionCode": 23,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 35
@@ -2899,13 +2899,57 @@
         }
       }
     },
+    "cn.unicorn369.HookEuicc": {
+      "metadata": {
+        "added": 1742354839000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1742354839000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc",
+        "authorName": "Unicorn369",
+        "name": {
+          "en-US": "伪装支持eSIM，获取eSIM激活码"
+        },
+        "summary": {
+          "en-US": "伪装支持eSIM，获取eSIM激活码"
+        },
+        "description": {
+          "en-US": "<h1>HookEuicc</h1>\n<p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>\n<p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>\n<h3>食用方法</h3>\n<p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>\n<p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>\n<p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>\n"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff": {
+          "added": 1742354839000,
+          "file": {
+            "name": "/cn.unicorn369.HookEuicc_1-1.0.apk",
+            "sha256": "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff",
+            "size": 17065
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            }
+          }
+        }
+      }
+    },
     "cn.wankkoree.xp.portrait2landscape": {
       "metadata": {
         "added": 1732159421000,
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742268581000,
+        "lastUpdated": 1742354839000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.wankkoree.xposed.portrait2landscape",
         "authorName": "WankkoRee",
         "name": {
@@ -17650,7 +17694,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742268674000,
+        "lastUpdated": 1742354933000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/com.xconst.vavatar",
         "authorName": "NoonieBao",
         "name": {
@@ -24951,7 +24995,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742182488000,
+        "lastUpdated": 1742354979000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -24966,6 +25010,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "e501f300a2de83778f28f6c663c841b3f6c33cae00bc1d87e24014391a8aba34": {
+          "added": 1742354979000,
+          "file": {
+            "name": "/junzi.xposed.hook_43-4.0.3.apk",
+            "sha256": "e501f300a2de83778f28f6c663c841b3f6c33cae00bc1d87e24014391a8aba34",
+            "size": 2213081
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.3",
+            "versionCode": 43,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "6856837b006f35555f3f7040ba2def9961810c720efc84f8ce3e2993bae27f4b": {
           "added": 1742182488000,
           "file": {
@@ -25013,39 +25090,6 @@
             ],
             "versionName": "4.0.1",
             "versionCode": 41,
-            "usesSdk": {
-              "minSdkVersion": 25,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.QUERY_ALL_PACKAGES"
-              }
-            ]
-          }
-        },
-        "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795": {
-          "added": 1741663611000,
-          "file": {
-            "name": "/junzi.xposed.hook_40-4.0.apk",
-            "sha256": "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795",
-            "size": 1766617
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "4.0",
-            "versionCode": 40,
             "usesSdk": {
               "minSdkVersion": 25,
               "targetSdkVersion": 36
@@ -25630,7 +25674,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1737515502000,
+        "lastUpdated": 1742354984000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/lzlnb.cnm.hook",
         "authorName": "274274",
         "name": {
@@ -25715,6 +25759,35 @@
               "arm64-v8a"
             ],
             "versionName": "2.4",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "c4bb2454c98edb9d2034b7ef19c76c3dcb0246507703f5c4b2439718e3efbc67"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "lzlnb.cnm.hook.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "2c33938bc6a049e814f229d5b457514ecf3d1bc12bce33c29bfd019496e2c281": {
+          "added": 1742354984000,
+          "file": {
+            "name": "/lzlnb.cnm.hook_3-2.5.apk",
+            "sha256": "2c33938bc6a049e814f229d5b457514ecf3d1bc12bce33c29bfd019496e2c281",
+            "size": 5222874
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.5",
             "versionCode": 3,
             "usesSdk": {
               "minSdkVersion": 28,
@@ -26071,7 +26144,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742268726000,
+        "lastUpdated": 1742354987000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.hookgg",
         "authorName": "HdShare",
         "name": {
@@ -29815,7 +29888,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741663642000,
+        "lastUpdated": 1742355011000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher",
         "authorName": "BlueCat300",
         "name": {
@@ -29830,6 +29903,74 @@
         "preferredSigner": "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
       },
       "versions": {
+        "4f9ea20b30498c8483d9f7d8386b3616bc4f21bcd70d3b9050ed48becd424bf7": {
+          "added": 1742355011000,
+          "file": {
+            "name": "/ru.bluecat.sberbankpatcher_455-1.27.apk",
+            "sha256": "4f9ea20b30498c8483d9f7d8386b3616bc4f21bcd70d3b9050ed48becd424bf7",
+            "size": 7262788
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.27",
+            "versionCode": 455,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+              },
+              {
+                "name": "com.google.android.gms.permission.AD_ID"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+              },
+              {
+                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
+              }
+            ]
+          }
+        },
         "2f7380375534a6bde600e2f0a1197ad82fd6dbe913dc01d9b0b729899a86879c": {
           "added": 1741663642000,
           "file": {
@@ -29935,71 +30076,6 @@
               },
               {
                 "name": "android.permission.SYSTEM_ALERT_WINDOW"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
-              },
-              {
-                "name": "com.google.android.gms.permission.AD_ID"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
-              },
-              {
-                "name": "android.permission.ACCESS_ADSERVICES_AD_ID"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "ru.bluecat.sberbankpatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              },
-              {
-                "name": "moe.shizuku.manager.permission.API_V23"
-              }
-            ]
-          }
-        },
-        "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98": {
-          "added": 1738725090000,
-          "file": {
-            "name": "/ru.bluecat.sberbankpatcher_419-1.25.apk",
-            "sha256": "3a10ba68b3ec18dac35bd5f5b4f56c02e8443806a172890a1f684e630c7eae98",
-            "size": 7791173
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86",
-              "x86_64"
-            ],
-            "versionName": "1.25",
-            "versionCode": 419,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "12e1ae70df85ebd211fb9efb81a362ffff5d3e44cf25e37bd182f84aba0ee487"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
               },
               {
                 "name": "android.permission.WAKE_LOCK"

@@ -1,0 +1,18 @@
+AuthorName: Unicorn369
+Categories:
+    - Xposed
+CurrentVersion: "1.0"
+CurrentVersionCode: 1
+Description: |
+    <h1>HookEuicc</h1>
+    <p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>
+    <p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>
+    <h3>食用方法</h3>
+    <p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>
+    <p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>
+    <p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>
+IssueTracker: ""
+Name: 伪装支持eSIM，获取eSIM激活码
+SourceCode: https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc
+Summary: 伪装支持eSIM，获取eSIM激活码
+WebSite: ""
