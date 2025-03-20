@@ -377,6 +377,8 @@ ai.noads.ozon:
 
         убирает рекламные баннеры со страницы поиска Ozon
         убирает часть рекламных баннеров с основной страницы Ozon
+        убирает верхний баннер на странице продукта убирает
+        всплывающее окно оценки продуктов на главной странице
     applications:
         - anti_features: []
           categories:
@@ -386,15 +388,18 @@ ai.noads.ozon:
             <p>An Xposed module to reduce ads on Ozon app</p>
             <blockquote>
             <p>убирает рекламные баннеры со страницы поиска Ozon
-            убирает часть рекламных баннеров с основной страницы Ozon</p>
+            убирает часть рекламных баннеров с основной страницы Ozon
+            убирает верхний баннер на странице продукта
+            убирает всплывающее окно оценки продуктов на главной странице</p>
             </blockquote>
           filename: NoAdsOzon.apk
           id: ai.noads.ozon
           name: reduce ads on Ozon app
-          last_updated: "2025-03-14T02:05:19Z"
+          last_updated: "2025-03-19T23:37:58Z"
           releasedescription: |-
-            <p>remove ads banners from search page<br>
-            compatible with version 18.7.0</p>
+            <p>remove top banner from product page,<br>
+            remove product review popup from main page,<br>
+            compatible with version 18.8.0</p>
     author_name: igormsc
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
@@ -2563,7 +2568,7 @@ cn.lyric.getter:
             <li><a href="https://github.com/xiaowine/Lyric-Getter/pull/290" data-hovercard-type="pull_request" data-hovercard-url="/xiaowine/Lyric-Getter/pull/290/hovercard">opt: playback state add stopped.</a></li>
             <li><a href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.25...25-2.0.26"><strong>Full Changelog</strong> </a></li>
             </ul>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIzNTQxMjksIm5iZiI6MTc0MjM1MzgyOSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzE5VDAzMTAyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxYjkwMGI1YmI0MjRkMjllMTQ0Mzk0YTEwMzhlOWYxMGZhZWE0M2ZhNDMzNDlkNjQ2MmQ2NmUzZGUzMTI4ZGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IzhOUiV1U-E3OKdZQ9G93821TFUaq6B9qEyvx2xmSFA"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIzNTQxMjksIm5iZiI6MTc0MjM1MzgyOSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzE5VDAzMTAyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkxYjkwMGI1YmI0MjRkMjllMTQ0Mzk0YTEwMzhlOWYxMGZhZWE0M2ZhNDMzNDlkNjQ2MmQ2NmUzZGUzMTI4ZGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IzhOUiV1U-E3OKdZQ9G93821TFUaq6B9qEyvx2xmSFA" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjkzNjQsIm5iZiI6MTc0MjQyOTA2NCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDAwMDQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiNzY5NGRmNzEwZjFiMjNlZTYxYTIxNzE0MWU4OGZkMDM2MWNmN2NmNWVjZWI0MTZlZmFhZmEzMTUxOTFiYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E675KVQPjnfCT4ViWkdXSBCEG8tp8CEhAzy7HggZ76Y"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjkzNjQsIm5iZiI6MTc0MjQyOTA2NCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDAwMDQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiNzY5NGRmNzEwZjFiMjNlZTYxYTIxNzE0MWU4OGZkMDM2MWNmN2NmNWVjZWI0MTZlZmFhZmEzMTUxOTFiYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E675KVQPjnfCT4ViWkdXSBCEG8tp8CEhAzy7HggZ76Y" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
     author_name: ghhccghk
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
@@ -2680,8 +2685,8 @@ cn.unicorn369.HookEuicc:
             <p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>
           filename: app-release.apk
           id: cn.unicorn369.HookEuicc
-          name: 伪装支持eSIM，获取eSIM激活码
-          last_updated: "2025-03-18T06:36:15Z"
+          name: HookEuicc
+          last_updated: "2025-03-19T06:45:56Z"
           releasedescription: <p>初始版本</p>
     author_name: Unicorn369
 cn.wankkoree.xp.portrait2landscape:
@@ -14639,6 +14644,44 @@ dev.lackluster.mihelper:
             <li><strong>Tablet-specific optimizations</strong> will no longer be maintained in current (and future) versions</li>
             </ul>
     author_name: HowieHChen
+dev.rushii.xspoofsignatures:
+    git: https://github.com/Xposed-Modules-Repo/dev.rushii.xspoofsignatures
+    summary: ""
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1>XSpoofSignatures</h1>
+            <p>Xposed module to spoof package signatures.</p>
+            <p>Please avoid starring this repository, go star the <a href="https://github.com/rushiiMachine/XSpoofSignatures">original repo</a> instead!</p>
+            <h2>Features</h2>
+            <ul>
+            <li>Supports Android &gt;= 1.5 (Cupcake)</li>
+            <li>Compatible with the standardized spoofing
+            mechanic (<a href="https://github.com/microg/GmsCore/tree/a787b52ccc56b2e197bf38e1229bb4206538cd12/patches">microG</a>)</li>
+            <li>Allow any package to spoof their signature through manifest properties
+            <ul>
+            <li>Allow bypassing GMS checks</li>
+            </ul>
+            </li>
+            <li>Spoofing gated behind a permission</li>
+            </ul>
+            <h2>Install</h2>
+            <ol>
+            <li>Install XSpoofSignatures</li>
+            <li>Enable it in LSPosed</li>
+            <li>Verify that signature spoofing works via <a href="https://f-droid.org/en/packages/lanchon.sigspoof.checker">Signature Spoofing Checker</a></li>
+            <li>You can now use apps that require signature spoofing (like microG)</li>
+            </ol>
+            <h2>Usage (developers)</h2>
+            <p>Go to <a href="https://github.com/rushiiMachine/XSpoofSignatures">original repository</a> for more information</p>
+          filename: dev.rushii.xspoofsignatures-1.0.1.apk
+          id: dev.rushii.xspoofsignatures
+          name: Xposed module to spoof package signatures.
+          last_updated: "2025-03-19T15:57:59Z"
+          releasedescription: <p>Initial release to xposed modules repo</p>
+    author_name: rushiiMachine
 dev.sora.extractor:
     git: https://github.com/Xposed-Modules-Repo/dev.sora.extractor
     summary: Extract SteamGuard shared_secret in seconds
@@ -18821,14 +18864,22 @@ me.teble.xposed.autodaily:
             You should have received a copy of the GNU Affero General Public License
             along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
             </code></pre>
-          filename: XAutoDaily_3.0.29.apk
+          filename: XAutoDaily_3.0.30-fix.apk
           id: me.teble.xposed.autodaily
           name: XAutoDaily
-          last_updated: "2024-11-27T15:57:45Z"
+          last_updated: "2025-03-19T08:40:28Z"
           releasedescription: |-
             <p><strong>更新日志</strong></p>
             <ul>
-            <li>修复 在 QQ v9.1.20 灰度设置界面无法显示模块入口的问题。</li>
+            <li>
+            <p>修复 在 QQ v9.1.55 及以上版本中获取cookie失败的问题</p>
+            </li>
+            <li>
+            <p>其它修复与优化</p>
+            </li>
+            <li>
+            <p>修复 3.0.30 存在的一个问题</p>
+            </li>
             </ul>
     author_name: teble
 me.zhenxin.thisreallylite:

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1742355206000,
+    "timestamp": 1742441776000,
     "categories": {
       "Xposed": {
         "name": {
@@ -4680,6 +4680,59 @@
               },
               {
                 "name": "android.permission.ACCESS_WIFI_STATE"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "me.teble.xposed.autodaily": {
+      "metadata": {
+        "added": 1732159559000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1742441452000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily",
+        "authorName": "teble",
+        "name": {
+          "en-US": "XAutoDaily"
+        },
+        "summary": {
+          "en-US": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
+        },
+        "description": {
+          "en-US": "<div align=\"center\">\n    <h1> XAutoDaily </h1>\n<p><a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"><img src=\"https://img.shields.io/github/license/teble/XAutoDaily.svg\" alt=\"license\" /></a>\n<a href=\"https://github.com/teble/XAutoDaily/latest\"><img src=\"https://img.shields.io/github/release/teble/XAutoDaily.svg\" alt=\"GitHub release\" /></a>\n<a href=\"https://t.me/XAutoDaily\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Channel&amp;color=0088cc\" alt=\"Telegram\" /></a>\n<a href=\"https://t.me/XAutoDailyChat\"><img src=\"https://img.shields.io/static/v1?label=Telegram&amp;message=Chat&amp;color=0088cc\" alt=\"Telegram\" /></a></p>\n</div>\n<p>XAutoDaily 是一个兼容QQ大部分版本(包括新版TIM)的开源签到 Xposed 模块</p>\n<hr />\n<h2>使用方法</h2>\n<p>激活本模块后，在 QQ 客户端的设置中点击 “XAutoDaily 设置” 即可开关对应功能。</p>\n<ul>\n<li>Android &gt;= 7.0</li>\n<li>QQ &gt;= 8.0.0, TIM(新版全功能支持，旧版<strong>可能</strong>不兼容小程序签到)</li>\n</ul>\n<h2>对于部分用户的特殊说明</h2>\n<ul>\n<li><strong>安卓12太极阴64位QQ用户</strong>: 由于太极在安卓12上可能存在bug，勾选XA后会导致QQ闪退（根据日志查看，art崩溃不属于模块本身的bug），请更换32位QQ或者更换框架以解决问题。</li>\n<li><strong>vivo(包括子产品)全面屏用户</strong>: <strong>可能</strong>存在由于未知魔改导致模块Compose UI渲染白屏的问题，只能通过<strong>切屏</strong>(前台后台切换)/<strong>切换虚拟按键</strong>(虚拟导航)来解决问题。</li>\n<li><strong>转生用户</strong>: 由于框架本身可能存在bug，<strong>部分用户</strong>在勾选模块后可能无法生效（加载模块流程中断导致后续模块不加载），请先勾选xa再勾选其它模块(根据勾选顺序先后加载模块)。</li>\n</ul>\n<h2>功能介绍</h2>\n<ul>\n<li>会员任务以及签到</li>\n<li>黄钻签到</li>\n<li>腾讯视频会员打卡</li>\n<li>会员排行榜点赞</li>\n<li>QQ日签卡</li>\n<li>小程序打卡/任务</li>\n<li>大会员任务(个性赞需要手动点赞)</li>\n<li>好友名片自动点赞回赞</li>\n<li>好友续火（避免滥用限制字符为20）</li>\n<li>会员公众号签到</li>\n<li>新版群打卡</li>\n<li>QQ好友字符抽取</li>\n<li>萌宠任务</li>\n<li>好友空间互访</li>\n<li>好友名片点赞</li>\n<li>好友续火</li>\n</ul>\n<h2>一切开发旨在学习，请勿用于非法用途</h2>\n<ul>\n<li>本项目保证永久开源，欢迎提交 Issue 或者 Pull Request，但是请不要提交用于非法用途的功能。</li>\n<li>如果某功能被大量运用于非法用途，那么该功能将会被移除。</li>\n<li>开发人员可能在任何时间<strong>停止更新</strong>或<strong>删除项目</strong></li>\n</ul>\n<h2>License</h2>\n<ul>\n<li><a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPL-3.0</a></li>\n</ul>\n<pre><code>Copyright (C) 2022 teble@github.com\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as\npublished by the Free Software Foundation, either version 3 of the\nLicense, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.\n</code></pre>\n"
+        },
+        "preferredSigner": "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908"
+      },
+      "versions": {
+        "b18bbe4265983e7553b64a9e632e632cb9905d642b006ecbd5a7d66e924aa06a": {
+          "added": 1732159559000,
+          "file": {
+            "name": "/me.teble.xposed.autodaily_24080405-3.0.27.apk",
+            "sha256": "b18bbe4265983e7553b64a9e632e632cb9905d642b006ecbd5a7d66e924aa06a",
+            "size": 7599050
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "3.0.27",
+            "versionCode": 24080405,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 33
+            },
+            "signer": {
+              "sha256": [
+                "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "moe.shizuku.manager.permission.API_V23"
               }
             ]
           }
