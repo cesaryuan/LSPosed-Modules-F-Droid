@@ -1,0 +1,43 @@
+{
+  "repo": {
+    "timestamp": 1742441791000
+  },
+  "packages": {
+    "ai.noads.ozon": {
+      "metadata": {
+        "description": {
+          "en-US": "<p>NoAdsOzon</p>\n<p>An Xposed module to reduce ads on Ozon app</p>\n<blockquote>\n<p>убирает рекламные баннеры со страницы поиска Ozon\nубирает часть рекламных баннеров с основной страницы Ozon\nубирает верхний баннер на странице продукта\nубирает всплывающее окно оценки продуктов на главной странице</p>\n</blockquote>\n"
+        }
+      }
+    },
+    "cn.unicorn369.HookEuicc": {
+      "metadata": {
+        "name": {
+          "en-US": "HookEuicc"
+        }
+      }
+    },
+    "dev.rushii.xspoofsignatures": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/dev.rushii.xspoofsignatures",
+        "authorName": "rushiiMachine",
+        "name": {
+          "en-US": "Xposed module to spoof package signatures."
+        },
+        "description": {
+          "en-US": "<h1>XSpoofSignatures</h1>\n<p>Xposed module to spoof package signatures.</p>\n<p>Please avoid starring this repository, go star the <a href=\"https://github.com/rushiiMachine/XSpoofSignatures\">original repo</a> instead!</p>\n<h2>Features</h2>\n<ul>\n<li>Supports Android &gt;= 1.5 (Cupcake)</li>\n<li>Compatible with the standardized spoofing\nmechanic (<a href=\"https://github.com/microg/GmsCore/tree/a787b52ccc56b2e197bf38e1229bb4206538cd12/patches\">microG</a>)</li>\n<li>Allow any package to spoof their signature through manifest properties\n<ul>\n<li>Allow bypassing GMS checks</li>\n</ul>\n</li>\n<li>Spoofing gated behind a permission</li>\n</ul>\n<h2>Install</h2>\n<ol>\n<li>Install XSpoofSignatures</li>\n<li>Enable it in LSPosed</li>\n<li>Verify that signature spoofing works via <a href=\"https://f-droid.org/en/packages/lanchon.sigspoof.checker\">Signature Spoofing Checker</a></li>\n<li>You can now use apps that require signature spoofing (like microG)</li>\n</ol>\n<h2>Usage (developers)</h2>\n<p>Go to <a href=\"https://github.com/rushiiMachine/XSpoofSignatures\">original repository</a> for more information</p>\n"
+        }
+      }
+    },
+    "me.teble.xposed.autodaily": {
+      "versions": {
+        "3a98305a2b4d6bb8cdceafa7f729f59217def0069563280264c4c7919514a007": {
+          "releaseChannels": null
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@ Description: |
     <p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>
     <p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>
 IssueTracker: ""
-Name: 伪装支持eSIM，获取eSIM激活码
+Name: HookEuicc
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc
 Summary: 伪装支持eSIM，获取eSIM激活码
 WebSite: ""

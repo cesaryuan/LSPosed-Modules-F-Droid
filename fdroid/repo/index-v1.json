@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1742355221000,
+    "timestamp": 1742441791000,
     "version": 20002
   },
   "requests": {
@@ -3131,6 +3131,27 @@
       "summary": "给Cimoc漫画去广告，"
     },
     {
+      "added": 1742366756000,
+      "authorName": "Unicorn369",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eHookEuicc\u003c/h1\u003e\n\u003cp\u003e用于伪装应用支持eSIM功能，并获取eSIM激活码\u003c/p\u003e\n\u003cp\u003e在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板\u003c/p\u003e\n\u003ch3\u003e食用方法\u003c/h3\u003e\n\u003cp\u003e通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣\u003c/p\u003e\n\u003cp\u003e对于某些应用，如\u003ccode\u003ecom.dentwireless.dentapp\u003c/code\u003e、\u003ccode\u003ecom.giffgaffmobile.controller\u003c/code\u003e在点击安装时将会复制eSIM激活码到剪切板\u003c/p\u003e\n\u003cp\u003e如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如\u003ccode\u003ecom.miui.euicc\u003c/code\u003e，那你可尝试勾选LPA应用来获取eSIM激活码\u003c/p\u003e\n",
+      "lastUpdated": 1742366756000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "初始版本"
+        }
+      },
+      "name": "HookEuicc",
+      "packageName": "cn.unicorn369.HookEuicc",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "伪装支持eSIM，获取eSIM激活码"
+    },
+    {
       "added": 1732159407000,
       "authorName": "AoEiuV020",
       "categories": [
@@ -6158,24 +6179,24 @@
       "summary": "An Xposed module to enhance the Telegram\nSupported Telegram, Nekogram and oth..."
     },
     {
-      "added": 1741917919000,
+      "added": 1742008878000,
       "authorName": "igormsc",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cp\u003eNoAdsOzon\u003c/p\u003e\n\u003cp\u003eAn Xposed module to reduce ads on Ozon app\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eубирает рекламные баннеры со страницы поиска Ozon\nубирает часть рекламных баннеров с основной страницы Ozon\u003c/p\u003e\n\u003c/blockquote\u003e\n",
-      "lastUpdated": 1741917919000,
+      "description": "\u003cp\u003eNoAdsOzon\u003c/p\u003e\n\u003cp\u003eAn Xposed module to reduce ads on Ozon app\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eубирает рекламные баннеры со страницы поиска Ozon\nубирает часть рекламных баннеров с основной страницы Ozon\nубирает верхний баннер на странице продукта\nубирает всплывающее окно оценки продуктов на главной странице\u003c/p\u003e\n\u003c/blockquote\u003e\n",
+      "lastUpdated": 1742441270000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "remove ads banners from search page\ncompatible with version 18.7.0"
+          "whatsNew": "remove top banner from product page,\nremove product review popup from main page,\ncompatible with version 18.8.0"
         }
       },
       "name": "reduce ads on Ozon app",
       "packageName": "ai.noads.ozon",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ai.noads.ozon",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "0.1",
+      "suggestedVersionName": "0.2",
       "summary": "reduce ads amount on Ozon app,\nremove ads banners from search page.\n\nубирает ..."
     },
     {
@@ -7234,7 +7255,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1742354933000,
+      "lastUpdated": 1742441387000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7502,25 +7523,25 @@
       "summary": "Debug any application of your choice!"
     },
     {
-      "added": 1732723065000,
+      "added": 1742373628000,
       "authorName": "teble",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n    \u003ch1\u003e XAutoDaily \u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003e\u003cimg src=\"https://img.shields.io/github/license/teble/XAutoDaily.svg\" alt=\"license\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/teble/XAutoDaily/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/release/teble/XAutoDaily.svg\" alt=\"GitHub release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/XAutoDaily\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Channel\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://t.me/XAutoDailyChat\"\u003e\u003cimg src=\"https://img.shields.io/static/v1?label=Telegram\u0026amp;message=Chat\u0026amp;color=0088cc\" alt=\"Telegram\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003eXAutoDaily 是一个兼容QQ大部分版本(包括新版TIM)的开源签到 Xposed 模块\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e使用方法\u003c/h2\u003e\n\u003cp\u003e激活本模块后，在 QQ 客户端的设置中点击 “XAutoDaily 设置” 即可开关对应功能。\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAndroid \u0026gt;= 7.0\u003c/li\u003e\n\u003cli\u003eQQ \u0026gt;= 8.0.0, TIM(新版全功能支持，旧版\u003cstrong\u003e可能\u003c/strong\u003e不兼容小程序签到)\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e对于部分用户的特殊说明\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e安卓12太极阴64位QQ用户\u003c/strong\u003e: 由于太极在安卓12上可能存在bug，勾选XA后会导致QQ闪退（根据日志查看，art崩溃不属于模块本身的bug），请更换32位QQ或者更换框架以解决问题。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003evivo(包括子产品)全面屏用户\u003c/strong\u003e: \u003cstrong\u003e可能\u003c/strong\u003e存在由于未知魔改导致模块Compose UI渲染白屏的问题，只能通过\u003cstrong\u003e切屏\u003c/strong\u003e(前台后台切换)/\u003cstrong\u003e切换虚拟按键\u003c/strong\u003e(虚拟导航)来解决问题。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e转生用户\u003c/strong\u003e: 由于框架本身可能存在bug，\u003cstrong\u003e部分用户\u003c/strong\u003e在勾选模块后可能无法生效（加载模块流程中断导致后续模块不加载），请先勾选xa再勾选其它模块(根据勾选顺序先后加载模块)。\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e功能介绍\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e会员任务以及签到\u003c/li\u003e\n\u003cli\u003e黄钻签到\u003c/li\u003e\n\u003cli\u003e腾讯视频会员打卡\u003c/li\u003e\n\u003cli\u003e会员排行榜点赞\u003c/li\u003e\n\u003cli\u003eQQ日签卡\u003c/li\u003e\n\u003cli\u003e小程序打卡/任务\u003c/li\u003e\n\u003cli\u003e大会员任务(个性赞需要手动点赞)\u003c/li\u003e\n\u003cli\u003e好友名片自动点赞回赞\u003c/li\u003e\n\u003cli\u003e好友续火（避免滥用限制字符为20）\u003c/li\u003e\n\u003cli\u003e会员公众号签到\u003c/li\u003e\n\u003cli\u003e新版群打卡\u003c/li\u003e\n\u003cli\u003eQQ好友字符抽取\u003c/li\u003e\n\u003cli\u003e萌宠任务\u003c/li\u003e\n\u003cli\u003e好友空间互访\u003c/li\u003e\n\u003cli\u003e好友名片点赞\u003c/li\u003e\n\u003cli\u003e好友续火\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e一切开发旨在学习，请勿用于非法用途\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e本项目保证永久开源，欢迎提交 Issue 或者 Pull Request，但是请不要提交用于非法用途的功能。\u003c/li\u003e\n\u003cli\u003e如果某功能被大量运用于非法用途，那么该功能将会被移除。\u003c/li\u003e\n\u003cli\u003e开发人员可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eLicense\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://www.gnu.org/licenses/gpl-3.0.html\"\u003eGPL-3.0\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode\u003eCopyright (C) 2022 teble@github.com\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as\npublished by the Free Software Foundation, either version 3 of the\nLicense, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see \u0026lt;http://www.gnu.org/licenses/\u0026gt;.\n\u003c/code\u003e\u003c/pre\u003e\n",
       "icon": "me.teble.xposed.autodaily.png",
-      "lastUpdated": 1732723065000,
+      "lastUpdated": 1742373628000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**更新日志**\n\n- 修复 在 QQ v9.1.20 灰度设置界面无法显示模块入口的问题。"
+          "whatsNew": "**更新日志**\n\n- 修复 在 QQ v9.1.55 及以上版本中获取cookie失败的问题\n- 其它修复与优化\n\n- 修复 3.0.30 存在的一个问题"
         }
       },
       "name": "XAutoDaily",
       "packageName": "me.teble.xposed.autodaily",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.teble.xposed.autodaily",
-      "suggestedVersionCode": "24112723",
-      "suggestedVersionName": "3.0.29",
+      "suggestedVersionCode": "25031916",
+      "suggestedVersionName": "3.0.30-fix",
       "summary": "一个兼容QQ大部分版本的开源签到 Xposed 模块"
     },
     {
@@ -7672,6 +7693,26 @@
       "suggestedVersionCode": "2",
       "suggestedVersionName": "2.0",
       "summary": "Xposed Module to Force Google Photos to separate each folder like Snapchat, S..."
+    },
+    {
+      "added": 1742399879000,
+      "authorName": "rushiiMachine",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1\u003eXSpoofSignatures\u003c/h1\u003e\n\u003cp\u003eXposed module to spoof package signatures.\u003c/p\u003e\n\u003cp\u003ePlease avoid starring this repository, go star the \u003ca href=\"https://github.com/rushiiMachine/XSpoofSignatures\"\u003eoriginal repo\u003c/a\u003e instead!\u003c/p\u003e\n\u003ch2\u003eFeatures\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eSupports Android \u0026gt;= 1.5 (Cupcake)\u003c/li\u003e\n\u003cli\u003eCompatible with the standardized spoofing\nmechanic (\u003ca href=\"https://github.com/microg/GmsCore/tree/a787b52ccc56b2e197bf38e1229bb4206538cd12/patches\"\u003emicroG\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003eAllow any package to spoof their signature through manifest properties\n\u003cul\u003e\n\u003cli\u003eAllow bypassing GMS checks\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eSpoofing gated behind a permission\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eInstall\u003c/h2\u003e\n\u003col\u003e\n\u003cli\u003eInstall XSpoofSignatures\u003c/li\u003e\n\u003cli\u003eEnable it in LSPosed\u003c/li\u003e\n\u003cli\u003eVerify that signature spoofing works via \u003ca href=\"https://f-droid.org/en/packages/lanchon.sigspoof.checker\"\u003eSignature Spoofing Checker\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003eYou can now use apps that require signature spoofing (like microG)\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch2\u003eUsage (developers)\u003c/h2\u003e\n\u003cp\u003eGo to \u003ca href=\"https://github.com/rushiiMachine/XSpoofSignatures\"\u003eoriginal repository\u003c/a\u003e for more information\u003c/p\u003e\n",
+      "lastUpdated": 1742399879000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "Initial release to xposed modules repo"
+        }
+      },
+      "name": "Xposed module to spoof package signatures.",
+      "packageName": "dev.rushii.xspoofsignatures",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/dev.rushii.xspoofsignatures",
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "1.0.1"
     },
     {
       "added": 1704427894000,
@@ -8120,27 +8161,6 @@
       "suggestedVersionCode": "7",
       "suggestedVersionName": "1.2.1",
       "summary": "Enable Extra dim when the brightness is lower than the minimum screen brightn..."
-    },
-    {
-      "added": 1742279775000,
-      "authorName": "Unicorn369",
-      "categories": [
-        "Xposed"
-      ],
-      "description": "\u003ch1\u003eHookEuicc\u003c/h1\u003e\n\u003cp\u003e用于伪装应用支持eSIM功能，并获取eSIM激活码\u003c/p\u003e\n\u003cp\u003e在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板\u003c/p\u003e\n\u003ch3\u003e食用方法\u003c/h3\u003e\n\u003cp\u003e通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣\u003c/p\u003e\n\u003cp\u003e对于某些应用，如\u003ccode\u003ecom.dentwireless.dentapp\u003c/code\u003e、\u003ccode\u003ecom.giffgaffmobile.controller\u003c/code\u003e在点击安装时将会复制eSIM激活码到剪切板\u003c/p\u003e\n\u003cp\u003e如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如\u003ccode\u003ecom.miui.euicc\u003c/code\u003e，那你可尝试勾选LPA应用来获取eSIM激活码\u003c/p\u003e\n",
-      "lastUpdated": 1742279775000,
-      "license": "Unknown",
-      "localized": {
-        "en-US": {
-          "whatsNew": "初始版本"
-        }
-      },
-      "name": "伪装支持eSIM，获取eSIM激活码",
-      "packageName": "cn.unicorn369.HookEuicc",
-      "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
-      "summary": "伪装支持eSIM，获取eSIM激活码"
     },
     {
       "added": 1680540667000,
@@ -10624,7 +10644,7 @@
     ],
     "ai.noads.ozon": [
       {
-        "added": 1741917919000,
+        "added": 1742008878000,
         "apkName": "ai.noads.ozon_1-0.1.apk",
         "hash": "77e5d337b34d94b4f7e2893b3fe2ec2fc944453837311da1d4f5470ddb05f3b5",
         "hashType": "sha256",
@@ -10637,6 +10657,21 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "0.1"
+      },
+      {
+        "added": 1742427478000,
+        "apkName": "ai.noads.ozon_1-0.2.apk",
+        "hash": "8e95495a24bc7573fb3ea2f52195789595b43c7bba176c797e9b719f7d2d7652",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "ai.noads.ozon",
+        "sig": "ac5a12174ca2dcb662232e1db07b7a43",
+        "signer": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa",
+        "size": 53849,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "0.2"
       }
     ],
     "akhil.alltrans": [
@@ -11530,7 +11565,7 @@
     ],
     "cn.unicorn369.HookEuicc": [
       {
-        "added": 1742279775000,
+        "added": 1742366756000,
         "apkName": "cn.unicorn369.HookEuicc_1-1.0.apk",
         "hash": "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff",
         "hashType": "sha256",
@@ -16687,7 +16722,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1742354933000,
+        "added": 1742441387000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -17485,6 +17520,23 @@
         "targetSdkVersion": 34,
         "versionCode": 219,
         "versionName": "3.0.0"
+      }
+    ],
+    "dev.rushii.xspoofsignatures": [
+      {
+        "added": 1742399879000,
+        "apkName": "dev.rushii.xspoofsignatures_2-1.0.1.apk",
+        "hash": "38cd0da3abea1e7171468a18269f0445b93ddcacd0a02621ac162c22718116a6",
+        "hashType": "sha256",
+        "minSdkVersion": 3,
+        "nativecode": null,
+        "packageName": "dev.rushii.xspoofsignatures",
+        "sig": "bcff6923b0d4dfa77dc51a92733c7099",
+        "signer": "ca01fa0b8620afc365b04c235ade1703a30c8f85dd1403b94bd7c357cb21f5ac",
+        "size": 59459,
+        "targetSdkVersion": 35,
+        "versionCode": 2,
+        "versionName": "1.0.1"
       }
     ],
     "dev.sora.extractor": [
@@ -20263,7 +20315,25 @@
     ],
     "me.teble.xposed.autodaily": [
       {
-        "added": 1732723065000,
+        "added": 1742373628000,
+        "apkName": "me.teble.xposed.autodaily_25031916-3.0.30-fix.apk",
+        "hash": "3a98305a2b4d6bb8cdceafa7f729f59217def0069563280264c4c7919514a007",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "me.teble.xposed.autodaily",
+        "sig": "6d6346b7d7802b4ab25f93cb904d8a4c",
+        "signer": "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908",
+        "size": 7602886,
+        "targetSdkVersion": 33,
+        "versionCode": 25031916,
+        "versionName": "3.0.30-fix"
+      },
+      {
+        "added": 1733214139000,
         "apkName": "me.teble.xposed.autodaily_24112723-3.0.29.apk",
         "hash": "e57f84c1cdfe93160de391e2f6912c7f30cd15b90a9ea0061debd966b778ea70",
         "hashType": "sha256",
@@ -20297,24 +20367,6 @@
         "targetSdkVersion": 33,
         "versionCode": 24111200,
         "versionName": "3.0.28"
-      },
-      {
-        "added": 1732159559000,
-        "apkName": "me.teble.xposed.autodaily_24080405-3.0.27.apk",
-        "hash": "b18bbe4265983e7553b64a9e632e632cb9905d642b006ecbd5a7d66e924aa06a",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "me.teble.xposed.autodaily",
-        "sig": "6d6346b7d7802b4ab25f93cb904d8a4c",
-        "signer": "de2ace9278205d668d72fdfb8b3eb71c29d7132593e08da2e5982dbaf84d8908",
-        "size": 7599050,
-        "targetSdkVersion": 33,
-        "versionCode": 24080405,
-        "versionName": "3.0.27"
       }
     ],
     "me.zhenxin.thisreallylite": [
