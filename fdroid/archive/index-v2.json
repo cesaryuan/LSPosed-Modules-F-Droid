@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1742441776000,
+    "timestamp": 1742527971000,
     "categories": {
       "Xposed": {
         "name": {
@@ -2784,7 +2784,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742354979000,
+        "lastUpdated": 1742527784000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2799,6 +2799,39 @@
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "2c66ccf781ee73a73e4dc7fde8d4ad0940f975b55ef8c59c7ac59676f6c8946d": {
+          "added": 1741836641000,
+          "file": {
+            "name": "/junzi.xposed.hook_41-4.0.1.apk",
+            "sha256": "2c66ccf781ee73a73e4dc7fde8d4ad0940f975b55ef8c59c7ac59676f6c8946d",
+            "size": 1787097
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.1",
+            "versionCode": 41,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "6d7d328fd1ff47250d0fbebb948737f228b8164c73b720690aa38dc9a5b82795": {
           "added": 1741663611000,
           "file": {
@@ -3903,7 +3936,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742268728000,
+        "lastUpdated": 1742527795000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/me.hd.wauxv",
         "authorName": "HdShare",
         "name": {
@@ -3941,6 +3974,48 @@
               ]
             },
             "usesPermission": [
+              {
+                "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "e3c19becd7fe8daba122ef0967e389f4a66156c1e04e1d4a089073059ff789bc": {
+          "added": 1742527795000,
+          "file": {
+            "name": "/me.hd.wauxv_320-1.1.7.apk",
+            "sha256": "e3c19becd7fe8daba122ef0967e389f4a66156c1e04e1d4a089073059ff789bc",
+            "size": 3671694
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "1.1.7",
+            "versionCode": 320,
+            "usesSdk": {
+              "minSdkVersion": 27,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6426b992a20d92ca111fede9751d064993600099df08aa271f4de82a7dce4c45"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
               {
                 "name": "me.hd.wauxv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }

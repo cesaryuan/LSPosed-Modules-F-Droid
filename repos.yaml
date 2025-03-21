@@ -372,34 +372,64 @@ Telegram.Speed.Hook:
 ai.noads.ozon:
     git: https://github.com/Xposed-Modules-Repo/ai.noads.ozon
     summary: |-
-        reduce ads amount on Ozon app,
-        remove ads banners from search page.
+        reduce ads amount on Ozon app
 
-        убирает рекламные баннеры со страницы поиска Ozon
-        убирает часть рекламных баннеров с основной страницы Ozon
-        убирает верхний баннер на странице продукта убирает
-        всплывающее окно оценки продуктов на главной странице
+        remove:
+        > ads banners from search result page and product page.
+        > rate product popup from main page
+        > recommended section before product description on product page
+
+        NoAdsOzon
+
+        An Xposed module to reduce ads on Ozon app (v.18.9.0)
+
+        убирает:
+        > рекламные баннеры со страницы поиска Ozon
+        > часть рекламных баннеров с основной страницы Ozon
+        > верхний баннер на странице продукта
+        > всплывающее окно оценки продуктов на главной странице
+        > раздел рекомендовано на странице продукта,…
     applications:
         - anti_features: []
           categories:
             - Xposed
           description: |
             <p>NoAdsOzon</p>
-            <p>An Xposed module to reduce ads on Ozon app</p>
+            <p>An Xposed module to reduce ads on Ozon app (v.18.9.0)</p>
             <blockquote>
-            <p>убирает рекламные баннеры со страницы поиска Ozon
-            убирает часть рекламных баннеров с основной страницы Ozon
-            убирает верхний баннер на странице продукта
-            убирает всплывающее окно оценки продуктов на главной странице</p>
+            <p>убирает:</p>
+            <ul>
+            <li>рекламные баннеры со страницы поиска Ozon</li>
+            <li>часть рекламных баннеров с основной страницы Ozon</li>
+            <li>верхний баннер на странице продукта</li>
+            <li>всплывающее окно оценки продуктов на главной странице</li>
+            <li>раздел рекомендовано на странице продукта, перед описанием продукта
+            compatible V.18.9.0</li>
+            </ul>
             </blockquote>
           filename: NoAdsOzon.apk
           id: ai.noads.ozon
           name: reduce ads on Ozon app
-          last_updated: "2025-03-19T23:37:58Z"
+          last_updated: "2025-03-21T01:01:48Z"
           releasedescription: |-
-            <p>remove top banner from product page,<br>
-            remove product review popup from main page,<br>
-            compatible with version 18.8.0</p>
+            <p>reduce ads amount on Ozon app</p>
+            <p>remove:</p>
+            <blockquote>
+            <p>ads banners from search result page and product page.<br>
+            rate product popup from main page<br>
+            recommended section before product description on product page</p>
+            </blockquote>
+            <p>NoAdsOzon</p>
+            <p>An Xposed module to reduce ads on Ozon app (v.18.9.0)</p>
+            <p>убирает:</p>
+            <blockquote>
+            <p>рекламные баннеры со страницы поиска Ozon<br>
+            часть рекламных баннеров с основной страницы Ozon<br>
+            верхний баннер на странице продукта<br>
+            всплывающее окно оценки продуктов на главной странице<br>
+            раздел рекомендовано на странице продукта, перед описанием продукта<br>
+            compatible V.18.9.0</p>
+            </blockquote>
     author_name: igormsc
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
@@ -2568,7 +2598,7 @@ cn.lyric.getter:
             <li><a href="https://github.com/xiaowine/Lyric-Getter/pull/290" data-hovercard-type="pull_request" data-hovercard-url="/xiaowine/Lyric-Getter/pull/290/hovercard">opt: playback state add stopped.</a></li>
             <li><a href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.25...25-2.0.26"><strong>Full Changelog</strong> </a></li>
             </ul>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjkzNjQsIm5iZiI6MTc0MjQyOTA2NCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDAwMDQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiNzY5NGRmNzEwZjFiMjNlZTYxYTIxNzE0MWU4OGZkMDM2MWNmN2NmNWVjZWI0MTZlZmFhZmEzMTUxOTFiYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E675KVQPjnfCT4ViWkdXSBCEG8tp8CEhAzy7HggZ76Y"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0MjkzNjQsIm5iZiI6MTc0MjQyOTA2NCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDAwMDQyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiNzY5NGRmNzEwZjFiMjNlZTYxYTIxNzE0MWU4OGZkMDM2MWNmN2NmNWVjZWI0MTZlZmFhZmEzMTUxOTFiYmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E675KVQPjnfCT4ViWkdXSBCEG8tp8CEhAzy7HggZ76Y" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI1MjE4MjMsIm5iZiI6MTc0MjUyMTUyMywicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIxVDAxNDUyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3YzFmYjhiMzU3YjlmZjlmZDRlN2FkYjNmZDE3NGE2YzM3MDNmMzIwZjliNDY5MjY5NzMzODNmOWI5ZDk5OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tFMzAkQyo3TZvTl0SNGhTSuEjIqYrrOVCGDpVyg8zyY"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI1MjE4MjMsIm5iZiI6MTc0MjUyMTUyMywicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIxVDAxNDUyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3YzFmYjhiMzU3YjlmZjlmZDRlN2FkYjNmZDE3NGE2YzM3MDNmMzIwZjliNDY5MjY5NzMzODNmOWI5ZDk5OWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tFMzAkQyo3TZvTl0SNGhTSuEjIqYrrOVCGDpVyg8zyY" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
     author_name: ghhccghk
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
@@ -8225,17 +8255,17 @@ com.kgg.hlddz:
             <p>本模块仅用于学习交流，请勿用于任何非法用途，否则后果自负！</p>
             <p>严禁基于本模块进行二次开发，一经发现永久停更！</p>
             <h1>更新日志</h1>
+            <p>2025.03.20    v1.0.10    适配欢乐斗地主8.035.016版本</p>
             <p>2025.02.24    v1.0.9    适配欢乐斗地主8.033.016版本</p>
-            <p>2024.12.09    v1.0.8    适配欢乐斗地主8.032.016版本</p>
             <h1>Buy me a beer</h1>
             <p>如果您觉得好用，请给个打赏，谢谢！</p>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/mm_reward.png" alt="" /></p>
             <p><img src="https://gitee.com/guangzishushu/image_hosting/raw/master/pictures/alipay.jpg" alt="" /></p>
-          filename: ddzNoAd_1.0.9_release.apk
+          filename: ddzNoAd_1.0.10_release.apk
           id: com.kgg.hlddz
           name: 地主不看广告
-          last_updated: "2025-02-24T13:52:48Z"
-          releasedescription: <p>适配欢乐斗地主8.033.016版本</p>
+          last_updated: "2025-03-20T09:26:37Z"
+          releasedescription: <p>适配欢乐斗地主8.035.016版本</p>
     author_name: KongGuoguang
 com.king250.fightoppoinstaller:
     git: https://github.com/Xposed-Modules-Repo/com.king250.fightoppoinstaller
@@ -8301,11 +8331,13 @@ com.kooritea.fcmfix:
             <ul>
             <li>非miui/hyperos系统可能需要给予目标应用类似允许自启动的权限。</li>
             </ul>
-          filename: fcmfix-ci-20250306_a073987.apk
+          filename: app-release.apk
           id: com.kooritea.fcmfix
           name: fcmfix
-          last_updated: "2025-03-06T06:31:41Z"
-          releasedescription: <p>ci挂了，手动更新下。。</p>
+          last_updated: "2025-03-21T01:30:10Z"
+          releasedescription: |-
+            <p>1、添加自动绕过氧OS/ColorOS的自启动限制<br>
+            2、添加目标应用未响应fcm时代发通知</p>
     author_name: kooritea
 com.leo.xposed.xradiant:
     git: https://github.com/Xposed-Modules-Repo/com.leo.xposed.xradiant
@@ -17503,7 +17535,7 @@ io.mesalabs.knoxpatch:
             </li>
             </ul>
             <p align="center">
-              <img src="https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-enhancer.jpg" width="35%" />
+              <img src="https://raw.githubusercontent.com/salvogiangri/KnoxPatch/main/readme-res/kp-enhancer.png" width="35%" />
             </p>
             <ul>
             <li>
@@ -17678,11 +17710,14 @@ junzi.xposed.hook:
             <p>驾考精灵</p>
             <p>小星记账</p>
             <p>等等等等(其实是懒得写了)</p>
-          filename: JunZi.Xposed.Hook_4.0.3.apk
+          filename: JunZi.Xposed.Hook_4.0.4.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-19T01:06:19Z"
-          releasedescription: <p>新增 支持 万象小组件 轻弹窗 记得日子</p>
+          last_updated: "2025-03-20T07:19:45Z"
+          releasedescription: |-
+            <p>新增 支持 Girly Wallpaper<br>
+            新增 支持 Anime Wallpaper<br>
+            新增 支持 一刻日记</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -18277,16 +18312,24 @@ me.hd.wauxv:
             </tr>
             </tbody>
             </table>
-          filename: WAuxiliary_v1.1.6.318.apk
+          filename: WAuxiliary_v1.1.7.320.apk
           id: me.hd.wauxv
           name: WAuxiliary
-          last_updated: "2025-03-18T01:49:42Z"
+          last_updated: "2025-03-20T11:17:05Z"
           releasedescription: |-
             <ul>
-            <li>新增 友圈时间详情</li>
-            <li>新增 拦截友圈广告</li>
-            <li>修复 模块已知问题</li>
-            <li>优化 模块用户体验</li>
+            <li>新增 自动查看原图</li>
+            <li>新增 消息格式处理</li>
+            <li>优化 加载入口逻辑</li>
+            <li>优化 消息底部详情</li>
+            <li>修复 篡改语音时长</li>
+            <li>新增 隐藏微信账号</li>
+            <li>新增 移除备注限制</li>
+            <li>新增 模块动态配色</li>
+            <li>新增 移除状态限制</li>
+            <li>新增 清空模块配置</li>
+            <li>优化 模拟钱包余额</li>
+            <li>适配 改包名版微信(com.tencent.mm.wa)</li>
             </ul>
     author_name: HdShare
 me.hoshino.novpndetect:
