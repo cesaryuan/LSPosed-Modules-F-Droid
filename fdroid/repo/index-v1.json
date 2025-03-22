@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1742527986000,
+    "timestamp": 1742614381000,
     "version": 20002
   },
   "requests": {
@@ -3131,24 +3131,24 @@
       "summary": "给Cimoc漫画去广告，"
     },
     {
-      "added": 1742366756000,
+      "added": 1742540838000,
       "authorName": "Unicorn369",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eHookEuicc\u003c/h1\u003e\n\u003cp\u003e用于伪装应用支持eSIM功能，并获取eSIM激活码\u003c/p\u003e\n\u003cp\u003e在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板\u003c/p\u003e\n\u003ch3\u003e食用方法\u003c/h3\u003e\n\u003cp\u003e通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣\u003c/p\u003e\n\u003cp\u003e对于某些应用，如\u003ccode\u003ecom.dentwireless.dentapp\u003c/code\u003e、\u003ccode\u003ecom.giffgaffmobile.controller\u003c/code\u003e在点击安装时将会复制eSIM激活码到剪切板\u003c/p\u003e\n\u003cp\u003e如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如\u003ccode\u003ecom.miui.euicc\u003c/code\u003e，那你可尝试勾选LPA应用来获取eSIM激活码\u003c/p\u003e\n",
-      "lastUpdated": 1742366756000,
+      "lastUpdated": 1742540838000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "初始版本"
+          "whatsNew": "fix"
         }
       },
       "name": "HookEuicc",
       "packageName": "cn.unicorn369.HookEuicc",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc",
-      "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0",
+      "suggestedVersionCode": "2",
+      "suggestedVersionName": "1.0.1",
       "summary": "伪装支持eSIM，获取eSIM激活码"
     },
     {
@@ -3196,24 +3196,24 @@
       "summary": "给哔咔去广告，"
     },
     {
-      "added": 1740741942000,
+      "added": 1742533687000,
       "authorName": "paditianxiu",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch2\u003e牛逼模块\u003c/h2\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.padi.hook.hookqq/main/icon.png\" alt=\"socialify\"/\u003e\n\u003ch2\u003e说明 / Desc:\u003c/h2\u003e\n\u003cp\u003eWechat 辅助性功能增强\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e一切开发旨在学习，请勿用于非法用途\u003c/li\u003e\n\u003cli\u003e鉴于项目的特殊性，开发团队可能在任何时间\u003cstrong\u003e停止更新\u003c/strong\u003e或\u003cstrong\u003e删除项目\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e功能 / Func:\u003c/h2\u003e\n\u003ctable\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e功能名\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e开发状态\u003c/b\u003e\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e\u003cb\u003e适配版本\u003c/b\u003e\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e自动抢红包\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n      \u003ctr\u003e\n        \u003ctd align=\"center\"\u003e主题功能\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e✅\u003c/td\u003e\n        \u003ctd align=\"center\"\u003e理论全版本\u003c/td\u003e\n    \u003c/tr\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e致谢 / Thanks:\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eName\u003c/th\u003e\n\u003cth\u003eSource\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eWAuxiliary\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HdShare/WAuxiliary_Public\"\u003eWAuxiliary\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eYukiHookAPI\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/HighCapable/YukiHookAPI\"\u003eYukiHookAPI\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eDexKit\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/LuckyPray/DexKit\"\u003eDexKit\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXpHelper\u003c/td\u003e\n\u003ctd\u003e\u003ca href=\"https://github.com/suzhelan/XPHelper\"\u003eXpHelper\u003c/a\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n",
-      "lastUpdated": 1740741942000,
+      "lastUpdated": 1742533687000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "微信美化模块，自动抢红包功能"
+          "whatsNew": "新增 修改聊天记录\n新增 修改转账金额\n优化 卡顿问题\n新增 背景图支持GIF\n\n只测试了8.0.56版本，不保证其它版本能用"
         }
       },
       "name": "HookQQ(微信模块)",
       "packageName": "com.padi.hook.hookqq",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.padi.hook.hookqq",
-      "suggestedVersionCode": "20250228",
-      "suggestedVersionName": "1.0.1",
+      "suggestedVersionCode": "20250316",
+      "suggestedVersionName": "1.0.4",
       "summary": "微信主题功能，自动抢红包"
     },
     {
@@ -3613,24 +3613,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1742455185000,
+      "added": 1742549062000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
       "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n\u003cp\u003e等等等等(其实是懒得写了)\u003c/p\u003e\n",
-      "lastUpdated": 1742455185000,
+      "lastUpdated": 1742549062000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 Girly Wallpaper\n新增 支持 Anime Wallpaper\n新增 支持 一刻日记"
+          "whatsNew": "新增 支持 蛋花免费小说 滴答清单 翻页时钟 番茄时钟"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "44",
-      "suggestedVersionName": "4.0.4",
+      "suggestedVersionCode": "45",
+      "suggestedVersionName": "4.0.5",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -4821,7 +4821,7 @@
         "Xposed"
       ],
       "description": "\u003ch1\u003eModisk\u003c/h1\u003e\n\u003cp\u003eModsik 解锁更多功能！\u003c/p\u003e\n",
-      "lastUpdated": 1742268647000,
+      "lastUpdated": 1742614065000,
       "license": "Unknown",
       "localized": {
         "en-US": {
@@ -4832,7 +4832,7 @@
       "packageName": "com.modisk.dawn",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.modisk.dawn",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.0.3",
+      "suggestedVersionName": "1.0.4",
       "summary": "Modisk 解锁更多功能！"
     },
     {
@@ -5523,24 +5523,24 @@
       "summary": "Xposed module for specifying orientation per app"
     },
     {
-      "added": 1741681526000,
+      "added": 1742531914000,
       "authorName": "suqi8",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eO神 - ColorOS辅助模块\u003c/h1\u003e\n\u003cimg src=\"https://github.com/suqi8/OPatch/blob/e9cb9e2af53b728e5e2d2d00429a90f10a3384dc/app/src/main/ic_launcher1-playstore.png?raw=true\" width=\"160\" height=\"160\" style=\"display: block; margin: 0 auto;\" alt=\"icon\"\u003e\n\u003ch3\u003e简体中文 | \u003ca href=\"./README_EN.md\"\u003eEnglish\u003c/a\u003e | \u003ca href=\"https://oshin.mikusignal.top/\"\u003e文档\u003c/a\u003e\u003c/h3\u003e\n\u003cp\u003e\u003cimg src=\"https://socialify.git.ci/suqi8/OPatch/image?font=Rokkitt\u0026amp;forks=1\u0026amp;issues=1\u0026amp;language=1\u0026amp;name=1\u0026amp;owner=1\u0026amp;pattern=Brick%20Wall\u0026amp;pulls=1\u0026amp;stargazers=1\u0026amp;theme=Auto\" alt=\"OShin\" /\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e原名：OPatch\u003cbr /\u003e\nO神是一个专为ColorOS系统设计的辅助模块，旨在增强和定制用户的操作系统体验。该模块允许用户轻松地应用补丁，以实现特定的功能或优化。\u003c/p\u003e\n\u003ch2\u003e官方渠道\u003c/h2\u003e\n\u003cp\u003e我们为您提供了多个官方渠道，您可以通过这些渠道与我们联系或获取最新信息：\u003c/p\u003e\n\u003ch3\u003eTelegram\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchA\"\u003eO神 官方频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchB\"\u003eO神 聊天频道\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://t.me/OPatchC\"\u003eO神 自动构建\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eQQ\u003c/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027\u0026amp;k=dbP78P2qCYuR2RxGtwmwCrlMCsh2MB2N\u0026amp;authKey=uTkJAGf0gg7%2Fx%2B3OBPrf%2F%2FnyZY2ntPNvnz6%2BTUo%2BHa0Pe%2F%2FqtXvK%2BSJ3%2B4PS0zbO\u0026amp;noverify=0\u0026amp;group_code=740266099\"\u003eO神 QQ群\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003e支持的版本\u003c/h2\u003e\n\u003cp\u003e目前仅支持基于 Android 15 的 ColorOS 15 / RealmeUI 6.0 / OxygenOS 15\u003c/p\u003e\n\u003ch2\u003e名称的由来\u003c/h2\u003e\n\u003cp\u003e\u003cdel\u003e仓库的名称”OPatch”来源于”OPPO OnePlus Patch”，主要应用场景是OPPO和OnePlus设备上的ColorOS系统。\u003c/del\u003e\u003cbr /\u003e\n经过各位的讨论与投票后，我们决定将名称改为 O神。\u003c/p\u003e\n\u003ch2\u003e贡献\u003c/h2\u003e\n\u003cp\u003e如果您想为我的模块加入您使用的语言，请前往 \u003ca href=\"https://zh.crowdin.com/project/opatch\"\u003eCrowdin\u003c/a\u003e 页面进行贡献。\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e[!CAUTION]\u003c/p\u003e\n\u003cp\u003e该应用需要 Magisk、KernelSU 和 APatch 来获取 root 权限，并且需要 XPosed/LSPosed 框架。任何替代方法都将无效。\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e许可\u003c/h2\u003e\n\u003cp\u003e本项目采用\u003ca href=\"LICENSE\"\u003eAGPL许可证\u003c/a\u003e，详情请参阅LICENSE文件。\u003c/p\u003e\n\u003ch2\u003e联系我们\u003c/h2\u003e\n\u003cp\u003e如果您有任何问题或需要帮助，请通过以下方式联系我们：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eGitHub Issues\u003c/li\u003e\n\u003cli\u003e电子邮件：[\u003ca href=\"mailto:3383787570@qq.com\"\u003e3383787570@qq.com\u003c/a\u003e]\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e贡献者\u003c/h2\u003e\n\u003cp\u003e感谢以下贡献者\u003c/p\u003e\n\u003ca href=\"https://github.com/suqi8/OPatch/graphs/contributors\"\u003e\n  \u003cimg src=\"https://contrib.rocks/image?repo=suqi8/OPatch\"  alt=\"\"/\u003e\n\u003c/a\u003e\n\u003cp\u003e\u003cimg src=\"https://repobeats.axiom.co/api/embed/cc78ce423b8c1fe1ca2dfdc4ce580bc1fa8bfd62.svg\" alt=\"Alt\" title=\"Repobeats analytics image\" /\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://star-history.com/#suqi8/OPatch\u0026amp;Date\"\u003e\u003cimg src=\"https://api.star-history.com/svg?repos=suqi8/OPatch\u0026amp;type=Date\" alt=\"Star History Chart\" /\u003e\u003c/a\u003e\u003c/p\u003e\n",
-      "lastUpdated": 1741681526000,
+      "lastUpdated": 1742531914000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "# v15.2.418.d8db506(418)\n\n- ​**应用**\n  - 添加 应用-启用模糊\n  - 添加 应用-启用渐变模糊\n  - 增加 应用-用户相关信息收集\n  - 添加 应用-关于-编译类型标签显示\n- ​**游戏助手**\n  - 添加 游戏助手-启用超神一键连招\n  - 添加 游戏助手-王者荣耀-开启AI大神辅助V1/V2/V3\n  - 添加 游戏助手-王者荣耀-移除AI大神辅助包名限制\n  - 添加 游戏助手-移除功能云控\n  - 添加 游戏助手-移除包名限制\n  - 添加 游戏助手-启用全部特性\n  - 添加 游戏助手-和平精英-开启AI大神辅助\n- ​**电池**\n  - 增加 电池-自启动最大数量\n- ​**系统界面**\n  - 修复 系统界面-状态栏时钟 (Commit #5)\n  - 优化 系统界面-全天候息屏\n  - 修复/优化 系统界面-状态指示器-温度指示器\n  - 优化 系统界面-状态指示器-功耗指示器\n- ​**Android 系统**\n  - 增加 Android系统-分屏与小窗\n  - 增加 Android系统-分屏与小窗-浮动窗口-移除开"
+          "whatsNew": "- ​**修复** 系统桌面 › 最近任务 › 强制显示运行内存  \n- ​**修复** 设置 › 选择背景图片\n- ​**添加** 应用 › 全局滑动位置记忆\n- ​**添加** 系统桌面 › 强制开启Fold模式\n- ​**添加** 系统桌面 › Fold模式 › 展开/折叠\n- ​**增加** 系统桌面 › 强制开启Fold Dock\n- ​**增加** 系统桌面 › 调整Dock透明度\n- ​**增加** 系统桌面 › 强制启用Dock模糊\n- ​**增加** 游戏助手 › 移除游戏滤镜Root检测\n- ​**更新** 应用 › 编译SDK版本至API36\n- ​**重构** 应用 › 硬件指示器 › 自动反色、实时设置生效、息屏停止更新、垂直居中\n- ​**优化** 系统 › 硬件指示器 › 插入位置 通知图标后 → 通知图标前\n- ​**修复** 系统 › 硬件指示器 › 功耗指示器与温度指示器无法同时显示\n- ​**添加** 手机管家 › 移除所有弹窗延迟\n- ​**添加** 国际版手机管家 › 移除所有弹窗延迟\n- ​**添加** 信息 › 移除信息附加广告\n- ​**"
         }
       },
       "name": "O神/OShin",
       "packageName": "com.suqi8.oshin",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.suqi8.oshin",
-      "suggestedVersionCode": "418",
-      "suggestedVersionName": "15.2.418.d8db506",
+      "suggestedVersionCode": "453",
+      "suggestedVersionName": "15.3.453.a183a3c",
       "summary": "系统辅助模块，支持 ColorOS、RealmeUI、OxygenOS。免费软件，请勿二次转发，分享，售卖！github@suqi8\nSystem sup..."
     },
     {
@@ -7255,7 +7255,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1742527739000,
+      "lastUpdated": 1742614093000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -8201,25 +8201,25 @@
       "summary": "假装开启小黑盒的通知权限, 获得 10% 签到加成, 安装后即可生效"
     },
     {
-      "added": 1736053691000,
+      "added": 1742610738000,
       "authorName": "bingqiu456",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" /\u003e\n\u003ch1\u003e冰社 / IceCore\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e✨\u003cstrong\u003e一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\u003c/strong\u003e ✨\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003e🌈冰社2.0 大版本更新来了，这次更新内容较多，大家可以下载体验一下🌈\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e🎉\u003cstrong\u003e编写模块不易 有能力的大佬不如\u003ca href=\"https://afdian.com/a/bingyueblog\"\u003e捐赠\u003c/a\u003e一下\u003c/strong\u003e🎉\u003c/p\u003e\n\u003ch2\u003e✨如何使用\u003c/h2\u003e\n\u003cp\u003e点击\u003ca href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\"\u003e这里\u003c/a\u003e，下载\u003cstrong\u003e最新版本\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e注：部分软件可能需要登录才能获取会员\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨免责声明\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e本模块仅适配\u003ccode\u003eLsposed\u003c/code\u003e，不适配\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e，如果使用\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e出现问题请不要在群里提问\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么我勾了软件没会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么点开模块设置会闪退\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请先前往LSPosed激活模块\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨联系方式\u003c/h2\u003e\n\u003cp\u003e我们目前有\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003eQQ群\u003c/a\u003e，\u003ca href=\"https://t.me/bingyue_personal\"\u003eTG频道\u003c/a\u003e，可以自由选择加入\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨目前支持的功能\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e获取\u003ccode\u003eVIP\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎇适配的APP\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPP名字\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e测试的版本\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e一叶日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e1.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e彩云天气\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e7.24.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e365日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e7.6.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ees文件管理\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e4.4.2.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e钱迹\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e4.1.1\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e倒数日\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了内购，点击购买后退出即可获得\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.22.0\\\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小黑屋\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了使用激活码激活，随便输入一个支付宝订单号即可\u003c/td\u003e\n\u003ctd\u003e1.9.18c\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.3.5 BETA 1598\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e奶酪单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员\u003c/td\u003e\n\u003ctd\u003e3.7.8\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip，去除更新，去除云控\u003c/td\u003e\n\u003ctd\u003e1.3.2.2\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e堆糖\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以自由使用vip功能\u003c/td\u003e\n\u003ctd\u003e8.42.3\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003evmos pro\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去登录\u003c/td\u003e\n\u003ctd\u003e3.0.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e番茄小说\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e6.4.5.32\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小熊录屏\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.4.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不背单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员\u003c/td\u003e\n\u003ctd\u003e5.0-5.5.6\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e潮汐\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e功能，大部分功能有服务器校验\u003c/td\u003e\n\u003ctd\u003e4.2.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e无痛单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁终生vip\u003c/td\u003e\n\u003ctd\u003e1.18.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAutocmd\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁专业版\u003c/td\u003e\n\u003ctd\u003e1.1.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e一木记账\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e功能解锁\u003c/td\u003e\n\u003ctd\u003e5.8.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003enfc tool\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.6.5\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e滴答清单\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e破解\u003c/td\u003e\n\u003ctd\u003e7.3.1.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🍋适配的版本\u003c/h2\u003e\n\u003cp\u003e这里我提供了适配的app的版本安装包\u003c/p\u003e\n\u003cpre lang=\"bash\"\u003e\u003ccode\u003ehttps://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n\u003c/code\u003e\u003c/pre\u003e\n\u003chr /\u003e\n\u003ch2\u003e🖋本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003ehttps://github.com/bingqiu456/IceCore\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456\"\u003eAonther: bingyue\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e⭐Star\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://starchart.cc/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📜LICENSE\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003cdiv align=\"center\"\u003e\n\u003cimg src=\"https://s21.ax1x.com/2024/12/31/pAzqOPg.png\"  width=\"250\" height=\"250\" /\u003e\n\u003ch1\u003e冰社 / IceCore\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/LSPosed-Module-blue.svg\" alt=\"LSPosed\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://img.shields.io/badge/Github-IceCore-black.svg\" alt=\"Github\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003e\u003cimg src=\"https://img.shields.io/badge/QQ%E7%BE%A4-855183768-orange?style=flat-square\" alt=\"QQ_group\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e✨\u003cstrong\u003e一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\u003c/strong\u003e ✨\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003cstrong\u003e🌈注：为了模块的长期发展，从2.0.2之后不再开源 感谢您的支持🌈\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e🎉\u003cstrong\u003e编写模块不易 有能力的大佬不如\u003ca href=\"https://afdian.com/a/bingyueblog\"\u003e捐赠\u003c/a\u003e一下\u003c/strong\u003e🎉\u003c/p\u003e\n\u003ch2\u003e✨如何使用\u003c/h2\u003e\n\u003cp\u003e点击\u003ca href=\"https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore/releases\"\u003e这里\u003c/a\u003e，下载\u003cstrong\u003e最新版本\u003c/strong\u003e\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e注：部分软件可能需要登录才能获取会员\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨免责声明\u003c/h2\u003e\n\u003cblockquote\u003e\n\u003cp\u003e本项目仅供学习交流，请勿倒卖恶意打包，使用本模块后请24小时内删除\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003cp\u003e本模块仅适配\u003ccode\u003eLsposed\u003c/code\u003e，不适配\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e，如果使用\u003ccode\u003eopatch\u003c/code\u003e或者\u003ccode\u003elspatch\u003c/code\u003e出现问题请不要在群里提问\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨常见问题\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么我勾了软件没会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请查看下面的使用说明，部分软件破解方法不同，如果试了还是这样就去GitHub提issue，另外部分软件要登陆才能获取会员\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eQ：为什么点开模块设置会闪退\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eA：请先前往LSPosed激活模块\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨联系方式\u003c/h2\u003e\n\u003cp\u003e我们目前有\u003ca href=\"https://qm.qq.com/q/hnbnj43qwM\"\u003eQQ群\u003c/a\u003e，\u003ca href=\"https://t.me/bingyue_personal\"\u003eTG频道\u003c/a\u003e，可以自由选择加入\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e✨目前支持的功能\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003e获取\u003ccode\u003eVIP\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🎇适配的APP\u003c/h2\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003eAPP名字\u003c/th\u003e\n\u003cth\u003e状态\u003c/th\u003e\n\u003cth\u003e功能\u003c/th\u003e\n\u003cth\u003e测试的版本\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003ePixiv\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e本地vip\u003c/td\u003e\n\u003ctd\u003e6.137.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e设备信息\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁pro会员\u003c/td\u003e\n\u003ctd\u003e2.19.5.1\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e一叶日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e1.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e彩云天气\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e7.24.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e365日历\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e获取\u003ccode\u003evip\u003c/code\u003e解锁完整版\u003c/td\u003e\n\u003ctd\u003e7.6.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003ees文件管理\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip\u003c/td\u003e\n\u003ctd\u003e4.4.2.17\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e钱迹\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e4.1.1\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e网易云音乐\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除\u003ccode\u003ehook\u003c/code\u003e检测\u003c/td\u003e\n\u003ctd\u003e9.2.70\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e倒数日\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了内购，点击购买后退出即可获得\u003ccode\u003evip\u003c/code\u003e\u003c/td\u003e\n\u003ctd\u003e1.22.0\\\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小黑屋\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e破解了使用激活码激活，随便输入一个支付宝订单号即可\u003c/td\u003e\n\u003ctd\u003e1.9.18c\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e,修复地图\u003c/td\u003e\n\u003ctd\u003e1.3.5 BETA 1598\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e奶酪单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员\u003c/td\u003e\n\u003ctd\u003e3.7.8\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003efake_location\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁vip，去除更新，去除云控，修复地图\u003c/td\u003e\n\u003ctd\u003e1.3.2.2\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e堆糖\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以自由使用vip功能\u003c/td\u003e\n\u003ctd\u003e8.42.3\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003evmos pro\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去登录\u003c/td\u003e\n\u003ctd\u003e3.0.7\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e番茄小说\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e去除广告\u003c/td\u003e\n\u003ctd\u003e6.4.5.32\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e小熊录屏\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.4.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e不背单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e终生大会员，去除云控检测\u003c/td\u003e\n\u003ctd\u003e5.0-5.5.6\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e出租车计价器\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁永久会员\u003c/td\u003e\n\u003ctd\u003e3.9.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e出租车计价\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁永久会员\u003c/td\u003e\n\u003ctd\u003e2.4.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e潮汐\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁\u003ccode\u003evip\u003c/code\u003e功能，大部分功能有服务器校验\u003c/td\u003e\n\u003ctd\u003e4.2.4\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e无痛单词\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁终生vip\u003c/td\u003e\n\u003ctd\u003e1.18.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eAutocmd\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e解锁专业版\u003c/td\u003e\n\u003ctd\u003e1.1.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e一木记账\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e功能解锁\u003c/td\u003e\n\u003ctd\u003e5.8.9\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003enfc tool\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e可以使用vip功能\u003c/td\u003e\n\u003ctd\u003e2.6.5\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003e滴答清单\u003c/td\u003e\n\u003ctd\u003e🟢\u003c/td\u003e\n\u003ctd\u003e\u003ccode\u003evip\u003c/code\u003e破解\u003c/td\u003e\n\u003ctd\u003e7.3.1.0\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003chr /\u003e\n\u003ch2\u003e🍋适配的版本\u003c/h2\u003e\n\u003cp\u003e这里我提供了适配的app的版本安装包\u003c/p\u003e\n\u003cpre lang=\"bash\"\u003e\u003ccode\u003ehttps://www.123865.com/s/dNbHjv-kqFsA?提取码：CZ3Z\n\u003c/code\u003e\u003c/pre\u003e\n\u003chr /\u003e\n\u003ch2\u003e🖋本项目源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore\"\u003ehttps://github.com/bingqiu456/IceCore\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456\"\u003eAonther: bingyue\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e⭐Star\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://starchart.cc/bingqiu456/IceCore\"\u003e\u003cimg src=\"https://starchart.cc/bingqiu456/IceCore.svg\" alt=\"Stargazers over time\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003chr /\u003e\n\u003ch2\u003e📜LICENSE\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/bingqiu456/IceCore/blob/main/LICENSE\"\u003eGNU General Public License v3.0\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "me.bingyue.IceCore.png",
-      "lastUpdated": 1736053691000,
+      "lastUpdated": 1742610738000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "**🧨冰社2.0.3🧨**\n\n🎐1.新增去除fakelocation用户协议弹窗\n🎐2.适配1.3.5去除服务器验证\n🎐3.适配奶酪单词\n\n**注：仅适配fakelocation最新 1.3.5 1598版本**"
+          "whatsNew": "- 修复fl 1.3.2.2无法获取会员\n- 新增设备信息\n- 新增pixiv\n- 新增app logo"
         }
       },
       "name": "冰社 IceCore",
       "packageName": "me.bingyue.IceCore",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/me.bingyue.IceCore",
-      "suggestedVersionCode": "5",
-      "suggestedVersionName": "2.0.3",
+      "suggestedVersionCode": "7",
+      "suggestedVersionName": "2.2.1",
       "summary": "一个集成了各种好玩功能的Xposed模块，支持获取vip，去除广告，等功能\nAn Xposed module that integrates variou..."
     },
     {
@@ -8647,6 +8647,27 @@
       "suggestedVersionCode": "202501310",
       "suggestedVersionName": "2.0",
       "summary": "将多邻国的时区修改为任意时区，便于回到过去做完忘了做的连胜。对特定地区来说，可以通过修改默认时区防止账户被判定为某些地区账户。Change Duoling..."
+    },
+    {
+      "added": 1742587123000,
+      "authorName": "nspron",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003cp\u003e \u003c/p\u003e\n\u003ch1\u003e多邻国杀手 - Duolingo Kill\u003c/h1\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。\u003c/p\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e破解会员\u003c/strong\u003e：无需付费即可享受Duolingo会员的所有特权。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e强制答对\u003c/strong\u003e：确保每次答题都能正确通过，轻松完成任务。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e经验增强\u003c/strong\u003e：练习模式每次学习所获得的经验值为100xp。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e调试模式\u003c/strong\u003e：启用调试模式，方便开发者进行应用调试和分析。\u003c/li\u003e\n\u003cli\u003e点击宝石或者设置打开菜单。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg\" alt=\"image\" /\u003e\u003c/p\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cp\u003e本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。\u003c/p\u003e\n",
+      "lastUpdated": 1742587123000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "6.x.x版本理论上通杀"
+        }
+      },
+      "name": "多邻国杀手",
+      "packageName": "com.duolingo.kill",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/com.duolingo.kill",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0",
+      "summary": "多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。"
     },
     {
       "added": 1624552119000,
@@ -11580,7 +11601,22 @@
     ],
     "cn.unicorn369.HookEuicc": [
       {
-        "added": 1742366756000,
+        "added": 1742540838000,
+        "apkName": "cn.unicorn369.HookEuicc_2-1.0.1.apk",
+        "hash": "8875c58a60cf47475c753d0873537e9c2498e06e3f0859d4f619b2cfdfb5b777",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": null,
+        "packageName": "cn.unicorn369.HookEuicc",
+        "sig": "e967c9e5fd92879f6bac96358de84d90",
+        "signer": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+        "size": 17065,
+        "targetSdkVersion": 35,
+        "versionCode": 2,
+        "versionName": "1.0.1"
+      },
+      {
+        "added": 1742354839000,
         "apkName": "cn.unicorn369.HookEuicc_1-1.0.apk",
         "hash": "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff",
         "hashType": "sha256",
@@ -13029,6 +13065,25 @@
         "targetSdkVersion": 31,
         "versionCode": 52,
         "versionName": "1.2"
+      }
+    ],
+    "com.duolingo.kill": [
+      {
+        "added": 1742587123000,
+        "apkName": "com.duolingo.kill_1-1.0.apk",
+        "hash": "183904cd24995ccaefbc31edae964276171dcb15424ab5a33fc4de02df00ad12",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.duolingo.kill",
+        "sig": "9be2032d3ee48d56aa0faf740463b64e",
+        "signer": "eacd259f98d93e384d62f15dd54aec6fbb699e606004872822a303e84867a15c",
+        "size": 472194,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0"
       }
     ],
     "com.example.oppo_theme": [
@@ -15147,7 +15202,7 @@
         "versionName": "1.0.2"
       },
       {
-        "added": 1742220390000,
+        "added": 1742268647000,
         "apkName": "com.modisk.dawn_1-1.0.3.apk",
         "hash": "49ce0d6cadafacd22c5b1c1ad892cbe4ab5807d1141b5ef00188b1520fd572fb",
         "hashType": "sha256",
@@ -15165,6 +15220,26 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "1.0.3"
+      },
+      {
+        "added": 1742572771000,
+        "apkName": "com.modisk.dawn_1-1.0.4.apk",
+        "hash": "73558f41ef8fe71dfdd0d54f5d41efacc6b79a0eff5138dffa202ceaa7ac29f5",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.modisk.dawn",
+        "sig": "ac201a917cf82fa51e104ca65c51ca03",
+        "signer": "a7ff1353682bb0ceca83ef0b56746d14582e47df234e11d92554bb471bcb42a4",
+        "size": 6633687,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.0.4"
       }
     ],
     "com.my.televip": [
@@ -15382,7 +15457,27 @@
     ],
     "com.padi.hook.hookqq": [
       {
-        "added": 1740741942000,
+        "added": 1742533687000,
+        "apkName": "com.padi.hook.hookqq_20250316-1.0.4.apk",
+        "hash": "a8af733eab861255cdb8a97630e579c1ead09d107d996df6349d63b0419c7215",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.padi.hook.hookqq",
+        "sig": "98d26918d8892b596fc0c0b307127beb",
+        "signer": "b004372dc4da0b28fc181c31e506abdbbdb416149c5984af34749dd55148a7ea",
+        "size": 12311923,
+        "targetSdkVersion": 34,
+        "versionCode": 20250316,
+        "versionName": "1.0.4"
+      },
+      {
+        "added": 1740885864000,
         "apkName": "com.padi.hook.hookqq_20250228-1.0.1.apk",
         "hash": "484d281ae82729c2413a7e55bd6bdca33bc658ed10d23624718b708152568f6e",
         "hashType": "sha256",
@@ -16182,7 +16277,27 @@
     ],
     "com.suqi8.oshin": [
       {
-        "added": 1741681526000,
+        "added": 1742531914000,
+        "apkName": "com.suqi8.oshin_453-15.3.453.a183a3c.apk",
+        "hash": "15697c21c32192c31cba63e6d34764d7db63f664e6e7b96dd9f1ab2942fd324f",
+        "hashType": "sha256",
+        "minSdkVersion": 35,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.suqi8.oshin",
+        "sig": "088e99cea37611acd0dd12428783e87d",
+        "signer": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5",
+        "size": 7354185,
+        "targetSdkVersion": 36,
+        "versionCode": 453,
+        "versionName": "15.3.453.a183a3c"
+      },
+      {
+        "added": 1741749924000,
         "apkName": "com.suqi8.oshin_418-15.2.418.d8db506.apk",
         "hash": "41c542f83fdd5fd55a3961e12052653064dd32431823f5cef687f2ba267a5332",
         "hashType": "sha256",
@@ -16220,23 +16335,6 @@
         "targetSdkVersion": 35,
         "versionCode": 389,
         "versionName": "15.1.389.2ab5828"
-      },
-      {
-        "added": 1738033613000,
-        "apkName": "com.suqi8.oshin_363-15.0.0.b363.9432e7a.apk",
-        "hash": "586f6fa3fbd0b89e022fda9be182df667d2ecadfa11cb7c80f0962c0088b27b7",
-        "hashType": "sha256",
-        "minSdkVersion": 35,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.suqi8.oshin",
-        "sig": "088e99cea37611acd0dd12428783e87d",
-        "signer": "afb9dd88c9e5ccf9326aaba8e81d007f8b243b77e7542664562733c4137e3cc5",
-        "size": 5107462,
-        "targetSdkVersion": 35,
-        "versionCode": 363,
-        "versionName": "15.0.0.b363.9432e7a"
       }
     ],
     "com.tcgg.imjhook": [
@@ -16767,7 +16865,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1742527739000,
+        "added": 1742614093000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -19597,7 +19695,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1742455185000,
+        "added": 1742549062000,
+        "apkName": "junzi.xposed.hook_45-4.0.5.apk",
+        "hash": "bbb3023aec4d2931831873e6c63479b691b2fb08ce0ae2dce3aaa5ee7fbc982b",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 2233561,
+        "targetSdkVersion": 36,
+        "versionCode": 45,
+        "versionName": "4.0.5"
+      },
+      {
+        "added": 1742527784000,
         "apkName": "junzi.xposed.hook_44-4.0.4.apk",
         "hash": "d921a9c863c807d5419516f389b5d8bdf409c86e5d8e49197d4e7161c0e3fadc",
         "hashType": "sha256",
@@ -19631,24 +19747,6 @@
         "targetSdkVersion": 36,
         "versionCode": 43,
         "versionName": "4.0.3"
-      },
-      {
-        "added": 1742182488000,
-        "apkName": "junzi.xposed.hook_42-4.0.2.apk",
-        "hash": "6856837b006f35555f3f7040ba2def9961810c720efc84f8ce3e2993bae27f4b",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2196889,
-        "targetSdkVersion": 36,
-        "versionCode": 42,
-        "versionName": "4.0.2"
       }
     ],
     "lialh4.ldf": [
@@ -19902,7 +20000,22 @@
     ],
     "me.bingyue.IceCore": [
       {
-        "added": 1736053691000,
+        "added": 1742610738000,
+        "apkName": "me.bingyue.IceCore_7-2.2.1.apk",
+        "hash": "1e582c6cdf8154775e4ebd3f87926f5feac8dcfc2a7383e8fb342364c3c648af",
+        "hashType": "sha256",
+        "minSdkVersion": 27,
+        "nativecode": null,
+        "packageName": "me.bingyue.IceCore",
+        "sig": "d4a3faf257eeeefabdfa18af329ff7e4",
+        "signer": "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53",
+        "size": 2526797,
+        "targetSdkVersion": 33,
+        "versionCode": 7,
+        "versionName": "2.2.1"
+      },
+      {
+        "added": 1736058393000,
         "apkName": "me.bingyue.IceCore_5-2.0.3.apk",
         "hash": "fe8bd93a40f88baded8e13a0f1d10200aec349165cdd1360cd3beaf85eca1766",
         "hashType": "sha256",
@@ -19930,21 +20043,6 @@
         "targetSdkVersion": 33,
         "versionCode": 4,
         "versionName": "2.0.2"
-      },
-      {
-        "added": 1735442832000,
-        "apkName": "me.bingyue.IceCore_3-2.0.1.apk",
-        "hash": "5a45c7fd9be095178f90cf7d7e55bc31d0d25e42b06fecd19868dc75f08761fe",
-        "hashType": "sha256",
-        "minSdkVersion": 27,
-        "nativecode": null,
-        "packageName": "me.bingyue.IceCore",
-        "sig": "d4a3faf257eeeefabdfa18af329ff7e4",
-        "signer": "21a66e628bea793f8b020dcf99657c4593f23bffeb011be09444203144768b53",
-        "size": 1958632,
-        "targetSdkVersion": 33,
-        "versionCode": 3,
-        "versionName": "2.0.1"
       }
     ],
     "me.documenthook": [
