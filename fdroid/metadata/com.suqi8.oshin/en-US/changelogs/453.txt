@@ -1,0 +1,487 @@
+- ​**修复** 系统桌面 › 最近任务 › 强制显示运行内存  
+- ​**修复** 设置 › 选择背景图片
+- ​**添加** 应用 › 全局滑动位置记忆
+- ​**添加** 系统桌面 › 强制开启Fold模式
+- ​**添加** 系统桌面 › Fold模式 › 展开/折叠
+- ​**增加** 系统桌面 › 强制开启Fold Dock
+- ​**增加** 系统桌面 › 调整Dock透明度
+- ​**增加** 系统桌面 › 强制启用Dock模糊
+- ​**增加** 游戏助手 › 移除游戏滤镜Root检测
+- ​**更新** 应用 › 编译SDK版本至API36
+- ​**重构** 应用 › 硬件指示器 › 自动反色、实时设置生效、息屏停止更新、垂直居中
+- ​**优化** 系统 › 硬件指示器 › 插入位置 通知图标后 → 通知图标前
+- ​**修复** 系统 › 硬件指示器 › 功耗指示器与温度指示器无法同时显示
+- ​**添加** 手机管家 › 移除所有弹窗延迟
+- ​**添加** 国际版手机管家 › 移除所有弹窗延迟
+- ​**添加** 信息 › 移除信息附加广告
+- ​**添加** 设置 › 强制开启NFC安全芯片显示
+- ​**添加** 支付保护 › 移除支付环境有风险流体云
+- ​**添加** 系统界面 › 可能找的设置 › 移除支付环境有风险流体云 链接到支付保护
+- ​**添加** 系统界面 › 可能找的设置 › 关闭电量低于20%流体云 链接到电池
+- ​**添加** 手机管家 › 自定义分数
+- ​**添加** 手机管家 › 自定义提示内容
+- ​**添加** 手机管家 › 自定义动画时长
+- ​**添加** 国际版手机管家 › 自定义分数
+- ​**添加** 国际版手机管家 › 自定义提示内容
+- ​**添加** 国际版手机管家 › 自定义动画时长
+- ​**添加** 设置 › 特性 › 强制启用：
+  - 全部特性
+  - 体验机模式
+  - 零售机模式
+  - 卡拉OK模式
+  - 3D色彩摄像头
+  - AON Explorer
+  - 应用冻结功能
+  - 蓝牙低功耗音频白名单检查
+  - 呼吸灯音乐节奏同步
+  - 呼吸灯颜色调节
+  - 广色域支持
+  - 色彩模式支持
+  - 隐藏应用功能
+  - 智能保护壳支持
+  - Dirac音频增强
+  - Dolby音效支持
+  - 双耳机连接支持
+  - 折叠屏模式
+  - 翻盖屏模式
+  - 显示重映射禁用
+  - 手势导航禁用
+  - Google移动服务禁用
+  - 存储信息隐藏
+  - Holo音频支持
+  - 高画质视频支持
+  - 自动安装权限授予
+  - 锁屏壁纸/画报禁用
+  - 轻量版操作系统
+  - 多应用独立音量调节
+  - 应用分身/双开支持
+  - 多级位调光支持
+  - OTA更新禁用
+  - 音效增强技术
+  - AI图像质量增强
+  - OSIE显示技术
+  - 长按电源键3秒强制关机
+  - 单脉冲PWM调光
+  - 分辨率自动切换禁用
+  - 手动选择高刷新率
+  - 默认智能刷新率
+  - 刷新率切换通知
+  - 销售模式启用
+  - 双卡支持启用
+  - 单卡检测禁用
+  - 防偷窥模式
+  - SNC内容启用
+  - 音效组合启用
+  - 音效设置启用
+  - 声音输入启用
+  - 1.5K分辨率切换
+  - 自适应刷新率
+  - 息屏显示启用
+  - 人脸AON检测
+  - 自动布局启用
+  - 刀锋色彩模式
+  - Breeno建议
+  - 亮度新动画
+  - 影院色彩模式
+  - OLED鲜艳模式
+  - 自定义色彩
+  - 多彩模式
+  - 节电色彩模式
+  - 小窗模式
+  - DC调光启用
+  - 亮度条动态范围
+  - Dirac蓝牙音效
+  - 动态刷新率切换
+  - 边缘防误触
+  - 5G网络支持
+  - 折叠屏重映射禁用
+  - GT模式启用
+  - HDR常亮增强
+  - HDR视频高光模式
+  - 智能色温2.0
+  - 线性振动反馈
+  - 鲁迅振动器
+  - 多LED呼吸灯
+  - 手机使用限制
+  - Pixelworks X7引擎
+  - 分辨率切换支持
+  - 铃声振动支持
+  - 卫星通信支持
+  - 空间音频扬声器
+  - 超级音量2.0
+  - 超级音量3.0
+  - 智能色温调节
+  - 触控板分屏手势
+  - 超声波指纹
+  - 音量增强模式
+  - 色彩调节球
+  - 环绕音效支持
+  - 平板设备模式
+  - Type-C接口菜单支持
+  - 超声波指纹加密
+  - 振动风格切换
+  - 智能息屏
+  - RichTap振动引擎
+  - Dirac音效V2
+  - IRIS5显示优化
+  - 铃声触感反馈
+  - 视频OSIE增强
+  - 视频超分辨率
+  - 应用停用限制解除
+  - 触感反馈预览禁用
+  - 设备名修改禁用
+  - 超级睡眠模式
+  - 5G引导提醒禁用
+  - 账户弹窗禁用
+  - 系统应用禁用许可
+  - CMIIT认证信息隐藏
+  - 超感视觉模式
+  - 运营商设置隐藏
+  - 英式转美式英语
+  - 缓存清理禁用
+  - 真彩显示模式
+  - 保密版本绕过
+  - 赛博朋克主题
+  - 默认自动分辨率
+  - OEM解锁启用
+  - 自动旋转隐藏
+  - 应用切换禁止
+  - 欧盟特别版
+  - 强制国际版
+  - 电影效果指纹
+  - 指纹动画启用
+  - 金融NFC支持
+  - 折叠设备伪装
+  - 全面屏手势禁用
+  - 上滑手势保留
+  - 增强手势功能
+  - GOTA系统更新
+  - 商业声明功能
+  - 终极清理功能
+  - 硬件版本隐藏
+  - 设备标识隐藏
+  - KTV回环功能隐藏
+  - 短信铃声选项隐藏
+  - DC调光移至开发者选项
+  - 网络速度显示隐藏
+  - 电源唤醒项3隐藏
+  - SIM信号强度隐藏
+  - 哼唱识别功能
+  - 内核版本ID显示
+  - 防重复点击
+  - OTA获取IMEI-SV
+  - 光感功能支持
+  - 漫威定制版
+  - 人像居中隐藏
+  - 视频美颜隐藏
+  - 2G/3G选项显示
+  - 云服务禁用
+  - 强制OH设备体验
+  - 仅显示硬件版本
+  - KDDI运营商显示AU
+  - 运营商名称显示
+  - 隐私邮箱隐藏
+  - 上滑手势保留
+  - OTA更新禁用
+  - OTG自动关闭提醒禁用
+  - OTG入口禁用
+  - PAC定制版本
+  - 隐私模式禁用
+  - 伪基站提示隐藏
+  - RL语言删除
+  - 强制RLM设备
+  - 抬手唤醒功能
+  - 任务管理禁用
+  - COTA主页标签移除
+  - 分屏显示禁用
+  - RLM反馈V2
+  - 屏幕固定禁用
+  - 搜索索引禁用
+  - 智能建议实验区
+  - 自定义设备名称
+  - COTA设备名修改
+  - 密码设置禁用
+  - 所有ANR提示隐藏
+  - 品牌名称显示
+  - 运营商配置版本显示
+  - 运营商系统更新显示
+  - 自定义详情显示
+  - 数据用量信息隐藏
+  - 诊断信息显示
+  - 系统版本首名显示
+  - 关于手机显示硬件版本
+  - IMS注册状态显示
+  - 内核编译时间显示
+  - 网络解锁选项
+  - 永不休眠选项
+  - NPU详情隐藏
+  - 处理器详情显示
+  - 二代处理器详情
+  - 屏幕尺寸(cm单位)
+  - 关于手机显示软件版本
+  - 软件版本替换构建号
+  - UICC解锁选项
+  - SIM卡锁状态支持
+  - SIM工具包隐藏
+  - 软件保密模式
+  - 折叠屏侧边指纹
+  - 圆形搜索功能
+  - 自定义版本显示
+  - 电子标签功能
+  - 全屏显示应用
+  - 智能手势感知
+  - IMSI信息显示
+  - MEID信息显示
+  - 会员RCC显示
+  - 迷你胶囊功能
+  - 号码识别功能
+  - OGuard信息支持
+  - 印度特别版
+  - USB网络共享开机启动
+  - 快速应用支持
+  - 区域选择器支持
+  - 轮盘功能支持
+  - WFC提示显示
+  - 智能触控支持
+  - 智能触控V2
+  - 短信号码显示
+  - AI智能护眼
+  - 边缘面板禁用
+  - 稳定计划禁用
+  - 时间更改禁用
+  - 注视铃声禁用
+  - 用户体验禁用
+  - 验证弹窗禁用
+  - 虚拟通信设备
+  - 虚拟通信服务
+  - VoWIFI设置禁用
+  - VoLTE设置禁用
+  - VoLTE图标默认关闭
+  - WiFi设置隐藏
+  - 安装来源隐藏
+  - 生物识别隐私声明
+  - 错误日志上传
+  - Dirac音效支持
+  - 杜比全景声
+  - 边缘面板功能
+  - 分辨率图片
+  - 锐度切换
+  - 超频模式
+  - 流体云功能
+  - 线性震动
+  - 一加7震动
+  - 掌纹解锁
+  - 隐身安全模式
+  - PWM重启关闭
+  - 智能防窥
+  - 红包助手启用
+- ​**添加** 健康 › 移除Root检测弹窗
+- ​**更改** 应用 › 贡献翻译渠道
+- ​**更改** 应用图标
+- ​**添加** 应用安装器 › 移除"大家也喜欢"
+- ​**更新** 应用 › 版本
+- ​**移除** him  
+  
+- ​**Fixed** System Launcher › Recent Tasks › Force Show RAM Usage  
+- ​**Fixed** Settings › Wallpaper Selection
+- ​**Added** Apps › Global Scroll Position Memory
+- ​**Added** System Launcher › Force Enable Fold Mode
+- ​**Added** System Launcher › Fold Mode › Expand/Collapse
+- ​**Added** System Launcher › Force Enable Fold Dock
+- ​**Added** System Launcher › Adjust Dock Transparency
+- ​**Added** System Launcher › Force Enable Dock Blur
+- ​**Added** Game Center › Remove Root Detection for Game Filters
+- ​**Updated** Apps › Compile SDK Version to API36
+- ​**Refactored** Apps › Hardware Indicator › Auto Invert Colors, Real-time Settings, Screen-off Stop Update, Vertical Centering
+- ​**Optimized** System › Hardware Indicator › Position Notification Icon Before → After
+- ​**Fixed** System › Hardware Indicator › Power/Temperature Indicators Conflict
+- ​**Added** Security App › Remove All Popup Delays
+- ​**Added** International Security App › Remove All Popup Delays
+- ​**Added** Messages › Remove Message Ads
+- ​**Added** Settings › Force Show NFC Secure Chip
+- ​**Added** Payment Protection › Remove "Fluid Cloud" Risk Notifications
+- ​**Added** System UI › Quick Settings › Link "Fluid Cloud Risk" to Payment Protection
+- ​**Added** System UI › Quick Settings › Link "Low Battery Alert" to Battery Settings
+- ​**Added** Security App › Custom Scores/Prompts/Animation Durations
+- ​**Added** International Security App › Custom Scores/Prompts/Animation Durations
+- ​**Added** Settings › Features › Force Enable:
+  - Full Feature Set
+  - Demo Device Mode
+  - Retail Device Mode
+  - Karaoke Mode
+  - 3D Color Camera
+  - AON Explorer
+  - App Freezing
+  - BLE Audio Whitelist Check
+  - Music-synced Breathing Lights
+  - RGB Breathing Light Control
+  - Wide Color Gamut
+  - Color Profile Mode
+  - Hidden Apps
+  - Smart Case Support
+  - Dirac Audio Enhancement
+  - Dolby Atmos
+  - Dual Headphone Mode
+  - Foldable Display
+  - Clamshell Display
+  - Display Remapping Disabled
+  - Gesture Navigation Disabled
+  - GMS Disabled
+  - Hide Storage Info
+  - Holo Audio
+  - HQ Video Support
+  - Auto Install Permissions
+  - Lock Screen Wallpaper Disabled
+  - Lite OS Mode
+  - Per-app Volume Control
+  - App Cloning
+  - Multi-level Brightness
+  - OTA Updates Disabled
+  - Audio Enhancement Tech
+  - AI Image Enhancement
+  - OSIE Display Tech
+  - 3-sec Force Shutdown
+  - Single-pulse PWM Dimming
+  - Auto Resolution Disabled
+  - Manual Refresh Rate Select
+  - Default Smart Refresh Rate
+  - Refresh Rate Notifications
+  - Demo Mode
+  - Dual SIM Support
+  - Single SIM Check Disabled
+  - Anti-Peep Mode
+  - SNC Content
+  - Audio Combo Settings
+  - Sound Input Settings
+  - 1.5K Resolution Switch
+  - Adaptive Refresh Rate
+  - Always-on Display
+  - AON Face Detection
+  - Auto Layout
+  - Blade Color Mode
+  - Breeno Suggestions
+  - New Brightness Animation
+  - Cinema Color Mode
+  - OLED Vivid Mode
+  - Custom Colors
+  - Colorful Mode
+  - Power-saving Color Mode
+  - Floating Window Mode
+  - DC Dimming
+  - Dynamic Brightness Range
+  - Dirac Bluetooth Audio
+  - Dynamic Refresh Rate
+  - Edge Touch Prevention
+  - 5G Network Support
+  - Fold Screen Remap Disabled
+  - GT Mode
+  - Always-on HDR
+  - HDR Highlight Mode
+  - Smart Color Temp 2.0
+  - Linear Haptics
+  - Luxun Haptic Engine
+  - Multi-LED Breathing Lights
+  - Usage Limits
+  - Pixelworks X7 Engine
+  - Resolution Switching
+  - Ringtone Vibration
+  - Satellite Comm
+  - Spatial Audio Speakers
+  - Super Volume 2.0/3.0
+  - Smart Color Temp
+  - Trackpad Gestures
+  - Ultrasonic Fingerprint
+  - Volume Boost
+  - Color Adjustment Ball
+  - Surround Sound
+  - Tablet Mode
+  - USB-C Menu Support
+  - Secure Ultrasonic FP
+  - Haptic Style Switch
+  - Smart AOD
+  - RichTap Haptics
+  - Dirac Audio V2
+  - IRIS5 Display Opt
+  - Ringtone Haptics
+  - Video OSIE Enhance
+  - Video Super Resolution
+  - App Disable Limit Removed
+  - Haptic Preview Disabled
+  - Device Rename Disabled
+  - Super Sleep Mode
+  - 5G Guide Disabled
+  - Account Popups Disabled
+  - System App Disabling
+  - Hide CMIIT Info
+  - Hyper Vision Mode
+  - Hide Carrier Settings
+  - UK→US English
+  - Cache Clean Disabled
+  - True Color Mode
+  - Secret Version Bypass
+  - Cyberpunk Theme
+  - Default Auto Resolution
+  - OEM Unlock
+  - Hide Auto Rotation
+  - App Switching Blocked
+  - EU Edition
+  - Global Edition
+  - Cinematic Fingerprint
+  - Fingerprint Animation
+  - Financial NFC
+  - Fake Foldable Device
+  - Fullscreen Gestures Disabled
+  - Keep Swipe-up Gesture
+  - Enhanced Gestures
+  - GOTA Updates
+  - Commercial Declarations
+  - Deep Clean
+  - Hide Hardware Version
+  - Hide Device IDs
+  - Hide KTV Loopback
+  - Hide SMS Tones
+  - DC Dimming in Dev Options
+  - Hide Network Speed
+  - Hide Wake Options
+  - Hide SIM Signal
+  - Humming Recognition
+  - Kernel Version ID
+  - Anti-double Tap
+  - IMEI-SV via OTA
+  - Light Sensor Support
+  - Marvel Edition
+  - Hide Portrait Centering
+  - Hide Video Beauty
+  - Show 2G/3G Options
+  - Cloud Services Disabled
+  - Force OH Experience
+  - Hardware-only Version
+  - KDDI AU Carrier
+  - Show Carrier Name
+  - Hide Privacy Email
+  - Keep Swipe-up Gesture
+  - OTA Disabled
+  - OTG Auto-close Disabled
+  - OTG Entry Disabled
+  - PAC Custom ROM
+  - Privacy Mode Disabled
+  - Hide Fake Base Alerts
+  - Remove RL Language
+  - Force RLM Device
+  - Raise to Wake
+  - Task Manager Disabled
+  - Remove COTA Tab
+  - Split Screen Disabled
+  - RLM Feedback V2
+  - Screen Pin Disabled
+  - Search Index Disabled
+  - Smart Suggestions Lab
+  - Custom Device Name
+- ​**Added** Health › Remove Root Detection Popup
+- ​**Changed** Apps › Translation Channel
+- ​**Changed** App Icon
+- ​**Added** App Installer › Remove "You May Also Like"
+- ​**Updated** Apps › Version
+- ​**Removed** him
+
+**Full Changelog**: https://github.com/suqi8/OShin/compare/v15.2.418.d8db506(418)...v15.3.453.a183a3c(453)
