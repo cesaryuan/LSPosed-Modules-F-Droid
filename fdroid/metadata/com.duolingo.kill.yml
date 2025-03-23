@@ -1,20 +1,23 @@
 AuthorName: nspron
 Categories:
     - Xposed
-CurrentVersion: "1.0"
+CurrentVersion: "1.1"
 CurrentVersionCode: 1
 Description: |
     <p> </p>
     <h1>多邻国杀手 - Duolingo Kill</h1>
+    <p><a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/release/Xposed-Modules-Repo/com.duolingo.kill.svg" alt="release" /></a>
+    <a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg" alt="download" /></a></p>
     <h2>简介</h2>
     <p>多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。</p>
     <h2>功能</h2>
     <ul>
     <li><strong>破解会员</strong>：无需付费即可享受Duolingo会员的所有特权。</li>
-    <li><strong>强制答对</strong>：确保每次答题都能正确通过，轻松完成任务。</li>
+    <li><strong>强制正确</strong>：确保每次答题都能正确通过，轻松完成任务。</li>
     <li><strong>经验增强</strong>：练习模式每次学习所获得的经验值为100xp。</li>
     <li><strong>调试模式</strong>：启用调试模式，方便开发者进行应用调试和分析。</li>
-    <li>点击宝石或者设置打开菜单。</li>
+    <li>点击五角星悬浮窗或者设置打开菜单。</li>
+    <li>有bug或者没反应issues反馈。</li>
     </ul>
     <p><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg" alt="image" />
     <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg" alt="image" />
@@ -22,7 +25,7 @@ Description: |
     <h2>免责声明</h2>
     <p>本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。</p>
 IssueTracker: ""
-Name: 多邻国杀手
+Name: 多邻国杀手 Duolingo Kill
 SourceCode: https://github.com/Xposed-Modules-Repo/com.duolingo.kill
 Summary: 多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。
 WebSite: ""
