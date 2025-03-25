@@ -4,7 +4,7 @@
     "description": "This repository syncs with [LSPosed Modules Repository](https://modules.lsposed.org/). Apps in this repository are official binaries built by the original application developers and released on the official github pages.",
     "icon": "icon.png",
     "name": "LSPosed Module Repository",
-    "timestamp": 1742700883000,
+    "timestamp": 1742873793000,
     "version": 20002
   },
   "requests": {
@@ -1658,7 +1658,7 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eDisable-FLAG_SECURE\u003c/h1\u003e\n\u003cp\u003eXposed Module to Disable \u003ccode\u003eFLAG_SECURE\u003c/code\u003e, enabling screenshots, screen sharing and recording in apps that normally\nwouldn’t allow it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure/total?color=blue\" alt=\"Download-Count\" /\u003e\u003c/p\u003e\n\u003ch2\u003eUsage for LSPosed:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEnable the module\u003c/li\u003e\n\u003cli\u003eSelect \u003ccode\u003eSystem Framework\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eSelect the target app in which you want to enable screenshots\u003c/li\u003e\n\u003cli\u003eReboot\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eNote:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eThis app does not prevent apps from detecting that you’ve taken a screenshot or recorded it like Snap or Instagram.\nThis only enables it in apps that prohibit screenshots and recording. So don’t screenshot your girlfriend’s nudes.\n(You probably don’t have one since you’re reading this anyway)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eApps Tested on:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAmazon Prime Video\u003c/li\u003e\n\u003cli\u003eNetflix (\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003eDisney+ (\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003eTelegram (Secret Chat \u0026amp; Disappearing Media)\u003c/li\u003e\n\u003cli\u003eReddit (Anonymous Browsing Mode)\u003c/li\u003e\n\u003cli\u003eGoogle Chrome (Incognito Mode)\u003c/li\u003e\n\u003cli\u003eBrave Browser (Incognito Mode)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThis module may work on other apps too with or\nwithout \u003ca href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"\u003e\u003ccode\u003eliboemcrypto.so disabler\u003c/code\u003e\u003c/a\u003e.\n(\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eYou can contribute names of apps \u003ca href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\"\u003ehere\u003c/a\u003e that are working and\nare not listed here, so I can add it to the list.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eIf you face any issue or have a suggestion then feel free to open an\nissue \u003ca href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThis app is a fork of the existing apps but with better compatibility:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/veeti/DisableFlagSecure/\"\u003ehttps://github.com/veeti/DisableFlagSecure/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LSPosed/DisableFlagSecure/\"\u003ehttps://github.com/LSPosed/DisableFlagSecure/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://gitlab.com/azhao12345/disableflagsecure/\"\u003ehttps://gitlab.com/azhao12345/disableflagsecure/\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eAdditional Information on DRM encrypted content\u003c/h3\u003e\n\u003cp\u003eThis is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these\ninstructions.\u003c/p\u003e\n\u003cp\u003eWhen playing DRM encrypted content, most devices will use hardware decryption capabilities. This hardware decryption\nwill push the video directly onto the screen, bypassing any screenshots/screenshare/recording functionality.\u003c/p\u003e\n\u003cp\u003eOne possible solution is to disable this hardware decryption by installing the Magisk\nmodule \u003ca href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"\u003e\u003ccode\u003eliboemcrypto.so disabler\u003c/code\u003e\u003c/a\u003e. This will force the\ndevice to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and\nrecording.\u003c/p\u003e\n\u003cp\u003eInstalling this module might have unintended consequences, such as lowered video quality.\n\u003ca href=\"https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393\"\u003eRead more\u003c/a\u003e\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eDisable-FLAG_SECURE\u003c/h1\u003e\n\u003cp\u003eXposed Module to Disable \u003ccode\u003eFLAG_SECURE\u003c/code\u003e, enabling screenshots, screen sharing and recording in apps that normally\nwouldn’t allow it.\u003c/p\u003e\n\u003cp\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure/total?color=blue\" alt=\"Download-Count\" /\u003e\u003c/p\u003e\n\u003ch2\u003eUsage for LSPosed:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eEnable the module\u003c/li\u003e\n\u003cli\u003eSelect \u003ccode\u003eSystem Framework\u003c/code\u003e\u003c/li\u003e\n\u003cli\u003eSelect the target app in which you want to enable screenshots\u003c/li\u003e\n\u003cli\u003eReboot\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eNote:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eThis app does not prevent apps from detecting that you’ve taken a screenshot or recorded it like Snap or Instagram.\nThis only enables it in apps that prohibit screenshots and recording. So don’t screenshot your girlfriend’s nudes.\n(You probably don’t have one since you’re reading this anyway)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThis module may work on other apps too with or\nwithout \u003ca href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"\u003e\u003ccode\u003eliboemcrypto.so disabler\u003c/code\u003e\u003c/a\u003e.\n(\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eUntested but may work on \u003ca href=\"https://github.com/LSPosed/LSPatch\"\u003eLSPatch\u003c/a\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eYou can contribute names of apps \u003ca href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\"\u003ehere\u003c/a\u003e that are working and\nare not listed here, so I can add it to the list.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eIf you face any issue or have a suggestion then feel free to open an\nissue \u003ca href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eThis app is a fork of the existing apps but with better compatibility:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/veeti/DisableFlagSecure/\"\u003ehttps://github.com/veeti/DisableFlagSecure/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://github.com/LSPosed/DisableFlagSecure/\"\u003ehttps://github.com/LSPosed/DisableFlagSecure/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003ca href=\"https://gitlab.com/azhao12345/disableflagsecure/\"\u003ehttps://gitlab.com/azhao12345/disableflagsecure/\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eApps Tested on:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eAmazon Prime Video\u003c/li\u003e\n\u003cli\u003eNetflix (\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003eDisney+ (\u003ca href=\"#additional-information-on-drm-encrypted-content\"\u003eRead Additional Instructions\u003c/a\u003e)\u003c/li\u003e\n\u003cli\u003eTelegram (Secret Chat \u0026amp; Disappearing Media)\u003c/li\u003e\n\u003cli\u003eReddit (Anonymous Browsing Mode)\u003c/li\u003e\n\u003cli\u003eGoogle Chrome (Incognito Mode)\u003c/li\u003e\n\u003cli\u003eBrave Browser (Incognito Mode)\u003c/li\u003e\n\u003cli\u003eWhatsApp (View Once Media \u0026amp; Profile Picture)\u003c/li\u003e\n\u003cli\u003eFirefox (Incognito Mode)\u003c/li\u003e\n\u003cli\u003eToffee OTT\u003c/li\u003e\n\u003cli\u003eBooking.com\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch3\u003eAdditional Information on DRM encrypted content\u003c/h3\u003e\n\u003cp\u003eThis is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these\ninstructions.\u003c/p\u003e\n\u003cp\u003eWhen playing DRM encrypted content, most devices will use hardware decryption capabilities. This hardware decryption\nwill push the video directly onto the screen, bypassing any screenshots/screenshare/recording functionality.\u003c/p\u003e\n\u003cp\u003eOne possible solution is to disable this hardware decryption by installing the Magisk\nmodule \u003ca href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"\u003e\u003ccode\u003eliboemcrypto.so disabler\u003c/code\u003e\u003c/a\u003e. This will force the\ndevice to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and\nrecording.\u003c/p\u003e\n\u003cp\u003eInstalling this module might have unintended consequences, such as lowered video quality and a reduced Widevine security\nlevel.\n\u003ca href=\"https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393\"\u003eRead more\u003c/a\u003e\u003c/p\u003e\n",
       "icon": "com.varuns2002.disable_flag_secure.png",
       "lastUpdated": 1624557342000,
       "license": "Unknown",
@@ -2547,24 +2547,24 @@
       "summary": "禁止应用跳转淘宝京东"
     },
     {
-      "added": 1741864569000,
+      "added": 1742732166000,
       "authorName": "Hicores",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eQQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音\u003c/p\u003e\n\u003cp\u003e支持微信8.0.40以上\n支持QQ9.0.30以上\n支持TIM4.0.97以上\u003c/p\u003e\n",
-      "lastUpdated": 1741864569000,
+      "lastUpdated": 1742732166000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "适配微信8.0.57\n修复一些BUG，新增更多BUG"
+          "whatsNew": "1.修复错误的context导致长按消息进行TTS，TTS转换后弹框位置错误的问题\n2.修复当用户设备有ipv6网络时无法选择到国内优化线路的问题\n3.修复当用户在QQ内部点击消息弹框同时进行多个聊天时，表情面板、语音面板发送到错误的聊天的问题\n4.新增水群时间统计（QQ）\n5.修复其他的一些问题"
         }
       },
       "name": "FunBox",
       "packageName": "have.fun",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
-      "suggestedVersionCode": "1020",
-      "suggestedVersionName": "v1020",
+      "suggestedVersionCode": "1035",
+      "suggestedVersionName": "v1035",
       "summary": "QQ/微信/TIM表情包模块,支持在QQ/微信/TIM中使用表情面板和语音面板以保存和发送表情和语音"
     },
     {
@@ -3136,12 +3136,12 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eHookEuicc\u003c/h1\u003e\n\u003cp\u003e用于伪装应用支持eSIM功能，并获取eSIM激活码\u003c/p\u003e\n\u003cp\u003e在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板\u003c/p\u003e\n\u003ch3\u003e食用方法\u003c/h3\u003e\n\u003cp\u003e通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣\u003c/p\u003e\n\u003cp\u003e对于某些应用，如\u003ccode\u003ecom.dentwireless.dentapp\u003c/code\u003e、\u003ccode\u003ecom.giffgaffmobile.controller\u003c/code\u003e在点击安装时将会复制eSIM激活码到剪切板\u003c/p\u003e\n\u003cp\u003e如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如\u003ccode\u003ecom.miui.euicc\u003c/code\u003e，那你可尝试勾选LPA应用来获取eSIM激活码\u003c/p\u003e\n",
+      "description": "\u003ch1\u003eHookEuicc\u003c/h1\u003e\n\u003cp\u003e用于伪装应用支持eSIM功能，并获取eSIM激活码\u003c/p\u003e\n\u003cp\u003e在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板\u003c/p\u003e\n\u003ch2\u003e食用方法\u003c/h2\u003e\n\u003cp\u003e通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣\u003c/p\u003e\n\u003cp\u003e对于某些应用，如\u003ccode\u003ecom.dentwireless.dentapp\u003c/code\u003e、\u003ccode\u003ecom.giffgaffmobile.controller\u003c/code\u003e在点击安装时将会复制eSIM激活码到剪切板\u003c/p\u003e\n\u003cp\u003e如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如\u003ccode\u003ecom.miui.euicc\u003c/code\u003e，那你可尝试勾选LPA应用来获取eSIM激活码\u003c/p\u003e\n\u003ch2\u003e已知问题\u003c/h2\u003e\n\u003cp\u003e通常在某些不直接提供eSIM激活码的应用上，获取到eSIM激活码后，会先复制到剪切板，然后发送消息并打开分享界面(用于查看)，但某些应用可能无法发送消息或打开分享界面。如果你没看到任何消息，可先查看剪切板是否存在eSIM激活码。始终没有eSIM激活码的话请在这里 –\u0026gt;\u0026gt; \u003ca href=\"https://github.com/Unicorn369/HookEuicc/issues\"\u003e反馈问题\u003c/a\u003e \u0026lt;\u0026lt;–\u003c/p\u003e\n",
       "lastUpdated": 1742700545000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "fix"
+          "whatsNew": "修复某些应用无法使用“分享”查看eSIM激活码的问题"
         }
       },
       "name": "HookEuicc",
@@ -3613,24 +3613,24 @@
       "summary": "HyperOS灵动额头接入通知\nHyperOSStrongToast Access Notify"
     },
     {
-      "added": 1742549062000,
+      "added": 1742809895000,
       "authorName": "ZZCYUN",
       "categories": [
         "Xposed"
       ],
-      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e小星记账\u003c/p\u003e\n\u003cp\u003e等等等等(其实是懒得写了)\u003c/p\u003e\n",
-      "lastUpdated": 1742549062000,
+      "description": "\u003ch1\u003eJunZi Xposed Hook\u003c/h1\u003e\n\u003cp\u003e一些软件的hook\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG频道\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook\"\u003ehttps://t.me/JunZi_Xposed_Hook\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e欢迎加入TG交流群\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://t.me/JunZi_Xposed_Hook_Chat\"\u003ehttps://t.me/JunZi_Xposed_Hook_Chat\u003c/a\u003e\u003c/p\u003e\n\u003ch1\u003e温馨提示\u003c/h1\u003e\n\u003cp\u003e免root模块请无视模块未激活\u003c/p\u003e\n\u003cp\u003eLsposed用户请关闭XposedApi调用保护\u003c/p\u003e\n\u003ch1\u003e支持的软件\u003c/h1\u003e\n\u003cp\u003e滚动的天空\u003c/p\u003e\n\u003cp\u003e囧次元\u003c/p\u003e\n\u003cp\u003eCiliCli动漫\u003c/p\u003e\n\u003cp\u003e跳舞的线\u003c/p\u003e\n\u003cp\u003eP站助手Lite\u003c/p\u003e\n\u003cp\u003e饥饿鲨进化\u003c/p\u003e\n\u003cp\u003e饥饿鲨世界\u003c/p\u003e\n\u003cp\u003e看漫\u003c/p\u003e\n\u003cp\u003e绿豆免费小说\u003c/p\u003e\n\u003cp\u003e重生细胞\u003c/p\u003e\n\u003cp\u003e锦书\u003c/p\u003e\n\u003cp\u003e星芽免费短剧\u003c/p\u003e\n\u003cp\u003e番茄免费小说\u003c/p\u003e\n\u003cp\u003e番茄畅听\u003c/p\u003e\n\u003cp\u003e红果免费短剧\u003c/p\u003e\n\u003cp\u003ePicsart\u003c/p\u003e\n\u003cp\u003e七猫免费小说\u003c/p\u003e\n\u003cp\u003e宇宙工具箱\u003c/p\u003e\n\u003cp\u003eAudioLab\u003c/p\u003e\n\u003cp\u003e快连\u003c/p\u003e\n\u003cp\u003e拾光小说\u003c/p\u003e\n\u003cp\u003eES文件浏览器\u003c/p\u003e\n\u003cp\u003e常读免费小说\u003c/p\u003e\n\u003cp\u003e巧影\u003c/p\u003e\n\u003cp\u003e乱七八糟\u003c/p\u003e\n\u003cp\u003eB612咔叽\u003c/p\u003e\n\u003cp\u003e设备信息by流舟\u003c/p\u003e\n\u003cp\u003e流舟文件\u003c/p\u003e\n\u003cp\u003e色采\u003c/p\u003e\n\u003cp\u003e乐秀\u003c/p\u003e\n\u003cp\u003e乐秀精简版\u003c/p\u003e\n\u003cp\u003e全能扫描王\u003c/p\u003e\n\u003cp\u003eMotion Ninja\u003c/p\u003e\n\u003cp\u003e驾考精灵\u003c/p\u003e\n\u003cp\u003e等等等等(其实是懒得写了)\u003c/p\u003e\n",
+      "lastUpdated": 1742809895000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "新增 支持 蛋花免费小说 滴答清单 翻页时钟 番茄时钟"
+          "whatsNew": "JunZi Xposed Hook"
         }
       },
       "name": "JunZi Xposed Hook",
       "packageName": "junzi.xposed.hook",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
-      "suggestedVersionCode": "45",
-      "suggestedVersionName": "4.0.5",
+      "suggestedVersionCode": "46",
+      "suggestedVersionName": "4.0.6",
       "summary": "对一些软件的功能性增强"
     },
     {
@@ -6179,25 +6179,25 @@
       "summary": "An Xposed module to enhance the Telegram\nSupported Telegram, Nekogram and oth..."
     },
     {
-      "added": 1742518908000,
+      "added": 1742701042000,
       "authorName": "igormsc",
       "categories": [
         "Xposed"
       ],
       "description": "\u003cp\u003eNoAdsOzon\u003c/p\u003e\n\u003cp\u003eAn Xposed module to reduce ads on Ozon app (v.18.9.0)\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eубирает:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eрекламные баннеры со страницы поиска Ozon\u003c/li\u003e\n\u003cli\u003eчасть рекламных баннеров с основной страницы Ozon\u003c/li\u003e\n\u003cli\u003eверхний баннер на странице продукта\u003c/li\u003e\n\u003cli\u003eвсплывающее окно оценки продуктов на главной странице\u003c/li\u003e\n\u003cli\u003eраздел рекомендовано на странице продукта, перед описанием продукта\ncompatible V.18.9.0\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/blockquote\u003e\n",
-      "lastUpdated": 1742518908000,
+      "lastUpdated": 1742701042000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "reduce ads amount on Ozon app\n\nremove:\n\u003e ads banners from search result page and product page.\n\u003e rate product popup from main page\n\u003e recommended section before product description on product page\n\nNoAdsOzon\n\nAn Xposed module to reduce ads on Ozon app (v.18.9.0)\n\nубирает:\n\u003e рекламные баннеры со страницы поиска Ozon\n\u003e часть рекламных баннеров с основной страницы Ozon\n\u003e верхний баннер на странице продукта\n\u003e всплывающее окно оценки продуктов на главной странице\n\u003e раздел рекомендовано на странице про"
+          "whatsNew": "An Xposed module to reduce ads on Ozon app (v.18.9.0)\n\nremove:\n\nads banners from search result page and product page.\nrate product popup from main page\nrecommended section before product description on product page\n\nNoAdsOzon\n\nубирает:\n\nрекламные баннеры со страницы поиска Ozon\nчасть рекламных баннеров с основной страницы Ozon\nверхний баннер на странице продукта\nвсплывающее окно оценки продуктов на главной странице\nраздел рекомендовано на странице продукта, перед описанием продукта\ncompatible V."
         }
       },
       "name": "reduce ads on Ozon app",
       "packageName": "ai.noads.ozon",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/ai.noads.ozon",
-      "suggestedVersionCode": "3",
+      "suggestedVersionCode": "4",
       "suggestedVersionName": "0.3",
-      "summary": "reduce ads amount on Ozon app\n\nremove:\n\u003e ads banners from search result page ..."
+      "summary": "An Xposed module to reduce ads on Ozon app (v.18.9.0)\n\nremove:\n\u003e ads banners ..."
     },
     {
       "added": 1666343110000,
@@ -7255,7 +7255,7 @@
         "Xposed"
       ],
       "description": "\u003cdiv align=\"center\"\u003e\n\u003ch1\u003eVAvatar\u003c/h1\u003e\n\u003ch2\u003e自动更换微信头像\u003c/h2\u003e\n\u003cdiv align=\"center\"\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Nooniebao/vavatar\"\u003e\u003cimg src=\"https://img.shields.io/github/stars/Nooniebao/vavatar?label=stars\" alt=\"Stars\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.xconst.vavatar/total?label=LSP%20Repo\u0026amp;labelColor=F48FB1\" alt=\"LSP%20Repo\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.xconst.vavatar/releases/latest\"\u003e\u003cimg src=\"https://img.shields.io/github/v/release/Xposed-Modules-Repo/com.xconst.vavatar\" alt=\"Release\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\n\u003ch1\u003e如果你从lspsed_manager的仓库看到此页面，请手动访问此项目的release页面，获得最新适配，谢谢。\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/VAvatar/releases\"\u003ehttps://github.com/NoonieBao/VAvatar/releases\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e适用版本\u003c/h2\u003e\n\u003cp\u003e8.0.47、8.0.48、8.0.49、\u003cdel\u003e8.0.50\u003c/del\u003e、8.0.51、8.0.53、8.0.54、8.0.55、8.0.56\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003e强调：vx每次发布都会混淆，如果你的vx版本号正确，Vavatar却不能工作，请查看\u003ca href=\"https://github.com/NoonieBao/VAvatar?tab=readme-ov-file#%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E\"\u003e额外说明\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e头像源url\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ccode\u003ehttps://avatar.corosy.com/\u003c/code\u003e 【默认使用】\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003ehttps://uglyavatar.corosy.com\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cblockquote\u003e\n\u003cp\u003e\u003ca href=\"https://avatar.corosy.com/\"\u003ehttps://avatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e远古的潮流头像\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003ca href=\"https://uglyavatar.corosy.com/\"\u003ehttps://uglyavatar.corosy.com/\u003c/a\u003e 可以返回一张\u003cstrong\u003e丑陋头像\u003c/strong\u003e。丑陋头像的生成依赖于\u003ca href=\"https://github.com/txstc55\"\u003etxstc55\u003c/a\u003e的项目\u003ca href=\"https://github.com/txstc55/ugly-avatar\"\u003eugly-avatar\u003c/a\u003e\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003ch2\u003e用法\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar总是尝试从上传\u003ccode\u003e默认头像路径\u003c/code\u003e的图片到用户头像 （这个\u003ccode\u003e默认头像路径\u003c/code\u003e会被打印在Vavatar的设置界面）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e可以手动拷贝 1:1 的 jpg或png到\u003ccode\u003e默认头像路径\u003c/code\u003e，但请设置正确权限（如660）。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar提供了\u003ccode\u003e自动下载\u003c/code\u003e头像功能，填入相应头像源url即可。亦可自己构建远程头像源，总之，确保直填入可信的URL。自动下载功能默认禁用，可手动开启。\u003c/p\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003eVavatar的上传和下载受到冷却时间控制，可以设置相应的冷却时间。\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eVavatar设置入口\u003c/h2\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.xconst.Vavatar/main/imgs/setting.jpg\" alt=\"setting_capture\" /\u003e\u003c/p\u003e\n\u003ch1\u003e触发时机\u003c/h1\u003e\n\u003cp\u003e\u003ccode\u003ecom.tencent.mm.ui.LauncherUI#onResume()\u003c/code\u003e方法执行时。\u003c/p\u003e\n\u003cp\u003e即：每次\u003cstrong\u003e启动打开vx主界面或切屏回到vx主界面\u003c/strong\u003e会执行Vavatar的逻辑。\u003c/p\u003e\n\u003ch2\u003e测试列表：\u003c/h2\u003e\n\u003cp\u003e在这些环境下通过测试：\u003c/p\u003e\n\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth\u003ephone\u003c/th\u003e\n\u003cth\u003eAPI\u003c/th\u003e\n\u003cth\u003elsposed_api\u003c/th\u003e\n\u003cth\u003eos\u003c/th\u003e\n\u003cth\u003eVX_version\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd\u003eMi 10 Ultra\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003eMIUI12.5 12.5.10\u003c/td\u003e\n\u003ctd\u003e8.0.48\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd\u003eXiaomi Note3\u003c/td\u003e\n\u003ctd\u003eAndroid 11\u003c/td\u003e\n\u003ctd\u003e1.9.2(7024)\u003c/td\u003e\n\u003ctd\u003ecrDroid 7.21\u003c/td\u003e\n\u003ctd\u003e上述所有版本\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch2\u003e源代码\u003c/h2\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/NoonieBao/vavatar\"\u003e源代码仓库 https://github.com/NoonieBao/vavatar\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003e接受建议和反馈。\u003c/p\u003e\n",
-      "lastUpdated": 1742700641000,
+      "lastUpdated": 1742873439000,
       "license": "Unknown",
       "name": "VAvatar",
       "packageName": "com.xconst.vavatar",
@@ -7693,6 +7693,27 @@
       "suggestedVersionCode": "2",
       "suggestedVersionName": "2.0",
       "summary": "Xposed Module to Force Google Photos to separate each folder like Snapchat, S..."
+    },
+    {
+      "added": 1742789304000,
+      "authorName": "timschneeb",
+      "categories": [
+        "Xposed"
+      ],
+      "description": "\u003ch1 align=\"center\"\u003e\n  \u003cimg alt=\"Icon\" width=\"75\" src=\"https://github.com/timschneeb/OnyxTweaks/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true\"\u003e\n  \u003cbr\u003e\n  OnyxTweaks\n  \u003cbr\u003e\n\u003c/h1\u003e\n\u003ch4 align=\"center\"\u003eXposed module for modding the Onyx Boox Go Color 7 (Android 12) and similar devices\u003c/h4\u003e\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://github.com/timschneeb/OnyxTweaks/releases\"\u003e\n  \t\u003cimg alt=\"Release\" src=\"https://img.shields.io/github/v/release/timschneeb/OnyxTweaks\"\u003e\n  \u003c/a\u003e\n  \u003c!--\u003ca href=\"https://f-droid.org/packages/me.timschneeberger.onyxtweaks/\"\u003e\n  \t\u003cimg alt=\"F-Droid release\" src=\"https://img.shields.io/f-droid/v/me.timschneeberger.onyxtweaks\"\u003e\n  \u003c/a\u003e--\u003e\n  \u003ca href=\"https://github.com/timschneeb/OnyxTweaks/blob/master/LICENSE\"\u003e\n      \u003cimg alt=\"License\" src=\"https://img.shields.io/github/license/timschneeb/OnyxTweaks\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\u003ch2\u003eCompatibility\u003c/h2\u003e\n\u003cp\u003eThis Xposed module was primarily designed for my Go Color 7 running the Beta 4.0 firmware with Android 12.\nI cannot guarantee full compatibility with other Boox models, especially if they do not run the 4.0 beta firmware.\u003c/p\u003e\n\u003ch2\u003eFeatures \u0026amp; more\u003c/h2\u003e\n\u003cp\u003eFor more details, please visit the source repository at: \u003ca href=\"https://github.com/timschneeb/OnyxTweaks\"\u003ehttps://github.com/timschneeb/OnyxTweaks\u003c/a\u003e\u003c/p\u003e\n",
+      "lastUpdated": 1742789304000,
+      "license": "Unknown",
+      "localized": {
+        "en-US": {
+          "whatsNew": "Initial release"
+        }
+      },
+      "name": "Xposed module for Onyx Boox e-Ink devices with Android 12. Tested with Onyx Boox Go Color 7 ",
+      "packageName": "me.timschneeberger.onyxtweaks",
+      "sourceCode": "https://github.com/Xposed-Modules-Repo/me.timschneeberger.onyxtweaks",
+      "suggestedVersionCode": "1",
+      "suggestedVersionName": "1.0.0",
+      "summary": "Mods for Onyx Boox e-Ink devices running Android 12. Tested with Onyx Boox Go..."
     },
     {
       "added": 1742399879000,
@@ -8654,19 +8675,19 @@
       "categories": [
         "Xposed"
       ],
-      "description": "\u003cp\u003e \u003c/p\u003e\n\u003ch1\u003e多邻国杀手 - Duolingo Kill\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Xposed-Modules-Repo/com.duolingo.kill.svg\" alt=\"release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg\" alt=\"download\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。\u003c/p\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e破解会员\u003c/strong\u003e：无需付费即可享受Duolingo会员的所有特权。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e强制正确\u003c/strong\u003e：确保每次答题都能正确通过，轻松完成任务。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e经验增强\u003c/strong\u003e：练习模式每次学习所获得的经验值为100xp。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e调试模式\u003c/strong\u003e：启用调试模式，方便开发者进行应用调试和分析。\u003c/li\u003e\n\u003cli\u003e点击五角星悬浮窗或者设置打开菜单。\u003c/li\u003e\n\u003cli\u003e有bug或者没反应issues反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg\" alt=\"image\" /\u003e\u003c/p\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cp\u003e本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。\u003c/p\u003e\n",
-      "lastUpdated": 1742700572000,
+      "description": "\u003cp\u003e \u003c/p\u003e\n\u003ch1\u003e多邻国杀手 - Duolingo Kill\u003c/h1\u003e\n\u003cp\u003e\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/release/Xposed-Modules-Repo/com.duolingo.kill.svg\" alt=\"release\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg\" alt=\"download\" /\u003e\u003c/a\u003e\n\u003ca href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"\u003e\u003cimg src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/latest/total.svg\" alt=\"download-latest\" /\u003e\u003c/a\u003e\u003c/p\u003e\n\u003ch2\u003e简介\u003c/h2\u003e\n\u003cp\u003e多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。\u003c/p\u003e\n\u003ch2\u003e功能\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e破解会员\u003c/strong\u003e：无需付费即可享受Duolingo会员的所有特权。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e强制正确\u003c/strong\u003e：确保每次答题都能正确通过，轻松完成任务。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e经验增强\u003c/strong\u003e：练习模式每次学习所获得的经验值为100xp。\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e调试模式\u003c/strong\u003e：启用调试模式，方便开发者进行应用调试和分析。\u003c/li\u003e\n\u003cli\u003e点击五角星悬浮窗或者设置打开菜单。\u003c/li\u003e\n\u003cli\u003e有bug或者没反应issues反馈。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg\" alt=\"image\" /\u003e\n\u003cimg src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/4.jpg\" alt=\"image\" /\u003e\u003c/p\u003e\n\u003ch2\u003e免责声明\u003c/h2\u003e\n\u003cp\u003e本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。\u003c/p\u003e\n",
+      "lastUpdated": 1742873369000,
       "license": "Unknown",
       "localized": {
         "en-US": {
-          "whatsNew": "更新悬浮窗\n6.xx版本理论上通杀"
+          "whatsNew": "New update\n强制正确 适配单词配对\n\nOld update\n更新悬浮窗\n适配了arm32\n移除桌面图标 从xp管理器打开\n仓库更新检测\n6.xx.x版本理论上通杀"
         }
       },
       "name": "多邻国杀手 Duolingo Kill",
       "packageName": "com.duolingo.kill",
       "sourceCode": "https://github.com/Xposed-Modules-Repo/com.duolingo.kill",
       "suggestedVersionCode": "1",
-      "suggestedVersionName": "1.1",
+      "suggestedVersionName": "1.2",
       "summary": "多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。"
     },
     {
@@ -10665,7 +10686,22 @@
     ],
     "ai.noads.ozon": [
       {
-        "added": 1742518908000,
+        "added": 1742701042000,
+        "apkName": "ai.noads.ozon_4-0.3.apk",
+        "hash": "e625532c1176983861d2eb397efe0af4baf35ab8686c22b979164a604df2ae66",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": null,
+        "packageName": "ai.noads.ozon",
+        "sig": "ac5a12174ca2dcb662232e1db07b7a43",
+        "signer": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa",
+        "size": 53061,
+        "targetSdkVersion": 34,
+        "versionCode": 4,
+        "versionName": "0.3"
+      },
+      {
+        "added": 1742527625000,
         "apkName": "ai.noads.ozon_3-0.3.apk",
         "hash": "d82c7ee46e5efbf469dbe400f3806c70ee122f5f765cf8ebce4511ad294ac86b",
         "hashType": "sha256",
@@ -10693,21 +10729,6 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "0.1"
-      },
-      {
-        "added": 1742441270000,
-        "apkName": "ai.noads.ozon_1-0.2.apk",
-        "hash": "8e95495a24bc7573fb3ea2f52195789595b43c7bba176c797e9b719f7d2d7652",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": null,
-        "packageName": "ai.noads.ozon",
-        "sig": "ac5a12174ca2dcb662232e1db07b7a43",
-        "signer": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa",
-        "size": 53849,
-        "targetSdkVersion": 34,
-        "versionCode": 1,
-        "versionName": "0.2"
       }
     ],
     "akhil.alltrans": [
@@ -11616,7 +11637,7 @@
         "versionName": "1.0.1"
       },
       {
-        "added": 1742634144000,
+        "added": 1742719100000,
         "apkName": "cn.unicorn369.HookEuicc_2-1.0.2.apk",
         "hash": "8990cf19d8eb00cfa567e3e34fae6c7ef05212c7b4fef67bf1f0c103530f8eff",
         "hashType": "sha256",
@@ -13101,7 +13122,7 @@
         "versionName": "1.0"
       },
       {
-        "added": 1742695747000,
+        "added": 1742700572000,
         "apkName": "com.duolingo.kill_1-1.1.apk",
         "hash": "3959ffc32774f5144badb4fd77bad2c4808dbde5681b7b921e846f2bcc38cd10",
         "hashType": "sha256",
@@ -13116,6 +13137,24 @@
         "targetSdkVersion": 34,
         "versionCode": 1,
         "versionName": "1.1"
+      },
+      {
+        "added": 1742773722000,
+        "apkName": "com.duolingo.kill_1-1.2.apk",
+        "hash": "4b9dd333539b83ad1a992806d639413a25e9031952f7ef59d3a955b574218567",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.duolingo.kill",
+        "sig": "9be2032d3ee48d56aa0faf740463b64e",
+        "signer": "eacd259f98d93e384d62f15dd54aec6fbb699e606004872822a303e84867a15c",
+        "size": 705740,
+        "targetSdkVersion": 34,
+        "versionCode": 1,
+        "versionName": "1.2"
       }
     ],
     "com.example.oppo_theme": [
@@ -16917,7 +16956,7 @@
     ],
     "com.xconst.vavatar": [
       {
-        "added": 1742700641000,
+        "added": 1742873439000,
         "apkName": "com.xconst.Vavatar_2-1.0.apk",
         "hash": "61bb17c3069b49ae96ef926068415e6ae8511635d31d92d901c06cd7b4b39c5d",
         "hashType": "sha256",
@@ -18084,7 +18123,24 @@
     ],
     "have.fun": [
       {
-        "added": 1741864569000,
+        "added": 1742732166000,
+        "apkName": "have.fun_1035-v1035.apk",
+        "hash": "e7cf82b46956bce5744367eb6814bbd0a3de4a7633897d76694e4f16e5aba9d8",
+        "hashType": "sha256",
+        "minSdkVersion": 29,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "have.fun",
+        "sig": "847a474215fbdc0d6660c50e5e385732",
+        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
+        "size": 4828055,
+        "targetSdkVersion": 34,
+        "versionCode": 1035,
+        "versionName": "v1035"
+      },
+      {
+        "added": 1741922908000,
         "apkName": "have.fun_1020-v1020.apk",
         "hash": "f04f18e4a02c327d8cc8432cd9c9dcb16eabaed66f9e0f61caf42e33a917bc41",
         "hashType": "sha256",
@@ -18116,23 +18172,6 @@
         "targetSdkVersion": 34,
         "versionCode": 996,
         "versionName": "v996"
-      },
-      {
-        "added": 1739848346000,
-        "apkName": "have.fun_966-v966.apk",
-        "hash": "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e",
-        "hashType": "sha256",
-        "minSdkVersion": 29,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "have.fun",
-        "sig": "847a474215fbdc0d6660c50e5e385732",
-        "signer": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f",
-        "size": 4663845,
-        "targetSdkVersion": 34,
-        "versionCode": 966,
-        "versionName": "v966"
       }
     ],
     "icu.freedomIntrovert.biliSendCommAntifraud": [
@@ -19747,7 +19786,25 @@
     ],
     "junzi.xposed.hook": [
       {
-        "added": 1742549062000,
+        "added": 1742809895000,
+        "apkName": "junzi.xposed.hook_46-4.0.6.apk",
+        "hash": "e27235669c5548d93f228fca3d67fd27b4f3f3313ef562150dbd60c633cf1111",
+        "hashType": "sha256",
+        "minSdkVersion": 25,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "junzi.xposed.hook",
+        "sig": "8554c8888871c560bc0d9aae7f08ea86",
+        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
+        "size": 1856869,
+        "targetSdkVersion": 36,
+        "versionCode": 46,
+        "versionName": "4.0.6"
+      },
+      {
+        "added": 1742614139000,
         "apkName": "junzi.xposed.hook_45-4.0.5.apk",
         "hash": "bbb3023aec4d2931831873e6c63479b691b2fb08ce0ae2dce3aaa5ee7fbc982b",
         "hashType": "sha256",
@@ -19781,24 +19838,6 @@
         "targetSdkVersion": 36,
         "versionCode": 44,
         "versionName": "4.0.4"
-      },
-      {
-        "added": 1742354979000,
-        "apkName": "junzi.xposed.hook_43-4.0.3.apk",
-        "hash": "e501f300a2de83778f28f6c663c841b3f6c33cae00bc1d87e24014391a8aba34",
-        "hashType": "sha256",
-        "minSdkVersion": 25,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "junzi.xposed.hook",
-        "sig": "8554c8888871c560bc0d9aae7f08ea86",
-        "signer": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9",
-        "size": 2213081,
-        "targetSdkVersion": 36,
-        "versionCode": 43,
-        "versionName": "4.0.3"
       }
     ],
     "lialh4.ldf": [
@@ -20562,6 +20601,28 @@
         "targetSdkVersion": 33,
         "versionCode": 24111200,
         "versionName": "3.0.28"
+      }
+    ],
+    "me.timschneeberger.onyxtweaks": [
+      {
+        "added": 1742789304000,
+        "apkName": "me.timschneeberger.onyxtweaks_1-1.0.0.apk",
+        "hash": "ba537309af164bd90492c38d1c7e08b769b6393104b51e9aadd87e847b2e959b",
+        "hashType": "sha256",
+        "minSdkVersion": 28,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "me.timschneeberger.onyxtweaks",
+        "sig": "861468f33a5b6b16ed2dfd63ad0fed43",
+        "signer": "54d85326e098e22d320ea082a9388a87f304155cff7036389bbc1efcbe7565af",
+        "size": 17913846,
+        "targetSdkVersion": 35,
+        "versionCode": 1,
+        "versionName": "1.0.0"
       }
     ],
     "me.zhenxin.thisreallylite": [

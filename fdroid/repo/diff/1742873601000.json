@@ -1,0 +1,77 @@
+{
+  "repo": {
+    "timestamp": 1742873793000
+  },
+  "packages": {
+    "ai.noads.ozon": {
+      "metadata": {
+        "summary": {
+          "en-US": "An Xposed module to reduce ads on Ozon app (v.18.9.0)\n\nremove:\n> ads banners ..."
+        }
+      },
+      "versions": {
+        "e625532c1176983861d2eb397efe0af4baf35ab8686c22b979164a604df2ae66": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "cn.unicorn369.HookEuicc": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>HookEuicc</h1>\n<p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>\n<p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>\n<h2>食用方法</h2>\n<p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>\n<p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>\n<p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>\n<h2>已知问题</h2>\n<p>通常在某些不直接提供eSIM激活码的应用上，获取到eSIM激活码后，会先复制到剪切板，然后发送消息并打开分享界面(用于查看)，但某些应用可能无法发送消息或打开分享界面。如果你没看到任何消息，可先查看剪切板是否存在eSIM激活码。始终没有eSIM激活码的话请在这里 –&gt;&gt; <a href=\"https://github.com/Unicorn369/HookEuicc/issues\">反馈问题</a> &lt;&lt;–</p>\n"
+        }
+      }
+    },
+    "com.duolingo.kill": {
+      "metadata": {
+        "description": {
+          "en-US": "<p> </p>\n<h1>多邻国杀手 - Duolingo Kill</h1>\n<p><a href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"><img src=\"https://img.shields.io/github/release/Xposed-Modules-Repo/com.duolingo.kill.svg\" alt=\"release\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg\" alt=\"download\" /></a>\n<a href=\"https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases\"><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/latest/total.svg\" alt=\"download-latest\" /></a></p>\n<h2>简介</h2>\n<p>多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。</p>\n<h2>功能</h2>\n<ul>\n<li><strong>破解会员</strong>：无需付费即可享受Duolingo会员的所有特权。</li>\n<li><strong>强制正确</strong>：确保每次答题都能正确通过，轻松完成任务。</li>\n<li><strong>经验增强</strong>：练习模式每次学习所获得的经验值为100xp。</li>\n<li><strong>调试模式</strong>：启用调试模式，方便开发者进行应用调试和分析。</li>\n<li>点击五角星悬浮窗或者设置打开菜单。</li>\n<li>有bug或者没反应issues反馈。</li>\n</ul>\n<p><img src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg\" alt=\"image\" />\n<img src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg\" alt=\"image\" />\n<img src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg\" alt=\"image\" />\n<img src=\"https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/4.jpg\" alt=\"image\" /></p>\n<h2>免责声明</h2>\n<p>本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。</p>\n"
+        }
+      }
+    },
+    "com.varuns2002.disable_flag_secure": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>Disable-FLAG_SECURE</h1>\n<p>Xposed Module to Disable <code>FLAG_SECURE</code>, enabling screenshots, screen sharing and recording in apps that normally\nwouldn’t allow it.</p>\n<p><img src=\"https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.varuns2002.disable_flag_secure/total?color=blue\" alt=\"Download-Count\" /></p>\n<h2>Usage for LSPosed:</h2>\n<ul>\n<li>Enable the module</li>\n<li>Select <code>System Framework</code></li>\n<li>Select the target app in which you want to enable screenshots</li>\n<li>Reboot</li>\n</ul>\n<h2>Note:</h2>\n<ul>\n<li>\n<p>This app does not prevent apps from detecting that you’ve taken a screenshot or recorded it like Snap or Instagram.\nThis only enables it in apps that prohibit screenshots and recording. So don’t screenshot your girlfriend’s nudes.\n(You probably don’t have one since you’re reading this anyway)</p>\n</li>\n<li>\n<p>This module may work on other apps too with or\nwithout <a href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"><code>liboemcrypto.so disabler</code></a>.\n(<a href=\"#additional-information-on-drm-encrypted-content\">Read Additional Instructions</a>)</p>\n</li>\n<li>\n<p>Untested but may work on <a href=\"https://github.com/LSPosed/LSPatch\">LSPatch</a></p>\n</li>\n<li>\n<p>You can contribute names of apps <a href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\">here</a> that are working and\nare not listed here, so I can add it to the list.</p>\n</li>\n<li>\n<p>If you face any issue or have a suggestion then feel free to open an\nissue <a href=\"https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE\">here</a>.</p>\n</li>\n<li>\n<p>This app is a fork of the existing apps but with better compatibility:</p>\n<ul>\n<li><a href=\"https://github.com/veeti/DisableFlagSecure/\">https://github.com/veeti/DisableFlagSecure/</a></li>\n<li><a href=\"https://github.com/LSPosed/DisableFlagSecure/\">https://github.com/LSPosed/DisableFlagSecure/</a></li>\n<li><a href=\"https://gitlab.com/azhao12345/disableflagsecure/\">https://gitlab.com/azhao12345/disableflagsecure/</a></li>\n</ul>\n</li>\n<li>\n<p>Apps Tested on:</p>\n<ul>\n<li>Amazon Prime Video</li>\n<li>Netflix (<a href=\"#additional-information-on-drm-encrypted-content\">Read Additional Instructions</a>)</li>\n<li>Disney+ (<a href=\"#additional-information-on-drm-encrypted-content\">Read Additional Instructions</a>)</li>\n<li>Telegram (Secret Chat &amp; Disappearing Media)</li>\n<li>Reddit (Anonymous Browsing Mode)</li>\n<li>Google Chrome (Incognito Mode)</li>\n<li>Brave Browser (Incognito Mode)</li>\n<li>WhatsApp (View Once Media &amp; Profile Picture)</li>\n<li>Firefox (Incognito Mode)</li>\n<li>Toffee OTT</li>\n<li>Booking.com</li>\n</ul>\n</li>\n</ul>\n<h3>Additional Information on DRM encrypted content</h3>\n<p>This is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these\ninstructions.</p>\n<p>When playing DRM encrypted content, most devices will use hardware decryption capabilities. This hardware decryption\nwill push the video directly onto the screen, bypassing any screenshots/screenshare/recording functionality.</p>\n<p>One possible solution is to disable this hardware decryption by installing the Magisk\nmodule <a href=\"https://github.com/Magisk-Modules-Repo/liboemcryptodisabler\"><code>liboemcrypto.so disabler</code></a>. This will force the\ndevice to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and\nrecording.</p>\n<p>Installing this module might have unintended consequences, such as lowered video quality and a reduced Widevine security\nlevel.\n<a href=\"https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393\">Read more</a></p>\n"
+        }
+      }
+    },
+    "have.fun": {
+      "versions": {
+        "e7cf82b46956bce5744367eb6814bbd0a3de4a7633897d76694e4f16e5aba9d8": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "junzi.xposed.hook": {
+      "metadata": {
+        "description": {
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG频道</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>欢迎加入TG交流群</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook_Chat\">https://t.me/JunZi_Xposed_Hook_Chat</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n<p>色采</p>\n<p>乐秀</p>\n<p>乐秀精简版</p>\n<p>全能扫描王</p>\n<p>Motion Ninja</p>\n<p>驾考精灵</p>\n<p>等等等等(其实是懒得写了)</p>\n"
+        }
+      },
+      "versions": {
+        "e27235669c5548d93f228fca3d67fd27b4f3f3313ef562150dbd60c633cf1111": {
+          "releaseChannels": null
+        }
+      }
+    },
+    "me.timschneeberger.onyxtweaks": {
+      "metadata": {
+        "categories": [
+          "Xposed"
+        ],
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/me.timschneeberger.onyxtweaks",
+        "authorName": "timschneeb",
+        "name": {
+          "en-US": "Xposed module for Onyx Boox e-Ink devices with Android 12. Tested with Onyx Boox Go Color 7 "
+        },
+        "summary": {
+          "en-US": "Mods for Onyx Boox e-Ink devices running Android 12. Tested with Onyx Boox Go..."
+        },
+        "description": {
+          "en-US": "<h1 align=\"center\">\n  <img alt=\"Icon\" width=\"75\" src=\"https://github.com/timschneeb/OnyxTweaks/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true\">\n  <br>\n  OnyxTweaks\n  <br>\n</h1>\n<h4 align=\"center\">Xposed module for modding the Onyx Boox Go Color 7 (Android 12) and similar devices</h4>\n<p align=\"center\">\n  <a href=\"https://github.com/timschneeb/OnyxTweaks/releases\">\n  \t<img alt=\"Release\" src=\"https://img.shields.io/github/v/release/timschneeb/OnyxTweaks\">\n  </a>\n  <!--<a href=\"https://f-droid.org/packages/me.timschneeberger.onyxtweaks/\">\n  \t<img alt=\"F-Droid release\" src=\"https://img.shields.io/f-droid/v/me.timschneeberger.onyxtweaks\">\n  </a>-->\n  <a href=\"https://github.com/timschneeb/OnyxTweaks/blob/master/LICENSE\">\n      <img alt=\"License\" src=\"https://img.shields.io/github/license/timschneeb/OnyxTweaks\">\n  </a>\n</p>\n<h2>Compatibility</h2>\n<p>This Xposed module was primarily designed for my Go Color 7 running the Beta 4.0 firmware with Android 12.\nI cannot guarantee full compatibility with other Boox models, especially if they do not run the 4.0 beta firmware.</p>\n<h2>Features &amp; more</h2>\n<p>For more details, please visit the source repository at: <a href=\"https://github.com/timschneeb/OnyxTweaks\">https://github.com/timschneeb/OnyxTweaks</a></p>\n"
+        }
+      }
+    }
+  }
+}

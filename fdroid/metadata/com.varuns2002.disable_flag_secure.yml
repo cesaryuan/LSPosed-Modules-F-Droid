@@ -23,21 +23,12 @@ Description: |
     (You probably don’t have one since you’re reading this anyway)</p>
     </li>
     <li>
-    <p>Apps Tested on:</p>
-    <ul>
-    <li>Amazon Prime Video</li>
-    <li>Netflix (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
-    <li>Disney+ (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
-    <li>Telegram (Secret Chat &amp; Disappearing Media)</li>
-    <li>Reddit (Anonymous Browsing Mode)</li>
-    <li>Google Chrome (Incognito Mode)</li>
-    <li>Brave Browser (Incognito Mode)</li>
-    </ul>
-    </li>
-    <li>
     <p>This module may work on other apps too with or
     without <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>.
     (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</p>
+    </li>
+    <li>
+    <p>Untested but may work on <a href="https://github.com/LSPosed/LSPatch">LSPatch</a></p>
     </li>
     <li>
     <p>You can contribute names of apps <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">here</a> that are working and
@@ -55,6 +46,22 @@ Description: |
     <li><a href="https://gitlab.com/azhao12345/disableflagsecure/">https://gitlab.com/azhao12345/disableflagsecure/</a></li>
     </ul>
     </li>
+    <li>
+    <p>Apps Tested on:</p>
+    <ul>
+    <li>Amazon Prime Video</li>
+    <li>Netflix (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+    <li>Disney+ (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+    <li>Telegram (Secret Chat &amp; Disappearing Media)</li>
+    <li>Reddit (Anonymous Browsing Mode)</li>
+    <li>Google Chrome (Incognito Mode)</li>
+    <li>Brave Browser (Incognito Mode)</li>
+    <li>WhatsApp (View Once Media &amp; Profile Picture)</li>
+    <li>Firefox (Incognito Mode)</li>
+    <li>Toffee OTT</li>
+    <li>Booking.com</li>
+    </ul>
+    </li>
     </ul>
     <h3>Additional Information on DRM encrypted content</h3>
     <p>This is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these
@@ -65,7 +72,8 @@ Description: |
     module <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>. This will force the
     device to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and
     recording.</p>
-    <p>Installing this module might have unintended consequences, such as lowered video quality.
+    <p>Installing this module might have unintended consequences, such as lowered video quality and a reduced Widevine security
+    level.
     <a href="https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393">Read more</a></p>
 IssueTracker: ""
 Name: Disable-FLAG_SECURE
