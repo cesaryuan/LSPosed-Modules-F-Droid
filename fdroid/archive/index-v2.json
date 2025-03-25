@@ -14,7 +14,7 @@
       }
     },
     "address": "https://raw.githubusercontent.com/cesaryuan/LSPosed-Modules-F-Droid/main/fdroid/archive",
-    "timestamp": 1742700869000,
+    "timestamp": 1742873778000,
     "categories": {
       "Xposed": {
         "name": {
@@ -24,6 +24,50 @@
     }
   },
   "packages": {
+    "ai.noads.ozon": {
+      "metadata": {
+        "added": 1742008878000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1742873323000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/ai.noads.ozon",
+        "authorName": "igormsc",
+        "name": {
+          "en-US": "reduce ads on Ozon app"
+        },
+        "summary": {
+          "en-US": "An Xposed module to reduce ads on Ozon app (v.18.9.0)\n\nremove:\n> ads banners ..."
+        },
+        "description": {
+          "en-US": "<p>NoAdsOzon</p>\n<p>An Xposed module to reduce ads on Ozon app (v.18.9.0)</p>\n<blockquote>\n<p>убирает:</p>\n<ul>\n<li>рекламные баннеры со страницы поиска Ozon</li>\n<li>часть рекламных баннеров с основной страницы Ozon</li>\n<li>верхний баннер на странице продукта</li>\n<li>всплывающее окно оценки продуктов на главной странице</li>\n<li>раздел рекомендовано на странице продукта, перед описанием продукта\ncompatible V.18.9.0</li>\n</ul>\n</blockquote>\n"
+        },
+        "preferredSigner": "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa"
+      },
+      "versions": {
+        "8e95495a24bc7573fb3ea2f52195789595b43c7bba176c797e9b719f7d2d7652": {
+          "added": 1742441270000,
+          "file": {
+            "name": "/ai.noads.ozon_1-0.2.apk",
+            "sha256": "8e95495a24bc7573fb3ea2f52195789595b43c7bba176c797e9b719f7d2d7652",
+            "size": 53849
+          },
+          "manifest": {
+            "versionName": "0.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "db45bf5231f685bba1788711ef35abe3ea931021f2e0715b1fdb3d6e7639f7aa"
+              ]
+            }
+          }
+        }
+      }
+    },
     "cn.ac.lz233.tarnhelm": {
       "metadata": {
         "added": 1732159409000,
@@ -2552,7 +2596,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1741922908000,
+        "lastUpdated": 1742873460000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/have.fun",
         "authorName": "Hicores",
         "name": {
@@ -2567,6 +2611,30 @@
         "preferredSigner": "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
       },
       "versions": {
+        "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e": {
+          "added": 1739848346000,
+          "file": {
+            "name": "/have.fun_966-v966.apk",
+            "sha256": "49f00880edb9d3dc1816ddc0f085e09dd4bb497ee40519f2f4cc6d0e1e12fd4e",
+            "size": 4663845
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "v966",
+            "versionCode": 966,
+            "usesSdk": {
+              "minSdkVersion": 29,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "7e4eaa9b14140bc00ff764c45627d86f87259c95bf007467b0237823c220a26f"
+              ]
+            }
+          }
+        },
         "bd13f7329f1e2e99907694bfe7702d6898c6a886b5b0bc1f3e27f48f0ca6c657": {
           "added": 1738725040000,
           "file": {
@@ -2883,7 +2951,7 @@
         "categories": [
           "Xposed"
         ],
-        "lastUpdated": 1742614139000,
+        "lastUpdated": 1742873486000,
         "sourceCode": "https://github.com/Xposed-Modules-Repo/junzi.xposed.hook",
         "authorName": "ZZCYUN",
         "name": {
@@ -2893,11 +2961,44 @@
           "en-US": "对一些软件的功能性增强"
         },
         "description": {
-          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG频道</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>欢迎加入TG交流群</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook_Chat\">https://t.me/JunZi_Xposed_Hook_Chat</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n<p>色采</p>\n<p>乐秀</p>\n<p>乐秀精简版</p>\n<p>全能扫描王</p>\n<p>Motion Ninja</p>\n<p>驾考精灵</p>\n<p>小星记账</p>\n<p>等等等等(其实是懒得写了)</p>\n"
+          "en-US": "<h1>JunZi Xposed Hook</h1>\n<p>一些软件的hook</p>\n<h1>欢迎加入TG频道</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook\">https://t.me/JunZi_Xposed_Hook</a></p>\n<h1>欢迎加入TG交流群</h1>\n<p><a href=\"https://t.me/JunZi_Xposed_Hook_Chat\">https://t.me/JunZi_Xposed_Hook_Chat</a></p>\n<h1>温馨提示</h1>\n<p>免root模块请无视模块未激活</p>\n<p>Lsposed用户请关闭XposedApi调用保护</p>\n<h1>支持的软件</h1>\n<p>滚动的天空</p>\n<p>囧次元</p>\n<p>CiliCli动漫</p>\n<p>跳舞的线</p>\n<p>P站助手Lite</p>\n<p>饥饿鲨进化</p>\n<p>饥饿鲨世界</p>\n<p>看漫</p>\n<p>绿豆免费小说</p>\n<p>重生细胞</p>\n<p>锦书</p>\n<p>星芽免费短剧</p>\n<p>番茄免费小说</p>\n<p>番茄畅听</p>\n<p>红果免费短剧</p>\n<p>Picsart</p>\n<p>七猫免费小说</p>\n<p>宇宙工具箱</p>\n<p>AudioLab</p>\n<p>快连</p>\n<p>拾光小说</p>\n<p>ES文件浏览器</p>\n<p>常读免费小说</p>\n<p>巧影</p>\n<p>乱七八糟</p>\n<p>B612咔叽</p>\n<p>设备信息by流舟</p>\n<p>流舟文件</p>\n<p>色采</p>\n<p>乐秀</p>\n<p>乐秀精简版</p>\n<p>全能扫描王</p>\n<p>Motion Ninja</p>\n<p>驾考精灵</p>\n<p>等等等等(其实是懒得写了)</p>\n"
         },
         "preferredSigner": "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
       },
       "versions": {
+        "e501f300a2de83778f28f6c663c841b3f6c33cae00bc1d87e24014391a8aba34": {
+          "added": 1742354979000,
+          "file": {
+            "name": "/junzi.xposed.hook_43-4.0.3.apk",
+            "sha256": "e501f300a2de83778f28f6c663c841b3f6c33cae00bc1d87e24014391a8aba34",
+            "size": 2213081
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "4.0.3",
+            "versionCode": 43,
+            "usesSdk": {
+              "minSdkVersion": 25,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "f45afbc69ee67a614b18745e505bd83db9ed32525b7203ee87bebeb42124c4d9"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              }
+            ]
+          }
+        },
         "6856837b006f35555f3f7040ba2def9961810c720efc84f8ce3e2993bae27f4b": {
           "added": 1742182488000,
           "file": {

@@ -1,0 +1,34 @@
+AuthorName: timschneeb
+Categories:
+    - Xposed
+CurrentVersion: 1.0.0
+CurrentVersionCode: 1
+Description: |
+    <h1 align="center">
+      <img alt="Icon" width="75" src="https://github.com/timschneeb/OnyxTweaks/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true">
+      <br>
+      OnyxTweaks
+      <br>
+    </h1>
+    <h4 align="center">Xposed module for modding the Onyx Boox Go Color 7 (Android 12) and similar devices</h4>
+    <p align="center">
+      <a href="https://github.com/timschneeb/OnyxTweaks/releases">
+      	<img alt="Release" src="https://img.shields.io/github/v/release/timschneeb/OnyxTweaks">
+      </a>
+      <!--<a href="https://f-droid.org/packages/me.timschneeberger.onyxtweaks/">
+      	<img alt="F-Droid release" src="https://img.shields.io/f-droid/v/me.timschneeberger.onyxtweaks">
+      </a>-->
+      <a href="https://github.com/timschneeb/OnyxTweaks/blob/master/LICENSE">
+          <img alt="License" src="https://img.shields.io/github/license/timschneeb/OnyxTweaks">
+      </a>
+    </p>
+    <h2>Compatibility</h2>
+    <p>This Xposed module was primarily designed for my Go Color 7 running the Beta 4.0 firmware with Android 12.
+    I cannot guarantee full compatibility with other Boox models, especially if they do not run the 4.0 beta firmware.</p>
+    <h2>Features &amp; more</h2>
+    <p>For more details, please visit the source repository at: <a href="https://github.com/timschneeb/OnyxTweaks">https://github.com/timschneeb/OnyxTweaks</a></p>
+IssueTracker: ""
+Name: 'Xposed module for Onyx Boox e-Ink devices with Android 12. Tested with Onyx Boox Go Color 7 '
+SourceCode: https://github.com/Xposed-Modules-Repo/me.timschneeberger.onyxtweaks
+Summary: Mods for Onyx Boox e-Ink devices running Android 12. Tested with Onyx Boox Go...
+WebSite: ""

@@ -1,0 +1,20 @@
+An Xposed module to reduce ads on Ozon app (v.18.9.0)
+
+remove:
+
+ads banners from search result page and product page.
+rate product popup from main page
+recommended section before product description on product page
+
+NoAdsOzon
+
+убирает:
+
+рекламные баннеры со страницы поиска Ozon
+часть рекламных баннеров с основной страницы Ozon
+верхний баннер на странице продукта
+всплывающее окно оценки продуктов на главной странице
+раздел рекомендовано на странице продукта, перед описанием продукта
+compatible V.18.9.0
+
+update to limit recommended section removal only to section on product page view.

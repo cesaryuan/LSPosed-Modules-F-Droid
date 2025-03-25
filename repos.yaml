@@ -372,23 +372,19 @@ Telegram.Speed.Hook:
 ai.noads.ozon:
     git: https://github.com/Xposed-Modules-Repo/ai.noads.ozon
     summary: |-
-        reduce ads amount on Ozon app
+        An Xposed module to reduce ads on Ozon app (v.18.9.0)
 
         remove:
         > ads banners from search result page and product page.
         > rate product popup from main page
         > recommended section before product description on product page
 
-        NoAdsOzon
-
-        An Xposed module to reduce ads on Ozon app (v.18.9.0)
-
         убирает:
         > рекламные баннеры со страницы поиска Ozon
         > часть рекламных баннеров с основной страницы Ozon
         > верхний баннер на странице продукта
         > всплывающее окно оценки продуктов на главной странице
-        > раздел рекомендовано на странице продукта,…
+        > раздел рекомендовано на странице продукта, перед описанием продукта
     applications:
         - anti_features: []
           categories:
@@ -410,26 +406,22 @@ ai.noads.ozon:
           filename: NoAdsOzon.apk
           id: ai.noads.ozon
           name: reduce ads on Ozon app
-          last_updated: "2025-03-21T01:01:48Z"
+          last_updated: "2025-03-23T03:37:22Z"
           releasedescription: |-
-            <p>reduce ads amount on Ozon app</p>
+            <p>An Xposed module to reduce ads on Ozon app (v.18.9.0)</p>
             <p>remove:</p>
-            <blockquote>
             <p>ads banners from search result page and product page.<br>
             rate product popup from main page<br>
             recommended section before product description on product page</p>
-            </blockquote>
             <p>NoAdsOzon</p>
-            <p>An Xposed module to reduce ads on Ozon app (v.18.9.0)</p>
             <p>убирает:</p>
-            <blockquote>
             <p>рекламные баннеры со страницы поиска Ozon<br>
             часть рекламных баннеров с основной страницы Ozon<br>
             верхний баннер на странице продукта<br>
             всплывающее окно оценки продуктов на главной странице<br>
             раздел рекомендовано на странице продукта, перед описанием продукта<br>
             compatible V.18.9.0</p>
-            </blockquote>
+            <p>update to limit recommended section removal only to section on product page view.</p>
     author_name: igormsc
 akhil.alltrans:
     git: https://github.com/Xposed-Modules-Repo/akhil.alltrans
@@ -2598,7 +2590,7 @@ cn.lyric.getter:
             <li><a href="https://github.com/xiaowine/Lyric-Getter/pull/290" data-hovercard-type="pull_request" data-hovercard-url="/xiaowine/Lyric-Getter/pull/290/hovercard">opt: playback state add stopped.</a></li>
             <li><a href="https://github.com/xiaowine/Lyric-Getter/compare/24-2.0.25...25-2.0.26"><strong>Full Changelog</strong> </a></li>
             </ul>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI3MDAyODksIm5iZiI6MTc0MjY5OTk4OSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIzVDAzMTk0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVmNTNmYmUwZDBmZDEzMTQwMTEyNGU4YTQ2NGFiMTMyODU5NTg2MWFmMzYwY2RmOTIwN2IyM2U4Y2NmMTdlZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7gLao8C_xwvLiS5zf1ydTjMmoGG6AzDfLLuz9Cr1TFM"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI3MDAyODksIm5iZiI6MTc0MjY5OTk4OSwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIzVDAzMTk0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVmNTNmYmUwZDBmZDEzMTQwMTEyNGU4YTQ2NGFiMTMyODU5NTg2MWFmMzYwY2RmOTIwN2IyM2U4Y2NmMTdlZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.7gLao8C_xwvLiS5zf1ydTjMmoGG6AzDfLLuz9Cr1TFM" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MTIzMDgsIm5iZiI6MTc0MjgxMjAwOCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEwMjY0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjVkZGI1Mzk4MWU4ZGM2YzhjYTY0NzlkM2ZjM2VlMWI4ODA0M2RjYjA0ZjNiMzRkMDBlZjM4MjBhYTZjNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-ThAIflBurgFfnD2Anwo5IMKiNxgSsebR1C6YVGNkLs"><img src="https://private-user-images.githubusercontent.com/36808766/423770307-13d9269c-ff6a-41c1-aa75-52e25276a3cf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI4MTIzMDgsIm5iZiI6MTc0MjgxMjAwOCwicGF0aCI6Ii8zNjgwODc2Ni80MjM3NzAzMDctMTNkOTI2OWMtZmY2YS00MWMxLWFhNzUtNTJlMjUyNzZhM2NmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzI0VDEwMjY0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyYjVkZGI1Mzk4MWU4ZGM2YzhjYTY0NzlkM2ZjM2VlMWI4ODA0M2RjYjA0ZjNiMzRkMDBlZjM4MjBhYTZjNDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-ThAIflBurgFfnD2Anwo5IMKiNxgSsebR1C6YVGNkLs" alt="IMG_20250318_110944" content-type-secured-asset="image/png" style="max-width: 100%;"></a></p>
     author_name: ghhccghk
 cn.myflv.noactive:
     git: https://github.com/Xposed-Modules-Repo/cn.myflv.noactive
@@ -2709,15 +2701,17 @@ cn.unicorn369.HookEuicc:
             <h1>HookEuicc</h1>
             <p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>
             <p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>
-            <h3>食用方法</h3>
+            <h2>食用方法</h2>
             <p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>
             <p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>
             <p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>
+            <h2>已知问题</h2>
+            <p>通常在某些不直接提供eSIM激活码的应用上，获取到eSIM激活码后，会先复制到剪切板，然后发送消息并打开分享界面(用于查看)，但某些应用可能无法发送消息或打开分享界面。如果你没看到任何消息，可先查看剪切板是否存在eSIM激活码。始终没有eSIM激活码的话请在这里 –&gt;&gt; <a href="https://github.com/Unicorn369/HookEuicc/issues">反馈问题</a> &lt;&lt;–</p>
           filename: app-release.apk
           id: cn.unicorn369.HookEuicc
           name: HookEuicc
-          last_updated: "2025-03-22T09:02:24Z"
-          releasedescription: <p>fix</p>
+          last_updated: "2025-03-23T08:38:20Z"
+          releasedescription: <p>修复RedteaGO无法获取eSIM激活码的问题</p>
     author_name: Unicorn369
 cn.wankkoree.xp.portrait2landscape:
     git: https://github.com/Xposed-Modules-Repo/cn.wankkoree.xp.portrait2landscape
@@ -5393,7 +5387,8 @@ com.duolingo.kill:
             <p> </p>
             <h1>多邻国杀手 - Duolingo Kill</h1>
             <p><a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/release/Xposed-Modules-Repo/com.duolingo.kill.svg" alt="release" /></a>
-            <a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg" alt="download" /></a></p>
+            <a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/total.svg" alt="download" /></a>
+            <a href="https://github.com/Xposed-Modules-Repo/com.duolingo.kill/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.duolingo.kill/latest/total.svg" alt="download-latest" /></a></p>
             <h2>简介</h2>
             <p>多邻国杀手（Duolingo Kill）是一款专为Duolingo应用设计的增强工具。请注意，使用此工具可能违反Duolingo的服务条款，使用前请谨慎考虑。</p>
             <h2>功能</h2>
@@ -5407,16 +5402,23 @@ com.duolingo.kill:
             </ul>
             <p><img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/1.jpg" alt="image" />
             <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/2.jpg" alt="image" />
-            <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg" alt="image" /></p>
+            <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/3.jpg" alt="image" />
+            <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/com.duolingo.kill/refs/heads/main/4.jpg" alt="image" /></p>
             <h2>免责声明</h2>
             <p>本工具仅供学习和研究使用，严禁用于商业或非法用途。开发者不对因使用此工具而产生的任何后果负责。</p>
-          filename: com.duolingo.kill_1.1_1.apk
+          filename: com.duolingo.kill_1.2_1.apk
           id: com.duolingo.kill
           name: 多邻国杀手 Duolingo Kill
-          last_updated: "2025-03-23T02:09:07Z"
+          last_updated: "2025-03-23T23:48:42Z"
           releasedescription: |-
-            <p>更新悬浮窗<br>
-            6.xx版本理论上通杀</p>
+            <p>New update<br>
+            强制正确 适配单词配对</p>
+            <p>Old update<br>
+            更新悬浮窗<br>
+            适配了arm32<br>
+            移除桌面图标 从xp管理器打开<br>
+            仓库更新检测<br>
+            6.xx.x版本理论上通杀</p>
     author_name: nspron
 com.example.installhook:
     git: https://github.com/Xposed-Modules-Repo/com.example.installhook
@@ -13102,21 +13104,12 @@ com.varuns2002.disable_flag_secure:
             (You probably don’t have one since you’re reading this anyway)</p>
             </li>
             <li>
-            <p>Apps Tested on:</p>
-            <ul>
-            <li>Amazon Prime Video</li>
-            <li>Netflix (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
-            <li>Disney+ (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
-            <li>Telegram (Secret Chat &amp; Disappearing Media)</li>
-            <li>Reddit (Anonymous Browsing Mode)</li>
-            <li>Google Chrome (Incognito Mode)</li>
-            <li>Brave Browser (Incognito Mode)</li>
-            </ul>
-            </li>
-            <li>
             <p>This module may work on other apps too with or
             without <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>.
             (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</p>
+            </li>
+            <li>
+            <p>Untested but may work on <a href="https://github.com/LSPosed/LSPatch">LSPatch</a></p>
             </li>
             <li>
             <p>You can contribute names of apps <a href="https://github.com/VarunS2002/Xposed-Disable-FLAG_SECURE">here</a> that are working and
@@ -13134,6 +13127,22 @@ com.varuns2002.disable_flag_secure:
             <li><a href="https://gitlab.com/azhao12345/disableflagsecure/">https://gitlab.com/azhao12345/disableflagsecure/</a></li>
             </ul>
             </li>
+            <li>
+            <p>Apps Tested on:</p>
+            <ul>
+            <li>Amazon Prime Video</li>
+            <li>Netflix (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+            <li>Disney+ (<a href="#additional-information-on-drm-encrypted-content">Read Additional Instructions</a>)</li>
+            <li>Telegram (Secret Chat &amp; Disappearing Media)</li>
+            <li>Reddit (Anonymous Browsing Mode)</li>
+            <li>Google Chrome (Incognito Mode)</li>
+            <li>Brave Browser (Incognito Mode)</li>
+            <li>WhatsApp (View Once Media &amp; Profile Picture)</li>
+            <li>Firefox (Incognito Mode)</li>
+            <li>Toffee OTT</li>
+            <li>Booking.com</li>
+            </ul>
+            </li>
             </ul>
             <h3>Additional Information on DRM encrypted content</h3>
             <p>This is applicable only for some apps on some devices. If you aren’t facing any issues, you can ignore these
@@ -13144,7 +13153,8 @@ com.varuns2002.disable_flag_secure:
             module <a href="https://github.com/Magisk-Modules-Repo/liboemcryptodisabler"><code>liboemcrypto.so disabler</code></a>. This will force the
             device to not use hardware decryption and in combination with this module will enable screenshots, screen sharing and
             recording.</p>
-            <p>Installing this module might have unintended consequences, such as lowered video quality.
+            <p>Installing this module might have unintended consequences, such as lowered video quality and a reduced Widevine security
+            level.
             <a href="https://forum.xda-developers.com/t/magisk-module-liboemcrypto-disabler-for-drm-protected-content-netflix-my5-etc.3794393">Read more</a></p>
           filename: Xposed-Disable-FLAG_SECURE_2.0.0.apk
           id: com.varuns2002.disable_flag_secure
@@ -15928,13 +15938,16 @@ have.fun:
             <p>支持微信8.0.40以上
             支持QQ9.0.30以上
             支持TIM4.0.97以上</p>
-          filename: FunBox_v1020.Apk
+          filename: FunBox_v1035.Apk
           id: have.fun
           name: FunBox
-          last_updated: "2025-03-13T11:16:09Z"
+          last_updated: "2025-03-23T12:16:06Z"
           releasedescription: |-
-            <p>适配微信8.0.57<br>
-            修复一些BUG，新增更多BUG</p>
+            <p>1.修复错误的context导致长按消息进行TTS，TTS转换后弹框位置错误的问题<br>
+            2.修复当用户设备有ipv6网络时无法选择到国内优化线路的问题<br>
+            3.修复当用户在QQ内部点击消息弹框同时进行多个聊天时，表情面板、语音面板发送到错误的聊天的问题<br>
+            4.新增水群时间统计（QQ）<br>
+            5.修复其他的一些问题</p>
     author_name: Hicores
 icu.freedomIntrovert.biliSendCommAntifraud:
     git: https://github.com/Xposed-Modules-Repo/icu.freedomIntrovert.biliSendCommAntifraud
@@ -18227,13 +18240,12 @@ junzi.xposed.hook:
             <p>全能扫描王</p>
             <p>Motion Ninja</p>
             <p>驾考精灵</p>
-            <p>小星记账</p>
             <p>等等等等(其实是懒得写了)</p>
-          filename: JunZi.Xposed.Hook_4.0.5.apk
+          filename: JunZi.Xposed.Hook_4.0.6.apk
           id: junzi.xposed.hook
           name: JunZi Xposed Hook
-          last_updated: "2025-03-21T09:24:22Z"
-          releasedescription: <p>新增 支持 蛋花免费小说 滴答清单 翻页时钟 番茄时钟</p>
+          last_updated: "2025-03-24T09:51:35Z"
+          releasedescription: <p>JunZi Xposed Hook</p>
     author_name: ZZCYUN
 lialh4.ldf:
     git: https://github.com/Xposed-Modules-Repo/lialh4.ldf
@@ -19447,6 +19459,43 @@ me.teble.xposed.autodaily:
             </li>
             </ul>
     author_name: teble
+me.timschneeberger.onyxtweaks:
+    git: https://github.com/Xposed-Modules-Repo/me.timschneeberger.onyxtweaks
+    summary: Mods for Onyx Boox e-Ink devices running Android 12. Tested with Onyx Boox Go Color 7.
+    applications:
+        - anti_features: []
+          categories:
+            - Xposed
+          description: |
+            <h1 align="center">
+              <img alt="Icon" width="75" src="https://github.com/timschneeb/OnyxTweaks/blob/main/fastlane/metadata/android/en-US/images/icon.png?raw=true">
+              <br>
+              OnyxTweaks
+              <br>
+            </h1>
+            <h4 align="center">Xposed module for modding the Onyx Boox Go Color 7 (Android 12) and similar devices</h4>
+            <p align="center">
+              <a href="https://github.com/timschneeb/OnyxTweaks/releases">
+              	<img alt="Release" src="https://img.shields.io/github/v/release/timschneeb/OnyxTweaks">
+              </a>
+              <!--<a href="https://f-droid.org/packages/me.timschneeberger.onyxtweaks/">
+              	<img alt="F-Droid release" src="https://img.shields.io/f-droid/v/me.timschneeberger.onyxtweaks">
+              </a>-->
+              <a href="https://github.com/timschneeb/OnyxTweaks/blob/master/LICENSE">
+                  <img alt="License" src="https://img.shields.io/github/license/timschneeb/OnyxTweaks">
+              </a>
+            </p>
+            <h2>Compatibility</h2>
+            <p>This Xposed module was primarily designed for my Go Color 7 running the Beta 4.0 firmware with Android 12.
+            I cannot guarantee full compatibility with other Boox models, especially if they do not run the 4.0 beta firmware.</p>
+            <h2>Features &amp; more</h2>
+            <p>For more details, please visit the source repository at: <a href="https://github.com/timschneeb/OnyxTweaks">https://github.com/timschneeb/OnyxTweaks</a></p>
+          filename: OnyxTweaks-v1.0.0-1-release.apk
+          id: me.timschneeberger.onyxtweaks
+          name: 'Xposed module for Onyx Boox e-Ink devices with Android 12. Tested with Onyx Boox Go Color 7 '
+          last_updated: "2025-03-24T04:08:24Z"
+          releasedescription: <p>Initial release</p>
+    author_name: timschneeb
 me.zhenxin.thisreallylite:
     git: https://github.com/Xposed-Modules-Repo/me.zhenxin.thisreallylite
     summary: 微博轻享版/极速版 去广告
