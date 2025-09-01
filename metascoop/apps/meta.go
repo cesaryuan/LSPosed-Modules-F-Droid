@@ -3,7 +3,7 @@ package apps
 import (
 	"os"
 
-	"gopkg.in/yaml.v3"
+	"sigs.k8s.io/yaml"
 )
 
 func ReadMetaFile(path string) (d map[string]interface{}, err error) {
@@ -12,8 +12,12 @@ func ReadMetaFile(path string) (d map[string]interface{}, err error) {
 		return
 	}
 	defer f.Close()
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return
+	}
 
-	err = yaml.NewDecoder(f).Decode(&d)
+	err = yaml.Unmarshal(data, &d)
 
 	return
 }
@@ -25,7 +29,16 @@ func WriteMetaFile(path string, data map[string]interface{}) (err error) {
 		return
 	}
 
-	err = yaml.NewEncoder(f).Encode(data)
+	mdata, err := yaml.Marshal(data)
+	if err != nil {
+		return
+	}
+
+	err = os.WriteFile(tmpPath, mdata, 0644)
+	if err != nil {
+		return
+	}
+
 	if err != nil {
 		_ = f.Close()
 		return
