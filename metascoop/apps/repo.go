@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/yaml.v3"
+	"sigs.k8s.io/yaml"
 )
 
 type Application struct {
@@ -38,9 +38,13 @@ func ParseRepoFile(filepath string) (list []Repo, err error) {
 		return
 	}
 	defer f.Close()
+	data, err := os.ReadFile(filepath)
+	if err != nil {
+		return
+	}
 
 	var repos map[string]Repo
-	err = yaml.NewDecoder(f).Decode(&repos)
+	err = yaml.Unmarshal(data, &repos)
 	if err != nil {
 		return
 	}
