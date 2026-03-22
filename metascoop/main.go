@@ -311,10 +311,14 @@ func main() {
 		err = cmd.Run()
 
 		if err != nil {
-			log.Println("Error while running \"fdroid update -c\":", err.Error())
-
-			fmt.Println("::endgroup::F-Droid: Creating metadata stubs")
-			os.Exit(1)
+			var exitErr *exec.ExitError
+			if errors.As(err, &exitErr) && exitErr.ExitCode() == 3 {
+				log.Println("Warning: \"fdroid update --create-metadata\" completed with non-fatal errors (exit code 3), continuing...")
+			} else {
+				log.Println("Error while running \"fdroid update -c\":", err.Error())
+				fmt.Println("::endgroup::F-Droid: Creating metadata stubs")
+				os.Exit(1)
+			}
 		}
 		fmt.Println("::endgroup::F-Droid Creating metadata stubs")
 	}
