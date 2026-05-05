@@ -1,0 +1,10 @@
+Release 2.0
+First release of the module, works from Android 11 to Android 14
+Roaming is always active since the 4G/5G icon cannot be forced.
+VoLTE is spoofed and only works on Android 11.
+
+Source code: https://github.com/Pacuwu/FakeSIM-Lsposed-module
+
+com.statusbarmod.hook.2.0: android 11-13
+
+com.statusbar.hook.2.0.android.14+: android 14-16

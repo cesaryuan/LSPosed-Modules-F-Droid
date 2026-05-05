@@ -1,17 +1,17 @@
 AuthorName: TakanashiHoshino
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: "1.1"
 CurrentVersionCode: 2
 Description: |
-    <h1>NoVPNDetect</h1>
-    <p>A Xposed module prevent some apps detect your phone connected to VPN.</p>
-    <h1>Usage</h1>
-    <ul>
-    <li>Download &amp; activate this module</li>
-    <li>Select app that you want to prevent detect VPN</li>
-    <li>Reboot phone or relaunch app</li>
-    </ul>
+  <h1>NoVPNDetect</h1>
+  <p>A Xposed module prevent some apps detect your phone connected to VPN.</p>
+  <h1>Usage</h1>
+  <ul>
+  <li>Download &amp; activate this module</li>
+  <li>Select app that you want to prevent detect VPN</li>
+  <li>Reboot phone or relaunch app</li>
+  </ul>
 IssueTracker: ""
 Name: NoVPNDetect
 SourceCode: https://github.com/Xposed-Modules-Repo/me.hoshino.novpndetect

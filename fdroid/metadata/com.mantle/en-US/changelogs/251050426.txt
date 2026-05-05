@@ -1,0 +1,50 @@
+# Release v2.5.1 — 1100+ Real Device Profiles & Backup Fixes
+
+## 🆕 New Features  
+* **1100+ Real Device Profiles**: Added a massive database of 1,100+ real device fingerprints. Every profile now feels like a real phone.
+* **Improved WebView Compatibility**: More accurate user agents.
+* **Device Selection UI Updated**: You can now filter by Android version.
+* **Full Sensor Passthrough**: All standard hardware sensors (magnetometer, barometer, gyroscope) are now reported correctly.
+
+## 🐞 Bug Fixes  
+* Fixed session conflict loop when switching devices.
+* Fixed proxy leakage into new profiles.
+* Fixed KernelSU/APatch warnings.
+
+## 📀 Profile Backup & Restore — Fixed  
+Critical fix for profile switching — previously, switching profiles could lose your logged-in account data. The backup/restore path is now rock solid:  
+* ✅ **Switch profiles** without losing login state.
+* ✅ **Export captures the latest live data** (no more stale backups).
+* ✅ **Import → Switch** works correctly after a format/reinstall.
+
+## ⚡️ Improvements  
+* Faster backups.
+* Faster & smoother profile switching.
+* Multi-device support: request access for multiple devices on the same account.
+* Smarter backup import: overwrites cleanly instead of creating broken duplicate directories.
+* Better stability & under-the-hood performance improvements.
+
+---
+
+## ⚠️ IMPORTANT: Updater Instructions
+
+**1. Backup before updating!**
+Go to `Any Group -> Config Settings -> Export Backup`.
+
+**2. AFTER UPDATE: App Crashing? Quick Fix**
+If any app is crashing or force-closing after Mantle is applied, it's likely due to an incompatible device profile. Here's how to fix it in 30 seconds:
+
+**Steps:**
+1️⃣ Open **Mantle** → Go to the **Identity** tab
+2️⃣ Scroll down to the **Device** section
+3️⃣ Tap **CHANGE**
+4️⃣ Hit the 🔄 **refresh** icon to reload the latest device list
+5️⃣ Tap the **RANDOM** button once — this will assign a new compatible device profile
+6️⃣ Reopen the app that was crashing
+
+✅ That's it! The app should work now.
+
+⚠️ **Why does this happen?**
+Some device profiles use an older Android version that conflicts with newer apps. Hitting RANDOM picks a fresh profile that's compatible.
+
+If the app still crashes after trying this, repeat the steps once more or send your LSPosed log in DM.

@@ -1,0 +1,3 @@
+本次更新：
+- SystemUI 进程内注册 ContentObserver，配置变更即时刷新
+- 高频 Hook 仅读取内存缓存，降低通知中心掉帧风险

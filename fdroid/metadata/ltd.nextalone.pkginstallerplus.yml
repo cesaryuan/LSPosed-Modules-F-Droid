@@ -1,36 +1,36 @@
 AuthorName: NextAlone
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: 1.2.e8c9341
 CurrentVersionCode: 1717993387
 Description: |
-    <h1>InstallerPlus(Installer++)</h1>
-    <p><img src="https://img.shields.io/github/v/release/NextAlone/InstallerPlus?color=success&amp;label=Release&amp;logo=github" alt="GitHub release" /> <img src="https://img.shields.io/github/actions/workflow/status/NextAlone/InstallerPlus/autoci.yml?label=Build&amp;logo=github" alt="Build Status" /> <a href="https://github.com/NextAlone/InstallerPlus/blob/main/README_CN.md">[中文说明文档]</a></p>
-    <h2>Introduction</h2>
-    <ul>
-    <li>Show app’s package info for Package Installer.</li>
-    <li>See <a href="https://github.com/NextAlone/InstallerPlus/blob/main/image/README.md">features</a></li>
-    </ul>
-    <h2>Compatibility</h2>
-    <p>Compatible with AOSP-like installer,been tested in:</p>
-    <ol>
-    <li>Hydrogen OS Android 7.1.1</li>
-    <li>Oxygen OS Android Q</li>
-    <li>Pixel Experience 11</li>
-    <li>LineageOS Android 12</li>
-    <li>LineageOS Android 13</li>
-    <li>Pixel/AOSP Android 13</li>
-    <li>Pixel/AOSP Android 14</li>
-    </ol>
-    <h2>Repo License</h2>
-    <ul>
-    <li><a href="https://github.com/NextAlone/InstallerPlus/blob/main/LICENSE.md">AGPL-3.0</a></li>
-    </ul>
-    <h3><a href="https://github.com/NextAlone/InstallerPlus/blob/main/app/src/main/assets/eula.md">InstallerPlus End User License Agreement(EULA) (Chinese Only)</a></h3>
+  <h1>InstallerPlus(Installer++)</h1>
+  <p><img src="https://img.shields.io/github/v/release/NextAlone/InstallerPlus?color=success&amp;label=Release&amp;logo=github" alt="GitHub release" /> <img src="https://img.shields.io/github/actions/workflow/status/NextAlone/InstallerPlus/autoci.yml?label=Build&amp;logo=github" alt="Build Status" /> <a href="https://github.com/NextAlone/InstallerPlus/blob/main/README_CN.md">[中文说明文档]</a></p>
+  <h2>Introduction</h2>
+  <ul>
+  <li>Show app’s package info for Package Installer.</li>
+  <li>See <a href="https://github.com/NextAlone/InstallerPlus/blob/main/image/README.md">features</a></li>
+  </ul>
+  <h2>Compatibility</h2>
+  <p>Compatible with AOSP-like installer,been tested in:</p>
+  <ol>
+  <li>Hydrogen OS Android 7.1.1</li>
+  <li>Oxygen OS Android Q</li>
+  <li>Pixel Experience 11</li>
+  <li>LineageOS Android 12</li>
+  <li>LineageOS Android 13</li>
+  <li>Pixel/AOSP Android 13</li>
+  <li>Pixel/AOSP Android 14</li>
+  </ol>
+  <h2>Repo License</h2>
+  <ul>
+  <li><a href="https://github.com/NextAlone/InstallerPlus/blob/main/LICENSE.md">AGPL-3.0</a></li>
+  </ul>
+  <h3><a href="https://github.com/NextAlone/InstallerPlus/blob/main/app/src/main/assets/eula.md">InstallerPlus End User License Agreement(EULA) (Chinese Only)</a></h3>
 IssueTracker: ""
 Name: InstallerPlus(Installer++)
 SourceCode: https://github.com/Xposed-Modules-Repo/ltd.nextalone.pkginstallerplus
 Summary: |-
-    Show app's package info for Package Installer.
-    为Package Installer提供安装包详情显示
+  Show app's package info for Package Installer.
+  为Package Installer提供安装包详情显示
 WebSite: ""

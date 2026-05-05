@@ -1,0 +1,18 @@
+### 二周年耻辱纪念版
+
+- 评论定位新增URL Scheme的启动方式，不给客户端挂XP(osed)也能定位
+- 历史评论操作选项可删除B站上的评论（这不会删除历史评论记录）
+- 新增评论检查评论间隔功能，避免请求得太快出现些问题
+- 修复了国际版哔哩哔哩部分版本无法使用的问题
+- 修复了不同账号在同一个评论区发送评论，一个账号申诉，别的账号所发评论区申诉记录也被修改的bug
+- 更改B站客户端cookie的获取方式
+- 阿瓦隆研究文档写了新的一份，强烈建议去看看，[对阿瓦隆系统探究-NEW.md](https://github.com/freedom-introvert/Research-on-Avalon-System-in-Bilibili-Comment-Area/blob/main/docs/%E5%AF%B9%E9%98%BF%E7%93%A6%E9%9A%86%E7%B3%BB%E7%BB%9F%E6%8E%A2%E7%A9%B6-NEW.md)
+- 评论区戒严检查我想废弃了😇，故检查结果仅供娱乐，具体原因可以看[上面的文档](https://github.com/freedom-introvert/Research-on-Avalon-System-in-Bilibili-Comment-Area/blob/main/docs/%E5%AF%B9%E9%98%BF%E7%93%A6%E9%9A%86%E7%B3%BB%E7%BB%9F%E6%8E%A2%E7%A9%B6-NEW.md#%E8%AF%84%E8%AE%BA%E5%8C%BA%E6%88%92%E4%B8%A5)
+- 请看新的研究文档，ShadowBan的检查结果不一定是准确的（无论是什么反诈版本），因为它还可能是“审核中”的状态，这个需要去申诉，看看是否提交成功才能获知
+
+很喜欢一句话
+
+> ✋😭✋你是不是有什么XP(osed)
+
+非常好一语成谶，使这个XPosed版本生日变成了耻辱日
+![image webp](https://raw.githubusercontent.com/freedom-introvert/biliSendCommAntifraud/refs/heads/main/release-pictures/6.3.5/title.webp)

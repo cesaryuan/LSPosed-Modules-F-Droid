@@ -1,0 +1,5 @@
+  - 模块备份修复与完善：复制后自动 chown/chmod 修正权限，避免 backup.prop EACCES；打包 ZIP 以模块目录为根，兼容官方 KernelSU 安装；备份完成改用弹窗显示完整信息（含备份目录、核心文
+    件可能无效的提醒），标题“备份成功”。
+  - 备份/还原文案更新：菜单项改为“备份 root 列表 / 还原 root 列表 / 备份模块”，相关提示统一使用“备份/还原”表述；错误 Toast 直接展示具体原因。
+  - 安装唤起支持：MainActivity 增加 VIEW/BROWSABLE 过滤器与 FileProvider 缓存路径，支持处理微信等追加“.apk.1”后缀的 APK 链接，复制到缓存后以正确 MIME 调起系统安装；修正 onNewIntent
+    签名。

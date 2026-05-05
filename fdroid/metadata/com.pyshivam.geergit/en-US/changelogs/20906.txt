@@ -1,0 +1,19 @@
+# Geergit v2.9.6 (20906)
+
+## New Features
+- Added **Russian language support**.
+- Added **Chinese language support**.
+
+## Improvements
+- Default country is now correctly set to **United States**.
+- Improved **Gmail ID generation logic**:
+  - Now generates more realistic-looking Gmail IDs.
+- Improved **Wi-Fi SSID generation**:
+  - Now produces more realistic SSID names.
+- Optimized **app list visibility**:
+  - Improved performance on home page.
+  - Improved performance in *Select Target Apps* dialog.
+
+## Bug Fixes
+- Fixed issue where **individual apps were not spoofing values correctly**.
+- Fixed **auto spoofing turning off** while Geergit is verifying user session.

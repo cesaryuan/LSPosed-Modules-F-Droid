@@ -1,54 +1,54 @@
 AuthorName: auag0
 Categories:
-    - Xposed
-CurrentVersion: 1.2.1
-CurrentVersionCode: 4
+- Xposed
+CurrentVersion: 2.2.1
+CurrentVersionCode: 9
 Description: |
-    <h1>Hide Mock Location</h1>
-    <p><strong>Prevents detection of mock location</strong><br />
-    <strong>Supported Android 6~15</strong><br />
-    Testapp: <strong><a href="https://github.com/auag0/MockLocationDetector">MockLocationDetector</a></strong></p>
-    <h2>usage</h2>
-    <ul>
-    <li>Download the APK(<a href="https://github.com/auag0/HideMockLocation/releases/latest">here</a>) and install APK on device</li>
-    <li>Enable the module in xposed</li>
-    <li>if use lsposed, choose the app from which to hide mock location</li>
-    <li>owari!</li>
-    </ul>
-    <h2>hooked methods</h2>
-    <ul>
-    <li>android.location.Location
-    <ul>
-    <li>isFromMockProvider()</li>
-    <li>isMock()</li>
-    <li>setIsFromMockProvider()</li>
-    <li>setMock()</li>
-    <li>getExtras()</li>
-    <li>setExtras()</li>
-    <li>set()</li>
-    </ul>
-    </li>
-    <li>android.provider.Settings
-    <ul>
-    <li>Secure.getStringForUser(name=“mock_location”)</li>
-    <li>System.getStringForUser(name=“mock_location”)</li>
-    <li>Global.getStringForUser(name=“mock_location”)</li>
-    <li>NameValueCache.getStringForUser(name=“mock_location”)</li>
-    </ul>
-    </li>
-    </ul>
-    <h2>how to set MockLocation app from Adb <a href="https://stackoverflow.com/questions/40414011/how-to-set-the-android-6-0-mock-location-app-from-adb/43747384#43747384">(stackoverflow)</a></h2>
-    <h3>Allowing app for mock locaiton</h3>
-    <p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location allow</code></p>
-    <h3>Removing app for mock location</h3>
-    <p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location deny</code></p>
-    <h4>for root device, remove <code>adb shell</code> in terminal and run</h4>
-    <h2>super thanks (reference)</h2>
-    <p><a href="https://github.com/ThePieMonster/HideMockLocation">ThePieMonster#HideMockLocation</a></p>
+  <h1>Hide Mock Location</h1>
+  <p><strong>Prevents detection of mock location</strong><br />
+  <strong>Supported Android 6~15</strong><br />
+  Testapp: <strong><a href="https://github.com/auag0/MockLocationDetector">MockLocationDetector</a></strong></p>
+  <h2>usage</h2>
+  <ul>
+  <li>Download the APK(<a href="https://github.com/auag0/HideMockLocation/releases/latest">here</a>) and install APK on device</li>
+  <li>Enable the module in xposed</li>
+  <li>if use lsposed, choose the app from which to hide mock location</li>
+  <li>owari!</li>
+  </ul>
+  <h2>hooked methods</h2>
+  <ul>
+  <li>android.location.Location
+  <ul>
+  <li>isFromMockProvider()</li>
+  <li>isMock()</li>
+  <li>setIsFromMockProvider()</li>
+  <li>setMock()</li>
+  <li>getExtras()</li>
+  <li>setExtras()</li>
+  <li>set()</li>
+  </ul>
+  </li>
+  <li>android.provider.Settings
+  <ul>
+  <li>Secure.getStringForUser(name=“mock_location”)</li>
+  <li>System.getStringForUser(name=“mock_location”)</li>
+  <li>Global.getStringForUser(name=“mock_location”)</li>
+  <li>NameValueCache.getStringForUser(name=“mock_location”)</li>
+  </ul>
+  </li>
+  </ul>
+  <h2>how to set MockLocation app from Adb <a href="https://stackoverflow.com/questions/40414011/how-to-set-the-android-6-0-mock-location-app-from-adb/43747384#43747384">(stackoverflow)</a></h2>
+  <h3>Allowing app for mock locaiton</h3>
+  <p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location allow</code></p>
+  <h3>Removing app for mock location</h3>
+  <p><code>adb shell appops set &lt;MOCK_LOCATION_APP_PKG&gt; android:mock_location deny</code></p>
+  <h4>for root device, remove <code>adb shell</code> in terminal and run</h4>
+  <h2>super thanks (reference)</h2>
+  <p><a href="https://github.com/ThePieMonster/HideMockLocation">ThePieMonster#HideMockLocation</a></p>
 IssueTracker: ""
 Name: HideMockLocation
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.auag0.hidemocklocation
 Summary: |-
-    hide mock location
-    位置情報偽装アプリを非表示にします
+  hide mock location
+  位置情報偽装アプリを非表示にします
 WebSite: ""

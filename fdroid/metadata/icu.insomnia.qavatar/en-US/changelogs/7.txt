@@ -1,0 +1,16 @@
+## 修复
+
+新版QQ9.1.70没有设置入口（https://github.com/NoonieBao/QAvatar/issues/3）
+
+
+## qavatar设置入口
+
+高版本QQ（QQ9.1.70）中：点击QQ设置-账号与安全将自动弹出qavatar的设置界面
+
+旧版本QQ（QQ9.1.10）中：点击QQ设置-账号与安全界面，可见`qavatar`按钮，点击即可打开qavatar的设置界面
+
+## 适配性
+
+在XiaomiPad5_MiuiPad14.0.6_Android13_QQ9.1.70 上测试通过
+
+在XiaomiPad5_MiuiPad14.0.6_Android13_QQ9.1.10 上测试通过

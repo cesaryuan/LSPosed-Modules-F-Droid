@@ -1,0 +1,60 @@
+内容同步自源仓库 [Sesame-AG](https://github.com/aoguai/Sesame-AG)
+
+源仓库标签：`3957-0.0.7`
+模块仓库标签：`3957-0.0.7`
+变更范围：`3936-0.0.6...3957-0.0.7`
+
+## 发布备注
+
+0.0.7
+
+## 变更说明
+
+### 新功能
+
+- feat(antMember): 优化会员浮球任务处理逻辑并更新多模块黑名单 ([62b0769](https://github.com/aoguai/Sesame-AG/commit/62b0769771df1f52c2dc1941a1fa61c541278d3c))
+- feat(logs): 新增清空所有日志功能 ([ea09f0e](https://github.com/aoguai/Sesame-AG/commit/ea09f0e1cea84a72a3ab3a9ce15780df187713c6))
+- feat(task): 优化长耗时任务执行逻辑支持后台并行处理 ([15a2e85](https://github.com/aoguai/Sesame-AG/commit/15a2e856c409d1277878d6fbe091ea1c052ba3a8))
+- feat(antSports): 重构运动签到并适配新版走路挑战赛线上赛 ([1e186d2](https://github.com/aoguai/Sesame-AG/commit/1e186d25a8e54720c3f878a003df37ba267f539b))
+- feat(ant-forest): 优化森林找能量接口逻辑并增强 PK 排行榜与任务校验 ([477b63e](https://github.com/aoguai/Sesame-AG/commit/477b63e9a925a22dd8eb51befc390721ab42ad8c))
+
+### 问题修复
+
+- fix(task): 优化步数同步并发控制并完善只收能量时间跳过逻辑(#25) ([b7e6a5a](https://github.com/aoguai/Sesame-AG/commit/b7e6a5a0d8e24f6ffd36aeff53869328db652fd3))
+- fix(antForest): 完善能量收集开关校验并优化抽抽乐处理逻辑(#26) ([fb880c0](https://github.com/aoguai/Sesame-AG/commit/fb880c02d96d55fa5f660474afc294335f8b0d4f))
+- fix(antSports): 优化步数同步确认逻辑并完善状态标记规范 ([5ea8579](https://github.com/aoguai/Sesame-AG/commit/5ea857910937b9791aeb0b3a6fb39ea9e727ee0a))
+- fix(task): 优化列表分页逻辑避免超时并新增单任务超时配置(#26) ([9c2ce9b](https://github.com/aoguai/Sesame-AG/commit/9c2ce9b38aba3b247d2acf100aad7997221cf549))
+- fix(antDodo): 优化帮好友抽卡流程与任务缓存同步机制 ([cf1e30c](https://github.com/aoguai/Sesame-AG/commit/cf1e30c9b47f02968728daa97a8a2eed3a900e2f))
+- fix(antFarm): 优化庄园逻辑并支持小鸡自动召回与任务上限检测 ([0dafe72](https://github.com/aoguai/Sesame-AG/commit/0dafe72b84531b09430f9fc57c225707ed8581a6))
+- fix(antOrchard): 修复农场乐园奖励领取后的缓存同步问题 ([309f582](https://github.com/aoguai/Sesame-AG/commit/309f5823e2b17462485175aa04c8096ef8bab2a4))
+
+### 重构调整
+
+- refactor(antMember): 优化会员任务流程并增强黑名单校验 ([d6a608f](https://github.com/aoguai/Sesame-AG/commit/d6a608f9558c3cf66898c541a9a969d354446c15))
+- refactor(log): 统一简化日志调用接口并移除冗余 TAG 参数 ([ffb7467](https://github.com/aoguai/Sesame-AG/commit/ffb74671116c558057cb0e7a8072084a06d73c12))
+
+### 其他更新
+
+- chore(config): 调整各模块默认配置为禁用或保守模式 ([6a4d827](https://github.com/aoguai/Sesame-AG/commit/6a4d8277001f7e886859fea125f3f42b17c88f12))
+- chore(task): 完善森林/运动时间字段迁移并修正“关闭时间限制”语义 ([606151e](https://github.com/aoguai/Sesame-AG/commit/606151e2431978ed866717c3171bfb7973ef4235))
+- 日志滚动策略优化及跨天处理逻辑完善 (#27) ([7ab22de](https://github.com/aoguai/Sesame-AG/commit/7ab22de0754c2a07815c5aa40de1d087d43a288e))
+- chore(task): 优化神奇海洋任务逻辑 ([d61c98b](https://github.com/aoguai/Sesame-AG/commit/d61c98b8e3c278489086d70f55263a2fd95ae551))
+
+## 本轮贡献者
+
+<p><a href="https://github.com/aoguai" title="@aoguai"><img src="https://avatars.githubusercontent.com/u/34203474?v=4" width="40" height="40" alt="@aoguai" style="border-radius:50%;margin:0 6px 6px 0;" /></a><a href="https://github.com/yuiml" title="@yuiml"><img src="https://avatars.githubusercontent.com/u/229905861?v=4" width="40" height="40" alt="@yuiml" style="border-radius:50%;margin:0 6px 6px 0;" /></a></p>
+
+感谢以下参与本轮更新提交的开发者：@aoguai、@yuiml
+
+## Full Changelog
+
+- 对比视图：https://github.com/aoguai/Sesame-AG/compare/3936-0.0.6...3957-0.0.7
+- 提交历史：https://github.com/aoguai/Sesame-AG/commits/3957-0.0.7
+
+> ## 下载说明
+<b>- arm64-v8a:</b> 适用于64位 ARM 设备 (主流新手机)
+<b>- armeabi-v7a:</b> 适用于32位 ARM 设备 (旧款手机)
+<b>- x86 / x86_64:</b> 主要用于 PC 上的安卓模拟器
+<b>- universal:</b> 通用版 (不确定时使用，体积较大)
+>
+> **如果不确定，请下载 `universal` 版本。**

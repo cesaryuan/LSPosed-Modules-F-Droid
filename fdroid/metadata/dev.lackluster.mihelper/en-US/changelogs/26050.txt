@@ -1,0 +1,23 @@
+## 更新日志
+- 迁移至 **Modern Xposed Module API（Libxposed API 101）**
+- 由于弃用 **XSharedPreferences**，本次更新后所有配置项将会丢失，请务必在更新前备份配置，并在更新后重新进行设置  
+- 适配 **HyperOS 3.0（包括 3.0.300+）**。本版本仅供 HyperOS 3 用户使用，对 HyperOS 2 及更早版本的支持已被移除  
+- 新增功能：**系统界面 → 图标定制 → 双排信号图标**  
+- 新增功能：**系统界面 → 图标调整 → 组合图标**  
+- 新增功能：**系统界面 → 图标调整 → 状态栏图标左移**  
+- 新增功能：**系统界面 → 手势与操作 → 单击 / 双击空白区域触发特定动作**  
+- 大量细节与功能已作调整与优化，暂不一一列出，欢迎自行探索  
+- 欢迎加入 [Telegram 频道](https://t.me/lackluster_stuff) 反馈问题、获取内部测试版本与后续更新信息  
+
+---
+
+## What's Changed
+- Migrated to the **Modern Xposed Module API (Libxposed API 101)**
+- **XSharedPreferences** has been deprecated. As a result, all existing configurations will be lost after updating. Please back up your settings in advance and reconfigure them after the update  
+- Added support for **HyperOS 3.0 (including 3.0.300+)**. This version is intended **only for HyperOS 3**; support for HyperOS 2 and earlier has been removed  
+- New feature: **System UI → Icon customizer → Dual-row signal icons**  
+- New feature: **System UI → Icon tuner → Combined icons**  
+- New feature: **System UI → Icon tuner → Shift status bar icons to the left**  
+- New feature: **System UI → Single / double tap on empty area to trigger specific actions**  
+- Numerous behavior tweaks and refinements have been made and are not fully listed here—feel free to explore  
+- Join our [Telegram channel](https://t.me/lackluster_stuff) to report issues, get insider builds, and stay up to date with future releases

@@ -1,0 +1,11 @@
+### :sparkles: New Features
+- Rewrote the entire UI with Jetpack Compose and Material3 dynamic colors
+- Tile activity log with search, event type filters, and per-tile chips
+- Cold-start latency badges that highlight slow rebinds
+- Tile providers card showing installed QS tile services
+- Status banner warns when hooks are only partially active
+- Track tile taps, cold-start bind latency, and service deaths
+- Hook-to-app event streaming via ContentProvider
+
+### :bug: Bug Fixes
+- Fix live binding limit updates silently stopping after GC

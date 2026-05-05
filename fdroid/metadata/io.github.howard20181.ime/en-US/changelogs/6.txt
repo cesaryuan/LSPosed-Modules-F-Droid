@@ -1,0 +1,14 @@
+## What's Changed/变更日志
+* 支持 API 101
+* 完善 Android 14 和 Android 15 的支持
+* Support API 101
+* Improve Android 14/15 support
+
+提醒：国际版系统不需要安装这个模块也默认启用输入法全面屏优化，如果隐藏手势提示线之后输入法导航栏按钮消失，可以启用手势 overlay
+Note: International versions of the system do not require this module to be installed and already have full-screen input method optimization enabled by default. If the input method navigation bar buttons disappear after hiding the gesture hint line, you can enable gesture overlay.
+
+```shell
+adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+```
+
+**Full Changelog**: https://github.com/Howard20181/Mi_AOSP_IME/compare/v1.1.1...v1.2.0

@@ -1,0 +1,22 @@
+Update/更新记录
+- 修复: 若干问题
+- 优化: 若干问题
+- 增加: 支持使用Shizuku，Root版（设置页面切换工作模式）
+- 增加: 在首页启用或关闭配置可同步 LSP 作用域（by klxiaoniu & QAuxiliary）
+- 增加: 扩展功能可设置输出base64、hex
+- 升级提醒: 会删除扩展配置、所有记录
+
+- Fix: Several issues
+- Optimize: Several issues
+- Add: Supports Shizuku, Root version (switch working mode in settings).
+- Enabling or disabling the config on the homepage will sync the LSP scpoe. （by klxiaoniu & QAuxiliary）
+- Add: Extended functionality allows setting output to base64 or hex
+- Upgrade reminder: Will delete extended configurations and all records
+
+**ROOT**[Recommend]: Root permission is required to write configuration and read records (Log), Shizuku is now supported.
+Normal: Storage permissions are required to write configurations and read records (Log). Android 13 requires each app to grant permissions individually
+Lite: No permission required, only for LSPosed, no extensions, no recording, Android version >8
+
+**ROOT**【推荐】: 需要root权限进行写入配置，以及读取记录（Log），现在支持使用Shizuku
+Normal: 需要存储权限进行写入配置，以及读取记录（Log），同样适用于LSPatch，安卓13需要每个应用单独授予权限
+Lite: 无需任何权限，仅用于LSPosed，无扩展功能，无记录功能，安卓版本 >8

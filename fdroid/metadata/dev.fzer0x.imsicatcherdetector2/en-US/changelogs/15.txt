@@ -1,0 +1,6 @@
+## 📝 Changelog
+**v0.6.2**
+
+- Fixed NoClassDefFoundError in Xposed module detection on some Devices
+
+⚠️ This Xposed Module used libxsposed API 101. You need the new LSPosed 2.0.0 with API 101. Otherwise, stay on 0.5.0 

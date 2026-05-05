@@ -1,12 +1,12 @@
 AuthorName: Enaium
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
 Description: |
-    <h1>FuckMarket</h1>
-    <p>Select market app and target app</p>
-    <p>Forked from <a href="https://github.com/Enaium-Xposed/FuckMarket">https://github.com/Enaium-Xposed/FuckMarket</a></p>
+  <h1>FuckMarket</h1>
+  <p>Select market app and target app</p>
+  <p>Forked from <a href="https://github.com/Enaium-Xposed/FuckMarket">https://github.com/Enaium-Xposed/FuckMarket</a></p>
 IssueTracker: ""
 Name: Cancel startActive Market,取消跳转到应用商店
 SourceCode: https://github.com/Xposed-Modules-Repo/cn.enaium.fuckmarket

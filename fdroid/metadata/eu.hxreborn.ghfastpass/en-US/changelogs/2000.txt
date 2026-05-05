@@ -1,0 +1,11 @@
+## What's Changed
+
+
+
+### Added
+
+- [`c8053fe`](https://github.com/hxreborn/gh-fast-pass/commit/c8053fe73cbb15538a05abda9c93f97fc530286e) - Migrate to libxposed API 101 [**breaking**] by @hxreborn in [hxreborn/gh-fast-pass#3](https://github.com/hxreborn/gh-fast-pass/pull/3)
+
+  Migrates from libxposed API 100 to 101. API 100 will no longer be supported once 101 is officially released. An LSPosed Manager with API 101 support may not be publicly available yet.
+
+

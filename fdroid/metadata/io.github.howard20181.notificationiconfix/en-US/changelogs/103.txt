@@ -1,0 +1,11 @@
+# 变更日志
+
+1. 重构图标生成算法，现在背景是渐变色的也可以计算轮廓
+2. 支持 API 101
+
+# Changelog
+
+1. Refactored icon generation algorithm; now it can calculate outlines even with gradient backgrounds.
+2. Added support for API 101.
+
+Fix #1,#12,#13

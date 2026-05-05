@@ -1,0 +1,17 @@
+This update includes significant improvements to how the module works, offering more reliable control over Battery Saver and introducing new options.
+
+**Changes:**
+
+*   **Improved Reliability:** The core logic that prevents Battery Saver from turning off has been completely rewritten. This should improve compatibility across different devices and Android versions.
+*   **New Control Options:**
+    *   **Prevent Disabling on Power:** A new setting has been added that stops Battery Saver from automatically turning off *only* when your device is plugged in and detected as charging.
+    *   **Hide Charging Status:** This new option replaces the old "Block update charge state". It works by preventing the system from telling the Battery Saver component that your device is charging. This is another way to help keep Battery Saver active while plugged in.
+    *   **'Lock Battery Saver State' Updated:** The experimental option to aggressively block *any* change to Battery Saver status has been updated internally.
+*   **Visual Tweaks:** Added basic support for Dark Mode and made minor adjustments to the settings screen layout.
+
+**Minor Improvements:**
+*   In debug builds, the settings options will remain selectable even when the main 'Enable Module' switch is off.
+
+We've made big changes under the hood, so please try out the new options and report any issues you find!
+
+**Full Changelog**: https://github.com/icepony/AlwaysBatterySaver/compare/v2.0...v2.1

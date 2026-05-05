@@ -1,0 +1,12 @@
+- Rewrite the module settings interface to be build directly on top of the native Android UI framework
+- Rewrite the hook code to use lower level Xposed hook API
+- Migrate config to remote Broadcast injection
+- Reduce APK size by ~95%
+
+---
+
+Remember to reboot the device after activating/updating this module
+
+---
+
+Source code for this release is available at: https://github.com/rmnscnce/NfcNci_Patience/tree/3fda1ea

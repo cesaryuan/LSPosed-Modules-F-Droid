@@ -1,21 +1,21 @@
 AuthorName: mmmlllnnn
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: 2.5.0
 CurrentVersionCode: 20250101
 Description: |
-    <h1>墨墨Xposed</h1>
-    <p>修改墨墨背单词的单词上限，自用</p>
-    <p>检测目标函数特征，理论适配全部版本</p>
-    <h3>使用方式：</h3>
-    <p>1.第一次打开 app 会自动寻找 hook 函数，并保存在本地</p>
-    <p>2.弹出已找到 hook 函数的消息后，退出 app</p>
-    <p>3.再次打开即生效</p>
-    <p>测试通过环境：Redmik50pro A13 XposedAPI 100 arm64-v8a</p>
-    <hr />
-    <p><img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-first-1.png" alt="" />
-    <img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-first-2.png" alt="" />
-    <img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-second.png" alt="" /></p>
+  <h1>墨墨Xposed</h1>
+  <p>修改墨墨背单词的单词上限，自用</p>
+  <p>检测目标函数特征，理论适配全部版本</p>
+  <h3>使用方式：</h3>
+  <p>1.第一次打开 app 会自动寻找 hook 函数，并保存在本地</p>
+  <p>2.弹出已找到 hook 函数的消息后，退出 app</p>
+  <p>3.再次打开即生效</p>
+  <p>测试通过环境：Redmik50pro A13 XposedAPI 100 arm64-v8a</p>
+  <hr />
+  <p><img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-first-1.png" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-first-2.png" alt="" />
+  <img src="https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/momo-second.png" alt="" /></p>
 IssueTracker: ""
 Name: 墨墨Xposed
 SourceCode: https://github.com/Xposed-Modules-Repo/com.mln.momoxposed

@@ -1,0 +1,19 @@
+An Xposed module that enables tablet interface in WeChat Work mobile app
+
+## 🎉 WePadBridge v1.0.0 - 首次发布
+
+### ✨ 功能特性
+- 让企业微信手机版获得平板界面体验
+- 支持设备类型伪装和平板模式启用
+- 基于YukiHookAPI构建，稳定可靠
+
+### 📱 兼容性
+- Android 5.0+
+- 企业微信 4.0.0+
+- 需要Xposed框架（推荐LSPosed）
+
+### 📦 安装方法
+1. 下载APK文件
+2. 在LSPosed中激活模块
+3. 为企业微信启用作用域
+4. 重启企业微信

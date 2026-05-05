@@ -1,0 +1,36 @@
+
+# 🚀 Reddidn't v1.2.2 Release 
+
+This release fixes external browser redirect for Reddit internal browser intents.
+
+**This version of Reddidn't has been tested and aims to work on Reddit v2025.46.0 and above.**
+
+## 📝 Changelog
+
+* 🔧 Fixes:
+    * External browser redirect for Reddit internal browser intents
+
+## Installation 
+
+### Root | LSPosed
+1. Make sure your device is rooted and you have LSPosed installed.
+2. Download the latest release APK from the assets section below or simply [click here](https://github.com/Xposed-Modules-Repo/com.wizpizz.reddidnt/releases/download/7-1.2.2/app-release.apk)
+3. Install the APK on your device.
+4. Enable the module in the LSPosed manager and make sure Reddit is enabled in the scope settings.
+5. Restart Reddit and Reddidn't.
+
+### Non-Root | LSPatch
+
+**No guarantee that this will work for you, the module was developed to be used with LSPosed in mind!**
+
+1. Install [Shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api) and [LSPatch](https://github.com/JingMatrix/LSPatch/releases) (**MUST USE JINGMATRIX'S LSPATCH  FORK, OFFICIAL WON'T WORK**).
+2. Download the latest release APK from the assets section below or simply [click here](https://github.com/Xposed-Modules-Repo/com.wizpizz.reddidnt/releases/download/7-1.2.2/app-release.apk)
+3. Install the APK on your device.
+4. Give LSPatch Shizuku permissions.
+5. In LSPatch, patch the Reddit app: **select LOCAL** while patching, DO NOT INTEGRATE and don't embed Reddidn't.
+6. Install the patched Reddit.
+7. Long press on Reddit in LSPatch and select "Module Scope".
+8. Select Reddidn't from the list.
+9. That's it. Restart Reddit and ads should be gone!
+
+(Reddidn't will still stay "module not activated", ignore that. Toggling off ad blocking features in Reddidn't won't do anything, ads will always be blocked as long as Reddidn't is selected in the scope in LSPatch)

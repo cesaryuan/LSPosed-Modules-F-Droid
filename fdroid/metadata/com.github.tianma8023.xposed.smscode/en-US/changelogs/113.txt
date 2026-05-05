@@ -1,0 +1,17 @@
+<div align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.github.tianma8023.xposed.smscode">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80"/>
+  </a>
+  <a href="https://github.com/magisk317/XposedSmsCode/releases/tag/v3.2.8">
+    <img src="https://raw.githubusercontent.com/machiav3lli/oandbackupx/master/badge_github.png" alt="Get it on GitHub" height="80"/>
+  </a>
+  </div>
+  
+## [v3.2.8] - 2026-04-24
+- 版本：`versionCode 113` / `versionName 3.2.8`。
+- `[runtime/db]` 将 Room DAO 接口重构为 `suspend` 函数，并在 `DBManager` 中通过 `runBlocking` 安全调用，优化主线程性能并确保数据库操作符合 Room 并发规范。
+- `[deps]` 升级核心依赖库：Kotlin `2.3.21`、Navigation `2.9.8`、Compose BOM `2026.04.01`。
+- `[ci]` 优化 CI 工作流，移除对外部相邻仓库的冗余检查逻辑，提升构建流水线运行效率。
+- `[submodules]` 同步 `smscode-core` 子模块指针，解决 `mokkery` 引用冲突，保持 API 抽象层与实现层的一致性。
+
+> Full Changelog: https://github.com/magisk317/XposedSmsCode/compare/v3.2.7...v3.2.8

@@ -1,54 +1,54 @@
 AuthorName: HowieHChen
 Categories:
-    - Xposed
-CurrentVersion: 3.0.6-compose
-CurrentVersionCode: 235
+- Xposed
+CurrentVersion: "26.05"
+CurrentVersionCode: 26050
 Description: |
-    <div align="center">
-    <img src="https://github.com/HowieHChen/XiaomiHelper/blob/master/img/app_icon.png?raw=true" width="25%" alt="app icon"/>
-    <h1>Hyper Helper</h1>
-    <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/LICENSE"><img src="https://img.shields.io/github/license/HowieHChen/XiaomiHelper" alt="GitHub License" /></a>
-    <a href="https://github.com/HowieHChen/XiaomiHelper/stargazers"><img src="https://img.shields.io/github/stars/HowieHChen/XiaomiHelper" alt="GitHub stars" /></a>
-    <a href="https://github.com/HowieHChen/XiaomiHelper/forks"><img src="https://img.shields.io/github/forks/HowieHChen/XiaomiHelper" alt="GitHub forks" /></a></p>
-    <p><a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub release (latest by date)" /></a>
-    <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub Release Date" /></a>
-    <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/dev.lackluster.mihelper/total" alt="GitHub Release Downloads" /></a></p>
-    </div>
-    <h2>介绍 (Introduction/紹介)</h2>
-    <p>HyperOS 的轻量级模块，仅适用于 HyperOS ！<br />
-    自用模块，基于小米 12S Pro 和小米 Pad 6 Pro 开发。<br />
-    主要基于其它模块的功能，少量原创。</p>
-    <p>Lightweight modules for HyperOS only!<br />
-    Self-use module, developed based on Xiaomi 12S Pro and Xiaomi Pad 6 Pro.<br />
-    Most functions are based on other modules, with a small amount of original.</p>
-    <p>HyperOS専用の軽量なモジュールです!
-    Xiaomi 12S ProとXiaomi Pad 6 Proに基づいて開発された自己使用なモジュールです。
-    ほとんどの機能は他のモジュールに基づいており、オリジナルな機能はわずかです。</p>
-    <h2>源代码 (Source code/ソースコード)</h2>
-    <p><a href="https://github.com/HowieHChen/XiaomiHelper">HowieHChen/XiaomiHelper</a></p>
-    <h2>捐赠 (Donate)</h2>
-    <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/DONATE.md">请我喝杯咖啡 (Buy me a coffee)</a></p>
-    <h2>引用 (References/リファレンス)</h2>
-    <h5>GNU General Public License v3.0</h5>
-    <p><a href="https://github.com/YifePlayte/MaxFreeForm">YifePlayte/MaxFreeForm</a><br />
-    <a href="https://github.com/YifePlayte/MaxMiPad">YifePlayte/MaxMiPad</a><br />
-    <a href="https://github.com/zerorooot/HorizontalContentextension">zerorooot/HorizontalContentextension</a><br />
-    <a href="https://github.com/LuckyPray/DexKit">LuckyPray/DexKit</a><br />
-    <a href="https://github.com/Simplicity-Team/WooBoxForMIUI">Simplicity-Team/WooBoxForMIUI</a><br />
-    <a href="https://github.com/HowieHChen/WooBoxForMIUI">HowieHChen/WooBoxForMIUI</a><br />
-    <a href="https://github.com/hosizoraru/WooBoxForMIUI">hosizoraru/WooBoxForMIUI</a><br />
-    <a href="https://github.com/hosizoraru/StarVoyager">hosizoraru/StarVoyager</a></p>
-    <h5>GNU Affero General Public License v3</h5>
-    <p><a href="https://github.com/ReChronoRain/HyperCeiler">ReChronoRain/HyperCeiler</a></p>
-    <h5>GNU Lesser General Public License v2.1</h5>
-    <p><a href="https://github.com/Block-Network/blockmiui">Block-Network/blockmiui</a></p>
-    <h5>Apache-2.0</h5>
-    <p><a href="https://github.com/HighCapable/YukiHookAPI">HighCapable/YukiHookAPI</a><br />
-    <a href="https://github.com/hellokaton/TinyPinyin">hellokaton/TinyPinyin</a></p>
+  <div align="center">
+  <img src="https://github.com/HowieHChen/XiaomiHelper/blob/master/img/app_icon.png?raw=true" width="25%" alt="app icon"/>
+  <h1>Hyper Helper</h1>
+  <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/LICENSE"><img src="https://img.shields.io/github/license/HowieHChen/XiaomiHelper" alt="GitHub License" /></a>
+  <a href="https://github.com/HowieHChen/XiaomiHelper/stargazers"><img src="https://img.shields.io/github/stars/HowieHChen/XiaomiHelper" alt="GitHub stars" /></a>
+  <a href="https://github.com/HowieHChen/XiaomiHelper/forks"><img src="https://img.shields.io/github/forks/HowieHChen/XiaomiHelper" alt="GitHub forks" /></a></p>
+  <p><a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/v/release/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub release (latest by date)" /></a>
+  <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases/latest"><img src="https://img.shields.io/github/release-date/Xposed-Modules-Repo/dev.lackluster.mihelper" alt="GitHub Release Date" /></a>
+  <a href="https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper/releases"><img src="https://img.shields.io/github/downloads/Xposed-Modules-Repo/dev.lackluster.mihelper/total" alt="GitHub Release Downloads" /></a></p>
+  </div>
+  <h2>介绍 (Introduction/紹介)</h2>
+  <p>HyperOS 的轻量级模块，仅适用于 HyperOS ！<br />
+  自用模块，基于小米 12S Pro 和小米 Pad 6 Pro 开发。<br />
+  主要基于其它模块的功能，少量原创。</p>
+  <p>Lightweight modules for HyperOS only!<br />
+  Self-use module, developed based on Xiaomi 12S Pro and Xiaomi Pad 6 Pro.<br />
+  Most functions are based on other modules, with a small amount of original.</p>
+  <p>HyperOS専用の軽量なモジュールです!
+  Xiaomi 12S ProとXiaomi Pad 6 Proに基づいて開発された自己使用なモジュールです。
+  ほとんどの機能は他のモジュールに基づいており、オリジナルな機能はわずかです。</p>
+  <h2>源代码 (Source code/ソースコード)</h2>
+  <p><a href="https://github.com/HowieHChen/XiaomiHelper">HowieHChen/XiaomiHelper</a></p>
+  <h2>捐赠 (Donate)</h2>
+  <p><a href="https://github.com/HowieHChen/XiaomiHelper/blob/master/DONATE.md">请我喝杯咖啡 (Buy me a coffee)</a></p>
+  <h2>引用 (References/リファレンス)</h2>
+  <h5>GNU General Public License v3.0</h5>
+  <p><a href="https://github.com/YifePlayte/MaxFreeForm">YifePlayte/MaxFreeForm</a><br />
+  <a href="https://github.com/YifePlayte/MaxMiPad">YifePlayte/MaxMiPad</a><br />
+  <a href="https://github.com/zerorooot/HorizontalContentextension">zerorooot/HorizontalContentextension</a><br />
+  <a href="https://github.com/LuckyPray/DexKit">LuckyPray/DexKit</a><br />
+  <a href="https://github.com/Simplicity-Team/WooBoxForMIUI">Simplicity-Team/WooBoxForMIUI</a><br />
+  <a href="https://github.com/HowieHChen/WooBoxForMIUI">HowieHChen/WooBoxForMIUI</a><br />
+  <a href="https://github.com/hosizoraru/WooBoxForMIUI">hosizoraru/WooBoxForMIUI</a><br />
+  <a href="https://github.com/hosizoraru/StarVoyager">hosizoraru/StarVoyager</a></p>
+  <h5>GNU Affero General Public License v3</h5>
+  <p><a href="https://github.com/ReChronoRain/HyperCeiler">ReChronoRain/HyperCeiler</a></p>
+  <h5>GNU Lesser General Public License v2.1</h5>
+  <p><a href="https://github.com/Block-Network/blockmiui">Block-Network/blockmiui</a></p>
+  <h5>Apache-2.0</h5>
+  <p><a href="https://github.com/HighCapable/YukiHookAPI">HighCapable/YukiHookAPI</a><br />
+  <a href="https://github.com/hellokaton/TinyPinyin">hellokaton/TinyPinyin</a></p>
 IssueTracker: ""
 Name: Hyper Helper
 SourceCode: https://github.com/Xposed-Modules-Repo/dev.lackluster.mihelper
 Summary: |-
-    我 心 澎 湃 ！！！
-    A module for HyperOS
+  我 心 澎 湃 ！！！
+  A module for HyperOS
 WebSite: ""

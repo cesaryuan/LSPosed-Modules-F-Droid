@@ -1,55 +1,56 @@
 AuthorName: Howard20181
 Categories:
-    - Xposed
-CurrentVersion: "1.5"
-CurrentVersionCode: 76
+- Xposed
+CurrentVersion: 1.7.1
+CurrentVersionCode: 103
 Description: |
-    <h1>Notification Icon Fix</h1>
-    <p><a href="README.zh.md">中文</a></p>
-    <p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>
-    <h2>Supported System</h2>
-    <ul>
-    <li>Android 8.1 ~ AOSP main branch</li>
-    <li>HyperOS</li>
-    <li>MIUI 12.5</li>
-    </ul>
-    <h2>Screenshots</h2>
-    <table>
-    <thead>
-    <tr>
-    <th></th>
-    <th></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td><img src="docs/img/3.jpg" alt="Single Notification" /></td>
-    <td><img src="docs/img/2.jpg" alt="Multiple notifications with the same icon are automatically grouped" /></td>
-    </tr>
-    <tr>
-    <td><img src="docs/img/1.jpg" alt="Multiple notification icons are automatically grouped" /></td>
-    <td><img src="docs/img/4.jpg" alt="Multiple notification icons are automatically grouped" /></td>
-    </tr>
-    </tbody>
-    </table>
-    <h2>Algorithm Details</h2>
-    <ol>
-    <li>Determine and reduce oversized icons to the maximum allowed icon size</li>
-    <li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>
-    <li>(For MIUI) Detect transparent borders and trim icons</li>
-    <li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a <a href="https://github.com/pzcn/Perfect-Icons-Completion-Project">perfect icon</a> (Need to install it yourself)</li>
-    <li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>
-    <li>Calculate the average lumens excluding transparent pixels</li>
-    <li>Quantify the most common color of edge pixels</li>
-    <li>Calculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border</li>
-    <li>Determine whether the icon background is light or dark</li>
-    <li>Use K-means quantizer to extract the primary color of the icon</li>
-    <li>Invert the icon foreground according to the background and remove the border</li>
-    <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
-    <li>Final result output, cache icon, and accent color to WeakHashMap</li>
-    </ol>
+  <h1>Notification Icon Fix</h1>
+  <p><a href="README.zh.md">中文</a></p>
+  <p>A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white notification icons into recognizable icons.</p>
+  <h2>Supported System</h2>
+  <ul>
+  <li>Android 8.1 ~ AOSP main branch</li>
+  <li>HyperOS</li>
+  <li>MIUI 12.5</li>
+  </ul>
+  <h2>Screenshots</h2>
+  <table>
+  <thead>
+  <tr>
+  <th></th>
+  <th></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><img src="docs/img/3.jpg" alt="Single Notification" /></td>
+  <td><img src="docs/img/2.jpg" alt="Multiple notifications with the same icon are automatically grouped" /></td>
+  </tr>
+  <tr>
+  <td><img src="docs/img/1.jpg" alt="Multiple notification icons are automatically grouped" /></td>
+  <td><img src="docs/img/4.jpg" alt="Multiple notification icons are automatically grouped" /></td>
+  </tr>
+  </tbody>
+  </table>
+  <h2>Algorithm Details</h2>
+  <ol>
+  <li>Determine and reduce oversized icons to the maximum allowed icon size</li>
+  <li>Map the icon pixel position to a two-dimensional coordinate system and calculate the geometric center</li>
+  <li>(For MIUI) Detect transparent borders and trim icons</li>
+  <li>(For MIUI and HyperOS) Determine if the icon has a marketing banner and replace it with a <a href="https://github.com/pzcn/Perfect-Icons-Completion-Project">perfect icon</a> (Need to install it yourself)</li>
+  <li>(For HyperOS) Determine if the icon is a weather icon, and replace it with a MAML icon with real-time temperature (there is a race on HyperOS, which shows that the temperature area is blank, which is a system bug)</li>
+  <li>Calculate the average lumens excluding transparent pixels</li>
+  <li>Quantify the most common color of edge pixels</li>
+  <li>Calculate the Euclidean distance between the color of the edge pixel and the most common color obtained above in Lab color space to determine whether the icon has a border</li>
+  <li>Determine whether the icon background is light or dark</li>
+  <li>Use K-means quantizer to extract the primary color of the icon</li>
+  <li>Invert the icon foreground according to the background and remove the border</li>
+  <li>Determine the actual visible area of ​​the icon and remove the blank area based on the visual center</li>
+  <li>Final result output, cache icon, and accent color to WeakHashMap</li>
+  </ol>
 IssueTracker: ""
 Name: Notification Icon Fix / 通知图标修复
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.howard20181.notificationiconfix
-Summary: A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white noti...
+Summary: A module for AOSP, MIUI and HyperOS. Using an algorithm to convert white
+  noti...
 WebSite: ""

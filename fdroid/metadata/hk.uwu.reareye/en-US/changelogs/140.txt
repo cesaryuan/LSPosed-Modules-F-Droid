@@ -1,0 +1,44 @@
+https://github.com/killerprojecte/REAREye/releases/tag/v1.0.6
+### 📝 Changes since v1.0.5
+
+- Merge pull request #14 from killerprojecte/dev
+- docs: update readme
+- chore: use hollow icon instead of app icon on the about screen & use new app icon design
+- feat: wallpaper manage logic improvement & offscreen render with aod off & optimized uninstallation card style
+- feat: wallpaper template editor & optimized badge color on dark mode
+- feat: widget version requirement spec
+- feat: wallpaper installation & store uninstallation tool & improve widget detail display style & conflict widget replace notice
+- feat: notification live update
+- refactor: notification bridge channel
+- fix: incorrect parameter order (还是那句话 开发喝水喝一半发现拿错水壶了 吐回去重新喝)
+- fix: support remove notification hook point for new subscreencenter version (金凡我去你的)
+- refactor: show information in badges & rewrite dialog to fix input position
+- feat: notification route with regex rule & scene setup on rear store
+- feat: notification channel route fix: card display position
+- feat: scene route
+- chore: change update link
+- chore: ultimate design
+- fix: missing required args on update lyric
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- ci: fix sync translation
+- chore: optimized wallpaper management ui & export arm-v8a build only
+- chore: migrate to new agp dsl
+- chore: MMKV DexKit cache
+- refactor: removed DexKit prefs cache logic & improve some hook
+- refactor: DexKit & optimized offscreen preview rendering
+- Merge pull request #11 from killerprojecte/translations_89f6a16fbb964c65a6a6fb2a0ce000af_zh_CN
+- [skip ci] Translate strings.xml in zh_CN
+- chore: change min sdk to 36
+- refactor: move hook point analyze into DexKit feat: wallpaper manager
+- Merge pull request #10 from ghhccghk/dev
+- fix: add background effect and frame time utilities for enhanced UI dynamics
+- fix: add background effect and frame time utilities for enhanced UI dynamics
+- feat: enhance AboutScreen with dynamic logo and background effects
+- fix: try fix ui crash & fix widget template cannot interact some option
+- fix: should not handle smartPanel in wallpaper hook

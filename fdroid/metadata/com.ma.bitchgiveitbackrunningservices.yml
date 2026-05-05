@@ -1,15 +1,15 @@
 AuthorName: sbmatch
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: "1.0"
 CurrentVersionCode: 1
 Description: |
-    <h3>简介</h3>
-    <p>这是一个Xposed模块, 旨在为MIUI设备的开发者选项中恢复被阉割的设置项入口“正在运行的服务”</p>
-    <h2>版本支持</h2>
-    <p>仅支持 MIUI/Hyper 系统</p>
-    <h2>开发者</h2>
-    <p><a href="coolmarket://www.coolapk.com/u/962507">CoolApk@sbmatch</a></p>
+  <h3>简介</h3>
+  <p>这是一个Xposed模块, 旨在为MIUI设备的开发者选项中恢复被阉割的设置项入口“正在运行的服务”</p>
+  <h2>版本支持</h2>
+  <p>仅支持 MIUI/Hyper 系统</p>
+  <h2>开发者</h2>
+  <p><a href="coolmarket://www.coolapk.com/u/962507">CoolApk@sbmatch</a></p>
 IssueTracker: ""
 Name: 恢复正在运行的服务入口
 SourceCode: https://github.com/Xposed-Modules-Repo/com.ma.bitchgiveitbackrunningservices

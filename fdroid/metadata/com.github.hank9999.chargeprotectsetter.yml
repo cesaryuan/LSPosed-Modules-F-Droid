@@ -1,42 +1,43 @@
 AuthorName: hank9999
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: "1.2"
 CurrentVersionCode: 25010301
 Description: |
-    <h1>ChargeProtectSetter</h1>
-    <p>一个自定义全局电池电量保护值的 Xposed 模块</p>
-    <blockquote>
-    <p>[!WARNING]<br />
-    如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />
-    本项目不对任何任何衍生项目负责。</p>
-    </blockquote>
-    <h2>使用条件</h2>
-    <p>目前仅测试了 HyperOS 2, 其他版本可能会有问题<br />
-    在<code>省电与电池-电池保护</code>页面中, 必须有<code>电池健康保护</code>选项</p>
-    <h2>使用方法</h2>
-    <p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>
-    <h2>使用效果</h2>
-    <p>如果配置为 75%<br />
-    全部 80% 的地方都改为 75%<br />
-    充电电量最高到 75%, <code>电池保护</code> 页面 UI 显示 75%, 通知提示显示 75%</p>
-    <h2>配置方法</h2>
-    <p>无配置文件默认为 75%<br />
-    如需调整充电限制, 需要修改 <code>/Android/data/com.miui.securitycenter/files/ChargeProtectSetter/charge_level</code> 文件, 不存在需要创建一个<br />
-    直接填写电量数字, 没有百分号，没有换行<br />
-    比如 调整至 75%, 则文件内容为 <code>75</code><br />
-    为了保持电池安全/健康, 限制范围不低于 15%, 不超过 95%<br />
-    <strong>电池健康的循环范围是 20%-80%, 超出范围导致的一切问题 由使用者自行承担责任, 项目组概不负责</strong></p>
-    <h2>致谢</h2>
-    <ul>
-    <li><a href="https://github.com/HChenX/HookTool">HookTool</a></li>
-    <li><a href="https://github.com/luckypray/DexKit">DexKit</a></li>
-    </ul>
-    <p>特此感谢 焕晨的 <a href="https://github.com/HChenX/AutoSEffSwitch">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>
-    <h2>许可协议</h2>
-    <p><a href="LICENSE">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>
+  <h1>ChargeProtectSetter</h1>
+  <p>一个自定义全局电池电量保护值的 Xposed 模块</p>
+  <blockquote>
+  <p>[!WARNING]<br />
+  如因使用本模块造成的一切后果, 项目组概不负责, 包括但不限于设备损坏、数据丢失等, 使用者需自行承担风险。<br />
+  本项目不对任何任何衍生项目负责。</p>
+  </blockquote>
+  <h2>使用条件</h2>
+  <p>目前仅测试了 HyperOS 2, 其他版本可能会有问题<br />
+  在<code>省电与电池-电池保护</code>页面中, 必须有<code>电池健康保护</code>选项</p>
+  <h2>使用方法</h2>
+  <p>安装 Xposed 模块后, 进入<code>省电与电池-电池保护</code>页面, 启用<code>电池健康保护</code>, 重启作用域或手机即可</p>
+  <h2>使用效果</h2>
+  <p>如果配置为 75%<br />
+  全部 80% 的地方都改为 75%<br />
+  充电电量最高到 75%, <code>电池保护</code> 页面 UI 显示 75%, 通知提示显示 75%</p>
+  <h2>配置方法</h2>
+  <p>无配置文件默认为 75%<br />
+  如需调整充电限制, 需要修改 <code>/Android/data/com.miui.securitycenter/files/ChargeProtectSetter/charge_level</code> 文件, 不存在需要创建一个<br />
+  直接填写电量数字, 没有百分号，没有换行<br />
+  比如 调整至 75%, 则文件内容为 <code>75</code><br />
+  为了保持电池安全/健康, 限制范围不低于 15%, 不超过 95%<br />
+  <strong>电池健康的循环范围是 20%-80%, 超出范围导致的一切问题 由使用者自行承担责任, 项目组概不负责</strong></p>
+  <h2>致谢</h2>
+  <ul>
+  <li><a href="https://github.com/HChenX/HookTool">HookTool</a></li>
+  <li><a href="https://github.com/luckypray/DexKit">DexKit</a></li>
+  </ul>
+  <p>特此感谢 焕晨的 <a href="https://github.com/HChenX/AutoSEffSwitch">AutoSEffSwitch</a> 项目, 这是本人的第一个 Xposed 模块, 整体代码结构参考了 AutoSEffSwitch, 由衷感谢</p>
+  <h2>许可协议</h2>
+  <p><a href="LICENSE">GPL-3.0 (GNU GENERAL PUBLIC LICENSE version 3)</a></p>
 IssueTracker: ""
 Name: ChargeProtectSetter
 SourceCode: https://github.com/Xposed-Modules-Repo/com.github.hank9999.chargeprotectsetter
-Summary: 一个 HyperOS 自定义全局电池充电保护电量设置的 Xposed 模块 | An Xposed module that customises the ...
+Summary: 一个 HyperOS 自定义全局电池充电保护电量设置的 Xposed 模块 | An Xposed module that customises
+  the ...
 WebSite: ""

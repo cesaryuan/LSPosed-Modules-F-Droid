@@ -1,0 +1,4 @@
+### :bug: Bug Fixes
+- [`ef31320`](https://github.com/hxreborn/remember-my-sort/commit/ef31320fd495b2d8ac23b42eff4fbfc6d6ef601c) - prevent `dimId` from being misinterpreted as the sort direction *(commit by @hxreborn)*
+
+Restores sort preferences for users upgrading from v1.x.

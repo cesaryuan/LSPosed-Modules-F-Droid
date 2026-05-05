@@ -1,0 +1,598 @@
+"use strict";
+
+/*
+ * OShin Frida bootstrap template for users running frida-server.
+ *
+ * Usage idea:
+ *   frida -U -f com.android.systemui -l oshin-frida-server-bootstrap.js
+ *
+ * Before use:
+ * 1. Set CONFIG.moduleApkPath to the installed OShin APK path.
+ * 2. Attach to a target app process, not the OShin app process.
+ * 3. Expect method hooks to be the first path to validate.
+ *
+ * Current limitations:
+ * - Constructor/class-initializer coverage is still incomplete.
+ * - This is a template and may need target-specific fixes.
+ * - Method overload resolution depends on JVM descriptors.
+ */
+
+const CONFIG = {
+  modulePackageName: "com.suqi8.oshin",
+  moduleApkPath: "/data/app/~~TODO==/com.suqi8.oshin-*/base.apk",
+  moduleEntryClass: "com.suqi8.oshin.hook.frida.OShinFridaBootstrap",
+  transportInterface: "com.highcapable.yukihookapi.hook.runtime.FridaTransport",
+};
+
+const XPOSED_PRIORITY_HIGHEST = 2147483647;
+const XPOSED_PRIORITY_DEFAULT = 50;
+const XPOSED_PRIORITY_LOWEST = -2147483648;
+
+const state = {
+  bootstrap: null,
+  hooks: new Map(),
+  memberHooks: new Map(),
+  nextHookOrder: 0,
+  moduleFactory: null,
+  targetFactory: null,
+  classFactoryCache: new Map(),
+  File: null,
+};
+
+Java.perform(() => {
+  const ActivityThread = Java.use("android.app.ActivityThread");
+  const DexClassLoader = Java.use("dalvik.system.DexClassLoader");
+  const File = Java.use("java.io.File");
+  state.File = File;
+  const context = ActivityThread.currentApplication().getApplicationContext();
+  const appInfo = context.getApplicationInfo();
+  const processName = appInfo.processName.value || appInfo.packageName.value;
+  const appClassLoader = context.getClassLoader();
+  const optimizedDir = context.getCodeCacheDir().getAbsolutePath();
+
+  const moduleApkPath = resolveModuleApkPath(context, CONFIG);
+  const moduleLoader = DexClassLoader.$new(moduleApkPath, optimizedDir, null, appClassLoader);
+  const moduleFactory = Java.ClassFactory.get(moduleLoader);
+  const targetFactory = Java.ClassFactory.get(appClassLoader);
+  state.moduleFactory = moduleFactory;
+  state.targetFactory = targetFactory;
+
+  const FridaTransport = moduleFactory.use(CONFIG.transportInterface);
+  const Bootstrap = moduleFactory.use(CONFIG.moduleEntryClass);
+
+  const TransportImpl = moduleFactory.registerClass({
+    name: "com.suqi8.oshin.frida.BridgeTransport",
+    implements: [FridaTransport],
+    methods: {
+      request(method, payload) {
+        return onTransportRequest(method, payload, moduleFactory);
+      }
+    }
+  });
+
+  state.bootstrap = Bootstrap.$new(TransportImpl.$new());
+  state.bootstrap.start(
+    appInfo.packageName.value,
+    processName,
+    appClassLoader,
+    appInfo,
+    processName === "system_server"
+  );
+
+  console.log("[OShin] Frida bootstrap started in " + processName);
+});
+
+function onTransportRequest(method, payload, moduleFactory) {
+  const name = method.toString();
+  const request = mapToObject(payload);
+
+  try {
+    switch (name) {
+      case "installhook":
+        return installHook(request, moduleFactory);
+      case "removehook":
+        return removeHook(request);
+      case "invokeoriginal":
+        return invokeOriginal(request);
+      case "invokechain":
+        return invokeChain(request);
+      case "invokespecial":
+        return invokeSpecial(request);
+      case "newinstanceoriginal":
+        return newInstanceOriginal(request);
+      case "newinstancechain":
+        return newInstanceChain(request);
+      case "newinstancespecial":
+        return newInstanceSpecial(request);
+      case "deoptimizemember":
+        return false;
+      case "log":
+        if (request.message) console.log("[OShin] " + request.message);
+        if (request.throwable) console.log(request.throwable);
+        return null;
+      default:
+        throw new Error("Unknown transport method: " + name);
+    }
+  } catch (error) {
+    console.log("[OShin] " + name + " failed for " + describeRequest(request) + ": " + describeError(error));
+    throw error;
+  }
+}
+
+function installHook(request, moduleFactory) {
+  const overload = resolveOverload(request, state.targetFactory);
+  const previousImplementation = overload.implementation;
+  const classWrapper = resolveClass(request, state.targetFactory);
+  const memberKey = buildMemberKey(request);
+  let memberHookState = state.memberHooks.get(memberKey);
+
+  if (memberHookState === undefined) {
+    memberHookState = {
+      overload,
+      classWrapper,
+      baseImplementation: previousImplementation,
+      hookIds: [],
+    };
+    state.memberHooks.set(memberKey, memberHookState);
+  }
+
+  if (state.hooks.has(request.hookId)) {
+    removeHook({ hookId: request.hookId });
+  }
+
+  const implementation = function () {
+    const args = Array.prototype.slice.call(arguments);
+    return state.bootstrap.dispatchInvocation(
+      request.hookId,
+      request.isStatic ? null : this,
+      Java.array("java.lang.Object", args)
+    );
+  };
+
+  const hookIds = memberHookState.hookIds;
+  const previousHookId = hookIds.length > 0 ? hookIds[hookIds.length - 1] : null;
+  const previousHook = previousHookId !== null ? state.hooks.get(previousHookId) : null;
+
+  overload.implementation = implementation;
+  state.hooks.set(request.hookId, {
+    request,
+    memberKey,
+    classWrapper,
+    overload,
+    implementation,
+    previousImplementation: previousHook ? previousHook.implementation : memberHookState.baseImplementation,
+    priorityValue: normalizePriorityValue(request.priority),
+    installOrder: state.nextHookOrder++,
+  });
+  hookIds.push(request.hookId);
+  rebuildMemberHookState(memberHookState);
+  return null;
+}
+
+function removeHook(request) {
+  const hook = state.hooks.get(request.hookId);
+  if (hook === undefined) return false;
+  const memberHookState = state.memberHooks.get(hook.memberKey);
+  if (memberHookState === undefined) {
+    hook.overload.implementation = hook.previousImplementation;
+    state.hooks.delete(request.hookId);
+    return true;
+  }
+
+  const filteredHookIds = [];
+  for (let i = 0; i < memberHookState.hookIds.length; i++) {
+    const hookId = memberHookState.hookIds[i];
+    if (hookId !== request.hookId) filteredHookIds.push(hookId);
+  }
+
+  if (filteredHookIds.length === 0) {
+    memberHookState.overload.implementation = memberHookState.baseImplementation;
+    state.memberHooks.delete(hook.memberKey);
+    state.hooks.delete(request.hookId);
+    return true;
+  }
+
+  memberHookState.hookIds = filteredHookIds;
+  state.hooks.delete(request.hookId);
+  rebuildMemberHookState(memberHookState);
+  return true;
+}
+
+function invokeOriginal(request) {
+  return invokeResolvedMember(request, request.instance, request.args);
+}
+
+function invokeChain(request) {
+  const memberHookState = state.memberHooks.get(buildMemberKey(request));
+  if (memberHookState !== undefined) {
+    return invokeMemberHookChain(
+      request,
+      memberHookState,
+      request.instance,
+      request.args,
+      request.hookId || null,
+      normalizeMaxPriority(request.maxPriority)
+    );
+  }
+  const hook = request.hookId ? state.hooks.get(request.hookId) : null;
+  if (hook !== null && hook !== undefined) {
+    return invokeHookChainImplementation(hook, request.instance, request.args);
+  }
+  if (request.kind === "constructor") {
+    return instantiateConstructor(request, request.declaringClass, request.args, false);
+  }
+  return invokeResolvedMember(request, request.instance, request.args);
+}
+
+function invokeSpecial(request) {
+  return invokeResolvedMember(request, request.instance, request.args);
+}
+
+function newInstanceOriginal(request) {
+  return instantiateConstructor(request, request.declaringClass, request.args, true);
+}
+
+function newInstanceChain(request) {
+  return instantiateConstructor(request, request.declaringClass, request.args, false);
+}
+
+function newInstanceSpecial(request) {
+  const targetClassName = request.subClass || request.declaringClass;
+  return instantiateConstructor(request, targetClassName, request.args, true);
+}
+
+function invokeStoredOverload(hook, instance, args) {
+  const jsArgs = listToArray(args);
+  const receiver = hook.request.isStatic ? hook.classWrapper : instance;
+  if (hook.request.kind === "constructor") {
+    if (instance == null) {
+      throw new Error("Constructor invocation requires a receiver instance");
+    }
+    return hook.overload.call(instance, ...jsArgs);
+  }
+  return hook.overload.call(receiver, ...jsArgs);
+}
+
+function invokeHookChainImplementation(hook, instance, args) {
+  const jsArgs = listToArray(args);
+  const receiver = hook.request.isStatic ? hook.classWrapper : instance;
+  if (hook.request.kind === "constructor") {
+    if (instance == null) {
+      throw new Error("Constructor invocation requires a receiver instance");
+    }
+    if (hook.previousImplementation === null || hook.previousImplementation === undefined) {
+      return hook.overload.call(instance, ...jsArgs);
+    }
+    return hook.previousImplementation.call(instance, ...jsArgs);
+  }
+  if (hook.previousImplementation === null || hook.previousImplementation === undefined) {
+    return hook.overload.call(receiver, ...jsArgs);
+  }
+  return hook.previousImplementation.call(receiver, ...jsArgs);
+}
+
+function invokeResolvedMember(request, instance, args) {
+  const jsArgs = listToArray(args);
+  const hook = request.hookId ? state.hooks.get(request.hookId) : null;
+  const overload = hook ? hook.overload : resolveOverload(request, state.targetFactory);
+  const receiver = request.isStatic
+    ? (hook ? hook.classWrapper : resolveClass(request, state.targetFactory))
+    : instance;
+
+  if (request.kind === "constructor") {
+    if (instance == null) {
+      throw new Error("Constructor invocation requires a receiver instance");
+    }
+    return overload.call(instance, ...jsArgs);
+  }
+  return overload.call(receiver, ...jsArgs);
+}
+
+function requireHook(hookId) {
+  const hook = state.hooks.get(hookId);
+  if (hook === undefined) throw new Error("Unknown hook id: " + hookId);
+  return hook;
+}
+
+function resolveOverload(request, moduleFactory) {
+  const clazz = resolveClass(request, moduleFactory);
+  const argumentTypes = parseArgumentTypes(request.descriptor);
+  if (request.kind === "constructor") {
+    return clazz.$init.overload.apply(clazz.$init, argumentTypes);
+  }
+  if (clazz[request.memberName] === undefined) {
+    throw new Error("Member not found: " + request.memberName + " on " + request.declaringClass);
+  }
+  return clazz[request.memberName].overload.apply(clazz[request.memberName], argumentTypes);
+}
+
+function resolveConstructorAllocator(request, classFactory, classNameOverride) {
+  const className = classNameOverride || request.declaringClass;
+  const clazz = resolveClassByName(className, classFactory);
+  const argumentTypes = parseArgumentTypes(request.descriptor);
+  if (clazz.$new === undefined) {
+    throw new Error("Constructor allocator not found on " + className);
+  }
+  return {
+    clazz,
+    overload: clazz.$new.overload.apply(clazz.$new, argumentTypes),
+  };
+}
+
+function resolveClass(request, classFactory) {
+  return resolveClassByName(request.declaringClass, classFactory);
+}
+
+function resolveClassByName(className, classFactory) {
+  const cacheKey = className;
+  const cached = state.classFactoryCache.get(cacheKey);
+  if (cached !== undefined) return cached.use(className);
+
+  const attempts = [
+    () => classFactory.use(className),
+    () => Java.use(className),
+  ];
+
+  for (let i = 0; i < attempts.length; i++) {
+    try {
+      const clazz = attempts[i]();
+      state.classFactoryCache.set(cacheKey, clazz.class.factory);
+      return clazz;
+    } catch (_) {
+    }
+  }
+
+  const loaders = Java.enumerateClassLoadersSync();
+  for (let i = 0; i < loaders.length; i++) {
+    try {
+      const loaderFactory = Java.ClassFactory.get(loaders[i]);
+      const clazz = loaderFactory.use(className);
+      state.classFactoryCache.set(cacheKey, loaderFactory);
+      return clazz;
+    } catch (_) {
+    }
+  }
+
+  throw new Error("Unable to resolve class: " + className);
+}
+
+function parseArgumentTypes(descriptor) {
+  const end = descriptor.indexOf(")");
+  const argsDescriptor = descriptor.substring(1, end);
+  const result = [];
+  let i = 0;
+
+  while (i < argsDescriptor.length) {
+    const [typeName, nextIndex] = readType(argsDescriptor, i);
+    result.push(typeName);
+    i = nextIndex;
+  }
+  return result;
+}
+
+function readType(descriptor, start) {
+  const prefix = descriptor[start];
+  switch (prefix) {
+    case "Z": return ["boolean", start + 1];
+    case "B": return ["byte", start + 1];
+    case "C": return ["char", start + 1];
+    case "S": return ["short", start + 1];
+    case "I": return ["int", start + 1];
+    case "J": return ["long", start + 1];
+    case "F": return ["float", start + 1];
+    case "D": return ["double", start + 1];
+    case "V": return ["void", start + 1];
+    case "L": {
+      const end = descriptor.indexOf(";", start);
+      return [descriptor.substring(start + 1, end).replace(/\//g, "."), end + 1];
+    }
+    case "[": {
+      const [component, next] = readType(descriptor, start + 1);
+      if (component.length === 1) return ["[" + component, next];
+      if (component.indexOf("[") === 0) return ["[" + component, next];
+      if (isPrimitiveName(component)) return ["[" + primitiveNameToDescriptor(component), next];
+      return ["[L" + component + ";", next];
+    }
+    default:
+      throw new Error("Unsupported descriptor: " + descriptor.substring(start));
+  }
+}
+
+function isPrimitiveName(name) {
+  return [
+    "boolean",
+    "byte",
+    "char",
+    "short",
+    "int",
+    "long",
+    "float",
+    "double",
+    "void"
+  ].indexOf(name) !== -1;
+}
+
+function primitiveNameToDescriptor(name) {
+  switch (name) {
+    case "boolean": return "Z";
+    case "byte": return "B";
+    case "char": return "C";
+    case "short": return "S";
+    case "int": return "I";
+    case "long": return "J";
+    case "float": return "F";
+    case "double": return "D";
+    case "void": return "V";
+    default: throw new Error("Unsupported primitive: " + name);
+  }
+}
+
+function mapToObject(map) {
+  const result = {};
+  const iterator = map.entrySet().iterator();
+  while (iterator.hasNext()) {
+    const entry = iterator.next();
+    result[entry.getKey().toString()] = unwrapJavaValue(entry.getValue());
+  }
+  return result;
+}
+
+function unwrapJavaValue(value) {
+  if (value === null || value === undefined) return null;
+  if (Java.available && Java.cast) {
+    try {
+      const List = Java.use("java.util.List");
+      if (List.class.isInstance(value)) return listToArray(value);
+    } catch (_) {
+    }
+  }
+  return value;
+}
+
+function listToArray(list) {
+  if (list === null || list === undefined) return [];
+  if (Array.isArray(list)) return list;
+  const result = [];
+  const size = list.size();
+  for (let i = 0; i < size; i++) result.push(list.get(i));
+  return result;
+}
+
+function resolveModuleApkPath(context, config) {
+  const packageManager = context.getPackageManager();
+  try {
+    const installedInfo = packageManager.getApplicationInfo(config.modulePackageName, 0);
+    const sourceDir = installedInfo.sourceDir.value || installedInfo.sourceDir;
+    if (sourceDir) return sourceDir.toString();
+  } catch (_) {
+  }
+
+  const pattern = config.moduleApkPath;
+  if (pattern.indexOf("*") === -1) return pattern;
+  const searchRoot = pattern.substring(0, pattern.indexOf("*"));
+  const parentPath = searchRoot.substring(0, searchRoot.lastIndexOf("/"));
+  const File = state.File;
+  const root = new File(parentPath);
+  if (!root.exists()) return pattern;
+  const candidates = root.listFiles();
+  if (candidates === null) return pattern;
+  for (let i = 0; i < candidates.length; i++) {
+    const file = candidates[i];
+    const path = file.getAbsolutePath() + "/base.apk";
+    if (wildcardMatch(pattern, path)) return path;
+  }
+  return pattern;
+}
+
+function wildcardMatch(pattern, text) {
+  const regex = new RegExp("^" + pattern.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*") + "$");
+  return regex.test(text);
+}
+
+function instantiateConstructor(request, className, args, useOriginal) {
+  const jsArgs = listToArray(args);
+  const allocator = resolveConstructorAllocator(request, state.targetFactory, className);
+  if (useOriginal) {
+    return allocator.overload.call(allocator.clazz, ...jsArgs);
+  }
+  return allocator.overload.apply(allocator.clazz, jsArgs);
+}
+
+function rebuildMemberHookState(memberHookState) {
+  const orderedHookIds = memberHookState.hookIds
+    .filter((hookId) => state.hooks.has(hookId))
+    .sort(compareHookOrder);
+
+  let previousImplementation = memberHookState.baseImplementation;
+  for (let i = orderedHookIds.length - 1; i >= 0; i--) {
+    const activeHook = requireHook(orderedHookIds[i]);
+    activeHook.previousImplementation = previousImplementation;
+    previousImplementation = activeHook.implementation;
+  }
+
+  memberHookState.hookIds = orderedHookIds;
+  memberHookState.overload.implementation = previousImplementation;
+}
+
+function compareHookOrder(leftHookId, rightHookId) {
+  const left = requireHook(leftHookId);
+  const right = requireHook(rightHookId);
+  if (left.priorityValue !== right.priorityValue) return right.priorityValue - left.priorityValue;
+  return left.installOrder - right.installOrder;
+}
+
+function invokeMemberHookChain(request, memberHookState, instance, args, currentHookId, maxPriorityValue) {
+  const orderedHookIds = memberHookState.hookIds;
+  let startIndex = 0;
+
+  if (currentHookId !== null) {
+    const currentIndex = orderedHookIds.indexOf(currentHookId);
+    if (currentIndex !== -1) startIndex = currentIndex + 1;
+  }
+
+  for (let i = startIndex; i < orderedHookIds.length; i++) {
+    const hook = requireHook(orderedHookIds[i]);
+    if (hook.priorityValue <= maxPriorityValue) {
+      return invokeHookImplementation(hook, instance, args);
+    }
+  }
+
+  if (request.kind === "constructor" && currentHookId === null) {
+    return instantiateConstructor(request, request.declaringClass, args, false);
+  }
+  return invokeResolvedMember(request, instance, args);
+}
+
+function invokeHookImplementation(hook, instance, args) {
+  const jsArgs = listToArray(args);
+  const receiver = hook.request.isStatic ? hook.classWrapper : instance;
+  if (hook.request.kind === "constructor") {
+    if (instance == null) {
+      throw new Error("Constructor invocation requires a receiver instance");
+    }
+    return hook.implementation.apply(instance, jsArgs);
+  }
+  return hook.implementation.apply(receiver, jsArgs);
+}
+
+function normalizePriorityValue(priority) {
+  if (typeof priority === "number") return normalizeMaxPriority(priority);
+  switch ((priority || "DEFAULT").toUpperCase()) {
+    case "HIGHEST": return XPOSED_PRIORITY_HIGHEST;
+    case "DEFAULT": return XPOSED_PRIORITY_DEFAULT;
+    case "LOWEST": return XPOSED_PRIORITY_LOWEST;
+    default: return XPOSED_PRIORITY_DEFAULT;
+  }
+}
+
+function normalizeMaxPriority(maxPriority) {
+  if (maxPriority === null || maxPriority === undefined) return XPOSED_PRIORITY_HIGHEST;
+  if (typeof maxPriority === "string") return normalizePriorityValue(maxPriority);
+  switch (maxPriority) {
+    case 2: return XPOSED_PRIORITY_HIGHEST;
+    case 1: return XPOSED_PRIORITY_LOWEST;
+    case 0: return XPOSED_PRIORITY_DEFAULT;
+    default: return maxPriority;
+  }
+}
+
+function buildMemberKey(request) {
+  return [
+    request.kind || "member",
+    request.declaringClass || "",
+    request.memberName || "",
+    request.descriptor || "",
+  ].join("|");
+}
+
+function describeRequest(request) {
+  if (!request) return "<unknown>";
+  return (request.declaringClass || "<class>") + "#" + (request.memberName || "<member>") + (request.descriptor || "");
+}
+
+function describeError(error) {
+  if (error === null || error === undefined) return "<unknown>";
+  if (error.stack) return error.stack.toString();
+  if (error.message) return error.message.toString();
+  return error.toString();
+}

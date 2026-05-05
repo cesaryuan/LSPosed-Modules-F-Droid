@@ -1,0 +1,13 @@
+### 此版本需要Shell授权(Shizuku/Sui)
+### 之后会更新支持Root权限的版本，可以选择不更新
+解决了宿主应用无权限时无法正确保存的问题
+鬼知道我经历了多少版本
+没什么新功能，反而倒退了
+代码是回滚到3.5.12重写的，所以那些新的抓取方式都没有了
+- 重写保存逻辑
+  - 图片会被缓存在[宿主私有路径]/cache/PicCatcher
+  - 之后使用shell命令转存到Android/data/com.evo.piccatcher/files/Pictures/[宿主包名] (内部位置)
+  - 或者外部位置Pictures/PicCatcher/[宿主包名]
+- 需要shell授权(Shizuku/Sui)
+
+此保存方案极其可靠

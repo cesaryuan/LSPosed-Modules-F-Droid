@@ -1,0 +1,7 @@
+#### 改进
+- 引入自定义签名级权限 (Signature Permission)，System UI 仅响应模块自身发出的合法唤醒广播，防止第三方应用恶意触发。
+- 隐藏桌面启动器图标，通过 LSPosed 或 Vector 管理器的执行图标唤醒延长解锁页面。
+
+#### Changed
+- Implemented custom signature-level permission. System UI now only responds to authorized wake-up broadcasts sent by the module itself, preventing malicious invocations by third-party apps.
+- Hidden launcher icon: the app icon is no longer displayed on the launcher. You can wake the Extend Unlock page via the execution icon in LSPosed or Vector manager.

@@ -1,0 +1,19 @@
+New:
+
+* Change task timeout to prevent it from being removed in task switcher
+* Android 16 (ZUXOS 1.5) support
+
+Fix:
+
+* Unable to disable autorun in PRC ROM
+
+---
+
+新增：
+
+* 修改后台任务超时，以防止其被自动清除
+* Android 16 (ZUXOS 1.5) 支持
+
+修复：
+
+* 在中国版 ROM 中，启用“默认允许应用自启”后，无法为特定应用单独禁止

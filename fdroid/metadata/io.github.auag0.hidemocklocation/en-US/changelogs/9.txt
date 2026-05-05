@@ -1,0 +1,17 @@
+### Changes
+* **Fully migrated to libxposed API 101**
+* **Fixed a bug related to hooking the Settings class**
+* **Update Icon!**
+* **Add support for hooking SettingsProvider**
+* **Add AppOpsManager hooks**
+* **Normalize Location providers**
+* **General refactoring and code improvements**
+
+> **Updating to this version is highly recommended.**
+> For optimal results, it is recommended to enable the module for System Framework and com.android.providers.settings.
+
+### Compatibility Note
+* **v2.. supports Xposed API version 101 or higher.**
+* **If you are using API version 100 or lower, please use [v1.2.2](https://github.com/auag0/HideMockLocation/releases/tag/v1.2.2).**
+
+**Full Changelog**: https://github.com/auag0/HideMockLocation/compare/v1.2.2...v2.2.1

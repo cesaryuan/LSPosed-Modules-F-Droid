@@ -1,0 +1,42 @@
+## What's Changed
+
+
+
+### Added
+
+- [`f3e9022`](https://github.com/hxreborn/amznkiller/commit/f3e902273db5b8ef21b7c8f5d1e24202a80f0d00) - Add hide launcher icon setting by @hxreborn
+
+
+### Fixed
+
+- [`ab6c401`](https://github.com/hxreborn/amznkiller/commit/ab6c4010c6b7422d7ef86cf13406e8ed71993293) - *(hooks)* Gate setSystemBarsAppearance on API 30+ by @hxreborn
+
+- [`82c38b1`](https://github.com/hxreborn/amznkiller/commit/82c38b11e59759624d0c787986de4c8d557e3afe) - *(manifest)* Set fullBackupContent for pre-Android 12 by @hxreborn
+
+- [`725317a`](https://github.com/hxreborn/amznkiller/commit/725317a505f87f3d1dc6785d1609c2e6c6b0901c) - *(ui)* Add monochrome adaptive icon layer by @hxreborn
+
+
+### Changed
+
+- [`61f6ff0`](https://github.com/hxreborn/amznkiller/commit/61f6ff055a60cabb60a296b62823250c8231c8df) - *(hooks)* Use Color.toDrawable ktx by @hxreborn
+
+- [`1f0d3e9`](https://github.com/hxreborn/amznkiller/commit/1f0d3e97df0facebe7c705c66b14cfc94398b4f3) - *(prefs)* Drop unused PrefSpec.reset by @hxreborn
+
+- [`472b555`](https://github.com/hxreborn/amznkiller/commit/472b555c3c1a52a9e06ba9ff9a0eef996c4ec6a2) - *(selectors)* Drop unused error field on MergeResult.Partial by @hxreborn
+
+- [`1ff31fb`](https://github.com/hxreborn/amznkiller/commit/1ff31fb87cf12937cece16bb3c45908fe86643d4) - *(strings)* Convert count strings to plurals by @hxreborn
+
+- [`5577f58`](https://github.com/hxreborn/amznkiller/commit/5577f583455383f881a50389a981882119735638) - *(theme)* Make EXPANDED_TITLE_MAX_LINES const by @hxreborn
+
+- [`b054615`](https://github.com/hxreborn/amznkiller/commit/b054615e66f2c0d857a6262693b0aa7b5dd0d537) - *(ui)* Drop redundant guards in UpdatesCard status when by @hxreborn
+
+- [`1783c4c`](https://github.com/hxreborn/amznkiller/commit/1783c4c7ee051a91ab65aa779f98c77539188d94) - *(ui)* Use LocalResources for tagline lookup by @hxreborn
+
+
+### Other
+
+- [`a3d9b51`](https://github.com/hxreborn/amznkiller/commit/a3d9b5112f91164bd982149a5e7dbabf02084116) - *(strings)* Drop unused string resources by @hxreborn
+
+- [`e540514`](https://github.com/hxreborn/amznkiller/commit/e540514044bf3d023c14d5aa7c936938febe181a) - Release v2.1.0 by @hxreborn
+
+

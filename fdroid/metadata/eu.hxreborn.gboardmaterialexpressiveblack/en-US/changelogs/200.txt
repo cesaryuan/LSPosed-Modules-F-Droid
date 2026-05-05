@@ -1,0 +1,11 @@
+### :boom: BREAKING CHANGES
+- due to [`103d427`](https://github.com/hxreborn/gboard-material-expressive-black/commit/103d427e4eccd28d8c97334714210e33564dde58) - migrate to libxposed API 101 *(PR [hxreborn/gboard-material-expressive-black#1](https://github.com/hxreborn/gboard-material-expressive-black/pull/1) by @hxreborn)*:
+
+	Migrates from libxposed API 100 to 101. API 100 will no longer be supported once 101 is officially released. An LSPosed Manager with API 101 support may not be publicly available yet.
+
+
+### :sparkles: New Features
+- [`103d427`](https://github.com/hxreborn/gboard-material-expressive-black/commit/103d427e4eccd28d8c97334714210e33564dde58) - migrate to libxposed API 101 *(PR [hxreborn/gboard-material-expressive-black#1](https://github.com/hxreborn/gboard-material-expressive-black/pull/1) by @hxreborn)*
+
+### :bug: Bug Fixes
+- [`88820e6`](https://github.com/hxreborn/gboard-material-expressive-black/commit/88820e6bc55e930b5a4ce8f47f2e910e1d6fa2d7) - update release workflow for submodules and update README *(commit by @hxreborn)*

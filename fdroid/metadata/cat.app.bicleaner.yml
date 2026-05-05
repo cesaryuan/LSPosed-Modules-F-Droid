@@ -1,40 +1,40 @@
-AuthorName: Tile-X
+AuthorName: MeowBug
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: 1.0.1
 CurrentVersionCode: 1000100
 Description: |
-    <h1>Bilibili 净化器 / BiCleaner</h1>
-    <p>这是一个基于 Lsposed 的模块，可以帮助你屏蔽一些评论，拦截一些你不想看到的视频。</p>
-    <h2>开发列表</h2>
-    <ul>
-    <li><input type="checkbox" checked="" disabled="" /> 根据等级过滤评论</li>
-    <li><input type="checkbox" checked="" disabled="" /> 根据正则表达式规则(使用contains)过滤评论</li>
-    <li><input type="checkbox" disabled="" /> <del>根据空间成分屏蔽评论（查成分）</del></li>
-    <li><input type="checkbox" disabled="" /> 根据视频类型屏蔽视频</li>
-    <li><input type="checkbox" disabled="" /> 根据标题屏蔽视频</li>
-    <li><input type="checkbox" disabled="" /> 根据视频Tag过滤视频</li>
-    </ul>
-    <blockquote>
-    <p>除此之外的功能随缘开发</p>
-    </blockquote>
-    <h1>支持的版本 / Support</h1>
-    <p>这个没有进行详细测试，版本高于下面的应该都支持，低于的就不太确定了，可以试试。</p>
-    <blockquote>
-    <p>哔哩哔哩 8.9.0(8090300)</p>
-    </blockquote>
-    <blockquote>
-    <p>哔哩哔哩 国际版 3.19.2(775060)</p>
-    </blockquote>
-    <blockquote>
-    <p>哔哩哔哩 HD 1.46.2(1462100)</p>
-    </blockquote>
-    <h1>项目地址 / Link</h1>
-    <p>Github - <a href="https://github.com/Tile-X/BiCleaner">https://github.com/Tile-X/BiCleaner</a></p>
+  <h1>Bilibili 净化器 / BiCleaner</h1>
+  <p>这是一个基于 Lsposed 的模块，可以帮助你屏蔽一些评论，拦截一些你不想看到的视频。</p>
+  <h2>开发列表</h2>
+  <ul>
+  <li><input type="checkbox" checked="" disabled="" /> 根据等级过滤评论</li>
+  <li><input type="checkbox" checked="" disabled="" /> 根据正则表达式规则(使用contains)过滤评论</li>
+  <li><input type="checkbox" disabled="" /> <del>根据空间成分屏蔽评论（查成分）</del></li>
+  <li><input type="checkbox" disabled="" /> 根据视频类型屏蔽视频</li>
+  <li><input type="checkbox" disabled="" /> 根据标题屏蔽视频</li>
+  <li><input type="checkbox" disabled="" /> 根据视频Tag过滤视频</li>
+  </ul>
+  <blockquote>
+  <p>除此之外的功能随缘开发</p>
+  </blockquote>
+  <h1>支持的版本 / Support</h1>
+  <p>这个没有进行详细测试，版本高于下面的应该都支持，低于的就不太确定了，可以试试。</p>
+  <blockquote>
+  <p>哔哩哔哩 8.9.0(8090300)</p>
+  </blockquote>
+  <blockquote>
+  <p>哔哩哔哩 国际版 3.19.2(775060)</p>
+  </blockquote>
+  <blockquote>
+  <p>哔哩哔哩 HD 1.46.2(1462100)</p>
+  </blockquote>
+  <h1>项目地址 / Link</h1>
+  <p>Github - <a href="https://github.com/Tile-X/BiCleaner">https://github.com/Tile-X/BiCleaner</a></p>
 IssueTracker: ""
 Name: Bilibili净化器 / BiCleaner
 SourceCode: https://github.com/Xposed-Modules-Repo/cat.app.bicleaner
 Summary: |-
-    净化你的B站评论区和主页推荐 OvO
-    Clean your bilibili, remove useless replies and videos
+  净化你的B站评论区和主页推荐 OvO
+  Clean your bilibili, remove useless replies and videos
 WebSite: ""

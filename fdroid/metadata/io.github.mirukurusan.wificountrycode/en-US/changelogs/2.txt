@@ -1,0 +1,2 @@
+- Fix "HookEntry class not found" error in Release builds after activation in Xposed Manager
+The R8 code shrinker failed to identify the reflection entry point declared in xposed_init, incorrectly stripping HookEntry and all associated hook and configuration classes as unused code. Added ProGuard keep rules to ensure these classes are preserved in Release builds.

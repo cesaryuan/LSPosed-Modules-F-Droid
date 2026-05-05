@@ -1,13 +1,27 @@
 AuthorName: HChenX
 Categories:
-    - Xposed
-CurrentVersion: "4.0"
-CurrentVersionCode: 2025030201
-Description: "<div align=\"center\">\n<h1>ClipboardList</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/ClipboardList?style=flat\" alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/ClipboardList/total\" alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/ClipboardList\" alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/v/release/HChenX/ClipboardList\" alt=\"GitHub release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img src=\"https://img.shields.io/github/release-date/HChenX/ClipboardList\" alt=\"GitHub Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/ClipboardList?style=flat\" alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\" alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>解除小米常用语/剪贴板限制</p>\n</div>\n<hr />\n<h2>✨ 模块功能</h2>\n<ol>\n<li>解除常用语剪贴板超时自动删除的限制。</li>\n<li>解除常用语剪贴板条目限制。</li>\n<li>解除常用语剪贴板字数限制。（原限制5000字）</li>\n<li>解除常用语可添加条数限制。</li>\n<li>解除常用语可添加条目字数限制。</li>\n<li>解除全面屏键盘限制。（附加）</li>\n<li>解除搜狗输入法/小米版剪贴板条数限制。（附加）</li>\n</ol>\n<hr />\n<h2>\U0001F6E0 使用须知</h2>\n<ul>\n<li>作用域自行勾选支持全面屏优化的输入法并重启即可。</li>\n<li>解除的不是输入法自己的剪贴板的限制！！！</li>\n</ul>\n<hr />\n<h2>\U0001F4E2 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠ <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>\U0001F389 结尾</h2>\n<p>\U0001F496 <strong>感谢你的支持，Enjoy your day!</strong> \U0001F680</p>\n"
+- Xposed
+CurrentVersion: "4.3"
+CurrentVersionCode: 2025072300
+Description: "<div align=\"center\">\n<h1>ClipboardList</h1>\n<p><img src=\"https://img.shields.io/github/stars/HChenX/ClipboardList?style=flat\"
+  alt=\"stars\" />\n<img src=\"https://img.shields.io/github/downloads/HChenX/ClipboardList/total\"
+  alt=\"downloads\" />\n<img src=\"https://img.shields.io/github/repo-size/HChenX/ClipboardList\"
+  alt=\"Github repo size\" />\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img
+  src=\"https://img.shields.io/github/v/release/HChenX/ClipboardList\" alt=\"GitHub
+  release (latest by date)\" /></a>\n<a href=\"https://github.com/HChenX/ClipboardList/releases\"><img
+  src=\"https://img.shields.io/github/release-date/HChenX/ClipboardList\" alt=\"GitHub
+  Release Date\" /></a>\n<img src=\"https://img.shields.io/github/last-commit/HChenX/ClipboardList?style=flat\"
+  alt=\"last commit\" />\n<img src=\"https://img.shields.io/badge/language-java-purple\"
+  alt=\"language\" /></p>\n<p><b><a href=\"README-en.md\">English</a> | <a href=\"README.md\">简体中文</a></b></p>\n<p>解除小米常用语/剪贴板限制</p>\n</div>\n<hr
+  />\n<h2>✨ 模块功能</h2>\n<ol>\n<li>解除常用语剪贴板超时自动删除的限制。</li>\n<li>解除常用语剪贴板条目限制。</li>\n<li>解除常用语剪贴板字数限制。（原限制5000字）</li>\n<li>解除常用语可添加条数限制。</li>\n<li>解除常用语可添加条目字数限制。</li>\n<li>解除全面屏键盘限制。（附加）</li>\n<li>解除搜狗输入法/小米版剪贴板条数限制。（附加）</li>\n</ol>\n<hr
+  />\n<h2>\U0001F6E0 使用须知</h2>\n<ul>\n<li>作用域自行勾选支持全面屏优化的输入法并重启即可。</li>\n<li>解除的不是输入法自己的剪贴板的限制！！！</li>\n</ul>\n<hr
+  />\n<h2>\U0001F4E2 项目声明</h2>\n<p>⚠ <strong>使用本模块即代表愿意承担一切后果</strong>！\n⚠ <strong>任何衍生项目，本项目不承担任何责任</strong>！\n⚠
+  <strong>抄袭将导致项目闭源！请注明作者！</strong></p>\n<h2>\U0001F389 结尾</h2>\n<p>\U0001F496 <strong>感谢你的支持，Enjoy
+  your day!</strong> \U0001F680</p>\n"
 IssueTracker: ""
 Name: ClipboardList
 SourceCode: https://github.com/Xposed-Modules-Repo/com.hchen.clipboardlist
 Summary: |-
-    解除小米"剪贴板和常用语"限制。
-    Remove restrictions on Xiaomi's clipboard and common phrases.
+  解除小米"剪贴板和常用语"限制。
+  Remove restrictions on Xiaomi's clipboard and common phrases.
 WebSite: ""

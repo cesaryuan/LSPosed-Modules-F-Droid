@@ -1,0 +1,32 @@
+<!-- EN -->                                                                                               
+  ## ✨ Features  
+
+  - **Freezer drawer redesign**: Material You aesthetics, improved portrait/landscape layout with more columns and cleaner card style                                                                            
+  - **Clipboard action**: new action type to paste clipboard content
+  - **Haptic feedback**: optional haptic feedback for edge gestures (Advanced Options)                      
+                                                                                                            
+  ## 🔧 Fix & Improve  
+
+  - **All hooks now run entirely in `system_server`**: removed the SystemUI process dependency — the module no longer requires the EdgeX app to be running in the background to function (shell command actions are the only exception)
+  - **Hook config persistence**: config snapshot is cached in device storage and refreshed on boot, so settings survive without the app process staying alive                                                    
+  - **Shell command reliability**: shell actions are dispatched to the app process via an AIDL-bound service, which reliably wakes a stopped process on Android 15                                             
+  - **Drawer rotation fix**: drawer layout now redraws correctly on screen rotation
+  - **Xposed scope cleaned up — `system` entry removed, only `android` is required**                     
+  - **License changed to GPLv3** (previously MIT)
+                                                                                                            
+  <!-- ZH -->                                               
+  ## ✨ 新功能 
+                                                                                         
+  - **冻结抽屉重设计**：采用 Material You 风格，竖屏列数增加，卡片样式更简洁，横屏布局优化
+  - **剪贴板动作**：新增粘贴剪贴板内容的动作类型                                                            
+  - **触觉反馈**：在高级选项中可开启边缘手势的震动反馈
+                                                                                                            
+  ## 🔧 修复与优化 
+                                     
+  - **所有 Hook 逻辑统一在 `system_server` 中运行**：移除了对 SystemUI 进程的依赖——除 Shell命令动作外，模块不再依赖 EdgeX 应用本身常驻后台即可正常工作                                               
+  - **Hook 配置持久化**：配置快照缓存至设备存储并在开机后自动刷新，设置无需应用进程保持存活即可生效
+  - **Shell 命令执行可靠性提升**：Shell 动作通过 AIDL 绑定服务分发到应用进程执行，在 Android 15上可可靠唤醒已停止的应用进程                                                                              
+  - **修复横竖屏切换时抽屉不刷新的问题**                                                                    
+  - **Xposed 作用域精简，移除多余的 `system` 条目，仅需 `android`**                                  
+  - **开源协议变更为 GPLv3**（原为 MIT）
+ 

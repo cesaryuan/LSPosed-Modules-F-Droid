@@ -1,0 +1,7 @@
+## Changelog
+
+* MMKV editor: Editing the system config (`/onyxconfig`) no longer requires root access
+   * Private MMKV config files owned by apps still require root access
+
+_________
+Tested on my Onyx Go Color 7 (1st gen) with Android 12L and Onyx system version 4.1-rel (specifically `2025-08-28_00-23_4.1-rel_0827_fc8adf71a`).

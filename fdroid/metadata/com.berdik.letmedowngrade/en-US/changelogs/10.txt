@@ -1,0 +1,9 @@
+Let Me Downgrade v1.0.7 includes the following changes:
+
+- Updated module to use the LSPosed API 100 implementation used by @JingMatrix [Vector v2.0](https://github.com/JingMatrix/Vector/releases/tag/v2.0). **Due to this change, this release may not work with other versions of LSPosed.**
+- Added support for Android 16 QPR2.
+- Replaced in-app instructions with a user interface for controlling whether app downgrades are allowed or blocked.
+- Removed hook for automatically adding the Quick Settings tile to the tile drawer.
+
+### 📰 Important News about Upcoming Let Me Downgrade Releases
+This release is going to be the final version in the Let Me Downgrade v1.0 release series. Starting with Let Me Downgrade v1.1.0, this project will migrate to a new version of the LSPosed API. This will require updating your LSPosed version to a release that supports LSPosed API 101. Any version of LSPosed that does not support API 101 will not work with any upcoming releases. Please plan accordingly for this transition, as it may impact other Xposed modules that you use as well.

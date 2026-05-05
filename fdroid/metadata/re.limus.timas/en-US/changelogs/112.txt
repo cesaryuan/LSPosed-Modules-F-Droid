@@ -1,0 +1,16 @@
+## What's Changed
+* refactor: 添加的 精华消息 按钮位置变更
+> 群聊顶栏 -> 群聊设置
+* refactor: 防撤回 使用 Kotlin ProtoBuf
+> From TimTool:
+https://github.com/suzhelan/TimTool/commit/153235153d76b0cb7fe0caad24a16cb534f1d66d
+https://github.com/suzhelan/TimTool/commit/de49560732e641bc5860f7acb72aff38f273b51b
+基于 TimTool 额外加入了 灰字撤回提示
+* feat: 强制 平板模式
+* feat: 全局 圆形头像
+* chore: 构建配置 变更
+* chore: 更新依赖
+
+`sha256: 7e932f5fee8bc23474e466512b7a5cdffeba2dd73939fab13314433834d2c7ed`
+
+**Full Changelog**: https://github.com/relimus/TAssistant/compare/v1.2.1...v1.2.2

@@ -1,11 +1,11 @@
 AuthorName: Xposed-Modules-Repo
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: 1.0.0
 CurrentVersionCode: 1
 Description: |
-    <h1>SSLUnpinning</h1>
-    <p>Android Xposed Module to bypass SSL certificate validation (Certificate Pinning).</p>
+  <h1>SSLUnpinning</h1>
+  <p>Android Xposed Module to bypass SSL certificate validation (Certificate Pinning).</p>
 IssueTracker: ""
 Name: SSLUnpinning
 SourceCode: https://github.com/Xposed-Modules-Repo/io.github.tehcneko.sslunpinning

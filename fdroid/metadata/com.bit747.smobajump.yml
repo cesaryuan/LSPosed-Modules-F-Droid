@@ -1,16 +1,16 @@
 AuthorName: Thiasap
 Categories:
-    - Xposed
+- Xposed
 CurrentVersion: 1.2_DisableUpdate
 CurrentVersionCode: 3
 Description: |
-    <h1>smobajump</h1>
-    <h2>关于模块</h2>
-    <p>没啥，就跳过王者营地的那个启动动画和推广的界面，能从原本的十几秒缩短到3s左右（我自己手机测试的）</p>
-    <p>版本号带“DisableUpdate”的是关闭启动时的检查更新。想要自动更新的请安装普通版</p>
-    <h2>下载</h2>
-    <p><a href="https://github.com/Xposed-Modules-Repo/com.bit747.smobajump/releases">Release</a></p>
-    <p>开放代码<a href="https://github.com/Thiasap/smobajump">源码</a></p>
+  <h1>smobajump</h1>
+  <h2>关于模块</h2>
+  <p>没啥，就跳过王者营地的那个启动动画和推广的界面，能从原本的十几秒缩短到3s左右（我自己手机测试的）</p>
+  <p>版本号带“DisableUpdate”的是关闭启动时的检查更新。想要自动更新的请安装普通版</p>
+  <h2>下载</h2>
+  <p><a href="https://github.com/Xposed-Modules-Repo/com.bit747.smobajump/releases">Release</a></p>
+  <p>开放代码<a href="https://github.com/Thiasap/smobajump">源码</a></p>
 IssueTracker: ""
 Name: smobajump
 SourceCode: https://github.com/Xposed-Modules-Repo/com.bit747.smobajump

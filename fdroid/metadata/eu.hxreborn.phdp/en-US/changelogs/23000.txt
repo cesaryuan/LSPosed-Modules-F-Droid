@@ -1,0 +1,43 @@
+## What's Changed
+
+
+
+### Features
+
+- [`5346f35`](https://github.com/hxreborn/punch-hole-download-progress/commit/5346f354e217a2c38a8051b4a76a6e7ece709a01) *(prefs)* Add progress smoothness preference by @hxreborn
+
+- [`3d90ea2`](https://github.com/hxreborn/punch-hole-download-progress/commit/3d90ea2ca8ba160a9f91cd3ff795626fcd5c21c9) *(prefs)* Add hide after inactivity preference by @hxreborn
+
+- [`0eb2b0f`](https://github.com/hxreborn/punch-hole-download-progress/commit/0eb2b0f30fd2ec0ac87e734486ea53dd3c3b2c87) *(prefs)* Add debug logs toggle in settings by @hxreborn
+
+- [`278ae6c`](https://github.com/hxreborn/punch-hole-download-progress/commit/278ae6c21459073baf0b2e9e3cba6c09ecc551e9) *(ui)* Add expressive motion to settings by @hxreborn
+
+- [`6b0ad4b`](https://github.com/hxreborn/punch-hole-download-progress/commit/6b0ad4b2aa20fb9f37c63bf2a1ddae97aaea18ff) *(ui)* Add HSV color picker with HEX input by @hxreborn
+
+- [`8e29e7a`](https://github.com/hxreborn/punch-hole-download-progress/commit/8e29e7a26cf4f416d8ce6e9f79e1fb13fdfc92b0) *(ui)* Add scrollbar to open source licenses screen by @hxreborn
+
+
+### Bug Fixes
+
+- [`d4e23ab`](https://github.com/hxreborn/punch-hole-download-progress/commit/d4e23ab743ec8082a32298016769a18331265ce9) *(hook)* Use calibrated pivot for pop animation and add Chinese language support by @nymanyim in [#79](https://github.com/hxreborn/punch-hole-download-progress/pull/79)
+
+
+### Refactor
+
+- [`5a3d3ed`](https://github.com/hxreborn/punch-hole-download-progress/commit/5a3d3ed1e3a5cac5ba8b0881da3aa29167c3803b) Cleaner icon paint and progress avg by @hxreborn
+
+
+### CI/CD
+
+- [`056afbd`](https://github.com/hxreborn/punch-hole-download-progress/commit/056afbd9c43b21cfa895163a3676fb20e82382a9) Skip release signing for fork PRs by @hxreborn
+
+
+### Miscellaneous
+
+- [`807e755`](https://github.com/hxreborn/punch-hole-download-progress/commit/807e755869a5696452eca3a5a7df7b4c6c5f695c) *(cliff)* Skip style commits from changelog by @hxreborn
+
+- [`1a6fa47`](https://github.com/hxreborn/punch-hole-download-progress/commit/1a6fa47ecf04ad32d86dbae79981c2c083b60051) *(i18n)* Add translations for new prefs by @hxreborn
+
+- [`18f3306`](https://github.com/hxreborn/punch-hole-download-progress/commit/18f330643c106896ad3a9fdf2997060177589a34) *(zh-CN)* Improve Chinese translations by @nymanyim in [#81](https://github.com/hxreborn/punch-hole-download-progress/pull/81)
+
+- [`06366f3`](https://github.com/hxreborn/punch-hole-download-progress/commit/06366f37ff37567ef1304577bf8b0533c17f6a5a) Sonar config and lint noise cleanup by @hxreborn

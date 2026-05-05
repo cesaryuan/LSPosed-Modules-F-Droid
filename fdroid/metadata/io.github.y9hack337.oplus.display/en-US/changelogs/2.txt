@@ -1,0 +1,18 @@
+### What's new
+- Added a module settings screen action to restart SystemUI.
+- Added confirmation dialog before restart.
+- Improved root restart logic with multiple fallback commands.
+- Better error reporting when restart fails.
+- Module settings entry is now LSPosed-only (no launcher icon).
+- Updated documentation with root/non-root restart instructions.
+
+### Tested
+- Device: OnePlus 13 (CPH2653)
+- ROM: OxygenOS 16.0.3.501
+- LSPosed scope: com.android.systemui
+
+### Notes
+- "Restart SystemUI" button requires root (`su`).
+- Without root, simply reboot the phone.
+- Manual command:
+  `su -c "pkill -9 -f com.android.systemui || killall com.android.systemui"`

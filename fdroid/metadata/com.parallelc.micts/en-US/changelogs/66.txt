@@ -1,0 +1,25 @@
+## Changelog
+**⚠️ Do not update if you are using LSPosed module features and your LSPosed Framework doesn't support Xposed API 101**
+
+* Add "Trigger by long press home button" support for Meizu devices (https://github.com/parallelcc/MiCTS/pull/117) @AyraHikari
+* Add Farsi (Persian) language support (https://github.com/parallelcc/MiCTS/pull/120) @MahDN
+* Add Spanish translation by Klei (kleydj3999) and Odia translation by Sandeep Biswal G (imsbg) from Crowdin (https://github.com/parallelcc/MiCTS/pull/126)
+* Fix "Trigger by long press gesture handle" doesn't work on Mi Pad (https://github.com/parallelcc/MiCTS/pull/134)
+* Add "Translation contributing" section to README_ru.md (https://github.com/parallelcc/MiCTS/pull/142) @AlexeiCrystal
+* Upgrade to Xposed API 101 (https://github.com/parallelcc/MiCTS/pull/157)
+* Update dependencies to the latest versions (https://github.com/parallelcc/MiCTS/pull/156)
+* Bump targetSdk to 36 (https://github.com/parallelcc/MiCTS/commit/2ead158104bdb8605cbb5eae39a30d44db71bab6)
+
+## 更新日志
+**⚠️ 如果你正在使用LSPosed模块功能，但你的LSPosed框架不支持Xposed API 101，请勿更新**
+
+* 新增魅族设备的“长按 Home 键触发”支持 (https://github.com/parallelcc/MiCTS/pull/117) @AyraHikari
+* 新增波斯语 (Farsi) 支持 (https://github.com/parallelcc/MiCTS/pull/120) @MahDN
+* 新增西班牙语和奥里亚语翻译，分别由 Crowdin 用户 Klei (kleydj3999)  和 Sandeep Biswal G (imsbg) 提供(https://github.com/parallelcc/MiCTS/pull/126)
+* 修复 Mi Pad 上“长按小白条触发”无法使用的问题 (https://github.com/parallelcc/MiCTS/pull/134)
+* 在 README_ru.md 中新增“翻译贡献”章节 (https://github.com/parallelcc/MiCTS/pull/142) @AlexeiCrystal
+* 升级到 Xposed API 101 (https://github.com/parallelcc/MiCTS/pull/157)
+* 更新依赖到最新版本 (https://github.com/parallelcc/MiCTS/pull/156)
+* 升级 targetSdk 到 36 (https://github.com/parallelcc/MiCTS/commit/2ead158104bdb8605cbb5eae39a30d44db71bab6)
+
+**Full Changelog**: https://github.com/parallelcc/MiCTS/compare/v2.5...v2.6

@@ -1,0 +1,29 @@
+## Compatibility
+- Tested on:
+    - KSN [v3.1.0](https://github.com/KernelSU-Next/KernelSU-Next/releases/tag/v3.1.0)
+    - ZygiskNext [v1.3.3](https://github.com/Dr-TSNG/ZygiskNext/releases/tag/v1.3.3)
+    - LSPosed [v1.11.0](https://github.com/JingMatrix/Vector/releases/tag/v1.11.0) by JingMatrix
+- Telegram Client Supported: 
+  - Telegram [official, web, beta]
+  - Cherrygram 10.5.0
+  - Forkgram [fdroid, github]
+  - Nagram
+  - NagramX
+  - Nekogram [github]  12.5.2 (6597)
+  - Octogram 3.5.1 (3801)
+  - Plus
+  - Turrit 1.8.9.4.0
+
+## Changes
+- feat[ui]: multiple screen: home, features, settings, about
+- feat: disable ads
+- feat: improve boost download feature
+
+## Credits
+- [@mustafa1dev](https://github.com/mustafa1dev)
+- [@frknkrc44](https://github.com/frknkrc44)
+
+> [!Note]
+> - Restart your Telegram client after updating the module or configuration changes.
+
+**Full Changelog**: https://github.com/aoya111/Telegami/compare/v2.5.1-20028...v2.6.0-20044

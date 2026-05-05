@@ -1,0 +1,260 @@
+{
+  "repo": {
+    "timestamp": 1777960248000
+  },
+  "packages": {
+    "ai.noads.ozon": {
+      "metadata": {
+        "summary": {
+          "en-US": "NoAdsOzon & NoAdsPlus\n\nRemoves ads from the Ozon app, enhancing user experien..."
+        }
+      }
+    },
+    "cn.unicorn369.HookEuicc": {
+      "metadata": {
+        "added": 1777959702000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1777959702000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/cn.unicorn369.HookEuicc",
+        "authorName": "Unicorn369",
+        "name": {
+          "en-US": "HookEuicc"
+        },
+        "summary": {
+          "en-US": "解除某些软件对eSIM的要求，也可用于获取eSIM代码"
+        },
+        "description": {
+          "en-US": "<h1>HookEuicc</h1>\n<p>用于伪装应用支持eSIM功能，并获取eSIM激活码</p>\n<p>在某些不直接提供eSIM激活码的应用，将复制激活码到剪切板</p>\n<h2>食用方法</h2>\n<p>通常只需勾选你需要伪装的应用即可享受薅羊毛的乐趣</p>\n<p>对于某些应用，如<code>com.dentwireless.dentapp</code>、<code>com.giffgaffmobile.controller</code>在点击安装时将会复制eSIM激活码到剪切板</p>\n<p>如果某些应用无法获取eSIM激活码，或者检测Hook，但是你的系统有安装LPA应用，如<code>com.miui.euicc</code>，那你可尝试勾选LPA应用来获取eSIM激活码</p>\n<h2>已知问题</h2>\n<p>通常在某些不直接提供eSIM激活码的应用上，获取到eSIM激活码后，会先复制到剪切板，然后发送消息并打开分享界面(用于查看)，但某些应用可能无法发送消息或打开分享界面。如果你没看到任何消息，可先查看剪切板是否存在eSIM激活码。始终没有eSIM激活码的话请在这里 –&gt;&gt; <a href=\"https://github.com/Unicorn369/HookEuicc/issues\">反馈问题</a> &lt;&lt;–</p>\n"
+        },
+        "preferredSigner": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+      },
+      "versions": {
+        "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff": {
+          "added": 1777959702000,
+          "file": {
+            "name": "/cn.unicorn369.HookEuicc_1-1.0.apk",
+            "sha256": "e31034535a8f97521448dad409c4ae057cbd487a1cb7dc37e7d57a93d2286fff",
+            "size": 17065
+          },
+          "manifest": {
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.my.televip": {
+      "metadata": {
+        "added": 1777959803000,
+        "categories": [
+          "Xposed"
+        ],
+        "lastUpdated": 1777959804000,
+        "sourceCode": "https://github.com/Xposed-Modules-Repo/com.my.televip",
+        "authorName": "mustafa1dev",
+        "name": {
+          "en-US": "TeleVip"
+        },
+        "summary": {
+          "en-US": "TeleVip A module for modifying Telegram"
+        },
+        "description": {
+          "en-US": "<h1>TeleVip LSPosed</h1>\n<p>A module for modifying Telegram with the following features:</p>\n<ol>\n<li>\n<p>Hide “Seen” status for groups, channels, and private messages.</p>\n</li>\n<li>\n<p>Hide “Typing…” indicator.</p>\n</li>\n<li>\n<p>Hide story view status.</p>\n</li>\n<li>\n<p>Unlock all restricted and encrypted features for channels.</p>\n</li>\n<li>\n<p>Boost Telegram download speed.</p>\n</li>\n<li>\n<p>Enable Telegram Premium features.</p>\n</li>\n<li>\n<p>Save stories to the gallery, including those that cannot normally be saved.</p>\n</li>\n<li>\n<p>Change name (Note: The name changes only on your device).</p>\n</li>\n<li>\n<p>Hide Phone Number</p>\n</li>\n<li>\n<p>Hide Online Status</p>\n</li>\n<li>\n<p>Prevent Deletion of Secret Media</p>\n</li>\n<li>\n<p>Show Deleted Messages</p>\n</li>\n<li>\n<p>Disable Stories</p>\n</li>\n</ol>\n<p>There are additional features that are not listed here.</p>\n<h1>Support clients</h1>\n<ol>\n<li>Telegram 11.6.1 (55852)</li>\n<li>Plus 11.5.3.0 (21340)</li>\n<li>TG Connect 11.0.1 (1100109)</li>\n<li>Nagram 11.5.3 (1202)</li>\n<li>Skygram 10.20.6 (40639)</li>\n<li>iMe 11.5.3 (11050302)</li>\n<li>X Plus 11.5.4 (55159)</li>\n<li>Cherrygram 11.5.3 (55110)</li>\n<li>Nicegram 1.39.3 (1529)</li>\n<li>Telegram web 11.6.1 (55859)</li>\n<li>Telegram Beta 11.6.1 (55859)</li>\n<li>exteraGram 11.5.3 (55119)</li>\n<li>Nekogram 11.5.3S (55150)</li>\n<li>ForkGram 11.5.3.0 (551108)</li>\n<li>ForkClient Beta 11.5.3.0 (551109)</li>\n</ol>\n<p>Developed by an @mustafa1dev</p>\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/com.my.televip.1.png",
+            "sha256": "c600b5114ea1abf3d0abe5f91fb5ae9078a675c30949e55df474412c265f6249",
+            "size": 4512
+          }
+        },
+        "preferredSigner": "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+      },
+      "versions": {
+        "d7dcd6e799c550564ace2cf1dc98853dd75e77edaca5045c425d5508f10aa677": {
+          "added": 1777959803000,
+          "file": {
+            "name": "/com.my.televip_1-1.2.apk",
+            "sha256": "d7dcd6e799c550564ace2cf1dc98853dd75e77edaca5045c425d5508f10aa677",
+            "size": 58046
+          },
+          "manifest": {
+            "versionName": "1.2",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        },
+        "5e75223d6db01a9a9693e87e2c6654a5983d6713cbde858b8004d1bc7b60f9b7": {
+          "added": 1777959803000,
+          "file": {
+            "name": "/com.my.televip_1-1.3.apk",
+            "sha256": "5e75223d6db01a9a9693e87e2c6654a5983d6713cbde858b8004d1bc7b60f9b7",
+            "size": 160505
+          },
+          "manifest": {
+            "versionName": "1.3",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        },
+        "fbba204aac12cc7206182824347b957eafae873b0ad45d640459dc5614f10db5": {
+          "added": 1777959803000,
+          "file": {
+            "name": "/com.my.televip_1-1.4.6.apk",
+            "sha256": "fbba204aac12cc7206182824347b957eafae873b0ad45d640459dc5614f10db5",
+            "size": 197370
+          },
+          "manifest": {
+            "versionName": "1.4.6",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        },
+        "8e123843a6d0f086eb79c3ba5024cc8649d1650be50e4d713472c28c0651ef32": {
+          "added": 1777959804000,
+          "file": {
+            "name": "/com.my.televip_1-1.4.apk",
+            "sha256": "8e123843a6d0f086eb79c3ba5024cc8649d1650be50e4d713472c28c0651ef32",
+            "size": 189175
+          },
+          "manifest": {
+            "versionName": "1.4",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 21,
+              "targetSdkVersion": 28
+            },
+            "signer": {
+              "sha256": [
+                "022a1ed9feb0e6c9826df99c58350b7789a71ad51f142f40449f91d58c0278c1"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "com.owo233.fuckmarketads": {
+      "metadata": {
+        "name": {
+          "en-US": "去他妈的应用商店广告 / Fuck Market Ads"
+        }
+      }
+    },
+    "com.parallelc.micts": {
+      "metadata": {
+        "summary": {
+          "en-US": "在任意Android 9–16设备上触发圈定即搜（Circle to Search）功能\nTrigger Circle to Search on any ..."
+        }
+      }
+    },
+    "com.zhizi42.diymiuicard": {
+      "metadata": {
+        "name": {
+          "en-US": "DIY NFC Card"
+        },
+        "summary": {
+          "en-US": "自定义MIUI/HyperOS/ColorOS NFC卡片卡面"
+        }
+      }
+    },
+    "io.github.lsposed.disableflagsecure": {
+      "metadata": {
+        "authorName": "aviraxp"
+      }
+    },
+    "lin.xposed": {
+      "metadata": {
+        "authorName": "HdShare",
+        "summary": {
+          "en-US": "QQ功能性模块  为QQ添加更多功能\n支持最新版QQ 8.9.x ~ 9.x.x 全版本自适配"
+        }
+      }
+    },
+    "ps.reso.instaeclipse": {
+      "versions": {
+        "da4eaa3f7bd5140553afa3d1b81fe7f60fc762ded5d758b6c3979312687509bc": {
+          "added": 1777959969000,
+          "file": {
+            "name": "/ps.reso.instaeclipse_3-0.2.1.apk",
+            "sha256": "da4eaa3f7bd5140553afa3d1b81fe7f60fc762ded5d758b6c3979312687509bc",
+            "size": 12746665
+          },
+          "manifest": {
+            "versionName": "0.2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 28,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "fbf8739dc2a453a21662f08de46f013d26aa0d37d6922a3fc30a11df2f67c2e4"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.QUERY_ALL_PACKAGES"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.MANAGE_EXTERNAL_STORAGE"
+              },
+              {
+                "name": "ps.reso.instaeclipse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "top.hookvip.pro": {
+      "metadata": {
+        "authorName": "HdShare"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+感谢您使用 HyperCeiler。
+
+本次更新优化了 HyperCeiler 的 UI 和视觉效果，新增了许多非常实用的功能，并修复和对 HyperOS 3.0/3.0.300 Android 16 适配了大部分的现有功能。
+
+以下是您可能感兴趣的更新内容：
+- 新增了用户引导页面，更加方便的自定义您的 HyperCeiler；
+- 更新 Miuix，使视觉效果与 HyperOS 3 设计语言语言一致；
+- 优化搜索，现在您可以更加流畅、快速和直观的搜索 HyperCeiler 功能；
+- 部分本地内容改为使用云端内容，减少本地冗杂信息存储；
+- 升级 Xposed API 至 101，现在作用域与首页显示内容布局同步，更实用，更清爽；
+- 舍弃 XSharedPreference 并使用全新的配置存储逻辑；
+- 舍弃使用 prop 存储 HyperCeiler 内容，避免一些过时且无用的检测；
+- 对 HyperOS 3.0/3.0.300 Android 16 适配和优化主动安全模式；
+- 焦点歌词现已支持自定义息屏焦点布局及显示歌词翻译，享受音乐，热爱生活；
+- 修复并优化引导式访问，现在您可以长按电源键以退出引导式访问。
+
+若要了解更多详细更新内容，请前往 [Github Commits Compare](https://github.com/ReChronoRain/HyperCeiler/compare/7f810abf615b...2b513def1a5e) 。
+
+本次更新的版本存在两个分支：**OS2_HyperCeiler_2.10.166-20260402 仅支持 HyperOS 2.0/2.0.100/2.0.200 Android 15，OS3_HyperCeiler_2.10.166-20230331 仅支持 HyperOS 3.0/3.0.300 Android 15/16**。请根据您的实际需要选择下载并使用。
+
+若您在使用中遇到任何问题，请前往 [GitHub Issues](https://github.com/ReChronoRain/HyperCeiler/issues) 根据操作提示进行有效反馈。我们会尽快处理您遇到的问题。
+
+**Copyright © 2023-2026 Sevtinge & HyperCeiler Contributions**
